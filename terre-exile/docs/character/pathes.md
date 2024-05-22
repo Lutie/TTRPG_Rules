@@ -9,7 +9,7 @@ One character may have:
 - 1x Ethnical path, imposed by character's background
 - 1x Archetype path
 - 3x Specialisation path
-- 2x Organization path, one per groups they belong to
+- 1x Organization path
 
 ## Racial Pathes
 
