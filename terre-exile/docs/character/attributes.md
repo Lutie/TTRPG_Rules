@@ -9,9 +9,9 @@ Ethnical & Race : Comes from ethnical choice.
 Upgrades : Comes with experience.
 Bonuses : Comes from variety of sources.
 
-Primary attributes sketch the framework of a character, from which secondary characteristics and attributes emerge.  
+Primary attributes sketch the framework of a character, from which secondary characteristics and attributes emerge.
 
-Secondary attributes, stemming from primary ones, differ from characteristics in that they can be tested and further influence other characteristics.  
+Secondary attributes, stemming from primary ones, differ from characteristics in that they can be tested and further influence other characteristics.
 
 ## Strength (STR)
 
@@ -74,3 +74,8 @@ Its base value is calculated from the other attributes, the higher the total of 
 This a secundary attribute.
 Balance reveals inner harmony, guiding recovery and resilience. The well-balanced bounce back with vigor, while the unbalanced struggle, their flame flickering under the test.
 Its base value is calculated from the other attributes: It's the average between the highest and lowest attributes.
+
+## Fortune (FOR)
+
+This a secundary attribute.  
+Fortune represents the wealth of the character, a mixture of regular income, heritage, economy...

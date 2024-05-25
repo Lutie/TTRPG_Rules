@@ -11,13 +11,13 @@ One character may have:
 - 3x Specialisation path
 - 1x Organization path
 
-## Racial Pathes
+## Racial Path
 
 Grants access to the unique traits which can be developped because of the character's race.
 
 - This can never be retrained, because race cannot (in most case) be changed.
 
-## Ethnical Pathes
+## Cultural Pathes
 
 Grants access to the unique traits which can be developped because of years past in a given culture.  
 Character may have a different ethnical path than its real ethnic, it depends where the character spent most of his youth or previous lifetime, but in this case his progression will be **limited** in this case.
