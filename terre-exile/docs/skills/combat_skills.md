@@ -1,4 +1,4 @@
-# Combat skills
+# Confrontation skills
 
 ## Melee
 
@@ -36,6 +36,11 @@ Par milieux
 Pièges :
 Explosions :
 
+## Insight
+
+?
+Vigilance :
+
 ## Thougness
 
 ?
@@ -49,18 +54,3 @@ Conditions :
 Incantation :
 Courage :
 Vigilance :
-
-## Arcanes
-
-?
-Erudis :
-Focus :
-Aldus :
-Modus :
-Denis :
-Emperis :
-
-## Spellcraft
-
-?
-Par domaines ou écoles

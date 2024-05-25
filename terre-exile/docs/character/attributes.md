@@ -1,17 +1,7 @@
 # Attributes
 
-Attributes amount to the sum of their base values plus their modified values. The base values are set at creation and remain unchanged throughout the character's journey. The modified values accumulate from additional factors like the influence of race and ethnicity, adjustments due to effects, and more.
-
-Final : Base + Modificators.  
-Base : At creation.  
-Modificators : Ethnical + Race + Upgrades + Bonuses.  
-Ethnical & Race : Comes from ethnical choice.  
-Upgrades : Comes with experience.
-Bonuses : Comes from variety of sources.
-
-Primary attributes sketch the framework of a character, from which secondary characteristics and attributes emerge.
-
-Secondary attributes, stemming from primary ones, differ from characteristics in that they can be tested and further influence other characteristics.
+Attributes are meant to change a bit throughout the character's journey by progressing in their pathes.  
+Average (and base) value is 25 for humanoïds.
 
 ## Strength (STR)
 
@@ -65,17 +55,20 @@ Wisdom reflects a character's experience and judgment, their ability to make tho
 
 ## Luck (LCK)
 
-This a secundary attribute.
+This a secundary attribute.  
+Most of the time this attribute is not used to check success, but there can be few exception to that (gambling for instance).  
 Luck represents chance and fortune that influence a character's life, affecting events in unpredictable ways.
 Its base value is calculated from the other attributes, the higher the total of the other attributes, the lower the chance.
-
-## Balance (BAL)
-
-This a secundary attribute.
-Balance reveals inner harmony, guiding recovery and resilience. The well-balanced bounce back with vigor, while the unbalanced struggle, their flame flickering under the test.
-Its base value is calculated from the other attributes: It's the average between the highest and lowest attributes.
 
 ## Fortune (FOR)
 
 This a secundary attribute.  
+Most of the time this attribute is not used to check success, but there can be few exception to that (bribing for instance).  
 Fortune represents the wealth of the character, a mixture of regular income, heritage, economy...
+
+## Balance (BAL)
+
+This a secundary attribute.
+Most of the time this attribute is not used to check success, but there can be few exception to that (resisting corruption for instance).  
+Balance reveals inner harmony, guiding recovery and resilience. The well-balanced bounce back with vigor, while the unbalanced struggle, their flame flickering under the test.
+Its base value is calculated from the other attributes: It's the average between the highest and lowest attributes.

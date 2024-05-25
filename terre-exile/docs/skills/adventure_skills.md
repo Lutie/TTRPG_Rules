@@ -1,4 +1,4 @@
-# General skills
+# Adventure skills
 
 ## Acrobatie
 

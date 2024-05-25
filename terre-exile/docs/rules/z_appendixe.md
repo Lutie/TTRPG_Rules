@@ -4,9 +4,10 @@
 
 [à rebosser]
 Cité (urbain)
-Ruine (urbain)
-Sous terrains (rurale)
-Forstier (rurale)
+Ruines (urbain)
+Cavernes (rurale)
+Terrain verdoyant : Clairière & Forestier (rurale)
 Montagne (rurale)
 Marécage (rurale)
 Désert (rurale)
+Neigeux (rurale)
