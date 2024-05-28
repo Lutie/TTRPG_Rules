@@ -7,9 +7,9 @@ Martials are seasoned fighters, masters of weapons and combat techniques. They e
 | Rank             | PV  | Training | Skill | Trait | Other             |
 | ---------------- | :-: | :------: | :---: | :---: | ----------------- |
 | Novice           |  0  |    2     |   1   |   1   | Weapon's Triangle |
-| Trainee (I)      |  1  |    3     |   2   |   1   |
-| Amateur (II)     |  2  |    4     |   2   |   2   |
-| Expert (III)     |  3  |    5     |   3   |   2   |
+| Journeyman (I)   |  1  |    3     |   2   |   1   |
+| Expert (II)      |  2  |    4     |   2   |   2   |
+| Veteran (III)    |  3  |    5     |   3   |   2   |
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
@@ -18,16 +18,16 @@ Trainings : ?
 Skills : ?  
 Traits : See trait list.
 
-## Experts
+## Veterans
 
-Experts are specialists in technical fields such as blacksmithing, mechanics, or trapping. Their expertise and precision make them indispensable for solving complex problems. They use their skills to create, repair, and optimize various equipment and devices.
+Veterans are specialists in technical fields such as blacksmithing, mechanics, or trapping. Their Veteranise and precision make them indispensable for solving complex problems. They use their skills to create, repair, and optimize various equipment and devices.
 
 | Rank             | PA  | Training | Skill | Trait | Other |
 | ---------------- | :-: | :------: | :---: | :---: | ----- |
 | Novice           |  0  |    2     |   1   |   1   | ?     |
-| Trainee (I)      |  1  |    3     |   2   |   1   |
-| Amateur (II)     |  2  |    4     |   2   |   2   |
-| Expert (III)     |  3  |    5     |   3   |   2   |
+| Journeyman (I)   |  1  |    3     |   2   |   1   |
+| Expert (II)      |  2  |    4     |   2   |   2   |
+| Veteran (III)    |  3  |    5     |   3   |   2   |
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
@@ -43,9 +43,9 @@ Adventurers are fearless explorers, always ready to embark on dangerous ventures
 | Rank             | PK  | Training | Skill | Trait | Other |
 | ---------------- | :-: | :------: | :---: | :---: | ----- |
 | Novice           |  0  |    2     |   1   |   1   | ?     |
-| Trainee (I)      |  1  |    3     |   2   |   1   |
-| Amateur (II)     |  2  |    4     |   2   |   2   |
-| Expert (III)     |  3  |    5     |   3   |   2   |
+| Journeyman (I)   |  1  |    3     |   2   |   1   |
+| Expert (II)      |  2  |    4     |   2   |   2   |
+| Veteran (III)    |  3  |    5     |   3   |   2   |
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
@@ -61,9 +61,9 @@ Mages are practitioners of mystical arts, mastering arcane knowledge and spells 
 | Rank             | PM  | Training | Skill | Trait | Other |
 | ---------------- | :-: | :------: | :---: | :---: | ----- |
 | Novice           |  0  |    2     |   1   |   1   | ?     |
-| Trainee (I)      |  1  |    3     |   2   |   1   |
-| Amateur (II)     |  2  |    4     |   2   |   2   |
-| Expert (III)     |  3  |    5     |   3   |   2   |
+| Journeyman (I)   |  1  |    3     |   2   |   1   |
+| Expert (II)      |  2  |    4     |   2   |   2   |
+| Veteran (III)    |  3  |    5     |   3   |   2   |
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
@@ -74,14 +74,14 @@ Traits : See trait list.
 
 ## Scholars
 
-Scholars are dedicated intellectuals, experts in knowledge and strategy. They can be scholars, doctors, or strategists, always seeking new knowledge and solutions to the most complex problems. Their analytical minds and wisdom make them valuable advisors and cunning planners.
+Scholars are dedicated intellectuals, Veterans in knowledge and strategy. They can be scholars, doctors, or strategists, always seeking new knowledge and solutions to the most complex problems. Their analytical minds and wisdom make them valuable advisors and cunning planners.
 
 | Rank             | PS  | Training | Skill | Trait | Other |
 | ---------------- | :-: | :------: | :---: | :---: | ----- |
 | Novice           |  0  |    2     |   1   |   1   | ?     |
-| Trainee (I)      |  1  |    3     |   2   |   1   |
-| Amateur (II)     |  2  |    4     |   2   |   2   |
-| Expert (III)     |  3  |    5     |   3   |   2   |
+| Journeyman (I)   |  1  |    3     |   2   |   1   |
+| Expert (II)      |  2  |    4     |   2   |   2   |
+| Veteran (III)    |  3  |    5     |   3   |   2   |
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
@@ -97,9 +97,9 @@ Intriguers are masters of speech and social manipulation. They excel in the art 
 | Rank             | PS  | Training | Skill | Trait | Other |
 | ---------------- | :-: | :------: | :---: | :---: | ----- |
 | Novice           |  0  |    2     |   1   |   1   | ?     |
-| Trainee (I)      |  1  |    3     |   2   |   1   |
-| Amateur (II)     |  2  |    4     |   2   |   2   |
-| Expert (III)     |  3  |    5     |   3   |   2   |
+| Journeyman (I)   |  1  |    3     |   2   |   1   |
+| Expert (II)      |  2  |    4     |   2   |   2   |
+| Veteran (III)    |  3  |    5     |   3   |   2   |
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
@@ -118,9 +118,9 @@ Traits : Freelance can choose any traits they want when they get one, but they c
 | Rank             | Ressources | Training | Skill | Trait | Other |
 | ---------------- | :--------: | :------: | :---: | :---: | ----- |
 | Novice           |     0      |    2     |   1   |   1   | ?     |
-| Trainee (I)      |     1      |    3     |   2   |   1   |
-| Amateur (II)     |     2      |    4     |   2   |   2   |
-| Expert (III)     |     3      |    5     |   3   |   2   |
+| Journeyman (I)   |     1      |    3     |   2   |   1   |
+| Expert (II)      |     2      |    4     |   2   |   2   |
+| Veteran (III)    |     3      |    5     |   3   |   2   |
 | Master (IV)      |     4      |    6     |   3   |   3   |
 | Grand Master (V) |     5      |    7     |   4   |   3   |
 

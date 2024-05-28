@@ -1,20 +1,24 @@
 # Adventure skills
 
-## Acrobatie
+## Acrobatics
 
 Représente les compétences à mouvoir son corps avec finesse et adresse.
 
 **Specializations**  
 Evasion : ?.  
-Équilibre : ?.
+Balance : ?.
+Tumbling : ?.
+Flexibility : ?.
+Balancing : ?.
 
-## Coordination
+## Handcraft
 
 Représente les compétences à mouvoir ses bras et mains avec adresse et précision.
 
 **Specializations**  
-Désamorçage : ?.  
-Jongler : ?.
+Disarm : ?.  
+Juggling : ?.
+Swiftness : ?.
 
 ## Conduite
 
@@ -43,6 +47,7 @@ Représente les compétences nécessaires à la vie en autonomie.
 Chasse : ?.  
 Fourrage : ?.  
 Piégeage : ?.
+Camping : ?.
 
 ## Vie Rurale
 
@@ -78,23 +83,25 @@ Représente les compétences en négociation.
 **Specializations**  
 Marchandage : Quand on négocie un achat ou une vente.  
 Diplomatie : Quand on négocie des choses plus abstraites tels que des traités, des accords ou autre.
+Bribe : Quand on achète une loyauté ou un acte de trahison.
 
-## Musculation
+## Gymnastics
 
-?.
-
-**Specializations**  
-Destruction : ?.  
-Puissance : ?.
-
-## Athlétisme
-
-?.
+Sports mostly using the bottom part of the body, like legs.
 
 **Specializations**  
-Natation : ?.  
-Escalade : ?.  
-Saut : ?.
+Running : ?.  
+Jumping : ?.
+Swimming : ?.
+
+## Athletics
+
+Sports mostly using the upper part of the body, like arms.
+
+**Specializations**  
+Throwing : ?. pas de façon à faire des dégats mais précis et loin.
+Climbing : ?.  
+Musculation : ?.
 
 ## Endurance
 
@@ -109,8 +116,10 @@ Mentale : ?.
 ?.
 
 **Specializations**  
-Crochetage : ?.  
-Escamotage : ?.
+Lockpicking : ?.  
+Sleight of Hand : ?.
+Pickpocketing: ?.
+Infiltration: ?.
 
 ## Subterfuge
 
@@ -131,6 +140,7 @@ Visuelle : ?.
 Auditive : ?.  
 Traces : ?.  
 Filature : ?.
+Camouflage: ?.
 
 ## Méditation
 
@@ -139,6 +149,7 @@ Filature : ?.
 **Specializations**  
 Physique : ?.  
 Mentale : ?.
+Magique : ?.
 
 ## Erudition
 
@@ -232,3 +243,4 @@ Jeux : Quand il s'agit de jouer à des jeux de hazard ou de stratégie.
 Réparation : Quand il s'agit de réparer sommairement un objet.  
 Sabotage : Quand il s'agit de saboter le fonctionnement d'un appareil.  
 Recyclage : Quand il s'agit de recycler les matériaux d'un objet ou d'un cadavre.
+Construction : Quand il s'agit de réaliser des constructions improvisées à partir de bric et de broc.
