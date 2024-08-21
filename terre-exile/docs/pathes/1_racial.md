@@ -39,13 +39,13 @@ Skills :
 Attributes :
 Other :
 
-## Half pathes
+## Semie pathes
 
 Skills :
 Attributes :
 Other :
 
-## Other pathes
+## Vermine pathes
 
 Skills :
 Attributes :

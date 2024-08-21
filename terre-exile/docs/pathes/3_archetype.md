@@ -18,9 +18,9 @@ Trainings : ?
 Skills : ?  
 Traits : See trait list.
 
-## Veterans
+## Specialists
 
-Veterans are specialists in technical fields such as blacksmithing, mechanics, or trapping. Their Veteranise and precision make them indispensable for solving complex problems. They use their skills to create, repair, and optimize various equipment and devices.
+Specialists are focused in technical fields such as blacksmithing, mechanics, or trapping. Their Veteranise and precision make them indispensable for solving complex problems. They use their skills to create, repair, and optimize various equipment and devices.
 
 | Rank             | PA  | Training | Skill | Trait | Other |
 | ---------------- | :-: | :------: | :---: | :---: | ----- |

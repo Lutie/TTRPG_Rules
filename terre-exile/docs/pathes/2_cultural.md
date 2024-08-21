@@ -272,7 +272,6 @@ Other: ?.
 
 ### Taurran
 
-
 This tribe of humanoids with bull-like features, complete with horns and a robust frame, as muscular and intimidating as they are composed and respectful. Though they possess a hot-headed temperament, they maintain a notable martial culture based on instinct and controlled fury. Despite their impulsive nature, they are a fundamentally reasonable people, primarily nomadic, roaming the vast expanses of the Morrian lands. They are rare and live in scattered clans, nestled in underground areas or ruins which saw them for their tranquility and their immensity. A good number of them live alone, far from all social ties, it's a kind of lifestyle that pushes them to refocus on themselves. Their code of honor revolves around strength and wisdom, embodying a balanced blend of body and mind.
 They are pacifists, but of a type that few predators seek quarrels with.
 

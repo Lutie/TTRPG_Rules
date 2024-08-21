@@ -2,7 +2,7 @@
 
 ## Vitality Points (PV)
 
-## Psyche Points (PS)
+## Spirituality Points (PS)
 
 ## Ability Points (PA)
 
