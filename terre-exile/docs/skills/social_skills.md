@@ -1,34 +1,5 @@
 # Social skills
 
-## Négocation
-
-Représente les compétences en négociation.
-
-**Specializations**  
-Marchandage : Quand on négocie un achat ou une vente.  
-Diplomatie : Quand on négocie des choses plus abstraites tels que des traités, des accords ou autre.
-
-## Subterfuge
-
-?.
-
-**Specializations**  
-Mensonge : ?.  
-Falcification : ?.  
-Déguisement : ?.  
-Prestidigitation : ?.
-
-## Art
-
-?.
-
-**Specializations**  
-Chant : ?.  
-Danse : ?.  
-Musique : ?.  
-Peinture : ?.  
-Comédie : ?.
-
 ## Persuasion
 
 ?.

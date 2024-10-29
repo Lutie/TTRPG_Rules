@@ -1,89 +1,94 @@
 # Adventure skills
 
+Type of environment, type of interlocutor or type of materials can be suitable specializations too. It narrows the boost in a particuliar condition instead of a particuliar form of activity.  
+
 ## Acrobatics
 
-Représente les compétences à mouvoir son corps avec finesse et adresse.
+Represents the ability to move the body with precision, grace, and agility.  
 
 **Specializations**  
-Evasion : ?.  
-Balance : ?.
-Tumbling : ?.
-Flexibility : ?.
-Balancing : ?.
+Dodging : Execute rapid and precise movements to avoid attacks.  
+Evading : Swiftly escape from situations that restrict movement, such as holds or traps, with fluid agility.  
+Balancing : Maintain perfect equilibrium on unstable surfaces or in challenging conditions.  
+Tumbling : Perform rolls, flips, and acrobatic maneuvers to navigate obstacles swiftly.  
 
-## Handcraft
+## Finesse
 
-Représente les compétences à mouvoir ses bras et mains avec adresse et précision.
-
-**Specializations**  
-Disarm : ?.  
-Juggling : ?.
-Swiftness : ?.
-
-## Conduite
-
-Représente les compétences à contrôler un moyen de transport.
+Represents the ability to move hands and arms with skill and precision.
 
 **Specializations**  
-Monture : ?.  
-Terrestre : ?.  
-Aérien : ?.  
-Maritime : ?.
+Disarm : Quickly and deftly disarm opponents before they can react.   
+Juggling : Expertly manipulate multiple objects in motion with perfect control.  
+Swiftness : Execute rapid and precise hand movements to achieve tasks at incredible speed.  
 
-## Détection
+## Driving
 
-Représente les compétences à détecter par les sens, en cherchant quelque chose d'inconnue ou de notable sans savoir quoi.
-
-**Specializations**  
-Vue : ?.  
-Ouïe : ?.  
-Odogout : ?.
-
-## Survie
-
-Représente les compétences nécessaires à la vie en autonomie.
+Represents the skills to control a means of transport.  
+The attribute used for this skill can differ significantly depending on means are used.  
 
 **Specializations**  
-Chasse : ?.  
-Fourrage : ?.  
-Piégeage : ?.
-Camping : ?.
+Mount (AGI) : Ability in riding animals or other creatures with ease and control.  
+Terrestrial (CUN) : Ability to operate land-based vehicles in various terrains.   
+Aerial (CUN) : Skilled in piloting aircraft or other flying vehicles with precision.  
+Maritime (CUN) : Proficient in navigating and controlling watercraft in diverse conditions.  
 
-## Vie Rurale
+## Detection
 
-Représente les compétences de vie en milieu rural.
-
-**Specializations**  
-Orientation : Quand il s'agit de s'orienter dans un milieu rural.  
-Animaux : Quand il s'agit d'interagir avec un animal sauvage.  
-Renseignement : Quand il s'agit d'obtenir des informations dans un milieu rural.
-
-## Vie Urbaine
-
-Représente les compétences de vie en milieu urbain.
+Represents the skills of actively using the senses to detect notable elements in the surroundings, searching for something unknown or noteworthy.  
+This skill focuses on conscious perception and observation, rather than passive intuition or automatic detection of anomalies (which is governed by the intuition save throw).
 
 **Specializations**  
-Orientation : Quand il s'agit de s'orienter dans un milieu urbain.  
-Animaux : Quand il s'agit d'interagir avec un animal domestiqué/apprivoisé.  
-Renseignement : Quand il s'agit d'obtenir des informations dans un milieu urbain.
+View : Spot hidden or subtle details.  
+Hearing : Discern faint or distant sounds that others might miss.
+Odogout : Utilize the combined senses of touch, taste, and smell to detect and identify subtle or hidden stimuli.  
+Sixth Sense : Perceive the invisible, such as auras or hidden energies, beyond the reach of ordinary senses.  
+Seventh Sense : Detect when you are being observed, heard, or sensed by others, even without direct evidence.   
+
+## Survival
+
+Represents the skills necessary for independent living.
+
+**Specializations**  
+Hunting : ?.  
+Fodder : ?.  
+Trapping : ?.
+Campsite : ?.
+
+## Rural Life
+
+Represents rural living skills.
+
+**Specializations**  
+Orientation: When it comes to finding your way in a rural environment.  
+Animals: When it comes to interacting with a wild animal.  
+Intelligence: When it comes to obtaining information in a rural environment.
+
+## Urban Life
+
+Represents urban living skills.
+
+**Specializations**  
+Orientation: When it comes to finding your way in an urban environment.  
+Animals: When it comes to interacting with a domesticated/tamed animal.  
+Intelligence: When it comes to obtaining information in an urban environment.
 
 ## Investigation
 
-Représente les compétences à détecter par la réflexion et la logique, en cherchant quelque chose ou en mettant en perspective des éléments déjà à dispositions.
+Represents the skills to detect through reflection and logic, by searching for something or putting into perspective elements already available.
 
 **Specializations**  
-Fouille : Quand il s'agit de chercher dans un lieu avec une idée en tête de ce que l'on cherche.  
-Déduction : Quand il s'agit de mettre en perspective des éléments acquis, d'en comprendre les interconnexions.  
-Pistage : Quand il s'agit de remonter une piste, de comprendre ou interpréter les traces ou les signes.
+Search: When it comes to searching in a place with an idea in mind of what you are looking for.  
+Deduction: When it comes to putting acquired elements into perspective, to understanding their interconnections.  
+Tracking: When it comes to following a trail, understanding or interpreting traces or signs.
 
-## Négocation
+## Negotiation
 
-Représente les compétences en négociation.
+Represents negotiation skills.
 
 **Specializations**  
-Marchandage : Quand on négocie un achat ou une vente.  
-Diplomatie : Quand on négocie des choses plus abstraites tels que des traités, des accords ou autre.
-Bribe : Quand on achète une loyauté ou un acte de trahison.
+Bargaining: When we negotiate a purchase or sale.  
+Diplomacy: When we negotiate more abstract things such as treaties, agreements or the like.
+Bribe: When we buy loyalty or an act of betrayal.
 
 ## Gymnastics
 
@@ -108,16 +113,17 @@ Musculation : ?.
 ?.
 
 **Specializations**  
-Physique : ?.  
-Mentale : ?.
+Physical : ?.  
+Mental: ?.
+Social: ?.
 
-## Larçin
+## Larceny
 
 ?.
 
 **Specializations**  
-Lockpicking : ?.  
-Sleight of Hand : ?.
+Lockpicking: ?.  
+Sleight of Hand: ?.
 Pickpocketing: ?.
 Infiltration: ?.
 
@@ -126,121 +132,139 @@ Infiltration: ?.
 ?.
 
 **Specializations**  
-Mensonge : ?.  
-Falcification : ?.  
-Déguisement : ?.  
-Prestidigitation : ?.
+Lie : ?.  
+Falsification: ?.  
+Disguise : ?.  
+Prestidigitation: ?.
 
-## Discrétion
+## Discretion
 
 ?.
 
 **Specializations**  
-Visuelle : ?.  
-Auditive : ?.  
-Traces : ?.  
-Filature : ?.
+Visual : ?.  
+Auditory: ?.  
+Traces: ?.  
+Spinning: ?.
 Camouflage: ?.
 
-## Méditation
+## Meditation
 
 ?.
 
 **Specializations**  
-Physique : ?.  
-Mentale : ?.
-Magique : ?.
+Physical : ?.  
+Mental: ?.
+Social: ?.
+Magic: ?.
 
 ## Erudition
 
 ?.
 
 **Specializations**  
-Ecriture : ?.  
-Lecture : ?.  
-Recherches : ?.  
-Mémoire : ?.  
-Estimation : ?.
+Writing: ?.  
+Reading : ?.  
+Searches: ?.  
+Memory : ?.  
+Estimate : ?.
 
-## Médecine
+## Medicine
 
 ?.
 
 **Specializations**  
-1er Soins : ?.  
-Chirurgie : ?.  
-Kinésithérapie : ?.  
-Psychanalyse : ?.
+1st Treatment: ?.  
+Surgery : ?.  
+Physiotherapy: ?.  
+Psychoanalysis: ?.
 
 ## Persuasion
 
 ?.
 
 **Specializations**  
-Coercition : ?.  
+Coercion: ?.  
 Suggestion : ?.  
-Réthorique : ?.  
-Diplomatie : ?.  
-Séduction (un par stats) : ?.
+Rhetorical: ?.  
+Diplomacy: ?.  
+Seduction (one per stats): ?.
 
 ## Communication
 
 ?.
 
 **Specializations**  
-Entregent : ?.  
+Interpersonal skills: ?.  
 Etiquette : ?.  
-Empathie : ?.
+Empathy : ?.
 
 ## Manipulation
 
 ?.
 
 **Specializations**  
-Inspiration : Quand il s'agit d'inspirer ou d'influer sur les émotions.  
-Provocation : Quand il s'agit d'attirer l'attention sur soi.  
-Intimidation : Quand il s'agit de dissuader l'attention sur soi.  
-Diversion : Quand il s'agit de réorienter l'attention vers un autre.  
-Confusion : Quand il s'agit de provoquer la confusion, visant à induire une absence d'action ou à minima un doute avant celle ci.
+Inspiration: When it comes to inspiring or influencing emotions.  
+Provocation: When it comes to drawing attention to yourself.  
+Bullying: When it comes to deterring attention to oneself.  
+Diversion: When it comes to redirecting attention to another.  
+Confusion: When it comes to causing confusion, aiming to induce a lack of action or at least a doubt before it.
 
-## Artisanat
+## Craftsmanship
 
 ?.
 
 **Specializations**  
-Travail des armes : Armes de mêlée.  
-Travail du bois : Arc et bâtons.  
-Travail des substances : Poison et huiles.
-Travail du métal : Armures de maille ou plaque.  
-Travail du cuir : Armures de cuir.  
-Travail du tissu : Armures de tissu.  
-Travail de la magie : Matérias et alchimie.
+Weapon Work: Melee Weapons.  
+Woodworking: Bow and sticks.  
+Working substances: Poison and oils.
+Metalworking: Mail or plate armor.  
+Leatherworking: Leather armor.  
+Fabric work: Fabric weaves.  
+Working magic: Materia and alchemy.  
+Steamsmith: ???.  
 
 ## Art
 
 ?.
 
 **Specializations**  
-Chant : ?.  
-Danse : ?.  
-Musique : ?.  
-Peinture : ?.  
-Comédie : ?.
+Song: ?.  
+Dance : ?.  
+Music : ?.  
+Paint : ?.  
+Comedy: ?.
 
-## Savoir Faire
-
-?.
-
-**Specializations**  
-Métier [choix] : Quand il s'agit de pratiquer un métier tel que l'enseignement, le droit, la comptabilité...  
-Jeux : Quand il s'agit de jouer à des jeux de hazard ou de stratégie.
-
-## Bricolage
+## Know How
 
 ?.
 
 **Specializations**  
-Réparation : Quand il s'agit de réparer sommairement un objet.  
-Sabotage : Quand il s'agit de saboter le fonctionnement d'un appareil.  
-Recyclage : Quand il s'agit de recycler les matériaux d'un objet ou d'un cadavre.
-Construction : Quand il s'agit de réaliser des constructions improvisées à partir de bric et de broc.
+Profession [choice]: When it comes to practicing a profession such as teaching, law, accounting...  
+Games: When it comeset un synonym de " to playing games of chance or strategy.  
+Leisure: 
+
+## Handcraft
+
+?.
+
+**Specializations**  
+Repair: When it comes to summarily repairing an object.  
+Sabotage: When it comes to sabotaging the operation of a device.  
+Recycling: When it comes to recycling the materials of an object or corpse.
+Construction: When it comes to making improvised constructions from odds and ends.
+
+## Knowledge
+
+?.
+
+**Specializations**  
+Nature: Knowledge of flora and fauna.  
+Religion: Understanding of different cults and religious practices.  
+Mystical: Knowledge of magic and the supernatural.  
+Science: Understanding of steam technology and scientific principles.  
+Society: Insight into politics, criminal organizations, psychology, folklore, and traditions.  
+Warfare: Knowledge of weapons and military strategy.  
+Culture: Understanding of geography and history.  
+Bestiary: Knowledge of monsters, creatures, and dragons.  
+Crafts: Proficiency in hobby-related professions, such as artisans, chefs, or musicians.  

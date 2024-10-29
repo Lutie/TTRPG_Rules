@@ -31,7 +31,7 @@ Specialists are focused in technical fields such as blacksmithing, mechanics, or
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
-Ressource : Ability
+Ressource : Astutness
 Trainings : ?  
 Skills : ?  
 Traits : See trait list.
@@ -85,7 +85,7 @@ Scholars are dedicated intellectuals, Veterans in knowledge and strategy. They c
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
-Ressource : Sanity
+Ressource : Focus
 Trainings : ?  
 Skills : ?  
 Traits : See trait list.
@@ -103,7 +103,7 @@ Intriguers are masters of speech and social manipulation. They excel in the art 
 | Master (IV)      |  4  |    6     |   3   |   3   |
 | Grand Master (V) |  5  |    7     |   4   |   3   |
 
-Ressource : Sanity
+Ressource : Stratagem
 Trainings : ?  
 Skills : ?  
 Traits : See trait list.

@@ -24,7 +24,7 @@ Parade, Blocage, Esquive, Mise à couvert, Feinte
 
 ?
 Renversement, Repoussement, Désarmement, Mise à distance
-
+<!-- 
 ## Initiative
 
 ?
@@ -53,4 +53,4 @@ Conditions :
 ?
 Incantation :
 Courage :
-Vigilance :
+Vigilance : -->

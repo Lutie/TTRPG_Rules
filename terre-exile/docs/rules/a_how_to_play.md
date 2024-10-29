@@ -48,14 +48,14 @@ To determine the outcome of an action, you need to perform a test. This involves
 
 The total number of successes determines the final outcome of the action:
 
-| Number of Successes | Outcome          | Description                                         | Result      |
-| ------------------- | ---------------- | --------------------------------------------------- | ----------- |
-| -2 successes        | Critical failure | The action fails with severe consequences           | no and ...  |
-| -1 success          | Major failure    | The action fails                                    | no          |
-| 0 successes         | Minor failure    | The action fails but with potential mitigation      | no but ...  |
-| 1 success           | Minor success    | The action succeeds with conditions                 | yes but ... |
-| 2 successes         | Major success    | The action succeeds                                 | yes         |
-| 3 successes or more | Critical success | The action succeeds brilliantly with extra benefits | yes and ... |
+| Number of Successes | Outcome          | Description                                         | Result      | Throw   |
+| ------------------- | ---------------- | --------------------------------------------------- | ----------- | ------- |
+| -2 successes        | Critical failure | The action fails with severe consequences           | no and ...  | no      |
+| -1 success          | Major failure    | The action fails                                    | no          | no      |
+| 0 successes         | Minor failure    | The action fails but with potential mitigation      | no but ...  | 0 dice  |
+| 1 success           | Minor success    | The action succeeds with conditions                 | yes but ... | 1 dice  |
+| 2 successes         | Major success    | The action succeeds                                 | yes         | 2 dices |
+| 3 successes or more | Critical success | The action succeeds brilliantly with extra benefits | yes and ... | 3 dices |
 
 ## Modifying Success Chances
 
