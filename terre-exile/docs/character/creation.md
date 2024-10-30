@@ -114,6 +114,7 @@ To have differents ethnic and cultural can lead you to a more diversed skill lis
 ## Personas (42)
 
 You have to choose one of those personas.  
+For personas with at least one mental aligned attribute you can replace any of the strong attributes by either Magic or Logic, but at least one mental aligned attribute must remain.  
 You get a +5 bonus to all that persona's strong attributes.  
 You get a -5 malus to all that persona's weak attributes.  
 You may choose two of the race's traits and add it to your traits.
@@ -163,12 +164,10 @@ You may choose two of the race's traits and add it to your traits.
 | Raccoon   | Dexterity, Cunning, Perception        | Willpower, Wisdom, Charisma         | Progressive, Adventurous, Open-minded, Chaotic, Impatient, Curious, Resourceful, Opportunistic, Playful, Independent           |
 | Shark     | Strength, Agility, Perception         | Constitution, Willpower, Cunning    | Indifferent, Fearless, Imposing, Predatory, Calculative, Cold, Unshakeable, Resilient, Hostile, Patient                        |
 
-// Mages & Technos ?  
-
 ## (optional) Backgrounds (50)
 
 You MAY choose one background.  
-You get a +5 bonus to all that background's attributes.  
+For backgrounds with two mental aligned attribute you can replace one of those attributes by either Magic or Logic.  
 You may choose 1 of the background's traits as an additional trait.  
 
 This is optional and you can skip it entirely.  
@@ -226,21 +225,19 @@ If so you may decide that your past do not affect your current self, or that it 
 | Local Bandit            | Strength, Cunning        | Intelligence, Wisdom     | Opportunistic, ???, Independent, Rebellious, ???                |
 | Recluse Herbalist       | Wisdom, Perception       | Charisma, Dexterity      | Solitary, Patient, Observant, Compassionate, Resourceful        |
 
-// Mages & Technos ?  
-
 ## Customization  
 
 You get a +5 bonus to 4 attributes of your choice, primary or secundary.  
 You may accept up to two -5 maluses in order to get up to two additional +5 bonuses.  
 A same attributes cannot get two bonus that way.  
 
-## Archetype (7)
+## Archetype (7)  
 
 You may choose one of the following archetypes: Martial, Specialist, Adventurer, Mage, Scholar, Intriguer, Freelance.  
 Later one you will be able to open skills from your archetype's list.  
 You open the corresponding archetype path.  
 
-## Specializations (X)
+## Specializations (X)  
 
 You may choose up to 3 different specializations.  
 You open the corresponding specializations pathes.  
@@ -249,7 +246,7 @@ Note that when you choose your specializations it is advisable to check the natu
 For example, two specializations can give access to a combat posture but the postures cannot be combined. This choice implies that you would only benefit from one of them at a time, which can be a viable choice but not necessarily the most optimized.  
 Advice on this subject is provided in the description of the archetypes and adapted to each of these cases.
 
-## Skills
+## Skills  
 
 Now you can choose your starting (hence opened) skills.  
 Those skills are opened at directly upgrade to rank 1.  
