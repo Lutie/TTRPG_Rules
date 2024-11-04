@@ -4,26 +4,26 @@
 
 All characters starts with 25 in all their primary attributes and their luck and wealth secundary attribute.  
 They start with 0 at magic and logic.  
-Balance will be calculated later on and depends on extremes in your attributes.  
+Balance will be calculated later on and depends on extremes in your attributes.
 
-Then player may:  
-  
-- (optional) Open to Magic or Logic  
-- Choose an ethnicity   
-- Choose a culture  
-- Choose a persona  
-- (optional) Choose a background  
-- Choose some customizations  
-- Choose an archetype  
-- Choose few specializations  
-- Choose their starting skills  
+Then player may:
+
+- (optional) Open to Magic or Logic
+- Choose an ethnicity
+- Choose a culture
+- Choose a persona
+- (optional) Choose a background
+- Choose some customizations
+- Choose an archetype
+- Choose few specializations
+- Choose their starting skills
 - Improve some of their opened pathes
 
 ## (optional) Magic & Logic
 
 You may take +5 bonus for one of those attributes by accepting a -5 malus to one of your primary attributes, or in Luck.  
 Same attribute cannot receive more than two malus in this process.  
-At this step Magic or Logic cannot be higher than 25 (which is a total of 5 bonus).  
+At this step Magic or Logic cannot be higher than 25 (which is a total of 5 bonus).
 
 ## Ethnicities (50)
 
@@ -32,71 +32,73 @@ You get a +5 bonus to all that ethnic's strong attributes.
 You get a -5 malus to all that ethnic's weak attributes.  
 You may choose one of the ethnic's traits and add it to your traits list.  
 Later one you will be able to open skills from your ethnic's list.  
-You open the corresponding racial path.  
+You open the corresponding racial path.
 
-| Ethnics             | Strong Attributes                            | Weak Attributes                            | Traits | Race            |
-| ------------------- | -------------------------------------------- | ------------------------------------------ | ------ | --------------- |
-| Albalonian          | Strength, Constitution, Willpower, Dexterity | Wisdom, Perception, Charisma, Agility      |        | Human           |
-| Attilian            | Willpower, Strength, Constitution, Agility   | Luck, Charisma, Dexterity, Perception      |        | Human           |
-| Bretonian           | Intelligence, Logic, Perception, Dexterity   | Charisma, Strength, Agility, Wisdom        |        | Human           |
-| Emperian            | Intelligence, Charisma, Logic, Willpower     | Strength, Luck, Dexterity, Constitution    |        | Human           |
-| Kjeldorian          | Perception, Strength, Constitution, Wisdom   | Charisma, Luck, Agility, Cunning           |        | Human           |
-| Morrian             | Constitution, Dexterity, Willpower, Cunning  | Intelligence, Luck, Charisma, Agility      |        | Human           |
-| Rosalian            | Charisma, Wisdom, Perception, Intelligence   | Strength, Luck, Dexterity, Constitution    |        | Human           |
-| Half Elf            | -                                            | -                                          | -      | Mixed           |
-| Half Dwarf          | -                                            | -                                          | -      | Mixed           |
-| Half Demie          | -                                            | -                                          | -      | Mixed           |
-| Eldrazian           | Cunning, Dexterity, Agility, Perception      | Strength, Wisdom, Charisma, Constitution   |        | Elf             |
-| Selunean            | Charisma, Magic, Intelligence, Wisdom        | Strength, Dexterity, Luck, Constitution    |        | Elf             |
-| Sylvanian           | Perception, Dexterity, Wisdom, Constitution  | Strength, Intelligence, Charisma, Agility  |        | Elf             |
-| Thalassian          | Agility, Dexterity, Charisma, Perception     | Willpower, Constitution, Strength, Cunning |        | Elf             |
-| Ungordan            | Constitution, Strength, Willpower, Logic     | Charisma, Agility, Cunning, Perception     |        | Elf             |
-| Bradanan            | -                                            | -                                          | -      | Dwarf           |
-| Karazdan            | -                                            | -                                          | -      | Dwarf           |
-| Ungordan            | -                                            | -                                          | -      | Dwarf           |
-| Clan of the Errants | -                                            | -                                          | -      | Dwarf           |
-| Clan of the Forge   | -                                            | -                                          | -      | Dwarf           |
-| Clan of the Malt    | -                                            | -                                          | -      | Dwarf           |
-| Clan of the Shield  | -                                            | -                                          | -      | Dwarf           |
-| Clan of the Talion  | -                                            | -                                          | -      | Dwarf           |
-| Clan of the Temple  | -                                            | -                                          | -      | Dwarf           |
-| Celestial           | -                                            | -                                          | -      | Demie           |
-| Dryads              | -                                            | -                                          | -      | Demie           |
-| Fairies             | -                                            | -                                          | -      | Demie           |
-| Halfling            | -                                            | -                                          | -      | Demie           |
-| Qunari              | -                                            | -                                          | -      | Demie           |
-| Trolls              | -                                            | -                                          | -      | Demie           |
-| Nymphs              | -                                            | -                                          | -      | Demie           |
-| Centaur             | -                                            | -                                          | -      | Semie           |
-| Naggan              | -                                            | -                                          | -      | Semie           |
-| Undine              | -                                            | -                                          | -      | Semie           |
-| Okkan               | -                                            | -                                          | -      | Feral           |
-| Nekkan              | -                                            | -                                          | -      | Feral           |
-| Oni                 | -                                            | -                                          | -      | Feral           |
-| Perskkan            | -                                            | -                                          | -      | Feral           |
-| Bedokkan            | -                                            | -                                          | -      | Feral           |
-| Raskkan             | -                                            | -                                          | -      | Feral           |
-| Skaven              | -                                            | -                                          | -      | Feral           |
-| Taurran             | -                                            | -                                          | -      | Feral           |
-| Tengu               | -                                            | -                                          | -      | Feral           |
-| Urssian             | -                                            | -                                          | -      | Feral           |
-| Cervikkan           | -                                            | -                                          | -      | Feral           |
-| Felkkan             | -                                            | -                                          | -      | Feral           |
-| Garrukan            | -                                            | -                                          | -      | Feral           |
-| Kitsune             | -                                            | -                                          | -      | Feral           |
-| Koddan              | -                                            | -                                          | -      | Feral           |
-| Leokkan             | -                                            | -                                          | -      | Feral           |
-| Luppan              | -                                            | -                                          | -      | Feral           |
-| Goblin              | -                                            | -                                          | -      | Vermine         |
-| Ogre                | -                                            | -                                          | -      | Vermine         |
-| Orkkan              | -                                            | -                                          | -      | Vermine         |
-| Prometheus Spawn    | -                                            | -                                          | -      | Semie (Drakkan) |
-| Leviathan Spawn     | -                                            | -                                          | -      | Semie (Drakkan) |
-| Chromium Spawn      | -                                            | -                                          | -      | Semie (Drakkan) |
-| Bahamut Spawn       | -                                            | -                                          | -      | Semie (Drakkan) |
-| Aquilon Spawn       | -                                            | -                                          | -      | Semie (Drakkan) |
-| Arcanum Spawn       | -                                            | -                                          | -      | Semie (Drakkan) |
-| Tiamat Spawn        | -                                            | -                                          | -      | Semie (Drakkan) |
+| Ethnics             | Strong Attributes        | Weak Attributes | Traits | Race            |
+| ------------------- | ------------------------ | --------------- | ------ | --------------- |
+| Albalonian          | DEX, WIL, X, X           | X, X, X         |        | Human           |
+| Attilian            | CON, CUN, X, X           | X, X, X         |        | Human           |
+| Bretonian           | INT, CUN, X, X, LOG      | X, X, X         |        | Human           |
+| Emperian            | CHA, INT, X, X, LOG, MAG | X, X, X         |        | Human           |
+| Kjeldorian          | PER, STR, X, X           | X, X, X         |        | Human           |
+| Morrian             | AGI, PER, X, X           | X, X, X         |        | Human           |
+| Rosalian            | DEX, WIS, X, X           | X, X, X         |        | Human           |
+| Titanian            | CON, WIL, X, X, MAG      | X, X, X         |        | Human           |
+| Aurian              | AGI, WIS, X, X, MAG      | X, X, X         |        | Human           |
+| Half Elf            | -                        | -               | -      | Mixed           |
+| Half Dwarf          | -                        | -               | -      | Mixed           |
+| Half Demie          | -                        | -               | -      | Mixed           |
+| Eldrazian           | DEX, AGI, CHA, CUN, MAG                        | STR, CON, LUK               |        | Elf             |
+| Selunean            | -                        | -               |        | Elf             |
+| Sylvanian           | -                        | -               |        | Elf             |
+| Thalassian          | -                        | -               |        | Elf             |
+| Ungordan            | -                        | -               |        | Elf             |
+| Bradanan            | -                        | -               | -      | Dwarf           |
+| Karazdan            | -                        | -               | -      | Dwarf           |
+| Ungordan            | -                        | -               | -      | Dwarf           |
+| Clan of the Errants | -                        | -               | -      | Dwarf           |
+| Clan of the Forge   | -                        | -               | -      | Dwarf           |
+| Clan of the Malt    | -                        | -               | -      | Dwarf           |
+| Clan of the Shield  | -                        | -               | -      | Dwarf           |
+| Clan of the Talion  | -                        | -               | -      | Dwarf           |
+| Clan of the Temple  | -                        | -               | -      | Dwarf           |
+| Celestial           | -                        | -               | -      | Demie           |
+| Dryads              | -                        | -               | -      | Demie           |
+| Fairies             | -                        | -               | -      | Demie           |
+| Halfling            | -                        | -               | -      | Demie           |
+| Qunari              | -                        | -               | -      | Demie           |
+| Trolls              | -                        | -               | -      | Demie           |
+| Nymphs              | -                        | -               | -      | Demie           |
+| Centaur             | -                        | -               | -      | Semie           |
+| Naggan              | -                        | -               | -      | Semie           |
+| Undine              | -                        | -               | -      | Semie           |
+| Okkan               | -                        | -               | -      | Feral           |
+| Nekkan              | -                        | -               | -      | Feral           |
+| Oni                 | -                        | -               | -      | Feral           |
+| Perskkan            | -                        | -               | -      | Feral           |
+| Bedokkan            | -                        | -               | -      | Feral           |
+| Raskkan             | -                        | -               | -      | Feral           |
+| Skaven              | -                        | -               | -      | Feral           |
+| Taurran             | -                        | -               | -      | Feral           |
+| Tengu               | -                        | -               | -      | Feral           |
+| Urssian             | -                        | -               | -      | Feral           |
+| Cervikkan           | -                        | -               | -      | Feral           |
+| Felkkan             | -                        | -               | -      | Feral           |
+| Garrukan            | -                        | -               | -      | Feral           |
+| Kitsune             | -                        | -               | -      | Feral           |
+| Koddan              | -                        | -               | -      | Feral           |
+| Leokkan             | -                        | -               | -      | Feral           |
+| Luppan              | -                        | -               | -      | Feral           |
+| Goblin              | -                        | -               | -      | Vermine         |
+| Ogre                | -                        | -               | -      | Vermine         |
+| Orkkan              | -                        | -               | -      | Vermine         |
+| Prometheus Spawn    | -                        | -               | -      | Semie (Drakkan) |
+| Leviathan Spawn     | -                        | -               | -      | Semie (Drakkan) |
+| Chromium Spawn      | -                        | -               | -      | Semie (Drakkan) |
+| Bahamut Spawn       | -                        | -               | -      | Semie (Drakkan) |
+| Aquilon Spawn       | -                        | -               | -      | Semie (Drakkan) |
+| Arcanum Spawn       | -                        | -               | -      | Semie (Drakkan) |
+| Tiamat Spawn        | -                        | -               | -      | Semie (Drakkan) |
 
 ## Cultural (50)
 
@@ -105,11 +107,11 @@ You get a +5 bonus to all that cultural's strong attributes.
 You get a -5 malus to all that cultural's weak attributes.  
 You may choose one of the cultural's traits and add it to your traits list.  
 Later one you will be able to open skills from your cultural's list.  
-You open the corresponding cultural path.  
+You open the corresponding cultural path.
 
 Your ethnic is how you are born, your culture is how you are raised, both can match or not that's your decision.  
 To have the same ethnic and cultural can lead you to more focused attributes possibilities.  
-To have differents ethnic and cultural can lead you to a more diversed skill list.  
+To have differents ethnic and cultural can lead you to a more diversed skill list.
 
 ## Personas (42)
 
@@ -168,10 +170,10 @@ You may choose two of the race's traits and add it to your traits.
 
 You MAY choose one background.  
 For backgrounds with two mental aligned attribute you can replace one of those attributes by either Magic or Logic.  
-You may choose 1 of the background's traits as an additional trait.  
+You may choose 1 of the background's traits as an additional trait.
 
 This is optional and you can skip it entirely.  
-If so you may decide that your past do not affect your current self, or that it doesn't shaped you in any ways.  
+If so you may decide that your past do not affect your current self, or that it doesn't shaped you in any ways.
 
 | Background              | Bonus Attributes         | Penalty Attributes       | Traits                                                          |
 | ----------------------- | ------------------------ | ------------------------ | --------------------------------------------------------------- |
@@ -225,35 +227,35 @@ If so you may decide that your past do not affect your current self, or that it 
 | Local Bandit            | Strength, Cunning        | Intelligence, Wisdom     | Opportunistic, ???, Independent, Rebellious, ???                |
 | Recluse Herbalist       | Wisdom, Perception       | Charisma, Dexterity      | Solitary, Patient, Observant, Compassionate, Resourceful        |
 
-## Customization  
+## Customization
 
 You get a +5 bonus to 4 attributes of your choice, primary or secundary.  
 You may accept up to two -5 maluses in order to get up to two additional +5 bonuses.  
-A same attributes cannot get two bonus that way.  
+A same attributes cannot get two bonus that way.
 
-## Archetype (7)  
+## Archetype (7)
 
 You may choose one of the following archetypes: Martial, Specialist, Adventurer, Mage, Scholar, Intriguer, Freelance.  
 Later one you will be able to open skills from your archetype's list.  
-You open the corresponding archetype path.  
+You open the corresponding archetype path.
 
-## Specializations (X)  
+## Specializations (X)
 
 You may choose up to 3 different specializations.  
-You open the corresponding specializations pathes.  
+You open the corresponding specializations pathes.
 
 Note that when you choose your specializations it is advisable to check the nature of them and to ensure that they do not come into conflict due to their effects or their natures.  
 For example, two specializations can give access to a combat posture but the postures cannot be combined. This choice implies that you would only benefit from one of them at a time, which can be a viable choice but not necessarily the most optimized.  
 Advice on this subject is provided in the description of the archetypes and adapted to each of these cases.
 
-## Skills  
+## Skills
 
 Now you can choose your starting (hence opened) skills.  
 Those skills are opened at directly upgrade to rank 1.  
 You may choose skills from your racial, ethnical and/or your archetype list.  
-You may choose up to 1 skill every 10 points in intelligence this way.  
+You may choose up to 1 skill every 10 points in intelligence this way.
 
-## Improve pathes  
+## Improve pathes
 
 A character starts at level 1, which grants 4 Path Points.  
-Those PP can be used to improve initial pathes rank in order to get full benefits.  
+Those PP can be used to improve initial pathes rank in order to get full benefits.
