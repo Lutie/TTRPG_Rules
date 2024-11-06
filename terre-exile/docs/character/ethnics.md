@@ -3,7 +3,9 @@
 
 ### Emperian
 
-The dominant human culture of the Lowlands, coming from a society that embraces scholarship, technology, magic, and the military in equal measure.
+The dominant human culture of the Lowlands, coming from a society that embraces scholarship, technology, magic, and the military in equal measure.  
+
+The Emperians are a cultured and exemplary urban society known for their advancements in magic, technology, and military strategy. While they lean towards the mystical, they are equally open to integrating both scientific and combat techniques into their society. They thrive in highly developed city areas, often associated with elegance and refined lifestyles. Socially adept and politically influential, they are known for their erudition, persuasion, and craftsmanship, making them prominent figures in the upper echelons of urban society.  
 
 Skills: Erudition, Persuasion, Spellcrafting, Technology, Negotiation, Communication, Craftsmanship, Investigation.  
 Strong attributes: ?.  
@@ -13,7 +15,9 @@ Other: ?.
 
 ### Kjeldorian
 
-The inhabitants of the tundras and snow-capped mountains, known for their bravery, are excellent hunters of beasts and monsters. Nomads and warriors, they live in endless struggles, forged by the cold and the trials of their harsh environment.
+The inhabitants of the tundras and snow-capped mountains, known for their bravery, are excellent hunters of beasts and monsters. Nomads and warriors, they live in endless struggles, forged by the cold and the trials of their harsh environment.  
+
+Kjeldorians are master hunters and survivalists who thrive in tundra and cold areas. Their connection to the land and the harsh climate shapes their skills in tracking, hunting, and tactical warfare. Known for their strength, constitution, and perception, Kjeldorians excel in combat and endurance-related pursuits. Their society highly values resilience, defense, and strategic thinking, which are reflected in their abilities to navigate and thrive in unforgiving environments.  
 
 Skills: Hunting, Survival, Athletics, Throw, Endurance, Melee, Defense, Tactical.  
 Strong attributes: ?.  
@@ -24,7 +28,9 @@ Other: ?.
 ### Attilian
 
 The sand of the lands of Atlas has tanned the dark skin of its inhabitants.  
-Those inhabitants of arid lands and burning deserts, are beings imbued with dark fury and fearsome inflexibility. Their noble sense of commerce and their unwavering determination make them feared and respected negotiators throughout the continent.
+Those inhabitants of arid lands and burning deserts, are beings imbued with dark fury and fearsome inflexibility. Their noble sense of commerce and their unwavering determination make them feared and respected negotiators throughout the continent.  
+
+The Attilians are a hardy, resilient people who inhabit arid, desert-like regions. Known for their incredible willpower and survival skills, they are deeply connected to their harsh environment, developing a strong cultural emphasis on endurance and tactical strength. Their society values strength of character and physical prowess, and they are often described as unyielding and tenacious. Hunting and crafting are also central aspects of their lifestyle, enabling them to sustain themselves in challenging conditions.  
 
 Skills: Survival, Endurance, Melee, Tactical, Hunting, Athletics, Brawl, Craftsmanship.  
 Strong attributes: ?.  
@@ -34,7 +40,9 @@ Other: ?.
 
 ### Rosalian
 
-The inhabitants of the eastern lands are calm, wise and refined beings. Their mastery of tactical warfare, combat of honor and machinations hatched by shadowy hands is matched only by their apparent serenity.
+The inhabitants of the eastern lands are calm, wise and refined beings. Their mastery of tactical warfare, combat of honor and machinations hatched by shadowy hands is matched only by their apparent serenity.  
+
+Rosalians are a highly spiritual, traditional people with strong beliefs and customs. Inspired by Asian influences, they integrate meditation, magic, and craftsmanship into their way of life. Their society holds erudition and negotiation in high regard, and they are known for their diplomatic skills and depth of knowledge. Rosaliens excel in communication and persuasion, often taking on roles as mediators and advisors. Respect for history and culture is central to their identity.  
 
 Skills: Meditation, Spellcasting, Negotiation, Erudition, Persuasion, Survival, Craftsmanship, Communication.  
 Strong attributes: ?.  
@@ -44,7 +52,9 @@ Other: ?.
 
 ### Albalonian
 
-This people, forged by centuries of war and incessant battles, lives in a state of perpetual change of authority and fratricidal struggles. Here, each individual learns to wield a weapon from a young age, growing up in a culture where survival and strength dominate everything.
+This people, forged by centuries of war and incessant battles, lives in a state of perpetual change of authority and fratricidal struggles. Here, each individual learns to wield a weapon from a young age, growing up in a culture where survival and strength dominate everything.  
+
+A militarized people with a centuries-long history of warfare, the Albalonians are fiercely dedicated to combat and tactics. Their society prioritizes physical strength, endurance, and defensive abilities, making them skilled fighters and strategic thinkers. Albalonians are deeply rooted in tradition and loyalty, often choosing lives of service and protection for their communities. They are natural leaders on the battlefield, known for their strong negotiation skills and unyielding tenacity.  
 
 Skills: Melee, Tactical, Endurance, Defense, Athletics, Brawl, Craftsmanship, Negotiation.  
 Strong attributes: ?.  
@@ -54,7 +64,9 @@ Other: ?.
 
 ### Morrian
 
-This nomadic people, devoid of large cities, travel in tribes through the wild lands according to the seasons or live in hidden and secluded arboreal villages. Deeply anchored in their beliefs and superstitions, these people find guidance and meaning in the mysteries of nature.
+This nomadic people, devoid of large cities, travel in tribes through the wild lands according to the seasons or live in hidden and secluded arboreal villages. Deeply anchored in their beliefs and superstitions, these people find guidance and meaning in the mysteries of nature.  
+
+Morrians are resilient, clan-based people who inhabit vast, desolate, and sparsely fertile lands. Known for their strong sense of community and sedentary lifestyle, Morrians rely heavily on farming and craftsmanship. They are hardy and skilled in survival, often working with the land to sustain their small communities. Their culture values practical skills and a strong work ethic, emphasizing endurance, defense, and tactical abilities in order to protect and maintain their lands.
 
 Skills: Rural Life, Endurance, Craftsmanship, Brawl, Melee, Survival, Defense, Tactical.  
 Strong attributes: ?.  
@@ -74,7 +86,9 @@ Other: ?.
 
 ### Bretonian
 
-This people has elevated spirit, through things such as sciences and knowledge, to the highest rank of their values. They privilege the mind over feats of arms, and put discoveries and exploration above conquests and military alliances.
+This people has elevated spirit, through things such as sciences and knowledge, to the highest rank of their values. They privilege the mind over feats of arms, and put discoveries and exploration above conquests and military alliances.  
+
+Bretonians are a technologically advanced society known for their intellectual pursuits and achievements in craftsmanship and invention. They value knowledge, investigation, and communication, making them prominent figures in trade and innovation. Bretonians have a reputation for combining their technological advancements with spellcrafting, blending magic and science to create powerful tools and inventions. They are often found in city environments that prioritize progress and intellect.  
 
 Skills: Technology, Craftsmanship, Investigation, Tactical, Communication, Spellcrafting, Negotiation, Persuasion.  
 Strong attributes: ?.  
@@ -96,7 +110,9 @@ Other: ?.
 
 ### Sylvanian
 
-This people of wood elves, with tanned and dark skin, are often called the brown elves. They live in perfect harmony with the vegetation, particularly in the forest, and their natural habitats are sculpted into the trees, forming splendid cities which in no way disturb the tranquility of nature. Behind these bucolic aspects lies a culture closed in on itself and made up of relentless hunters.
+This people of wood elves, with tanned and dark skin, are often called the brown elves. They live in perfect harmony with the vegetation, particularly in the forest, and their natural habitats are sculpted into the trees, forming splendid cities which in no way disturb the tranquility of nature. Behind these bucolic aspects lies a culture closed in on itself and made up of relentless hunters.  
+
+The Sylvanians are forest-dwelling elves who live in harmony with nature. They rely on the gifts of the forest, practicing sustainable hunting, gathering, and woodworking. Sylvanians use magic cautiously and with respect for nature, and they possess an innate skill in tracking, survival, and melee combat. With scattered settlements across the lowlands, they influence the regions where they reside. Their culture is rooted in respect for flora and fauna, and they excel in crafts like woodworking and leatherworking.  
 
 Skills: Survival, Hunting, Spellcasting, Negotiation, Craftsmanship, Subterfuge, Melee, Defense.  
 Strong attributes: ?.  
@@ -106,7 +122,9 @@ Other: ?.
 
 ### Selunian
 
-These very sedentary people of pearly, pale-skinned elves, often called white elves, place magic at the heart of their culture. Their most valued habitats are erected by this magic, creating cities with perfect shapes, both geometrically, ergonomically and visually. Behind these aspects lies a culture that is very closed in on itself, not hesitating to exploit other races from the height of their ivory towers. White elf societies are generally composed of few elves, administering a large mass of humanoids who serve them, venerating their apparent superiority.
+These very sedentary people of pearly, pale-skinned elves, often called white elves, place magic at the heart of their culture. Their most valued habitats are erected by this magic, creating cities with perfect shapes, both geometrically, ergonomically and visually. Behind these aspects lies a culture that is very closed in on itself, not hesitating to exploit other races from the height of their ivory towers. White elf societies are generally composed of few elves, administering a large mass of humanoids who serve them, venerating their apparent superiority.  
+
+The Selunians are a mystical, refined society deeply connected to magic and scholarly pursuits. They incorporate magic into daily life—from construction to agriculture—and are known for their powerful mage academies, which produce elite magic-users. Selunians are relatively rare, and although they have few true settlements, they exert significant influence in certain human kingdoms, particularly in politics and the military. They are skilled in diplomacy and persuasion, and their culture emphasizes artistry and craftsmanship, particularly in textiles and statuary.
 
 Skills: Spellcasting, Erudition, Persuasion, Craftsmanship, Negotiation, Spellcrafting, Meditation, Investigation.  
 Strong attributes: ?.  
@@ -116,7 +134,9 @@ Other: ?.
 
 ### Thalassian
 
-These people of sea elves, with blue skin, often called blue elves, are sailors and travelers as well as excellent traders, seeking to establish contacts to ensure their sustainability. Distrustful of other cultures, they collaborate willingly as long as the remuneration is up to par. Blue elves live in coastal cities, boat cities sailing on the waves, or underwater domed cities. They are excellent swimmers.
+These people of sea elves, with blue skin, often called blue elves, are sailors and travelers as well as excellent traders, seeking to establish contacts to ensure their sustainability. Distrustful of other cultures, they collaborate willingly as long as the remuneration is up to par. Blue elves live in coastal cities, boat cities sailing on the waves, or underwater domed cities. They are excellent swimmers.  
+
+Thalassians are water-oriented elves who feel at home near rivers, lakes, and oceans. Known for their agility and adaptability, they are skilled in navigation and swimming, sometimes creating underwater cities through magic. Thalassians are also natural traders, using their aquatic skills to establish strong commercial connections. Their craftsmanship often involves materials from the sea, like shells and coral, and they are effective negotiators. They’re found mainly in coastal areas, occasionally forming communities on the water itself.  
 
 Skills: Survival, Craftsmanship, Spellcrafting, Negotiation, Navigation, Swimming, Persuasion, Defense.  
 Strong attributes: ?.  
@@ -126,7 +146,9 @@ Other: ?.
 
 ### Eldrazian
 
-This people, known as ebony elves or dark elves, have skin as black as jet. Dark elves present two faces: publicly, they work as troubadours, advisors, courtiers... In the shadows, they are spies, assassins, and mercenaries. Dark elves are not born with dark skin; they develop it when their dark heart awakens. The community of dark elves is managed by an organization based in secluded citadels, overseeing the affairs of their members. A dark elf without ties to these communities eventually succumbs to their dark heart.
+This people, known as ebony elves or dark elves, have skin as black as jet. Dark elves present two faces: publicly, they work as troubadours, advisors, courtiers... In the shadows, they are spies, assassins, and mercenaries. Dark elves are not born with dark skin; they develop it when their dark heart awakens. The community of dark elves is managed by an organization based in secluded citadels, overseeing the affairs of their members. A dark elf without ties to these communities eventually succumbs to their dark heart.  
+
+Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among other elves. Recognized by their dark skin and intense disposition, they are highly disciplined, but without guidance, they may become violent and uncontrollable due to an innate “black gene.” Éldraziens live in secluded citadels where they learn to master their nature through rigorous training. Skilled in stealth, combat, and subterfuge, Éldraziens are often hired by human nobles as assassins, but they also serve as musicians, artists, or poets to mask their true purpose.  
 
 Skills: Melee, Subterfuge, Spellcasting, Brawl, Discretion, Tactical, Manipulation, Athletics.  
 Strong attributes: ?.  
@@ -136,7 +158,9 @@ Other: ?.
 
 ### Urganian
 
-This people, known by few and called as such as ruby elves or red elves, have skin as red and radiant as rubies. Red elves have ardent hearts and live life with passion. Their society is reclusive, little known, and quite secretive; for some, they are merely legends, while others see them as outcasts who chose seclusion over facing the consequences of their ancestors' actions.
+This people, known by few and called as such as ruby elves or red elves, have skin as red and radiant as rubies. Red elves have ardent hearts and live life with passion. Their society is reclusive, little known, and quite secretive; for some, they are merely legends, while others see them as outcasts who chose seclusion over facing the consequences of their ancestors' actions.  
+
+Urganian Elves are reclusive, mystical, and fierce. They are known for their deep connection to magic and meditation, often adopting an austere, disciplined lifestyle that emphasizes self-control and focus. Unlike other elves, Urganians exhibit a strict, almost authoritarian attitude. Though rare, they are known for their strategic prowess in both magical and tactical domains. They are also skilled in persuasion and subtlety, often using their knowledge and experience to influence others indirectly.  
 
 Skills: Spellcasting, Melee, Tactical, Persuasion, Defense, Meditation, Erudition, Subterfuge.  
 Strong attributes: ?.  
@@ -148,9 +172,11 @@ Other: ?.
 
 ### Bradanan
 
-Commonly called city dwarves, this dwarf people live very close to humans, who find them notably valuable due to their excellence in fields such as craftsmanship, technology, and management. Unlike their kin, the culture of Brandanan does not place much importance on their hair, so they often have smaller beards or mustaches, and sometimes are even clean-shaven. This is a source of humor for other dwarf peoples, who enjoy referring to them as gnomes rather than dwarves. But they nonetheless remain a robust and stubborn people who are rather reliable.
+Commonly called city dwarves, or techno dwarves by some, this dwarf people live very close to humans, who find them notably valuable due to their excellence in fields such as craftsmanship, technology, and management. Unlike their kin, the culture of Brandanan does not place much importance on their hair, so they often have smaller beards or mustaches, and sometimes are even clean-shaven. This is a source of humor for other dwarf peoples, who enjoy referring to them as gnomes rather than dwarves. But they nonetheless remain a robust and stubborn people who are rather reliable.  
 
-Skills: Craftsmanship, Technology, Persuasion, Erudition, Investigation, Negotiation, Spellcrafting, Tactical.  
+The Bradanan are dwarves who have assimilated into advanced human cities, thriving as engineers, craftsmen, and technologists. They are known for their pragmatism and adaptability in human-dominated environments, often bridging the gap between traditional dwarven skills and advanced sciences. Unlike other dwarves, Bradanan embrace innovation fully and distance themselves from mystical practices. They possess exceptional skill in ranged combat (e.g., throwing or shooting), technology, and various forms of crafting, making them invaluable assets in urban settings.
+
+Skills: Craftsmanship, Technology, Persuasion, Erudition, Investigation, Negotiation, Shooting, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
 Traits: ?.  
@@ -158,7 +184,15 @@ Other: ?.
 
 ### Karazdan
 
-The society of the Karazdan is generally perceived as the "main" society of this race, as it represents the overwhelming majority. It is divided into clans with distinct and diverse orientations. These dwarves have a notable culture of beards and similar attributes. Their braids and beard or hair decorations are marks of good taste and often say a lot about them, especially if they are paragons. Dwarves have no deities; instead, they refer to paragons, illustrious dwarves who have left a significant mark on their society in the present OR in the past and continue to convey notions that inspire current generations.
+The society of the Karazdan is generally perceived as the "main" society of this race, as it represents the overwhelming majority. It is divided into clans with distinct and diverse orientations. These dwarves have a notable culture of beards and similar attributes. Their braids and beard or hair decorations are marks of good taste and often say a lot about them, especially if they are paragons. Dwarves have no deities; instead, they refer to paragons, illustrious dwarves who have left a significant mark on their society in the present OR in the past and continue to convey notions that inspire current generations.  
+
+The Karazdan are the core ethnic group of dwarven society, representing the primary dwarven culture and lineage from which other clans draw their heritage. They live in rocky, hilly regions, practicing a robust lifestyle that emphasizes defense, mining, and physical endurance. The Karazdan who do not belong to specific clans are loyal to the High King, the central figure of dwarven sovereignty, whose authority unites the separate clan lords. Karazdan culture is rooted in loyalty, respect for tradition, and a strong emphasis on physical prowess, making them steadfast defenders of dwarven values.  
+
+Skills: Craftsmanship, Melee, Defense, Endurance, Tactical, Athletics, Brawl, Mining.  
+Strong attributes: ?.  
+Weak attributes: ?.  
+Traits: ?.  
+Other: ?.  
 
 The 6 Karazdan (biggest) Clans:
 
@@ -169,15 +203,35 @@ The 6 Karazdan (biggest) Clans:
 - Clan of the Malt : Craftsmanship, Endurance, Rural Life, Persuasion, Technology, Negotiation, Athletics, Brawl.  
 - Clan of Errants : Survival, Rural Life, Endurance, Craftsmanship, Melee, Athletics, Discretion, Brawl.  
 
-Skills: Craftsmanship, Melee, Defense, Endurance, Tactical, Athletics, Brawl, Mining.  
-Strong attributes: ?.  
-Weak attributes: ?.  
-Traits: ?.  
-Other: ?.  
+#### Clan of the Shield
+
+The Clan of the Shield serves as the military backbone of dwarven society, specializing in combat and defense. Members of this clan are formidable warriors who act as protectors of dwarven lands, standing ready to defend their territories or maintain peace among other clans. Their values center on loyalty, endurance, and tactical prowess, and they are often called upon to mediate conflicts due to their impartiality. Shield dwarves are known for their strength and discipline, with leadership roles that make them essential in times of conflict.
+
+#### Clan of the Temple
+
+The Temple Clan is composed of dwarves who serve as keepers of tradition, scholars, and religious figures within dwarven society. Although dwarves cannot wield magic, Temple Clan members are experts in dwarven lore, rituals, and the construction of war machines that aid in warfare. Their skills in meditation and erudition make them highly respected for their wisdom and dedication to preserving dwarven culture. They also support the military through engineering and craftsmanship, constructing structures and machinery essential for the dwarven way of life.
+
+#### Clan of the Talion
+
+The Talion Clan is the wealthiest and most politically influential among the dwarves. They excel in negotiation, persuasion, and commerce, controlling much of the dwarven trade networks and economic activities. Members of the Talion Clan are known for their cunning and business acumen, often relying on a secretive organization, the Black Lodge, to secure their interests. Skilled in both subterfuge and manipulation, the Talion Clan dwarves are shrewd merchants and negotiators, placing wealth and power at the forefront of their priorities.
+
+#### Clan of the Forge (Clan de la Forge)
+
+The Forge Clan forms the industrial backbone of dwarven society, primarily involved in metallurgy, mining, and weapon crafting. These dwarves are highly skilled blacksmiths and metalworkers, crafting some of the finest weapons, armor, and tools. Known for their resilience and work ethic, Forge Clan dwarves are respected for their knowledge of metals and resource extraction, making them central to the dwarven economy and defense. They are also strong negotiators, often dealing with human societies to secure raw materials and trade.
+
+#### Clan of the Malt (Clan du Malt)
+
+The Malt Clan is well-known for their expertise in brewing, agriculture, and rural craftsmanship. They focus on producing the resources necessary for dwarven communities, especially food and drink, including the renowned dwarven ales. The Malt Clan also engages in trade with human settlements, where their brewed products are highly valued. These dwarves are practical and hardworking, and they excel in craftsmanship, particularly in areas related to food, drink, and other essential goods.
+
+#### Clan of the Errants (Clan des Errants)
+
+Errant Clan dwarves are outcasts, often due to social or political conflicts. Forced to live outside traditional dwarven society, they are nomadic and focus on self-sufficiency. Known for their survival skills, Errant dwarves are adept at living off the land and have minimal access to traditional dwarven wealth. While they cannot own gold or weapons, Errant dwarves rely on discretion, craftsmanship, and combat skills to survive, often in isolation from other dwarves. They represent a life of simplicity and resilience, embodying the rugged spirit of dwarven heritage.
 
 ### Ungordan
 
-The Ungordan are the dwarves of the depths, residing in vast underground cities carved into the heart of the mountains. These dwarves live far below the surface, in a world of perpetual darkness illuminated only by the glow of luminescent fungi and the forge fires of their cities. Their society is highly structured, with a rigid caste system that dictates every aspect of their lives.
+The Ungordan are the dwarves of the depths, residing in vast underground cities carved into the heart of the mountains. These dwarves live far below the surface, in a world of perpetual darkness illuminated only by the glow of luminescent fungi and the forge fires of their cities. Their society is highly structured, with a rigid caste system that dictates every aspect of their lives.  
+
+Ungordan, also known as the Deep Dwarves, inhabit the underground depths known as the Tréfonds. Separated physically and culturally from surface-dwelling dwarves, the Ungordan have little in common with their kin above. In fact, they view surface dwarves as “deviants” or “denatured,” having lost their connection to the true dwarven way. The Ungordan excel in survival, tactical combat, and mining, navigating the dangerous tunnels and caverns with unmatched skill. They are known for their disdain of the surface and their emphasis on resilience and unity in the harsh, unforgiving depths.  
 
 Ungordan Society:
 
@@ -198,8 +252,7 @@ Other: ?.
 
 ### Okkan
 
-This feral society is made up of humanoids with wolf-like traits. These wise beings live in clans structured similarly to wolf packs. You can find these people throughout the lowlands, as they are the most sociable and inclined to travel.  
-They are considered pacifist ferals, generally not seeking conflict with other cultures.
+The Okkan are wolf-like humanoids who live in close-knit clan structures, much like wolf packs. Known for their wisdom and strong social bonds, they value loyalty, community, and cooperation. They are spread across the lowlands and are among the more sociable feral groups, often integrating well with other cultures. Okkan are peaceful by nature, usually avoiding conflict, but they are highly perceptive and adept at defending themselves and their clans when necessary.
 
 Totem: Uhlo, the Unifier.  
 Skills: Survival, Hunting, Defense, Endurance, Detection, Communication, Athletics, Spiritism.  
@@ -210,7 +263,7 @@ Other: ?.
 
 ### Nekkan
 
-These humanoids with cat-like traits are mischievous, playful, curious, and stealthy. Few of their kind gather into societies, as they typically blend into other cultures where their cunning offers a more stimulating life, often favoring human societies with large cities (and shadowy underworlds). Ghey are not highly regarded as they are often judged as being unable to follow rules.  
+These humanoids with cat-like traits are mischievous, playful, curious, and stealthy. They tend to avoid settling in societies of their own, preferring instead to integrate into larger human cities, where they can indulge their cunning and blend in with other cultures. They are quick-witted and agile, excelling in stealth and subterfuge, but are often perceived as untrustworthy due to their tendency to bend or ignore rules.
 They are considered pacifist ferals who do not seek direct conflict.
 
 Totem: Adis, the Whisperer in Shadows.  
@@ -235,6 +288,7 @@ Other: ?.
 ### Koddan
 
 This tribe of humanoids with bear-like features are as massive and imposing as they are patient and wise. Though they may not excel in advanced intelligence, they possess a profound understanding of the world, with which they share a special connection. They give off an impression of immutable strength. They are quite rare and live in scattered clans across the cold lands of Kjeldor. Occasionally, they can be found in other cultures, where they are highly esteemed for their great wisdom coupled with their imposing stature that deters missteps.
+They are considered pacifist ferals who do not seek direct conflict.
 
 Totem: Oborh, the Patient Beast.  
 Skills: Survival, Endurance, Athletics, Hunting, Detection, Rural Life, Defense, Mysticism.  
@@ -246,6 +300,7 @@ Other: ?.
 ### Bedokkan
 
 This tribe of humanoids, distinguished by their lizard-like features, excels in the arts of survival and hunting. They lead a life of simplicity, dwelling within the swamps and other humid regions they call home. Renowned as formidable warriors, they possess an exceptional aptitude for enduring the harshest conditions. It is exceedingly rare to encounter them in proximity to, or in collaboration with, other cultures, whose advanced ways and intricate traditions they find excessively elaborate. They mostly refuse any contact with others, even feral beings, preferring instead the purity of a more unadorned existence.
+They are regarded as predatory ferals who avoid direct conflicts but stand resolutely against any threats, fiercely defending their territory.
 
 Totem: Brera, the Reclusive Tyrant.  
 Skills: Survival, Hunting, Brawl, Endurance, Detection, Craftsmanship, Rural Life, Athletics.  
@@ -269,6 +324,7 @@ Other: ?.
 ### Luppan
 
 This ethnic group of feral beings consists of individuals who are generally laid-back and fond of a good life, yet also fearful and quick to flee rather than confront. They appear as humanoids with lupine traits, resembling rabbits or hares. They cherish life's pleasures and constantly devise numerous ways to avoid the toil of labor, earning them a somewhat tarnished reputation among other cultures that value merit and dedication. It is said that fortune smiles upon them, and whether true or not, this belief grants them a certain audacity in risky situations, although they still prefer to avoid such scenarios. Naturally, these people are pacifists and are also excellent artists.
+They are considered pacifist ferals who do not seek direct conflict... In fact, they avoid ALL conflicts.
 
 Totem: Zolir, the Little One.  
 Skills: Art, Finesse, Discretion, Communication, Persuasion, Acrobatics, Survival, Subterfuge.  
@@ -312,8 +368,7 @@ Other: ?.
 
 ### Peskkan
 
-This ethnic group of feral beings comprises humanoids with traits derived from various fish, inheriting features from graceful dolphins to mysterious octopuses and formidable sharks. They live in varying degrees of cooperation with the blue elves, who share their preferred habitats, and remain rather distant from humanoids in general, convinced that the latter do not sufficiently respect the land of their birth. Members of this species intermingle regardless of their bestial ancestry, resulting in a highly disparate society.
-
+This ethnic group of feral beings comprises humanoids with traits derived from various fish, inheriting features from graceful dolphins to mysterious octopuses and formidable sharks. They live in varying degrees of cooperation with the blue elves, who share their preferred habitats, and remain rather distant from humanoids in general, convinced that the latter do not sufficiently respect the land of their birth. Members of this species intermingle regardless of their bestial ancestry, resulting in a highly disparate society.  
 They are either pacifists or predators depending on their sub-ethnicity, but if they seek conflict, it is usually on an individual basis.
 
 Totem: Edea, the Mother of All Sees.  
@@ -326,7 +381,7 @@ Other: ?.
 ### Taurran
 
 This tribe of humanoids with bull-like features, complete with horns and a robust frame, as muscular and intimidating as they are composed and respectful. Though they possess a hot-headed temperament, they maintain a notable martial culture based on instinct and controlled fury. Despite their impulsive nature, they are a fundamentally reasonable people, primarily nomadic, roaming the vast expanses of the Morrian lands. They are rare and live in scattered clans, nestled in underground areas or ruins which saw them for their tranquility and their immensity. A good number of them live alone, far from all social ties, it's a kind of lifestyle that pushes them to refocus on themselves. Their code of honor revolves around strength and wisdom, embodying a balanced blend of body and mind.
-They are pacifists, but of a type that few predators seek quarrels with.
+They are pacifists, but of a type that few predators seek quarrels with.  
 
 Totem: Siion, the Majestuous Horned Lord.  
 Skills: Melee, Athletics, Endurance, Survival, Defense, Tactical, Brawl, Rural Life.  
@@ -342,7 +397,7 @@ Other: ?.
 The Oni are cousins of the Okkans, humanoids with wolf features. Physically they are distinguished by a denser coat and darker tons.
 As with the other so-called cursed ferals, they are touched by what some may describe as an illness which makes them associable at best, they therefore evolve little in society and when this is the case violence reigns supreme.
 The evil that afflicts the Oni is resentment and jealousy, prompt to violent urge.  
-They are predators.
+They are true predators.  
 
 Totem: Ouros, the Disastrous Fang.  
 Skills: Melee, Brawl, Endurance, Athletics, Subterfuge, Detection, Mysticism, Occultism.  
@@ -356,7 +411,7 @@ Other: ?.
 The Oni are cousins of the Okkans, humanoids with fox features. Physically they are distinguished by the presence of multiple tails, particularly bushy, and by red tones.  
 As with the other so-called cursed ferals, they are touched by what some may describe as an illness which makes them associable at best, they mosty never unit as a clan, driven by a personality focused exclusively on themselves.  
 The evil that afflicts the Oni is curiosity and frivolity, nothing is really serious to them, not even life.  
-They are predators.
+They are somewhat neutral and doesn't define themselves as pacifists or predators, more like mediators or something alike.  
 
 Totem: Eaos, the Mischivious Hundred Tails.  
 Skills: Subterfuge, Discretion, Persuasion, Mysticism, Spellcrafting, Occultism, Detection, Finesse.  
@@ -367,6 +422,9 @@ Other: ?.
 
 ### Tengu
 
+The Tengu are bird-like humanoids who embody the darker, more aggressive aspects of their avian lineage. While the Garukkan exhibit sociability and pride, the Tengu embrace tenacity, independence, and cunning with a more ominous undertone. Known for their eloquence and intelligence, Tengu are highly self-assured, with a significant ego that often leads to isolation from others, even within their own kind. Unlike the Garukkan, who enjoy mingling with other societies, the Tengu view the world with suspicion and prefer to operate alone or in small, tightly knit groups.  
+Tengu are natural predators, and some are known to resolve conflicts with lethal efficiency. Tengu society is loosely structured, lacking a true sense of community, as most members act according to personal codes of honor or vendettas. These dark, solitary beings are rarely seen in friendly terms with other cultures and are often feared or misunderstood for their ruthlessness and fierce independence.  
+
 Totem: Fydall, the Boundless Nightmare.  
 Skills: Acrobatics, Detection, Athletics, Brawl, Finesse, Survival, Communication, Throw.  
 Strong attributes: ?.  
@@ -376,6 +434,8 @@ Other: ?.
 
 ### Skaven (razzan)
 
+The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. They are highly cunning and ruthless, with a society driven by personal gain and constant infighting. Known for their stealth, larceny, and survival skills, Skaven are adept at infiltration and scavenging, often using poisons, diseases, and crude technologies to their advantage. They rarely cooperate with others and are notorious for betrayal.  
+
 Totem: Zegen, the Rotten Ambition.  
 Skills: Larceny, Subterfuge, Occultism, Discretion, Detection, Urban Life, Investigation, Brawl.  
 Strong attributes: ?.  
@@ -384,6 +444,8 @@ Traits: ?.
 Other: ?.
 
 ### ? (urssian)
+
+The Urssian are a feral ethnicity similar to the Koddans, but with a more aggressive and violent culture. Known for their sheer physical strength and a social structure that values might above all, Urssians believe that power determines status and respect. They are often found in rugged, mountainous regions, where they maintain a life of endurance and combat readiness. Conflict and displays of dominance are central to their way of life.  
 
 Totem: Udtar, the Juggernaut.  
 Skills: Melee, Defense, Endurance, Athletics, Craftsmanship, Detection, Rural Life, Tactical.  
@@ -478,7 +540,7 @@ Other: ?.
 
 ### Dracoïds (drakkan)
 
-Red (Tiamat): Children of the dragon of fire and war, they embody raw strength, wrath, and leadership. Highly persuasive and influential, they dominate through combat skills (Melee, Brawl) and tactical prowess. Magic is also present, often tied to fire.
+Red (Tiamat): Children of the dragon of fire and war, they embody raw strength, wrath, and leadership. Highly persuasive and influential, they dominate through combat skills (Melee, Brawl) and tactical prowess. Magic is also present, often tied to fire.  
 
 Green (Prometheus): Children of the dragon of earth and wisdom, these Spawns are calm, thoughtful, and resilient. Focused on survival and craftsmanship, they excel in tasks requiring endurance and defense. Their knowledge (Erudition) makes them wise advisors and peaceful leaders.
 

@@ -34,71 +34,71 @@ You may choose one of the ethnic's traits and add it to your traits list.
 Later one you will be able to open skills from your ethnic's list.  
 You open the corresponding racial path.
 
-| Ethnics             | Strong Attributes        | Weak Attributes | Traits | Race            |
-| ------------------- | ------------------------ | --------------- | ------ | --------------- |
-| Albalonian          | DEX, WIL, X, X           | X, X, X         |        | Human           |
-| Attilian            | CON, CUN, X, X           | X, X, X         |        | Human           |
-| Bretonian           | INT, CUN, X, X, LOG      | X, X, X         |        | Human           |
-| Emperian            | CHA, INT, X, X, LOG, MAG | X, X, X         |        | Human           |
-| Kjeldorian          | PER, STR, X, X           | X, X, X         |        | Human           |
-| Morrian             | AGI, PER, X, X           | X, X, X         |        | Human           |
-| Rosalian            | DEX, WIS, X, X           | X, X, X         |        | Human           |
-| Titanian            | CON, WIL, X, X, MAG      | X, X, X         |        | Human           |
-| Aurian              | AGI, WIS, X, X, MAG      | X, X, X         |        | Human           |
-| Half Elf            | -                        | -               | -      | Mixed           |
-| Half Dwarf          | -                        | -               | -      | Mixed           |
-| Half Demie          | -                        | -               | -      | Mixed           |
-| Eldrazian           | DEX, AGI, CHA, CUN, MAG                        | STR, CON, LUK               |        | Elf             |
-| Selunean            | -                        | -               |        | Elf             |
-| Sylvanian           | -                        | -               |        | Elf             |
-| Thalassian          | -                        | -               |        | Elf             |
-| Ungordan            | -                        | -               |        | Elf             |
-| Bradanan            | -                        | -               | -      | Dwarf           |
-| Karazdan            | -                        | -               | -      | Dwarf           |
-| Ungordan            | -                        | -               | -      | Dwarf           |
-| Clan of the Errants | -                        | -               | -      | Dwarf           |
-| Clan of the Forge   | -                        | -               | -      | Dwarf           |
-| Clan of the Malt    | -                        | -               | -      | Dwarf           |
-| Clan of the Shield  | -                        | -               | -      | Dwarf           |
-| Clan of the Talion  | -                        | -               | -      | Dwarf           |
-| Clan of the Temple  | -                        | -               | -      | Dwarf           |
-| Celestial           | -                        | -               | -      | Demie           |
-| Dryads              | -                        | -               | -      | Demie           |
-| Fairies             | -                        | -               | -      | Demie           |
-| Halfling            | -                        | -               | -      | Demie           |
-| Qunari              | -                        | -               | -      | Demie           |
-| Trolls              | -                        | -               | -      | Demie           |
-| Nymphs              | -                        | -               | -      | Demie           |
-| Centaur             | -                        | -               | -      | Semie           |
-| Naggan              | -                        | -               | -      | Semie           |
-| Undine              | -                        | -               | -      | Semie           |
-| Okkan               | -                        | -               | -      | Feral           |
-| Nekkan              | -                        | -               | -      | Feral           |
-| Oni                 | -                        | -               | -      | Feral           |
-| Perskkan            | -                        | -               | -      | Feral           |
-| Bedokkan            | -                        | -               | -      | Feral           |
-| Raskkan             | -                        | -               | -      | Feral           |
-| Skaven              | -                        | -               | -      | Feral           |
-| Taurran             | -                        | -               | -      | Feral           |
-| Tengu               | -                        | -               | -      | Feral           |
-| Urssian             | -                        | -               | -      | Feral           |
-| Cervikkan           | -                        | -               | -      | Feral           |
-| Felkkan             | -                        | -               | -      | Feral           |
-| Garrukan            | -                        | -               | -      | Feral           |
-| Kitsune             | -                        | -               | -      | Feral           |
-| Koddan              | -                        | -               | -      | Feral           |
-| Leokkan             | -                        | -               | -      | Feral           |
-| Luppan              | -                        | -               | -      | Feral           |
-| Goblin              | -                        | -               | -      | Vermine         |
-| Ogre                | -                        | -               | -      | Vermine         |
-| Orkkan              | -                        | -               | -      | Vermine         |
-| Prometheus Spawn    | -                        | -               | -      | Semie (Drakkan) |
-| Leviathan Spawn     | -                        | -               | -      | Semie (Drakkan) |
-| Chromium Spawn      | -                        | -               | -      | Semie (Drakkan) |
-| Bahamut Spawn       | -                        | -               | -      | Semie (Drakkan) |
-| Aquilon Spawn       | -                        | -               | -      | Semie (Drakkan) |
-| Arcanum Spawn       | -                        | -               | -      | Semie (Drakkan) |
-| Tiamat Spawn        | -                        | -               | -      | Semie (Drakkan) |
+| Ethnics             | Strong Attributes       | Weak Attributes | Traits | Race            |
+|---------------------|-------------------------|-----------------|--------|-----------------|
+| Albalonian          | DEX, WIL, STR           | LUK, INT, WIS   |        | Human           |
+| Attilian            | CON, CUN, STR           | LUK, CHA, INT   |        | Human           |
+| Bretonian           | INT, CUN, PER, LOG      | STR, AGI, LUK   |        | Human           |
+| Emperian            | CHA, INT, WIS, LOG, MAG | STR, LUK, CON   |        | Human           |
+| Kjeldorian          | PER, STR, CON           | CHA, LUK, CUN   |        | Human           |
+| Morrian             | AGI, PER, CON           | CHA, INT, LUK   |        | Human           |
+| Rosalian            | DEX, WIS, CHA           | STR, CON, AGI   |        | Human           |
+| Titanian            | CON, WIL, STR, MAG      | LUK, CHA, PER   |        | Human           |
+| Aurian              | AGI, WIS, PER, MAG      | STR, CON, CUN   |        | Human           |
+| Half Elf            | -                       | -               | -      | Mixed           |
+| Half Dwarf          | -                       | -               | -      | Mixed           |
+| Half Demie          | -                       | -               | -      | Mixed           |
+| Eldrazian           | DEX, AGI, CHA, CUN, MAG | STR, CON, LUK   |        | Elf             |
+| Selunean            | -                       | -               |        | Elf             |
+| Sylvanian           | -                       | -               |        | Elf             |
+| Thalassian          | -                       | -               |        | Elf             |
+| Ungordan            | -                       | -               |        | Elf             |
+| Bradanan            | -                       | -               | -      | Dwarf           |
+| Karazdan            | -                       | -               | -      | Dwarf           |
+| Ungordan            | -                       | -               | -      | Dwarf           |
+| Clan of the Errants | -                       | -               | -      | Dwarf           |
+| Clan of the Forge   | -                       | -               | -      | Dwarf           |
+| Clan of the Malt    | -                       | -               | -      | Dwarf           |
+| Clan of the Shield  | -                       | -               | -      | Dwarf           |
+| Clan of the Talion  | -                       | -               | -      | Dwarf           |
+| Clan of the Temple  | -                       | -               | -      | Dwarf           |
+| Celestial           | -                       | -               | -      | Demie           |
+| Dryads              | -                       | -               | -      | Demie           |
+| Fairies             | -                       | -               | -      | Demie           |
+| Halfling            | -                       | -               | -      | Demie           |
+| Qunari              | -                       | -               | -      | Demie           |
+| Trolls              | -                       | -               | -      | Demie           |
+| Nymphs              | -                       | -               | -      | Demie           |
+| Centaur             | -                       | -               | -      | Semie           |
+| Naggan              | -                       | -               | -      | Semie           |
+| Undine              | -                       | -               | -      | Semie           |
+| Okkan               | -                       | -               | -      | Feral           |
+| Nekkan              | -                       | -               | -      | Feral           |
+| Oni                 | -                       | -               | -      | Feral           |
+| Perskkan            | -                       | -               | -      | Feral           |
+| Bedokkan            | -                       | -               | -      | Feral           |
+| Raskkan             | -                       | -               | -      | Feral           |
+| Skaven              | -                       | -               | -      | Feral           |
+| Taurran             | -                       | -               | -      | Feral           |
+| Tengu               | -                       | -               | -      | Feral           |
+| Urssian             | -                       | -               | -      | Feral           |
+| Cervikkan           | -                       | -               | -      | Feral           |
+| Felkkan             | -                       | -               | -      | Feral           |
+| Garrukan            | -                       | -               | -      | Feral           |
+| Kitsune             | -                       | -               | -      | Feral           |
+| Koddan              | -                       | -               | -      | Feral           |
+| Leokkan             | -                       | -               | -      | Feral           |
+| Luppan              | -                       | -               | -      | Feral           |
+| Goblin              | -                       | -               | -      | Vermine         |
+| Ogre                | -                       | -               | -      | Vermine         |
+| Orkkan              | -                       | -               | -      | Vermine         |
+| Prometheus Spawn    | -                       | -               | -      | Semie (Drakkan) |
+| Leviathan Spawn     | -                       | -               | -      | Semie (Drakkan) |
+| Chromium Spawn      | -                       | -               | -      | Semie (Drakkan) |
+| Bahamut Spawn       | -                       | -               | -      | Semie (Drakkan) |
+| Aquilon Spawn       | -                       | -               | -      | Semie (Drakkan) |
+| Arcanum Spawn       | -                       | -               | -      | Semie (Drakkan) |
+| Tiamat Spawn        | -                       | -               | -      | Semie (Drakkan) |
 
 ## Cultural (50)
 
@@ -122,7 +122,7 @@ You get a -5 malus to all that persona's weak attributes.
 You may choose two of the race's traits and add it to your traits.
 
 | Persona   | Strong Attributes                     | Weak Attributes                     | Traits                                                                                                                         |
-| --------- | ------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+|-----------|---------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Wolf      | Cunning, Charisma, Agility            | Dexterity, Wisdom, Perception       | Loyal, Fearless, Rebellious, Loudmouth, Cruel, Solitary, Organized, Spontaneous, Community-minded, Aggressive                  |
 | Fox       | Intelligence, Cunning, Perception     | Strength, Constitution, Willpower   | Curious, Selfish, Calculative, Selfish, Expressive, Seductive, Liar, Ascetic, Adventurous, Secretive                           |
 | Bear      | Constitution, Strength, Willpower     | Agility, Dexterity, Perception      | Imposing, Reckless, Community-minded, Rebellious, Patient, Unshakeable, Measured, Gloomy, Willing, Resilient                   |
@@ -176,7 +176,7 @@ This is optional and you can skip it entirely.
 If so you may decide that your past do not affect your current self, or that it doesn't shaped you in any ways.
 
 | Background              | Bonus Attributes         | Penalty Attributes       | Traits                                                          |
-| ----------------------- | ------------------------ | ------------------------ | --------------------------------------------------------------- |
+|-------------------------|--------------------------|--------------------------|-----------------------------------------------------------------|
 | Bookworm                | Intelligence, Wisdom     | Perception, Charisma     | Curious, Disciplined, Patient, Introverted, Organized           |
 | Farmhand                | Strength, Willpower      | Intelligence, Dexterity  | Hardworking, Modest, Loyal, Resilient, Practical                |
 | Street Urchin           | Dexterity, Cunning       | Charisma, Luck           | Resourceful, Cunning, Independent, Distrustful, Rebellious      |
