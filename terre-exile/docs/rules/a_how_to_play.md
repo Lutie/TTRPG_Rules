@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # How to play
 
 ## Success and Actions
@@ -79,25 +82,6 @@ Sometimes, a test may be advantaged or disadvantaged, affecting the roll results
 - **Disadvantaged Test:** Roll two tens dice instead of one and keep the higher result.
 - **Combined Advantage and Disadvantage:** If a test is both advantaged and disadvantaged, sum the advantages and disadvantages. The test is advantaged if there are more advantages, and disadvantaged if there are more disadvantages.
 
-## Trump cards
-
-A character can always consider the attribute with the highest natural value as their "trump". If a character has another attribute that surpasses their current trump attribute, the trump status only changes if the current trump attribute does not have a "tension" marker.  
-It is also possible to have an additional trump through specific traits.
-
-When a character wishes, they can justify a methodology, preparation, or other actions that utilize their trump attribute for a given action. This must make sense and be explainable in detail; common sense should prevail, and the GM has the final say in whether the interpretation is valid or not (no tension applied if not valid).  
-
-When this is the case, the character receives a "tension" marker on their trump attribute, and the test is advantaged. In combat, this requires a quick action.  
-If the attribute has a current tension level greater than [Attribute Modifier - 3]/2, this is not possible.  
-
-| Attribute Value | Maximum Tension Markers |
-|-----------------|-------------------------|
-| 50              | 1                       |
-| 70              | 2                       |
-| 90              | 3                       |
-| +20             | +1                      |
-
-A character's attribute loses one tension marker with each full rest.
-
 ## Examples
 
 For our examples, we will consider a single scenario:
@@ -136,3 +120,44 @@ The d100 is rolled and shows a 5.
 - 5 is less than 90: Mishap does not remove a success.
 
 The attack results in three successes, which is a critical success.
+
+## Save checks
+
+Save checks works differently than other checks.  
+Those checks only use a D20 (that's the only case when those type of dice are involved).  
+The resultat of that throw is added to a one of the character's save value, which can be one of the following: Thougness, Flexibility, Bravery, Composure, Intuition, Fortune, Opposition or Initiative.  
+You can see what those saves are used for on the characteristics section.    
+
+A core difference between a skill check and a save check is that the later does not require any actions to perform, nor decisions to make, those are automatic events implied by the story or adversary's actions.  
+
+### Save difficulty  
+
+When a save check is required it is always graded as "normal", "easy", "hard" or "extreme".  
+The "normal" save difficulty is equal to either the opponent's (which actions are the origin of that save check) malice value + 5 (physical, mental or social, depending on the action nature involved) OR to 15 (when no such opponent can be identified).  
+The "easy" save difficulty is equal to the opponent's malice value OR to 10.  
+The "hard" save difficulty is equal to the opponent's malice value OR to 20.  
+The "extreme" save difficulty is equal to the opponent's malice value OR to 25.  
+
+A save checks can result in those outcome:  
+- Check < Difficulty + 5 : Critical fail  
+- Check < Difficulty : Critical   
+- Check > Difficulty : Success   
+- Check > Difficulty + 5 : Critical Success  
+
+Depending on that result:  
+- Effects may be increased by half for a critical fail  
+- Effects may be applied as it is for a fail  
+- Effects may be reduced by half for a success  
+- Effects may be nullified/ignored for a critical success  
+
+Note that a normal save check may not mention the "normal" aspect of them and simply ask for a save check, while other form of save checks will tell explicitly which difficulty is required by spelling "requires an easy save check" or something alike.  
+In other words, if nothing is mentioned then it is a "normal" save check that is required by default.  
+
+### Save example  
+
+Let's say a bandit tries to blind one of the character.  
+Blind is a condition, which are always applied with a charge determining the time for recovery (charge are reduced by the recovery value of the victim each turn).  
+His action involve a "normal" save check with a difficulty of 13 (his malice of 8 + 5).  
+The character rolls a 11 on its dice but have a Thougness of 3 which results in a total of 14.  
+Since this result is superior than 13 but not than 18 then its a regular success.  
+Hence that characters suffers a blindness but with half of its charges.  

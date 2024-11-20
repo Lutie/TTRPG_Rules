@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Racial pathes
 
 | Rank            | Skill | Trait | Upgrade | Fame | Other             |

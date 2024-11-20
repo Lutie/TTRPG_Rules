@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Social skills
 
 ## Persuasion

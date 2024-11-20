@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Cultural pathes
 
 | Rank            | Skill | Trait | Upgrade | Fame | Other             |

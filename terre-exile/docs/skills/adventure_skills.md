@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Adventure skills
 
 Type of environment, type of interlocutor or type of materials can be suitable specializations too. It narrows the boost in a particuliar condition instead of a particuliar form of activity.  

@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Glossary
 
 - Result: The number shown on the dice after rolling.

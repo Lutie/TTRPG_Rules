@@ -1,0 +1,8 @@
+/* Forcer la taille des images */
+.ethnics {
+    width: 150px;
+    height: 400px !important;
+    object-fit: cover; /* Préserve les proportions si l'image ne correspond pas */
+    display: inline-block; /* Pour l'affichage en ligne */
+    margin: 0 auto; /* Centre l'image */
+}

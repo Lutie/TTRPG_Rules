@@ -1,1 +1,12 @@
-site_name: Terre d'Exile
+site_name: "Terre d'Exile"
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+  - assets/custom.css
+theme:
+  name: "material"
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'

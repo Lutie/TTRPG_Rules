@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Weapon Advanced Rules
 
 ## Indicators

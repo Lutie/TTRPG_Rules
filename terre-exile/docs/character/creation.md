@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Character creation
 
 ## Summary
@@ -7,30 +10,36 @@ They start with 0 at magic and logic.
 Balance will be calculated later on and depends on extremes in your attributes.
 
 Then player may:
+<div style="display:flex">
+<div style="width: 50%">
+<ul>
+<li>(optional) Open himself to Magic or Logic</li>
+<li>Choose an ethnicity</li>
+<li>Choose a culture</li>
+<li>Choose a persona</li>
+<li>(optional) Choose a background</li>
+<li>Choose some customizations</li>
+<li>Choose an archetype</li>
+<li>Choose few specializations</li>
+<li>Choose their starting skills</li>
+<li>Improve some of their opened pathes</li>
+</ul>
+</div>
+<div style="width:400px;"><img src="../../images/creation.webp" width="400px"></div>
+</div>
 
-- (optional) Open to Magic or Logic
-- Choose an ethnicity
-- Choose a culture
-- Choose a persona
-- (optional) Choose a background
-- Choose some customizations
-- Choose an archetype
-- Choose few specializations
-- Choose their starting skills
-- Improve some of their opened pathes
-
-## (optional) Magic & Logic
+## (optional) Open yourself to Magic & Logic
 
 You may take +5 bonus for one of those attributes by accepting a -5 malus to one of your primary attributes, or in Luck.  
 Same attribute cannot receive more than two malus in this process.  
 At this step Magic or Logic cannot be higher than 25 (which is a total of 5 bonus).
 
-## Ethnicities (50)
+## Ethnicities  
 
-Choose one the ethnicities.  
+Choose one the (50) ethnicities.  
 You get a +5 bonus to all that ethnic's strong attributes.  
 You get a -5 malus to all that ethnic's weak attributes.  
-You may choose one of the ethnic's traits and add it to your traits list.  
+You may choose one of the ethnic's talents and add it to your talents list.  
 Later one you will be able to open skills from your ethnic's list.  
 You open the corresponding racial path.
 
@@ -100,12 +109,12 @@ You open the corresponding racial path.
 | Arcanum Spawn       | -                       | -               | -      | Semie (Drakkan) |
 | Tiamat Spawn        | -                       | -               | -      | Semie (Drakkan) |
 
-## Cultural (50)
+## Cultural  
 
-Choose one the ethnicities for their culture.  
+Choose one the (50) ethnicities for their culture.  
 You get a +5 bonus to all that cultural's strong attributes.  
 You get a -5 malus to all that cultural's weak attributes.  
-You may choose one of the cultural's traits and add it to your traits list.  
+You may choose one of the cultural's talents and add it to your talents list.  
 Later one you will be able to open skills from your cultural's list.  
 You open the corresponding cultural path.
 
@@ -113,7 +122,7 @@ Your ethnic is how you are born, your culture is how you are raised, both can ma
 To have the same ethnic and cultural can lead you to more focused attributes possibilities.  
 To have differents ethnic and cultural can lead you to a more diversed skill list.
 
-## Personas (42)
+## Personas  
 
 You have to choose one of those personas.  
 For personas with at least one mental aligned attribute you can replace any of the strong attributes by either Magic or Logic, but at least one mental aligned attribute must remain.  
@@ -166,7 +175,7 @@ You may choose two of the race's traits and add it to your traits.
 | Raccoon   | Dexterity, Cunning, Perception        | Willpower, Wisdom, Charisma         | Progressive, Adventurous, Open-minded, Chaotic, Impatient, Curious, Resourceful, Opportunistic, Playful, Independent           |
 | Shark     | Strength, Agility, Perception         | Constitution, Willpower, Cunning    | Indifferent, Fearless, Imposing, Predatory, Calculative, Cold, Unshakeable, Resilient, Hostile, Patient                        |
 
-## (optional) Backgrounds (50)
+## (optional) Backgrounds  
 
 You MAY choose one background.  
 For backgrounds with two mental aligned attribute you can replace one of those attributes by either Magic or Logic.  
@@ -233,13 +242,13 @@ You get a +5 bonus to 4 attributes of your choice, primary or secundary.
 You may accept up to two -5 maluses in order to get up to two additional +5 bonuses.  
 A same attributes cannot get two bonus that way.
 
-## Archetype (7)
+## Archetype  
 
 You may choose one of the following archetypes: Martial, Specialist, Adventurer, Mage, Scholar, Intriguer, Freelance.  
 Later one you will be able to open skills from your archetype's list.  
 You open the corresponding archetype path.
 
-## Specializations (X)
+## Specializations
 
 You may choose up to 3 different specializations.  
 You open the corresponding specializations pathes.

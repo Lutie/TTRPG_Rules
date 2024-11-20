@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Sheet
 
 ## What define a character ?

@@ -1,4 +1,10 @@
+---
+icon: material/label 
+---
 # Archetype pathes
+
+Archetype defines the very core of your character's orientations.  
+There are 7 of them, 6 of which are very specialized and 1 which is a more neutral route.  
 
 ## Martials
 

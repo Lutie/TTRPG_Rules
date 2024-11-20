@@ -1,3 +1,6 @@
+---
+icon: material/label 
+---
 # Advanced Battle Rules
 
 ## Weapon Triangle

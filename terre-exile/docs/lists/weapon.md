@@ -1,4 +1,6 @@
-
+---
+icon: material/label 
+---
 # Weapon List
 
 Weapon which bears properties have a minimum quality requirements at least equal to their number of properties.
