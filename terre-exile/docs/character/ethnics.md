@@ -254,6 +254,8 @@ Other: ?.
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/urganian-m.jpg">
     <img class="ethnics" src="../../images/ethnics/urganian-f.jpg">
+    <img class="ethnics" src="../../images/ethnics/urganian-m-2.jpg">
+    <img class="ethnics" src="../../images/ethnics/urganian-f-2.jpg">
 </div>
 
 This people, known by few and called as such as ruby elves or red elves, have skin as red and radiant as rubies. Red elves have ardent hearts and live life with passion. Their society is reclusive, little known, and quite secretive; for some, they are merely legends, while others see them as outcasts who chose seclusion over facing the consequences of their ancestors' actions.
@@ -648,8 +650,8 @@ Other: ?.
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/tengu-m.png">
     <img class="ethnics" src="../../images/ethnics/tengu-f.jpg">
-    <img class="ethnics" src="../../images/ethnics/tengu-m-2.png">
-    <img class="ethnics" src="../../images/ethnics/tengu-f-h.jpg">  
+    <img class="ethnics" src="../../images/ethnics/tengu-m-2.webp">
+    <img class="ethnics" src="../../images/ethnics/tengu-f-2.jpg">  
 </div>
 
 The Tengu are bird-like humanoids who embody the darker, more aggressive aspects of their avian lineage. While the Garukkan exhibit sociability and pride, the Tengu embrace tenacity, independence, and cunning with a more ominous undertone. Known for their eloquence and intelligence, Tengu are highly self-assured, with a significant ego that often leads to isolation from others, even within their own kind. Unlike the Garukkan, who enjoy mingling with other societies, the Tengu view the world with suspicion and prefer to operate alone or in small, tightly knit groups.  
@@ -705,8 +707,8 @@ Other: ?.
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/halfling-m.jpg">
     <img class="ethnics" src="../../images/ethnics/halfling-f.jpg">
-    <img class="ethnics" src="../../images/ethnics/halfling-m-2.jpg">
     <img class="ethnics" src="../../images/ethnics/halfling-f-2.jpg">
+    <img class="ethnics" src="../../images/ethnics/halfling-f-3.jpg">
 </div>
 
 Skills: Persuasion, Discretion, Acrobatics, Larceny, Survival, Negotiation, Finesse, Communication.  
@@ -736,7 +738,7 @@ Other: ?.
     <img class="ethnics" src="../../images/ethnics/celestial-m.jpg">
     <img class="ethnics" src="../../images/ethnics/celestial-f.jpg">
     <img class="ethnics" src="../../images/ethnics/celestial-m-2.jpg">
-    <img class="ethnics" src="../../images/ethnics/celestial-f-h.jpg">  
+    <img class="ethnics" src="../../images/ethnics/celestial-f-2.jpg">  
 </div>
 
 Skills: Spellcasting, Erudition, Defense, Tactical, Persuasion, Meditation, Leadership, Endurance.  
@@ -765,7 +767,8 @@ Other: ?.
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/qunari-m.jpg">
     <img class="ethnics" src="../../images/ethnics/qunari-f.jpg">
-    <img class="ethnics" src="../../images/ethnics/qunari-f-h.jpg">  
+    <img class="ethnics" src="../../images/ethnics/qunari-m-2.jpg">
+    <img class="ethnics" src="../../images/ethnics/qunari-f-2.jpg">
 </div>
 
 Skills: Melee, Tactical, Endurance, Leadership, Defense, Athletics, Persuasion, Survival.  
@@ -794,8 +797,11 @@ Other: ?.
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/troll-m.jpg">
     <img class="ethnics" src="../../images/ethnics/troll-f.jpg">
-    <img class="ethnics" src="../../images/ethnics/troll-f-h.jpg">  
+    <img class="ethnics" src="../../images/ethnics/troll-m-2.jpg">
+    <img class="ethnics" src="../../images/ethnics/troll-f-2.jpg">
 </div>
+
+The resemblance with qunaris is striking: long ears, horns, strong skin tone in various colors... however, trolls have horns oriented towards the ground and qunaris towards the top. The latter are also much better built and have a face with much harsher features. What differs between these two ethnic groups is again and above all their cultures: The qunaris are a sedentary warrior people, the trolls are a normadic and adventurous people.  
 
 Skills: Melee, Brawl, Endurance, Survival, Subterfuge, Defense, Tactical, Craftsmanship.  
 Strong attributes: ?.  
@@ -805,13 +811,13 @@ Other: ?.
 
 ## Semie ethnics
 
-### Nagan
+### Naggan
 
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/naggan-m.jpg">
     <img class="ethnics" src="../../images/ethnics/naggan-f.jpg">
     <img class="ethnics" src="../../images/ethnics/naggan-m-2.jpg">
-    <img class="ethnics" src="../../images/ethnics/naggan-f-2.jpg">  
+    <img class="ethnics" src="../../images/ethnics/naggan-f-3.jpg">  
 </div>
 
 Not to be confused with nagas, which is a monstrous version of this people.  
@@ -826,9 +832,9 @@ Other: ?.
 
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/centauran-m.jpg">
-    <img class="ethnics" src="../../images/ethnics/centauran-m-2.jpg">
+    <img class="ethnics" src="../../images/ethnics/centauran-f.jpg">
     <img class="ethnics" src="../../images/ethnics/centauran-m-3.jpg">
-    <img class="ethnics" src="../../images/ethnics/centauran-f.jpg">  
+    <img class="ethnics" src="../../images/ethnics/centauran-f-2.jpg">  
 </div>
 
 Not to be confused with centaurs, which is a monstrous version of this people.  
@@ -860,11 +866,11 @@ Other: ?.
     <img class="ethnics" src="../../images/ethnics/drakkan-black.jpg">
     <img class="ethnics" src="../../images/ethnics/drakkan-blue.jpg">
     <img class="ethnics" src="../../images/ethnics/drakkan-green.jpg">  
-    <img class="ethnics" src="../../images/ethnics/drakkan-white.jpg"> 
+    <img class="ethnics" src="../../images/ethnics/drakkan-purple.jpg"> 
     <img class="ethnics" src="../../images/ethnics/drakkan-yellow.jpg"> 
     <img class="ethnics" src="../../images/ethnics/drakkan-red.jpg"> 
-    <img class="ethnics" src="../../images/ethnics/drakkan-purple.jpg"> 
     <img class="ethnics" src="../../images/ethnics/drakkan-f.jpg"> 
+    <img class="ethnics" src="../../images/ethnics/drakkan-f-h.jpg"> 
 </div>
 
 Red (Tiamat): Children of the dragon of fire and war, they embody raw strength, wrath, and leadership. Highly persuasive and influential, they dominate through combat skills (Melee, Brawl) and tactical prowess. Magic is also present, often tied to fire.  
@@ -935,10 +941,10 @@ Other: ?.
 ### Gablin
 
 <div style="text-align: center;">
-    <img class="ethnics" src="../../images/ethnics/gablin-m.jpg">
-    <img class="ethnics" src="../../images/ethnics/gablin-f.jpg">
-    <img class="ethnics" src="../../images/ethnics/gablin-m-h.jpg">  
-    <img class="ethnics" src="../../images/ethnics/gablin-f-h.jpg">  
+    <img class="ethnics" src="../../images/ethnics/gablin-m-h.jpg">
+    <img class="ethnics" src="../../images/ethnics/gablin-f-h.jpg">
+    <img class="ethnics" src="../../images/ethnics/gablin-m-3.jpg">  
+    <img class="ethnics" src="../../images/ethnics/gablin-f-3.jpg">  
 </div>
 
 Not to be confused with goblins, which is a monstrous version of this people.  
