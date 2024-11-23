@@ -276,7 +276,7 @@ Other: ?.
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/bradanan-m.jpg">
     <img class="ethnics" src="../../images/ethnics/bradanan-f.jpg">
-    <img class="ethnics" src="../../images/ethnics/bradanan-m-2.jpg">
+    <img class="ethnics" src="../../images/ethnics/bradanan-m-0.jpg">
     <img class="ethnics" src="../../images/ethnics/bradanan-f-2.jpg">
 </div>
 
@@ -287,7 +287,7 @@ The Bradanan are dwarves who have assimilated into advanced human cities, thrivi
 Skills: Craftsmanship, Technology, Persuasion, Erudition, Investigation, Negotiation, Shooting, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
+Traits: ?.   
 Other: ?.
 
 ### Karazdan
@@ -729,7 +729,7 @@ Weak attributes: ?.
 Traits: ?.  
 Other: ?.
 
-### Dryads
+### Dryad / Treefolks
 
 <div style="text-align: center;">
     <img class="ethnics" src="../../images/ethnics/dryad-m.jpg">
@@ -737,6 +737,8 @@ Other: ?.
     <img class="ethnics" src="../../images/ethnics/dryad-m-2.jpg">  
     <img class="ethnics" src="../../images/ethnics/dryad-f-2.png">
 </div>
+
+Not to be confused with treants, which is a monstrous version of this people.
 
 Skills: Spellcasting, Survival, Meditation, Craftsmanship, Erudition, Defense, Hunting, Subterfuge.  
 Strong attributes: ?.  
@@ -753,6 +755,8 @@ Other: ?.
     <img class="ethnics" src="../../images/ethnics/celestial-f-2.jpg">  
 </div>
 
+Also called angels.  
+
 Skills: Spellcasting, Erudition, Defense, Tactical, Persuasion, Meditation, Leadership, Endurance.  
 Strong attributes: ?.  
 Weak attributes: ?.  
@@ -767,6 +771,8 @@ Other: ?.
     <img class="ethnics" src="../../images/ethnics/faery-f-2.jpg">
     <img class="ethnics" src="../../images/ethnics/faery-f-3.jpg">  
 </div>
+
+Not to be confused with pixies, which is a monstrous version of this people.
 
 Skills: Spellcasting, Acrobatics, Discretion, Subterfuge, Persuasion, Negotiation, Finesse, Art.  
 Strong attributes: ?.  
