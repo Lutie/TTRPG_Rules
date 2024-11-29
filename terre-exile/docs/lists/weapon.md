@@ -3,7 +3,10 @@ icon: material/label
 ---
 # Weapon List
 
-Weapon which bears properties have a minimum quality requirements at least equal to their number of properties.
+Weapon which bears properties have a minimum quality requirements at least equal to their number of properties.  
+
+<span style="color: red">Note: this list is not accurate since weapons gave Size/Width AND balance as core measures.
+Also most of the weapon's rules have been changed so... everything here is outdated and should be reworked accordingly.</span>
 
 ## Melee
 
