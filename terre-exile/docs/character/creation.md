@@ -14,6 +14,7 @@ Then player may:
 <div style="width: 50%">
 <ul>
 <li>(optional) Open himself to Magic or Logic</li>
+<li>Choose a race</li>
 <li>Choose an ethnicity</li>
 <li>Choose a culture</li>
 <li>Choose a persona</li>
@@ -34,93 +35,35 @@ You may take +5 bonus for one of those attributes by accepting a -5 malus to one
 Same attribute cannot receive more than two malus in this process.  
 At this step Magic or Logic cannot be higher than 25 (which is a total of 5 bonus).
 
+## Races  
+
+Your race is determined by how you were born.  
+Choose one the (8) races.  
+You can select your body and mind modifiers according to the possibilities of your race.  
+You get a +5 bonus to all that race's strong attributes.  
+You get a -5 malus to all that race's weak attributes.  
+You may choose and add one of the race's personality traits.  
+You get (all) the racial inate talent of the choosen race.  
+You open the corresponding racial path.  
+
 ## Ethnicities  
 
-Choose one the (50) ethnicities.  
-You get a +5 bonus to all that ethnic's strong attributes.  
-You get a -5 malus to all that ethnic's weak attributes.  
-You may choose one of the ethnic's talents and add it to your talents list.  
-Later one you will be able to open skills from your ethnic's list.  
-You open the corresponding racial path.
+Your ethnicity is determined by how you were born.  
+Choose one the (50) ethnicities which is related to your choosen race.  
+You get a +5 bonus to one of that ethnic's strong attributes.  
+You get a -5 malus to one of that ethnic's weak attributes.  
+You may choose and add one of the ethnic's personality traits.  
+You get (all) the ethnical inate talent of the choosen ethnicity.  
 
-| Ethnics             | Strong Attributes       | Weak Attributes | Traits | Race            |
-|---------------------|-------------------------|-----------------|--------|-----------------|
-| Albalonian          | DEX, WIL, STR           | LUK, INT, WIS   |        | Human           |
-| Attilian            | CON, CUN, STR           | LUK, CHA, INT   |        | Human           |
-| Bretonian           | INT, CUN, PER, LOG      | STR, AGI, LUK   |        | Human           |
-| Emperian            | CHA, INT, WIS, LOG, MAG | STR, LUK, CON   |        | Human           |
-| Kjeldorian          | PER, STR, CON           | CHA, LUK, CUN   |        | Human           |
-| Morrian             | AGI, PER, CON           | CHA, INT, LUK   |        | Human           |
-| Rosalian            | DEX, WIS, CHA           | STR, CON, AGI   |        | Human           |
-| Titanian            | CON, WIL, STR, MAG      | LUK, CHA, PER   |        | Human           |
-| Aurian              | AGI, WIS, PER, MAG      | STR, CON, CUN   |        | Human           |
-| Half Elf            | -                       | -               | -      | Mixed           |
-| Half Dwarf          | -                       | -               | -      | Mixed           |
-| Half Demie          | -                       | -               | -      | Mixed           |
-| Eldrazian           | DEX, AGI, CHA, CUN, MAG | STR, CON, LUK   |        | Elf             |
-| Selunean            | -                       | -               |        | Elf             |
-| Sylvanian           | -                       | -               |        | Elf             |
-| Thalassian          | -                       | -               |        | Elf             |
-| Ungordan            | -                       | -               |        | Elf             |
-| Bradanan            | -                       | -               | -      | Dwarf           |
-| Karazdan            | -                       | -               | -      | Dwarf           |
-| Ungordan            | -                       | -               | -      | Dwarf           |
-| Clan of the Errants | -                       | -               | -      | Dwarf           |
-| Clan of the Forge   | -                       | -               | -      | Dwarf           |
-| Clan of the Malt    | -                       | -               | -      | Dwarf           |
-| Clan of the Shield  | -                       | -               | -      | Dwarf           |
-| Clan of the Talion  | -                       | -               | -      | Dwarf           |
-| Clan of the Temple  | -                       | -               | -      | Dwarf           |
-| Celestial           | -                       | -               | -      | Demie           |
-| Dryads              | -                       | -               | -      | Demie           |
-| Fairies             | -                       | -               | -      | Demie           |
-| Halfling            | -                       | -               | -      | Demie           |
-| Qunari              | -                       | -               | -      | Demie           |
-| Trolls              | -                       | -               | -      | Demie           |
-| Nymphs              | -                       | -               | -      | Demie           |
-| Centaur             | -                       | -               | -      | Semie           |
-| Naggan              | -                       | -               | -      | Semie           |
-| Undine              | -                       | -               | -      | Semie           |
-| Okkan               | -                       | -               | -      | Feral           |
-| Nekkan              | -                       | -               | -      | Feral           |
-| Oni                 | -                       | -               | -      | Feral           |
-| Perskkan            | -                       | -               | -      | Feral           |
-| Bedokkan            | -                       | -               | -      | Feral           |
-| Raskkan             | -                       | -               | -      | Feral           |
-| Skaven              | -                       | -               | -      | Feral           |
-| Taurran             | -                       | -               | -      | Feral           |
-| Tengu               | -                       | -               | -      | Feral           |
-| Urssian             | -                       | -               | -      | Feral           |
-| Cervikkan           | -                       | -               | -      | Feral           |
-| Felkkan             | -                       | -               | -      | Feral           |
-| Garrukan            | -                       | -               | -      | Feral           |
-| Kitsune             | -                       | -               | -      | Feral           |
-| Koddan              | -                       | -               | -      | Feral           |
-| Leokkan             | -                       | -               | -      | Feral           |
-| Luppan              | -                       | -               | -      | Feral           |
-| Goblin              | -                       | -               | -      | Vermine         |
-| Ogre                | -                       | -               | -      | Vermine         |
-| Orkkan              | -                       | -               | -      | Vermine         |
-| Prometheus Spawn    | -                       | -               | -      | Semie (Drakkan) |
-| Leviathan Spawn     | -                       | -               | -      | Semie (Drakkan) |
-| Chromium Spawn      | -                       | -               | -      | Semie (Drakkan) |
-| Bahamut Spawn       | -                       | -               | -      | Semie (Drakkan) |
-| Aquilon Spawn       | -                       | -               | -      | Semie (Drakkan) |
-| Arcanum Spawn       | -                       | -               | -      | Semie (Drakkan) |
-| Tiamat Spawn        | -                       | -               | -      | Semie (Drakkan) |
+## Cultures  
 
-## Cultural  
-
-Choose one the (50) ethnicities for their culture.  
-You get a +5 bonus to all that cultural's strong attributes.  
-You get a -5 malus to all that cultural's weak attributes.  
-You may choose one of the cultural's talents and add it to your talents list.  
-Later one you will be able to open skills from your cultural's list.  
-You open the corresponding cultural path.
-
-Your ethnic is how you are born, your culture is how you are raised, both can match or not that's your decision.  
-To have the same ethnic and cultural can lead you to more focused attributes possibilities.  
-To have differents ethnic and cultural can lead you to a more diversed skill list.
+Your culture is determined by how (and/or where) you were raised or grew up.  
+Choose one the (50) ethnicities for their culture, this can match your race or not that's your decision.   
+You get a +5 bonus to one that cultural's strong attributes, it cannot be the same as your ethnicity.  
+You get a -5 malus to one that cultural's weak attributes.  
+You may choose and add one of the cultural's personality traits.  
+You get (all) the cultural inate talent of the choosen culture.  
+You open the corresponding cultural path.  
 
 ## Personas  
 
@@ -128,9 +71,9 @@ You have to choose one of those personas.
 For personas with at least one mental aligned attribute you can replace any of the strong attributes by either Magic or Logic, but at least one mental aligned attribute must remain.  
 You get a +5 bonus to all that persona's strong attributes.  
 You get a -5 malus to all that persona's weak attributes.  
-You may choose two of the race's traits and add it to your traits.
+You may choose two of the race's personality traits and add it to your personality traits.
 
-| Persona   | Strong Attributes                     | Weak Attributes                     | Traits                                                                                                                         |
+| Persona   | Strong Attributes                     | Weak Attributes                     | personality traits                                                                                                                         |
 |-----------|---------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Wolf      | Cunning, Charisma, Agility            | Dexterity, Wisdom, Perception       | Loyal, Fearless, Rebellious, Loudmouth, Cruel, Solitary, Organized, Spontaneous, Community-minded, Aggressive                  |
 | Fox       | Intelligence, Cunning, Perception     | Strength, Constitution, Willpower   | Curious, Selfish, Calculative, Selfish, Expressive, Seductive, Liar, Ascetic, Adventurous, Secretive                           |
@@ -179,12 +122,12 @@ You may choose two of the race's traits and add it to your traits.
 
 You MAY choose one background.  
 For backgrounds with two mental aligned attribute you can replace one of those attributes by either Magic or Logic.  
-You may choose 1 of the background's traits as an additional trait.
+You may choose 1 of the background's personality traits as an additional trait.
 
 This is optional and you can skip it entirely.  
 If so you may decide that your past do not affect your current self, or that it doesn't shaped you in any ways.
 
-| Background              | Bonus Attributes         | Penalty Attributes       | Traits                                                          |
+| Background              | Bonus Attributes         | Penalty Attributes       | personality traits                                                          |
 |-------------------------|--------------------------|--------------------------|-----------------------------------------------------------------|
 | Bookworm                | Intelligence, Wisdom     | Perception, Charisma     | Curious, Disciplined, Patient, Introverted, Organized           |
 | Farmhand                | Strength, Willpower      | Intelligence, Dexterity  | Hardworking, Modest, Loyal, Resilient, Practical                |
@@ -245,7 +188,7 @@ A same attributes cannot get two bonus that way.
 ## Archetype  
 
 You may choose one of the following archetypes: Martial, Specialist, Adventurer, Mage, Scholar, Intriguer, Freelance.  
-Later one you will be able to open skills from your archetype's list.  
+Later on you will be able to open skills from your archetype's list.  
 You open the corresponding archetype path.
 
 ## Specializations

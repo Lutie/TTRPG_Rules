@@ -22,8 +22,7 @@ The Emperians are a cultured and exemplary urban society known for their advance
 Skills: Erudition, Persuasion, Spellcrafting, Technology, Negotiation, Communication, Craftsmanship, Investigation.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Kjeldorian
 
@@ -41,8 +40,7 @@ Kjeldorians are master hunters and survivalists who thrive in tundra and cold ar
 Skills: Hunting, Survival, Athletics, Throw, Endurance, Melee, Defense, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Attilian
 
@@ -61,8 +59,7 @@ The Attilians are a hardy, resilient people who inhabit arid, desert-like region
 Skills: Survival, Endurance, Melee, Tactical, Hunting, Athletics, Brawl, Craftsmanship.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Rosalian
 
@@ -80,8 +77,7 @@ Rosalians are a highly spiritual, traditional people with strong beliefs and cus
 Skills: Meditation, Spellcasting, Negotiation, Erudition, Persuasion, Survival, Craftsmanship, Communication.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Albalonian
 
@@ -99,8 +95,7 @@ A militarized people with a centuries-long history of warfare, the Albalonians a
 Skills: Melee, Tactical, Endurance, Defense, Athletics, Brawl, Craftsmanship, Negotiation.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Morrian
 
@@ -118,8 +113,7 @@ Morrians are resilient, clan-based people who inhabit vast, desolate, and sparse
 Skills: Rural Life, Endurance, Craftsmanship, Brawl, Melee, Survival, Defense, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Titanian
 
@@ -135,8 +129,7 @@ This people of solid mountain people, vigorous and enduring, was shaped by the h
 Skills: ?.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Bretonian
 
@@ -154,8 +147,7 @@ Bretonians are a technologically advanced society known for their intellectual p
 Skills: Technology, Craftsmanship, Investigation, Tactical, Communication, Spellcrafting, Negotiation, Persuasion.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Aurian
 
@@ -169,8 +161,7 @@ This (currently extinguished) people are distant relatives to selunian elves.
 Skills: ...  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ## Elven ethnics
 
@@ -190,8 +181,7 @@ The Sylvanians are forest-dwelling elves who live in harmony with nature. They r
 Skills: Survival, Hunting, Spellcasting, Negotiation, Craftsmanship, Subterfuge, Melee, Defense.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Selunian
 
@@ -209,8 +199,7 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
 Skills: Spellcasting, Erudition, Persuasion, Craftsmanship, Negotiation, Spellcrafting, Meditation, Investigation.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Thalassian
 
@@ -228,8 +217,7 @@ Thalassians are water-oriented elves who feel at home near rivers, lakes, and oc
 Skills: Survival, Craftsmanship, Spellcrafting, Negotiation, Navigation, Swimming, Persuasion, Defense.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Eldrazian
 
@@ -247,8 +235,7 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
 Skills: Melee, Subterfuge, Spellcasting, Brawl, Discretion, Tactical, Manipulation, Athletics.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Urganian
 
@@ -266,8 +253,7 @@ Urganian Elves are reclusive, mystical, and fierce. They are known for their dee
 Skills: Spellcasting, Melee, Tactical, Persuasion, Defense, Meditation, Erudition, Subterfuge.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ## Dwarf ethnics
 
@@ -287,8 +273,7 @@ The Bradanan are dwarves who have assimilated into advanced human cities, thrivi
 Skills: Craftsmanship, Technology, Persuasion, Erudition, Investigation, Negotiation, Shooting, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.   
-Other: ?.
+Personality traits: ?.   
 
 ### Karazdan
 
@@ -306,8 +291,7 @@ The Karazdan are the core ethnic group of dwarven society, representing the prim
 Skills: Craftsmanship, Melee, Defense, Endurance, Tactical, Athletics, Brawl, Mining.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 The 6 Karazdan (biggest) Clans:
 
@@ -367,8 +351,7 @@ Ungordan Society:
 Skills: Survival, Melee, Defense, Tactical, Endurance, Mining, Spellcrafting, Investigation.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ## Feral ethnics
 
@@ -393,8 +376,8 @@ Totem: Uhlo, the Unifier.
 Skills: Survival, Hunting, Defense, Endurance, Detection, Communication, Athletics, Spiritism.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Nekkan
 
@@ -412,8 +395,8 @@ Totem: Adis, the Whisperer in Shadows.
 Skills: Subterfuge, Discretion, Larceny, Finesse, Urban Life, Negotiation, Acrobatics, Persuasion.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Felkkan
 
@@ -431,8 +414,8 @@ Totem: Eaos, the Boundless Sovereign.
 Skills: Melee, Survival, Athletics, Defense, Tactical, Endurance, Detection, Persuasion.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ### Koddan
 
@@ -450,8 +433,8 @@ Totem: Oborh, the Patient Beast.
 Skills: Survival, Endurance, Athletics, Hunting, Detection, Rural Life, Defense, Mysticism.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Bedokkan
 
@@ -469,8 +452,8 @@ Totem: Brera, the Reclusive Tyrant.
 Skills: Survival, Hunting, Brawl, Endurance, Detection, Craftsmanship, Rural Life, Athletics.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ### Garukkan
 
@@ -488,8 +471,8 @@ Totem: Reean, the Splendor of the Sky.
 Skills: Acrobatics, Athletics, Persuasion, Communication, Endurance, Defense, Rural Life, Finesse.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory or Pacifist.  
 
 ### Luppan
 
@@ -507,8 +490,8 @@ Totem: Zolir, the Little One.
 Skills: Art, Finesse, Discretion, Communication, Persuasion, Acrobatics, Survival, Subterfuge.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Leokkan
 
@@ -525,8 +508,8 @@ Totem: Ekneas, the Gracious Beast.
 Skills: Melee, Hunting, Detection, Athletics, Finesse, Survival, Subterfuge, Persuasion.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ### Cervikkan
 
@@ -543,8 +526,8 @@ Totem: Cevdos, the Father of All Lands.
 Skills: Rural Life, Hunting, Detection, Persuasion, Athletics, Survival, Defense, Know How.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Razzan
 
@@ -561,8 +544,8 @@ Totem: ?, the ?.
 Skills: Craftsmanship, Rural Life, Know How, Medicine, Detection, Communication, Hunting, Survival.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Peskkan
 
@@ -581,8 +564,8 @@ Totem: Edea, the Mother of All Sees.
 Skills: Survival, Occultism, Detection, Hunting, Investigation, Spiritism, Acrobatics, Subterfuge.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory or Pacifist.  
 
 ### Taurran
 
@@ -600,8 +583,8 @@ Totem: Siion, the Majestuous Horned Lord.
 Skills: Melee, Athletics, Endurance, Survival, Defense, Tactical, Brawl, Rural Life.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ## Cursed Feral ethnics
 
@@ -623,8 +606,8 @@ Totem: Ouros, the Disastrous Fang.
 Skills: Melee, Brawl, Endurance, Athletics, Subterfuge, Detection, Mysticism, Occultism.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ### Kitsune
 
@@ -644,8 +627,8 @@ Totem: Eaos, the Mischivious Hundred Tails.
 Skills: Subterfuge, Discretion, Persuasion, Mysticism, Spellcrafting, Occultism, Detection, Finesse.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pacifist.  
 
 ### Tengu
 
@@ -663,8 +646,8 @@ Totem: Fydall, the Boundless Nightmare.
 Skills: Acrobatics, Detection, Athletics, Brawl, Finesse, Survival, Communication, Throw.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ### Razkkan
 
@@ -681,8 +664,8 @@ Totem: Zegen, the Rotten Ambition.
 Skills: Larceny, Subterfuge, Occultism, Discretion, Detection, Urban Life, Investigation, Brawl.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ### Urssian
 
@@ -699,18 +682,18 @@ Totem: Udtar, the Juggernaut.
 Skills: Melee, Defense, Endurance, Athletics, Craftsmanship, Detection, Rural Life, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Predatory.  
 
 ## Minor Feral ethnics
 
 Not all animal breeds are represented in the rules because some of them represent the majority of existing individuals/declinations, but there are many more than that in nature corresponding to minorities scattered here and there. We will then speak of minor feral ethnicity and in these cases it is proposed to use the profile of an equivalent major ethnicity.
 
-| Ethnics | Animal | Equivalant to |
-| ------- | ------ | ------------- |
-| ? | Panda | Koddan |
-| ? | Canine (passive) | Okkan |
-| ? | Canine (agressive) | Onikkan |
+| Ethnics   | Animal             | Equivalant to |
+|-----------|--------------------|---------------|
+| Pandarran | Panda              | Koddan        |
+| ?         | Canine (passive)   | Okkan         |
+| ?         | Canine (agressive) | Onikkan       |
 
 ## Demie ethnics
 
@@ -726,8 +709,8 @@ Not all animal breeds are represented in the rules because some of them represen
 Skills: Persuasion, Discretion, Acrobatics, Larceny, Survival, Negotiation, Finesse, Communication.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pure.  
 
 ### Dryad / Treefolks
 
@@ -743,8 +726,8 @@ Not to be confused with treants, which is a monstrous version of this people.
 Skills: Spellcasting, Survival, Meditation, Craftsmanship, Erudition, Defense, Hunting, Subterfuge.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pure or Impure.  
 
 ### Celestial
 
@@ -760,8 +743,8 @@ Also called angels.
 Skills: Spellcasting, Erudition, Defense, Tactical, Persuasion, Meditation, Leadership, Endurance.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pure.  
 
 ### Fairies
 
@@ -777,8 +760,8 @@ Not to be confused with pixies, which is a monstrous version of this people.
 Skills: Spellcasting, Acrobatics, Discretion, Subterfuge, Persuasion, Negotiation, Finesse, Art.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pure.  
 
 ### Qunari
 
@@ -792,8 +775,8 @@ Other: ?.
 Skills: Melee, Tactical, Endurance, Leadership, Defense, Athletics, Persuasion, Survival.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Impure.  
 
 ### Nymphs
 
@@ -807,8 +790,8 @@ Other: ?.
 Skills: Spellcasting, Survival, Meditation, Craftsmanship, Defense, Finesse, Negotiation, Swimming.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
+Nature: Pure.  
 
 ### Trolls
 
@@ -824,8 +807,8 @@ The resemblance with qunaris is striking: long ears, horns, strong skin tone in 
 Skills: Melee, Brawl, Endurance, Survival, Subterfuge, Defense, Tactical, Craftsmanship.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.    
+Nature: Pure or Impure.  
 
 ## Semie ethnics
 
@@ -843,8 +826,7 @@ Not to be confused with nagas, which is a monstrous version of this people.
 Skills: Spellcasting, Subterfuge, Melee, Persuasion, Survival, Tactical, Negotiation, Defense.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Centauran
 
@@ -860,8 +842,7 @@ Not to be confused with centaurs, which is a monstrous version of this people.
 Skills: Melee, Tactical, Endurance, Leadership, Survival, Athletics, Persuasion, Defense.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Undine
 
@@ -875,8 +856,7 @@ Other: ?.
 Skills: Spellcasting, Swimming, Survival, Craftsmanship, Defense, Negotiation, Persuasion, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Drakkan
 
@@ -918,8 +898,7 @@ Drakkan spawns:
 Skills: Melee, Spellcasting, Endurance, Tactical, Leadership, Persuasion, Athletics, Defense.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ## Vermine ethnics
 
@@ -937,8 +916,7 @@ Not to be confused with ogre, which is a monstrous version of this people.
 Skills: Melee, Endurance, Brawl, Craftsmanship, Defense, Survival, Athletics, Tactical.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Orkkan
 
@@ -954,8 +932,7 @@ Not to be confused with orcs, which is a monstrous version of this people.
 Skills: Melee, Endurance, Tactical, Leadership, Brawl, Athletics, Defense, Survival.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
 
 ### Gablin
 
@@ -971,5 +948,4 @@ Not to be confused with goblins, which is a monstrous version of this people.
 Skills: Larceny, Discretion, Subterfuge, Survival, Acrobatics, Brawl, Finesse, Negotiation.  
 Strong attributes: ?.  
 Weak attributes: ?.  
-Traits: ?.  
-Other: ?.
+Personality traits: ?.  
