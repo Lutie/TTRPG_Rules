@@ -1,1 +1,5 @@
 site_name: Terre Natale
+extra_css:
+  - css/extra.css
+plugins:
+  - search
