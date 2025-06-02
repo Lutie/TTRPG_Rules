@@ -2,6 +2,48 @@ import pandas as pd
 import re
 import os
 
+ressource_mapping = {
+    ("martiale", "corps"): ("PV", "PE"),
+    ("martiale", "mixte"): ("PV", "PC"),
+    ("sociale", "esprit"): ("PS", "PE"),
+    ("sociale", "mixte"): ("PS", "PC"),
+    ("aventure", "esprit"): ("PK", "PS"),
+    ("aventure", "corps"): ("PK", "PV"),
+    ("aventure", "mixte"): ("PK", "PE"),
+    ("expert", "esprit"): ("PC", "PS"),
+    ("expert", "corps"): ("PC", "PV"),
+    ("expert", "mixte"): ("PC", "PE"),
+    ("joker", ""): ("PK", "PC"),
+    ("mage", "esprit"): ("PM", "PS"),
+    ("mage", "mixte"): ("PM", "PC"),
+    ("science", "esprit"): ("PR", "PS"),
+    ("science", "mixte"): ("PR", "PC"),
+}
+
+ressource_labels = {
+    "PV": "vitalité",
+    "PE": "endurance",
+    "PS": "spiritualité",
+    "PK": "karma",
+    "PM": "mana",
+    "PC": "chi",
+    "PR": "créativité",
+}
+
+def get_ressources(style, domaine):
+    # Nettoyage robuste
+    style = str(style).strip().lower()
+    domaine = str(domaine).strip().lower()
+
+    # Gestion spéciale si Domaine est vide
+    key = (domaine, style) if domaine else (style, "")
+    res1, res2 = ressource_mapping.get(key, ("voir documentation", "voir documentation"))
+
+    def label(abr):
+        return f"{abr} ({ressource_labels.get(abr, '???')})" if abr != "voir documentation" else abr
+
+    return label(res1), label(res2)
+
 # Dossier du script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -41,6 +83,8 @@ df = df.rename(columns={
     df.columns[0]: "Nom",
     df.columns[2]: "Attribut1",
     df.columns[3]: "Attribut2",
+    df.columns[4]: "Style",
+    df.columns[6]: "Domaine",
     df.columns[8]: "SauvegardesMajeures",
     df.columns[9]: "SauvegardesMineures",
     df.columns[11]: "Privilège",
@@ -81,8 +125,17 @@ for caste_type in ordre_types:
             f'<td style="width: 300px; vertical-align: top;"><img src="{image_path_for_md}" alt="{nom}" style="max-width: 100%; height: auto;"></td>'
         )
 
+        style = str(row.get("Style", "")).strip()
+        domaine = str(row.get("Domaine", "")).strip()
+        res1, res2 = get_ressources(style, domaine)
+
         markdown_lines.append("<td style='vertical-align: top;'>")
-        markdown_lines.append(f"<p><strong>Attributs</strong> : {row.get('Attribut1', '')}, {row.get('Attribut2', '')}<br>")
+        markdown_lines.append(f"<p><strong>Attributs 1</strong> : {row.get('Attribut1', '')}<br>")
+        markdown_lines.append(f"<strong>Attributs 2</strong> : {row.get('Attribut2', '')}<br>")
+        markdown_lines.append(f"<strong>Type</strong> : {row.get('Style', '')}<br>")
+        markdown_lines.append(f"<strong>Domaine</strong> : {row.get('Domaine', '')}<br>")
+        markdown_lines.append(f"<strong>Ressource 1</strong> : {res1}<br>")
+        markdown_lines.append(f"<strong>Ressource 2</strong> : {res2}<br>")
         markdown_lines.append(f"<strong>Sauvegardes majeures</strong> : {row.get('SauvegardesMajeures', '')}<br>")
         markdown_lines.append(f"<strong>Sauvegardes mineures</strong> : {row.get('SauvegardesMineures', '')}<br>")
         markdown_lines.append(f"<strong>Privilège</strong> : {row.get('Privilège', '')}<br>")

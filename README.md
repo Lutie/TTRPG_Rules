@@ -10,3 +10,5 @@ mkdocs serve -a 127.0.0.1:8001
 
 Icones Materials:
 https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+
+mkdocs gh-deploy
