@@ -58,7 +58,7 @@ if not os.path.exists(XLSX_PATH):
 
 # Lecture du fichier Excel
 df = pd.read_excel(XLSX_PATH, header=1)
-df = df[df[df.columns[0]].notna()]  # Ignore lignes sans nom de caste
+df = df[df[df.columns[0]].notna()] # Ignore lignes sans nom de caste
 
 # Normalisation simple : tout type non reconnu devient "fondamentale"
 def normaliser_type(val):
@@ -70,7 +70,6 @@ def normaliser_type(val):
     return "fondamentale"
 
 df["Type"] = df[df.columns[1]].apply(normaliser_type)
-
 
 # Affiche les castes ignorées
 non_reconnues = df[df["Type"].isna()]

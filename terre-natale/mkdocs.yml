@@ -3,3 +3,8 @@ extra_css:
   - css/extra.css
 plugins:
   - search
+nav:
+  - Accueil: index.md
+  - Classes: classes/castes/index.html
+  - Outils:
+    - Vitals: vitals/index.html
