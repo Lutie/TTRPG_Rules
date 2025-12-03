@@ -1,0 +1,211 @@
+# Sorts – Foudre
+
+> 15 sorts pour Foudre
+
+## Etincelles
+
+*Difficulté :* 16, *Drain :* 16
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
+
+**Mot de propagation :** Cône : Touche une cible, 3 cases de largeur et 2 cases de profondeur derrières elles (AOE spéciale).
+
+**Mot de structure :** Vague : Le sort, nécessairement en AOE, ne touche que les premières cibles d'une même lignes (en provenance de la cible d'origine de l'AOE), celles qui sont derrière ne sont pas affectée.
+*Modificateurs de Magnitude :* PWR +1
+
+**Mot de liaison :** Concentration : Chaque cases du sort rattaché à sa zone d'effet qui est bloquée par la typologie du lieu où il est lancé augmente la puissance du sort de 1, maximum 2 x dés.
+
+---
+
+## Foudrolle
+
+*Difficulté :* 14, *Drain :* 16
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
+
+**Mot de propagation :** Rayon : Touche une cible et jusqu'à 4 cases derrière celle ci (AOE spéciale).
+
+**Mot de liaison :** Large : La zone de propagation du sort est doublée.
+
+---
+
+## Nova de Foudre
+
+*Difficulté :* 10, *Drain :* 12
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Soi : Portée : Sans, Vecteur : Sans, Cible soi possible.
+
+**Mot de propagation :** Cercle : Comme carré mais ignore la cible (n'affecte que les cases à proximité donc, utile pour les novas).
+
+---
+
+## Grondement de Tonnerre
+
+*Difficulté :* 16, *Drain :* 16
+
+**Mot de pouvoir :** Condamnation (Condemno (Condamner) / Malconde (Mal + conde)) : Génère un enchantement négatif qui attends la mort de la cible afin de déclencher les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> avec la magnitude du sort qui doit être nécessairement un effet de dégats, l'effet a une rayon de 1m, le lanceur de sort peux décider de réduire la magnitude du sort de 1/5, 1/4 ou 1/3 afin de respectivement augmenter ce rayon à 2, 4 ou 8. Les dégats sont sujets aux règles de dégats de zone, etc...
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+**Mot de liaison :** Long : La distance de diffusion du sort est doublée.
+
+---
+
+## Désintégration
+
+*Difficulté :* 14, *Drain :* 14
+
+**Mot de pouvoir :** Désintégration (Integro (Intégrité) / Korintegr (Kor + integr)) : Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats structurels via <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+---
+
+## Fourche
+
+*Difficulté :* 18, *Drain :* 14
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Projectile : Portée : Portée magique x2, Vecteur : Vue.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+**Mot de structure :** Double : Le sort s'applique sur deux cibles distincts, ces deux cibles sont nécessaires.
+*Modificateurs de Magnitude :* PWR -1
+
+---
+
+## Paralysie
+
+*Difficulté :* 14, *Drain :* 14
+
+**Mot de pouvoir :** Affliction (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+**Notes :** Condition : Paralysie.
+
+---
+
+## Champs Magnétique
+
+*Difficulté :* 8, *Drain :* 10
+
+**Mot de pouvoir :** Magnétisme *(mot introuvable dans les dictionnaires)*
+
+**Mot de diffusion :** Soi : Portée : Sans, Vecteur : Sans, Cible soi possible.
+
+**Mot de propagation :** Cercle : Comme carré mais ignore la cible (n'affecte que les cases à proximité donc, utile pour les novas).
+
+---
+
+## Chaine d'éclairs
+
+*Difficulté :* 16+2X, *Drain :* 14+2X
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Projectile : Portée : Portée magique x2, Vecteur : Vue.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+**Mot de structure :** Chaine : Le sort s'applique puis change de cible, la nouvelle cible doit être valide, jusqu'à X fois en tout.
+*Modificateurs de Magnitude :* PWR +0/-1/-2/... (9)
+
+---
+
+## Pulsation Fracassante
+
+*Difficulté :* 16+2X, *Drain :* 14+2X
+
+**Mot de pouvoir :** Déflagration (Flagro (Brûler) / Morflagro (Mor + flagro)) : Génère un enchantement négatif qui attends la mise hors d'état de la cible (PV <= 0) afin de déclencher les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> avec les 2/3 de la magnitude du sort qui doit être nécessairement un effet de dégats, l'effet a une rayon de 1m, le lanceur de sort peux décider de réduire la magnitude du sort de 1/5, 1/4 ou 1/3 afin de respectivement augmenter ce rayon à 2, 4 ou 8. Les dégats sont sujets aux règles de dégats de zone, etc... La cible de l'enchantement est elle même affectée par le sort mais pour elle ce ne sont pas des dégats de zone.
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+**Mot de structure :** Chaine : Le sort s'applique puis change de cible, la nouvelle cible doit être valide, jusqu'à X fois en tout.
+*Modificateurs de Magnitude :* PWR +0/-1/-2/... (9)
+
+---
+
+## Elémentaire de Foudre
+
+*Difficulté :* 14, *Drain :* 16
+
+**Mot de pouvoir :** Elémentaire (Elementum (Élément) / Voele (Vo + ele)) : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+
+**Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+---
+
+## Tempête d'éclairs
+
+*Difficulté :* 18, *Drain :* 18
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Zone : Touche une cible et 3 cases à proximité (AOE 7).
+
+**Mot de structure :** Pluie : Le sort s'applique au moment où il est lancé puis aux cinq rounds d'après, même cible, la cible doit être un lieu.
+*Modificateurs de Magnitude :* PWR -3/-3/-3/-3/-3/-3 (6)
+
+---
+
+## Glype de Protection d'éclairs
+
+*Difficulté :* 14, *Drain :* 14
+
+**Mot de pouvoir :** Mitigation (Mitis (Doux) / Luxmitis (Lux + mitis)) : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+---
+
+## Boule Fulgurante
+
+*Difficulté :* 12, *Drain :* 12
+
+**Mot de pouvoir :** Titan *(mot introuvable dans les dictionnaires)*
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Unique : Touche une cible unique.
+
+**Mot de liaison :** Ephémère : Le sort d'invocation ne dure qu'un cycle unique, l'invocation est avantagé a ses tests & jets.
+
+---
+
+## Vermillion
+
+*Difficulté :* 18+X, *Drain :* 18+X
+
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+
+**Mot de propagation :** Zone : Touche une cible et 3 cases à proximité (AOE 7).
+
+**Mot de structure :** Puit : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.
+*Modificateurs de Magnitude :* PWR -2/-2/-2 (6)
+
+**Mot avancé :** Supérieur : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.

@@ -20,9 +20,15 @@ The dominant human culture of the Lowlands, coming from a society that embraces 
 The Emperians are a cultured and exemplary urban society known for their advancements in magic, technology, and military strategy. While they lean towards the mystical, they are equally open to integrating both scientific and combat techniques into their society. They thrive in highly developed city areas, often associated with elegance and refined lifestyles. Socially adept and politically influential, they are known for their erudition, persuasion, and craftsmanship, making them prominent figures in the upper echelons of urban society.
 
 Skills: Erudition, Persuasion, Spellcrafting, Technology, Negotiation, Communication, Craftsmanship, Investigation.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: Free.  
+Allegiance: Arcane, Magic, Steam, Technology, Fate or None.  
+Living environment: Urban, City Dweller, Rural.  
+Birth particularity: Autority.  
+Cultural particularity: Affinity with luck (1).  
 
 ### Kjeldorian
 
@@ -38,9 +44,15 @@ The inhabitants of the tundras and snow-capped mountains, known for their braver
 Kjeldorians are master hunters and survivalists who thrive in tundra and cold areas. Their connection to the land and the harsh climate shapes their skills in tracking, hunting, and tactical warfare. Known for their strength, constitution, and perception, Kjeldorians excel in combat and endurance-related pursuits. Their society highly values resilience, defense, and strategic thinking, which are reflected in their abilities to navigate and thrive in unforgiving environments.
 
 Skills: Hunting, Survival, Athletics, Throw, Endurance, Melee, Defense, Tactical.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Attilian
 
@@ -57,9 +69,15 @@ Those inhabitants of arid lands and burning deserts, are beings imbued with dark
 The Attilians are a hardy, resilient people who inhabit arid, desert-like regions. Known for their incredible willpower and survival skills, they are deeply connected to their harsh environment, developing a strong cultural emphasis on endurance and tactical strength. Their society values strength of character and physical prowess, and they are often described as unyielding and tenacious. Hunting and crafting are also central aspects of their lifestyle, enabling them to sustain themselves in challenging conditions.
 
 Skills: Survival, Endurance, Melee, Tactical, Hunting, Athletics, Brawl, Craftsmanship.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Rosalian
 
@@ -75,9 +93,15 @@ The inhabitants of the eastern lands are calm, wise and refined beings. Their ma
 Rosalians are a highly spiritual, traditional people with strong beliefs and customs. Inspired by Asian influences, they integrate meditation, magic, and craftsmanship into their way of life. Their society holds erudition and negotiation in high regard, and they are known for their diplomatic skills and depth of knowledge. Rosaliens excel in communication and persuasion, often taking on roles as mediators and advisors. Respect for history and culture is central to their identity.
 
 Skills: Meditation, Spellcasting, Negotiation, Erudition, Persuasion, Survival, Craftsmanship, Communication.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Albalonian
 
@@ -93,9 +117,15 @@ This people, forged by centuries of war and incessant battles, lives in a state 
 A militarized people with a centuries-long history of warfare, the Albalonians are fiercely dedicated to combat and tactics. Their society prioritizes physical strength, endurance, and defensive abilities, making them skilled fighters and strategic thinkers. Albalonians are deeply rooted in tradition and loyalty, often choosing lives of service and protection for their communities. They are natural leaders on the battlefield, known for their strong negotiation skills and unyielding tenacity.
 
 Skills: Melee, Tactical, Endurance, Defense, Athletics, Brawl, Craftsmanship, Negotiation.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Morrian
 
@@ -111,9 +141,15 @@ This nomadic people, devoid of large cities, travel in tribes through the wild l
 Morrians are resilient, clan-based people who inhabit vast, desolate, and sparsely fertile lands. Known for their strong sense of community and sedentary lifestyle, Morrians rely heavily on farming and craftsmanship. They are hardy and skilled in survival, often working with the land to sustain their small communities. Their culture values practical skills and a strong work ethic, emphasizing endurance, defense, and tactical abilities in order to protect and maintain their lands.
 
 Skills: Rural Life, Endurance, Craftsmanship, Brawl, Melee, Survival, Defense, Tactical.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Titanian
 
@@ -127,9 +163,15 @@ Personality traits: ?.
 This people of solid mountain people, vigorous and enduring, was shaped by the harshness of their life and their proximity to the dwarven nations. Their iron will and unfailing courage make them unshakeable in the face of the most arduous challenges.
 
 Skills: ?.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Bretonian
 
@@ -145,9 +187,15 @@ This people has elevated spirit, through things such as sciences and knowledge, 
 Bretonians are a technologically advanced society known for their intellectual pursuits and achievements in craftsmanship and invention. They value knowledge, investigation, and communication, making them prominent figures in trade and innovation. Bretonians have a reputation for combining their technological advancements with spellcrafting, blending magic and science to create powerful tools and inventions. They are often found in city environments that prioritize progress and
 
 Skills: Technology, Craftsmanship, Investigation, Tactical, Communication, Spellcrafting, Negotiation, Persuasion.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Aurian
 
@@ -159,9 +207,15 @@ Personality traits: ?.
 This (currently extinguished) people are distant relatives to selunian elves.
 
 Skills: ...  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ## Elven ethnics
 
@@ -179,9 +233,15 @@ This people of wood elves, with tanned and dark skin, are often called the brown
 The Sylvanians are forest-dwelling elves who live in harmony with nature. They rely on the gifts of the forest, practicing sustainable hunting, gathering, and woodworking. Sylvanians use magic cautiously and with respect for nature, and they possess an innate skill in tracking, survival, and melee combat. With scattered settlements across the lowlands, they influence the regions where they reside. Their culture is rooted in respect for flora and fauna, and they excel in crafts like woodworking and leatherworking.
 
 Skills: Survival, Hunting, Spellcasting, Negotiation, Craftsmanship, Subterfuge, Melee, Defense.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Selunian
 
@@ -197,9 +257,15 @@ These very sedentary people of pearly, pale-skinned elves, often called white el
 The Selunians are a mystical, refined society deeply connected to magic and scholarly pursuits. They incorporate magic into daily life—from construction to agriculture—and are known for their powerful mage academies, which produce elite magic-users. Selunians are relatively rare, and although they have few true settlements, they exert significant influence in certain human kingdoms, particularly in politics and the military. They are skilled in diplomacy and persuasion, and their culture emphasizes artistry and craftsmanship, particularly in textiles and statuary.
 
 Skills: Spellcasting, Erudition, Persuasion, Craftsmanship, Negotiation, Spellcrafting, Meditation, Investigation.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Thalassian
 
@@ -215,9 +281,15 @@ These people of sea elves, with blue skin, often called blue elves, are sailors 
 Thalassians are water-oriented elves who feel at home near rivers, lakes, and oceans. Known for their agility and adaptability, they are skilled in navigation and swimming, sometimes creating underwater cities through magic. Thalassians are also natural traders, using their aquatic skills to establish strong commercial connections. Their craftsmanship often involves materials from the sea, like shells and coral, and they are effective negotiators. They’re found mainly in coastal areas, occasionally forming communities on the water itself.
 
 Skills: Survival, Craftsmanship, Spellcrafting, Negotiation, Navigation, Swimming, Persuasion, Defense.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Eldrazian
 
@@ -233,9 +305,15 @@ This people, known as ebony elves or dark elves, have skin as black as jet. Dark
 Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among other elves. Recognized by their dark skin and intense disposition, they are highly disciplined, but without guidance, they may become violent and uncontrollable due to an innate “black gene.” Éldraziens live in secluded citadels where they learn to master their nature through rigorous training. Skilled in stealth, combat, and subterfuge, Éldraziens are often hired by human nobles as assassins, but they also serve as musicians, artists, or poets to mask their true purpose.
 
 Skills: Melee, Subterfuge, Spellcasting, Brawl, Discretion, Tactical, Manipulation, Athletics.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Urganian
 
@@ -251,9 +329,15 @@ This people, known by few and called as such as ruby elves or red elves, have sk
 Urganian Elves are reclusive, mystical, and fierce. They are known for their deep connection to magic and meditation, often adopting an austere, disciplined lifestyle that emphasizes self-control and focus. Unlike other elves, Urganians exhibit a strict, almost authoritarian attitude. Though rare, they are known for their strategic prowess in both magical and tactical domains. They are also skilled in persuasion and subtlety, often using their knowledge and experience to influence others indirectly.
 
 Skills: Spellcasting, Melee, Tactical, Persuasion, Defense, Meditation, Erudition, Subterfuge.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ## Dwarf ethnics
 
@@ -271,9 +355,15 @@ Commonly called city dwarves, this dwarf people live very close to humans, who f
 The Bradanan are dwarves who have assimilated into advanced human cities, thriving as engineers, craftsmen, and technologists. They are known for their pragmatism and adaptability in human-dominated environments, often bridging the gap between traditional dwarven skills and advanced sciences. Unlike other dwarves, Bradanan embrace innovation fully and distance themselves from mystical practices. They possess exceptional skill in ranged combat (e.g., throwing or shooting), technology, and various forms of crafting, making them invaluable assets in urban settings.
 
 Skills: Craftsmanship, Technology, Persuasion, Erudition, Investigation, Negotiation, Shooting, Tactical.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.   
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity:  
 
 ### Karazdan
 
@@ -289,9 +379,15 @@ The society of the Karazdan is generally perceived as the "main" society of this
 The Karazdan are the core ethnic group of dwarven society, representing the primary dwarven culture and lineage from which other clans draw their heritage. They live in rocky, hilly regions, practicing a robust lifestyle that emphasizes defense, mining, and physical endurance. The Karazdan who do not belong to specific clans are loyal to the High King, the central figure of dwarven sovereignty, whose authority unites the separate clan lords. Karazdan culture is rooted in loyalty, respect for tradition, and a strong emphasis on physical prowess, making them steadfast defenders of dwarven values.
 
 Skills: Craftsmanship, Melee, Defense, Endurance, Tactical, Athletics, Brawl, Mining.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 The 6 Karazdan (biggest) Clans:
 
@@ -349,9 +445,15 @@ Ungordan Society:
 - Servants and Laborers - The lowest caste, performing the menial tasks that keep the cities running. Despite their low status, they are an integral part of the Ungordan society.
 
 Skills: Survival, Melee, Defense, Tactical, Endurance, Mining, Spellcrafting, Investigation.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ## Feral ethnics
 
@@ -374,9 +476,15 @@ They are considered pacifist ferals, generally not seeking conflict with other c
 
 Totem: Uhlo, the Unifier.  
 Skills: Survival, Hunting, Defense, Endurance, Detection, Communication, Athletics, Spiritism.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Nekkan
@@ -393,9 +501,15 @@ They are considered pacifist ferals who do not seek direct conflict.
 
 Totem: Adis, the Whisperer in Shadows.  
 Skills: Subterfuge, Discretion, Larceny, Finesse, Urban Life, Negotiation, Acrobatics, Persuasion.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Felkkan
@@ -412,9 +526,15 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 
 Totem: Eaos, the Boundless Sovereign.  
 Skills: Melee, Survival, Athletics, Defense, Tactical, Endurance, Detection, Persuasion.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ### Koddan
@@ -431,9 +551,15 @@ They are considered pacifist ferals who do not seek direct conflict.
 
 Totem: Oborh, the Patient Beast.  
 Skills: Survival, Endurance, Athletics, Hunting, Detection, Rural Life, Defense, Mysticism.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Bedokkan
@@ -450,9 +576,15 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 
 Totem: Brera, the Reclusive Tyrant.  
 Skills: Survival, Hunting, Brawl, Endurance, Detection, Craftsmanship, Rural Life, Athletics.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ### Garukkan
@@ -469,9 +601,15 @@ However, this ethnicity suffers somewhat from the dispersion of its members, who
 
 Totem: Reean, the Splendor of the Sky.  
 Skills: Acrobatics, Athletics, Persuasion, Communication, Endurance, Defense, Rural Life, Finesse.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory or Pacifist.  
 
 ### Luppan
@@ -488,9 +626,15 @@ They are considered pacifist ferals who do not seek direct conflict... In fact, 
 
 Totem: Zolir, the Little One.  
 Skills: Art, Finesse, Discretion, Communication, Persuasion, Acrobatics, Survival, Subterfuge.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Leokkan
@@ -506,9 +650,15 @@ This ethnic group of feral beings comprises feline humanoids, bearing the traits
 
 Totem: Ekneas, the Gracious Beast.  
 Skills: Melee, Hunting, Detection, Athletics, Finesse, Survival, Subterfuge, Persuasion.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ### Cervikkan
@@ -524,9 +674,15 @@ This ethnic group of feral beings consists of cervine humanoids, adorned with an
 
 Totem: Cevdos, the Father of All Lands.  
 Skills: Rural Life, Hunting, Detection, Persuasion, Athletics, Survival, Defense, Know How.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Razzan
@@ -542,9 +698,15 @@ This ethnic group of feral beings consists of individuals who have the appearanc
 
 Totem: ?, the ?.  
 Skills: Craftsmanship, Rural Life, Know How, Medicine, Detection, Communication, Hunting, Survival.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Peskkan
@@ -562,9 +724,15 @@ They are either pacifists or predators depending on their sub-ethnicity, but if 
 
 Totem: Edea, the Mother of All Sees.  
 Skills: Survival, Occultism, Detection, Hunting, Investigation, Spiritism, Acrobatics, Subterfuge.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory or Pacifist.  
 
 ### Taurran
@@ -581,9 +749,15 @@ They are pacifists, but of a type that few predators seek quarrels with.
 
 Totem: Siion, the Majestuous Horned Lord.  
 Skills: Melee, Athletics, Endurance, Survival, Defense, Tactical, Brawl, Rural Life.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ## Cursed Feral ethnics
@@ -604,9 +778,15 @@ They are true predators.
 
 Totem: Ouros, the Disastrous Fang.  
 Skills: Melee, Brawl, Endurance, Athletics, Subterfuge, Detection, Mysticism, Occultism.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ### Kitsune
@@ -625,9 +805,15 @@ They are somewhat neutral and doesn't define themselves as pacifists or predator
 
 Totem: Eaos, the Mischivious Hundred Tails.  
 Skills: Subterfuge, Discretion, Persuasion, Mysticism, Spellcrafting, Occultism, Detection, Finesse.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pacifist.  
 
 ### Tengu
@@ -644,9 +830,15 @@ Tengu are natural predators, and some are known to resolve conflicts with lethal
 
 Totem: Fydall, the Boundless Nightmare.  
 Skills: Acrobatics, Detection, Athletics, Brawl, Finesse, Survival, Communication, Throw.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ### Razkkan
@@ -662,9 +854,15 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
 
 Totem: Zegen, the Rotten Ambition.  
 Skills: Larceny, Subterfuge, Occultism, Discretion, Detection, Urban Life, Investigation, Brawl.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ### Urssian
@@ -680,9 +878,15 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 
 Totem: Udtar, the Juggernaut.  
 Skills: Melee, Defense, Endurance, Athletics, Craftsmanship, Detection, Rural Life, Tactical.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Predatory.  
 
 ## Minor Feral ethnics
@@ -707,9 +911,15 @@ Not all animal breeds are represented in the rules because some of them represen
 </div>
 
 Skills: Persuasion, Discretion, Acrobatics, Larceny, Survival, Negotiation, Finesse, Communication.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pure.  
 
 ### Dryad / Treefolks
@@ -724,9 +934,15 @@ Nature: Pure.
 Not to be confused with treants, which is a monstrous version of this people.
 
 Skills: Spellcasting, Survival, Meditation, Craftsmanship, Erudition, Defense, Hunting, Subterfuge.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pure or Impure.  
 
 ### Celestial
@@ -741,9 +957,15 @@ Nature: Pure or Impure.
 Also called angels.  
 
 Skills: Spellcasting, Erudition, Defense, Tactical, Persuasion, Meditation, Leadership, Endurance.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pure.  
 
 ### Fairies
@@ -758,9 +980,15 @@ Nature: Pure.
 Not to be confused with pixies, which is a monstrous version of this people.
 
 Skills: Spellcasting, Acrobatics, Discretion, Subterfuge, Persuasion, Negotiation, Finesse, Art.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pure.  
 
 ### Qunari
@@ -773,9 +1001,15 @@ Nature: Pure.
 </div>
 
 Skills: Melee, Tactical, Endurance, Leadership, Defense, Athletics, Persuasion, Survival.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Impure.  
 
 ### Nymphs
@@ -788,9 +1022,15 @@ Nature: Impure.
 </div>
 
 Skills: Spellcasting, Survival, Meditation, Craftsmanship, Defense, Finesse, Negotiation, Swimming.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 Nature: Pure.  
 
 ### Trolls
@@ -805,9 +1045,15 @@ Nature: Pure.
 The resemblance with qunaris is striking: long ears, horns, strong skin tone in various colors... however, trolls have horns oriented towards the ground and qunaris towards the top. The latter are also much better built and have a face with much harsher features. What differs between these two ethnic groups is again and above all their cultures: The qunaris are a sedentary warrior people, the trolls are a normadic and adventurous people.
 
 Skills: Melee, Brawl, Endurance, Survival, Subterfuge, Defense, Tactical, Craftsmanship.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.    
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity:   
 Nature: Pure or Impure.  
 
 ## Semie ethnics
@@ -824,9 +1070,15 @@ Nature: Pure or Impure.
 Not to be confused with nagas, which is a monstrous version of this people.
 
 Skills: Spellcasting, Subterfuge, Melee, Persuasion, Survival, Tactical, Negotiation, Defense.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Centauran
 
@@ -840,9 +1092,15 @@ Personality traits: ?.
 Not to be confused with centaurs, which is a monstrous version of this people.
 
 Skills: Melee, Tactical, Endurance, Leadership, Survival, Athletics, Persuasion, Defense.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Undine
 
@@ -854,9 +1112,15 @@ Personality traits: ?.
 </div>
 
 Skills: Spellcasting, Swimming, Survival, Craftsmanship, Defense, Negotiation, Persuasion, Tactical.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Drakkan
 
@@ -896,9 +1160,15 @@ Drakkan spawns:
 - Purple (Arcanum) : Spellcasting, Erudition, Meditation, Spellcrafting, Persuasion, Craftsmanship, Tactical, Leadership.
 
 Skills: Melee, Spellcasting, Endurance, Tactical, Leadership, Persuasion, Athletics, Defense.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ## Vermine ethnics
 
@@ -914,9 +1184,15 @@ Personality traits: ?.
 Not to be confused with ogre, which is a monstrous version of this people.
 
 Skills: Melee, Endurance, Brawl, Craftsmanship, Defense, Survival, Athletics, Tactical.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Orkkan
 
@@ -930,9 +1206,15 @@ Personality traits: ?.
 Not to be confused with orcs, which is a monstrous version of this people.
 
 Skills: Melee, Endurance, Tactical, Leadership, Brawl, Athletics, Defense, Survival.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
 
 ### Gablin
 
@@ -946,6 +1228,12 @@ Personality traits: ?.
 Not to be confused with goblins, which is a monstrous version of this people.
 
 Skills: Larceny, Discretion, Subterfuge, Survival, Acrobatics, Brawl, Finesse, Negotiation.  
+Personality traits: ?.  
+
 Strong attributes: ?.  
 Weak attributes: ?.  
-Personality traits: ?.  
+Creation access: 
+Allegiance: 
+Living environment: 
+Birth particularity: 
+Cultural particularity: 
