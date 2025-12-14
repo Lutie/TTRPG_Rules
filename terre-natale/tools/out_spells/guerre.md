@@ -4,10 +4,10 @@
 
 ## Héroïsme
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Croisade
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

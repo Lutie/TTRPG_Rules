@@ -4,9 +4,9 @@
 
 ## Forme Bestiale
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
-**Mot de pouvoir :** Fortification (Fortis (Fort) / Brenfortis (Bren + fortis)) : Génère un effet qui augmente la défense passive contre les attaques physiques de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.
+**Mot de pouvoir :** Fortification ['Abju'!C46] (Fortis (Fort) / Brenfortis (Bren + fortis)) : Génère un effet qui augmente la défense passive contre les attaques physiques de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.
 
 **Mot de diffusion :** Soi : Portée : Sans, Vecteur : Sans, Cible soi possible.
 
@@ -16,22 +16,22 @@
 
 ## Métamorphose en Faucon
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Métamorphose en Rongeur
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Invocation d'Ours
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Invocation de Cerf
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

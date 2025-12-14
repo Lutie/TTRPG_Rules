@@ -4,9 +4,9 @@
 
 ## Serment des Druides
 
-*Difficulté :* 20, *Drain :* 20
+*Difficulté :* 18, *Drain :* 18
 
-**Mot de pouvoir :** Perturbation (Turbo (Troubler) / Centurb (Cen + turb)) : Génère un enchantement de lieu qui augmente la difficulté de sorts lancés dans la zone de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, la sauvegarde de détermination permettant de réduire cet effet.
+**Mot de pouvoir :** Perturbation ['Conj'!C52] (Turbo (Troubler) / Centurb (Cen + turb)) : Génère un enchantement de lieu qui augmente la difficulté de sorts lancés dans la zone de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, la sauvegarde de détermination permettant de réduire cet effet.
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -16,9 +16,9 @@
 
 ## Source Naturelle
 
-*Difficulté :* 14, *Drain :* 14
+*Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Réinvigoration (Roboro (Je fortifie) / Rhorobor (Rho + robor)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant l'endurance (PE), sans fatigue.
+**Mot de pouvoir :** Réinvigoration ['Rest'!C6] (Roboro (Je fortifie) / Rhorobor (Rho + robor)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant l'endurance (PE), sans fatigue.
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 

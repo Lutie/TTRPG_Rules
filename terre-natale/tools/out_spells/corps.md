@@ -4,9 +4,9 @@
 
 ## Force de Taureau
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Spécialisation (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
+**Mot de pouvoir :** Spécialisation ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -18,9 +18,9 @@
 
 ## Constitution de l'Ours
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Spécialisation (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
+**Mot de pouvoir :** Spécialisation ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -32,9 +32,9 @@
 
 ## Dextérité du Loups
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Spécialisation (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
+**Mot de pouvoir :** Spécialisation ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -46,9 +46,9 @@
 
 ## Agilité du Chat
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Spécialisation (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
+**Mot de pouvoir :** Spécialisation ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -60,9 +60,9 @@
 
 ## Perception de l'Aigle
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Spécialisation (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
+**Mot de pouvoir :** Spécialisation ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 

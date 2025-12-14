@@ -4,46 +4,46 @@
 
 ## Illusion des Grandeurs
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Caleïdoscope
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Images Mirroires
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Assassin Illusoire
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Image Fictive
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Son Fictif
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Apparence Altérée
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Mascarade
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

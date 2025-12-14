@@ -2,8 +2,7 @@
 
 > 43 mots pour ce domaine
 
-#### 1. Destruction
-
+#### 1. Destruction ['Dest'!C3]
 *École :* École de Destruction
 
 *Latin :* Ruptura (Rupture), *Arcanique :* Kinrupt (Kin + rupt)
@@ -16,8 +15,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 2. Expiation
-
+#### 2. Expiation ['Dest'!C9]
 *École :* École de Destruction
 
 *Latin :* Luo (Payer, laver), *Arcanique :* Krulex (Kru + lex)
@@ -30,8 +28,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 3. Eradication
-
+#### 3. Eradication ['Dest'!C11]
 *École :* École de Destruction
 
 *Latin :* Radix (Racine), *Arcanique :* Karadix (Ka + radix)
@@ -44,8 +41,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 4. Ruine
-
+#### 4. Ruine ['Dest'!C15]
 *École :* École de Destruction
 
 *Latin :* Ruina (Chute), *Arcanique :* Keluina (Kel + ruina)
@@ -58,8 +54,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 5. Attrition
-
+#### 5. Attrition ['Dest'!C18]
 *École :* École de Destruction
 
 *Latin :* Tero (Frotter, user), *Arcanique :* Kratrit (Kra + trit)
@@ -72,8 +67,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 6. Dissipation
-
+#### 6. Dissipation ['Dest'!C19]
 *École :* École de Destruction
 
 *Latin :* Dissipo (Je disperse), *Arcanique :* Kadisipo (Ka + disipo)
@@ -86,8 +80,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 7. Perdition
-
+#### 7. Perdition ['Dest'!C22]
 *École :* École de Destruction
 
 *Latin :* Perdo (Je perds), *Arcanique :* Kraperd (Kra + perd)
@@ -100,8 +93,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 8. Dérision
-
+#### 8. Dérision ['Dest'!C23]
 *École :* École de Destruction
 
 *Latin :* Rideo (Rire), *Arcanique :* Kinrideo (Kin + rideo)
@@ -114,8 +106,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 9. Abolition
-
+#### 9. Abolition ['Dest'!C48]
 *École :* École de Destruction
 
 *Latin :* Abolitio (Suppression), *Arcanique :* Kinelabol (Kin + abol)
@@ -128,8 +119,7 @@ Produit un effet qui provoque la mort de la cible si elle rate à la fois un tes
 
 ---
 
-#### 10. Corruption
-
+#### 10. Corruption ['Dest'!C64]
 *École :* École de Destruction
 
 *Latin :* Rumpo (Briser), *Arcanique :* Korrupt (Kor + rupt)
@@ -142,8 +132,7 @@ Génère un effet infligeant une condition de rupture (DOT), la cible peux réal
 
 ---
 
-#### 11. Mitigation
-
+#### 11. Mitigation ['Béné'!C60]
 *École :* École de Bénédiction
 
 *Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
@@ -156,8 +145,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 12. Consécration
-
+#### 12. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -170,8 +158,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 13. Irradiation
-
+#### 13. Irradiation ['Béné'!C104]
 *École :* École de Bénédiction
 
 *Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
@@ -184,8 +171,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 14. Dissipation
-
+#### 14. Dissipation ['Malé'!C6]
 *École :* École de Malédiction
 
 *Latin :* Disipo (Disperser), *Arcanique :* Mundisi (Mun + disi)
@@ -198,8 +184,7 @@ Produit un enchantement négatif qui réduit les charges de <span style="color:#
 
 ---
 
-#### 15. Exacerbation
-
+#### 15. Exacerbation ['Malé'!C7]
 *École :* École de Malédiction
 
 *Latin :* Acerbus (Acre, amer), *Arcanique :* Malacerb (Mal + acerb)
@@ -212,8 +197,7 @@ Produit un enchantement négatif qui double les charges, maximum <span style="co
 
 ---
 
-#### 16. Mutilation
-
+#### 16. Mutilation ['Malé'!C8]
 *École :* École de Malédiction
 
 *Latin :* Mutilo (Mutiler), *Arcanique :* Mormuti (Mor + muti)
@@ -226,8 +210,7 @@ Produit un effet d'enchantement négatif provoquant à chaque tour les effets d'
 
 ---
 
-#### 17. Infection
-
+#### 17. Infection ['Malé'!C56]
 *École :* École de Malédiction
 
 *Latin :* Tinguo (Teindre, imprégner), *Arcanique :* Mortingo (Mor + tingo)
@@ -240,8 +223,7 @@ Génère un enchantement négatif, à chaque fois que la cible reçoit des déga
 
 ---
 
-#### 18. Vulnérisation
-
+#### 18. Vulnérisation ['Malé'!C58]
 *École :* École de Malédiction
 
 *Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo)
@@ -254,8 +236,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 19. Désagrégation
-
+#### 19. Désagrégation ['Malé'!C64]
 *École :* École de Malédiction
 
 *Latin :* Cresco (Croître), *Arcanique :* Morcres (Mor + cres)
@@ -268,8 +249,7 @@ Génère un enchantement négatif qui provoque une double décharge des conditio
 
 ---
 
-#### 20. Fragilisation
-
+#### 20. Fragilisation ['Malé'!C66]
 *École :* École de Malédiction
 
 *Latin :* Frangere (Briser), *Arcanique :* Munfreg (Mun + freg)
@@ -282,8 +262,7 @@ Génère un enchantement négatif qui réduit toutes les sauvegardes de <span st
 
 ---
 
-#### 21. Drainement
-
+#### 21. Drainement ['Malé'!C69]
 *École :* École de Malédiction
 
 *Latin :* Haurio (Puiser), *Arcanique :* Mughaur (Mug + haur)
@@ -296,8 +275,7 @@ Génère un enchantement négatif qui réduit toutes les ressources (actuelles) 
 
 ---
 
-#### 22. Déprécation
-
+#### 22. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -310,8 +288,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 23. Épuisement
-
+#### 23. Épuisement ['Malé'!C120]
 *École :* École de Malédiction
 
 *Latin :* Fessus (Fatigué), *Arcanique :* Morfessu (Mor + fessu)
@@ -324,8 +301,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 24. Epuisement
-
+#### 24. Epuisement ['Malé'!C133]
 *École :* École de Malédiction
 
 *Latin :* Labor (Peine, effort), *Arcanique :* Muglabor (Mug + labor)
@@ -338,8 +314,7 @@ Génère un enchantement qui provoque une perte de PE équivalant à <span style
 
 ---
 
-#### 25. Exténuation
-
+#### 25. Exténuation ['Malé'!C150]
 *École :* École de Malédiction
 
 *Latin :* Fatisco (S'épuiser), *Arcanique :* Munfatis (Mun + fatis)
@@ -352,8 +327,7 @@ Génère un enchantement négatif qui double la fatigue reçues par la cible ave
 
 ---
 
-#### 26. Assèchement
-
+#### 26. Assèchement ['Malé'!C158]
 *École :* École de Malédiction
 
 *Latin :* Aridus (Sec), *Arcanique :* Munaris (Mun + aris)
@@ -366,8 +340,7 @@ Génère un enchantement négatif qui réduit les regains (via soins ou actions,
 
 ---
 
-#### 27. Épuisement
-
+#### 27. Épuisement ['Malé'!C159]
 *École :* École de Malédiction
 
 *Latin :* Consumo (Consumer), *Arcanique :* Malconsu (Mal + consu)
@@ -380,8 +353,7 @@ Génère un enchantement négatif qui réduit la récupération de la cible de <
 
 ---
 
-#### 28. Tarissement
-
+#### 28. Tarissement ['Malé'!C160]
 *École :* École de Malédiction
 
 *Latin :* Siccus (Sec), *Arcanique :* Morsicus (Mor + sicus)
@@ -394,8 +366,7 @@ Génère un enchantement négatif qui réduit les gains de ressources temporaire
 
 ---
 
-#### 29. Lassitude
-
+#### 29. Lassitude ['Malé'!C171]
 *École :* École de Malédiction
 
 *Latin :* Lassus (Fatigué), *Arcanique :* Mallassu (Mal + lassu)
@@ -408,8 +379,7 @@ Génère un enchantement négatif qui double la fatigue pour le calcule des pén
 
 ---
 
-#### 30. Elémentaire
-
+#### 30. Elémentaire ['Invoc'!C3]
 *École :* École d'Invocation
 
 *Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele)
@@ -422,8 +392,7 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 31. Corruption
-
+#### 31. Corruption ['Abju'!C8]
 *École :* École d'Abjuration
 
 *Latin :* Vitio (Corrompre), *Arcanique :* Borviti (Bor + viti)
@@ -436,8 +405,7 @@ Génère un effet qui retire jusqu'à <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 32. Obstruction
-
+#### 32. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -450,8 +418,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 33. Protestation
-
+#### 33. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -464,8 +431,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 ---
 
-#### 34. Neutralisation
-
+#### 34. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -478,8 +444,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé,
 
 ---
 
-#### 35. Interrogation
-
+#### 35. Interrogation ['Divi'!C11]
 *École :* École de Divination
 
 *Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
@@ -492,8 +457,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 36. Détection
-
+#### 36. Détection ['Divi'!C18]
 *École :* École de Divination
 
 *Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
@@ -506,8 +470,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 37. Signalement
-
+#### 37. Signalement ['Divi'!C19]
 *École :* École de Divination
 
 *Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
@@ -520,8 +483,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 38. Epidémie
-
+#### 38. Epidémie ['Evoc'!C32]
 *École :* École d'Évocation
 
 *Latin :* Demus (Peuple), *Arcanique :* Elodemus (Elo + demus)
@@ -534,8 +496,7 @@ Génère un effet qui transmet les conditions de la cible aux créatures à son 
 
 ---
 
-#### 39. Miasmes
-
+#### 39. Miasmes ['Conj'!C21]
 *École :* École de Conjuration
 
 *Latin :* Miasma (SouiLure, grec), *Arcanique :* Colmias (Col + mias)
@@ -548,8 +509,7 @@ Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un indiv
 
 ---
 
-#### 40. Démasquage
-
+#### 40. Démasquage ['Conj'!C36]
 *École :* École de Conjuration
 
 *Latin :* Larva (Masque), *Arcanique :* Cenlarva (Cen + larva)
@@ -562,8 +522,7 @@ Génère un enchantement qui réduit la faculté à mentir, falcifier, se dégui
 
 ---
 
-#### 41. Intoxication
-
+#### 41. Intoxication ['Alté'!C11]
 *École :* École d'Altération
 
 *Latin :* Toxum (Poison, grec), *Arcanique :* Altox (Al + tox)
@@ -576,8 +535,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 42. Canalisation
-
+#### 42. Canalisation ['Alté'!C22]
 *École :* École d'Altération
 
 *Latin :* Canalis (Conduit), *Arcanique :* Aencanali (Aen + canali)
@@ -590,8 +548,7 @@ Génère un effet qui redirige jusqu'à un maximum total de <span style="color:#
 
 ---
 
-#### 43. Décharge
-
+#### 43. Décharge ['Alté'!C25]
 *École :* École d'Altération
 
 *Latin :* Cargo (Charge), *Arcanique :* Ascargo (As + cargo)

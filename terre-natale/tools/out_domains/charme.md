@@ -2,8 +2,7 @@
 
 > 49 mots pour ce domaine
 
-#### 1. Privation
-
+#### 1. Privation ['Dest'!C39]
 *École :* École de Destruction
 
 *Latin :* Privo (Enlever), *Arcanique :* Kaprivo (Ka + privo)
@@ -16,8 +15,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 2. Démoralisation
-
+#### 2. Démoralisation ['Dest'!C68]
 *École :* École de Destruction
 
 *Latin :* Mos (Mœurs, caractère), *Arcanique :* Keldemos (Kel + demos)
@@ -30,8 +28,7 @@ Génère un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Mag
 
 ---
 
-#### 3. Inflexion
-
+#### 3. Inflexion ['Béné'!C29]
 *École :* École de Bénédiction
 
 *Latin :* Flecto (Courber), *Arcanique :* Lemfleco (Lem + fleco)
@@ -44,8 +41,7 @@ Génère un enchantement positif qui rend la cible plus difficulté à persuader
 
 ---
 
-#### 4. Perfectionnement
-
+#### 4. Perfectionnement ['Béné'!C73]
 *École :* École de Bénédiction
 
 *Latin :* Perficere (Achever), *Arcanique :* Lempfect (Lem + pfect)
@@ -58,8 +54,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 5. Inapparition
-
+#### 5. Inapparition ['Béné'!C82]
 *École :* École de Bénédiction
 
 *Latin :* Apareo (Apparaître), *Arcanique :* Lirapare (Lir + apare)
@@ -72,8 +67,7 @@ Génère un enchantement positif qui rend la cible moins marquante, les autres s
 
 ---
 
-#### 6. Consécration
-
+#### 6. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -86,8 +80,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 7. Vigilance
-
+#### 7. Vigilance ['Béné'!C155]
 *École :* École de Bénédiction
 
 *Latin :* Vigilo (Veiller), *Arcanique :* Luxvigil (Lux + vigil)
@@ -100,8 +93,7 @@ Génère un enchantement positif qui permet de se défendre des actions même si
 
 ---
 
-#### 8. Apaisement
-
+#### 8. Apaisement ['Béné'!C169]
 *École :* École de Bénédiction
 
 *Latin :* Paco (Pacifier), *Arcanique :* Lirpaco (Lir + paco)
@@ -114,8 +106,7 @@ Génère un enchantement positif qui protège la cible des émotions négatives,
 
 ---
 
-#### 9. Fascination
-
+#### 9. Fascination ['Malé'!C19]
 *École :* École de Malédiction
 
 *Latin :* Fascinum (Charme), *Arcanique :* Malfasci (Mal + fasci)
@@ -128,8 +119,7 @@ Génère un enchantement négatif qui octroie à une cible A un bonus à son app
 
 ---
 
-#### 10. Dépréciation
-
+#### 10. Dépréciation ['Malé'!C20]
 *École :* École de Malédiction
 
 *Latin :* Pretium (Prix, valeur), *Arcanique :* Morpret (Mor + pret)
@@ -142,8 +132,7 @@ Génère un enchantement négatif qui octroie à une cible A un malus à son app
 
 ---
 
-#### 11. Tentation
-
+#### 11. Tentation ['Malé'!C21]
 *École :* École de Malédiction
 
 *Latin :* Tempto (Tenter), *Arcanique :* Mugtemp (Mug + temp)
@@ -156,8 +145,7 @@ Génère un enchantement négatif qui persuade la cible que le lanceur de sort d
 
 ---
 
-#### 12. Suggestion
-
+#### 12. Suggestion ['Malé'!C30]
 *École :* École de Malédiction
 
 *Latin :* Subgero (Porter), *Arcanique :* Munsubger (Mun + subger)
@@ -170,8 +158,7 @@ Génère un enchantement négatif qui rend la cible moins difficulté à persuad
 
 ---
 
-#### 13. Provocation
-
+#### 13. Provocation ['Malé'!C34]
 *École :* École de Malédiction
 
 *Latin :* Voco (Appeler), *Arcanique :* Munvoco (Mun + voco)
@@ -184,8 +171,7 @@ Génère un enchantement négatif qui force la cible à s'en prendre en priorit�
 
 ---
 
-#### 14. Intimidation
-
+#### 14. Intimidation ['Malé'!C35]
 *École :* École de Malédiction
 
 *Latin :* Timeo (Craindre), *Arcanique :* Maltimo (Mal + timo)
@@ -198,8 +184,7 @@ Génère un enchantement négatif qui force la cible à ignorer une autre cible 
 
 ---
 
-#### 15. Adoration
-
+#### 15. Adoration ['Malé'!C36]
 *École :* École de Malédiction
 
 *Latin :* Oro (Prier), *Arcanique :* Mororo (Mor + oro)
@@ -212,8 +197,7 @@ Génère un enchantement négatif qui force la cible à aider une autre cible au
 
 ---
 
-#### 16. Déqualification
-
+#### 16. Déqualification ['Malé'!C72]
 *École :* École de Malédiction
 
 *Latin :* Qualis (Qualité), *Arcanique :* Morquali (Mor + quali)
@@ -226,8 +210,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 17. Duperie
-
+#### 17. Duperie ['Malé'!C75]
 *École :* École de Malédiction
 
 *Latin :* Fraus (Fraude), *Arcanique :* Malfrau (Mal + frau)
@@ -240,8 +223,7 @@ Produit un enchantement négatif qui force la cible à dire la vérité ou à me
 
 ---
 
-#### 18. Distraction
-
+#### 18. Distraction ['Malé'!C77]
 *École :* École de Malédiction
 
 *Latin :* Traho (Tirer), *Arcanique :* Mugdistra (Mug + distra)
@@ -254,8 +236,7 @@ Génère un enchantement négatif qui rend la cible plus marquante, les autres s
 
 ---
 
-#### 19. Déprécation
-
+#### 19. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -268,8 +249,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 20. Abdication
-
+#### 20. Abdication ['Malé'!C91]
 *École :* École de Malédiction
 
 *Latin :* Dico (Dire), *Arcanique :* Malabdi (Mal + abdi)
@@ -282,8 +262,7 @@ Génère un enchantement négatif qui résigne la cible à ne plus intervenir da
 
 ---
 
-#### 21. Perturbation
-
+#### 21. Perturbation ['Malé'!C114]
 *École :* École de Malédiction
 
 *Latin :* Turbo (Troubler), *Arcanique :* Munturb (Mun + turb)
@@ -296,8 +275,7 @@ Génère un enchantement négatif qui rend la cible plus sensibles aux émotions
 
 ---
 
-#### 22. Aberration
-
+#### 22. Aberration ['Malé'!C138]
 *École :* École de Malédiction
 
 *Latin :* Erro (EReur), *Arcanique :* Munerro (Mun + erro)
@@ -310,8 +288,7 @@ Génère un enchantement qui induit une confusion magique, la cible a une chance
 
 ---
 
-#### 23. Aliénation
-
+#### 23. Aliénation ['Malé'!C139]
 *École :* École de Malédiction
 
 *Latin :* Alienus (Étranger), *Arcanique :* Malalien (Mal + alien)
@@ -324,8 +301,7 @@ Génère un enchantement qui induit une folie magique, la cible a une chance sur
 
 ---
 
-#### 24. Intimidation
-
+#### 24. Intimidation ['Malé'!C140]
 *École :* École de Malédiction
 
 *Latin :* Paveo (Craindre), *Arcanique :* Morpaveo (Mor + paveo)
@@ -338,8 +314,7 @@ Génère un enchantement qui induit une peur magique, lorsque l'enchantement est
 
 ---
 
-#### 25. Effroi
-
+#### 25. Effroi ['Malé'!C141]
 *École :* École de Malédiction
 
 *Latin :* Pavor (Terreur), *Arcanique :* Mugpavor (Mug + pavor)
@@ -352,8 +327,7 @@ Génère un enchantement qui induit une Terreur magique, la cible a une chance e
 
 ---
 
-#### 26. Léthargie
-
+#### 26. Léthargie ['Malé'!C142]
 *École :* École de Malédiction
 
 *Latin :* Lethos (Oubli), *Arcanique :* Munletho (Mun + letho)
@@ -366,8 +340,7 @@ Génère un enchantement qui induit un sommeil magique, la cible est alors incap
 
 ---
 
-#### 27. Culpabilisation
-
+#### 27. Culpabilisation ['Malé'!C143]
 *École :* École de Malédiction
 
 *Latin :* Culpa (Faute), *Arcanique :* Malculpa (Mal + culpa)
@@ -380,8 +353,7 @@ Génère un enchantement qui induit un regret magique, la cible subit une perte 
 
 ---
 
-#### 28. Domination
-
+#### 28. Domination ['Malé'!C144]
 *École :* École de Malédiction
 
 *Latin :* Dominus (Maître), *Arcanique :* Mordomin (Mor + domin)
@@ -394,8 +366,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 29. Rebellion
-
+#### 29. Rebellion ['Malé'!C145]
 *École :* École de Malédiction
 
 *Latin :* Bello (Guerre), *Arcanique :* Mugbello (Mug + bello)
@@ -408,8 +379,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 30. Révolution
-
+#### 30. Révolution ['Malé'!C146]
 *École :* École de Malédiction
 
 *Latin :* Volvo (Rouler), *Arcanique :* Munvolvo (Mun + volvo)
@@ -422,8 +392,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 31. Rageance
-
+#### 31. Rageance ['Malé'!C147]
 *École :* École de Malédiction
 
 *Latin :* Ira (Colère), *Arcanique :* Malira (Mal + ira)
@@ -436,8 +405,7 @@ Génère un enchantement qui induit une rage magique, sachant que cet enchanteme
 
 ---
 
-#### 32. Annulation
-
+#### 32. Annulation ['Abju'!C12]
 *École :* École d'Abjuration
 
 *Latin :* Casso (Détruire, annuler), *Arcanique :* Belcasso (Bel + casso)
@@ -450,8 +418,7 @@ Génère un effet qui annule l'action à venir de la cible cette dernière a moi
 
 ---
 
-#### 33. Rétroaction
-
+#### 33. Rétroaction ['Abju'!C13]
 *École :* École d'Abjuration
 
 *Latin :* Ago (Agir), *Arcanique :* Basago (Bas + ago)
@@ -464,8 +431,7 @@ Génère un effet qui retourne l'action à venir de la cible contre elle même �
 
 ---
 
-#### 34. Obstruction
-
+#### 34. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -478,8 +444,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 35. Protestation
-
+#### 35. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -492,8 +457,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 ---
 
-#### 36. Neutralisation
-
+#### 36. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -506,8 +470,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé,
 
 ---
 
-#### 37. Dissuasion
-
+#### 37. Dissuasion ['Abju'!C39]
 *École :* École d'Abjuration
 
 *Latin :* Suadeo (Conseiller), *Arcanique :* Barvias (Bar + vias)
@@ -520,8 +483,7 @@ Génère un effet qui augmente la difficulté d'une action qui vise le lanceur d
 
 ---
 
-#### 38. Empathisation
-
+#### 38. Empathisation ['Divi'!C34]
 *École :* École de Divination
 
 *Latin :* Pathos (Sentiment), *Arcanique :* Darpath (Dar + path)
@@ -534,8 +496,7 @@ Génère un effet de perception des émotions (voir règle sur les "senseurs"), 
 
 ---
 
-#### 39. Exaltation
-
+#### 39. Exaltation ['Evoc'!C19]
 *École :* École d'Évocation
 
 *Latin :* Alto (Élever), *Arcanique :* Enalto (En + alto)
@@ -548,8 +509,7 @@ Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 40. Manifestation
-
+#### 40. Manifestation ['Evoc'!C35]
 *École :* École d'Évocation
 
 *Latin :* Manes (Esprits, apparences), *Arcanique :* Enmani (En + mani)
@@ -562,8 +522,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 41. Séquençation
-
+#### 41. Séquençation ['Evoc'!C39]
 *École :* École d'Évocation
 
 *Latin :* Sequor (Suivre), *Arcanique :* Ensequor (En + sequor)
@@ -576,8 +535,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 42. Fascination
-
+#### 42. Fascination ['Evoc'!C60]
 *École :* École d'Évocation
 
 *Latin :* Fascinum (Charme), *Arcanique :* Erufasci (Eru + fasci)
@@ -590,8 +548,7 @@ Génère un effet qui charme une personne, le sort remplace un test de prestige 
 
 ---
 
-#### 43. Induction
-
+#### 43. Induction ['Evoc'!C65]
 *École :* École d'Évocation
 
 *Latin :* Duco (Mener), *Arcanique :* Evduco (Ev + duco)
@@ -604,8 +561,7 @@ Génère une émotion (bien réelle, voir la liste dans les règles) sur la cibl
 
 ---
 
-#### 44. Suggestion
-
+#### 44. Suggestion ['Evoc'!C66]
 *École :* École d'Évocation
 
 *Latin :* Gero (Porter), *Arcanique :* Ensubger (En + subger)
@@ -618,8 +574,7 @@ Génère une suggestion qui implente un objectif ou désir nouveau chez la cible
 
 ---
 
-#### 45. Sédation
-
+#### 45. Sédation ['Evoc'!C72]
 *École :* École d'Évocation
 
 *Latin :* Sedeo (Être assis), *Arcanique :* Erusedeo (Eru + sedeo)
@@ -632,8 +587,7 @@ Le sort permet à la cible de s'endormir quelque soit son état d'agitement, mai
 
 ---
 
-#### 46. Subordination
-
+#### 46. Subordination ['Evoc'!C77]
 *École :* École d'Évocation
 
 *Latin :* Ordo (Ordre), *Arcanique :* Evsubor (Ev + subor)
@@ -646,8 +600,7 @@ Génère un effet qui force la cible à réaliser une action sur-le-champs, cela
 
 ---
 
-#### 47. Entrave
-
+#### 47. Entrave ['Conj'!C38]
 *École :* École de Conjuration
 
 *Latin :* Impedio (Empêcher), *Arcanique :* Cariped (Car + iped)
@@ -660,8 +613,7 @@ Génère un enchantement qui permet au lanceur de sort de empêcher sa cible d'a
 
 ---
 
-#### 48. Marionnettisation
-
+#### 48. Marionnettisation ['Conj'!C39]
 *École :* École de Conjuration
 
 *Latin :* Pupus (Poupée), *Arcanique :* Conpupa (Con + pupa)
@@ -674,8 +626,7 @@ Génère un enchantement qui permet au lanceur de sort de contrôler partielleme
 
 ---
 
-#### 49. Domination
-
+#### 49. Domination ['Conj'!C40]
 *École :* École de Conjuration
 
 *Latin :* Dominus (Maître), *Arcanique :* Cendomin (Cen + domin)

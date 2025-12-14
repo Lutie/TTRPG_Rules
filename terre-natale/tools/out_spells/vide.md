@@ -4,52 +4,52 @@
 
 ## Mot de Hâte
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Mot de Lenteur
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Quartz
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Portail
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Ralentir le Temps
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Accélérer le Temps
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Compression du Temps
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Tempus Fugit
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Maleström
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

@@ -4,7 +4,7 @@
 
 ## Puit de Famine
 
-*Difficulté :* 16, *Drain :* 16
+*Difficulté :* 14, *Drain :* 14
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -17,7 +17,7 @@
 
 ## Puit d'Ombre
 
-*Difficulté :* 16, *Drain :* 16
+*Difficulté :* 14, *Drain :* 14
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -30,7 +30,7 @@
 
 ## Puit de Faiblesse
 
-*Difficulté :* 16, *Drain :* 16
+*Difficulté :* 14, *Drain :* 14
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -43,9 +43,9 @@
 
 ## Flèche d'Ombre
 
-*Difficulté :* 18, *Drain :* 16
+*Difficulté :* 16, *Drain :* 14
 
-**Mot de pouvoir :** Eradication (Radix (Racine) / Karadix (Ka + radix)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Eradication ['Dest'!C11] (Radix (Racine) / Karadix (Ka + radix)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Projectile : Portée : Portée magique x2, Vecteur : Vue.
 
@@ -57,13 +57,13 @@
 
 ## Obscure Banissement
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Sommeil
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -73,15 +73,15 @@
 
 ## Voile d'Obscurité
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Elémentaire d'Ombre
 
-*Difficulté :* 14, *Drain :* 16
+*Difficulté :* 12, *Drain :* 14
 
-**Mot de pouvoir :** Elémentaire (Elementum (Élément) / Voele (Vo + ele)) : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+**Mot de pouvoir :** Elémentaire ['Invoc'!C3] (Elementum (Élément) / Voele (Vo + ele)) : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -91,4 +91,4 @@
 
 ## Abysse
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

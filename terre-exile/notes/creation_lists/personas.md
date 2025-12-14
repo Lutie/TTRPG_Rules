@@ -1,14 +1,14 @@
 ## Wolf
 
     Description: Wolves are known for loyalty, resilience, and cunning. They are strategic hunters, skilled at working in groups while remaining fiercely independent when needed.
-    Strong attributes: Ruse, Charisma, or Agility
+    Strong attributes: Cunning, Charisma, or Agility
     Weak attributes: Dexterity, Wisdom, or Perception
     Note: Wolves indeed embody cleverness over sheer force of will; their strength lies in cunning strategy and social dynamics within the pack.
 
 ## Fox
 
     Description: Foxes are clever, resourceful, and adaptive, known for their quick thinking and cunning in challenging situations. They excel in adapting to complex environments and are masters of evasion.
-    Strong attributes: Intelligence, Ruse, or Perception
+    Strong attributes: Intelligence, Cunning, or Perception
     Weak attributes: Strength, Constitution, or Willpower
     Note: Foxes are prized for their wit and agility, but they tend to lack physical resilience and brute strength.
 
@@ -29,7 +29,7 @@
 ## Snake
 
     Description: Snakes are stealthy, strategic, and resilient, often seen as mysterious and highly perceptive. Known to be masters of patience and surprise, they are symbols of wisdom and subtle strength.
-    Strong attributes: Ruse, Dexterity, or Agility
+    Strong attributes: Cunning, Dexterity, or Agility
     Weak attributes: Willpower, Constitution, or Strength
     Note: Snakes are delicate but cunning, relying on precision and subtlety over resilience or raw power.
 
@@ -43,9 +43,9 @@
 ## Raven
 
     Description: Ravens are clever and perceptive, often associated with mystery and cunning. They are symbols of insight and trickery, known to be scavengers and survivors capable of outwitting others.
-    Strong attributes: Intelligence, Luck, or Ruse
+    Strong attributes: Intelligence, Luck, or Cunning
     Weak attributes: Constitution, Strength, or Wisdom
-    Note: The raven’s cunning fits well with Ruse as a strong attribute, and a more clever, opportunistic approach rather than one tied to introspective wisdom.
+    Note: The raven’s cunning fits well with Cunning as a strong attribute, and a more clever, opportunistic approach rather than one tied to introspective wisdom.
 
 ## Boar
 
@@ -59,13 +59,13 @@
     Description: Cats are agile, observant, and independent, often quick to react and able to assess a situation with sharp instincts. Known for their balance and self-sufficiency, cats move gracefully and skillfully.
     Strong attributes: Agility, Dexterity, or Luck
     Weak attributes: Willpower, Constitution, or Charisma
-    Note: Cats’ strength lies in agility and intuition, though they may lack physical durability and are known for their aloofness.
+    Note: Cat's strength lies in agility and intuition, though they may lack physical durability and are known for their aloofness.
 
 ## Hawk
 
     Description: Hawks are sharp-eyed, powerful, and charismatic. They are creatures of precision and focus, often seen as symbols of royalty and authority, ruling over the skies with splendor and grace.
     Strong attributes: Perception, Charisma, or Dexterity
-    Weak attributes: Luck, Intelligence, or Ruse
+    Weak attributes: Luck, Intelligence, or Cunning
     Note: Hawks have a regal presence that fits well with Charisma as a strong trait, embodying more of an authoritative aura than wisdom.
 
 ## Sheep
@@ -78,7 +78,7 @@
 ## Rat
 
     Description: Rats are resourceful, cunning, and adaptable, able to survive in nearly any environment. Often underestimated, they are quick thinkers and skilled at finding creative solutions.
-    Strong attributes: Ruse, Dexterity, or Perception
+    Strong attributes: Cunning, Dexterity, or Perception
     Weak attributes: Charisma, Strength, or Willpower
     Note: Rats, with their reputation for survival and stealth, align well with cunning traits, though they lack physical power or charisma.
 
@@ -93,7 +93,7 @@
 
     Description: Dogs embody loyalty, courage, and companionship. They are devoted allies with a strong protective instinct and the ability to adapt well within social groups.
     Strong attributes: Charisma, Willpower, or Constitution
-    Weak attributes: Ruse, Dexterity, or Intelligence
+    Weak attributes: Cunning, Dexterity, or Intelligence
     Note: Dogs excel in social and emotional intelligence but are not known for slyness or intellectual complexity.
 
 ## Goat
@@ -106,7 +106,7 @@
 ## Spider
 
     Description: Spiders represent patience, cunning, and precision, spinning webs with care and waiting for the right moment to act. They are calculated and meticulous.
-    Strong attributes: Dexterity, Ruse, or Perception
+    Strong attributes: Dexterity, Cunning, or Perception
     Weak attributes: Strength, Charisma, or Constitution
     Note: Spiders' strength lies in precision rather than raw power or social appeal.
 
@@ -128,7 +128,7 @@
 
     Description: Horses are symbols of freedom, strength, and loyalty. They are powerful creatures with a sense of nobility and a close connection to human societies.
     Strong attributes: Strength, Agility, or Willpower
-    Weak attributes: Ruse, Intelligence, or Dexterity
+    Weak attributes: Cunning, Intelligence, or Dexterity
     Note: Horses’ strengths lie in power and endurance rather than cunning or intellectual prowess.
 
 ## Toad
@@ -149,14 +149,14 @@
 
     Description: Roosters are symbols of confidence, vigilance, and pride. They are often seen as brave and determined, willing to assert themselves and take on challenges without hesitation.
     Strong attributes: Charisma, Willpower, or Perception
-    Weak attributes: Strength, Ruse, or Dexterity
+    Weak attributes: Strength, Cunning, or Dexterity
     Note: Roosters are vocal and bold, relying on pride and willpower rather than physical strength or cunning to assert their dominance.
 
 ## Lion
 
     Description: Lions are majestic, commanding, and powerful, often viewed as natural leaders. They embody charisma and authority, inspiring respect and loyalty in others.
     Strong attributes: Charisma, Strength, or Willpower
-    Weak attributes: Ruse, Dexterity, or Intelligence
+    Weak attributes: Cunning, Dexterity, or Intelligence
     Note: Lions, with their regal presence, lead with authority rather than guile; their strength lies in social dominance and power, not subtlety.
 
 ## Pig
@@ -169,7 +169,7 @@
 ## Monkey
 
     Description: Monkeys are curious, clever, and adaptive, known for their quick wits and dexterous abilities. They thrive in complex situations, using intelligence and resourcefulness to their advantage.
-    Strong attributes: Dexterity, Intelligence, or Ruse
+    Strong attributes: Dexterity, Intelligence, or Cunning
     Weak attributes: Strength, Constitution, or Willpower
     Note: Monkeys are agile and clever but lack physical resilience and tend to struggle with patience, relying on their minds and nimble bodies.
 
@@ -184,7 +184,7 @@
 
     Description: Bulls are symbols of raw strength, stability, and determination. Known for their grounded nature, they are reliable and resilient but can be stubborn.
     Strong attributes: Strength, Constitution, or Willpower
-    Weak attributes: Dexterity, Ruse, or Agility
+    Weak attributes: Dexterity, Cunning, or Agility
     Note: Bulls are steady and powerful, thriving on persistence and stability over agility or cunning.
 
 ## Bee

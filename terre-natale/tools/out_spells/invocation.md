@@ -4,7 +4,7 @@
 
 ## Bête de Feu
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -14,7 +14,7 @@
 
 ## Bête de Glace
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -24,7 +24,7 @@
 
 ## Messager des Alizés
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -34,7 +34,7 @@
 
 ## Eclaireur Syldavien
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -44,7 +44,7 @@
 
 ## Appel du Loups
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -54,7 +54,7 @@
 
 ## Boule Fulgurante?
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -64,7 +64,7 @@
 
 ## Horde Squelettique
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -74,7 +74,7 @@
 
 ## Appel du Trent
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -84,7 +84,7 @@
 
 ## Appel de la Monture
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -94,7 +94,7 @@
 
 ## Appel du Voltomage
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 

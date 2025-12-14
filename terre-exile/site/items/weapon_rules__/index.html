@@ -1,0 +1,2080 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../armor_rules/">
+      
+      
+        <link rel="next" href="../weapon_rules_advanced/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Weapon Rules - Terre d'Exile</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+      <link rel="stylesheet" href="../../assets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#weapon-rules" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Terre d&#39;Exile" class="md-header__button md-logo" aria-label="Terre d'Exile" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Terre d'Exile
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Weapon Rules
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Terre d&#39;Exile" class="md-nav__button md-logo" aria-label="Terre d'Exile" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Terre d'Exile
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Character
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Character
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/attributes/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Attributes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/characteristics/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Characteristics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/creation/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Character creation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/ethnics/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Ethnics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/lores/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Lores Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/pathes/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Pathes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/progression/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Character progression
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/races/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Races
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/sheet/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Sheet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/skills/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Items
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Items
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../armor_rules/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Armor rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Weapon Rules
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Weapon Rules
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#weapon-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weapon characteristics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Weapon characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main characteristics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Main characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roll" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roll
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulck" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bulck
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#penalty" class="md-nav__link">
+    <span class="md-ellipsis">
+      Penalty
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particularities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Particularities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weapon_rules_advanced/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Weapon Advanced Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lists
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lists
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lists/magic_word/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Magic Words List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lists/weapon/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Weapon List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pathes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Pathes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pathes/1_racial/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Racial pathes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pathes/2_cultural/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Cultural pathes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pathes/3_archetype/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Archetype pathes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pathes/4_specialization/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Specialization pathes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pathes/5_organization/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Organization pathes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rules
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/a_how_to_play/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    How to play
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/core_adventure/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Adventure Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/core_battle/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Battle Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/core_social/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Social Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/d_core_magic/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Magic Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/h_advanced_battle/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Advanced Battle Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/w_glossary/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/y_additionals/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Additional Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/z_appendixe/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Appendixe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Skills
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Skills
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/adventure_skills/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Adventure skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/combat_skills/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Confrontation skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/magic_skills/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Magic skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/social_skills/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h11c.67 0 1.27-.34 1.63-.85L22 12z"/></svg>
+  
+  <span class="md-ellipsis">
+    Social skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Traits
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Traits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/archetype/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archetype
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/cultural/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cultural
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/general/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/racial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Racial
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#weapon-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weapon characteristics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Weapon characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main characteristics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Main characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      Range
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roll" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roll
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulck" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bulck
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#penalty" class="md-nav__link">
+    <span class="md-ellipsis">
+      Penalty
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#particularities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Particularities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="weapon-rules">Weapon Rules</h1>
+<h2 id="weapon-characteristics">Weapon characteristics</h2>
+<h3 id="main-characteristics">Main characteristics</h3>
+<p>This is basically what makes a weapon unique.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Values</th>
+<th>Short description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Category</td>
+<td style="text-align: center;">1 ~ 5</td>
+<td>represents complexity and efficiency</td>
+</tr>
+<tr>
+<td>Type</td>
+<td style="text-align: center;">sharp, blunt, piercing, flexible</td>
+<td>represents how the weapon deals damage</td>
+</tr>
+<tr>
+<td>Grip</td>
+<td style="text-align: center;">hilt (DEX), handle (STR), shaft (AGI), range (PER)</td>
+<td>represents the way the weapon is wielded</td>
+</tr>
+<tr>
+<td>Size</td>
+<td style="text-align: center;">-1 ~ 1, default 0</td>
+<td>represents the size of the weapon in relation to standards</td>
+</tr>
+<tr>
+<td>Width</td>
+<td style="text-align: center;">-1 ~ 1, default 0</td>
+<td>represents the width of the weapon in relation to standards</td>
+</tr>
+<tr>
+<td>Balance</td>
+<td style="text-align: center;">-1 ~ 1, default 0</td>
+<td>represents the balance of the weapon in relation to standards</td>
+</tr>
+<tr>
+<td>Archetype</td>
+<td style="text-align: center;">sword, axe, hast, mace, exotic</td>
+<td>defines the family in which the weapon in question falls</td>
+</tr>
+</tbody>
+</table>
+<h4 id="category">Category</h4>
+<p>Category is a clever mix between complexity, heaviness, size, efficiency... the more advanced a weapon is, the more effective it will be but will require significant training to take advantage of it.</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th style="text-align: center;">Type</th>
+<th style="text-align: center;">Roll</th>
+<th style="text-align: center;">Bulk</th>
+<th style="text-align: center;">Weight</th>
+<th style="text-align: center;">Penalty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td style="text-align: center;">None</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align: center;">Common</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">1/2</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: center;">Skirmish</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: center;">Battle</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">1 + 1/2</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td>4</td>
+<td style="text-align: center;">Siege</td>
+<td style="text-align: center;">d10</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td>5</td>
+<td style="text-align: center;">War</td>
+<td style="text-align: center;">d12</td>
+<td style="text-align: center;">2 + 1/2</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>No Weapon</strong>: This category represent the absence of weapons.<br />
+This represents the absence of a weapon. Generally we then speak of a natural weapon. In certain cases the natural weapon is considered to be of a higher category, the character can then use it as such but must comply with the conditions of use (weight, penalties), he can however choose to manipulate such a weapon. weapon as if it were of a lower category. Since natural weapons cannot be unequipped bulck is never relevant for them.</p>
+<p><strong>Common Weapons</strong>: These weapons are the most widespread and accessible to the general population, including hunters. They include daggers, staves, and clubs. Light and easy to handle, they are often chosen for personal defense or as versatile tools in daily life. Their simplicity and limited effectiveness make them ideal for small-scale confrontations or for individuals without combat training.</p>
+<p><strong>Skirmish Weapons</strong>: Designed for fast and mobile confrontations, these weapons favor speed and surprise. They include short swords, light bows, and spears. Used in harassment or reconnaissance tactics, these weapons allow fighters to quickly engage the enemy and withdraw before reinforcements arrive. They are favored by scouts and small mobile units.</p>
+<p><strong>Battle Weapons</strong>: Robust and effective, these weapons are designed for major clashes between armed forces. Including longswords, battle axes, and clubs, they require some skill to use effectively but can inflict considerable damage. Heavy armor and shields are often associated with these weapons, providing fighters with increased protection during pitched battles.</p>
+<p><strong>Siege Weapons</strong>: Specifically designed for breaching fortifications or fighting under siege conditions, these weapons include battering rams, catapults, and heavy crossbows. They are characterized by their imposing size and their need to be operated by several people or complex mechanisms. Their use is crucial to overcoming enemy defenses and paving the way for an invasion.</p>
+<p><strong>Weapons of War</strong>: These weapons symbolize large-scale conflict and are often centerpieces on the battlefield. Including trebuchets, ballistae, and other large-scale war machines, they require significant logistics for their transport, assembly, and use. These weapons are capable of changing the course of a war thanks to their considerable destructive power and their ability to inflict massive casualties.</p>
+<p>Category have a direct effect on:</p>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Every additional Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Roll</td>
+<td>+1 dice size</td>
+</tr>
+<tr>
+<td>Bulk</td>
+<td>+1/2</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>+10</td>
+</tr>
+<tr>
+<td>Penalty</td>
+<td>+1</td>
+</tr>
+</tbody>
+</table>
+<p>Also a weapon is broken when its break counter reach its category, meaning category is directly bind to a weapon's durability.</p>
+<h4 id="range">Range</h4>
+<p>Range is 0 by default.<br />
+A range of 0 means a character can only attack/act on an adjacent hex/cell (an hex/cell that touches his own, this count edges).<br />
+A range of 1 for instance means that there can be 1 hex/cell between the user and its target.<br />
+This range can be improved by properties and such.</p>
+<h4 id="roll">Roll</h4>
+<p>Roll is 0 by default.<br />
+When an action performance is measurable by the result of throw then roll is added as many time as action ger success.<br />
+A minor success add roll once.<br />
+A major success add roll twice.<br />
+A critical success add roll tree times.<br />
+A super critical success add roll four times.<br />
+Roll from weapons are mostly expressed in dice (sometime with plus or minus fix value), all dices must be thrown to check their results.</p>
+<h4 id="bulck">Bulck</h4>
+<p>Bulck represent the clutter generated by the item when stored in the character inventory space.<br />
+Actively equiped equipements bulck are not counted.</p>
+<h4 id="weight">Weight</h4>
+<p>The weight represents the mass of the weapon and therefore the force necessary to use it correctly.<br />
+If a user take action with a weapon while his strenght value is below the weight then this action is disadvantaged.</p>
+<h4 id="penalty">Penalty</h4>
+<p>Penalty represents difficulty to use a weapon, if not because of its size and shape then it can be because of its weight or anything else.<br />
+The higher the category of a weapon, the greater the difficulty in using it. We are talking here about a weapon for an even more military purposes as the category is high, the practical aspect is put aside for much greater efficiency, especially since fighters uses the weapon for which he are trained, which reduces or eliminates the effect of penalties.<br />
+Proper training rank reduce penalties by that much.<br />
+Left penalties are applied as malus for testing purpose making us of the weapon.</p>
+<h4 id="type">Type</h4>
+<p>Weapon type represents the type of damage dealt by the weapon's primary deadly surface or how it is used.<br />
+Weapon type makes a big difference when it comes to the value of the weapon's rolls or the weapon triangle.<br />
+The average of the weapon's rolls is always the same (except in cases noted * or **), but the calculation differs, which can make a difference in situations affecting these values.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Common</th>
+<th>Skirmish</th>
+<th>Battle</th>
+<th>Siege</th>
+<th>War</th>
+<th>Damage type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sharp</td>
+<td>1d4 (1~4)</td>
+<td>1d6 (1~6)</td>
+<td>1d8 (1~8)</td>
+<td>1d10 (1~10)</td>
+<td>1d12 (1~12)</td>
+<td>Slash</td>
+</tr>
+<tr>
+<td>Blunt</td>
+<td>1d6-1 (0~5)</td>
+<td>1d8-1 (0~7)</td>
+<td>1d10-1 (0~9)</td>
+<td>1d12-1 (0~11)</td>
+<td>2d6 (2~12) **</td>
+<td>Chop</td>
+</tr>
+<tr>
+<td>Piercing</td>
+<td>1d2+1 (2~3)</td>
+<td>1d4+1 (2~5)</td>
+<td>1d6+1 (2~7)</td>
+<td>1d8+1 (2~9)</td>
+<td>1d10+1 (2~11)</td>
+<td>Thrust</td>
+</tr>
+<tr>
+<td>Flexible</td>
+<td>2 (2) *</td>
+<td>1d2+2 (3~4)</td>
+<td>1d4+2 (3~6)</td>
+<td>1d6+2 (3~8)</td>
+<td>1d8+2 (3~10)</td>
+<td>Abrasive</td>
+</tr>
+<tr>
+<td>Average</td>
+<td>2,5</td>
+<td>3,5</td>
+<td>4,5</td>
+<td>5,5</td>
+<td>6,6</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>** : Penalty increased by 1</p>
+<h4 id="grip">Grip</h4>
+<p>The grip defines which attribute is used to handle the weapon in order to perform attacks.
+It does not affect tactics and defenses, which depends on their nature.</p>
+<ul>
+<li><strong>Hilted Weapons</strong> (like swords): Weapons with a hilt are those whose handling requires great finesse and precision. The handle allows for quick and precise movements, necessary to strike specific targets or exploit opponent's weaknesses. For this reason, the main attribute for wielding these weapons is Dexterity (DEX). Dexterity reflects the fighter's ability to perform precise and coordinated movements, essential to getting the most out of grip weapons.</li>
+<li><strong>Handled Weapons</strong> (such as axes): Weapons with handles are designed to inflict damage through brute force. The handle extends the reach of the weapon and increases the power of the blow thanks to the force applied. Effectively using a hafted weapon therefore requires considerable Strength (FOR). Strength influences the fighter's ability to lift, swing, and strike with the weapon, transforming muscular energy into devastating punching power.</li>
+<li><strong>Shafted Weapons</strong> (such as spears): Shafted weapons combine extended reach with the need for quick, controlled movements, exploiting both the reach to keep the enemy at bay and the ability to deliver rapid blows . For this reason, the main attribute for these weapons is Agility (AGI). Agility determines the fighter's ability to manipulate the weapon with velocity and precision, allowing them to react quickly to the opponent's movements while maintaining a safe distance.</li>
+<li><strong>Ranged Weapons</strong> (such as bows or rifles): Ranged weapons allow engaging the enemy from a secure position, utilizing accuracy and distance judgment. The primary attribute for these weapons is Perception (PER). Perception affects the fighter's ability to accurately assess the distance and movements of the enemy, ensuring that each shot is made with maximum precision. This allows the fighter to remain outside the immediate reach of the enemy while still being able to inflict effective damage.</li>
+</ul>
+<h4 id="particularities">Particularities</h4>
+<p>Weapons may have particularities. The features require an improvement slot that the quality provides (1 improvement slot per quality level of an item).
+Every particularity implies at least a boost in penalty by 1, but this can be different (mostly higher) depending on the given particularity.</p>
+<ul>
+<li>
+<p><em>Excellent</em> : This weapon is thinked and shaped in order to compensate its bad sides.
+  &lt;&gt; Penalties are reduced by 1. They can't become lower than 0 this way.</p>
+</li>
+<li>
+<p><em>Cultural</em> : This weapon is aligned with a given culture, advantages and disavantages depends on the given culture.<br />
+  &lt;&gt; Elven : Weight reduced by 20.<br />
+  &lt;&gt; Dwarven : Solidity increased by 20.<br />
+  &lt;&gt; Orcish : Difficulties against this weapon (attacks, tactical or defense) reduced by 5.<br />
+  &lt;&gt; ? : Defense difficulties against this weapon increased by 10.<br />
+  &lt;&gt; Rosalian : Initiative increased by 2 (for actions performed throught this weapon).</p>
+</li>
+<li>
+<p><em>Double</em> : This weapon bears to different heads which help to perform multiple attacks on a same target of to perform attacks on different targets.
+  &lt;&gt; Subsequents attack or tactical action are not disadvantaged: against the same target if the first one have missed /OR/ against another target.</p>
+</li>
+<li>
+<p><em>Curved</em> : This weapon present a curvy shape which grants better chance to perform very effective moves.
+  &lt;&gt; Critical success rate (science) is improved by 10.</p>
+</li>
+<li>
+<p><em>Maniability</em> : This weapon is designed in a way to prevent bad moves and such.
+  &lt;&gt; Critical miss rate (clumsiness) is reduced by 10.</p>
+</li>
+<li>
+<p><em>Versatile</em> : Type weapon present different type of heads in order to perform different kind of damage.<br />
+  &lt;&gt; Can deal another type of damage (F for flexible, P for pierce, B for blunt and S for slash).</p>
+</li>
+<li>
+<p><em>Branched</em> : This weapon is made of several branched which makes wounds even badder.
+  &lt;&gt; When it comes to malus implied by wouds inflicted by this weapon, value is half higher.</p>
+</li>
+<li>
+<p><em>Twisted</em> : This weapon presents an odds an wavy shape which makes it difficult to defend against.
+  &lt;&gt; Difficulty associated to your attack actions are reduced by 10.</p>
+</li>
+<li><em>Pratical</em> : This weapon presents a very practical design which makes it efficient to manoeuver.<br />
+  &lt;&gt; Difficulty associated to your tactical actions are reduced by 10.</li>
+<li><em>Parade</em> : This weapon presents a design which favors defense.<br />
+  &lt;&gt; Difficulty associated to your defense actions is reduced by 10.</li>
+<li>
+<p><em>Balanced</em> : This weapon presents a very fine balance of weights or some appendage which makes it efficient to keep its owner standy and safe.
+  &lt;&gt; Defense actions (against attacks or tactics) are increased by 10.</p>
+</li>
+<li>
+<p><em>Precise</em> : This weapon is meant to be a precise tool.
+  &lt;&gt; Weapons gets +1 precision.</p>
+</li>
+<li><em>Swift</em> : This weapon is meant to be a precise tool.
+  &lt;&gt; Weapons gets +1 maneuverability.</li>
+<li><em>X-Heads</em> : This weapons is made of several heads which penetrate armor with more ease.
+  &lt;&gt; Every heads above the first one adds 1 Malus but grant +3 perforation.</li>
+<li>
+<p><em>Sharp</em> : This weapons is extra sharp and can pass throught protections.
+  &lt;&gt; The weapon ignores 1 point of target's protection.</p>
+</li>
+<li>
+<p><em>Effictive</em> : This weapon is hard to manipulate but deliver a better overall efficiency.
+  &lt;&gt; All throws increased by 1.</p>
+</li>
+<li><em>Lethal</em> : This weapon is meant to hurt bad.<br />
+  &lt;&gt; Weapons damage rolls are improved by 1.</li>
+<li><em>Guarding</em> : This weapon is meant to guard its user from harm.<br />
+  &lt;&gt; Weapons deviation rolls are improved by 1.</li>
+<li><em>Tactical</em> : This weapon is meant to hinder targets which more efficiency.
+  &lt;&gt; Weapons impact rolls are improved by 1.</li>
+<li><em>?</em> : This weapon is able to perform very effective moves when used with extra precision.<br />
+  &lt;&gt; Weapons throws are improved by 5 on a critical success.</li>
+<li>
+<p><em>Guilded</em> : This weapon appearence is improved in order to appear nobler.<br />
+  &lt;&gt; ???.</p>
+</li>
+<li>
+<p><em>Vorpal</em> : This weapon is meant to cut heads.
+  &lt;&gt; Weapons damage rolls are improved by 2 when located on the head location.</p>
+</li>
+<li><em>?</em> : This weapon is meant to disable the uses of arms.
+  &lt;&gt; Weapons wounds are improved by 10 when located on the arms location.</li>
+<li>
+<p><em>?</em> : This weapon is meant to disable the uses of tendons.
+  &lt;&gt; Weapons wounds are improved by 10 when located on the legs location.</p>
+</li>
+<li>
+<p><em>Mecanical</em> : This weapon is [...]
+  &lt;&gt; Weapons penetration improved by 3, but weapon can grip or break.</p>
+</li>
+<li>
+<p><em>Dangerous</em> : This weapon is [...]
+  &lt;&gt; Weapons damage roll improved by 2, only for mecanical weapons for which reliability is decreased, also recoil may disarm/knockdown user.</p>
+</li>
+<li>
+<p><em>Specialized</em> : This weapon is specialized in a given (none common) type of action.
+  &lt;&gt; When used for its specialized move, on at least a minor success this weapon get 1 extra roll.
+  But this weapon also lose one roll on all other kind of moves.</p>
+</li>
+<li>
+<p><em>Oriented</em> : This weapon is oriented in a given (none common) type of action.
+  &lt;&gt; When used for its oriented move this weapon have an increased bonus of 2.<br />
+  If we factor out the malus due to this property it amounts to a bonus of 1 in the oriented action and a penalty of 1 for the others.</p>
+</li>
+</ul>
+<p>Tactical specialized/oriented move can be: Disarm, Knockback, Knockdown, Lockdown.
+  Defense specialized/oriented move can be: Parry, Block.
+  Attack specialized/oriented move can be: Opportunity, Counter.</p>
+<ul>
+<li><em>Composite</em> : This (range) weapon is meant to get the best of the user's muscles.
+  &lt;&gt; Dices from this weapon rolls value can't be lower than actual strengh modifier of the user.</li>
+<li><em>Throw</em> : This (none ranged) weapon is suitable to be used as a thrown weapon.
+  &lt;&gt; When throwing that kind of weapon does not imply a disadvantage.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

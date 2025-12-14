@@ -4,4 +4,4 @@
 
 ## Globe de l'Occulus
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

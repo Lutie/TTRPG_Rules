@@ -2,8 +2,7 @@
 
 > 80 mots pour cette école
 
-#### 1. Galvanisation
-
+#### 1. Galvanisation ['Evoc'!C3]
 *Latin :* Vibro (Agiter, secouer), *Arcanique :* Evvibro (Ev + vibro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -14,8 +13,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 2. Corruption
-
+#### 2. Corruption ['Evoc'!C4]
 *Latin :* Corruptio (Briser, détruire), *Arcanique :* Enruptio (En + ruptio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -26,8 +24,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 3. Énergisation
-
+#### 3. Énergisation ['Evoc'!C5]
 *Latin :* Energia (Force), *Arcanique :* Eloenrgi (Elo + enrgi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -38,8 +35,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 4. Attraction
-
+#### 4. Attraction ['Evoc'!C6]
 *Latin :* Traho (Tirer), *Arcanique :* Eruatrat (Eru + atrat)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -50,8 +46,7 @@ Génère un effet d'attraction agissant comme l'action tactique de déplacement 
 
 ---
 
-#### 5. Répulsion
-
+#### 5. Répulsion ['Evoc'!C7]
 *Latin :* Pello (Pousser, chasser), *Arcanique :* Evpello (Ev + pello)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -62,8 +57,7 @@ Génère un effet de répulsion agissant comme l'action tactique de déplacement
 
 ---
 
-#### 6. Lévitation
-
+#### 6. Lévitation ['Evoc'!C8]
 *Latin :* Leves (Léger), *Arcanique :* Enleves (En + leves)
 *Type de mot :* Interruption, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -74,8 +68,7 @@ Réduit la chute de la cible de <span style="color:#ff1493; font-weight:bold;">[
 
 ---
 
-#### 7. Précipitation
-
+#### 7. Précipitation ['Evoc'!C9]
 *Latin :* Precipito (Lancer en avant), *Arcanique :* Elopreci (Elo + preci)
 *Type de mot :* Interruption, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -86,8 +79,7 @@ Augmente la chute de la cible de <span style="color:#ff1493; font-weight:bold;">
 
 ---
 
-#### 8. Propulsion
-
+#### 8. Propulsion ['Evoc'!C10]
 *Latin :* Pello (Pousser en avant), *Arcanique :* Erupuls (Eru + puls)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -98,8 +90,7 @@ Génère un effet de déplacement agissant comme l'action tactique de déplaceme
 
 ---
 
-#### 9. Traction
-
+#### 9. Traction ['Evoc'!C11]
 *Latin :* Traho (Tirer), *Arcanique :* Evtract (Ev + tract)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -110,8 +101,7 @@ Génère un effet de déplacement agissant comme l'action tactique de déplaceme
 
 ---
 
-#### 10. Translation
-
+#### 10. Translation ['Evoc'!C12]
 *Latin :* Fero (Porter), *Arcanique :* Enlata (En + lata)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (point)
 *Difficulté :* 2, *Drain :* 2
@@ -122,8 +112,7 @@ Déplace une cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude]
 
 ---
 
-#### 11. Matérialisation
-
+#### 11. Matérialisation ['Evoc'!C13]
 *Latin :* Materia (Matière), *Arcanique :* Elomater (Elo + mater)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -134,8 +123,7 @@ Produit un effet qui génère <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 12. Manipulation
-
+#### 12. Manipulation ['Evoc'!C14]
 *Latin :* Manus (Main), *Arcanique :* Erumanu (Eru + manu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -146,8 +134,7 @@ Réalise une action manuelle avec <span style="color:#ff1493; font-weight:bold;"
 
 ---
 
-#### 13. Simulation
-
+#### 13. Simulation ['Evoc'!C15]
 *Latin :* Simulo (Imiter), *Arcanique :* Evsimul (Ev + simul)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -158,8 +145,7 @@ Génère un son, une image ou une odeur portant sur <span style="color:#ff1493; 
 
 ---
 
-#### 14. Transmigration
-
+#### 14. Transmigration ['Evoc'!C16]
 *Latin :* Migro (Migrer), *Arcanique :* Enmigro (En + migro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -170,8 +156,7 @@ Génère un effet qui renvoie dans l'au delà l'âme errante d'un défunt dont l
 
 ---
 
-#### 15. Oblitération
-
+#### 15. Oblitération ['Evoc'!C17]
 *Latin :* Obtero (Détruire), *Arcanique :* Elooblit (Elo + oblit)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -182,8 +167,7 @@ Génère un effet qui détruit l'âme errante d'un défunt dont les points de ps
 
 ---
 
-#### 16. Galvanisation
-
+#### 16. Galvanisation ['Evoc'!C18]
 *Latin :* Fulgor (Éclat, foudre), *Arcanique :* Evfulgo (Ev + fulgo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -194,8 +178,7 @@ Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 17. Exaltation
-
+#### 17. Exaltation ['Evoc'!C19]
 *Latin :* Alto (Élever), *Arcanique :* Enalto (En + alto)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -206,8 +189,7 @@ Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 18. Accélération
-
+#### 18. Accélération ['Evoc'!C20]
 *Latin :* Velox (Rapide), *Arcanique :* Eloveloc (Elo + veloc)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -218,8 +200,7 @@ Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 19. Rétrospection
-
+#### 19. Rétrospection ['Evoc'!C21]
 *Latin :* Retro (En arrière), *Arcanique :* Eruretro (Eru + retro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -230,8 +211,7 @@ Génère un effet qui octroie au lanceur de sort l'historique de la cible sur <s
 
 ---
 
-#### 20. Réversion
-
+#### 20. Réversion ['Evoc'!C22]
 *Latin :* Verto (Tourner), *Arcanique :* Evverti (Ev + verti)
 *Type de mot :* Miracle, *Type de cible :* Cible
 *Difficulté :* 10, *Drain :* 10
@@ -242,8 +222,7 @@ Génère un effet qui renvoie tous les participants d'une scène en cours dans l
 
 ---
 
-#### 21. Palimpseste
-
+#### 21. Palimpseste ['Evoc'!C23]
 *Latin :* Limpia (Nettoyer), *Arcanique :* Enpalim (En + palim)
 *Type de mot :* Miracle, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 6
@@ -254,8 +233,7 @@ Génère un effet qui renvoie tous les participants d'une confrontation en cours
 
 ---
 
-#### 22. Réinitialisation
-
+#### 22. Réinitialisation ['Evoc'!C24]
 *Latin :* Initium (Début), *Arcanique :* Eloinit (Elo + init)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -266,8 +244,7 @@ Génère un effet qui renvoie tous les participants d'une confrontation en cours
 
 ---
 
-#### 23. Intrusion
-
+#### 23. Intrusion ['Evoc'!C25]
 *Latin :* Trudo (Pousser), *Arcanique :* Eruitrud (Eru + itrud)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -278,8 +255,7 @@ Génère un effet qui octroie au lanceur de sort de consulter la mémoire (infor
 
 ---
 
-#### 24. Préparation
-
+#### 24. Préparation ['Evoc'!C26]
 *Latin :* Paro (Préparer), *Arcanique :* Evparo (Ev + paro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -290,8 +266,7 @@ Génère un effet qui permet à la cible de s'équiper d'un maximum de <span sty
 
 ---
 
-#### 25. Encapsulation
-
+#### 25. Encapsulation ['Evoc'!C27]
 *Latin :* Capto (Saisir), *Arcanique :* Encap (En + cap)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -302,8 +277,7 @@ Génère un effet qui permet de stocker ou récupérer dans un espace interdimen
 
 ---
 
-#### 26. Détection
-
+#### 26. Détection ['Evoc'!C28]
 *Latin :* Tego (Couvrir), *Arcanique :* Eloteges (Elo + teges)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -314,8 +288,7 @@ Génère un effet qui révèle la localisation de tous les espaces interdimentio
 
 ---
 
-#### 27. Visualisation
-
+#### 27. Visualisation ['Evoc'!C29]
 *Latin :* Video (Voir), *Arcanique :* Eruvidi (Eru + vidi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -326,8 +299,7 @@ Génère un effet qui permet de voir ce que contient un espace interdimentionnel
 
 ---
 
-#### 28. Imposition
-
+#### 28. Imposition ['Evoc'!C30]
 *Latin :* Pono (Placer), *Arcanique :* Evponi (Ev + poni)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -338,8 +310,7 @@ Génère un effet agissant comme l'action tactique provoquant une condition néc
 
 ---
 
-#### 29. Majoration
-
+#### 29. Majoration ['Evoc'!C31]
 *Latin :* Maior (Plus grand), *Arcanique :* Enmaior (En + maior)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -350,8 +321,7 @@ Génère un effet qui augmente de <span style="color:#ff1493; font-weight:bold;"
 
 ---
 
-#### 30. Epidémie
-
+#### 30. Epidémie ['Evoc'!C32]
 *Latin :* Demus (Peuple), *Arcanique :* Elodemus (Elo + demus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -362,8 +332,7 @@ Génère un effet qui transmet les conditions de la cible aux créatures à son 
 
 ---
 
-#### 31. Réinjection
-
+#### 31. Réinjection ['Evoc'!C33]
 *Latin :* Iacio (Jeter), *Arcanique :* Eruiacio (Eru + iacio)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu/Cible
 *Difficulté :* 2, *Drain :* 2
@@ -374,8 +343,7 @@ Génère un effet qui recharge de <span style="color:#ff1493; font-weight:bold;"
 
 ---
 
-#### 32. Rechargement
-
+#### 32. Rechargement ['Evoc'!C34]
 *Latin :* Carga (Charge), *Arcanique :* Evcar (Ev + car)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -386,8 +354,7 @@ Génère un effet qui recharge de <span style="color:#ff1493; font-weight:bold;"
 
 ---
 
-#### 33. Manifestation
-
+#### 33. Manifestation ['Evoc'!C35]
 *Latin :* Manes (Esprits, apparences), *Arcanique :* Enmani (En + mani)
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 2, *Drain :* 2
@@ -398,8 +365,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 34. Matérialisation
-
+#### 34. Matérialisation ['Evoc'!C36]
 *Latin :* Corp (Corps), *Arcanique :* Elocorpus (Elo + corpus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -410,8 +376,7 @@ Produit un effet qui créé de la matière (gaz, liquide ou solide) de <span sty
 
 ---
 
-#### 35. Téléportation
-
+#### 35. Téléportation ['Evoc'!C37]
 *Latin :* Porto (Porter), *Arcanique :* Eruport (Eru + port)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -422,8 +387,7 @@ Génère un effet qui téléporte (sans collisions donc) la cible d'un point A �
 
 ---
 
-#### 36. Intromission
-
+#### 36. Intromission ['Evoc'!C38]
 *Latin :* Mitto (Envoyer), *Arcanique :* Evmiss (Ev + miss)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -434,8 +398,7 @@ Génère un effet qui permet à la cible d'être téléporter d'un coté à l'au
 
 ---
 
-#### 37. Séquençation
-
+#### 37. Séquençation ['Evoc'!C39]
 *Latin :* Sequor (Suivre), *Arcanique :* Ensequor (En + sequor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -446,8 +409,7 @@ Génère un effet qui permet à la cible d'être téléporter d'un coté à l'au
 
 ---
 
-#### 38. Connexion
-
+#### 38. Connexion ['Evoc'!C40]
 *Latin :* Necto (Lier), *Arcanique :* Elonect (Elo + nect)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -458,8 +420,7 @@ Génère un effet qui permet au lanceur de sort de s'entretenir avec une cible p
 
 ---
 
-#### 39. Amplication
-
+#### 39. Amplication ['Evoc'!C41]
 *Latin :* Amplus (Vaste), *Arcanique :* Evamplus (Ev + amplus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (enchantement)
 *Difficulté :* 2, *Drain :* 2
@@ -470,8 +431,7 @@ Génère un enchantement qui cible un enchantement existant afin d’en augmente
 
 ---
 
-#### 40. Diminution
-
+#### 40. Diminution ['Evoc'!C42]
 *Latin :* Minus (Moins), *Arcanique :* Enminus (En + minus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (enchantement)
 *Difficulté :* 2, *Drain :* 2
@@ -482,8 +442,7 @@ Génère un enchantement qui cible un enchantement existant afin d’en réduire
 
 ---
 
-#### 41. Activation
-
+#### 41. Activation ['Evoc'!C43]
 *Latin :* Actus (Action), *Arcanique :* Eloactus (Elo + actus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -494,8 +453,7 @@ Le sort provoque l’activation d’un objet ou d’un mécanisme au fonctionnem
 
 ---
 
-#### 42. Transposition
-
+#### 42. Transposition ['Evoc'!C44]
 *Latin :* Locus (Lieu), *Arcanique :* Erulocus (Eru + locus)
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 2, *Drain :* 2
@@ -506,8 +464,7 @@ Génère un effet qui déplace le lanceur de sort à une distance maximale équi
 
 ---
 
-#### 43. Nécrotisation
-
+#### 43. Nécrotisation ['Evoc'!C45]
 *Latin :* Necros (Mort), *Arcanique :* Evnecro (Ev + necro)
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 2, *Drain :* 2
@@ -518,8 +475,7 @@ Génère un enchantement qui a pour charge maximum le total des PV et PS perdus,
 
 ---
 
-#### 44. Exanimisation
-
+#### 44. Exanimisation ['Evoc'!C46]
 *Latin :* Anima (Souffle, vie), *Arcanique :* Enanima (En + anima)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -530,8 +486,7 @@ Génère un enchantement qui fait passer la cible pour morte, si un individu se 
 
 ---
 
-#### 45. Fulguration
-
+#### 45. Fulguration ['Evoc'!C47]
 *Latin :* Fulgeo (Briller), *Arcanique :* Elofulg (Elo + fulg)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -542,8 +497,7 @@ Génère un effet qui déplace le lanceur de sort à une distance maximale équi
 
 ---
 
-#### 46. Vibration
-
+#### 46. Vibration ['Evoc'!C48]
 *Latin :* Vibro (Agiter), *Arcanique :* Eruvibr (Eru + vibr)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -554,8 +508,7 @@ Génère un effet qui agit comme l'action tactique de renversement avec un jet d
 
 ---
 
-#### 47. Dépossession
-
+#### 47. Dépossession ['Evoc'!C49]
 *Latin :* Possessio (Possession), *Arcanique :* Evposs (Ev + poss)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -566,8 +519,7 @@ Génère un effet qui agit comme l'action tactique de désarmement avec un jet d
 
 ---
 
-#### 48. Transmission
-
+#### 48. Transmission ['Evoc'!C50]
 *Latin :* Mitto (Envoyer), *Arcanique :* Enmitt (En + mitt)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -578,8 +530,7 @@ Génère un effet qui permet de véhiculer un message jusqu'à une cible distant
 
 ---
 
-#### 49. Transvasation
-
+#### 49. Transvasation ['Evoc'!C51]
 *Latin :* Vaso (Vase), *Arcanique :* Elovaso (Elo + vaso)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -590,8 +541,7 @@ Génère un effet qui déplace jusqu'à <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 50. Apportation
-
+#### 50. Apportation ['Evoc'!C52]
 *Latin :* Porto (Porter), *Arcanique :* Eruporta (Eru + porta)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -602,8 +552,7 @@ Génère un effet qui projète l'objet inerte (inanimé et non équipé) ciblé 
 
 ---
 
-#### 51. Harmonisation
-
+#### 51. Harmonisation ['Evoc'!C53]
 *Latin :* Harmonia (Harmonie), *Arcanique :* Evharm (Ev + harm)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -614,8 +563,7 @@ Génère un effet qui rééquilibre les PV, PS et PE entre deux cibles (à port�
 
 ---
 
-#### 52. Prédétermination
-
+#### 52. Prédétermination ['Evoc'!C54]
 *Latin :* Terminus (Fin), *Arcanique :* Entermin (En + termin)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -626,8 +574,7 @@ Génère un effet permet à la cible de "stocker" un test (valeur des 3 dés) pa
 
 ---
 
-#### 53. Conditionnement
-
+#### 53. Conditionnement ['Evoc'!C55]
 *Latin :* Condicio (Condition), *Arcanique :* Elocondi (Elo + condi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -638,8 +585,7 @@ Génère un enchantement qui contient les effets d'un autre <span style="color:#
 
 ---
 
-#### 54. Polarisation
-
+#### 54. Polarisation ['Evoc'!C56]
 *Latin :* Polus (Pôle), *Arcanique :* Erupolus (Eru + polus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -650,8 +596,7 @@ Génère un effet qui creuse l'écart entre les PV, PS et PE de deux cibles (à 
 
 ---
 
-#### 55. Préemption
-
+#### 55. Préemption ['Evoc'!C57]
 *Latin :* Emo (Acheter, prendre), *Arcanique :* Evemo (Ev + emo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -662,8 +607,7 @@ Génère un effet forçant la cible à "stocker" un test (valeur des 3 dés) par
 
 ---
 
-#### 56. Aléatorisation
-
+#### 56. Aléatorisation ['Evoc'!C58]
 *Latin :* Aleo (Jeu de dés), *Arcanique :* Enalea (En + alea)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -674,8 +618,7 @@ Génère un enchantement qui contient les effets d'un autre <span style="color:#
 
 ---
 
-#### 57. Captivation
-
+#### 57. Captivation ['Evoc'!C59]
 *Latin :* Capto (Saisir), *Arcanique :* Elocaptus (Elo + captus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -686,8 +629,7 @@ Génère un effet qui charme une bête, le sort remplace un test de prestige qui
 
 ---
 
-#### 58. Fascination
-
+#### 58. Fascination ['Evoc'!C60]
 *Latin :* Fascinum (Charme), *Arcanique :* Erufasci (Eru + fasci)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -698,8 +640,7 @@ Génère un effet qui charme une personne, le sort remplace un test de prestige 
 
 ---
 
-#### 59. Falsification
-
+#### 59. Falsification ['Evoc'!C61]
 *Latin :* Fallo (Tromper), *Arcanique :* Evfall (Ev + fall)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 6
@@ -710,8 +651,7 @@ Génère des faux souvenirs chez la cible, à raison de <span style="color:#ff14
 
 ---
 
-#### 60. Communication
-
+#### 60. Communication ['Evoc'!C62]
 *Latin :* Communis (Commun), *Arcanique :* Encommu (En + commu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
@@ -722,8 +662,7 @@ Génère une connexion entre deux cibles qui doivent être à portée, la discus
 
 ---
 
-#### 61. Onirisation
-
+#### 61. Onirisation ['Evoc'!C63]
 *Latin :* Onir (Rêve, grec), *Arcanique :* Eloonir (Elo + onir)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -734,8 +673,7 @@ Permet à une cible d'entrer dans les rêves d'une autre cible, toutes à porté
 
 ---
 
-#### 62. Retranscription
-
+#### 62. Retranscription ['Evoc'!C64]
 *Latin :* Scribo (Écrire), *Arcanique :* Erutran (Eru + tran)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -746,8 +684,7 @@ Génère un message envoyé à une cible à portée, le message est limité à <
 
 ---
 
-#### 63. Induction
-
+#### 63. Induction ['Evoc'!C65]
 *Latin :* Duco (Mener), *Arcanique :* Evduco (Ev + duco)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -758,8 +695,7 @@ Génère une émotion (bien réelle, voir la liste dans les règles) sur la cibl
 
 ---
 
-#### 64. Suggestion
-
+#### 64. Suggestion ['Evoc'!C66]
 *Latin :* Gero (Porter), *Arcanique :* Ensubger (En + subger)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -770,8 +706,7 @@ Génère une suggestion qui implente un objectif ou désir nouveau chez la cible
 
 ---
 
-#### 65. Coordination
-
+#### 65. Coordination ['Evoc'!C67]
 *Latin :* Ordo (Ordre), *Arcanique :* Eloordo (Elo + ordo)
 *Type de mot :* Interruption, *Type de cible :* Soi
 *Difficulté :* 4, *Drain :* 4
@@ -782,8 +717,7 @@ Le lanceur du sort deviens le centre d'une discussion télépathique qui se dér
 
 ---
 
-#### 66. Cognition
-
+#### 66. Cognition ['Evoc'!C68]
 *Latin :* Cogito (Penser), *Arcanique :* Erucogit (Eru + cogit)
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 6, *Drain :* 2
@@ -794,8 +728,7 @@ Génère un effet qui déclanche chez le lanceur de sort un test de connaissance
 
 ---
 
-#### 67. Haloportation
-
+#### 67. Haloportation ['Evoc'!C69]
 *Latin :* Halos (Sel, grec), *Arcanique :* Evhalos (Ev + halos)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -806,8 +739,7 @@ Génère un effet qui déplace le lanceur de sort à une distance maximale équi
 
 ---
 
-#### 68. Epilepsie
-
+#### 68. Epilepsie ['Evoc'!C70]
 *Latin :* Lepsia (Crise, grec), *Arcanique :* Enlepsia (En + lepsia)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -818,8 +750,7 @@ Ce sort génère une lésion (considéré à la fois comme une blessure et une l
 
 ---
 
-#### 69. Télétransmission
-
+#### 69. Télétransmission ['Evoc'!C71]
 *Latin :* Mitto (Envoyer), *Arcanique :* Elotrams (Elo + trams)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 2
@@ -830,8 +761,7 @@ Génère un message envoyé à une cible peu importe sa localisation, la distanc
 
 ---
 
-#### 70. Sédation
-
+#### 70. Sédation ['Evoc'!C72]
 *Latin :* Sedeo (Être assis), *Arcanique :* Erusedeo (Eru + sedeo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
@@ -842,8 +772,7 @@ Le sort permet à la cible de s'endormir quelque soit son état d'agitement, mai
 
 ---
 
-#### 71. Climatisation
-
+#### 71. Climatisation ['Evoc'!C73]
 *Latin :* Clima (Climat), *Arcanique :* Evclima (Ev + clima)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 6
@@ -854,8 +783,7 @@ Génère un effet qui modifie le climat environnant sur <span style="color:#ff14
 
 ---
 
-#### 72. Effraction
-
+#### 72. Effraction ['Evoc'!C74]
 *Latin :* Frango (Briser), *Arcanique :* Enfract (En + fract)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -866,8 +794,7 @@ Génère un effet qui fait progresser le crochetage d'une serrure ciblée de <sp
 
 ---
 
-#### 73. Occlusion
-
+#### 73. Occlusion ['Evoc'!C75]
 *Latin :* Claudo (Fermer), *Arcanique :* Eloclaud (Elo + claud)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -878,8 +805,7 @@ Génère un effet qui fait ferme une serrure ciblée, la progression étant fix�
 
 ---
 
-#### 74. Transposition
-
+#### 74. Transposition ['Evoc'!C76]
 *Latin :* Pono (Placer), *Arcanique :* Erupono (Eru + pono)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -890,8 +816,7 @@ Génère un effet qui téléporte (sans collisions donc) et intervertis la posit
 
 ---
 
-#### 75. Subordination
-
+#### 75. Subordination ['Evoc'!C77]
 *Latin :* Ordo (Ordre), *Arcanique :* Evsubor (Ev + subor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -902,8 +827,7 @@ Génère un effet qui force la cible à réaliser une action sur-le-champs, cela
 
 ---
 
-#### 76. Nutrition
-
+#### 76. Nutrition ['Evoc'!C78]
 *Latin :* Nutrio (Nourrir), *Arcanique :* Ennutri (En + nutri)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -914,8 +838,7 @@ Génère un effet qui comble les besoins en nourriture d'une cible, afin que le 
 
 ---
 
-#### 77. Marque
-
+#### 77. Marque ['Evoc'!C79]
 *Latin :* Nota (Marque), *Arcanique :* Elonota (Elo + nota)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -926,8 +849,7 @@ Génère un effet qui inscrit dans la mémoire du lanceur de sort un lieu, un ob
 
 ---
 
-#### 78. Révélation
-
+#### 78. Révélation ['Evoc'!C80]
 *Latin :* Velum (Voile), *Arcanique :* Eruvelo (Eru + velo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -938,8 +860,7 @@ Le sort permet au lanceur de sort de « révéler » à son regard un ou des �
 
 ---
 
-#### 79. Amplification
-
+#### 79. Amplification ['Evoc'!C81]
 *Latin :* Augeo (Augmenter), *Arcanique :* Evauge (Ev + auge)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 2
@@ -950,8 +871,7 @@ Génère un effet qui augmente la puissance du sort lancé par la cible de <span
 
 ---
 
-#### 80. Retemporisation
-
+#### 80. Retemporisation ['Evoc'!C82]
 *Latin :* Tempus (Temps), *Arcanique :* Entempus (En + tempus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2

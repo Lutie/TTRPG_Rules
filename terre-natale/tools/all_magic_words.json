@@ -20,7 +20,8 @@
       "🌿",
       "☢️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C3"
   },
   {
     "id": 2,
@@ -37,7 +38,8 @@
     "keys": "✡️ Arcane: Keljungys (vs MAG)",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C4"
   },
   {
     "id": 3,
@@ -54,7 +56,8 @@
     "keys": "🎭 Illusion: Kruccltin (vs VOL)",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Dest'!C5"
   },
   {
     "id": 4,
@@ -74,7 +77,8 @@
       "🌀",
       "✨",
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Dest'!C6"
   },
   {
     "id": 5,
@@ -91,7 +95,8 @@
     "keys": "🧩 Mental: Kaprofanend (vs VOL)",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C7"
   },
   {
     "id": 6,
@@ -108,7 +113,8 @@
     "keys": "⚖️ Loi: Kintransem (vs VOL)",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C8"
   },
   {
     "id": 7,
@@ -125,7 +131,8 @@
     "keys": "☢️ Toxique: Krulexex (vs VOL)",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C9"
   },
   {
     "id": 8,
@@ -142,7 +149,8 @@
     "keys": "✡️ Arcane: Keltorys (vs MAG)",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C10"
   },
   {
     "id": 9,
@@ -161,7 +169,8 @@
       "☀️",
       "🌑",
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C11"
   },
   {
     "id": 10,
@@ -179,7 +188,8 @@
     "domains": [
       "☀️",
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Dest'!C12"
   },
   {
     "id": 11,
@@ -197,7 +207,8 @@
     "domains": [
       "✨",
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Dest'!C13"
   },
   {
     "id": 12,
@@ -214,7 +225,8 @@
     "keys": "🎭 Illusion: Kraturbin (vs VOL)",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Dest'!C14"
   },
   {
     "id": 13,
@@ -231,7 +243,8 @@
     "keys": "☢️ Toxique: Keluinaex (vs EQU)",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C15"
   },
   {
     "id": 14,
@@ -250,7 +263,8 @@
       "🪨",
       "💧",
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C16"
   },
   {
     "id": 15,
@@ -267,7 +281,8 @@
     "keys": "🧩 Mental: Krusugerend (vs VOL)",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C17"
   },
   {
     "id": 16,
@@ -285,7 +300,8 @@
     "domains": [
       "🪷",
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C18"
   },
   {
     "id": 17,
@@ -303,7 +319,8 @@
     "domains": [
       "✡️",
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C19"
   },
   {
     "id": 18,
@@ -321,7 +338,8 @@
     "domains": [
       "🔥",
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C20"
   },
   {
     "id": 19,
@@ -338,7 +356,8 @@
     "keys": "🧩 Mental: Kruobsidend (vs VOL)",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C21"
   },
   {
     "id": 20,
@@ -355,7 +374,8 @@
     "keys": "☢️ Toxique: Kraperdex (vs CON)",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C22"
   },
   {
     "id": 21,
@@ -372,7 +392,8 @@
     "keys": "☢️ Toxique: Kinrideoex (vs VOL)",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C23"
   },
   {
     "id": 22,
@@ -389,7 +410,8 @@
     "keys": "💢 Vide: Korgravarh (vs CON)",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Dest'!C24"
   },
   {
     "id": 23,
@@ -406,7 +428,8 @@
     "keys": "💢 Vide: Krurelatarh (vs CON)",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Dest'!C25"
   },
   {
     "id": 24,
@@ -423,7 +446,8 @@
     "keys": "☠️ Mort: Kralesius",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C26"
   },
   {
     "id": 25,
@@ -440,7 +464,8 @@
     "keys": "🧩 Mental: Kavulnusend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C27"
   },
   {
     "id": 26,
@@ -457,7 +482,8 @@
     "keys": "🪷 Nature: Keltenuaeil",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Dest'!C28"
   },
   {
     "id": 27,
@@ -474,7 +500,8 @@
     "keys": "✡️ Arcane: Krudamnys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C29"
   },
   {
     "id": 28,
@@ -491,7 +518,8 @@
     "keys": "💢 Vide: Krainhibarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Dest'!C30"
   },
   {
     "id": 29,
@@ -508,7 +536,8 @@
     "keys": "🪷 Nature: Kaputreeil",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Dest'!C31"
   },
   {
     "id": 30,
@@ -525,7 +554,8 @@
     "keys": "⚕️ Corps: Kinpessumen (Force, Dextérité, Agilité, Perception, Constitution)",
     "domains": [
       "⚕️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C32"
   },
   {
     "id": 31,
@@ -542,7 +572,8 @@
     "keys": "🧠 Esprit: Kruatonys (Charisme, Intelligence, Ruse, Sagesse, Volonté)",
     "domains": [
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Dest'!C33"
   },
   {
     "id": 32,
@@ -563,7 +594,8 @@
       "🧠",
       "✡️",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Dest'!C34"
   },
   {
     "id": 33,
@@ -582,7 +614,8 @@
       "🪨",
       "💧",
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C35"
   },
   {
     "id": 34,
@@ -599,7 +632,8 @@
     "keys": "🎭 Illusion: KorhaLuin (Mirage)",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Dest'!C36"
   },
   {
     "id": 35,
@@ -616,7 +650,8 @@
     "keys": "🧩 Mental: Krutimidend (Charisme, Intelligence, Ruse, Sagesse, Volonté)",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C37"
   },
   {
     "id": 36,
@@ -635,7 +670,8 @@
       "🔥",
       "❄️",
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Dest'!C38"
   },
   {
     "id": 37,
@@ -665,7 +701,8 @@
       "🔮",
       "🪷",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C39"
   },
   {
     "id": 38,
@@ -684,7 +721,8 @@
       "🔥",
       "❄️",
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Dest'!C40"
   },
   {
     "id": 39,
@@ -701,7 +739,8 @@
     "keys": "🪷 Nature: Kruviteil",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Dest'!C41"
   },
   {
     "id": 40,
@@ -718,7 +757,8 @@
     "keys": "💢 Vide: Kinsenexarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Dest'!C42"
   },
   {
     "id": 41,
@@ -735,7 +775,8 @@
     "keys": "📚 Savoir: Kafuscaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Dest'!C43"
   },
   {
     "id": 42,
@@ -753,7 +794,8 @@
     "domains": [
       "☠️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C44"
   },
   {
     "id": 43,
@@ -770,7 +812,8 @@
     "keys": "☠️ Mort: Keluagravus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C45"
   },
   {
     "id": 44,
@@ -787,7 +830,8 @@
     "keys": "☠️ Mort: Kramortius",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C46"
   },
   {
     "id": 45,
@@ -804,7 +848,8 @@
     "keys": "🧩 Mental: Katerminend (Charisme, Intelligence, Ruse, Sagesse, Volonté)",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C47"
   },
   {
     "id": 46,
@@ -821,7 +866,8 @@
     "keys": "☢️ Toxique: Kinabol ex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C48"
   },
   {
     "id": 47,
@@ -838,7 +884,8 @@
     "keys": "☠️ Mort: Krustabilus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C49"
   },
   {
     "id": 48,
@@ -855,7 +902,8 @@
     "keys": "☠️ Mort: Kracadusus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C50"
   },
   {
     "id": 49,
@@ -872,7 +920,8 @@
     "keys": "☠️ Mort: Kadeponous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C51"
   },
   {
     "id": 50,
@@ -889,7 +938,8 @@
     "keys": "✡️ Arcane: Kordisolys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C52"
   },
   {
     "id": 51,
@@ -906,7 +956,8 @@
     "keys": "🌀 Chaos: Kelvelloix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Dest'!C53"
   },
   {
     "id": 52,
@@ -923,7 +974,8 @@
     "keys": "☠️ Mort: Kraxhumus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C54"
   },
   {
     "id": 53,
@@ -940,7 +992,8 @@
     "keys": "🧩 Mental: Kinmemoend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C55"
   },
   {
     "id": 54,
@@ -957,7 +1010,8 @@
     "keys": "🔥 Feu: Korflagar",
     "domains": [
       "🔥"
-    ]
+    ],
+    "cell_ref": "'Dest'!C56"
   },
   {
     "id": 55,
@@ -975,7 +1029,8 @@
     "domains": [
       "☠️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C57"
   },
   {
     "id": 56,
@@ -993,7 +1048,8 @@
     "domains": [
       "☠️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C58"
   },
   {
     "id": 57,
@@ -1011,7 +1067,8 @@
     "domains": [
       "☠️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Dest'!C59"
   },
   {
     "id": 58,
@@ -1028,7 +1085,8 @@
     "keys": "🪨 Terre: Korfissum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Dest'!C60"
   },
   {
     "id": 59,
@@ -1045,7 +1103,8 @@
     "keys": "⚡ Foudre: Krudamnator",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Dest'!C61"
   },
   {
     "id": 60,
@@ -1062,7 +1121,8 @@
     "keys": "🌀 Chaos: Kinagoix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Dest'!C62"
   },
   {
     "id": 61,
@@ -1079,7 +1139,8 @@
     "keys": "❤️ Vie: Kavertoir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C63"
   },
   {
     "id": 62,
@@ -1102,7 +1163,8 @@
       "🪷",
       "☢️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C64"
   },
   {
     "id": 63,
@@ -1119,7 +1181,8 @@
     "keys": "☠️ Mort: Crucarnous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C65"
   },
   {
     "id": 64,
@@ -1136,7 +1199,8 @@
     "keys": "⚡ Foudre: Kraflagror",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Dest'!C66"
   },
   {
     "id": 65,
@@ -1153,7 +1217,8 @@
     "keys": "☠️ Mort: Katingous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C67"
   },
   {
     "id": 66,
@@ -1170,7 +1235,8 @@
     "keys": "⚜️ Charme: Keldemosynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Dest'!C68"
   },
   {
     "id": 67,
@@ -1193,7 +1259,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C3"
   },
   {
     "id": 68,
@@ -1208,7 +1275,8 @@
     "drain": "2",
     "description": "Produit un soin de [Magnitude/2] pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type coRespond à la [clé] utilisée).",
     "keys": "Toutes les clés permettant une invocation",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Rest'!C4"
   },
   {
     "id": 69,
@@ -1225,7 +1293,8 @@
     "keys": "🪷 Nature: Ryuvigoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C5"
   },
   {
     "id": 70,
@@ -1242,7 +1311,8 @@
     "keys": "🪷 Nature: Rhoroboreiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C6"
   },
   {
     "id": 71,
@@ -1259,7 +1329,8 @@
     "keys": "🪷 Nature: Refundeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C7"
   },
   {
     "id": 72,
@@ -1276,7 +1347,8 @@
     "keys": "🎭 Illusion: Relmagnusin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Rest'!C8"
   },
   {
     "id": 73,
@@ -1293,7 +1365,8 @@
     "keys": "🪷 Nature: Rasvigoreiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C9"
   },
   {
     "id": 74,
@@ -1310,7 +1383,8 @@
     "keys": "🪷 Nature: Rhopurgoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C10"
   },
   {
     "id": 75,
@@ -1328,7 +1402,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Rest'!C11"
   },
   {
     "id": 76,
@@ -1346,7 +1421,8 @@
     "domains": [
       "⚕️",
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Rest'!C12"
   },
   {
     "id": 77,
@@ -1364,7 +1440,8 @@
     "domains": [
       "⚕️",
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Rest'!C13"
   },
   {
     "id": 78,
@@ -1381,7 +1458,8 @@
     "keys": "🪷 Nature: Rhoabsoleiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Rest'!C14"
   },
   {
     "id": 79,
@@ -1398,7 +1476,8 @@
     "keys": "🪷 Nature: Lokvigoreiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C3"
   },
   {
     "id": 80,
@@ -1421,7 +1500,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C4"
   },
   {
     "id": 81,
@@ -1438,7 +1518,8 @@
     "keys": "✨ Sacre: Lembeneiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C5"
   },
   {
     "id": 82,
@@ -1455,7 +1536,8 @@
     "keys": "🪷 Nature: Lirpurgoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C6"
   },
   {
     "id": 83,
@@ -1472,7 +1554,8 @@
     "keys": "🪷 Nature: Lynallus eiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C7"
   },
   {
     "id": 84,
@@ -1489,7 +1572,8 @@
     "keys": "🪷 Nature: Luxactus eiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C8"
   },
   {
     "id": 85,
@@ -1506,7 +1590,8 @@
     "keys": "💢 Vide: Lemlevesarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C9"
   },
   {
     "id": 86,
@@ -1523,7 +1608,8 @@
     "keys": "🌪️ Air: Lironusel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C10"
   },
   {
     "id": 87,
@@ -1540,7 +1626,8 @@
     "keys": "⚕️ Corps: Lynfirmen",
     "domains": [
       "⚕️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C11"
   },
   {
     "id": 88,
@@ -1557,7 +1644,8 @@
     "keys": "🌪️ Air: Luxmorsel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C12"
   },
   {
     "id": 89,
@@ -1574,7 +1662,8 @@
     "keys": "🌪️ Air: Lemliberel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C13"
   },
   {
     "id": 90,
@@ -1591,7 +1680,8 @@
     "keys": "🪨 Terre: Lirstabum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C14"
   },
   {
     "id": 91,
@@ -1608,7 +1698,8 @@
     "keys": "❤️ Vie: Loktenuir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C15"
   },
   {
     "id": 92,
@@ -1625,7 +1716,8 @@
     "keys": "❤️ Vie: Luxsoluir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C16"
   },
   {
     "id": 93,
@@ -1642,7 +1734,8 @@
     "keys": "❤️ Vie: Lemdurir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C17"
   },
   {
     "id": 94,
@@ -1659,7 +1752,8 @@
     "keys": "❤️ Vie: Lirpercuir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C18"
   },
   {
     "id": 95,
@@ -1676,7 +1770,8 @@
     "keys": "☠️ Mort: Lynfectus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C19"
   },
   {
     "id": 96,
@@ -1693,7 +1788,8 @@
     "keys": "❤️ Vie: Luxantiir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C20"
   },
   {
     "id": 97,
@@ -1710,7 +1806,8 @@
     "keys": "🧩 Mental: Lemcaveend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Béné'!C21"
   },
   {
     "id": 98,
@@ -1727,7 +1824,8 @@
     "keys": "🛡️ Guerre: Lireverborr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C22"
   },
   {
     "id": 99,
@@ -1744,7 +1842,8 @@
     "keys": "🛡️ Guerre: Lokagoorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C23"
   },
   {
     "id": 100,
@@ -1761,7 +1860,8 @@
     "keys": "🎭 Illusion: Luxformin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Béné'!C24"
   },
   {
     "id": 101,
@@ -1778,7 +1878,8 @@
     "keys": "🎭 Illusion: Lemfranin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Béné'!C25"
   },
   {
     "id": 102,
@@ -1795,7 +1896,8 @@
     "keys": "🔮 Magie: Lirimbuirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C26"
   },
   {
     "id": 103,
@@ -1812,7 +1914,8 @@
     "keys": "🔮 Magie: Lynvisuirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C27"
   },
   {
     "id": 104,
@@ -1829,7 +1932,8 @@
     "keys": "✨ Sacre: Luxoptiiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C28"
   },
   {
     "id": 105,
@@ -1846,7 +1950,8 @@
     "keys": "⚜️ Charme: Lemfleco ynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C29"
   },
   {
     "id": 106,
@@ -1863,7 +1968,8 @@
     "keys": "🛡️ Guerre: Lirvelo orr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C30"
   },
   {
     "id": 107,
@@ -1880,7 +1986,8 @@
     "keys": "🪨 Terre: Lokparoum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C31"
   },
   {
     "id": 108,
@@ -1897,7 +2004,8 @@
     "keys": "🌪️ Air: Luxgredeel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C32"
   },
   {
     "id": 109,
@@ -1914,7 +2022,8 @@
     "keys": "💧 Eau: Lemordo yn",
     "domains": [
       "💧"
-    ]
+    ],
+    "cell_ref": "'Béné'!C33"
   },
   {
     "id": 110,
@@ -1931,7 +2040,8 @@
     "keys": "🔮 Magie: Lircanairn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C34"
   },
   {
     "id": 111,
@@ -1948,7 +2058,8 @@
     "keys": "👁️ Vision: Lucaptieth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C35"
   },
   {
     "id": 112,
@@ -1965,7 +2076,8 @@
     "keys": "💢 Vide: Luxstimu arh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C36"
   },
   {
     "id": 113,
@@ -1982,7 +2094,8 @@
     "keys": "🔮 Magie: Lemsanctirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C37"
   },
   {
     "id": 114,
@@ -1999,7 +2112,8 @@
     "keys": "⚔️ Acier: Lirsolian",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C38"
   },
   {
     "id": 115,
@@ -2016,7 +2130,8 @@
     "keys": "⚔️ Acier: Luroboran",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C39"
   },
   {
     "id": 116,
@@ -2033,7 +2148,8 @@
     "keys": "⚔️ Acier: Luxaciean",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C40"
   },
   {
     "id": 117,
@@ -2050,7 +2166,8 @@
     "keys": "💢 Vide: Lemservarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C41"
   },
   {
     "id": 118,
@@ -2067,7 +2184,8 @@
     "keys": "🛡️ Guerre: Lirvibr orr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C42"
   },
   {
     "id": 119,
@@ -2086,7 +2204,8 @@
       "🐗",
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C43"
   },
   {
     "id": 120,
@@ -2105,7 +2224,8 @@
       "🐗",
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C44"
   },
   {
     "id": 121,
@@ -2124,7 +2244,8 @@
       "🐗",
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C45"
   },
   {
     "id": 122,
@@ -2143,7 +2264,8 @@
       "🧩",
       "🔮",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C46"
   },
   {
     "id": 123,
@@ -2161,7 +2283,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C47"
   },
   {
     "id": 124,
@@ -2178,7 +2301,8 @@
     "keys": "🪷 Nature: Luxmundoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C48"
   },
   {
     "id": 125,
@@ -2195,7 +2319,8 @@
     "keys": "🪷 Nature: Lemstatoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C49"
   },
   {
     "id": 126,
@@ -2212,7 +2337,8 @@
     "keys": "🔮 Magie: Lirconverirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C50"
   },
   {
     "id": 127,
@@ -2229,7 +2355,8 @@
     "keys": "🎭 Illusion: Luscandin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Béné'!C51"
   },
   {
     "id": 128,
@@ -2247,7 +2374,8 @@
     "domains": [
       "⚕️",
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Béné'!C52"
   },
   {
     "id": 129,
@@ -2267,7 +2395,8 @@
       "🐗",
       "🧩",
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C53"
   },
   {
     "id": 130,
@@ -2284,7 +2413,8 @@
     "keys": "🐗 Faune: Lynfortiorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Béné'!C54"
   },
   {
     "id": 131,
@@ -2301,7 +2431,8 @@
     "keys": "🧩 Mental: Luspiriend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Béné'!C55"
   },
   {
     "id": 132,
@@ -2318,7 +2449,8 @@
     "keys": "🌿 Flore: Luxfloreiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Béné'!C56"
   },
   {
     "id": 133,
@@ -2335,7 +2467,8 @@
     "keys": "🐗 Faune: Lemmaxorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Béné'!C57"
   },
   {
     "id": 134,
@@ -2352,7 +2485,8 @@
     "keys": "🧩 Mental: Lirlibraend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Béné'!C58"
   },
   {
     "id": 135,
@@ -2369,7 +2503,8 @@
     "keys": "🌿 Flore: Lynoleoiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Béné'!C59"
   },
   {
     "id": 136,
@@ -2405,7 +2540,8 @@
       "🎭",
       "⚔️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C60"
   },
   {
     "id": 137,
@@ -2425,7 +2561,8 @@
       "🧩",
       "✡️",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C61"
   },
   {
     "id": 138,
@@ -2442,7 +2579,8 @@
     "keys": "⚖️ Loi: Liramploem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C62"
   },
   {
     "id": 139,
@@ -2459,7 +2597,8 @@
     "keys": "☀️ Lumière: Lokhabision",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C63"
   },
   {
     "id": 140,
@@ -2476,7 +2615,8 @@
     "keys": "🌀 Chaos: Luxbonoix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Béné'!C64"
   },
   {
     "id": 141,
@@ -2493,7 +2633,8 @@
     "keys": "⚖️ Loi: Lempriorem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C65"
   },
   {
     "id": 142,
@@ -2510,7 +2651,8 @@
     "keys": "⚖️ Loi: Liriugoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C66"
   },
   {
     "id": 143,
@@ -2527,7 +2669,8 @@
     "keys": "❤️ Vie: Ludynair",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C67"
   },
   {
     "id": 144,
@@ -2548,7 +2691,8 @@
       "🧠",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C68"
   },
   {
     "id": 145,
@@ -2565,7 +2709,8 @@
     "keys": "🪷 Nature: Lemvaleneiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C69"
   },
   {
     "id": 146,
@@ -2588,7 +2733,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C70"
   },
   {
     "id": 147,
@@ -2605,7 +2751,8 @@
     "keys": "🪷 Nature: Lucapaxeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C71"
   },
   {
     "id": 148,
@@ -2620,7 +2767,8 @@
     "drain": "2",
     "description": "Produit un enchantement positif qui augmente une caractéristique (dont la nature dépends de la [clé]) de [Magnitude/5].",
     "keys": "TODO : Liste des domaines avec caractéristiques",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Béné'!C72"
   },
   {
     "id": 149,
@@ -2644,7 +2792,8 @@
       "📚",
       "👁️",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C73"
   },
   {
     "id": 150,
@@ -2661,7 +2810,8 @@
     "keys": "🪷 Nature: Lirlaudoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C74"
   },
   {
     "id": 151,
@@ -2676,7 +2826,8 @@
     "drain": "2",
     "description": "Produit un enchantement positif qui immunise contre les conditions négative associées au domaine, réduisant les charges de [Magnitude] lorsque la condition doit être contractée.",
     "keys": "TODO : Liste des domaines avec conditions",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Béné'!C75"
   },
   {
     "id": 152,
@@ -2691,7 +2842,8 @@
     "drain": "2",
     "description": "Produit un enchantement positif qui augmente les effets des conditions positive associées au domaine, augmentant les charges de [Magnitude] lorsque la condition doit être contractée.",
     "keys": "TODO : Liste des domaines avec conditions",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Béné'!C76"
   },
   {
     "id": 153,
@@ -2714,7 +2866,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C77"
   },
   {
     "id": 154,
@@ -2731,7 +2884,8 @@
     "keys": "🪷 Nature: Lirgenoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C78"
   },
   {
     "id": 155,
@@ -2748,7 +2902,8 @@
     "keys": "🪷 Nature: Lokvaloeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C79"
   },
   {
     "id": 156,
@@ -2765,7 +2920,8 @@
     "keys": "👁️ Vision: Luxsens eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C80"
   },
   {
     "id": 157,
@@ -2782,7 +2938,8 @@
     "keys": "👁️ Vision: Lemludo eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C81"
   },
   {
     "id": 158,
@@ -2799,7 +2956,8 @@
     "keys": "⚜️ Charme: Lirapare ynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C82"
   },
   {
     "id": 159,
@@ -2816,7 +2974,8 @@
     "keys": "⚔️ Acier: Lynmajoran",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C83"
   },
   {
     "id": 160,
@@ -2833,7 +2992,8 @@
     "keys": "⚔️ Acier: Luxlevian",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C84"
   },
   {
     "id": 161,
@@ -2850,7 +3010,8 @@
     "keys": "⚔️ Acier: Lemalteran",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C85"
   },
   {
     "id": 162,
@@ -2867,7 +3028,8 @@
     "keys": "📚 Savoir: Lircognitaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Béné'!C86"
   },
   {
     "id": 163,
@@ -2884,7 +3046,8 @@
     "keys": "🧩 Mental: Luvinusend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Béné'!C87"
   },
   {
     "id": 164,
@@ -2901,7 +3064,8 @@
     "keys": "📚 Savoir: Luxscioaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Béné'!C88"
   },
   {
     "id": 165,
@@ -2918,7 +3082,8 @@
     "keys": "⚖️ Loi: Lemsuadem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C89"
   },
   {
     "id": 166,
@@ -2935,7 +3100,8 @@
     "keys": "✨ Sacre: Lirtorsioiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C90"
   },
   {
     "id": 167,
@@ -2954,7 +3120,8 @@
       "🔥",
       "❄️",
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Béné'!C91"
   },
   {
     "id": 168,
@@ -2971,7 +3138,8 @@
     "keys": "⚡ Foudre: Luxpulsor",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Béné'!C92"
   },
   {
     "id": 169,
@@ -3017,7 +3185,8 @@
       "⚔️",
       "🛡️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C93"
   },
   {
     "id": 170,
@@ -3034,7 +3203,8 @@
     "keys": "✨ Sacre: Lirardeoiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C94"
   },
   {
     "id": 171,
@@ -3051,7 +3221,8 @@
     "keys": "✨ Sacre: Luneuteiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C95"
   },
   {
     "id": 172,
@@ -3068,7 +3239,8 @@
     "keys": "✨ Sacre: Luxsaceriel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C96"
   },
   {
     "id": 173,
@@ -3085,7 +3257,8 @@
     "keys": "✨ Sacre: Lemhonoroiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C97"
   },
   {
     "id": 174,
@@ -3102,7 +3275,8 @@
     "keys": "🌑 Ombre: Lirfiltr oth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C98"
   },
   {
     "id": 175,
@@ -3119,7 +3293,8 @@
     "keys": "✨ Sacre: Lynsublimiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C99"
   },
   {
     "id": 176,
@@ -3136,7 +3311,8 @@
     "keys": "✨ Sacre: Luxsupraiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C100"
   },
   {
     "id": 177,
@@ -3153,7 +3329,8 @@
     "keys": "⚔️ Acier: Lemletoan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C101"
   },
   {
     "id": 178,
@@ -3170,7 +3347,8 @@
     "keys": "💢 Vide: Lirpurgarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C102"
   },
   {
     "id": 179,
@@ -3187,7 +3365,8 @@
     "keys": "💢 Vide: Luregularh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C103"
   },
   {
     "id": 180,
@@ -3218,7 +3397,8 @@
       "✡️",
       "☢️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C104"
   },
   {
     "id": 181,
@@ -3235,7 +3415,8 @@
     "keys": "☀️ Lumière: Lemveloion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C105"
   },
   {
     "id": 182,
@@ -3252,7 +3433,8 @@
     "keys": "☀️ Lumière: Lirclarusion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C106"
   },
   {
     "id": 183,
@@ -3269,7 +3451,8 @@
     "keys": "🌑 Ombre: Lusecresoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C107"
   },
   {
     "id": 184,
@@ -3286,7 +3469,8 @@
     "keys": "🌑 Ombre: Luxpare oth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C108"
   },
   {
     "id": 185,
@@ -3303,7 +3487,8 @@
     "keys": "🌑 Ombre: Lemlentoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C109"
   },
   {
     "id": 186,
@@ -3320,7 +3505,8 @@
     "keys": "🌑 Ombre: Lircelaroth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C110"
   },
   {
     "id": 187,
@@ -3343,7 +3529,8 @@
       "✡️",
       "🪷",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C111"
   },
   {
     "id": 188,
@@ -3366,7 +3553,8 @@
       "✡️",
       "🪷",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C112"
   },
   {
     "id": 189,
@@ -3383,7 +3571,8 @@
     "keys": "✨ Sacre: Lemaleiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C113"
   },
   {
     "id": 190,
@@ -3400,7 +3589,8 @@
     "keys": "✨ Sacre: Lirsuriel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C114"
   },
   {
     "id": 191,
@@ -3417,7 +3607,8 @@
     "keys": "❤️ Vie: Lyncicair",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C115"
   },
   {
     "id": 192,
@@ -3434,7 +3625,8 @@
     "keys": "❤️ Vie: Luxspirir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C116"
   },
   {
     "id": 193,
@@ -3451,7 +3643,8 @@
     "keys": "❤️ Vie: Lemtemperir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C117"
   },
   {
     "id": 194,
@@ -3468,7 +3661,8 @@
     "keys": "❤️ Vie: Lircustosir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C118"
   },
   {
     "id": 195,
@@ -3485,7 +3679,8 @@
     "keys": "❤️ Vie: Lupioir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C119"
   },
   {
     "id": 196,
@@ -3502,7 +3697,8 @@
     "keys": "❤️ Vie: Luxservir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C120"
   },
   {
     "id": 197,
@@ -3520,7 +3716,8 @@
     "domains": [
       "❤️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Béné'!C121"
   },
   {
     "id": 198,
@@ -3538,7 +3735,8 @@
     "domains": [
       "❤️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Béné'!C122"
   },
   {
     "id": 199,
@@ -3556,7 +3754,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C123"
   },
   {
     "id": 200,
@@ -3574,7 +3773,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C124"
   },
   {
     "id": 201,
@@ -3591,7 +3791,8 @@
     "keys": "☠️ Mort: Lemverius",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C125"
   },
   {
     "id": 202,
@@ -3608,7 +3809,8 @@
     "keys": "☠️ Mort: Lirceptus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C126"
   },
   {
     "id": 203,
@@ -3625,7 +3827,8 @@
     "keys": "🌪️ Air: Ludiligo el",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C127"
   },
   {
     "id": 204,
@@ -3642,7 +3845,8 @@
     "keys": "🌪️ Air: Luxgravel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C128"
   },
   {
     "id": 205,
@@ -3659,7 +3863,8 @@
     "keys": "🌪️ Air: Lemstatuel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C129"
   },
   {
     "id": 206,
@@ -3676,7 +3881,8 @@
     "keys": "🔮 Magie: Lirtendiirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C130"
   },
   {
     "id": 207,
@@ -3693,7 +3899,8 @@
     "keys": "🔮 Magie: Lynmagnoirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C131"
   },
   {
     "id": 208,
@@ -3710,7 +3917,8 @@
     "keys": "🔮 Magie: Luxfocusirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C132"
   },
   {
     "id": 209,
@@ -3727,7 +3935,8 @@
     "keys": "🔮 Magie: Lemcentrirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C133"
   },
   {
     "id": 210,
@@ -3744,7 +3953,8 @@
     "keys": "🔮 Magie: Lirarcana irn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C134"
   },
   {
     "id": 211,
@@ -3761,7 +3971,8 @@
     "keys": "🔮 Magie: Loksonairn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Béné'!C135"
   },
   {
     "id": 212,
@@ -3778,7 +3989,8 @@
     "keys": "🌀 Chaos: Luxcumulix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Béné'!C136"
   },
   {
     "id": 213,
@@ -3795,7 +4007,8 @@
     "keys": "✡️ Arcane: Lemfidesys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C137"
   },
   {
     "id": 214,
@@ -3810,7 +4023,8 @@
     "drain": "2",
     "description": "Génère un enchantement positif qui permet d'ignorer jusqu'à [Magnitude/2] PV négatifs (évitant ainsi d'être mis hors de combat).",
     "keys": "selon",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Béné'!C138"
   },
   {
     "id": 215,
@@ -3827,7 +4041,8 @@
     "keys": "❤️ Vie: Lulongir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C139"
   },
   {
     "id": 216,
@@ -3844,7 +4059,8 @@
     "keys": "🪷 Nature: Luxnervoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C140"
   },
   {
     "id": 217,
@@ -3861,7 +4077,8 @@
     "keys": "❤️ Vie: Lemglorir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C141"
   },
   {
     "id": 218,
@@ -3878,7 +4095,8 @@
     "keys": "⚖️ Loi: Liretros em",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C142"
   },
   {
     "id": 219,
@@ -3895,7 +4113,8 @@
     "keys": "🌀 Chaos: Luxliberix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Béné'!C143"
   },
   {
     "id": 220,
@@ -3912,7 +4131,8 @@
     "keys": "✨ Sacre: Lemmodoiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C144"
   },
   {
     "id": 221,
@@ -3929,7 +4149,8 @@
     "keys": "✨ Sacre: Liroroiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C145"
   },
   {
     "id": 222,
@@ -3946,7 +4167,8 @@
     "keys": "💢 Vide: Lokvitaarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C146"
   },
   {
     "id": 223,
@@ -3963,7 +4185,8 @@
     "keys": "💢 Vide: Luxpromparh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C147"
   },
   {
     "id": 224,
@@ -3980,7 +4203,8 @@
     "keys": "🌪️ Air: Lememinel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C148"
   },
   {
     "id": 225,
@@ -3997,7 +4221,8 @@
     "keys": "💢 Vide: Lirsequor arh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Béné'!C149"
   },
   {
     "id": 226,
@@ -4014,7 +4239,8 @@
     "keys": "🌪️ Air: Lusolve el",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C150"
   },
   {
     "id": 227,
@@ -4031,7 +4257,8 @@
     "keys": "🩸 Impie: Luxhaustun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Béné'!C151"
   },
   {
     "id": 228,
@@ -4048,7 +4275,8 @@
     "keys": "🛡️ Guerre: Lemacerborr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C152"
   },
   {
     "id": 229,
@@ -4065,7 +4293,8 @@
     "keys": "🛡️ Guerre: Lirdominorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C153"
   },
   {
     "id": 230,
@@ -4082,7 +4311,8 @@
     "keys": "🛡️ Guerre: Luflectorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C154"
   },
   {
     "id": 231,
@@ -4099,7 +4329,8 @@
     "keys": "⚜️ Charme: Luxvigilynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C155"
   },
   {
     "id": 232,
@@ -4116,7 +4347,8 @@
     "keys": "🐗 Faune: Lemvolvoorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Béné'!C156"
   },
   {
     "id": 233,
@@ -4133,7 +4365,8 @@
     "keys": "🛡️ Guerre: Lirballoorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C157"
   },
   {
     "id": 234,
@@ -4150,7 +4383,8 @@
     "keys": "⚔️ Acier: Lumunian",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C158"
   },
   {
     "id": 235,
@@ -4167,7 +4401,8 @@
     "keys": "⚕️ Corps: Luxgigaen",
     "domains": [
       "⚕️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C159"
   },
   {
     "id": 236,
@@ -4184,7 +4419,8 @@
     "keys": "🧠 Esprit: Lemmajesys",
     "domains": [
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Béné'!C160"
   },
   {
     "id": 237,
@@ -4202,7 +4438,8 @@
     "domains": [
       "💧",
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C161"
   },
   {
     "id": 238,
@@ -4220,7 +4457,8 @@
     "domains": [
       "🔥",
       "❄️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C162"
   },
   {
     "id": 239,
@@ -4237,7 +4475,8 @@
     "keys": "⚖️ Loi: Luxsensiem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C163"
   },
   {
     "id": 240,
@@ -4254,7 +4493,8 @@
     "keys": "❤️ Vie: Lempetuir",
     "domains": [
       "❤️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C164"
   },
   {
     "id": 241,
@@ -4271,7 +4511,8 @@
     "keys": "🪷 Nature: Lirfrigeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Béné'!C165"
   },
   {
     "id": 242,
@@ -4288,7 +4529,8 @@
     "keys": "🌀 Chaos: Lynrectix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Béné'!C166"
   },
   {
     "id": 243,
@@ -4305,7 +4547,8 @@
     "keys": "🌑 Ombre: Luspaxoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C167"
   },
   {
     "id": 244,
@@ -4322,7 +4565,8 @@
     "keys": "🌑 Ombre: Lemfuscoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Béné'!C168"
   },
   {
     "id": 245,
@@ -4339,7 +4583,8 @@
     "keys": "⚜️ Charme: Lirpacoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Béné'!C169"
   },
   {
     "id": 246,
@@ -4356,7 +4601,8 @@
     "keys": "🌿 Flore: Lupetaliln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Béné'!C170"
   },
   {
     "id": 247,
@@ -4373,7 +4619,8 @@
     "keys": "✨ Sacre: Luxtribuiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C171"
   },
   {
     "id": 248,
@@ -4390,7 +4637,8 @@
     "keys": "🌀 Chaos: Lemgratix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Béné'!C172"
   },
   {
     "id": 249,
@@ -4407,7 +4655,8 @@
     "keys": "✨ Sacre: Lirsineriel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Béné'!C173"
   },
   {
     "id": 250,
@@ -4424,7 +4673,8 @@
     "keys": "🪷 Nature: Maldamnoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C3"
   },
   {
     "id": 251,
@@ -4447,7 +4697,8 @@
       "🧩",
       "✡️",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C4"
   },
   {
     "id": 252,
@@ -4464,7 +4715,8 @@
     "keys": "🩸 Impie: Mugxecroun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C5"
   },
   {
     "id": 253,
@@ -4481,7 +4733,8 @@
     "keys": "☢️ Toxique: Mundisiex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C6"
   },
   {
     "id": 254,
@@ -4498,7 +4751,8 @@
     "keys": "☢️ Toxique: Malacerbex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C7"
   },
   {
     "id": 255,
@@ -4515,7 +4769,8 @@
     "keys": "☢️ Toxique: Mormutiex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C8"
   },
   {
     "id": 256,
@@ -4532,7 +4787,8 @@
     "keys": "💢 Vide: Muggravarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C9"
   },
   {
     "id": 257,
@@ -4549,7 +4805,8 @@
     "keys": "🪨 Terre: Munmasum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C10"
   },
   {
     "id": 258,
@@ -4566,7 +4823,8 @@
     "keys": "⚕️ Corps: Maldeben",
     "domains": [
       "⚕️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C11"
   },
   {
     "id": 259,
@@ -4583,7 +4841,8 @@
     "keys": "🌪️ Air: Morexpel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C12"
   },
   {
     "id": 260,
@@ -4600,7 +4859,8 @@
     "keys": "🪨 Terre: Mugruinum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C13"
   },
   {
     "id": 261,
@@ -4617,7 +4877,8 @@
     "keys": "🪨 Terre: Munipedum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C14"
   },
   {
     "id": 262,
@@ -4634,7 +4895,8 @@
     "keys": "🌪️ Air: Malportel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C15"
   },
   {
     "id": 263,
@@ -4651,7 +4913,8 @@
     "keys": "☠️ Mort: Morveneus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C16"
   },
   {
     "id": 264,
@@ -4668,7 +4931,8 @@
     "keys": "☠️ Mort: Mugcalcous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C17"
   },
   {
     "id": 265,
@@ -4685,7 +4949,8 @@
     "keys": "☠️ Mort: Munminusus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C18"
   },
   {
     "id": 266,
@@ -4702,7 +4967,8 @@
     "keys": "⚜️ Charme: Malfasciynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C19"
   },
   {
     "id": 267,
@@ -4719,7 +4985,8 @@
     "keys": "⚜️ Charme: Morpretynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C20"
   },
   {
     "id": 268,
@@ -4736,7 +5003,8 @@
     "keys": "⚜️ Charme: Mugtempynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C21"
   },
   {
     "id": 269,
@@ -4753,7 +5021,8 @@
     "keys": "☠️ Mort: Munficious",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C22"
   },
   {
     "id": 270,
@@ -4770,7 +5039,8 @@
     "keys": "☠️ Mort: Malgravius",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C23"
   },
   {
     "id": 271,
@@ -4787,7 +5057,8 @@
     "keys": "🧩 Mental: MoralTerrend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Malé'!C24"
   },
   {
     "id": 272,
@@ -4804,7 +5075,8 @@
     "keys": "🛡️ Guerre: Mugtagoorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C25"
   },
   {
     "id": 273,
@@ -4821,7 +5093,8 @@
     "keys": "🛡️ Guerre: Munsonaorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C26"
   },
   {
     "id": 274,
@@ -4838,7 +5111,8 @@
     "keys": "🔮 Magie: Malimbuirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Malé'!C27"
   },
   {
     "id": 275,
@@ -4855,7 +5129,8 @@
     "keys": "👁️ Vision: Morvesti eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C28"
   },
   {
     "id": 276,
@@ -4872,7 +5147,8 @@
     "keys": "🩸 Impie: Mugcontraun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C29"
   },
   {
     "id": 277,
@@ -4889,7 +5165,8 @@
     "keys": "⚜️ Charme: Munsubgerynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C30"
   },
   {
     "id": 278,
@@ -4906,7 +5183,8 @@
     "keys": "🐗 Faune: Maldosorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Malé'!C31"
   },
   {
     "id": 279,
@@ -4923,7 +5201,8 @@
     "keys": "💢 Vide: Mortardarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C32"
   },
   {
     "id": 280,
@@ -4940,7 +5219,8 @@
     "keys": "🔥 Feu: Mugcandar",
     "domains": [
       "🔥"
-    ]
+    ],
+    "cell_ref": "'Malé'!C33"
   },
   {
     "id": 281,
@@ -4957,7 +5237,8 @@
     "keys": "⚜️ Charme: Munvocoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C34"
   },
   {
     "id": 282,
@@ -4974,7 +5255,8 @@
     "keys": "⚜️ Charme: Maltimoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C35"
   },
   {
     "id": 283,
@@ -4991,7 +5273,8 @@
     "keys": "⚜️ Charme: Mororo ynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C36"
   },
   {
     "id": 284,
@@ -5009,7 +5292,8 @@
     "domains": [
       "❄️",
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C37"
   },
   {
     "id": 285,
@@ -5028,7 +5312,8 @@
       "🔥",
       "❄️",
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Malé'!C38"
   },
   {
     "id": 286,
@@ -5045,7 +5330,8 @@
     "keys": "💢 Vide: Malpeiorarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C39"
   },
   {
     "id": 287,
@@ -5063,7 +5349,8 @@
     "domains": [
       "☠️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Malé'!C40"
   },
   {
     "id": 288,
@@ -5081,7 +5368,8 @@
     "domains": [
       "☠️",
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Malé'!C41"
   },
   {
     "id": 289,
@@ -5099,7 +5387,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C42"
   },
   {
     "id": 290,
@@ -5117,7 +5406,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C43"
   },
   {
     "id": 291,
@@ -5134,7 +5424,8 @@
     "keys": "🛡️ Guerre: Moratroorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C44"
   },
   {
     "id": 292,
@@ -5153,7 +5444,8 @@
       "🐗",
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C45"
   },
   {
     "id": 293,
@@ -5172,7 +5464,8 @@
       "🐗",
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C46"
   },
   {
     "id": 294,
@@ -5191,7 +5484,8 @@
       "🐗",
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C47"
   },
   {
     "id": 295,
@@ -5210,7 +5504,8 @@
       "🧩",
       "🔮",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C48"
   },
   {
     "id": 296,
@@ -5228,7 +5523,8 @@
     "domains": [
       "🧩",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C49"
   },
   {
     "id": 297,
@@ -5245,7 +5541,8 @@
     "keys": "🔮 Magie: Munprofanirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Malé'!C50"
   },
   {
     "id": 298,
@@ -5262,7 +5559,8 @@
     "keys": "🔮 Magie: Maltaminirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Malé'!C51"
   },
   {
     "id": 299,
@@ -5279,7 +5577,8 @@
     "keys": "🪷 Nature: Mornatureiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C52"
   },
   {
     "id": 300,
@@ -5296,7 +5595,8 @@
     "keys": "🪷 Nature: Mugspiraeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C53"
   },
   {
     "id": 301,
@@ -5313,7 +5613,8 @@
     "keys": "🎭 Illusion: Munmascain",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Malé'!C54"
   },
   {
     "id": 302,
@@ -5330,7 +5631,8 @@
     "keys": "✡️ Arcane: Maldysfuys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C55"
   },
   {
     "id": 303,
@@ -5347,7 +5649,8 @@
     "keys": "☢️ Toxique: Mortingoex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C56"
   },
   {
     "id": 304,
@@ -5364,7 +5667,8 @@
     "keys": "🌿 Flore: Mugmarceiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Malé'!C57"
   },
   {
     "id": 305,
@@ -5400,7 +5704,8 @@
       "🎭",
       "⚔️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C58"
   },
   {
     "id": 306,
@@ -5420,7 +5725,8 @@
       "🧩",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C59"
   },
   {
     "id": 307,
@@ -5437,7 +5743,8 @@
     "keys": "🌑 Ombre: Mortractoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Malé'!C60"
   },
   {
     "id": 308,
@@ -5454,7 +5761,8 @@
     "keys": "🌑 Ombre: Muglatusoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Malé'!C61"
   },
   {
     "id": 309,
@@ -5471,7 +5779,8 @@
     "keys": "⚖️ Loi: Munpoenem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C62"
   },
   {
     "id": 310,
@@ -5488,7 +5797,8 @@
     "keys": "⚖️ Loi: Malvetoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C63"
   },
   {
     "id": 311,
@@ -5505,7 +5815,8 @@
     "keys": "☢️ Toxique: Morcresex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C64"
   },
   {
     "id": 312,
@@ -5520,7 +5831,8 @@
     "drain": "2",
     "description": "Génère un enchantement négatif qui réduit une sauvegarde au choix (dont le type dépends de la [clé]) de [Magnitude/5] (esprit, corps, loi, nature, arcane).",
     "keys": "Mugdegradex",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Malé'!C65"
   },
   {
     "id": 313,
@@ -5537,7 +5849,8 @@
     "keys": "☢️ Toxique: Munfregex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C66"
   },
   {
     "id": 314,
@@ -5552,7 +5865,8 @@
     "drain": "2",
     "description": "Génère un enchantement négatif qui réduit le maximum d'une ressource au choix (dont le type dépends de la [clé]) de [Magnitude/2], les ressources actuelles dépensant le nouveau maximum sont perdues (clé selon ressources négatives).",
     "keys": "Malputoex",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Malé'!C67"
   },
   {
     "id": 315,
@@ -5575,7 +5889,8 @@
       "🧩",
       "✡️",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C68"
   },
   {
     "id": 316,
@@ -5592,7 +5907,8 @@
     "keys": "☢️ Toxique: Mughaurex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C69"
   },
   {
     "id": 317,
@@ -5612,7 +5928,8 @@
       "⚕️",
       "🧠",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C70"
   },
   {
     "id": 318,
@@ -5627,7 +5944,8 @@
     "drain": "2",
     "description": "Produit un enchantement négatif qui réduit une caractéristique (dont la nature dépends de la [clé]) de [Magnitude/5].",
     "keys": "TODO : Liste des domaines avec caractéristiques",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Malé'!C71"
   },
   {
     "id": 319,
@@ -5651,7 +5969,8 @@
       "📚",
       "👁️",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C72"
   },
   {
     "id": 320,
@@ -5668,7 +5987,8 @@
     "keys": "🪷 Nature: Mugpereneiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C73"
   },
   {
     "id": 321,
@@ -5685,7 +6005,8 @@
     "keys": "👁️ Vision: Munprivoeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C74"
   },
   {
     "id": 322,
@@ -5704,7 +6025,8 @@
       "⚖️",
       "🌀",
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C75"
   },
   {
     "id": 323,
@@ -5721,7 +6043,8 @@
     "keys": "🎭 Illusion: Morobsidin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Malé'!C76"
   },
   {
     "id": 324,
@@ -5738,7 +6061,8 @@
     "keys": "⚜️ Charme: Mugdistraynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C77"
   },
   {
     "id": 325,
@@ -5755,7 +6079,8 @@
     "keys": "⚔️ Acier: Mundclasan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C78"
   },
   {
     "id": 326,
@@ -5772,7 +6097,8 @@
     "keys": "⚔️ Acier: Malponduan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C79"
   },
   {
     "id": 327,
@@ -5789,7 +6115,8 @@
     "keys": "⚔️ Acier: Morerodean",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C80"
   },
   {
     "id": 328,
@@ -5806,7 +6133,8 @@
     "keys": "⚔️ Acier: Mugfritean",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C81"
   },
   {
     "id": 329,
@@ -5823,7 +6151,8 @@
     "keys": "⚔️ Acier: Munfirmuan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C82"
   },
   {
     "id": 330,
@@ -5840,7 +6169,8 @@
     "keys": "⚔️ Acier: Malafranan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C83"
   },
   {
     "id": 331,
@@ -5857,7 +6187,8 @@
     "keys": "⚔️ Acier: Morobtu ran",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C84"
   },
   {
     "id": 332,
@@ -5874,7 +6205,8 @@
     "keys": "📚 Savoir: Mugliteraaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Malé'!C85"
   },
   {
     "id": 333,
@@ -5891,7 +6223,8 @@
     "keys": "⚖️ Loi: Munarceoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C86"
   },
   {
     "id": 334,
@@ -5908,7 +6241,8 @@
     "keys": "✨ Sacre: Maltribuiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C87"
   },
   {
     "id": 335,
@@ -5927,7 +6261,8 @@
       "🔥",
       "❄️",
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Malé'!C88"
   },
   {
     "id": 336,
@@ -5944,7 +6279,8 @@
     "keys": "⚡ Foudre: Mugprecior",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Malé'!C89"
   },
   {
     "id": 337,
@@ -5990,7 +6326,8 @@
       "⚔️",
       "🛡️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C90"
   },
   {
     "id": 338,
@@ -6007,7 +6344,8 @@
     "keys": "⚜️ Charme: Malabdiy nh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C91"
   },
   {
     "id": 339,
@@ -6024,7 +6362,8 @@
     "keys": "☠️ Mort: MoReprous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C92"
   },
   {
     "id": 340,
@@ -6047,7 +6386,8 @@
       "🧩",
       "✡️",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Malé'!C93"
   },
   {
     "id": 341,
@@ -6064,7 +6404,8 @@
     "keys": "🩸 Impie: Munveheun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C94"
   },
   {
     "id": 342,
@@ -6081,7 +6422,8 @@
     "keys": "🩸 Impie: Malneutun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C95"
   },
   {
     "id": 343,
@@ -6098,7 +6440,8 @@
     "keys": "🩸 Impie: Morsacroun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C96"
   },
   {
     "id": 344,
@@ -6115,7 +6458,8 @@
     "keys": "🩸 Impie: Mugaltun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C97"
   },
   {
     "id": 345,
@@ -6132,7 +6476,8 @@
     "keys": "🩸 Impie: Mundamnaun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C98"
   },
   {
     "id": 346,
@@ -6149,7 +6494,8 @@
     "keys": "🩸 Impie: Malliacerun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C99"
   },
   {
     "id": 347,
@@ -6166,7 +6512,8 @@
     "keys": "⚡ Foudre: Mormagneor",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Malé'!C100"
   },
   {
     "id": 348,
@@ -6183,7 +6530,8 @@
     "keys": "⚡ Foudre: Mugelecor",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Malé'!C101"
   },
   {
     "id": 349,
@@ -6200,7 +6548,8 @@
     "keys": "🔥 Feu: Muncarboar",
     "domains": [
       "🔥"
-    ]
+    ],
+    "cell_ref": "'Malé'!C102"
   },
   {
     "id": 350,
@@ -6217,7 +6566,8 @@
     "keys": "💢 Vide: Malfugi arh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C103"
   },
   {
     "id": 351,
@@ -6234,7 +6584,8 @@
     "keys": "💢 Vide: Moramploarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C104"
   },
   {
     "id": 352,
@@ -6251,7 +6602,8 @@
     "keys": "⚖️ Loi: Mugvocaem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C105"
   },
   {
     "id": 353,
@@ -6268,7 +6620,8 @@
     "keys": "☀️ Lumière: Munlumenion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C106"
   },
   {
     "id": 354,
@@ -6285,7 +6638,8 @@
     "keys": "☀️ Lumière: Malclamion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C107"
   },
   {
     "id": 355,
@@ -6302,7 +6656,8 @@
     "keys": "☀️ Lumière: Mormanaion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C108"
   },
   {
     "id": 356,
@@ -6319,7 +6674,8 @@
     "keys": "☀️ Lumière: Mugfocusion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C109"
   },
   {
     "id": 357,
@@ -6336,7 +6692,8 @@
     "keys": "☀️ Lumière: Munponiion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C110"
   },
   {
     "id": 358,
@@ -6353,7 +6710,8 @@
     "keys": "☀️ Lumière: Malveloion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C111"
   },
   {
     "id": 359,
@@ -6370,7 +6728,8 @@
     "keys": "🩸 Impie: Morlimesun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C112"
   },
   {
     "id": 360,
@@ -6387,7 +6746,8 @@
     "keys": "🩸 Impie: Mugoptiun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C113"
   },
   {
     "id": 361,
@@ -6404,7 +6764,8 @@
     "keys": "⚜️ Charme: Munturbynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C114"
   },
   {
     "id": 362,
@@ -6421,7 +6782,8 @@
     "keys": "☠️ Mort: Malcondeus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C115"
   },
   {
     "id": 363,
@@ -6438,7 +6800,8 @@
     "keys": "☠️ Mort: Morflagrous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C116"
   },
   {
     "id": 364,
@@ -6455,7 +6818,8 @@
     "keys": "☠️ Mort: Mugfrustrus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C117"
   },
   {
     "id": 365,
@@ -6472,7 +6836,8 @@
     "keys": "☠️ Mort: Munsalus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C118"
   },
   {
     "id": 366,
@@ -6489,7 +6854,8 @@
     "keys": "☠️ Mort: Malsacerus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C119"
   },
   {
     "id": 367,
@@ -6506,7 +6872,8 @@
     "keys": "☢️ Toxique: Morfessuex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C120"
   },
   {
     "id": 368,
@@ -6523,7 +6890,8 @@
     "keys": "☠️ Mort: Mugpremaus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C121"
   },
   {
     "id": 369,
@@ -6540,7 +6908,8 @@
     "keys": "☠️ Mort: MunpoLuus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C122"
   },
   {
     "id": 370,
@@ -6557,7 +6926,8 @@
     "keys": "☠️ Mort: Malumbraus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C123"
   },
   {
     "id": 371,
@@ -6574,7 +6944,8 @@
     "keys": "☠️ Mort: Morcruxus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C124"
   },
   {
     "id": 372,
@@ -6591,7 +6962,8 @@
     "keys": "🌿 Flore: Mugspargoiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Malé'!C125"
   },
   {
     "id": 373,
@@ -6608,7 +6980,8 @@
     "keys": "💢 Vide: Munresto arh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C126"
   },
   {
     "id": 374,
@@ -6625,7 +6998,8 @@
     "keys": "❄️ Glace: Malgelois",
     "domains": [
       "❄️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C127"
   },
   {
     "id": 375,
@@ -6642,7 +7016,8 @@
     "keys": "🪨 Terre: Morpetraum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C128"
   },
   {
     "id": 376,
@@ -6659,7 +7034,8 @@
     "keys": "🪨 Terre: Mugcatenaum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C129"
   },
   {
     "id": 377,
@@ -6676,7 +7052,8 @@
     "keys": "🔮 Magie: Muntneoirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Malé'!C130"
   },
   {
     "id": 378,
@@ -6693,7 +7070,8 @@
     "keys": "⚖️ Loi: Malminorem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C131"
   },
   {
     "id": 379,
@@ -6710,7 +7088,8 @@
     "keys": "🌀 Chaos: Moraugeix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Malé'!C132"
   },
   {
     "id": 380,
@@ -6727,7 +7106,8 @@
     "keys": "☢️ Toxique: Muglaborex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C133"
   },
   {
     "id": 381,
@@ -6744,7 +7124,8 @@
     "keys": "🌀 Chaos: Munmendaxix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Malé'!C134"
   },
   {
     "id": 382,
@@ -6761,7 +7142,8 @@
     "keys": "🌀 Chaos: Malfalloix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Malé'!C135"
   },
   {
     "id": 383,
@@ -6778,7 +7160,8 @@
     "keys": "⚖️ Loi: Morpateoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C136"
   },
   {
     "id": 384,
@@ -6795,7 +7178,8 @@
     "keys": "✨ Sacre: Mugspiriel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Malé'!C137"
   },
   {
     "id": 385,
@@ -6812,7 +7196,8 @@
     "keys": "⚜️ Charme: Munerro ynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C138"
   },
   {
     "id": 386,
@@ -6829,7 +7214,8 @@
     "keys": "⚜️ Charme: Malalienynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C139"
   },
   {
     "id": 387,
@@ -6846,7 +7232,8 @@
     "keys": "⚜️ Charme: Morpaveoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C140"
   },
   {
     "id": 388,
@@ -6863,7 +7250,8 @@
     "keys": "⚜️ Charme: Mugpavor ynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C141"
   },
   {
     "id": 389,
@@ -6880,7 +7268,8 @@
     "keys": "⚜️ Charme: Munlethoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C142"
   },
   {
     "id": 390,
@@ -6897,7 +7286,8 @@
     "keys": "⚜️ Charme: Malculpaynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C143"
   },
   {
     "id": 391,
@@ -6914,7 +7304,8 @@
     "keys": "⚜️ Charme: Mordominy nh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C144"
   },
   {
     "id": 392,
@@ -6931,7 +7322,8 @@
     "keys": "⚜️ Charme: Mugbelloynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C145"
   },
   {
     "id": 393,
@@ -6948,7 +7340,8 @@
     "keys": "⚜️ Charme: Munvolvoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C146"
   },
   {
     "id": 394,
@@ -6965,7 +7358,8 @@
     "keys": "⚜️ Charme: Maliraynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C147"
   },
   {
     "id": 395,
@@ -6982,7 +7376,8 @@
     "keys": "💢 Vide: Morstagnarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C148"
   },
   {
     "id": 396,
@@ -6999,7 +7394,8 @@
     "keys": "☠️ Mort: Mugmorsus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C149"
   },
   {
     "id": 397,
@@ -7016,7 +7412,8 @@
     "keys": "☢️ Toxique: Munfatisex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C150"
   },
   {
     "id": 398,
@@ -7033,7 +7430,8 @@
     "keys": "💢 Vide: Maltardiarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C151"
   },
   {
     "id": 399,
@@ -7050,7 +7448,8 @@
     "keys": "💢 Vide: Morinersarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C152"
   },
   {
     "id": 400,
@@ -7067,7 +7466,8 @@
     "keys": "💢 Vide: Mugvinarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C153"
   },
   {
     "id": 401,
@@ -7084,7 +7484,8 @@
     "keys": "💢 Vide: Muntardoarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Malé'!C154"
   },
   {
     "id": 402,
@@ -7101,7 +7502,8 @@
     "keys": "🌀 Chaos: Malvertix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Malé'!C155"
   },
   {
     "id": 403,
@@ -7118,7 +7520,8 @@
     "keys": "⚕️ Corps: Morminimaen",
     "domains": [
       "⚕️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C156"
   },
   {
     "id": 404,
@@ -7135,7 +7538,8 @@
     "keys": "🧠 Esprit: Mugmajestys",
     "domains": [
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Malé'!C157"
   },
   {
     "id": 405,
@@ -7152,7 +7556,8 @@
     "keys": "☢️ Toxique: Munarisex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C158"
   },
   {
     "id": 406,
@@ -7169,7 +7574,8 @@
     "keys": "☢️ Toxique: Malconsuex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C159"
   },
   {
     "id": 407,
@@ -7186,7 +7592,8 @@
     "keys": "☢️ Toxique: Morsicusex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C160"
   },
   {
     "id": 408,
@@ -7203,7 +7610,8 @@
     "keys": "🩸 Impie: Mugsanguiun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C161"
   },
   {
     "id": 409,
@@ -7220,7 +7628,8 @@
     "keys": "🧩 Mental: Munreddoend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Malé'!C162"
   },
   {
     "id": 410,
@@ -7237,7 +7646,8 @@
     "keys": "🩸 Impie: Malcogoun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C163"
   },
   {
     "id": 411,
@@ -7254,7 +7664,8 @@
     "keys": "🩸 Impie: Morlangorun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C164"
   },
   {
     "id": 412,
@@ -7271,7 +7682,8 @@
     "keys": "🎭 Illusion: Mugorienin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Malé'!C165"
   },
   {
     "id": 413,
@@ -7288,7 +7700,8 @@
     "keys": "🎭 Illusion: Munperdoin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Malé'!C166"
   },
   {
     "id": 414,
@@ -7305,7 +7718,8 @@
     "keys": "🩸 Impie: Malsymun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Malé'!C167"
   },
   {
     "id": 415,
@@ -7322,7 +7736,8 @@
     "keys": "⚖️ Loi: Morligaem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C168"
   },
   {
     "id": 416,
@@ -7339,7 +7754,8 @@
     "keys": "⚖️ Loi: Mugmittoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C169"
   },
   {
     "id": 417,
@@ -7356,7 +7772,8 @@
     "keys": "⚖️ Loi: Munmediem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C170"
   },
   {
     "id": 418,
@@ -7373,7 +7790,8 @@
     "keys": "☢️ Toxique: Mallassu ex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Malé'!C171"
   },
   {
     "id": 419,
@@ -7402,7 +7820,8 @@
       "❤️",
       "☢️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C3"
   },
   {
     "id": 420,
@@ -7419,7 +7838,8 @@
     "keys": "✨ Sacre: Vanignisiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C4"
   },
   {
     "id": 421,
@@ -7436,7 +7856,8 @@
     "keys": "🩸 Impie: Vorterraun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C5"
   },
   {
     "id": 422,
@@ -7453,7 +7874,8 @@
     "keys": "🪷 Nature: Vaspirieiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C6"
   },
   {
     "id": 423,
@@ -7470,7 +7892,8 @@
     "keys": "🪷 Nature: Vosign eiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C7"
   },
   {
     "id": 424,
@@ -7487,7 +7910,8 @@
     "keys": "✡️ Arcane: Vanarcays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C8"
   },
   {
     "id": 425,
@@ -7504,7 +7928,8 @@
     "keys": "⚔️ Acier: Voraniman",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C9"
   },
   {
     "id": 426,
@@ -7521,7 +7946,8 @@
     "keys": "🛡️ Guerre: Vasaparorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C10"
   },
   {
     "id": 427,
@@ -7538,7 +7964,8 @@
     "keys": "🐗 Faune: Voferaorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C11"
   },
   {
     "id": 428,
@@ -7555,7 +7982,8 @@
     "keys": "🌿 Flore: Vanherba iln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C12"
   },
   {
     "id": 429,
@@ -7572,7 +8000,8 @@
     "keys": "☠️ Mort: Vorcrepus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C13"
   },
   {
     "id": 430,
@@ -7589,7 +8018,8 @@
     "keys": "🎭 Illusion: Vasilusiin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C14"
   },
   {
     "id": 431,
@@ -7606,7 +8036,8 @@
     "keys": "📚 Savoir: Voliberaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C15"
   },
   {
     "id": 432,
@@ -7629,7 +8060,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C16"
   },
   {
     "id": 433,
@@ -7652,7 +8084,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C17"
   },
   {
     "id": 434,
@@ -7669,7 +8102,8 @@
     "keys": "⚔️ Acier: Vastem pan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C18"
   },
   {
     "id": 435,
@@ -7686,7 +8120,8 @@
     "keys": "👁️ Vision: Vosens eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C19"
   },
   {
     "id": 436,
@@ -7703,7 +8138,8 @@
     "keys": "📚 Savoir: Vanconsulaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C20"
   },
   {
     "id": 437,
@@ -7720,7 +8156,8 @@
     "keys": "🔮 Magie: Vorfundoirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C21"
   },
   {
     "id": 438,
@@ -7737,7 +8174,8 @@
     "keys": "🔮 Magie: Vaspingoirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Invoc'!C22"
   },
   {
     "id": 439,
@@ -7754,7 +8192,8 @@
     "keys": "🔮 Magie: Borimbueirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Abju'!C3"
   },
   {
     "id": 440,
@@ -7773,7 +8212,8 @@
       "🧩",
       "🔮",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C4"
   },
   {
     "id": 441,
@@ -7790,7 +8230,8 @@
     "keys": "✡️ Arcane: Basminuys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C5"
   },
   {
     "id": 442,
@@ -7807,7 +8248,8 @@
     "keys": "🪷 Nature: Brenfalloeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Abju'!C6"
   },
   {
     "id": 443,
@@ -7824,7 +8266,8 @@
     "keys": "✡️ Arcane: Barpremoys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C7"
   },
   {
     "id": 444,
@@ -7841,7 +8284,8 @@
     "keys": "☢️ Toxique: Borvitiex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C8"
   },
   {
     "id": 445,
@@ -7858,7 +8302,8 @@
     "keys": "🪷 Nature: Basmutatioeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Abju'!C9"
   },
   {
     "id": 446,
@@ -7875,7 +8320,8 @@
     "keys": "🔮 Magie: Brinfisceirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Abju'!C10"
   },
   {
     "id": 447,
@@ -7892,7 +8338,8 @@
     "keys": "🔮 Magie: Barlocuseirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Abju'!C11"
   },
   {
     "id": 448,
@@ -7909,7 +8356,8 @@
     "keys": "⚜️ Charme: Belcassoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C12"
   },
   {
     "id": 449,
@@ -7926,7 +8374,8 @@
     "keys": "⚜️ Charme: Basagoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C13"
   },
   {
     "id": 450,
@@ -7943,7 +8392,8 @@
     "keys": "✡️ Arcane: Brentuys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C14"
   },
   {
     "id": 451,
@@ -7960,7 +8410,8 @@
     "keys": "✡️ Arcane: Borservys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C15"
   },
   {
     "id": 452,
@@ -7977,7 +8428,8 @@
     "keys": "✡️ Arcane: Belsorbys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C16"
   },
   {
     "id": 453,
@@ -7994,7 +8446,8 @@
     "keys": "✡️ Arcane: Baspedioys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C17"
   },
   {
     "id": 454,
@@ -8011,7 +8464,8 @@
     "keys": "✡️ Arcane: Brenisolys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C18"
   },
   {
     "id": 455,
@@ -8028,7 +8482,8 @@
     "keys": "✡️ Arcane: Borsusys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C19"
   },
   {
     "id": 456,
@@ -8045,7 +8500,8 @@
     "keys": "✡️ Arcane: Beltintoys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C20"
   },
   {
     "id": 457,
@@ -8062,7 +8518,8 @@
     "keys": "✡️ Arcane: Basstrinys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C21"
   },
   {
     "id": 458,
@@ -8079,7 +8536,8 @@
     "keys": "⚖️ Loi: Brenvetoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C22"
   },
   {
     "id": 459,
@@ -8096,7 +8554,8 @@
     "keys": "✡️ Arcane: Bricontrays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C23"
   },
   {
     "id": 460,
@@ -8113,7 +8572,8 @@
     "keys": "✡️ Arcane: Belhabeys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C24"
   },
   {
     "id": 461,
@@ -8130,7 +8590,8 @@
     "keys": "✡️ Arcane: Basoppoys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C25"
   },
   {
     "id": 462,
@@ -8147,7 +8608,8 @@
     "keys": "⚖️ Loi: Brentesem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C26"
   },
   {
     "id": 463,
@@ -8164,7 +8626,8 @@
     "keys": "✡️ Arcane: Barextrays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C27"
   },
   {
     "id": 464,
@@ -8181,7 +8644,8 @@
     "keys": "⚖️ Loi: Borarceoem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C28"
   },
   {
     "id": 465,
@@ -8227,7 +8691,8 @@
       "⚔️",
       "🛡️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Abju'!C29"
   },
   {
     "id": 466,
@@ -8273,7 +8738,8 @@
       "⚔️",
       "🛡️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Abju'!C30"
   },
   {
     "id": 467,
@@ -8319,7 +8785,8 @@
       "⚔️",
       "🛡️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Abju'!C31"
   },
   {
     "id": 468,
@@ -8336,7 +8803,8 @@
     "keys": "✡️ Arcane: Bripobays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C32"
   },
   {
     "id": 469,
@@ -8353,7 +8821,8 @@
     "keys": "🌪️ Air: Basfletoel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C33"
   },
   {
     "id": 470,
@@ -8370,7 +8839,8 @@
     "keys": "🌪️ Air: Brendirigoel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C34"
   },
   {
     "id": 471,
@@ -8387,7 +8857,8 @@
     "keys": "✡️ Arcane: Barnegays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C35"
   },
   {
     "id": 472,
@@ -8404,7 +8875,8 @@
     "keys": "✡️ Arcane: Borpelloys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C36"
   },
   {
     "id": 473,
@@ -8421,7 +8893,8 @@
     "keys": "🪷 Nature: Bastractoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Abju'!C37"
   },
   {
     "id": 474,
@@ -8438,7 +8911,8 @@
     "keys": "🪷 Nature: Brenponoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Abju'!C38"
   },
   {
     "id": 475,
@@ -8455,7 +8929,8 @@
     "keys": "⚜️ Charme: Barviasynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C39"
   },
   {
     "id": 476,
@@ -8472,7 +8947,8 @@
     "keys": "🌀 Chaos: Brifrangix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Abju'!C40"
   },
   {
     "id": 477,
@@ -8489,7 +8965,8 @@
     "keys": "🌿 Flore: Baspostoiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Abju'!C41"
   },
   {
     "id": 478,
@@ -8506,7 +8983,8 @@
     "keys": "🛡️ Guerre: Breniposiorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C42"
   },
   {
     "id": 479,
@@ -8523,7 +9001,8 @@
     "keys": "🛡️ Guerre: Barcurvoorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C43"
   },
   {
     "id": 480,
@@ -8540,7 +9019,8 @@
     "keys": "🧩 Mental: Borintraend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Abju'!C44"
   },
   {
     "id": 481,
@@ -8557,7 +9037,8 @@
     "keys": "🪷 Nature: Basdisipoeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Abju'!C45"
   },
   {
     "id": 482,
@@ -8574,7 +9055,8 @@
     "keys": "⚡ Foudre: Brenfortisor",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Abju'!C46"
   },
   {
     "id": 483,
@@ -8591,7 +9073,8 @@
     "keys": "❄️ Glace: Brisolidis",
     "domains": [
       "❄️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C47"
   },
   {
     "id": 484,
@@ -8608,7 +9091,8 @@
     "keys": "🔥 Feu: Belfragiar",
     "domains": [
       "🔥"
-    ]
+    ],
+    "cell_ref": "'Abju'!C48"
   },
   {
     "id": 485,
@@ -8625,7 +9109,8 @@
     "keys": "🧩 Mental: Basoccultend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Abju'!C49"
   },
   {
     "id": 486,
@@ -8642,7 +9127,8 @@
     "keys": "💢 Vide: Brensimarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Abju'!C50"
   },
   {
     "id": 487,
@@ -8659,7 +9145,8 @@
     "keys": "📚 Savoir: Barlitaaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Abju'!C51"
   },
   {
     "id": 488,
@@ -8676,7 +9163,8 @@
     "keys": "💢 Vide: Bortardoarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Abju'!C52"
   },
   {
     "id": 489,
@@ -8693,7 +9181,8 @@
     "keys": "💢 Vide: Bashaesarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Abju'!C53"
   },
   {
     "id": 490,
@@ -8710,7 +9199,8 @@
     "keys": "⚖️ Loi: Brinturbem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Abju'!C54"
   },
   {
     "id": 491,
@@ -8727,7 +9217,8 @@
     "keys": "👁️ Vision: Diretroeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C3"
   },
   {
     "id": 492,
@@ -8744,7 +9235,8 @@
     "keys": "👁️ Vision: Dornosceth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C4"
   },
   {
     "id": 493,
@@ -8761,7 +9253,8 @@
     "keys": "👁️ Vision: Delmemoeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C5"
   },
   {
     "id": 494,
@@ -8778,7 +9271,8 @@
     "keys": "👁️ Vision: Darsruteth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C6"
   },
   {
     "id": 495,
@@ -8795,7 +9289,8 @@
     "keys": "📚 Savoir: Diidemaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C7"
   },
   {
     "id": 496,
@@ -8812,7 +9307,8 @@
     "keys": "📚 Savoir: Dorfirmo aum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C8"
   },
   {
     "id": 497,
@@ -8829,7 +9325,8 @@
     "keys": "👁️ Vision: Delponieth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C9"
   },
   {
     "id": 498,
@@ -8846,7 +9343,8 @@
     "keys": "📚 Savoir: Darora aum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C10"
   },
   {
     "id": 499,
@@ -8883,7 +9381,8 @@
       "☢️",
       "📚",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C11"
   },
   {
     "id": 500,
@@ -8900,7 +9399,8 @@
     "keys": "📚 Savoir: Dorluxaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C12"
   },
   {
     "id": 501,
@@ -8917,7 +9417,8 @@
     "keys": "👁️ Vision: Deltrudeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C13"
   },
   {
     "id": 502,
@@ -8934,7 +9435,8 @@
     "keys": "👁️ Vision: Darlocus eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C14"
   },
   {
     "id": 503,
@@ -8951,7 +9453,8 @@
     "keys": "👁️ Vision: Dipaleeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C15"
   },
   {
     "id": 504,
@@ -8968,7 +9471,8 @@
     "keys": "👁️ Vision: Dorvidieth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C16"
   },
   {
     "id": 505,
@@ -8985,7 +9489,8 @@
     "keys": "👁️ Vision: Delvisu eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C17"
   },
   {
     "id": 506,
@@ -9022,7 +9527,8 @@
       "☢️",
       "👁️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C18"
   },
   {
     "id": 507,
@@ -9059,7 +9565,8 @@
       "☢️",
       "👁️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C19"
   },
   {
     "id": 508,
@@ -9076,7 +9583,8 @@
     "keys": "📚 Savoir: Dorerudiaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C20"
   },
   {
     "id": 509,
@@ -9093,7 +9601,8 @@
     "keys": "📚 Savoir: Delcogi aum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C21"
   },
   {
     "id": 510,
@@ -9110,7 +9619,8 @@
     "keys": "👁️ Vision: Darvisoeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C22"
   },
   {
     "id": 511,
@@ -9127,7 +9637,8 @@
     "keys": "👁️ Vision: Dimagno eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C23"
   },
   {
     "id": 512,
@@ -9144,7 +9655,8 @@
     "keys": "👁️ Vision: Dorlongeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C24"
   },
   {
     "id": 513,
@@ -9162,7 +9674,8 @@
     "domains": [
       "👁️",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C25"
   },
   {
     "id": 514,
@@ -9180,7 +9693,8 @@
     "domains": [
       "👁️",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C26"
   },
   {
     "id": 515,
@@ -9198,7 +9712,8 @@
     "domains": [
       "☀️",
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C27"
   },
   {
     "id": 516,
@@ -9215,7 +9730,8 @@
     "keys": "👁️ Vision: Doraestieth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C28"
   },
   {
     "id": 517,
@@ -9232,7 +9748,8 @@
     "keys": "👁️ Vision: Delordoeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C29"
   },
   {
     "id": 518,
@@ -9250,7 +9767,8 @@
     "domains": [
       "❤️",
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C30"
   },
   {
     "id": 519,
@@ -9268,7 +9786,8 @@
     "domains": [
       "🐗",
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C31"
   },
   {
     "id": 520,
@@ -9286,7 +9805,8 @@
     "domains": [
       "☠️",
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C32"
   },
   {
     "id": 521,
@@ -9304,7 +9824,8 @@
     "domains": [
       "🔮",
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C33"
   },
   {
     "id": 522,
@@ -9322,7 +9843,8 @@
     "domains": [
       "⚜️",
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C34"
   },
   {
     "id": 523,
@@ -9340,7 +9862,8 @@
     "domains": [
       "👁️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Divi'!C35"
   },
   {
     "id": 524,
@@ -9358,7 +9881,8 @@
     "domains": [
       "👁️",
       "💢"
-    ]
+    ],
+    "cell_ref": "'Divi'!C36"
   },
   {
     "id": 525,
@@ -9375,7 +9899,8 @@
     "keys": "👁️ Vision: Delcipieth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C37"
   },
   {
     "id": 526,
@@ -9392,7 +9917,8 @@
     "keys": "📚 Savoir: Darnarraaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C38"
   },
   {
     "id": 527,
@@ -9409,7 +9935,8 @@
     "keys": "📚 Savoir: Dispecioaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Divi'!C39"
   },
   {
     "id": 528,
@@ -9426,7 +9953,8 @@
     "keys": "👁️ Vision: Dorquereth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Divi'!C40"
   },
   {
     "id": 529,
@@ -9449,7 +9977,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C3"
   },
   {
     "id": 530,
@@ -9466,7 +9995,8 @@
     "keys": "✡️ Arcane: Enruptioys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C4"
   },
   {
     "id": 531,
@@ -9483,7 +10013,8 @@
     "keys": "🪷 Nature: Eloenrgieiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C5"
   },
   {
     "id": 532,
@@ -9500,7 +10031,8 @@
     "keys": "💢 Vide: Eruatratarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C6"
   },
   {
     "id": 533,
@@ -9517,7 +10049,8 @@
     "keys": "🌪️ Air: Evpelloel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C7"
   },
   {
     "id": 534,
@@ -9534,7 +10067,8 @@
     "keys": "🌪️ Air: Enlevesel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C8"
   },
   {
     "id": 535,
@@ -9551,7 +10085,8 @@
     "keys": "🪨 Terre: Eloprecium",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C9"
   },
   {
     "id": 536,
@@ -9568,7 +10103,8 @@
     "keys": "🌪️ Air: Erupulsel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C10"
   },
   {
     "id": 537,
@@ -9585,7 +10121,8 @@
     "keys": "💢 Vide: Evtractarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C11"
   },
   {
     "id": 538,
@@ -9602,7 +10139,8 @@
     "keys": "✡️ Arcane: Enlatays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C12"
   },
   {
     "id": 539,
@@ -9621,7 +10159,8 @@
       "🪨",
       "💧",
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C13"
   },
   {
     "id": 540,
@@ -9638,7 +10177,8 @@
     "keys": "✡️ Arcane: Erumanuys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C14"
   },
   {
     "id": 541,
@@ -9655,7 +10195,8 @@
     "keys": "🎭 Illusion: Evsimulin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C15"
   },
   {
     "id": 542,
@@ -9672,7 +10213,8 @@
     "keys": "🪷 Nature: Enmigroeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C16"
   },
   {
     "id": 543,
@@ -9689,7 +10231,8 @@
     "keys": "☠️ Mort: Elooblitus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C17"
   },
   {
     "id": 544,
@@ -9706,7 +10249,8 @@
     "keys": "🛡️ Guerre: Evfulgoorr",
     "domains": [
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C18"
   },
   {
     "id": 545,
@@ -9723,7 +10267,8 @@
     "keys": "⚜️ Charme: Enaltoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C19"
   },
   {
     "id": 546,
@@ -9740,7 +10285,8 @@
     "keys": "💢 Vide: Elovelocarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C20"
   },
   {
     "id": 547,
@@ -9757,7 +10303,8 @@
     "keys": "📚 Savoir: Eruretroaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C21"
   },
   {
     "id": 548,
@@ -9774,7 +10321,8 @@
     "keys": "💢 Vide: Evvertiarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C22"
   },
   {
     "id": 549,
@@ -9791,7 +10339,8 @@
     "keys": "💢 Vide: Enpalimarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C23"
   },
   {
     "id": 550,
@@ -9808,7 +10357,8 @@
     "keys": "💢 Vide: Eloinitarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C24"
   },
   {
     "id": 551,
@@ -9825,7 +10375,8 @@
     "keys": "📚 Savoir: Eruitrudaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C25"
   },
   {
     "id": 552,
@@ -9842,7 +10393,8 @@
     "keys": "⚔️ Acier: Evparoan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C26"
   },
   {
     "id": 553,
@@ -9859,7 +10411,8 @@
     "keys": "✡️ Arcane: Encapys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C27"
   },
   {
     "id": 554,
@@ -9876,7 +10429,8 @@
     "keys": "👁️ Vision: Elotegeseth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C28"
   },
   {
     "id": 555,
@@ -9893,7 +10447,8 @@
     "keys": "📚 Savoir: Eruvidi aum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C29"
   },
   {
     "id": 556,
@@ -9908,7 +10463,8 @@
     "drain": "2",
     "description": "Génère un effet agissant comme l'action tactique provoquant une condition nécessairement négative (dont la nature est associable à la [clé]) avec un jet de [Magnitude x1.5], la cible peux donc se défendre de l'action et aussi réaliser un test de sauvegarde adapté à la condition (ou opposition si supérieure).",
     "keys": "TODO : Liste des domaines avec conditions",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Evoc'!C30"
   },
   {
     "id": 557,
@@ -9926,7 +10482,8 @@
     "domains": [
       "⚕️",
       "🧠"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C31"
   },
   {
     "id": 558,
@@ -9943,7 +10500,8 @@
     "keys": "☢️ Toxique: Elodemusex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C32"
   },
   {
     "id": 559,
@@ -9960,7 +10518,8 @@
     "keys": "🔮 Magie: Eruiacioirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C33"
   },
   {
     "id": 560,
@@ -9977,7 +10536,8 @@
     "keys": "🔮 Magie: Evcarirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C34"
   },
   {
     "id": 561,
@@ -10001,7 +10561,8 @@
       "📚",
       "👁️",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C35"
   },
   {
     "id": 562,
@@ -10020,7 +10581,8 @@
       "🪨",
       "💧",
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C36"
   },
   {
     "id": 563,
@@ -10037,7 +10599,8 @@
     "keys": "✡️ Arcane: Eruportys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C37"
   },
   {
     "id": 564,
@@ -10055,7 +10618,8 @@
     "domains": [
       "🪨",
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C38"
   },
   {
     "id": 565,
@@ -10072,7 +10636,8 @@
     "keys": "⚜️ Charme: Ensequorynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C39"
   },
   {
     "id": 566,
@@ -10089,7 +10654,8 @@
     "keys": "🧩 Mental: Elonectend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C40"
   },
   {
     "id": 567,
@@ -10106,7 +10672,8 @@
     "keys": "🔮 Magie: Evamplusirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C41"
   },
   {
     "id": 568,
@@ -10123,7 +10690,8 @@
     "keys": "🔮 Magie: Enminusirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C42"
   },
   {
     "id": 569,
@@ -10140,7 +10708,8 @@
     "keys": "✡️ Arcane: Eloactusys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C43"
   },
   {
     "id": 570,
@@ -10157,7 +10726,8 @@
     "keys": "🌑 Ombre: Erulocusoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C44"
   },
   {
     "id": 571,
@@ -10174,7 +10744,8 @@
     "keys": "☠️ Mort: Evnecrous",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C45"
   },
   {
     "id": 572,
@@ -10191,7 +10762,8 @@
     "keys": "☠️ Mort: Enanimaus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C46"
   },
   {
     "id": 573,
@@ -10208,7 +10780,8 @@
     "keys": "⚡ Foudre: Elofulgor",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C47"
   },
   {
     "id": 574,
@@ -10225,7 +10798,8 @@
     "keys": "🪨 Terre: Eruvibrum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C48"
   },
   {
     "id": 575,
@@ -10242,7 +10816,8 @@
     "keys": "🌪️ Air: Evpossel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C49"
   },
   {
     "id": 576,
@@ -10259,7 +10834,8 @@
     "keys": "🌪️ Air: Enmittel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C50"
   },
   {
     "id": 577,
@@ -10276,7 +10852,8 @@
     "keys": "✡️ Arcane: Elovaseoys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C51"
   },
   {
     "id": 578,
@@ -10293,7 +10870,8 @@
     "keys": "✡️ Arcane: Eruportays",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C52"
   },
   {
     "id": 579,
@@ -10310,7 +10888,8 @@
     "keys": "⚖️ Loi: Evharmem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C53"
   },
   {
     "id": 580,
@@ -10327,7 +10906,8 @@
     "keys": "⚖️ Loi: Enterminem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C54"
   },
   {
     "id": 581,
@@ -10344,7 +10924,8 @@
     "keys": "⚖️ Loi: Elocondiem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C55"
   },
   {
     "id": 582,
@@ -10361,7 +10942,8 @@
     "keys": "🌀 Chaos: Erupoluix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C56"
   },
   {
     "id": 583,
@@ -10378,7 +10960,8 @@
     "keys": "🌀 Chaos: Evemoix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C57"
   },
   {
     "id": 584,
@@ -10395,7 +10978,8 @@
     "keys": "🌀 Chaos: Enaleaix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C58"
   },
   {
     "id": 585,
@@ -10412,7 +10996,8 @@
     "keys": "🐗 Faune: Elocaptusorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C59"
   },
   {
     "id": 586,
@@ -10429,7 +11014,8 @@
     "keys": "⚜️ Charme: Erufasciynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C60"
   },
   {
     "id": 587,
@@ -10446,7 +11032,8 @@
     "keys": "🧩 Mental: Evfallend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C61"
   },
   {
     "id": 588,
@@ -10463,7 +11050,8 @@
     "keys": "🧩 Mental: Encommuend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C62"
   },
   {
     "id": 589,
@@ -10480,7 +11068,8 @@
     "keys": "🧩 Mental: Eloonirend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C63"
   },
   {
     "id": 590,
@@ -10497,7 +11086,8 @@
     "keys": "🧩 Mental: Erutranend",
     "domains": [
       "🧩"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C64"
   },
   {
     "id": 591,
@@ -10514,7 +11104,8 @@
     "keys": "⚜️ Charme: Evducoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C65"
   },
   {
     "id": 592,
@@ -10531,7 +11122,8 @@
     "keys": "⚜️ Charme: Ensubgerynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C66"
   },
   {
     "id": 593,
@@ -10548,7 +11140,8 @@
     "keys": "💢 Vide: Eloordoarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C67"
   },
   {
     "id": 594,
@@ -10565,7 +11158,8 @@
     "keys": "📚 Savoir: Erucogitaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C68"
   },
   {
     "id": 595,
@@ -10582,7 +11176,8 @@
     "keys": "☀️ Lumière: Evhalosion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C69"
   },
   {
     "id": 596,
@@ -10599,7 +11194,8 @@
     "keys": "☀️ Lumière: Enlepsiaion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C70"
   },
   {
     "id": 597,
@@ -10616,7 +11212,8 @@
     "keys": "📚 Savoir: Elotramsaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C71"
   },
   {
     "id": 598,
@@ -10633,7 +11230,8 @@
     "keys": "⚜️ Charme: Erusedeoynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C72"
   },
   {
     "id": 599,
@@ -10656,7 +11254,8 @@
       "🌪️",
       "☀️",
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C73"
   },
   {
     "id": 600,
@@ -10673,7 +11272,8 @@
     "keys": "✡️ Arcane: Enfractys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C74"
   },
   {
     "id": 601,
@@ -10690,7 +11290,8 @@
     "keys": "✡️ Arcane: Eloclaudys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C75"
   },
   {
     "id": 602,
@@ -10707,7 +11308,8 @@
     "keys": "✡️ Arcane: Eruponoys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C76"
   },
   {
     "id": 603,
@@ -10724,7 +11326,8 @@
     "keys": "⚜️ Charme: Evsuborynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C77"
   },
   {
     "id": 604,
@@ -10741,7 +11344,8 @@
     "keys": "🪷 Nature: Ennutrieiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C78"
   },
   {
     "id": 605,
@@ -10758,7 +11362,8 @@
     "keys": "🔮 Magie: Elonotairn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C79"
   },
   {
     "id": 606,
@@ -10775,7 +11380,8 @@
     "keys": "☀️ Lumière: Eruveloion",
     "domains": [
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C80"
   },
   {
     "id": 607,
@@ -10792,7 +11398,8 @@
     "keys": "🔮 Magie: Evaugeirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C81"
   },
   {
     "id": 608,
@@ -10809,7 +11416,8 @@
     "keys": "💢 Vide: Entempusarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Evoc'!C82"
   },
   {
     "id": 609,
@@ -10826,7 +11434,8 @@
     "keys": "🌪️ Air: Convolel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C3"
   },
   {
     "id": 610,
@@ -10843,7 +11452,8 @@
     "keys": "🌪️ Air: Cemplaudel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C4"
   },
   {
     "id": 611,
@@ -10860,7 +11470,8 @@
     "keys": "💧 Eau: Colaquayn",
     "domains": [
       "💧"
-    ]
+    ],
+    "cell_ref": "'Conj'!C5"
   },
   {
     "id": 612,
@@ -10877,7 +11488,8 @@
     "keys": "💧 Eau: Carnatoyn",
     "domains": [
       "💧"
-    ]
+    ],
+    "cell_ref": "'Conj'!C6"
   },
   {
     "id": 613,
@@ -10894,7 +11506,8 @@
     "keys": "🪨 Terre: Conascum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Conj'!C7"
   },
   {
     "id": 614,
@@ -10911,7 +11524,8 @@
     "keys": "🪨 Terre: Centerraum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Conj'!C8"
   },
   {
     "id": 615,
@@ -10928,7 +11542,8 @@
     "keys": "💢 Vide: Coltrahoarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Conj'!C9"
   },
   {
     "id": 616,
@@ -10945,7 +11560,8 @@
     "keys": "🌪️ Air: Carpelloel",
     "domains": [
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C10"
   },
   {
     "id": 617,
@@ -10979,7 +11595,8 @@
       "✡️",
       "🎭",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C11"
   },
   {
     "id": 618,
@@ -11013,7 +11630,8 @@
       "✡️",
       "🎭",
       "🛡️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C12"
   },
   {
     "id": 619,
@@ -11039,7 +11657,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C13"
   },
   {
     "id": 620,
@@ -11065,7 +11684,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C14"
   },
   {
     "id": 621,
@@ -11091,7 +11711,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C15"
   },
   {
     "id": 622,
@@ -11108,7 +11729,8 @@
     "keys": "💢 Vide: Censpiraarh",
     "domains": [
       "💢"
-    ]
+    ],
+    "cell_ref": "'Conj'!C16"
   },
   {
     "id": 623,
@@ -11126,7 +11748,8 @@
     "domains": [
       "🔥",
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C17"
   },
   {
     "id": 624,
@@ -11143,7 +11766,8 @@
     "keys": "🌑 Ombre: Carscurooth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Conj'!C18"
   },
   {
     "id": 625,
@@ -11160,7 +11784,8 @@
     "keys": "🎭 Illusion: Consimin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Conj'!C19"
   },
   {
     "id": 626,
@@ -11177,7 +11802,8 @@
     "keys": "☠️ Mort: Censpirius",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C20"
   },
   {
     "id": 627,
@@ -11194,7 +11820,8 @@
     "keys": "☢️ Toxique: Colmiasex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C21"
   },
   {
     "id": 628,
@@ -11211,7 +11838,8 @@
     "keys": "☠️ Mort: Carpestius",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C22"
   },
   {
     "id": 629,
@@ -11228,7 +11856,8 @@
     "keys": "☠️ Mort: Conumbraus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C23"
   },
   {
     "id": 630,
@@ -11243,7 +11872,8 @@
     "drain": "4",
     "description": "Génère un enchantement de lieu qui produit les effets d'un autre [mot de pouvoir] (écoles : Destruction, Restauration, Abjuration, Altération, Evocation) à chaque début de tour dans sa zone d'effet, l'effet en question dispose de toute sa [Magnitude], cet effet ne peux être maintenu et sa décharge est doublée (10), l'effet ne fait pas la différence entre ennemis et alliés... Il y a toujours une sauvegarde associé à cet effet qui dépends de la nature des effets : Une agression sera associée aux réflexes si physique ou sang froid si mentale, un effet autre serait associé à la robustesse si physique ou à la détermination si mental, etc... Le drain et la difficulté du mot de pouvoir associé sont à ajouter normalement.",
     "keys": "Tous: Cenpulso (Pas de suffixe élémentaire, domaine \"Tous\")",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Conj'!C24"
   },
   {
     "id": 631,
@@ -11258,7 +11888,8 @@
     "drain": "6",
     "description": "Génère un enchantement de lieu qui produit les effets d'un autre [mot de pouvoir] (écoles : Bénédiction, Malédiction) à tous les individus tant qu'ils sont dans la zone d'effet, l'effet en question dispose de toute sa [Magnitude], cet effet ne peux être maintenu et sa décharge est doublée (10), l'effet ne fait pas la différence entre ennemis et alliés... Les effets négatifs sont associés à une sauvegarde de détermination, qui doit être lancé en entrant dans la zone où à chaque tour passé dedans. Le drain et la difficulté du mot de pouvoir associé sont à ajouter normalement.",
     "keys": "Tous: Colcircu (Pas de suffixe élémentaire, domaine \"Tous\")",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Conj'!C25"
   },
   {
     "id": 632,
@@ -11293,7 +11924,8 @@
       "🔮",
       "🎭",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C26"
   },
   {
     "id": 633,
@@ -11328,7 +11960,8 @@
       "🔮",
       "🎭",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C27"
   },
   {
     "id": 634,
@@ -11345,7 +11978,8 @@
     "keys": "✡️ Arcane: Ceninstrys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C28"
   },
   {
     "id": 635,
@@ -11362,7 +11996,8 @@
     "keys": "🔮 Magie: Colpingoirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Conj'!C29"
   },
   {
     "id": 636,
@@ -11379,7 +12014,8 @@
     "keys": "👁️ Vision: Caroculeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C30"
   },
   {
     "id": 637,
@@ -11396,7 +12032,8 @@
     "keys": "🔮 Magie: Connotairn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Conj'!C31"
   },
   {
     "id": 638,
@@ -11413,7 +12050,8 @@
     "keys": "💧 Eau: Cenlustryn",
     "domains": [
       "💧"
-    ]
+    ],
+    "cell_ref": "'Conj'!C32"
   },
   {
     "id": 639,
@@ -11430,7 +12068,8 @@
     "keys": "🌿 Flore: Colhortiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Conj'!C33"
   },
   {
     "id": 640,
@@ -11448,7 +12087,8 @@
     "domains": [
       "🔥",
       "☀️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C34"
   },
   {
     "id": 641,
@@ -11465,7 +12105,8 @@
     "keys": "🌑 Ombre: Conocultoth",
     "domains": [
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Conj'!C35"
   },
   {
     "id": 642,
@@ -11482,7 +12123,8 @@
     "keys": "☢️ Toxique: Cenlarvaex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C36"
   },
   {
     "id": 643,
@@ -11499,7 +12141,8 @@
     "keys": "🌀 Chaos: Colfugiix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Conj'!C37"
   },
   {
     "id": 644,
@@ -11516,7 +12159,8 @@
     "keys": "⚜️ Charme: Caripedynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C38"
   },
   {
     "id": 645,
@@ -11533,7 +12177,8 @@
     "keys": "⚜️ Charme: Conpupaynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C39"
   },
   {
     "id": 646,
@@ -11550,7 +12195,8 @@
     "keys": "⚜️ Charme: Cendominynh",
     "domains": [
       "⚜️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C40"
   },
   {
     "id": 647,
@@ -11567,7 +12213,8 @@
     "keys": "📚 Savoir: Colmentaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Conj'!C41"
   },
   {
     "id": 648,
@@ -11584,7 +12231,8 @@
     "keys": "⚔️ Acier: Cargladian",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C42"
   },
   {
     "id": 649,
@@ -11603,7 +12251,8 @@
       "🧩",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C43"
   },
   {
     "id": 650,
@@ -11622,7 +12271,8 @@
       "🧩",
       "🪷",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C44"
   },
   {
     "id": 651,
@@ -11639,7 +12289,8 @@
     "keys": "⚡ Foudre: Colfulguror",
     "domains": [
       "⚡"
-    ]
+    ],
+    "cell_ref": "'Conj'!C45"
   },
   {
     "id": 652,
@@ -11656,7 +12307,8 @@
     "keys": "🐗 Faune: Carmutaorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Conj'!C46"
   },
   {
     "id": 653,
@@ -11673,7 +12325,8 @@
     "keys": "🐗 Faune: Conlocoorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Conj'!C47"
   },
   {
     "id": 654,
@@ -11690,7 +12343,8 @@
     "keys": "🎭 Illusion: Cenmimicin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Conj'!C48"
   },
   {
     "id": 655,
@@ -11707,7 +12361,8 @@
     "keys": "✡️ Arcane: Colspatiys",
     "domains": [
       "✡️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C49"
   },
   {
     "id": 656,
@@ -11724,7 +12379,8 @@
     "keys": "🪷 Nature: Carneroeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Conj'!C50"
   },
   {
     "id": 657,
@@ -11741,7 +12397,8 @@
     "keys": "🪷 Nature: Consangeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Conj'!C51"
   },
   {
     "id": 658,
@@ -11758,7 +12415,8 @@
     "keys": "🪷 Nature: Centurbeiln",
     "domains": [
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Conj'!C52"
   },
   {
     "id": 659,
@@ -11775,7 +12433,8 @@
     "keys": "🔮 Magie: Colharmoirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Conj'!C53"
   },
   {
     "id": 660,
@@ -11792,7 +12451,8 @@
     "keys": "🔮 Magie: Carlevesirn",
     "domains": [
       "🔮"
-    ]
+    ],
+    "cell_ref": "'Conj'!C54"
   },
   {
     "id": 661,
@@ -11809,7 +12469,8 @@
     "keys": "👁️ Vision: Conastra eth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C55"
   },
   {
     "id": 662,
@@ -11826,7 +12487,8 @@
     "keys": "🎭 Illusion: Cenceloin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Conj'!C56"
   },
   {
     "id": 663,
@@ -11843,7 +12505,8 @@
     "keys": "🎭 Illusion: Colsilin",
     "domains": [
       "🎭"
-    ]
+    ],
+    "cell_ref": "'Conj'!C57"
   },
   {
     "id": 664,
@@ -11860,7 +12523,8 @@
     "keys": "☠️ Mort: Caranimaus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Conj'!C58"
   },
   {
     "id": 665,
@@ -11883,7 +12547,8 @@
       "🌪️",
       "☀️",
       "🌑"
-    ]
+    ],
+    "cell_ref": "'Conj'!C59"
   },
   {
     "id": 666,
@@ -11902,7 +12567,8 @@
       "🪨",
       "💧",
       "🌪️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C3"
   },
   {
     "id": 667,
@@ -11919,7 +12585,8 @@
     "keys": "🌿 Flore: Arfructiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Alté'!C4"
   },
   {
     "id": 668,
@@ -11936,7 +12603,8 @@
     "keys": "🌿 Flore: Asarboriln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Alté'!C5"
   },
   {
     "id": 669,
@@ -11953,7 +12621,8 @@
     "keys": "🪨 Terre: Aenfindum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Alté'!C6"
   },
   {
     "id": 670,
@@ -11972,7 +12641,8 @@
       "🐗",
       "🌿",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C7"
   },
   {
     "id": 671,
@@ -11990,7 +12660,8 @@
     "domains": [
       "🌿",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C8"
   },
   {
     "id": 672,
@@ -12005,7 +12676,8 @@
     "drain": "2",
     "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude].",
     "keys": "TODO : Liste des domaines avec conditions",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Alté'!C9"
   },
   {
     "id": 673,
@@ -12020,7 +12692,8 @@
     "drain": "2",
     "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
     "keys": "TODO : Liste des domaines avec conditions",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Alté'!C10"
   },
   {
     "id": 674,
@@ -12037,7 +12710,8 @@
     "keys": "☢️ Toxique: Altoxex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C11"
   },
   {
     "id": 675,
@@ -12054,7 +12728,8 @@
     "keys": "☠️ Mort: Arinficus",
     "domains": [
       "☠️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C12"
   },
   {
     "id": 676,
@@ -12071,7 +12746,8 @@
     "keys": "⚖️ Loi: Asvertem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C13"
   },
   {
     "id": 677,
@@ -12088,7 +12764,8 @@
     "keys": "🌀 Chaos: Aenrumpix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Alté'!C14"
   },
   {
     "id": 678,
@@ -12113,7 +12790,8 @@
       "🧩",
       "🔮",
       "🪷"
-    ]
+    ],
+    "cell_ref": "'Alté'!C15"
   },
   {
     "id": 679,
@@ -12134,7 +12812,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C16"
   },
   {
     "id": 680,
@@ -12151,7 +12830,8 @@
     "keys": "🌿 Flore: Asflosiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Alté'!C17"
   },
   {
     "id": 681,
@@ -12168,7 +12848,8 @@
     "keys": "🌿 Flore: Aenradiiln",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Alté'!C18"
   },
   {
     "id": 682,
@@ -12183,7 +12864,8 @@
     "drain": "2",
     "description": "Génère un effet qui convertie, chez la cible, une première ressource (selon une première clé) en une seconde ressource (selon une seconde clé) à hauteur d'un maximum de [Magnitude] (ne génère pas de fatigue), si la cible n'est pas consentente elle peux réaliser un test de sauvegarde (détermination) pour réduire les effets, aussi il n'est pas possible de convertir des ressources en une ressource qui est déjà au maximum.",
     "keys": "Spécial: Alfundo (Pas de suffixe élémentaire, domaine spécial)",
-    "domains": []
+    "domains": [],
+    "cell_ref": "'Alté'!C19"
   },
   {
     "id": 683,
@@ -12200,7 +12882,8 @@
     "keys": "⚖️ Loi: Araequusem",
     "domains": [
       "⚖️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C20"
   },
   {
     "id": 684,
@@ -12217,7 +12900,8 @@
     "keys": "🌀 Chaos: Aslibraix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Alté'!C21"
   },
   {
     "id": 685,
@@ -12234,7 +12918,8 @@
     "keys": "☢️ Toxique: Aencanaliex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C22"
   },
   {
     "id": 686,
@@ -12251,7 +12936,8 @@
     "keys": "🌀 Chaos: Alalterix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Alté'!C23"
   },
   {
     "id": 687,
@@ -12268,7 +12954,8 @@
     "keys": "🌀 Chaos: Arbeneix",
     "domains": [
       "🌀"
-    ]
+    ],
+    "cell_ref": "'Alté'!C24"
   },
   {
     "id": 688,
@@ -12285,7 +12972,8 @@
     "keys": "☢️ Toxique: Ascargoex",
     "domains": [
       "☢️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C25"
   },
   {
     "id": 689,
@@ -12302,7 +12990,8 @@
     "keys": "🌿 Flore: Aenanimailn",
     "domains": [
       "🌿"
-    ]
+    ],
+    "cell_ref": "'Alté'!C26"
   },
   {
     "id": 690,
@@ -12321,7 +13010,8 @@
       "🐗",
       "🌿",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C27"
   },
   {
     "id": 691,
@@ -12342,7 +13032,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C28"
   },
   {
     "id": 692,
@@ -12363,7 +13054,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C29"
   },
   {
     "id": 693,
@@ -12384,7 +13076,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C30"
   },
   {
     "id": 694,
@@ -12405,7 +13098,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C31"
   },
   {
     "id": 695,
@@ -12426,7 +13120,8 @@
       "🌿",
       "✡️",
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C32"
   },
   {
     "id": 696,
@@ -12443,7 +13138,8 @@
     "keys": "📚 Savoir: Asfallaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Alté'!C33"
   },
   {
     "id": 697,
@@ -12460,7 +13156,8 @@
     "keys": "📚 Savoir: Aenfacaum",
     "domains": [
       "📚"
-    ]
+    ],
+    "cell_ref": "'Alté'!C34"
   },
   {
     "id": 698,
@@ -12477,7 +13174,8 @@
     "keys": "👁️ Vision: Alspeculeth",
     "domains": [
       "👁️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C35"
   },
   {
     "id": 699,
@@ -12494,7 +13192,8 @@
     "keys": "✨ Sacre: Arsubliiel",
     "domains": [
       "✨"
-    ]
+    ],
+    "cell_ref": "'Alté'!C36"
   },
   {
     "id": 700,
@@ -12511,7 +13210,8 @@
     "keys": "🩸 Impie: Asvenenun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Alté'!C37"
   },
   {
     "id": 701,
@@ -12528,7 +13228,8 @@
     "keys": "⚔️ Acier: Aenroboran",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C38"
   },
   {
     "id": 702,
@@ -12545,7 +13246,8 @@
     "keys": "⚔️ Acier: Alimpacan",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C39"
   },
   {
     "id": 703,
@@ -12562,7 +13264,8 @@
     "keys": "⚔️ Acier: Ardevian",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C40"
   },
   {
     "id": 704,
@@ -12579,7 +13282,8 @@
     "keys": "⚔️ Acier: Asduran",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C41"
   },
   {
     "id": 705,
@@ -12596,7 +13300,8 @@
     "keys": "⚔️ Acier: Aenpotian",
     "domains": [
       "⚔️"
-    ]
+    ],
+    "cell_ref": "'Alté'!C42"
   },
   {
     "id": 706,
@@ -12613,7 +13318,8 @@
     "keys": "🐗 Faune: Alvolvorh",
     "domains": [
       "🐗"
-    ]
+    ],
+    "cell_ref": "'Alté'!C43"
   },
   {
     "id": 707,
@@ -12630,7 +13336,8 @@
     "keys": "🩸 Impie: Arhaemaun",
     "domains": [
       "🩸"
-    ]
+    ],
+    "cell_ref": "'Alté'!C44"
   },
   {
     "id": 708,
@@ -12647,6 +13354,7 @@
     "keys": "🪨 Terre: Aspetraum",
     "domains": [
       "🪨"
-    ]
+    ],
+    "cell_ref": "'Alté'!C45"
   }
 ]

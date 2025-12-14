@@ -2,8 +2,7 @@
 
 > 47 mots pour ce domaine
 
-#### 1. Perception
-
+#### 1. Perception ['Béné'!C35]
 *École :* École de Bénédiction
 
 *Latin :* Capio (Saisir), *Arcanique :* Lucapti (Lu + capti)
@@ -16,8 +15,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 2. Perfectionnement
-
+#### 2. Perfectionnement ['Béné'!C73]
 *École :* École de Bénédiction
 
 *Latin :* Perficere (Achever), *Arcanique :* Lempfect (Lem + pfect)
@@ -30,8 +28,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 3. Hyperperception
-
+#### 3. Hyperperception ['Béné'!C80]
 *École :* École de Bénédiction
 
 *Latin :* Sensus (Sens), *Arcanique :* Luxsens (Lux + sens)
@@ -44,8 +41,7 @@ Génère un enchantement positif qui augmente drastiquement la portée des sens 
 
 ---
 
-#### 4. DésIllusion
-
+#### 4. DésIllusion ['Béné'!C81]
 *École :* École de Bénédiction
 
 *Latin :* Ludo (Jouer), *Arcanique :* Lemludo (Lem + ludo)
@@ -58,8 +54,7 @@ Génère un enchantement positif qui permet de voir au travers des Illusions et 
 
 ---
 
-#### 5. Consécration
-
+#### 5. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -72,8 +67,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 6. Pistage
-
+#### 6. Pistage ['Malé'!C28]
 *École :* École de Malédiction
 
 *Latin :* Vestigium (Trace), *Arcanique :* Morvesti (Mor + vesti)
@@ -86,8 +80,7 @@ Génère un enchantement négatif qui permet au lanceur de sort de connaitre la 
 
 ---
 
-#### 7. Déqualification
-
+#### 7. Déqualification ['Malé'!C72]
 *École :* École de Malédiction
 
 *Latin :* Qualis (Qualité), *Arcanique :* Morquali (Mor + quali)
@@ -100,8 +93,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 8. Privation
-
+#### 8. Privation ['Malé'!C74]
 *École :* École de Malédiction
 
 *Latin :* Privo (Enlever), *Arcanique :* Munprivo (Mun + privo)
@@ -114,8 +106,7 @@ Génère un enchantement négatif qui bloque un ou tous les sens de la cible (au
 
 ---
 
-#### 9. Déprécation
-
+#### 9. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -128,8 +119,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 10. Sensation (lien)
-
+#### 10. Sensation (lien) ['Invoc'!C19]
 *École :* École d'Invocation
 
 *Latin :* Sensus (Sens), *Arcanique :* Vosens (Vo + sens)
@@ -142,8 +132,7 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de comm
 
 ---
 
-#### 11. Obstruction
-
+#### 11. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -156,8 +145,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 12. Protestation
-
+#### 12. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -170,8 +158,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 ---
 
-#### 13. Neutralisation
-
+#### 13. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -184,8 +171,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé,
 
 ---
 
-#### 14. Rétrocognition
-
+#### 14. Rétrocognition ['Divi'!C3]
 *École :* École de Divination
 
 *Latin :* Retro (Arrière) + Nosco (Connaître), *Arcanique :* Diretro (Di + retro)
@@ -198,8 +184,7 @@ Génère un effet permettant au lanceur de sort de consulter le passé de la cib
 
 ---
 
-#### 15. Précognition
-
+#### 15. Précognition ['Divi'!C4]
 *École :* École de Divination
 
 *Latin :* Prae (Avant) + Nosco (Connaître), *Arcanique :* Dornosc (Dor + nosc)
@@ -212,8 +197,7 @@ Génère un effet permettant au lanceur de sort de consulter le futur de la cibl
 
 ---
 
-#### 16. Remémoration
-
+#### 16. Remémoration ['Divi'!C5]
 *École :* École de Divination
 
 *Latin :* Memoria (Mémoire), *Arcanique :* Delmemo (Del + memo)
@@ -226,8 +210,7 @@ Génère un effet permettant au lanceur de sort de consulter la mémoire de la c
 
 ---
 
-#### 17. Scrutation
-
+#### 17. Scrutation ['Divi'!C6]
 *École :* École de Divination
 
 *Latin :* Scrutator (Examiner), *Arcanique :* Darsrut (Dar + srut)
@@ -240,8 +223,7 @@ Génère un effet permettant à la cible de consulter ce qui se passe à l'insta
 
 ---
 
-#### 18. Supposition
-
+#### 18. Supposition ['Divi'!C9]
 *École :* École de Divination
 
 *Latin :* Pono (Poser), *Arcanique :* Delponi (Del + poni)
@@ -254,8 +236,7 @@ Génère un effet permettant au lanceur de sort de consulter le futur de la cibl
 
 ---
 
-#### 19. Intrusion
-
+#### 19. Intrusion ['Divi'!C13]
 *École :* École de Divination
 
 *Latin :* Trudo (Pousser), *Arcanique :* Deltrud (Del + trud)
@@ -268,8 +249,7 @@ Génère un enchantement qui permet à la cible de voir les pensés des autres e
 
 ---
 
-#### 20. Localisation
-
+#### 20. Localisation ['Divi'!C14]
 *École :* École de Divination
 
 *Latin :* Locus (Lieu), *Arcanique :* Darlocus (Dar + locus)
@@ -282,8 +262,7 @@ Génère un effet permettant à la cible de connaitre la direction et la distanc
 
 ---
 
-#### 21. Balisation
-
+#### 21. Balisation ['Divi'!C15]
 *École :* École de Divination
 
 *Latin :* Palus (Pieu), *Arcanique :* Dipale (Di + pale)
@@ -296,8 +275,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 22. Infravision
-
+#### 22. Infravision ['Divi'!C16]
 *École :* École de Divination
 
 *Latin :* Video (Voir), *Arcanique :* Dorvidi (Dor + vidi)
@@ -310,8 +288,7 @@ Génère un effet permettant à la cible de voir les reliefs (murs, meubles, sur
 
 ---
 
-#### 23. Transvision
-
+#### 23. Transvision ['Divi'!C17]
 *École :* École de Divination
 
 *Latin :* Visio (Vision), *Arcanique :* Delvisu (Del + visu)
@@ -324,8 +301,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 24. Détection
-
+#### 24. Détection ['Divi'!C18]
 *École :* École de Divination
 
 *Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
@@ -338,8 +314,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 25. Signalement
-
+#### 25. Signalement ['Divi'!C19]
 *École :* École de Divination
 
 *Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
@@ -352,8 +327,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 26. Prévision
-
+#### 26. Prévision ['Divi'!C22]
 *École :* École de Divination
 
 *Latin :* Video (Voir), *Arcanique :* Darviso (Dar + viso)
@@ -366,8 +340,7 @@ Génère un effet qui permet au lanceur du sort de lire dans les signes afin de 
 
 ---
 
-#### 27. Magnification
-
+#### 27. Magnification ['Divi'!C23]
 *École :* École de Divination
 
 *Latin :* Magnus (Grand), *Arcanique :* Dimagno (Di + magno)
@@ -380,8 +353,7 @@ Génère un enchantement positif qui double la Magnitude concernant la portée d
 
 ---
 
-#### 28. Prolongation
-
+#### 28. Prolongation ['Divi'!C24]
 *École :* École de Divination
 
 *Latin :* Longus (Long), *Arcanique :* Dorlong (Dor + long)
@@ -394,8 +366,7 @@ Génère un enchantement positif qui doit être associé à un autre <span style
 
 ---
 
-#### 29. Intuition
-
+#### 29. Intuition ['Divi'!C25]
 *École :* École de Divination
 
 *Latin :* Tueor (Regarder), *Arcanique :* Deltueo (Del + tueo)
@@ -408,8 +379,7 @@ Génère un effet de perception du danger (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 30. Décellement
-
+#### 30. Décellement ['Divi'!C26]
 *École :* École de Divination
 
 *Latin :* Celo (Cacher), *Arcanique :* Darcelo (Dar + celo)
@@ -422,8 +392,7 @@ Génère un effet de perception des pièges (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 31. Dévoilement
-
+#### 31. Dévoilement ['Divi'!C27]
 *École :* École de Divination
 
 *Latin :* Velum (Voile), *Arcanique :* Divelo (Di + velo)
@@ -436,8 +405,7 @@ Génère un effet de perception des secrets (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 32. Évaluation
-
+#### 32. Évaluation ['Divi'!C28]
 *École :* École de Divination
 
 *Latin :* Aestimo (Estimer), *Arcanique :* Doraesti (Dor + aesti)
@@ -450,8 +418,7 @@ Génère un effet de perception des objets de valeurs (voir règle sur les "sens
 
 ---
 
-#### 33. Hiérarchisation
-
+#### 33. Hiérarchisation ['Divi'!C29]
 *École :* École de Divination
 
 *Latin :* Ordo (Ordre), *Arcanique :* Delordo (Del + ordo)
@@ -464,8 +431,7 @@ Génère un effet de perception des objets importants (voir règle sur les "sens
 
 ---
 
-#### 34. Animation
-
+#### 34. Animation ['Divi'!C30]
 *École :* École de Divination
 
 *Latin :* Anima (Âme), *Arcanique :* Daranima (Dar + anima)
@@ -478,8 +444,7 @@ Génère un effet de perception du vivant (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 35. Pistement
-
+#### 35. Pistement ['Divi'!C31]
 *École :* École de Divination
 
 *Latin :* Vestigium (Trace), *Arcanique :* Divesti (Di + vesti)
@@ -492,8 +457,7 @@ Génère un effet de perception des créatures d'un certain reigne (selon la <sp
 
 ---
 
-#### 36. Nécrolocation
-
+#### 36. Nécrolocation ['Divi'!C32]
 *École :* École de Divination
 
 *Latin :* Necro (Mort) + Locus (Lieu), *Arcanique :* Dornecro (Dor + necro)
@@ -506,8 +470,7 @@ Génère un effet de perception des morts (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 37. Arcanovision
-
+#### 37. Arcanovision ['Divi'!C33]
 *École :* École de Divination
 
 *Latin :* Arcanum (Secret), *Arcanique :* Delarcan (Del + arcan)
@@ -520,8 +483,7 @@ Génère un effet de perception de la magie (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 38. Empathisation
-
+#### 38. Empathisation ['Divi'!C34]
 *École :* École de Divination
 
 *Latin :* Pathos (Sentiment), *Arcanique :* Darpath (Dar + path)
@@ -534,8 +496,7 @@ Génère un effet de perception des émotions (voir règle sur les "senseurs"), 
 
 ---
 
-#### 39. Rétrovision
-
+#### 39. Rétrovision ['Divi'!C35]
 *École :* École de Divination
 
 *Latin :* Retro (Arrière) + Visio (Vision), *Arcanique :* Divisio (Di + visio)
@@ -548,8 +509,7 @@ Génère un effet de perception du passé (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 40. Préfiguration
-
+#### 40. Préfiguration ['Divi'!C36]
 *École :* École de Divination
 
 *Latin :* Figuro (Former), *Arcanique :* Dorfigu (Dor + figu)
@@ -562,8 +522,7 @@ Génère un effet de perception du futur (voir règle sur les "senseurs"), rév�
 
 ---
 
-#### 41. Anticipation
-
+#### 41. Anticipation ['Divi'!C37]
 *École :* École de Divination
 
 *Latin :* Capio (Prendre), *Arcanique :* Delcipi (Del + cipi)
@@ -576,8 +535,7 @@ Génère un effet qui permet au lanceur du sort de lire dans les signes afin de 
 
 ---
 
-#### 42. Scrutation
-
+#### 42. Scrutation ['Divi'!C40]
 *École :* École de Divination
 
 *Latin :* Quaero (Chercher), *Arcanique :* Dorquer (Dor + quer)
@@ -590,8 +548,7 @@ Le sort permet au lanceur de sort de « percevoir » les environs d’un lieu,
 
 ---
 
-#### 43. Détection
-
+#### 43. Détection ['Evoc'!C28]
 *École :* École d'Évocation
 
 *Latin :* Tego (Couvrir), *Arcanique :* Eloteges (Elo + teges)
@@ -604,8 +561,7 @@ Génère un effet qui révèle la localisation de tous les espaces interdimentio
 
 ---
 
-#### 44. Manifestation
-
+#### 44. Manifestation ['Evoc'!C35]
 *École :* École d'Évocation
 
 *Latin :* Manes (Esprits, apparences), *Arcanique :* Enmani (En + mani)
@@ -618,8 +574,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 45. Oculus
-
+#### 45. Oculus ['Conj'!C30]
 *École :* École de Conjuration
 
 *Latin :* Oculus (Œil), *Arcanique :* Carocul (Car + ocul)
@@ -632,8 +587,7 @@ Génère un enchantement qui prend la forme d'un globe de petite taille capable 
 
 ---
 
-#### 46. Fenêtre astrale
-
+#### 46. Fenêtre astrale ['Conj'!C55]
 *École :* École de Conjuration
 
 *Latin :* Astra (Étoile), *Arcanique :* Conastra (Con + astra)
@@ -646,8 +600,7 @@ Génère un enchantement de lieu qui prend la forme d'une fenêtre vers un autre
 
 ---
 
-#### 47. Miroitement
-
+#### 47. Miroitement ['Alté'!C35]
 *École :* École d'Altération
 
 *Latin :* Speculum (Miroir), *Arcanique :* Alspecul (Al + specul)

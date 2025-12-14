@@ -22,7 +22,8 @@ import pandas as pd
 import re
 import json
 import unicodedata
-from typing import Dict, List, Tuple, Any
+import argparse
+from typing import Dict, List, Tuple, Any, Optional
 
 # =========================
 # CONFIGURATION
@@ -217,7 +218,7 @@ def highlight_brackets(text: str) -> str:
 def extract_domains_from_keys(keys_raw: str) -> List[str]:
     """Return list of domain icons present in keys_raw."""
     domains: List[str] = []
-    for icon in DOMAINS.keys():
+    for icon in DOMAINS.keys(): 
         if icon in keys_raw:
             domains.append(icon)
     return domains
@@ -225,7 +226,8 @@ def extract_domains_from_keys(keys_raw: str) -> List[str]:
 def row_to_markdown(
     row: pd.Series,
     school_label: str | None = None,
-    index: int | None = None
+    index: int | None = None,
+    cell_ref: str | None = None
 ) -> str:
     """
     Turn one row into a markdown block.
@@ -259,12 +261,16 @@ def row_to_markdown(
 
     lines: List[str] = []
 
-    # Title: numbered vulgar word
+    # Title with optional cell reference
+    title_parts = []
     if index is not None:
-        lines.append(f"#### {index}. {vulgar}")
-    else:
-        lines.append(f"#### {vulgar}")
-    lines.append("")
+        title_parts.append(f"{index}.")
+    title_parts.append(vulgar)
+    
+    if DEBUG_MODE and cell_ref:
+        title_parts.append(f"[{cell_ref}]")
+    
+    lines.append(f"#### {' '.join(title_parts)}")
 
     # Optional school info (useful for domain view)
     if school_label:
@@ -292,6 +298,11 @@ def row_to_markdown(
 
     return "\n".join(lines)
 
+def make_cell_ref(sheet_name: str, row_idx: int, col_letter: str) -> str:
+    """Build an Excel-style reference like 'Dest'!C4"""
+    # row_idx is 0-based in pandas, Excel is 1-based
+    excel_row = row_idx + 1
+    return f"'{sheet_name}'!{col_letter}{excel_row}"
 
 # =========================
 # MAIN GENERATION LOGIC
@@ -308,7 +319,7 @@ def generate_markdown() -> None:
     excel = pd.ExcelFile(input_path)
 
     # For domains and JSON
-    all_rows: List[Tuple[str, str, pd.Series]] = []  # (sheet_name, school_label, row)
+    all_rows: List[Tuple[str, str, pd.Series, str]] = []
     json_entries: List[Dict[str, Any]] = []
     global_index = 1
 
@@ -338,10 +349,16 @@ def generate_markdown() -> None:
                 break
 
             # Markdown block
-            block = row_to_markdown(row, school_label=None, index=entry_index)
+            cell_ref = make_cell_ref(sheet_name, idx, COLUMNS_LETTER["vulgar"])
+            block = row_to_markdown(
+                row, 
+                school_label=None, 
+                index=entry_index,
+                cell_ref=cell_ref
+            )
             if block.strip():
                 blocks.append(block)
-                all_rows.append((sheet_name, school_label, row))
+                all_rows.append((sheet_name, school_label, row, cell_ref))
 
                 # JSON entry (raw values, no HTML)
                 latin = get_field(row, "latin")
@@ -369,6 +386,7 @@ def generate_markdown() -> None:
                     "description": desc_raw,
                     "keys": keys_raw,
                     "domains": domains_icons,
+                    "cell_ref": cell_ref,
                 })
                 global_index += 1
 
@@ -399,13 +417,14 @@ def generate_markdown() -> None:
         domain_blocks: List[str] = []
 
         entry_index = 1
-        for sheet_name, school_label, row in all_rows:
+        for sheet_name, school_label, row, cell_ref in all_rows:
             keys_text = get_field(row, "keys")
             if icon in keys_text:
                 block = row_to_markdown(
                     row,
                     school_label=school_label,
-                    index=entry_index
+                    index=entry_index,
+                    cell_ref=cell_ref
                 )
                 if block.strip():
                     domain_blocks.append(block)
@@ -521,7 +540,6 @@ def generate_extra_words_json() -> None:
     )
     print(f"[OK] Fichier JSON supplémentaire généré : {OUTPUT_EXTRA_JSON}")
 
-
 def slugify(text: str) -> str:
     """Turn a name into a filesystem-friendly slug."""
     text = text.strip().lower()
@@ -529,6 +547,7 @@ def slugify(text: str) -> str:
     text = "".join(c for c in text if not unicodedata.combining(c))
     text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
     return text or "groupe"
+
 def generate_spells_from_sorts() -> None:
     """
     Read the 'Sorts' sheet and generate spell descriptions,
@@ -660,8 +679,8 @@ def generate_spells_from_sorts() -> None:
             except Exception:
                 return 0
 
-        total_difficulty = 10
-        total_drain = 10
+        total_difficulty = 8
+        total_drain = 8
         x_coeff_total = 0  # somme des coefficients de X (par mot)
 
         def extract_x_coeff(val: str) -> int:
@@ -694,24 +713,25 @@ def generate_spells_from_sorts() -> None:
             drain_str = str(entry.get("drain", "")).strip()
 
             # Coeff X par mot (on ne compte qu'une seule fois, même s'il y a X en diff ET en drain)
-            coeff_diff = extract_x_coeff(diff_str) if "X" in diff_str else 0
-            coeff_drain = extract_x_coeff(drain_str) if "X" in drain_str else 0
+            # FIXED: Only count X coefficient once per word
+            has_x_diff = "X" in diff_str
+            has_x_drain = "X" in drain_str
+            
+            if has_x_diff or has_x_drain:
+                coeff_diff = extract_x_coeff(diff_str) if has_x_diff else 0
+                coeff_drain = extract_x_coeff(drain_str) if has_x_drain else 0
+                
+                # Take the larger absolute value coefficient
+                if abs(coeff_diff) >= abs(coeff_drain):
+                    x_coeff_total += coeff_diff
+                else:
+                    x_coeff_total += coeff_drain
 
-            # On prend le plus "fort" des deux si les deux existent (cas exotique)
-            if abs(coeff_diff) >= abs(coeff_drain):
-                word_x_coeff = coeff_diff
-            else:
-                word_x_coeff = coeff_drain
-
-            x_coeff_total += word_x_coeff
-
-            # Partie numérique :
-            # - si la cellule contient X → on n'ajoute rien au total
-            # - sinon on parse normalement
-            if "X" not in diff_str:
+            # Add numeric parts (only if no X in that field)
+            if not has_x_diff:
                 total_difficulty += to_int(diff_str)
 
-            if "X" not in drain_str:
+            if not has_x_drain:
                 total_drain += to_int(drain_str)
 
         def format_with_x(base: int, x_coeff: int) -> str:
@@ -767,9 +787,16 @@ def generate_spells_from_sorts() -> None:
                 desc_raw = ensure_final_dot(entry.get("description", ""))
                 desc_md = highlight_brackets(desc_raw)
 
+                # Add cell reference in debug mode
+                ref_part = ""
+                if DEBUG_MODE:
+                    cell_ref = entry.get("cell_ref", "")
+                    if cell_ref:
+                        ref_part = f" [{cell_ref}]"
+
                 line = (
                     f"**{ROLE_LABELS['power']} :** "
-                    f"{entry.get('vulgar', name)} ({latin} / {arcane}) : {desc_md}"
+                    f"{entry.get('vulgar', name)}{ref_part} ({latin} / {arcane}) : {desc_md}"
                 )
             else:
                 line = (
@@ -910,8 +937,14 @@ def check_duplicate_words() -> None:
 
 
 if __name__ == "__main__":
-    #generate_markdown()             # écoles + domaines + all_magic_words.json
+    parser = argparse.ArgumentParser(description="Generate magic word documentation")
+    parser.add_argument("--debug", action="store_true", help="Enable debug mode (show cell references)")
+    args = parser.parse_args()
+    
+    global DEBUG_MODE
+    DEBUG_MODE = args.debug
+    
+    generate_markdown()             # écoles + domaines + all_magic_words.json
     generate_extra_words_json()     # L/A/F -> other_magic_words.json
     generate_spells_from_sorts()    # Sorts -> out_spells/*.md
     check_duplicate_words()         # vérifie les doublons et affiche des warnings
-

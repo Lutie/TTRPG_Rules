@@ -2,8 +2,7 @@
 
 > 43 mots pour ce domaine
 
-#### 1. Destruction
-
+#### 1. Destruction ['Dest'!C3]
 *École :* École de Destruction
 
 *Latin :* Ruptura (Rupture), *Arcanique :* Kinrupt (Kin + rupt)
@@ -16,8 +15,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 2. Floraison
-
+#### 2. Floraison ['Béné'!C56]
 *École :* École de Bénédiction
 
 *Latin :* Floreo (Fleurir), *Arcanique :* Luxflore (Lux + flore)
@@ -30,8 +28,7 @@ Génère un enchantement positif, à chaque début de tour la cible reçoit un m
 
 ---
 
-#### 3. Olfactovision
-
+#### 3. Olfactovision ['Béné'!C59]
 *École :* École de Bénédiction
 
 *Latin :* Oleo (Sentir), *Arcanique :* Lynoleo (Lyn + oleo)
@@ -44,8 +41,7 @@ Génère un enchantement positif qui octroie à sa cible la faculté de voir les
 
 ---
 
-#### 4. Mitigation
-
+#### 4. Mitigation ['Béné'!C60]
 *École :* École de Bénédiction
 
 *Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
@@ -58,8 +54,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 5. Consécration
-
+#### 5. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -72,8 +67,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 6. Irradiation
-
+#### 6. Irradiation ['Béné'!C104]
 *École :* École de Bénédiction
 
 *Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
@@ -86,8 +80,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 7. Occultation
-
+#### 7. Occultation ['Béné'!C111]
 *École :* École de Bénédiction
 
 *Latin :* Occulto (Cacher), *Arcanique :* Luccult (Lu + ccult)
@@ -100,8 +93,7 @@ Génère un enchantement positif qui rend la perception de la cible plus diffici
 
 ---
 
-#### 8. Orientation
-
+#### 8. Orientation ['Béné'!C112]
 *École :* École de Bénédiction
 
 *Latin :* Oriens (Est, Levant), *Arcanique :* Luxoriens (Lux + oriens)
@@ -114,8 +106,7 @@ Génère un enchantement positif qui améliore la perception de la cible lorsqu'
 
 ---
 
-#### 9. Pétalisation
-
+#### 9. Pétalisation ['Béné'!C170]
 *École :* École de Bénédiction
 
 *Latin :* Petalos (Pétale, grec), *Arcanique :* Lupetal (Lu + petal)
@@ -128,8 +119,7 @@ Génère un enchantement qui octroie un bonus d'ajustement à tous les tests eff
 
 ---
 
-#### 10. Flétrissement
-
+#### 10. Flétrissement ['Malé'!C57]
 *École :* École de Malédiction
 
 *Latin :* Marceo (Se flétrir), *Arcanique :* Mugmarce (Mug + marce)
@@ -142,8 +132,7 @@ Génère un enchantement négatif, à chaque début de tour la cible reçoit un 
 
 ---
 
-#### 11. Vulnérisation
-
+#### 11. Vulnérisation ['Malé'!C58]
 *École :* École de Malédiction
 
 *Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo)
@@ -156,8 +145,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 12. Déprécation
-
+#### 12. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -170,8 +158,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 13. Sporulation
-
+#### 13. Sporulation ['Malé'!C125]
 *École :* École de Malédiction
 
 *Latin :* Spargo (Répandre), *Arcanique :* Mugspargo (Mug + spargo)
@@ -184,8 +171,7 @@ Génère un enchantement qui octroie un malus d'ajustement à tous les tests eff
 
 ---
 
-#### 14. Plante
-
+#### 14. Plante ['Invoc'!C12]
 *École :* École d'Invocation
 
 *Latin :* Herba (Herbe, plante), *Arcanique :* Vanherba (Van + herba)
@@ -198,8 +184,7 @@ Génère un enchantement qui invoque une créature de type plante au choix parmi
 
 ---
 
-#### 15. Obstruction
-
+#### 15. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -212,8 +197,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 16. Protestation
-
+#### 16. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -226,8 +210,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 ---
 
-#### 17. Neutralisation
-
+#### 17. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -240,8 +223,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé,
 
 ---
 
-#### 18. Transposition
-
+#### 18. Transposition ['Abju'!C41]
 *École :* École d'Abjuration
 
 *Latin :* Pono (Placer), *Arcanique :* Basposto (Bas + posto)
@@ -254,8 +236,7 @@ Génère un enchantement qui lie la cible à un arbre à proximité de lui, tant
 
 ---
 
-#### 19. Interrogation
-
+#### 19. Interrogation ['Divi'!C11]
 *École :* École de Divination
 
 *Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
@@ -268,8 +249,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 20. Détection
-
+#### 20. Détection ['Divi'!C18]
 *École :* École de Divination
 
 *Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
@@ -282,8 +262,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 21. Signalement
-
+#### 21. Signalement ['Divi'!C19]
 *École :* École de Divination
 
 *Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
@@ -296,8 +275,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 22. Edification
-
+#### 22. Edification ['Conj'!C11]
 *École :* École de Conjuration
 
 *Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi)
@@ -310,8 +288,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 23. Revêtement
-
+#### 23. Revêtement ['Conj'!C12]
 *École :* École de Conjuration
 
 *Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest)
@@ -324,8 +301,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 24. Fers
-
+#### 24. Fers ['Conj'!C13]
 *École :* École de Conjuration
 
 *Latin :* Ferrum (Fer), *Arcanique :* Colfer (Col + fer)
@@ -338,8 +314,7 @@ Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui e
 
 ---
 
-#### 25. Incarcération
-
+#### 25. Incarcération ['Conj'!C14]
 *École :* École de Conjuration
 
 *Latin :* Carcer (Prison), *Arcanique :* Carcarce (Car + carce)
@@ -352,8 +327,7 @@ Génère un enchantement (sous formes de cage tangibles ou intangibles) qui empr
 
 ---
 
-#### 26. Sarcophagie
-
+#### 26. Sarcophagie ['Conj'!C15]
 *École :* École de Conjuration
 
 *Latin :* Sarcophagus (Grec), *Arcanique :* Consar (Con + sar)
@@ -366,8 +340,7 @@ Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui 
 
 ---
 
-#### 27. Armement élémentaire
-
+#### 27. Armement élémentaire ['Conj'!C26]
 *École :* École de Conjuration
 
 *Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma)
@@ -380,8 +353,7 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 28. Armure élémentaire
-
+#### 28. Armure élémentaire ['Conj'!C27]
 *École :* École de Conjuration
 
 *Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric)
@@ -394,8 +366,7 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 29. Verger pur
-
+#### 29. Verger pur ['Conj'!C33]
 *École :* École de Conjuration
 
 *Latin :* Pura (Pur) + Hortus (Jardin), *Arcanique :* Colhort (Col + hort)
@@ -408,8 +379,7 @@ Génère un enchantement qui purifie un arbre fruitier, n'importe qui peux alors
 
 ---
 
-#### 30. Fructification
-
+#### 30. Fructification ['Alté'!C4]
 *École :* École d'Altération
 
 *Latin :* Fructus (Fruit), *Arcanique :* Arfruct (Ar + fruct)
@@ -422,8 +392,7 @@ L'effet du sort provoque la pousse de fruits comestible pour <span style="color:
 
 ---
 
-#### 31. Arborisation
-
+#### 31. Arborisation ['Alté'!C5]
 *École :* École d'Altération
 
 *Latin :* Arbor (Arbre), *Arcanique :* Asarbor (As + arbor)
@@ -436,8 +405,7 @@ L'effet du sort provoque la pousse de <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 32. Transmutation
-
+#### 32. Transmutation ['Alté'!C7]
 *École :* École d'Altération
 
 *Latin :* Muto (Changer), *Arcanique :* Almutat (Al + mutat)
@@ -450,8 +418,7 @@ L'effet du sort convertis jusqu'à <span style="color:#ff1493; font-weight:bold;
 
 ---
 
-#### 33. Reforgation
-
+#### 33. Reforgation ['Alté'!C8]
 *École :* École d'Altération
 
 *Latin :* Fero (Porter/Façonner), *Arcanique :* Arfero (Ar + fero)
@@ -464,8 +431,7 @@ L'effet du sort change le type d'une arme jusqu'à <span style="color:#ff1493; f
 
 ---
 
-#### 34. Réparation
-
+#### 34. Réparation ['Alté'!C16]
 *École :* École d'Altération
 
 *Latin :* Paro (Préparer), *Arcanique :* Arparo (Ar + paro)
@@ -478,8 +444,7 @@ L'effet du sort répare un objet ou structure (dont la nature coRespond à la <s
 
 ---
 
-#### 35. Floraison
-
+#### 35. Floraison ['Alté'!C17]
 *École :* École d'Altération
 
 *Latin :* Flos (Fleur), *Arcanique :* Asflos (As + flos)
@@ -492,8 +457,7 @@ Génère un effet fait pousser des plantes de façon permanente sur le lieu cibl
 
 ---
 
-#### 36. Racination
-
+#### 36. Racination ['Alté'!C18]
 *École :* École d'Altération
 
 *Latin :* Radix (Racine), *Arcanique :* Aenradi (Aen + radi)
@@ -506,8 +470,7 @@ Génère un effet fait pousser des racines de façon permanente sur le lieu cibl
 
 ---
 
-#### 37. Animisation
-
+#### 37. Animisation ['Alté'!C26]
 *École :* École d'Altération
 
 *Latin :* Anima (Âme), *Arcanique :* Aenanima (Aen + anima)
@@ -520,8 +483,7 @@ La plante ciblé deviens une créature autonome, elle présente les caractérist
 
 ---
 
-#### 38. Déconstruction
-
+#### 38. Déconstruction ['Alté'!C27]
 *École :* École d'Altération
 
 *Latin :* Struo (Construire), *Arcanique :* Alstruo (Al + struo)
@@ -534,8 +496,7 @@ L'effet du sort recycle jusqu'à <span style="color:#ff1493; font-weight:bold;">
 
 ---
 
-#### 39. Construction
-
+#### 39. Construction ['Alté'!C28]
 *École :* École d'Altération
 
 *Latin :* Aedifico (Édifier), *Arcanique :* Aredifi (Ar + edifi)
@@ -548,8 +509,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 40. Fabrication
-
+#### 40. Fabrication ['Alté'!C29]
 *École :* École d'Altération
 
 *Latin :* Faber (Ouvrier), *Arcanique :* Asfaber (As + faber)
@@ -562,8 +522,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 41. Amélioration
-
+#### 41. Amélioration ['Alté'!C30]
 *École :* École d'Altération
 
 *Latin :* Melior (Meilleur), *Arcanique :* Aenmelior (Aen + melior)
@@ -576,8 +535,7 @@ L'effet du sort améliore la qualité d'un objet avec un potenciel de <span styl
 
 ---
 
-#### 42. Création
-
+#### 42. Création ['Alté'!C31]
 *École :* École d'Altération
 
 *Latin :* Creo (Créer), *Arcanique :* Alcreo (Al + creo)
@@ -590,8 +548,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 43. Solidification
-
+#### 43. Solidification ['Alté'!C32]
 *École :* École d'Altération
 
 *Latin :* Solidus (Solide), *Arcanique :* Arsoli (Ar + soli)

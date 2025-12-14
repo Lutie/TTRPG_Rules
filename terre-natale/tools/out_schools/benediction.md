@@ -2,8 +2,7 @@
 
 > 171 mots pour cette école
 
-#### 1. Revigoration
-
+#### 1. Revigoration ['Béné'!C3]
 *Latin :* Vigor (Force, vigueur), *Arcanique :* Lokvigor (Lok + vigor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -14,8 +13,7 @@ Génère un enchantement positif qui augmente toutes les récupérations de <spa
 
 ---
 
-#### 2. Restitution
-
+#### 2. Restitution ['Béné'!C4]
 *Latin :* Reddo (Rendre, restituer), *Arcanique :* Luxreddo (Lux + reddo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -26,8 +24,7 @@ Génère un enchantement positif qui augmente la récupération d'une ressource 
 
 ---
 
-#### 3. Bénédiction
-
+#### 3. Bénédiction ['Béné'!C5]
 *Latin :* Benedico (Dire du bien), *Arcanique :* Lembene (Lem + bene)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -38,8 +35,7 @@ Génère un enchantement positif qui augmente de <span style="color:#ff1493; fon
 
 ---
 
-#### 4. Purification
-
+#### 4. Purification ['Béné'!C6]
 *Latin :* Purgo (Nettoyer), *Arcanique :* Lirpurgo (Lir + purgo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -50,8 +46,7 @@ Produit un enchantement positif qui réduit les charges de <span style="color:#f
 
 ---
 
-#### 5. Exaltation
-
+#### 5. Exaltation ['Béné'!C7]
 *Latin :* Altius (Plus haut), *Arcanique :* Lynallus (Lyn + allus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -62,8 +57,7 @@ Produit un enchantement positif qui double les charges, maximum <span style="col
 
 ---
 
-#### 6. Réactivation
-
+#### 6. Réactivation ['Béné'!C8]
 *Latin :* Actus (Action), *Arcanique :* Luxactus (Lux + actus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -74,8 +68,7 @@ Produit un effet d'enchantement positif provoquant à chaque tour les effets d'u
 
 ---
 
-#### 7. Allégement
-
+#### 7. Allégement ['Béné'!C9]
 *Latin :* Leves (Léger), *Arcanique :* Lemleves (Lem + leves)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -86,8 +79,7 @@ Génère un enchantement positif qui réduit le poids effectif de la cible de <s
 
 ---
 
-#### 8. Délestement
-
+#### 8. Délestement ['Béné'!C10]
 *Latin :* Onus (Fardeau), *Arcanique :* Lironus (Lir + onus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -98,8 +90,7 @@ Génère un enchantement positif qui réduit le poids effectif de la cible de <s
 
 ---
 
-#### 9. Renforcement
-
+#### 9. Renforcement ['Béné'!C11]
 *Latin :* Firmus (Ferme, solide), *Arcanique :* Lynfirm (Lyn + firm)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -110,8 +101,7 @@ Génère un enchantement positif qui augmente le poids maximum de la cible de <s
 
 ---
 
-#### 10. Amortissement
-
+#### 10. Amortissement ['Béné'!C12]
 *Latin :* Mors (Mort), *Arcanique :* Luxmors (Lux + mors)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -122,8 +112,7 @@ Génère un enchantement positif qui réduit la distance des chutes de <span sty
 
 ---
 
-#### 11. Libération
-
+#### 11. Libération ['Béné'!C13]
 *Latin :* Liber (Libre), *Arcanique :* Lemliber (Lem + liber)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -134,8 +123,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 12. Stabilisation
-
+#### 12. Stabilisation ['Béné'!C14]
 *Latin :* Stabilis (Stable), *Arcanique :* Lirstab (Lir + stab)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -146,8 +134,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 13. Atténuation
-
+#### 13. Atténuation ['Béné'!C15]
 *Latin :* Tenuis (Mince, faible), *Arcanique :* Loktenu (Lok + tenu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -158,8 +145,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 14. Isolation
-
+#### 14. Isolation ['Béné'!C16]
 *Latin :* Solus (Seul), *Arcanique :* Luxsolu (Lux + solu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -170,8 +156,7 @@ Génère un enchantement positif qui réduit jusqu'à <span style="color:#ff1493
 
 ---
 
-#### 15. Endurcissement
-
+#### 15. Endurcissement ['Béné'!C17]
 *Latin :* Durus (Dur), *Arcanique :* Lemdur (Lem + dur)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -182,8 +167,7 @@ Génère un enchantement positif qui augmente d'un total de <span style="color:#
 
 ---
 
-#### 16. Répercussion
-
+#### 16. Répercussion ['Béné'!C18]
 *Latin :* Perto (Frapper, heurter), *Arcanique :* Lirpercu (Lir + percu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -194,8 +178,7 @@ Génère un enchantement positif qui duplique jusqu'à <span style="color:#ff149
 
 ---
 
-#### 17. Infection
-
+#### 17. Infection ['Béné'!C19]
 *Latin :* Inficio (Souiller), *Arcanique :* Lynfect (Lyn + infect)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -206,8 +189,7 @@ Génère un enchantement positif qui augmente les soins reçus de (au choix au l
 
 ---
 
-#### 18. Anticipation
-
+#### 18. Anticipation ['Béné'!C20]
 *Latin :* Anticipo (Prendre avant), *Arcanique :* Luxanti (Lux + anti)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -218,8 +200,7 @@ Génère un enchantement positif qui réduit la gravité des blessures à venir 
 
 ---
 
-#### 19. Prévention
-
+#### 19. Prévention ['Béné'!C21]
 *Latin :* Caveo (Prendre garde), *Arcanique :* Lemcave (Lem + cave)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -230,8 +211,7 @@ Génère un enchantement positif qui réduit la gravité des traumas à venir de
 
 ---
 
-#### 20. Répercussion
-
+#### 20. Répercussion ['Béné'!C22]
 *Latin :* Reverbero (Répercuter), *Arcanique :* Lireverb (Lir + reverb)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -242,8 +222,7 @@ Génère un enchantement positif qui produit les effets d'un autre <span style="
 
 ---
 
-#### 21. Réaction
-
+#### 21. Réaction ['Béné'!C23]
 *Latin :* Ago (Agir), *Arcanique :* Lokago (Lok + ago)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -254,8 +233,7 @@ Génère un enchantement positif qui produit les effets d'un autre <span style="
 
 ---
 
-#### 22. Kaléidoscope
-
+#### 22. Kaléidoscope ['Béné'!C24]
 *Latin :* Forma (Forme), *Arcanique :* Luxform (Lux + form)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
@@ -266,8 +244,7 @@ Génère un enchantement positif qui génère <span style="color:#ff1493; font-w
 
 ---
 
-#### 23. Réfraction
-
+#### 23. Réfraction ['Béné'!C25]
 *Latin :* Frango (Briser), *Arcanique :* Lemfran (Lem + fran)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
@@ -278,8 +255,7 @@ Génère un enchantement positif qui génère <span style="color:#ff1493; font-w
 
 ---
 
-#### 24. Imprégnation
-
+#### 24. Imprégnation ['Béné'!C26]
 *Latin :* Imbueo (Imprégner), *Arcanique :* Lirimbu (Lir + imbu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -290,8 +266,7 @@ Génère un enchantement positif qui augmente la difficulté arcanique des sorts
 
 ---
 
-#### 25. Infravision
-
+#### 25. Infravision ['Béné'!C27]
 *Latin :* Video (Voir), *Arcanique :* Lynvisu (Lyn + visu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -302,8 +277,7 @@ Génère un enchantement positif qui permet à la cible de voir au travers des m
 
 ---
 
-#### 26. Optimisation
-
+#### 26. Optimisation ['Béné'!C28]
 *Latin :* Optimus (Le meilleur), *Arcanique :* Luxopti (Lux + opti)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -314,8 +288,7 @@ Génère un enchantement positif qui permet à la cible de relancer tous les dé
 
 ---
 
-#### 27. Inflexion
-
+#### 27. Inflexion ['Béné'!C29]
 *Latin :* Flecto (Courber), *Arcanique :* Lemfleco (Lem + fleco)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -326,8 +299,7 @@ Génère un enchantement positif qui rend la cible plus difficulté à persuader
 
 ---
 
-#### 28. Accélération
-
+#### 28. Accélération ['Béné'!C30]
 *Latin :* Velox (Rapide), *Arcanique :* Lirvelo (Lir + velo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -338,8 +310,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 29. Préparation
-
+#### 29. Préparation ['Béné'!C31]
 *Latin :* Paro (Préparer), *Arcanique :* Lokparo (Lok + paro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -350,8 +321,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 30. Aggression
-
+#### 30. Aggression ['Béné'!C32]
 *Latin :* Gredior (Marcher), *Arcanique :* Luxgrede (Lux + grede)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -362,8 +332,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 31. Coordination
-
+#### 31. Coordination ['Béné'!C33]
 *Latin :* Ordo (Ordre), *Arcanique :* Lemordo (Lem + ordo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -374,8 +343,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 32. Canalisation
-
+#### 32. Canalisation ['Béné'!C34]
 *Latin :* Canalis (Conduit), *Arcanique :* Lircana (Lir + cana)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -386,8 +354,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 33. Perception
-
+#### 33. Perception ['Béné'!C35]
 *Latin :* Capio (Saisir), *Arcanique :* Lucapti (Lu + capti)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -398,8 +365,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 34. Stimulation
-
+#### 34. Stimulation ['Béné'!C36]
 *Latin :* Stimulo (Piquer), *Arcanique :* Luxstimu (Lux + stimu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -410,8 +376,7 @@ Génère un enchantement positif qui ajuste l'initiative de la cible de <span st
 
 ---
 
-#### 35. Sanctuarisation
-
+#### 35. Sanctuarisation ['Béné'!C37]
 *Latin :* Sanctus (Sacré), *Arcanique :* Lemsanct (Lem + sanct)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -422,8 +387,7 @@ Génère un enchantement positif qui immunise le lanceur de sort aux sorts qu'il
 
 ---
 
-#### 36. Solidification
-
+#### 36. Solidification ['Béné'!C38]
 *Latin :* Solidus (Solide), *Arcanique :* Lirsoli (Lir + soli)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (objet)
 *Difficulté :* 2, *Drain :* 2
@@ -434,8 +398,7 @@ Génère un enchantement positif qui renforce l'objet ciblé, ce dernier profita
 
 ---
 
-#### 37. Renforcement
-
+#### 37. Renforcement ['Béné'!C39]
 *Latin :* Roboro (Fortifier), *Arcanique :* Lurobor (Lu + robor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (objet)
 *Difficulté :* 2, *Drain :* 2
@@ -446,8 +409,7 @@ Génère un enchantement positif qui protège l'objet ciblé, ce dernier réalis
 
 ---
 
-#### 38. Affûtement
-
+#### 38. Affûtement ['Béné'!C40]
 *Latin :* Acies (Pointe), *Arcanique :* Luxacie (Lux + acie)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (objet)
 *Difficulté :* 2, *Drain :* 2
@@ -458,8 +420,7 @@ Génère un enchantement positif qui acère l'objet ciblé, ce dernier imposant 
 
 ---
 
-#### 39. Préservation
-
+#### 39. Préservation ['Béné'!C41]
 *Latin :* Servo (Sauver), *Arcanique :* Lemserv (Lem + serv)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -470,8 +431,7 @@ Génère un enchantement positif qui renforce l'objet ciblé, ce dernier évitan
 
 ---
 
-#### 40. Galvanisation
-
+#### 40. Galvanisation ['Béné'!C42]
 *Latin :* Vibro (Agiter), *Arcanique :* Lirvibr (Lir + vibr)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -482,8 +442,7 @@ Génère un enchantement positif qui augmente de moitié la génération de ress
 
 ---
 
-#### 41. Intensification
-
+#### 41. Intensification ['Béné'!C43]
 *Latin :* Intensus (Tendu), *Arcanique :* Lokinten (Lok + inten)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -494,8 +453,7 @@ Génère un enchantement positif qui accorde un bonus d'attribut de <span style=
 
 ---
 
-#### 42. Consolidation
-
+#### 42. Consolidation ['Béné'!C44]
 *Latin :* Solidus (Solide), *Arcanique :* Luxconsol (Lux + consol)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -506,8 +464,7 @@ Génère un enchantement positif qui accorde un bonus d'attribut de <span style=
 
 ---
 
-#### 43. Optimisation
-
+#### 43. Optimisation ['Béné'!C45]
 *Latin :* Perficio (Achever), *Arcanique :* Lemperf (Lem + perf)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -518,8 +475,7 @@ Génère un enchantement positif qui accorde un bonus d'attribut de <span style=
 
 ---
 
-#### 44. Harmonisation
-
+#### 44. Harmonisation ['Béné'!C46]
 *Latin :* Harmonia (Harmonie), *Arcanique :* Lirharmo (Lir + harmo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -530,8 +486,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 45. Reverbération
-
+#### 45. Reverbération ['Béné'!C47]
 *Latin :* Verbero (Battre), *Arcanique :* Luverbe (Lu + verbe)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -542,8 +497,7 @@ Génère un enchantement positif qui convertis le tier de la déviation physique
 
 ---
 
-#### 46. Purification
-
+#### 46. Purification ['Béné'!C48]
 *Latin :* Mundo (Nettoyer, purifier), *Arcanique :* Luxmundo (Lux + mundo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -554,8 +508,7 @@ Génère un enchantement positif qui augmente de <span style="color:#ff1493; fon
 
 ---
 
-#### 47. Substitution
-
+#### 47. Substitution ['Béné'!C49]
 *Latin :* Stat (Être debout), *Arcanique :* Lemstato (Lem + stato)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -566,8 +519,7 @@ Génère un enchantement positif qui permet à la cible d'utiliser son attribut 
 
 ---
 
-#### 48. Convergence
-
+#### 48. Convergence ['Béné'!C50]
 *Latin :* Convergo (Se diriger), *Arcanique :* Lirconver (Lir + conver)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -578,8 +530,7 @@ Génère un enchantement positif qui augmente la réunion de mana de <span style
 
 ---
 
-#### 49. Transcandence
-
+#### 49. Transcandence ['Béné'!C51]
 *Latin :* Scando (Grader, monter), *Arcanique :* Luscand (Lu + scand)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -590,8 +541,7 @@ Génère un enchantement positif qui inverse l'utilisation des attributs du corp
 
 ---
 
-#### 50. Élévation
-
+#### 50. Élévation ['Béné'!C52]
 *Latin :* Levo (Soulever), *Arcanique :* Luxlevo (Lux + levo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -602,8 +552,7 @@ Génère un enchantement positif qui augmente un attribut (au choix au lancement
 
 ---
 
-#### 51. Spécialisation
-
+#### 51. Spécialisation ['Béné'!C53]
 *Latin :* Specialis (Particulier), *Arcanique :* Lemspecia (Lem + specia)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -614,8 +563,7 @@ Génère un enchantement positif qui augmente un attribut (définit à la créat
 
 ---
 
-#### 52. Fortification
-
+#### 52. Fortification ['Béné'!C54]
 *Latin :* Fortis (Fort), *Arcanique :* Lynforti (Lyn + forti)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -626,8 +574,7 @@ Génère un enchantement positif qui augmente tous les attributs du corps de <sp
 
 ---
 
-#### 53. Spiritualisation
-
+#### 53. Spiritualisation ['Béné'!C55]
 *Latin :* Spiritus (Souffle), *Arcanique :* Luspiri (Lu + spiri)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -638,8 +585,7 @@ Génère un enchantement positif qui augmente tous les attributs de l'esprit de 
 
 ---
 
-#### 54. Floraison
-
+#### 54. Floraison ['Béné'!C56]
 *Latin :* Floreo (Fleurir), *Arcanique :* Luxflore (Lux + flore)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -650,8 +596,7 @@ Génère un enchantement positif, à chaque début de tour la cible reçoit un m
 
 ---
 
-#### 55. Maximisation
-
+#### 55. Maximisation ['Béné'!C57]
 *Latin :* Maximus (Très grand), *Arcanique :* Lemmax (Lem + max)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 0
@@ -662,8 +607,7 @@ Génère un enchantement positif qui fixe ou nouvelle valeur ou octroie un bonus
 
 ---
 
-#### 56. Calibration
-
+#### 56. Calibration ['Béné'!C58]
 *Latin :* Libra (Équilibre), *Arcanique :* Lirlibra (Lir + libra)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 0
@@ -674,8 +618,7 @@ Génère un enchantement positif qui fixe ou nouvelle valeur ou octroie un bonus
 
 ---
 
-#### 57. Olfactovision
-
+#### 57. Olfactovision ['Béné'!C59]
 *Latin :* Oleo (Sentir), *Arcanique :* Lynoleo (Lyn + oleo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -686,8 +629,7 @@ Génère un enchantement positif qui octroie à sa cible la faculté de voir les
 
 ---
 
-#### 58. Mitigation
-
+#### 58. Mitigation ['Béné'!C60]
 *Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -698,8 +640,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 59. Absorption
-
+#### 59. Absorption ['Béné'!C61]
 *Latin :* Sorbeo (Boire), *Arcanique :* Lemsorb (Lem + sorb)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -710,8 +651,7 @@ Génère un enchantement positif qui réduit de moitié les dégats d'un type (s
 
 ---
 
-#### 60. Amplification
-
+#### 60. Amplification ['Béné'!C62]
 *Latin :* Amplus (Vaste), *Arcanique :* Liramplo (Lir + amplo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -722,8 +662,7 @@ Génère un enchantement positif qui augmente la plage singularité de la cible 
 
 ---
 
-#### 61. Inhibition
-
+#### 61. Inhibition ['Béné'!C63]
 *Latin :* Habeo (Tenir, retenir), *Arcanique :* Lokhabi (Lok + habi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -734,8 +673,7 @@ Génère un enchantement positif qui réduit la plage singularité contre la cib
 
 ---
 
-#### 62. Bonification
-
+#### 62. Bonification ['Béné'!C64]
 *Latin :* Bonus (Bon), *Arcanique :* Luxbono (Lux + bono)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -746,8 +684,7 @@ Génère un enchantement positif qui augmente octroie un bonus de <span style="c
 
 ---
 
-#### 63. Priorisation
-
+#### 63. Priorisation ['Béné'!C65]
 *Latin :* Prior (Premier), *Arcanique :* Lemprior (Lem + prior)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -758,8 +695,7 @@ Génère un enchantement positif qui met en avant une action définit au moment 
 
 ---
 
-#### 64. Subjugation
-
+#### 64. Subjugation ['Béné'!C66]
 *Latin :* Iugum (JouG), *Arcanique :* Liriugo (Lir + iugo)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu/Cible
 *Difficulté :* 2, *Drain :* 2
@@ -770,8 +706,7 @@ Génère un effet qui génère une pénalité de <span style="color:#ff1493; fon
 
 ---
 
-#### 65. Dynamisation
-
+#### 65. Dynamisation ['Béné'!C67]
 *Latin :* Dynamis (Puissance, grec), *Arcanique :* Ludyna (Lu + dyna)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -782,8 +717,7 @@ Génère un enchantement positif qui provoque une double décharge des condition
 
 ---
 
-#### 66. Conservation
-
+#### 66. Conservation ['Béné'!C68]
 *Latin :* Servo (Sauver), *Arcanique :* Luxservo (Lux + servo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -794,8 +728,7 @@ Génère un enchantement positif qui augmente une sauvegarde au choix (dont le t
 
 ---
 
-#### 67. Renforcement
-
+#### 67. Renforcement ['Béné'!C69]
 *Latin :* Valentia (Force, valeur), *Arcanique :* Lemvalen (Lem + valen)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -806,8 +739,7 @@ Génère un enchantement positif qui augmente toutes les sauvegardes de <span st
 
 ---
 
-#### 68. Fortification
-
+#### 68. Fortification ['Béné'!C70]
 *Latin :* Munio (Fortifier), *Arcanique :* Lirmunio (Lir + munio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -818,8 +750,7 @@ Génère un enchantement positif qui augmente le maximum d'une ressource au choi
 
 ---
 
-#### 69. Capacitation
-
+#### 69. Capacitation ['Béné'!C71]
 *Latin :* Capax (Capable), *Arcanique :* Lucapax (Lu + capax)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -830,8 +761,7 @@ Génère un enchantement positif qui augmente le maximum de toutes les ressource
 
 ---
 
-#### 70. Augmentation
-
+#### 70. Augmentation ['Béné'!C72]
 *Latin :* Augeo (Augmenter), *Arcanique :* Luxauge (Lux + auge)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -842,8 +772,7 @@ Produit un enchantement positif qui augmente une caractéristique (dont la natur
 
 ---
 
-#### 71. Perfectionnement
-
+#### 71. Perfectionnement ['Béné'!C73]
 *Latin :* Perficere (Achever), *Arcanique :* Lempfect (Lem + pfect)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -854,8 +783,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 72. Exaltation
-
+#### 72. Exaltation ['Béné'!C74]
 *Latin :* Laudo (Louer), *Arcanique :* Lirlaudo (Lir + laudo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -866,8 +794,7 @@ Génère un enchantement positif qui maintient les conditions positives sur la c
 
 ---
 
-#### 73. Immunisation
-
+#### 73. Immunisation ['Béné'!C75]
 *Latin :* Munus (Charge, devoir), *Arcanique :* Lumunus (Lu + munus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -878,8 +805,7 @@ Produit un enchantement positif qui immunise contre les conditions négative ass
 
 ---
 
-#### 74. Intensification
-
+#### 74. Intensification ['Béné'!C76]
 *Latin :* Vehemens (Violent), *Arcanique :* Luxvehem (Lux + vehem)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -890,8 +816,7 @@ Produit un enchantement positif qui augmente les effets des conditions positive 
 
 ---
 
-#### 75. Récupération
-
+#### 75. Récupération ['Béné'!C77]
 *Latin :* Capio (Prendre), *Arcanique :* Lemcapio (Lem + capio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -902,8 +827,7 @@ Produit un enchantement positif qui octroie à chaque tour <span style="color:#f
 
 ---
 
-#### 76. Régénération
-
+#### 76. Régénération ['Béné'!C78]
 *Latin :* Gigno (Engendrer), *Arcanique :* Lirgeno (Lir + geno)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -914,8 +838,7 @@ Produit un enchantement positif qui octroie à chaque scènes qui prend fin <spa
 
 ---
 
-#### 77. Convalescence
-
+#### 77. Convalescence ['Béné'!C79]
 *Latin :* Valeo (Être fort), *Arcanique :* Lokvale (Lok + vale)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -926,8 +849,7 @@ Produit un enchantement positif qui octroie à chaque scènes qui prend fin <spa
 
 ---
 
-#### 78. Hyperperception
-
+#### 78. Hyperperception ['Béné'!C80]
 *Latin :* Sensus (Sens), *Arcanique :* Luxsens (Lux + sens)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -938,8 +860,7 @@ Génère un enchantement positif qui augmente drastiquement la portée des sens 
 
 ---
 
-#### 79. DésIllusion
-
+#### 79. DésIllusion ['Béné'!C81]
 *Latin :* Ludo (Jouer), *Arcanique :* Lemludo (Lem + ludo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -950,8 +871,7 @@ Génère un enchantement positif qui permet de voir au travers des Illusions et 
 
 ---
 
-#### 80. Inapparition
-
+#### 80. Inapparition ['Béné'!C82]
 *Latin :* Apareo (Apparaître), *Arcanique :* Lirapare (Lir + apare)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -962,8 +882,7 @@ Génère un enchantement positif qui rend la cible moins marquante, les autres s
 
 ---
 
-#### 81. Majoration
-
+#### 81. Majoration ['Béné'!C83]
 *Latin :* Maior (Plus grand), *Arcanique :* Lynmajor (Lyn + major)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (objet)
 *Difficulté :* 2, *Drain :* 2
@@ -974,8 +893,7 @@ Génère un enchantement positif qui augmente la catégorie effective de la cibl
 
 ---
 
-#### 82. Dégrèvement
-
+#### 82. Dégrèvement ['Béné'!C84]
 *Latin :* Levis (Léger), *Arcanique :* Luxlevi (Lux + levi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (objet)
 *Difficulté :* 2, *Drain :* 2
@@ -986,8 +904,7 @@ Génère un enchantement positif qui réduit les pénalités d'usage de la cible
 
 ---
 
-#### 83. Inaltération
-
+#### 83. Inaltération ['Béné'!C85]
 *Latin :* Alter (Autre), *Arcanique :* Lemalter (Lem + alter)
 *Type de mot :* Pouvoir, *Type de cible :* Cible (objet)
 *Difficulté :* 2, *Drain :* 2
@@ -998,8 +915,7 @@ Génère un enchantement positif qui réduit la déterioration que subit l'objet
 
 ---
 
-#### 84. Cognitransfert
-
+#### 84. Cognitransfert ['Béné'!C86]
 *Latin :* Cognitio (Connaissance), *Arcanique :* Lircognit (Lir + cognit)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1010,8 +926,7 @@ Génère un enchantement positif qui permet à la cible de partager la mémoire 
 
 ---
 
-#### 85. Divination
-
+#### 85. Divination ['Béné'!C87]
 *Latin :* Divinus (Divin), *Arcanique :* Luvinus (Lu + vinus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1022,8 +937,7 @@ Génère un enchantement positif qui permet de voir les intentions des autres, l
 
 ---
 
-#### 86. Précognition
-
+#### 86. Précognition ['Béné'!C88]
 *Latin :* Scio (Savoir), *Arcanique :* Luxscio (Lux + scio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1034,8 +948,7 @@ Génère un enchantement positif qui permet de voir une fraction de temps en ava
 
 ---
 
-#### 87. Dissuasion
-
+#### 87. Dissuasion ['Béné'!C89]
 *Latin :* Suadeo (Conseiller), *Arcanique :* Lemsuad (Lem + suad)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1046,8 +959,7 @@ Génère un enchantement positif qui impose une pénalité de <span style="color
 
 ---
 
-#### 88. Rétorsion
-
+#### 88. Rétorsion ['Béné'!C90]
 *Latin :* Torsio (Torsion), *Arcanique :* Lirtorsio (Lir + torsio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1058,8 +970,7 @@ Génère un enchantement positif inflige des dégats temporaires (ignorant toute
 
 ---
 
-#### 89. Innervation
-
+#### 89. Innervation ['Béné'!C91]
 *Latin :* Nervus (Nerf), *Arcanique :* Lunervo (Lu + nervo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1070,8 +981,7 @@ Génère un enchantement positif qui octroie un bonus aux jets des actions dont 
 
 ---
 
-#### 90. Impulsion
-
+#### 90. Impulsion ['Béné'!C92]
 *Latin :* Pello (Pousser), *Arcanique :* Luxpulso (Lux + pulso)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1082,8 +992,7 @@ Génère un enchantement positif qui octroie un bonus d'allure de <span style="c
 
 ---
 
-#### 91. Consécration
-
+#### 91. Consécration ['Béné'!C93]
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1094,8 +1003,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 92. Intensification
-
+#### 92. Intensification ['Béné'!C94]
 *Latin :* Ardeo (Brûler, être ardent), *Arcanique :* Lirardeo (Lir + ardeo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1106,8 +1014,7 @@ Génère un enchantement positif qui augmente les effets des conditions positive
 
 ---
 
-#### 93. Neutralisation
-
+#### 93. Neutralisation ['Béné'!C95]
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Luneute (Lu + neute)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1118,8 +1025,7 @@ Génère un enchantement positif qui réduit les effets des conditions négative
 
 ---
 
-#### 94. Sanctification
-
+#### 94. Sanctification ['Béné'!C96]
 *Latin :* Sacer (Sacré), *Arcanique :* Luxsacer (Lux + sacer)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1130,8 +1036,7 @@ Génère un enchantement positif qui augmente de <span style="color:#ff1493; fon
 
 ---
 
-#### 95. Exaltation
-
+#### 95. Exaltation ['Béné'!C97]
 *Latin :* Honoro (Honorer), *Arcanique :* Lemhonoro (Lem + honoro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1142,8 +1047,7 @@ Génère un enchantement positif qui augmente de <span style="color:#ff1493; fon
 
 ---
 
-#### 96. Exfiltration
-
+#### 96. Exfiltration ['Béné'!C98]
 *Latin :* Filtro (Filtrer), *Arcanique :* Lirfiltr (Lir + filtr)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1154,8 +1058,7 @@ Génère un enchantement négatif qui octroie un bonus de <span style="color:#ff
 
 ---
 
-#### 97. Sublimation
-
+#### 97. Sublimation ['Béné'!C99]
 *Latin :* Sublimis (Sublime), *Arcanique :* Lynsublim (Lyn + sublim)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1166,8 +1069,7 @@ Génère un enchantement positif qui augmente les sauvegardes contre les conditi
 
 ---
 
-#### 98. Suractivation
-
+#### 98. Suractivation ['Béné'!C100]
 *Latin :* Actus (Action), *Arcanique :* Luxsupra (Lux + supra)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1178,8 +1080,7 @@ Génère un enchantement positif qui double les bénéfices d'une force élémen
 
 ---
 
-#### 99. Létalisation
-
+#### 99. Létalisation ['Béné'!C101]
 *Latin :* Letum (Mort), *Arcanique :* Lemleto (Lem + leto)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1190,8 +1091,7 @@ Génère un enchantement positif qui augmente la criticité d'une arme ciblé de
 
 ---
 
-#### 100. Purgation
-
+#### 100. Purgation ['Béné'!C102]
 *Latin :* Purgo (Nettoyer), *Arcanique :* Lirpurg (Lir + purg)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1202,8 +1102,7 @@ Génère un enchantement positif qui force les enchantements négatifs affectant
 
 ---
 
-#### 101. Dérégulation
-
+#### 101. Dérégulation ['Béné'!C103]
 *Latin :* Regula (Règle), *Arcanique :* Luregul (Lu + regul)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1214,8 +1113,7 @@ Génère un enchantement négatif qui force les enchantements positifs affectant
 
 ---
 
-#### 102. Irradiation
-
+#### 102. Irradiation ['Béné'!C104]
 *Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1226,8 +1124,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 103. Révélation
-
+#### 103. Révélation ['Béné'!C105]
 *Latin :* Velum (Voile), *Arcanique :* Lemvelo (Lem + velo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1238,8 +1135,7 @@ Créé un enchantement qui permet de « révéler » à son regard un ou des �
 
 ---
 
-#### 104. Clarification
-
+#### 104. Clarification ['Béné'!C106]
 *Latin :* Clarus (Clair), *Arcanique :* Lirclarus (Lir + clarus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1250,8 +1146,7 @@ Génère un enchantement positif qui réduit toutes les pénalités pouvant alt�
 
 ---
 
-#### 105. Discrétion
-
+#### 105. Discrétion ['Béné'!C107]
 *Latin :* Secretum (Secret), *Arcanique :* Lusecres (Lu + secres)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1262,8 +1157,7 @@ Génère un enchantement positif qui rend la cible moins visible, augmentant la 
 
 ---
 
-#### 106. Disparition
-
+#### 106. Disparition ['Béné'!C108]
 *Latin :* Pareo (Apparaître), *Arcanique :* Luxpare (Lux + pare)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1274,8 +1168,7 @@ Génère un enchantement positif qui rend la cible moins bruyante, augmentant la
 
 ---
 
-#### 107. Atténuation
-
+#### 107. Atténuation ['Béné'!C109]
 *Latin :* Lentes (Lent), *Arcanique :* Lemlent (Lem + lent)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1286,8 +1179,7 @@ Génère un enchantement positif qui rend la cible moins odorante et moins perce
 
 ---
 
-#### 108. Dissimulation
-
+#### 108. Dissimulation ['Béné'!C110]
 *Latin :* Celare (Cacher), *Arcanique :* Lircelar (Lir + celar)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1298,8 +1190,7 @@ Génère un enchantement positif qui cache la vraie nature de la cible, on parle
 
 ---
 
-#### 109. Occultation
-
+#### 109. Occultation ['Béné'!C111]
 *Latin :* Occulto (Cacher), *Arcanique :* Luccult (Lu + ccult)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1310,8 +1201,7 @@ Génère un enchantement positif qui rend la perception de la cible plus diffici
 
 ---
 
-#### 110. Orientation
-
+#### 110. Orientation ['Béné'!C112]
 *Latin :* Oriens (Est, Levant), *Arcanique :* Luxoriens (Lux + oriens)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1322,8 +1212,7 @@ Génère un enchantement positif qui améliore la perception de la cible lorsqu'
 
 ---
 
-#### 111. Rehaussement
-
+#### 111. Rehaussement ['Béné'!C113]
 *Latin :* Alto (Élever), *Arcanique :* Lemale (Lem + male)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1334,8 +1223,7 @@ Génère un enchantement positif qui augmente le minimum des dés lorsqu'il s'ag
 
 ---
 
-#### 112. Optimisation
-
+#### 112. Optimisation ['Béné'!C114]
 *Latin :* Sursum (En haut), *Arcanique :* Lirsur (Lir + sur)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1346,8 +1234,7 @@ Génère un enchantement positif qui  augmente le minimum des dés lorsqu'il s'a
 
 ---
 
-#### 113. Cicatrisation
-
+#### 113. Cicatrisation ['Béné'!C115]
 *Latin :* Cico (Je calme), *Arcanique :* Lyncica (Lyn + cica)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1358,8 +1245,7 @@ Génère un enchantement positif qui réduit la gravité des lésions reçues pa
 
 ---
 
-#### 114. Expiration
-
+#### 114. Expiration ['Béné'!C116]
 *Latin :* Spirare (Souffler), *Arcanique :* Luxspir (Lux + spir)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1370,8 +1256,7 @@ Génère un enchantement positif qui attends la mort de la cible afin de déclen
 
 ---
 
-#### 115. Tempérance
-
+#### 115. Tempérance ['Béné'!C117]
 *Latin :* Tempero (Modérer), *Arcanique :* Lemtemper (Lem + temper)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1382,8 +1267,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 116. Prophylaxie
-
+#### 116. Prophylaxie ['Béné'!C118]
 *Latin :* Custos (Garde), *Arcanique :* Lircustos (Lir + custos)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1394,8 +1278,7 @@ Génère un enchantement positif qui octroie une forte résistance aux toxines, 
 
 ---
 
-#### 117. Expiation
-
+#### 117. Expiation ['Béné'!C119]
 *Latin :* Pio (Purifier), *Arcanique :* Lupio (Lu + pio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1406,8 +1289,7 @@ Génère un enchantement positif qui permet à la cible d'ignorer jusqu'à <span
 
 ---
 
-#### 118. Préservation
-
+#### 118. Préservation ['Béné'!C120]
 *Latin :* Servatus (Sauvé), *Arcanique :* Luxserv (Lux + serv)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1418,8 +1300,7 @@ Génère un enchantement positif qui permet à la cible d'ignorer jusqu'à <span
 
 ---
 
-#### 119. Abaissement
-
+#### 119. Abaissement ['Béné'!C121]
 *Latin :* Pondus (Poids), *Arcanique :* Lempodus (Lem + podus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1430,8 +1311,7 @@ Génère un enchantement positif qui permet d'ignorer un total de <span style="c
 
 ---
 
-#### 120. Amortissement
-
+#### 120. Amortissement ['Béné'!C122]
 *Latin :* Lanio (Assouplir), *Arcanique :* Lirlanio (Lir + lanio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1442,8 +1322,7 @@ Génère un enchantement positif qui réduit les dégats et l'impact (dont la na
 
 ---
 
-#### 121. Fractionnement
-
+#### 121. Fractionnement ['Béné'!C123]
 *Latin :* Frango (Briser), *Arcanique :* Lufrange (Lu + frange)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1454,8 +1333,7 @@ Génère un enchantement positif qui divise les dégats (dont la nature dépends
 
 ---
 
-#### 122. Fragilisation
-
+#### 122. Fragilisation ['Béné'!C124]
 *Latin :* Fregit (Brisé), *Arcanique :* Luxfreg (Lux + freg)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1466,8 +1344,7 @@ Génère un enchantement positif qui augmente les dégats et l'impact (dont la n
 
 ---
 
-#### 123. ???
-
+#### 123. ??? ['Béné'!C125]
 *Latin :* Veritas (Vérité), *Arcanique :* Lemveri (Lem + veri)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1478,8 +1355,7 @@ Génère un enchantement positif qui génère des ressources temporaires lorsqu'
 
 ---
 
-#### 124. Captation
-
+#### 124. Captation ['Béné'!C126]
 *Latin :* Capio (Prendre), *Arcanique :* Lircept (Lir + cept)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1490,8 +1366,7 @@ Génère un enchantement positif qui génère des ressources temporaires lorsqu'
 
 ---
 
-#### 125. Diligence
-
+#### 125. Diligence ['Béné'!C127]
 *Latin :* Diligo (Aimer, estimer), *Arcanique :* Ludiligo (Lu + diligo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1502,8 +1377,7 @@ Génère un enchantement qui augmente l'allure de <span style="color:#ff1493; fo
 
 ---
 
-#### 126. Dégravitation
-
+#### 126. Dégravitation ['Béné'!C128]
 *Latin :* Gravis (Lourd), *Arcanique :* Luxgrav (Lux + grav)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1514,8 +1388,7 @@ Génère un enchantement positif qui réduit toutes les chutes de la cible de <s
 
 ---
 
-#### 127. Stabilisation
-
+#### 127. Stabilisation ['Béné'!C129]
 *Latin :* Stat (Être debout), *Arcanique :* Lemstatu (Lem + statu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1526,8 +1399,7 @@ Génère un enchantement positif qui réduit toutes les déplacements forcés de
 
 ---
 
-#### 128. Extension
-
+#### 128. Extension ['Béné'!C130]
 *Latin :* Tendo (Tendre), *Arcanique :* Lirtendi (Lir + tendi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1538,8 +1410,7 @@ Génère un enchantement qui augmente la portée des sorts lancé par la cible d
 
 ---
 
-#### 129. Magnification
-
+#### 129. Magnification ['Béné'!C131]
 *Latin :* Magnus (Grand), *Arcanique :* Lynmagno (Lyn + magno)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1550,8 +1421,7 @@ Génère un enchantement qui augmente la puissance des sorts lancés par la cibl
 
 ---
 
-#### 130. Focalisation
-
+#### 130. Focalisation ['Béné'!C132]
 *Latin :* Focus (Foyer), *Arcanique :* Luxfocus (Lux + focus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1562,8 +1432,7 @@ Génère un enchantement qui permet à la cible de maintenir jusqu'à <span styl
 
 ---
 
-#### 131. Concentration
-
+#### 131. Concentration ['Béné'!C133]
 *Latin :* Centrum (Centre), *Arcanique :* Lemcentr (Lem + centr)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1574,8 +1443,7 @@ Génère un enchantement qui permet à la cible de recevoir un bonus de <span st
 
 ---
 
-#### 132. Arcanisation
-
+#### 132. Arcanisation ['Béné'!C134]
 *Latin :* Arcanum (Secret), *Arcanique :* Lirarcana (Lir + arcana)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1586,8 +1454,7 @@ Génère un enchantement positif qui octroie aux compétences associées au grou
 
 ---
 
-#### 133. Résonance
-
+#### 133. Résonance ['Béné'!C135]
 *Latin :* Sono (Ressonnance), *Arcanique :* Loksona (Lok + sona)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1598,8 +1465,7 @@ Génère un enchantement positif qui génère des PM temporaires lorsqu'une cré
 
 ---
 
-#### 134. Accumulation
-
+#### 134. Accumulation ['Béné'!C136]
 *Latin :* Cumulo (Amasser), *Arcanique :* Luxcumul (Lux + cumul)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1610,8 +1476,7 @@ Génère un enchantement positif qui génère des PK temporaires lorsqu'une cré
 
 ---
 
-#### 135. ???
-
+#### 135. ??? ['Béné'!C137]
 *Latin :* Fides (Foi), *Arcanique :* Lemfides (Lem + fides)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1622,8 +1487,7 @@ Génère un enchantement positif qui protège les autres enchantements actifs su
 
 ---
 
-#### 136. Vascularisation
-
+#### 136. Vascularisation ['Béné'!C138]
 *Latin :* Vas (Vaisseau), *Arcanique :* Lirvascu (Lir + vascu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1634,8 +1498,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 137. Prolongation
-
+#### 137. Prolongation ['Béné'!C139]
 *Latin :* Longus (Long), *Arcanique :* Lulong (Lu + long)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1646,8 +1509,7 @@ Génère un enchantement positif qui permet de repousser le moment de la mort d�
 
 ---
 
-#### 138. Innervation
-
+#### 138. Innervation ['Béné'!C140]
 *Latin :* Nervus (Nerf), *Arcanique :* Luxnervo (Lux + nervo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1658,8 +1520,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 139. ???
-
+#### 139. ??? ['Béné'!C141]
 *Latin :* Gloria (Gloire), *Arcanique :* Lemglor (Lem + glor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1670,8 +1531,7 @@ Génère un enchantement positif qui permet de repousser le moment de l'inscienc
 
 ---
 
-#### 140. ???
-
+#### 140. ??? ['Béné'!C142]
 *Latin :* Aeternus (Éternel), *Arcanique :* Liretros (Lir + etros)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1682,8 +1542,7 @@ Génère un enchantement positif qui améliore les actions contre une cible (uni
 
 ---
 
-#### 141. Recalibration
-
+#### 141. Recalibration ['Béné'!C143]
 *Latin :* Libra (Équilibre), *Arcanique :* Luxliber (Lux + liber)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1694,8 +1553,7 @@ Génère un enchantement positif qui permet à la cible de relancer un dé issus
 
 ---
 
-#### 142. Modération
-
+#### 142. Modération ['Béné'!C144]
 *Latin :* Modus (Mesure), *Arcanique :* Lemmodo (Lem + modo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1706,8 +1564,7 @@ Génère un enchantement positif qui permet de réduire la perte de PV ou PS de 
 
 ---
 
-#### 143. Adoration
-
+#### 143. Adoration ['Béné'!C145]
 *Latin :* Oro (Prier), *Arcanique :* Liroro (Lir + oro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1718,8 +1575,7 @@ Génère un enchantement positif qui se décharge de 1 pour chaque dégats que d
 
 ---
 
-#### 144. Vivification
-
+#### 144. Vivification ['Béné'!C146]
 *Latin :* Vita (Vie), *Arcanique :* Lokvita (Lok + vita)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1730,8 +1586,7 @@ Génère un enchantement positif qui augmente la vitesse de la cible de <span st
 
 ---
 
-#### 145. Promptification
-
+#### 145. Promptification ['Béné'!C147]
 *Latin :* Promptus (Prompt), *Arcanique :* Luxpromp (Lux + promp)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1742,8 +1597,7 @@ Génère un enchantement positif qui augmente la rapidité de la cible de <span 
 
 ---
 
-#### 146. Prééminence
-
+#### 146. Prééminence ['Béné'!C148]
 *Latin :* Eminens (Eminent), *Arcanique :* Lememin (Lem + emin)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1754,8 +1608,7 @@ Génère un enchantement positif qui octroie un ajustement de <span style="color
 
 ---
 
-#### 147. Surexécution
-
+#### 147. Surexécution ['Béné'!C149]
 *Latin :* Exsequor (Exécuter), *Arcanique :* Lirsequor (Lir + sequor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1766,8 +1619,7 @@ Génère un enchantement positif qui permet à la cible de réaliser une ACTS ou
 
 ---
 
-#### 148. Liberation
-
+#### 148. Liberation ['Béné'!C150]
 *Latin :* Solve (Délier), *Arcanique :* Lusolve (Lu + solve)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1778,8 +1630,7 @@ Génère un enchantement positif qui assure à la cible un déplacement unique d
 
 ---
 
-#### 149. Vampirisation
-
+#### 149. Vampirisation ['Béné'!C151]
 *Latin :* Haustus (Action de boire), *Arcanique :* Luxhaust (Lux + haust)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1790,8 +1641,7 @@ Génère un enchantement positif qui génère des PV temporaires lorsqu'une cré
 
 ---
 
-#### 150. Exacerbation
-
+#### 150. Exacerbation ['Béné'!C152]
 *Latin :* Acerbus (Acre, amer), *Arcanique :* Lemacerb (Lem + acerb)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1802,8 +1652,7 @@ Génère un enchantement positif qui augmente les dégats des actions d'attaque 
 
 ---
 
-#### 151. Domination
-
+#### 151. Domination ['Béné'!C153]
 *Latin :* Dominus (Maître), *Arcanique :* Lirdomin (Lir + domin)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1814,8 +1663,7 @@ Génère un enchantement positif qui augmente l'impact des actions tactique men�
 
 ---
 
-#### 152. Déflexion
-
+#### 152. Déflexion ['Béné'!C154]
 *Latin :* Flecto (Courber), *Arcanique :* Luflect (Lu + flect)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1826,8 +1674,7 @@ Génère un enchantement positif qui augmente la déviation des actions de défe
 
 ---
 
-#### 153. Vigilance
-
+#### 153. Vigilance ['Béné'!C155]
 *Latin :* Vigilo (Veiller), *Arcanique :* Luxvigil (Lux + vigil)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1838,8 +1685,7 @@ Génère un enchantement positif qui permet de se défendre des actions même si
 
 ---
 
-#### 154. Evolution
-
+#### 154. Evolution ['Béné'!C156]
 *Latin :* Volo (Rouler), *Arcanique :* Lemvolvo (Lem + volvo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1850,8 +1696,7 @@ Génère un enchantement positif qui octroie à la cible non humanoïde les bén
 
 ---
 
-#### 155. Ballistification
-
+#### 155. Ballistification ['Béné'!C157]
 *Latin :* Ballo (Lancer, grec), *Arcanique :* Lirballo (Lir + ballo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1862,8 +1707,7 @@ Génère un enchantement positif qui augmente la distance de tir et de jet de la
 
 ---
 
-#### 156. Munition
-
+#### 156. Munition ['Béné'!C158]
 *Latin :* Munio (Fortifier), *Arcanique :* Lumuni (Lu + muni)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1874,8 +1718,7 @@ Génère un enchantement positif qui permet d'utiliser des projectiles magiques 
 
 ---
 
-#### 157. Gigantification
-
+#### 157. Gigantification ['Béné'!C159]
 *Latin :* Gigant (Grec), *Arcanique :* Luxgigan (Lux + gigan)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1886,8 +1729,7 @@ Génère un enchantement positif qui augmente la stature ou la taille de <span s
 
 ---
 
-#### 158. Majestuatisation
-
+#### 158. Majestuatisation ['Béné'!C160]
 *Latin :* Maiestas (Majesté), *Arcanique :* Lemmajes (Lem + majes)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1898,8 +1740,7 @@ Génère un enchantement positif qui augmente l'ego ou l'apparence de <span styl
 
 ---
 
-#### 159. Apnéisation
-
+#### 159. Apnéisation ['Béné'!C161]
 *Latin :* Spirare (Souffler), *Arcanique :* Liraspir (Lir + aspir)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1910,8 +1751,7 @@ Génère un enchantement qui permet à la cible de se passer du besoin de respir
 
 ---
 
-#### 160. Thermorégulation
-
+#### 160. Thermorégulation ['Béné'!C162]
 *Latin :* Thermos (Chaud, grec), *Arcanique :* Lutherm (Lu + therm)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1922,8 +1762,7 @@ Génère un enchantement qui immunise à la chaleur et au froid en terme de temp
 
 ---
 
-#### 161. Désensibilisation
-
+#### 161. Désensibilisation ['Béné'!C163]
 *Latin :* Sensus (Sens), *Arcanique :* Luxsensi (Lux + sensi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1934,8 +1773,7 @@ Génère un enchantement qui réduit drastiquement l'impact des faiblesses sur l
 
 ---
 
-#### 162. Perpétuation
-
+#### 162. Perpétuation ['Béné'!C164]
 *Latin :* Perpetuus (Permanent), *Arcanique :* Lempetu (Lem + petu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1946,8 +1784,7 @@ Génère un enchantement positif qui retarde le moment de la mort définitive de
 
 ---
 
-#### 163. Rafraîchissement
-
+#### 163. Rafraîchissement ['Béné'!C165]
 *Latin :* Frigus (Froid), *Arcanique :* Lirfrige (Lir + frige)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1958,8 +1795,7 @@ Génère un enchantement positif qui réduit les pénalités liés à la fatigue
 
 ---
 
-#### 164. Rectification
-
+#### 164. Rectification ['Béné'!C166]
 *Latin :* Rectus (Droit), *Arcanique :* Lynrect (Lyn + rect)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1970,8 +1806,7 @@ Génère un enchantement positif qui permet à la cible de relancer (l'ensemble 
 
 ---
 
-#### 165. ???
-
+#### 165. ??? ['Béné'!C167]
 *Latin :* Pax (Paix), *Arcanique :* Luspax (Lux + pax)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1982,8 +1817,7 @@ Génère un enchantement qui rend la cible plus difficile à dicerner avec préc
 
 ---
 
-#### 166. Obfuscation
-
+#### 166. Obfuscation ['Béné'!C168]
 *Latin :* Fusco (Noircir), *Arcanique :* Lemfusco (Lem + fusco)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -1994,8 +1828,7 @@ Créer un enchantement positif qui augmente la capacité de la cible à se couvr
 
 ---
 
-#### 167. Apaisement
-
+#### 167. Apaisement ['Béné'!C169]
 *Latin :* Paco (Pacifier), *Arcanique :* Lirpaco (Lir + paco)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -2006,8 +1839,7 @@ Génère un enchantement positif qui protège la cible des émotions négatives,
 
 ---
 
-#### 168. Pétalisation
-
+#### 168. Pétalisation ['Béné'!C170]
 *Latin :* Petalos (Pétale, grec), *Arcanique :* Lupetal (Lu + petal)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -2018,8 +1850,7 @@ Génère un enchantement qui octroie un bonus d'ajustement à tous les tests eff
 
 ---
 
-#### 169. Rétribution
-
+#### 169. Rétribution ['Béné'!C171]
 *Latin :* Tribu (Donner), *Arcanique :* Luxtribu (Lux + tribu)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -2030,8 +1861,7 @@ Génère un enchantement positif qui provoque une perte de PE équivalant à 1/3
 
 ---
 
-#### 170. ???
-
+#### 170. ??? ['Béné'!C172]
 *Latin :* Gratia (Grâce), *Arcanique :* Lemgrat (Lem + grat)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -2042,8 +1872,7 @@ Génère un enchantement positif qui permet à la cible d'utiliser sa sauvegarde
 
 ---
 
-#### 171. Synergisation
-
+#### 171. Synergisation ['Béné'!C173]
 *Latin :* Syn (Ensemble, grec), *Arcanique :* Lirsiner (Lir + siner)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2

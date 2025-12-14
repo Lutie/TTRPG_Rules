@@ -2,8 +2,7 @@
 
 > 38 mots pour ce domaine
 
-#### 1. Eradication
-
+#### 1. Eradication ['Dest'!C11]
 *École :* École de Destruction
 
 *Latin :* Radix (Racine), *Arcanique :* Karadix (Ka + radix)
@@ -16,8 +15,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 2. Dévastation
-
+#### 2. Dévastation ['Dest'!C12]
 *École :* École de Destruction
 
 *Latin :* Vasto (Je dévaste), *Arcanique :* Kordevast (Kor + devast)
@@ -30,8 +28,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 3. Mitigation
-
+#### 3. Mitigation ['Béné'!C60]
 *École :* École de Bénédiction
 
 *Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
@@ -44,8 +41,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 4. Inhibition
-
+#### 4. Inhibition ['Béné'!C63]
 *École :* École de Bénédiction
 
 *Latin :* Habeo (Tenir, retenir), *Arcanique :* Lokhabi (Lok + habi)
@@ -58,8 +54,7 @@ Génère un enchantement positif qui réduit la plage singularité contre la cib
 
 ---
 
-#### 5. Consécration
-
+#### 5. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -72,8 +67,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 6. Irradiation
-
+#### 6. Irradiation ['Béné'!C104]
 *École :* École de Bénédiction
 
 *Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
@@ -86,8 +80,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 7. Révélation
-
+#### 7. Révélation ['Béné'!C105]
 *École :* École de Bénédiction
 
 *Latin :* Velum (Voile), *Arcanique :* Lemvelo (Lem + velo)
@@ -100,8 +93,7 @@ Créé un enchantement qui permet de « révéler » à son regard un ou des �
 
 ---
 
-#### 8. Clarification
-
+#### 8. Clarification ['Béné'!C106]
 *École :* École de Bénédiction
 
 *Latin :* Clarus (Clair), *Arcanique :* Lirclarus (Lir + clarus)
@@ -114,8 +106,7 @@ Génère un enchantement positif qui réduit toutes les pénalités pouvant alt�
 
 ---
 
-#### 9. Vulnérisation
-
+#### 9. Vulnérisation ['Malé'!C58]
 *École :* École de Malédiction
 
 *Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo)
@@ -128,8 +119,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 10. Déprécation
-
+#### 10. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -142,8 +132,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 11. Illumination
-
+#### 11. Illumination ['Malé'!C106]
 *École :* École de Malédiction
 
 *Latin :* Lumen (Lumière), *Arcanique :* Munlumen (Mun + lumen)
@@ -156,8 +145,7 @@ Génère un enchantement négatif qui rend la cible plus visible, réduisant la 
 
 ---
 
-#### 12. Résonation
-
+#### 12. Résonation ['Malé'!C107]
 *École :* École de Malédiction
 
 *Latin :* Clamor (Clameur), *Arcanique :* Malclam (Mal + clam)
@@ -170,8 +158,7 @@ Génère un enchantement négatif qui rend la cible plus bruyante, réduisant la
 
 ---
 
-#### 13. Émanation
-
+#### 13. Émanation ['Malé'!C108]
 *École :* École de Malédiction
 
 *Latin :* Mano (Couler, émaner), *Arcanique :* Mormana (Mor + mana)
@@ -184,8 +171,7 @@ Génère un enchantement positif qui rend la cible plus odorante et plus percept
 
 ---
 
-#### 14. Focalisation
-
+#### 14. Focalisation ['Malé'!C109]
 *École :* École de Malédiction
 
 *Latin :* Focus (Foyer), *Arcanique :* Mugfocus (Mug + focus)
@@ -198,8 +184,7 @@ Génère un enchantement négatif qui révèle la vraie nature de la cible, on p
 
 ---
 
-#### 15. Exposition
-
+#### 15. Exposition ['Malé'!C110]
 *École :* École de Malédiction
 
 *Latin :* Pono (Placer), *Arcanique :* Munponi (Mun + poni)
@@ -212,8 +197,7 @@ Génère un enchantement négatif qui rend la cible moins difficile à dicerner 
 
 ---
 
-#### 16. Révélation
-
+#### 16. Révélation ['Malé'!C111]
 *École :* École de Malédiction
 
 *Latin :* Velum (Voile), *Arcanique :* Malvelo (Mal + velo)
@@ -226,8 +210,7 @@ Créer un enchantement négatif qui réduit la capacité de la cible à se couvr
 
 ---
 
-#### 17. Elémentaire
-
+#### 17. Elémentaire ['Invoc'!C3]
 *École :* École d'Invocation
 
 *Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele)
@@ -240,8 +223,7 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 18. Obstruction
-
+#### 18. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -254,8 +236,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 19. Protestation
-
+#### 19. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -268,8 +249,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 ---
 
-#### 20. Neutralisation
-
+#### 20. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -282,8 +262,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé,
 
 ---
 
-#### 21. Interrogation
-
+#### 21. Interrogation ['Divi'!C11]
 *École :* École de Divination
 
 *Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
@@ -296,8 +275,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 22. Détection
-
+#### 22. Détection ['Divi'!C18]
 *École :* École de Divination
 
 *Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
@@ -310,8 +288,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 23. Signalement
-
+#### 23. Signalement ['Divi'!C19]
 *École :* École de Divination
 
 *Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
@@ -324,8 +301,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 24. Dévoilement
-
+#### 24. Dévoilement ['Divi'!C27]
 *École :* École de Divination
 
 *Latin :* Velum (Voile), *Arcanique :* Divelo (Di + velo)
@@ -338,8 +314,7 @@ Génère un effet de perception des secrets (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 25. Haloportation
-
+#### 25. Haloportation ['Evoc'!C69]
 *École :* École d'Évocation
 
 *Latin :* Halos (Sel, grec), *Arcanique :* Evhalos (Ev + halos)
@@ -352,8 +327,7 @@ Génère un effet qui déplace le lanceur de sort à une distance maximale équi
 
 ---
 
-#### 26. Epilepsie
-
+#### 26. Epilepsie ['Evoc'!C70]
 *École :* École d'Évocation
 
 *Latin :* Lepsia (Crise, grec), *Arcanique :* Enlepsia (En + lepsia)
@@ -366,8 +340,7 @@ Ce sort génère une lésion (considéré à la fois comme une blessure et une l
 
 ---
 
-#### 27. Climatisation
-
+#### 27. Climatisation ['Evoc'!C73]
 *École :* École d'Évocation
 
 *Latin :* Clima (Climat), *Arcanique :* Evclima (Ev + clima)
@@ -380,8 +353,7 @@ Génère un effet qui modifie le climat environnant sur <span style="color:#ff14
 
 ---
 
-#### 28. Révélation
-
+#### 28. Révélation ['Evoc'!C80]
 *École :* École d'Évocation
 
 *Latin :* Velum (Voile), *Arcanique :* Eruvelo (Eru + velo)
@@ -394,8 +366,7 @@ Le sort permet au lanceur de sort de « révéler » à son regard un ou des �
 
 ---
 
-#### 29. Edification
-
+#### 29. Edification ['Conj'!C11]
 *École :* École de Conjuration
 
 *Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi)
@@ -408,8 +379,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 30. Revêtement
-
+#### 30. Revêtement ['Conj'!C12]
 *École :* École de Conjuration
 
 *Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest)
@@ -422,8 +392,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 31. Fers
-
+#### 31. Fers ['Conj'!C13]
 *École :* École de Conjuration
 
 *Latin :* Ferrum (Fer), *Arcanique :* Colfer (Col + fer)
@@ -436,8 +405,7 @@ Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui e
 
 ---
 
-#### 32. Incarcération
-
+#### 32. Incarcération ['Conj'!C14]
 *École :* École de Conjuration
 
 *Latin :* Carcer (Prison), *Arcanique :* Carcarce (Car + carce)
@@ -450,8 +418,7 @@ Génère un enchantement (sous formes de cage tangibles ou intangibles) qui empr
 
 ---
 
-#### 33. Sarcophagie
-
+#### 33. Sarcophagie ['Conj'!C15]
 *École :* École de Conjuration
 
 *Latin :* Sarcophagus (Grec), *Arcanique :* Consar (Con + sar)
@@ -464,8 +431,7 @@ Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui 
 
 ---
 
-#### 34. Eclairsissement
-
+#### 34. Eclairsissement ['Conj'!C17]
 *École :* École de Conjuration
 
 *Latin :* Clarus (Clair), *Arcanique :* Colclaru (Col + claru)
@@ -478,8 +444,7 @@ Génère un enchantement qui génère de la lumière, au lancement le lanceur de
 
 ---
 
-#### 35. Armement élémentaire
-
+#### 35. Armement élémentaire ['Conj'!C26]
 *École :* École de Conjuration
 
 *Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma)
@@ -492,8 +457,7 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 36. Armure élémentaire
-
+#### 36. Armure élémentaire ['Conj'!C27]
 *École :* École de Conjuration
 
 *Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric)
@@ -506,8 +470,7 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 37. Illumination
-
+#### 37. Illumination ['Conj'!C34]
 *École :* École de Conjuration
 
 *Latin :* Lumen (Lumière), *Arcanique :* Carlumen (Car + lumen)
@@ -520,8 +483,7 @@ Génère un enchantement qui réduit la faculté à se cacher ou à dissimuler, 
 
 ---
 
-#### 38. Climatisation
-
+#### 38. Climatisation ['Conj'!C59]
 *École :* École de Conjuration
 
 *Latin :* Clima (Climat), *Arcanique :* Conclim (Con + clim)

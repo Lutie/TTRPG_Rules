@@ -4,7 +4,7 @@
 
 ## Drain de Vie
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -14,21 +14,21 @@
 
 ## Infarctus
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Peste
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Contact Mortel
 
-*Difficulté :* 12, *Drain :* 12
+*Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -38,28 +38,28 @@
 
 ## Des Cendres aux Cendres (réduire en cendre un corps pour profiter de ses ressources restantes)
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Rappel des Morts
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Invocation de la Liche
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Horde Squelettique
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Mot de Mort
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8

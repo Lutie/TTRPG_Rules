@@ -2,8 +2,7 @@
 
 > 64 mots pour ce domaine
 
-#### 1. Attrition
-
+#### 1. Attrition ['Dest'!C18]
 *École :* École de Destruction
 
 *Latin :* Tero (Frotter, user), *Arcanique :* Kratrit (Kra + trit)
@@ -16,8 +15,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 2. Exténuation
-
+#### 2. Exténuation ['Dest'!C28]
 *École :* École de Destruction
 
 *Latin :* Tenuo (Rendre mince/faible), *Arcanique :* Keltenua (Kel + tenua)
@@ -30,8 +28,7 @@ Génère un effet infligeant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 3. Putréfaction
-
+#### 3. Putréfaction ['Dest'!C31]
 *École :* École de Destruction
 
 *Latin :* Putris (Pourri), *Arcanique :* Kaputre (Ka + putre)
@@ -44,8 +41,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 4. Fragmentation
-
+#### 4. Fragmentation ['Dest'!C34]
 *École :* École de Destruction
 
 *Latin :* Frango (Je brise), *Arcanique :* Krafrag (Kra + frag)
@@ -58,8 +54,7 @@ Produit un effet infligeant une perte de <span style="color:#ff1493; font-weight
 
 ---
 
-#### 5. Privation
-
+#### 5. Privation ['Dest'!C39]
 *École :* École de Destruction
 
 *Latin :* Privo (Enlever), *Arcanique :* Kaprivo (Ka + privo)
@@ -72,8 +67,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 6. Dévitalisation
-
+#### 6. Dévitalisation ['Dest'!C41]
 *École :* École de Destruction
 
 *Latin :* Vita (Vie), *Arcanique :* Kruvit (Kru + vit)
@@ -86,8 +80,7 @@ La cible perd 2 points d'endurance (PE) par mana temporaire qu'elle possède act
 
 ---
 
-#### 7. Corruption
-
+#### 7. Corruption ['Dest'!C64]
 *École :* École de Destruction
 
 *Latin :* Rumpo (Briser), *Arcanique :* Korrupt (Kor + rupt)
@@ -100,8 +93,7 @@ Génère un effet infligeant une condition de rupture (DOT), la cible peux réal
 
 ---
 
-#### 8. Restauration
-
+#### 8. Restauration ['Rest'!C3]
 *École :* École de Restauration
 
 *Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura)
@@ -114,8 +106,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 9. Revitalisation
-
+#### 9. Revitalisation ['Rest'!C5]
 *École :* École de Restauration
 
 *Latin :* Vigor (Force, Vigueur), *Arcanique :* Ryuvigo (Ryu + vigo)
@@ -128,8 +119,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 10. Réinvigoration
-
+#### 10. Réinvigoration ['Rest'!C6]
 *École :* École de Restauration
 
 *Latin :* Roboro (Je fortifie), *Arcanique :* Rhorobor (Rho + robor)
@@ -142,8 +132,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 11. Transfusion
-
+#### 11. Transfusion ['Rest'!C7]
 *École :* École de Restauration
 
 *Latin :* Fundo (Je verse), *Arcanique :* Refund (Re + fund)
@@ -156,8 +145,7 @@ Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 12. Revigoration
-
+#### 12. Revigoration ['Rest'!C9]
 *École :* École de Restauration
 
 *Latin :* Vigor (Force, Vigueur), *Arcanique :* Rasvigore (Ras + vigore)
@@ -170,8 +158,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]<
 
 ---
 
-#### 13. Purification
-
+#### 13. Purification ['Rest'!C10]
 *École :* École de Restauration
 
 *Latin :* Purgo (Je nettoie), *Arcanique :* Rhopurgo (Rho + purgo)
@@ -184,8 +171,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]<
 
 ---
 
-#### 14. Absolution
-
+#### 14. Absolution ['Rest'!C14]
 *École :* École de Restauration
 
 *Latin :* Absolvo (Je délie), *Arcanique :* Rhoabsol (Rho + absol)
@@ -198,8 +184,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]
 
 ---
 
-#### 15. Revigoration
-
+#### 15. Revigoration ['Béné'!C3]
 *École :* École de Bénédiction
 
 *Latin :* Vigor (Force, vigueur), *Arcanique :* Lokvigor (Lok + vigor)
@@ -212,8 +197,7 @@ Génère un enchantement positif qui augmente toutes les récupérations de <spa
 
 ---
 
-#### 16. Restitution
-
+#### 16. Restitution ['Béné'!C4]
 *École :* École de Bénédiction
 
 *Latin :* Reddo (Rendre, restituer), *Arcanique :* Luxreddo (Lux + reddo)
@@ -226,8 +210,7 @@ Génère un enchantement positif qui augmente la récupération d'une ressource 
 
 ---
 
-#### 17. Purification
-
+#### 17. Purification ['Béné'!C6]
 *École :* École de Bénédiction
 
 *Latin :* Purgo (Nettoyer), *Arcanique :* Lirpurgo (Lir + purgo)
@@ -240,8 +223,7 @@ Produit un enchantement positif qui réduit les charges de <span style="color:#f
 
 ---
 
-#### 18. Exaltation
-
+#### 18. Exaltation ['Béné'!C7]
 *École :* École de Bénédiction
 
 *Latin :* Altius (Plus haut), *Arcanique :* Lynallus (Lyn + allus)
@@ -254,8 +236,7 @@ Produit un enchantement positif qui double les charges, maximum <span style="col
 
 ---
 
-#### 19. Réactivation
-
+#### 19. Réactivation ['Béné'!C8]
 *École :* École de Bénédiction
 
 *Latin :* Actus (Action), *Arcanique :* Luxactus (Lux + actus)
@@ -268,8 +249,7 @@ Produit un effet d'enchantement positif provoquant à chaque tour les effets d'u
 
 ---
 
-#### 20. Purification
-
+#### 20. Purification ['Béné'!C48]
 *École :* École de Bénédiction
 
 *Latin :* Mundo (Nettoyer, purifier), *Arcanique :* Luxmundo (Lux + mundo)
@@ -282,8 +262,7 @@ Génère un enchantement positif qui augmente de <span style="color:#ff1493; fon
 
 ---
 
-#### 21. Substitution
-
+#### 21. Substitution ['Béné'!C49]
 *École :* École de Bénédiction
 
 *Latin :* Stat (Être debout), *Arcanique :* Lemstato (Lem + stato)
@@ -296,8 +275,7 @@ Génère un enchantement positif qui permet à la cible d'utiliser son attribut 
 
 ---
 
-#### 22. Conservation
-
+#### 22. Conservation ['Béné'!C68]
 *École :* École de Bénédiction
 
 *Latin :* Servo (Sauver), *Arcanique :* Luxservo (Lux + servo)
@@ -310,8 +288,7 @@ Génère un enchantement positif qui augmente une sauvegarde au choix (dont le t
 
 ---
 
-#### 23. Renforcement
-
+#### 23. Renforcement ['Béné'!C69]
 *École :* École de Bénédiction
 
 *Latin :* Valentia (Force, valeur), *Arcanique :* Lemvalen (Lem + valen)
@@ -324,8 +301,7 @@ Génère un enchantement positif qui augmente toutes les sauvegardes de <span st
 
 ---
 
-#### 24. Fortification
-
+#### 24. Fortification ['Béné'!C70]
 *École :* École de Bénédiction
 
 *Latin :* Munio (Fortifier), *Arcanique :* Lirmunio (Lir + munio)
@@ -338,8 +314,7 @@ Génère un enchantement positif qui augmente le maximum d'une ressource au choi
 
 ---
 
-#### 25. Capacitation
-
+#### 25. Capacitation ['Béné'!C71]
 *École :* École de Bénédiction
 
 *Latin :* Capax (Capable), *Arcanique :* Lucapax (Lu + capax)
@@ -352,8 +327,7 @@ Génère un enchantement positif qui augmente le maximum de toutes les ressource
 
 ---
 
-#### 26. Exaltation
-
+#### 26. Exaltation ['Béné'!C74]
 *École :* École de Bénédiction
 
 *Latin :* Laudo (Louer), *Arcanique :* Lirlaudo (Lir + laudo)
@@ -366,8 +340,7 @@ Génère un enchantement positif qui maintient les conditions positives sur la c
 
 ---
 
-#### 27. Récupération
-
+#### 27. Récupération ['Béné'!C77]
 *École :* École de Bénédiction
 
 *Latin :* Capio (Prendre), *Arcanique :* Lemcapio (Lem + capio)
@@ -380,8 +353,7 @@ Produit un enchantement positif qui octroie à chaque tour <span style="color:#f
 
 ---
 
-#### 28. Régénération
-
+#### 28. Régénération ['Béné'!C78]
 *École :* École de Bénédiction
 
 *Latin :* Gigno (Engendrer), *Arcanique :* Lirgeno (Lir + geno)
@@ -394,8 +366,7 @@ Produit un enchantement positif qui octroie à chaque scènes qui prend fin <spa
 
 ---
 
-#### 29. Convalescence
-
+#### 29. Convalescence ['Béné'!C79]
 *École :* École de Bénédiction
 
 *Latin :* Valeo (Être fort), *Arcanique :* Lokvale (Lok + vale)
@@ -408,8 +379,7 @@ Produit un enchantement positif qui octroie à chaque scènes qui prend fin <spa
 
 ---
 
-#### 30. Consécration
-
+#### 30. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -422,8 +392,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 31. Occultation
-
+#### 31. Occultation ['Béné'!C111]
 *École :* École de Bénédiction
 
 *Latin :* Occulto (Cacher), *Arcanique :* Luccult (Lu + ccult)
@@ -436,8 +405,7 @@ Génère un enchantement positif qui rend la perception de la cible plus diffici
 
 ---
 
-#### 32. Orientation
-
+#### 32. Orientation ['Béné'!C112]
 *École :* École de Bénédiction
 
 *Latin :* Oriens (Est, Levant), *Arcanique :* Luxoriens (Lux + oriens)
@@ -450,8 +418,7 @@ Génère un enchantement positif qui améliore la perception de la cible lorsqu'
 
 ---
 
-#### 33. Innervation
-
+#### 33. Innervation ['Béné'!C140]
 *École :* École de Bénédiction
 
 *Latin :* Nervus (Nerf), *Arcanique :* Luxnervo (Lux + nervo)
@@ -464,8 +431,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 34. Rafraîchissement
-
+#### 34. Rafraîchissement ['Béné'!C165]
 *École :* École de Bénédiction
 
 *Latin :* Frigus (Froid), *Arcanique :* Lirfrige (Lir + frige)
@@ -478,8 +444,7 @@ Génère un enchantement positif qui réduit les pénalités liés à la fatigue
 
 ---
 
-#### 35. Damnation
-
+#### 35. Damnation ['Malé'!C3]
 *École :* École de Malédiction
 
 *Latin :* Damno (Condamner), *Arcanique :* Maldamno (Mal + damno)
@@ -492,8 +457,7 @@ Génère un enchantement négatif qui réduit toutes les récupérations de <spa
 
 ---
 
-#### 36. Assèchement
-
+#### 36. Assèchement ['Malé'!C4]
 *École :* École de Malédiction
 
 *Latin :* Sicco (Sécher), *Arcanique :* Morsicco (Mor + sicco)
@@ -506,8 +470,7 @@ Génère un enchantement négatif qui réduit la récupération d'une ressource 
 
 ---
 
-#### 37. Naturalisation
-
+#### 37. Naturalisation ['Malé'!C52]
 *École :* École de Malédiction
 
 *Latin :* Natura (Nature), *Arcanique :* Mornatur (Mor + natur)
@@ -520,8 +483,7 @@ Génère un enchantement négatif qui force la cible à utiliser ses sauvegardes
 
 ---
 
-#### 38. Asphyxiation
-
+#### 38. Asphyxiation ['Malé'!C53]
 *École :* École de Malédiction
 
 *Latin :* Spiritus (Souffle), *Arcanique :* Mugspira (Mug + spira)
@@ -534,8 +496,7 @@ Génère un enchantement positif qui réduit la réunion de mana de <span style=
 
 ---
 
-#### 39. Appauvrissement
-
+#### 39. Appauvrissement ['Malé'!C68]
 *École :* École de Malédiction
 
 *Latin :* Pauper (Pauvre), *Arcanique :* Morpaupe (Mor + paupe)
@@ -548,8 +509,7 @@ Génère un enchantement négatif qui réduit le maximum de toutes les ressource
 
 ---
 
-#### 40. Affliction
-
+#### 40. Affliction ['Malé'!C70]
 *École :* École de Malédiction
 
 *Latin :* Fligo (Frapper), *Arcanique :* Munfligo (Mun + fligo)
@@ -562,8 +522,7 @@ Génère un enchantement négatif qui réduit un attribut (au choix selon la <sp
 
 ---
 
-#### 41. Pérennisation
-
+#### 41. Pérennisation ['Malé'!C73]
 *École :* École de Malédiction
 
 *Latin :* Perennis (Durable), *Arcanique :* Mugperen (Mug + peren)
@@ -576,8 +535,7 @@ Génère un enchantement négatif qui maintient les conditions négatives sur la
 
 ---
 
-#### 42. Déprécation
-
+#### 42. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -590,8 +548,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 43. Dégénération
-
+#### 43. Dégénération ['Malé'!C93]
 *École :* École de Malédiction
 
 *Latin :* Gigno (Engendrer), *Arcanique :* Mugdegen (Mug + degen)
@@ -604,8 +561,7 @@ Produit un enchantement négatif qui réduit à chaque tour <span style="color:#
 
 ---
 
-#### 44. Esprit
-
+#### 44. Esprit ['Invoc'!C6]
 *École :* École d'Invocation
 
 *Latin :* Spiritus (Souffle), *Arcanique :* Vaspiri (Vas + spiri)
@@ -618,8 +574,7 @@ Génère un enchantement qui invoque une créature de type esprit au choix parmi
 
 ---
 
-#### 45. Zodiaque
-
+#### 45. Zodiaque ['Invoc'!C7]
 *École :* École d'Invocation
 
 *Latin :* Signum (Signe), *Arcanique :* Vosign (Vo + sign)
@@ -632,8 +587,7 @@ Génère un enchantement qui invoque une créature de type zodiacal au choix par
 
 ---
 
-#### 46. ???
-
+#### 46. ??? ['Invoc'!C16]
 *École :* École d'Invocation
 
 *Latin :* Vinculum (Lien, chaîne), *Arcanique :* Vanvincul (Van + vincul)
@@ -646,8 +600,7 @@ Génère un enchantement qui permet à l'invocation d'utiliser ses charges comme
 
 ---
 
-#### 47. Ressource (lien)
-
+#### 47. Ressource (lien) ['Invoc'!C17]
 *École :* École d'Invocation
 
 *Latin :* Opus (Œuvre, besoin), *Arcanique :* Voropus (Vor + opus)
@@ -660,8 +613,7 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de part
 
 ---
 
-#### 48. Désenchantement
-
+#### 48. Désenchantement ['Abju'!C6]
 *École :* École d'Abjuration
 
 *Latin :* Fallo (Tromper), *Arcanique :* Brenfallo (Bren + fallo)
@@ -674,8 +626,7 @@ Génère un effet qui provoque une décharge de <span style="color:#ff1493; font
 
 ---
 
-#### 49. Convertion
-
+#### 49. Convertion ['Abju'!C9]
 *École :* École d'Abjuration
 
 *Latin :* Muto (Changer), *Arcanique :* Basmutatio (Bas + mutatio)
@@ -688,8 +639,7 @@ Génère un effet qui retire jusqu'à <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 50. Obstruction
-
+#### 50. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -702,8 +652,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 51. Protestation
-
+#### 51. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -716,8 +665,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 ---
 
-#### 52. Neutralisation
-
+#### 52. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -730,8 +678,7 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé,
 
 ---
 
-#### 53. Distraction
-
+#### 53. Distraction ['Abju'!C37]
 *École :* École d'Abjuration
 
 *Latin :* Traho (Tirer), *Arcanique :* Bastracto (Bas + tracto)
@@ -744,8 +691,7 @@ Génère un effet qui augmente la difficulté d'un sort en cours d'incantation d
 
 ---
 
-#### 54. Surexposition
-
+#### 54. Surexposition ['Abju'!C38]
 *École :* École d'Abjuration
 
 *Latin :* Expono (Exposer), *Arcanique :* Brenpono (Bren + pono)
@@ -758,8 +704,7 @@ Génère un effet qui double la brûlure d'un sort en cours d'incantation, avec 
 
 ---
 
-#### 55. Dissipation
-
+#### 55. Dissipation ['Abju'!C45]
 *École :* École d'Abjuration
 
 *Latin :* Disipo (Disperser), *Arcanique :* Basdisipo (Bas + disipo)
@@ -772,8 +717,7 @@ Génère un enchantement neutre de type barrière magique pouvant absorber jusqu
 
 ---
 
-#### 56. Galvanisation
-
+#### 56. Galvanisation ['Evoc'!C3]
 *École :* École d'Évocation
 
 *Latin :* Vibro (Agiter, secouer), *Arcanique :* Evvibro (Ev + vibro)
@@ -786,8 +730,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 57. Énergisation
-
+#### 57. Énergisation ['Evoc'!C5]
 *École :* École d'Évocation
 
 *Latin :* Energia (Force), *Arcanique :* Eloenrgi (Elo + enrgi)
@@ -800,8 +743,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 58. Transmigration
-
+#### 58. Transmigration ['Evoc'!C16]
 *École :* École d'Évocation
 
 *Latin :* Migro (Migrer), *Arcanique :* Enmigro (En + migro)
@@ -814,8 +756,7 @@ Génère un effet qui renvoie dans l'au delà l'âme errante d'un défunt dont l
 
 ---
 
-#### 59. Nutrition
-
+#### 59. Nutrition ['Evoc'!C78]
 *École :* École d'Évocation
 
 *Latin :* Nutrio (Nourrir), *Arcanique :* Ennutri (En + nutri)
@@ -828,8 +769,7 @@ Génère un effet qui comble les besoins en nourriture d'une cible, afin que le 
 
 ---
 
-#### 60. Couronne de boucliers
-
+#### 60. Couronne de boucliers ['Conj'!C44]
 *École :* École de Conjuration
 
 *Latin :* Scutum (Bouclier), *Arcanique :* Censcutu (Cen + scutu)
@@ -842,8 +782,7 @@ Génère un enchantement qui prend la forme de <span style="color:#ff1493; font-
 
 ---
 
-#### 61. Surcharge
-
+#### 61. Surcharge ['Conj'!C50]
 *École :* École de Conjuration
 
 *Latin :* Onero (Charger), *Arcanique :* Carnero (Car + nero)
@@ -856,8 +795,7 @@ Génère un enchantement de lieu qui augmente le drain des sorts lancés dans la
 
 ---
 
-#### 62. Saignée arcanique
-
+#### 62. Saignée arcanique ['Conj'!C51]
 *École :* École de Conjuration
 
 *Latin :* Sanguis (Sang), *Arcanique :* Consang (Con + sang)
@@ -870,8 +808,7 @@ Génère un enchantement de lieu qui inflige aux lanceurs de sort l'équivalant 
 
 ---
 
-#### 63. Perturbation
-
+#### 63. Perturbation ['Conj'!C52]
 *École :* École de Conjuration
 
 *Latin :* Turbo (Troubler), *Arcanique :* Centurb (Cen + turb)
@@ -884,8 +821,7 @@ Génère un enchantement de lieu qui augmente la difficulté de sorts lancés da
 
 ---
 
-#### 64. Ponction
-
+#### 64. Ponction ['Alté'!C15]
 *École :* École d'Altération
 
 *Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung)

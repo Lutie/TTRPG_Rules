@@ -4,19 +4,19 @@
 
 ## Régénération
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Rajeunissement ?
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 ---
 
 ## Soin Suprême
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -26,7 +26,7 @@
 
 ## Réanimation
 
-*Difficulté :* 10, *Drain :* 10
+*Difficulté :* 8, *Drain :* 8
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 

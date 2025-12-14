@@ -2,8 +2,7 @@
 
 > 12 mots pour cette école
 
-#### 1. Restauration
-
+#### 1. Restauration ['Rest'!C3]
 *Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -14,8 +13,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 2. Vivification
-
+#### 2. Vivification ['Rest'!C4]
 *Latin :* Vita (Vie), *Arcanique :* Renvita (Ren + vita)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -26,8 +24,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 3. Revitalisation
-
+#### 3. Revitalisation ['Rest'!C5]
 *Latin :* Vigor (Force, Vigueur), *Arcanique :* Ryuvigo (Ryu + vigo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -38,8 +35,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 4. Réinvigoration
-
+#### 4. Réinvigoration ['Rest'!C6]
 *Latin :* Roboro (Je fortifie), *Arcanique :* Rhorobor (Rho + robor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -50,8 +46,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 5. Transfusion
-
+#### 5. Transfusion ['Rest'!C7]
 *Latin :* Fundo (Je verse), *Arcanique :* Refund (Re + fund)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -62,8 +57,7 @@ Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 6. Grandiloquence
-
+#### 6. Grandiloquence ['Rest'!C8]
 *Latin :* Magnus (Grand), *Arcanique :* Relmagnus (Rel + magnus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -74,8 +68,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 7. Revigoration
-
+#### 7. Revigoration ['Rest'!C9]
 *Latin :* Vigor (Force, Vigueur), *Arcanique :* Rasvigore (Ras + vigore)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -86,8 +79,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]<
 
 ---
 
-#### 8. Purification
-
+#### 8. Purification ['Rest'!C10]
 *Latin :* Purgo (Je nettoie), *Arcanique :* Rhopurgo (Rho + purgo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -98,8 +90,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]<
 
 ---
 
-#### 9. Canalisation
-
+#### 9. Canalisation ['Rest'!C11]
 *Latin :* Canalis (Conduit), *Arcanique :* Recana (Re + cana)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -110,8 +101,7 @@ Produit un soin qui convertis un maximum de <span style="color:#ff1493; font-wei
 
 ---
 
-#### 10. Dissolution
-
+#### 10. Dissolution ['Rest'!C12]
 *Latin :* Solvo (Délier), *Arcanique :* Rensolvo (Ren + solvo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -122,8 +112,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 11. Neutralisation
-
+#### 11. Neutralisation ['Rest'!C13]
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Rasneuta (Ras + neuta)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -134,8 +123,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 12. Absolution
-
+#### 12. Absolution ['Rest'!C14]
 *Latin :* Absolvo (Je délie), *Arcanique :* Rhoabsol (Rho + absol)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2

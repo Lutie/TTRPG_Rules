@@ -4,9 +4,9 @@
 
 ## Mur de Glace
 
-*Difficulté :* 14, *Drain :* 14
+*Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Edification (Aedifico (Édifier) / Conedi (Con + edi)) : Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des murs magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au mur.
+**Mot de pouvoir :** Edification ['Conj'!C11] (Aedifico (Édifier) / Conedi (Con + edi)) : Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des murs magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au mur.
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -16,9 +16,9 @@
 
 ## Armure de Glace
 
-*Difficulté :* 10, *Drain :* 12
+*Difficulté :* 8, *Drain :* 10
 
-**Mot de pouvoir :** Armure élémentaire (Loric (Cuirasse) / Conloric (Con + loric)) : Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Elle profite d'une absorption à son élément et aux éléments opposés de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> mais sa qualité réelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>.
+**Mot de pouvoir :** Armure élémentaire ['Conj'!C27] (Loric (Cuirasse) / Conloric (Con + loric)) : Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Elle profite d'une absorption à son élément et aux éléments opposés de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> mais sa qualité réelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>.
 
 **Mot de diffusion :** Soi : Portée : Sans, Vecteur : Sans, Cible soi possible.
 
@@ -28,9 +28,9 @@
 
 ## Nova de Glace
 
-*Difficulté :* 10, *Drain :* 12
+*Difficulté :* 8, *Drain :* 10
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Soi : Portée : Sans, Vecteur : Sans, Cible soi possible.
 
@@ -40,9 +40,9 @@
 
 ## Orbe de Glace
 
-*Difficulté :* 18+X, *Drain :* 18+X
+*Difficulté :* 16+X, *Drain :* 16+X
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -59,9 +59,9 @@
 
 ## Congélation
 
-*Difficulté :* 16, *Drain :* 16
+*Difficulté :* 14, *Drain :* 14
 
-**Mot de pouvoir :** Statuefaction (Status (Position) / Mugstatu (Mug + statu)) : Génère un enchantement négatif qui statufie la cible en formant une couche solide autour d'elle, la cible n'est plus en mesure d'agir sauf pour tenter de briser l'effet du sort via un test de musculation, évasion ou autre moyen logique (voir magiques) contre la difficulté arcanique du sort, en cas de réussite la charge du sort est réduite d'autant que le jet (catégorie 0 + degré de réussite), tant que la cible est affecté les dégats qu'elle reçoit sont infligés aux charges à la place (réduit comme le serait des dégats opposés à une structure de catégorie égale au niveau du sort).
+**Mot de pouvoir :** Statuefaction ['Malé'!C37] (Status (Position) / Mugstatu (Mug + statu)) : Génère un enchantement négatif qui statufie la cible en formant une couche solide autour d'elle, la cible n'est plus en mesure d'agir sauf pour tenter de briser l'effet du sort via un test de musculation, évasion ou autre moyen logique (voir magiques) contre la difficulté arcanique du sort, en cas de réussite la charge du sort est réduite d'autant que le jet (catégorie 0 + degré de réussite), tant que la cible est affecté les dégats qu'elle reçoit sont infligés aux charges à la place (réduit comme le serait des dégats opposés à une structure de catégorie égale au niveau du sort).
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -71,9 +71,9 @@
 
 ## Souffle de Givre
 
-*Difficulté :* 18+X, *Drain :* 18+X
+*Difficulté :* 16+X, *Drain :* 16+X
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -90,9 +90,9 @@
 
 ## Epieu de Glace
 
-*Difficulté :* 18, *Drain :* 16
+*Difficulté :* 16, *Drain :* 14
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Projectile : Portée : Portée magique x2, Vecteur : Vue.
 
@@ -102,9 +102,9 @@
 
 ## Elémentaire de Glace
 
-*Difficulté :* 14, *Drain :* 16
+*Difficulté :* 12, *Drain :* 14
 
-**Mot de pouvoir :** Elémentaire (Elementum (Élément) / Voele (Vo + ele)) : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+**Mot de pouvoir :** Elémentaire ['Invoc'!C3] (Elementum (Élément) / Voele (Vo + ele)) : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 **Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -114,9 +114,9 @@
 
 ## Glype de Protection de Glace
 
-*Difficulté :* 14, *Drain :* 14
+*Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Mitigation (Mitis (Doux) / Luxmitis (Lux + mitis)) : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.
+**Mot de pouvoir :** Mitigation ['Béné'!C60] (Mitis (Doux) / Luxmitis (Lux + mitis)) : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -126,9 +126,9 @@
 
 ## Blizzard
 
-*Difficulté :* 18+X, *Drain :* 18+X
+*Difficulté :* 16+X, *Drain :* 16+X
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
