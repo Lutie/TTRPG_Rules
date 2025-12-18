@@ -9,6 +9,8 @@ icon: material/label
 **Strong attributes**: List the attributes in which this ethnic excels. The player selects two of these attributes to receive a free boost.
 **Weak attributes**: List the attributes in which this ethnic is naturally disadvantaged. The player may choose one weak attribute to voluntarily accept in order to gain one additional boost from the strong attribute list.
 **Birth attributes**: List the variations of the secondary attributes for this ethnic. A valid set of birth attributes must have a total value of 60 or less—never exceeding this limit.
+**Birth particularities:** This section lists all the particularities a character gains from their race. Some races share most, or even all, of these particularities — such as Humans, Elves, or Dwarves — while others differ more significantly. In some cases, a “race” is more a conceptual or semantic category than a strict biological lineage, which explains why shared traits may be limited.  
+**Cultural particularities:** This section lists all the particularities a character gains from their ethnicity. Ethnic groups belonging to the same race usually follow a shared structural pattern in how these particularities are distributed, but the nature and meaning of those particularities can differ greatly from one culture to another. This content is what truly defines the identity and role of each ethnicity. For example, Human cultures express themselves through auras, Ferals through instincts and totem affinities, while Elves commonly manifest minor innate magics (cantrips). The framework may be shared, but the expression is fundamentally different. If a character is raised within a culture other than their birth culture, they may gain the cultural particularities of their adopted culture instead. This choice is always subject to the GM’s approval and should serve narrative and role-playing purposes, not mechanical optimization or min-maxing.
 
 ## Human ethnics
 
@@ -33,12 +35,20 @@ The Emperians are a cultured and exemplary urban society known for their advance
     __Cunning__ – Emperians navigate politics, diplomacy, and urban intrigue, requiring sharp minds and the ability to read complex social dynamics.
     __Magic or Logic__ – Their cities seamlessly blend magical theory with scientific innovation; mastering either discipline is a sign of achievement and prestige.
 **Weak attributes:** None  
-**Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10  
-  
+**Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10
 **Allegiance:** Arcane, Magic, Steam, Technology, Destiny, or None  
 **Living environment:** Urban, City-dwelling, Rural  
-**Birth particularity:** Authority  
-**Cultural particularity:** Luck Affinity (1)
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- **Luck Affinity** (affinity): Emperians live in environments where opportunity, timing, and fortune play a decisive role, fostering a cultural ease with chance and probability. Character's test gets a bonus of +1 when a singularity happens while a stroke of luck occures.  
+- **Knowledge Affinity** (affinity): Emperian culture places strong emphasis on scholarship, learning, and the accumulation of structured knowledge. Character's test gets a bonus of +1 when a singularity happens while making use of his knowledge skills.  
+- **Secundary Specialty**: The character may select one additional skill specialty at character creation. This represents a broader training background or a notable secondary field of expertise.  
+- **Accelerated Learning**: The character begins play with an increased learning pace, reflecting early training, strong fundamentals, or rapid adaptation. The character starts with +20 PX. 
+- **Auras**: Human Ingenuity may be repladed by one of this aura particularities: Authority · Insightfulness · Osmoticness · Greatness · Altruism. These auras are passive effects that influence the character and nearby allies. Aura effects are described in Lexicon (at the bottom of this page).   
 
 **Origins:** The ethnic capital of the Emperians is Alexandria, located in the Kingdom of New Arjan, within the Lowlands.  
 **Religion:** Mostly Ellendist, with many Chromites and a minority of Noshinists.
@@ -65,12 +75,16 @@ Kjeldorians are master hunters and survivalists who thrive in tundra and cold ar
     __Strength__ – Life in tundras and frozen wilderness demands powerful bodies capable of enduring harsh terrain and hunting dangerous prey.
     __Perception__ – Surviving in blizzards, tracking beasts, and navigating white landscapes requires acute senses and an instinct for detecting hidden threats.
 **Weak attributes:** None  
-**Birth attributes:** Stature 10~12, Height 10~12, Ego 10~11, Appearance 8~10, Luck 8~10, Balance 9~10  
-  
+**Birth attributes:** Stature 10~12, Height 10~12, Ego 10~11, Appearance 8~10, Luck 8~10, Balance 9~10
 **Allegiance:** Nature, Destiny, or None  
 **Living environment:** Desertic, Rural, Urban  
-**Birth particularity:** Lucidity  
-**Cultural particularity:** Cold Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 **Origins:** The ethnic capital of the Kjeldorians is Ys, located in the Kingdom of Kjeldora, within the Lowlands.  
 
@@ -97,12 +111,16 @@ The Attilians are a hardy, resilient people who inhabit arid, desert-like region
     __Constitution__ – Their bodies are shaped by relentless heat, scarcity, and arduous travel; endurance is both cultural and biological.
     __Cunning__ – Trade routes, negotiations, clan politics, and desert survival reward cleverness, adaptability, and shrewd decision-making.
 **Weak attributes:** None  
-**Birth attributes:** Stature 10~11, Height 10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~11  
-  
+**Birth attributes:** Stature 10~11, Height 10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~11
 **Allegiance:** Destiny or None  
 **Living environment:** Desertic, Rural, Urban  
-**Birth particularity:** Adversity  
-**Cultural particularity:** Heat Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 **Origins:** _This information has not yet been written down_  
 
@@ -128,12 +146,16 @@ Rosalians are a highly spiritual, traditional people with strong beliefs and cus
     __Dexterity__ – Their refined martial arts, craftsmanship, and ceremonial disciplines demand precision, elegance, and subtlety in movement.
     __Wisdom__ – Rosalian traditions emphasize meditation, serenity, and philosophical thought, cultivating deep intuition and balanced judgment.
 **Weak attributes:** None  
-**Birth attributes:** Stature 9~10, Height 9~10, Ego 10~11, Appearance 10~11, Luck 10~11, Balance 9~10  
-  
+**Birth attributes:** Stature 9~10, Height 9~10, Ego 10~11, Appearance 10~11, Luck 10~11, Balance 9~10
 **Allegiance:** Destiny or None  
 **Living environment:** Urban, City-dwelling, Rural  
-**Birth particularity:** Stealth  
-**Cultural particularity:** Calm Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 **Origins:** The …  
 
@@ -159,12 +181,16 @@ A militarized people with a centuries-long history of warfare, the Albalonians a
     __Strength / Agility / Dexterity__ – Albalonians train from childhood for war; their culture produces warriors of every style, from brute force to swift skirmishers to precise duelists.
     __Willpower__ – Generations of conflict forged unbreakable resolve; they endure hardship, command respect, and never yield on the battlefield.
 **Weak attributes:** _This information has not yet been written down_  
-**Birth attributes:** Stature 10~11, Height 10~11, Ego 9~11, Appearance 9~10, Luck 9~10, Balance 9~11  
-  
+**Birth attributes:** Stature 10~11, Height 10~11, Ego 9~11, Appearance 9~10, Luck 9~10, Balance 9~11
 **Allegiance:** Destiny or None  
 **Living environment:** City-dwelling, Rural  
-**Birth particularity:** Tenacity  
-**Cultural particularity:** War Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 **Origins:** The …  
 
@@ -190,12 +216,16 @@ Morrians are resilient, clan-based people who inhabit vast, desolate, and sparse
     __Agility__ – Working in fields, forests, and harsh rural terrain develops nimble, practical movements and an instinctive sense of bodily control.
     __Perception__ – As trackers, farmers, hunters, and guardians of isolated lands, Morrians rely on watchfulness and sharp awareness of their surroundings.
 **Weak attributes:** None  
-**Birth attributes:** Stature 9~10, Height 10~11, Ego 9~10, Appearance 9~10, Luck 9~11, Balance 10~11  
-  
+**Birth attributes:** Stature 9~10, Height 10~11, Ego 9~10, Appearance 9~10, Luck 9~11, Balance 10~11
 **Allegiance:** Destiny or None  
 **Living environment:** Rural, City-dwelling  
-**Birth particularity:** Swiftness  
-**Cultural particularity:** Desert Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 **Origins:** The …  
 
@@ -219,12 +249,16 @@ This people of solid mountain people, vigorous and enduring, was shaped by the h
     __Constitution__ – Their mountain lives, stonecraft traditions, and endurance rituals produce exceptionally sturdy and resilient bodies.
     __Willpower__ – Titans are known for their iron discipline, unshakeable courage, and refusal to yield under hardship or fear.
 **Weak attributes:** None  
-**Birth attributes:** Stature 10~12, Height 9~10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10~11  
-  
+**Birth attributes:** Stature 10~12, Height 9~10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10~11
 **Allegiance:** Destiny or None  
 **Living environment:** City-dwelling, Rural, Mountainous  
-**Birth particularity:** Boldness or Firmness  
-**Cultural particularity:** Mountain Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 **Origins:** The …  
 
@@ -251,12 +285,16 @@ Bretonians are a technologically advanced society known for their intellectual p
     __Cunning__ – Navigating trade, technology, and complex social or scholarly institutions requires strategic thinking and adaptability.
     __Logic__ – Bretonians excel at structured reasoning, technical mastery, and problem-solving, blending science with magical engineering.
 **Weak attributes:** None  
-**Birth attributes:** Stature 10, Height 10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10  
-  
+**Birth attributes:** Stature 10, Height 10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10
 **Allegiance:** Science, Technology, or None  
 **Living environment:** Urban or City-dwelling  
-**Birth particularity:** Insight  
-**Cultural particularity:** Technology Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+-  
 
 **Origins:** The …  
 
@@ -279,12 +317,16 @@ This (currently extinguished) people are distant relatives to selunian elves.
     __Willpower__ – Their rituals and traditions demand intense discipline, emotional control, and inner strength.
     __Magic__ – Aurians carry ancient magical lineage, granting them natural affinity for arcane arts and metaphysical perception.
 **Weak attributes:** None  
-**Birth attributes:** Stature 8~9, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~11, Balance 8~10  
-  
+**Birth attributes:** Stature 8~9, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~11, Balance 8~10
 **Allegiance:** Arcane, Magic, None  
 **Living environment:** Urban or City-dwelling  
-**Birth particularity:** Osmosis  
-**Cultural particularity:** Technology Affinity (1)  
+
+**Birth particularities: Humans**
+- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
+- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+
+**Cultural particularities:**
+- 
 
 <div class="page-break"></div>
 
@@ -312,12 +354,12 @@ The Sylvanians are forest-dwelling elves who live in harmony with nature. They r
     __Wisdom__ – Their harmony with the forest fosters introspection, patience, and instinctive understanding of living things.
 **Weak attributes:** Strength  
     __Strength__ – Their light, slender builds favor precision and speed over physical power; brute force is rarely part of their lifestyle.
-**Birth attributes:** Stature 8~9, Height 8~9, Ego 10~11, Appearance 10~12, Luck 9~11, Balance 10~12  
-  
+**Birth attributes:** Stature 8~9, Height 8~9, Ego 10~11, Appearance 10~12, Luck 9~11, Balance 10~12
 **Allegiance:** Nature, Source, or None  
 **Living environment:** Rural or Forest  
-**Birth particularity:** None  
-**Cultural particularity:** Forest Affinity (1), Leather Affinity (1)  
+
+**Birth particularities:** None  
+**Cultural particularities:** Forest Affinity (1), Leather Affinity (1)  
 
 **Origins:** The …  
 
@@ -347,11 +389,11 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
     __Strength__ – Sheltered scholarly lives and delicate frames leave them physically fragile.
     __Constitution__ – Reliance on magic rather than physical exertion makes their bodies less resilient to hardship and disease.
 **Birth attributes:** Stature 7~8, Height 8~9, Ego 10~12, Appearance 11~13, Luck 10~11, Balance 8~10  
-  
 **Allegiance:** Magic, Arcane, or None  
 **Living environment:** Urban, City-dwelling, or Rural  
-**Birth particularity:** None  
-**Cultural particularity:** Immaterial Affinity (1), Fabric Affinity (1)  
+
+**Birth particularities:** None  
+**Cultural particularities:** Immaterial Affinity (1), Fabric Affinity (1)  
 
 **Origins:** The …  
 
@@ -381,11 +423,11 @@ Thalassians are water-oriented elves who feel at home near rivers, lakes, and oc
 **Weak attributes:** Strength  
     __Strength__ – Their bodies favor flexibility and speed—powerful strokes in water rather than heavy lifting on land.
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 9~10, Appearance 11~13, Luck 10~11, Balance 10~12  
-  
 **Allegiance:** Magic or None  
 **Living environment:** Marine, City-dwelling, or Rural  
-**Birth particularity:** Amphibious (2)  
-**Cultural particularity:** Aquatic Affinity (1)  
+
+**Birth particularities:** Amphibious (2)  
+**Cultural particularities:** Aquatic Affinity (1)  
 
 **Origins:** The …  
 
@@ -417,11 +459,11 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
     __Constitution__ – The “dark heart” that shapes their nature strains body and spirit, creating inherent fragility.
     __Wisdom__ – Emotional volatility and internal struggle hinder clarity and long-term judgment.
 **Birth attributes:** Stature 7~9, Height 8~9, Ego 10~13, Appearance 11~13, Luck 8~10, Balance 6~9  
-  
 **Allegiance:** Arcane or None  
 **Living environment:** Urban, City-dwelling, or Subterranean  
-**Birth particularity:** Night Vision (2)  
-**Cultural particularity:** Darkness Affinity (1), Poison Affinity (1)  
+
+**Birth particularities:** Night Vision (2)  
+**Cultural particularities:** Darkness Affinity (1), Poison Affinity (1)  
 
 **Origins:** The …  
 
@@ -451,11 +493,11 @@ Urganian Elves are reclusive, mystical, and fierce. They are known for their dee
 **Weak attributes:** Cunning  
     __Cunning__ – Their rigid worldview leaves little room for deception or subtle political maneuvering; they act with direct intent rather than manipulation.
 **Birth attributes:** Stature 8~10, Height 8~9, Ego 10~12, Appearance 9~11, Luck 8~10, Balance 10~12  
-  
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-**Birth particularity:** _This information has not yet been written down_  
-**Cultural particularity:** Heat Affinity (1)  
+
+**Birth particularities:** _This information has not yet been written down_  
+**Cultural particularities:** Heat Affinity (1)  
 
 **Origins:** The …  
 
@@ -482,11 +524,11 @@ Their dual identity sometimes creates inner conflict, leading them either to wan
 **Strong attributes**: Inherits the strong attributes of either parent, chosen by the player.
 **Weak attributes**: Inherits the weak attributes of one parent, which does not need to be the same parent chosen for the strong attributes.
 **Birth attributes**: Inherits the range limits of both parents, using the lowest minimum and the highest maximum for each value.
-  
 **Allegiance:** Inherits the allegiance list of both parent  
 **Living environment:** Inherits the living environment list of both parent  
-**Birth particularity:** Inherits the birth particularities of either parent (player’s choice)  
-**Cultural particularity:** Inherits the affinities of either parent (player’s choice)  
+
+**Birth particularities:** Inherits the birth particularities of either parent (player’s choice)  
+**Cultural particularities:** Inherits the affinities of either parent (player’s choice)  
 
 **Origins:** The …  
 
@@ -521,11 +563,11 @@ Also called Brandawis.
     __Agility__ – Like all dwarves, Bradanan retain a compact, solid build that limits speed and fluidity of movement. Their lives center around precision rather than mobility, reinforcing this natural physical limitation.
     __Charisma__ – Although reliable and competent, Bradanan tend to be blunt, overly pragmatic, or socially rigid. Their urban life has softened little of their dwarven straightforwardness, making them respected, but not always well-liked.
 **Birth attributes:** Stature 11~12, Height 7~8, Ego 10~12, Appearance 8~10, Luck 10~11, Balance 10~11  
-  
 **Allegiance:** Steam, Science, or None  
 **Living environment:** Urban or City-dwelling  
-**Birth particularity:** Passive trait (Memory +1)  
-**Cultural particularity:** Urban Affinity (1), Aetheric Affinity (1)  
+
+**Birth particularities:** Passive trait (Memory +1)  
+**Cultural particularities:** Urban Affinity (1), Aetheric Affinity (1)  
 
 **Origins:** The …  
 
@@ -558,11 +600,11 @@ Also called Karazdawis.
     __Dexterity__ – While precise in heavy craftsmanship (smithing, carving), they struggle with delicate manipulations requiring lighter or more flexible movements. Fine motor skills are often secondary to strength-based tasks.
     __Charisma__ – Karazdan dwarves are famously blunt, proud, and intense. Their fiery tempers, traditionalism, and social rigidity do not translate well to diplomacy, causing them to intimidate more often than they charm.
 **Birth attributes:** Stature 12~13, Height 7~8, Ego 10~12, Appearance 7~9, Luck 10~11, Balance 10~11  
-  
 **Allegiance:** Steam or None  
 **Living environment:** Subterranean, Mountainous, City-dwelling, or Rural  
-**Birth particularity:** Night Vision (1), Passive Trait (Control Zone +1)  
-**Cultural particularity:** Subterranean Affinity (1), Mountain Affinity (1), Vermin Animosity (1), Elf Animosity (1), Metal & Stone Affinity (1)  
+
+**Birth particularities:** Night Vision (1), Passive Trait (Control Zone +1)  
+**Cultural particularities:** Subterranean Affinity (1), Mountain Affinity (1), Vermin Animosity (1), Elf Animosity (1), Metal & Stone Affinity (1)  
 
 **Origins:** The …  
 
@@ -645,11 +687,11 @@ Ungordan Society:
     __Dexterity__ – While strong craftworkers, their work demands force rather than finesse. Fine manipulation, delicate handling, and light mechanical work suffer due to their heavy musculature and utilitarian mindset.
     __Wisdom__ – The isolation of the deep limits their worldview. Ungordan rarely experience spiritual diversity, natural landscapes, cultural exchanges, or contemplative traditions, resulting in a narrower understanding of the world and weaker intuitive insight.
 **Birth attributes:** Stature 12~14, Height 7~8, Ego 10~13, Appearance 6~8, Luck 8~10, Balance 10~12  
-  
 **Allegiance:** Steam, Ankou, or None  
 **Living environment:** Subterranean  
-**Birth particularity:** Night Vision (2), Passive Trait (Physical/Mental Protection +1)  
-**Cultural particularity:** Subterranean Affinity (1), Vermin Animosity (1), Elf Animosity (1), Spawn Animosity (1), Metal & Stone Affinity (1)  
+
+**Birth particularities:** Night Vision (2), Passive Trait (Physical/Mental Protection +1)  
+**Cultural particularities:** Subterranean Affinity (1), Vermin Animosity (1), Elf Animosity (1), Spawn Animosity (1), Metal & Stone Affinity (1)  
 
 **Origins:** The …  
 
@@ -683,11 +725,11 @@ They are considered pacifist ferals, generally not seeking conflict with other c
 **Weak attributes:** Cunning  
     __Cunning__ – Okkan are honest, direct, and pack-oriented rather than scheming. They prefer trust and loyalty over manipulation or elaborate plots.
 **Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10  
-  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Forest, Nomadic, Rural  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Danger Sense (1)  
-**Cultural particularity:** Forest Affinity (1), Pack Instinct  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Danger Sense (1)  
+**Cultural particularities:** Forest Affinity (1), Pack Instinct  
 
 **Origins:** The …  
 **Nature**: Pacifist.  
@@ -717,11 +759,11 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Weak attributes:** Constitution  
     __Constitution__ – Nekkan are nimble but not particularly robust. They tire faster under sustained effort and handle harsh environments or heavy blows less effectively.
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~13, Balance 9~10  
-  
 **Allegiance:** Nature, Source, Destiny, or None  
 **Living environment:** Nomadic, Rural, City-dwelling  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Danger or Fear Sense (1)  
-**Cultural particularity:** Darkness Affinity (1), Feline Instincts, Black Cat  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Danger or Fear Sense (1)  
+**Cultural particularities:** Darkness Affinity (1), Feline Instincts, Black Cat  
 
 **Origins:** The … 
 **Nature**: Pacifist.  
@@ -751,11 +793,11 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 **Weak attributes:** Cunning  
     __Cunning__ – Direct, straightforward and sometimes hot-blooded, Felkkan prefer frontal displays of strength and courage over long-term scheming or subtle manipulation.
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 8~10  
-  
 **Allegiance:** Nature, Source, or None  
 **Living environment:** Nomadic, Desert (hot), Mountain  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Fear Sense (1)  
-**Cultural particularity:** Bestial Instincts (Adrenaline)  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Fear Sense (1)  
+**Cultural particularities:** Bestial Instincts (Adrenaline)  
 
 **Origins:** The …  
 **Nature**: Predatory.  
@@ -785,11 +827,11 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Weak attributes:** Agility  
     __Agility__ – Their size and bulk come at the cost of speed and finesse. Koddans move deliberately rather than quickly, favoring stability over nimbleness.
 **Birth attributes:** Stature 12~14, Height 11~13, Ego 7~10, Appearance 8~10, Luck 8~10, Balance 10~12  
-  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Cold Desert and Mountain  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Force of Nature (2), Danger Sense (1)  
-**Cultural particularity:** Cold Affinity (1), Survival Instincts (Guardian)  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Force of Nature (2), Danger Sense (1)  
+**Cultural particularities:** Cold Affinity (1), Survival Instincts (Guardian)  
 
 **Origins:** The …  
 **Nature:** Pacifist.  
@@ -819,11 +861,11 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 **Weak attributes:** Charisma  
     __Charisma__ – Withdrawn, taciturn, and often unsettling to others, Bedokkan struggle to connect with more sociable cultures and rarely inspire trust or sympathy.
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 9~10, Appearance 7~9, Luck 10, Balance 10  
-  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Marine and Forest  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Tail (2), Amphibious (1), Fear Sense (1)  
-**Cultural particularity:** Aquatic Affinity (1), Hunting Instinct  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Tail (2), Amphibious (1), Fear Sense (1)  
+**Cultural particularities:** Aquatic Affinity (1), Hunting Instinct  
 
 **Origins:** The …  
 **Nature:** Predatory.  
@@ -852,11 +894,11 @@ However, this ethnicity suffers somewhat from the dispersion of its members, who
 **Weak attributes:** Constitution  
     __Constitution__ – Light-boned and adapted to height and mobility rather than endurance, Garukkan endure less physical punishment than heavier ferals.
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~12, Balance 9~10  
-  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Marine, Mountain, Forest  
-**Birth particularity:** Natural Weapons (Talons), Winged Creature (1), Danger Sense (1), Freedom Instinct  
-**Cultural particularity:** Height Affinity (1)  
+
+**Birth particularities:** Natural Weapons (Talons), Winged Creature (1), Danger Sense (1), Freedom Instinct  
+**Cultural particularities:** Height Affinity (1)  
 
 **Origins:** The …  
 **Nature:** Predatory or Pacifist.  
@@ -886,11 +928,11 @@ They are considered pacifist ferals who do not seek direct conflict... In fact, 
 **Weak attributes:** Balance  
     __Balance__ – Luppans lack inner harmony. Their fear, stress, and indulgent tendencies make them vulnerable to fatigue, panic, corruption, or emotional breakdown when pressure mounts.
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 7~9, Appearance 11~13, Luck 10~13, Balance 8~10  
-  
 **Allegiance:** Nature, Magic, Destiny, or None  
 **Living environment:** Forest and Rural  
-**Birth particularity:** Natural Weapons (Claws), Danger Sense (2)  
-**Cultural particularity:** Prudence Affinity (1), Alert Instinct  
+
+**Birth particularities:** Natural Weapons (Claws), Danger Sense (2)  
+**Cultural particularities:** Prudence Affinity (1), Alert Instinct  
 
 **Origins:** The …  
 **Nature:** Pacifist.  
@@ -921,8 +963,9 @@ This ethnic group of feral beings comprises feline humanoids, bearing the traits
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-**Birth particularity:** Natural Weapons (Claws), Fear Sense (2)  
-**Cultural particularity:** Chasing and Rivality Affinity (1)  
+
+**Birth particularities:** Natural Weapons (Claws), Fear Sense (2)  
+**Cultural particularities:** Chasing and Rivality Affinity (1)  
 
 **Origins:** The …  
 **Nature:** Predatory.  
@@ -954,8 +997,9 @@ This ethnic group of feral beings consists of cervine humanoids, adorned with an
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-**Birth particularity:** Horns (2), Danger Sense (2)  
-**Cultural particularity:** Honnor and Oath Affinity (1), Hornamental Magic Tradition  
+
+**Birth particularities:** Horns (2), Danger Sense (2)  
+**Cultural particularities:** Honnor and Oath Affinity (1), Hornamental Magic Tradition  
 
 **Origins:** The …  
 **Nature:** Pacifist.  
@@ -985,11 +1029,11 @@ This ethnic group of feral beings consists of individuals who have the appearanc
     __Willpower__ – Their flexibility and opportunism make them less resistant to pressure, temptation, or intimidation; they tend to yield or adapt rather than stand firm.
 **Birth attributes:** Stature 9, Height 9, Ego 11, Appearance 8, Luck 13  
 **Birth attributes:** Stature 8~9, Height 5~7, Ego 7~9, Appearance 10~11, Luck 9~13, Balance 9~13  
-  
 **Allegiance:** Nature, Source, Destiny, Ankou, or None  
 **Living environment:** Subterranean, City-dwelling, Rural  
-**Birth particularity:** Natural Weapons (Claws), Tail (1), Danger Sense (1)  
-**Cultural particularity:** Filth Affinity (1), Venal Instinct  
+
+**Birth particularities:** Natural Weapons (Claws), Tail (1), Danger Sense (1)  
+**Cultural particularities:** Filth Affinity (1), Venal Instinct  
 
 **Origins:** The …  
 **Nature:** Pacifist.  
@@ -1023,8 +1067,9 @@ They are either pacifists or predators depending on their sub-ethnicity, but if 
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-**Birth particularity:** Natural Weapons (Claws)  
-**Cultural particularity:** Water and Wet Environment Affinity (1)  
+
+**Birth particularities:** Natural Weapons (Claws)  
+**Cultural particularities:** Water and Wet Environment Affinity (1)  
 
 **Origins:** The …  
 **Nature:** Predatory or Pacifist.  
@@ -1057,8 +1102,9 @@ They are pacifists, but of a type that few predators seek quarrels with.
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-**Birth particularity:** Horns (1), Natural Weapons (Hoof)  
-**Cultural particularity:** Big places / environment Affinity (1), Hornamental Magic Tradition  
+
+**Birth particularities:** Horns (1), Natural Weapons (Hoof)  
+**Cultural particularities:** Big places / environment Affinity (1), Hornamental Magic Tradition  
 
 **Origins:** The …  
 **Nature:** Pacifist.  
@@ -1092,11 +1138,11 @@ They are true predators.
 **Weak attributes:** Luck  
     __Luck__ – Marked by resentment and violent impulses, Oni seem followed by misfortune—broken alliances, bloody feuds, and catastrophes often arise around them.
 **Birth attributes:** Stature 10~11, Height 10~11, Ego 10~11, Appearance 7~9, Luck 7~10, Balance 8~10  
-  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Fear Sense (2)  
-**Cultural particularity:** Blood Affinity (1), Blood Instincts  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Fear Sense (2)  
+**Cultural particularities:** Blood Affinity (1), Blood Instincts  
 
 **Origins:** The …  
 **Nature:** Predatory.  
@@ -1128,11 +1174,11 @@ They are somewhat neutral and doesn't define themselves as pacifists or predator
 **Weak attributes:** Luck  
     __Luck__ – Their frivolity and disregard for consequences often backfire. Jokes go too far, risks pile up, and fate eventually demands a price.
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~12, Balance 6~9  
-  
 **Allegiance:** Nature, Source, Destiny, or None  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain, Rural  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Danger or Fear Sense (1)  
-**Cultural particularity:** Curiosity Affinity (1), Curious Instinct  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Danger or Fear Sense (1)  
+**Cultural particularities:** Curiosity Affinity (1), Curious Instinct  
 
 **Origins:** The …  
 **Nature:** Pacifist.  
@@ -1163,11 +1209,11 @@ Tengu are natural predators, and some are known to resolve conflicts with lethal
     __Constitution__ – Lean and built for speed rather than durability, Tengu do not handle prolonged punishment or attrition as well as sturdier ferals.
     __Luck__ – Their arrogance, reckless choices, and appetite for conflict attract retaliation and misfortune: they often create their own downfall.
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~12  
-  
 **Allegiance:** Nature, Magic, Ankou, or None  
 **Living environment:** Marine, Mountain, Forest  
-**Birth particularity:** Natural Weapons (Talons), Winged Creature (1), Fear Sense (1)  
-**Cultural particularity:** Height Affinity (1), Freedom Instinct  
+
+**Birth particularities:** Natural Weapons (Talons), Winged Creature (1), Fear Sense (1)  
+**Cultural particularities:** Height Affinity (1), Freedom Instinct  
 
 **Origins:** The …  
 **Nature:** Predatory.  
@@ -1200,8 +1246,9 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-**Birth particularity:** Natural Weapons (Claws)  
-**Cultural particularity:** Small places / environment Affinity (1)  
+
+**Birth particularities:** Natural Weapons (Claws)  
+**Cultural particularities:** Small places / environment Affinity (1)  
 
 **Origins:** The …  
 **Nature:** Predatory.  
@@ -1230,11 +1277,11 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 **Weak attributes:** Luck  
     __Luck__ – Their culture of constant confrontation and dominance invites trouble—feuds, grudges, and brutal trials often stack the odds against them, even when they win.
 **Birth attributes:** Stature 11~13, Height 12~14, Ego 10~12, Appearance 6~8, Luck 7~9, Balance 10~12  
-  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Cold Desert and Mountain  
-**Birth particularity:** Natural Weapons (Claws, Fangs), Force of Nature (2), Fear Sense (1)  
-**Cultural particularity:** Mountain Affinity (1), Furious Instincts (Rage)  
+
+**Birth particularities:** Natural Weapons (Claws, Fangs), Force of Nature (2), Fear Sense (1)  
+**Cultural particularities:** Mountain Affinity (1), Furious Instincts (Rage)  
 
 **Origins:** The …  
 **Nature:** Predatory.  
@@ -1282,11 +1329,11 @@ Behind their cheerful faces lie sharp instincts for survival, negotiation, and q
     __Charisma__ – They are liked, yes, but not respected. Their childish looks and carefree manners make it hard for others to take them seriously.
     __Willpower__ – Halflings avoid conflict, trouble, and responsibilities. Their indulgent habits and reluctance to commit make them less resistant to manipulation or pressure.
 **Birth attributes:** Stature 8~9, Height 6~7, Ego 7~10, Appearance 10~12, Luck 10~13, Balance 6~10  
-  
 **Allegiance:** Destiny or None  
 **Living environment:** Rural or City-dwelling  
-**Birth particularity:** Passive Trait (Quick Feets: Movement +1)  
-**Cultural particularity:** Thievery Affinity (1)  
+
+**Birth particularities:** Passive Trait (Quick Feets: Movement +1)  
+**Cultural particularities:** Thievery Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Small Folks  
@@ -1319,11 +1366,11 @@ Not to be confused with treants, which is a monstrous version of this people.
 **Strong attributes:** Constitution, Wisdom  
 **Weak attributes:** None  
 **Birth attributes:** Stature 10~11, Height 9~10, Ego 10~11, Appearance 8~10, Luck 10, Balance 10~11  
-  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Forest  
-**Birth particularity:** Passive Trait (Absorption +6, does not stack with armor)  
-**Cultural particularity:** Forest Affinity (1), Wood Affinity (1)  
+
+**Birth particularities:** Passive Trait (Absorption +6, does not stack with armor)  
+**Cultural particularities:** Forest Affinity (1), Wood Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Small Folks  
@@ -1355,11 +1402,11 @@ A Celestial’s presence commands respect, but behind their luminous beauty lies
 **Weak attributes:** Perception, Cunning  
 **Birth attributes:** Stature 10, Height 10, Ego 11~13, Appearance 11~13, Luck 5~8, Balance 10~12  
   
-**Creation access:** Costs 1 PP  
-**Allegiance:** Magic or None  
+**Creation access:** Costs 1 PP**Allegiance:** Magic or None  
 **Living environment:** City-dwelling, Urban, Rural  
-**Birth particularity:** Winged Creature (2), Passive Trait (Determination +1)  
-**Cultural particularity:** Light Affinity (1), Order Affinity (1)  
+
+**Birth particularities:** Winged Creature (2), Passive Trait (Determination +1)  
+**Cultural particularities:** Light Affinity (1), Order Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Divine Folks  
@@ -1390,11 +1437,11 @@ Not to be confused with pixies, which is a monstrous version of this people.
 **Strong attributes:** Cunning, Luck, Magic  
 **Weak attributes:** Strength, Constitution  
 **Birth attributes:** Stature 3~5, Height 3~5, Ego 11~14, Appearance 11~14, Luck 10~14, Balance 10~12  
-  
 **Allegiance:** Chaos, Magic, or None  
 **Living environment:** Forest and Marine  
-**Birth particularity:** Winged Creature (3), Windborne (2), Passive Trait (Speed +3, reduced by armor)  
-**Cultural particularity:** Dream Affinity (1), Whimsical Magic Tradition  
+
+**Birth particularities:** Winged Creature (3), Windborne (2), Passive Trait (Speed +3, reduced by armor)  
+**Cultural particularities:** Dream Affinity (1), Whimsical Magic Tradition  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Small Folks  
@@ -1428,11 +1475,11 @@ This gives them exceptional synchronicity in combat formations and makes Qunari 
 **Strong attributes:** Strength, Dexterity, Charisma, Willpower  
 **Weak attributes:** Luck, Balance  
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 6~8, Balance 10~12  
-  
 **Allegiance:** Ankou or None  
 **Living environment:** Rural, City-dwelling, or Mountain  
-**Birth particularity:** Horns (2), Passive Trait (Threat Zone +1)  
-**Cultural particularity:** Faith Affinity (1), Hornamental Magic Tradition  
+
+**Birth particularities:** Horns (2), Passive Trait (Threat Zone +1)  
+**Cultural particularities:** Faith Affinity (1), Hornamental Magic Tradition  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Horned Folks  
@@ -1469,11 +1516,11 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
 **Strong attributes:** Charisma (x2), Wisdom  
 **Weak attributes:** Balance  
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 10, Appearance 12~16, Luck 6~8, Balance 8~12  
-  
 **Allegiance:** Magic or None  
 **Living environment:** Forest  
-**Birth particularity:** Favored Mind (1), Passive Trait (Speed +1)  
-**Cultural particularity:** Oratory Affinity (1)  
+
+**Birth particularities:** Favored Mind (1), Passive Trait (Speed +1)  
+**Cultural particularities:** Oratory Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Wild Folks  
@@ -1507,11 +1554,11 @@ This pulse reacts to powerful magic, emotional upheaval, or mortal danger, manif
 **Strong attributes:** Intelligence, Willpower, Balance, Magic or Logic  
 **Weak attributes:** Luck, Wisdom  
 **Birth attributes:** Stature 10, Height 10, Ego 10~12, Appearance 10~12, Luck 8~10, Balance 10~12  
-  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Subterranean  
-**Birth particularity:** Chaos Affinity (1), Natural Recovery (2), Natural Regeneration (2), Horns (1)  
-**Cultural particularity:** Hornamental Magic Tradition  
+
+**Birth particularities:** Chaos Affinity (1), Natural Recovery (2), Natural Regeneration (2), Horns (1)  
+**Cultural particularities:** Hornamental Magic Tradition  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Horned Folks  
@@ -1553,11 +1600,11 @@ Not to be confused with nagas, which is a monstrous version of this people.
 **Strong attributes:** Agility, Intelligence/Cunning/Willpower/wisdom (choose one)  
 **Weak attributes:** None  
 **Birth attributes:** Stature 10, Height 10~12, Ego 8~12, Appearance 10~12, Luck 7~9, Balance 10~11  
-  
 **Allegiance:** Magic, Chaos, or None  
 **Living environment:** Forest, Mountain, Desert, or Marine  
-**Birth particularity:** Tail (2), Variable Size (4), Karmic Vision (1)  
-**Cultural particularity:** None  
+
+**Birth particularities:** Tail (2), Variable Size (4), Karmic Vision (1)  
+**Cultural particularities:** None  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Serpentfolk / Semies  
@@ -1587,11 +1634,11 @@ Not to be confused with centaurs, which is a monstrous version of this people.
 **Strong attributes:** Strength, Agility, Willpower  
 **Weak attributes:** Intelligence  
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 7~9, Balance 10~11  
-  
 **Allegiance:** Source, Magic, Ankou, or None  
 **Living environment:** Forest  
-**Birth particularity:** Quadruped  
-**Cultural particularity:** Custom Affinity (1)  
+
+**Birth particularities:** Quadruped  
+**Cultural particularities:** Custom Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Equine Beings / Semies  
@@ -1619,11 +1666,11 @@ While generally peaceful, they are not passive: Undines possess long memories an
 **Strong attributes:** Perception, Willpower  
 **Weak attributes:** None  
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 8~10, Appearance 10~12, Luck 10~11, Balance 10~11  
-  
 **Allegiance:** Source, Magic, or None  
 **Living environment:** Marine  
-**Birth particularity:** Amphibious (3), Tail (1), Passive Trait (Lowest Defense +1)  
-**Cultural particularity:** Aquatic Affinity (1)  
+
+**Birth particularities:** Amphibious (3), Tail (1), Passive Trait (Lowest Defense +1)  
+**Cultural particularities:** Aquatic Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Marine Beings / Semies  
@@ -1700,11 +1747,17 @@ The Primordial Dragons themselves have vanished, believed by scholars either dea
 **Chromatic Blood Domain**: Arcane or Magic or Illusion  
 **Skills:** Spellcasting, Erudition, Meditation, Spellcrafting, Persuasion, Craftsmanship, Tactical, Leadership.
 
-**Creation access:** Costs 1 PP  
-**Allegiance:** Magic, Ankou, or None  
+**Grey** (Gileyn Fu): ...
+**Strong attributes:** Cunning and Willpower   
+**Environment:** ...  
+**Chromatic Blood Domain**: ...  
+**Skills:** ...
+
+**Creation access:** Costs 1 PP**Allegiance:** Magic, Ankou, or None  
 **Living environment:** Desert, Mountain, or Subterranean  
-**Birth particularity:** Winged Creature (2), Natural Weapons (Claws), Natural Armor (scales), Tail (2), Horns (1)  
-**Cultural particularity:** Origin-Specific Environment Affinity (2), Chromatic Blood [1PP], Hornamental Magic Tradition  
+
+**Birth particularities:** Winged Creature (2), Natural Weapons (Claws), Natural Armor (scales), Tail (2), Horns (1)  
+**Cultural particularities:** Origin-Specific Environment Affinity (2), Chromatic Blood [1PP], Hornamental Magic Tradition  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Draconic Beings  
@@ -1743,11 +1796,11 @@ Not to be confused with ogre, which is a monstrous version of this people.
     Luck – Misfortune follows their people; life is a constant trial, rarely eased by favorable chance.
 **Birth attributes:** Stature 12~14, Height 12~14, Ego 8~9, Appearance 6~8, Luck 6~8, Balance 10~11  
 
-**Creation access:** Costs 1 PP  
-**Allegiance:** Nature, Ankou, or None  
+**Creation access:** Costs 1 PP**Allegiance:** Nature, Ankou, or None  
 **Living environment:** Desert or Mountain  
-**Birth particularity:** Natural Regeneration (4), Force of Nature (2)  
-**Cultural particularity:** Blood Affinity (1)  
+
+**Birth particularities:** Natural Regeneration (4), Force of Nature (2)  
+**Cultural particularities:** Blood Affinity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Gargantuan Beings / Aberrations  
@@ -1783,11 +1836,11 @@ Not to be confused with orcs, which is a monstrous version of this people.
     Intelligence – Orkkans value instinct over analysis, limiting scholarly or strategic reasoning.
     Luck – Their history is marked by conflict, exile, and systemic misfortune; fate rarely favors them.
 **Birth attributes:** Stature 11~13, Height 11~13, Ego 10~12, Appearance 4~7, Luck 8~10, Balance 8~10  
-  
 **Allegiance:** Source, Ankou, or None  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
-**Birth particularity:** Passive Trait (Toughness +1)  
-**Cultural particularity:** Rivalry & Adversity Affinity (1), Vermin Instinct, Human Animosity (1)  
+
+**Birth particularities:** Passive Trait (Toughness +1)  
+**Cultural particularities:** Rivalry & Adversity Affinity (1), Vermin Instinct, Human Animosity (1)  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Aberrations  
@@ -1824,11 +1877,11 @@ Not to be confused with goblins, which is a monstrous version of this people.
     Willpower – Their volatile temperament makes them easily distracted, anxious, or overwhelmed.
     Charisma – Their abrasive mannerisms, erratic behavior, and unsettling energy often make them distrusted or poorly received by others.
 **Birth attributes:** Stature 6~8, Height 6~8, Ego 11~13, Appearance 6~8, Luck 11~13, Balance 11~13  
-  
 **Allegiance:** Source, Ankou, or None  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
-**Birth particularity:** Passive Trait (Reflex +1)  
-**Cultural particularity:** Escape & Treachery Affinity (1), Vermin Instinct, Scapegoats, Resourceful  
+
+**Birth particularities:** Passive Trait (Reflex +1)  
+**Cultural particularities:** Escape & Treachery Affinity (1), Vermin Instinct, Scapegoats, Resourceful  
 
 **Origins:** _This information has not yet been written down_  
 **Family:** Aberrations  
@@ -2050,27 +2103,37 @@ This trait allows the character to:
 
 ---
 
+### Steadiness
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests made after suffering from a clumsiness** during the current scene.
+
+---
+
+### Greatness
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests made after an ally or themselves performed an exploit** during the current scene.
+
+---
+
 ### Authority
 **Effect:** This trait grants the character the involuntary ability to affect nearby allies by granting them a **+1 bonus whenever they use Luck**. The character benefits from this as well.
 
 ---
 
 ### Tenacity
-**Effect:** This trait grants the character the involuntary ability to affect nearby allies by granting them a **+1 bonus to tests when they are in mortal danger**. The character also benefits from this. The GM decides if failing a test could directly cause death or heavily contribute to it.
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies by granting them a **+1 bonus to tests when they are in mortal danger or suffers from an injury penalty**. The character also benefits from this. The GM decides if failing a test could directly cause death or heavily contribute to it.
 
 ---
 
-### Stealth
+### Stealthiness
 **Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests involving stealth, silence, or remaining unnoticed.**
 
 ---
 
-### Adversity
-**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to tests when they are wounded during the current round.**
+### Adverseness
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to tests when they are attacked during the current round.**
 
 ---
 
-### Insight
+### Insightfulness
 **Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all memory or knowledge tests.**
 
 ---
@@ -2081,7 +2144,22 @@ This trait allows the character to:
 ---
 
 ### Boldness
-**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests when performing something dangerous or contrary to common sense.**
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests when performing something dangerous or contrary to common sense.**  
+
+---
+
+### Altruism
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests when performing an action that benefit others.**  
+
+---
+
+### Audacity
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests when performing an action against a figure of superior or notable authority.**  
+
+---
+
+### Recklessness  
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests when performing an action with bad consequences if failed.**  
 
 ---
 
@@ -2096,9 +2174,29 @@ This does not allow them to avoid the effect at the moment it occurs, only to ge
 
 ---
 
-### Osmosis
+### Osmoticness
 **Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests where manipulating arcane skills.**  
 This does not count spellcasting, which is not an arcane skill.  
+
+---
+
+### Heroicness
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 adjustment bonus to all saving tests.**  
+
+---
+
+### Stubbornness
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests from an action already tried and once failed in the same scene.**  
+
+---
+
+### Stressless
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to tests against stress tests.**
+
+---
+
+### Pragmatism
+**Effect:** This trait grants the character the involuntary ability to affect nearby allies and themselves by granting a **+1 bonus to all tests linked to actions based on for recycling, repair, etc...**  
 
 ---
 
@@ -2114,28 +2212,19 @@ This does not count spellcasting, which is not an arcane skill.
 
 ---
 
-### Passive Trait
-**Effect:** This trait grants the character a passive advantage in the form of a constant bonus. The bonus is usually small, but can still make a difference.
-
----
-
-### Chromatic Blood
+### Dragon Powers
 **Cost:** 1 PP.
 **Description:** Drakkans carry within their veins a diluted echo of true draconic power. Dragons wield Chromatic Power directly through their dragon heart, an overwhelming and primordial force. Drakkans, by contrast, can only access a minute fragment of this power through their blood. This fragment allows them to invoke crude yet potent magical phenomena tied to a specific chromatic domain. While vastly inferior to true dragons in mastery and magnitude, this inherited magic remains distinct, instinctive, and difficult to counter by conventional arcane means.  
-**Effect:** The character may have up to 5 + mEQU chroma points per day.
+**Effect:** The character may have up to 5 + mEQU chroma points every day.
 These points can be spent to invoke Chromatic Magic, a fast but simple form of magic.
 As a simple action, once per turn, the character may produce a spell-like phenomenon based on a simple spell from the blood-related domain.
 Most drakkan types are associated with a predefined set of domains. This choice is made at character creation and cannot be changed later.
 Balance (EQU) is used to perform the test related to this action. A skill group and a skill can be learned to improve odds to perform this action.  
 Chromatic powers may be casted at spell level up to 0, increased by +1 for every 4 character ranks.
 Magical tools do not function properly with chromatic powers. However, the character may still add their rank to the spell throw as if using an appropriate tool, regardless of the spell's level.
-The chroma point cost of a chromatic effect is equal to the minimum mana cost of a comparable spell and cannot be reduced by any means. Same goes the action difficulty, which is also based on a comparable spell's difficulty.
+The chroma point cost of a chromatic power is equal to the minimum mana cost of a comparable spell and cannot be reduced by any means. Same goes the action difficulty, which is also based on a comparable spell's difficulty.
 Chromatic powers are not spells: They cannot be countered. They are not treated as regular spells. They are unaffected by arcane actions or effects that interact with spells.
-
----
-
-### Active Trait
-**Effect:** This trait grants the character an active advantage in the form of a temporary bonus. The bonus is usually quite large but lasts only a short time (3 rounds) or a very short time (a single round). The character can use it once per day.
+Also, depending on the drakkan type, chroma points can be used as if they were a different ressource : Red/Rage, Blue/Chi, Green/Guard, Yellow/Adrenaline, Purple/Mana, Black/Vitality, White/Karma, Grey/Spirituality.  
 
 ---
 
