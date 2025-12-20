@@ -40,15 +40,15 @@ The Emperians are a cultured and exemplary urban society known for their advance
 **Living environment:** Urban, City-dwelling, Rural  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- **Luck Affinity** (affinity): Emperians live in environments where opportunity, timing, and fortune play a decisive role, fostering a cultural ease with chance and probability. Character's test gets a bonus of +1 when a singularity happens while a stroke of luck occures.  
-- **Knowledge Affinity** (affinity): Emperian culture places strong emphasis on scholarship, learning, and the accumulation of structured knowledge. Character's test gets a bonus of +1 when a singularity happens while making use of his knowledge skills.  
-- **Secundary Specialty**: The character may select one additional skill specialty at character creation. This represents a broader training background or a notable secondary field of expertise.  
-- **Accelerated Learning**: The character begins play with an increased learning pace, reflecting early training, strong fundamentals, or rapid adaptation. The character starts with +20 PX. 
-- **Auras**: Human Ingenuity may be repladed by one of this aura particularities: Authority · Insightfulness · Osmoticness · Greatness · Altruism. These auras are passive effects that influence the character and nearby allies. Aura effects are described in Lexicon (at the bottom of this page).   
+- [Luck Affinity](#cult-affinity)
+- [Knowledge Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Authority · Insightfulness · Osmoticness · Greatness · Altruism
 
 **Origins:** The ethnic capital of the Emperians is Alexandria, located in the Kingdom of New Arjan, within the Lowlands.  
 **Religion:** Mostly Ellendist, with many Chromites and a minority of Noshinists.
@@ -80,11 +80,15 @@ Kjeldorians are master hunters and survivalists who thrive in tundra and cold ar
 **Living environment:** Desertic, Rural, Urban  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
+- [Heat Affinity](#cult-affinity)
+- [Wounded Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Tenacity · Lucidity · Heroicness · Recklessness
 
 **Origins:** The ethnic capital of the Kjeldorians is Ys, located in the Kingdom of Kjeldora, within the Lowlands.  
 
@@ -116,13 +120,15 @@ The Attilians are a hardy, resilient people who inhabit arid, desert-like region
 **Living environment:** Desertic, Rural, Urban  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
-
-**Origins:** _This information has not yet been written down_  
+- [Heat Affinity](#cult-affinity)
+- [Wounded Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Firmness · Audacity · Adverseness · Steadiness
 
 <div class="page-break"></div>
 
@@ -151,13 +157,15 @@ Rosalians are a highly spiritual, traditional people with strong beliefs and cus
 **Living environment:** Urban, City-dwelling, Rural  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
-
-**Origins:** The …  
+- [Calm Affinity](#cult-affinity)
+- [Code Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Stealthiness · Greatness · Stressless · Swiftness
 
 <div class="page-break"></div>
 
@@ -186,13 +194,15 @@ A militarized people with a centuries-long history of warfare, the Albalonians a
 **Living environment:** City-dwelling, Rural  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
-
-**Origins:** The …  
+- [Field Affinity](#cult-affinity)
+- [Battle Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Boldness · Authority · Tenacity · Adverseness
 
 <div class="page-break"></div>
 
@@ -221,13 +231,15 @@ Morrians are resilient, clan-based people who inhabit vast, desolate, and sparse
 **Living environment:** Rural, City-dwelling  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
-
-**Origins:** The …  
+- [Desert / Arid Affinity](#cult-affinity)
+- [Motion Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Swiftness · Pragmatism · Altruism · Stealthiness
 
 <div class="page-break"></div>
 
@@ -254,13 +266,15 @@ This people of solid mountain people, vigorous and enduring, was shaped by the h
 **Living environment:** City-dwelling, Rural, Mountainous  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
-
-**Origins:** The …  
+- [Altitude Affinity](#cult-affinity)
+- [Resistance Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Firmness · Stubbornness · Heroicness · Stressless
 
 <div class="page-break"></div>
 
@@ -290,13 +304,15 @@ Bretonians are a technologically advanced society known for their intellectual p
 **Living environment:** Urban or City-dwelling  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
--  
-
-**Origins:** The …  
+- [Technology Affinity](#cult-affinity)
+- [Repair Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Insightfulness · Pragmatism · Lucidity · Stubbornness
 
 <div class="page-break"></div>
 
@@ -309,7 +325,7 @@ Bretonians are a technologically advanced society known for their intellectual p
 
 This (currently extinguished) people are distant relatives to selunian elves.
 
-**Skills:** ...  
+**Skills:** _This information has not yet been written down_    
 **Personality traits:** Elegant (Courteous), Erudite (Bright), Patient, Disciplined, Modest, Calm, Principled, Reserved (Secretive), Open-minded, Serious.  
 
 **Strong attributes:** Wisdom, Willpower, Magic  
@@ -322,11 +338,15 @@ This (currently extinguished) people are distant relatives to selunian elves.
 **Living environment:** Urban or City-dwelling  
 
 **Birth particularities: Humans**
-- **Examplary**: Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture. Whether through education, tradition, or early responsibility, they were shaped to represent what their kind considers exemplary. The character gains +1 PP.
-- **Human Ingenuity**: Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines. The character gains +10 PA. Alternatively, the character may choose one aura particularity from their cultural list instead of Human Ingenuity.  
+- [Examplary](#birth-examplary)
+- [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- 
+- [Magic Affinity](#cult-affinity)
+- [Arcane Affinity](#cult-affinity)
+- [Secundary Specialty](#cult-secundary-specialty) // [Cantrips](#cult-cantrips)
+- [Accelerated Learning](#cult-accelerated-learning)
+- [Auras](#cult-auras): Osmoticness · Audacity · Recklessness · Steadiness
 
 <div class="page-break"></div>
 
@@ -358,10 +378,20 @@ The Sylvanians are forest-dwelling elves who live in harmony with nature. They r
 **Allegiance:** Nature, Source, or None  
 **Living environment:** Rural or Forest  
 
-**Birth particularities:** None  
-**Cultural particularities:** Forest Affinity (1), Leather Affinity (1)  
+**Birth particularities: Elven**
+- [Ancestral](#birth-ancestral)
+- [Far Sight](#birth-far-sight)
+- [Night Vision](#birth-night-vision)
+- [Song of the Earth](#birth-song-of-the-earth)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Forest Affinity](#cult-affinity)
+- [Leather Affinity](#cult-affinity)
+- [Distance Affinity](#cult-affinity)
+- [Ambidextry Affinity](#cult-affinity)
+- [Beast Tongue](#cult-beast-tongue)
+- [Cantrips](#cult-cantrips)
+- [Focus](#cult-focus)
 
 <div class="page-break"></div>
 
@@ -392,10 +422,19 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
 **Allegiance:** Magic, Arcane, or None  
 **Living environment:** Urban, City-dwelling, or Rural  
 
-**Birth particularities:** None  
-**Cultural particularities:** Immaterial Affinity (1), Fabric Affinity (1)  
+**Birth particularities: Elven**
+- [Ancestral](#birth-ancestral)
+- [Favored Recovery](#birth-favored-recovery) : Mana (PM)
+- [Night Vision](#birth-night-vision)
+- [Soul Connection](#birth-soul-connection)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Immaterial Affinity](#cult-affinity)
+- [Fabric Affinity](#cult-affinity)
+- [Perfectionist Affinity](#cult-affinity)
+- [Creature Tongue](#cult-creature-tongue)
+- [Cantrips](#cult-cantrips)
+- [Magic Attunement](#cult-magic-attunement)
 
 <div class="page-break"></div>
 
@@ -426,10 +465,21 @@ Thalassians are water-oriented elves who feel at home near rivers, lakes, and oc
 **Allegiance:** Magic or None  
 **Living environment:** Marine, City-dwelling, or Rural  
 
-**Birth particularities:** Amphibious (2)  
-**Cultural particularities:** Aquatic Affinity (1)  
+**Birth particularities: Elven**
+- [Ancestral](#birth-ancestral)
+- [Favored Recovery](#birth-favored-recovery) : Chi (PC)
+- [Night Vision](#birth-night-vision)
+- [Light Feets](#birth-light-feets)
+- [Amphibious](#birth-amphibious) (Morphological)
+- [Yoke of the Waters](#birth-yoke-of-the-waters)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Aquatic Affinity](#cult-affinity)
+- [Mineral Affinity](#cult-affinity)
+- [Pristine Affinity](#cult-affinity)
+- [Fish Tongue](#cult-fish-tongue)
+- [Cantrips](#cult-cantrips)
+- [Grace](#cult-grace)
 
 <div class="page-break"></div>
 
@@ -462,10 +512,19 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
 **Allegiance:** Arcane or None  
 **Living environment:** Urban, City-dwelling, or Subterranean  
 
-**Birth particularities:** Night Vision (2)  
-**Cultural particularities:** Darkness Affinity (1), Poison Affinity (1)  
+**Birth particularities: Elven**
+- [Ancestral](#birth-ancestral)
+- [Dark Surge](#birth-dark-surge)
+- [Night Vision](#birth-night-vision)
+- [Forgettable Presence](#birth-forgettable-presence)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Darkness Affinity](#cult-affinity)
+- [Poison Affinity](#cult-affinity)
+- [Art Affinity](#cult-affinity)
+- [Spirit Tongue](#cult-spirit-tongue)
+- [Cantrips](#cult-cantrips)
+- [Shadow Walker](#cult-shadow-walker)
 
 <div class="page-break"></div>
 
@@ -496,10 +555,19 @@ Urganian Elves are reclusive, mystical, and fierce. They are known for their dee
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
 
-**Birth particularities:** _This information has not yet been written down_  
-**Cultural particularities:** Heat Affinity (1)  
+**Birth particularities: Elven**
+- [Ancestral](#birth-ancestral)
+- [Impervious](#birth-impervious)
+- [Night Vision](#birth-night-vision)
+- [Payback](#birth-payback)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Heat Affinity](#cult-affinity)
+- [Metal Affinity](#cult-affinity)
+- [Vengeance Affinity](#cult-affinity)
+- [Dragon Tongue](#cult-dragon-tongue)
+- [Cantrips](#cult-cantrips)
+- [Neverending Hope](#cult-neverending-hope)
 
 <div class="page-break"></div>
 
@@ -529,8 +597,6 @@ Their dual identity sometimes creates inner conflict, leading them either to wan
 
 **Birth particularities:** Inherits the birth particularities of either parent (player’s choice)  
 **Cultural particularities:** Inherits the affinities of either parent (player’s choice)  
-
-**Origins:** The …  
 
 <div class="page-break"></div>
 
@@ -566,10 +632,21 @@ Also called Brandawis.
 **Allegiance:** Steam, Science, or None  
 **Living environment:** Urban or City-dwelling  
 
-**Birth particularities:** Passive trait (Memory +1)  
-**Cultural particularities:** Urban Affinity (1), Aetheric Affinity (1)  
+**Birth particularities: Dwarf**
+- [Tireless Fortitude](#birth-tireless-fortitude)
+- [Financial Acumen](#birth-financial-acumen)
+- [Night Vision](#birth-night-vision)
+- [Expensive Memory](#birth-expensive-memory)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Urban Affinity](#cult-affinity)
+- [Aetheric Affinity](#cult-affinity)
+- [Technology Affinity](#cult-affinity)
+- [Magic Animosity](#cult-animosity)
+- [Elf Animosity](#cult-animosity)
+- [Forethought](#cult-forethought)
+- [Efficient Repairs](#cult-efficient-repairs)
+- [Mercantile Culture](#cult-mercantile-culture)
 
 <div class="page-break"></div> 
 
@@ -603,10 +680,21 @@ Also called Karazdawis.
 **Allegiance:** Steam or None  
 **Living environment:** Subterranean, Mountainous, City-dwelling, or Rural  
 
-**Birth particularities:** Night Vision (1), Passive Trait (Control Zone +1)  
-**Cultural particularities:** Subterranean Affinity (1), Mountain Affinity (1), Vermin Animosity (1), Elf Animosity (1), Metal & Stone Affinity (1)  
+**Birth particularities: Dwarf**
+- [Tireless Fortitude](#birth-tireless-fortitude)
+- [Hardness](#birth-hardness)
+- [Financial Acumen](#birth-financial-acumen)
+- [Night Vision](#birth-night-vision)
+- [Favored Save](#birth-favored-save) : Opposition (*)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Subterranean Affinity](#cult-affinity)
+- [Mountain Affinity](#cult-affinity)
+- [Metal & Stone Affinity](#cult-affinity)
+- [Vermin Animosity](#cult-animosity)
+- [Elf Animosity](#cult-animosity)
+- [Bloodline Pride](#cult-bloodline-pride)
+- [Unyielding](#cult-unyielding)
 
 #### Clan of the Shield
 
@@ -690,10 +778,21 @@ Ungordan Society:
 **Allegiance:** Steam, Ankou, or None  
 **Living environment:** Subterranean  
 
-**Birth particularities:** Night Vision (2), Passive Trait (Physical/Mental Protection +1)  
-**Cultural particularities:** Subterranean Affinity (1), Vermin Animosity (1), Elf Animosity (1), Spawn Animosity (1), Metal & Stone Affinity (1)  
+**Birth particularities: Dwarf**
+- [Tireless Fortitude](#birth-tireless-fortitude)
+- [Hardness](#birth-hardness)
+- [Financial Acumen](#birth-financial-acumen)
+- [Night Vision](#birth-night-vision)
+- [Favored Save](#birth-favored-save) : Opposition (*)
 
-**Origins:** The …  
+**Cultural particularities:**
+- [Subterranean Affinity](#cult-affinity)
+- [Metal & Stone Affinity](#cult-affinity)
+- [Spawn Animosity](#cult-animosity)
+- [Vermin Animosity](#cult-animosity)
+- [Elf Animosity](#cult-animosity)
+- [Stuborness](#cult-stuborness)
+- [Unyielding](#cult-unyielding)
 
 <div class="page-break"></div>
 
@@ -727,13 +826,21 @@ They are considered pacifist ferals, generally not seeking conflict with other c
 **Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Forest, Nomadic, Rural  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Danger Sense (1)  
-**Cultural particularities:** Forest Affinity (1), Pack Instinct  
-
-**Origins:** The …  
 **Nature**: Pacifist.  
 **Totem**: Uhlo, the Unifier.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Survivability](#birth-survivability)
+- [Teamworker](#birth-teamworker) // [Good Company](#birth-good-company)
+- [Danger Sense](#birth-danger-sense)
+
+**Cultural particularities:**
+- [Forest Affinity](#cult-affinity)
+- [Pack Affinity](#cult-affinity)
+- [Pack Instinct](#cult-pack-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -761,13 +868,20 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~13, Balance 9~10  
 **Allegiance:** Nature, Source, Destiny, or None  
 **Living environment:** Nomadic, Rural, City-dwelling  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Danger or Fear Sense (1)  
-**Cultural particularities:** Darkness Affinity (1), Feline Instincts, Black Cat  
-
-**Origins:** The … 
-**Nature**: Pacifist.  
+**Nature**: Pacifist or Predatory.  
 **Totem**: Adis, the Whisperer in Shadows.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Black Cat](#birth-black-cat) // [White Cat](#birth-white-cat)
+- If Pacifist : [Survivability](#birth-survivability) and [Danger Sense](#birth-danger-sense)
+- If Predatory : [Hunter](#birth-hunter) and [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Darkness Affinity](#cult-affinity)
+- [Feline Instincts](#cult-feline-instincts)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -794,14 +908,23 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
     __Cunning__ – Direct, straightforward and sometimes hot-blooded, Felkkan prefer frontal displays of strength and courage over long-term scheming or subtle manipulation.
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 8~10  
 **Allegiance:** Nature, Source, or None  
-**Living environment:** Nomadic, Desert (hot), Mountain  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Fear Sense (1)  
-**Cultural particularities:** Bestial Instincts (Adrenaline)  
-
-**Origins:** The …  
+**Living environment:** Nomadic, Desert (hot), Mountain   
 **Nature**: Predatory.  
 **Totem**: Eaos, the Boundless Sovereign.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Weapons](#birth-stronger-natural-weapons)
+- [King's Roar](#birth-commanding-roar) // [Tyran's Roar](#birth-furious-roar)
+- [Hunter](#birth-hunter)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Desertic Affinity](#cult-affinity)
+- [Barehands Affinity](#cult-affinity)
+- [King Instincts](#cult-king-instincts)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -829,13 +952,22 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Birth attributes:** Stature 12~14, Height 11~13, Ego 7~10, Appearance 8~10, Luck 8~10, Balance 10~12  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Cold Desert and Mountain  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Force of Nature (2), Danger Sense (1)  
-**Cultural particularities:** Cold Affinity (1), Survival Instincts (Guardian)  
-
-**Origins:** The …  
 **Nature:** Pacifist.  
 **Totem**: Oborh, the Patient Beast.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Armor](#birth-stronger-natural-armor)
+- [Force of Nature](#birth-force-of-nature)
+- [Wild Sentinel](#birth-wild-sentinel)
+- [Survivability](#birth-survivability)
+- [Danger Sense](#birth-danger-sense)
+
+**Cultural particularities:**
+- [Cold Affinity](#cult-affinity)
+- [Survival Instincts](#cult-survival-instincts)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -863,13 +995,24 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 9~10, Appearance 7~9, Luck 10, Balance 10  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Marine and Forest  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Tail (2), Amphibious (1), Fear Sense (1)  
-**Cultural particularities:** Aquatic Affinity (1), Hunting Instinct  
-
-**Origins:** The …  
 **Nature:** Predatory.  
 **Totem:** Brera, the Reclusive Tyrant.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Weapons](#birth-stronger-natural-weapons)
+- [Tail](#birth-tail) (Morphological)
+- [Amphibious](#birth-amphibious) (Morphological)
+- [Hunter's Edge](#birth-hunters-edge)
+- [Hunter](#birth-hunter)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Aquatic Affinity](#cult-affinity)
+- [Flanking Affinity](#cult-affinity)
+- [Hunting Instinct](#cult-hunting-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -896,13 +1039,20 @@ However, this ethnicity suffers somewhat from the dispersion of its members, who
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~12, Balance 9~10  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Marine, Mountain, Forest  
-
-**Birth particularities:** Natural Weapons (Talons), Winged Creature (1), Danger Sense (1), Freedom Instinct  
-**Cultural particularities:** Height Affinity (1)  
-
-**Origins:** The …  
 **Nature:** Predatory or Pacifist.  
 **Totem:** Reean, the Splendor of the Sky.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Winged Creature](#birth-winged-creature) (Morphological)
+- [Survivability](#birth-survivability)
+- [Danger Sense](#birth-danger-sense)
+
+**Cultural particularities:**
+- [Height Affinity](#cult-affinity)
+- [Freedom Instinct](#cult-freedom-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -930,13 +1080,20 @@ They are considered pacifist ferals who do not seek direct conflict... In fact, 
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 7~9, Appearance 11~13, Luck 10~13, Balance 8~10  
 **Allegiance:** Nature, Magic, Destiny, or None  
 **Living environment:** Forest and Rural  
-
-**Birth particularities:** Natural Weapons (Claws), Danger Sense (2)  
-**Cultural particularities:** Prudence Affinity (1), Alert Instinct  
-
-**Origins:** The …  
 **Nature:** Pacifist.  
 **Totem:** Zolir, the Little One.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Speedster](#birth-speedster)
+- [Survivability](#birth-survivability)
+- [Danger Sense](#birth-danger-sense)
+
+**Cultural particularities:**
+- [Prudence Affinity](#cult-affinity)
+- [Alert Instinct](#cult-alert-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -962,14 +1119,23 @@ This ethnic group of feral beings comprises feline humanoids, bearing the traits
 **Birth attributes:** Stature 10~11, Height 10, Ego 10, Appearance 8~10, Luck 10~11, Balance 8~10  
 
 **Allegiance:** _This information has not yet been written down_  
-**Living environment:** _This information has not yet been written down_  
-
-**Birth particularities:** Natural Weapons (Claws), Fear Sense (2)  
-**Cultural particularities:** Chasing and Rivality Affinity (1)  
-
-**Origins:** The …  
+**Living environment:** _This information has not yet been written down_   
 **Nature:** Predatory.  
 **Totem:** Ekneas, the Gracious Beast.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Weapons](#birth-stronger-natural-weapons)
+- [Alertness](#birth-alertness)
+- [Hunter](#birth-hunter)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Chasing Affinity](#cult-affinity)
+- [Rivality Affinity](#cult-affinity)
+- [Bestial Instincts](#cult-bestial-instincts)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -997,13 +1163,22 @@ This ethnic group of feral beings consists of cervine humanoids, adorned with an
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-
-**Birth particularities:** Horns (2), Danger Sense (2)  
-**Cultural particularities:** Honnor and Oath Affinity (1), Hornamental Magic Tradition  
-
-**Origins:** The …  
 **Nature:** Pacifist.  
 **Totem:** Cevdos, the Father of All Lands.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Horns](#birth-horns) (Morphological)
+- [Steadfast Resolve](#birth-steadfast-resolve)
+- [Survivability](#birth-survivability)
+- [Danger Sense](#birth-danger-sense)
+- [Hornamental Magic Tradition](#cult-hornamental-magic-tradition)
+
+**Cultural particularities:**
+- [Honor and Oath Affinity](#cult-affinity)
+- [Oath Instinct](#cult-oath-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1031,13 +1206,21 @@ This ethnic group of feral beings consists of individuals who have the appearanc
 **Birth attributes:** Stature 8~9, Height 5~7, Ego 7~9, Appearance 10~11, Luck 9~13, Balance 9~13  
 **Allegiance:** Nature, Source, Destiny, Ankou, or None  
 **Living environment:** Subterranean, City-dwelling, Rural  
-
-**Birth particularities:** Natural Weapons (Claws), Tail (1), Danger Sense (1)  
-**Cultural particularities:** Filth Affinity (1), Venal Instinct  
-
-**Origins:** The …  
 **Nature:** Pacifist.  
 **Totem**: ?, the ?.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Tail](#birth-tail) (Morphological)
+- [Maniac](#birth-maniac)
+- [Survivability](#birth-survivability)
+- [Danger Sense](#birth-danger-sense)
+
+**Cultural particularities:**
+- [Small Affinity](#cult-affinity)
+- [Venal Instinct](#cult-venal-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1067,13 +1250,22 @@ They are either pacifists or predators depending on their sub-ethnicity, but if 
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-
-**Birth particularities:** Natural Weapons (Claws)  
-**Cultural particularities:** Water and Wet Environment Affinity (1)  
-
-**Origins:** The …  
 **Nature:** Predatory or Pacifist.  
 **Totem:** Edea, the Mother of All Sees.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Alertness](#birth-alertness)
+- [Amphibious](#birth-amphibious) (Morphological)
+- [Yoke of the Waters](#birth-yoke-of-the-waters)
+- If Pacifist : [Survivability](#birth-survivability) and [Danger Sense](#birth-danger-sense)
+- If Predatory : [Hunter](#birth-hunter) and [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Water Affinity](#cult-affinity)
+- [Watery Instinct](#cult-watery-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1102,13 +1294,25 @@ They are pacifists, but of a type that few predators seek quarrels with.
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-
-**Birth particularities:** Horns (1), Natural Weapons (Hoof)  
-**Cultural particularities:** Big places / environment Affinity (1), Hornamental Magic Tradition  
-
-**Origins:** The …  
 **Nature:** Pacifist.  
 **Totem:** Siion, the Majestuous Horned Lord.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Armor](#birth-stronger-natural-armor)
+- [Horns](#birth-horns) (Morphological)
+- [Force of Nature](#birth-force-of-nature)
+- [Bull Stance](#birth-bull-stance)
+- [Survivability](#birth-survivability)
+- [Danger Sense](#birth-danger-sense)
+- [Hornamental Magic Tradition](#cult-hornamental-magic-tradition)
+
+**Cultural particularities:**
+- [Big Affinity](#cult-affinity)
+- [Slow Affinity](#cult-affinity)
+- [Unknown Instinct](#cult-unknown-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1140,13 +1344,22 @@ They are true predators.
 **Birth attributes:** Stature 10~11, Height 10~11, Ego 10~11, Appearance 7~9, Luck 7~10, Balance 8~10  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Fear Sense (2)  
-**Cultural particularities:** Blood Affinity (1), Blood Instincts  
-
-**Origins:** The …  
 **Nature:** Predatory.  
 **Totem:** Ouros, the Disastrous Fang.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Weapons](#birth-stronger-natural-weapons)
+- [Blood Critical](#birth-blood-critical)
+- [Hunter](#birth-hunter)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Blood Affinity](#cult-affinity)
+- [Blood Instincts](#cult-blood-instincts)
+- [Blood Lust](#cult-blood-lust)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1176,13 +1389,21 @@ They are somewhat neutral and doesn't define themselves as pacifists or predator
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~12, Balance 6~9  
 **Allegiance:** Nature, Source, Destiny, or None  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain, Rural  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Danger or Fear Sense (1)  
-**Cultural particularities:** Curiosity Affinity (1), Curious Instinct  
-
-**Origins:** The …  
-**Nature:** Pacifist.  
+**Nature:** Pacifist or Predatory.  
 **Totem:** Eaos, the Mischivious Hundred Tails.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Favored Save](#birth-favored-save) : Fortune
+- If Pacifist : [Survivability](#birth-survivability) and [Danger Sense](#birth-danger-sense)
+- If Predatory : [Hunter](#birth-hunter) and [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Curiosity Affinity](#cult-affinity)
+- [Ingenious Affinity](#cult-affinity)
+- [Curious Instinct](#cult-curious-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1211,13 +1432,23 @@ Tengu are natural predators, and some are known to resolve conflicts with lethal
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~12  
 **Allegiance:** Nature, Magic, Ankou, or None  
 **Living environment:** Marine, Mountain, Forest  
-
-**Birth particularities:** Natural Weapons (Talons), Winged Creature (1), Fear Sense (1)  
-**Cultural particularities:** Height Affinity (1), Freedom Instinct  
-
-**Origins:** The …  
 **Nature:** Predatory.  
 **Totem:** Fydall, the Boundless Nightmare.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Winged Creature](#birth-winged-creature) (Morphological)
+- [Favored Recovery](#birth-favored-recovery) : Spirituality (PS)
+- [Hunter](#birth-hunter)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Height Affinity](#cult-affinity)
+- [Erudition](#cult-erudition)
+- [Bookworm](#cult-bookworm)
+- [Practical Instinct](#cult-practical-instinct)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1246,13 +1477,21 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-
-**Birth particularities:** Natural Weapons (Claws)  
-**Cultural particularities:** Small places / environment Affinity (1)  
-
-**Origins:** The …  
 **Nature:** Predatory.  
 **Totem:** Zegen, the Rotten Ambition.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Plagued](#birth-plagued)
+- [Hunter](#birth-hunter)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Filth Affinity](#cult-affinity)
+- [Malicious Instinct](#cult-malicious-instinct)
+- [An Ally in Each City](#cult-an-ally-in-each-city)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1278,14 +1517,23 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
     __Luck__ – Their culture of constant confrontation and dominance invites trouble—feuds, grudges, and brutal trials often stack the odds against them, even when they win.
 **Birth attributes:** Stature 11~13, Height 12~14, Ego 10~12, Appearance 6~8, Luck 7~9, Balance 10~12  
 **Allegiance:** Nature, Source, Ankou, or None  
-**Living environment:** Cold Desert and Mountain  
-
-**Birth particularities:** Natural Weapons (Claws, Fangs), Force of Nature (2), Fear Sense (1)  
-**Cultural particularities:** Mountain Affinity (1), Furious Instincts (Rage)  
-
-**Origins:** The …  
+**Living environment:** Cold Desert and Mountain   
 **Nature:** Predatory.  
 **Totem:** Udtar, the Juggernaut.  
+
+**Birth particularities: Feral**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Armor](#birth-stronger-natural-armor)
+- [Hunter](#birth-hunter)
+- [Force of Nature](#birth-force-of-nature)
+- [Unyielding Bulk](#birth-unyielding-bulk)
+- [Fear Sense](#birth-fear-sense)
+
+**Cultural particularities:**
+- [Mountain Affinity](#cult-affinity)
+- [Furious Instincts](#cult-furious-instincts)
+- [Affinity with Totem](#cult-affinity-with-totem)
+- [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
 
@@ -1331,13 +1579,20 @@ Behind their cheerful faces lie sharp instincts for survival, negotiation, and q
 **Birth attributes:** Stature 8~9, Height 6~7, Ego 7~10, Appearance 10~12, Luck 10~13, Balance 6~10  
 **Allegiance:** Destiny or None  
 **Living environment:** Rural or City-dwelling  
-
-**Birth particularities:** Passive Trait (Quick Feets: Movement +1)  
-**Cultural particularities:** Thievery Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Small Folks  
 **Nature:** Impure Beings  
+
+**Birth particularities: Demie**
+- [Quick Feets](#birth-quick-feets)
+- [Favored Recovery](#birth-favored-recovery) : Karma (PK)
+- [Favored Save](#birth-favored-save) : Composure
+- [Cautious](#birth-cautious)
+
+**Cultural particularities:**
+- [Thievery Affinity](#cult-affinity)
+- [Food Affinity](#cult-affinity)
+- [4th Breakfast](#cult-4th-breakfast)
+- [Lightfoot](#cult-lightfoot)
 
 <div class="page-break"></div>
 
@@ -1368,13 +1623,20 @@ Not to be confused with treants, which is a monstrous version of this people.
 **Birth attributes:** Stature 10~11, Height 9~10, Ego 10~11, Appearance 8~10, Luck 10, Balance 10~11  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Forest  
-
-**Birth particularities:** Passive Trait (Absorption +6, does not stack with armor)  
-**Cultural particularities:** Forest Affinity (1), Wood Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Small Folks  
 **Nature:** Pure or Impure Beings  
+
+**Birth particularities: Demie**
+- [Natural Armor](#birth-natural-armor)
+- [Living Wood](#birth-wood-skin)
+- [Favored Save](#birth-favored-save) : Insight
+- [All Senses Out](#birth-all-senses-out)
+
+**Cultural particularities:**
+- [Forest Affinity](#cult-affinity)
+- [Wood Affinity](#cult-affinity)
+- [Totem Carving](#cult-totem-carving)
+- ???
 
 <div class="page-break"></div>
 
@@ -1401,16 +1663,25 @@ A Celestial’s presence commands respect, but behind their luminous beauty lies
 **Strong attributes:** Charisma, Willpower (x2), Magic (x2)  
 **Weak attributes:** Perception, Cunning  
 **Birth attributes:** Stature 10, Height 10, Ego 11~13, Appearance 11~13, Luck 5~8, Balance 10~12  
-  
-**Creation access:** Costs 1 PP**Allegiance:** Magic or None  
+**Creation access:** Costs 1 PP
+**Allegiance:** Magic or None  
 **Living environment:** City-dwelling, Urban, Rural  
-
-**Birth particularities:** Winged Creature (2), Passive Trait (Determination +1)  
-**Cultural particularities:** Light Affinity (1), Order Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Divine Folks  
 **Nature:** Pure Beings  
+
+**Birth particularities: Divine**
+- [Favored Determination](#birth-favored-determination)
+- [Celestial Light](#birth-celestial-light)
+- [Winged Creature](#birth-winged-creature) (Morphological)
+- [Immaculate](#birth-immaculate)
+- [Eternal Youth](#birth-eternal-youth)
+
+**Cultural particularities:**
+- [Light Affinity](#cult-affinity)
+- [Order Affinity](#cult-affinity)
+- [Cantrips](#cult-cantrips)
+- [Demanding](#cult-demanding)
+- [Celestial Powers](#cult-celestial-powers) [1PP]
 
 <div class="page-break"></div>
 
@@ -1437,15 +1708,23 @@ Not to be confused with pixies, which is a monstrous version of this people.
 **Strong attributes:** Cunning, Luck, Magic  
 **Weak attributes:** Strength, Constitution  
 **Birth attributes:** Stature 3~5, Height 3~5, Ego 11~14, Appearance 11~14, Luck 10~14, Balance 10~12  
+
 **Allegiance:** Chaos, Magic, or None  
 **Living environment:** Forest and Marine  
-
-**Birth particularities:** Winged Creature (3), Windborne (2), Passive Trait (Speed +3, reduced by armor)  
-**Cultural particularities:** Dream Affinity (1), Whimsical Magic Tradition  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Small Folks  
 **Nature:** Pure Beings  
+
+**Birth particularities: Small Folk**
+- [Flight Movement](#birth-flight-movement)
+- [Windborne](#birth-windborne)
+- [Winged Creature](#birth-winged-creature) (Morphological)
+- [Keep Best](#birth-keep-best)
+
+**Cultural particularities:**
+- [Dream Affinity](#cult-affinity)
+- [Selfishness Affinity](#cult-affinity)
+- [Whimsical Magic Tradition](#cult-whimsical-magic-tradition)
+- [Flutterstep](#cult-flutterstep)
 
 <div class="page-break"></div>
 
@@ -1477,13 +1756,22 @@ This gives them exceptional synchronicity in combat formations and makes Qunari 
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 6~8, Balance 10~12  
 **Allegiance:** Ankou or None  
 **Living environment:** Rural, City-dwelling, or Mountain  
-
-**Birth particularities:** Horns (2), Passive Trait (Threat Zone +1)  
-**Cultural particularities:** Faith Affinity (1), Hornamental Magic Tradition  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Horned Folks  
 **Nature:** Impure Beings  
+
+**Birth particularities: Horned Folk**
+- [Long Reach](#birth-reach)
+- [Above Average](#birth-above-average)
+- [Horns](#birth-horns) (Morphological)
+- [Hornamental Magic Tradition](#birth-hornamental-magic-tradition)
+
+**Cultural particularities:**
+- [Community / Unity Affinity](#cult-affinity)
+- [Sacrifice Affinity](#cult-affinity)
+- [Tattoo](#cult-tattoo)
+- [Training](#cult-training)
+- [Improved Tattoo](#cult-improved-tattoo) [1PP]
+- [Improved Training](#cult-improved-training) [1PP]
 
 <div class="page-break"></div>
 
@@ -1518,13 +1806,20 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 10, Appearance 12~16, Luck 6~8, Balance 8~12  
 **Allegiance:** Magic or None  
 **Living environment:** Forest  
-
-**Birth particularities:** Favored Mind (1), Passive Trait (Speed +1)  
-**Cultural particularities:** Oratory Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Wild Folks  
 **Nature:** Pure Beings  
+
+**Birth particularities: Wild Folk**
+- [Too Pretty To Hit](#birth-too-pretty-to-hit)
+- [Favored Save](#birth-favored-save) : Prestige
+- [Mind of Nature](#birth-favored-mind)
+- [All Eyes on Me](#birth-all-eyes-on-me)
+
+**Cultural particularities:**
+- [Oratory Affinity](#cult-affinity)
+- [Unarmored Affinity](#cult-affinity)
+- [Karmic Vision](#cult-karmic-vision)
+- ???
 
 <div class="page-break"></div>
 
@@ -1555,14 +1850,20 @@ This pulse reacts to powerful magic, emotional upheaval, or mortal danger, manif
 **Weak attributes:** Luck, Wisdom  
 **Birth attributes:** Stature 10, Height 10, Ego 10~12, Appearance 10~12, Luck 8~10, Balance 10~12  
 **Allegiance:** Nature, Source, Ankou, or None  
-**Living environment:** Subterranean  
-
-**Birth particularities:** Chaos Affinity (1), Natural Recovery (2), Natural Regeneration (2), Horns (1)  
-**Cultural particularities:** Hornamental Magic Tradition  
-
-**Origins:** _This information has not yet been written down_  
+**Living environment:** Subterranean   
 **Family:** Horned Folks  
 **Nature:** Pure or Impure Beings  
+
+**Birth particularities: Horned Folk**
+- [Natural Regeneration](#birth-natural-regeneration)
+- [Full Recovery](#birth-full-recovery)
+- [Horns](#birth-horns) (Morphological)
+- [Hornamental Magic Tradition](#birth-hornamental-magic-tradition)
+
+**Cultural particularities:**
+- [Chaos Affinity](#cult-affinity)
+- [Road Affinity](#cult-affinity)
+- [Second Chance Gambit](#cult-second-chance-gambit)
 
 <div class="page-break"></div>  
 
@@ -1602,12 +1903,18 @@ Not to be confused with nagas, which is a monstrous version of this people.
 **Birth attributes:** Stature 10, Height 10~12, Ego 8~12, Appearance 10~12, Luck 7~9, Balance 10~11  
 **Allegiance:** Magic, Chaos, or None  
 **Living environment:** Forest, Mountain, Desert, or Marine  
-
-**Birth particularities:** Tail (2), Variable Size (4), Karmic Vision (1)  
-**Cultural particularities:** None  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Serpentfolk / Semies  
+
+**Birth particularities: Semie**
+- [Variable Size](#birth-variable-size)
+- [Excellent Speed](#birth-speed)
+- [Tail](#birth-tail) (Morphological)
+- [Motionless](#birth-motionless)
+
+**Cultural particularities:**
+- [Quick Affinity](#cult-affinity)
+- [Karmic Vision](#cult-karmic-vision)
+- [Excellency](#cult-excellency)
 
 <div class="page-break"></div>
 
@@ -1636,12 +1943,19 @@ Not to be confused with centaurs, which is a monstrous version of this people.
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 7~9, Balance 10~11  
 **Allegiance:** Source, Magic, Ankou, or None  
 **Living environment:** Forest  
-
-**Birth particularities:** Quadruped  
-**Cultural particularities:** Custom Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Equine Beings / Semies  
+
+**Birth particularities: Semie**
+- [Restless](#birth-restless)
+- [Heart of Stead](#birth-heart-stead)
+- [Favored Recovery](#birth-favored-recovery) : Endurance (PE)
+- [Quadruped](#birth-quadruped) (Morphological)
+- [Sturdy Back](#birth-sturdy-back)
+
+**Cultural particularities:**
+- [Custom Affinity](#cult-affinity)
+- [Wounded Affinity](#cult-affinity)
+- [Momentum Breaker](#cult-momentum-breaker)
 
 <div class="page-break"></div>
 
@@ -1668,12 +1982,20 @@ While generally peaceful, they are not passive: Undines possess long memories an
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 8~10, Appearance 10~12, Luck 10~11, Balance 10~11  
 **Allegiance:** Source, Magic, or None  
 **Living environment:** Marine  
-
-**Birth particularities:** Amphibious (3), Tail (1), Passive Trait (Lowest Defense +1)  
-**Cultural particularities:** Aquatic Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Marine Beings / Semies  
+
+**Birth particularities: Semie**
+- [Vigilance](#birth-vigilance)
+- [Perspicacity](#birth-perspicacity)
+- [Tail](#birth-tail) (Morphological)
+- [Amphibious](#birth-amphibious) (Morphological)
+- [Metamorph](#birth-metamorph)
+- [Yoke of the Waters](#birth-yoke-of-the-waters)
+
+**Cultural particularities:**
+- [Aquatic Affinity](#cult-affinity)
+- [Adaptative Affinity](#cult-affinity)
+- [Initial Flow](#cult-initial-flow)
 
 <div class="page-break"></div>
 
@@ -1755,12 +2077,24 @@ The Primordial Dragons themselves have vanished, believed by scholars either dea
 
 **Creation access:** Costs 1 PP**Allegiance:** Magic, Ankou, or None  
 **Living environment:** Desert, Mountain, or Subterranean  
-
-**Birth particularities:** Winged Creature (2), Natural Weapons (Claws), Natural Armor (scales), Tail (2), Horns (1)  
-**Cultural particularities:** Origin-Specific Environment Affinity (2), Chromatic Blood [1PP], Hornamental Magic Tradition  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Draconic Beings  
+
+**Birth particularities: Draconic**
+- [Natural Weapons / Armor](#birth-natural-wa)
+- [Stronger Natural Weapons](#birth-stronger-natural-weapons)
+- [Stronger Natural Armor](#birth-stronger-natural-armor)
+- [Chromatic Blood](#birth-chromatic-blood)
+- [Winged Creature](#birth-winged-creature) (Morphological)
+- [Tail](#birth-tail) (Morphological)
+- [Horns](#birth-horns) (Morphological)
+- [Natural Resistance](#birth-natural-resistance)
+- [Hornamental Magic Tradition](#birth-hornamental-magic-tradition)
+
+**Cultural particularities:**
+- [Origin-Specific Environment Affinity](#cult-affinity)
+- [Surnatural Resistance](#birth-surnatural-resistance)
+- [Dragon Breath](#cult-dragon-breath) [1PP]
+- [Dragon Powers](#cult-dragon-powers) [1PP]
 
 <div class="page-break"></div>
 
@@ -1795,15 +2129,21 @@ Not to be confused with ogre, which is a monstrous version of this people.
     Balance – Ogrens are powerful but lack inner harmony; they are vulnerable to fatigue, spiritual strain, and corruptive influences.
     Luck – Misfortune follows their people; life is a constant trial, rarely eased by favorable chance.
 **Birth attributes:** Stature 12~14, Height 12~14, Ego 8~9, Appearance 6~8, Luck 6~8, Balance 10~11  
-
-**Creation access:** Costs 1 PP**Allegiance:** Nature, Ankou, or None  
+**Creation access:** Costs 1 PP
+**Allegiance:** Nature, Ankou, or None  
 **Living environment:** Desert or Mountain  
-
-**Birth particularities:** Natural Regeneration (4), Force of Nature (2)  
-**Cultural particularities:** Blood Affinity (1)  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Gargantuan Beings / Aberrations  
+
+**Birth particularities: Vermine**
+- [High Natural Regeneration](#birth-high-natural-regeneration)
+- [Reserve Stock](#birth-reserve-stock)
+- [Force of Nature](#birth-force-of-nature)
+- [Oversized Tool Bearer](#birth-oversized-tool-bearer)
+
+**Cultural particularities:**
+- [Peril Affinity](#cult-affinity)
+- [Strive Affinity](#cult-affinity)
+- [Debt of Pain](#cult-debt-of-pain)
 
 <div class="page-break"></div>
 
@@ -1838,12 +2178,20 @@ Not to be confused with orcs, which is a monstrous version of this people.
 **Birth attributes:** Stature 11~13, Height 11~13, Ego 10~12, Appearance 4~7, Luck 8~10, Balance 8~10  
 **Allegiance:** Source, Ankou, or None  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
+**Family:** Aberrations 
 
-**Birth particularities:** Passive Trait (Toughness +1)  
-**Cultural particularities:** Rivalry & Adversity Affinity (1), Vermin Instinct, Human Animosity (1)  
+**Birth particularities: Aberration**
+- [Favored Save](#birth-favored-save) : Thoughness
+- [Favored Recovery](#birth-favored-recovery) : Vitality (PV)
+- [Steady Hands](#birth-steady-hands)
+- [Last Stand](#birth-last-stand)
 
-**Origins:** _This information has not yet been written down_  
-**Family:** Aberrations  
+**Cultural particularities:**
+- [Rivalry Affinity](#cult-affinity)
+- [Adversity Affinity](#cult-affinity)
+- [Vermin Instinct](#cult-vermin-instinct)
+- [Human Animosity](#cult-animosity)
+- [Wild Urges](#cult-wild-urges)
 
 <div class="page-break"></div>
 
@@ -1879,16 +2227,133 @@ Not to be confused with goblins, which is a monstrous version of this people.
 **Birth attributes:** Stature 6~8, Height 6~8, Ego 11~13, Appearance 6~8, Luck 11~13, Balance 11~13  
 **Allegiance:** Source, Ankou, or None  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
-
-**Birth particularities:** Passive Trait (Reflex +1)  
-**Cultural particularities:** Escape & Treachery Affinity (1), Vermin Instinct, Scapegoats, Resourceful  
-
-**Origins:** _This information has not yet been written down_  
 **Family:** Aberrations  
+
+**Birth particularities: Aberration**
+- [Favored Save](#birth-favored-save) : Reflexes
+- [Scapegoats](#birth-scapegoats)
+- [Coward Instincts](#birth-coward-instincts)
+
+**Cultural particularities:**
+- [Escape Affinity](#cult-affinity)
+- [Treachery Affinity](#cult-affinity)
+- [Vermin Instinct](#cult-vermin-instinct)
+- [Resourceful](#cult-resourceful)
+- [Scavenger](#cult-scavenger)
 
 <div class="page-break"></div>
 
 ## Particularities
+
+### Examplary {#birth-examplary}
+Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture.  
+**Effect:** The character gains **+1 PP**.
+
+### Human Ingenuity {#birth-human-ingenuity}
+Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines.  
+**Effect:** The character gains **+10 PA**.  
+Alternatively, the character may choose **one aura particularity** from their cultural list instead of Human Ingenuity.
+
+### Affinity {#cult-affinity}
+Some cultures develop a natural ease with recurring environmental, physical, mental, or situational influences.  
+- **Luck:** ???. The character’s test gains **+1** when a singularity occurs due to a stroke of luck.
+- **knowledge:** ???. The character’s test gains **+1** when a singularity occurs while using knowledge-based skills.
+- **Cold:** Adaptation to freezing climates and endurance against extreme cold.  
+- **Heat:** Resistance and efficiency under extreme temperatures.  
+- **Desert / Arid:** Survival, efficiency, and resilience in dry or arid environments.  
+- **Altitude:** Adaptation to high elevations, thin air, and vertical terrain.  
+- **Calm:** Emotional control, composure, and serenity under pressure.  
+- **Boldness:** Benefit gained through courage, decisiveness, and fearless action.  
+- **Wounded:** Strength drawn from pain, injury, or near-defeat situations.  
+- **Resistance:** Endurance against fatigue, hardship, and sustained pressure.  
+- **Field:** Efficiency and awareness in open or natural environments.  
+- **Battle:** Mastery of direct confrontation, tactics, and warfare.  
+- **Motion:** Effectiveness through movement, speed, and constant repositioning.  
+- **Code:** Strength drawn from adherence to laws, oaths, or moral principles.  
+- **Technology:** Affinity with technological systems, mechanisms, and devices.  
+- **Repair:** Efficiency when fixing, maintaining, or restoring objects or structures.  
+- **Magic:** Sensitivity to magical forces and supernatural phenomena.  
+- **Arcane:** Mastery of structured arcane theory and spellcraft principles.
+
+### Secundary Specialty {#cult-secundary-specialty}
+Cultural upbringing, education, or practical necessity grants broader competence beyond a single field.  
+**Effect:** The character may select **one additional skill specialty** at character creation.
+
+### Accelerated Learning {#cult-accelerated-learning}
+Early exposure to demanding conditions and structured training accelerates personal development.  
+**Effect:** The character starts play with **+20 PX**.
+
+### Auras {#cult-auras}
+Some individuals emit a passive influence that subtly affects themselves and nearby allies. These auras are always active unless stated otherwise.  
+**Effect:** Human Ingenuity may be replaced by **one aura particularity**.
+- **Tenacity**:  
+- **Lucidity**:  
+- **Heroicness**:  
+- **Recklessness**:  
+- **Firmness**:  
+- **Audacity**:  
+- **Adverseness**:  
+- **Steadiness**:  
+- **Stealthiness**:  
+- **Greatness**:  
+- **Stressless**:  
+- **Swiftness**:  
+- **Authority**:  
+- **Pragmatism**:  
+- **Altruism**:  
+- **Stubbornness**:  
+- **Insightfulness**:  
+- **Osmoticness**:  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Affinity with […] (X)
 **Description:** The character is particularly comfortable in a specific environment, when handling a specific material or in a specific situation. This gives them an edge that others do not necessarily share.  
