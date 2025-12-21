@@ -1207,7 +1207,7 @@ This ethnic group of feral beings consists of individuals who have the appearanc
 **Allegiance:** Nature, Source, Destiny, Ankou, or None  
 **Living environment:** Subterranean, City-dwelling, Rural  
 **Nature:** Pacifist.  
-**Totem**: ?, the ?.  
+**Totem**: Merro, the Avid Crawler.  
 
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
@@ -1218,7 +1218,8 @@ This ethnic group of feral beings consists of individuals who have the appearanc
 
 **Cultural particularities:**
 - [Small Affinity](#cult-affinity)
-- [Venal Instinct](#cult-venal-instinct)
+- [Avid Instinct](#cult-avid-instinct)
+- [An Ally in Each City](#cult-an-ally-in-each-city)
 - [Affinity with Totem](#cult-affinity-with-totem)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
@@ -1489,7 +1490,7 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
 **Cultural particularities:**
 - [Filth Affinity](#cult-affinity)
 - [Malicious Instinct](#cult-malicious-instinct)
-- [An Ally in Each City](#cult-an-ally-in-each-city)
+- ???
 - [Affinity with Totem](#cult-affinity-with-totem)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
@@ -1670,7 +1671,7 @@ A Celestial’s presence commands respect, but behind their luminous beauty lies
 **Nature:** Pure Beings  
 
 **Birth particularities: Divine**
-- [Favored Determination](#birth-favored-determination)
+- [Favored Save](#birth-favored-determination)
 - [Celestial Light](#birth-celestial-light)
 - [Winged Creature](#birth-winged-creature) (Morphological)
 - [Immaculate](#birth-immaculate)
@@ -1819,7 +1820,7 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
 - [Oratory Affinity](#cult-affinity)
 - [Unarmored Affinity](#cult-affinity)
 - [Karmic Vision](#cult-karmic-vision)
-- ???
+- [Charm Carving](#cult-charm-carving)
 
 <div class="page-break"></div>
 
