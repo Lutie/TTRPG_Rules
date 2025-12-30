@@ -635,7 +635,7 @@ Also called Brandawis.
 **Birth particularities: Dwarf**
 - [Tireless Fortitude](#birth-tireless-fortitude)
 - [Financial Acumen](#birth-financial-acumen)
-- [Night Vision](#birth-night-vision)
+- [Infra Vision](#birth-infra-vision)
 - [Expensive Memory](#birth-expensive-memory)
 
 **Cultural particularities:**
@@ -684,7 +684,7 @@ Also called Karazdawis.
 - [Tireless Fortitude](#birth-tireless-fortitude)
 - [Hardness](#birth-hardness)
 - [Financial Acumen](#birth-financial-acumen)
-- [Night Vision](#birth-night-vision)
+- [Infra Vision](#birth-infra-vision)
 - [Favored Save](#birth-favored-save) : Opposition (*)
 
 **Cultural particularities:**
@@ -782,7 +782,7 @@ Ungordan Society:
 - [Tireless Fortitude](#birth-tireless-fortitude)
 - [Hardness](#birth-hardness)
 - [Financial Acumen](#birth-financial-acumen)
-- [Night Vision](#birth-night-vision)
+- [Infra Vision](#birth-infra-vision)
 - [Favored Save](#birth-favored-save) : Opposition (*)
 
 **Cultural particularities:**
@@ -1126,7 +1126,7 @@ This ethnic group of feral beings comprises feline humanoids, bearing the traits
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
-- [Alertness](#birth-alertness)
+- [Fast to Act](#birth-fast-to-act)
 - [Hunter](#birth-hunter)
 - [Fear Sense](#birth-fear-sense)
 
@@ -1256,7 +1256,7 @@ They are either pacifists or predators depending on their sub-ethnicity, but if 
 
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
-- [Alertness](#birth-alertness)
+- [Stability](#birth-stability)
 - [Amphibious](#birth-amphibious) (Morphological)
 - [Yoke of the Waters](#birth-yoke-of-the-waters)
 - If Pacifist : [Survivability](#birth-survivability) and [Danger Sense](#birth-danger-sense)
@@ -1351,14 +1351,14 @@ They are true predators.
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
-- [Blood Critical](#birth-blood-critical)
+- [Blood Lust](#cult-blood-lust)
 - [Hunter](#birth-hunter)
 - [Fear Sense](#birth-fear-sense)
 
 **Cultural particularities:**
 - [Blood Affinity](#cult-affinity)
 - [Blood Instincts](#cult-blood-instincts)
-- [Blood Lust](#cult-blood-lust)
+- [Blood Critical](#birth-blood-critical)
 - [Affinity with Totem](#cult-affinity-with-totem)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
@@ -1682,6 +1682,8 @@ A Celestial’s presence commands respect, but behind their luminous beauty lies
 - [Order Affinity](#cult-affinity)
 - [Cantrips](#cult-cantrips)
 - [Demanding](#cult-demanding)
+- [Karmic Vision](#cult-karmic-vision)
+- [Supra Vision](#cult-supra-vision)
 - [Celestial Powers](#cult-celestial-powers) [1PP]
 
 <div class="page-break"></div>
@@ -1865,6 +1867,7 @@ This pulse reacts to powerful magic, emotional upheaval, or mortal danger, manif
 - [Chaos Affinity](#cult-affinity)
 - [Road Affinity](#cult-affinity)
 - [Second Chance Gambit](#cult-second-chance-gambit)
+- [Supra Vision](#cult-supra-vision)
 
 <div class="page-break"></div>  
 
@@ -1986,7 +1989,7 @@ While generally peaceful, they are not passive: Undines possess long memories an
 **Family:** Marine Beings / Semies  
 
 **Birth particularities: Semie**
-- [Vigilance](#birth-vigilance)
+- [Guile](#birth-guile)
 - [Perspicacity](#birth-perspicacity)
 - [Tail](#birth-tail) (Morphological)
 - [Amphibious](#birth-amphibious) (Morphological)
@@ -1997,6 +2000,7 @@ While generally peaceful, they are not passive: Undines possess long memories an
 - [Aquatic Affinity](#cult-affinity)
 - [Adaptative Affinity](#cult-affinity)
 - [Initial Flow](#cult-initial-flow)
+- [Vigilance](#birth-vigilance)
 
 <div class="page-break"></div>
 
