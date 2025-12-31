@@ -186,11 +186,11 @@ Equilibre : Le personnage reçoit un avantage à un test
 
 **Particularities: Demie**
 - [Quick Feets](#birth-quick-feets) : Allure +1
-- [Cautious](#birth-cautious)
-- [Living Wood](#birth-wood-skin)
-- [Natural Armor](#birth-natural-armor)
-- [All Senses Out](#birth-all-senses-out)
-- [4th Breakfast](#cult-4th-breakfast)
+- [Cautious](#birth-cautious) : Le seuil des échecs critiques est augmenté de 5 (il faut donc échouer de 15 et plus pour obtenir un échec critique)
+- [Living Wood](#birth-wood-skin) : Le personnage a la peau d'écorce et de bois, il reçoit 1 de résistance, 3 d'absorption et 1 de protection en toute circonstance, cependant il est faible face au feu
+- [Natural Armor](#birth-natural-armor) : Le personnage a une armure naturelle de catégorie 1
+- [All Senses Out](#birth-all-senses-out) : Le personnage est toujours en mesure de ressentir ce qui se passe autour de lui, il a toujours le droit de réaliser un test d'acuité quelque soit la situation (endormis ou non par exemple), et il a toujours le droit à un test adapté sans avoir à réussir de test d'intuition pour ça, oui car normalement les règles prévoit un test d'intuition pour savoir si le personnage sent que quelque chose ne va pas sans lui donner la nature du problème, c'est ensuite au joueur de choisir comment il réagit ou SI il réagit, mais ici donc ce n'est plus nécessaire, le personnage réalise forcément un test adapté
+- [4th Breakfast](#cult-4th-breakfast) : Le personnage est un ventre sur patte, c'est dans sa culture, il peux donc (et apprécie) les repas supplémentaires qui peuvent compter une journée : Chaque repas au delà du 3e dans la même journée offre 1 point de satisfaction, avec un maximum de 3, chaque repas doit être espacé de 2h minimum (et cout/requière les ressources normales pour un repas), chaque point peux être utilisé pour réduire le cout de relance de 2 (maximum 1 point utilisé par actions/tests)
 - [Lightfoot](#cult-lightfoot) : Réduit les chutes de moitié, ignore walking penalties or damage if any (damage are ignore if the character does not stand on damage producing tiles at the end of its round)
 - [Totem Carving](#cult-totem-carving) : Character may spend a small fragment of time (small activity) to carve a lucky induced totem for a given activity, carving looks like a proper animal for this activity, a person which have this totem on him may activate it anytime to rethrow any skill test throw, this shatter the totem which cannot be used again, those totem bears no values, DD crafting 15 (on a critical the totem may be used twice)  
 - [Unshackle](#cult-unshackle) : Once per day may rethrow on a single save test of choice
@@ -219,15 +219,15 @@ Equilibre : Le personnage reçoit un avantage à un test
 - [Motionless](#birth-motionless) : Defenses against emotional based actions are increased by 5, cannot suffer a critical from those actions (treated as normal success instead)
 - [Excellency](#cult-excellency) : Rools of any critical skill test are increased by 2
 - [Restless](#birth-restless) : Fatigue threshold increased by 2
-- [Heart of Stead](#birth-heart-stead) : 
+- [Heart of Stead](#birth-heart-stead) : One free "move" action per scene, also one free "step" action per turn
 - [Sturdy Back](#birth-sturdy-back) : Maximum encumbrement increased by 5
-- [Momentum Breaker](#cult-momentum-breaker)
+- [Momentum Breaker](#cult-momentum-breaker) : Successfull opportunities from this character may interrupt actions which causes the opportunity, based on the character's physical or mental expertise value (depending on the action type) target must succeed a thougness save check to keep its action but with a disadvantage, on a critical success this is ignored, on a fail it may keep its action with 2 disavantages, on a critical fail it looses its action entirely, if the opportunity is a critical success then those resultat are worthen by one rank
 - [Guile](#birth-guile) : Lowest defenses increased by 2
 - [Vigilance](#birth-vigilance) : Defenses against counter attacks increased by 2
 - [Perspicacity](#birth-perspicacity) : May use chi after target have reacted with its own OR may withdraw Chi use when target counteract with Chi that prevent that use to be relevant
 - [Initial Flow](#cult-initial-flow) : Starts every scene with a temporary PC (chi) point, improved to 2 for any controntation scenes
 
-- [Celestial Powers](#cult-celestial-powers) [1PP]
+- [Celestial Powers](#cult-celestial-powers) [1PP] : [TODO]
 
 - [Tattoo](#cult-tattoo) : Le personnage voit sa plage de maladresse réduite de 1 concernant les tests d'une compétence précise, qui dépend du tatouage en question  
 - [Improved Tattoo](#cult-improved-tattoo) [1PP] : Le pouvoir voit sa plage d'exploit de ce même tatouage augmenté de 1, cumulable à des effets similaire pour une plage finale de 4, 5, 6, mais pas au delà  
@@ -238,8 +238,7 @@ Equilibre : Le personnage reçoit un avantage à un test
 - [Natural Resistance](#birth-natural-resistance) : Character receives a light resistance to all domains and energies linked to its kind/color.
 - [Surnatural Resistance](#birth-surnatural-resistance) : Any natural resistances goes from light to medium.  
 - [Dragon Breath](#cult-dragon-breath) [1PP] : Like Dragon Powers but only for an effect based on those spell words : Cone + energy from the choosen domain
-- [Dragon Powers](#cult-dragon-powers) [1PP]
-**Description:** Drakkans carry within their veins a diluted echo of true draconic power. Dragons wield Chromatic Power directly through their dragon heart, an overwhelming and primordial force. Drakkans, by contrast, can only access a minute fragment of this power through their blood. This fragment allows them to invoke crude yet potent magical phenomena tied to a specific chromatic domain. While vastly inferior to true dragons in mastery and magnitude, this inherited magic remains distinct, instinctive, and difficult to counter by conventional arcane means.  
+- [Dragon Powers](#cult-dragon-powers) [1PP] : Drakkans carry within their veins a diluted echo of true draconic power. Dragons wield Chromatic Power directly through their dragon heart, an overwhelming and primordial force. Drakkans, by contrast, can only access a minute fragment of this power through their blood. This fragment allows them to invoke crude yet potent magical phenomena tied to a specific chromatic domain. While vastly inferior to true dragons in mastery and magnitude, this inherited magic remains distinct, instinctive, and difficult to counter by conventional arcane means.  
 **Effect:** Chroma points from Chromatic Blood may be used to cast Dragonic Powers.  
 These points can be spent to invoke Chromatic Magic, a fast but simple form of magic.
 As a simple action, once per turn, the character may produce a spell-like phenomenon based on a simple spell from the blood-related domain.
@@ -256,19 +255,18 @@ Also, depending on the drakkan type, chroma points can be used as if they were a
 ======================================================================
 
 **Particularities: Vermine**
-- [High Natural Regeneration](#birth-high-natural-regeneration)
-- [Reserve Stock](#birth-reserve-stock)
-- [Oversized Tool Bearer](#birth-oversized-tool-bearer)
-- [Debt of Pain](#cult-debt-of-pain)
-- [Steady Hands](#birth-steady-hands)
-- [Last Stand](#birth-last-stand)
+- [High Natural Regeneration](#birth-high-natural-regeneration) : Like [Natural Regeneration](#birth-natural-regeneration) but doubled
+- [Reserve Stock](#birth-reserve-stock) : When resting may stack excess of recoveries with a ratio of 1:3, those stacked ressources may atteign 10% of the actual maximum
+- [Oversized Tool Bearer](#birth-oversized-tool-bearer) : You may use category 7 items (tools, armor, weapons alike), which will probably be some customly made one
+- [Debt of Pain](#cult-debt-of-pain) : Use a reaction when receiving damage, note those damage (without considering penetration and such) on the side and ignore them for now, when the scene is over you suffer those damage as piercing damage (ignore your armor and such), can be used once per scene but does not count in this maximum use if an endurance check is succeeded, works on physical or mental damage alike
+- [Steady Hands](#birth-steady-hands) : Reduce by 3 the require grip for weapons
+- [Last Stand](#birth-last-stand) : Get a medium resistance to all physical damage when PV are negative, same with PS and mental damage, May ignore up to the first 2 level of wounds and traumas
+- [Wild Urges](#cult-wild-urges) : Maximum rage/guard/adrenaline improved by 4, may starts a scene with 4+mCON of one of them
+- [Scapegoats](#birth-scapegoats) : Le personnage peux chercher à prendre le blâme de n'importe quelle situation pour lui même, la ou les cibles qui peuvnet être affectées par cette capacité (ceux dont l'avis doit être modifié) peuvent réaliser un test d'insigth pour ne pas se méprendre, difficultée basée sur l'expertise mentale, lors d'une confrontation il est nécessaire de dépenser une action simple pour profiter de cet effet, mais selon la situation cela peux forcer les adversaires à s'orienter sur le personnage, si les cibles continue de poursuivre leur cible initiale sans tenir compte de cette capacité ils sont désavantagés à leurs tests, bref ceci fonctionne donc comme une provocation mais sans avoir à confronter un test à une défense, uniquement l'expertise mentale à une sauvegarde d'insigth
+- [Resourceful](#cult-resourceful) : Le personnage peux toujours trouver une arme ou un outils improvisée autour de lui, de plus il est entrainé aux armes et outils improvisées quel quelles soient, la logique prévaut sur les situations où cet effet a lieu  
+- [Scavenger](#cult-scavenger) : Lorsque le personnage recyclage, récolte ou prélève de l'argent sur des adversaires vaincus, le montant est toujours augmenté de 10%, la logique prévaut sur les situations où cet effet a lieu
+- [Coward Insights](#birth-coward-insights) : Once per scene you may switch the target of an attack from you to an adjacent ally, that ally should agree with that, that target can defend against it normally  
 - [Vermin Instinct](#cult-vermin-instinct)
-- [Wild Urges](#cult-wild-urges)
-- [Scapegoats](#birth-scapegoats)
-- [Coward Instincts](#birth-coward-instincts)
-- [Vermin Instinct](#cult-vermin-instinct)
-- [Resourceful](#cult-resourceful)
-- [Scavenger](#cult-scavenger)
 
 ======================================================================
 ======================================================================

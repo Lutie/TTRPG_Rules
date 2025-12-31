@@ -2237,7 +2237,7 @@ Not to be confused with goblins, which is a monstrous version of this people.
 **Birth particularities: Aberration**
 - [Favored Save](#birth-favored-save) : Reflexes
 - [Scapegoats](#birth-scapegoats)
-- [Coward Instincts](#birth-coward-instincts)
+- [Coward Insights](#birth-coward-insights)
 
 **Cultural particularities:**
 - [Escape Affinity](#cult-affinity)
