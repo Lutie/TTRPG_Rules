@@ -915,13 +915,14 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
-- [King's Roar](#birth-commanding-roar) // [Tyran's Roar](#birth-furious-roar)
+- [Royal Roar](#birth-royal-roar)
 - [Hunter](#birth-hunter)
 - [Fear Sense](#birth-fear-sense)
 
 **Cultural particularities:**
 - [Desertic Affinity](#cult-affinity)
 - [Barehands Affinity](#cult-affinity)
+- [King's Shoot](#cult-king-shoot) // [Tyran's Shoot](#cult-tyran-shoot)
 - [King Instincts](#cult-king-instincts)
 - [Affinity with Totem](#cult-affinity-with-totem)
 - [Align with Totem](#cult-align-with-totem) [1PP]
@@ -967,6 +968,8 @@ They are considered pacifist ferals who do not seek direct conflict.
 - [Cold Affinity](#cult-affinity)
 - [Survival Instincts](#cult-survival-instincts)
 - [Affinity with Totem](#cult-affinity-with-totem)
+- [Royal Roar](#birth-royal-roar)
+- [King's Shoot](#cult-king-shoot) // [Tyran's Shoot](#cult-tyran-shoot)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
@@ -1534,6 +1537,7 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 - [Mountain Affinity](#cult-affinity)
 - [Furious Instincts](#cult-furious-instincts)
 - [Affinity with Totem](#cult-affinity-with-totem)
+- [Frenzy Shoot](#cult-frenzy-shoot)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
