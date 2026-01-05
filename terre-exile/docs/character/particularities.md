@@ -7,17 +7,6 @@ Rule points:
 ======================================================================
 ======================================================================
 
-A placer :
-
-- [Resourceful](#cult-resourceful) : Réduit de 1 les pénalités issus de la dégradation des objets ou de la qualité négative des objets. De plus, même sans outils, peux travailler sans et considéré qu'il trouve de quoi avoir un outils de catégorie 1 quoi qu'il arrive.  
-> Le personnage peux toujours trouver une arme ou un outils improvisée autour de lui, de plus il est entrainé aux armes et outils improvisées quel quelles soient, la logique prévaut sur les situations où cet effet a lieu  
-- [Celestial Light](#birth-celestial-light) : Immaculate : As long as they can take a bath of sun light (few minutes suffice), celestial needs in terms of sleep, food and water are reduced, approximatively halved, this means that most of the time eating and such cost you half the price, and you can have your daily recovery phase by spending only half of your resting time segment equivalent of time (which let you spend an additional small time segment)
-> Corruption maximum +2. Saves against sickness, venoms, poisons and all type of toxins gets an advantaged. Moral +2.  
-
-======================================================================
-======================================================================
-======================================================================
-
 **Particularities: Morphologicals**
 
 - [Tail](#birth-tail) (Morphological) : Le personnage dispose d'une queue. Cette queue peut être utilisée comme n'importe quel membre mais nécessite une compétence qui sert de limite (comme pour l'ambidextrie), la queue ne peux pas porter d'outils/arme donc les actions de combat se limite aux armes naturelles le cas échéant. La queue est une arme naturelle basée sur l'AGI. Le personnage n'a aucun malus du fait d'être attaqué en tenaille ou dans le dos du fait de sa queue qui l'en protège.  
@@ -32,21 +21,21 @@ A placer :
 
 **Particularities: Generics**
 
-- [Favored Recovery](#birth-favored-recovery) : Vitality (PV) : Récupération de la Vitalité (PV) augmentée de 2.  
-- [Favored Recovery](#birth-favored-recovery) : Endurance (PE) : Même chose Endurance.  
-- [Favored Recovery](#birth-favored-recovery) : Karma (PK) : Même chose Karma.  
-- [Favored Recovery](#birth-favored-recovery) : Spirituality (PS) : Même chose Spiritualité.  
-- [Favored Recovery](#birth-favored-recovery) : Mana (PM) : Même chose Mana.  
-- [Favored Recovery](#birth-favored-recovery) : Chi (PC) : Même chose Chi.  
+- [Favored Recovery](#birth-favored-recovery-vitality) : Vitality (PV) : Récupération de la Vitalité (PV) augmentée de 2. Lorsque le personnage fait l'objet d'un soin (généralement non naturel) de cette ressource et qui provoque un gain de fatigue, le seuil de ce gain est augmenté de 1 (donc 1 point de fatigue tous les 3 au lieu de tous les 3 par défaut)  
+- [Favored Recovery](#birth-favored-recovery-endurance) : Endurance (PE) : Même chose Endurance. Lorsque le personnage fait l'objet d'un soin (généralement non naturel) de cette ressource et qui provoque un gain de fatigue, le seuil de ce gain est augmenté de 1 (donc 1 point de fatigue tous les 3 au lieu de tous les 3 par défaut)  
+- [Favored Recovery](#birth-favored-recovery-karma) : Karma (PK) : Même chose Karma.  Lorsque le personnage fait l'objet d'un soin (généralement non naturel) de cette ressource et qui provoque un gain de fatigue, le seuil de ce gain est augmenté de 1 (donc 1 point de fatigue tous les 3 au lieu de tous les 3 par défaut)  
+- [Favored Recovery](#birth-favored-recovery-spirituality) : Spirituality (PS) : Même chose Spiritualité.  Lorsque le personnage fait l'objet d'un soin (généralement non naturel) de cette ressource et qui provoque un gain de fatigue, le seuil de ce gain est augmenté de 1 (donc 1 point de fatigue tous les 3 au lieu de tous les 3 par défaut)  
+- [Favored Recovery](#birth-favored-recovery-mana) : Mana (PM) : Même chose Mana.  Lorsque le personnage fait l'objet d'un soin (généralement non naturel) de cette ressource et qui provoque un gain de fatigue, le seuil de ce gain est augmenté de 1 (donc 1 point de fatigue tous les 3 au lieu de tous les 3 par défaut)  
+- [Favored Recovery](#birth-favored-recovery-chi) : Chi (PC) : Même chose Chi.  Lorsque le personnage fait l'objet d'un soin (généralement non naturel) de cette ressource et qui provoque un gain de fatigue, le seuil de ce gain est augmenté de 1 (donc 1 point de fatigue tous les 3 au lieu de tous les 3 par défaut)  
 
-- [Favored Save](#birth-favored-save) : Fortune : Sauvegardes de Fortune augmentée de 1.  
-- [Favored Save](#birth-favored-save) : Composure : Même chose Composure.  
-- [Favored Save](#birth-favored-save) : Insight : Même chose Insight.  
-- [Favored Save](#birth-favored-save) : Determination : Même chose Determination.  
-- [Favored Save](#birth-favored-save) : Prestige : Même chose Prestige.  
-- [Favored Save](#birth-favored-save) : Thoughness : Même chose Thoughness.  
-- [Favored Save](#birth-favored-save) : Reflexes : Même chose Reflexes.  
-- [Favored Save](#birth-favored-save) : Opposition (*) : Même chose Opposition. S'applique également aux autres sauvegardes lorsqu'elles sont utilisées pour contrer les effets de la magie.  
+- [Favored Save](#birth-favored-save-fortune) : Fortune : Sauvegardes de Fortune augmentée de 1.  
+- [Favored Save](#birth-favored-save-composure) : Composure : Même chose Composure.  
+- [Favored Save](#birth-favored-save-insight) : Insight : Même chose Insight.  
+- [Favored Save](#birth-favored-save-determination) : Determination : Même chose Determination.  
+- [Favored Save](#birth-favored-save-prestige) : Prestige : Même chose Prestige.  
+- [Favored Save](#birth-favored-save-thoughness) : Thoughness : Même chose Thoughness.  
+- [Favored Save](#birth-favored-save-reflexes) : Reflexes : Même chose Reflexes.  
+- [Favored Save](#birth-favored-save-opposition) : Opposition (*) : Même chose Opposition. S'applique également aux autres sauvegardes lorsqu'elles sont utilisées pour contrer les effets de la magie.  
 
 ======================================================================
 ======================================================================
@@ -211,11 +200,13 @@ Equilibre : Le personnage reçoit un avantage à un test
 - [Totem Carving](#cult-totem-carving) : Character may spend a small fragment of time (small activity) to carve a lucky induced totem for a given activity, carving looks like a proper animal for this activity, a person which have this totem on him may activate it anytime to rethrow any skill test throw, this shatter the totem which cannot be used again, those totem bears no values, DD crafting 15 (on a critical the totem may be used twice)  
 - [Unshackle](#cult-unshackle) : Once per day may rethrow on a single save test of choice
 - [Charm Carving](#cult-charm-carving) : Character may spend a small fragment of time (small activity) to carve a lucky induced charm for a given person, this person may activate it anytime to rethrow any save throw, this shatter the charm which cannot be used again, those charm bears no values, DD crafting 15 (on a critical the charm may be used twice)    
-- [Celestial Light](#birth-celestial-light) : Immaculate : As long as they can take a bath of sun light (few minutes suffice), celestial needs in terms of sleep, food and water are reduced, approximatively halved, this means that most of the time eating and such cost you half the price, and you can have your daily recovery phase by spending only half of your resting time segment equivalent of time (which let you spend an additional small time segment)
-- [Immaculate](#birth-immaculate) : Recovery is increased by 1
+- [Celestial Light](#birth-celestial-light) : As long as they can take a bath of sun light (few minutes suffice), celestial needs in terms of sleep, food and water are reduced, approximatively halved, this means that most of the time eating and such cost you half the price, and you can have your daily recovery phase by spending only half of your resting time segment equivalent of time (which let you spend an additional small time segment)
+- [Celestial Heart](#birth-celestial-hearth) : Corruption maximum +2. Saves against sickness, venoms, poisons and all type of toxins gets an advantaged. Self Moral +2.  
+- [Immaculate](#birth-immaculate) : Recovery is increased by 1, also if any fatigue should be acquired through healing this overall fatigue is reduced by 1  
 - [Eternal Youth](#birth-eternal-youth) : Aging is largely stopped (since physically the body only progresses one year every ten years); this effect only takes effect around the thirties, thus maintaining an organism in full possession of its means
-- [Flight Movement](#birth-flight-movement) : Allure augmentée de 2 en vol
-- [Windborne](#birth-windborne) : Passive defense against all magics increased by 2
+- [Flight Movement](#birth-flight-movement) : Allure augmentée de 2 en vol and Passive defense against all magics increased by 2  
+- [Windborne](#birth-windborne) : Perfect flight manoeuvrability, additional 1 passive defense rating when flying high above (when possible)  
+- [Waterborne](#birth-waterborne) : Perfect swimming manoeuvrability, additional 1 passive defense rating when swimming totally immerged (when possible)  
 - [Keep Best](#birth-keep-best) : When reroll throw dices through karma use or rethrow effects, keep the best dice between the old and the new one
 - [Whimsical Magic Tradition](#cult-whimsical-magic-tradition) : Character may choose LUK (luck) as a free tradition attribute, but magical domains accessible are limited to : Illusion, Charm, Chaos. In few rarer cases more domains can be accessible, but it is mostly based on a story driven reason than anything else and may serve drama (up to MD).  
 - [Demanding](#cult-demanding) : Criticity improved by 1 (required throw value reduced by 1 for scoring a critical)
@@ -238,12 +229,13 @@ Equilibre : Le personnage reçoit un avantage à un test
 - [Heart of Stead](#birth-heart-stead) : One free "move" action per scene, also one free "step" action per turn
 - [Sturdy Back](#birth-sturdy-back) : Maximum encumbrement increased by 5
 - [Momentum Breaker](#cult-momentum-breaker) : La difficulté d'interruption du personnage est augmentée de 2 (voir les règles d'opportunités)  
-- [Guile](#birth-guile) : Lowest defenses increased by 2
+- [Guile](#birth-guiled-movement) : Lowest defenses increased by 2  
 - [Vigilance](#birth-vigilance) : Defenses against counter attacks increased by 2
 - [Perspicacity](#birth-perspicacity) : May use chi after target have reacted with its own OR may withdraw Chi use when target counteract with Chi that prevent that use to be relevant
 - [Initial Flow](#cult-initial-flow) : Starts every scene with a temporary PC (chi) point, improved to 2 for any controntation scenes
 
-- [Celestial Powers](#cult-celestial-powers) [1PP] : [TODO]
+- [Celestial Powers](#cult-celestial-powers) [1PP] : Celestials carry within theme a latent power that let [...]
+Bref ils peuvent choisir un "edit", qui leur permet de recevoir un avantage au lancement d'un sort visant à s'aligner avec les vertus de cet edit. Par exemple l'edit de justice permet d'obtenir un avantage au lancement d'un sort qui vise à rendre justice. Même chose avec l'edit de l'équilibre, qui vise à rétabilir l'équilibre dans une situation qui ne l'est pas. Etc... les edits il doit y avoir en avoir genre 6 au départ, des idéaux assez tranchés qui ne s'overlap pas mais peuvent englobé un peu plus que ce qui est obvious. Par contre les edits/vertus des anges sont foncièrement "neutre" moralement, dans le sens ou les célestes ne sont pas connus pour leur compassion, altruisme, etc... ils sont sensé être émotionnellement handicapé on va dire lol. Un sort qui profite d'un edit est également "renforcé".  
 
 - [Tattoo](#cult-tattoo) : Le personnage voit sa plage de maladresse réduite de 1 concernant les tests d'une compétence précise, qui dépend du tatouage en question  
 - [Improved Tattoo](#cult-improved-tattoo) [1PP] : Le pouvoir voit sa plage d'exploit de ce même tatouage augmenté de 1, cumulable à des effets similaire pour une plage finale de 4, 5, 6, mais pas au delà  
@@ -279,13 +271,15 @@ Also, depending on the drakkan type, chroma points can be used as if they were a
 - [Last Stand](#birth-last-stand) : Get a medium resistance to all physical damage when PV are negative, same with PS and mental damage, May ignore up to the first 2 level of wounds and traumas
 - [Wild Urges](#cult-wild-urges) : Maximum rage/guard/adrenaline improved by 4, may starts a scene with 4+mCON of one of them
 - [Scapegoats](#birth-scapegoats) : Le personnage peux chercher à prendre le blâme de n'importe quelle situation pour lui même, la ou les cibles qui peuvnet être affectées par cette capacité (ceux dont l'avis doit être modifié) peuvent réaliser un test d'insigth pour ne pas se méprendre, difficultée basée sur l'expertise mentale, lors d'une confrontation il est nécessaire de dépenser une action simple pour profiter de cet effet, mais selon la situation cela peux forcer les adversaires à s'orienter sur le personnage, si les cibles continue de poursuivre leur cible initiale sans tenir compte de cette capacité ils sont désavantagés à leurs tests, bref ceci fonctionne donc comme une provocation mais sans avoir à confronter un test à une défense, uniquement l'expertise mentale à une sauvegarde d'insigth
-- [Resourceful](#cult-resourceful) : Le personnage peux toujours trouver une arme ou un outils improvisée autour de lui, de plus il est entrainé aux armes et outils improvisées quel quelles soient, la logique prévaut sur les situations où cet effet a lieu  
+- [Resourceful](#cult-resourceful) : Le personnage peux toujours trouver une arme ou un outils improvisée autour de lui, de plus il est entrainé aux armes et outils improvisées quel quelles soient, la logique prévaut sur les situations où cet effet a lieu.  
+- [Not Picky](#cult-not-picky) : Réduit de 1 les pénalités issus de la dégradation des objets ou de la qualité négative des objets.  
 - [Scavenger](#cult-scavenger) : Lorsque le personnage recyclage, récolte ou prélève de l'argent sur des adversaires vaincus, le montant est toujours augmenté de 10%, la logique prévaut sur les situations où cet effet a lieu
 - [Coward Insights](#birth-coward-insights) : Once per scene you may switch the target of an attack from you to an adjacent ally, that ally should agree with that, that target can defend against it normally  
 - [Courageous Presence](#cult-courageous-presence) : Lors d'une confrontation le personnage octroie un moral augmenté de 1  
 - [Miserable Presence](#cult-terrible-presence) : Lors d'une confrontation le personnage octroie un moral réduit de 1, cependant il dispose lui même d'un moral augmenté de 2  
 - [Terrible Presence](#cult-terrible-presence) : Lors d'une confrontation le personnage octroie un moral réduit de 1, cependant il réduit le moral des opposants de 2  
 - [Fatigueless](#cult-fatigueless) : Gain de stress toujours réduit de 1  
+- [Strongness](#cult-strongness) : Negative conditions are contracterd with 2 less charges, positive conditions are contracted with 2 more charges  
 
 ======================================================================
 ======================================================================
