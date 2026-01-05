@@ -235,7 +235,7 @@ Morrians are resilient, clan-based people who inhabit vast, desolate, and sparse
 - [Human Ingenuity](#birth-human-ingenuity)
 
 **Cultural particularities:**
-- [Desert / Arid Affinity](#cult-affinity)
+- [Plains Affinity](#cult-affinity)
 - [Motion Affinity](#cult-affinity)
 - [Secundary Specialty](#cult-secundary-specialty)
 - [Accelerated Learning](#cult-accelerated-learning)
@@ -390,8 +390,8 @@ The Sylvanians are forest-dwelling elves who live in harmony with nature. They r
 - [Distance Affinity](#cult-affinity)
 - [Ambidextry Affinity](#cult-affinity)
 - [Beast Tongue](#cult-beast-tongue)
-- [Cantrips](#cult-cantrips)
-- [Focus](#cult-focus)
+- [Beast Animosity](#cult-animosity)
+- [Focus](#cult-focus) // [Cantrips](#cult-cantrips)
 
 <div class="page-break"></div>
 
@@ -432,9 +432,8 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
 - [Immaterial Affinity](#cult-affinity)
 - [Fabric Affinity](#cult-affinity)
 - [Perfectionist Affinity](#cult-affinity)
-- [Creature Tongue](#cult-creature-tongue)
-- [Cantrips](#cult-cantrips)
-- [Magic Attunement](#cult-magic-attunement)
+- [Magic Tongue](#cult-magic-tongue)
+- [Magic Attunement](#cult-magic-attunement) // [Cantrips](#cult-cantrips)
 
 <div class="page-break"></div>
 
@@ -478,8 +477,7 @@ Thalassians are water-oriented elves who feel at home near rivers, lakes, and oc
 - [Mineral Affinity](#cult-affinity)
 - [Pristine Affinity](#cult-affinity)
 - [Fish Tongue](#cult-fish-tongue)
-- [Cantrips](#cult-cantrips)
-- [Grace](#cult-grace)
+- [Grace](#cult-grace) // [Cantrips](#cult-cantrips)
 
 <div class="page-break"></div>
 
@@ -523,8 +521,7 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
 - [Poison Affinity](#cult-affinity)
 - [Art Affinity](#cult-affinity)
 - [Spirit Tongue](#cult-spirit-tongue)
-- [Cantrips](#cult-cantrips)
-- [Shadow Walker](#cult-shadow-walker)
+- [Shadow Walker](#cult-shadow-walker) // [Cantrips](#cult-cantrips)
 
 <div class="page-break"></div>
 
@@ -565,9 +562,9 @@ Urganian Elves are reclusive, mystical, and fierce. They are known for their dee
 - [Heat Affinity](#cult-affinity)
 - [Metal Affinity](#cult-affinity)
 - [Vengeance Affinity](#cult-affinity)
-- [Dragon Tongue](#cult-dragon-tongue)
-- [Cantrips](#cult-cantrips)
-- [Neverending Hope](#cult-neverending-hope)
+- [Monster Tongue](#cult-monster-tongue)
+- [Monster Animosity](#cult-animosity)
+- [Neverending Hope](#cult-neverending-hope) // [Cantrips](#cult-cantrips)
 
 <div class="page-break"></div>
 
@@ -639,8 +636,7 @@ Also called Brandawis.
 - [Expensive Memory](#birth-expensive-memory)
 
 **Cultural particularities:**
-- [Urban Affinity](#cult-affinity)
-- [Aetheric Affinity](#cult-affinity)
+- [City Affinity](#cult-affinity)
 - [Technology Affinity](#cult-affinity)
 - [Magic Animosity](#cult-animosity)
 - [Elf Animosity](#cult-animosity)
@@ -690,7 +686,8 @@ Also called Karazdawis.
 **Cultural particularities:**
 - [Subterranean Affinity](#cult-affinity)
 - [Mountain Affinity](#cult-affinity)
-- [Metal & Stone Affinity](#cult-affinity)
+- [Metal Affinity](#cult-affinity)
+- [Stone Affinity](#cult-affinity)
 - [Vermin Animosity](#cult-animosity)
 - [Elf Animosity](#cult-animosity)
 - [Bloodline Pride](#cult-bloodline-pride)
@@ -1493,7 +1490,7 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
 **Cultural particularities:**
 - [Filth Affinity](#cult-affinity)
 - [Malicious Instinct](#cult-malicious-instinct)
-- ???
+- [Malicious Expertise](#cult-malicious-expertise)
 - [Affinity with Totem](#cult-affinity-with-totem)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
@@ -1773,7 +1770,7 @@ This gives them exceptional synchronicity in combat formations and makes Qunari 
 - [Hornamental Magic Tradition](#birth-hornamental-magic-tradition)
 
 **Cultural particularities:**
-- [Community / Unity Affinity](#cult-affinity)
+- [Community Affinity](#cult-affinity)
 - [Sacrifice Affinity](#cult-affinity)
 - [Tattoo](#cult-tattoo)
 - [Training](#cult-training)
@@ -1825,6 +1822,7 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
 **Cultural particularities:**
 - [Oratory Affinity](#cult-affinity)
 - [Unarmored Affinity](#cult-affinity)
+- [Courageous Presence](#cult-courageous-presence)
 - [Karmic Vision](#cult-karmic-vision)
 - [Charm Carving](#cult-charm-carving)
 
@@ -1922,6 +1920,7 @@ Not to be confused with nagas, which is a monstrous version of this people.
 **Cultural particularities:**
 - [Quick Affinity](#cult-affinity)
 - [Karmic Vision](#cult-karmic-vision)
+- [Dragon Tongue](#cult-dragon-tongue)
 - [Excellency](#cult-excellency)
 
 <div class="page-break"></div>
@@ -2001,7 +2000,7 @@ While generally peaceful, they are not passive: Undines possess long memories an
 - [Yoke of the Waters](#birth-yoke-of-the-waters)
 
 **Cultural particularities:**
-- [Aquatic Affinity](#cult-affinity)
+- [Water Affinity](#cult-affinity)
 - [Adaptative Affinity](#cult-affinity)
 - [Initial Flow](#cult-initial-flow)
 - [Vigilance](#birth-vigilance)
@@ -2196,10 +2195,12 @@ Not to be confused with orcs, which is a monstrous version of this people.
 - [Last Stand](#birth-last-stand)
 
 **Cultural particularities:**
-- [Rivalry Affinity](#cult-affinity)
+- [Rivality Affinity](#cult-affinity)
 - [Adversity Affinity](#cult-affinity)
 - [Vermin Instinct](#cult-vermin-instinct)
 - [Human Animosity](#cult-animosity)
+- [Dwarf Animosity](#cult-animosity)
+- [Terrible Presence](#cult-terrible-presence) 
 - [Wild Urges](#cult-wild-urges)
 
 <div class="page-break"></div>
@@ -2247,6 +2248,8 @@ Not to be confused with goblins, which is a monstrous version of this people.
 - [Escape Affinity](#cult-affinity)
 - [Treachery Affinity](#cult-affinity)
 - [Vermin Instinct](#cult-vermin-instinct)
+- [Dwarf Animosity](#cult-animosity)
+- [Miserable Presence](#cult-terrible-presence)
 - [Resourceful](#cult-resourceful)
 - [Scavenger](#cult-scavenger)
 

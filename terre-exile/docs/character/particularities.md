@@ -7,6 +7,16 @@ Rule points:
 ======================================================================
 ======================================================================
 
+A placer :
+
+- Resourceful : Réduit de 1 les pénalités issus de la dégradation des objets ou de la qualité négative des objets. De plus, même sans outils, peux travailler sans et considéré qu'il trouve de quoi avoir un outils de catégorie 1 quoi qu'il arrive.  
+- Celestial Light : Corruption maximum +2. Saves against sickness, venoms, poisons and all type of toxins gets an advantaged. Moral +2.  
+- Fatigueless : Gain de stress toujours réduit de 1  
+
+======================================================================
+======================================================================
+======================================================================
+
 **Particularities: Morphologicals**
 
 - [Tail](#birth-tail) (Morphological) : Le personnage dispose d'une queue. Cette queue peut être utilisée comme n'importe quel membre mais nécessite une compétence qui sert de limite (comme pour l'ambidextrie), la queue ne peux pas porter d'outils/arme donc les actions de combat se limite aux armes naturelles le cas échéant. La queue est une arme naturelle basée sur l'AGI. Le personnage n'a aucun malus du fait d'être attaqué en tenaille ou dans le dos du fait de sa queue qui l'en protège.  
@@ -103,18 +113,19 @@ Lucidity : acuity skill group(s) tests
 - [Light Feets](#birth-light-feets) : may walk on water (but sink when movement is complete), ignore walking penalties or damage if any (damage are ignore if the character does not stand on damage producing tiles at the end of its round)
 - [Yoke of the Waters](#birth-yoke-of-the-waters) : Cette créature a besoin d'eau au contact de sa peau pour vivre correctement. L'absence de contact notable avec de l'eau entraine des conséquences néfastes de jours en jours, avec une fin funeste après une période suffisament longue. Chaque jours de privation au delà du premier implique une pénalite de 1 en Constitution. En contre partie le personnage reçoit un bonus de 1 en chance.  
 - [Grace](#cult-grace) : if an attack or tactic is dodged successfully, mark the author, only one mark at a given time, mark ends at the end of a scene : Get a rethrow for the next attack or tactical battle action against that target, then mark ends
-- [Dark Surge](#birth-dark-surge) : 
 - [Forgettable Presence](#birth-forgettable-presence) : If there is nothing particularly noticable about you (in your clothes nor your attitude), then no one can remember your presence somewhere, in battle menace is reduced by half if wanted to (ACTL to activated)
 - [Shadow Walker](#cult-shadow-walker) : May hide with way less favorable conditions, in terms of game you should be able to hide when it's not realistically possible, but not if there is literraly nothing in the room though, with good conditions the try is done with an avantage, in battle menace is reduced by half if wanted to (ACTL to activated)
 - [Impervious](#birth-impervious) : Faible résistance à toutes les énergies (dégats réduits de 1/4)
 - [Payback](#birth-payback) : if hitted, mark the author, only one mark at a given time, mark ends at the end of a scene : Get a rethrow for the next attack or tactical battle action against that target, then mark ends
 - [Neverending Hope](#cult-neverending-hope) : Initiative increased by 1 for every total 5 spirituality (ps) and vitality (pv) points lost so far, with a maximum of +5
+- [Dark Surge](#birth-dark-surge) : <TODO> Règle à voir pour coller aux elfes des livres... ou un truc similaire en tout cas.  
 
-- [Creature Tongue](#cult-creature-tongue) : Peux comprendre ou transmettre les intentions immédiates d'une créature/monster, la communication est imparfaite et ne permet pas d'inclure des notions complexes, également les créatures divines (anges)
-- [Beast Tongue](#cult-beast-tongue) : Même chose avec les bêtes terrestres (et célestes)
-- [Fish Tongue](#cult-fish-tongue) : Même chose avec les bêtes aquatiques
-- [Spirit Tongue](#cult-spirit-tongue) : Même chose avec les esprits et les bêtes qui évoluent dans l'obscurité (rats, chauve souris...), également les créatures infernales (démons)
-- [Dragon Tongue](#cult-dragon-tongue) : Même chose avec les créatures du reigne dragonique
+- [Magic Tongue](#cult-creature-tongue) : Peux comprendre ou transmettre les intentions immédiates d'une créature doté d'un attribut de magie, la communication est imparfaite et ne permet pas d'inclure des notions complexes
+- [Beast Tongue](#cult-beast-tongue) : Même chose avec les bêtes terrestres (et célestes), férales compris
+- [Fish Tongue](#cult-fish-tongue) : Même chose avec les bêtes aquatiques et les autres peuplades amphibiennes (qui ont donc la particularité raciale du même nom)
+- [Spirit Tongue](#cult-spirit-tongue) : Même chose avec les esprits et les bêtes qui évoluent dans l'obscurité (rats, chauve souris...), également les créatures infernales (démons), Vermines comprises
+- [Monster Tongue](#cult-monster-tongue) : Même chose avec les monstres, Semie compris
+- [Dragon Tongue](#cult-dragon-tongue) : Même chose avec les dragons, Drakkan compris
 
 ======================================================================
 ======================================================================
@@ -167,6 +178,7 @@ Lucidity : acuity skill group(s) tests
 - [Plagued](#birth-plagued) : If hit with or by natural weapons, the enemy endures the poison status with as many charge as the score (le jet en français) of the action, the suffering target may throw a thougness test in order to modify this status charges (DD is based on mCON instead of mDEX), they may also happen with none natural weapons on a singularity
 - [Unyielding Bulk](#birth-unyielding-bulk) : Increase bulk capacity by 2 and bulk total capacity by 4
 - [An Ally in Each City](#cult-an-ally-in-each-city) : Le personnage connait toujours au moins un allié de sa communauté dans chaque ville d'au moins un millier d'âme où qu'il aille, c'est un allié qui peux prodiguer une aide superficiel sans que cela ne doive le gêner ou pire, c'est au MD de jauger des limites
+- [Malicious Expertise](#cult-malicious-expertise) : Le personnage voit son expertise augmentée de 1 lorsqu'il s'agit d'appliquer des conditions
 
 - [Survivability](#birth-survivability) : If not shocked : Passive defenses granted improved by 1 while armored or 2 while unarmored (natural armor count as none armor here).  
 - [Hunter](#birth-hunter) : Ignore one category of natural armors, all weapons minimum values on roll is increased by 1, natural weapons minimum values on roll is increased by an additional 1  
@@ -224,7 +236,7 @@ Equilibre : Le personnage reçoit un avantage à un test
 - [Restless](#birth-restless) : Fatigue threshold increased by 2
 - [Heart of Stead](#birth-heart-stead) : One free "move" action per scene, also one free "step" action per turn
 - [Sturdy Back](#birth-sturdy-back) : Maximum encumbrement increased by 5
-- [Momentum Breaker](#cult-momentum-breaker) : Successfull opportunities from this character may interrupt actions which causes the opportunity, based on the character's physical or mental expertise value (depending on the action type) target must succeed a thougness save check to keep its action but with a disadvantage, on a critical success this is ignored, on a fail it may keep its action with 2 disavantages, on a critical fail it looses its action entirely, if the opportunity is a critical success then those resultat are worthen by one rank
+- [Momentum Breaker](#cult-momentum-breaker) : La difficulté d'interruption du personnage est augmentée de 2 (voir les règles d'opportunités)  
 - [Guile](#birth-guile) : Lowest defenses increased by 2
 - [Vigilance](#birth-vigilance) : Defenses against counter attacks increased by 2
 - [Perspicacity](#birth-perspicacity) : May use chi after target have reacted with its own OR may withdraw Chi use when target counteract with Chi that prevent that use to be relevant
@@ -269,120 +281,121 @@ Also, depending on the drakkan type, chroma points can be used as if they were a
 - [Resourceful](#cult-resourceful) : Le personnage peux toujours trouver une arme ou un outils improvisée autour de lui, de plus il est entrainé aux armes et outils improvisées quel quelles soient, la logique prévaut sur les situations où cet effet a lieu  
 - [Scavenger](#cult-scavenger) : Lorsque le personnage recyclage, récolte ou prélève de l'argent sur des adversaires vaincus, le montant est toujours augmenté de 10%, la logique prévaut sur les situations où cet effet a lieu
 - [Coward Insights](#birth-coward-insights) : Once per scene you may switch the target of an attack from you to an adjacent ally, that ally should agree with that, that target can defend against it normally  
-- [Vermin Instinct](#cult-vermin-instinct)
+- [Courageous Presence](#cult-courageous-presence) : Lors d'une confrontation le personnage octroie un moral augmenté de 1  
+- [Miserable Presence](#cult-terrible-presence) : Lors d'une confrontation le personnage octroie un moral réduit de 1, cependant il dispose lui même d'un moral augmenté de 2  
+- [Terrible Presence](#cult-terrible-presence) : Lors d'une confrontation le personnage octroie un moral réduit de 1, cependant il réduit le moral des opposants de 2  
 
 ======================================================================
 ======================================================================
 ======================================================================
 
 **Particularities: Affinities**
-- [Forest Affinity](#cult-affinity)
-- [Pack Affinity](#cult-affinity)
-- [Darkness Affinity](#cult-affinity)
-- [Desertic Affinity](#cult-affinity)
-- [Barehands Affinity](#cult-affinity)
-- [Cold Affinity](#cult-affinity)
-- [Aquatic Affinity](#cult-affinity)
-- [Flanking Affinity](#cult-affinity)
-- [Height Affinity](#cult-affinity)
-- [Prudence Affinity](#cult-affinity)
-- [Chasing Affinity](#cult-affinity)
-- [Rivality Affinity](#cult-affinity)
-- [Honor and Oath Affinity](#cult-affinity)
-- [Small Affinity](#cult-affinity)
-- [Water Affinity](#cult-affinity)
-- [Big Affinity](#cult-affinity)
-- [Slow Affinity](#cult-affinity)
-- [Blood Affinity](#cult-affinity)
-- [Curiosity Affinity](#cult-affinity)
-- [Ingenious Affinity](#cult-affinity)
-- [Height Affinity](#cult-affinity)
-- [Mountain Affinity](#cult-affinity)
-- [Filth Affinity](#cult-affinity)
 
-- [Urban Affinity](#cult-affinity)
-- [Aetheric Affinity](#cult-affinity)
-- [Technology Affinity](#cult-affinity)
-- [Subterranean Affinity](#cult-affinity)
-- [Mountain Affinity](#cult-affinity)
-- [Metal & Stone Affinity](#cult-affinity)
-- [Subterranean Affinity](#cult-affinity)
-- [Metal & Stone Affinity](#cult-affinity)
+Une affinité permet au personnage de recevoir un bonus de +1 lorsque un de ses tests réalisés dans un environnement dans des conditions donnés affiche une singularité.  
+Deux affinités peuvent se cumuler le cas échéant.  
 
-- [Forest Affinity](#cult-affinity)
-- [Leather Affinity](#cult-affinity)
-- [Distance Affinity](#cult-affinity)
-- [Ambidextry Affinity](#cult-affinity)
-- [Immaterial Affinity](#cult-affinity)
-- [Fabric Affinity](#cult-affinity)
-- [Perfectionist Affinity](#cult-affinity)
-- [Aquatic Affinity](#cult-affinity)
-- [Mineral Affinity](#cult-affinity)
-- [Pristine Affinity](#cult-affinity)
-- [Darkness Affinity](#cult-affinity)
-- [Poison Affinity](#cult-affinity)
-- [Art Affinity](#cult-affinity)
-- [Heat Affinity](#cult-affinity)
-- [Metal Affinity](#cult-affinity)
-- [Vengeance Affinity](#cult-affinity)
+<TODO> : Note pour l'iA : il faut faire en sorte que les "environnements" identifie à la fois un lieu typiquement rural et un autre typiquement urbain pour que ces traits soient toujours utile, quelque soit le type de scénario.
 
-- [Luck Affinity](#cult-affinity)
-- [Knowledge Affinity](#cult-affinity)
-- [Heat Affinity](#cult-affinity)
-- [Wounded Affinity](#cult-affinity)
-- [Heat Affinity](#cult-affinity)
-- [Wounded Affinity](#cult-affinity)
-- [Calm Affinity](#cult-affinity)
-- [Code Affinity](#cult-affinity)
-- [Field Affinity](#cult-affinity)
-- [Battle Affinity](#cult-affinity)
-- [Desert / Arid Affinity](#cult-affinity)
-- [Motion Affinity](#cult-affinity)
-- [Altitude Affinity](#cult-affinity)
-- [Resistance Affinity](#cult-affinity)
-- [Technology Affinity](#cult-affinity)
-- [Repair Affinity](#cult-affinity)
-- [Magic Affinity](#cult-affinity)
-- [Arcane Affinity](#cult-affinity)
+- [Forest Affinity](#cult-affinity) : Environnement forestier/luxuriant (un jardin dans une ville fonctionne).  
+- [Plains Affinity](#cult-affinity) : Environnement de plaine/espace vide (un lieu de taille notable totalement vide d'éléments de décors peux correspondre également).  
+- [Desertic Affinity](#cult-affinity) : Environnement désertique/vide (un espace totalement vide fonctionne).  
+- [Cold Affinity](#cult-affinity) : Environnement froid. <TODO> : Comment étendre ? 
+- [Height Affinity](#cult-affinity) : Environnement en hauteur.  
+- [Small Affinity](#cult-affinity) : Environnement étriqués (une seule personne peux passer, et encore elle a bien du mal). Conditionné aux adversaires de petite taille (Taille 5 et inférieur).  
+- [Water Affinity](#cult-affinity) : Environnement innondé/humide (un lieu innondé ou particulièrement marqué par la présence d'eau fonctionne; la pluie également; être imergé suffit toujours, les plages).  
+- [Big Affinity](#cult-affinity) : Environnement immenses (un couloir immense/surdimensionné, une salle ou un lieu immense et disproportionné). Conditionné aux adversaires de grande taille (Taille 15 et supérieur).  
+- [Mountain Affinity](#cult-affinity) : Environnement montagneux/rocheux.  
+- [Filth Affinity](#cult-affinity) : Environnement particulièrement crasseux (égouts, marécages, etc).  
+- [Subterranean Affinity](#cult-affinity) : Environnement sous terrains (cavernes, grottes).   
+- [Heat Affinity](#cult-affinity) : Environnement chauds (naturellement ou artificiellement).  
+- [Calm Affinity](#cult-affinity) : Environnement calme/silencieux (le moindre bruit, même issus du personnage, brise cette condition).  
+- [Darkness Affinity](#cult-affinity) : Environnement très sombre, même en pleine journée un lieu plongé dans l'ombre fonctionne, c'est un fort contraste qui fait fois.  
+- [Light Affinity](#cult-affinity) : Environnement très éclairé, même en pleine journée un lieu plongé dans la lumière du soleil direct fonctionne, c'est un fort contraste qui fait fois.  
+- [Road Affinity](#cult-affinity) : Environnement routiers, les voyages, lorsque le personnage effectue un voyage d'un lieu à un autre, bref quand il est "sur la route", nomade, en déplacement.  
+- [Dream Affinity](#cult-affinity) : Environnement des rêves.  
+- [Field Affinity](#cult-affinity) : Environnement à des batailles (conflits incluants plusieurs groupes et individus, de grande ampleur donc).  
+- [Origin-Specific Environment Affinity](#cult-affinity) : 
 
-- [Thievery Affinity](#cult-affinity)
-- [Food Affinity](#cult-affinity)
-- [Forest Affinity](#cult-affinity)
-- [Wood Affinity](#cult-affinity)
-- [Light Affinity](#cult-affinity)
-- [Order Affinity](#cult-affinity)
-- [Dream Affinity](#cult-affinity)
-- [Selfishness Affinity](#cult-affinity)
-- [Community / Unity Affinity](#cult-affinity)
-- [Sacrifice Affinity](#cult-affinity)
-- [Oratory Affinity](#cult-affinity)
-- [Unarmored Affinity](#cult-affinity)
-- [Chaos Affinity](#cult-affinity)
-- [Road Affinity](#cult-affinity)
-- [Quick Affinity](#cult-affinity)
-- [Custom Affinity](#cult-affinity)
-- [Wounded Affinity](#cult-affinity)
-- [Aquatic Affinity](#cult-affinity)
-- [Adaptative Affinity](#cult-affinity)
-- [Origin-Specific Environment Affinity](#cult-affinity)
+- [Pack Affinity](#cult-affinity) : Conditionné à la présence d'alliés à proximité.  
+- [Barehands Affinity](#cult-affinity) : Conditionné aux actions réalisées à mains nues (ou via des outils/armes naturelles le cas échéant).  
+- [Flanking Affinity](#cult-affinity) : Conditionné aux actions réalisées sur un adversaire prise en tenaille.  
+- [Prudence Affinity](#cult-affinity) : Conditionné aux actions qui affiche une maladresse (un type spécifique de singularité donc).  
+- [Chasing Affinity](#cult-affinity) : Conditionné aux actions de course, de poursuite, etc...
+- [Rivality Affinity](#cult-affinity) : Conditonné aux situations où l'action contribue à assoire la rivalié du personnage avec un autre individu sur un sujet donné. Cette rivalité doit être évidente, soit parce qu'elle est mentionnée au préalable "je tuerais plus de goblin que toi ce soir", soit parce qu'elle est connue de tous implicitement.  
+- [Honor and Oath Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue à respecter un voeux, une promesse, une règle, l'honneur de quelqu'un...
+- [Blood Affinity](#cult-affinity) : Conditonné aux actions visant à exploiter le sang (le sentir, l'identifier, le tracer, etc).  
+- [Curiosity Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue à assouvir un besoin de curiosité.  
+- [Ingenious Affinity](#cult-affinity) : Conditionné aux situations où l'action fait l'objet d'un plan ingénieux, d'une ruse, etc... (<TODO> : trouver un mieux identifier/désigner la situation, mais en gros ça doit récompenser le fait d'avoir des idées innovantes, ingénieuse, etc)
+- [City Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la nature notable d'une structure de ville.  
+- [Distance Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à une distance notable et non négligeable (peux fonctionner sur les attaques à distance mais uniquement en porté longue ou supérieure).  
+- [Ambidextry Affinity](#cult-affinity) : Conditionné à l'usage de la main non directrice.  
+- [Immaterial Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la magie.  
+- [Perfectionist Affinity](#cult-affinity) : Conditionné aux situations où l'action est associée à une compétence de rang 3 ou supérieur. Condtionné aux situations où l'action contribue à améliorer les choses, la situation, un objet, bref l'amélioration.  
+- [Motion Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié aux émotions.  
+- [Battle Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la guerre, bataille, combat, actions de combat excluses. 
+- [Art Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à l'art.  
+- [Vengeance Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue à assouvir un besoin de vengeance.  
+- [Luck Affinity](#cult-affinity) : Conditionné aux actions qui font usage du karma.  
+- [Order Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue à respecter un ordre, une obligation.  
+- [Chaos Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue à respecter s'opposer à un ordre, refus d'obtempérer, etc.  
+- [Selfishness Affinity](#cult-affinity) : Conditionné aux situations où l'action qui ne contribue pas à d'autre mais uniquement, même sur le long terme, qu'au personnage.  
+- [Community Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue à d'autre, mais pas au personnage, ni sur l'immédiat ni plus tard.  
 
-- [Peril Affinity](#cult-affinity)
-- [Strive Affinity](#cult-affinity)
-- [Rivalry Affinity](#cult-affinity)
-- [Adversity Affinity](#cult-affinity)
-- [Escape Affinity](#cult-affinity)
-- [Treachery Affinity](#cult-affinity)
+- [Unarmored Affinity](#cult-affinity) : Conditionné aux actions de combat tant que le personnage ne porte pas d'armure. L'armure naturelle ne compte pas.  
+- [Wounded Affinity](#cult-affinity) : Conditionné aux actions de combat visant une cible affectée par une blessure autre qu'une égratignure.  
+- [Pristine Affinity](#cult-affinity) : Conditionné aux actions de combat tant que le personnage a toutes ses ressources principales au maximum, endurance comprise.  
+- [Slow Affinity](#cult-affinity) : Conditionné aux actions de combat visant une seule cible et réalisées après le round de celle ci, interruptions exclus.  
+- [Quick Affinity](#cult-affinity) : Conditionné aux actions de combat visant une seule cible et réalisées avant le round de celle ci, interruptions exclus.  
+- [Resistance Affinity](#cult-affinity) : Conditionné aux actions de défense.  
+
+- [Metal Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... d'un métal ou assimilés.   
+- [Stone Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... ou de roche ou assimilés.   
+- [Leather Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... du cuir et assimilés.  
+- [Fabric Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... du tissu ou assimilés.   
+- [Mineral Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... du minéraux, pierre précieuses, etc.   
+- [Poison Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... du poison, venins, substances, etc.   
+- [Wood Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au travail, identification, observation, etc... du bois.  
+
+- [Knowledge Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la connaissance.  
+- [Code Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié au code d'honneur du personnage.  
+- [Altitude Affinity](#cult-affinity) : Conditionné aux situations où l'action est réalisée en hauteur vis à vis de la cible ou de l'objectif.  
+- [Repair Affinity](#cult-affinity) : Conditionné aux situations où l'action vise à réparer.  
+
+- [Arcane Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié aux arcanes.  
+- [Science Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la science.  
+- [Technology Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la technologie.  
+- [Magic Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la magie.  
+
+- [Thievery Affinity](#cult-affinity) : Conditionné aux situations où l'action vise à réaliser une action illégale.  
+- [Food Affinity](#cult-affinity) : Conditionné aux situations où l'action est lié à la nourriture (cuisine, la trouver, etc).  
+- [Sacrifice Affinity](#cult-affinity) : Conditionné aux situations où l'action contribue au bien des autres mais induit une perte ou une gêne pour le personnage.  
+- [Oratory Affinity](#cult-affinity) : Conditionné aux situations où l'action où il y a des spectateurs, ou disons une audience, qui peux apprécier la qualité de la réussite.  
+- [Custom Affinity](#cult-affinity) : Conditionné aux situations où l'action a un rapport avec des coutumes, des croyances, l'étiquette, etc.  
+- [Adaptative Affinity](#cult-affinity) : Conditionné aux situations où le personnage change d’approche face à un échec ou un obstacle.  
+
+- [Peril Affinity](#cult-affinity) : Conditionné aux situations où l'action vise à affronter un danger potenciellement mortel.  
+- [Strive Affinity](#cult-affinity) : Conditionné aux situations où l’action, généralement lors d'une confrontation, est tentée en situation de faiblesse (affecté par une condition négative qui gêne l'action) ou délicate (seul face à plusieurs adversaires).
+- [Adversity Affinity](#cult-affinity) : Conditionné aux situations où l’action a peu de chances objectives de réussir, mais est tentée quand même, s'applique à tous les cas où la difficulté est 20 ou plus.  
+- [Escape Affinity](#cult-affinity) : Conditionné aux situations où l'action vise à fuir ou échapper à un danger.  
+- [Treachery Affinity](#cult-affinity) : Conditionné aux situations où l'action vise à tricher, mentir, ?.  
 
 ======================================================================
 ======================================================================
 ======================================================================
 
 **Particularities: Animosities**
-- [Human Animosity](#cult-animosity)
-- [Magic Animosity](#cult-animosity)
-- [Elf Animosity](#cult-animosity)
-- [Vermin Animosity](#cult-animosity)
-- [Spawn Animosity](#cult-animosity)
+
+The character feels deep hatred for a type of creature, often due to ancestral conflicts. Grants the character a +1 bonus to all tests aimed at harming or defending against targets of that creature type.  
+
+- [Human Animosity](#cult-animosity) : Animosité envers la race humaine  
+- [Magic Animosity](#cult-animosity) : animosité envers les créatures considérée comme magique, ce qui peux se traduire par le fait d'avoir un attribut de magie  
+- [Elf Animosity](#cult-animosity) : Animosité envers la race elfique  
+- [Dwarf Animosity](#cult-animosity) : Animosité envers la race naine  
+- [Feral Animosity](#cult-animosity) : Animosité envers la race naine  
+- [Vermin Animosity](#cult-animosity) : Animosité envers la race des vermines, affecte les versions monstrueuses de ces races  
+- [Spawn Animosity](#cult-animosity) : Animosité envers les créatures considérées comme des spawns, des rejeton asservies/serviles sans identités ou volonté propre, cela affecte l'engence à proprement parler (celle qui cours dans les tunnels de l'outreterre) mais aussi les mort vivants de façon plus globale  
+- [Monster Animosity](#cult-animosity) : Animosité envers les monstres 
+- [Beast Animosity](#cult-animosity) : Animosité envers les bêtes du reigne animal, affecte les férales
 
 ======================================================================
 ======================================================================
@@ -390,23 +403,32 @@ Also, depending on the drakkan type, chroma points can be used as if they were a
 
 **Particularities: Instincts**
 
-- [Pack Instinct](#cult-pack-instinct)
-- [Feline Instincts](#cult-feline-instincts)
-- [King Instincts](#cult-king-instincts)
-- [Survival Instincts](#cult-survival-instincts)
-- [Hunting Instinct](#cult-hunting-instinct)
-- [Freedom Instinct](#cult-freedom-instinct)
-- [Alert Instinct](#cult-alert-instinct)
+The character has a sixth sense regarding a topic.   
+- The character finds it easier to track down or spot that topic subject gaining advantage on such tests.  
+- Within an area equal to **Attribute in m²**, the character always knows if a topic subject is nearby (though this doesn’t help locate them precisely). Attribute depends on the instinct and can be either Wisdow or Cunning.  
+
+- [Pack Instinct](#cult-pack-instinct) : The character has a sixth sense regarding those they consider part of their pack. Topic : Allies.  
+- [Feline Instincts](#cult-feline-instincts) : <Description todo>. Topic : Alluded pathes that allowing them to bypass an obstacle, wall, etc.  
+- [King Instincts](#cult-king-instincts) : <Description todo>. Topic : Leaders and strong (as with high influence, powerlfull or strong/autorivative people), with their nuances.  
+- [Survival Instincts](#cult-survival-instincts) : <Description todo>. Topic : Anything that can help survival, like a food or water source, but also practical things for an immediate mortal danger to deal with.  
+- [Hunting Instinct](#cult-hunting-instinct) : <Description todo>. Topic : Hunt prey, can be used against more regular target if the character is after it as a ritualized hunt activity.  
+- [Freedom Instinct](#cult-freedom-instinct) : <Description todo>. Topic : Anything that can help freedom, as a way to escape or being locked down, not ways to pass through wall like feline do.  
+- [Alert Instinct](#cult-alert-instinct) : The character has a sixth sense regarding ambushes and traps. Topic : Hidden beings.  
 - [Bestial Instincts](#cult-bestial-instincts)
-- [Oath Instinct](#cult-oath-instinct)
-- [Venal Instinct](#cult-venal-instinct)
-- [Watery Instinct](#cult-watery-instinct)
-- [Unknown Instinct](#cult-unknown-instinct)
-- [Blood Instincts](#cult-blood-instincts)
-- [Curious Instinct](#cult-curious-instinct)
-- [Practical Instinct](#cult-practical-instinct)
-- [Furious Instincts](#cult-furious-instincts)
-- [Malicious Instinct](#cult-malicious-instinct)
+- [Oath Instinct](#cult-oath-instinct) : <Description todo>. Topic : Promises, oathes, and such, the character can sense with more ease links between peoples bound by words and such.  
+- [Venal Instinct](#cult-venal-instinct) : The character has a sixth sense regarding gold and all kinds of wealth. Topic : lootable wealth (such as gold, gems and precious things).  
+- [Watery Instinct](#cult-watery-instinct) : <Description todo>. Topic : Water in all its form, not only sources but also current and such.  
+- [Unknown Instinct](#cult-unknown-instinct) : <Description todo>. Topic : Unknown / Undiscovered things.  
+- [Blood Instincts](#cult-blood-instincts) : <Description todo>. Topic : Shed blood or traces of blood.  
+- [Curious Instinct](#cult-curious-instinct) : <Description todo>. Topic : Curious / Inhabitual things.  
+- [Practical Instinct](#cult-practical-instinct) : <Description todo>. Topic : Information and clues.  
+- [Furious Instincts](#cult-furious-instincts) : <Description todo>. Topic : Imminent violence, uncontrolled anger, emotional explosions, Recent fights, bloodshed tension, violent history still “echoing”.  
+- [Malicious Instinct](#cult-malicious-instinct) : <Description todo>. Topic : Malicious intent, betrayal, desire to harm, Manipulators, corrupters, moral decay.  
+- [Vermin Instinct](#cult-vermin-instinct) : <Description todo>. Topic : Sbires and weak (as highly influencable, powerless or weaknessed people), with their nuances.  
+
+======================================================================
+======================================================================
+======================================================================
 
 ## Particularities
 
@@ -414,24 +436,34 @@ Also, depending on the drakkan type, chroma points can be used as if they were a
 Raised as a model individual within their people, the character embodies the standards, discipline, and expectations of their culture.  
 **Effect:** The character gains **+1 PP**.
 
+---
+
 ### Human Ingenuity {#birth-human-ingenuity}
 Humans possess a natural adaptability and learning potential that allows them to develop quickly across disciplines.  
 **Effect:** The character gains **+10 PA**.  
 Alternatively, the character may choose **one aura particularity** from their cultural list instead of Human Ingenuity.
 
+---
+
 ### Affinity {#cult-affinity}
 Some cultures develop a natural ease with recurring environmental, physical, mental, or situational influences.  
 - **Luck:** ???. The character’s test gains **+1** when a singularity occurs due to a stroke of luck.
 - **knowledge:** ???. The character’s test gains **+1** when a singularity occurs while using knowledge-based skills.
+
+---
 ...
 
 ### Secundary Specialty {#cult-secundary-specialty}
 Cultural upbringing, education, or practical necessity grants broader competence beyond a single field.  
 **Effect:** The character may select **one additional skill specialty** at character creation.
 
+---
+
 ### Accelerated Learning {#cult-accelerated-learning}
 Early exposure to demanding conditions and structured training accelerates personal development.  
 **Effect:** The character starts play with **+20 PX**.
+
+---
 
 ### Auras {#cult-auras}
 Some individuals emit a passive influence that subtly affects themselves and nearby allies. These auras are always active unless stated otherwise.  
@@ -454,56 +486,8 @@ Some individuals emit a passive influence that subtly affects themselves and nea
 - **Stubbornness**:  
 - **Insightfulness**:  
 - **Osmoticness**:  
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ### Affinity with […] (X)
 **Description:** The character is particularly comfortable in a specific environment, when handling a specific material or in a specific situation. This gives them an edge that others do not necessarily share.  
@@ -842,22 +826,3 @@ Dragonic powers are not spells: They cannot be countered. They are not treated a
 Also, depending on the drakkan type, chroma points can be used as if they were a different ressource : Red/Rage, Blue/Chi, Green/Guard, Yellow/Adrenaline, Purple/Mana, Black/Vitality, White/Karma, Grey/Spirituality.  
 
 ---
-
-
-
-
-
-TO ADD/Ajouter/rework IA
-
-Scapegoats : Il peux très facilement attirer l'attention à lui, qu'il s'agisse de prendre le blâme ou d'attirer l'attention à lui, le personnage est avantagé.  
-
-Resourceful : Réduit de 1 les pénalités issus de la dégradation des objets ou de la qualité négative des objets. De plus, même sans outils, peux travailler sans et considéré qu'il trouve de quoi avoir un outils de catégorie 1 quoi qu'il arrive.  
-
-Celestial Light : Corruption maximum +2. Saves against sickness, venoms, poisons and all type of toxins gets an advantaged.  Moral +2.  
-
-Fatigueless : Avantages on "sang froid" test against stress surge.  
-
-Passive Trait (Saves +1) <= les Orkkans ont déjà le thougness, voir qui peux avoir quoi encore ?  
-
-Aura des humains : Moral +1  
-
