@@ -2151,6 +2151,7 @@ Not to be confused with ogre, which is a monstrous version of this people.
 **Cultural particularities:**
 - [Peril Affinity](#cult-affinity)
 - [Strive Affinity](#cult-affinity)
+- [Fatigueless](#cult-fatigueless)
 - [Debt of Pain](#cult-debt-of-pain)
 
 <div class="page-break"></div>

@@ -9,9 +9,10 @@ Rule points:
 
 A placer :
 
-- Resourceful : Réduit de 1 les pénalités issus de la dégradation des objets ou de la qualité négative des objets. De plus, même sans outils, peux travailler sans et considéré qu'il trouve de quoi avoir un outils de catégorie 1 quoi qu'il arrive.  
-- Celestial Light : Corruption maximum +2. Saves against sickness, venoms, poisons and all type of toxins gets an advantaged. Moral +2.  
-- Fatigueless : Gain de stress toujours réduit de 1  
+- [Resourceful](#cult-resourceful) : Réduit de 1 les pénalités issus de la dégradation des objets ou de la qualité négative des objets. De plus, même sans outils, peux travailler sans et considéré qu'il trouve de quoi avoir un outils de catégorie 1 quoi qu'il arrive.  
+> Le personnage peux toujours trouver une arme ou un outils improvisée autour de lui, de plus il est entrainé aux armes et outils improvisées quel quelles soient, la logique prévaut sur les situations où cet effet a lieu  
+- [Celestial Light](#birth-celestial-light) : Immaculate : As long as they can take a bath of sun light (few minutes suffice), celestial needs in terms of sleep, food and water are reduced, approximatively halved, this means that most of the time eating and such cost you half the price, and you can have your daily recovery phase by spending only half of your resting time segment equivalent of time (which let you spend an additional small time segment)
+> Corruption maximum +2. Saves against sickness, venoms, poisons and all type of toxins gets an advantaged. Moral +2.  
 
 ======================================================================
 ======================================================================
@@ -284,6 +285,7 @@ Also, depending on the drakkan type, chroma points can be used as if they were a
 - [Courageous Presence](#cult-courageous-presence) : Lors d'une confrontation le personnage octroie un moral augmenté de 1  
 - [Miserable Presence](#cult-terrible-presence) : Lors d'une confrontation le personnage octroie un moral réduit de 1, cependant il dispose lui même d'un moral augmenté de 2  
 - [Terrible Presence](#cult-terrible-presence) : Lors d'une confrontation le personnage octroie un moral réduit de 1, cependant il réduit le moral des opposants de 2  
+- [Fatigueless](#cult-fatigueless) : Gain de stress toujours réduit de 1  
 
 ======================================================================
 ======================================================================
