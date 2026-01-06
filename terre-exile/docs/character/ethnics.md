@@ -10,7 +10,7 @@ icon: material/label
 **Weak attributes**: List the attributes in which this ethnic is naturally disadvantaged. The player may choose one weak attribute to voluntarily accept in order to gain one additional boost from the strong attribute list.
 **Birth attributes**: List the variations of the secondary attributes for this ethnic. A valid set of birth attributes must have a total value of 60 or less—never exceeding this limit.
 **Birth particularities:** This section lists all the particularities a character gains from their race. Some races share most, or even all, of these particularities — such as Humans, Elves, or Dwarves — while others differ more significantly. In some cases, a “race” is more a conceptual or semantic category than a strict biological lineage, which explains why shared traits may be limited.  
-**Cultural particularities:** This section lists all the particularities a character gains from their ethnicity. Ethnic groups belonging to the same race usually follow a shared structural pattern in how these particularities are distributed, but the nature and meaning of those particularities can differ greatly from one culture to another. This content is what truly defines the identity and role of each ethnicity. For example, Human cultures express themselves through auras, Ferals through instincts and totem affinities, while Elves commonly manifest minor innate magics (cantrips). The framework may be shared, but the expression is fundamentally different. If a character is raised within a culture other than their birth culture, they may gain the cultural particularities of their adopted culture instead. This choice is always subject to the GM’s approval and should serve narrative and role-playing purposes, not mechanical optimization or min-maxing.
+**Cultural particularities:** This section lists all the particularities a character gains from their ethnicity. Ethnic groups belonging to the same race usually follow a shared structural pattern in how these particularities are distributed, but the nature and meaning of those particularities can differ greatly from one culture to another. This content is what truly defines the identity and role of each ethnicity. For example, Human cultures express themselves through auras, Ferals through instincts and totem affinities, while Elves commonly manifest minor innate magics (cantrips). The framework may be shared, but the expression is fundamentally different. If a character is raised within a culture other than their birth culture, they may gain the cultural particularities of their adopted culture instead. This choice is always subject to the GM's approval and should serve narrative and role-playing purposes, not mechanical optimization or min-maxing.
 
 ## Human ethnics
 
@@ -448,7 +448,7 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
 
 These people of sea elves, with blue skin, often called blue elves, are sailors and travelers as well as excellent traders, seeking to establish contacts to ensure their sustainability. Distrustful of other cultures, they collaborate willingly as long as the remuneration is up to par. Blue elves live in coastal cities, boat cities sailing on the waves, or underwater domed cities. They are excellent swimmers.
 
-Thalassians are water-oriented elves who feel at home near rivers, lakes, and oceans. Known for their agility and adaptability, they are skilled in navigation and swimming, sometimes creating underwater cities through magic. Thalassians are also natural traders, using their aquatic skills to establish strong commercial connections. Their craftsmanship often involves materials from the sea, like shells and coral, and they are effective negotiators. They’re found mainly in coastal areas, occasionally forming communities on the water itself.
+Thalassians are water-oriented elves who feel at home near rivers, lakes, and oceans. Known for their agility and adaptability, they are skilled in navigation and swimming, sometimes creating underwater cities through magic. Thalassians are also natural traders, using their aquatic skills to establish strong commercial connections. Their craftsmanship often involves materials from the sea, like shells and coral, and they are effective negotiators. They're found mainly in coastal areas, occasionally forming communities on the water itself.
 
 **Skills:** Survival, Craftsmanship, Spellcrafting, Negotiation, Navigation, Swimming, Persuasion, Defense.  
 **Personality traits:** Friendly, Opportunistic, Adventurous, Resourceful, Energetic, Flexible (Rebellious), Confident, Talkative (Loudmouth), Curious, Pragmatic (Demanding).  
@@ -583,7 +583,7 @@ Half-Elves do not form their own nations. Instead, they grow up within human or 
 
 Their dual identity sometimes creates inner conflict, leading them either to wander in search of a place they truly belong, or to embrace their hybrid nature with pride. Half-Elves are often curious, adaptable, and perceptive, capable of learning quickly and excelling in roles requiring flexibility, negotiation, or creativity.
 
-**Skills:** Inherits the skills of either parent (player’s choice)  
+**Skills:** Inherits the skills of either parent (player's choice)  
 **Personality traits:** Inherits the personality traits list of both parent  
 
 **Strong attributes**: Inherits the strong attributes of either parent, chosen by the player.
@@ -592,8 +592,8 @@ Their dual identity sometimes creates inner conflict, leading them either to wan
 **Allegiance:** Inherits the allegiance list of both parent  
 **Living environment:** Inherits the living environment list of both parent  
 
-**Birth particularities:** Inherits the birth particularities of either parent (player’s choice)  
-**Cultural particularities:** Inherits the affinities of either parent (player’s choice)  
+**Birth particularities:** Inherits the birth particularities of either parent (player's choice)  
+**Cultural particularities:** Inherits the affinities of either parent (player's choice)  
 
 <div class="page-break"></div>
 
@@ -944,7 +944,7 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Strong attributes:** Strength, Constitution, Wisdom  
     __Strength__ – Massive frames and heavy musculature give Koddans impressive physical power, whether in work, travel, or combat.
     __Constitution__ – Their bodies are slow to tire and hard to break, shaped by cold climates, harsh terrain, and a lifestyle of constant exertion.
-    __Wisdom__ – Reflective, patient, and deeply connected to nature, Koddans understand rhythms of seasons, emotions, and life’s cycles better than they grasp abstract theories.
+    __Wisdom__ – Reflective, patient, and deeply connected to nature, Koddans understand rhythms of seasons, emotions, and life's cycles better than they grasp abstract theories.
 **Weak attributes:** Agility  
     __Agility__ – Their size and bulk come at the cost of speed and finesse. Koddans move deliberately rather than quickly, favoring stability over nimbleness.
 **Birth attributes:** Stature 12~14, Height 11~13, Ego 7~10, Appearance 8~10, Luck 8~10, Balance 10~12  
@@ -1611,7 +1611,7 @@ Behind their cheerful faces lie sharp instincts for survival, negotiation, and q
 
 Dryavids are beings of living wood and sap, guardians of secluded groves and ancient spirits. They coexist closely with Sylvanian elves, sharing values, culture, and an intimate reverence for the forest. While Dryavids understand elven society, they rarely partake in it fully, preferring the quiet sanctuaries hidden deep within the wilderness.
 
-Their temperament contrasts sharply with that of their long-standing counterparts, the Nymphs. Though both peoples embody nature, they do so through very different philosophies. Dryavids are direct, unwavering, and at times uncompromising—living embodiments of the forest’s immutable laws. Nymphs, on the other hand, tend to be fluid, playful, charming, and subtly unpredictable.
+Their temperament contrasts sharply with that of their long-standing counterparts, the Nymphs. Though both peoples embody nature, they do so through very different philosophies. Dryavids are direct, unwavering, and at times uncompromising—living embodiments of the forest's immutable laws. Nymphs, on the other hand, tend to be fluid, playful, charming, and subtly unpredictable.
 
 This divergence often leads to a gentle rivalry: Dryavids view Nymphs as overly capricious and lacking discipline, while Nymphs see Dryavids as overly rigid and humorless. These tensions are rarely hostile, but they shape centuries of cultural teasing, disagreements, and competitive pride between the two races.
 
@@ -1659,7 +1659,7 @@ Those who violate these sacred rules face exile—a punishment more severe than 
 
 Yet exceptions exist. Throughout history, a handful of Celestials have forged meaningful bonds with terrestrial peoples, such as the famed Alluren, whose exile aided the creation of Sylvengarde. Some Celestials, like the Valkyries, even allow themselves to be venerated by mortal cultures, acting as martial spirits or divine emissaries.
 
-A Celestial’s presence commands respect, but behind their luminous beauty lies a mind shaped by strict doctrine—and a heart rarely given freely.
+A Celestial's presence commands respect, but behind their luminous beauty lies a mind shaped by strict doctrine—and a heart rarely given freely.
 
 **Skills:** Spellcasting, Erudition, Defense, Tactical, Persuasion, Meditation, Leadership, Endurance.  
 **Personality traits:** Serious, Principled, Conservative, Organized, Disciplined, Leader, Cold, Patient, Judgmental (Critical), Conformist.  
@@ -1840,7 +1840,7 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
     <img class="ethnics" src="../../images/ethnics/troll-f-2.jpg">
 </div>
 
-Trolls are a nomadic horned people whose origins remain one of Thalifen’s cultural enigmas. The few records that mention them describe their arrival from the far southern reaches of the world—lands believed lost to Morvivance. Whether they fled, migrated, or simply wandered remains unknown even to them, as Troll oral traditions are fragmented and contradictory.
+Trolls are a nomadic horned people whose origins remain one of Thalifen's cultural enigmas. The few records that mention them describe their arrival from the far southern reaches of the world—lands believed lost to Morvivance. Whether they fled, migrated, or simply wandered remains unknown even to them, as Troll oral traditions are fragmented and contradictory.
 
 Troll society is defined by absolute personal autonomy. They acknowledge no chiefs, masters, or formal structures; authority is a foreign concept to them. Cooperation arises organically through mutual respect or shared goals, and conflicts are resolved through debate, contests of wits, or ritual duels intended to defuse tension rather than establish dominance.
 
@@ -1896,11 +1896,11 @@ Naggan culture venerates the Primordial Dragons not as gods, but as archetypes o
 Despite their enigmatic aura, Naggan are not hostile; they are contemplative and pragmatic, their worldview shaped by the belief that destiny coils and uncoils like a serpent, unpredictable yet purposeful.
 
 Some of most known naggan's clan are:  
-**Cindervale Clan** — Black and ember-red scales : A warrior lineage known for strict discipline and controlled rage. They viewed destruction as a path to renewal, echoing the Ashen Serpent’s teachings. Today, survivors wander as stoic mercenaries, bound by rigid personal honor.
+**Cindervale Clan** — Black and ember-red scales : A warrior lineage known for strict discipline and controlled rage. They viewed destruction as a path to renewal, echoing the Ashen Serpent's teachings. Today, survivors wander as stoic mercenaries, bound by rigid personal honor.
 **Glistenscale Clan** — Iridescent blue and green scales : Mystics and shamans who practiced water-based divination and dream-trance rites. They believe memories flow like rivers and that the Primordials still whisper through them. Many now live near coasts or waterways.
 **Sandcoil Clan** — Gold and desert tones : Survivalists shaped by harsh environments, valuing patience, silence, and adaptability. Inspired by the Dune Wyrm, they mastered ambush tactics and desert navigation. Their remnants drift between remote desert communities.
 **Verdancescale Clan** — Green and earth-toned scales : Diplomats, negotiators, and keepers of social balance. Their ritual debates followed spiral patterns symbolizing growth and resolution. They integrate more easily into forest societies, though still as outsiders.
-**Lumenscale Clan** — White and pale lavender scales : Students of karmic flows, illusions, and hidden forces. Their insight is uncanny and often unsettling to others. They suffered greatly during Rosaï’s fall, leaving only scattered scholars and occultists.
+**Lumenscale Clan** — White and pale lavender scales : Students of karmic flows, illusions, and hidden forces. Their insight is uncanny and often unsettling to others. They suffered greatly during Rosaï's fall, leaving only scattered scholars and occultists.
 
 Not to be confused with nagas, which is a monstrous version of this people.
 
@@ -2261,7 +2261,7 @@ Not to be confused with goblins, which is a monstrous version of this people.
 
 <div class="page-break"></div>
 
-## Particularities: Morphologicals
+## Particularities
 
 ### Tail {#birth-tail}
 The character possesses a functional tail fully integrated into their anatomy, allowing improved balance, spatial awareness, and natural rear coverage in physical situations.  
@@ -2270,7 +2270,7 @@ The character possesses a functional tail fully integrated into their anatomy, a
 ---
 
 ### Horns {#birth-horns}
-The character bears prominent horns that extend their body’s natural lethality and reinforce their presence in close combat encounters.  
+The character bears prominent horns that extend their body's natural lethality and reinforce their presence in close combat encounters.  
 **Effect:** The horns count as natural weapons usable without equipment. Horn-based attacks are treated as natural weapon attacks (attribute is typically **STR**) and may be used for actions such as charges or headbutts.
 
 ---
@@ -2306,13 +2306,13 @@ The character replenishes their physical stamina more efficiently, allowing sust
 ---
 
 ### Favored Recovery (Karma) {#birth-favored-recovery-karma}
-The character’s fortune and destiny realign more easily, smoothing the strain caused by forced or accelerated recovery.  
+The character's fortune and destiny realign more easily, smoothing the strain caused by forced or accelerated recovery.  
 **Effect:** Karma (PK) recovery is increased by **+2**. When the character receives healing to Karma that generates Fatigue, the Fatigue threshold is increased by **+1**.
 
 ---
 
 ### Favored Recovery (Spirituality) {#birth-favored-recovery-spirituality}
-The character’s spiritual essence stabilizes quickly after depletion, resisting backlash from restorative effects.  
+The character's spiritual essence stabilizes quickly after depletion, resisting backlash from restorative effects.  
 **Effect:** Spirituality (PS) recovery is increased by **+2**. When the character receives healing to Spirituality that generates Fatigue, the Fatigue threshold is increased by **+1**.
 
 ---
@@ -2324,7 +2324,7 @@ The character channels arcane energies more safely, recovering magical reserves 
 ---
 
 ### Favored Recovery (Chi) {#birth-favored-recovery-chi}
-The character’s internal energy flows more harmoniously, allowing accelerated recovery with less physical or spiritual strain.  
+The character's internal energy flows more harmoniously, allowing accelerated recovery with less physical or spiritual strain.  
 **Effect:** Chi (PC) recovery is increased by **+2**. When the character receives healing to Chi that generates Fatigue, the Fatigue threshold is increased by **+1**.
 
 ---
@@ -2348,19 +2348,19 @@ The character resists deception, illusion, and misdirection with heightened clar
 ---
 
 ### Favored Save (Determination) {#birth-favored-save-determination}
-The character’s willpower allows them to endure coercion, fear, and mental strain more effectively.  
+The character's willpower allows them to endure coercion, fear, and mental strain more effectively.  
 **Effect:** Determination Saves are increased by **+1**.
 
 ---
 
 ### Favored Save (Prestige) {#birth-favored-save-prestige}
-The character’s social standing and force of presence shield them against reputational or authority-based threats.  
+The character's social standing and force of presence shield them against reputational or authority-based threats.  
 **Effect:** Prestige Saves are increased by **+1**.
 
 ---
 
 ### Favored Save (Toughness) {#birth-favored-save-toughness}
-The character’s body withstands physical punishment and harmful effects better than average.  
+The character's body withstands physical punishment and harmful effects better than average.  
 **Effect:** Toughness Saves are increased by **+1**.
 
 ---
@@ -2375,7 +2375,7 @@ The character reacts instinctively to danger, avoiding sudden threats with super
 The character excels at actively resisting external forces, particularly supernatural intrusions.  
 **Effect:** Opposition Saves are increased by **+1**. This bonus also applies to other Saves when they are used specifically to counter magical effects.
 
-## Particularities: Human
+---
 
 ### Exemplary {#birth-examplary}
 Raised as a model individual within their people, the character embodies discipline, cultural standards, and social expectations.  
@@ -2404,7 +2404,7 @@ Humans learn quickly through experience, adapting faster than most to new challe
 ## Auras {#cult-auras}
 
 An Aura represents a natural human excellence in a specific type of situation.  
-When an Aura applies, the character’s **natural Prowess** for the relevant test is increased by **+2**, allowing the expenditure of up to **2 PC** to gain up to **+2 adjustments**.  
+When an Aura applies, the character's **natural Prowess** for the relevant test is increased by **+2**, allowing the expenditure of up to **2 PC** to gain up to **+2 adjustments**.  
 
 ### Singularities-Based Auras
 
@@ -2461,7 +2461,7 @@ When an Aura applies, the character’s **natural Prowess** for the relevant tes
 | **Tenacity** | Discipline skill groups |
 | **Lucidity** | Acuity skill groups |
 
-## Particularities: Elven
+---
 
 ### Ancestral {#birth-ancestral}
 The character carries an ancient lineage that instinctively resists supernatural interference with the mind and emotions.  
@@ -2476,7 +2476,7 @@ The character perceives the world with exceptional clarity, effortlessly noticin
 ---
 
 ### Night Vision {#birth-night-vision}
-The character’s eyes are adapted to low-light environments, allowing them to function effectively in darkness.  
+The character's eyes are adapted to low-light environments, allowing them to function effectively in darkness.  
 **Effect:** The character can see in dim light and darkness, but not in total darkness. Penalties caused by low light are reduced by **3**, but penalties caused by complete darkness are not reduced.
 
 ---
@@ -2506,20 +2506,20 @@ The character moves with supernatural lightness, barely disturbing the surface t
 ---
 
 ### Yoke of the Waters {#birth-yoke-of-the-waters}
-The character’s body requires constant contact with water to function properly, binding their survival to its presence.  
+The character's body requires constant contact with water to function properly, binding their survival to its presence.  
 **Effect:** Each day after the first without significant skin contact with water imposes a **–1 penalty to Constitution**, worsening daily until death if deprivation continues. In exchange, while properly hydrated, the character gains **+1 Fortune**.
 
 ---
 
 ### Impervious {#birth-impervious}
-The character’s body partially absorbs hostile energies, dulling their impact.  
+The character's body partially absorbs hostile energies, dulling their impact.  
 **Effect:** The character gains minor resistance to all energy types, reducing such damage by **25%**.
 
 ---
 
 ### Forgettable Presence {#birth-forgettable-presence}
 When nothing about the character stands out, their presence slips easily from memory.  
-**Effect:** If the character’s appearance and behavior are unremarkable, witnesses cannot recall their presence afterward. In combat, the character may halve their menace if they choose to activate this effect.
+**Effect:** If the character's appearance and behavior are unremarkable, witnesses cannot recall their presence afterward. In combat, the character may halve their menace if they choose to activate this effect.
 
 ---
 
@@ -2536,7 +2536,7 @@ The character turns successful evasions into lethal opportunities.
 ---
 
 ### Payback {#birth-payback}
-Pain sharpens the character’s resolve, fueling precise retaliation.  
+Pain sharpens the character's resolve, fueling precise retaliation.  
 **Effect:** When the character is hit, they may mark the attacker. Only one target may be marked at a time, and the mark ends at the end of the scene. The character gains a reroll on their next attack or tactical combat action against the marked target.
 
 ---
@@ -2553,11 +2553,9 @@ A dormant and unsettling power lurks within the character, awakening in moments 
 
 ---
 
-## Magical Aptitudes
-
 ### Cantrips {#cult-cantrips}
 The character instinctively channels minor magical effects without formal training.  
-**Effect:** The character may cast level 0 spells as if they had proper access to magic. The magical tradition is chosen among those associated with the character’s primary attribute. Maximum Mana (PM) is equal to half the normal maximum. The character may only access one domain or skill. If the character later gains a domain through a proper tradition, maximum PM is recalculated using the higher value, and all spells from that domain may be cast at orison level.
+**Effect:** The character may cast level 0 spells as if they had proper access to magic. The magical tradition is chosen among those associated with the character's primary attribute. Maximum Mana (PM) is equal to half the normal maximum. The character may only access one domain or skill. If the character later gains a domain through a proper tradition, maximum PM is recalculated using the higher value, and all spells from that domain may be cast at orison level.
 
 ---
 
@@ -2603,7 +2601,7 @@ The character understands the raw instincts of monstrous beings.
 The character can perceive the immediate intent of draconic beings.  
 **Effect:** As Magic Tongue, but applies to dragons and drakkans.
 
-## Particularities: Dwarf
+---
 
 ### Tireless Fortitude {#birth-tireless-fortitude}
 Dwarves endure combat through sheer resilience, wearing down their enemies through unwavering toughness.  
@@ -2618,14 +2616,14 @@ The character possesses a natural sense for value, profit, and material worth.
 ---
 
 ### Infra Vision {#birth-infra-vision}
-The character’s eyes are adapted to low-light environments, allowing effective perception underground and in darkness.  
+The character's eyes are adapted to low-light environments, allowing effective perception underground and in darkness.  
 **Effect:** The character can see in dim light and darkness, but not in total darkness. Penalties caused by low light are reduced by **3**, while penalties caused by complete darkness are not reduced.
 
 ---
 
 ### Expansive Memory {#birth-expansive-memory}
-The character’s memory is exceptionally reliable, capable of retaining vast amounts of technical, historical, or practical information.  
-**Effect:** The character’s Memory score is increased by **+5**.
+The character's memory is exceptionally reliable, capable of retaining vast amounts of technical, historical, or practical information.  
+**Effect:** The character's Memory score is increased by **+5**.
 
 ---
 
@@ -2642,13 +2640,13 @@ Dwarven craftsmanship prioritizes durability and efficiency, especially when res
 ---
 
 ### Mercantile Culture {#cult-mercantile-culture}
-Trade and wealth are deeply ingrained in the character’s cultural background.  
+Trade and wealth are deeply ingrained in the character's cultural background.  
 **Effect:** The character gains **5% more money** from all monetary gains. This bonus stacks with **Financial Acumen**.
 
 ---
 
 ### Hardness {#birth-hardness}
-The character’s body is physically dense and resistant to harm.  
+The character's body is physically dense and resistant to harm.  
 **Effect:** Physical Protection is increased by **+1**, and the character can sustain one additional scratch wound.
 
 ---
@@ -2684,14 +2682,14 @@ The character possesses a natural sense for value, profit, and material worth.
 ---
 
 ### Infra Vision {#birth-infra-vision}
-The character’s eyes are adapted to low-light environments, allowing effective perception underground and in darkness.  
+The character's eyes are adapted to low-light environments, allowing effective perception underground and in darkness.  
 **Effect:** The character can see in dim light and darkness, but not in total darkness. Penalties caused by low light are reduced by **3**, while penalties caused by complete darkness are not reduced.
 
 ---
 
 ### Expansive Memory {#birth-expansive-memory}
-The character’s memory is exceptionally reliable, capable of retaining vast amounts of technical, historical, or practical information.  
-**Effect:** The character’s Memory score is increased by **+5**.
+The character's memory is exceptionally reliable, capable of retaining vast amounts of technical, historical, or practical information.  
+**Effect:** The character's Memory score is increased by **+5**.
 
 ---
 
@@ -2708,13 +2706,13 @@ Dwarven craftsmanship prioritizes durability and efficiency, especially when res
 ---
 
 ### Mercantile Culture {#cult-mercantile-culture}
-Trade and wealth are deeply ingrained in the character’s cultural background.  
+Trade and wealth are deeply ingrained in the character's cultural background.  
 **Effect:** The character gains **5% more money** from all monetary gains. This bonus stacks with **Financial Acumen**.
 
 ---
 
 ### Hardness {#birth-hardness}
-The character’s body is physically dense and resistant to harm.  
+The character's body is physically dense and resistant to harm.  
 **Effect:** Physical Protection is increased by **+1**, and the character can sustain one additional scratch wound.
 
 ---
@@ -2735,9 +2733,7 @@ Refusing to fall, the character clings to consciousness through sheer stubborn w
 Experience hardens the character against afflictions they have already endured.  
 **Effect:** The character may reroll a test to resist venom, poison, sickness, curses, or rare conditions that they have already experienced at least once. For common conditions, this applies if the character has experienced the condition earlier in the same scene.
 
-## Particularities: Ferals
-
-## Natural Physiology
+---
 
 ### Natural Weapons / Armor {#birth-natural-wa}
 The character is born with innate weapons and natural protection, fully integrated into their body and fighting style.  
@@ -2746,30 +2742,28 @@ The character is born with innate weapons and natural protection, fully integrat
 ---
 
 ### Stronger Natural Weapons {#birth-stronger-natural-weapons}
-The character’s natural weapons are more developed and deadly than average.  
-**Effect:** The character’s natural weapons are upgraded to **Category 2**. The character is trained in their use.
+The character's natural weapons are more developed and deadly than average.  
+**Effect:** The character's natural weapons are upgraded to **Category 2**. The character is trained in their use.
 
 ---
 
 ### Stronger Natural Armor {#birth-stronger-natural-armor}
-The character’s hide, scales, or shell offer enhanced protection.  
-**Effect:** The character’s natural armor is upgraded to **Category 2**. The character is trained in its use.
+The character's hide, scales, or shell offer enhanced protection.  
+**Effect:** The character's natural armor is upgraded to **Category 2**. The character is trained in its use.
 
 ---
 
 ### Hardness {#birth-hardness}
-The character’s body is dense and resistant to impact.  
+The character's body is dense and resistant to impact.  
 **Effect:** Physical Protection is increased by **+1**, and the character can sustain **one additional scratch wound**.
 
 ---
 
 ### Unyielding Bulk {#birth-unyielding-bulk}
-The character’s massive build allows them to carry far more than most.  
+The character's massive build allows them to carry far more than most.  
 **Effect:** Bulk capacity is increased by **+2**, and total bulk capacity is increased by **+4**.
 
 ---
-
-## Pack & Social Traits
 
 ### Teamworker {#birth-teamworker}
 The character thrives when acting alongside others.  
@@ -2778,34 +2772,32 @@ The character thrives when acting alongside others.
 ---
 
 ### Good Company {#birth-good-company}
-The character’s presence uplifts those around them.  
+The character's presence uplifts those around them.  
 **Effect:** Once per day, after spending at least a short period of time with someone, the character may grant that person **temporary Karma Points** lasting until the end of a full cycle. This cannot be used on self and does not stack. Allies resting near the character gain **+1 Recovery**, which also applies to the character if at least one ally benefits.
 
 ---
 
 ### An Ally in Each City {#cult-an-ally-in-each-city}
-The character’s community extends far and wide.  
-**Effect:** In any city of at least 1,000 inhabitants, the character knows at least one ally from their community. This ally can provide limited, non-burdensome assistance at the GM’s discretion.
+The character's community extends far and wide.  
+**Effect:** In any city of at least 1,000 inhabitants, the character knows at least one ally from their community. This ally can provide limited, non-burdensome assistance at the GM's discretion.
 
 ---
 
-## Predatory & Combat Instincts
-
-### Hunter’s Edge {#birth-hunters-edge}
+### Hunter's Edge {#birth-hunters-edge}
 The character strikes with lethal efficiency when hunting or using natural weapons.  
 **Effect:** The character may reroll tests made with natural weapons, or when hunting a proper target using hunting weapons.
 
 ---
 
 ### Blood Lust {#cult-blood-lust}
-Wounding foes fuels the character’s endurance.  
+Wounding foes fuels the character's endurance.  
 **Effect:** When the character deals Vitality damage with a melee or close-combat attack, they recover **1 Endurance (PE)** for every **3 Vitality points** inflicted (subject to Fatigue).
 
 ---
 
 ### Blood Critical {#birth-blood-critical}
-The character’s critical strikes exploit existing wounds with savage precision.  
-**Effect:** The character’s critical combat actions gain a bonus to the roll equal to the target’s wound level.
+The character's critical strikes exploit existing wounds with savage precision.  
+**Effect:** The character's critical combat actions gain a bonus to the roll equal to the target's wound level.
 
 ---
 
@@ -2821,39 +2813,35 @@ The character pierces defenses with ruthless efficiency.
 
 ---
 
-## Command & Roars
-
 ### Royal Roar {#birth-royal-roar}
-The character’s roar galvanizes action and intent.  
+The character's roar galvanizes action and intent.  
 **Effect:** Once per scene, the character may reroll a Shout action.
 
 ---
 
-### King’s Shout {#cult-king-shoot}
+### King's Shout {#cult-king-shoot}
 The character inspires allies through commanding presence.  
 **Effect:** Once per turn, the character may use a non-standard Shout simple action to grant all nearby allies **d8 + mCHA Morale Points** for the scene. This may be combined with a standard Shout action by spending a Free Action.
 
 ---
 
-### Tyrant’s Shout {#cult-tyran-shoot}
+### Tyrant's Shout {#cult-tyran-shoot}
 The character crushes enemy resolve through sheer dominance.  
-**Effect:** Same as King’s Shout, but instead removes the same amount of Morale Points from all nearby enemies. No defense or save applies. May be combined with a standard Shout action by spending a Free Action.
+**Effect:** Same as King's Shout, but instead removes the same amount of Morale Points from all nearby enemies. No defense or save applies. May be combined with a standard Shout action by spending a Free Action.
 
 ---
 
-### Guardian’s Shout {#cult-guardian-shoot}
+### Guardian's Shout {#cult-guardian-shoot}
 The character shields allies through commanding warnings.  
-**Effect:** Once per turn, the character may use a non-standard Shout simple action to grant all nearby allies a mark that gives advantage on their next defense action. The mark lasts until the character’s next turn and affects the character as well. May be combined with a standard Shout action by spending a Free Action.
+**Effect:** Once per turn, the character may use a non-standard Shout simple action to grant all nearby allies a mark that gives advantage on their next defense action. The mark lasts until the character's next turn and affects the character as well. May be combined with a standard Shout action by spending a Free Action.
 
 ---
 
 ### Frenzy Shout {#cult-frenzy-shoot}
 The character spreads chaos and reckless aggression.  
-**Effect:** Once per turn, the character may attempt a non-standard Shout simple action (Difficulty **15**) to mark all nearby enemies, giving them disadvantage on their next defense action. The mark lasts until the character’s next turn. May be combined with a standard Shout action by spending a Free Action.
+**Effect:** Once per turn, the character may attempt a non-standard Shout simple action (Difficulty **15**) to mark all nearby enemies, giving them disadvantage on their next defense action. The mark lasts until the character's next turn. May be combined with a standard Shout action by spending a Free Action.
 
 ---
-
-## Physical Prowess & Momentum
 
 ### Speedster {#birth-speedster}
 The character is accustomed to constant motion and rapid repositioning.  
@@ -2874,7 +2862,7 @@ The character pushes beyond normal limits in moments of frenzy.
 ---
 
 ### Stability {#birth-stability}
-The character’s stance is unwavering.  
+The character's stance is unwavering.  
 **Effect:** The character may reroll balance-based tests. Initiative rolls have a minimum die value of **3** (cannot trigger singularities).
 
 ---
@@ -2884,8 +2872,6 @@ The character plants themselves like an immovable force.
 **Effect:** Defense against knockdown and push effects is increased by **+5**.
 
 ---
-
-## Senses & Instincts
 
 ### Danger Sense {#birth-danger-sense}
 The character instinctively feels nearby threats.  
@@ -2898,8 +2884,6 @@ The character senses fear as a tangible presence.
 **Effect:** The character perceives fear in the surrounding area and can identify its origin if it is nearby.
 
 ---
-
-## Magic & Totemism
 
 ### Hornamental Magic Tradition {#cult-hornamental-magic-tradition}
 The character channels magic through raw physical resilience.  
@@ -2914,14 +2898,14 @@ The character resonates naturally with their cultural totem.
 ---
 
 ### Align with Totem {#cult-align-with-totem}
-Through ritual alignment, the character invokes their Totem’s supernatural power.  
+Through ritual alignment, the character invokes their Totem's supernatural power.  
 **Cost:** 1 PP  
 **Effect:** Once per day, the character may use a Totem power a number of times equal to the Degrees of Success obtained on a Religion test performed the previous day (Difficulty 10; at least 1 Degree at 15).
 
 - **FOR / CHA – Domination:** The target suffers disadvantage on a test involving the character.  
 - **CON / VOL – Resilience:** All disadvantages on a test are negated.  
 - **SAG / PER – Focus:** The target loses all advantages on a test involving the character.  
-- **AGI / RUS – Guile:** The target’s advantages become disadvantages on a test involving the character.  
+- **AGI / RUS – Guile:** The target's advantages become disadvantages on a test involving the character.  
 - **DEX / INT – Coordination:** The target loses one advantage, which the character gains for all resulting actions.
 
 If the Totem grants the same power twice, it also provides:  
@@ -2929,10 +2913,8 @@ If the Totem grants the same power twice, it also provides:
 
 ---
 
-## Knowledge & Corruption
-
 ### Erudition {#cult-erudition}
-The character’s accumulated knowledge can be recalled with precision.  
+The character's accumulated knowledge can be recalled with precision.  
 **Effect:** Once per day, the character may reroll an Erudition or Knowledge skill test.
 
 ---
@@ -2944,18 +2926,16 @@ The character can decipher almost any written language.
 ---
 
 ### Plagued {#birth-plagued}
-The character’s attacks carry a lingering corruption.  
-**Effect:** When hit by the character’s natural weapons, targets gain the Poison condition with a number of charges equal to the action’s roll score. The target may attempt a Toughness test to reduce the charges (Difficulty based on **mCON** instead of **mDEX**). On a singularity, this may also apply to non-natural weapons.
+The character's attacks carry a lingering corruption.  
+**Effect:** When hit by the character's natural weapons, targets gain the Poison condition with a number of charges equal to the action's roll score. The target may attempt a Toughness test to reduce the charges (Difficulty based on **mCON** instead of **mDEX**). On a singularity, this may also apply to non-natural weapons.
 
 ---
 
 ### Malicious Expertise {#cult-malicious-expertise}
 The character excels at inflicting lasting harm and debilitation.  
-**Effect:** The character’s Expertise is increased by **+1** when applying conditions.
+**Effect:** The character's Expertise is increased by **+1** when applying conditions.
 
-## Particularities: Demie
-
-## Physical Traits & Mobility
+---
 
 ### Quick Feets {#birth-quick-feets}
 The character moves with exceptional agility and lightness.  
@@ -2970,13 +2950,13 @@ The character barely disturbs the ground beneath them.
 ---
 
 ### Long Reach {#birth-reach}
-The character’s movements and strikes extend farther than expected.  
+The character's movements and strikes extend farther than expected.  
 **Effect:** Reach is increased by **+1** for all weapons.
 
 ---
 
 ### Excellent Speed {#birth-speed}
-The character’s raw speed surpasses normal limits.  
+The character's raw speed surpasses normal limits.  
 **Effect:** Speed is increased by **+2**.
 
 ---
@@ -2993,8 +2973,6 @@ The character dances through danger with instinctive grace.
 
 ---
 
-## Awareness & Perception
-
 ### All Senses Out {#birth-all-senses-out}
 The character remains instinctively aware of their surroundings at all times.  
 **Effect:** The character may always attempt an Acuity test regardless of circumstances (including sleep). They automatically gain access to an appropriate perception test without requiring an Intuition test to notice that something is wrong.
@@ -3002,14 +2980,14 @@ The character remains instinctively aware of their surroundings at all times.
 ---
 
 ### All Eyes on Me {#birth-all-eyes-on-me}
-The character’s presence is impossible to ignore.  
+The character's presence is impossible to ignore.  
 **Effect:** The character cannot be forgotten. In confrontations, they may attempt one free emotion-based action per target (area-of-effect actions count each target).
 
 ---
 
 ### Karmic Vision {#cult-karmic-vision}
 The character perceives the hidden currents of fate and morality.  
-**Effect:** The character may learn and use the **Sixth Sense**, allowing them to perceive a target’s alignment, persona (temperament and character), and current resources.
+**Effect:** The character may learn and use the **Sixth Sense**, allowing them to perceive a target's alignment, persona (temperament and character), and current resources.
 
 ---
 
@@ -3019,16 +2997,14 @@ The character perceives how others perceive.
 
 ---
 
-## Durability & Recovery
-
 ### Living Wood {#birth-wood-skin}
-The character’s skin is composed of bark and living wood.  
+The character's skin is composed of bark and living wood.  
 **Effect:** The character gains **1 Resistance**, **3 Absorption**, and **1 Protection** at all times, but is vulnerable to fire.
 
 ---
 
 ### Natural Armor {#birth-natural-armor}
-The character’s body provides inherent protection.  
+The character's body provides inherent protection.  
 **Effect:** The character possesses **Category 1 natural armor**.
 
 ---
@@ -3040,13 +3016,13 @@ The character recovers with remarkable purity and efficiency.
 ---
 
 ### Natural Regeneration {#birth-natural-regeneration}
-The character’s endurance replenishes continuously.  
+The character's endurance replenishes continuously.  
 **Effect:** The character recovers **2 Endurance (PE)** per round while in a scene. This recovery may generate Fatigue normally. Outside of scenes, Endurance returns to maximum unless the character chooses to prevent it to avoid Fatigue.
 
 ---
 
 ### Full Recovery {#birth-full-recovery}
-The character’s overall recovery capacity is exceptional.  
+The character's overall recovery capacity is exceptional.  
 **Effect:** Recovery is increased by **+2**.
 
 ---
@@ -3057,8 +3033,6 @@ The character endures strain longer than most.
 
 ---
 
-## Fortune, Chance & Flow
-
 ### Keep Best {#birth-keep-best}
 Luck favors the character even when fate is rewritten.  
 **Effect:** When rerolling dice through Karma or reroll effects, the character keeps the best result between the original and the new roll.
@@ -3066,7 +3040,7 @@ Luck favors the character even when fate is rewritten.
 ---
 
 ### Above Average {#birth-above-average}
-The character’s failures are rarely complete.  
+The character's failures are rarely complete.  
 **Effect:** Any die showing a **1** is treated as a **2** instead. This effect may trigger singularities normally and may be ignored voluntarily.
 
 ---
@@ -3083,8 +3057,6 @@ The character enters scenes already in motion.
 
 ---
 
-## Mind & Presence
-
 ### Cautious {#birth-cautious}
 The character avoids disastrous mistakes through careful restraint.  
 **Effect:** The critical failure threshold is increased by **5** (a failure of 15+ is required to trigger a critical failure).
@@ -3092,7 +3064,7 @@ The character avoids disastrous mistakes through careful restraint.
 ---
 
 ### Mind of Nature {#birth-favored-mind}
-The character’s mind is deeply attuned to natural patterns.  
+The character's mind is deeply attuned to natural patterns.  
 **Effect:** All mental attributes gain **+2**, while **Strength** and **Constitution** suffer a **–4 penalty**.
 
 ---
@@ -3104,14 +3076,14 @@ The character remains unmoved by emotional manipulation.
 ---
 
 ### Too Pretty To Hit {#birth-too-pretty-to-hit}
-The character’s allure disrupts hostile intent.  
+The character's allure disrupts hostile intent.  
 **Effect:** Defenses are increased by **+2** against enemies who may be attracted to the character, or **+3** if the target is actively seduced for the scene. Defenses are reduced by **–1** against others. Applies to both physical and mental situations.
 
 ---
 
 ### Guile {#birth-guiled-movement}
 The character instinctively compensates for their weaknesses.  
-**Effect:** The character’s lowest defenses are increased by **+2**.
+**Effect:** The character's lowest defenses are increased by **+2**.
 
 ---
 
@@ -3120,8 +3092,6 @@ The character anticipates retaliation.
 **Effect:** Defenses against counterattacks are increased by **+2**.
 
 ---
-
-## Craft & Ritual
 
 ### Totem Carving {#cult-totem-carving}
 The character carves symbolic totems infused with fortune.  
@@ -3142,9 +3112,9 @@ The character bears a meaningful tattoo tied to mastery.
 ---
 
 ### Improved Tattoo {#cult-improved-tattoo}
-The tattoo’s power is refined and intensified.  
+The tattoo's power is refined and intensified.  
 **Cost:** 1 PP  
-**Effect:** The exploit range of the tattoo’s skill is increased by **+1**, stackable up to a maximum final range of **6**.
+**Effect:** The exploit range of the tattoo's skill is increased by **+1**, stackable up to a maximum final range of **6**.
 
 ---
 
@@ -3160,11 +3130,9 @@ The character broadens their martial expertise.
 
 ---
 
-## Celestial & Supernatural
-
 ### Celestial Light {#birth-celestial-light}
-Sunlight sustains the character’s celestial nature.  
-**Effect:** After a few minutes of sunlight exposure, the character’s needs for sleep, food, and water are halved. Daily recovery requires only half the normal rest duration.
+Sunlight sustains the character's celestial nature.  
+**Effect:** After a few minutes of sunlight exposure, the character's needs for sleep, food, and water are halved. Daily recovery requires only half the normal rest duration.
 
 ---
 
@@ -3175,13 +3143,13 @@ A divine core shields the character from corruption and despair.
 ---
 
 ### Eternal Youth {#birth-eternal-youth}
-Time barely touches the character’s body.  
+Time barely touches the character's body.  
 **Effect:** Physical aging progresses at one year per ten years after reaching maturity, maintaining peak condition indefinitely.
 
 ---
 
 ### Flight Movement {#birth-flight-movement}
-The character’s aerial form is both swift and protected.  
+The character's aerial form is both swift and protected.  
 **Effect:** Allure is increased by **+2** while flying, and passive defense against all magic is increased by **+2**.
 
 ---
@@ -3211,10 +3179,8 @@ Celestials wield ideal-driven magic rooted in abstract virtues.
 
 ---
 
-## Draconic Heritage
-
 ### Chromatic Blood {#birth-chromatic-blood}
-The character’s blood carries latent chromatic energy.  
+The character's blood carries latent chromatic energy.  
 **Effect:** Each day, the character gains up to **5 + mEQU Chroma Points**, which may be spent to prevent Endurance loss.
 
 ---
@@ -3226,7 +3192,7 @@ The character resists energies tied to their chromatic nature.
 ---
 
 ### Surnatural Resistance {#birth-surnatural-resistance}
-The character’s resistances deepen beyond the mundane.  
+The character's resistances deepen beyond the mundane.  
 **Effect:** All natural resistances are upgraded from light to medium.
 
 ---
@@ -3251,7 +3217,7 @@ Chroma Points granted by **Chromatic Blood** may be spent to invoke **Dragonic P
 
 Dragonic Powers may be used at **spell level 0**, increased by **+1 spell level for every 4 character ranks**.
 
-Magical tools do not function properly with Dragonic Powers. However, the character may still add their **rank** to the power’s roll as if using an appropriate magical tool, regardless of the power’s level.
+Magical tools do not function properly with Dragonic Powers. However, the character may still add their **rank** to the power's roll as if using an appropriate magical tool, regardless of the power's level.
 
 The **Chroma Point cost** of a Dragonic Power is equal to the **minimum mana cost of a comparable spell** and **cannot be reduced by any means**. The **action difficulty** is also based on that same comparable spell.
 
@@ -3270,19 +3236,17 @@ Depending on the Drakkan type, Chroma Points may alternatively be spent as if th
 - **White:** Karma  
 - **Grey:** Spirituality
 
-## Particularities: Vermine
-
-## Survival & Endurance
+---
 
 ### High Natural Regeneration {#birth-high-natural-regeneration}
-The character’s body regenerates at an extreme rate, far beyond normal biological limits.  
+The character's body regenerates at an extreme rate, far beyond normal biological limits.  
 **Effect:** This functions as **Natural Regeneration**, but all recovered values are **doubled**.
 
 ---
 
 ### Reserve Stock {#birth-reserve-stock}
-The character’s body instinctively stores surplus energy for later use.  
-**Effect:** When resting, excess recovery may be stored at a **1:3 ratio**. Stored resources may reach up to **10% of the character’s current maximum**.
+The character's body instinctively stores surplus energy for later use.  
+**Effect:** When resting, excess recovery may be stored at a **1:3 ratio**. Stored resources may reach up to **10% of the character's current maximum**.
 
 ---
 
@@ -3297,8 +3261,6 @@ The character shrugs off strain more easily than others.
 **Effect:** Stress gained is always reduced by **1**.
 
 ---
-
-## Improvisation & Resourcefulness
 
 ### Oversized Tool Bearer {#birth-oversized-tool-bearer}
 The character can wield equipment far larger than what their size would normally allow.  
@@ -3330,8 +3292,6 @@ The character excels at reclaiming value from the aftermath of conflict.
 
 ---
 
-## Pain, Damage & Conditions
-
 ### Debt of Pain {#cult-debt-of-pain}
 The character temporarily defers suffering, pushing pain aside through sheer will.  
 **Effect:** Once per scene, when receiving damage, the character may use a reaction to ignore that damage for the duration of the scene. The ignored damage (before penetration or mitigation) is recorded. At the end of the scene, the character suffers the recorded damage as **piercing damage**, ignoring armor and protection. If an Endurance test is successful, this use does not count against the once-per-scene limit. Applies to both physical and mental damage.
@@ -3339,16 +3299,14 @@ The character temporarily defers suffering, pushing pain aside through sheer wil
 ---
 
 ### Strongness {#cult-strongness}
-The character’s physiology and mindset blunt harmful effects while amplifying beneficial ones.  
+The character's physiology and mindset blunt harmful effects while amplifying beneficial ones.  
 **Effect:** Negative conditions are applied with **2 fewer charges**, while positive conditions are applied with **2 additional charges**.
 
 ---
 
-## Social Pressure & Presence
-
 ### Scapegoats {#birth-scapegoats}
 The character instinctively draws blame and hostility onto themselves.  
-**Effect:** The character may attempt to take responsibility for a situation, redirecting blame toward themselves. Affected targets may resist with an **Insight save** against the character’s **mental expertise**. In confrontations, this requires a **Simple Action**. Enemies who ignore this effect and continue targeting their original objective suffer disadvantage on their tests. This functions as a provocation without requiring a direct opposed roll.
+**Effect:** The character may attempt to take responsibility for a situation, redirecting blame toward themselves. Affected targets may resist with an **Insight save** against the character's **mental expertise**. In confrontations, this requires a **Simple Action**. Enemies who ignore this effect and continue targeting their original objective suffer disadvantage on their tests. This functions as a provocation without requiring a direct opposed roll.
 
 ---
 
@@ -3359,13 +3317,13 @@ The character survives by redirecting danger rather than confronting it directly
 ---
 
 ### Courageous Presence {#cult-courageous-presence}
-The character’s resolve inspires others in tense situations.  
+The character's resolve inspires others in tense situations.  
 **Effect:** During confrontations, the character grants **+1 Morale**.
 
 ---
 
 ### Miserable Presence {#cult-miserable-presence}
-The character’s suffering is contagious, but fuels their own determination.  
+The character's suffering is contagious, but fuels their own determination.  
 **Effect:** During confrontations, the character grants **–1 Morale** to others, but gains **+2 Morale** themselves.
 
 ---
@@ -3376,13 +3334,9 @@ The character radiates oppression and despair.
 
 ---
 
-## Instinct & Excess
-
 ### Wild Urges {#cult-wild-urges}
-The character’s primal drives surge far beyond restraint.  
+The character's primal drives surge far beyond restraint.  
 **Effect:** Maximum **Rage**, **Guard**, or **Adrenaline** is increased by **+4**. At the start of a scene, the character may begin with **4 + mCON** points in one of these resources.
-
-## Particularities: Animosities
 
 ### Animosity {#cult-animosity}
 The character harbors a deep and enduring hatred toward a specific category of creatures, often rooted in ancestral conflicts, cultural trauma, or personal history. This animosity sharpens both their aggression and their vigilance when dealing with such foes.  
@@ -3407,8 +3361,8 @@ Animosity applies whenever the target clearly belongs to the selected category, 
 Instincts represent a form of heightened, almost supernatural perception focused on a specific topic. They do not provide precise information, but rather a constant, intuitive awareness.
 
 **Common Effects (all Instincts):**
-- The character gains **advantage on tests** made to track, spot, identify, or interpret their Instinct’s topic.
-- Within an area equal to **Attribute × 1 m²**, the character always knows whether a subject related to the Instinct’s topic is nearby, though not its exact location.
+- The character gains **advantage on tests** made to track, spot, identify, or interpret their Instinct's topic.
+- Within an area equal to **Attribute × 1 m²**, the character always knows whether a subject related to the Instinct's topic is nearby, though not its exact location.
 - The governing Attribute is defined by the Instinct and is either **Wisdom** or **Cunning**.
 
 ---
@@ -3432,7 +3386,7 @@ The character instinctively senses figures of authority, dominance, or influence
 ---
 
 ### Survival Instincts {#cult-survival-instincts}
-The character’s instincts constantly scan their surroundings for anything that could preserve life or avert imminent death.  
+The character's instincts constantly scan their surroundings for anything that could preserve life or avert imminent death.  
 **Topic:** Survival-relevant elements such as food, water, shelter, tools, and immediate solutions to mortal danger.
 
 ---
@@ -3519,7 +3473,7 @@ The character instinctively detects cold or calculated intent to cause harm.
 The character instinctively perceives the presence and dynamics of the weak, submissive, or easily manipulated.  
 **Topic:** Minions, underlings, powerless individuals, and highly influenceable people.
 
-## Particularities: Affinities
+---
 
 ### Affinity {#cult-affinity}
 An Affinity represents a situational harmony between the character and a specific environment, context, or mode of action. When conditions are met, the character performs more efficiently at critical moments.
@@ -3532,7 +3486,7 @@ When a test performed under the conditions of an Affinity results in a **Singula
 
 ---
 
-## Environmental Affinities
+#### Environmental Affinities
 
 - **Forest Affinity** — Lush, forested, or overgrown environments; urban gardens also qualify.  
 - **Plains Affinity** — Open plains or wide empty spaces; large areas devoid of notable scenery also qualify.  
@@ -3548,15 +3502,15 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Small Affinity** — Tight or cramped environments; applies only against **small targets (Size 5 or lower)**.  
 - **Darkness Affinity** — Very dark environments defined by strong shadow contrast, even during daytime.  
 - **Light Affinity** — Extremely bright environments with strong light contrast, including direct sunlight.  
-- **Calm Affinity** — Silent and calm environments; any noise, including the character’s own, breaks the condition.  
+- **Calm Affinity** — Silent and calm environments; any noise, including the character's own, breaks the condition.  
 - **Road Affinity** — Travel situations, journeys, nomadic movement, or being “on the road.”  
 - **Dream Affinity** — Dreamscapes and oneiric environments.  
 - **Field Affinity** — Large-scale battlefields involving multiple groups and widespread conflict.  
-- **Origin-Specific Environment Affinity** — An environment strongly tied to the character’s origin or culture.
+- **Origin-Specific Environment Affinity** — An environment strongly tied to the character's origin or culture.
 
 ---
 
-## Situational & Behavioral Affinities
+#### Situational & Behavioral Affinities
 
 - **Pack Affinity** — Presence of nearby allies.  
 - **Barehands Affinity** — Actions performed unarmed or using natural weapons.  
@@ -3585,18 +3539,18 @@ When a test performed under the conditions of an Affinity results in a **Singula
 
 ---
 
-## Combat Affinities
+#### Combat Affinities
 
 - **Unarmored Affinity** — Combat actions performed while wearing no armor (natural armor does not count).  
 - **Wounded Affinity** — Combat actions targeting a wounded opponent (beyond superficial scratches).  
 - **Pristine Affinity** — Combat actions while all primary resources are at maximum, including Endurance.  
-- **Slow Affinity** — Combat actions against a single target performed after that target’s turn.  
-- **Quick Affinity** — Combat actions against a single target performed before that target’s turn.  
+- **Slow Affinity** — Combat actions against a single target performed after that target's turn.  
+- **Quick Affinity** — Combat actions against a single target performed before that target's turn.  
 - **Resistance Affinity** — Defensive actions.
 
 ---
 
-## Material & Craft Affinities
+#### Material & Craft Affinities
 
 - **Metal Affinity** — Actions involving metal work, identification, or observation.  
 - **Stone Affinity** — Actions involving stone or rock.  
@@ -3608,10 +3562,10 @@ When a test performed under the conditions of an Affinity results in a **Singula
 
 ---
 
-## Knowledge & Technique Affinities
+#### Knowledge & Technique Affinities
 
 - **Knowledge Affinity** — Actions involving knowledge or learning.  
-- **Code Affinity** — Actions aligned with the character’s personal code of honor.  
+- **Code Affinity** — Actions aligned with the character's personal code of honor.  
 - **Altitude Affinity** — Actions performed from a height relative to the target or objective.  
 - **Repair Affinity** — Actions aimed at repairing objects or structures.  
 - **Arcane Affinity** — Actions involving arcane principles.  
@@ -3621,7 +3575,7 @@ When a test performed under the conditions of an Affinity results in a **Singula
 
 ---
 
-## Risk & Conflict Affinities
+#### Risk & Conflict Affinities
 
 - **Thievery Affinity** — Actions involving illegal or illicit activities.  
 - **Food Affinity** — Actions involving food preparation, acquisition, or consumption.  
