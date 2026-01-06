@@ -521,6 +521,7 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
 - [Poison Affinity](#cult-affinity)
 - [Art Affinity](#cult-affinity)
 - [Spirit Tongue](#cult-spirit-tongue)
+- [Soiled Soul](#birth-soiled-soul)
 - [Shadow Walker](#cult-shadow-walker) // [Cantrips](#cult-cantrips)
 
 <div class="page-break"></div>
@@ -2401,12 +2402,12 @@ Humans learn quickly through experience, adapting faster than most to new challe
 
 ---
 
-## Auras {#cult-auras}
+### Auras {#cult-auras}
 
 An Aura represents a natural human excellence in a specific type of situation.  
 When an Aura applies, the character's **natural Prowess** for the relevant test is increased by **+2**, allowing the expenditure of up to **2 PC** to gain up to **+2 adjustments**.  
 
-### Singularities-Based Auras
+#### Singularities-Based Auras
 
 | Aura | Applies When the Test… |
 |-----|------------------------|
@@ -2419,9 +2420,7 @@ When an Aura applies, the character's **natural Prowess** for the relevant test 
 | **Altruism** | Benefits others but not the character |
 | **Audacity** | Is performed against a figure of authority (in combat, only the leader qualifies) |
 
----
-
-### Save-Based Auras
+#### Save-Based Auras
 
 | Aura | Associated Save |
 |-----|------------------|
@@ -2434,9 +2433,7 @@ When an Aura applies, the character's **natural Prowess** for the relevant test 
 | **Adverseness** | Opposition |
 | **Authority** | Prestige (first contact with NPCs only) |
 
----
-
-### Skill Group-Based Auras
+#### Skill Group-Based Auras
 
 | Aura | Applies To |
 |-----|------------|
@@ -2526,6 +2523,12 @@ When nothing about the character stands out, their presence slips easily from me
 ### Shadow Walker {#cult-shadow-walker}
 The character blends instinctively with shadows, moving unseen where others could not.  
 **Effect:** The character may attempt to hide in conditions that would normally make hiding impossible, except in completely bare and well-lit spaces. Under favorable conditions, hiding attempts are made with advantage. In combat, menace may be halved if the effect is activated.
+
+---
+
+### Soiled Soul {#birth-soiled-soul}
+The character’s soul has been permanently tainted, bearing scars that cannot be fully cleansed. This corruption does not dominate them outright, but it leaves a lingering imprint that makes them more tolerant—and more vulnerable—to its influence.  
+**Effect:** The character’s maximum Corruption threshold is increased by **+2**.
 
 ---
 
@@ -3338,6 +3341,8 @@ The character radiates oppression and despair.
 The character's primal drives surge far beyond restraint.  
 **Effect:** Maximum **Rage**, **Guard**, or **Adrenaline** is increased by **+4**. At the start of a scene, the character may begin with **4 + mCON** points in one of these resources.
 
+---
+
 ### Animosity {#cult-animosity}
 The character harbors a deep and enduring hatred toward a specific category of creatures, often rooted in ancestral conflicts, cultural trauma, or personal history. This animosity sharpens both their aggression and their vigilance when dealing with such foes.  
 **Effect:** The character gains a **+1 bonus to all battle tests** aimed at **attacking**, **defending**, or **applying tactical moves against** targets belonging to the chosen creature type.  
@@ -3484,8 +3489,6 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - Multiple Affinities may apply to the same test and can stack.
 - Affinities only apply when the fictional conditions are clearly met, as determined by the GM.
 
----
-
 #### Environmental Affinities
 
 - **Forest Affinity** — Lush, forested, or overgrown environments; urban gardens also qualify.  
@@ -3507,8 +3510,6 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Dream Affinity** — Dreamscapes and oneiric environments.  
 - **Field Affinity** — Large-scale battlefields involving multiple groups and widespread conflict.  
 - **Origin-Specific Environment Affinity** — An environment strongly tied to the character's origin or culture.
-
----
 
 #### Situational & Behavioral Affinities
 
@@ -3537,8 +3538,6 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Selfishness Affinity** — Actions that benefit only the character, even in the long term.  
 - **Community Affinity** — Actions that benefit others but not the character.
 
----
-
 #### Combat Affinities
 
 - **Unarmored Affinity** — Combat actions performed while wearing no armor (natural armor does not count).  
@@ -3547,8 +3546,6 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Slow Affinity** — Combat actions against a single target performed after that target's turn.  
 - **Quick Affinity** — Combat actions against a single target performed before that target's turn.  
 - **Resistance Affinity** — Defensive actions.
-
----
 
 #### Material & Craft Affinities
 
@@ -3560,8 +3557,6 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Poison Affinity** — Actions involving poisons, venoms, or toxic substances.  
 - **Wood Affinity** — Actions involving wood.
 
----
-
 #### Knowledge & Technique Affinities
 
 - **Knowledge Affinity** — Actions involving knowledge or learning.  
@@ -3572,8 +3567,6 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Science Affinity** — Actions involving scientific methods or reasoning.  
 - **Technology Affinity** — Actions involving technological devices or systems.  
 - **Magic Affinity** — Actions involving magical effects or spellcasting.
-
----
 
 #### Risk & Conflict Affinities
 
@@ -3588,3 +3581,29 @@ When a test performed under the conditions of an Affinity results in a **Singula
 - **Adversity Affinity** — Actions with very low objective chances of success; applies when Difficulty is **20+**.  
 - **Escape Affinity** — Actions aimed at fleeing or avoiding danger.  
 - **Treachery Affinity** — Actions involving deception, cheating, or betrayal.
+
+---
+
+### Dark Surge {#birth-dark-surge}
+A dark shard dwells within dark elves, a suffocating echo that dims the natural glow of life in their soul. This shadow is present from birth but remains dormant until adolescence, when it begins to actively consume its host. At that age, dark elven youths are inevitably claimed—by consent or by force—by the secretive organization that governs their people and teaches them how to survive with this inner darkness. When mastered, the shard grants terrifying efficiency; when neglected, it leads swiftly to ruin.
+
+**Effect:**  
+The character gains an initial **+2 bonus to Initiative**.
+
+After each **Long Rest**, once all normal recoveries have been applied, the character gains **1d8 Corruption**. The character may then attempt a **Determination save** against a Difficulty equal to their current **Shadow Threshold** (0 by default).
+
+The result of this save modifies the Corruption gained:
+- **Critical Success:** No Corruption gained  
+- **Success:** Corruption gained is reduced by **50%**  
+- **Failure:** Full Corruption gained  
+- **Critical Failure:** Corruption gained is increased by **50%**
+
+All values are rounded **up**.
+
+After resolving this test, the character’s **Shadow Threshold increases by 1**.
+
+Each time the character participates in a **Confrontation**, their Shadow Threshold also increases by **1**.
+
+If the character dies as a result of Corruption, they do not perish normally. Instead, they transform into a **Creature of Shadow**, an aberration of overwhelming violence and power—an outcome greatly feared by all who know of the Dark Surge.
+
+To mitigate the Dark Surge, the character may consume a dose of **Thaïs Flowers**, reducing their Shadow Threshold by **1d8**. Each dose costs **1 gold piece**.
