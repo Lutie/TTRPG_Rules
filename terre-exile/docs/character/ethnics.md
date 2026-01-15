@@ -6,11 +6,14 @@ icon: material/label
 
 ## Rules
 
-**Strong attributes**: List the attributes in which this ethnic excels. The player selects two of these attributes to receive a free boost.
-**Weak attributes**: List the attributes in which this ethnic is naturally disadvantaged. The player may choose one weak attribute to voluntarily accept in order to gain one additional boost from the strong attribute list.
-**Birth attributes**: List the variations of the secondary attributes for this ethnic. A valid set of birth attributes must have a total value of 60 or less—never exceeding this limit.
-**Birth particularities:** This section lists all the particularities a character gains from their race. Some races share most, or even all, of these particularities — such as Humans, Elves, or Dwarves — while others differ more significantly. In some cases, a “race” is more a conceptual or semantic category than a strict biological lineage, which explains why shared traits may be limited.  
-**Cultural particularities:** This section lists all the particularities a character gains from their ethnicity. Ethnic groups belonging to the same race usually follow a shared structural pattern in how these particularities are distributed, but the nature and meaning of those particularities can differ greatly from one culture to another. This content is what truly defines the identity and role of each ethnicity. For example, Human cultures express themselves through auras, Ferals through instincts and totem affinities, while Elves commonly manifest minor innate magics (cantrips). The framework may be shared, but the expression is fundamentally different. If a character is raised within a culture other than their birth culture, they may gain the cultural particularities of their adopted culture instead. This choice is always subject to the GM's approval and should serve narrative and role-playing purposes, not mechanical optimization or min-maxing.
+**Strong attributes**: List the attributes in which this ethnic excels. The player selects two of these attributes to receive a free boost.    
+**Weak attributes**: List the attributes in which this ethnic is naturally disadvantaged. The player may choose one weak attribute to   voluntarily accept in order to gain one additional boost from the strong attribute list.    
+**Birth attributes**: List the variations of the secondary attributes for this ethnic. A valid set of birth attributes must have a total   value of 60 or less—never exceeding this limit.    
+**Birth particularities:** This section lists all the particularities a character gains from their race. Some races share most, or even all, of these particularities — such as Humans, Elves, or Dwarves — while others differ more significantly. In some cases, a “race” is more a conceptual or semantic category than a strict biological lineage, which explains why shared traits may be limited.    
+**Cultural particularities:** This section lists all the particularities a character gains from their ethnicity. Ethnic groups belonging to the same race usually follow a shared structural pattern in how these particularities are distributed, but the nature and meaning of those particularities can differ greatly from one culture to another. This content is what truly defines the identity and role of each ethnicity. For example, Human cultures express themselves through auras, Ferals through instincts and totem affinities, while Elves commonly manifest minor innate magics (cantrips). The framework may be shared, but the expression is fundamentally different. If a character is raised within a culture other than their birth culture, they may gain the cultural particularities of their adopted culture instead. This choice is always subject to the GM's approval and should serve narrative and role-playing purposes, not mechanical optimization or min-maxing.  
+**Skills:** This section lists all skills for which the character may choose one specialty. When a character uses a skill with its chosen specialty, the sum of the dice cannot be lower than 8. If the total result of the roll is below 8, it is treated as 8 instead. Singularities trigger normally based on the actual dice faces rolled; only the final total is modified by this rule.  
+
+<div class="page-break"></div>
 
 ## Human ethnics
 
@@ -29,16 +32,16 @@ The Emperians are a cultured and exemplary urban society known for their advance
 
 **Skills:** Erudition, Persuasion, Spellcrafting, Technology, Negotiation, Communication, Craftsmanship, Investigation.  
 **Personality traits:** Organized, Ambitious, Courteous, Erudite (Bright), Progressive, Calculative, Confident, Hardworking, Principled, Open-minded.  
-
-**Strong attributes:** Intelligence, Cunning, Magic or Logic  
-    __Intelligence__ – Their society revolves around scholarship, strategy, refined arts, and academic institutions, making intellectual aptitude a cultural cornerstone.
-    __Cunning__ – Emperians navigate politics, diplomacy, and urban intrigue, requiring sharp minds and the ability to read complex social dynamics.
-    __Magic or Logic__ – Their cities seamlessly blend magical theory with scientific innovation; mastering either discipline is a sign of achievement and prestige.
-**Weak attributes:** None  
+  
+**Strong attributes:** Intelligence, Cunning, Magic or Logic    
+    −− __Intelligence__ – Their society revolves around scholarship, strategy, refined arts, and academic institutions, making intellectual aptitude a cultural cornerstone.  
+    −− __Cunning__ – Emperians navigate politics, diplomacy, and urban intrigue, requiring sharp minds and the ability to read complex social dynamics.  
+    −− __Magic or Logic__ – Their cities seamlessly blend magical theory with scientific innovation; mastering either discipline is a sign of achievement and prestige.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10
 **Allegiance:** Arcane, Magic, Steam, Technology, Destiny, or None  
 **Living environment:** Urban, City-dwelling, Rural  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -70,15 +73,15 @@ Kjeldorians are master hunters and survivalists who thrive in tundra and cold ar
 
 **Skills:** Hunting, Survival, Athletics, Throw, Endurance, Melee, Defense, Tactical.  
 **Personality traits:** Fearless, Hardworking, Stoic, Loyal, Cautious, Resourceful, Disciplined, Independent, Cold, Patient.  
-
-**Strong attributes:** Strength, Perception  
-    __Strength__ – Life in tundras and frozen wilderness demands powerful bodies capable of enduring harsh terrain and hunting dangerous prey.
-    __Perception__ – Surviving in blizzards, tracking beasts, and navigating white landscapes requires acute senses and an instinct for detecting hidden threats.
-**Weak attributes:** None  
+  
+**Strong attributes:** Strength, Perception    
+    −− __Strength__ – Life in tundras and frozen wilderness demands powerful bodies capable of enduring harsh terrain and hunting dangerous prey.  
+    −− __Perception__ – Surviving in blizzards, tracking beasts, and navigating white landscapes requires acute senses and an instinct for detecting hidden threats.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 10~12, Height 10~12, Ego 10~11, Appearance 8~10, Luck 8~10, Balance 9~10
 **Allegiance:** Nature, Destiny, or None  
 **Living environment:** Desertic, Rural, Urban  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -110,15 +113,15 @@ The Attilians are a hardy, resilient people who inhabit arid, desert-like region
 
 **Skills:** Survival, Endurance, Melee, Tactical, Hunting, Athletics, Brawl, Craftsmanship.  
 **Personality traits:** Determined (Willing), Tough (Unshakeable), Demanding, Reserved (Discreet), Principled, Cautious, Enduring (Hardworking), Loyal, Serious, Conservative.  
-
-**Strong attributes:** Constitution, Cunning  
-    __Constitution__ – Their bodies are shaped by relentless heat, scarcity, and arduous travel; endurance is both cultural and biological.
-    __Cunning__ – Trade routes, negotiations, clan politics, and desert survival reward cleverness, adaptability, and shrewd decision-making.
-**Weak attributes:** None  
+  
+**Strong attributes:** Constitution, Cunning    
+    −− __Constitution__ – Their bodies are shaped by relentless heat, scarcity, and arduous travel; endurance is both cultural and biological.  
+    −− __Cunning__ – Trade routes, negotiations, clan politics, and desert survival reward cleverness, adaptability, and shrewd decision-making.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 10~11, Height 10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~11
 **Allegiance:** Destiny or None  
 **Living environment:** Desertic, Rural, Urban  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -147,15 +150,15 @@ Rosalians are a highly spiritual, traditional people with strong beliefs and cus
 
 **Skills:** Meditation, Spellcasting, Negotiation, Erudition, Persuasion, Survival, Craftsmanship, Communication.  
 **Personality traits:** Calm, Courteous, Wise (Bright), Principled, Modest, Patient, Calculative, Disciplined, Compassionate, Organized.  
-
-**Strong attributes:** Dexterity, Wisdom  
-    __Dexterity__ – Their refined martial arts, craftsmanship, and ceremonial disciplines demand precision, elegance, and subtlety in movement.
-    __Wisdom__ – Rosalian traditions emphasize meditation, serenity, and philosophical thought, cultivating deep intuition and balanced judgment.
-**Weak attributes:** None  
+  
+**Strong attributes:** Dexterity, Wisdom    
+    −− __Dexterity__ – Their refined martial arts, craftsmanship, and ceremonial disciplines demand precision, elegance, and subtlety in movement.  
+    −− __Wisdom__ – Rosalian traditions emphasize meditation, serenity, and philosophical thought, cultivating deep intuition and balanced judgment.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 10~11, Appearance 10~11, Luck 10~11, Balance 9~10
 **Allegiance:** Destiny or None  
 **Living environment:** Urban, City-dwelling, Rural  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -184,15 +187,15 @@ A militarized people with a centuries-long history of warfare, the Albalonians a
 
 **Skills:** Melee, Tactical, Endurance, Defense, Athletics, Brawl, Craftsmanship, Negotiation.  
 **Personality traits:** Aggressive, Fearless, Loyal, Stubborn, Competitive (Ambitious), Leader, Disciplined, Demanding, Impatient, Community-minded.  
-
-**Strong attributes:** Strength/Agility/Dexterity (choose one), Willpower  
-    __Strength / Agility / Dexterity__ – Albalonians train from childhood for war; their culture produces warriors of every style, from brute force to swift skirmishers to precise duelists.
-    __Willpower__ – Generations of conflict forged unbreakable resolve; they endure hardship, command respect, and never yield on the battlefield.
-**Weak attributes:** _This information has not yet been written down_  
+  
+**Strong attributes:** Strength/Agility/Dexterity (choose one), Willpower    
+    −− __Strength / Agility / Dexterity__ – Albalonians train from childhood for war; their culture produces warriors of every style, from brute force to swift skirmishers to precise duelists.  
+    −− __Willpower__ – Generations of conflict forged unbreakable resolve; they endure hardship, command respect, and never yield on the battlefield.  
+**Weak attributes:** _This information has not yet been written down_    
 **Birth attributes:** Stature 10~11, Height 10~11, Ego 9~11, Appearance 9~10, Luck 9~10, Balance 9~11
 **Allegiance:** Destiny or None  
 **Living environment:** City-dwelling, Rural  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -221,15 +224,15 @@ Morrians are resilient, clan-based people who inhabit vast, desolate, and sparse
 
 **Skills:** Rural Life, Endurance, Craftsmanship, Brawl, Melee, Survival, Defense, Tactical.  
 **Personality traits:** Hardworking, Community-minded, Calm, Resourceful, Patient, Conservative, Cautious, Modest, Principled, Serious.  
-
-**Strong attributes:** Agility, Perception  
-    __Agility__ – Working in fields, forests, and harsh rural terrain develops nimble, practical movements and an instinctive sense of bodily control.
-    __Perception__ – As trackers, farmers, hunters, and guardians of isolated lands, Morrians rely on watchfulness and sharp awareness of their surroundings.
-**Weak attributes:** None  
+  
+**Strong attributes:** Agility, Perception    
+    −− __Agility__ – Working in fields, forests, and harsh rural terrain develops nimble, practical movements and an instinctive sense of bodily control.  
+    −− __Perception__ – As trackers, farmers, hunters, and guardians of isolated lands, Morrians rely on watchfulness and sharp awareness of their surroundings.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 9~10, Height 10~11, Ego 9~10, Appearance 9~10, Luck 9~11, Balance 10~11
 **Allegiance:** Destiny or None  
 **Living environment:** Rural, City-dwelling  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -256,15 +259,15 @@ This people of solid mountain people, vigorous and enduring, was shaped by the h
 
 **Skills:** Endurance, Melee, Defense, Craftsmanship, Athletics, Survival, Tactical, Brawl.  
 **Personality traits:** Stoic, Proud (Pretentious), Fearless, Loyal, Hardworking, Conservative, Unshakeable, Serious, Disciplined, Cautious.  
-
-**Strong attributes:** Constitution, Willpower  
-    __Constitution__ – Their mountain lives, stonecraft traditions, and endurance rituals produce exceptionally sturdy and resilient bodies.
-    __Willpower__ – Titans are known for their iron discipline, unshakeable courage, and refusal to yield under hardship or fear.
-**Weak attributes:** None  
+  
+**Strong attributes:** Constitution, Willpower    
+    −− __Constitution__ – Their mountain lives, stonecraft traditions, and endurance rituals produce exceptionally sturdy and resilient bodies.  
+    −− __Willpower__ – Titans are known for their iron discipline, unshakeable courage, and refusal to yield under hardship or fear.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 10~12, Height 9~10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10~11
 **Allegiance:** Destiny or None  
 **Living environment:** City-dwelling, Rural, Mountainous  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -293,16 +296,16 @@ Bretonians are a technologically advanced society known for their intellectual p
 
 **Skills:** Technology, Craftsmanship, Investigation, Tactical, Communication, Spellcrafting, Negotiation, Persuasion.  
 **Personality traits:** Curious, Organized, Progressive, Erudite (Bright), Calculative, Principled, Confident, Hardworking, Open-minded, Calm.  
-
-**Strong attributes:** Intelligence, Cunning, Logic  
-    __Intelligence__ – Their society values invention, innovation, and theory above all, fostering brilliant analytical and academic minds.
-    __Cunning__ – Navigating trade, technology, and complex social or scholarly institutions requires strategic thinking and adaptability.
-    __Logic__ – Bretonians excel at structured reasoning, technical mastery, and problem-solving, blending science with magical engineering.
-**Weak attributes:** None  
+  
+**Strong attributes:** Intelligence, Cunning, Logic    
+    −− __Intelligence__ – Their society values invention, innovation, and theory above all, fostering brilliant analytical and academic minds.  
+    −− __Cunning__ – Navigating trade, technology, and complex social or scholarly institutions requires strategic thinking and adaptability.  
+    −− __Logic__ – Bretonians excel at structured reasoning, technical mastery, and problem-solving, blending science with magical engineering.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 10, Height 10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10
 **Allegiance:** Science, Technology, or None  
 **Living environment:** Urban or City-dwelling  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -327,16 +330,16 @@ This (currently extinguished) people are distant relatives to selunian elves.
 
 **Skills:** _This information has not yet been written down_    
 **Personality traits:** Elegant (Courteous), Erudite (Bright), Patient, Disciplined, Modest, Calm, Principled, Reserved (Secretive), Open-minded, Serious.  
-
-**Strong attributes:** Wisdom, Willpower, Magic  
-    __Wisdom__ – As a contemplative, mystical people, Aurians possess deep spiritual insight and a profound understanding of magical harmony.
-    __Willpower__ – Their rituals and traditions demand intense discipline, emotional control, and inner strength.
-    __Magic__ – Aurians carry ancient magical lineage, granting them natural affinity for arcane arts and metaphysical perception.
-**Weak attributes:** None  
+  
+**Strong attributes:** Wisdom, Willpower, Magic    
+    −− __Wisdom__ – As a contemplative, mystical people, Aurians possess deep spiritual insight and a profound understanding of magical harmony.  
+    −− __Willpower__ – Their rituals and traditions demand intense discipline, emotional control, and inner strength.  
+    −− __Magic__ – Aurians carry ancient magical lineage, granting them natural affinity for arcane arts and metaphysical perception.  
+**Weak attributes:** None    
 **Birth attributes:** Stature 8~9, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~11, Balance 8~10
 **Allegiance:** Arcane, Magic, None  
 **Living environment:** Urban or City-dwelling  
-
+  
 **Birth particularities: Humans**
 - [Examplary](#birth-examplary)
 - [Human Ingenuity](#birth-human-ingenuity)
@@ -367,17 +370,17 @@ The Sylvanians are forest-dwelling elves who live in harmony with nature. They r
 
 **Skills:** Survival, Hunting, Spellcasting, Negotiation, Craftsmanship, Subterfuge, Melee, Defense.  
 **Personality traits:** Curious, Cautious, Disciplined, Community-minded, Serious, Patient, Resourceful, Loyal, Secretive, Alert.  
-
-**Strong attributes:** Perception (x2), Agility, Wisdom  
-    __Perception__ – Life in dense forests trains them to read subtle cues: tracks in moss, wind changes, distant animal movement. Their senses are their survival.
-    __Agility__ – Growing up climbing roots, leaping between branches, and moving silently through uneven terrain gives them unmatched natural agility.
-    __Wisdom__ – Their harmony with the forest fosters introspection, patience, and instinctive understanding of living things.
-**Weak attributes:** Strength  
-    __Strength__ – Their light, slender builds favor precision and speed over physical power; brute force is rarely part of their lifestyle.
+  
+**Strong attributes:** Perception (x2), Agility, Wisdom    
+    −− __Perception__ – Life in dense forests trains them to read subtle cues: tracks in moss, wind changes, distant animal movement. Their senses are their survival.  
+    −− __Agility__ – Growing up climbing roots, leaping between branches, and moving silently through uneven terrain gives them unmatched natural agility.  
+    −− __Wisdom__ – Their harmony with the forest fosters introspection, patience, and instinctive understanding of living things.  
+**Weak attributes:** Strength    
+    −− __Strength__ – Their light, slender builds favor precision and speed over physical power; brute force is rarely part of their lifestyle.  
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 10~11, Appearance 10~12, Luck 9~11, Balance 10~12
 **Allegiance:** Nature, Source, or None  
 **Living environment:** Rural or Forest  
-
+  
 **Birth particularities: Elven**
 - [Ancestral](#birth-ancestral)
 - [Far Sight](#birth-far-sight)
@@ -410,18 +413,18 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
 
 **Skills:** Spellcasting, Erudition, Persuasion, Craftsmanship, Negotiation, Spellcrafting, Meditation, Investigation.  
 **Personality traits:** Ambitious, Organized, Conservative, Courteous, Critical, Serious, Leader, Measured, Principled, Calm.  
-
-**Strong attributes:** Charisma, Willpower, Magic x2  
-    __Charisma__ – Their poise, education, and refined confidence give them an aura of effortless authority and elegance.
-    __Willpower__ – Selunian discipline is intense; magical study and societal expectations cultivate unwavering mental focus.
-    __Magic__ – Arcane theory, ritual practice, and cultural reliance on sorcery give them a profound innate connection to magic, far above other elves.
-**Weak attributes:** Strength, Constitution  
-    __Strength__ – Sheltered scholarly lives and delicate frames leave them physically fragile.
-    __Constitution__ – Reliance on magic rather than physical exertion makes their bodies less resilient to hardship and disease.
+  
+**Strong attributes:** Charisma, Willpower, Magic x2    
+    −− __Charisma__ – Their poise, education, and refined confidence give them an aura of effortless authority and elegance.  
+    −− __Willpower__ – Selunian discipline is intense; magical study and societal expectations cultivate unwavering mental focus.  
+    −− __Magic__ – Arcane theory, ritual practice, and cultural reliance on sorcery give them a profound innate connection to magic, far above other elves.  
+**Weak attributes:** Strength, Constitution    
+    −− __Strength__ – Sheltered scholarly lives and delicate frames leave them physically fragile.  
+    −− __Constitution__ – Reliance on magic rather than physical exertion makes their bodies less resilient to hardship and disease.  
 **Birth attributes:** Stature 7~8, Height 8~9, Ego 10~12, Appearance 11~13, Luck 10~11, Balance 8~10  
 **Allegiance:** Magic, Arcane, or None  
 **Living environment:** Urban, City-dwelling, or Rural  
-
+  
 **Birth particularities: Elven**
 - [Ancestral](#birth-ancestral)
 - [Favored Recovery](#birth-favored-recovery-mana) : Mana (PM)
@@ -452,18 +455,18 @@ Thalassians are water-oriented elves who feel at home near rivers, lakes, and oc
 
 **Skills:** Survival, Craftsmanship, Spellcrafting, Negotiation, Navigation, Swimming, Persuasion, Defense.  
 **Personality traits:** Friendly, Opportunistic, Adventurous, Resourceful, Energetic, Flexible (Rebellious), Confident, Talkative (Loudmouth), Curious, Pragmatic (Demanding).  
-
-**Strong attributes:** Agility, Intelligence, Wisdom, Perception  
-    __Agility__ – Swimming, diving, and balancing on shifting decks develop fluid, precise movement.
-    __Intelligence__ – Navigation, trade, and maritime adaptation build sharp analytical minds.
-    __Wisdom__ – Reading tides, predicting storms, and understanding foreign cultures cultivate practical wisdom.
-    __Perception__ – Life at sea heightens awareness of subtle dangers: currents, sounds, silhouettes beneath the waves.
-**Weak attributes:** Strength  
-    __Strength__ – Their bodies favor flexibility and speed—powerful strokes in water rather than heavy lifting on land.
+  
+**Strong attributes:** Agility, Intelligence, Wisdom, Perception    
+    −− __Agility__ – Swimming, diving, and balancing on shifting decks develop fluid, precise movement.  
+    −− __Intelligence__ – Navigation, trade, and maritime adaptation build sharp analytical minds.  
+    −− __Wisdom__ – Reading tides, predicting storms, and understanding foreign cultures cultivate practical wisdom.  
+    −− __Perception__ – Life at sea heightens awareness of subtle dangers: currents, sounds, silhouettes beneath the waves.  
+**Weak attributes:** Strength    
+    −− __Strength__ – Their bodies favor flexibility and speed—powerful strokes in water rather than heavy lifting on land.  
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 9~10, Appearance 11~13, Luck 10~11, Balance 10~12  
 **Allegiance:** Magic or None  
 **Living environment:** Marine, City-dwelling, or Rural  
-
+  
 **Birth particularities: Elven**
 - [Ancestral](#birth-ancestral)
 - [Favored Recovery](#birth-favored-recovery-chi) : Chi (PC)
@@ -496,20 +499,20 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
 
 **Skills:** Melee, Subterfuge, Spellcasting, Brawl, Discretion, Tactical, Manipulation, Athletics.  
 **Personality traits:** Secretive, Calculative, Opportunistic, Disciplined, Intolerant, Critical, Ambitious, Stoic, Independent, Rebellious.  
-
-**Strong attributes:** Dexterity, Cunning, Agility, Charisma, Magic  
-    __Dexterity__ – Precision is essential for their arts, assassinations, and subtle crafts.
-    __Cunning__ – Eldrazian society encourages strategic thinking, manipulation, and adaptation to strict internal hierarchies.
-    __Agility__ – Their training emphasizes speed, stealth, and evasive combat techniques.
-    __Charisma__ – Whether beguiling or intimidating, their presence is intense and persuasive.
-    __Magic__ – Their lineage and rigorous teachings grant formidable arcane potential, often tied to shadow work.
-**Weak attributes:** Constitution, Wisdom  
-    __Constitution__ – The “dark heart” that shapes their nature strains body and spirit, creating inherent fragility.
-    __Wisdom__ – Emotional volatility and internal struggle hinder clarity and long-term judgment.
+  
+**Strong attributes:** Dexterity, Cunning, Agility, Charisma, Magic    
+    −− __Dexterity__ – Precision is essential for their arts, assassinations, and subtle crafts.  
+    −− __Cunning__ – Eldrazian society encourages strategic thinking, manipulation, and adaptation to strict internal hierarchies.  
+    −− __Agility__ – Their training emphasizes speed, stealth, and evasive combat techniques.  
+    −− __Charisma__ – Whether beguiling or intimidating, their presence is intense and persuasive.  
+    −− __Magic__ – Their lineage and rigorous teachings grant formidable arcane potential, often tied to shadow work.  
+**Weak attributes:** Constitution, Wisdom    
+    −− __Constitution__ – The “dark heart” that shapes their nature strains body and spirit, creating inherent fragility.  
+    −− __Wisdom__ – Emotional volatility and internal struggle hinder clarity and long-term judgment.  
 **Birth attributes:** Stature 7~9, Height 8~9, Ego 10~13, Appearance 11~13, Luck 8~10, Balance 6~9  
 **Allegiance:** Arcane or None  
 **Living environment:** Urban, City-dwelling, or Subterranean  
-
+  
 **Birth particularities: Elven**
 - [Ancestral](#birth-ancestral)
 - [Dark Surge](#birth-dark-surge)
@@ -541,18 +544,18 @@ Urganian Elves are reclusive, mystical, and fierce. They are known for their dee
 
 **Skills:** Spellcasting, Melee, Tactical, Persuasion, Defense, Meditation, Erudition, Subterfuge.  
 **Personality traits:** Serious, Disciplined, Conservative, Ascetic, Organized, Patient, Calm, Leader, Cold, Principled.  
-
-**Strong attributes:** Constitution, Perception, Wisdom, Magic  
-    __Constitution__ – Their austere, disciplined lifestyles forge bodies that can withstand extreme physical and spiritual trials.
-    __Perception__ – Meditation and introspective rituals sharpen their awareness of people, energies, and intentions.
-    __Wisdom__ – Urganian philosophy values self-mastery and contemplation, producing calm and thoughtful minds.
-    __Magic__ – Their mystical traditions and disciplined study make them potent wielders of controlled, focused magic.
-**Weak attributes:** Cunning  
-    __Cunning__ – Their rigid worldview leaves little room for deception or subtle political maneuvering; they act with direct intent rather than manipulation.
+  
+**Strong attributes:** Constitution, Perception, Wisdom, Magic    
+    −− __Constitution__ – Their austere, disciplined lifestyles forge bodies that can withstand extreme physical and spiritual trials.  
+    −− __Perception__ – Meditation and introspective rituals sharpen their awareness of people, energies, and intentions.  
+    −− __Wisdom__ – Urganian philosophy values self-mastery and contemplation, producing calm and thoughtful minds.  
+    −− __Magic__ – Their mystical traditions and disciplined study make them potent wielders of controlled, focused magic.  
+**Weak attributes:** Cunning    
+    −− __Cunning__ – Their rigid worldview leaves little room for deception or subtle political maneuvering; they act with direct intent rather than manipulation.  
 **Birth attributes:** Stature 8~10, Height 8~9, Ego 10~12, Appearance 9~11, Luck 8~10, Balance 10~12  
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
-
+  
 **Birth particularities: Elven**
 - [Ancestral](#birth-ancestral)
 - [Impervious](#birth-impervious)
@@ -587,12 +590,12 @@ Their dual identity sometimes creates inner conflict, leading them either to wan
 **Skills:** Inherits the skills of either parent (player's choice)  
 **Personality traits:** Inherits the personality traits list of both parent  
 
-**Strong attributes**: Inherits the strong attributes of either parent, chosen by the player.
-**Weak attributes**: Inherits the weak attributes of one parent, which does not need to be the same parent chosen for the strong attributes.
+**Strong attributes**: Inherits the strong attributes of either parent, chosen by the player.  
+**Weak attributes**: Inherits the weak attributes of one parent, which does not need to be the same parent chosen for the strong attributes.  
 **Birth attributes**: Inherits the range limits of both parents, using the lowest minimum and the highest maximum for each value.
 **Allegiance:** Inherits the allegiance list of both parent  
 **Living environment:** Inherits the living environment list of both parent  
-
+  
 **Birth particularities:** Inherits the birth particularities of either parent (player's choice)  
 **Cultural particularities:** Inherits the affinities of either parent (player's choice)  
 
@@ -617,19 +620,19 @@ Also called Brandawis.
 
 **Skills:** Craftsmanship, Technology, Persuasion, Erudition, Investigation, Negotiation, Shooting, Tactical.  
 **Personality traits:** Hardworking, Disciplined, Conservative, Critical, Stubborn, Community-minded, Serious, Loyal, Patient, Modest.  
-
-**Strong attributes:** Constitution, Perception, Intelligence, Logic  
-    __Constitution__ – Bradanan dwarves maintain the natural dwarven resilience despite living among humans. Centuries of labor, craft, and industry have preserved their hardened bodies, allowing them to endure long work cycles and the rigors of urban environments.
-    __Perception__ – Their work in engineering, mechanics, and ranged weaponry requires constant vigilance and precision. Bradanan have trained senses, especially sight and hearing, essential for detecting flaws in machinery or structural weaknesses.
-    __Intelligence__ – Integrating dwarven tradition with human innovation pushed Bradanan to adopt analytical thinking, planning skills, and scientific reasoning. They excel in technology, logistics, and complex problem-solving.
-    __Logic__ – Whether crafting, designing machinery, or managing urban infrastructures, Bradanan rely on rationality and efficient structure. Their minds naturally break tasks into logical sequences, making them exceptional engineers and technologists.
-**Weak attributes:** Agility, Charisma  
-    __Agility__ – Like all dwarves, Bradanan retain a compact, solid build that limits speed and fluidity of movement. Their lives center around precision rather than mobility, reinforcing this natural physical limitation.
-    __Charisma__ – Although reliable and competent, Bradanan tend to be blunt, overly pragmatic, or socially rigid. Their urban life has softened little of their dwarven straightforwardness, making them respected, but not always well-liked.
+  
+**Strong attributes:** Constitution, Perception, Intelligence, Logic    
+    −− __Constitution__ – Bradanan dwarves maintain the natural dwarven resilience despite living among humans. Centuries of labor, craft, and industry have preserved their hardened bodies, allowing them to endure long work cycles and the rigors of urban environments.  
+    −− __Perception__ – Their work in engineering, mechanics, and ranged weaponry requires constant vigilance and precision. Bradanan have trained senses, especially sight and hearing, essential for detecting flaws in machinery or structural weaknesses.  
+    −− __Intelligence__ – Integrating dwarven tradition with human innovation pushed Bradanan to adopt analytical thinking, planning skills, and scientific reasoning. They excel in technology, logistics, and complex problem-solving.  
+    −− __Logic__ – Whether crafting, designing machinery, or managing urban infrastructures, Bradanan rely on rationality and efficient structure. Their minds naturally break tasks into logical sequences, making them exceptional engineers and technologists.  
+**Weak attributes:** Agility, Charisma    
+    −− __Agility__ – Like all dwarves, Bradanan retain a compact, solid build that limits speed and fluidity of movement. Their lives center around precision rather than mobility, reinforcing this natural physical limitation.  
+    −− __Charisma__ – Although reliable and competent, Bradanan tend to be blunt, overly pragmatic, or socially rigid. Their urban life has softened little of their dwarven straightforwardness, making them respected, but not always well-liked.  
 **Birth attributes:** Stature 11~12, Height 7~8, Ego 10~12, Appearance 8~10, Luck 10~11, Balance 10~11  
 **Allegiance:** Steam, Science, or None  
 **Living environment:** Urban or City-dwelling  
-
+  
 **Birth particularities: Dwarf**
 - [Tireless Fortitude](#birth-tireless-fortitude)
 - [Financial Acumen](#birth-financial-acumen)
@@ -664,19 +667,19 @@ Also called Karazdawis.
 
 **Skills:** Craftsmanship, Melee, Defense, Endurance, Tactical, Athletics, Brawl, Mining.  
 **Personality traits:** Hardworking, Aggressive, Fearless, Stubborn, Conservative, Community-minded, Imposing, Serious, Loyal, Resentful.  
-
-**Strong attributes:** Willpower, Constitution + the ones associated to the choosen clan  
-    __Willpower__ – Karazdan embody dwarven resolve: stubbornness elevated to a cultural virtue. Loyalty to their clan and High King reinforces their mental fortitude, allowing them to push through hardship without hesitation.
-    __Constitution__ – Living in mountainous, subterranean, or hostile terrains has forged their bodies. Their lives revolve around mining, forging, fighting, and enduring harsh conditions, resulting in exceptional stamina and physical resilience.
-    __Clan Attributes__ – Each clan cultivates its own strengths—strength, cunning, wisdom, leadership—rooted in their social roles and ancient traditions. These specializations refine the natural dwarven aptitude into purpose-built advantages.
-**Weak attributes:** Agility, Dexterity, Charisma  
-    __Agility__ – Karazdan physiques are dense and sturdy, built for endurance and power rather than mobility. Their heavy armor and tools further reinforce this natural limitation.
-    __Dexterity__ – While precise in heavy craftsmanship (smithing, carving), they struggle with delicate manipulations requiring lighter or more flexible movements. Fine motor skills are often secondary to strength-based tasks.
-    __Charisma__ – Karazdan dwarves are famously blunt, proud, and intense. Their fiery tempers, traditionalism, and social rigidity do not translate well to diplomacy, causing them to intimidate more often than they charm.
+  
+**Strong attributes:** Willpower, Constitution + the ones associated to the choosen clan    
+    −− __Willpower__ – Karazdan embody dwarven resolve: stubbornness elevated to a cultural virtue. Loyalty to their clan and High King reinforces their mental fortitude, allowing them to push through hardship without hesitation.  
+    −− __Constitution__ – Living in mountainous, subterranean, or hostile terrains has forged their bodies. Their lives revolve around mining, forging, fighting, and enduring harsh conditions, resulting in exceptional stamina and physical resilience.  
+    −− __Clan Attributes__ – Each clan cultivates its own strengths—strength, cunning, wisdom, leadership—rooted in their social roles and ancient traditions. These specializations refine the natural dwarven aptitude into purpose-built advantages.  
+**Weak attributes:** Agility, Dexterity, Charisma    
+    −− __Agility__ – Karazdan physiques are dense and sturdy, built for endurance and power rather than mobility. Their heavy armor and tools further reinforce this natural limitation.  
+    −− __Dexterity__ – While precise in heavy craftsmanship (smithing, carving), they struggle with delicate manipulations requiring lighter or more flexible movements. Fine motor skills are often secondary to strength-based tasks.  
+    −− __Charisma__ – Karazdan dwarves are famously blunt, proud, and intense. Their fiery tempers, traditionalism, and social rigidity do not translate well to diplomacy, causing them to intimidate more often than they charm.  
 **Birth attributes:** Stature 12~13, Height 7~8, Ego 10~12, Appearance 7~9, Luck 10~11, Balance 10~11  
 **Allegiance:** Steam or None  
 **Living environment:** Subterranean, Mountainous, City-dwelling, or Rural  
-
+  
 **Birth particularities: Dwarf**
 - [Tireless Fortitude](#birth-tireless-fortitude)
 - [Hardness](#birth-hardness)
@@ -762,20 +765,20 @@ Ungordan Society:
 
 **Skills:** Survival, Melee, Defense, Tactical, Endurance, Mining, Spellcrafting, Investigation.  
 **Personality traits:** Stoic, Disciplined, Secretive, Conservative, Hardworking, Pessimistic, Cautious, Loyal, Serious, Unshakeable.  
-
-**Strong attributes:** Strength, Constitution (x2), Willpower  
-    __Strength__ – Life in the Tréfonds demands raw physical power. From mining colossal stone formations to fighting subterranean monstrosities, Ungordan dwarves possess unmatched brute force among their kin.
-    __Constitution__ (x2) – Exposure to darkness, pressure shifts, toxic spores, cave hazards, and grueling labor hardened their bodies beyond even traditional dwarven standards. Their physiology adapted to resist poison, fatigue, and injury with extreme efficiency.
-    __Willpower__ – The oppressive world below the earth can easily break weaker minds. Ungordan society cultivates strict discipline, emotional control, and mental toughness to survive the psychological toll of darkness and confinement.
-**Weak attributes:** Cunning, Agility, Dexterity, Wisdom  
-    __Cunning__ – Ungordan culture values obedience and communal unity over scheming or subtlety. Strict social conditioning suppresses individual trickery or personal ambition, weakening their capacity for manipulation or complex deception.
-    __Agility__ – Years of living in heavy armor, navigating stone tunnels, and maintaining compact, muscular bodies restrict their fluid movement. Speed and flexibility are rare traits among Deep Dwarves.
-    __Dexterity__ – While strong craftworkers, their work demands force rather than finesse. Fine manipulation, delicate handling, and light mechanical work suffer due to their heavy musculature and utilitarian mindset.
-    __Wisdom__ – The isolation of the deep limits their worldview. Ungordan rarely experience spiritual diversity, natural landscapes, cultural exchanges, or contemplative traditions, resulting in a narrower understanding of the world and weaker intuitive insight.
+  
+**Strong attributes:** Strength, Constitution (x2), Willpower    
+    −− __Strength__ – Life in the Tréfonds demands raw physical power. From mining colossal stone formations to fighting subterranean monstrosities, Ungordan dwarves possess unmatched brute force among their kin.  
+    −− __Constitution__ (x2) – Exposure to darkness, pressure shifts, toxic spores, cave hazards, and grueling labor hardened their bodies beyond even traditional dwarven standards. Their physiology adapted to resist poison, fatigue, and injury with extreme efficiency.  
+    −− __Willpower__ – The oppressive world below the earth can easily break weaker minds. Ungordan society cultivates strict discipline, emotional control, and mental toughness to survive the psychological toll of darkness and confinement.  
+**Weak attributes:** Cunning, Agility, Dexterity, Wisdom    
+    −− __Cunning__ – Ungordan culture values obedience and communal unity over scheming or subtlety. Strict social conditioning suppresses individual trickery or personal ambition, weakening their capacity for manipulation or complex deception.  
+    −− __Agility__ – Years of living in heavy armor, navigating stone tunnels, and maintaining compact, muscular bodies restrict their fluid movement. Speed and flexibility are rare traits among Deep Dwarves.  
+    −− __Dexterity__ – While strong craftworkers, their work demands force rather than finesse. Fine manipulation, delicate handling, and light mechanical work suffer due to their heavy musculature and utilitarian mindset.  
+    −− __Wisdom__ – The isolation of the deep limits their worldview. Ungordan rarely experience spiritual diversity, natural landscapes, cultural exchanges, or contemplative traditions, resulting in a narrower understanding of the world and weaker intuitive insight.  
 **Birth attributes:** Stature 12~14, Height 7~8, Ego 10~13, Appearance 6~8, Luck 8~10, Balance 10~12  
 **Allegiance:** Steam, Ankou, or None  
 **Living environment:** Subterranean  
-
+  
 **Birth particularities: Dwarf**
 - [Tireless Fortitude](#birth-tireless-fortitude)
 - [Hardness](#birth-hardness)
@@ -815,18 +818,18 @@ They are considered pacifist ferals, generally not seeking conflict with other c
 
 **Skills:** Survival, Hunting, Defense, Endurance, Detection, Communication, Athletics, Spiritism.  
 **Personality traits:** Loyal, Community-minded, Protective (Alert), Courageous (Fearless), Warm, Resourceful, Patient, Serious, Independent, Cautious.  
-
-**Strong attributes:** Perception, Wisdom (x2)  
-    __Perception__ – Pack life and constant vigilance make Okkan extremely aware of sounds, scents, and movements around them.
-    __Wisdom__ (x2) – Guided by instinct, tradition, and communal experience, they excel at reading situations and acting for the good of the pack.
-**Weak attributes:** Cunning  
-    __Cunning__ – Okkan are honest, direct, and pack-oriented rather than scheming. They prefer trust and loyalty over manipulation or elaborate plots.
+  
+**Strong attributes:** Perception, Wisdom (x2)    
+    −− __Perception__ – Pack life and constant vigilance make Okkan extremely aware of sounds, scents, and movements around them.  
+    −− __Wisdom__ (x2) – Guided by instinct, tradition, and communal experience, they excel at reading situations and acting for the good of the pack.  
+**Weak attributes:** Cunning    
+    −− __Cunning__ – Okkan are honest, direct, and pack-oriented rather than scheming. They prefer trust and loyalty over manipulation or elaborate plots.  
 **Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Forest, Nomadic, Rural  
 **Nature**: Pacifist.  
 **Totem**: Uhlo, the Unifier.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Survivability](#birth-survivability)
@@ -856,19 +859,19 @@ They are considered pacifist ferals who do not seek direct conflict.
 
 **Skills:** Subterfuge, Discretion, Larceny, Finesse, Urban Life, Negotiation, Acrobatics, Persuasion.  
 **Personality traits:** Curious, Independent, Secretive, Playful, Opportunistic, Cautious, Spontaneous, Free-spirited, Lazy, Proud (Pretentious).  
-
-**Strong attributes:** Agility (x2), Cunning, Dexterity  
-    __Agility__ (x2) – Their feline bodies are built for sudden jumps, tight landings, stealthy movement, and acrobatics.
-    __Cunning__ – Curious and opportunistic, Nekkan are quick thinkers who excel at trickery, improvisation, and bending rules.
-    __Dexterity__ – Their nimble fingers and precise movements make them excellent thieves, climbers, and handlers of delicate tasks or tools.
-**Weak attributes:** Constitution  
-    __Constitution__ – Nekkan are nimble but not particularly robust. They tire faster under sustained effort and handle harsh environments or heavy blows less effectively.
+  
+**Strong attributes:** Agility (x2), Cunning, Dexterity    
+    −− __Agility__ (x2) – Their feline bodies are built for sudden jumps, tight landings, stealthy movement, and acrobatics.  
+    −− __Cunning__ – Curious and opportunistic, Nekkan are quick thinkers who excel at trickery, improvisation, and bending rules.  
+    −− __Dexterity__ – Their nimble fingers and precise movements make them excellent thieves, climbers, and handlers of delicate tasks or tools.  
+**Weak attributes:** Constitution    
+    −− __Constitution__ – Nekkan are nimble but not particularly robust. They tire faster under sustained effort and handle harsh environments or heavy blows less effectively.  
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~13, Balance 9~10  
 **Allegiance:** Nature, Source, Destiny, or None  
 **Living environment:** Nomadic, Rural, City-dwelling  
 **Nature**: Pacifist or Predatory.  
 **Totem**: Adis, the Whisperer in Shadows.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Black Cat](#birth-black-cat) // [White Cat](#birth-white-cat)
@@ -897,19 +900,19 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 
 **Skills:** Melee, Survival, Athletics, Defense, Tactical, Endurance, Detection, Persuasion.  
 **Personality traits:** Imposing, Leader, Fearless, Proud (Pretentious), Loyal, Aggressive, Competitive (Ambitious), Community-minded, Energetic, Reckless.  
-
-**Strong attributes:** Strength, Charisma, Willpower  
-    __Strength__ – Felkkan bodies are built like big-game predators: powerful muscles, explosive force, and raw physical dominance suited for melee combat and territorial defense.
-    __Charisma__ – Their natural presence, confidence, and proud bearing inspire respect or fear. Felkkan often take leadership roles simply by entering a room.
-    __Willpower__ – Pride and honor push them to stand their ground. They rarely back down from challenges and endure hardship to uphold their status and oaths.
-**Weak attributes:** Cunning  
-    __Cunning__ – Direct, straightforward and sometimes hot-blooded, Felkkan prefer frontal displays of strength and courage over long-term scheming or subtle manipulation.
+  
+**Strong attributes:** Strength, Charisma, Willpower    
+    −− __Strength__ – Felkkan bodies are built like big-game predators: powerful muscles, explosive force, and raw physical dominance suited for melee combat and territorial defense.  
+    −− __Charisma__ – Their natural presence, confidence, and proud bearing inspire respect or fear. Felkkan often take leadership roles simply by entering a room.  
+    −− __Willpower__ – Pride and honor push them to stand their ground. They rarely back down from challenges and endure hardship to uphold their status and oaths.  
+**Weak attributes:** Cunning    
+    −− __Cunning__ – Direct, straightforward and sometimes hot-blooded, Felkkan prefer frontal displays of strength and courage over long-term scheming or subtle manipulation.  
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 8~10  
 **Allegiance:** Nature, Source, or None  
 **Living environment:** Nomadic, Desert (hot), Mountain   
 **Nature**: Predatory.  
 **Totem**: Eaos, the Boundless Sovereign.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
@@ -941,19 +944,19 @@ They are considered pacifist ferals who do not seek direct conflict.
 
 **Skills:** Survival, Endurance, Athletics, Hunting, Detection, Rural Life, Defense, Mysticism.  
 **Personality traits:** Calm, Patient, Warm, Protective (Alert), Hardworking, Community-minded, Serious, Principled, Optimistic, Measured.  
-
-**Strong attributes:** Strength, Constitution, Wisdom  
-    __Strength__ – Massive frames and heavy musculature give Koddans impressive physical power, whether in work, travel, or combat.
-    __Constitution__ – Their bodies are slow to tire and hard to break, shaped by cold climates, harsh terrain, and a lifestyle of constant exertion.
-    __Wisdom__ – Reflective, patient, and deeply connected to nature, Koddans understand rhythms of seasons, emotions, and life's cycles better than they grasp abstract theories.
-**Weak attributes:** Agility  
-    __Agility__ – Their size and bulk come at the cost of speed and finesse. Koddans move deliberately rather than quickly, favoring stability over nimbleness.
+  
+**Strong attributes:** Strength, Constitution, Wisdom    
+    −− __Strength__ – Massive frames and heavy musculature give Koddans impressive physical power, whether in work, travel, or combat.  
+    −− __Constitution__ – Their bodies are slow to tire and hard to break, shaped by cold climates, harsh terrain, and a lifestyle of constant exertion.  
+    −− __Wisdom__ – Reflective, patient, and deeply connected to nature, Koddans understand rhythms of seasons, emotions, and life's cycles better than they grasp abstract theories.  
+**Weak attributes:** Agility    
+    −− __Agility__ – Their size and bulk come at the cost of speed and finesse. Koddans move deliberately rather than quickly, favoring stability over nimbleness.  
 **Birth attributes:** Stature 12~14, Height 11~13, Ego 7~10, Appearance 8~10, Luck 8~10, Balance 10~12  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Cold Desert and Mountain  
 **Nature:** Pacifist.  
 **Totem**: Oborh, the Patient Beast.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Armor](#birth-stronger-natural-armor)
@@ -986,19 +989,19 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 
 **Skills:** Survival, Hunting, Brawl, Endurance, Detection, Craftsmanship, Rural Life, Athletics.  
 **Personality traits:** Aggressive, Opportunistic, Cautious, Calculative, Stoic, Resourceful, Independent, Serious, Fearless, Suspicious (Intolerant).  
-
-**Strong attributes:** Dexterity, Perception  
-    __Dexterity__ – Bedokkan hands and bodies are precise and controlled, ideal for careful strikes, climbing, and handling tools or weapons in hostile environments.
-    __Perception__ – Living in swamps and hostile wetlands forces them to detect danger through subtle signs—movement in water, temperature shifts, changes in sound.
-    __Constitution__ – Their cold-blooded biology and harsh surroundings forge hardy bodies capable of withstanding disease, fatigue, and environmental hardship.
-**Weak attributes:** Charisma  
-    __Charisma__ – Withdrawn, taciturn, and often unsettling to others, Bedokkan struggle to connect with more sociable cultures and rarely inspire trust or sympathy.
+  
+**Strong attributes:** Dexterity, Perception    
+    −− __Dexterity__ – Bedokkan hands and bodies are precise and controlled, ideal for careful strikes, climbing, and handling tools or weapons in hostile environments.  
+    −− __Perception__ – Living in swamps and hostile wetlands forces them to detect danger through subtle signs—movement in water, temperature shifts, changes in sound.  
+    −− __Constitution__ – Their cold-blooded biology and harsh surroundings forge hardy bodies capable of withstanding disease, fatigue, and environmental hardship.  
+**Weak attributes:** Charisma    
+    −− __Charisma__ – Withdrawn, taciturn, and often unsettling to others, Bedokkan struggle to connect with more sociable cultures and rarely inspire trust or sympathy.  
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 9~10, Appearance 7~9, Luck 10, Balance 10  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Marine and Forest  
 **Nature:** Predatory.  
 **Totem:** Brera, the Reclusive Tyrant.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
@@ -1031,18 +1034,18 @@ However, this ethnicity suffers somewhat from the dispersion of its members, who
 
 **Skills:** Acrobatics, Athletics, Persuasion, Communication, Endurance, Defense, Rural Life, Finesse.  
 **Personality traits:** Curious, Optimistic, Adventurous, Free-spirited, Bright, Expressive, Community-minded, Calm, Welcoming, Independent.  
-
-**Strong attributes:** Perception (x2), Willpower  
-    __Perception__ (x2) – Avian senses, especially sight, are exceptionally sharp. Garukkan see far, track motion easily, and read body language and atmospheres at a glance.
-    __Willpower__ – Their strong egos and grounded self-image help them stay true to their path, resist manipulation, and persist through hardship.
-**Weak attributes:** Constitution  
-    __Constitution__ – Light-boned and adapted to height and mobility rather than endurance, Garukkan endure less physical punishment than heavier ferals.
+  
+**Strong attributes:** Perception (x2), Willpower    
+    −− __Perception__ (x2) – Avian senses, especially sight, are exceptionally sharp. Garukkan see far, track motion easily, and read body language and atmospheres at a glance.  
+    −− __Willpower__ – Their strong egos and grounded self-image help them stay true to their path, resist manipulation, and persist through hardship.  
+**Weak attributes:** Constitution    
+    −− __Constitution__ – Light-boned and adapted to height and mobility rather than endurance, Garukkan endure less physical punishment than heavier ferals.  
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~12, Balance 9~10  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Marine, Mountain, Forest  
 **Nature:** Predatory or Pacifist.  
 **Totem:** Reean, the Splendor of the Sky.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Winged Creature](#birth-winged-creature) (Morphological)
@@ -1071,19 +1074,19 @@ They are considered pacifist ferals who do not seek direct conflict... In fact, 
 
 **Skills:** Art, Finesse, Discretion, Communication, Persuasion, Acrobatics, Survival, Subterfuge.  
 **Personality traits:** Cautious, Nervous, Alert, Community-minded, Loyal, Hardworking, Patient, Indulgent, Homebound, Sensitive.  
-
-**Strong attributes:** Agility, Charisma, Luck  
-    __Agility__ – Quick legs and reactive bodies make Luppans experts at dodging, fleeing, and acrobatic maneuvers.
-    __Charisma__ – Their softness, expressiveness, and sociable nature make them endearing and persuasive, even when they try to avoid responsibility.
-    __Luck__ – Stories claim fortune smiles on them. Somehow, situations tend to turn just enough in their favor for them to escape disaster… most of the time.
-**Weak attributes:** Balance  
-    __Balance__ – Luppans lack inner harmony. Their fear, stress, and indulgent tendencies make them vulnerable to fatigue, panic, corruption, or emotional breakdown when pressure mounts.
+  
+**Strong attributes:** Agility, Charisma, Luck    
+    −− __Agility__ – Quick legs and reactive bodies make Luppans experts at dodging, fleeing, and acrobatic maneuvers.  
+    −− __Charisma__ – Their softness, expressiveness, and sociable nature make them endearing and persuasive, even when they try to avoid responsibility.  
+    −− __Luck__ – Stories claim fortune smiles on them. Somehow, situations tend to turn just enough in their favor for them to escape disaster… most of the time.  
+**Weak attributes:** Balance    
+    −− __Balance__ – Luppans lack inner harmony. Their fear, stress, and indulgent tendencies make them vulnerable to fatigue, panic, corruption, or emotional breakdown when pressure mounts.  
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 7~9, Appearance 11~13, Luck 10~13, Balance 8~10  
 **Allegiance:** Nature, Magic, Destiny, or None  
 **Living environment:** Forest and Rural  
 **Nature:** Pacifist.  
 **Totem:** Zolir, the Little One.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Speedster](#birth-speedster)
@@ -1111,19 +1114,19 @@ This ethnic group of feral beings comprises feline humanoids, bearing the traits
 
 **Skills:** Melee, Hunting, Detection, Athletics, Finesse, Survival, Subterfuge, Persuasion.  
 **Personality traits:** ?.  
-
-**Strong attributes:** Dexterity (x2), Charisma  
-    __Dexterity__ (x2) – Leokkans are precision hunters: their strikes, movements, and manipulations are smooth, controlled, and deadly efficient.
-    __Charisma__ – Even when selfish, they radiate a predatory charm and self-confidence that can fascinate or intimidate those around them.
-**Weak attributes:** Constitution  
-    __Constitution__ – Built for speed and impact rather than endurance, Leokkan bodies burn energy fast and handle prolonged strain less effectively than sturdier ferals.
+  
+**Strong attributes:** Dexterity (x2), Charisma    
+    −− __Dexterity__ (x2) – Leokkans are precision hunters: their strikes, movements, and manipulations are smooth, controlled, and deadly efficient.  
+    −− __Charisma__ – Even when selfish, they radiate a predatory charm and self-confidence that can fascinate or intimidate those around them.  
+**Weak attributes:** Constitution    
+    −− __Constitution__ – Built for speed and impact rather than endurance, Leokkan bodies burn energy fast and handle prolonged strain less effectively than sturdier ferals.  
 **Birth attributes:** Stature 10~11, Height 10, Ego 10, Appearance 8~10, Luck 10~11, Balance 8~10  
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_   
 **Nature:** Predatory.  
 **Totem:** Ekneas, the Gracious Beast.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
@@ -1153,20 +1156,20 @@ This ethnic group of feral beings consists of cervine humanoids, adorned with an
 
 **Skills:** Rural Life, Hunting, Detection, Persuasion, Athletics, Survival, Defense, Know How.  
 **Personality traits:** ?.  
-
-**Strong attributes:** Constitution, Willpower, Perception  
-    __Constitution__ – Life in forests, constant vigilance, and physical trials give Cervikkans resilient bodies able to endure long journeys and harsh climates.
-    __Willpower__ – Proud and value-driven, they cling firmly to their beliefs, stories, and promises even when it would be easier to bend.
-    __Perception__ – As wary forest dwellers, they are keenly attuned to sounds, movements, and disturbances in their environment, spotting danger or visitors early.
-**Weak attributes:** Cunning  
-    __Cunning__ – Cervikkans are often straightforward and idealistic. They prefer honesty and tradition over schemes, which makes them less apt at manipulation, trickery, or political games.
+  
+**Strong attributes:** Constitution, Willpower, Perception    
+    −− __Constitution__ – Life in forests, constant vigilance, and physical trials give Cervikkans resilient bodies able to endure long journeys and harsh climates.  
+    −− __Willpower__ – Proud and value-driven, they cling firmly to their beliefs, stories, and promises even when it would be easier to bend.  
+    −− __Perception__ – As wary forest dwellers, they are keenly attuned to sounds, movements, and disturbances in their environment, spotting danger or visitors early.  
+**Weak attributes:** Cunning    
+    −− __Cunning__ – Cervikkans are often straightforward and idealistic. They prefer honesty and tradition over schemes, which makes them less apt at manipulation, trickery, or political games.  
 **Birth attributes:** Stature 10~11, Height 11~12, Ego 10~12, Appearance 10~12, Luck 7~10, Balance 8~10  
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Pacifist.  
 **Totem:** Cevdos, the Father of All Lands.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Horns](#birth-horns) (Morphological)
@@ -1196,20 +1199,20 @@ This ethnic group of feral beings consists of individuals who have the appearanc
 
 **Skills:** Craftsmanship, Rural Life, Know How, Medicine, Detection, Communication, Hunting, Survival.  
 **Personality traits:** Opportunistic, Resourceful, Curious, Secretive, Envious, Cautious, Spontaneous, Chaotic, Suspicious (Intolerant), Independent.  
-
-**Strong attributes:** Perception, Cunning, Agility  
-    __Perception__ – Razzans constantly scan their surroundings for opportunities, scraps, threats, and exits, giving them finely-tuned senses.
-    __Cunning__ – They are practical survivors: clever, adaptable, and good at finding the easiest path through social or material obstacles.
-    __Agility__ – Small, quick, and nimble, they slip through gaps, dodge danger, and maneuver easily in cramped or cluttered environments.
-**Weak attributes:** Willpower  
-    __Willpower__ – Their flexibility and opportunism make them less resistant to pressure, temptation, or intimidation; they tend to yield or adapt rather than stand firm.
-**Birth attributes:** Stature 9, Height 9, Ego 11, Appearance 8, Luck 13  
+  
+**Strong attributes:** Perception, Cunning, Agility    
+    −− __Perception__ – Razzans constantly scan their surroundings for opportunities, scraps, threats, and exits, giving them finely-tuned senses.  
+    −− __Cunning__ – They are practical survivors: clever, adaptable, and good at finding the easiest path through social or material obstacles.  
+    −− __Agility__ – Small, quick, and nimble, they slip through gaps, dodge danger, and maneuver easily in cramped or cluttered environments.  
+**Weak attributes:** Willpower    
+    −− __Willpower__ – Their flexibility and opportunism make them less resistant to pressure, temptation, or intimidation; they tend to yield or adapt rather than stand firm.  
+**Birth attributes:** Stature 9, Height 9, Ego 11, Appearance 8, Luck 13    
 **Birth attributes:** Stature 8~9, Height 5~7, Ego 7~9, Appearance 10~11, Luck 9~13, Balance 9~13  
 **Allegiance:** Nature, Source, Destiny, Ankou, or None  
 **Living environment:** Subterranean, City-dwelling, Rural  
 **Nature:** Pacifist.  
 **Totem**: Merro, the Avid Crawler.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Tail](#birth-tail) (Morphological)
@@ -1241,20 +1244,20 @@ They are either pacifists or predators depending on their sub-ethnicity, but if 
 
 **Skills:** Survival, Occultism, Detection, Hunting, Investigation, Spiritism, Acrobatics, Subterfuge.  
 **Personality traits:** ?.  
-
-**Strong attributes:** Agility, Willpower, Perception  
-    __Agility__ – Adapted to water, currents, and three-dimensional movement, Peskkan are naturally fluid and quick, both in and out of water.
-    __Willpower__ – Their close link to the mysteries of the sea and occult currents grants them inner resolve; they often follow their own path despite outside expectations.
-    __Perception__ – Sensitive to vibrations, pressure changes, and aquatic flows, they perceive subtle cues in their environment that others would miss.
-**Weak attributes:** Charisma  
-    __Charisma__ – Distant, cryptic, and often judgmental toward land-dwellers, Peskkan find it difficult to truly integrate or be understood by other peoples.
+  
+**Strong attributes:** Agility, Willpower, Perception    
+    −− __Agility__ – Adapted to water, currents, and three-dimensional movement, Peskkan are naturally fluid and quick, both in and out of water.  
+    −− __Willpower__ – Their close link to the mysteries of the sea and occult currents grants them inner resolve; they often follow their own path despite outside expectations.  
+    −− __Perception__ – Sensitive to vibrations, pressure changes, and aquatic flows, they perceive subtle cues in their environment that others would miss.  
+**Weak attributes:** Charisma    
+    −− __Charisma__ – Distant, cryptic, and often judgmental toward land-dwellers, Peskkan find it difficult to truly integrate or be understood by other peoples.  
 **Birth attributes:** Stature 10~11, Height 8~11, Ego 8~10, Appearance 8~11, Luck 8~11, Balance 8~11  
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Predatory or Pacifist.  
 **Totem:** Edea, the Mother of All Sees.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stability](#birth-stability)
@@ -1285,20 +1288,20 @@ They are pacifists, but of a type that few predators seek quarrels with.
 
 **Skills:** Melee, Athletics, Endurance, Survival, Defense, Tactical, Brawl, Rural Life.  
 **Personality traits:** ?.  
-
-**Strong attributes:** Strength (x2), Constitution, Wisdom  
-    __Strength__ (x2) – Taurrans are mountains of muscle. Their bodies are made for heavy loads, powerful blows, and raw physical dominance.
-    __Constitution__ – Their lifestyle—nomadic, harsh, and often solitary—demands great endurance and physical stability.
-    __Wisdom__ – Despite their hot temper, their culture emphasizes inner balance, respect, and practical understanding of life, giving them grounded judgment.
-**Weak attributes:** Cunning  
-    __Cunning__ – Taurrans favor honor, instinct, and direct confrontation over plotting. Subtle political maneuvering or long-term manipulation is not their forte.
+  
+**Strong attributes:** Strength (x2), Constitution, Wisdom    
+    −− __Strength__ (x2) – Taurrans are mountains of muscle. Their bodies are made for heavy loads, powerful blows, and raw physical dominance.  
+    −− __Constitution__ – Their lifestyle—nomadic, harsh, and often solitary—demands great endurance and physical stability.  
+    −− __Wisdom__ – Despite their hot temper, their culture emphasizes inner balance, respect, and practical understanding of life, giving them grounded judgment.  
+**Weak attributes:** Cunning    
+    −− __Cunning__ – Taurrans favor honor, instinct, and direct confrontation over plotting. Subtle political maneuvering or long-term manipulation is not their forte.  
 **Birth attributes:** Stature 11~13, Height 11~13, Ego 6~10, Appearance 8~11, Luck 7~10, Balance 10~12  
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Pacifist.  
 **Totem:** Siion, the Majestuous Horned Lord.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Armor](#birth-stronger-natural-armor)
@@ -1336,19 +1339,19 @@ They are true predators.
 
 **Skills:** Melee, Brawl, Endurance, Athletics, Subterfuge, Detection, Mysticism, Occultism.  
 **Personality traits:** Opportunistic, Aggressive, Cunning (Calculative), Suspicious (Intolerant), Fearless, Envious, Resourceful, Rebellious, Secretive, Impatient.  
-
-**Strong attributes:** Strength, Dexterity, Perception  
-    __Strength__ – Their predatory nature and constant physical conflicts forge powerful, aggressive bodies suited for brutal combat.
-    __Dexterity__ – Oni are quick and precise, combining feral reflexes with lethal accuracy in claws, weapons, and ambushes.
-    __Perception__ – As hunters driven by jealousy and resentment, they are highly attuned to scents, tracks, and subtle movements of prey and rivals.
-**Weak attributes:** Luck  
-    __Luck__ – Marked by resentment and violent impulses, Oni seem followed by misfortune—broken alliances, bloody feuds, and catastrophes often arise around them.
+  
+**Strong attributes:** Strength, Dexterity, Perception    
+    −− __Strength__ – Their predatory nature and constant physical conflicts forge powerful, aggressive bodies suited for brutal combat.  
+    −− __Dexterity__ – Oni are quick and precise, combining feral reflexes with lethal accuracy in claws, weapons, and ambushes.  
+    −− __Perception__ – As hunters driven by jealousy and resentment, they are highly attuned to scents, tracks, and subtle movements of prey and rivals.  
+**Weak attributes:** Luck    
+    −− __Luck__ – Marked by resentment and violent impulses, Oni seem followed by misfortune—broken alliances, bloody feuds, and catastrophes often arise around them.  
 **Birth attributes:** Stature 10~11, Height 10~11, Ego 10~11, Appearance 7~9, Luck 7~10, Balance 8~10  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain  
 **Nature:** Predatory.  
 **Totem:** Ouros, the Disastrous Fang.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
@@ -1381,19 +1384,19 @@ They are somewhat neutral and doesn't define themselves as pacifists or predator
 
 **Skills:** Subterfuge, Discretion, Persuasion, Mysticism, Spellcrafting, Occultism, Detection, Finesse.  
 **Personality traits:** Curious, Playful, Opportunistic, Spontaneous, Expressive, Free-spirited, Trickster (Liar), Energetic, Independent, Indulgent.  
-
-**Strong attributes:** Charisma, Cunning, Magic  
-    __Charisma__ – Kitsune charm, seduce, and manipulate with ease. Their playful demeanor and beauty draw attention wherever they go.
-    __Cunning__ – Trickery, curiosity, and mischief define them. They excel at lies, illusion, and bending reality—socially or mystically—to their whims.
-    __Magic__ – Their nature is intertwined with mysticism and fox-spirits; Kitsune instinctively grasp illusions, glamours, and subtle occult forces.
-**Weak attributes:** Luck  
-    __Luck__ – Their frivolity and disregard for consequences often backfire. Jokes go too far, risks pile up, and fate eventually demands a price.
+  
+**Strong attributes:** Charisma, Cunning, Magic    
+    −− __Charisma__ – Kitsune charm, seduce, and manipulate with ease. Their playful demeanor and beauty draw attention wherever they go.  
+    −− __Cunning__ – Trickery, curiosity, and mischief define them. They excel at lies, illusion, and bending reality—socially or mystically—to their whims.  
+    −− __Magic__ – Their nature is intertwined with mysticism and fox-spirits; Kitsune instinctively grasp illusions, glamours, and subtle occult forces.  
+**Weak attributes:** Luck    
+    −− __Luck__ – Their frivolity and disregard for consequences often backfire. Jokes go too far, risks pile up, and fate eventually demands a price.  
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~12, Balance 6~9  
 **Allegiance:** Nature, Source, Destiny, or None  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain, Rural  
 **Nature:** Pacifist or Predatory.  
 **Totem:** Eaos, the Mischivious Hundred Tails.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Favored Save](#birth-favored-save-fortune) : Fortune
@@ -1423,20 +1426,20 @@ Tengu are natural predators, and some are known to resolve conflicts with lethal
 
 **Skills:** Acrobatics, Detection, Athletics, Brawl, Finesse, Survival, Communication, Throw.  
 **Personality traits:** Aggressive, Ambitious, Competitive, Fearless, Proud (Pretentious), Rebellious, Opportunistic, Energetic, Reckless, Independent.  
-
-**Strong attributes:** Intelligence (x2), Perception, Cunning  
-    __Intelligence__ (x2) – Tengu are sharp, analytical thinkers, obsessively dissecting tactics, grudges, and rivalries; their minds are honed for strategy and calculated conflict. 
-    __Perception__ – As raptors, they possess razor-sharp sight and awareness, spotting weaknesses, movements, and distant targets with ease.
-    __Cunning__ – Ambitious, competitive, and ruthless, Tengu are excellent strategists on a small scale—duels, ambushes, and personal vendettas.
-**Weak attributes:** Constitution, Luck  
-    __Constitution__ – Lean and built for speed rather than durability, Tengu do not handle prolonged punishment or attrition as well as sturdier ferals.
-    __Luck__ – Their arrogance, reckless choices, and appetite for conflict attract retaliation and misfortune: they often create their own downfall.
+  
+**Strong attributes:** Intelligence (x2), Perception, Cunning    
+    −− __Intelligence__ (x2) – Tengu are sharp, analytical thinkers, obsessively dissecting tactics, grudges, and rivalries; their minds are honed for strategy and calculated conflict.   
+    −− __Perception__ – As raptors, they possess razor-sharp sight and awareness, spotting weaknesses, movements, and distant targets with ease.  
+    −− __Cunning__ – Ambitious, competitive, and ruthless, Tengu are excellent strategists on a small scale—duels, ambushes, and personal vendettas.  
+**Weak attributes:** Constitution, Luck    
+    −− __Constitution__ – Lean and built for speed rather than durability, Tengu do not handle prolonged punishment or attrition as well as sturdier ferals.  
+    −− __Luck__ – Their arrogance, reckless choices, and appetite for conflict attract retaliation and misfortune: they often create their own downfall.  
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~12  
 **Allegiance:** Nature, Magic, Ankou, or None  
 **Living environment:** Marine, Mountain, Forest  
 **Nature:** Predatory.  
 **Totem:** Fydall, the Boundless Nightmare.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Winged Creature](#birth-winged-creature) (Morphological)
@@ -1467,21 +1470,21 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
 
 **Skills:** Larceny, Subterfuge, Occultism, Discretion, Detection, Urban Life, Investigation, Brawl.  
 **Personality traits:** ?.  
-
-**Strong attributes:** Agility, Cunning, Perception  
-    __Agility__ – Razkkan skitter through ruins, sewers, and tunnels with ease, climbing, dodging and fleeing in tight, hazardous spaces.
-    __Cunning__ – Their entire society revolves around schemes, betrayals, and self-interest. Every Razkkan learns to think crooked to survive.
-    __Perception__ – Used to filth, darkness, and unstable environments, they are quick to notice cracks, sounds, movement, and exploitable details others miss.
-**Weak attributes:** Willpower, Luck  
-    __Willpower__ – Addiction to power, fear, and paranoia make them easy prey to domination, panic, or mass hysteria.
-    __Luck__ – Surrounded by disease, collapsing lairs, treachery and dangerous experiments, Razkkan are almost cosmically unlucky—only their cunning keeps them alive.
+  
+**Strong attributes:** Agility, Cunning, Perception    
+    −− __Agility__ – Razkkan skitter through ruins, sewers, and tunnels with ease, climbing, dodging and fleeing in tight, hazardous spaces.  
+    −− __Cunning__ – Their entire society revolves around schemes, betrayals, and self-interest. Every Razkkan learns to think crooked to survive.  
+    −− __Perception__ – Used to filth, darkness, and unstable environments, they are quick to notice cracks, sounds, movement, and exploitable details others miss.  
+**Weak attributes:** Willpower, Luck    
+    −− __Willpower__ – Addiction to power, fear, and paranoia make them easy prey to domination, panic, or mass hysteria.  
+    −− __Luck__ – Surrounded by disease, collapsing lairs, treachery and dangerous experiments, Razkkan are almost cosmically unlucky—only their cunning keeps them alive.  
 **Birth attributes:** Stature 8~9, Height 6~8, Ego 10~12, Appearance 7~8, Luck 7~11, Balance 9~13  
 
 **Allegiance:** _This information has not yet been written down_  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Predatory.  
 **Totem:** Zegen, the Rotten Ambition.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Plagued](#birth-plagued)
@@ -1510,19 +1513,19 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 
 **Skills:** Melee, Defense, Endurance, Athletics, Craftsmanship, Detection, Rural Life, Tactical.  
 **Personality traits:** Stoic, Imposing, Aggressive, Loyal, Protective (Alert), Hardworking, Stubborn, Serious, Cautious, Resentful.  
-
-**Strong attributes:** Strength, Constitution (x2)  
-    __Strength__ – Urssians are walking siege engines: their physical might surpasses most ferals and allows devastating blows in combat.
-    __Constitution__ (x2) – Their bodies are built to endure cold, injuries, and exhaustion. They can keep fighting, working, or traveling long after others fall.
-    __Willpower__ – Their culture of dominance and endurance forges unbending resolve; once an Urssian commits to a course, turning back is rare.
-**Weak attributes:** Luck  
-    __Luck__ – Their culture of constant confrontation and dominance invites trouble—feuds, grudges, and brutal trials often stack the odds against them, even when they win.
+  
+**Strong attributes:** Strength, Constitution (x2)    
+    −− __Strength__ – Urssians are walking siege engines: their physical might surpasses most ferals and allows devastating blows in combat.  
+    −− __Constitution__ (x2) – Their bodies are built to endure cold, injuries, and exhaustion. They can keep fighting, working, or traveling long after others fall.  
+    −− __Willpower__ – Their culture of dominance and endurance forges unbending resolve; once an Urssian commits to a course, turning back is rare.  
+**Weak attributes:** Luck    
+    −− __Luck__ – Their culture of constant confrontation and dominance invites trouble—feuds, grudges, and brutal trials often stack the odds against them, even when they win.  
 **Birth attributes:** Stature 11~13, Height 12~14, Ego 10~12, Appearance 6~8, Luck 7~9, Balance 10~12  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Cold Desert and Mountain   
 **Nature:** Predatory.  
 **Totem:** Udtar, the Juggernaut.  
-
+  
 **Birth particularities: Feral**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Armor](#birth-stronger-natural-armor)
@@ -1545,7 +1548,7 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 Not all animal breeds are represented in the rules because some of them represent the majority of existing individuals/declinations, but there are many more than that in nature corresponding to minorities scattered here and there. We will then speak of minor feral ethnicity and in these cases it is proposed to use the profile of an equivalent major ethnicity.  
 
 | Ethnics   | Animal | Attributes           |
-|-----------|-------------------------------|
+|-----------|--------|----------------------|
 | Pandarran | Panda  | Constitution, Wisdom |
 | Raskkan   | Shark  | Stength, Cunning     |
 
@@ -1570,23 +1573,23 @@ Behind their cheerful faces lie sharp instincts for survival, negotiation, and q
 
 **Skills:** Persuasion, Discretion, Acrobatics, Larceny, Survival, Negotiation, Finesse, Communication.  
 **Personality traits:** Friendly, Playful, Optimistic, Curious, Resourceful, Homebound, Community-minded, Indulgent, Talkative (Loudmouth), Avoidant.  
-
-**Strong attributes:** Dexterity, Agility, Cunning, Luck (x2)  
-    __Dexterity__ – Small hands, nimble fingers, and a natural talent for subtle manipulation make Halflings excellent pickpockets, cooks, tinkerers, and lockbreakers.
-    __Agility__ – Light, quick, soft-footed, and unpredictable, they move gracefully through crowds and tight spaces that larger folk cannot navigate.
-    __Luck__ (x2) – Fortune truly seems to love them. Coin flips, daring escapes, risky gambles, and improbable coincidences routinely go their way.
-    __Cunning__ – Their innocent appearances conceal quick thinking. Halflings understand people, twist situations to their advantage, and improvise solutions in charmingly sneaky ways.
-**Weak attributes:** Strength, Constitution, Charisma, Willpower
-    __Strength__ – Small stature means little raw power. They rely on agility and cleverness, not force.
-    __Constitution__ – They are not built for hard labor, prolonged suffering, or harsh climates; they prefer comfort and safety.
-    __Charisma__ – They are liked, yes, but not respected. Their childish looks and carefree manners make it hard for others to take them seriously.
-    __Willpower__ – Halflings avoid conflict, trouble, and responsibilities. Their indulgent habits and reluctance to commit make them less resistant to manipulation or pressure.
+  
+**Strong attributes:** Dexterity, Agility, Cunning, Luck (x2)    
+    −− __Dexterity__ – Small hands, nimble fingers, and a natural talent for subtle manipulation make Halflings excellent pickpockets, cooks, tinkerers, and lockbreakers.  
+    −− __Agility__ – Light, quick, soft-footed, and unpredictable, they move gracefully through crowds and tight spaces that larger folk cannot navigate.  
+    −− __Luck__ (x2) – Fortune truly seems to love them. Coin flips, daring escapes, risky gambles, and improbable coincidences routinely go their way.  
+    −− __Cunning__ – Their innocent appearances conceal quick thinking. Halflings understand people, twist situations to their advantage, and improvise solutions in charmingly sneaky ways.  
+**Weak attributes:** Strength, Constitution, Charisma, Willpower  
+    −− __Strength__ – Small stature means little raw power. They rely on agility and cleverness, not force.  
+    −− __Constitution__ – They are not built for hard labor, prolonged suffering, or harsh climates; they prefer comfort and safety.  
+    −− __Charisma__ – They are liked, yes, but not respected. Their childish looks and carefree manners make it hard for others to take them seriously.  
+    −− __Willpower__ – Halflings avoid conflict, trouble, and responsibilities. Their indulgent habits and reluctance to commit make them less resistant to manipulation or pressure.  
 **Birth attributes:** Stature 8~9, Height 6~7, Ego 7~10, Appearance 10~12, Luck 10~13, Balance 6~10  
 **Allegiance:** Destiny or None  
 **Living environment:** Rural or City-dwelling  
 **Family:** Small Folks  
 **Nature:** Impure Beings  
-
+  
 **Birth particularities: Demie**
 - [Quick Feets](#birth-quick-feets)
 - [Favored Recovery](#birth-favored-recovery-karma) : Karma (PK)
@@ -1622,15 +1625,15 @@ Not to be confused with treants, which is a monstrous version of this people.
 
 **Skills:** Spellcasting, Survival, Meditation, Craftsmanship, Erudition, Defense, Hunting, Subterfuge.  
 **Personality traits:** Calm, Patient, Conservative, Community-minded, Principled, Serious, Forgiving, Warm, Measured, Cautious.  
-
-**Strong attributes:** Constitution, Wisdom  
-**Weak attributes:** None  
+  
+**Strong attributes:** Constitution, Wisdom    
+**Weak attributes:** None    
 **Birth attributes:** Stature 10~11, Height 9~10, Ego 10~11, Appearance 8~10, Luck 10, Balance 10~11  
 **Allegiance:** Nature, Magic, or None  
 **Living environment:** Forest  
 **Family:** Small Folks  
 **Nature:** Pure or Impure Beings  
-
+  
 **Birth particularities: Demie**
 - [Natural Armor](#birth-natural-armor)
 - [Living Wood](#birth-wood-skin)
@@ -1664,16 +1667,15 @@ A Celestial's presence commands respect, but behind their luminous beauty lies a
 
 **Skills:** Spellcasting, Erudition, Defense, Tactical, Persuasion, Meditation, Leadership, Endurance.  
 **Personality traits:** Serious, Principled, Conservative, Organized, Disciplined, Leader, Cold, Patient, Judgmental (Critical), Conformist.  
-
-**Strong attributes:** Charisma, Willpower (x2), Magic (x2)  
-**Weak attributes:** Perception, Cunning  
+  
+**Strong attributes:** Charisma, Willpower (x2), Magic (x2)    
+**Weak attributes:** Perception, Cunning    
 **Birth attributes:** Stature 10, Height 10, Ego 11~13, Appearance 11~13, Luck 5~8, Balance 10~12  
-**Creation access:** Costs 1 PP
 **Allegiance:** Magic or None  
 **Living environment:** City-dwelling, Urban, Rural  
 **Family:** Divine Folks  
 **Nature:** Pure Beings  
-
+  
 **Birth particularities: Divine**
 - [Favored Save](#birth-favored-determination)
 - [Celestial Light](#birth-celestial-light)
@@ -1712,16 +1714,16 @@ Not to be confused with pixies, which is a monstrous version of this people.
 
 **Skills:** Spellcasting, Acrobatics, Discretion, Subterfuge, Persuasion, Negotiation, Finesse, Art.  
 **Personality traits:** Playful, Spontaneous, Energetic, Expressive, Curious, Emotional (Sensitive), Reckless, Opportunistic, Indulgent, Loudmouth.  
-
-**Strong attributes:** Cunning, Luck, Magic  
-**Weak attributes:** Strength, Constitution  
+  
+**Strong attributes:** Cunning, Luck, Magic    
+**Weak attributes:** Strength, Constitution    
 **Birth attributes:** Stature 3~5, Height 3~5, Ego 11~14, Appearance 11~14, Luck 10~14, Balance 10~12  
 
 **Allegiance:** Chaos, Magic, or None  
 **Living environment:** Forest and Marine  
 **Family:** Small Folks  
 **Nature:** Pure Beings  
-
+  
 **Birth particularities: Small Folk**
 - [Flight Movement](#birth-flight-movement)
 - [Windborne](#birth-windborne)
@@ -1758,15 +1760,15 @@ This gives them exceptional synchronicity in combat formations and makes Qunari 
 
 **Skills:** Melee, Tactical, Endurance, Leadership, Defense, Athletics, Persuasion, Survival.  
 **Personality traits:** Disciplined, Serious, Organized, Stoic, Leader, Conservative, Loyal, Measured, Cautious, Unshakeable.  
-
-**Strong attributes:** Strength, Dexterity, Charisma, Willpower  
-**Weak attributes:** Luck, Balance  
+  
+**Strong attributes:** Strength, Dexterity, Charisma, Willpower    
+**Weak attributes:** Luck, Balance    
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 6~8, Balance 10~12  
 **Allegiance:** Ankou or None  
 **Living environment:** Rural, City-dwelling, or Mountain  
 **Family:** Horned Folks  
 **Nature:** Impure Beings  
-
+  
 **Birth particularities: Horned Folk**
 - [Long Reach](#birth-reach)
 - [Above Average](#birth-above-average)
@@ -1808,15 +1810,15 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
 
 **Skills:** Spellcasting, Survival, Meditation, Craftsmanship, Defense, Finesse, Negotiation, Swimming.  
 **Personality traits:** Warm, Expressive, Curious, Sensitive, Persuasive (Confident), Community-minded, Indulgent, Opportunistic, Reactive (Impatient), Bright.  
-
-**Strong attributes:** Charisma (x2), Wisdom  
-**Weak attributes:** Balance  
+  
+**Strong attributes:** Charisma (x2), Wisdom    
+**Weak attributes:** Balance    
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 10, Appearance 12~16, Luck 6~8, Balance 8~12  
 **Allegiance:** Magic or None  
 **Living environment:** Forest  
 **Family:** Wild Folks  
 **Nature:** Pure Beings  
-
+  
 **Birth particularities: Wild Folk**
 - [Too Pretty To Hit](#birth-too-pretty-to-hit)
 - [Favored Save](#birth-favored-save-prestige) : Prestige
@@ -1854,15 +1856,15 @@ This pulse reacts to powerful magic, emotional upheaval, or mortal danger, manif
 
 **Skills:** Melee, Brawl, Endurance, Survival, Subterfuge, Defense, Tactical, Craftsmanship.  
 **Personality traits:** Stoic, Enduring (Hardworking), Independent, Gloomy, Cautious, Resourceful, Patient, Principled, Quiet, Unshakeable.  
-
-**Strong attributes:** Intelligence, Willpower, Balance, Magic or Logic  
-**Weak attributes:** Luck, Wisdom  
+  
+**Strong attributes:** Intelligence, Willpower, Balance, Magic or Logic    
+**Weak attributes:** Luck, Wisdom    
 **Birth attributes:** Stature 10, Height 10, Ego 10~12, Appearance 10~12, Luck 8~10, Balance 10~12  
 **Allegiance:** Nature, Source, Ankou, or None  
 **Living environment:** Subterranean   
 **Family:** Horned Folks  
 **Nature:** Pure or Impure Beings  
-
+  
 **Birth particularities: Horned Folk**
 - [Natural Regeneration](#birth-natural-regeneration)
 - [Full Recovery](#birth-full-recovery)
@@ -1907,14 +1909,14 @@ Not to be confused with nagas, which is a monstrous version of this people.
 
 **Skills:** Spellcasting, Subterfuge, Melee, Persuasion, Survival, Tactical, Negotiation, Defense.  
 **Personality traits:** Calm, Calculative, Secretive, Cautious, Opportunistic, Loyal, Disciplined, Measured, Independent, Curious.  
-
-**Strong attributes:** Agility, Intelligence/Cunning/Willpower/wisdom (choose one)  
-**Weak attributes:** None  
+  
+**Strong attributes:** Agility, Intelligence/Cunning/Willpower/wisdom (choose one)    
+**Weak attributes:** None    
 **Birth attributes:** Stature 10, Height 10~12, Ego 8~12, Appearance 10~12, Luck 7~9, Balance 10~11  
 **Allegiance:** Magic, Chaos, or None  
 **Living environment:** Forest, Mountain, Desert, or Marine  
 **Family:** Serpentfolk / Semies  
-
+  
 **Birth particularities: Semie**
 - [Variable Size](#birth-variable-size)
 - [Excellent Speed](#birth-speed)
@@ -1948,14 +1950,14 @@ Not to be confused with centaurs, which is a monstrous version of this people.
 
 **Skills:** Melee, Tactical, Endurance, Leadership, Survival, Athletics, Persuasion, Defense.  
 **Personality traits:** Serious, Principled, Conservative, Community-minded, Leader, Disciplined, Patient, Proud (Pretentious), Cautious, Hardworking.  
-
-**Strong attributes:** Strength, Agility, Willpower  
-**Weak attributes:** Intelligence  
+  
+**Strong attributes:** Strength, Agility, Willpower    
+**Weak attributes:** Intelligence    
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 7~9, Balance 10~11  
 **Allegiance:** Source, Magic, Ankou, or None  
 **Living environment:** Forest  
 **Family:** Equine Beings / Semies  
-
+  
 **Birth particularities: Semie**
 - [Restless](#birth-restless)
 - [Heart of Stead](#birth-heart-stead)
@@ -1987,14 +1989,14 @@ While generally peaceful, they are not passive: Undines possess long memories an
 
 **Skills:** Spellcasting, Swimming, Survival, Craftsmanship, Defense, Negotiation, Persuasion, Tactical.  
 **Personality traits:** Calm, Measured, Patient, Principled, Community-minded, Welcoming, Cautious, Modest, Sensitive, Organized.  
-
-**Strong attributes:** Perception, Willpower  
-**Weak attributes:** None  
+  
+**Strong attributes:** Perception, Willpower    
+**Weak attributes:** None    
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 8~10, Appearance 10~12, Luck 10~11, Balance 10~11  
 **Allegiance:** Source, Magic, or None  
 **Living environment:** Marine  
 **Family:** Marine Beings / Semies  
-
+  
 **Birth particularities: Semie**
 - [Guile](#birth-guile)
 - [Perspicacity](#birth-perspicacity)
@@ -2035,63 +2037,63 @@ Drakkan communities are rare and scattered. Some embrace ancient customs; others
 
 The Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.
 
-**Personality traits:** Depends on heritage (spawn type)  
-**Strong attributes:** Depends on heritage (spawn type)  
-**Weak attributes:** Depends on heritage (spawn type)  
+**Personality traits:** Depends on heritage (spawn type)    
+**Strong attributes:** Depends on heritage (spawn type)    
+**Weak attributes:** Depends on heritage (spawn type)    
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 6~8, Luck 6~8, Balance 10~11  
 
-**Red** (Tiamat): Children of the dragon of fire and war, they embody raw strength, wrath, and leadership. Highly persuasive and influential, they dominate through combat skills (Melee, Brawl) and tactical prowess. Magic is also present, often tied to fire.
+**Red** (Tiamat): Children of the dragon of fire and war, they embody raw strength, wrath, and leadership. Highly persuasive and influential, they dominate through combat skills (Melee, Brawl) and tactical prowess. Magic is also present, often tied to fire.  
 **Strong attributes:** Strength, Charisma  
 **Environment:** Warm and arid lands/places  
 **Chromatic Blood Domain**: Fire  
 **Skills:** Melee, Endurance, Persuasion, Spellcasting, Tactical, Leadership, Brawl, Defense.
 
-**Green** (Prometheus): Children of the dragon of earth and wisdom, these Spawns are calm, thoughtful, and resilient. Focused on survival and craftsmanship, they excel in tasks requiring endurance and defense. Their knowledge (Erudition) makes them wise advisors and peaceful leaders.
+**Green** (Prometheus): Children of the dragon of earth and wisdom, these Spawns are calm, thoughtful, and resilient. Focused on survival and craftsmanship, they excel in tasks requiring endurance and defense. Their knowledge (Erudition) makes them wise advisors and peaceful leaders.  
 **Strong attributes:** Constitution, Willpower  
 **Environment:** Forest and verdurant lands/places  
 **Chromatic Blood Domain**: Earth or Metal  
 **Skills:** Endurance, Craftsmanship, Erudition, Survival, Melee, Tactical, Defense, Leadership.
 
-**Blue** (Leviathan): Descendants of the dragon of waters, these Spawns are quick, agile, and skilled at aquatic navigation (Swimming, Acrobatics). Subtle, persuasive, and opportunistic, they rely on finesse and survival skills to adapt to any situation.
+**Blue** (Leviathan): Descendants of the dragon of waters, these Spawns are quick, agile, and skilled at aquatic navigation (Swimming, Acrobatics). Subtle, persuasive, and opportunistic, they rely on finesse and survival skills to adapt to any situation.  
 **Strong attributes:** Dexterity, Intelligence  
 **Environment:** Waters and cold lands/places  
 **Chromatic Blood Domain**: Water or Cold  
 **Skills:** Swimming, Acrobatics, Melee, Subterfuge, Persuasion, Finesse, Brawl, Survival.
 
-**Yellow** (Aquilon): Children of the dragon of skies, they are energetic, social, and adept at trade interactions. Athletic and competitive, they excel in physical skills (Athletics, Acrobatics) and are strong leaders with a social edge (Persuasion, Negotiation).
+**Yellow** (Aquilon): Children of the dragon of skies, they are energetic, social, and adept at trade interactions. Athletic and competitive, they excel in physical skills (Athletics, Acrobatics) and are strong leaders with a social edge (Persuasion, Negotiation).  
 **Strong attributes:** Agility, Cunning  
 **Environment:** Windy and high grounds/places  
 **Chromatic Blood Domain**: Wind or Lightning  
 **Skills:** Athletics, Melee, Persuasion, Finesse, Leadership, Acrobatics, Negotiation, Survival.
 
-**Black** (Bahamut): Children of the dragon of chaos and shadows, they are cunning and adept at subterfuge. Skilled in spellcrafting and tactical arts, they are formidable manipulators and stealth combatants, known for their survival instincts and strategic prowess.
+**Black** (Bahamut): Children of the dragon of chaos and shadows, they are cunning and adept at subterfuge. Skilled in spellcrafting and tactical arts, they are formidable manipulators and stealth combatants, known for their survival instincts and strategic prowess.  
 **Strong attributes:** Two different physical attributes  
 **Environment:** Filthy or dark places/places  
 **Chromatic Blood Domain**: Darkness or Death or Chaos  
 **Skills:** Subterfuge, Melee, Tactical, Discretion, Persuasion, Brawl, Spellcrafting, Survival.
 
-**White** (Chromium): Children of the dragon of virtue and justice, these Spawns are eloquent, disciplined, and dedicated defenders. Highly respected, they focus on defense, leadership, and strategy (Tactical), complemented by magic to uphold order.
+**White** (Chromium): Children of the dragon of virtue and justice, these Spawns are eloquent, disciplined, and dedicated defenders. Highly respected, they focus on defense, leadership, and strategy (Tactical), complemented by magic to uphold order.  
 **Strong attributes:** Two different mental attributes  
 **Environment:** Neutral places  
 **Chromatic Blood Domain**: Sacred or Life or Law  
 **Skills:** Persuasion, Leadership, Defense, Erudition, Spellcasting, Tactical, Negotiation, Endurance.
 
-**Purple** (Arcanum): Descendants of the dragon of sorcery and mysticism, they are wise, scholarly, and possess strong magical abilities (Spellcasting, Spellcrafting). Drawn to erudition and meditation, they are mystics and artisans in pursuit of knowledge and mastery of the arcane.
+**Purple** (Arcanum): Descendants of the dragon of sorcery and mysticism, they are wise, scholarly, and possess strong magical abilities (Spellcasting, Spellcrafting). Drawn to erudition and meditation, they are mystics and artisans in pursuit of knowledge and mastery of the arcane.  
 **Strong attributes:** Magic and one of the mental attribute  
 **Environment:** Plans of existence and magical imbue places  
 **Chromatic Blood Domain**: Arcane or Magic or Illusion  
 **Skills:** Spellcasting, Erudition, Meditation, Spellcrafting, Persuasion, Craftsmanship, Tactical, Leadership.
 
-**Grey** (Gileyn Fu): ...
+**Grey** (Gileyn Fu): ...  
 **Strong attributes:** Cunning and Willpower   
 **Environment:** ...  
 **Chromatic Blood Domain**: ...  
 **Skills:** ...
 
-**Creation access:** Costs 1 PP**Allegiance:** Magic, Ankou, or None  
+**Allegiance:** Magic, Ankou, or None  
 **Living environment:** Desert, Mountain, or Subterranean  
 **Family:** Draconic Beings  
-
+  
 **Birth particularities: Draconic**
 - [Natural Weapons / Armor](#birth-natural-wa)
 - [Stronger Natural Weapons](#birth-stronger-natural-weapons)
@@ -2132,21 +2134,20 @@ Not to be confused with ogre, which is a monstrous version of this people.
 
 **Skills:** Melee, Endurance, Brawl, Craftsmanship, Defense, Survival, Athletics, Tactical.  
 **Personality traits:** Imposing, Aggressive, Hardworking, Loyal, Direct (Rude), Reckless, Community-minded, Stubborn, Fearless, Resourceful.  
-
+  
 **Strong attributes:** Strength, Constitution (x2), Willpower  
     Strength – Their immense musculature grants them overwhelming physical power.
     Constitution (x2) – Ogrens possess exceptional endurance and resilience, capable of withstanding tremendous physical strain.
-    Willpower – Their survivalist culture forges unbreakable determination and mental toughness.
+    Willpower – Their survivalist culture forges unbreakable determination and mental toughness.  
 **Weak attributes:** Dexterity, Agility, Luck  
     Dexterity – Their large hands and massive frames limit fine motor skills and delicate movements.
     Balance – Ogrens are powerful but lack inner harmony; they are vulnerable to fatigue, spiritual strain, and corruptive influences.
-    Luck – Misfortune follows their people; life is a constant trial, rarely eased by favorable chance.
+    Luck – Misfortune follows their people; life is a constant trial, rarely eased by favorable chance.  
 **Birth attributes:** Stature 12~14, Height 12~14, Ego 8~9, Appearance 6~8, Luck 6~8, Balance 10~11  
-**Creation access:** Costs 1 PP
 **Allegiance:** Nature, Ankou, or None  
 **Living environment:** Desert or Mountain  
 **Family:** Gargantuan Beings / Aberrations  
-
+  
 **Birth particularities: Vermine**
 - [High Natural Regeneration](#birth-high-natural-regeneration)
 - [Reserve Stock](#birth-reserve-stock)
@@ -2180,20 +2181,20 @@ Not to be confused with orcs, which is a monstrous version of this people.
 
 **Skills:** Melee, Endurance, Tactical, Leadership, Brawl, Athletics, Defense, Survival.  
 **Personality traits:** Aggressive, Fearless, Rebellious, Loyal, Energetic, Reckless, Community-minded, Stubborn, Competitive (Ambitious), Impatient.  
-
+  
 **Strong attributes:** Strength, Agility, Constitution  
     Strength – Their warrior heritage gives them outstanding physical might.
     Constitution – Orkkans endure extremes of climate, conflict, and deprivation.
-    Agility – Despite their size, they are surprisingly agile and efficient in motion.
+    Agility – Despite their size, they are surprisingly agile and efficient in motion.  
 **Weak attributes:** Intelligence, Wisdom, Luck  
     Wisdom – Their impulsive, rivalry-driven culture leaves little room for introspection.
     Intelligence – Orkkans value instinct over analysis, limiting scholarly or strategic reasoning.
-    Luck – Their history is marked by conflict, exile, and systemic misfortune; fate rarely favors them.
+    Luck – Their history is marked by conflict, exile, and systemic misfortune; fate rarely favors them.  
 **Birth attributes:** Stature 11~13, Height 11~13, Ego 10~12, Appearance 4~7, Luck 8~10, Balance 8~10  
 **Allegiance:** Source, Ankou, or None  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
 **Family:** Aberrations 
-
+  
 **Birth particularities: Aberration**
 - [Favored Save](#birth-favored-save-thoughness) : Thoughness
 - [Favored Recovery](#birth-favored-recovery-vitality) : Vitality (PV)
@@ -2230,21 +2231,21 @@ Not to be confused with goblins, which is a monstrous version of this people.
 
 **Skills:** Larceny, Discretion, Subterfuge, Survival, Acrobatics, Brawl, Finesse, Negotiation.  
 **Personality traits:** Opportunistic, Curious, Resourceful, Spontaneous, Talkative (Loudmouth), Chaotic, Cautious, Envious, Independent, Playful.  
-
+  
 **Strong attributes:** Dexterity, Agility, Cunning, Logic  
     Dexterity – Nimble-fingered and precise, Gablins excel at tinkering, theft, and improvised engineering.
     Agility – Quick, reactive, and restless, they move with remarkable speed for their size.
     Cunning – Their sharp intuition allows them to improvise solutions instantly.
-    Logic – Despite their chaotic methods, Gablins possess a strange but effective technical reasoning.
+    Logic – Despite their chaotic methods, Gablins possess a strange but effective technical reasoning.  
 **Weak attributes:** Strength, Willpower, Charisma, Balance  
     Strength – Small bodies and limited muscle mass restrict physical force.
     Willpower – Their volatile temperament makes them easily distracted, anxious, or overwhelmed.
-    Charisma – Their abrasive mannerisms, erratic behavior, and unsettling energy often make them distrusted or poorly received by others.
+    Charisma – Their abrasive mannerisms, erratic behavior, and unsettling energy often make them distrusted or poorly received by others.  
 **Birth attributes:** Stature 6~8, Height 6~8, Ego 11~13, Appearance 6~8, Luck 11~13, Balance 11~13  
 **Allegiance:** Source, Ankou, or None  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
 **Family:** Aberrations  
-
+  
 **Birth particularities: Aberration**
 - [Favored Save](#birth-favored-save-reflexes) : Reflexes
 - [Scapegoats](#birth-scapegoats)

@@ -10,3 +10,5 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+markdown_extensions:
+  - attr_list
