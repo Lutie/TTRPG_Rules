@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terre Natale — Outils</title>
+  <link rel="stylesheet" href="hub.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="header">
+      <h1>Outils</h1>
+      <p class="sub">
+        Hub des outils de création / calcul. Choisis un module.
+      </p>
+
+      <div class="searchRow">
+        <input id="search" type="search" placeholder="Rechercher un outil…" autocomplete="off" />
+      </div>
+    </header>
+
+    <section class="grid" id="toolsGrid">
+      <a class="card" href="./stats/">
+        <div class="cardTop">
+          <div class="cardTitle">Stats</div>
+          <div class="badge">Calcul</div>
+        </div>
+        <p class="cardText">
+          Répartition des PA + ajustements d’origines (Race / Allégeance / Milieu / Persona).
+        </p>
+        <div class="cardMeta">Chemin : <code>tools/stats/</code></div>
+      </a>
+
+      <a class="card" href="./vitals/">
+        <div class="cardTop">
+          <div class="cardTitle">Vitals</div>
+          <div class="badge">Assistant</div>
+        </div>
+        <p class="cardText">
+          Outil vitaux / valeurs dérivées (selon ton module).
+        </p>
+        <div class="cardMeta">Chemin : <code>tools/vitals/</code></div>
+      </a>
+
+      <!-- Tu peux dupliquer ce bloc pour ajouter d'autres tools
+      <a class="card" href="./nom-du-tool/">
+        <div class="cardTop">
+          <div class="cardTitle">Nom du tool</div>
+          <div class="badge">Tag</div>
+        </div>
+        <p class="cardText">Description courte.</p>
+        <div class="cardMeta">Chemin : <code>tools/nom-du-tool/</code></div>
+      </a>
+      -->
+    </section>
+
+    <footer class="footer">
+      <a class="back" href="../">← Retour</a>
+    </footer>
+  </main>
+
+  <script src="hub.js"></script>
+</body>
+</html>

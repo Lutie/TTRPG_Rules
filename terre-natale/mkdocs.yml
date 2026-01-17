@@ -7,4 +7,5 @@ nav:
   - Accueil: index.md
   - Classes: classes/castes/index.html
   - Outils:
-    - Vitals: vitals/index.html
+    - Vitals: tools/vitals/index.html
+    - Stats: tools/stats/index.html
