@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thalifen — Création (Destinée + PA + Origines)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Thalifen — Création de personnage</h1>
+        <p class="subtitle">
+          Choisis ta <strong>Destinée</strong>, répartis tes
+          <strong>PA</strong> sur les attributs de base, puis applique les
+          <strong>ajustements d’origines</strong> (Race / Allégeance / Milieu /
+          Persona).
+        </p>
+      </header>
+
+      <!-- Destinée + PA + Attributs -->
+      <section class="card">
+        <div class="topbar">
+          <div class="destinyBox">
+            <label for="destinySelect">Destinée</label>
+            <select id="destinySelect"></select>
+
+            <div class="destinyMeta">
+              <span class="badge">PA : <strong id="destinyPA">—</strong></span>
+              <span class="badge"
+                >Max Attribut : <strong id="destinyMax">—</strong></span
+              >
+              <button
+                id="resetAllBtn"
+                type="button"
+                class="secondary"
+                style="padding: 0 8px"
+              >
+                Réinitialiser tout
+              </button>
+            </div>
+          </div>
+
+          <div class="paSummary">
+            <div class="pill">
+              <div class="pillLabel">PA dépensés</div>
+              <div class="pillValue" id="paSpent">0</div>
+            </div>
+            <div class="pill">
+              <div class="pillLabel">PA restants</div>
+              <div class="pillValue" id="paRemaining">0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="attrSection">
+          <h2>Attributs</h2>
+
+          <div class="attrGroup">
+            <h3>Corps</h3>
+            <div class="attrGrid five" id="gridCorps"></div>
+          </div>
+
+          <div class="attrGroup">
+            <h3>Esprit</h3>
+            <div class="attrGrid five" id="gridEsprit"></div>
+          </div>
+
+          <div class="attrGroup">
+            <h3>Autre</h3>
+            <div class="attrGrid two" id="gridAutre"></div>
+          </div>
+
+          <p class="microhint">
+            Coût par palier : <code>X → X+1 coûte (X-4) PA</code> (ex : 7→8 = 3, 8→9 = 4, 9→10 = 5…).
+          </p>
+        </div>
+      </section>
+
+      <!-- Origines -->
+      <section class="card">
+        <div class="toolbar">
+          <h2>Ajustements d’origines</h2>
+          <button id="resetOriginsBtn" type="button" class="secondary">
+            Réinitialiser origines
+          </button>
+        </div>
+
+        <div class="sectionsGrid">
+          <section class="groupCard">
+            <h3>Race</h3>
+            <div class="fieldList">
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost 1</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="race"
+                  data-slot="boost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost 2</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="race"
+                  data-slot="boost2"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Deboost 1</div>
+                <select
+                  class="attrSelect"
+                  data-type="deboost"
+                  data-source="race"
+                  data-slot="deboost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost bonus (si Deboost)</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="race"
+                  data-slot="boost3"
+                ></select>
+              </div>
+            </div>
+            <p class="microhint">Laisse <strong>—</strong> si non pris.</p>
+          </section>
+
+          <section class="groupCard">
+            <h3>Allégeance</h3>
+            <div class="fieldList">
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="allegeance"
+                  data-slot="boost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Deboost</div>
+                <select
+                  class="attrSelect"
+                  data-type="deboost"
+                  data-source="allegeance"
+                  data-slot="deboost1"
+                ></select>
+              </div>
+            </div>
+          </section>
+
+          <section class="groupCard">
+            <h3>Milieu de vie</h3>
+            <div class="fieldList">
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost 1</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="milieu"
+                  data-slot="boost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost 2</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="milieu"
+                  data-slot="boost2"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Deboost 1</div>
+                <select
+                  class="attrSelect"
+                  data-type="deboost"
+                  data-source="milieu"
+                  data-slot="deboost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Deboost 2</div>
+                <select
+                  class="attrSelect"
+                  data-type="deboost"
+                  data-source="milieu"
+                  data-slot="deboost2"
+                ></select>
+              </div>
+            </div>
+          </section>
+
+          <section class="groupCard">
+            <h3>Persona</h3>
+            <div class="fieldList">
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost 1</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="persona"
+                  data-slot="boost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost 2</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="persona"
+                  data-slot="boost2"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Deboost 1</div>
+                <select
+                  class="attrSelect"
+                  data-type="deboost"
+                  data-source="persona"
+                  data-slot="deboost1"
+                ></select>
+              </div>
+              <div class="fieldRow">
+                <div class="fieldLabel">Boost bonus (si Deboost)</div>
+                <select
+                  class="attrSelect"
+                  data-type="boost"
+                  data-source="persona"
+                  data-slot="boost3"
+                ></select>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Terre Natale - Module Thalifen</p>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
