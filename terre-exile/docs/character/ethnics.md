@@ -37,9 +37,9 @@ The Emperians are a cultured and exemplary urban society known for their advance
     −− __Intelligence__ – Their society revolves around scholarship, strategy, refined arts, and academic institutions, making intellectual aptitude a cultural cornerstone.  
     −− __Cunning__ – Emperians navigate politics, diplomacy, and urban intrigue, requiring sharp minds and the ability to read complex social dynamics.  
     −− __Magic or Logic__ – Their cities seamlessly blend magical theory with scientific innovation; mastering either discipline is a sign of achievement and prestige.  
-**Weak attributes:** None    
-**Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10
-**Allegiance:** Arcane, Magic, Steam, Technology, Destiny, or None  
+**Weak attributes:** None  
+**Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10  
+**(Prefered) Allegiance:** Neutral, Sciences, Steam, Reason, Emeth  
 **Living environment:** Urban, City-dwelling, Rural  
   
 **Birth particularities: Humans**
@@ -77,9 +77,9 @@ Kjeldorians are master hunters and survivalists who thrive in tundra and cold ar
 **Strong attributes:** Strength, Perception    
     −− __Strength__ – Life in tundras and frozen wilderness demands powerful bodies capable of enduring harsh terrain and hunting dangerous prey.  
     −− __Perception__ – Surviving in blizzards, tracking beasts, and navigating white landscapes requires acute senses and an instinct for detecting hidden threats.  
-**Weak attributes:** None    
-**Birth attributes:** Stature 10~12, Height 10~12, Ego 10~11, Appearance 8~10, Luck 8~10, Balance 9~10
-**Allegiance:** Nature, Destiny, or None  
+**Weak attributes:** None  
+**Birth attributes:** Stature 10~12, Height 10~12, Ego 10~11, Appearance 8~10, Luck 8~10, Balance 9~10  
+**(Prefered) Allegiance:** Neutral, Nature, Ankou, Heritage  
 **Living environment:** Desertic, Rural, Urban  
   
 **Birth particularities: Humans**
@@ -119,7 +119,7 @@ The Attilians are a hardy, resilient people who inhabit arid, desert-like region
     −− __Cunning__ – Trade routes, negotiations, clan politics, and desert survival reward cleverness, adaptability, and shrewd decision-making.  
 **Weak attributes:** None    
 **Birth attributes:** Stature 10~11, Height 10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~11
-**Allegiance:** Destiny or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Ambition  
 **Living environment:** Desertic, Rural, Urban  
   
 **Birth particularities: Humans**
@@ -156,7 +156,7 @@ Rosalians are a highly spiritual, traditional people with strong beliefs and cus
     −− __Wisdom__ – Rosalian traditions emphasize meditation, serenity, and philosophical thought, cultivating deep intuition and balanced judgment.  
 **Weak attributes:** None    
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 10~11, Appearance 10~11, Luck 10~11, Balance 9~10
-**Allegiance:** Destiny or None  
+**(Prefered) Allegiance:** Neutral, Reason, Silence, Faith  
 **Living environment:** Urban, City-dwelling, Rural  
   
 **Birth particularities: Humans**
@@ -193,7 +193,7 @@ A militarized people with a centuries-long history of warfare, the Albalonians a
     −− __Willpower__ – Generations of conflict forged unbreakable resolve; they endure hardship, command respect, and never yield on the battlefield.  
 **Weak attributes:** _This information has not yet been written down_    
 **Birth attributes:** Stature 10~11, Height 10~11, Ego 9~11, Appearance 9~10, Luck 9~10, Balance 9~11
-**Allegiance:** Destiny or None  
+**(Prefered) Allegiance:** Neutral, Sciences, Source, Ambition  
 **Living environment:** City-dwelling, Rural  
   
 **Birth particularities: Humans**
@@ -230,7 +230,7 @@ Morrians are resilient, clan-based people who inhabit vast, desolate, and sparse
     −− __Perception__ – As trackers, farmers, hunters, and guardians of isolated lands, Morrians rely on watchfulness and sharp awareness of their surroundings.  
 **Weak attributes:** None    
 **Birth attributes:** Stature 9~10, Height 10~11, Ego 9~10, Appearance 9~10, Luck 9~11, Balance 10~11
-**Allegiance:** Destiny or None  
+**(Prefered) Allegiance:** Neutral, Nature, Dreams, Silence  
 **Living environment:** Rural, City-dwelling  
   
 **Birth particularities: Humans**
@@ -265,7 +265,7 @@ This people of solid mountain people, vigorous and enduring, was shaped by the h
     −− __Willpower__ – Titans are known for their iron discipline, unshakeable courage, and refusal to yield under hardship or fear.  
 **Weak attributes:** None    
 **Birth attributes:** Stature 10~12, Height 9~10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10~11
-**Allegiance:** Destiny or None  
+**(Prefered) Allegiance:** Neutral, Heritage, Source, Silence  
 **Living environment:** City-dwelling, Rural, Mountainous  
   
 **Birth particularities: Humans**
@@ -303,7 +303,7 @@ Bretonians are a technologically advanced society known for their intellectual p
     −− __Logic__ – Bretonians excel at structured reasoning, technical mastery, and problem-solving, blending science with magical engineering.  
 **Weak attributes:** None    
 **Birth attributes:** Stature 10, Height 10, Ego 10~11, Appearance 9~10, Luck 9~10, Balance 10
-**Allegiance:** Science, Technology, or None  
+**(Prefered) Allegiance:** Neutral, Steam, Sciences, Reason  
 **Living environment:** Urban or City-dwelling  
   
 **Birth particularities: Humans**
@@ -337,7 +337,7 @@ This (currently extinguished) people are distant relatives to selunian elves.
     −− __Magic__ – Aurians carry ancient magical lineage, granting them natural affinity for arcane arts and metaphysical perception.  
 **Weak attributes:** None    
 **Birth attributes:** Stature 8~9, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~11, Balance 8~10
-**Allegiance:** Arcane, Magic, None  
+**(Prefered) Allegiance:** Neutral, Magic, Arcanes, Faith, Emeth  
 **Living environment:** Urban or City-dwelling  
   
 **Birth particularities: Humans**
@@ -378,7 +378,7 @@ The Sylvanians are forest-dwelling elves who live in harmony with nature. They r
 **Weak attributes:** Strength    
     −− __Strength__ – Their light, slender builds favor precision and speed over physical power; brute force is rarely part of their lifestyle.  
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 10~11, Appearance 10~12, Luck 9~11, Balance 10~12
-**Allegiance:** Nature, Source, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Heritage  
 **Living environment:** Rural or Forest  
   
 **Birth particularities: Elven**
@@ -422,7 +422,7 @@ The Selunians are a mystical, refined society deeply connected to magic and scho
     −− __Strength__ – Sheltered scholarly lives and delicate frames leave them physically fragile.  
     −− __Constitution__ – Reliance on magic rather than physical exertion makes their bodies less resilient to hardship and disease.  
 **Birth attributes:** Stature 7~8, Height 8~9, Ego 10~12, Appearance 11~13, Luck 10~11, Balance 8~10  
-**Allegiance:** Magic, Arcane, or None  
+**(Prefered) Allegiance:** Neutral, Magic, Arcanes, Heritage, Silence  
 **Living environment:** Urban, City-dwelling, or Rural  
   
 **Birth particularities: Elven**
@@ -464,7 +464,7 @@ Thalassians are water-oriented elves who feel at home near rivers, lakes, and oc
 **Weak attributes:** Strength    
     −− __Strength__ – Their bodies favor flexibility and speed—powerful strokes in water rather than heavy lifting on land.  
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 9~10, Appearance 11~13, Luck 10~11, Balance 10~12  
-**Allegiance:** Magic or None  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Silence  
 **Living environment:** Marine, City-dwelling, or Rural  
   
 **Birth particularities: Elven**
@@ -510,7 +510,7 @@ Eldrazians, or Black Elves, are a rare and enigmatic subgroup, often born among 
     −− __Constitution__ – The “dark heart” that shapes their nature strains body and spirit, creating inherent fragility.  
     −− __Wisdom__ – Emotional volatility and internal struggle hinder clarity and long-term judgment.  
 **Birth attributes:** Stature 7~9, Height 8~9, Ego 10~13, Appearance 11~13, Luck 8~10, Balance 6~9  
-**Allegiance:** Arcane or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Ambition  
 **Living environment:** Urban, City-dwelling, or Subterranean  
   
 **Birth particularities: Elven**
@@ -553,7 +553,7 @@ Urganian Elves are reclusive, mystical, and fierce. They are known for their dee
 **Weak attributes:** Cunning    
     −− __Cunning__ – Their rigid worldview leaves little room for deception or subtle political maneuvering; they act with direct intent rather than manipulation.  
 **Birth attributes:** Stature 8~10, Height 8~9, Ego 10~12, Appearance 9~11, Luck 8~10, Balance 10~12  
-**Allegiance:** _This information has not yet been written down_  
+**(Prefered) Allegiance:** Neutral, Nature, Ankou, Heritage  
 **Living environment:** _This information has not yet been written down_  
   
 **Birth particularities: Elven**
@@ -593,7 +593,7 @@ Their dual identity sometimes creates inner conflict, leading them either to wan
 **Strong attributes**: Inherits the strong attributes of either parent, chosen by the player.  
 **Weak attributes**: Inherits the weak attributes of one parent, which does not need to be the same parent chosen for the strong attributes.  
 **Birth attributes**: Inherits the range limits of both parents, using the lowest minimum and the highest maximum for each value.
-**Allegiance:** Inherits the allegiance list of both parent  
+**(Prefered) Allegiance:** Inherits the (Prefered) Allegiance list of both parent  
 **Living environment:** Inherits the living environment list of both parent  
   
 **Birth particularities:** Inherits the birth particularities of either parent (player's choice)  
@@ -630,7 +630,7 @@ Also called Brandawis.
     −− __Agility__ – Like all dwarves, Bradanan retain a compact, solid build that limits speed and fluidity of movement. Their lives center around precision rather than mobility, reinforcing this natural physical limitation.  
     −− __Charisma__ – Although reliable and competent, Bradanan tend to be blunt, overly pragmatic, or socially rigid. Their urban life has softened little of their dwarven straightforwardness, making them respected, but not always well-liked.  
 **Birth attributes:** Stature 11~12, Height 7~8, Ego 10~12, Appearance 8~10, Luck 10~11, Balance 10~11  
-**Allegiance:** Steam, Science, or None  
+**(Prefered) Allegiance:** Neutral, Steam, Sciences, Reason, Ambition  
 **Living environment:** Urban or City-dwelling  
   
 **Birth particularities: Dwarf**
@@ -677,7 +677,7 @@ Also called Karazdawis.
     −− __Dexterity__ – While precise in heavy craftsmanship (smithing, carving), they struggle with delicate manipulations requiring lighter or more flexible movements. Fine motor skills are often secondary to strength-based tasks.  
     −− __Charisma__ – Karazdan dwarves are famously blunt, proud, and intense. Their fiery tempers, traditionalism, and social rigidity do not translate well to diplomacy, causing them to intimidate more often than they charm.  
 **Birth attributes:** Stature 12~13, Height 7~8, Ego 10~12, Appearance 7~9, Luck 10~11, Balance 10~11  
-**Allegiance:** Steam or None  
+**(Prefered) Allegiance:** Neutral, Source, Heritage, Steam, Silence  
 **Living environment:** Subterranean, Mountainous, City-dwelling, or Rural  
   
 **Birth particularities: Dwarf**
@@ -776,7 +776,7 @@ Ungordan Society:
     −− __Dexterity__ – While strong craftworkers, their work demands force rather than finesse. Fine manipulation, delicate handling, and light mechanical work suffer due to their heavy musculature and utilitarian mindset.  
     −− __Wisdom__ – The isolation of the deep limits their worldview. Ungordan rarely experience spiritual diversity, natural landscapes, cultural exchanges, or contemplative traditions, resulting in a narrower understanding of the world and weaker intuitive insight.  
 **Birth attributes:** Stature 12~14, Height 7~8, Ego 10~13, Appearance 6~8, Luck 8~10, Balance 10~12  
-**Allegiance:** Steam, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Ankou, Silence, Heritage  
 **Living environment:** Subterranean  
   
 **Birth particularities: Dwarf**
@@ -825,7 +825,7 @@ They are considered pacifist ferals, generally not seeking conflict with other c
 **Weak attributes:** Cunning    
     −− __Cunning__ – Okkan are honest, direct, and pack-oriented rather than scheming. They prefer trust and loyalty over manipulation or elaborate plots.  
 **Birth attributes:** Stature 10, Height 10, Ego 10, Appearance 10, Luck 10, Balance 10  
-**Allegiance:** Nature, Magic, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Dreams  
 **Living environment:** Forest, Nomadic, Rural  
 **Nature**: Pacifist.  
 **Totem**: Uhlo, the Unifier.  
@@ -867,7 +867,7 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Weak attributes:** Constitution    
     −− __Constitution__ – Nekkan are nimble but not particularly robust. They tire faster under sustained effort and handle harsh environments or heavy blows less effectively.  
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~13, Balance 9~10  
-**Allegiance:** Nature, Source, Destiny, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Dreams  
 **Living environment:** Nomadic, Rural, City-dwelling  
 **Nature**: Pacifist or Predatory.  
 **Totem**: Adis, the Whisperer in Shadows.  
@@ -908,7 +908,7 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 **Weak attributes:** Cunning    
     −− __Cunning__ – Direct, straightforward and sometimes hot-blooded, Felkkan prefer frontal displays of strength and courage over long-term scheming or subtle manipulation.  
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 8~10  
-**Allegiance:** Nature, Source, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Nature, Ambition  
 **Living environment:** Nomadic, Desert (hot), Mountain   
 **Nature**: Predatory.  
 **Totem**: Eaos, the Boundless Sovereign.  
@@ -952,7 +952,7 @@ They are considered pacifist ferals who do not seek direct conflict.
 **Weak attributes:** Agility    
     −− __Agility__ – Their size and bulk come at the cost of speed and finesse. Koddans move deliberately rather than quickly, favoring stability over nimbleness.  
 **Birth attributes:** Stature 12~14, Height 11~13, Ego 7~10, Appearance 8~10, Luck 8~10, Balance 10~12  
-**Allegiance:** Nature, Magic, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Silence  
 **Living environment:** Cold Desert and Mountain  
 **Nature:** Pacifist.  
 **Totem**: Oborh, the Patient Beast.  
@@ -997,7 +997,7 @@ They are regarded as predatory ferals who avoid direct conflicts but stand resol
 **Weak attributes:** Charisma    
     −− __Charisma__ – Withdrawn, taciturn, and often unsettling to others, Bedokkan struggle to connect with more sociable cultures and rarely inspire trust or sympathy.  
 **Birth attributes:** Stature 10~12, Height 10~11, Ego 9~10, Appearance 7~9, Luck 10, Balance 10  
-**Allegiance:** Nature, Source, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Chaos, Ankou  
 **Living environment:** Marine and Forest  
 **Nature:** Predatory.  
 **Totem:** Brera, the Reclusive Tyrant.  
@@ -1041,7 +1041,7 @@ However, this ethnicity suffers somewhat from the dispersion of its members, who
 **Weak attributes:** Constitution    
     −− __Constitution__ – Light-boned and adapted to height and mobility rather than endurance, Garukkan endure less physical punishment than heavier ferals.  
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 9~10, Appearance 10~12, Luck 10~12, Balance 9~10  
-**Allegiance:** Nature, Magic, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Dreams, Source  
 **Living environment:** Marine, Mountain, Forest  
 **Nature:** Predatory or Pacifist.  
 **Totem:** Reean, the Splendor of the Sky.  
@@ -1082,7 +1082,7 @@ They are considered pacifist ferals who do not seek direct conflict... In fact, 
 **Weak attributes:** Balance    
     −− __Balance__ – Luppans lack inner harmony. Their fear, stress, and indulgent tendencies make them vulnerable to fatigue, panic, corruption, or emotional breakdown when pressure mounts.  
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 7~9, Appearance 11~13, Luck 10~13, Balance 8~10  
-**Allegiance:** Nature, Magic, Destiny, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Dreams, Silence  
 **Living environment:** Forest and Rural  
 **Nature:** Pacifist.  
 **Totem:** Zolir, the Little One.  
@@ -1122,7 +1122,7 @@ This ethnic group of feral beings comprises feline humanoids, bearing the traits
     −− __Constitution__ – Built for speed and impact rather than endurance, Leokkan bodies burn energy fast and handle prolonged strain less effectively than sturdier ferals.  
 **Birth attributes:** Stature 10~11, Height 10, Ego 10, Appearance 8~10, Luck 10~11, Balance 8~10  
 
-**Allegiance:** _This information has not yet been written down_  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Ambition  
 **Living environment:** _This information has not yet been written down_   
 **Nature:** Predatory.  
 **Totem:** Ekneas, the Gracious Beast.  
@@ -1165,7 +1165,7 @@ This ethnic group of feral beings consists of cervine humanoids, adorned with an
     −− __Cunning__ – Cervikkans are often straightforward and idealistic. They prefer honesty and tradition over schemes, which makes them less apt at manipulation, trickery, or political games.  
 **Birth attributes:** Stature 10~11, Height 11~12, Ego 10~12, Appearance 10~12, Luck 7~10, Balance 8~10  
 
-**Allegiance:** _This information has not yet been written down_  
+**(Prefered) Allegiance:** Neutral, Source, Heritage, Faith  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Pacifist.  
 **Totem:** Cevdos, the Father of All Lands.  
@@ -1208,7 +1208,7 @@ This ethnic group of feral beings consists of individuals who have the appearanc
     −− __Willpower__ – Their flexibility and opportunism make them less resistant to pressure, temptation, or intimidation; they tend to yield or adapt rather than stand firm.  
 **Birth attributes:** Stature 9, Height 9, Ego 11, Appearance 8, Luck 13    
 **Birth attributes:** Stature 8~9, Height 5~7, Ego 7~9, Appearance 10~11, Luck 9~13, Balance 9~13  
-**Allegiance:** Nature, Source, Destiny, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Reason, Steam  
 **Living environment:** Subterranean, City-dwelling, Rural  
 **Nature:** Pacifist.  
 **Totem**: Merro, the Avid Crawler.  
@@ -1253,7 +1253,7 @@ They are either pacifists or predators depending on their sub-ethnicity, but if 
     −− __Charisma__ – Distant, cryptic, and often judgmental toward land-dwellers, Peskkan find it difficult to truly integrate or be understood by other peoples.  
 **Birth attributes:** Stature 10~11, Height 8~11, Ego 8~10, Appearance 8~11, Luck 8~11, Balance 8~11  
 
-**Allegiance:** _This information has not yet been written down_  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Dreams  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Predatory or Pacifist.  
 **Totem:** Edea, the Mother of All Sees.  
@@ -1297,7 +1297,7 @@ They are pacifists, but of a type that few predators seek quarrels with.
     −− __Cunning__ – Taurrans favor honor, instinct, and direct confrontation over plotting. Subtle political maneuvering or long-term manipulation is not their forte.  
 **Birth attributes:** Stature 11~13, Height 11~13, Ego 6~10, Appearance 8~11, Luck 7~10, Balance 10~12  
 
-**Allegiance:** _This information has not yet been written down_  
+**(Prefered) Allegiance:** Neutral, Source, Heritage, Silence  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Pacifist.  
 **Totem:** Siion, the Majestuous Horned Lord.  
@@ -1347,7 +1347,7 @@ They are true predators.
 **Weak attributes:** Luck    
     −− __Luck__ – Marked by resentment and violent impulses, Oni seem followed by misfortune—broken alliances, bloody feuds, and catastrophes often arise around them.  
 **Birth attributes:** Stature 10~11, Height 10~11, Ego 10~11, Appearance 7~9, Luck 7~10, Balance 8~10  
-**Allegiance:** Nature, Source, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Ambition  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain  
 **Nature:** Predatory.  
 **Totem:** Ouros, the Disastrous Fang.  
@@ -1392,7 +1392,7 @@ They are somewhat neutral and doesn't define themselves as pacifists or predator
 **Weak attributes:** Luck    
     −− __Luck__ – Their frivolity and disregard for consequences often backfire. Jokes go too far, risks pile up, and fate eventually demands a price.  
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 10~12, Appearance 10~12, Luck 10~12, Balance 6~9  
-**Allegiance:** Nature, Source, Destiny, or None  
+**(Prefered) Allegiance:** Neutral, Dreams, Reason, Ambition  
 **Living environment:** Forest, Nomadic, Desert (hot/cold), Mountain, Rural  
 **Nature:** Pacifist or Predatory.  
 **Totem:** Eaos, the Mischivious Hundred Tails.  
@@ -1435,7 +1435,7 @@ Tengu are natural predators, and some are known to resolve conflicts with lethal
     −− __Constitution__ – Lean and built for speed rather than durability, Tengu do not handle prolonged punishment or attrition as well as sturdier ferals.  
     −− __Luck__ – Their arrogance, reckless choices, and appetite for conflict attract retaliation and misfortune: they often create their own downfall.  
 **Birth attributes:** Stature 8~10, Height 9~10, Ego 10~12, Appearance 8~10, Luck 8~10, Balance 10~12  
-**Allegiance:** Nature, Magic, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Dreams, Reason, Sciences  
 **Living environment:** Marine, Mountain, Forest  
 **Nature:** Predatory.  
 **Totem:** Fydall, the Boundless Nightmare.  
@@ -1480,7 +1480,7 @@ The Skaven are rat-like humanoids living in tunnels, ruins, and hidden areas. Th
     −− __Luck__ – Surrounded by disease, collapsing lairs, treachery and dangerous experiments, Razkkan are almost cosmically unlucky—only their cunning keeps them alive.  
 **Birth attributes:** Stature 8~9, Height 6~8, Ego 10~12, Appearance 7~8, Luck 7~11, Balance 9~13  
 
-**Allegiance:** _This information has not yet been written down_  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Steam  
 **Living environment:** _This information has not yet been written down_  
 **Nature:** Predatory.  
 **Totem:** Zegen, the Rotten Ambition.  
@@ -1521,7 +1521,7 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 **Weak attributes:** Luck    
     −− __Luck__ – Their culture of constant confrontation and dominance invites trouble—feuds, grudges, and brutal trials often stack the odds against them, even when they win.  
 **Birth attributes:** Stature 11~13, Height 12~14, Ego 10~12, Appearance 6~8, Luck 7~9, Balance 10~12  
-**Allegiance:** Nature, Source, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Ankou, Heritage  
 **Living environment:** Cold Desert and Mountain   
 **Nature:** Predatory.  
 **Totem:** Udtar, the Juggernaut.  
@@ -1585,7 +1585,7 @@ Behind their cheerful faces lie sharp instincts for survival, negotiation, and q
     −− __Charisma__ – They are liked, yes, but not respected. Their childish looks and carefree manners make it hard for others to take them seriously.  
     −− __Willpower__ – Halflings avoid conflict, trouble, and responsibilities. Their indulgent habits and reluctance to commit make them less resistant to manipulation or pressure.  
 **Birth attributes:** Stature 8~9, Height 6~7, Ego 7~10, Appearance 10~12, Luck 10~13, Balance 6~10  
-**Allegiance:** Destiny or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Dreams, Ambition  
 **Living environment:** Rural or City-dwelling  
 **Family:** Small Folks  
 **Nature:** Impure Beings  
@@ -1629,7 +1629,7 @@ Not to be confused with treants, which is a monstrous version of this people.
 **Strong attributes:** Constitution, Wisdom    
 **Weak attributes:** None    
 **Birth attributes:** Stature 10~11, Height 9~10, Ego 10~11, Appearance 8~10, Luck 10, Balance 10~11  
-**Allegiance:** Nature, Magic, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Silence, Heritage  
 **Living environment:** Forest  
 **Family:** Small Folks  
 **Nature:** Pure or Impure Beings  
@@ -1671,7 +1671,7 @@ A Celestial's presence commands respect, but behind their luminous beauty lies a
 **Strong attributes:** Charisma, Willpower (x2), Magic (x2)    
 **Weak attributes:** Perception, Cunning    
 **Birth attributes:** Stature 10, Height 10, Ego 11~13, Appearance 11~13, Luck 5~8, Balance 10~12  
-**Allegiance:** Magic or None  
+**(Prefered) Allegiance:** Neutral, Magic, Arcanes, Faith  
 **Living environment:** City-dwelling, Urban, Rural  
 **Family:** Divine Folks  
 **Nature:** Pure Beings  
@@ -1719,7 +1719,7 @@ Not to be confused with pixies, which is a monstrous version of this people.
 **Weak attributes:** Strength, Constitution    
 **Birth attributes:** Stature 3~5, Height 3~5, Ego 11~14, Appearance 11~14, Luck 10~14, Balance 10~12  
 
-**Allegiance:** Chaos, Magic, or None  
+**(Prefered) Allegiance:** Neutral, Dreams, Chaos, Magic  
 **Living environment:** Forest and Marine  
 **Family:** Small Folks  
 **Nature:** Pure Beings  
@@ -1764,7 +1764,7 @@ This gives them exceptional synchronicity in combat formations and makes Qunari 
 **Strong attributes:** Strength, Dexterity, Charisma, Willpower    
 **Weak attributes:** Luck, Balance    
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 6~8, Balance 10~12  
-**Allegiance:** Ankou or None  
+**(Prefered) Allegiance:** Neutral, Source, Faith, Heritage  
 **Living environment:** Rural, City-dwelling, or Mountain  
 **Family:** Horned Folks  
 **Nature:** Impure Beings  
@@ -1814,7 +1814,7 @@ This makes them extraordinary mediators… and dangerously insightful antagonist
 **Strong attributes:** Charisma (x2), Wisdom    
 **Weak attributes:** Balance    
 **Birth attributes:** Stature 8~9, Height 8~9, Ego 10, Appearance 12~16, Luck 6~8, Balance 8~12  
-**Allegiance:** Magic or None  
+**(Prefered) Allegiance:** Neutral, Dreams, Magic, Ambition  
 **Living environment:** Forest  
 **Family:** Wild Folks  
 **Nature:** Pure Beings  
@@ -1860,7 +1860,7 @@ This pulse reacts to powerful magic, emotional upheaval, or mortal danger, manif
 **Strong attributes:** Intelligence, Willpower, Balance, Magic or Logic    
 **Weak attributes:** Luck, Wisdom    
 **Birth attributes:** Stature 10, Height 10, Ego 10~12, Appearance 10~12, Luck 8~10, Balance 10~12  
-**Allegiance:** Nature, Source, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Faith  
 **Living environment:** Subterranean   
 **Family:** Horned Folks  
 **Nature:** Pure or Impure Beings  
@@ -1913,7 +1913,7 @@ Not to be confused with nagas, which is a monstrous version of this people.
 **Strong attributes:** Agility, Intelligence/Cunning/Willpower/wisdom (choose one)    
 **Weak attributes:** None    
 **Birth attributes:** Stature 10, Height 10~12, Ego 8~12, Appearance 10~12, Luck 7~9, Balance 10~11  
-**Allegiance:** Magic, Chaos, or None  
+**(Prefered) Allegiance:** Neutral, Silence, Reason, Source  
 **Living environment:** Forest, Mountain, Desert, or Marine  
 **Family:** Serpentfolk / Semies  
   
@@ -1954,7 +1954,7 @@ Not to be confused with centaurs, which is a monstrous version of this people.
 **Strong attributes:** Strength, Agility, Willpower    
 **Weak attributes:** Intelligence    
 **Birth attributes:** Stature 11~12, Height 11~12, Ego 11~12, Appearance 7~9, Luck 7~9, Balance 10~11  
-**Allegiance:** Source, Magic, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Heritage  
 **Living environment:** Forest  
 **Family:** Equine Beings / Semies  
   
@@ -1993,7 +1993,7 @@ While generally peaceful, they are not passive: Undines possess long memories an
 **Strong attributes:** Perception, Willpower    
 **Weak attributes:** None    
 **Birth attributes:** Stature 9~10, Height 9~10, Ego 8~10, Appearance 10~12, Luck 10~11, Balance 10~11  
-**Allegiance:** Source, Magic, or None  
+**(Prefered) Allegiance:** Neutral, Nature, Source, Magic  
 **Living environment:** Marine  
 **Family:** Marine Beings / Semies  
   
@@ -2090,7 +2090,7 @@ The Primordial Dragons themselves have vanished, believed by scholars either dea
 **Chromatic Blood Domain**: ...  
 **Skills:** ...
 
-**Allegiance:** Magic, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Heritage, Chaos, Ambition, Faith  
 **Living environment:** Desert, Mountain, or Subterranean  
 **Family:** Draconic Beings  
   
@@ -2144,7 +2144,7 @@ Not to be confused with ogre, which is a monstrous version of this people.
     Balance – Ogrens are powerful but lack inner harmony; they are vulnerable to fatigue, spiritual strain, and corruptive influences.
     Luck – Misfortune follows their people; life is a constant trial, rarely eased by favorable chance.  
 **Birth attributes:** Stature 12~14, Height 12~14, Ego 8~9, Appearance 6~8, Luck 6~8, Balance 10~11  
-**Allegiance:** Nature, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Ambition  
 **Living environment:** Desert or Mountain  
 **Family:** Gargantuan Beings / Aberrations  
   
@@ -2191,7 +2191,7 @@ Not to be confused with orcs, which is a monstrous version of this people.
     Intelligence – Orkkans value instinct over analysis, limiting scholarly or strategic reasoning.
     Luck – Their history is marked by conflict, exile, and systemic misfortune; fate rarely favors them.  
 **Birth attributes:** Stature 11~13, Height 11~13, Ego 10~12, Appearance 4~7, Luck 8~10, Balance 8~10  
-**Allegiance:** Source, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Ankou, Ambition  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
 **Family:** Aberrations 
   
@@ -2242,7 +2242,7 @@ Not to be confused with goblins, which is a monstrous version of this people.
     Willpower – Their volatile temperament makes them easily distracted, anxious, or overwhelmed.
     Charisma – Their abrasive mannerisms, erratic behavior, and unsettling energy often make them distrusted or poorly received by others.  
 **Birth attributes:** Stature 6~8, Height 6~8, Ego 11~13, Appearance 6~8, Luck 11~13, Balance 11~13  
-**Allegiance:** Source, Ankou, or None  
+**(Prefered) Allegiance:** Neutral, Chaos, Reason, Steam  
 **Living environment:** Rural, Desert, Nomadic, Marine, or Subterranean  
 **Family:** Aberrations  
   
