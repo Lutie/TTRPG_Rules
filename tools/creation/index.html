@@ -1,0 +1,1483 @@
+<!DOCTYPE html><html><head>
+      <title>Module - Création de personnage en Thalifen</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/lutie/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="création-de-personnage--thalifen">Création de personnage — Thalifen </h1>
+<h2 id="informations-pratiques">Informations pratiques </h2>
+<ul>
+<li><strong>Système de jeu :</strong> Terre Natale</li>
+<li><strong>Univers :</strong> Thalifen</li>
+</ul>
+<hr>
+<h2 id="informations-techniques">Informations techniques </h2>
+<h3 id="ajustements-dattributs">Ajustements d'attributs </h3>
+<p>Les ajustements d'attributs s'appliquent aux <strong>attributs de base</strong> et forment la <strong>valeur actuelle</strong> d'un attribut.<br>
+Ils sont le reflet des choix effectués durant la création du personnage.</p>
+<h3 id="boosts-et-deboosts">Boosts et Deboosts </h3>
+<blockquote>
+<p>Les Boosts et Deboosts n'affectent jamais la valeur de base d'un attribut.</p>
+</blockquote>
+<ul>
+<li>Un attribut noté <strong>x2</strong> peut être sélectionné plusieurs fois.</li>
+<li><strong>Boost</strong>
+<ul>
+<li>1er Boost : +2</li>
+<li>Boosts suivants : +1 chacun</li>
+<li>Maximum : +4</li>
+</ul>
+</li>
+<li><strong>Deboost</strong>
+<ul>
+<li>1er Deboost : -2</li>
+<li>Deboosts suivants : -1 chacun</li>
+<li>Maximum : -4</li>
+</ul>
+</li>
+<li>Les Boosts et Deboosts <strong>ne s'annulent pas</strong>
+<ul>
+<li>Exemple : 2 Boosts et 1 Deboost → <code>+2 +1 -2 = +1</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="étapes-de-création">Étapes de création </h2>
+<h2 id="1-première-partie">1. Première partie </h2>
+<h3 id="destinée">Destinée </h3>
+<p>Déterminée par le MJ.</p>
+<table>
+<thead>
+<tr>
+<th>Destinée</th>
+<th style="text-align:right">PA</th>
+<th style="text-align:right">PP</th>
+<th style="text-align:right">Max Attribut*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commun des Mortels</td>
+<td style="text-align:right">200</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right">15</td>
+</tr>
+<tr>
+<td>Destin Honorable</td>
+<td style="text-align:right">300</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">16</td>
+</tr>
+<tr>
+<td>Marche de la Gloire</td>
+<td style="text-align:right">400</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">17</td>
+</tr>
+<tr>
+<td>Arpenteur Héroïque</td>
+<td style="text-align:right">500</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">18</td>
+</tr>
+<tr>
+<td>Dieu parmi les Hommes</td>
+<td style="text-align:right">600</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">19</td>
+</tr>
+</tbody>
+</table>
+<p>* Maximum de la <strong>valeur de base</strong> à la création uniquement.</p>
+<hr>
+<h3 id="vécu">Vécu </h3>
+<p>Déterminé par le MJ.</p>
+<table>
+<thead>
+<tr>
+<th>Vécu</th>
+<th style="text-align:right">PX</th>
+<th style="text-align:right">PO</th>
+<th style="text-align:right">Max groupe / compétence*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aucun</td>
+<td style="text-align:right">200</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">1 / 1</td>
+</tr>
+<tr>
+<td>Notable</td>
+<td style="text-align:right">300</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">1 / 2</td>
+</tr>
+<tr>
+<td>Admirable</td>
+<td style="text-align:right">400</td>
+<td style="text-align:right">20</td>
+<td style="text-align:right">2 / 2</td>
+</tr>
+<tr>
+<td>Spectaculaire</td>
+<td style="text-align:right">500</td>
+<td style="text-align:right">25</td>
+<td style="text-align:right">2 / 3</td>
+</tr>
+<tr>
+<td>Légendaire</td>
+<td style="text-align:right">600</td>
+<td style="text-align:right">30</td>
+<td style="text-align:right">2 / 4</td>
+</tr>
+</tbody>
+</table>
+<p>* Maximum de la <strong>valeur de base</strong> à la création uniquement.</p>
+<hr>
+<h2 id="2-deuxième-partie">2. Deuxième partie </h2>
+<h3 id="personnalité">Personnalité </h3>
+<ul>
+<li><strong>Comportement :</strong> agressif, assertif, exclusif, passif</li>
+<li><strong>Caractère :</strong> dominateur, introverti, extraverti, conciliateur</li>
+<li><strong>Chiffre porte-bonheur :</strong> 1 à 6</li>
+</ul>
+<hr>
+<h3 id="qualités-et-défauts">Qualités et défauts </h3>
+<ul>
+<li>Choix purement RP</li>
+<li>Sans incidence mécanique</li>
+<li>Optionnels</li>
+</ul>
+<hr>
+<h3 id="traits">Traits </h3>
+<ul>
+<li><strong>Désavantages</strong>
+<ul>
+<li>Accordent des <strong>PP supplémentaires</strong>, maximum +6</li>
+</ul>
+</li>
+<li><strong>Avantages</strong>
+<ul>
+<li>Consomme les PPs</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="attributs">Attributs </h3>
+<h4 id="attributs-principaux">Attributs principaux </h4>
+<ul>
+<li>Valeur de départ : <strong>7</strong></li>
+<li>Coût d'augmentation : <code>X → X+1 = X-5 PA</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Progression</th>
+<th style="text-align:right">Coût cumulé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7 → 8</td>
+<td style="text-align:right">3 PA</td>
+</tr>
+<tr>
+<td>7 → 9</td>
+<td style="text-align:right">7 PA</td>
+</tr>
+<tr>
+<td>7 → 10</td>
+<td style="text-align:right">12 PA</td>
+</tr>
+<tr>
+<td>7 → 11</td>
+<td style="text-align:right">18 PA</td>
+</tr>
+<tr>
+<td>7 → 12</td>
+<td style="text-align:right">25 PA</td>
+</tr>
+<tr>
+<td>7 → 13</td>
+<td style="text-align:right">33 PA</td>
+</tr>
+<tr>
+<td>7 → 14</td>
+<td style="text-align:right">42 PA</td>
+</tr>
+<tr>
+<td>7 → 15</td>
+<td style="text-align:right">52 PA</td>
+</tr>
+<tr>
+<td>7 → 16</td>
+<td style="text-align:right">63 PA</td>
+</tr>
+<tr>
+<td>7 → 17</td>
+<td style="text-align:right">75 PA</td>
+</tr>
+<tr>
+<td>7 → 18</td>
+<td style="text-align:right">88 PA</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>La valeur de base est limitée par la Destinée.</p>
+</blockquote>
+<h4 id="attributs-secondaires">Attributs secondaires </h4>
+<ul>
+<li>Valeur de départ : <strong>10</strong></li>
+<li>Coût d'augmentation : <code>X → X+1 = X-7 PA</code></li>
+<li>Toute modification doit être validée avec le MJ</li>
+<li>L'attribut <strong>Équilibre</strong> est calculé à partir des attributs principaux</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Progression</th>
+<th style="text-align:right">Coût cumulé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 → 8</td>
+<td style="text-align:right">+3 PA</td>
+</tr>
+<tr>
+<td>10 → 9</td>
+<td style="text-align:right">+2 PA</td>
+</tr>
+<tr>
+<td>10 → 10</td>
+<td style="text-align:right">---</td>
+</tr>
+<tr>
+<td>10 → 11</td>
+<td style="text-align:right">-2 PA</td>
+</tr>
+<tr>
+<td>10 → 12</td>
+<td style="text-align:right">-3 PA</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>La valeur de base est limitée entre <strong>8 à 12</strong>.</p>
+</blockquote>
+<hr>
+<h2 id="3-choix-de-lethnie">3. Choix de l'ethnie </h2>
+<ul>
+<li>Liste des ethnies disponible le PDF en annexe : "Ethnies de Thalifen"</li>
+</ul>
+<h3 id="race">Race </h3>
+<ul>
+<li>Particularités de naissance (traits automatiques)
+<ul>
+<li>Un désavantage peut les remplacer par <strong>+1 PP</strong></li>
+</ul>
+</li>
+<li>2 [Boost] liés aux attributs forts</li>
+<li>1 [Deboost] optionnel lié à un attribut faible</li>
+<li>Ajustement des attributs de naissance
+<ul>
+<li>Total obligatoire : <strong>60</strong></li>
+<li>Tout écart à 10 devient un modificateur secondaire</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="culture">Culture </h3>
+<ul>
+<li>Particularités culturelles (traits automatiques)
+<ul>
+<li>Remplaçables par <strong>+1 PP</strong> via désavantage</li>
+</ul>
+</li>
+<li>1 spécialisation culturelle</li>
+<li>Culture différente de la race possible avec validation MJ</li>
+</ul>
+<hr>
+<h3 id="allégeance">Allégeance </h3>
+<p>Philosophie de vie issue de la culture.</p>
+<ul>
+<li>Ce choix se fait parmi les options offertes par la culture du personnage
+<ul>
+<li>Un choix en dehors de la liste culturel peux être effectué avec discussion avec le MJ</li>
+</ul>
+</li>
+<li>Le personnage reçoit un ou des [Boost] et [Deboost] à des attributs qui dépendent de son choix</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Catch phrase</th>
+<th>Attribut fort</th>
+<th>Attribut faible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Neutre</td>
+<td>Le Refus du Choix</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Magie</td>
+<td>La Primauté du Mystère</td>
+<td>Magie</td>
+<td>Chance</td>
+</tr>
+<tr>
+<td>Arcanes</td>
+<td>La Réécriture du Réel</td>
+<td>Magie</td>
+<td>Équilibre</td>
+</tr>
+<tr>
+<td>Héritage</td>
+<td>Le Poids du Passé</td>
+<td>Magie</td>
+<td>Au choix</td>
+</tr>
+<tr>
+<td>Nature</td>
+<td>L'Harmonie Vivante</td>
+<td>Équilibre</td>
+<td>Magie <strong>ou</strong> Logique</td>
+</tr>
+<tr>
+<td>Source</td>
+<td>L'Ordre Fondamental</td>
+<td>Équilibre</td>
+<td>Au choix</td>
+</tr>
+<tr>
+<td>Ankou</td>
+<td>Le Cycle Inéluctable</td>
+<td>Équilibre</td>
+<td>Chance</td>
+</tr>
+<tr>
+<td>Chaos</td>
+<td>L'Acceptation de l'Imprévisible</td>
+<td>Chance</td>
+<td>Équilibre</td>
+</tr>
+<tr>
+<td>Songes</td>
+<td>La Guidance de l'Intuition</td>
+<td>Chance</td>
+<td>Au choix</td>
+</tr>
+<tr>
+<td>Steam</td>
+<td>La Foi dans la Machine</td>
+<td>Logique</td>
+<td>Chance</td>
+</tr>
+<tr>
+<td>Sciences</td>
+<td>Le Dépassement des Limites</td>
+<td>Logique</td>
+<td>Équilibre</td>
+</tr>
+<tr>
+<td>Raison</td>
+<td>La Suprématie du Calcul</td>
+<td>Logique</td>
+<td>Au choix</td>
+</tr>
+<tr>
+<td>Emeth</td>
+<td>La Vérité par l'Utilité</td>
+<td>Magie &amp; Logique</td>
+<td>Chance &amp; Équilibre</td>
+</tr>
+<tr>
+<td>Silence</td>
+<td>La Retenue</td>
+<td>Au choix</td>
+<td>Équilibre</td>
+</tr>
+<tr>
+<td>Foi</td>
+<td>L'Abandon à l'Absolu</td>
+<td>Au choix</td>
+<td>Chance</td>
+</tr>
+<tr>
+<td>Ambition</td>
+<td>La Quête de l'Ascension</td>
+<td>Au choix</td>
+<td>Au choix</td>
+</tr>
+</tbody>
+</table>
+<h4 id="choix-du-milieu-de-vie">Choix du milieu de vie </h4>
+<ul>
+<li>Choix parmi les milieux de l'ethnie</li>
+<li>[Boost] et [Deboost] parmi les attributs du type indiquée</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Biome</th>
+<th>Description courte</th>
+<th>Boosts</th>
+<th>Déboosts</th>
+<th>Accès</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mixte</td>
+<td>Varié, familier, sans contrainte</td>
+<td>—</td>
+<td>—</td>
+<td>Tout</td>
+</tr>
+<tr>
+<td>Citadin</td>
+<td>Structuré, social, rythmé</td>
+<td>Esprit</td>
+<td>Corps</td>
+<td>Citadin</td>
+</tr>
+<tr>
+<td>Campagne</td>
+<td>Calme, agricole, routinier</td>
+<td>Esprit</td>
+<td>Esprit</td>
+<td>Rural</td>
+</tr>
+<tr>
+<td>Steppe</td>
+<td>Vaste, exposé, exigeant</td>
+<td>Corps</td>
+<td>Corps</td>
+<td>Rural</td>
+</tr>
+<tr>
+<td>Fluvial</td>
+<td>Humide, instable, adaptatif</td>
+<td>Corps</td>
+<td>Esprit</td>
+<td>Marin</td>
+</tr>
+<tr>
+<td>Isolé</td>
+<td>Silencieux, solitaire, introspectif</td>
+<td>Esprit, Esprit</td>
+<td>Esprit, Esprit</td>
+<td>Souterrains / Montagne</td>
+</tr>
+<tr>
+<td>Urbain</td>
+<td>Dense, pressant, stimulant</td>
+<td>Esprit, Esprit</td>
+<td>Esprit, Corps</td>
+<td>Urbain</td>
+</tr>
+<tr>
+<td>Métropole</td>
+<td>Tentaculaire, saturé, écrasant</td>
+<td>Esprit, Esprit</td>
+<td>Corps, Corps</td>
+<td>Urbain</td>
+</tr>
+<tr>
+<td>Souterrains</td>
+<td>Clos, oppressant, dangereux</td>
+<td>Corps, Corps</td>
+<td>Esprit, Esprit</td>
+<td>Souterrains</td>
+</tr>
+<tr>
+<td>Toundra</td>
+<td>Glacé, austère, implacable</td>
+<td>Corps, Corps</td>
+<td>Esprit, Corps</td>
+<td>Rural</td>
+</tr>
+<tr>
+<td>Déserts</td>
+<td>Aride, brûlant, extrême</td>
+<td>Corps, Corps</td>
+<td>Corps, Corps</td>
+<td>Déserts</td>
+</tr>
+<tr>
+<td>Marin</td>
+<td>Mouvant, isolé, imprévisible</td>
+<td>Esprit, Corps</td>
+<td>Esprit, Esprit</td>
+<td>Marin</td>
+</tr>
+<tr>
+<td>Forestier</td>
+<td>Sauvage, irrégulier, exigeant</td>
+<td>Esprit, Corps</td>
+<td>Esprit, Corps</td>
+<td>Forestier</td>
+</tr>
+<tr>
+<td>Nomade</td>
+<td>Itinérant, exposé, endurant</td>
+<td>Esprit, Corps</td>
+<td>Corps, Corps</td>
+<td>Nomade</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="4-persona">4. Persona </h2>
+<ul>
+<li>Choix parmi les animaux fabuleux</li>
+<li>2 [Boost] parmi les attributs forts</li>
+<li>1 [Deboost] optionnel pour obtenir un Boost supplémentaire</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Animal</th>
+<th>Attributs forts</th>
+<th>Attributs faibles</th>
+<th>Caractère associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Loup</td>
+<td>Ruse, Charisme, Agilité</td>
+<td>Dextérité, Sagesse, Perception</td>
+<td>Loyal, stratège, social mais farouchement indépendant.</td>
+</tr>
+<tr>
+<td>Renard</td>
+<td>Intelligence, Ruse, Perception</td>
+<td>Force, Constitution, Volonté</td>
+<td>Rusé, adaptatif, esprit vif et opportuniste.</td>
+</tr>
+<tr>
+<td>Ours</td>
+<td>Constitution, Force, Volonté</td>
+<td>Agilité, Dextérité, Perception</td>
+<td>Puissant, endurant, calme jusqu'à la provocation.</td>
+</tr>
+<tr>
+<td>Hibou</td>
+<td>Perception, Sagesse, Intelligence</td>
+<td>Dextérité, Charisme, Agilité</td>
+<td>Observateur, réfléchi, patient et perspicace.</td>
+</tr>
+<tr>
+<td>Serpent</td>
+<td>Ruse, Dextérité, Agilité</td>
+<td>Volonté, Constitution, Force</td>
+<td>Subtil, méthodique, patient et imprévisible.</td>
+</tr>
+<tr>
+<td>Cerf</td>
+<td>Charisme, Force, Sagesse</td>
+<td>Intelligence, Perception, Agilité</td>
+<td>Digne, posé, force tranquille et noblesse naturelle.</td>
+</tr>
+<tr>
+<td>Corbeau</td>
+<td>Intelligence, Chance, Ruse</td>
+<td>Constitution, Force, Sagesse</td>
+<td>Ingénieux, opportuniste, survivant et observateur.</td>
+</tr>
+<tr>
+<td>Sanglier</td>
+<td>Force, Constitution, Agilité</td>
+<td>Intelligence, Volonté, Perception</td>
+<td>Frontal, déterminé, tenace face à l'adversité.</td>
+</tr>
+<tr>
+<td>Chat</td>
+<td>Agilité, Dextérité, Chance</td>
+<td>Volonté, Constitution, Charisme</td>
+<td>Indépendant, agile, intuitif et réservé.</td>
+</tr>
+<tr>
+<td>Faucon</td>
+<td>Perception, Charisme, Dextérité</td>
+<td>Chance, Intelligence, Ruse</td>
+<td>Précis, dominateur, concentré et autoritaire.</td>
+</tr>
+<tr>
+<td>Mouton</td>
+<td>Constitution, Volonté, Sagesse</td>
+<td>Intelligence, Charisme, Agilité</td>
+<td>Communautaire, loyal, résilient par le collectif.</td>
+</tr>
+<tr>
+<td>Rat</td>
+<td>Ruse, Dextérité, Perception</td>
+<td>Charisme, Force, Volonté</td>
+<td>Débrouillard, prudent, survivant des marges.</td>
+</tr>
+<tr>
+<td>Lapin</td>
+<td>Agilité, Perception, Chance</td>
+<td>Force, Volonté, Constitution</td>
+<td>Vigilant, rapide, instinctif et craintif.</td>
+</tr>
+<tr>
+<td>Chien</td>
+<td>Charisme, Volonté, Constitution</td>
+<td>Ruse, Dextérité, Intelligence</td>
+<td>Loyal, protecteur, courageux et dévoué.</td>
+</tr>
+<tr>
+<td>Bouc</td>
+<td>Volonté, Agilité, Constitution</td>
+<td>Charisme, Dextérité, Intelligence</td>
+<td>Tenace, indépendant, sûr de lui et obstiné.</td>
+</tr>
+<tr>
+<td>Araignée</td>
+<td>Dextérité, Ruse, Perception</td>
+<td>Force, Charisme, Constitution</td>
+<td>Patiente, calculatrice, méthodique.</td>
+</tr>
+<tr>
+<td>Daim</td>
+<td>Agilité, Perception, Sagesse</td>
+<td>Force, Volonté, Constitution</td>
+<td>Élégant, vigilant, en harmonie avec son environnement.</td>
+</tr>
+<tr>
+<td>Castor</td>
+<td>Constitution, Intelligence, Dextérité</td>
+<td>Charisme, Agilité, Chance</td>
+<td>Travailleur, méthodique, bâtisseur persévérant.</td>
+</tr>
+<tr>
+<td>Cheval</td>
+<td>Force, Agilité, Volonté</td>
+<td>Ruse, Intelligence, Dextérité</td>
+<td>Endurant, loyal, fier et indomptable.</td>
+</tr>
+<tr>
+<td>Crapaud</td>
+<td>Constitution, Sagesse, Perception</td>
+<td>Charisme, Agilité, Force</td>
+<td>Résilient, discret, porteur d'une sagesse cachée.</td>
+</tr>
+<tr>
+<td>Crocodile</td>
+<td>Force, Constitution, Perception</td>
+<td>Agilité, Charisme, Dextérité</td>
+<td>Patient, implacable, prédateur méthodique.</td>
+</tr>
+<tr>
+<td>Coq</td>
+<td>Charisme, Volonté, Perception</td>
+<td>Force, Ruse, Dextérité</td>
+<td>Fier, vigilant, provocateur et sûr de lui.</td>
+</tr>
+<tr>
+<td>Lion</td>
+<td>Charisme, Force, Volonté</td>
+<td>Ruse, Dextérité, Intelligence</td>
+<td>Majestueux, dominateur, meneur naturel.</td>
+</tr>
+<tr>
+<td>Cochon</td>
+<td>Constitution, Intelligence, Chance</td>
+<td>Dextérité, Charisme, Perception</td>
+<td>Pragmatique, adaptable, résilient et sous-estimé.</td>
+</tr>
+<tr>
+<td>Singe</td>
+<td>Dextérité, Intelligence, Ruse</td>
+<td>Force, Constitution, Volonté</td>
+<td>Curieux, malin, joueur et imprévisible.</td>
+</tr>
+<tr>
+<td>Souris</td>
+<td>Perception, Dextérité, Chance</td>
+<td>Force, Charisme, Constitution</td>
+<td>Discrète, prudente, survivante par l'évitement.</td>
+</tr>
+<tr>
+<td>Taureau</td>
+<td>Force, Constitution, Volonté</td>
+<td>Dextérité, Ruse, Agilité</td>
+<td>Stable, obstiné, puissance brute et détermination.</td>
+</tr>
+<tr>
+<td>Abeille</td>
+<td>Volonté, Perception, Dextérité</td>
+<td>Charisme, Chance, Force</td>
+<td>Disciplinée, travailleuse, tournée vers le collectif.</td>
+</tr>
+<tr>
+<td>Grue</td>
+<td>Perception, Sagesse, Charisme</td>
+<td>Force, Dextérité, Ruse</td>
+<td>Sage, digne, meneur calme et visionnaire.</td>
+</tr>
+<tr>
+<td>Cygne</td>
+<td>Charisme, Agilité, Sagesse</td>
+<td>Force, Dextérité, Ruse</td>
+<td>Élégant, loyal, calme et résolu.</td>
+</tr>
+<tr>
+<td>Blaireau</td>
+<td>Constitution, Volonté, Perception</td>
+<td>Charisme, Chance, Dextérité</td>
+<td>Endurant, solitaire, opiniâtre et résistant.</td>
+</tr>
+<tr>
+<td>Hyène</td>
+<td>Force, Dextérité, Ruse</td>
+<td>Charisme, Sagesse, Volonté</td>
+<td>Opportuniste, rusée, brutale et adaptative.</td>
+</tr>
+<tr>
+<td>Hamster</td>
+<td>Dextérité, Chance, Agilité</td>
+<td>Force, Charisme, Intelligence</td>
+<td>Curieux, nerveux, prudent et joueur.</td>
+</tr>
+<tr>
+<td>Panda</td>
+<td>Constitution, Chance, Agilité</td>
+<td>Sagesse, Dextérité, Volonté</td>
+<td>Paisible, résilient, bon vivant et placide.</td>
+</tr>
+<tr>
+<td>Rouge-gorge</td>
+<td>Charisme, Dextérité, Perception</td>
+<td>Force, Volonté, Ruse</td>
+<td>Sociable, vif, optimiste et curieux.</td>
+</tr>
+<tr>
+<td>Pie</td>
+<td>Dextérité, Perception, Ruse</td>
+<td>Constitution, Sagesse, Volonté</td>
+<td>Curieuse, malicieuse, opportuniste.</td>
+</tr>
+<tr>
+<td>Faucon pèlerin</td>
+<td>Perception, Dextérité, Volonté</td>
+<td>Charisme, Sagesse, Chance</td>
+<td>Rapide, précis, déterminé et implacable.</td>
+</tr>
+<tr>
+<td>Éléphant</td>
+<td>Force, Constitution, Sagesse</td>
+<td>Agilité, Ruse, Dextérité</td>
+<td>Sage, protecteur, mémoriel et bienveillant.</td>
+</tr>
+<tr>
+<td>Dauphin</td>
+<td>Intelligence, Perception, Charisme</td>
+<td>Force, Sagesse, Ruse</td>
+<td>Joueur, sociable, optimiste et empathique.</td>
+</tr>
+<tr>
+<td>Tortue</td>
+<td>Constitution, Sagesse, Volonté</td>
+<td>Agilité, Charisme, Dextérité</td>
+<td>Patiente, prudente, résiliente et constante.</td>
+</tr>
+<tr>
+<td>Raton laveur</td>
+<td>Dextérité, Ruse, Perception</td>
+<td>Volonté, Sagesse, Charisme</td>
+<td>Curieux, fouineur, opportuniste et malin.</td>
+</tr>
+<tr>
+<td>Requin</td>
+<td>Force, Agilité, Perception</td>
+<td>Constitution, Volonté, Ruse</td>
+<td>Prédateur froid, déterminé et implacable.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5-historique">5. Historique </h2>
+<h3 id="milieu-social">Milieu social </h3>
+<ul>
+<li>+10 PI dans 2 groupes (1 par attribut)</li>
+<li>+10 PI dans 2 compétences (1 par attribut)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Origine sociale</th>
+<th>Description courte</th>
+<th>Attribut principal</th>
+<th>Attribut secondaire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Militaire</td>
+<td>Discipline, hiérarchie et entraînement dès le plus jeune âge.</td>
+<td>Dextérité <strong>ou</strong> Force</td>
+<td>Constitution <strong>ou</strong> Intelligence</td>
+</tr>
+<tr>
+<td>Bourgeois</td>
+<td>Confort matériel, éducation et réseaux d'influence.</td>
+<td>Intelligence <strong>ou</strong> Ruse</td>
+<td>Charisme <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Noble</td>
+<td>Héritage du rang, devoir, apparat et responsabilité.</td>
+<td>Charisme <strong>ou</strong> Volonté</td>
+<td>Intelligence <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Ouvrière</td>
+<td>Travail pénible, effort quotidien et endurance.</td>
+<td>Constitution</td>
+<td>Force <strong>ou</strong> Dextérité</td>
+</tr>
+<tr>
+<td>Domestique</td>
+<td>Service, discrétion et observation des rapports sociaux.</td>
+<td>Ruse</td>
+<td>Sagesse <strong>ou</strong> Charisme</td>
+</tr>
+<tr>
+<td>Pègre</td>
+<td>Milieu marginal, lois parallèles et débrouille constante.</td>
+<td>Ruse</td>
+<td>Agilité <strong>ou</strong> Dextérité</td>
+</tr>
+<tr>
+<td>Religieux</td>
+<td>Vie rythmée par la foi, l'étude et le service spirituel.</td>
+<td>Sagesse</td>
+<td>Volonté <strong>ou</strong> Intelligence</td>
+</tr>
+<tr>
+<td>Marin</td>
+<td>Existence liée à la mer, aux ports et aux voyages.</td>
+<td>Agilité <strong>ou</strong> Constitution</td>
+<td>Perception <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Colonial</td>
+<td>Vie aux marges, adaptation et confrontation à l'inconnu.</td>
+<td>Perception</td>
+<td>Constitution <strong>ou</strong> Agilité</td>
+</tr>
+<tr>
+<td>Politique</td>
+<td>Débats, idéologie et luttes d'influence permanentes.</td>
+<td>Charisme <strong>ou</strong> Intelligence</td>
+<td>Ruse <strong>ou</strong> Volonté</td>
+</tr>
+<tr>
+<td>Nomade</td>
+<td>Déplacements constants et absence d'ancrage durable.</td>
+<td>Agilité</td>
+<td>Constitution <strong>ou</strong> Perception</td>
+</tr>
+<tr>
+<td>Amuseur</td>
+<td>Spectacle, divertissement et contact avec le public.</td>
+<td>Charisme</td>
+<td>Ruse <strong>ou</strong> Agilité</td>
+</tr>
+<tr>
+<td>Lettré</td>
+<td>Études prolongées, culture écrite et réflexion.</td>
+<td>Intelligence</td>
+<td>Volonté <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Technocrate</td>
+<td>Organisation, méthode et innovation contrôlée.</td>
+<td>Intelligence</td>
+<td>Ruse <strong>ou</strong> Logique</td>
+</tr>
+<tr>
+<td>Magocrate</td>
+<td>Société structurée autour de l'usage de la magie.</td>
+<td>Magie</td>
+<td>Intelligence <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Paysan</td>
+<td>Travail de la terre et cycles naturels.</td>
+<td>Constitution</td>
+<td>Sagesse <strong>ou</strong> Force</td>
+</tr>
+<tr>
+<td>Frontière</td>
+<td>Zone instable entre civilisation et territoire hostile.</td>
+<td>Perception</td>
+<td>Agilité <strong>ou</strong> Constitution</td>
+</tr>
+<tr>
+<td>Exilé</td>
+<td>Rupture sociale et reconstruction personnelle.</td>
+<td>Volonté</td>
+<td>Ruse <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Judiciaire</td>
+<td>Cadre légal strict, ordre et sanction.</td>
+<td>Volonté</td>
+<td>Intelligence <strong>ou</strong> Sagesse</td>
+</tr>
+<tr>
+<td>Marchand</td>
+<td>Commerce, négociation et circulation des richesses.</td>
+<td>Charisme</td>
+<td>Intelligence <strong>ou</strong> Ruse</td>
+</tr>
+<tr>
+<td>Ermite</td>
+<td>Retrait du monde et introspection prolongée.</td>
+<td>Sagesse</td>
+<td>Volonté <strong>ou</strong> Perception</td>
+</tr>
+<tr>
+<td>Archiviste</td>
+<td>Conservation du savoir et mémoire collective.</td>
+<td>Intelligence</td>
+<td>Sagesse <strong>ou</strong> Volonté</td>
+</tr>
+<tr>
+<td>Tradition</td>
+<td>Communauté attachée aux rites et coutumes.</td>
+<td>Sagesse</td>
+<td>Charisme <strong>ou</strong> Volonté</td>
+</tr>
+<tr>
+<td>Itinérant</td>
+<td>Services rendus en déplacement constant, sans attaches.</td>
+<td>Agilité</td>
+<td>Constitution <strong>ou</strong> Perception</td>
+</tr>
+<tr>
+<td>Arène</td>
+<td>Violence ou performance ritualisée et publique.</td>
+<td>Agilité <strong>ou</strong> Force</td>
+<td>Constitution <strong>ou</strong> Charisme</td>
+</tr>
+<tr>
+<td>Autorité</td>
+<td>Proximité du pouvoir coercitif et du maintien de l'ordre.</td>
+<td>Volonté</td>
+<td>Perception <strong>ou</strong> Constitution</td>
+</tr>
+<tr>
+<td>Courtisan</td>
+<td>Influence indirecte et jeux d'apparence.</td>
+<td>Charisme</td>
+<td>Ruse <strong>ou</strong> Intelligence</td>
+</tr>
+<tr>
+<td>Charlatan</td>
+<td>Tromperie, combines et manipulation sociale.</td>
+<td>Ruse</td>
+<td>Charisme <strong>ou</strong> Intelligence</td>
+</tr>
+<tr>
+<td>Occultiste</td>
+<td>Groupe fermé, savoir caché et pratiques interdites.</td>
+<td>Magie</td>
+<td>Volonté <strong>ou</strong> Intelligence</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="éducation">Éducation </h3>
+<ul>
+<li>+10 PI dans 2 groupes</li>
+<li>+10 PI dans 2 compétences</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Éducation</th>
+<th>Groupe 1</th>
+<th>Groupe 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Militaire</td>
+<td>Combat <strong>ou</strong> Armes de Trait</td>
+<td>Tactique <strong>ou</strong> Défense</td>
+</tr>
+<tr>
+<td>D'Artisans</td>
+<td>Artisanat</td>
+<td>Savoir-Faire</td>
+</tr>
+<tr>
+<td>Des Arts</td>
+<td>Art</td>
+<td>Entregent <strong>ou</strong> Éloquence</td>
+</tr>
+<tr>
+<td>Des Lettres</td>
+<td>Érudition</td>
+<td>Connaissances <strong>ou</strong> Langues</td>
+</tr>
+<tr>
+<td>De la Rue</td>
+<td>Survie Urbaine</td>
+<td>Discrétion <strong>ou</strong> Sagacité</td>
+</tr>
+<tr>
+<td>Des Commerces</td>
+<td>Connaissances</td>
+<td>Éloquence <strong>ou</strong> Influence</td>
+</tr>
+<tr>
+<td>Des Officiers</td>
+<td>Enquête</td>
+<td>Analyse <strong>ou</strong> Tactique</td>
+</tr>
+<tr>
+<td>Des Métiers</td>
+<td>Profession</td>
+<td>Savoir-Être</td>
+</tr>
+<tr>
+<td>Des Traqueurs</td>
+<td>Chasse</td>
+<td>Survie Rurale <strong>ou</strong> Acuité</td>
+</tr>
+<tr>
+<td>De Médecine</td>
+<td>Guérison</td>
+<td>Érudition <strong>ou</strong> Analyse</td>
+</tr>
+<tr>
+<td>Navale</td>
+<td>Survie Rurale</td>
+<td>Acuité <strong>ou</strong> Athlétisme</td>
+</tr>
+<tr>
+<td>Des Athlètes</td>
+<td>Athlétisme</td>
+<td>Corps à Corps <strong>ou</strong> Discipline</td>
+</tr>
+<tr>
+<td>Tuteur</td>
+<td>Spécial*</td>
+<td>Spécial*</td>
+</tr>
+<tr>
+<td>Sans</td>
+<td>Survie Urbaine <strong>ou</strong> Survie Rurale</td>
+<td>Discrétion <strong>ou</strong> Athlétisme</td>
+</tr>
+<tr>
+<td>D'Ingénieur</td>
+<td>Analyse</td>
+<td>Connaissances <strong>ou</strong> Savoir-Faire</td>
+</tr>
+<tr>
+<td>De Mage</td>
+<td>Érudition</td>
+<td>Connaissances <strong>ou</strong> Analyse</td>
+</tr>
+<tr>
+<td>Judiciaire</td>
+<td>Analyse</td>
+<td>Communication <strong>ou</strong> Tempérance</td>
+</tr>
+<tr>
+<td>Politique</td>
+<td>Influence</td>
+<td>Éloquence <strong>ou</strong> Communication</td>
+</tr>
+<tr>
+<td>Administrative</td>
+<td>Savoir-Être</td>
+<td>Connaissances</td>
+</tr>
+<tr>
+<td>Religieuse</td>
+<td>Tempérance</td>
+<td>Érudition <strong>ou</strong> Langues</td>
+</tr>
+<tr>
+<td>Monastique</td>
+<td>Discipline</td>
+<td>Tempérance <strong>ou</strong> Corps à Corps</td>
+</tr>
+<tr>
+<td>Traditionnelle</td>
+<td>Connaissances</td>
+<td>Langues <strong>ou</strong> Sagacité</td>
+</tr>
+<tr>
+<td>Du Renseignement</td>
+<td>Sagacité</td>
+<td>Enquête <strong>ou</strong> Discrétion</td>
+</tr>
+<tr>
+<td>De l'Ombre</td>
+<td>Discrétion</td>
+<td>Subterfuge <strong>ou</strong> Larcin</td>
+</tr>
+<tr>
+<td>Diplomatique</td>
+<td>Communication</td>
+<td>Influence <strong>ou</strong> Éloquence</td>
+</tr>
+<tr>
+<td>D'Explorateurs</td>
+<td>Survie Rurale</td>
+<td>Acuité <strong>ou</strong> Athlétisme</td>
+</tr>
+<tr>
+<td>Nomade</td>
+<td>Survie Rurale</td>
+<td>Athlétisme <strong>ou</strong> Discipline</td>
+</tr>
+<tr>
+<td>De Roturier</td>
+<td>Corps à Corps</td>
+<td>Survie Urbaine <strong>ou</strong> Discrétion</td>
+</tr>
+<tr>
+<td>Cirque</td>
+<td>Corps à Corps <strong>ou</strong> Jet d'Arme</td>
+<td>Art <strong>ou</strong> Finesse</td>
+</tr>
+<tr>
+<td>Occulte</td>
+<td>Érudition</td>
+<td>Analyse <strong>ou</strong> Sagacité</td>
+</tr>
+<tr>
+<td>Chasseur</td>
+<td>Armes de Trait <strong>ou</strong> Jet d'Arme</td>
+<td>Chasse <strong>ou</strong> Acuité</td>
+</tr>
+<tr>
+<td>Artilleurs</td>
+<td>Armes de Siège <strong>ou</strong> Armes à Feu</td>
+<td>Analyse <strong>ou</strong> Tactique</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="jeunesse">Jeunesse </h3>
+<ul>
+<li>+10 PI dans 2 groupes</li>
+<li>+10 PI dans 2 compétences</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Jeunesse</th>
+<th>Attributs associés</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Autoritaire</td>
+<td>Charisme, Force</td>
+</tr>
+<tr>
+<td>Baladin</td>
+<td>Ruse, Charisme</td>
+</tr>
+<tr>
+<td>Sauvageon</td>
+<td>Perception, Sagesse</td>
+</tr>
+<tr>
+<td>Frivole</td>
+<td>Charisme, Sagesse</td>
+</tr>
+<tr>
+<td>Tranquille</td>
+<td>Intelligence, Dextérité</td>
+</tr>
+<tr>
+<td>Laborieuse</td>
+<td>Agilité, Ruse</td>
+</tr>
+<tr>
+<td>Orphelin</td>
+<td>Ruse, Volonté</td>
+</tr>
+<tr>
+<td>Rebelle</td>
+<td>Volonté, Ruse</td>
+</tr>
+<tr>
+<td>Solitaire</td>
+<td>Agilité, Sagesse</td>
+</tr>
+<tr>
+<td>Studieux</td>
+<td>Intelligence, Volonté</td>
+</tr>
+<tr>
+<td>Marin</td>
+<td>Sagesse, Agilité</td>
+</tr>
+<tr>
+<td>Turbulent</td>
+<td>Force, Ruse</td>
+</tr>
+<tr>
+<td>Samaritain</td>
+<td>Sagesse, Volonté</td>
+</tr>
+<tr>
+<td>Malandrin</td>
+<td>Dextérité, Ruse</td>
+</tr>
+<tr>
+<td>Escroc</td>
+<td>Agilité, Ruse</td>
+</tr>
+<tr>
+<td>Bagarreur</td>
+<td>Force, Constitution</td>
+</tr>
+<tr>
+<td>Ouvrier</td>
+<td>Constitution, Force <strong>ou</strong> Dextérité</td>
+</tr>
+<tr>
+<td>Intellectuel</td>
+<td>Intelligence, Sagesse</td>
+</tr>
+<tr>
+<td>Servile</td>
+<td>Ruse, Sagesse</td>
+</tr>
+<tr>
+<td>Favorisé</td>
+<td>Charisme, Ruse</td>
+</tr>
+<tr>
+<td>Pieux</td>
+<td>Sagesse, Volonté</td>
+</tr>
+<tr>
+<td>Protégé</td>
+<td>Sagesse, Constitution</td>
+</tr>
+<tr>
+<td>Précoce</td>
+<td>Intelligence, Agilité</td>
+</tr>
+<tr>
+<td>Rêveur</td>
+<td>Sagesse, Intelligence</td>
+</tr>
+<tr>
+<td>Méfiant</td>
+<td>Perception, Ruse</td>
+</tr>
+<tr>
+<td>Dévoué</td>
+<td>Volonté, Constitution</td>
+</tr>
+<tr>
+<td>Endurci</td>
+<td>Constitution, Volonté</td>
+</tr>
+<tr>
+<td>Observateur</td>
+<td>Perception, Intelligence</td>
+</tr>
+<tr>
+<td>Ingénieux</td>
+<td>Intelligence, Ruse</td>
+</tr>
+<tr>
+<td>Discret</td>
+<td>Dextérité, Sagesse</td>
+</tr>
+<tr>
+<td>Loyal</td>
+<td>Charisme, Volonté</td>
+</tr>
+<tr>
+<td>Aventurier</td>
+<td>Agilité, Perception</td>
+</tr>
+<tr>
+<td>Inquiet</td>
+<td>Perception, Volonté</td>
+</tr>
+<tr>
+<td>Silencieux</td>
+<td>Sagesse, Dextérité</td>
+</tr>
+<tr>
+<td>Débrouillard</td>
+<td>Ruse, Perception</td>
+</tr>
+<tr>
+<td>Inspiré</td>
+<td>Charisme, Intelligence</td>
+</tr>
+<tr>
+<td>Protecteur</td>
+<td>Force, Sagesse</td>
+</tr>
+<tr>
+<td>Rustre</td>
+<td>Force, Constitution</td>
+</tr>
+<tr>
+<td>Travailleur</td>
+<td>Force, Volonté</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="vocation">Vocation </h3>
+<ul>
+<li>+10 PI dans 2 groupes</li>
+<li>+10 PI dans 2 compétences</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Vocation</th>
+<th>2 Compétences parmi…</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Combattant</td>
+<td>Combat, Défense, Tactique, Athlétisme, Corps à Corps, Jet d'Arme, Discipline</td>
+</tr>
+<tr>
+<td>Tireur</td>
+<td>Armes de Trait, Armes à Feu, Jet d'Arme, Tactique</td>
+</tr>
+<tr>
+<td>Notable</td>
+<td>Communication, Influence, Éloquence, Connaissances</td>
+</tr>
+<tr>
+<td>Forestier</td>
+<td>Armes de Trait, Chasse, Acuité, Survie Rurale</td>
+</tr>
+<tr>
+<td>Citadin</td>
+<td>Communication, Art, Entregent, Érudition, Survie Urbaine, Savoir-Être</td>
+</tr>
+<tr>
+<td>Larron</td>
+<td>Discrétion, Larcin, Sagacité, Subterfuge, Corps à Corps, Acuité, Jet d'Arme</td>
+</tr>
+<tr>
+<td>Voyageur</td>
+<td>Athlétisme, Discipline, Survie Rurale, Corps à Corps</td>
+</tr>
+<tr>
+<td>Lettré</td>
+<td>Enquête, Érudition, Analyse, Guérison, Connaissances</td>
+</tr>
+<tr>
+<td>Professionnel</td>
+<td>Artisanat, Profession, Savoir-Faire, Savoir-Être</td>
+</tr>
+<tr>
+<td>Érudit</td>
+<td>Langues, Connaissances, Érudition</td>
+</tr>
+<tr>
+<td>Technicien</td>
+<td>Artisanat, Analyse, Sciences, Connaissances</td>
+</tr>
+<tr>
+<td>Mage</td>
+<td>Érudition, Tradition (magique), Arcanes, Connaissances</td>
+</tr>
+</tbody>
+</table>
+<h3 id="culture-1">Culture </h3>
+<ul>
+<li>Gain de 10 PI dans deux groupes, ces deux groupes doivent figurés parmi la liste des compétences de sa culture</li>
+<li>Gain de 10 PI dans deux compétences, ces deux compétences doivent figurées parmi la liste des compétences de sa culture</li>
+</ul>
+<hr>
+<h2 id="6-compétences">6. Compétences </h2>
+<h3 id="groupes-de-compétences">Groupes de compétences </h3>
+<ul>
+<li>Coût : <strong>20 PX par rang</strong>
+<ul>
+<li>Rang 1 : 20 PX</li>
+<li>Rang 2 : 60 PX</li>
+</ul>
+</li>
+<li>Maximum dépend du Vécu</li>
+</ul>
+<h3 id="compétences">Compétences </h3>
+<ul>
+<li>Coût : <strong>10 PX par rang</strong>
+<ul>
+<li>Rang 1 : 10 PX</li>
+<li>Rang 2 : 30 PX</li>
+<li>Rang 3 : 60 PX</li>
+</ul>
+</li>
+<li>Maximum dépend du Vécu</li>
+<li>Jusqu'à <strong>3 compétences</strong> peuvent dépasser le maximum de +1</li>
+</ul>
+<hr>
+<h2 id="7-caste">7. Caste </h2>
+<ul>
+<li>Liste des castes disponible le PDF en annexe : "Castes de Thalifen"</li>
+<li>Accès conditionné à <strong>14 minimum</strong> dans les attributs requis</li>
+<li>Rang calculé automatiquement via la fiche en ligne</li>
+<li>Les avantages sont débloqués selon le rang</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
