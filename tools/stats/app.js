@@ -119,8 +119,13 @@ function costRelativeToStart(value) {
 
 function secondaryCostRelativeToBase(value) {
   // Special cost for secondary attributes
-  // 10→8 = +3 PA, 10→9 = +2 PA, 10→10 = 0, 10→11 = -2 PA, 10→12 = -3 PA
   const costs = { 8: 5, 9: 2, 10: 0, 11: -2, 12: -5 };
+  return costs[value] ?? 0;
+}
+
+function chanceCostRelativeToBase(value) {
+  // Chance uses double the secondary attribute cost
+  const costs = { 8: 10, 9: 4, 10: 0, 11: -4, 12: -10 };
   return costs[value] ?? 0;
 }
 
@@ -131,8 +136,7 @@ function totalSpentPA() {
   for (const a of Object.keys(secondaryValues)) {
     if (a === "Équilibre") continue; // Équilibre doesn't cost PA directly
     if (a === "Chance") {
-      // Chance uses primary attribute cost system
-      sum += costRelativeToStart(secondaryValues[a]);
+      sum += chanceCostRelativeToBase(secondaryValues[a]);
     } else {
       sum += secondaryCostRelativeToBase(secondaryValues[a]);
     }
@@ -447,6 +451,7 @@ function updateAttrCards() {
 
   // Update secondary attributes
   // Update secondary attributes
+  // Update secondary attributes
   for (const attrName of SECONDARY_ATTRS) {
     const card = document.querySelector(
       `.attrCard[data-attr="${CSS.escape(attrName)}"]`
@@ -460,12 +465,11 @@ function updateAttrCards() {
       base = secondaryValues[attrName];
     }
 
-    // Chance uses primary attribute cost, others use secondary cost
     const cost =
       attrName === "Équilibre"
         ? 0
         : attrName === "Chance"
-        ? costRelativeToStart(base)
+        ? chanceCostRelativeToBase(base)
         : secondaryCostRelativeToBase(base);
     const orig = origins[attrName]?.total ?? 0;
     const birth = birthAdjustments[attrName] ?? 0;
@@ -499,17 +503,13 @@ function updateAttrCards() {
       if (incBtn && decBtn) {
         decBtn.disabled = base <= SECONDARY_MIN;
 
-        if (attrName === "Chance") {
-          // Chance uses primary attribute cost logic
-          const nextCost = stepCostUp(base);
-          incBtn.disabled = base >= SECONDARY_MAX || paRemaining() < nextCost;
-        } else {
-          const nextCost = secondaryCostRelativeToBase(base + 1);
-          const currentRemaining = paRemaining();
-          const costDiff = nextCost - cost;
-          incBtn.disabled =
-            base >= SECONDARY_MAX || currentRemaining < -costDiff;
-        }
+        const nextCost =
+          attrName === "Chance"
+            ? chanceCostRelativeToBase(base + 1)
+            : secondaryCostRelativeToBase(base + 1);
+        const currentRemaining = paRemaining();
+        const costDiff = nextCost - cost;
+        incBtn.disabled = base >= SECONDARY_MAX || currentRemaining < -costDiff;
       }
     }
   }
@@ -540,20 +540,17 @@ function changeSecondary(attrName, delta) {
 
   if (next < SECONDARY_MIN || next > SECONDARY_MAX) return;
 
-  if (attrName === "Chance") {
-    // Chance uses primary attribute cost system
-    if (delta > 0) {
-      const cost = stepCostUp(current);
-      if (paRemaining() < cost) return;
-    }
-  } else {
-    // Other secondary attributes use their own cost system
-    const currentCost = secondaryCostRelativeToBase(current);
-    const nextCost = secondaryCostRelativeToBase(next);
-    const costDiff = nextCost - currentCost;
+  const currentCost =
+    attrName === "Chance"
+      ? chanceCostRelativeToBase(current)
+      : secondaryCostRelativeToBase(current);
+  const nextCost =
+    attrName === "Chance"
+      ? chanceCostRelativeToBase(next)
+      : secondaryCostRelativeToBase(next);
+  const costDiff = nextCost - currentCost;
 
-    if (paRemaining() < -costDiff) return;
-  }
+  if (paRemaining() < -costDiff) return;
 
   secondaryValues[attrName] = next;
   renderAll();
