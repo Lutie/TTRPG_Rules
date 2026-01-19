@@ -13,7 +13,7 @@
         <p class="subtitle">
           Choisis ta <strong>Destinée</strong>, répartis tes
           <strong>PA</strong> sur les attributs de base, puis applique les
-          <strong>ajustements d’origines</strong> (Race / Allégeance / Milieu /
+          <strong>ajustements d'origines</strong> (Race / Allégeance / Milieu /
           Persona).
         </p>
       </header>
@@ -30,12 +30,7 @@
               <span class="badge"
                 >Max Attribut : <strong id="destinyMax">—</strong></span
               >
-              <button
-                id="resetAllBtn"
-                type="button"
-                class="secondary"
-                style="padding: 0 8px"
-              >
+              <button id="resetAllBtn" type="button" class="secondary btnTight">
                 Réinitialiser tout
               </button>
             </div>
@@ -54,7 +49,7 @@
         </div>
 
         <div class="attrSection">
-          <h2>Attributs</h2>
+          <h2>Attributs Principaux</h2>
 
           <div class="attrGroup">
             <h3>Corps</h3>
@@ -72,7 +67,36 @@
           </div>
 
           <p class="microhint">
-            Coût par palier : <code>X → X+1 coûte (X-4) PA</code> (ex : 7→8 = 3, 8→9 = 4, 9→10 = 5…).
+            Coût par palier : <code>X → X+1 coûte (X-4) PA</code> (ex : 7→8 = 3,
+            8→9 = 4, 9→10 = 5…).
+          </p>
+        </div>
+      </section>
+
+      <!-- Attributs Secondaires -->
+      <section class="card">
+        <div class="sectionHeader">
+          <h2>Attributs Secondaires</h2>
+          <div class="sectionBadges">
+            <span class="badge"
+              >Base : <strong>10</strong> (min 8 / max 12)</span
+            >
+            <span class="badge"
+              >Équilibre : <strong>(min+max)/2</strong> + ajustements</span
+            >
+          </div>
+        </div>
+
+        <div class="attrSection">
+          <div class="attrGroup">
+            <div class="attrGrid secondary" id="gridSecondary"></div>
+          </div>
+
+          <p class="microhint">
+            Coûts (cumulés depuis 10) : 10→9 = +2 PA, 10→8 = +3 PA, 10→11 = -2
+            PA, 10→12 = -3 PA.
+            <strong>Équilibre</strong> : (min + max attributs de base) / 2 +
+            ajustements.
           </p>
         </div>
       </section>
@@ -80,7 +104,7 @@
       <!-- Origines -->
       <section class="card">
         <div class="toolbar">
-          <h2>Ajustements d’origines</h2>
+          <h2>Ajustements d'origines</h2>
           <button id="resetOriginsBtn" type="button" class="secondary">
             Réinitialiser origines
           </button>
@@ -237,6 +261,56 @@
               </div>
             </div>
           </section>
+        </div>
+      </section>
+
+      <!-- Attributs de Naissance -->
+      <section class="card">
+        <div class="sectionHeader">
+          <h2>Attributs de Naissance</h2>
+          <div class="sectionBadges">
+            <span class="badge">Total : <strong>60</strong></span>
+            <span class="badge">Écart à 10 → modificateur secondaire</span>
+          </div>
+        </div>
+
+        <div class="birthSection">
+          <div class="birthGrid">
+            <div class="birthField">
+              <label for="birthStature">Stature</label>
+              <input type="number" id="birthStature" value="0" />
+            </div>
+
+            <div class="birthField">
+              <label for="birthTaille">Taille</label>
+              <input type="number" id="birthTaille" value="0" />
+            </div>
+
+            <div class="birthField">
+              <label for="birthEgo">Ego</label>
+              <input type="number" id="birthEgo" value="0" />
+            </div>
+
+            <div class="birthField">
+              <label for="birthApparence">Apparence</label>
+              <input type="number" id="birthApparence" value="0" />
+            </div>
+
+            <div class="birthField">
+              <label for="birthChance">Chance</label>
+              <input type="number" id="birthChance" value="0" />
+            </div>
+
+            <div class="birthField">
+              <label for="birthEquilibre">Équilibre</label>
+              <input type="number" id="birthEquilibre" value="0" />
+            </div>
+          </div>
+
+          <p class="microhint">
+            Ajustements manuels appliqués aux attributs secondaires (valeurs
+            négatives autorisées).
+          </p>
         </div>
       </section>
 
