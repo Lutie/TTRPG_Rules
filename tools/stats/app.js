@@ -120,7 +120,7 @@ function costRelativeToStart(value) {
 function secondaryCostRelativeToBase(value) {
   // Special cost for secondary attributes
   // 10→8 = +3 PA, 10→9 = +2 PA, 10→10 = 0, 10→11 = -2 PA, 10→12 = -3 PA
-  const costs = { 8: 3, 9: 2, 10: 0, 11: -2, 12: -3 };
+  const costs = { 8: 5, 9: 2, 10: 0, 11: -2, 12: -5 };
   return costs[value] ?? 0;
 }
 
