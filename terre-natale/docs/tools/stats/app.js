@@ -22,10 +22,10 @@ const SECONDARY_MIN = 8;
 const SECONDARY_MAX = 12;
 
 const DESTINIES = [
-  { name: "Commun des Mortels", pa: 200, pp: 2,  max: 14 },
-  { name: "Destin Honorable",   pa: 300, pp: 4,  max: 15 },
-  { name: "Marche de la Gloire",pa: 400, pp: 6,  max: 16 },
-  { name: "Arpenteur Héroïque", pa: 500, pp: 8,  max: 17 },
+  { name: "Commun des Mortels", pa: 200, pp: 2, max: 14 },
+  { name: "Destin Honorable", pa: 300, pp: 4, max: 15 },
+  { name: "Marche de la Gloire", pa: 400, pp: 6, max: 16 },
+  { name: "Arpenteur Héroïque", pa: 500, pp: 8, max: 17 },
   { name: "Dieu parmi les Hommes", pa: 600, pp: 10, max: 18 },
 ];
 
@@ -35,7 +35,14 @@ const GROUPS = {
   autre: ["Magie", "Logique"],
 };
 
-const SECONDARY_ATTRS = ["Stature", "Taille", "Ego", "Apparence", "Chance", "Équilibre"];
+const SECONDARY_ATTRS = [
+  "Stature",
+  "Taille",
+  "Ego",
+  "Apparence",
+  "Chance",
+  "Équilibre",
+];
 
 // Origins targets include all attributes
 const ORIGIN_ATTRIBUTES = [
@@ -112,17 +119,27 @@ function costRelativeToStart(value) {
 
 function secondaryCostRelativeToBase(value) {
   // Special cost for secondary attributes
-  // 10→8 = +3 PA, 10→9 = +2 PA, 10→10 = 0, 10→11 = -2 PA, 10→12 = -3 PA
-  const costs = { 8: 3, 9: 2, 10: 0, 11: -2, 12: -3 };
+  const costs = { 8: 5, 9: 2, 10: 0, 11: -2, 12: -5 };
+  return costs[value] ?? 0;
+}
+
+function chanceCostRelativeToBase(value) {
+  // Chance uses double the secondary attribute cost
+  const costs = { 8: 10, 9: 4, 10: 0, 11: -4, 12: -10 };
   return costs[value] ?? 0;
 }
 
 function totalSpentPA() {
   let sum = 0;
-  for (const a of Object.keys(baseValues)) sum += costRelativeToStart(baseValues[a]);
+  for (const a of Object.keys(baseValues))
+    sum += costRelativeToStart(baseValues[a]);
   for (const a of Object.keys(secondaryValues)) {
     if (a === "Équilibre") continue; // Équilibre doesn't cost PA directly
-    sum += secondaryCostRelativeToBase(secondaryValues[a]);
+    if (a === "Chance") {
+      sum += chanceCostRelativeToBase(secondaryValues[a]);
+    } else {
+      sum += secondaryCostRelativeToBase(secondaryValues[a]);
+    }
   }
   return sum;
 }
@@ -208,7 +225,11 @@ function computeOriginsAdjustments(picks) {
   const res = {};
   for (const a of ORIGIN_ATTRIBUTES) {
     const { boost, deboost } = counts[a];
-    res[a] = { boostCount: boost, deboostCount: deboost, ...computeAdjustmentForAttribute(boost, deboost) };
+    res[a] = {
+      boostCount: boost,
+      deboostCount: deboost,
+      ...computeAdjustmentForAttribute(boost, deboost),
+    };
   }
   return res;
 }
@@ -228,7 +249,7 @@ function makeSecondaryCard(attrName) {
 
   const baseRow = document.createElement("div");
   baseRow.className = "baseRow";
-  
+
   if (attrName === "Équilibre") {
     baseRow.innerHTML = `
       <div>Calculé</div>
@@ -286,8 +307,12 @@ function makeSecondaryCard(attrName) {
   card.appendChild(right);
 
   if (attrName !== "Équilibre") {
-    card.querySelector('[data-action="inc"]')?.addEventListener("click", () => changeSecondary(attrName, +1));
-    card.querySelector('[data-action="dec"]')?.addEventListener("click", () => changeSecondary(attrName, -1));
+    card
+      .querySelector('[data-action="inc"]')
+      ?.addEventListener("click", () => changeSecondary(attrName, +1));
+    card
+      .querySelector('[data-action="dec"]')
+      ?.addEventListener("click", () => changeSecondary(attrName, -1));
   }
 
   return card;
@@ -344,8 +369,12 @@ function makeAttrCard(attrName) {
   card.appendChild(divider);
   card.appendChild(right);
 
-  card.querySelector('[data-action="inc"]').addEventListener("click", () => changeBase(attrName, +1));
-  card.querySelector('[data-action="dec"]').addEventListener("click", () => changeBase(attrName, -1));
+  card
+    .querySelector('[data-action="inc"]')
+    .addEventListener("click", () => changeBase(attrName, +1));
+  card
+    .querySelector('[data-action="dec"]')
+    .addEventListener("click", () => changeBase(attrName, -1));
 
   return card;
 }
@@ -359,7 +388,8 @@ function mountAttrCards() {
   for (const a of GROUPS.corps) gridCorps.appendChild(makeAttrCard(a));
   for (const a of GROUPS.esprit) gridEsprit.appendChild(makeAttrCard(a));
   for (const a of GROUPS.autre) gridAutre.appendChild(makeAttrCard(a));
-  for (const a of SECONDARY_ATTRS) gridSecondary.appendChild(makeSecondaryCard(a));
+  for (const a of SECONDARY_ATTRS)
+    gridSecondary.appendChild(makeSecondaryCard(a));
 }
 
 function updateDestinyUI() {
@@ -385,7 +415,9 @@ function updateAttrCards() {
 
   // Update primary attributes
   for (const attrName of Object.keys(baseValues)) {
-    const card = document.querySelector(`.attrCard[data-attr="${CSS.escape(attrName)}"]`);
+    const card = document.querySelector(
+      `.attrCard[data-attr="${CSS.escape(attrName)}"]`
+    );
     if (!card) continue;
 
     const base = baseValues[attrName];
@@ -418,8 +450,12 @@ function updateAttrCards() {
   }
 
   // Update secondary attributes
+  // Update secondary attributes
+  // Update secondary attributes
   for (const attrName of SECONDARY_ATTRS) {
-    const card = document.querySelector(`.attrCard[data-attr="${CSS.escape(attrName)}"]`);
+    const card = document.querySelector(
+      `.attrCard[data-attr="${CSS.escape(attrName)}"]`
+    );
     if (!card) continue;
 
     let base;
@@ -429,7 +465,12 @@ function updateAttrCards() {
       base = secondaryValues[attrName];
     }
 
-    const cost = attrName === "Équilibre" ? 0 : secondaryCostRelativeToBase(base);
+    const cost =
+      attrName === "Équilibre"
+        ? 0
+        : attrName === "Chance"
+        ? chanceCostRelativeToBase(base)
+        : secondaryCostRelativeToBase(base);
     const orig = origins[attrName]?.total ?? 0;
     const birth = birthAdjustments[attrName] ?? 0;
     const final = base + orig + birth;
@@ -438,7 +479,8 @@ function updateAttrCards() {
 
     const paCostEl = card.querySelector('[data-role="paCost"]');
     paCostEl.textContent = `${formatSigned(cost)} PA`;
-    paCostEl.style.color = cost < 0 ? "var(--warn)" : cost > 0 ? "var(--muted)" : "var(--text)";
+    paCostEl.style.color =
+      cost < 0 ? "var(--warn)" : cost > 0 ? "var(--muted)" : "var(--text)";
 
     const origEl = card.querySelector('[data-role="origValue"]');
     origEl.textContent = formatSigned(orig);
@@ -460,8 +502,11 @@ function updateAttrCards() {
 
       if (incBtn && decBtn) {
         decBtn.disabled = base <= SECONDARY_MIN;
-        
-        const nextCost = secondaryCostRelativeToBase(base + 1);
+
+        const nextCost =
+          attrName === "Chance"
+            ? chanceCostRelativeToBase(base + 1)
+            : secondaryCostRelativeToBase(base + 1);
         const currentRemaining = paRemaining();
         const costDiff = nextCost - cost;
         incBtn.disabled = base >= SECONDARY_MAX || currentRemaining < -costDiff;
@@ -489,14 +534,20 @@ function changeBase(attrName, delta) {
 
 function changeSecondary(attrName, delta) {
   if (attrName === "Équilibre") return; // Cannot manually change Équilibre
-  
+
   const current = secondaryValues[attrName];
   const next = current + delta;
 
   if (next < SECONDARY_MIN || next > SECONDARY_MAX) return;
 
-  const currentCost = secondaryCostRelativeToBase(current);
-  const nextCost = secondaryCostRelativeToBase(next);
+  const currentCost =
+    attrName === "Chance"
+      ? chanceCostRelativeToBase(current)
+      : secondaryCostRelativeToBase(current);
+  const nextCost =
+    attrName === "Chance"
+      ? chanceCostRelativeToBase(next)
+      : secondaryCostRelativeToBase(next);
   const costDiff = nextCost - currentCost;
 
   if (paRemaining() < -costDiff) return;
@@ -507,7 +558,8 @@ function changeSecondary(attrName, delta) {
 
 function resetBases() {
   for (const a of Object.keys(baseValues)) baseValues[a] = START_VALUE;
-  for (const a of Object.keys(secondaryValues)) secondaryValues[a] = SECONDARY_BASE;
+  for (const a of Object.keys(secondaryValues))
+    secondaryValues[a] = SECONDARY_BASE;
 }
 
 function resetOrigins() {
@@ -575,7 +627,7 @@ function renderAll() {
   for (const attrName of SECONDARY_ATTRS) {
     const input = birthInputs[attrName];
     if (!input) continue;
-    
+
     input.addEventListener("input", () => {
       const value = parseInt(input.value) || 0;
       birthAdjustments[attrName] = value;
