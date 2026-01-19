@@ -1,11 +1,24 @@
 site_name: Terre Natale
 extra_css:
   - css/extra.css
+  - css/print.css
+  - css/custom.css
 plugins:
   - search
 nav:
   - Accueil: index.md
-  - Classes: classes/castes/index.html
+  - Castes: castes/castes/index.html
+  - Ethnies: ethnies/ethnies/index.html
   - Outils:
     - Vitals: tools/vitals/index.html
     - Stats: tools/stats/index.html
+theme:
+  name: "material"
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+markdown_extensions:
+  - attr_list

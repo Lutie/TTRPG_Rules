@@ -1,18 +1,25 @@
-// Thalifen — Destinée + PA + Origines
-// Base starts at 7.
+// Thalifen — Destinée + PA + Origines + Attributs Secondaires
+// Base starts at 7 for primary attributes, 10 for secondary.
 // Destiny sets PA budget and max base value at creation.
 // Step cost rule (matches your table):
 //   X -> X+1 costs (X - 4) PA
 // So: 7->8=3, 8->9=4, 9->10=5, ..., 17->18=13
 // Lowering refunds the inverse step cost.
 //
+// Secondary attributes (except Équilibre):
+// 10→8 = +3 PA, 10→9 = +2 PA, 10→11 = -2 PA, 10→12 = -3 PA
+//
 // Origins adjust per attribute:
 // - Boosts: first +2, then +1 each, cap +4
 // - Deboosts: first -2, then -1 each, cap -4
-// Final = Base + OriginsAdjust
+// Final = Base + OriginsAdjust + BirthAdjust (for secondary)
 
 const START_VALUE = 7;
 const MIN_BASE = 7;
+
+const SECONDARY_BASE = 10;
+const SECONDARY_MIN = 8;
+const SECONDARY_MAX = 12;
 
 const DESTINIES = [
   { name: "Commun des Mortels", pa: 200, pp: 2,  max: 14 },
@@ -28,13 +35,14 @@ const GROUPS = {
   autre: ["Magie", "Logique"],
 };
 
-// Origins targets include these (even if not displayed as PA cards)
+const SECONDARY_ATTRS = ["Stature", "Taille", "Ego", "Apparence", "Chance", "Équilibre"];
+
+// Origins targets include all attributes
 const ORIGIN_ATTRIBUTES = [
   ...GROUPS.corps,
   ...GROUPS.esprit,
   ...GROUPS.autre,
-  "Chance",
-  "Équilibre",
+  ...SECONDARY_ATTRS,
 ];
 
 // Elements
@@ -48,11 +56,21 @@ const paRemainingEl = document.getElementById("paRemaining");
 const gridCorps = document.getElementById("gridCorps");
 const gridEsprit = document.getElementById("gridEsprit");
 const gridAutre = document.getElementById("gridAutre");
+const gridSecondary = document.getElementById("gridSecondary");
 
 const resetAllBtn = document.getElementById("resetAllBtn");
 const resetOriginsBtn = document.getElementById("resetOriginsBtn");
 
 const originSelects = Array.from(document.querySelectorAll(".attrSelect"));
+
+const birthInputs = {
+  Stature: document.getElementById("birthStature"),
+  Taille: document.getElementById("birthTaille"),
+  Ego: document.getElementById("birthEgo"),
+  Apparence: document.getElementById("birthApparence"),
+  Chance: document.getElementById("birthChance"),
+  Équilibre: document.getElementById("birthEquilibre"),
+};
 
 // State
 let selectedDestinyIndex = 0;
@@ -60,6 +78,16 @@ let selectedDestinyIndex = 0;
 const baseValues = {};
 for (const a of [...GROUPS.corps, ...GROUPS.esprit, ...GROUPS.autre]) {
   baseValues[a] = START_VALUE;
+}
+
+const secondaryValues = {};
+for (const a of SECONDARY_ATTRS) {
+  secondaryValues[a] = SECONDARY_BASE;
+}
+
+const birthAdjustments = {};
+for (const a of SECONDARY_ATTRS) {
+  birthAdjustments[a] = 0;
 }
 
 // ---------- PA cost helpers ----------
@@ -82,9 +110,20 @@ function costRelativeToStart(value) {
   return cost;
 }
 
+function secondaryCostRelativeToBase(value) {
+  // Special cost for secondary attributes
+  // 10→8 = +3 PA, 10→9 = +2 PA, 10→10 = 0, 10→11 = -2 PA, 10→12 = -3 PA
+  const costs = { 8: 3, 9: 2, 10: 0, 11: -2, 12: -3 };
+  return costs[value] ?? 0;
+}
+
 function totalSpentPA() {
   let sum = 0;
   for (const a of Object.keys(baseValues)) sum += costRelativeToStart(baseValues[a]);
+  for (const a of Object.keys(secondaryValues)) {
+    if (a === "Équilibre") continue; // Équilibre doesn't cost PA directly
+    sum += secondaryCostRelativeToBase(secondaryValues[a]);
+  }
   return sum;
 }
 
@@ -107,6 +146,14 @@ function paRemaining() {
 function formatSigned(n) {
   if (n > 0) return `+${n}`;
   return `${n}`;
+}
+
+function computeEquilibreBase() {
+  // Équilibre = (min + max of base attributes) / 2
+  const allBases = Object.values(baseValues);
+  const min = Math.min(...allBases);
+  const max = Math.max(...allBases);
+  return Math.round((min + max) / 2);
 }
 
 // ---------- Origins helpers ----------
@@ -167,6 +214,85 @@ function computeOriginsAdjustments(picks) {
 }
 
 // ---------- UI rendering ----------
+function makeSecondaryCard(attrName) {
+  const card = document.createElement("div");
+  card.className = "attrCard";
+  card.dataset.attr = attrName;
+
+  const left = document.createElement("div");
+  left.className = "attrLeft";
+
+  const name = document.createElement("div");
+  name.className = "attrName";
+  name.textContent = attrName;
+
+  const baseRow = document.createElement("div");
+  baseRow.className = "baseRow";
+  
+  if (attrName === "Équilibre") {
+    baseRow.innerHTML = `
+      <div>Calculé</div>
+      <div class="baseControls">
+        <span class="baseValue" data-role="baseValue">${SECONDARY_BASE}</span>
+      </div>
+    `;
+  } else {
+    baseRow.innerHTML = `
+      <div>Base</div>
+      <div class="baseControls">
+        <button type="button" class="miniBtn" data-action="dec" aria-label="Baisser">−</button>
+        <span class="baseValue" data-role="baseValue">${SECONDARY_BASE}</span>
+        <button type="button" class="miniBtn" data-action="inc" aria-label="Monter">+</button>
+      </div>
+    `;
+  }
+
+  const origRow = document.createElement("div");
+  origRow.className = "origRow";
+  origRow.innerHTML = `
+    <div>Orig.</div>
+    <div class="origRowRight">
+      <span class="origValue" data-role="origValue">0</span>
+      <span class="paCost" data-role="paCost">0 PA</span>
+    </div>
+  `;
+
+  const birthRow = document.createElement("div");
+  birthRow.className = "origRow";
+  birthRow.innerHTML = `
+    <div>Naiss.</div>
+    <div class="origRowRight">
+      <span class="origValue" data-role="birthValue">0</span>
+    </div>
+  `;
+
+  left.appendChild(name);
+  left.appendChild(baseRow);
+  left.appendChild(origRow);
+  left.appendChild(birthRow);
+
+  const divider = document.createElement("div");
+  divider.className = "dividerV";
+
+  const right = document.createElement("div");
+  right.className = "attrFinal";
+  right.innerHTML = `
+    <div class="finalLabel">Final</div>
+    <div class="finalValue" data-role="finalValue">${SECONDARY_BASE}</div>
+  `;
+
+  card.appendChild(left);
+  card.appendChild(divider);
+  card.appendChild(right);
+
+  if (attrName !== "Équilibre") {
+    card.querySelector('[data-action="inc"]')?.addEventListener("click", () => changeSecondary(attrName, +1));
+    card.querySelector('[data-action="dec"]')?.addEventListener("click", () => changeSecondary(attrName, -1));
+  }
+
+  return card;
+}
+
 function makeAttrCard(attrName) {
   const card = document.createElement("div");
   card.className = "attrCard";
@@ -228,10 +354,12 @@ function mountAttrCards() {
   gridCorps.innerHTML = "";
   gridEsprit.innerHTML = "";
   gridAutre.innerHTML = "";
+  gridSecondary.innerHTML = "";
 
   for (const a of GROUPS.corps) gridCorps.appendChild(makeAttrCard(a));
   for (const a of GROUPS.esprit) gridEsprit.appendChild(makeAttrCard(a));
   for (const a of GROUPS.autre) gridAutre.appendChild(makeAttrCard(a));
+  for (const a of SECONDARY_ATTRS) gridSecondary.appendChild(makeSecondaryCard(a));
 }
 
 function updateDestinyUI() {
@@ -254,8 +382,8 @@ function updateAttrCards() {
   const origins = computeOriginsAdjustments(picks);
 
   const max = maxBase();
-  const remaining = paRemaining(); // after current state
 
+  // Update primary attributes
   for (const attrName of Object.keys(baseValues)) {
     const card = document.querySelector(`.attrCard[data-attr="${CSS.escape(attrName)}"]`);
     if (!card) continue;
@@ -270,8 +398,6 @@ function updateAttrCards() {
 
     const paCostEl = card.querySelector('[data-role="paCost"]');
     paCostEl.textContent = `${formatSigned(cost)} PA`;
-
-    // small tone: spent = warn-ish, refunded = muted
     paCostEl.style.color = cost > 0 ? "var(--warn)" : "var(--muted)";
 
     const origEl = card.querySelector('[data-role="origValue"]');
@@ -288,8 +414,59 @@ function updateAttrCards() {
     decBtn.disabled = base <= MIN_BASE;
 
     const nextCost = stepCostUp(base);
-    // Recompute remaining after current total; increasing would reduce it by nextCost.
     incBtn.disabled = base >= max || paRemaining() < nextCost;
+  }
+
+  // Update secondary attributes
+  for (const attrName of SECONDARY_ATTRS) {
+    const card = document.querySelector(`.attrCard[data-attr="${CSS.escape(attrName)}"]`);
+    if (!card) continue;
+
+    let base;
+    if (attrName === "Équilibre") {
+      base = computeEquilibreBase();
+    } else {
+      base = secondaryValues[attrName];
+    }
+
+    const cost = attrName === "Équilibre" ? 0 : secondaryCostRelativeToBase(base);
+    const orig = origins[attrName]?.total ?? 0;
+    const birth = birthAdjustments[attrName] ?? 0;
+    const final = base + orig + birth;
+
+    card.querySelector('[data-role="baseValue"]').textContent = `${base}`;
+
+    const paCostEl = card.querySelector('[data-role="paCost"]');
+    paCostEl.textContent = `${formatSigned(cost)} PA`;
+    paCostEl.style.color = cost < 0 ? "var(--warn)" : cost > 0 ? "var(--muted)" : "var(--text)";
+
+    const origEl = card.querySelector('[data-role="origValue"]');
+    origEl.textContent = formatSigned(orig);
+    origEl.classList.remove("origPos", "origNeg");
+    if (orig > 0) origEl.classList.add("origPos");
+    if (orig < 0) origEl.classList.add("origNeg");
+
+    const birthEl = card.querySelector('[data-role="birthValue"]');
+    birthEl.textContent = formatSigned(birth);
+    birthEl.classList.remove("origPos", "origNeg");
+    if (birth > 0) birthEl.classList.add("origPos");
+    if (birth < 0) birthEl.classList.add("origNeg");
+
+    card.querySelector('[data-role="finalValue"]').textContent = `${final}`;
+
+    if (attrName !== "Équilibre") {
+      const incBtn = card.querySelector('[data-action="inc"]');
+      const decBtn = card.querySelector('[data-action="dec"]');
+
+      if (incBtn && decBtn) {
+        decBtn.disabled = base <= SECONDARY_MIN;
+        
+        const nextCost = secondaryCostRelativeToBase(base + 1);
+        const currentRemaining = paRemaining();
+        const costDiff = nextCost - cost;
+        incBtn.disabled = base >= SECONDARY_MAX || currentRemaining < -costDiff;
+      }
+    }
   }
 
   updatePAHeader();
@@ -310,12 +487,38 @@ function changeBase(attrName, delta) {
   renderAll();
 }
 
+function changeSecondary(attrName, delta) {
+  if (attrName === "Équilibre") return; // Cannot manually change Équilibre
+  
+  const current = secondaryValues[attrName];
+  const next = current + delta;
+
+  if (next < SECONDARY_MIN || next > SECONDARY_MAX) return;
+
+  const currentCost = secondaryCostRelativeToBase(current);
+  const nextCost = secondaryCostRelativeToBase(next);
+  const costDiff = nextCost - currentCost;
+
+  if (paRemaining() < -costDiff) return;
+
+  secondaryValues[attrName] = next;
+  renderAll();
+}
+
 function resetBases() {
   for (const a of Object.keys(baseValues)) baseValues[a] = START_VALUE;
+  for (const a of Object.keys(secondaryValues)) secondaryValues[a] = SECONDARY_BASE;
 }
 
 function resetOrigins() {
   for (const sel of originSelects) sel.value = "";
+}
+
+function resetBirthAdjustments() {
+  for (const a of SECONDARY_ATTRS) {
+    birthAdjustments[a] = 0;
+    if (birthInputs[a]) birthInputs[a].value = "0";
+  }
 }
 
 function clampBasesToDestinyMax() {
@@ -364,8 +567,21 @@ function renderAll() {
     destinySelect.value = "0";
     resetBases();
     resetOrigins();
+    resetBirthAdjustments();
     renderAll();
   });
+
+  // Birth adjustments listeners
+  for (const attrName of SECONDARY_ATTRS) {
+    const input = birthInputs[attrName];
+    if (!input) continue;
+    
+    input.addEventListener("input", () => {
+      const value = parseInt(input.value) || 0;
+      birthAdjustments[attrName] = value;
+      renderAll();
+    });
+  }
 
   renderAll();
 })();
