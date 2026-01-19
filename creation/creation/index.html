@@ -1,192 +1,859 @@
-<!DOCTYPE html><html><head>
-      <title>Module - Création de personnage en Thalifen</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <link rel="stylesheet" href="file:////home/lutie/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
-      
-      
-      
-      
-      
-      <style>
-      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
-/* Please visit the URL below for more information: */
-/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
 
-      </style>
-      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
-    // your code here
-  });
-</script></head><body for="html-export">
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
     
-    
-      <div class="crossnote markdown-preview  ">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       
-<h1 id="création-de-personnage--thalifen">Création de personnage — Thalifen </h1>
-<h2 id="informations-pratiques">Informations pratiques </h2>
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Création de personnage — Thalifen - Terre Natale</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/print.css">
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#creation-de-personnage-thalifen" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Terre Natale" class="md-header__button md-logo" aria-label="Terre Natale" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Terre Natale
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Création de personnage — Thalifen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Terre Natale" class="md-nav__button md-logo" aria-label="Terre Natale" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Terre Natale
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../castes/castes/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Castes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethnies/ethnies/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ethnies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Outils
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Outils
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/vitals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vitals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/stats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informations-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informations pratiques
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informations-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informations techniques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informations techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajustements-dattributs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ajustements d'attributs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boosts-et-deboosts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boosts et Deboosts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapes-de-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étapes de création
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-premiere-partie" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Première partie
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Première partie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#destinee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destinée
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vecu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vécu
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-deuxieme-partie" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Deuxième partie
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Deuxième partie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#personnalite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personnalité
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qualites-et-defauts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualités et défauts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traits
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Attributs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attributs-principaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs principaux
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributs-secondaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributs secondaires
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-choix-de-lethnie" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Choix de l'ethnie
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Choix de l'ethnie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#race" class="md-nav__link">
+    <span class="md-ellipsis">
+      Race
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#culture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Culture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allegeance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allégeance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Allégeance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#choix-du-milieu-de-vie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choix du milieu de vie
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-persona" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Persona
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-historique" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Historique
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Historique">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#milieu-social" class="md-nav__link">
+    <span class="md-ellipsis">
+      Milieu social
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#education" class="md-nav__link">
+    <span class="md-ellipsis">
+      Éducation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jeunesse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jeunesse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vocation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#culture_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Culture
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-competences" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Compétences
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Compétences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#groupes-de-competences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groupes de compétences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#competences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compétences
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-caste" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Caste
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="creation-de-personnage-thalifen">Création de personnage — Thalifen</h1>
+<h2 id="informations-pratiques">Informations pratiques</h2>
 <ul>
-<li><strong>Système de jeu :</strong> Terre Natale</li>
-<li><strong>Univers :</strong> Thalifen</li>
+<li><strong>Système de jeu :</strong> Terre Natale  </li>
+<li><strong>Univers :</strong> Thalifen  </li>
 </ul>
-<hr>
-<h2 id="informations-techniques">Informations techniques </h2>
-<h3 id="ajustements-dattributs">Ajustements d'attributs </h3>
-<p>Les ajustements d'attributs s'appliquent aux <strong>attributs de base</strong> et forment la <strong>valeur actuelle</strong> d'un attribut.<br>
+<hr />
+<h2 id="informations-techniques">Informations techniques</h2>
+<h3 id="ajustements-dattributs">Ajustements d'attributs</h3>
+<p>Les ajustements d'attributs s'appliquent aux <strong>attributs de base</strong> et forment la <strong>valeur actuelle</strong> d'un attribut.<br />
 Ils sont le reflet des choix effectués durant la création du personnage.</p>
-<h3 id="boosts-et-deboosts">Boosts et Deboosts </h3>
+<h3 id="boosts-et-deboosts">Boosts et Deboosts</h3>
 <blockquote>
 <p>Les Boosts et Deboosts n'affectent jamais la valeur de base d'un attribut.</p>
 </blockquote>
 <ul>
 <li>Un attribut noté <strong>x2</strong> peut être sélectionné plusieurs fois.</li>
-<li><strong>Boost</strong>
-<ul>
+<li><strong>Boost</strong></li>
 <li>1er Boost : +2</li>
 <li>Boosts suivants : +1 chacun</li>
 <li>Maximum : +4</li>
-</ul>
-</li>
-<li><strong>Deboost</strong>
-<ul>
+<li><strong>Deboost</strong></li>
 <li>1er Deboost : -2</li>
 <li>Deboosts suivants : -1 chacun</li>
 <li>Maximum : -4</li>
-</ul>
-</li>
-<li>Les Boosts et Deboosts <strong>ne s'annulent pas</strong>
-<ul>
+<li>Les Boosts et Deboosts <strong>ne s'annulent pas</strong>  </li>
 <li>Exemple : 2 Boosts et 1 Deboost → <code>+2 +1 -2 = +1</code></li>
 </ul>
-</li>
-</ul>
-<hr>
-<h2 id="étapes-de-création">Étapes de création </h2>
-<h2 id="1-première-partie">1. Première partie </h2>
-<h3 id="destinée">Destinée </h3>
+<hr />
+<h2 id="etapes-de-creation">Étapes de création</h2>
+<h2 id="1-premiere-partie">1. Première partie</h2>
+<h3 id="destinee">Destinée</h3>
 <p>Déterminée par le MJ.</p>
 <table>
 <thead>
 <tr>
 <th>Destinée</th>
-<th style="text-align:right">PA</th>
-<th style="text-align:right">PP</th>
-<th style="text-align:right">Max Attribut*</th>
+<th style="text-align: right;">PA</th>
+<th style="text-align: right;">PP</th>
+<th style="text-align: right;">Max Attribut*</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Commun des Mortels</td>
-<td style="text-align:right">200</td>
-<td style="text-align:right">2</td>
-<td style="text-align:right">15</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">15</td>
 </tr>
 <tr>
 <td>Destin Honorable</td>
-<td style="text-align:right">300</td>
-<td style="text-align:right">4</td>
-<td style="text-align:right">16</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">16</td>
 </tr>
 <tr>
 <td>Marche de la Gloire</td>
-<td style="text-align:right">400</td>
-<td style="text-align:right">6</td>
-<td style="text-align:right">17</td>
+<td style="text-align: right;">400</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">17</td>
 </tr>
 <tr>
 <td>Arpenteur Héroïque</td>
-<td style="text-align:right">500</td>
-<td style="text-align:right">8</td>
-<td style="text-align:right">18</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">18</td>
 </tr>
 <tr>
 <td>Dieu parmi les Hommes</td>
-<td style="text-align:right">600</td>
-<td style="text-align:right">10</td>
-<td style="text-align:right">19</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">19</td>
 </tr>
 </tbody>
 </table>
 <p>* Maximum de la <strong>valeur de base</strong> à la création uniquement.</p>
-<hr>
-<h3 id="vécu">Vécu </h3>
+<hr />
+<h3 id="vecu">Vécu</h3>
 <p>Déterminé par le MJ.</p>
 <table>
 <thead>
 <tr>
 <th>Vécu</th>
-<th style="text-align:right">PX</th>
-<th style="text-align:right">PO</th>
-<th style="text-align:right">Max groupe / compétence*</th>
+<th style="text-align: right;">PX</th>
+<th style="text-align: right;">PO</th>
+<th style="text-align: right;">Max groupe / compétence*</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Aucun</td>
-<td style="text-align:right">200</td>
-<td style="text-align:right">10</td>
-<td style="text-align:right">1 / 1</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1 / 1</td>
 </tr>
 <tr>
 <td>Notable</td>
-<td style="text-align:right">300</td>
-<td style="text-align:right">15</td>
-<td style="text-align:right">1 / 2</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1 / 2</td>
 </tr>
 <tr>
 <td>Admirable</td>
-<td style="text-align:right">400</td>
-<td style="text-align:right">20</td>
-<td style="text-align:right">2 / 2</td>
+<td style="text-align: right;">400</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2 / 2</td>
 </tr>
 <tr>
 <td>Spectaculaire</td>
-<td style="text-align:right">500</td>
-<td style="text-align:right">25</td>
-<td style="text-align:right">2 / 3</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">2 / 3</td>
 </tr>
 <tr>
 <td>Légendaire</td>
-<td style="text-align:right">600</td>
-<td style="text-align:right">30</td>
-<td style="text-align:right">2 / 4</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">2 / 4</td>
 </tr>
 </tbody>
 </table>
 <p>* Maximum de la <strong>valeur de base</strong> à la création uniquement.</p>
-<hr>
-<h2 id="2-deuxième-partie">2. Deuxième partie </h2>
-<h3 id="personnalité">Personnalité </h3>
+<hr />
+<h2 id="2-deuxieme-partie">2. Deuxième partie</h2>
+<h3 id="personnalite">Personnalité</h3>
 <ul>
-<li><strong>Comportement :</strong> agressif, assertif, exclusif, passif</li>
-<li><strong>Caractère :</strong> dominateur, introverti, extraverti, conciliateur</li>
-<li><strong>Chiffre porte-bonheur :</strong> 1 à 6</li>
+<li><strong>Comportement :</strong> agressif, assertif, exclusif, passif  </li>
+<li><strong>Caractère :</strong> dominateur, introverti, extraverti, conciliateur  </li>
+<li><strong>Chiffre porte-bonheur :</strong> 1 à 6  </li>
 </ul>
-<hr>
-<h3 id="qualités-et-défauts">Qualités et défauts </h3>
+<hr />
+<h3 id="qualites-et-defauts">Qualités et défauts</h3>
 <ul>
-<li>Choix purement RP</li>
-<li>Sans incidence mécanique</li>
+<li>Choix purement RP  </li>
+<li>Sans incidence mécanique  </li>
 <li>Optionnels</li>
 </ul>
-<hr>
-<h3 id="traits">Traits </h3>
+<hr />
+<h3 id="traits">Traits</h3>
 <ul>
-<li><strong>Désavantages</strong>
-<ul>
+<li><strong>Désavantages</strong></li>
 <li>Accordent des <strong>PP supplémentaires</strong>, maximum +6</li>
-</ul>
-</li>
-<li><strong>Avantages</strong>
-<ul>
+<li><strong>Avantages</strong></li>
 <li>Consomme les PPs</li>
 </ul>
-</li>
-</ul>
-<hr>
-<h3 id="attributs">Attributs </h3>
-<h4 id="attributs-principaux">Attributs principaux </h4>
+<hr />
+<h3 id="attributs">Attributs</h3>
+<h4 id="attributs-principaux">Attributs principaux</h4>
 <ul>
 <li>Valeur de départ : <strong>7</strong></li>
 <li>Coût d'augmentation : <code>X → X+1 = X-5 PA</code></li>
@@ -195,60 +862,60 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 <thead>
 <tr>
 <th>Progression</th>
-<th style="text-align:right">Coût cumulé</th>
+<th style="text-align: right;">Coût cumulé</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>7 → 8</td>
-<td style="text-align:right">3 PA</td>
+<td style="text-align: right;">3 PA</td>
 </tr>
 <tr>
 <td>7 → 9</td>
-<td style="text-align:right">7 PA</td>
+<td style="text-align: right;">7 PA</td>
 </tr>
 <tr>
 <td>7 → 10</td>
-<td style="text-align:right">12 PA</td>
+<td style="text-align: right;">12 PA</td>
 </tr>
 <tr>
 <td>7 → 11</td>
-<td style="text-align:right">18 PA</td>
+<td style="text-align: right;">18 PA</td>
 </tr>
 <tr>
 <td>7 → 12</td>
-<td style="text-align:right">25 PA</td>
+<td style="text-align: right;">25 PA</td>
 </tr>
 <tr>
 <td>7 → 13</td>
-<td style="text-align:right">33 PA</td>
+<td style="text-align: right;">33 PA</td>
 </tr>
 <tr>
 <td>7 → 14</td>
-<td style="text-align:right">42 PA</td>
+<td style="text-align: right;">42 PA</td>
 </tr>
 <tr>
 <td>7 → 15</td>
-<td style="text-align:right">52 PA</td>
+<td style="text-align: right;">52 PA</td>
 </tr>
 <tr>
 <td>7 → 16</td>
-<td style="text-align:right">63 PA</td>
+<td style="text-align: right;">63 PA</td>
 </tr>
 <tr>
 <td>7 → 17</td>
-<td style="text-align:right">75 PA</td>
+<td style="text-align: right;">75 PA</td>
 </tr>
 <tr>
 <td>7 → 18</td>
-<td style="text-align:right">88 PA</td>
+<td style="text-align: right;">88 PA</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
 <p>La valeur de base est limitée par la Destinée.</p>
 </blockquote>
-<h4 id="attributs-secondaires">Attributs secondaires </h4>
+<h4 id="attributs-secondaires">Attributs secondaires</h4>
 <ul>
 <li>Valeur de départ : <strong>10</strong></li>
 <li>Coût d'augmentation : <code>X → X+1 = X-7 PA</code></li>
@@ -259,76 +926,64 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 <thead>
 <tr>
 <th>Progression</th>
-<th style="text-align:right">Coût cumulé</th>
+<th style="text-align: right;">Coût cumulé</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>10 → 8</td>
-<td style="text-align:right">+3 PA</td>
+<td style="text-align: right;">+3 PA</td>
 </tr>
 <tr>
 <td>10 → 9</td>
-<td style="text-align:right">+2 PA</td>
+<td style="text-align: right;">+2 PA</td>
 </tr>
 <tr>
 <td>10 → 10</td>
-<td style="text-align:right">---</td>
+<td style="text-align: right;">---</td>
 </tr>
 <tr>
 <td>10 → 11</td>
-<td style="text-align:right">-2 PA</td>
+<td style="text-align: right;">-2 PA</td>
 </tr>
 <tr>
 <td>10 → 12</td>
-<td style="text-align:right">-3 PA</td>
+<td style="text-align: right;">-3 PA</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
 <p>La valeur de base est limitée entre <strong>8 à 12</strong>.</p>
 </blockquote>
-<hr>
-<h2 id="3-choix-de-lethnie">3. Choix de l'ethnie </h2>
+<hr />
+<h2 id="3-choix-de-lethnie">3. Choix de l'ethnie</h2>
 <ul>
 <li>Liste des ethnies disponible le PDF en annexe : "Ethnies de Thalifen"</li>
 </ul>
-<h3 id="race">Race </h3>
+<h3 id="race">Race</h3>
 <ul>
-<li>Particularités de naissance (traits automatiques)
-<ul>
+<li>Particularités de naissance (traits automatiques)</li>
 <li>Un désavantage peut les remplacer par <strong>+1 PP</strong></li>
-</ul>
-</li>
 <li>2 [Boost] liés aux attributs forts</li>
 <li>1 [Deboost] optionnel lié à un attribut faible</li>
-<li>Ajustement des attributs de naissance
-<ul>
+<li>Ajustement des attributs de naissance</li>
 <li>Total obligatoire : <strong>60</strong></li>
 <li>Tout écart à 10 devient un modificateur secondaire</li>
 </ul>
-</li>
-</ul>
-<hr>
-<h3 id="culture">Culture </h3>
+<hr />
+<h3 id="culture">Culture</h3>
 <ul>
-<li>Particularités culturelles (traits automatiques)
-<ul>
+<li>Particularités culturelles (traits automatiques)</li>
 <li>Remplaçables par <strong>+1 PP</strong> via désavantage</li>
-</ul>
-</li>
 <li>1 spécialisation culturelle</li>
 <li>Culture différente de la race possible avec validation MJ</li>
 </ul>
-<hr>
-<h3 id="allégeance">Allégeance </h3>
+<hr />
+<h3 id="allegeance">Allégeance</h3>
 <p>Philosophie de vie issue de la culture.</p>
 <ul>
-<li>Ce choix se fait parmi les options offertes par la culture du personnage
-<ul>
+<li>Ce choix se fait parmi les options offertes par la culture du personnage</li>
 <li>Un choix en dehors de la liste culturel peux être effectué avec discussion avec le MJ</li>
-</ul>
-</li>
 <li>Le personnage reçoit un ou des [Boost] et [Deboost] à des attributs qui dépendent de son choix</li>
 </ul>
 <table>
@@ -439,7 +1094,7 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="choix-du-milieu-de-vie">Choix du milieu de vie </h4>
+<h4 id="choix-du-milieu-de-vie">Choix du milieu de vie</h4>
 <ul>
 <li>Choix parmi les milieux de l'ethnie</li>
 <li>[Boost] et [Deboost] parmi les attributs du type indiquée</li>
@@ -555,8 +1210,8 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2 id="4-persona">4. Persona </h2>
+<hr />
+<h2 id="4-persona">4. Persona</h2>
 <ul>
 <li>Choix parmi les animaux fabuleux</li>
 <li>2 [Boost] parmi les attributs forts</li>
@@ -826,9 +1481,9 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2 id="5-historique">5. Historique </h2>
-<h3 id="milieu-social">Milieu social </h3>
+<hr />
+<h2 id="5-historique">5. Historique</h2>
+<h3 id="milieu-social">Milieu social</h3>
 <ul>
 <li>+10 PI dans 2 groupes (1 par attribut)</li>
 <li>+10 PI dans 2 compétences (1 par attribut)</li>
@@ -1019,8 +1674,8 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<hr>
-<h3 id="éducation">Éducation </h3>
+<hr />
+<h3 id="education">Éducation</h3>
 <ul>
 <li>+10 PI dans 2 groupes</li>
 <li>+10 PI dans 2 compétences</li>
@@ -1196,8 +1851,8 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<hr>
-<h3 id="jeunesse">Jeunesse </h3>
+<hr />
+<h3 id="jeunesse">Jeunesse</h3>
 <ul>
 <li>+10 PI dans 2 groupes</li>
 <li>+10 PI dans 2 compétences</li>
@@ -1368,8 +2023,8 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<hr>
-<h3 id="vocation">Vocation </h3>
+<hr />
+<h3 id="vocation">Vocation</h3>
 <ul>
 <li>+10 PI dans 2 groupes</li>
 <li>+10 PI dans 2 compétences</li>
@@ -1432,37 +2087,31 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="culture-1">Culture </h3>
+<h3 id="culture_1">Culture</h3>
 <ul>
 <li>Gain de 10 PI dans deux groupes, ces deux groupes doivent figurés parmi la liste des compétences de sa culture</li>
 <li>Gain de 10 PI dans deux compétences, ces deux compétences doivent figurées parmi la liste des compétences de sa culture</li>
 </ul>
-<hr>
-<h2 id="6-compétences">6. Compétences </h2>
-<h3 id="groupes-de-compétences">Groupes de compétences </h3>
+<hr />
+<h2 id="6-competences">6. Compétences</h2>
+<h3 id="groupes-de-competences">Groupes de compétences</h3>
 <ul>
-<li>Coût : <strong>20 PX par rang</strong>
-<ul>
+<li>Coût : <strong>20 PX par rang</strong></li>
 <li>Rang 1 : 20 PX</li>
 <li>Rang 2 : 60 PX</li>
-</ul>
-</li>
 <li>Maximum dépend du Vécu</li>
 </ul>
-<h3 id="compétences">Compétences </h3>
+<h3 id="competences">Compétences</h3>
 <ul>
-<li>Coût : <strong>10 PX par rang</strong>
-<ul>
+<li>Coût : <strong>10 PX par rang</strong></li>
 <li>Rang 1 : 10 PX</li>
 <li>Rang 2 : 30 PX</li>
 <li>Rang 3 : 60 PX</li>
-</ul>
-</li>
 <li>Maximum dépend du Vécu</li>
 <li>Jusqu'à <strong>3 compétences</strong> peuvent dépasser le maximum de +1</li>
 </ul>
-<hr>
-<h2 id="7-caste">7. Caste </h2>
+<hr />
+<h2 id="7-caste">7. Caste</h2>
 <ul>
 <li>Liste des castes disponible le PDF en annexe : "Castes de Thalifen"</li>
 <li>Accès conditionné à <strong>14 minimum</strong> dans les attributs requis</li>
@@ -1470,14 +2119,56 @@ Ils sont le reflet des choix effectués durant la création du personnage.</p>
 <li>Les avantages sont débloqués selon le rang</li>
 </ul>
 
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
       
-      
-    
-    
-    
-    
-    
-    
+        <footer class="md-footer">
   
-    </body></html>
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
