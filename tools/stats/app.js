@@ -119,13 +119,13 @@ function costRelativeToStart(value) {
 
 function secondaryCostRelativeToBase(value) {
   // Special cost for secondary attributes
-  const costs = { 8: -5, 9: -2, 10: 0, 11: 2, 12: 5 };
+  const costs = { 8: -5, 9: -3, 10: 0, 11: 4, 12: 9 };
   return costs[value] ?? 0;
 }
 
 function chanceCostRelativeToBase(value) {
   // Chance uses double the secondary attribute cost
-  const costs = { 8: -10, 9: -4, 10: 0, 11: 4, 12: 10 };
+  const costs = { 8: -9, 9: -5, 10: 0, 11: 6, 12: 13 };
   return costs[value] ?? 0;
 }
 
