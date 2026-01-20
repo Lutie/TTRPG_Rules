@@ -7,6 +7,7 @@ plugins:
   - search
 nav:
   - Accueil: index.md
+  - Création: creation/creation/index.html
   - Castes: castes/castes/index.html
   - Ethnies: ethnies/ethnies/index.html
   - Outils:

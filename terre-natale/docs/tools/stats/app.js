@@ -83,7 +83,7 @@ const birthInputs = {
 let selectedDestinyIndex = 0;
 
 const baseValues = {};
-for (const a of [...GROUPS.corps, ...GROUPS.esprit, ...GROUPS.autre]) {
+for (const a of [...GROUPS.corps, ...GROUPS.esprit]) {
   baseValues[a] = START_VALUE;
 }
 
@@ -119,13 +119,13 @@ function costRelativeToStart(value) {
 
 function secondaryCostRelativeToBase(value) {
   // Special cost for secondary attributes
-  const costs = { 8: 5, 9: 2, 10: 0, 11: -2, 12: -5 };
+  const costs = { 8: -5, 9: -2, 10: 0, 11: 2, 12: 5 };
   return costs[value] ?? 0;
 }
 
 function chanceCostRelativeToBase(value) {
   // Chance uses double the secondary attribute cost
-  const costs = { 8: 10, 9: 4, 10: 0, 11: -4, 12: -10 };
+  const costs = { 8: -10, 9: -4, 10: 0, 11: 4, 12: 10 };
   return costs[value] ?? 0;
 }
 
@@ -190,20 +190,64 @@ function buildOriginOptions(selectEl) {
   }
 }
 
+const NON_RACE_SOURCES = new Set(["allegeance", "milieu", "persona"]);
+
+function enforceNoDuplicatesOutsideRace(changedSelect) {
+  const src = changedSelect.dataset.source;
+  if (!NON_RACE_SOURCES.has(src)) return; // Race autorise les doublons
+
+  const chosen = changedSelect.value;
+  if (!chosen) return;
+
+  // Collecte toutes les valeurs déjà prises dans ce même src (hors select courant)
+  const others = originSelects.filter(s => s !== changedSelect && s.dataset.source === src);
+  const used = new Set(others.map(s => s.value).filter(Boolean));
+
+  // Si la valeur choisie existe déjà => on annule le dernier choix
+  if (used.has(chosen)) {
+    changedSelect.value = "";
+    // Feedback minimal (pas "over engineered")
+    alert("Dans cette catégorie, tu ne peux pas choisir deux fois le même attribut.");
+  }
+}
+
+function refreshDisabledOptions() {
+  // Pour chaque source non-race : désactiver les options déjà utilisées dans les autres selects de la même source
+  for (const src of NON_RACE_SOURCES) {
+    const selects = originSelects.filter(s => s.dataset.source === src);
+    const values = selects.map(s => s.value).filter(Boolean);
+
+    for (const sel of selects) {
+      const current = sel.value;
+      for (const opt of sel.options) {
+        if (!opt.value) continue; // "—"
+        // désactiver si utilisé ailleurs
+        const usedElsewhere = values.includes(opt.value) && opt.value !== current;
+        opt.disabled = usedElsewhere;
+      }
+    }
+  }
+}
+
 function getOriginPicks() {
   const picks = [];
   for (const sel of originSelects) {
     const attr = sel.value;
     if (!attr) continue;
-    picks.push({ type: sel.dataset.type, attr });
+    picks.push({
+      type: sel.dataset.type,     // boost | deboost
+      attr,
+      source: sel.dataset.source, // race | allegeance | milieu | persona
+      slot: sel.dataset.slot,     // boost1/boost2/etc (utile pour debug)
+    });
   }
   return picks;
 }
 
-function computeAdjustmentForAttribute(boostCount, deboostCount) {
+function computeAdjustmentForAttribute(boostCount, deboostCount, boostCap = 4) {
   let boostValue = 0;
   if (boostCount >= 1) boostValue = 2 + Math.max(0, boostCount - 1);
-  boostValue = Math.min(boostValue, 4);
+  boostValue = Math.min(boostValue, boostCap);
 
   let deboostValue = 0;
   if (deboostCount >= 1) deboostValue = -2 - Math.max(0, deboostCount - 1);
@@ -216,19 +260,30 @@ function computeOriginsAdjustments(picks) {
   const counts = {};
   for (const a of ORIGIN_ATTRIBUTES) counts[a] = { boost: 0, deboost: 0 };
 
+  const raceBoostCounts = {};
+  for (const a of ORIGIN_ATTRIBUTES) raceBoostCounts[a] = 0;
+
   for (const p of picks) {
     if (!counts[p.attr]) continue;
+
     if (p.type === "boost") counts[p.attr].boost += 1;
     if (p.type === "deboost") counts[p.attr].deboost += 1;
+
+    if (p.source === "race" && p.type === "boost") {
+      raceBoostCounts[p.attr] += 1;
+    }
   }
 
   const res = {};
   for (const a of ORIGIN_ATTRIBUTES) {
     const { boost, deboost } = counts[a];
+    const boostCap = raceBoostCounts[a] >= 2 ? 6 : 4;
+
     res[a] = {
       boostCount: boost,
       deboostCount: deboost,
-      ...computeAdjustmentForAttribute(boost, deboost),
+      boostCap,
+      ...computeAdjustmentForAttribute(boost, deboost, boostCap),
     };
   }
   return res;
@@ -450,8 +505,6 @@ function updateAttrCards() {
   }
 
   // Update secondary attributes
-  // Update secondary attributes
-  // Update secondary attributes
   for (const attrName of SECONDARY_ATTRS) {
     const card = document.querySelector(
       `.attrCard[data-attr="${CSS.escape(attrName)}"]`
@@ -606,8 +659,13 @@ function renderAll() {
 
   for (const sel of originSelects) {
     buildOriginOptions(sel);
-    sel.addEventListener("change", renderAll);
+    sel.addEventListener("change", (e) => {
+      enforceNoDuplicatesOutsideRace(e.target);
+      refreshDisabledOptions();
+      renderAll();
+    });
   }
+  refreshDisabledOptions();
 
   resetOriginsBtn.addEventListener("click", () => {
     resetOrigins();

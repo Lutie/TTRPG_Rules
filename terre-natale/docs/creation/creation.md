@@ -23,6 +23,7 @@ Ils sont le reflet des choix effectués durant la création du personnage.
   - 1er Boost : +2
   - Boosts suivants : +1 chacun
   - Maximum : +4
+  - Si un boost est pris deux fois pour l'ethnie (possibilité noté X2) le maximum passe à +6
 - **Deboost**
   - 1er Deboost : -2
   - Deboosts suivants : -1 chacun
@@ -128,10 +129,10 @@ Déterminé par le MJ.
 - L'attribut **Chance** a un cout doublé vis à vis des autres attributs secondaires
 
 | Progression | Coût cumulé | Coût chance |
-|---|---:|
+|---|---|---:|
 | 10 → 8  | +5 PA | +10 PA |
 | 10 → 9  | +2 PA | +4 PA |
-| 10 → 10 | --- | --- |
+| 10 → 10 | / | / |
 | 10 → 11 | -2 PA | +4 PA |
 | 10 → 12 | -5 PA | +10 PA |
 
