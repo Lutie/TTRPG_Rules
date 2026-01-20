@@ -83,7 +83,7 @@ const birthInputs = {
 let selectedDestinyIndex = 0;
 
 const baseValues = {};
-for (const a of [...GROUPS.corps, ...GROUPS.esprit, ...GROUPS.autre]) {
+for (const a of [...GROUPS.corps, ...GROUPS.esprit]) {
   baseValues[a] = START_VALUE;
 }
 
@@ -119,13 +119,13 @@ function costRelativeToStart(value) {
 
 function secondaryCostRelativeToBase(value) {
   // Special cost for secondary attributes
-  const costs = { 8: 5, 9: 2, 10: 0, 11: -2, 12: -5 };
+  const costs = { 8: -5, 9: -2, 10: 0, 11: 2, 12: 5 };
   return costs[value] ?? 0;
 }
 
 function chanceCostRelativeToBase(value) {
   // Chance uses double the secondary attribute cost
-  const costs = { 8: 10, 9: 4, 10: 0, 11: -4, 12: -10 };
+  const costs = { 8: -10, 9: -4, 10: 0, 11: 4, 12: 10 };
   return costs[value] ?? 0;
 }
 
@@ -504,8 +504,6 @@ function updateAttrCards() {
     incBtn.disabled = base >= max || paRemaining() < nextCost;
   }
 
-  // Update secondary attributes
-  // Update secondary attributes
   // Update secondary attributes
   for (const attrName of SECONDARY_ATTRS) {
     const card = document.querySelector(
