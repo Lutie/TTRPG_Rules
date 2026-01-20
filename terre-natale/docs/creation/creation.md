@@ -126,15 +126,15 @@ Déterminé par le MJ.
 - Coût d'augmentation : `X → X+1 = X-7 PA`
 - Toute modification doit être validée avec le MJ
 - L'attribut **Équilibre** est calculé à partir des attributs principaux
-- L'attribut **Chance** a un cout doublé vis à vis des autres attributs secondaires
+- L'attribut **Chance** a un cout identique aux attributs principaux
 
 | Progression | Coût cumulé | Coût chance |
 |---|---|---:|
-| 10 → 8  | +5 PA | +10 PA |
-| 10 → 9  | +2 PA | +4 PA |
+| 10 → 8  | +5 PA | +9 PA |
+| 10 → 9  | +2 PA | +5 PA |
 | 10 → 10 | / | / |
-| 10 → 11 | -2 PA | +4 PA |
-| 10 → 12 | -5 PA | +10 PA |
+| 10 → 11 | -4 PA | -6 PA |
+| 10 → 12 | -9 PA | -13 PA |
 
 > La valeur de base est limitée entre **8 à 12**.
 
