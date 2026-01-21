@@ -504,3 +504,16 @@ input[type="number"] {
 .btnTight {
   padding: 6px 10px;
 }
+
+/* Badge status for birth total */
+.badge.ok {
+  color: var(--ok);
+  border-color: rgba(126,231,135,0.45);
+  background: rgba(126,231,135,0.08);
+}
+
+.badge.ko {
+  color: var(--danger);
+  border-color: rgba(255,107,107,0.45);
+  background: rgba(255,107,107,0.08);
+}

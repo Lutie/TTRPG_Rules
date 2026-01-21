@@ -67,6 +67,10 @@ const gridSecondary = document.getElementById("gridSecondary");
 
 const resetAllBtn = document.getElementById("resetAllBtn");
 const resetOriginsBtn = document.getElementById("resetOriginsBtn");
+const setPrimariesTo10Btn = document.getElementById("setPrimariesTo10Btn");
+
+const birthTotalBadge = document.getElementById("birthTotalBadge");
+const birthTotalValueEl = document.getElementById("birthTotalValue");
 
 const originSelects = Array.from(document.querySelectorAll(".attrSelect"));
 
@@ -83,7 +87,7 @@ const birthInputs = {
 let selectedDestinyIndex = 0;
 
 const baseValues = {};
-for (const a of [...GROUPS.corps, ...GROUPS.esprit]) {
+for (const a of [...GROUPS.corps, ...GROUPS.esprit, ...GROUPS.autre]) {
   baseValues[a] = START_VALUE;
 }
 
@@ -92,9 +96,9 @@ for (const a of SECONDARY_ATTRS) {
   secondaryValues[a] = SECONDARY_BASE;
 }
 
-const birthAdjustments = {};
+const birthValues = {};
 for (const a of SECONDARY_ATTRS) {
-  birthAdjustments[a] = 0;
+  birthValues[a] = 10; // birth "raw" value, centered on 10
 }
 
 // ---------- PA cost helpers ----------
@@ -102,6 +106,13 @@ function stepCostUp(x) {
   // cost from x to x+1
   // matches your table: 7->8=3 (7-4), 8->9=4 (8-4), etc.
   return Math.max(0, x - 4);
+}
+
+function setPrimaryBasesTo10() {
+  const cap = maxBase();
+  for (const a of [...GROUPS.corps, ...GROUPS.esprit]) {
+    baseValues[a] = Math.min(10, cap);
+  }
 }
 
 function costRelativeToStart(value) {
@@ -166,8 +177,13 @@ function formatSigned(n) {
 }
 
 function computeEquilibreBase() {
-  // Équilibre = (min + max of base attributes) / 2
-  const allBases = Object.values(baseValues);
+  // Équilibre = (min + max des attributs de base "physiques + mentaux") / 2
+  // => on exclut Magie et Logique
+  const allBases = [
+    ...GROUPS.corps.map(a => baseValues[a]),
+    ...GROUPS.esprit.map(a => baseValues[a]),
+  ].filter(v => Number.isFinite(v));
+
   const min = Math.min(...allBases);
   const max = Math.max(...allBases);
   return Math.round((min + max) / 2);
@@ -525,7 +541,7 @@ function updateAttrCards() {
         ? chanceCostRelativeToBase(base)
         : secondaryCostRelativeToBase(base);
     const orig = origins[attrName]?.total ?? 0;
-    const birth = birthAdjustments[attrName] ?? 0;
+    const birth = getBirthModifier(attrName);
     const final = base + orig + birth;
 
     card.querySelector('[data-role="baseValue"]').textContent = `${base}`;
@@ -568,6 +584,7 @@ function updateAttrCards() {
   }
 
   updatePAHeader();
+  updateBirthTotalUI();
 }
 
 function changeBase(attrName, delta) {
@@ -619,10 +636,10 @@ function resetOrigins() {
   for (const sel of originSelects) sel.value = "";
 }
 
-function resetBirthAdjustments() {
+function resetBirthValues() {
   for (const a of SECONDARY_ATTRS) {
-    birthAdjustments[a] = 0;
-    if (birthInputs[a]) birthInputs[a].value = "0";
+    birthValues[a] = 10;
+    if (birthInputs[a]) birthInputs[a].value = "10";
   }
 }
 
@@ -654,6 +671,10 @@ function renderAll() {
     selectedDestinyIndex = Number(destinySelect.value) || 0;
     renderAll();
   });
+  setPrimariesTo10Btn.addEventListener("click", () => {
+    setPrimaryBasesTo10();
+    renderAll();
+  });  
 
   mountAttrCards();
 
@@ -677,7 +698,7 @@ function renderAll() {
     destinySelect.value = "0";
     resetBases();
     resetOrigins();
-    resetBirthAdjustments();
+    resetBirthValues();
     renderAll();
   });
 
@@ -686,12 +707,51 @@ function renderAll() {
     const input = birthInputs[attrName];
     if (!input) continue;
 
+    // Mise à jour douce du badge pendant la saisie
     input.addEventListener("input", () => {
-      const value = parseInt(input.value) || 0;
-      birthAdjustments[attrName] = value;
+      const value = clampInt(input.value, 10);
+      birthValues[attrName] = value;
+      updateBirthTotalUI();
+      updateAttrCards(); // si tu veux que le "Final" réagisse en live
+    });
+
+    // Sécurise quand on quitte le champ : on force une valeur valide affichée
+    input.addEventListener("change", () => {
+      const value = clampInt(input.value, 10);
+      birthValues[attrName] = value;
+      input.value = String(value);
       renderAll();
     });
   }
 
   renderAll();
 })();
+
+function clampInt(n, fallback = 10) {
+  const v = parseInt(n, 10);
+  return Number.isFinite(v) ? v : fallback;
+}
+
+function getBirthModifier(attrName) {
+  // Modifier = birthValue - 10
+  const v = birthValues[attrName];
+  return (Number.isFinite(v) ? v : 10) - 10;
+}
+
+function computeBirthTotal() {
+  let total = 0;
+  for (const a of SECONDARY_ATTRS) {
+    total += Number.isFinite(birthValues[a]) ? birthValues[a] : 10;
+  }
+  return total;
+}
+
+function updateBirthTotalUI() {
+  if (!birthTotalBadge || !birthTotalValueEl) return;
+
+  const total = computeBirthTotal();
+  birthTotalValueEl.textContent = `${total}`;
+
+  birthTotalBadge.classList.remove("ok", "ko");
+  birthTotalBadge.classList.add(total === 60 ? "ok" : "ko");
+}
