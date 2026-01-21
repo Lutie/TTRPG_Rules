@@ -2,7 +2,7 @@
 
 > 72 mots pour ce domaine
 
-#### 1. Destruction ['Dest'!C3]
+#### 1. Destruction
 *École :* École de Destruction
 
 *Latin :* Ruptura (Rupture), *Arcanique :* Kinrupt (Kin + rupt)
@@ -15,7 +15,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 2. Corrosion ['Dest'!C20]
+#### 2. Corrosion
 *École :* École de Destruction
 
 *Latin :* Rodo (Je ronge), *Arcanique :* Kinrado (Kin + rado)
@@ -28,7 +28,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 3. Lésion ['Dest'!C26]
+#### 3. Lésion
 *École :* École de Destruction
 
 *Latin :* Laedo (Blesser), *Arcanique :* Kralesi (Kra + lesi)
@@ -41,20 +41,20 @@ Génère un effet infligeant une blessure de gravité <span style="color:#ff1493
 
 ---
 
-#### 4. Privation ['Dest'!C39]
+#### 4. Privation
 *École :* École de Destruction
 
 *Latin :* Privo (Enlever), *Arcanique :* Kaprivo (Ka + privo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 2
 
-**Clés :** 🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), 🩸 Impie: Kaprivoun (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), 🔮 Magie: Kaprivoirn (Mana), 🪷 Nature: Kaprivoeil (Chi)
+**Clés :** 🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), 🩸 Impie: Kaprivoun (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), ✡️ Arcane: Kaprivoys (Mana), 🪷 Nature: Kaprivoeil (Chi)
 
 Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place.
 
 ---
 
-#### 5. Déperdition ['Dest'!C44]
+#### 5. Déperdition
 *École :* École de Destruction
 
 *Latin :* Perdo (Je perds), *Arcanique :* Kordeperd (Kor + deperd)
@@ -67,7 +67,7 @@ Génère un effet qui duplique une lésion (physique ou mentale selon la clé), 
 
 ---
 
-#### 6. Aggravation ['Dest'!C45]
+#### 6. Aggravation
 *École :* École de Destruction
 
 *Latin :* Gravis (Lourd), *Arcanique :* Keluagrav (Kel + agrav)
@@ -80,7 +80,7 @@ Produit un effet qui aggrave d'un rang toutes les lésions de la cible, pour un 
 
 ---
 
-#### 7. Mortification ['Dest'!C46]
+#### 7. Mortification
 *École :* École de Destruction
 
 *Latin :* Mors (Mort), *Arcanique :* Kramorti (Kra + morti)
@@ -93,7 +93,7 @@ Produit un effet qui provoque la mort de la cible si ses PV sont inférieurs à 
 
 ---
 
-#### 8. Déstabilisation ['Dest'!C49]
+#### 8. Déstabilisation
 *École :* École de Destruction
 
 *Latin :* Stabilis (Stable), *Arcanique :* Krustabil (Kru + stabil)
@@ -106,7 +106,7 @@ Produit un effet qui force toutes les lésions de la cible sont déstabilisées 
 
 ---
 
-#### 9. Dégradation ['Dest'!C50]
+#### 9. Dégradation
 *École :* École de Destruction
 
 *Latin :* Cadus (Chute), *Arcanique :* Kracadus (Kra + cadus)
@@ -119,7 +119,7 @@ Toutes les lésions de la cible subissent <span style="color:#ff1493; font-weigh
 
 ---
 
-#### 10. Décomposition ['Dest'!C51]
+#### 10. Décomposition
 *École :* École de Destruction
 
 *Latin :* Pono (Mettre, poser), *Arcanique :* Kadepono (Ka + depono)
@@ -132,7 +132,7 @@ Génère un effet qui provoque l'explosion d'un corps mort, ce qui coRespond à 
 
 ---
 
-#### 11. Exhumation ['Dest'!C54]
+#### 11. Exhumation
 *École :* École de Destruction
 
 *Latin :* Humus (Terre), *Arcanique :* Kraxhum (Kra + xhum)
@@ -145,7 +145,7 @@ Génère un effet qui faire apparaitre <span style="color:#ff1493; font-weight:b
 
 ---
 
-#### 12. Suppression ['Dest'!C57]
+#### 12. Suppression
 *École :* École de Destruction
 
 *Latin :* Premo (Presser), *Arcanique :* Krupremo (Kru + premo)
@@ -158,7 +158,7 @@ Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude
 
 ---
 
-#### 13. Exsanguination ['Dest'!C58]
+#### 13. Exsanguination
 *École :* École de Destruction
 
 *Latin :* Sanguis (Sang), *Arcanique :* Krasangui (Kra + sangui)
@@ -171,7 +171,7 @@ Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude
 
 ---
 
-#### 14. Scarification ['Dest'!C59]
+#### 14. Scarification
 *École :* École de Destruction
 
 *Latin :* Scara (Coupure), *Arcanique :* Kascar (Ka + scar)
@@ -184,7 +184,7 @@ Génère un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5
 
 ---
 
-#### 15. Corruption ['Dest'!C64]
+#### 15. Corruption
 *École :* École de Destruction
 
 *Latin :* Rumpo (Briser), *Arcanique :* Korrupt (Kor + rupt)
@@ -197,7 +197,7 @@ Génère un effet infligeant une condition de rupture (DOT), la cible peux réal
 
 ---
 
-#### 16. Déincarnation ['Dest'!C65]
+#### 16. Déincarnation
 *École :* École de Destruction
 
 *Latin :* Caro (Chair), *Arcanique :* Krucarno (Kru + carno)
@@ -210,7 +210,7 @@ Génère un effet qui brise l'âme d'un mort et détruit celle-ci, privant l'ind
 
 ---
 
-#### 17. Extinction ['Dest'!C67]
+#### 17. Extinction
 *École :* École de Destruction
 
 *Latin :* Tingo (Éteindre), *Arcanique :* Katingo (Ka + tingo)
@@ -223,7 +223,7 @@ Produit un effet qui met les PV et PS de la cible à 0, chaque perte est lié à
 
 ---
 
-#### 18. Infection ['Béné'!C19]
+#### 18. Infection
 *École :* École de Bénédiction
 
 *Latin :* Inficio (Souiller), *Arcanique :* Lynfect (Lyn + infect)
@@ -236,7 +236,7 @@ Génère un enchantement positif qui augmente les soins reçus de (au choix au l
 
 ---
 
-#### 19. Mitigation ['Béné'!C60]
+#### 19. Mitigation
 *École :* École de Bénédiction
 
 *Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
@@ -249,7 +249,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 20. Consécration ['Béné'!C93]
+#### 20. Consécration
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -262,7 +262,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 21. Irradiation ['Béné'!C104]
+#### 21. Irradiation
 *École :* École de Bénédiction
 
 *Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
@@ -275,7 +275,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 22. Occultation ['Béné'!C111]
+#### 22. Occultation
 *École :* École de Bénédiction
 
 *Latin :* Occulto (Cacher), *Arcanique :* Luccult (Lu + ccult)
@@ -288,7 +288,7 @@ Génère un enchantement positif qui rend la perception de la cible plus diffici
 
 ---
 
-#### 23. Orientation ['Béné'!C112]
+#### 23. Orientation
 *École :* École de Bénédiction
 
 *Latin :* Oriens (Est, Levant), *Arcanique :* Luxoriens (Lux + oriens)
@@ -301,7 +301,7 @@ Génère un enchantement positif qui améliore la perception de la cible lorsqu'
 
 ---
 
-#### 24. ??? ['Béné'!C125]
+#### 24. ???
 *École :* École de Bénédiction
 
 *Latin :* Veritas (Vérité), *Arcanique :* Lemveri (Lem + veri)
@@ -314,7 +314,7 @@ Génère un enchantement positif qui génère des ressources temporaires lorsqu'
 
 ---
 
-#### 25. Captation ['Béné'!C126]
+#### 25. Captation
 *École :* École de Bénédiction
 
 *Latin :* Capio (Prendre), *Arcanique :* Lircept (Lir + cept)
@@ -327,7 +327,7 @@ Génère un enchantement positif qui génère des ressources temporaires lorsqu'
 
 ---
 
-#### 26. Assèchement ['Malé'!C4]
+#### 26. Assèchement
 *École :* École de Malédiction
 
 *Latin :* Sicco (Sécher), *Arcanique :* Morsicco (Mor + sicco)
@@ -340,7 +340,7 @@ Génère un enchantement négatif qui réduit la récupération d'une ressource 
 
 ---
 
-#### 27. Surenvenimation ['Malé'!C16]
+#### 27. Surenvenimation
 *École :* École de Malédiction
 
 *Latin :* Veneno (Poison), *Arcanique :* Morvene (Mor + vene)
@@ -353,7 +353,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 28. Calcination ['Malé'!C17]
+#### 28. Calcination
 *École :* École de Malédiction
 
 *Latin :* Calco (Fouler, réprimer), *Arcanique :* Mugcalco (Mug + calco)
@@ -366,7 +366,7 @@ Génère un enchantement négatif augmente jusqu'à <span style="color:#ff1493; 
 
 ---
 
-#### 29. Aminoration ['Malé'!C18]
+#### 29. Aminoration
 *École :* École de Malédiction
 
 *Latin :* Minus (Moins), *Arcanique :* Munminus (Mun + minus)
@@ -379,7 +379,7 @@ Génère un enchantement négatif qui réduit d'un total de <span style="color:#
 
 ---
 
-#### 30. Infection ['Malé'!C22]
+#### 30. Infection
 *École :* École de Malédiction
 
 *Latin :* Inficio (Souiller), *Arcanique :* Munficio (Mun + ficio)
@@ -392,7 +392,7 @@ Génère un enchantement négatif qui augmente les dégats reçus de (au choix a
 
 ---
 
-#### 31. Aggravation ['Malé'!C23]
+#### 31. Aggravation
 *École :* École de Malédiction
 
 *Latin :* Gravis (Lourd), *Arcanique :* Malgravi (Mal + gravi)
@@ -405,7 +405,7 @@ Génère un enchantement négatif qui augmente la gravité des blessures à veni
 
 ---
 
-#### 32. Désagrégation ['Malé'!C40]
+#### 32. Désagrégation
 *École :* École de Malédiction
 
 *Latin :* Grex (Troupeau, masse), *Arcanique :* Morgrexa (Mor + grexa)
@@ -418,7 +418,7 @@ Génère un enchantement négatif qui double les pénalités issus des lésions 
 
 ---
 
-#### 33. Défalcation ['Malé'!C41]
+#### 33. Défalcation
 *École :* École de Malédiction
 
 *Latin :* Falx (Faux), *Arcanique :* Mugfalx (Mug + falx)
@@ -431,7 +431,7 @@ Génère un enchantement négatif qui augmente les dégats et l'impact (dont la 
 
 ---
 
-#### 34. Vulnérisation ['Malé'!C58]
+#### 34. Vulnérisation
 *École :* École de Malédiction
 
 *Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo)
@@ -444,7 +444,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 35. Appauvrissement ['Malé'!C68]
+#### 35. Appauvrissement
 *École :* École de Malédiction
 
 *Latin :* Pauper (Pauvre), *Arcanique :* Morpaupe (Mor + paupe)
@@ -457,7 +457,7 @@ Génère un enchantement négatif qui réduit le maximum de toutes les ressource
 
 ---
 
-#### 36. Déprécation ['Malé'!C90]
+#### 36. Déprécation
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -470,7 +470,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 37. Réprobation ['Malé'!C92]
+#### 37. Réprobation
 *École :* École de Malédiction
 
 *Latin :* Reprobus (Réprouvé), *Arcanique :* MoRepro (Mor + repro)
@@ -483,7 +483,7 @@ Génère un enchantement négatif qui duplique les lésions physiques en lésion
 
 ---
 
-#### 38. Dégénération ['Malé'!C93]
+#### 38. Dégénération
 *École :* École de Malédiction
 
 *Latin :* Gigno (Engendrer), *Arcanique :* Mugdegen (Mug + degen)
@@ -496,7 +496,7 @@ Produit un enchantement négatif qui réduit à chaque tour <span style="color:#
 
 ---
 
-#### 39. Condamnation ['Malé'!C115]
+#### 39. Condamnation
 *École :* École de Malédiction
 
 *Latin :* Condemno (Condamner), *Arcanique :* Malconde (Mal + conde)
@@ -509,7 +509,7 @@ Génère un enchantement négatif qui attends la mort de la cible afin de décle
 
 ---
 
-#### 40. Déflagration ['Malé'!C116]
+#### 40. Déflagration
 *École :* École de Malédiction
 
 *Latin :* Flagro (Brûler), *Arcanique :* Morflagro (Mor + flagro)
@@ -522,7 +522,7 @@ Génère un enchantement négatif qui attends la mise hors d'état de la cible (
 
 ---
 
-#### 41. Frustration ['Malé'!C117]
+#### 41. Frustration
 *École :* École de Malédiction
 
 *Latin :* Frustra (En vain), *Arcanique :* Mugfrustr (Mug + frustr)
@@ -535,7 +535,7 @@ Génère un enchantement négatif qui ajoute aux lésions de la cible <span styl
 
 ---
 
-#### 42. Insalubre ['Malé'!C118]
+#### 42. Insalubre
 *École :* École de Malédiction
 
 *Latin :* Salus (Santé), *Arcanique :* Munsalu (Mun + salu)
@@ -548,7 +548,7 @@ Génère un enchantement négatif qui augmente la charge/gravité des toxines, m
 
 ---
 
-#### 43. Désacration ['Malé'!C119]
+#### 43. Désacration
 *École :* École de Malédiction
 
 *Latin :* Sacer (Sacré), *Arcanique :* Malsacer (Mal + sacer)
@@ -561,7 +561,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 44. Accablement ['Malé'!C121]
+#### 44. Accablement
 *École :* École de Malédiction
 
 *Latin :* Premo (Presser), *Arcanique :* Mugprema (Mug + prema)
@@ -574,7 +574,7 @@ Génère un enchantement négatif qui augmente la valeurs actuel de fatigue de <
 
 ---
 
-#### 45. Profanation ['Malé'!C122]
+#### 45. Profanation
 *École :* École de Malédiction
 
 *Latin :* PoLuo (Souiller), *Arcanique :* MunpoLu (Mun + poLu)
@@ -587,7 +587,7 @@ Génère un enchantement négatif qui augmente la valeurs actuel de corruption d
 
 ---
 
-#### 46. Hantation ['Malé'!C123]
+#### 46. Hantation
 *École :* École de Malédiction
 
 *Latin :* Umbra (Ombre), *Arcanique :* Malumbra (Mal + umbra)
@@ -600,7 +600,7 @@ Génère un enchantement qui pousse une entitée éthérée à hanter la cible, 
 
 ---
 
-#### 47. Agonie ['Malé'!C124]
+#### 47. Agonie
 *École :* École de Malédiction
 
 *Latin :* Crux (Souffrance, croix), *Arcanique :* Morcrux (Mor + crux)
@@ -613,7 +613,7 @@ Génère un enchantement qui provoque à la fin du tour une perte de PV équival
 
 ---
 
-#### 48. Mortification ['Malé'!C149]
+#### 48. Mortification
 *École :* École de Malédiction
 
 *Latin :* Mors (Mort), *Arcanique :* Mugmors (Mug + mors)
@@ -626,7 +626,7 @@ Génère un enchantement négatif qui réduit jusqu'à <span style="color:#ff149
 
 ---
 
-#### 49. Crépusculaire ['Invoc'!C13]
+#### 49. Crépusculaire
 *École :* École d'Invocation
 
 *Latin :* Crepusculum (Crépuscule), *Arcanique :* Vorcrep (Vor + crep)
@@ -639,7 +639,7 @@ Génère un enchantement qui invoque une créature de type crépusculaire au cho
 
 ---
 
-#### 50. Obstruction ['Abju'!C29]
+#### 50. Obstruction
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -652,7 +652,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 51. Protestation ['Abju'!C30]
+#### 51. Protestation
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -661,11 +661,11 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 **Clés :** 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
 
 ---
 
-#### 52. Neutralisation ['Abju'!C31]
+#### 52. Neutralisation
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -674,11 +674,11 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 **Clés :** 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
 
 ---
 
-#### 53. Interrogation ['Divi'!C11]
+#### 53. Interrogation
 *École :* École de Divination
 
 *Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
@@ -691,7 +691,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 54. Détection ['Divi'!C18]
+#### 54. Détection
 *École :* École de Divination
 
 *Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
@@ -704,7 +704,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 55. Signalement ['Divi'!C19]
+#### 55. Signalement
 *École :* École de Divination
 
 *Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
@@ -717,7 +717,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 56. Nécrolocation ['Divi'!C32]
+#### 56. Nécrolocation
 *École :* École de Divination
 
 *Latin :* Necro (Mort) + Locus (Lieu), *Arcanique :* Dornecro (Dor + necro)
@@ -730,7 +730,7 @@ Génère un effet de perception des morts (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 57. Oblitération ['Evoc'!C17]
+#### 57. Oblitération
 *École :* École d'Évocation
 
 *Latin :* Obtero (Détruire), *Arcanique :* Elooblit (Elo + oblit)
@@ -743,7 +743,7 @@ Génère un effet qui détruit l'âme errante d'un défunt dont les points de ps
 
 ---
 
-#### 58. Nécrotisation ['Evoc'!C45]
+#### 58. Nécrotisation
 *École :* École d'Évocation
 
 *Latin :* Necros (Mort), *Arcanique :* Evnecro (Ev + necro)
@@ -756,7 +756,7 @@ Génère un enchantement qui a pour charge maximum le total des PV et PS perdus,
 
 ---
 
-#### 59. Exanimisation ['Evoc'!C46]
+#### 59. Exanimisation
 *École :* École d'Évocation
 
 *Latin :* Anima (Souffle, vie), *Arcanique :* Enanima (En + anima)
@@ -769,7 +769,7 @@ Génère un enchantement qui fait passer la cible pour morte, si un individu se 
 
 ---
 
-#### 60. Edification ['Conj'!C11]
+#### 60. Edification
 *École :* École de Conjuration
 
 *Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi)
@@ -782,7 +782,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 61. Revêtement ['Conj'!C12]
+#### 61. Revêtement
 *École :* École de Conjuration
 
 *Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest)
@@ -795,7 +795,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 62. Fers ['Conj'!C13]
+#### 62. Fers
 *École :* École de Conjuration
 
 *Latin :* Ferrum (Fer), *Arcanique :* Colfer (Col + fer)
@@ -808,7 +808,7 @@ Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui e
 
 ---
 
-#### 63. Incarcération ['Conj'!C14]
+#### 63. Incarcération
 *École :* École de Conjuration
 
 *Latin :* Carcer (Prison), *Arcanique :* Carcarce (Car + carce)
@@ -821,7 +821,7 @@ Génère un enchantement (sous formes de cage tangibles ou intangibles) qui empr
 
 ---
 
-#### 64. Sarcophagie ['Conj'!C15]
+#### 64. Sarcophagie
 *École :* École de Conjuration
 
 *Latin :* Sarcophagus (Grec), *Arcanique :* Consar (Con + sar)
@@ -834,7 +834,7 @@ Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui 
 
 ---
 
-#### 65. Spiritisme ['Conj'!C20]
+#### 65. Spiritisme
 *École :* École de Conjuration
 
 *Latin :* Spiritus (Esprit), *Arcanique :* Censpiri (Cen + spiri)
@@ -847,7 +847,7 @@ Génère un enchantement qui met en contact le lanceur de sort et l'âme d'un ê
 
 ---
 
-#### 66. Pestilence ['Conj'!C22]
+#### 66. Pestilence
 *École :* École de Conjuration
 
 *Latin :* Pestis (Peste), *Arcanique :* Carpesti (Car + pesti)
@@ -860,7 +860,7 @@ Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un indiv
 
 ---
 
-#### 67. Hantise ['Conj'!C23]
+#### 67. Hantise
 *École :* École de Conjuration
 
 *Latin :* Umbra (Ombre), *Arcanique :* Conumbra (Con + umbra)
@@ -873,7 +873,7 @@ Génère un enchantement de lieu qui prend la forme d'une hantise, tant qu'un in
 
 ---
 
-#### 68. Armement élémentaire ['Conj'!C26]
+#### 68. Armement élémentaire
 *École :* École de Conjuration
 
 *Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma)
@@ -886,7 +886,7 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 69. Armure élémentaire ['Conj'!C27]
+#### 69. Armure élémentaire
 *École :* École de Conjuration
 
 *Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric)
@@ -899,7 +899,7 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 70. Réanimation ['Conj'!C58]
+#### 70. Réanimation
 *École :* École de Conjuration
 
 *Latin :* Anima (Âme), *Arcanique :* Caranima (Car + anima)
@@ -912,7 +912,7 @@ Sur une cible morte - Génère un enchantement qui force la cible à reprendre v
 
 ---
 
-#### 71. Infection ['Alté'!C12]
+#### 71. Infection
 *École :* École d'Altération
 
 *Latin :* Inficio (Souiller), *Arcanique :* Arinfic (Ar + infic)
@@ -925,7 +925,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 72. Ponction ['Alté'!C15]
+#### 72. Ponction
 *École :* École d'Altération
 
 *Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung)

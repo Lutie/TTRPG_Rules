@@ -685,7 +685,7 @@
     "difficulty": "4",
     "drain": "2",
     "description": "Produit un effet infligeant [Magnitude]/2 de perte en ressource de type [clé], les ressources temporaires (pas l'initiative) sont perdus au rythme de [Magnitude] à la place.",
-    "keys": "🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), 🩸 Impie: Kaprivoun (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), 🔮 Magie: Kaprivoirn (Mana), 🪷 Nature: Kaprivoeil (Chi)",
+    "keys": "🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), 🩸 Impie: Kaprivoun (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), ✡️ Arcane: Kaprivoys (Mana), 🪷 Nature: Kaprivoeil (Chi)",
     "domains": [
       "🔥",
       "❄️",
@@ -698,7 +698,7 @@
       "⚕️",
       "🧠",
       "⚜️",
-      "🔮",
+      "✡️",
       "🪷",
       "🛡️"
     ],
@@ -1249,8 +1249,8 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Produit un soin de [Magnitude/2] visant une ressource qui dépends de la [clé], génère la moitié du soin effectif en fatigue.",
-    "keys": "❤️ Vie: Restaura ir (PV), 🧩 Mental: Restauraend (PS), 🌀 Chaos: Restauraix (PK), ⚕️ Corps: Restauraen (PC), 🧠 Esprit: Restaurays (PC), 🔮 Magie: Restaurairn (PM), 🪷 Nature: Restauraeiln (PE/fatigue)",
+    "description": "Produit un soin de [Magnitude/2] visant une ressource qui dépends de la [clé], ce soin n'est pas dispensé des règles des soins naturels et de la fatigue (voir guérison dans les règles de base).",
+    "keys": "❤️ Vie: Restaurair (PV), 🧩 Mental: Restauraend (PS), 🌀 Chaos: Restauraix (PK), ⚕️ Corps: Restauraen (PC), 🧠 Esprit: Restaurays (PC), 🔮 Magie: Restaurairn (PM), 🪷 Nature: Restauraeiln (PC/PE/fatigue)",
     "domains": [
       "🌀",
       "❤️",
@@ -1273,7 +1273,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Produit un soin de [Magnitude/2] pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type coRespond à la [clé] utilisée).",
+    "description": "Produit un soin de [Magnitude/2] pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la [clé] utilisée).",
     "keys": "Toutes les clés permettant une invocation",
     "domains": [],
     "cell_ref": "'Rest'!C4"
@@ -1287,9 +1287,9 @@
     "vulgar": "Revitalisation",
     "word_type": "Pouvoir",
     "target_type": "Cible",
-    "difficulty": "4",
-    "drain": "4",
-    "description": "Produit un soin de [Magnitude] visant l'endurance (PE), génère le quart en fatigue.",
+    "difficulty": "2",
+    "drain": "2",
+    "description": "Produit un soin de l'endurance (PE) équivalant à la moitié des PE manquants, avec pour maximum [Magnitude], ce soin est dispensé des règles des soins naturels et de la fatigue.",
     "keys": "🪷 Nature: Ryuvigoeiln",
     "domains": [
       "🪷"
@@ -1307,7 +1307,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Produit un soin de [Magnitude/2] visant l'endurance (PE), sans fatigue.",
+    "description": "Produit un soin de [Magnitude/2] visant l'endurance (PE), ce soin est dispensé des règles des soins naturels et de la fatigue.",
     "keys": "🪷 Nature: Rhoroboreiln",
     "domains": [
       "🪷"
@@ -1325,7 +1325,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Produit un soin qui convertis [Magnitude/2] chi (PC) en [Magnitude] endurance (PE).",
+    "description": "Produit un soin qui convertis [Magnitude/2] chi (PC) en [Magnitude] endurance (PE), ce soin est dispensé des règles des soins naturels et de la fatigue.",
     "keys": "🪷 Nature: Refundeiln",
     "domains": [
       "🪷"
@@ -1343,7 +1343,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Produit un soin de [Magnitude] de n'importe quelle ressource, à la fin de la scène ces ressources sont immédiatement perdus (ce qui peux entrainer la mort ou le passage en négatif d'une ressource).",
+    "description": "Produit un soin de [Magnitude] de n'importe quelle ressource, à la fin de la scène ces ressources sont immédiatement perdus (ce qui peux entrainer la mort ou le passage en négatif d'une ressource), ce soin est dispensé des règles des soins naturels et de la fatigue.",
     "keys": "🎭 Illusion: Relmagnusin",
     "domains": [
       "🎭"
@@ -1911,9 +1911,9 @@
     "difficulty": "2",
     "drain": "2",
     "description": "Génère un enchantement positif qui permet à la cible de voir au travers des murs sur une distance de [Magnitude/5].",
-    "keys": "🔮 Magie: Lynvisuirn",
+    "keys": "👁️ Vision: Lynvisueth",
     "domains": [
-      "🔮"
+      "👁️"
     ],
     "cell_ref": "'Béné'!C27"
   },
@@ -2019,7 +2019,7 @@
     "difficulty": "2",
     "drain": "2",
     "description": "Génère un enchantement positif qui octroie à la cible un total de [Magnitude/10] action tactique par tours, hydraté équitablement sur les 3 premiers rounds.",
-    "keys": "💧 Eau: Lemordo yn",
+    "keys": "💧 Eau: Lemordoyn",
     "domains": [
       "💧"
     ],
@@ -2036,7 +2036,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Génère un enchantement positif qui octroie à la cible un total de [Magnitude/10] action d'arcanes ou relatifs à la magie par tours, hydraté équitablement sur les 3 premiers rounds.",
+    "description": "Génère un enchantement positif qui octroie à la cible un total de [Magnitude/10] action d'arcanes ou relatifs à la magie par tours, hydratés équitablement sur les 2 premiers rounds.",
     "keys": "🔮 Magie: Lircanairn",
     "domains": [
       "🔮"
@@ -5555,7 +5555,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "L'enchantement inclus dans ce sort inflige 1 points de corruption en plus.",
+    "description": "Génère un enchantement négatif qui augmente de [Magnitude/7] la corruption générée par chaque enchantements actifs sur la cible.",
     "keys": "🔮 Magie: Maltaminirn",
     "domains": [
       "🔮"
@@ -7795,6 +7795,42 @@
   },
   {
     "id": 419,
+    "school_code": "Malé",
+    "school_label": "École de Malédiction",
+    "latin": "???",
+    "arcane": "???",
+    "vulgar": "Statuequo",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "description": "Génère un enchantement négatif qui réduit tous les gains de ressource temporaire de [Magnitude/2].",
+    "keys": "🔮 Magie",
+    "domains": [
+      "🔮"
+    ],
+    "cell_ref": "'Malé'!C172"
+  },
+  {
+    "id": 420,
+    "school_code": "Malé",
+    "school_label": "École de Malédiction",
+    "latin": "???",
+    "arcane": "???",
+    "vulgar": "Démagnification",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "description": "Génère un enchantement négatif qui réduit la puissance des sorts lancés par la cible de [Magnitude/3], si le lanceur de sort le souhaite il peux conditionner ce bonus à une école ou un domaine précis, le bonus est alors de [Magnitude/2] mais la difficulté et le drain de ce sort sont respectivement augmentés de 2 et 4.",
+    "keys": "🔮 Magie",
+    "domains": [
+      "🔮"
+    ],
+    "cell_ref": "'Malé'!C173"
+  },
+  {
+    "id": 421,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Elementum (Élément)",
@@ -7824,7 +7860,7 @@
     "cell_ref": "'Invoc'!C3"
   },
   {
-    "id": 420,
+    "id": 422,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Ignis (Feu)",
@@ -7842,7 +7878,7 @@
     "cell_ref": "'Invoc'!C4"
   },
   {
-    "id": 421,
+    "id": 423,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Terra (Terre)",
@@ -7860,7 +7896,7 @@
     "cell_ref": "'Invoc'!C5"
   },
   {
-    "id": 422,
+    "id": 424,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Spiritus (Souffle)",
@@ -7878,7 +7914,7 @@
     "cell_ref": "'Invoc'!C6"
   },
   {
-    "id": 423,
+    "id": 425,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Signum (Signe)",
@@ -7896,7 +7932,7 @@
     "cell_ref": "'Invoc'!C7"
   },
   {
-    "id": 424,
+    "id": 426,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Arcanum (Secret)",
@@ -7914,7 +7950,7 @@
     "cell_ref": "'Invoc'!C8"
   },
   {
-    "id": 425,
+    "id": 427,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Anima (Âme)",
@@ -7932,7 +7968,7 @@
     "cell_ref": "'Invoc'!C9"
   },
   {
-    "id": 426,
+    "id": 428,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Appareo (Apparaître)",
@@ -7950,7 +7986,7 @@
     "cell_ref": "'Invoc'!C10"
   },
   {
-    "id": 427,
+    "id": 429,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Fera (Bête sauvage)",
@@ -7968,7 +8004,7 @@
     "cell_ref": "'Invoc'!C11"
   },
   {
-    "id": 428,
+    "id": 430,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Herba (Herbe, plante)",
@@ -7986,7 +8022,7 @@
     "cell_ref": "'Invoc'!C12"
   },
   {
-    "id": 429,
+    "id": 431,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Crepusculum (Crépuscule)",
@@ -8004,7 +8040,7 @@
     "cell_ref": "'Invoc'!C13"
   },
   {
-    "id": 430,
+    "id": 432,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Illusio (Moquerie)",
@@ -8022,7 +8058,7 @@
     "cell_ref": "'Invoc'!C14"
   },
   {
-    "id": 431,
+    "id": 433,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Liber (Livre)",
@@ -8040,7 +8076,7 @@
     "cell_ref": "'Invoc'!C15"
   },
   {
-    "id": 432,
+    "id": 434,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Vinculum (Lien, chaîne)",
@@ -8064,7 +8100,7 @@
     "cell_ref": "'Invoc'!C16"
   },
   {
-    "id": 433,
+    "id": 435,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Opus (Œuvre, besoin)",
@@ -8088,7 +8124,7 @@
     "cell_ref": "'Invoc'!C17"
   },
   {
-    "id": 434,
+    "id": 436,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Tempus (Temps)",
@@ -8106,7 +8142,7 @@
     "cell_ref": "'Invoc'!C18"
   },
   {
-    "id": 435,
+    "id": 437,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Sensus (Sens)",
@@ -8124,7 +8160,7 @@
     "cell_ref": "'Invoc'!C19"
   },
   {
-    "id": 436,
+    "id": 438,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Consulo (Consulter)",
@@ -8142,7 +8178,7 @@
     "cell_ref": "'Invoc'!C20"
   },
   {
-    "id": 437,
+    "id": 439,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Fundo (Verser)",
@@ -8160,7 +8196,7 @@
     "cell_ref": "'Invoc'!C21"
   },
   {
-    "id": 438,
+    "id": 440,
     "school_code": "Invoc",
     "school_label": "École d'Invocation",
     "latin": "Pingo (Peindre, teindre)",
@@ -8178,7 +8214,7 @@
     "cell_ref": "'Invoc'!C22"
   },
   {
-    "id": 439,
+    "id": 441,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Imbueo (Imprégner)",
@@ -8196,7 +8232,7 @@
     "cell_ref": "'Abju'!C3"
   },
   {
-    "id": 440,
+    "id": 442,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Deverto (Détourner)",
@@ -8216,7 +8252,7 @@
     "cell_ref": "'Abju'!C4"
   },
   {
-    "id": 441,
+    "id": 443,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Minuo (Diminuer)",
@@ -8234,7 +8270,7 @@
     "cell_ref": "'Abju'!C5"
   },
   {
-    "id": 442,
+    "id": 444,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Fallo (Tromper)",
@@ -8252,7 +8288,7 @@
     "cell_ref": "'Abju'!C6"
   },
   {
-    "id": 443,
+    "id": 445,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Premo (Presser, supprimer)",
@@ -8270,7 +8306,7 @@
     "cell_ref": "'Abju'!C7"
   },
   {
-    "id": 444,
+    "id": 446,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Vitio (Corrompre)",
@@ -8288,7 +8324,7 @@
     "cell_ref": "'Abju'!C8"
   },
   {
-    "id": 445,
+    "id": 447,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Muto (Changer)",
@@ -8306,7 +8342,7 @@
     "cell_ref": "'Abju'!C9"
   },
   {
-    "id": 446,
+    "id": 448,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Confisco (Confisquer)",
@@ -8324,7 +8360,7 @@
     "cell_ref": "'Abju'!C10"
   },
   {
-    "id": 447,
+    "id": 449,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Locus (Lieu)",
@@ -8342,7 +8378,7 @@
     "cell_ref": "'Abju'!C11"
   },
   {
-    "id": 448,
+    "id": 450,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Casso (Détruire, annuler)",
@@ -8360,7 +8396,7 @@
     "cell_ref": "'Abju'!C12"
   },
   {
-    "id": 449,
+    "id": 451,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Ago (Agir)",
@@ -8378,7 +8414,7 @@
     "cell_ref": "'Abju'!C13"
   },
   {
-    "id": 450,
+    "id": 452,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Tego (Protéger, couvrir)",
@@ -8396,7 +8432,7 @@
     "cell_ref": "'Abju'!C14"
   },
   {
-    "id": 451,
+    "id": 453,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Servo (Sauver, garder)",
@@ -8414,7 +8450,7 @@
     "cell_ref": "'Abju'!C15"
   },
   {
-    "id": 452,
+    "id": 454,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Sorbeo (Boire, aspirer)",
@@ -8432,7 +8468,7 @@
     "cell_ref": "'Abju'!C16"
   },
   {
-    "id": 453,
+    "id": 455,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Impedio (Empêcher)",
@@ -8450,7 +8486,7 @@
     "cell_ref": "'Abju'!C17"
   },
   {
-    "id": 454,
+    "id": 456,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Solus (Seul)",
@@ -8468,7 +8504,7 @@
     "cell_ref": "'Abju'!C18"
   },
   {
-    "id": 455,
+    "id": 457,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Caveo (Prendre garde)",
@@ -8486,7 +8522,7 @@
     "cell_ref": "'Abju'!C19"
   },
   {
-    "id": 456,
+    "id": 458,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Tingo (Éteindre)",
@@ -8504,7 +8540,7 @@
     "cell_ref": "'Abju'!C20"
   },
   {
-    "id": 457,
+    "id": 459,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Stringo (ResseRer)",
@@ -8522,7 +8558,7 @@
     "cell_ref": "'Abju'!C21"
   },
   {
-    "id": 458,
+    "id": 460,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Veto (J'interdis)",
@@ -8540,7 +8576,7 @@
     "cell_ref": "'Abju'!C22"
   },
   {
-    "id": 459,
+    "id": 461,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Contra (Contre)",
@@ -8550,7 +8586,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "ContrecaRe le sort ciblé dont le niveau est égal ou inférieur à [Magnitude/5], les ressources engagées sont perdues.",
+    "description": "Contrecarre le sort ciblé dont le niveau est égal ou inférieur à [Magnitude/5], les ressources engagées sont perdues.",
     "keys": "✡️ Arcane: Bricontrays",
     "domains": [
       "✡️"
@@ -8558,7 +8594,7 @@
     "cell_ref": "'Abju'!C23"
   },
   {
-    "id": 460,
+    "id": 462,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Habeo (Tenir)",
@@ -8568,7 +8604,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "ContrecaRe le pouvoir surnaturel (dons etc) ciblé dont la valeurs (chi dépensés, etc) est égal ou inférieur à [Magnitude/5], les ressources engagées sont perdues.",
+    "description": "Contrecarre le pouvoir surnaturel (dons etc) ciblé dont la valeurs (chi dépensés, etc) est égal ou inférieur à [Magnitude/5], les ressources engagées sont perdues.",
     "keys": "✡️ Arcane: Belhabeys",
     "domains": [
       "✡️"
@@ -8576,7 +8612,7 @@
     "cell_ref": "'Abju'!C24"
   },
   {
-    "id": 461,
+    "id": 463,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Pono (Placer)",
@@ -8584,9 +8620,9 @@
     "vulgar": "Opposition",
     "word_type": "Interruption",
     "target_type": "Cible",
-    "difficulty": "2",
-    "drain": "2",
-    "description": "ContrecaRe le sort ciblé à moins que le lanceur de sort ne dépasse [Magnitude] PM (temporaires ou non).",
+    "difficulty": "0",
+    "drain": "0",
+    "description": "Contrecarre le sort ciblé à moins que le lanceur de sort ne dépasse [Magnitude] PM (temporaires ou non), le lanceur de sort doit dépenser les PM qu'il puisse ou non dépasser cette valeur.",
     "keys": "✡️ Arcane: Basoppoys",
     "domains": [
       "✡️"
@@ -8594,7 +8630,7 @@
     "cell_ref": "'Abju'!C25"
   },
   {
-    "id": 462,
+    "id": 464,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Testor (Témoigner)",
@@ -8612,7 +8648,7 @@
     "cell_ref": "'Abju'!C26"
   },
   {
-    "id": 463,
+    "id": 465,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Extraho (Tirer hors de)",
@@ -8630,7 +8666,7 @@
     "cell_ref": "'Abju'!C27"
   },
   {
-    "id": 464,
+    "id": 466,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Arc (Arcer)",
@@ -8648,7 +8684,7 @@
     "cell_ref": "'Abju'!C28"
   },
   {
-    "id": 465,
+    "id": 467,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Obstruo (Boucher)",
@@ -8695,7 +8731,7 @@
     "cell_ref": "'Abju'!C29"
   },
   {
-    "id": 466,
+    "id": 468,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Testor (Témoigner)",
@@ -8705,7 +8741,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à [Magnitude/4], les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de [Magnitude/2].",
+    "description": "Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à [Magnitude/4], les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de [Magnitude/2].",
     "keys": "🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh",
     "domains": [
       "🔥",
@@ -8742,7 +8778,7 @@
     "cell_ref": "'Abju'!C30"
   },
   {
-    "id": 467,
+    "id": 469,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Neuter (Ni l'un ni l'autre)",
@@ -8752,7 +8788,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à [Magnitude/4], les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de [Magnitude/2]).",
+    "description": "Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à [Magnitude/4], les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de [Magnitude/2]).",
     "keys": "🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh",
     "domains": [
       "🔥",
@@ -8789,7 +8825,7 @@
     "cell_ref": "'Abju'!C31"
   },
   {
-    "id": 468,
+    "id": 470,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Reproba (Désapprouver)",
@@ -8807,7 +8843,7 @@
     "cell_ref": "'Abju'!C32"
   },
   {
-    "id": 469,
+    "id": 471,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Flecto (Courber)",
@@ -8825,7 +8861,7 @@
     "cell_ref": "'Abju'!C33"
   },
   {
-    "id": 470,
+    "id": 472,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Dirigo (Diriger)",
@@ -8843,7 +8879,7 @@
     "cell_ref": "'Abju'!C34"
   },
   {
-    "id": 471,
+    "id": 473,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Nego (Je nie)",
@@ -8861,12 +8897,12 @@
     "cell_ref": "'Abju'!C35"
   },
   {
-    "id": 472,
+    "id": 474,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Pello (Pousser)",
     "arcane": "Borpello (Bor + pello)",
-    "vulgar": "Répulsion",
+    "vulgar": "Génère un enchantement qui renvoie les sorts non critiques reçus aux lanceur de sort, la magnitude du sort renvoyé est limité à [Magnitude/2] (le sort est renvoyé quoi qu'il arrive, c'est sa puissance qui réduite), chaque fois qu'un sort est renvoyé cet enchantement subit une décharge, ne fonctionne pas sur les sorts de zone",
     "word_type": "Pouvoir",
     "target_type": "Cible",
     "difficulty": "2",
@@ -8879,7 +8915,7 @@
     "cell_ref": "'Abju'!C36"
   },
   {
-    "id": 473,
+    "id": 475,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Traho (Tirer)",
@@ -8897,7 +8933,7 @@
     "cell_ref": "'Abju'!C37"
   },
   {
-    "id": 474,
+    "id": 476,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Expono (Exposer)",
@@ -8915,7 +8951,7 @@
     "cell_ref": "'Abju'!C38"
   },
   {
-    "id": 475,
+    "id": 477,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Suadeo (Conseiller)",
@@ -8933,7 +8969,7 @@
     "cell_ref": "'Abju'!C39"
   },
   {
-    "id": 476,
+    "id": 478,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Frango (Briser)",
@@ -8951,7 +8987,7 @@
     "cell_ref": "'Abju'!C40"
   },
   {
-    "id": 477,
+    "id": 479,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Pono (Placer)",
@@ -8969,7 +9005,7 @@
     "cell_ref": "'Abju'!C41"
   },
   {
-    "id": 478,
+    "id": 480,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Pono (Placer)",
@@ -8987,7 +9023,7 @@
     "cell_ref": "'Abju'!C42"
   },
   {
-    "id": 479,
+    "id": 481,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Curvo (Courber)",
@@ -9005,7 +9041,7 @@
     "cell_ref": "'Abju'!C43"
   },
   {
-    "id": 480,
+    "id": 482,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Intra (Dedans)",
@@ -9023,7 +9059,7 @@
     "cell_ref": "'Abju'!C44"
   },
   {
-    "id": 481,
+    "id": 483,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Disipo (Disperser)",
@@ -9041,7 +9077,7 @@
     "cell_ref": "'Abju'!C45"
   },
   {
-    "id": 482,
+    "id": 484,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Fortis (Fort)",
@@ -9059,7 +9095,7 @@
     "cell_ref": "'Abju'!C46"
   },
   {
-    "id": 483,
+    "id": 485,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Solidus (Solide)",
@@ -9077,7 +9113,7 @@
     "cell_ref": "'Abju'!C47"
   },
   {
-    "id": 484,
+    "id": 486,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Frango (Briser)",
@@ -9095,7 +9131,7 @@
     "cell_ref": "'Abju'!C48"
   },
   {
-    "id": 485,
+    "id": 487,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Occulto (Cacher)",
@@ -9113,7 +9149,7 @@
     "cell_ref": "'Abju'!C49"
   },
   {
-    "id": 486,
+    "id": 488,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Simplex (Simple)",
@@ -9131,7 +9167,7 @@
     "cell_ref": "'Abju'!C50"
   },
   {
-    "id": 487,
+    "id": 489,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Littera (Lettre, signe)",
@@ -9149,7 +9185,7 @@
     "cell_ref": "'Abju'!C51"
   },
   {
-    "id": 488,
+    "id": 490,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Tardo (Retarder)",
@@ -9167,7 +9203,7 @@
     "cell_ref": "'Abju'!C52"
   },
   {
-    "id": 489,
+    "id": 491,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Haesito (Hésiter)",
@@ -9185,7 +9221,7 @@
     "cell_ref": "'Abju'!C53"
   },
   {
-    "id": 490,
+    "id": 492,
     "school_code": "Abju",
     "school_label": "École d'Abjuration",
     "latin": "Turbo (Troubler)",
@@ -9203,7 +9239,7 @@
     "cell_ref": "'Abju'!C54"
   },
   {
-    "id": 491,
+    "id": 493,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Retro (Arrière) + Nosco (Connaître)",
@@ -9221,7 +9257,7 @@
     "cell_ref": "'Divi'!C3"
   },
   {
-    "id": 492,
+    "id": 494,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Prae (Avant) + Nosco (Connaître)",
@@ -9239,7 +9275,7 @@
     "cell_ref": "'Divi'!C4"
   },
   {
-    "id": 493,
+    "id": 495,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Memoria (Mémoire)",
@@ -9257,7 +9293,7 @@
     "cell_ref": "'Divi'!C5"
   },
   {
-    "id": 494,
+    "id": 496,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Scrutator (Examiner)",
@@ -9275,7 +9311,7 @@
     "cell_ref": "'Divi'!C6"
   },
   {
-    "id": 495,
+    "id": 497,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Idem (Le même)",
@@ -9293,7 +9329,7 @@
     "cell_ref": "'Divi'!C7"
   },
   {
-    "id": 496,
+    "id": 498,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Firmo (Affirmer)",
@@ -9311,7 +9347,7 @@
     "cell_ref": "'Divi'!C8"
   },
   {
-    "id": 497,
+    "id": 499,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Pono (Poser)",
@@ -9329,7 +9365,7 @@
     "cell_ref": "'Divi'!C9"
   },
   {
-    "id": 498,
+    "id": 500,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Oraculum (Oracle)",
@@ -9347,7 +9383,7 @@
     "cell_ref": "'Divi'!C10"
   },
   {
-    "id": 499,
+    "id": 501,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Rogo (Questionner)",
@@ -9385,7 +9421,7 @@
     "cell_ref": "'Divi'!C11"
   },
   {
-    "id": 500,
+    "id": 502,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Lux (Lumière)",
@@ -9403,7 +9439,7 @@
     "cell_ref": "'Divi'!C12"
   },
   {
-    "id": 501,
+    "id": 503,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Trudo (Pousser)",
@@ -9421,7 +9457,7 @@
     "cell_ref": "'Divi'!C13"
   },
   {
-    "id": 502,
+    "id": 504,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Locus (Lieu)",
@@ -9439,7 +9475,7 @@
     "cell_ref": "'Divi'!C14"
   },
   {
-    "id": 503,
+    "id": 505,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Palus (Pieu)",
@@ -9457,7 +9493,7 @@
     "cell_ref": "'Divi'!C15"
   },
   {
-    "id": 504,
+    "id": 506,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Video (Voir)",
@@ -9475,7 +9511,7 @@
     "cell_ref": "'Divi'!C16"
   },
   {
-    "id": 505,
+    "id": 507,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Visio (Vision)",
@@ -9493,7 +9529,7 @@
     "cell_ref": "'Divi'!C17"
   },
   {
-    "id": 506,
+    "id": 508,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Tego (Couvrir)",
@@ -9531,7 +9567,7 @@
     "cell_ref": "'Divi'!C18"
   },
   {
-    "id": 507,
+    "id": 509,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Signum (Signe)",
@@ -9569,7 +9605,7 @@
     "cell_ref": "'Divi'!C19"
   },
   {
-    "id": 508,
+    "id": 510,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Erudio (Instruire)",
@@ -9587,7 +9623,7 @@
     "cell_ref": "'Divi'!C20"
   },
   {
-    "id": 509,
+    "id": 511,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Cogito (Penser)",
@@ -9605,7 +9641,7 @@
     "cell_ref": "'Divi'!C21"
   },
   {
-    "id": 510,
+    "id": 512,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Video (Voir)",
@@ -9623,7 +9659,7 @@
     "cell_ref": "'Divi'!C22"
   },
   {
-    "id": 511,
+    "id": 513,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Magnus (Grand)",
@@ -9641,7 +9677,7 @@
     "cell_ref": "'Divi'!C23"
   },
   {
-    "id": 512,
+    "id": 514,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Longus (Long)",
@@ -9659,7 +9695,7 @@
     "cell_ref": "'Divi'!C24"
   },
   {
-    "id": 513,
+    "id": 515,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Tueor (Regarder)",
@@ -9678,7 +9714,7 @@
     "cell_ref": "'Divi'!C25"
   },
   {
-    "id": 514,
+    "id": 516,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Celo (Cacher)",
@@ -9697,7 +9733,7 @@
     "cell_ref": "'Divi'!C26"
   },
   {
-    "id": 515,
+    "id": 517,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Velum (Voile)",
@@ -9716,7 +9752,7 @@
     "cell_ref": "'Divi'!C27"
   },
   {
-    "id": 516,
+    "id": 518,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Aestimo (Estimer)",
@@ -9734,7 +9770,7 @@
     "cell_ref": "'Divi'!C28"
   },
   {
-    "id": 517,
+    "id": 519,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Ordo (Ordre)",
@@ -9752,7 +9788,7 @@
     "cell_ref": "'Divi'!C29"
   },
   {
-    "id": 518,
+    "id": 520,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Anima (Âme)",
@@ -9771,7 +9807,7 @@
     "cell_ref": "'Divi'!C30"
   },
   {
-    "id": 519,
+    "id": 521,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Vestigium (Trace)",
@@ -9790,7 +9826,7 @@
     "cell_ref": "'Divi'!C31"
   },
   {
-    "id": 520,
+    "id": 522,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Necro (Mort) + Locus (Lieu)",
@@ -9809,7 +9845,7 @@
     "cell_ref": "'Divi'!C32"
   },
   {
-    "id": 521,
+    "id": 523,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Arcanum (Secret)",
@@ -9828,7 +9864,7 @@
     "cell_ref": "'Divi'!C33"
   },
   {
-    "id": 522,
+    "id": 524,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Pathos (Sentiment)",
@@ -9847,7 +9883,7 @@
     "cell_ref": "'Divi'!C34"
   },
   {
-    "id": 523,
+    "id": 525,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Retro (Arrière) + Visio (Vision)",
@@ -9866,7 +9902,7 @@
     "cell_ref": "'Divi'!C35"
   },
   {
-    "id": 524,
+    "id": 526,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Figuro (Former)",
@@ -9885,7 +9921,7 @@
     "cell_ref": "'Divi'!C36"
   },
   {
-    "id": 525,
+    "id": 527,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Capio (Prendre)",
@@ -9903,7 +9939,7 @@
     "cell_ref": "'Divi'!C37"
   },
   {
-    "id": 526,
+    "id": 528,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Narro (Raconter)",
@@ -9921,7 +9957,7 @@
     "cell_ref": "'Divi'!C38"
   },
   {
-    "id": 527,
+    "id": 529,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Specio (Regarder)",
@@ -9939,7 +9975,7 @@
     "cell_ref": "'Divi'!C39"
   },
   {
-    "id": 528,
+    "id": 530,
     "school_code": "Divi",
     "school_label": "École de Divination",
     "latin": "Quaero (Chercher)",
@@ -9957,7 +9993,7 @@
     "cell_ref": "'Divi'!C40"
   },
   {
-    "id": 529,
+    "id": 531,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Vibro (Agiter, secouer)",
@@ -9981,7 +10017,7 @@
     "cell_ref": "'Evoc'!C3"
   },
   {
-    "id": 530,
+    "id": 532,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Corruptio (Briser, détruire)",
@@ -9999,7 +10035,7 @@
     "cell_ref": "'Evoc'!C4"
   },
   {
-    "id": 531,
+    "id": 533,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Energia (Force)",
@@ -10017,7 +10053,7 @@
     "cell_ref": "'Evoc'!C5"
   },
   {
-    "id": 532,
+    "id": 534,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Traho (Tirer)",
@@ -10035,7 +10071,7 @@
     "cell_ref": "'Evoc'!C6"
   },
   {
-    "id": 533,
+    "id": 535,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Pello (Pousser, chasser)",
@@ -10053,7 +10089,7 @@
     "cell_ref": "'Evoc'!C7"
   },
   {
-    "id": 534,
+    "id": 536,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Leves (Léger)",
@@ -10071,7 +10107,7 @@
     "cell_ref": "'Evoc'!C8"
   },
   {
-    "id": 535,
+    "id": 537,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Precipito (Lancer en avant)",
@@ -10089,7 +10125,7 @@
     "cell_ref": "'Evoc'!C9"
   },
   {
-    "id": 536,
+    "id": 538,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Pello (Pousser en avant)",
@@ -10107,7 +10143,7 @@
     "cell_ref": "'Evoc'!C10"
   },
   {
-    "id": 537,
+    "id": 539,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Traho (Tirer)",
@@ -10125,7 +10161,7 @@
     "cell_ref": "'Evoc'!C11"
   },
   {
-    "id": 538,
+    "id": 540,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Fero (Porter)",
@@ -10143,7 +10179,7 @@
     "cell_ref": "'Evoc'!C12"
   },
   {
-    "id": 539,
+    "id": 541,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Materia (Matière)",
@@ -10163,7 +10199,7 @@
     "cell_ref": "'Evoc'!C13"
   },
   {
-    "id": 540,
+    "id": 542,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Manus (Main)",
@@ -10181,7 +10217,7 @@
     "cell_ref": "'Evoc'!C14"
   },
   {
-    "id": 541,
+    "id": 543,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Simulo (Imiter)",
@@ -10199,7 +10235,7 @@
     "cell_ref": "'Evoc'!C15"
   },
   {
-    "id": 542,
+    "id": 544,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Migro (Migrer)",
@@ -10217,7 +10253,7 @@
     "cell_ref": "'Evoc'!C16"
   },
   {
-    "id": 543,
+    "id": 545,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Obtero (Détruire)",
@@ -10235,7 +10271,7 @@
     "cell_ref": "'Evoc'!C17"
   },
   {
-    "id": 544,
+    "id": 546,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Fulgor (Éclat, foudre)",
@@ -10253,7 +10289,7 @@
     "cell_ref": "'Evoc'!C18"
   },
   {
-    "id": 545,
+    "id": 547,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Alto (Élever)",
@@ -10271,7 +10307,7 @@
     "cell_ref": "'Evoc'!C19"
   },
   {
-    "id": 546,
+    "id": 548,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Velox (Rapide)",
@@ -10289,7 +10325,7 @@
     "cell_ref": "'Evoc'!C20"
   },
   {
-    "id": 547,
+    "id": 549,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Retro (En arrière)",
@@ -10307,7 +10343,7 @@
     "cell_ref": "'Evoc'!C21"
   },
   {
-    "id": 548,
+    "id": 550,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Verto (Tourner)",
@@ -10325,7 +10361,7 @@
     "cell_ref": "'Evoc'!C22"
   },
   {
-    "id": 549,
+    "id": 551,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Limpia (Nettoyer)",
@@ -10343,7 +10379,7 @@
     "cell_ref": "'Evoc'!C23"
   },
   {
-    "id": 550,
+    "id": 552,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Initium (Début)",
@@ -10361,7 +10397,7 @@
     "cell_ref": "'Evoc'!C24"
   },
   {
-    "id": 551,
+    "id": 553,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Trudo (Pousser)",
@@ -10379,7 +10415,7 @@
     "cell_ref": "'Evoc'!C25"
   },
   {
-    "id": 552,
+    "id": 554,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Paro (Préparer)",
@@ -10397,7 +10433,7 @@
     "cell_ref": "'Evoc'!C26"
   },
   {
-    "id": 553,
+    "id": 555,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Capto (Saisir)",
@@ -10415,7 +10451,7 @@
     "cell_ref": "'Evoc'!C27"
   },
   {
-    "id": 554,
+    "id": 556,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Tego (Couvrir)",
@@ -10433,7 +10469,7 @@
     "cell_ref": "'Evoc'!C28"
   },
   {
-    "id": 555,
+    "id": 557,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Video (Voir)",
@@ -10451,7 +10487,7 @@
     "cell_ref": "'Evoc'!C29"
   },
   {
-    "id": 556,
+    "id": 558,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Pono (Placer)",
@@ -10467,7 +10503,7 @@
     "cell_ref": "'Evoc'!C30"
   },
   {
-    "id": 557,
+    "id": 559,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Maior (Plus grand)",
@@ -10486,7 +10522,7 @@
     "cell_ref": "'Evoc'!C31"
   },
   {
-    "id": 558,
+    "id": 560,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Demus (Peuple)",
@@ -10504,7 +10540,7 @@
     "cell_ref": "'Evoc'!C32"
   },
   {
-    "id": 559,
+    "id": 561,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Iacio (Jeter)",
@@ -10522,7 +10558,7 @@
     "cell_ref": "'Evoc'!C33"
   },
   {
-    "id": 560,
+    "id": 562,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Carga (Charge)",
@@ -10540,7 +10576,7 @@
     "cell_ref": "'Evoc'!C34"
   },
   {
-    "id": 561,
+    "id": 563,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Manes (Esprits, apparences)",
@@ -10565,7 +10601,7 @@
     "cell_ref": "'Evoc'!C35"
   },
   {
-    "id": 562,
+    "id": 564,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Corp (Corps)",
@@ -10585,7 +10621,7 @@
     "cell_ref": "'Evoc'!C36"
   },
   {
-    "id": 563,
+    "id": 565,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Porto (Porter)",
@@ -10603,7 +10639,7 @@
     "cell_ref": "'Evoc'!C37"
   },
   {
-    "id": 564,
+    "id": 566,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Mitto (Envoyer)",
@@ -10622,7 +10658,7 @@
     "cell_ref": "'Evoc'!C38"
   },
   {
-    "id": 565,
+    "id": 567,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Sequor (Suivre)",
@@ -10640,7 +10676,7 @@
     "cell_ref": "'Evoc'!C39"
   },
   {
-    "id": 566,
+    "id": 568,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Necto (Lier)",
@@ -10658,7 +10694,7 @@
     "cell_ref": "'Evoc'!C40"
   },
   {
-    "id": 567,
+    "id": 569,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Amplus (Vaste)",
@@ -10676,7 +10712,7 @@
     "cell_ref": "'Evoc'!C41"
   },
   {
-    "id": 568,
+    "id": 570,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Minus (Moins)",
@@ -10694,7 +10730,7 @@
     "cell_ref": "'Evoc'!C42"
   },
   {
-    "id": 569,
+    "id": 571,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Actus (Action)",
@@ -10712,7 +10748,7 @@
     "cell_ref": "'Evoc'!C43"
   },
   {
-    "id": 570,
+    "id": 572,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Locus (Lieu)",
@@ -10730,7 +10766,7 @@
     "cell_ref": "'Evoc'!C44"
   },
   {
-    "id": 571,
+    "id": 573,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Necros (Mort)",
@@ -10748,7 +10784,7 @@
     "cell_ref": "'Evoc'!C45"
   },
   {
-    "id": 572,
+    "id": 574,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Anima (Souffle, vie)",
@@ -10766,7 +10802,7 @@
     "cell_ref": "'Evoc'!C46"
   },
   {
-    "id": 573,
+    "id": 575,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Fulgeo (Briller)",
@@ -10784,7 +10820,7 @@
     "cell_ref": "'Evoc'!C47"
   },
   {
-    "id": 574,
+    "id": 576,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Vibro (Agiter)",
@@ -10802,7 +10838,7 @@
     "cell_ref": "'Evoc'!C48"
   },
   {
-    "id": 575,
+    "id": 577,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Possessio (Possession)",
@@ -10820,7 +10856,7 @@
     "cell_ref": "'Evoc'!C49"
   },
   {
-    "id": 576,
+    "id": 578,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Mitto (Envoyer)",
@@ -10838,7 +10874,7 @@
     "cell_ref": "'Evoc'!C50"
   },
   {
-    "id": 577,
+    "id": 579,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Vaso (Vase)",
@@ -10856,7 +10892,7 @@
     "cell_ref": "'Evoc'!C51"
   },
   {
-    "id": 578,
+    "id": 580,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Porto (Porter)",
@@ -10874,7 +10910,7 @@
     "cell_ref": "'Evoc'!C52"
   },
   {
-    "id": 579,
+    "id": 581,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Harmonia (Harmonie)",
@@ -10892,7 +10928,7 @@
     "cell_ref": "'Evoc'!C53"
   },
   {
-    "id": 580,
+    "id": 582,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Terminus (Fin)",
@@ -10910,7 +10946,7 @@
     "cell_ref": "'Evoc'!C54"
   },
   {
-    "id": 581,
+    "id": 583,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Condicio (Condition)",
@@ -10928,7 +10964,7 @@
     "cell_ref": "'Evoc'!C55"
   },
   {
-    "id": 582,
+    "id": 584,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Polus (Pôle)",
@@ -10946,7 +10982,7 @@
     "cell_ref": "'Evoc'!C56"
   },
   {
-    "id": 583,
+    "id": 585,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Emo (Acheter, prendre)",
@@ -10964,7 +11000,7 @@
     "cell_ref": "'Evoc'!C57"
   },
   {
-    "id": 584,
+    "id": 586,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Aleo (Jeu de dés)",
@@ -10982,7 +11018,7 @@
     "cell_ref": "'Evoc'!C58"
   },
   {
-    "id": 585,
+    "id": 587,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Capto (Saisir)",
@@ -11000,7 +11036,7 @@
     "cell_ref": "'Evoc'!C59"
   },
   {
-    "id": 586,
+    "id": 588,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Fascinum (Charme)",
@@ -11018,7 +11054,7 @@
     "cell_ref": "'Evoc'!C60"
   },
   {
-    "id": 587,
+    "id": 589,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Fallo (Tromper)",
@@ -11036,7 +11072,7 @@
     "cell_ref": "'Evoc'!C61"
   },
   {
-    "id": 588,
+    "id": 590,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Communis (Commun)",
@@ -11054,7 +11090,7 @@
     "cell_ref": "'Evoc'!C62"
   },
   {
-    "id": 589,
+    "id": 591,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Onir (Rêve, grec)",
@@ -11072,7 +11108,7 @@
     "cell_ref": "'Evoc'!C63"
   },
   {
-    "id": 590,
+    "id": 592,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Scribo (Écrire)",
@@ -11090,7 +11126,7 @@
     "cell_ref": "'Evoc'!C64"
   },
   {
-    "id": 591,
+    "id": 593,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Duco (Mener)",
@@ -11108,7 +11144,7 @@
     "cell_ref": "'Evoc'!C65"
   },
   {
-    "id": 592,
+    "id": 594,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Gero (Porter)",
@@ -11126,7 +11162,7 @@
     "cell_ref": "'Evoc'!C66"
   },
   {
-    "id": 593,
+    "id": 595,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Ordo (Ordre)",
@@ -11144,7 +11180,7 @@
     "cell_ref": "'Evoc'!C67"
   },
   {
-    "id": 594,
+    "id": 596,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Cogito (Penser)",
@@ -11162,7 +11198,7 @@
     "cell_ref": "'Evoc'!C68"
   },
   {
-    "id": 595,
+    "id": 597,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Halos (Sel, grec)",
@@ -11180,7 +11216,7 @@
     "cell_ref": "'Evoc'!C69"
   },
   {
-    "id": 596,
+    "id": 598,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Lepsia (Crise, grec)",
@@ -11198,7 +11234,7 @@
     "cell_ref": "'Evoc'!C70"
   },
   {
-    "id": 597,
+    "id": 599,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Mitto (Envoyer)",
@@ -11216,7 +11252,7 @@
     "cell_ref": "'Evoc'!C71"
   },
   {
-    "id": 598,
+    "id": 600,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Sedeo (Être assis)",
@@ -11234,7 +11270,7 @@
     "cell_ref": "'Evoc'!C72"
   },
   {
-    "id": 599,
+    "id": 601,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Clima (Climat)",
@@ -11258,7 +11294,7 @@
     "cell_ref": "'Evoc'!C73"
   },
   {
-    "id": 600,
+    "id": 602,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Frango (Briser)",
@@ -11276,7 +11312,7 @@
     "cell_ref": "'Evoc'!C74"
   },
   {
-    "id": 601,
+    "id": 603,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Claudo (Fermer)",
@@ -11294,7 +11330,7 @@
     "cell_ref": "'Evoc'!C75"
   },
   {
-    "id": 602,
+    "id": 604,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Pono (Placer)",
@@ -11312,7 +11348,7 @@
     "cell_ref": "'Evoc'!C76"
   },
   {
-    "id": 603,
+    "id": 605,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Ordo (Ordre)",
@@ -11330,7 +11366,7 @@
     "cell_ref": "'Evoc'!C77"
   },
   {
-    "id": 604,
+    "id": 606,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Nutrio (Nourrir)",
@@ -11348,7 +11384,7 @@
     "cell_ref": "'Evoc'!C78"
   },
   {
-    "id": 605,
+    "id": 607,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Nota (Marque)",
@@ -11366,7 +11402,7 @@
     "cell_ref": "'Evoc'!C79"
   },
   {
-    "id": 606,
+    "id": 608,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Velum (Voile)",
@@ -11384,7 +11420,7 @@
     "cell_ref": "'Evoc'!C80"
   },
   {
-    "id": 607,
+    "id": 609,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Augeo (Augmenter)",
@@ -11402,7 +11438,7 @@
     "cell_ref": "'Evoc'!C81"
   },
   {
-    "id": 608,
+    "id": 610,
     "school_code": "Evoc",
     "school_label": "École d'Évocation",
     "latin": "Tempus (Temps)",
@@ -11420,7 +11456,61 @@
     "cell_ref": "'Evoc'!C82"
   },
   {
-    "id": 609,
+    "id": 611,
+    "school_code": "Evoc",
+    "school_label": "École d'Évocation",
+    "latin": "Canalis (Conduit)",
+    "arcane": "Lircana (Elo + cana)",
+    "vulgar": "Catharsis",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "description": "Génère un effet qui permet à la cible de réaliser sur-le-champs un total de [Magnitude/7] action d'arcanes ou relatifs à la magie, elle peux ne pas en réaliser certaines.",
+    "keys": "🔮 Magie: Evcanairn",
+    "domains": [
+      "🔮"
+    ],
+    "cell_ref": "'Evoc'!C83"
+  },
+  {
+    "id": 612,
+    "school_code": "Evoc",
+    "school_label": "École d'Évocation",
+    "latin": "??",
+    "arcane": "??",
+    "vulgar": "??",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "description": "Génère un effet qui génère dans la mémoire de la cible un souvenir fictif, la cible peux avoir une attitude de méfiance à l'égard de ce souvenir ou en être convaincu selon le résultat d'un test de sauvegarde au moment du sort (échec critique : il le pense réel, échec : il a un doute et ira jusqu'à éprouver sa véracité si besoin, réussite : il pensera l'avoir rêvé, réussite critique : il pensera avoir été influencé), puis il s'il effectue un test de mémoire la difficulté [5+Magnitude/2] (en cas de réussite il se souviens de ce qui s'est vraiment passé).",
+    "keys": "🧩 Mental",
+    "domains": [
+      "🧩"
+    ],
+    "cell_ref": "'Evoc'!C84"
+  },
+  {
+    "id": 613,
+    "school_code": "Evoc",
+    "school_label": "École d'Évocation",
+    "latin": "??",
+    "arcane": "??",
+    "vulgar": "Surpuissance",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "description": "Génère un effet qui augmente drastiquement la puissance du prochain sort lancé par la cible de [Magnitude/4], ceci est considéré comme enchantement éphémère qui est défaussé dés lors qu'il fait effet.",
+    "keys": "🔮 Magie",
+    "domains": [
+      "🔮"
+    ],
+    "cell_ref": "'Evoc'!C85"
+  },
+  {
+    "id": 614,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Volatus (Vol)",
@@ -11438,7 +11528,7 @@
     "cell_ref": "'Conj'!C3"
   },
   {
-    "id": 610,
+    "id": 615,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Plaudo (Applaudir, battre des ailes)",
@@ -11456,7 +11546,7 @@
     "cell_ref": "'Conj'!C4"
   },
   {
-    "id": 611,
+    "id": 616,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Aqua (Eau)",
@@ -11474,7 +11564,7 @@
     "cell_ref": "'Conj'!C5"
   },
   {
-    "id": 612,
+    "id": 617,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Nato (Nager)",
@@ -11492,7 +11582,7 @@
     "cell_ref": "'Conj'!C6"
   },
   {
-    "id": 613,
+    "id": 618,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Ascendo (Monter)",
@@ -11510,7 +11600,7 @@
     "cell_ref": "'Conj'!C7"
   },
   {
-    "id": 614,
+    "id": 619,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Terra (Terre)",
@@ -11528,7 +11618,7 @@
     "cell_ref": "'Conj'!C8"
   },
   {
-    "id": 615,
+    "id": 620,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Traho (Tirer)",
@@ -11546,7 +11636,7 @@
     "cell_ref": "'Conj'!C9"
   },
   {
-    "id": 616,
+    "id": 621,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Pello (Pousser)",
@@ -11564,7 +11654,7 @@
     "cell_ref": "'Conj'!C10"
   },
   {
-    "id": 617,
+    "id": 622,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Aedifico (Édifier)",
@@ -11599,7 +11689,7 @@
     "cell_ref": "'Conj'!C11"
   },
   {
-    "id": 618,
+    "id": 623,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Vestis (Vêtement)",
@@ -11634,7 +11724,7 @@
     "cell_ref": "'Conj'!C12"
   },
   {
-    "id": 619,
+    "id": 624,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Ferrum (Fer)",
@@ -11661,7 +11751,7 @@
     "cell_ref": "'Conj'!C13"
   },
   {
-    "id": 620,
+    "id": 625,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Carcer (Prison)",
@@ -11688,7 +11778,7 @@
     "cell_ref": "'Conj'!C14"
   },
   {
-    "id": 621,
+    "id": 626,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Sarcophagus (Grec)",
@@ -11715,7 +11805,7 @@
     "cell_ref": "'Conj'!C15"
   },
   {
-    "id": 622,
+    "id": 627,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Spirare (Souffler)",
@@ -11733,7 +11823,7 @@
     "cell_ref": "'Conj'!C16"
   },
   {
-    "id": 623,
+    "id": 628,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Clarus (Clair)",
@@ -11752,7 +11842,7 @@
     "cell_ref": "'Conj'!C17"
   },
   {
-    "id": 624,
+    "id": 629,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Obscuro (Obscurcir)",
@@ -11770,7 +11860,7 @@
     "cell_ref": "'Conj'!C18"
   },
   {
-    "id": 625,
+    "id": 630,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Simulo (Imiter)",
@@ -11788,7 +11878,7 @@
     "cell_ref": "'Conj'!C19"
   },
   {
-    "id": 626,
+    "id": 631,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Spiritus (Esprit)",
@@ -11806,7 +11896,7 @@
     "cell_ref": "'Conj'!C20"
   },
   {
-    "id": 627,
+    "id": 632,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Miasma (SouiLure, grec)",
@@ -11824,7 +11914,7 @@
     "cell_ref": "'Conj'!C21"
   },
   {
-    "id": 628,
+    "id": 633,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Pestis (Peste)",
@@ -11842,7 +11932,7 @@
     "cell_ref": "'Conj'!C22"
   },
   {
-    "id": 629,
+    "id": 634,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Umbra (Ombre)",
@@ -11860,7 +11950,7 @@
     "cell_ref": "'Conj'!C23"
   },
   {
-    "id": 630,
+    "id": 635,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Pulso (Frapper)",
@@ -11876,7 +11966,7 @@
     "cell_ref": "'Conj'!C24"
   },
   {
-    "id": 631,
+    "id": 636,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Circulus (Cercle)",
@@ -11892,7 +11982,7 @@
     "cell_ref": "'Conj'!C25"
   },
   {
-    "id": 632,
+    "id": 637,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Arma (Arme)",
@@ -11928,7 +12018,7 @@
     "cell_ref": "'Conj'!C26"
   },
   {
-    "id": 633,
+    "id": 638,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Loric (Cuirasse)",
@@ -11964,7 +12054,7 @@
     "cell_ref": "'Conj'!C27"
   },
   {
-    "id": 634,
+    "id": 639,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Instrumentum (Outil)",
@@ -11982,7 +12072,7 @@
     "cell_ref": "'Conj'!C28"
   },
   {
-    "id": 635,
+    "id": 640,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Pingo (Peindre)",
@@ -12000,7 +12090,7 @@
     "cell_ref": "'Conj'!C29"
   },
   {
-    "id": 636,
+    "id": 641,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Oculus (Œil)",
@@ -12018,7 +12108,7 @@
     "cell_ref": "'Conj'!C30"
   },
   {
-    "id": 637,
+    "id": 642,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Notus (Marque)",
@@ -12036,7 +12126,7 @@
     "cell_ref": "'Conj'!C31"
   },
   {
-    "id": 638,
+    "id": 643,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Lustro (Purifier)",
@@ -12054,7 +12144,7 @@
     "cell_ref": "'Conj'!C32"
   },
   {
-    "id": 639,
+    "id": 644,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Pura (Pur) + Hortus (Jardin)",
@@ -12072,7 +12162,7 @@
     "cell_ref": "'Conj'!C33"
   },
   {
-    "id": 640,
+    "id": 645,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Lumen (Lumière)",
@@ -12091,7 +12181,7 @@
     "cell_ref": "'Conj'!C34"
   },
   {
-    "id": 641,
+    "id": 646,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Occulto (Cacher)",
@@ -12109,7 +12199,7 @@
     "cell_ref": "'Conj'!C35"
   },
   {
-    "id": 642,
+    "id": 647,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Larva (Masque)",
@@ -12127,7 +12217,7 @@
     "cell_ref": "'Conj'!C36"
   },
   {
-    "id": 643,
+    "id": 648,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Fugio (S'enfuir)",
@@ -12145,7 +12235,7 @@
     "cell_ref": "'Conj'!C37"
   },
   {
-    "id": 644,
+    "id": 649,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Impedio (Empêcher)",
@@ -12163,7 +12253,7 @@
     "cell_ref": "'Conj'!C38"
   },
   {
-    "id": 645,
+    "id": 650,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Pupus (Poupée)",
@@ -12181,7 +12271,7 @@
     "cell_ref": "'Conj'!C39"
   },
   {
-    "id": 646,
+    "id": 651,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Dominus (Maître)",
@@ -12199,7 +12289,7 @@
     "cell_ref": "'Conj'!C40"
   },
   {
-    "id": 647,
+    "id": 652,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Mente (Esprit)",
@@ -12217,7 +12307,7 @@
     "cell_ref": "'Conj'!C41"
   },
   {
-    "id": 648,
+    "id": 653,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Gladius (Épée)",
@@ -12235,7 +12325,7 @@
     "cell_ref": "'Conj'!C42"
   },
   {
-    "id": 649,
+    "id": 654,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Telum (Trait/Projectile)",
@@ -12255,7 +12345,7 @@
     "cell_ref": "'Conj'!C43"
   },
   {
-    "id": 650,
+    "id": 655,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Scutum (Bouclier)",
@@ -12275,7 +12365,7 @@
     "cell_ref": "'Conj'!C44"
   },
   {
-    "id": 651,
+    "id": 656,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Fulgur (Foudre)",
@@ -12293,7 +12383,7 @@
     "cell_ref": "'Conj'!C45"
   },
   {
-    "id": 652,
+    "id": 657,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Muto (Changer)",
@@ -12311,7 +12401,7 @@
     "cell_ref": "'Conj'!C46"
   },
   {
-    "id": 653,
+    "id": 658,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Locus (Lieu) + Muto (Changer)",
@@ -12329,7 +12419,7 @@
     "cell_ref": "'Conj'!C47"
   },
   {
-    "id": 654,
+    "id": 659,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Mimicus (Mime)",
@@ -12347,7 +12437,7 @@
     "cell_ref": "'Conj'!C48"
   },
   {
-    "id": 655,
+    "id": 660,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Spatium (Espace)",
@@ -12365,7 +12455,7 @@
     "cell_ref": "'Conj'!C49"
   },
   {
-    "id": 656,
+    "id": 661,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Onero (Charger)",
@@ -12383,7 +12473,7 @@
     "cell_ref": "'Conj'!C50"
   },
   {
-    "id": 657,
+    "id": 662,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Sanguis (Sang)",
@@ -12401,7 +12491,7 @@
     "cell_ref": "'Conj'!C51"
   },
   {
-    "id": 658,
+    "id": 663,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Turbo (Troubler)",
@@ -12419,7 +12509,7 @@
     "cell_ref": "'Conj'!C52"
   },
   {
-    "id": 659,
+    "id": 664,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Harmonia (Harmonie)",
@@ -12437,7 +12527,7 @@
     "cell_ref": "'Conj'!C53"
   },
   {
-    "id": 660,
+    "id": 665,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Leves (Léger)",
@@ -12455,7 +12545,7 @@
     "cell_ref": "'Conj'!C54"
   },
   {
-    "id": 661,
+    "id": 666,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Astra (Étoile)",
@@ -12473,7 +12563,7 @@
     "cell_ref": "'Conj'!C55"
   },
   {
-    "id": 662,
+    "id": 667,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Celo (Cacher)",
@@ -12491,7 +12581,7 @@
     "cell_ref": "'Conj'!C56"
   },
   {
-    "id": 663,
+    "id": 668,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Silentium (Silence)",
@@ -12509,7 +12599,7 @@
     "cell_ref": "'Conj'!C57"
   },
   {
-    "id": 664,
+    "id": 669,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Anima (Âme)",
@@ -12527,7 +12617,7 @@
     "cell_ref": "'Conj'!C58"
   },
   {
-    "id": 665,
+    "id": 670,
     "school_code": "Conj",
     "school_label": "École de Conjuration",
     "latin": "Clima (Climat)",
@@ -12551,7 +12641,7 @@
     "cell_ref": "'Conj'!C59"
   },
   {
-    "id": 666,
+    "id": 671,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Sublimis (Élevé)",
@@ -12571,7 +12661,7 @@
     "cell_ref": "'Alté'!C3"
   },
   {
-    "id": 667,
+    "id": 672,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Fructus (Fruit)",
@@ -12589,7 +12679,7 @@
     "cell_ref": "'Alté'!C4"
   },
   {
-    "id": 668,
+    "id": 673,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Arbor (Arbre)",
@@ -12607,7 +12697,7 @@
     "cell_ref": "'Alté'!C5"
   },
   {
-    "id": 669,
+    "id": 674,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Findo (Fendre)",
@@ -12625,7 +12715,7 @@
     "cell_ref": "'Alté'!C6"
   },
   {
-    "id": 670,
+    "id": 675,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Muto (Changer)",
@@ -12645,7 +12735,7 @@
     "cell_ref": "'Alté'!C7"
   },
   {
-    "id": 671,
+    "id": 676,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Fero (Porter/Façonner)",
@@ -12664,7 +12754,7 @@
     "cell_ref": "'Alté'!C8"
   },
   {
-    "id": 672,
+    "id": 677,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Condicio (Condition)",
@@ -12680,7 +12770,7 @@
     "cell_ref": "'Alté'!C9"
   },
   {
-    "id": 673,
+    "id": 678,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Fligo (Frapper)",
@@ -12696,7 +12786,7 @@
     "cell_ref": "'Alté'!C10"
   },
   {
-    "id": 674,
+    "id": 679,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Toxum (Poison, grec)",
@@ -12714,7 +12804,7 @@
     "cell_ref": "'Alté'!C11"
   },
   {
-    "id": 675,
+    "id": 680,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Inficio (Souiller)",
@@ -12732,7 +12822,7 @@
     "cell_ref": "'Alté'!C12"
   },
   {
-    "id": 676,
+    "id": 681,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Verto (Tourner)",
@@ -12750,7 +12840,7 @@
     "cell_ref": "'Alté'!C13"
   },
   {
-    "id": 677,
+    "id": 682,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Rumpo (Briser)",
@@ -12768,7 +12858,7 @@
     "cell_ref": "'Alté'!C14"
   },
   {
-    "id": 678,
+    "id": 683,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Pungo (Piquer)",
@@ -12794,7 +12884,7 @@
     "cell_ref": "'Alté'!C15"
   },
   {
-    "id": 679,
+    "id": 684,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Paro (Préparer)",
@@ -12816,7 +12906,7 @@
     "cell_ref": "'Alté'!C16"
   },
   {
-    "id": 680,
+    "id": 685,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Flos (Fleur)",
@@ -12834,7 +12924,7 @@
     "cell_ref": "'Alté'!C17"
   },
   {
-    "id": 681,
+    "id": 686,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Radix (Racine)",
@@ -12852,7 +12942,7 @@
     "cell_ref": "'Alté'!C18"
   },
   {
-    "id": 682,
+    "id": 687,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Fundo (Verser)",
@@ -12868,7 +12958,7 @@
     "cell_ref": "'Alté'!C19"
   },
   {
-    "id": 683,
+    "id": 688,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Aequus (Égal)",
@@ -12886,7 +12976,7 @@
     "cell_ref": "'Alté'!C20"
   },
   {
-    "id": 684,
+    "id": 689,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Libra (Balance)",
@@ -12904,7 +12994,7 @@
     "cell_ref": "'Alté'!C21"
   },
   {
-    "id": 685,
+    "id": 690,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Canalis (Conduit)",
@@ -12922,7 +13012,7 @@
     "cell_ref": "'Alté'!C22"
   },
   {
-    "id": 686,
+    "id": 691,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Alter (Autre)",
@@ -12940,7 +13030,7 @@
     "cell_ref": "'Alté'!C23"
   },
   {
-    "id": 687,
+    "id": 692,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Benedico (Dire du bien)",
@@ -12958,7 +13048,7 @@
     "cell_ref": "'Alté'!C24"
   },
   {
-    "id": 688,
+    "id": 693,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Cargo (Charge)",
@@ -12976,7 +13066,7 @@
     "cell_ref": "'Alté'!C25"
   },
   {
-    "id": 689,
+    "id": 694,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Anima (Âme)",
@@ -12994,7 +13084,7 @@
     "cell_ref": "'Alté'!C26"
   },
   {
-    "id": 690,
+    "id": 695,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Struo (Construire)",
@@ -13014,7 +13104,7 @@
     "cell_ref": "'Alté'!C27"
   },
   {
-    "id": 691,
+    "id": 696,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Aedifico (Édifier)",
@@ -13036,7 +13126,7 @@
     "cell_ref": "'Alté'!C28"
   },
   {
-    "id": 692,
+    "id": 697,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Faber (Ouvrier)",
@@ -13046,7 +13136,7 @@
     "target_type": "Cible",
     "difficulty": "4",
     "drain": "6",
-    "description": "L'effet du sort créer un objet avec un potenciel de [Magnitude] un type qui dépends de la [clé], le potenciel peux être utilisé pour augmenter la catégorie (5 par catégorie), la qualité (2 pour qualité 1, puis 4 pour passer à qualité 2, puis 6... etc), les améliorations (comme pour les qualités), qualité et améliorations étant limités à [Magnitude/7], ce sort requière 100% des matières premières et n'a pas de durée.",
+    "description": "L'effet du sort créer un objet avec un potenciel de [Magnitude] un type qui dépends de la [clé], le potenciel peux être utilisé pour augmenter la catégorie (5 par catégorie), la qualité (2 pour qualité 1, puis 4 pour passer à qualité 2, puis 6... etc), les améliorations (comme pour les qualités), qualité et améliorations étant limités à [Magnitude/7], ce sort requière 100% des matières premières et n'a pas de durée, le domaine des arcanes s'applique à toutes les matières mais le jet est très très limité (maximum des dés -3, soit 3 par défaut).",
     "keys": "⚔️ Acier: Asfaberan (Métaux), 🐗 Faune: Asfaberorh (Cuir), 🌿 Flore: Asfaberiln (Bois), 🌿 Flore: Asfaberiln (Tissu), 🪨 Terre: Asfaberum (Minéraux), ✡️ Arcane: Asfaberys (Tout)",
     "domains": [
       "🪨",
@@ -13058,7 +13148,7 @@
     "cell_ref": "'Alté'!C29"
   },
   {
-    "id": 693,
+    "id": 698,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Melior (Meilleur)",
@@ -13080,7 +13170,7 @@
     "cell_ref": "'Alté'!C30"
   },
   {
-    "id": 694,
+    "id": 699,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Creo (Créer)",
@@ -13102,7 +13192,7 @@
     "cell_ref": "'Alté'!C31"
   },
   {
-    "id": 695,
+    "id": 700,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Solidus (Solide)",
@@ -13124,7 +13214,7 @@
     "cell_ref": "'Alté'!C32"
   },
   {
-    "id": 696,
+    "id": 701,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Fallo (Tromper)",
@@ -13142,7 +13232,7 @@
     "cell_ref": "'Alté'!C33"
   },
   {
-    "id": 697,
+    "id": 702,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Facere (Faire)",
@@ -13160,7 +13250,7 @@
     "cell_ref": "'Alté'!C34"
   },
   {
-    "id": 698,
+    "id": 703,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Speculum (Miroir)",
@@ -13178,7 +13268,7 @@
     "cell_ref": "'Alté'!C35"
   },
   {
-    "id": 699,
+    "id": 704,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Sublimo (Élever)",
@@ -13196,7 +13286,7 @@
     "cell_ref": "'Alté'!C36"
   },
   {
-    "id": 700,
+    "id": 705,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Veneno (Poison)",
@@ -13214,7 +13304,7 @@
     "cell_ref": "'Alté'!C37"
   },
   {
-    "id": 701,
+    "id": 706,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Roboro (Fortifier)",
@@ -13232,7 +13322,7 @@
     "cell_ref": "'Alté'!C38"
   },
   {
-    "id": 702,
+    "id": 707,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Impingo (Frapper)",
@@ -13250,7 +13340,7 @@
     "cell_ref": "'Alté'!C39"
   },
   {
-    "id": 703,
+    "id": 708,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Devius (Détourné)",
@@ -13268,7 +13358,7 @@
     "cell_ref": "'Alté'!C40"
   },
   {
-    "id": 704,
+    "id": 709,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Durus (Dur)",
@@ -13286,7 +13376,7 @@
     "cell_ref": "'Alté'!C41"
   },
   {
-    "id": 705,
+    "id": 710,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Potius (Mieux)",
@@ -13304,7 +13394,7 @@
     "cell_ref": "'Alté'!C42"
   },
   {
-    "id": 706,
+    "id": 711,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Volvo (Rouler)",
@@ -13322,7 +13412,7 @@
     "cell_ref": "'Alté'!C43"
   },
   {
-    "id": 707,
+    "id": 712,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Haema (Sang, grec)",
@@ -13340,7 +13430,7 @@
     "cell_ref": "'Alté'!C44"
   },
   {
-    "id": 708,
+    "id": 713,
     "school_code": "Alté",
     "school_label": "École d'Altération",
     "latin": "Petra (Roche)",

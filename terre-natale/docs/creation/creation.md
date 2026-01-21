@@ -274,8 +274,8 @@ Philosophie de vie issue de la culture.
 
 ### Milieu social
 
-- +10 PI dans 2 groupes (1 par attribut)
-- +10 PI dans 2 compétences (1 par attribut)
+- +10 PI dans 2 groupes (20 PI totaux) (le groupe doit être liée à l'attribut)
+- +10 PI dans 2 compétences (20 PI totaux) (la compétence doit être liée à l'attribut)
 
 | Origine sociale | Description courte | Attribut principal | Attribut secondaire |
 |-----------------|--------------------|-------------------|---------------------|
@@ -313,8 +313,8 @@ Philosophie de vie issue de la culture.
 
 ### Éducation
 
-- +10 PI dans 2 groupes
-- +10 PI dans 2 compétences
+- +10 PI dans 2 groupes (20 PI totaux)
+- +10 PI dans 2 compétences (20 PI totaux)
 
 | Éducation        | Groupe 1                              | Groupe 2                              |
 |------------------|---------------------------------------|---------------------------------------|
@@ -355,8 +355,8 @@ Philosophie de vie issue de la culture.
 
 ### Jeunesse
 
-- +10 PI dans 2 groupes
-- +10 PI dans 2 compétences
+- +10 PI dans 2 groupes (20 PI totaux) (le groupe doit être liée à l'attribut)
+- +10 PI dans 2 compétences (20 PI totaux) (la compétence doit être liée à l'attribut)
 
 | Jeunesse        | Attributs associés |
 |-----------------|-------------------|
@@ -404,8 +404,8 @@ Philosophie de vie issue de la culture.
 
 ### Vocation
 
-- +10 PI dans 2 groupes
-- +10 PI dans 2 compétences
+- +10 PI dans 2 groupes (20 PI totaux)
+- +10 PI dans 2 compétences (20 PI totaux)
 
 | Vocation      | 2 Compétences parmi… |
 |---------------|----------------------|
@@ -424,8 +424,8 @@ Philosophie de vie issue de la culture.
 
 ### Culture
 
-- Gain de 10 PI dans deux groupes, ces deux groupes doivent figurés parmi la liste des compétences de sa culture
-- Gain de 10 PI dans deux compétences, ces deux compétences doivent figurées parmi la liste des compétences de sa culture
+- Gain de 10 PI dans deux groupes (20 PI totaux), ces deux groupes doivent figurés parmi la liste des compétences de sa culture
+- Gain de 10 PI dans deux compétences (20 PI totaux), ces deux compétences doivent figurées parmi la liste des compétences de sa culture
 
 ---
 

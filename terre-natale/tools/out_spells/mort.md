@@ -1,16 +1,6 @@
 # Sorts – Mort
 
-> 9 sorts pour Mort
-
-## Drain de Vie
-
-*Difficulté :* 10, *Drain :* 10
-
-**Mot de diffusion :** Manifestation : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
-
-**Mot de propagation :** Unique : Touche une cible unique.
-
----
+> 8 sorts pour Mort
 
 ## Infarctus
 
@@ -28,11 +18,11 @@
 
 *Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
-**Mot de diffusion :** Contact : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
+**Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
-**Mot de propagation :** Unique : Touche une cible unique.
+**Mot de propagation :** Unique [Forme] : Touche une cible unique.
 
 ---
 

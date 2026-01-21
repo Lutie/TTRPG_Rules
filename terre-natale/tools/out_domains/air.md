@@ -2,7 +2,7 @@
 
 > 46 mots pour ce domaine
 
-#### 1. Percussion ['Dest'!C16]
+#### 1. Percussion
 *École :* École de Destruction
 
 *Latin :* Percutio (Frapper), *Arcanique :* Kortio (Kor + tio)
@@ -15,7 +15,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 2. Dématérialisation ['Dest'!C35]
+#### 2. Dématérialisation
 *École :* École de Destruction
 
 *Latin :* Materia (Matière), *Arcanique :* Keldemater (Kel + demater)
@@ -28,20 +28,20 @@ Produit un effet qui détruit <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 3. Privation ['Dest'!C39]
+#### 3. Privation
 *École :* École de Destruction
 
 *Latin :* Privo (Enlever), *Arcanique :* Kaprivo (Ka + privo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 2
 
-**Clés :** 🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), 🩸 Impie: Kaprivoun (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), 🔮 Magie: Kaprivoirn (Mana), 🪷 Nature: Kaprivoeil (Chi)
+**Clés :** 🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), 🩸 Impie: Kaprivoun (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), ✡️ Arcane: Kaprivoys (Mana), 🪷 Nature: Kaprivoeil (Chi)
 
 Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place.
 
 ---
 
-#### 4. Délestement ['Béné'!C10]
+#### 4. Délestement
 *École :* École de Bénédiction
 
 *Latin :* Onus (Fardeau), *Arcanique :* Lironus (Lir + onus)
@@ -54,7 +54,7 @@ Génère un enchantement positif qui réduit le poids effectif de la cible de <s
 
 ---
 
-#### 5. Amortissement ['Béné'!C12]
+#### 5. Amortissement
 *École :* École de Bénédiction
 
 *Latin :* Mors (Mort), *Arcanique :* Luxmors (Lux + mors)
@@ -67,7 +67,7 @@ Génère un enchantement positif qui réduit la distance des chutes de <span sty
 
 ---
 
-#### 6. Libération ['Béné'!C13]
+#### 6. Libération
 *École :* École de Bénédiction
 
 *Latin :* Liber (Libre), *Arcanique :* Lemliber (Lem + liber)
@@ -80,7 +80,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 7. Aggression ['Béné'!C32]
+#### 7. Aggression
 *École :* École de Bénédiction
 
 *Latin :* Gredior (Marcher), *Arcanique :* Luxgrede (Lux + grede)
@@ -93,7 +93,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 8. Mitigation ['Béné'!C60]
+#### 8. Mitigation
 *École :* École de Bénédiction
 
 *Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
@@ -106,7 +106,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 9. Consécration ['Béné'!C93]
+#### 9. Consécration
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -119,7 +119,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 10. Irradiation ['Béné'!C104]
+#### 10. Irradiation
 *École :* École de Bénédiction
 
 *Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
@@ -132,7 +132,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 11. Diligence ['Béné'!C127]
+#### 11. Diligence
 *École :* École de Bénédiction
 
 *Latin :* Diligo (Aimer, estimer), *Arcanique :* Ludiligo (Lu + diligo)
@@ -145,7 +145,7 @@ Génère un enchantement qui augmente l'allure de <span style="color:#ff1493; fo
 
 ---
 
-#### 12. Dégravitation ['Béné'!C128]
+#### 12. Dégravitation
 *École :* École de Bénédiction
 
 *Latin :* Gravis (Lourd), *Arcanique :* Luxgrav (Lux + grav)
@@ -158,7 +158,7 @@ Génère un enchantement positif qui réduit toutes les chutes de la cible de <s
 
 ---
 
-#### 13. Stabilisation ['Béné'!C129]
+#### 13. Stabilisation
 *École :* École de Bénédiction
 
 *Latin :* Stat (Être debout), *Arcanique :* Lemstatu (Lem + statu)
@@ -171,7 +171,7 @@ Génère un enchantement positif qui réduit toutes les déplacements forcés de
 
 ---
 
-#### 14. Prééminence ['Béné'!C148]
+#### 14. Prééminence
 *École :* École de Bénédiction
 
 *Latin :* Eminens (Eminent), *Arcanique :* Lememin (Lem + emin)
@@ -184,7 +184,7 @@ Génère un enchantement positif qui octroie un ajustement de <span style="color
 
 ---
 
-#### 15. Liberation ['Béné'!C150]
+#### 15. Liberation
 *École :* École de Bénédiction
 
 *Latin :* Solve (Délier), *Arcanique :* Lusolve (Lu + solve)
@@ -197,7 +197,7 @@ Génère un enchantement positif qui assure à la cible un déplacement unique d
 
 ---
 
-#### 16. Apnéisation ['Béné'!C161]
+#### 16. Apnéisation
 *École :* École de Bénédiction
 
 *Latin :* Spirare (Souffler), *Arcanique :* Liraspir (Lir + aspir)
@@ -210,7 +210,7 @@ Génère un enchantement qui permet à la cible de se passer du besoin de respir
 
 ---
 
-#### 17. Expulsion ['Malé'!C12]
+#### 17. Expulsion
 *École :* École de Malédiction
 
 *Latin :* Pello (Pousser), *Arcanique :* Morexp (Mor + exp)
@@ -223,7 +223,7 @@ Génère un enchantement négatif qui accroit la distance des déplacements forc
 
 ---
 
-#### 18. Déportation ['Malé'!C15]
+#### 18. Déportation
 *École :* École de Malédiction
 
 *Latin :* Porto (Porter), *Arcanique :* Malporto (Mal + porto)
@@ -236,7 +236,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 19. Vulnérisation ['Malé'!C58]
+#### 19. Vulnérisation
 *École :* École de Malédiction
 
 *Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo)
@@ -249,7 +249,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 20. Déprécation ['Malé'!C90]
+#### 20. Déprécation
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -262,7 +262,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 21. Elémentaire ['Invoc'!C3]
+#### 21. Elémentaire
 *École :* École d'Invocation
 
 *Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele)
@@ -275,7 +275,7 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 22. Obstruction ['Abju'!C29]
+#### 22. Obstruction
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -288,7 +288,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 23. Protestation ['Abju'!C30]
+#### 23. Protestation
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -297,11 +297,11 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 **Clés :** 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
 
 ---
 
-#### 24. Neutralisation ['Abju'!C31]
+#### 24. Neutralisation
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -310,11 +310,11 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 **Clés :** 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
 
 ---
 
-#### 25. Déflexion ['Abju'!C33]
+#### 25. Déflexion
 *École :* École d'Abjuration
 
 *Latin :* Flecto (Courber), *Arcanique :* Basfleto (Bas + fleto)
@@ -327,7 +327,7 @@ Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[M
 
 ---
 
-#### 26. Redirection ['Abju'!C34]
+#### 26. Redirection
 *École :* École d'Abjuration
 
 *Latin :* Dirigo (Diriger), *Arcanique :* Brendirigo (Bren + dirigo)
@@ -340,7 +340,7 @@ Génère un effet qui renvoie un projectile (peu importe sa forme) à son celui 
 
 ---
 
-#### 27. Interrogation ['Divi'!C11]
+#### 27. Interrogation
 *École :* École de Divination
 
 *Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
@@ -353,7 +353,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 28. Détection ['Divi'!C18]
+#### 28. Détection
 *École :* École de Divination
 
 *Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
@@ -366,7 +366,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 29. Signalement ['Divi'!C19]
+#### 29. Signalement
 *École :* École de Divination
 
 *Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
@@ -379,7 +379,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 30. Répulsion ['Evoc'!C7]
+#### 30. Répulsion
 *École :* École d'Évocation
 
 *Latin :* Pello (Pousser, chasser), *Arcanique :* Evpello (Ev + pello)
@@ -392,7 +392,7 @@ Génère un effet de répulsion agissant comme l'action tactique de déplacement
 
 ---
 
-#### 31. Lévitation ['Evoc'!C8]
+#### 31. Lévitation
 *École :* École d'Évocation
 
 *Latin :* Leves (Léger), *Arcanique :* Enleves (En + leves)
@@ -405,7 +405,7 @@ Réduit la chute de la cible de <span style="color:#ff1493; font-weight:bold;">[
 
 ---
 
-#### 32. Propulsion ['Evoc'!C10]
+#### 32. Propulsion
 *École :* École d'Évocation
 
 *Latin :* Pello (Pousser en avant), *Arcanique :* Erupuls (Eru + puls)
@@ -418,7 +418,7 @@ Génère un effet de déplacement agissant comme l'action tactique de déplaceme
 
 ---
 
-#### 33. Matérialisation ['Evoc'!C13]
+#### 33. Matérialisation
 *École :* École d'Évocation
 
 *Latin :* Materia (Matière), *Arcanique :* Elomater (Elo + mater)
@@ -431,7 +431,7 @@ Produit un effet qui génère <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 34. Matérialisation ['Evoc'!C36]
+#### 34. Matérialisation
 *École :* École d'Évocation
 
 *Latin :* Corp (Corps), *Arcanique :* Elocorpus (Elo + corpus)
@@ -444,7 +444,7 @@ Produit un effet qui créé de la matière (gaz, liquide ou solide) de <span sty
 
 ---
 
-#### 35. Dépossession ['Evoc'!C49]
+#### 35. Dépossession
 *École :* École d'Évocation
 
 *Latin :* Possessio (Possession), *Arcanique :* Evposs (Ev + poss)
@@ -457,7 +457,7 @@ Génère un effet qui agit comme l'action tactique de désarmement avec un jet d
 
 ---
 
-#### 36. Transmission ['Evoc'!C50]
+#### 36. Transmission
 *École :* École d'Évocation
 
 *Latin :* Mitto (Envoyer), *Arcanique :* Enmitt (En + mitt)
@@ -470,7 +470,7 @@ Génère un effet qui permet de véhiculer un message jusqu'à une cible distant
 
 ---
 
-#### 37. Climatisation ['Evoc'!C73]
+#### 37. Climatisation
 *École :* École d'Évocation
 
 *Latin :* Clima (Climat), *Arcanique :* Evclima (Ev + clima)
@@ -483,7 +483,7 @@ Génère un effet qui modifie le climat environnant sur <span style="color:#ff14
 
 ---
 
-#### 38. Vol ['Conj'!C3]
+#### 38. Vol
 *École :* École de Conjuration
 
 *Latin :* Volatus (Vol), *Arcanique :* Convol (Con + vol)
@@ -496,7 +496,7 @@ Génère un enchantement qui permet à la cible de voler, elle le fait avec une 
 
 ---
 
-#### 39. Planement ['Conj'!C4]
+#### 39. Planement
 *École :* École de Conjuration
 
 *Latin :* Plaudo (Applaudir, battre des ailes), *Arcanique :* Cemplaud (Cen + plaud)
@@ -509,7 +509,7 @@ Génère un enchantement qui permet à la cible de planer, elle le fait avec une
 
 ---
 
-#### 40. Répulsion ['Conj'!C10]
+#### 40. Répulsion
 *École :* École de Conjuration
 
 *Latin :* Pello (Pousser), *Arcanique :* Carpello (Car + pello)
@@ -522,7 +522,7 @@ Génère un enchantement répulsif agissant comme l'action tactique de déplacem
 
 ---
 
-#### 41. Edification ['Conj'!C11]
+#### 41. Edification
 *École :* École de Conjuration
 
 *Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi)
@@ -535,7 +535,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 42. Revêtement ['Conj'!C12]
+#### 42. Revêtement
 *École :* École de Conjuration
 
 *Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest)
@@ -548,7 +548,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 43. Armement élémentaire ['Conj'!C26]
+#### 43. Armement élémentaire
 *École :* École de Conjuration
 
 *Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma)
@@ -561,7 +561,7 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 44. Armure élémentaire ['Conj'!C27]
+#### 44. Armure élémentaire
 *École :* École de Conjuration
 
 *Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric)
@@ -574,7 +574,7 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 45. Climatisation ['Conj'!C59]
+#### 45. Climatisation
 *École :* École de Conjuration
 
 *Latin :* Clima (Climat), *Arcanique :* Conclim (Con + clim)
@@ -587,7 +587,7 @@ Enchantement qui force le changement du climat dans une zone, fonctionne comme l
 
 ---
 
-#### 46. Sublimification ['Alté'!C3]
+#### 46. Sublimification
 *École :* École d'Altération
 
 *Latin :* Sublimis (Élevé), *Arcanique :* Alsublim (Al + sublim)

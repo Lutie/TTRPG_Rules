@@ -2,7 +2,7 @@
 
 > 32 mots pour ce domaine
 
-#### 1. Obfuscation ['Dest'!C43]
+#### 1. Obfuscation
 *École :* École de Destruction
 
 *Latin :* Fusco (Noircir), *Arcanique :* Kafusc (Ka + fusc)
@@ -15,7 +15,7 @@ Détruit l'indice, la piste ou autre information ciblé, rendue bien plus diffic
 
 ---
 
-#### 2. Perfectionnement ['Béné'!C73]
+#### 2. Perfectionnement
 *École :* École de Bénédiction
 
 *Latin :* Perficere (Achever), *Arcanique :* Lempfect (Lem + pfect)
@@ -28,7 +28,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 3. Cognitransfert ['Béné'!C86]
+#### 3. Cognitransfert
 *École :* École de Bénédiction
 
 *Latin :* Cognitio (Connaissance), *Arcanique :* Lircognit (Lir + cognit)
@@ -41,7 +41,7 @@ Génère un enchantement positif qui permet à la cible de partager la mémoire 
 
 ---
 
-#### 4. Précognition ['Béné'!C88]
+#### 4. Précognition
 *École :* École de Bénédiction
 
 *Latin :* Scio (Savoir), *Arcanique :* Luxscio (Lux + scio)
@@ -54,7 +54,7 @@ Génère un enchantement positif qui permet de voir une fraction de temps en ava
 
 ---
 
-#### 5. Consécration ['Béné'!C93]
+#### 5. Consécration
 *École :* École de Bénédiction
 
 *Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
@@ -67,7 +67,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 6. Déqualification ['Malé'!C72]
+#### 6. Déqualification
 *École :* École de Malédiction
 
 *Latin :* Qualis (Qualité), *Arcanique :* Morquali (Mor + quali)
@@ -80,7 +80,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 7. Oblitération ['Malé'!C85]
+#### 7. Oblitération
 *École :* École de Malédiction
 
 *Latin :* Littera (Lettre), *Arcanique :* Muglitera (Mug + litera)
@@ -93,7 +93,7 @@ Génère un enchantement négatif qui réduit la mémoire de la cible de <span s
 
 ---
 
-#### 8. Déprécation ['Malé'!C90]
+#### 8. Déprécation
 *École :* École de Malédiction
 
 *Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
@@ -106,7 +106,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 9. Livre ['Invoc'!C15]
+#### 9. Livre
 *École :* École d'Invocation
 
 *Latin :* Liber (Livre), *Arcanique :* Voliber (Vo + liber)
@@ -119,7 +119,7 @@ Génère un enchantement qui invoque un livre, la charge est de <span style="col
 
 ---
 
-#### 10. Consultation ['Invoc'!C20]
+#### 10. Consultation
 *École :* École d'Invocation
 
 *Latin :* Consulo (Consulter), *Arcanique :* Vanconsul (Van + consul)
@@ -132,7 +132,7 @@ Génère un effet qui permet de consulter la mémoire d'une invocation sur <span
 
 ---
 
-#### 11. Obstruction ['Abju'!C29]
+#### 11. Obstruction
 *École :* École d'Abjuration
 
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
@@ -145,7 +145,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 12. Protestation ['Abju'!C30]
+#### 12. Protestation
 *École :* École d'Abjuration
 
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
@@ -154,11 +154,11 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 **Clés :** 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
 
 ---
 
-#### 13. Neutralisation ['Abju'!C31]
+#### 13. Neutralisation
 *École :* École d'Abjuration
 
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
@@ -167,11 +167,11 @@ ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à 
 
 **Clés :** 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
 
 ---
 
-#### 14. Oblitération ['Abju'!C51]
+#### 14. Oblitération
 *École :* École d'Abjuration
 
 *Latin :* Littera (Lettre, signe), *Arcanique :* Barlita (Bar + lita)
@@ -184,7 +184,7 @@ Génère un effet qui permet au lanceur de sort de connaitre les manoeuvres conn
 
 ---
 
-#### 15. Identification ['Divi'!C7]
+#### 15. Identification
 *École :* École de Divination
 
 *Latin :* Idem (Le même), *Arcanique :* Diidem (Di + idem)
@@ -197,7 +197,7 @@ Génère un effet permettant au lanceur de sort de savoir des choses sur la cibl
 
 ---
 
-#### 16. Confirmation ['Divi'!C8]
+#### 16. Confirmation
 *École :* École de Divination
 
 *Latin :* Firmo (Affirmer), *Arcanique :* Dorfirmo (Dor + firmo)
@@ -210,7 +210,7 @@ Génère un effet permettant au lanceur de sort de valider des choses sur la cib
 
 ---
 
-#### 17. Oraculation ['Divi'!C10]
+#### 17. Oraculation
 *École :* École de Divination
 
 *Latin :* Oraculum (Oracle), *Arcanique :* Darora (Dar + ora)
@@ -223,7 +223,7 @@ Génère un effet permettant au lanceur de sort de connaitre la solution à un p
 
 ---
 
-#### 18. Interrogation ['Divi'!C11]
+#### 18. Interrogation
 *École :* École de Divination
 
 *Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
@@ -236,7 +236,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 19. Élucidation ['Divi'!C12]
+#### 19. Élucidation
 *École :* École de Divination
 
 *Latin :* Lux (Lumière), *Arcanique :* Dorlux (Dor + lux)
@@ -249,7 +249,7 @@ Génère un effet permettant au lanceur de sort de connaitre la solution à un p
 
 ---
 
-#### 20. Érudition ['Divi'!C20]
+#### 20. Érudition
 *École :* École de Divination
 
 *Latin :* Erudio (Instruire), *Arcanique :* Dorerudi (Dor + erudi)
@@ -262,7 +262,7 @@ Génère un effet qui permet au lanceur de sort de réaliser une action de conna
 
 ---
 
-#### 21. Cogitation ['Divi'!C21]
+#### 21. Cogitation
 *École :* École de Divination
 
 *Latin :* Cogito (Penser), *Arcanique :* Delcogi (Del + cogi)
@@ -275,7 +275,7 @@ Génère un effet qui permet au lanceur de sort de d'entreprendre jusqu'à <span
 
 ---
 
-#### 22. Narration ['Divi'!C38]
+#### 22. Narration
 *École :* École de Divination
 
 *Latin :* Narro (Raconter), *Arcanique :* Darnarra (Dar + narra)
@@ -288,7 +288,7 @@ Génère un effet qui permet au lanceur de sort d'avoir l'historique de la cible
 
 ---
 
-#### 23. Rétrospection ['Divi'!C39]
+#### 23. Rétrospection
 *École :* École de Divination
 
 *Latin :* Specio (Regarder), *Arcanique :* Dispecio (Di + specio)
@@ -301,7 +301,7 @@ Génère un effet qui permet au lanceur de sort d'avoir la mémoire de la cible 
 
 ---
 
-#### 24. Rétrospection ['Evoc'!C21]
+#### 24. Rétrospection
 *École :* École d'Évocation
 
 *Latin :* Retro (En arrière), *Arcanique :* Eruretro (Eru + retro)
@@ -314,7 +314,7 @@ Génère un effet qui octroie au lanceur de sort l'historique de la cible sur <s
 
 ---
 
-#### 25. Intrusion ['Evoc'!C25]
+#### 25. Intrusion
 *École :* École d'Évocation
 
 *Latin :* Trudo (Pousser), *Arcanique :* Eruitrud (Eru + itrud)
@@ -327,7 +327,7 @@ Génère un effet qui octroie au lanceur de sort de consulter la mémoire (infor
 
 ---
 
-#### 26. Visualisation ['Evoc'!C29]
+#### 26. Visualisation
 *École :* École d'Évocation
 
 *Latin :* Video (Voir), *Arcanique :* Eruvidi (Eru + vidi)
@@ -340,7 +340,7 @@ Génère un effet qui permet de voir ce que contient un espace interdimentionnel
 
 ---
 
-#### 27. Manifestation ['Evoc'!C35]
+#### 27. Manifestation
 *École :* École d'Évocation
 
 *Latin :* Manes (Esprits, apparences), *Arcanique :* Enmani (En + mani)
@@ -353,7 +353,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 28. Cognition ['Evoc'!C68]
+#### 28. Cognition
 *École :* École d'Évocation
 
 *Latin :* Cogito (Penser), *Arcanique :* Erucogit (Eru + cogit)
@@ -366,7 +366,7 @@ Génère un effet qui déclanche chez le lanceur de sort un test de connaissance
 
 ---
 
-#### 29. Télétransmission ['Evoc'!C71]
+#### 29. Télétransmission
 *École :* École d'Évocation
 
 *Latin :* Mitto (Envoyer), *Arcanique :* Elotrams (Elo + trams)
@@ -379,7 +379,7 @@ Génère un message envoyé à une cible peu importe sa localisation, la distanc
 
 ---
 
-#### 30. Lecture mentale ['Conj'!C41]
+#### 30. Lecture mentale
 *École :* École de Conjuration
 
 *Latin :* Mente (Esprit), *Arcanique :* Colment (Col + ment)
@@ -392,7 +392,7 @@ Génère un enchantement qui permet au lanceur de sort d'entendre les pensées d
 
 ---
 
-#### 31. Falsification ['Alté'!C33]
+#### 31. Falsification
 *École :* École d'Altération
 
 *Latin :* Fallo (Tromper), *Arcanique :* Asfall (As + fall)
@@ -405,7 +405,7 @@ Dénature l'indice, la piste ou autre information ciblé, lui donnant une toute 
 
 ---
 
-#### 32. Fabrication ['Alté'!C34]
+#### 32. Fabrication
 *École :* École d'Altération
 
 *Latin :* Facere (Faire), *Arcanique :* Aenfac (Aen + fac)

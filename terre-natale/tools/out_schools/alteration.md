@@ -2,7 +2,7 @@
 
 > 43 mots pour cette école
 
-#### 1. Sublimification ['Alté'!C3]
+#### 1. Sublimification
 *Latin :* Sublimis (Élevé), *Arcanique :* Alsublim (Al + sublim)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -13,7 +13,7 @@ Produit un effet qui change l'état (gaz, liquide ou solide) de <span style="col
 
 ---
 
-#### 2. Fructification ['Alté'!C4]
+#### 2. Fructification
 *Latin :* Fructus (Fruit), *Arcanique :* Arfruct (Ar + fruct)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -24,7 +24,7 @@ L'effet du sort provoque la pousse de fruits comestible pour <span style="color:
 
 ---
 
-#### 3. Arborisation ['Alté'!C5]
+#### 3. Arborisation
 *Latin :* Arbor (Arbre), *Arcanique :* Asarbor (As + arbor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -35,7 +35,7 @@ L'effet du sort provoque la pousse de <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 4. Fendaison ['Alté'!C6]
+#### 4. Fendaison
 *Latin :* Findo (Fendre), *Arcanique :* Aenfind (Aen + find)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -46,7 +46,7 @@ L'effet du sort génère une crevasse sur un sol de pierre, la largeur x longueu
 
 ---
 
-#### 5. Transmutation ['Alté'!C7]
+#### 5. Transmutation
 *Latin :* Muto (Changer), *Arcanique :* Almutat (Al + mutat)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -57,7 +57,7 @@ L'effet du sort convertis jusqu'à <span style="color:#ff1493; font-weight:bold;
 
 ---
 
-#### 6. Reforgation ['Alté'!C8]
+#### 6. Reforgation
 *Latin :* Fero (Porter/Façonner), *Arcanique :* Arfero (Ar + fero)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -68,7 +68,7 @@ L'effet du sort change le type d'une arme jusqu'à <span style="color:#ff1493; f
 
 ---
 
-#### 7. Conditionnement ['Alté'!C9]
+#### 7. Conditionnement
 *Latin :* Condicio (Condition), *Arcanique :* Ascondi (As + condi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -79,7 +79,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 8. Affliction ['Alté'!C10]
+#### 8. Affliction
 *Latin :* Fligo (Frapper), *Arcanique :* Aenfligo (Aen + fligo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -90,7 +90,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 9. Intoxication ['Alté'!C11]
+#### 9. Intoxication
 *Latin :* Toxum (Poison, grec), *Arcanique :* Altox (Al + tox)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -101,7 +101,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 10. Infection ['Alté'!C12]
+#### 10. Infection
 *Latin :* Inficio (Souiller), *Arcanique :* Arinfic (Ar + infic)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -112,7 +112,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 11. Conversion ['Alté'!C13]
+#### 11. Conversion
 *Latin :* Verto (Tourner), *Arcanique :* Asvert (As + vert)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -123,7 +123,7 @@ Génère un effet qui convertis un maximum de <span style="color:#ff1493; font-w
 
 ---
 
-#### 12. Corruption ['Alté'!C14]
+#### 12. Corruption
 *Latin :* Rumpo (Briser), *Arcanique :* Aenrump (Aen + rump)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -134,7 +134,7 @@ Génère un effet qui convertis un maximum de <span style="color:#ff1493; font-w
 
 ---
 
-#### 13. Ponction ['Alté'!C15]
+#### 13. Ponction
 *Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -145,7 +145,7 @@ Génère un effet qui transfert un maximum de <span style="color:#ff1493; font-w
 
 ---
 
-#### 14. Réparation ['Alté'!C16]
+#### 14. Réparation
 *Latin :* Paro (Préparer), *Arcanique :* Arparo (Ar + paro)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -156,7 +156,7 @@ L'effet du sort répare un objet ou structure (dont la nature coRespond à la <s
 
 ---
 
-#### 15. Floraison ['Alté'!C17]
+#### 15. Floraison
 *Latin :* Flos (Fleur), *Arcanique :* Asflos (As + flos)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -167,7 +167,7 @@ Génère un effet fait pousser des plantes de façon permanente sur le lieu cibl
 
 ---
 
-#### 16. Racination ['Alté'!C18]
+#### 16. Racination
 *Latin :* Radix (Racine), *Arcanique :* Aenradi (Aen + radi)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -178,7 +178,7 @@ Génère un effet fait pousser des racines de façon permanente sur le lieu cibl
 
 ---
 
-#### 17. Transfusion ['Alté'!C19]
+#### 17. Transfusion
 *Latin :* Fundo (Verser), *Arcanique :* Alfundo (Al + fundo)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -189,7 +189,7 @@ Génère un effet qui convertie, chez la cible, une première ressource (selon u
 
 ---
 
-#### 18. Rééquilibration ['Alté'!C20]
+#### 18. Rééquilibration
 *Latin :* Aequus (Égal), *Arcanique :* Araequus (Ar + aequus)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -200,7 +200,7 @@ Rééquilibre les ressources de la cible: Toutes les ressources sont ajoutés av
 
 ---
 
-#### 19. Déséquilibration ['Alté'!C21]
+#### 19. Déséquilibration
 *Latin :* Libra (Balance), *Arcanique :* Aslibra (As + libra)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -211,7 +211,7 @@ Déséquilibre les ressources de la cible: Toutes les ressources sont ajoutés a
 
 ---
 
-#### 20. Canalisation ['Alté'!C22]
+#### 20. Canalisation
 *Latin :* Canalis (Conduit), *Arcanique :* Aencanali (Aen + canali)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -222,7 +222,7 @@ Génère un effet qui redirige jusqu'à un maximum total de <span style="color:#
 
 ---
 
-#### 21. Altération ['Alté'!C23]
+#### 21. Altération
 *Latin :* Alter (Autre), *Arcanique :* Alalter (Al + alter)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -233,7 +233,7 @@ Génère un effet qui inflige deux conditions négatives aléatoire avec <span s
 
 ---
 
-#### 22. Bénédiction ['Alté'!C24]
+#### 22. Bénédiction
 *Latin :* Benedico (Dire du bien), *Arcanique :* Arbene (Ar + bene)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -244,7 +244,7 @@ Génère un effet qui inflige deux conditions positif aléatoire avec <span styl
 
 ---
 
-#### 23. Décharge ['Alté'!C25]
+#### 23. Décharge
 *Latin :* Cargo (Charge), *Arcanique :* Ascargo (As + cargo)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -255,7 +255,7 @@ Génère un effet qui décharge jusqu'à un maximum de <span style="color:#ff149
 
 ---
 
-#### 24. Animisation ['Alté'!C26]
+#### 24. Animisation
 *Latin :* Anima (Âme), *Arcanique :* Aenanima (Aen + anima)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu
 *Difficulté :* 2, *Drain :* 2
@@ -266,7 +266,7 @@ La plante ciblé deviens une créature autonome, elle présente les caractérist
 
 ---
 
-#### 25. Déconstruction ['Alté'!C27]
+#### 25. Déconstruction
 *Latin :* Struo (Construire), *Arcanique :* Alstruo (Al + struo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -277,7 +277,7 @@ L'effet du sort recycle jusqu'à <span style="color:#ff1493; font-weight:bold;">
 
 ---
 
-#### 26. Construction ['Alté'!C28]
+#### 26. Construction
 *Latin :* Aedifico (Édifier), *Arcanique :* Aredifi (Ar + edifi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -288,18 +288,18 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 27. Fabrication ['Alté'!C29]
+#### 27. Fabrication
 *Latin :* Faber (Ouvrier), *Arcanique :* Asfaber (As + faber)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 6
 
 **Clés :** ⚔️ Acier: Asfaberan (Métaux), 🐗 Faune: Asfaberorh (Cuir), 🌿 Flore: Asfaberiln (Bois), 🌿 Flore: Asfaberiln (Tissu), 🪨 Terre: Asfaberum (Minéraux), ✡️ Arcane: Asfaberys (Tout)
 
-L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> un type qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le potenciel peux être utilisé pour augmenter la catégorie (5 par catégorie), la qualité (2 pour qualité 1, puis 4 pour passer à qualité 2, puis 6... etc), les améliorations (comme pour les qualités), qualité et améliorations étant limités à <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>, ce sort requière 100% des matières premières et n'a pas de durée.
+L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> un type qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le potenciel peux être utilisé pour augmenter la catégorie (5 par catégorie), la qualité (2 pour qualité 1, puis 4 pour passer à qualité 2, puis 6... etc), les améliorations (comme pour les qualités), qualité et améliorations étant limités à <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>, ce sort requière 100% des matières premières et n'a pas de durée, le domaine des arcanes s'applique à toutes les matières mais le jet est très très limité (maximum des dés -3, soit 3 par défaut).
 
 ---
 
-#### 28. Amélioration ['Alté'!C30]
+#### 28. Amélioration
 *Latin :* Melior (Meilleur), *Arcanique :* Aenmelior (Aen + melior)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 2
@@ -310,7 +310,7 @@ L'effet du sort améliore la qualité d'un objet avec un potenciel de <span styl
 
 ---
 
-#### 29. Création ['Alté'!C31]
+#### 29. Création
 *Latin :* Creo (Créer), *Arcanique :* Alcreo (Al + creo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 12
@@ -321,7 +321,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 30. Solidification ['Alté'!C32]
+#### 30. Solidification
 *Latin :* Solidus (Solide), *Arcanique :* Arsoli (Ar + soli)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -332,7 +332,7 @@ Génère de la résistance temporaire afin de renforcer un objet (dont la nature
 
 ---
 
-#### 31. Falsification ['Alté'!C33]
+#### 31. Falsification
 *Latin :* Fallo (Tromper), *Arcanique :* Asfall (As + fall)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -343,7 +343,7 @@ Dénature l'indice, la piste ou autre information ciblé, lui donnant une toute 
 
 ---
 
-#### 32. Fabrication ['Alté'!C34]
+#### 32. Fabrication
 *Latin :* Facere (Faire), *Arcanique :* Aenfac (Aen + fac)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -354,7 +354,7 @@ Génère un (faux) indice, une piste ou autre forme d'information, lui donnant u
 
 ---
 
-#### 33. Miroitement ['Alté'!C35]
+#### 33. Miroitement
 *Latin :* Speculum (Miroir), *Arcanique :* Alspecul (Al + specul)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -365,7 +365,7 @@ Altère une surface transparente, mat ou sans teint afin de lui faire prendre un
 
 ---
 
-#### 34. Sublimation ['Alté'!C36]
+#### 34. Sublimation
 *Latin :* Sublimo (Élever), *Arcanique :* Arsubli (Ar + subli)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 0
@@ -376,7 +376,7 @@ Génère un effet qui fait passer les conditions positives "normales" de la cibl
 
 ---
 
-#### 35. Envenimation ['Alté'!C37]
+#### 35. Envenimation
 *Latin :* Veneno (Poison), *Arcanique :* Asvenen (As + venen)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 0
@@ -387,7 +387,7 @@ Génère un effet qui fait passer les conditions négatives "normales" de la cib
 
 ---
 
-#### 36. Renforcement ['Alté'!C38]
+#### 36. Renforcement
 *Latin :* Roboro (Fortifier), *Arcanique :* Aenrobor (Aen + robor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -398,7 +398,7 @@ Génère un enchantement positive qui augmente les dégats de l'arme (actions d'
 
 ---
 
-#### 37. Impactation ['Alté'!C39]
+#### 37. Impactation
 *Latin :* Impingo (Frapper), *Arcanique :* Alimpac (Al + impac)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -409,7 +409,7 @@ Génère un enchantement positive qui augmente l'impact de l'arme (actions tacti
 
 ---
 
-#### 38. Déviation ['Alté'!C40]
+#### 38. Déviation
 *Latin :* Devius (Détourné), *Arcanique :* Ardevi (Ar + devi)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -420,7 +420,7 @@ Génère un enchantement positive qui augmente la déviation de l'arme (actions 
 
 ---
 
-#### 39. Solidification ['Alté'!C41]
+#### 39. Solidification
 *Latin :* Durus (Dur), *Arcanique :* Asdur (As + dur)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -431,7 +431,7 @@ Génère un enchantement positive qui augmente la résistance de l'armure enchan
 
 ---
 
-#### 40. Amélioration ['Alté'!C42]
+#### 40. Amélioration
 *Latin :* Potius (Mieux), *Arcanique :* Aenpoti (Aen + poti)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -442,7 +442,7 @@ Génère un enchantement positive qui augmente une caractéristique de l'arme (p
 
 ---
 
-#### 41. Evolution ['Alté'!C43]
+#### 41. Evolution
 *Latin :* Volvo (Rouler), *Arcanique :* Alvolv (Al + volv)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -453,7 +453,7 @@ Génère un effet qui change la cible non humanoïde en sa version "primale", so
 
 ---
 
-#### 42. Hématisation ['Alté'!C44]
+#### 42. Hématisation
 *Latin :* Haema (Sang, grec), *Arcanique :* Arhaema (Ar + haema)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -464,7 +464,7 @@ Génère un enchantement positive qui augmente les dégats de l'arme (actions d'
 
 ---
 
-#### 43. Pétrification ['Alté'!C45]
+#### 43. Pétrification
 *Latin :* Petra (Roche), *Arcanique :* Aspetra (As + petra)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 6

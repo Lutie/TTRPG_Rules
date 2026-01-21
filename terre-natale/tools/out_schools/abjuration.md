@@ -2,7 +2,7 @@
 
 > 52 mots pour cette école
 
-#### 1. Imprégnation ['Abju'!C3]
+#### 1. Imprégnation
 *Latin :* Imbueo (Imprégner), *Arcanique :* Borimbue (Bor + imbue)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -13,7 +13,7 @@ Génère un effet qui augmente la difficulté arcanique d'un autre sort en cours
 
 ---
 
-#### 2. Déviation ['Abju'!C4]
+#### 2. Déviation
 *Latin :* Deverto (Détourner), *Arcanique :* Brivert (Bri + vert)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -24,7 +24,7 @@ Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[M
 
 ---
 
-#### 3. Réduction ['Abju'!C5]
+#### 3. Réduction
 *Latin :* Minuo (Diminuer), *Arcanique :* Basminu (Bas + minu)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -35,7 +35,7 @@ Génère un effet qui réduit la magnitude de <span style="color:#ff1493; font-w
 
 ---
 
-#### 4. Désenchantement ['Abju'!C6]
+#### 4. Désenchantement
 *Latin :* Fallo (Tromper), *Arcanique :* Brenfallo (Bren + fallo)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu/Cible
 *Difficulté :* 2, *Drain :* 2
@@ -46,7 +46,7 @@ Génère un effet qui provoque une décharge de <span style="color:#ff1493; font
 
 ---
 
-#### 5. Suppression ['Abju'!C7]
+#### 5. Suppression
 *Latin :* Premo (Presser, supprimer), *Arcanique :* Barpremo (Bar + premo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -57,7 +57,7 @@ Génère un effet qui provoque une décharge de <span style="color:#ff1493; font
 
 ---
 
-#### 6. Corruption ['Abju'!C8]
+#### 6. Corruption
 *Latin :* Vitio (Corrompre), *Arcanique :* Borviti (Bor + viti)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -68,7 +68,7 @@ Génère un effet qui retire jusqu'à <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 7. Convertion ['Abju'!C9]
+#### 7. Convertion
 *Latin :* Muto (Changer), *Arcanique :* Basmutatio (Bas + mutatio)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -79,7 +79,7 @@ Génère un effet qui retire jusqu'à <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 8. Confiscation ['Abju'!C10]
+#### 8. Confiscation
 *Latin :* Confisco (Confisquer), *Arcanique :* Brinfisc (Bri + fisc)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -90,7 +90,7 @@ Génère un effet qui octroie le contrôle de l'enchantement ciblé si ce dernie
 
 ---
 
-#### 9. Délocalisation ['Abju'!C11]
+#### 9. Délocalisation
 *Latin :* Locus (Lieu), *Arcanique :* Barlocus (Bar + locus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -101,7 +101,7 @@ Génère un effet qui permet de déplacer l'enchantement de cible (qui doit rest
 
 ---
 
-#### 10. Annulation ['Abju'!C12]
+#### 10. Annulation
 *Latin :* Casso (Détruire, annuler), *Arcanique :* Belcasso (Bel + casso)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -112,7 +112,7 @@ Génère un effet qui annule l'action à venir de la cible cette dernière a moi
 
 ---
 
-#### 11. Rétroaction ['Abju'!C13]
+#### 11. Rétroaction
 *Latin :* Ago (Agir), *Arcanique :* Basago (Bas + ago)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
@@ -123,7 +123,7 @@ Génère un effet qui retourne l'action à venir de la cible contre elle même �
 
 ---
 
-#### 12. Protection ['Abju'!C14]
+#### 12. Protection
 *Latin :* Tego (Protéger, couvrir), *Arcanique :* Brentu (Bren + tu)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -134,7 +134,7 @@ Génère un enchantement neutre de type barrière physique pouvant absorber jusq
 
 ---
 
-#### 13. Préservation ['Abju'!C15]
+#### 13. Préservation
 *Latin :* Servo (Sauver, garder), *Arcanique :* Borserv (Bor + serv)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -145,7 +145,7 @@ Génère un enchantement neutre de type barrière mentale pouvant absorber jusqu
 
 ---
 
-#### 14. Absorption ['Abju'!C16]
+#### 14. Absorption
 *Latin :* Sorbeo (Boire, aspirer), *Arcanique :* Belsorb (Bel + sorb)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -156,7 +156,7 @@ Génère un enchantement neutre de type barrière magique pouvant absorber jusqu
 
 ---
 
-#### 15. Entravation ['Abju'!C17]
+#### 15. Entravation
 *Latin :* Impedio (Empêcher), *Arcanique :* Baspedio (Bas + pedio)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -167,7 +167,7 @@ Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'�
 
 ---
 
-#### 16. Isolation ['Abju'!C18]
+#### 16. Isolation
 *Latin :* Solus (Seul), *Arcanique :* Brenisol (Bren + isol)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -178,7 +178,7 @@ Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'�
 
 ---
 
-#### 17. Prévention ['Abju'!C19]
+#### 17. Prévention
 *Latin :* Caveo (Prendre garde), *Arcanique :* Borsus (Bor + cave)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -189,7 +189,7 @@ Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'�
 
 ---
 
-#### 18. Extinction ['Abju'!C20]
+#### 18. Extinction
 *Latin :* Tingo (Éteindre), *Arcanique :* Beltinto (Bel + tinto)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -200,7 +200,7 @@ Génère un effet neutralisant jusqu'à <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 19. Restriction ['Abju'!C21]
+#### 19. Restriction
 *Latin :* Stringo (ResseRer), *Arcanique :* Basstrin (Bas + strin)
 *Type de mot :* Pouvoir, *Type de cible :* Lieu/Cible
 *Difficulté :* 2, *Drain :* 2
@@ -211,7 +211,7 @@ Génère un effet qui génère une pénalité de <span style="color:#ff1493; fon
 
 ---
 
-#### 20. Interdiction ['Abju'!C22]
+#### 20. Interdiction
 *Latin :* Veto (J'interdis), *Arcanique :* Brenveto (Bren + veto)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -222,40 +222,40 @@ Génère un enchantement positif qui interdit les autres de réaliser une action
 
 ---
 
-#### 21. Contradiction ['Abju'!C23]
+#### 21. Contradiction
 *Latin :* Contra (Contre), *Arcanique :* Bricontra (Bri + contra)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** ✡️ Arcane: Bricontrays
 
-ContrecaRe le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues.
+Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues.
 
 ---
 
-#### 22. Inhibition ['Abju'!C24]
+#### 22. Inhibition
 *Latin :* Habeo (Tenir), *Arcanique :* Belhabe (Bel + habe)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** ✡️ Arcane: Belhabeys
 
-ContrecaRe le pouvoir surnaturel (dons etc) ciblé dont la valeurs (chi dépensés, etc) est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues.
+Contrecarre le pouvoir surnaturel (dons etc) ciblé dont la valeurs (chi dépensés, etc) est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues.
 
 ---
 
-#### 23. Opposition ['Abju'!C25]
+#### 23. Opposition
 *Latin :* Pono (Placer), *Arcanique :* Basoppo (Bas + oppo)
 *Type de mot :* Interruption, *Type de cible :* Cible
-*Difficulté :* 2, *Drain :* 2
+*Difficulté :* 0, *Drain :* 0
 
 **Clés :** ✡️ Arcane: Basoppoys
 
-ContrecaRe le sort ciblé à moins que le lanceur de sort ne dépasse <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> PM (temporaires ou non).
+Contrecarre le sort ciblé à moins que le lanceur de sort ne dépasse <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> PM (temporaires ou non), le lanceur de sort doit dépenser les PM qu'il puisse ou non dépasser cette valeur.
 
 ---
 
-#### 24. Contestation ['Abju'!C26]
+#### 24. Contestation
 *Latin :* Testor (Témoigner), *Arcanique :* Brentes (Bren + tes)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -266,7 +266,7 @@ Génère un enchantement négatif qui empêche la cible de lancer un sort d'un d
 
 ---
 
-#### 25. Extraction ['Abju'!C27]
+#### 25. Extraction
 *Latin :* Extraho (Tirer hors de), *Arcanique :* Barextra (Bar + extra)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -277,7 +277,7 @@ Génère un effet qui téléporte (sans collisions donc) la cible d'un point A �
 
 ---
 
-#### 26. Interdiction ['Abju'!C28]
+#### 26. Interdiction
 *Latin :* Arc (Arcer), *Arcanique :* Borarceo (Bor + arceo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -288,7 +288,7 @@ Génère un enchantement négatif qui interdit les autres de réaliser une actio
 
 ---
 
-#### 27. Obstruction ['Abju'!C29]
+#### 27. Obstruction
 *Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -299,29 +299,29 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 28. Protestation ['Abju'!C30]
+#### 28. Protestation
 *Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.
 
 ---
 
-#### 29. Neutralisation ['Abju'!C31]
+#### 29. Neutralisation
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh
 
-ContrecaRe le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).
 
 ---
 
-#### 30. Réprobation ['Abju'!C32]
+#### 30. Réprobation
 *Latin :* Reproba (Désapprouver), *Arcanique :* Bripoba (Bri + proba)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -332,7 +332,7 @@ Génère un enchantement négatif qui interdit les autres de réaliser une actio
 
 ---
 
-#### 31. Déflexion ['Abju'!C33]
+#### 31. Déflexion
 *Latin :* Flecto (Courber), *Arcanique :* Basfleto (Bas + fleto)
 *Type de mot :* Interruption, *Type de cible :* Soi
 *Difficulté :* 2, *Drain :* 2
@@ -343,7 +343,7 @@ Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[M
 
 ---
 
-#### 32. Redirection ['Abju'!C34]
+#### 32. Redirection
 *Latin :* Dirigo (Diriger), *Arcanique :* Brendirigo (Bren + dirigo)
 *Type de mot :* Interruption, *Type de cible :* Soi
 *Difficulté :* 6, *Drain :* 6
@@ -354,7 +354,7 @@ Génère un effet qui renvoie un projectile (peu importe sa forme) à son celui 
 
 ---
 
-#### 33. Négation ['Abju'!C35]
+#### 33. Négation
 *Latin :* Nego (Je nie), *Arcanique :* Barnega (Bar + nega)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -365,7 +365,7 @@ Génère un enchantement qui permet à la cible de sacrifier 1 PM pour réduire 
 
 ---
 
-#### 34. Répulsion ['Abju'!C36]
+#### 34. Génère un enchantement qui renvoie les sorts non critiques reçus aux lanceur de sort, la magnitude du sort renvoyé est limité à [Magnitude/2] (le sort est renvoyé quoi qu'il arrive, c'est sa puissance qui réduite), chaque fois qu'un sort est renvoyé cet enchantement subit une décharge, ne fonctionne pas sur les sorts de zone
 *Latin :* Pello (Pousser), *Arcanique :* Borpello (Bor + pello)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -376,7 +376,7 @@ Génère un enchantement qui renvoie les sorts non critiques reçus aux lanceur 
 
 ---
 
-#### 35. Distraction ['Abju'!C37]
+#### 35. Distraction
 *Latin :* Traho (Tirer), *Arcanique :* Bastracto (Bas + tracto)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -387,7 +387,7 @@ Génère un effet qui augmente la difficulté d'un sort en cours d'incantation d
 
 ---
 
-#### 36. Surexposition ['Abju'!C38]
+#### 36. Surexposition
 *Latin :* Expono (Exposer), *Arcanique :* Brenpono (Bren + pono)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -398,7 +398,7 @@ Génère un effet qui double la brûlure d'un sort en cours d'incantation, avec 
 
 ---
 
-#### 37. Dissuasion ['Abju'!C39]
+#### 37. Dissuasion
 *Latin :* Suadeo (Conseiller), *Arcanique :* Barvias (Bar + vias)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -409,7 +409,7 @@ Génère un effet qui augmente la difficulté d'une action qui vise le lanceur d
 
 ---
 
-#### 38. Réfraction ['Abju'!C40]
+#### 38. Réfraction
 *Latin :* Frango (Briser), *Arcanique :* Brifrang (Bri + frang)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -420,7 +420,7 @@ Génère un enchantement qui renvoie les sorts conditions reçus à l'auteur de 
 
 ---
 
-#### 39. Transposition ['Abju'!C41]
+#### 39. Transposition
 *Latin :* Pono (Placer), *Arcanique :* Basposto (Bas + posto)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -431,7 +431,7 @@ Génère un enchantement qui lie la cible à un arbre à proximité de lui, tant
 
 ---
 
-#### 40. Interposition ['Abju'!C42]
+#### 40. Interposition
 *Latin :* Pono (Placer), *Arcanique :* Breniposi (Bren + posi)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -442,7 +442,7 @@ Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'�
 
 ---
 
-#### 41. Déflection ['Abju'!C43]
+#### 41. Déflection
 *Latin :* Curvo (Courber), *Arcanique :* Barcurvo (Bar + curvo)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -453,7 +453,7 @@ Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'�
 
 ---
 
-#### 42. Introspection ['Abju'!C44]
+#### 42. Introspection
 *Latin :* Intra (Dedans), *Arcanique :* Borintra (Bor + intra)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -464,7 +464,7 @@ Génère un enchantement neutre de type barrière mentale pouvant absorber jusqu
 
 ---
 
-#### 43. Dissipation ['Abju'!C45]
+#### 43. Dissipation
 *Latin :* Disipo (Disperser), *Arcanique :* Basdisipo (Bas + disipo)
 *Type de mot :* Barrière, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -475,7 +475,7 @@ Génère un enchantement neutre de type barrière magique pouvant absorber jusqu
 
 ---
 
-#### 44. Fortification ['Abju'!C46]
+#### 44. Fortification
 *Latin :* Fortis (Fort), *Arcanique :* Brenfortis (Bren + fortis)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -486,7 +486,7 @@ Génère un effet qui augmente la défense passive contre les attaques physiques
 
 ---
 
-#### 45. Consolidation ['Abju'!C47]
+#### 45. Consolidation
 *Latin :* Solidus (Solide), *Arcanique :* Brisolid (Bri + solid)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -497,7 +497,7 @@ Génère un effet qui augmente la défense passive contre les tactiques physique
 
 ---
 
-#### 46. Fragilisation ['Abju'!C48]
+#### 46. Fragilisation
 *Latin :* Frango (Briser), *Arcanique :* Belfragi (Bel + fragi)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -508,7 +508,7 @@ Génère un effet qui réduit la défense passive contre les attaques ou défens
 
 ---
 
-#### 47. Occultation ['Abju'!C49]
+#### 47. Occultation
 *Latin :* Occulto (Cacher), *Arcanique :* Basoccult (Bas + occult)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -519,7 +519,7 @@ Génère un enchantement positif qui permet de cacher ses pensés/son esprit/ses
 
 ---
 
-#### 48. Simplification ['Abju'!C50]
+#### 48. Simplification
 *Latin :* Simplex (Simple), *Arcanique :* Brensim (Bren + sim)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -530,7 +530,7 @@ Génère un effet qui annule la manoeuvre en cours d'utilisation si la cible a m
 
 ---
 
-#### 49. Oblitération ['Abju'!C51]
+#### 49. Oblitération
 *Latin :* Littera (Lettre, signe), *Arcanique :* Barlita (Bar + lita)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -541,7 +541,7 @@ Génère un effet qui permet au lanceur de sort de connaitre les manoeuvres conn
 
 ---
 
-#### 50. Retardement ['Abju'!C52]
+#### 50. Retardement
 *Latin :* Tardo (Retarder), *Arcanique :* Bortardo (Bor + tardo)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -552,7 +552,7 @@ Génère un effet qui réduit le test d'initiative d'une cible de <span style="c
 
 ---
 
-#### 51. Hésitation ['Abju'!C53]
+#### 51. Hésitation
 *Latin :* Haesito (Hésiter), *Arcanique :* Bashaes (Bas + haes)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -563,7 +563,7 @@ Génère un effet qui augmente le cout d'un type d'action au choix (attaque, tac
 
 ---
 
-#### 52. Perturbation ['Abju'!C54]
+#### 52. Perturbation
 *Latin :* Turbo (Troubler), *Arcanique :* Brinturb (Bri + turb)
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2

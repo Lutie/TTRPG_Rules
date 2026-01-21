@@ -501,11 +501,11 @@ def generate_extra_words_json() -> None:
             if row_values.get("name") == "Soi":
                 print(f"[DEBUG] Feuille {sheet_code}, ligne {idx + 1} (Soi) valeurs : {row_values}")
 
-            # si tout est vide -> fin du tableau
+            # si tout est vide → fin du tableau
             if all(v == "" for v in row_values.values()):
                 break
 
-            # si partiellement vide -> on ignore la ligne
+            # si partiellement vide → on ignore la ligne
             if any(v == "" for v in row_values.values()):
                 continue
 
@@ -784,6 +784,7 @@ def generate_spells_from_sorts() -> None:
             if entry:
                 latin = entry.get("latin", "")
                 arcane = entry.get("arcane", "")
+                word_type_str = entry.get("word_type", "")
                 desc_raw = ensure_final_dot(entry.get("description", ""))
                 desc_md = highlight_brackets(desc_raw)
 
@@ -794,9 +795,12 @@ def generate_spells_from_sorts() -> None:
                     if cell_ref:
                         ref_part = f" [{cell_ref}]"
 
+                # Add word type
+                type_part = f" [{word_type_str}]" if word_type_str else ""
+
                 line = (
                     f"**{ROLE_LABELS['power']} :** "
-                    f"{entry.get('vulgar', name)}{ref_part} ({latin} / {arcane}) : {desc_md}"
+                    f"{entry.get('vulgar', name)}{ref_part} ({latin} / {arcane}){type_part} : {desc_md}"
                 )
             else:
                 line = (
@@ -818,9 +822,14 @@ def generate_spells_from_sorts() -> None:
             name = w["name"]
 
             if entry:
+                word_type_str = entry.get("word_type", "")
                 desc_raw = ensure_final_dot(entry.get("description", ""))
                 desc_md = highlight_brackets(desc_raw)
-                line = f"**{label} :** {entry.get('name', name)} : {desc_md}"
+                
+                # Add word type for extra words too
+                type_part = f" [{word_type_str}]" if word_type_str else ""
+                
+                line = f"**{label} :** {entry.get('name', name)}{type_part} : {desc_md}"
                 lines.append(line)
 
                 # cas spécial : mot de structure → Modificateurs de Magnitude

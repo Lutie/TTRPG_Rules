@@ -2,73 +2,73 @@
 
 > 12 mots pour cette école
 
-#### 1. Restauration ['Rest'!C3]
+#### 1. Restauration
 *Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
-**Clés :** ❤️ Vie: Restaura ir (PV), 🧩 Mental: Restauraend (PS), 🌀 Chaos: Restauraix (PK), ⚕️ Corps: Restauraen (PC), 🧠 Esprit: Restaurays (PC), 🔮 Magie: Restaurairn (PM), 🪷 Nature: Restauraeiln (PE/fatigue)
+**Clés :** ❤️ Vie: Restaurair (PV), 🧩 Mental: Restauraend (PS), 🌀 Chaos: Restauraix (PK), ⚕️ Corps: Restauraen (PC), 🧠 Esprit: Restaurays (PC), 🔮 Magie: Restaurairn (PM), 🪷 Nature: Restauraeiln (PC/PE/fatigue)
 
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant une ressource qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>, génère la moitié du soin effectif en fatigue.
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant une ressource qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>, ce soin n'est pas dispensé des règles des soins naturels et de la fatigue (voir guérison dans les règles de base).
 
 ---
 
-#### 2. Vivification ['Rest'!C4]
+#### 2. Vivification
 *Latin :* Vita (Vie), *Arcanique :* Renvita (Ren + vita)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** Toutes les clés permettant une invocation
 
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type coRespond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée).
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée).
 
 ---
 
-#### 3. Revitalisation ['Rest'!C5]
+#### 3. Revitalisation
 *Latin :* Vigor (Force, Vigueur), *Arcanique :* Ryuvigo (Ryu + vigo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
-*Difficulté :* 4, *Drain :* 4
+*Difficulté :* 2, *Drain :* 2
 
 **Clés :** 🪷 Nature: Ryuvigoeiln
 
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> visant l'endurance (PE), génère le quart en fatigue.
+Produit un soin de l'endurance (PE) équivalant à la moitié des PE manquants, avec pour maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, ce soin est dispensé des règles des soins naturels et de la fatigue.
 
 ---
 
-#### 4. Réinvigoration ['Rest'!C6]
+#### 4. Réinvigoration
 *Latin :* Roboro (Je fortifie), *Arcanique :* Rhorobor (Rho + robor)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** 🪷 Nature: Rhoroboreiln
 
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant l'endurance (PE), sans fatigue.
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant l'endurance (PE), ce soin est dispensé des règles des soins naturels et de la fatigue.
 
 ---
 
-#### 5. Transfusion ['Rest'!C7]
+#### 5. Transfusion
 *Latin :* Fundo (Je verse), *Arcanique :* Refund (Re + fund)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** 🪷 Nature: Refundeiln
 
-Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> chi (PC) en <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> endurance (PE).
+Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> chi (PC) en <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> endurance (PE), ce soin est dispensé des règles des soins naturels et de la fatigue.
 
 ---
 
-#### 6. Grandiloquence ['Rest'!C8]
+#### 6. Grandiloquence
 *Latin :* Magnus (Grand), *Arcanique :* Relmagnus (Rel + magnus)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
 **Clés :** 🎭 Illusion: Relmagnusin
 
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de n'importe quelle ressource, à la fin de la scène ces ressources sont immédiatement perdus (ce qui peux entrainer la mort ou le passage en négatif d'une ressource).
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de n'importe quelle ressource, à la fin de la scène ces ressources sont immédiatement perdus (ce qui peux entrainer la mort ou le passage en négatif d'une ressource), ce soin est dispensé des règles des soins naturels et de la fatigue.
 
 ---
 
-#### 7. Revigoration ['Rest'!C9]
+#### 7. Revigoration
 *Latin :* Vigor (Force, Vigueur), *Arcanique :* Rasvigore (Ras + vigore)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -79,7 +79,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]<
 
 ---
 
-#### 8. Purification ['Rest'!C10]
+#### 8. Purification
 *Latin :* Purgo (Je nettoie), *Arcanique :* Rhopurgo (Rho + purgo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -90,7 +90,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]<
 
 ---
 
-#### 9. Canalisation ['Rest'!C11]
+#### 9. Canalisation
 *Latin :* Canalis (Conduit), *Arcanique :* Recana (Re + cana)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -101,7 +101,7 @@ Produit un soin qui convertis un maximum de <span style="color:#ff1493; font-wei
 
 ---
 
-#### 10. Dissolution ['Rest'!C12]
+#### 10. Dissolution
 *Latin :* Solvo (Délier), *Arcanique :* Rensolvo (Ren + solvo)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -112,7 +112,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 11. Neutralisation ['Rest'!C13]
+#### 11. Neutralisation
 *Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Rasneuta (Ras + neuta)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
@@ -123,7 +123,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 12. Absolution ['Rest'!C14]
+#### 12. Absolution
 *Latin :* Absolvo (Je délie), *Arcanique :* Rhoabsol (Rho + absol)
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
