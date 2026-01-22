@@ -2,8 +2,8 @@
 
 > 38 mots pour cette école
 
-#### 1. Rétrocognition
-*Latin :* Retro (Arrière) + Nosco (Connaître), *Arcanique :* Diretro (Di + retro)
+#### 1. Rétrocognition ['Divi'!C3]
+*Latin :* Retro (Arrière) + Nosco (Connaître), *Arcanique :* Diretro (Di + retro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -13,8 +13,8 @@ Génère un effet permettant au lanceur de sort de consulter le passé de la cib
 
 ---
 
-#### 2. Précognition
-*Latin :* Prae (Avant) + Nosco (Connaître), *Arcanique :* Dornosc (Dor + nosc)
+#### 2. Précognition ['Divi'!C4]
+*Latin :* Prae (Avant) + Nosco (Connaître), *Arcanique :* Dornosc (Dor + nosc) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -24,8 +24,8 @@ Génère un effet permettant au lanceur de sort de consulter le futur de la cibl
 
 ---
 
-#### 3. Remémoration
-*Latin :* Memoria (Mémoire), *Arcanique :* Delmemo (Del + memo)
+#### 3. Remémoration ['Divi'!C5]
+*Latin :* Memoria (Mémoire), *Arcanique :* Delmemo (Del + memo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -35,8 +35,8 @@ Génère un effet permettant au lanceur de sort de consulter la mémoire de la c
 
 ---
 
-#### 4. Scrutation
-*Latin :* Scrutator (Examiner), *Arcanique :* Darsrut (Dar + srut)
+#### 4. Scrutation ['Divi'!C6]
+*Latin :* Scrutator (Examiner), *Arcanique :* Darsrut (Dar + srut) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 0
 
@@ -46,8 +46,8 @@ Génère un effet permettant à la cible de consulter ce qui se passe à l'insta
 
 ---
 
-#### 5. Identification
-*Latin :* Idem (Le même), *Arcanique :* Diidem (Di + idem)
+#### 5. Identification ['Divi'!C7]
+*Latin :* Idem (Le même), *Arcanique :* Diidem (Di + idem) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -57,8 +57,8 @@ Génère un effet permettant au lanceur de sort de savoir des choses sur la cibl
 
 ---
 
-#### 6. Confirmation
-*Latin :* Firmo (Affirmer), *Arcanique :* Dorfirmo (Dor + firmo)
+#### 6. Confirmation ['Divi'!C8]
+*Latin :* Firmo (Affirmer), *Arcanique :* Dorfirmo (Dor + firmo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -68,8 +68,8 @@ Génère un effet permettant au lanceur de sort de valider des choses sur la cib
 
 ---
 
-#### 7. Supposition
-*Latin :* Pono (Poser), *Arcanique :* Delponi (Del + poni)
+#### 7. Supposition ['Divi'!C9]
+*Latin :* Pono (Poser), *Arcanique :* Delponi (Del + poni) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -79,8 +79,8 @@ Génère un effet permettant au lanceur de sort de consulter le futur de la cibl
 
 ---
 
-#### 8. Oraculation
-*Latin :* Oraculum (Oracle), *Arcanique :* Darora (Dar + ora)
+#### 8. Oraculation ['Divi'!C10]
+*Latin :* Oraculum (Oracle), *Arcanique :* Darora (Dar + ora) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -90,8 +90,8 @@ Génère un effet permettant au lanceur de sort de connaitre la solution à un p
 
 ---
 
-#### 9. Interrogation
-*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
+#### 9. Interrogation ['Divi'!C11]
+*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -101,8 +101,8 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 10. Élucidation
-*Latin :* Lux (Lumière), *Arcanique :* Dorlux (Dor + lux)
+#### 10. Élucidation ['Divi'!C12]
+*Latin :* Lux (Lumière), *Arcanique :* Dorlux (Dor + lux) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -112,8 +112,8 @@ Génère un effet permettant au lanceur de sort de connaitre la solution à un p
 
 ---
 
-#### 11. Intrusion
-*Latin :* Trudo (Pousser), *Arcanique :* Deltrud (Del + trud)
+#### 11. Intrusion ['Divi'!C13]
+*Latin :* Trudo (Pousser), *Arcanique :* Deltrud (Del + trud) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -123,8 +123,8 @@ Génère un enchantement qui permet à la cible de voir les pensés des autres e
 
 ---
 
-#### 12. Localisation
-*Latin :* Locus (Lieu), *Arcanique :* Darlocus (Dar + locus)
+#### 12. Localisation ['Divi'!C14]
+*Latin :* Locus (Lieu), *Arcanique :* Darlocus (Dar + locus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 0
 
@@ -134,8 +134,8 @@ Génère un effet permettant à la cible de connaitre la direction et la distanc
 
 ---
 
-#### 13. Balisation
-*Latin :* Palus (Pieu), *Arcanique :* Dipale (Di + pale)
+#### 13. Balisation ['Divi'!C15]
+*Latin :* Palus (Pieu), *Arcanique :* Dipale (Di + pale) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -145,8 +145,8 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 14. Infravision
-*Latin :* Video (Voir), *Arcanique :* Dorvidi (Dor + vidi)
+#### 14. Infravision ['Divi'!C16]
+*Latin :* Video (Voir), *Arcanique :* Dorvidi (Dor + vidi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 0
 
@@ -156,8 +156,8 @@ Génère un effet permettant à la cible de voir les reliefs (murs, meubles, sur
 
 ---
 
-#### 15. Transvision
-*Latin :* Visio (Vision), *Arcanique :* Delvisu (Del + visu)
+#### 15. Transvision ['Divi'!C17]
+*Latin :* Visio (Vision), *Arcanique :* Delvisu (Del + visu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -167,8 +167,8 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 16. Détection
-*Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
+#### 16. Détection ['Divi'!C18]
+*Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 0
 
@@ -178,8 +178,8 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 17. Signalement
-*Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
+#### 17. Signalement ['Divi'!C19]
+*Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -189,8 +189,8 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 18. Érudition
-*Latin :* Erudio (Instruire), *Arcanique :* Dorerudi (Dor + erudi)
+#### 18. Érudition ['Divi'!C20]
+*Latin :* Erudio (Instruire), *Arcanique :* Dorerudi (Dor + erudi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -200,8 +200,8 @@ Génère un effet qui permet au lanceur de sort de réaliser une action de conna
 
 ---
 
-#### 19. Cogitation
-*Latin :* Cogito (Penser), *Arcanique :* Delcogi (Del + cogi)
+#### 19. Cogitation ['Divi'!C21]
+*Latin :* Cogito (Penser), *Arcanique :* Delcogi (Del + cogi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -211,8 +211,8 @@ Génère un effet qui permet au lanceur de sort de d'entreprendre jusqu'à <span
 
 ---
 
-#### 20. Prévision
-*Latin :* Video (Voir), *Arcanique :* Darviso (Dar + viso)
+#### 20. Prévision ['Divi'!C22]
+*Latin :* Video (Voir), *Arcanique :* Darviso (Dar + viso) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -222,8 +222,8 @@ Génère un effet qui permet au lanceur du sort de lire dans les signes afin de 
 
 ---
 
-#### 21. Magnification
-*Latin :* Magnus (Grand), *Arcanique :* Dimagno (Di + magno)
+#### 21. Magnification ['Divi'!C23]
+*Latin :* Magnus (Grand), *Arcanique :* Dimagno (Di + magno) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -233,8 +233,8 @@ Génère un enchantement positif qui double la Magnitude concernant la portée d
 
 ---
 
-#### 22. Prolongation
-*Latin :* Longus (Long), *Arcanique :* Dorlong (Dor + long)
+#### 22. Prolongation ['Divi'!C24]
+*Latin :* Longus (Long), *Arcanique :* Dorlong (Dor + long) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -244,8 +244,8 @@ Génère un enchantement positif qui doit être associé à un autre <span style
 
 ---
 
-#### 23. Intuition
-*Latin :* Tueor (Regarder), *Arcanique :* Deltueo (Del + tueo)
+#### 23. Intuition ['Divi'!C25]
+*Latin :* Tueor (Regarder), *Arcanique :* Deltueo (Del + tueo) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -255,8 +255,8 @@ Génère un effet de perception du danger (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 24. Décellement
-*Latin :* Celo (Cacher), *Arcanique :* Darcelo (Dar + celo)
+#### 24. Décellement ['Divi'!C26]
+*Latin :* Celo (Cacher), *Arcanique :* Darcelo (Dar + celo) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -266,8 +266,8 @@ Génère un effet de perception des pièges (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 25. Dévoilement
-*Latin :* Velum (Voile), *Arcanique :* Divelo (Di + velo)
+#### 25. Dévoilement ['Divi'!C27]
+*Latin :* Velum (Voile), *Arcanique :* Divelo (Di + velo) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -277,8 +277,8 @@ Génère un effet de perception des secrets (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 26. Évaluation
-*Latin :* Aestimo (Estimer), *Arcanique :* Doraesti (Dor + aesti)
+#### 26. Évaluation ['Divi'!C28]
+*Latin :* Aestimo (Estimer), *Arcanique :* Doraesti (Dor + aesti) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -288,8 +288,8 @@ Génère un effet de perception des objets de valeurs (voir règle sur les "sens
 
 ---
 
-#### 27. Hiérarchisation
-*Latin :* Ordo (Ordre), *Arcanique :* Delordo (Del + ordo)
+#### 27. Hiérarchisation ['Divi'!C29]
+*Latin :* Ordo (Ordre), *Arcanique :* Delordo (Del + ordo) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -299,8 +299,8 @@ Génère un effet de perception des objets importants (voir règle sur les "sens
 
 ---
 
-#### 28. Animation
-*Latin :* Anima (Âme), *Arcanique :* Daranima (Dar + anima)
+#### 28. Animation ['Divi'!C30]
+*Latin :* Anima (Âme), *Arcanique :* Daranima (Dar + anima) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -310,8 +310,8 @@ Génère un effet de perception du vivant (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 29. Pistement
-*Latin :* Vestigium (Trace), *Arcanique :* Divesti (Di + vesti)
+#### 29. Pistement ['Divi'!C31]
+*Latin :* Vestigium (Trace), *Arcanique :* Divesti (Di + vesti) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -321,8 +321,8 @@ Génère un effet de perception des créatures d'un certain reigne (selon la <sp
 
 ---
 
-#### 30. Nécrolocation
-*Latin :* Necro (Mort) + Locus (Lieu), *Arcanique :* Dornecro (Dor + necro)
+#### 30. Nécrolocation ['Divi'!C32]
+*Latin :* Necro (Mort) + Locus (Lieu), *Arcanique :* Dornecro (Dor + necro) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -332,8 +332,8 @@ Génère un effet de perception des morts (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 31. Arcanovision
-*Latin :* Arcanum (Secret), *Arcanique :* Delarcan (Del + arcan)
+#### 31. Arcanovision ['Divi'!C33]
+*Latin :* Arcanum (Secret), *Arcanique :* Delarcan (Del + arcan) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -343,8 +343,8 @@ Génère un effet de perception de la magie (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 32. Empathisation
-*Latin :* Pathos (Sentiment), *Arcanique :* Darpath (Dar + path)
+#### 32. Empathisation ['Divi'!C34]
+*Latin :* Pathos (Sentiment), *Arcanique :* Darpath (Dar + path) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -354,8 +354,8 @@ Génère un effet de perception des émotions (voir règle sur les "senseurs"), 
 
 ---
 
-#### 33. Rétrovision
-*Latin :* Retro (Arrière) + Visio (Vision), *Arcanique :* Divisio (Di + visio)
+#### 33. Rétrovision ['Divi'!C35]
+*Latin :* Retro (Arrière) + Visio (Vision), *Arcanique :* Divisio (Di + visio) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -365,8 +365,8 @@ Génère un effet de perception du passé (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 34. Préfiguration
-*Latin :* Figuro (Former), *Arcanique :* Dorfigu (Dor + figu)
+#### 34. Préfiguration ['Divi'!C36]
+*Latin :* Figuro (Former), *Arcanique :* Dorfigu (Dor + figu) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -376,8 +376,8 @@ Génère un effet de perception du futur (voir règle sur les "senseurs"), rév�
 
 ---
 
-#### 35. Anticipation
-*Latin :* Capio (Prendre), *Arcanique :* Delcipi (Del + cipi)
+#### 35. Anticipation ['Divi'!C37]
+*Latin :* Capio (Prendre), *Arcanique :* Delcipi (Del + cipi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -387,8 +387,8 @@ Génère un effet qui permet au lanceur du sort de lire dans les signes afin de 
 
 ---
 
-#### 36. Narration
-*Latin :* Narro (Raconter), *Arcanique :* Darnarra (Dar + narra)
+#### 36. Narration ['Divi'!C38]
+*Latin :* Narro (Raconter), *Arcanique :* Darnarra (Dar + narra) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -398,8 +398,8 @@ Génère un effet qui permet au lanceur de sort d'avoir l'historique de la cible
 
 ---
 
-#### 37. Rétrospection
-*Latin :* Specio (Regarder), *Arcanique :* Dispecio (Di + specio)
+#### 37. Rétrospection ['Divi'!C39]
+*Latin :* Specio (Regarder), *Arcanique :* Dispecio (Di + specio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -409,8 +409,8 @@ Génère un effet qui permet au lanceur de sort d'avoir la mémoire de la cible 
 
 ---
 
-#### 38. Scrutation
-*Latin :* Quaero (Chercher), *Arcanique :* Dorquer (Dor + quer)
+#### 38. Scrutation ['Divi'!C40]
+*Latin :* Quaero (Chercher), *Arcanique :* Dorquer (Dor + quer) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 

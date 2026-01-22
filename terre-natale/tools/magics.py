@@ -278,7 +278,8 @@ def row_to_markdown(
         lines.append("")
 
     # Latin / Arcane
-    lines.append(f"*Latin :* {latin}, *Arcanique :* {arcane}")
+    type_part = f" [{word_type}]" if word_type else ""
+    lines.append(f"*Latin :* {latin}, *Arcanique :* {arcane}{type_part}")
 
     # Word type / Target type
     lines.append(f"*Type de mot :* {word_type}, *Type de cible :* {target_type}")

@@ -45,7 +45,7 @@
 
 *Difficulté :* 16, *Drain :* 14
 
-**Mot de pouvoir :** Eradication (Radix (Racine) / Karadix (Ka + radix)) [Pouvoir] : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Eradication ['Dest'!C11] (Radix (Racine) / Karadix (Ka + radix)) [Pouvoir] : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Projectile [Forme] : Portée : Portée magique x2, Vecteur : Vue.
 
@@ -81,7 +81,7 @@
 
 *Difficulté :* 12, *Drain :* 14
 
-**Mot de pouvoir :** Elémentaire (Elementum (Élément) / Voele (Vo + ele)) [Pouvoir] : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+**Mot de pouvoir :** Elémentaire ['Invoc'!C3] (Elementum (Élément) / Voele (Vo + ele)) [Pouvoir] : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 **Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 

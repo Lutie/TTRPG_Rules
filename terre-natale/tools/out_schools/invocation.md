@@ -2,8 +2,8 @@
 
 > 20 mots pour cette école
 
-#### 1. Elémentaire
-*Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele)
+#### 1. Elémentaire ['Invoc'!C3]
+*Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -13,8 +13,8 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 2. Empyréen
-*Latin :* Ignis (Feu), *Arcanique :* Vanignis (Van + ignis)
+#### 2. Empyréen ['Invoc'!C4]
+*Latin :* Ignis (Feu), *Arcanique :* Vanignis (Van + ignis) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -24,8 +24,8 @@ Génère un enchantement qui invoque une créature de type empyréen au choix pa
 
 ---
 
-#### 3. Hypogéen
-*Latin :* Terra (Terre), *Arcanique :* Vorterra (Vor + terra)
+#### 3. Hypogéen ['Invoc'!C5]
+*Latin :* Terra (Terre), *Arcanique :* Vorterra (Vor + terra) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -35,8 +35,8 @@ Génère un enchantement qui invoque une créature de type hypogéen au choix pa
 
 ---
 
-#### 4. Esprit
-*Latin :* Spiritus (Souffle), *Arcanique :* Vaspiri (Vas + spiri)
+#### 4. Esprit ['Invoc'!C6]
+*Latin :* Spiritus (Souffle), *Arcanique :* Vaspiri (Vas + spiri) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -46,8 +46,8 @@ Génère un enchantement qui invoque une créature de type esprit au choix parmi
 
 ---
 
-#### 5. Zodiaque
-*Latin :* Signum (Signe), *Arcanique :* Vosign (Vo + sign)
+#### 5. Zodiaque ['Invoc'!C7]
+*Latin :* Signum (Signe), *Arcanique :* Vosign (Vo + sign) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -57,8 +57,8 @@ Génère un enchantement qui invoque une créature de type zodiacal au choix par
 
 ---
 
-#### 6. Arcane
-*Latin :* Arcanum (Secret), *Arcanique :* Vanarca (Van + arca)
+#### 6. Arcane ['Invoc'!C8]
+*Latin :* Arcanum (Secret), *Arcanique :* Vanarca (Van + arca) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -68,8 +68,8 @@ Génère un enchantement qui invoque une créature de type arcanique au choix pa
 
 ---
 
-#### 7. Objet (animé)
-*Latin :* Anima (Âme), *Arcanique :* Voranim (Vor + anim)
+#### 7. Objet (animé) ['Invoc'!C9]
+*Latin :* Anima (Âme), *Arcanique :* Voranim (Vor + anim) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -79,8 +79,8 @@ Génère un enchantement qui invoque une créature de type objet au choix parmis
 
 ---
 
-#### 8. Manifestation
-*Latin :* Appareo (Apparaître), *Arcanique :* Vasapar (Vas + apar)
+#### 8. Manifestation ['Invoc'!C10]
+*Latin :* Appareo (Apparaître), *Arcanique :* Vasapar (Vas + apar) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -90,8 +90,8 @@ Génère un enchantement qui invoque une créature de type manifestation au choi
 
 ---
 
-#### 9. Bête
-*Latin :* Fera (Bête sauvage), *Arcanique :* Vofera (Vo + fera)
+#### 9. Bête ['Invoc'!C11]
+*Latin :* Fera (Bête sauvage), *Arcanique :* Vofera (Vo + fera) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -101,8 +101,8 @@ Génère un enchantement qui invoque une créature de type bête au choix parmis
 
 ---
 
-#### 10. Plante
-*Latin :* Herba (Herbe, plante), *Arcanique :* Vanherba (Van + herba)
+#### 10. Plante ['Invoc'!C12]
+*Latin :* Herba (Herbe, plante), *Arcanique :* Vanherba (Van + herba) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -112,8 +112,8 @@ Génère un enchantement qui invoque une créature de type plante au choix parmi
 
 ---
 
-#### 11. Crépusculaire
-*Latin :* Crepusculum (Crépuscule), *Arcanique :* Vorcrep (Vor + crep)
+#### 11. Crépusculaire ['Invoc'!C13]
+*Latin :* Crepusculum (Crépuscule), *Arcanique :* Vorcrep (Vor + crep) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -123,8 +123,8 @@ Génère un enchantement qui invoque une créature de type crépusculaire au cho
 
 ---
 
-#### 12. Illusion
-*Latin :* Illusio (Moquerie), *Arcanique :* Vasilusi (Vas + ilusi)
+#### 12. Illusion ['Invoc'!C14]
+*Latin :* Illusio (Moquerie), *Arcanique :* Vasilusi (Vas + ilusi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -134,8 +134,8 @@ Génère un enchantement qui invoque une créature de type iLusoire au choix par
 
 ---
 
-#### 13. Livre
-*Latin :* Liber (Livre), *Arcanique :* Voliber (Vo + liber)
+#### 13. Livre ['Invoc'!C15]
+*Latin :* Liber (Livre), *Arcanique :* Voliber (Vo + liber) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 2, *Drain :* 2
 
@@ -145,8 +145,8 @@ Génère un enchantement qui invoque un livre, la charge est de <span style="col
 
 ---
 
-#### 14. ???
-*Latin :* Vinculum (Lien, chaîne), *Arcanique :* Vanvincul (Van + vincul)
+#### 14. ??? ['Invoc'!C16]
+*Latin :* Vinculum (Lien, chaîne), *Arcanique :* Vanvincul (Van + vincul) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 2, *Drain :* 2
 
@@ -156,8 +156,8 @@ Génère un enchantement qui permet à l'invocation d'utiliser ses charges comme
 
 ---
 
-#### 15. Ressource (lien)
-*Latin :* Opus (Œuvre, besoin), *Arcanique :* Voropus (Vor + opus)
+#### 15. Ressource (lien) ['Invoc'!C17]
+*Latin :* Opus (Œuvre, besoin), *Arcanique :* Voropus (Vor + opus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -167,8 +167,8 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de part
 
 ---
 
-#### 16. Temporaire (lien)
-*Latin :* Tempus (Temps), *Arcanique :* Vastemp (Vas + temp)
+#### 16. Temporaire (lien) ['Invoc'!C18]
+*Latin :* Tempus (Temps), *Arcanique :* Vastemp (Vas + temp) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -178,8 +178,8 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de part
 
 ---
 
-#### 17. Sensation (lien)
-*Latin :* Sensus (Sens), *Arcanique :* Vosens (Vo + sens)
+#### 17. Sensation (lien) ['Invoc'!C19]
+*Latin :* Sensus (Sens), *Arcanique :* Vosens (Vo + sens) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -189,8 +189,8 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de comm
 
 ---
 
-#### 18. Consultation
-*Latin :* Consulo (Consulter), *Arcanique :* Vanconsul (Van + consul)
+#### 18. Consultation ['Invoc'!C20]
+*Latin :* Consulo (Consulter), *Arcanique :* Vanconsul (Van + consul) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -200,8 +200,8 @@ Génère un effet qui permet de consulter la mémoire d'une invocation sur <span
 
 ---
 
-#### 19. Infusion
-*Latin :* Fundo (Verser), *Arcanique :* Vorfundo (Vor + fundo)
+#### 19. Infusion ['Invoc'!C21]
+*Latin :* Fundo (Verser), *Arcanique :* Vorfundo (Vor + fundo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -211,8 +211,8 @@ Génère un effet qui consomme une surface/zone élémentaire associé à l'invo
 
 ---
 
-#### 20. Imprégnation
-*Latin :* Pingo (Peindre, teindre), *Arcanique :* Vaspingo (Vas + pingo)
+#### 20. Imprégnation ['Invoc'!C22]
+*Latin :* Pingo (Peindre, teindre), *Arcanique :* Vaspingo (Vas + pingo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 

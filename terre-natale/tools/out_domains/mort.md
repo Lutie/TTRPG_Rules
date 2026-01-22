@@ -2,10 +2,10 @@
 
 > 72 mots pour ce domaine
 
-#### 1. Destruction
+#### 1. Destruction ['Dest'!C3]
 *École :* École de Destruction
 
-*Latin :* Ruptura (Rupture), *Arcanique :* Kinrupt (Kin + rupt)
+*Latin :* Ruptura (Rupture), *Arcanique :* Kinrupt (Kin + rupt) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -15,10 +15,10 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 2. Corrosion
+#### 2. Corrosion ['Dest'!C20]
 *École :* École de Destruction
 
-*Latin :* Rodo (Je ronge), *Arcanique :* Kinrado (Kin + rado)
+*Latin :* Rodo (Je ronge), *Arcanique :* Kinrado (Kin + rado) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -28,10 +28,10 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 3. Lésion
+#### 3. Lésion ['Dest'!C26]
 *École :* École de Destruction
 
-*Latin :* Laedo (Blesser), *Arcanique :* Kralesi (Kra + lesi)
+*Latin :* Laedo (Blesser), *Arcanique :* Kralesi (Kra + lesi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -41,10 +41,10 @@ Génère un effet infligeant une blessure de gravité <span style="color:#ff1493
 
 ---
 
-#### 4. Privation
+#### 4. Privation ['Dest'!C39]
 *École :* École de Destruction
 
-*Latin :* Privo (Enlever), *Arcanique :* Kaprivo (Ka + privo)
+*Latin :* Privo (Enlever), *Arcanique :* Kaprivo (Ka + privo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 2
 
@@ -54,10 +54,10 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 5. Déperdition
+#### 5. Déperdition ['Dest'!C44]
 *École :* École de Destruction
 
-*Latin :* Perdo (Je perds), *Arcanique :* Kordeperd (Kor + deperd)
+*Latin :* Perdo (Je perds), *Arcanique :* Kordeperd (Kor + deperd) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -67,10 +67,10 @@ Génère un effet qui duplique une lésion (physique ou mentale selon la clé), 
 
 ---
 
-#### 6. Aggravation
+#### 6. Aggravation ['Dest'!C45]
 *École :* École de Destruction
 
-*Latin :* Gravis (Lourd), *Arcanique :* Keluagrav (Kel + agrav)
+*Latin :* Gravis (Lourd), *Arcanique :* Keluagrav (Kel + agrav) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -80,10 +80,10 @@ Produit un effet qui aggrave d'un rang toutes les lésions de la cible, pour un 
 
 ---
 
-#### 7. Mortification
+#### 7. Mortification ['Dest'!C46]
 *École :* École de Destruction
 
-*Latin :* Mors (Mort), *Arcanique :* Kramorti (Kra + morti)
+*Latin :* Mors (Mort), *Arcanique :* Kramorti (Kra + morti) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -93,10 +93,10 @@ Produit un effet qui provoque la mort de la cible si ses PV sont inférieurs à 
 
 ---
 
-#### 8. Déstabilisation
+#### 8. Déstabilisation ['Dest'!C49]
 *École :* École de Destruction
 
-*Latin :* Stabilis (Stable), *Arcanique :* Krustabil (Kru + stabil)
+*Latin :* Stabilis (Stable), *Arcanique :* Krustabil (Kru + stabil) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -106,10 +106,10 @@ Produit un effet qui force toutes les lésions de la cible sont déstabilisées 
 
 ---
 
-#### 9. Dégradation
+#### 9. Dégradation ['Dest'!C50]
 *École :* École de Destruction
 
-*Latin :* Cadus (Chute), *Arcanique :* Kracadus (Kra + cadus)
+*Latin :* Cadus (Chute), *Arcanique :* Kracadus (Kra + cadus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -119,10 +119,10 @@ Toutes les lésions de la cible subissent <span style="color:#ff1493; font-weigh
 
 ---
 
-#### 10. Décomposition
+#### 10. Décomposition ['Dest'!C51]
 *École :* École de Destruction
 
-*Latin :* Pono (Mettre, poser), *Arcanique :* Kadepono (Ka + depono)
+*Latin :* Pono (Mettre, poser), *Arcanique :* Kadepono (Ka + depono) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -132,10 +132,10 @@ Génère un effet qui provoque l'explosion d'un corps mort, ce qui coRespond à 
 
 ---
 
-#### 11. Exhumation
+#### 11. Exhumation ['Dest'!C54]
 *École :* École de Destruction
 
-*Latin :* Humus (Terre), *Arcanique :* Kraxhum (Kra + xhum)
+*Latin :* Humus (Terre), *Arcanique :* Kraxhum (Kra + xhum) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -145,10 +145,10 @@ Génère un effet qui faire apparaitre <span style="color:#ff1493; font-weight:b
 
 ---
 
-#### 12. Suppression
+#### 12. Suppression ['Dest'!C57]
 *École :* École de Destruction
 
-*Latin :* Premo (Presser), *Arcanique :* Krupremo (Kru + premo)
+*Latin :* Premo (Presser), *Arcanique :* Krupremo (Kru + premo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -158,10 +158,10 @@ Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude
 
 ---
 
-#### 13. Exsanguination
+#### 13. Exsanguination ['Dest'!C58]
 *École :* École de Destruction
 
-*Latin :* Sanguis (Sang), *Arcanique :* Krasangui (Kra + sangui)
+*Latin :* Sanguis (Sang), *Arcanique :* Krasangui (Kra + sangui) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -171,10 +171,10 @@ Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude
 
 ---
 
-#### 14. Scarification
+#### 14. Scarification ['Dest'!C59]
 *École :* École de Destruction
 
-*Latin :* Scara (Coupure), *Arcanique :* Kascar (Ka + scar)
+*Latin :* Scara (Coupure), *Arcanique :* Kascar (Ka + scar) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -184,10 +184,10 @@ Génère un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5
 
 ---
 
-#### 15. Corruption
+#### 15. Corruption ['Dest'!C64]
 *École :* École de Destruction
 
-*Latin :* Rumpo (Briser), *Arcanique :* Korrupt (Kor + rupt)
+*Latin :* Rumpo (Briser), *Arcanique :* Korrupt (Kor + rupt) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -197,10 +197,10 @@ Génère un effet infligeant une condition de rupture (DOT), la cible peux réal
 
 ---
 
-#### 16. Déincarnation
+#### 16. Déincarnation ['Dest'!C65]
 *École :* École de Destruction
 
-*Latin :* Caro (Chair), *Arcanique :* Krucarno (Kru + carno)
+*Latin :* Caro (Chair), *Arcanique :* Krucarno (Kru + carno) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -210,10 +210,10 @@ Génère un effet qui brise l'âme d'un mort et détruit celle-ci, privant l'ind
 
 ---
 
-#### 17. Extinction
+#### 17. Extinction ['Dest'!C67]
 *École :* École de Destruction
 
-*Latin :* Tingo (Éteindre), *Arcanique :* Katingo (Ka + tingo)
+*Latin :* Tingo (Éteindre), *Arcanique :* Katingo (Ka + tingo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 6
 
@@ -223,10 +223,10 @@ Produit un effet qui met les PV et PS de la cible à 0, chaque perte est lié à
 
 ---
 
-#### 18. Infection
+#### 18. Infection ['Béné'!C19]
 *École :* École de Bénédiction
 
-*Latin :* Inficio (Souiller), *Arcanique :* Lynfect (Lyn + infect)
+*Latin :* Inficio (Souiller), *Arcanique :* Lynfect (Lyn + infect) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -236,10 +236,10 @@ Génère un enchantement positif qui augmente les soins reçus de (au choix au l
 
 ---
 
-#### 19. Mitigation
+#### 19. Mitigation ['Béné'!C60]
 *École :* École de Bénédiction
 
-*Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis)
+*Latin :* Mitis (Doux), *Arcanique :* Luxmitis (Lux + mitis) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -249,10 +249,10 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 20. Consécration
+#### 20. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
-*Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
+*Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -262,10 +262,10 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 21. Irradiation
+#### 21. Irradiation ['Béné'!C104]
 *École :* École de Bénédiction
 
-*Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu)
+*Latin :* Radius (Rayon), *Arcanique :* Luxradiu (Lux + radiu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -275,10 +275,10 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 22. Occultation
+#### 22. Occultation ['Béné'!C111]
 *École :* École de Bénédiction
 
-*Latin :* Occulto (Cacher), *Arcanique :* Luccult (Lu + ccult)
+*Latin :* Occulto (Cacher), *Arcanique :* Luccult (Lu + ccult) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -288,10 +288,10 @@ Génère un enchantement positif qui rend la perception de la cible plus diffici
 
 ---
 
-#### 23. Orientation
+#### 23. Orientation ['Béné'!C112]
 *École :* École de Bénédiction
 
-*Latin :* Oriens (Est, Levant), *Arcanique :* Luxoriens (Lux + oriens)
+*Latin :* Oriens (Est, Levant), *Arcanique :* Luxoriens (Lux + oriens) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -301,10 +301,10 @@ Génère un enchantement positif qui améliore la perception de la cible lorsqu'
 
 ---
 
-#### 24. ???
+#### 24. ??? ['Béné'!C125]
 *École :* École de Bénédiction
 
-*Latin :* Veritas (Vérité), *Arcanique :* Lemveri (Lem + veri)
+*Latin :* Veritas (Vérité), *Arcanique :* Lemveri (Lem + veri) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -314,10 +314,10 @@ Génère un enchantement positif qui génère des ressources temporaires lorsqu'
 
 ---
 
-#### 25. Captation
+#### 25. Captation ['Béné'!C126]
 *École :* École de Bénédiction
 
-*Latin :* Capio (Prendre), *Arcanique :* Lircept (Lir + cept)
+*Latin :* Capio (Prendre), *Arcanique :* Lircept (Lir + cept) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -327,10 +327,10 @@ Génère un enchantement positif qui génère des ressources temporaires lorsqu'
 
 ---
 
-#### 26. Assèchement
+#### 26. Assèchement ['Malé'!C4]
 *École :* École de Malédiction
 
-*Latin :* Sicco (Sécher), *Arcanique :* Morsicco (Mor + sicco)
+*Latin :* Sicco (Sécher), *Arcanique :* Morsicco (Mor + sicco) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -340,10 +340,10 @@ Génère un enchantement négatif qui réduit la récupération d'une ressource 
 
 ---
 
-#### 27. Surenvenimation
+#### 27. Surenvenimation ['Malé'!C16]
 *École :* École de Malédiction
 
-*Latin :* Veneno (Poison), *Arcanique :* Morvene (Mor + vene)
+*Latin :* Veneno (Poison), *Arcanique :* Morvene (Mor + vene) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -353,10 +353,10 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 28. Calcination
+#### 28. Calcination ['Malé'!C17]
 *École :* École de Malédiction
 
-*Latin :* Calco (Fouler, réprimer), *Arcanique :* Mugcalco (Mug + calco)
+*Latin :* Calco (Fouler, réprimer), *Arcanique :* Mugcalco (Mug + calco) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -366,10 +366,10 @@ Génère un enchantement négatif augmente jusqu'à <span style="color:#ff1493; 
 
 ---
 
-#### 29. Aminoration
+#### 29. Aminoration ['Malé'!C18]
 *École :* École de Malédiction
 
-*Latin :* Minus (Moins), *Arcanique :* Munminus (Mun + minus)
+*Latin :* Minus (Moins), *Arcanique :* Munminus (Mun + minus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -379,10 +379,10 @@ Génère un enchantement négatif qui réduit d'un total de <span style="color:#
 
 ---
 
-#### 30. Infection
+#### 30. Infection ['Malé'!C22]
 *École :* École de Malédiction
 
-*Latin :* Inficio (Souiller), *Arcanique :* Munficio (Mun + ficio)
+*Latin :* Inficio (Souiller), *Arcanique :* Munficio (Mun + ficio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -392,10 +392,10 @@ Génère un enchantement négatif qui augmente les dégats reçus de (au choix a
 
 ---
 
-#### 31. Aggravation
+#### 31. Aggravation ['Malé'!C23]
 *École :* École de Malédiction
 
-*Latin :* Gravis (Lourd), *Arcanique :* Malgravi (Mal + gravi)
+*Latin :* Gravis (Lourd), *Arcanique :* Malgravi (Mal + gravi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -405,10 +405,10 @@ Génère un enchantement négatif qui augmente la gravité des blessures à veni
 
 ---
 
-#### 32. Désagrégation
+#### 32. Désagrégation ['Malé'!C40]
 *École :* École de Malédiction
 
-*Latin :* Grex (Troupeau, masse), *Arcanique :* Morgrexa (Mor + grexa)
+*Latin :* Grex (Troupeau, masse), *Arcanique :* Morgrexa (Mor + grexa) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -418,10 +418,10 @@ Génère un enchantement négatif qui double les pénalités issus des lésions 
 
 ---
 
-#### 33. Défalcation
+#### 33. Défalcation ['Malé'!C41]
 *École :* École de Malédiction
 
-*Latin :* Falx (Faux), *Arcanique :* Mugfalx (Mug + falx)
+*Latin :* Falx (Faux), *Arcanique :* Mugfalx (Mug + falx) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -431,10 +431,10 @@ Génère un enchantement négatif qui augmente les dégats et l'impact (dont la 
 
 ---
 
-#### 34. Vulnérisation
+#### 34. Vulnérisation ['Malé'!C58]
 *École :* École de Malédiction
 
-*Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo)
+*Latin :* Laedo (Blesser), *Arcanique :* Munlaedo (Mun + laedo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -444,10 +444,10 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 35. Appauvrissement
+#### 35. Appauvrissement ['Malé'!C68]
 *École :* École de Malédiction
 
-*Latin :* Pauper (Pauvre), *Arcanique :* Morpaupe (Mor + paupe)
+*Latin :* Pauper (Pauvre), *Arcanique :* Morpaupe (Mor + paupe) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -457,10 +457,10 @@ Génère un enchantement négatif qui réduit le maximum de toutes les ressource
 
 ---
 
-#### 36. Déprécation
+#### 36. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
-*Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
+*Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -470,10 +470,10 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 37. Réprobation
+#### 37. Réprobation ['Malé'!C92]
 *École :* École de Malédiction
 
-*Latin :* Reprobus (Réprouvé), *Arcanique :* MoRepro (Mor + repro)
+*Latin :* Reprobus (Réprouvé), *Arcanique :* MoRepro (Mor + repro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -483,10 +483,10 @@ Génère un enchantement négatif qui duplique les lésions physiques en lésion
 
 ---
 
-#### 38. Dégénération
+#### 38. Dégénération ['Malé'!C93]
 *École :* École de Malédiction
 
-*Latin :* Gigno (Engendrer), *Arcanique :* Mugdegen (Mug + degen)
+*Latin :* Gigno (Engendrer), *Arcanique :* Mugdegen (Mug + degen) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -496,10 +496,10 @@ Produit un enchantement négatif qui réduit à chaque tour <span style="color:#
 
 ---
 
-#### 39. Condamnation
+#### 39. Condamnation ['Malé'!C115]
 *École :* École de Malédiction
 
-*Latin :* Condemno (Condamner), *Arcanique :* Malconde (Mal + conde)
+*Latin :* Condemno (Condamner), *Arcanique :* Malconde (Mal + conde) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -509,10 +509,10 @@ Génère un enchantement négatif qui attends la mort de la cible afin de décle
 
 ---
 
-#### 40. Déflagration
+#### 40. Déflagration ['Malé'!C116]
 *École :* École de Malédiction
 
-*Latin :* Flagro (Brûler), *Arcanique :* Morflagro (Mor + flagro)
+*Latin :* Flagro (Brûler), *Arcanique :* Morflagro (Mor + flagro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 2
 
@@ -522,10 +522,10 @@ Génère un enchantement négatif qui attends la mise hors d'état de la cible (
 
 ---
 
-#### 41. Frustration
+#### 41. Frustration ['Malé'!C117]
 *École :* École de Malédiction
 
-*Latin :* Frustra (En vain), *Arcanique :* Mugfrustr (Mug + frustr)
+*Latin :* Frustra (En vain), *Arcanique :* Mugfrustr (Mug + frustr) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -535,10 +535,10 @@ Génère un enchantement négatif qui ajoute aux lésions de la cible <span styl
 
 ---
 
-#### 42. Insalubre
+#### 42. Insalubre ['Malé'!C118]
 *École :* École de Malédiction
 
-*Latin :* Salus (Santé), *Arcanique :* Munsalu (Mun + salu)
+*Latin :* Salus (Santé), *Arcanique :* Munsalu (Mun + salu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -548,10 +548,10 @@ Génère un enchantement négatif qui augmente la charge/gravité des toxines, m
 
 ---
 
-#### 43. Désacration
+#### 43. Désacration ['Malé'!C119]
 *École :* École de Malédiction
 
-*Latin :* Sacer (Sacré), *Arcanique :* Malsacer (Mal + sacer)
+*Latin :* Sacer (Sacré), *Arcanique :* Malsacer (Mal + sacer) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -561,10 +561,10 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 44. Accablement
+#### 44. Accablement ['Malé'!C121]
 *École :* École de Malédiction
 
-*Latin :* Premo (Presser), *Arcanique :* Mugprema (Mug + prema)
+*Latin :* Premo (Presser), *Arcanique :* Mugprema (Mug + prema) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -574,10 +574,10 @@ Génère un enchantement négatif qui augmente la valeurs actuel de fatigue de <
 
 ---
 
-#### 45. Profanation
+#### 45. Profanation ['Malé'!C122]
 *École :* École de Malédiction
 
-*Latin :* PoLuo (Souiller), *Arcanique :* MunpoLu (Mun + poLu)
+*Latin :* PoLuo (Souiller), *Arcanique :* MunpoLu (Mun + poLu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -587,10 +587,10 @@ Génère un enchantement négatif qui augmente la valeurs actuel de corruption d
 
 ---
 
-#### 46. Hantation
+#### 46. Hantation ['Malé'!C123]
 *École :* École de Malédiction
 
-*Latin :* Umbra (Ombre), *Arcanique :* Malumbra (Mal + umbra)
+*Latin :* Umbra (Ombre), *Arcanique :* Malumbra (Mal + umbra) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -600,10 +600,10 @@ Génère un enchantement qui pousse une entitée éthérée à hanter la cible, 
 
 ---
 
-#### 47. Agonie
+#### 47. Agonie ['Malé'!C124]
 *École :* École de Malédiction
 
-*Latin :* Crux (Souffrance, croix), *Arcanique :* Morcrux (Mor + crux)
+*Latin :* Crux (Souffrance, croix), *Arcanique :* Morcrux (Mor + crux) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -613,10 +613,10 @@ Génère un enchantement qui provoque à la fin du tour une perte de PV équival
 
 ---
 
-#### 48. Mortification
+#### 48. Mortification ['Malé'!C149]
 *École :* École de Malédiction
 
-*Latin :* Mors (Mort), *Arcanique :* Mugmors (Mug + mors)
+*Latin :* Mors (Mort), *Arcanique :* Mugmors (Mug + mors) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -626,10 +626,10 @@ Génère un enchantement négatif qui réduit jusqu'à <span style="color:#ff149
 
 ---
 
-#### 49. Crépusculaire
+#### 49. Crépusculaire ['Invoc'!C13]
 *École :* École d'Invocation
 
-*Latin :* Crepusculum (Crépuscule), *Arcanique :* Vorcrep (Vor + crep)
+*Latin :* Crepusculum (Crépuscule), *Arcanique :* Vorcrep (Vor + crep) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -639,10 +639,10 @@ Génère un enchantement qui invoque une créature de type crépusculaire au cho
 
 ---
 
-#### 50. Obstruction
+#### 50. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
-*Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
+*Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -652,10 +652,10 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 51. Protestation
+#### 51. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
-*Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
+*Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -665,10 +665,10 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 52. Neutralisation
+#### 52. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
-*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
+*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -678,10 +678,10 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 53. Interrogation
+#### 53. Interrogation ['Divi'!C11]
 *École :* École de Divination
 
-*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
+*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -691,10 +691,10 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 54. Détection
+#### 54. Détection ['Divi'!C18]
 *École :* École de Divination
 
-*Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
+*Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 0
 
@@ -704,10 +704,10 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 55. Signalement
+#### 55. Signalement ['Divi'!C19]
 *École :* École de Divination
 
-*Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
+*Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -717,10 +717,10 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 56. Nécrolocation
+#### 56. Nécrolocation ['Divi'!C32]
 *École :* École de Divination
 
-*Latin :* Necro (Mort) + Locus (Lieu), *Arcanique :* Dornecro (Dor + necro)
+*Latin :* Necro (Mort) + Locus (Lieu), *Arcanique :* Dornecro (Dor + necro) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -730,10 +730,10 @@ Génère un effet de perception des morts (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 57. Oblitération
+#### 57. Oblitération ['Evoc'!C17]
 *École :* École d'Évocation
 
-*Latin :* Obtero (Détruire), *Arcanique :* Elooblit (Elo + oblit)
+*Latin :* Obtero (Détruire), *Arcanique :* Elooblit (Elo + oblit) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -743,10 +743,10 @@ Génère un effet qui détruit l'âme errante d'un défunt dont les points de ps
 
 ---
 
-#### 58. Nécrotisation
+#### 58. Nécrotisation ['Evoc'!C45]
 *École :* École d'Évocation
 
-*Latin :* Necros (Mort), *Arcanique :* Evnecro (Ev + necro)
+*Latin :* Necros (Mort), *Arcanique :* Evnecro (Ev + necro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 2, *Drain :* 2
 
@@ -756,10 +756,10 @@ Génère un enchantement qui a pour charge maximum le total des PV et PS perdus,
 
 ---
 
-#### 59. Exanimisation
+#### 59. Exanimisation ['Evoc'!C46]
 *École :* École d'Évocation
 
-*Latin :* Anima (Souffle, vie), *Arcanique :* Enanima (En + anima)
+*Latin :* Anima (Souffle, vie), *Arcanique :* Enanima (En + anima) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -769,10 +769,10 @@ Génère un enchantement qui fait passer la cible pour morte, si un individu se 
 
 ---
 
-#### 60. Edification
+#### 60. Edification ['Conj'!C11]
 *École :* École de Conjuration
 
-*Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi)
+*Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -782,10 +782,10 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 61. Revêtement
+#### 61. Revêtement ['Conj'!C12]
 *École :* École de Conjuration
 
-*Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest)
+*Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -795,10 +795,10 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 62. Fers
+#### 62. Fers ['Conj'!C13]
 *École :* École de Conjuration
 
-*Latin :* Ferrum (Fer), *Arcanique :* Colfer (Col + fer)
+*Latin :* Ferrum (Fer), *Arcanique :* Colfer (Col + fer) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -808,10 +808,10 @@ Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui e
 
 ---
 
-#### 63. Incarcération
+#### 63. Incarcération ['Conj'!C14]
 *École :* École de Conjuration
 
-*Latin :* Carcer (Prison), *Arcanique :* Carcarce (Car + carce)
+*Latin :* Carcer (Prison), *Arcanique :* Carcarce (Car + carce) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -821,10 +821,10 @@ Génère un enchantement (sous formes de cage tangibles ou intangibles) qui empr
 
 ---
 
-#### 64. Sarcophagie
+#### 64. Sarcophagie ['Conj'!C15]
 *École :* École de Conjuration
 
-*Latin :* Sarcophagus (Grec), *Arcanique :* Consar (Con + sar)
+*Latin :* Sarcophagus (Grec), *Arcanique :* Consar (Con + sar) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 6
 
@@ -834,10 +834,10 @@ Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui 
 
 ---
 
-#### 65. Spiritisme
+#### 65. Spiritisme ['Conj'!C20]
 *École :* École de Conjuration
 
-*Latin :* Spiritus (Esprit), *Arcanique :* Censpiri (Cen + spiri)
+*Latin :* Spiritus (Esprit), *Arcanique :* Censpiri (Cen + spiri) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -847,10 +847,10 @@ Génère un enchantement qui met en contact le lanceur de sort et l'âme d'un ê
 
 ---
 
-#### 66. Pestilence
+#### 66. Pestilence ['Conj'!C22]
 *École :* École de Conjuration
 
-*Latin :* Pestis (Peste), *Arcanique :* Carpesti (Car + pesti)
+*Latin :* Pestis (Peste), *Arcanique :* Carpesti (Car + pesti) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -860,10 +860,10 @@ Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un indiv
 
 ---
 
-#### 67. Hantise
+#### 67. Hantise ['Conj'!C23]
 *École :* École de Conjuration
 
-*Latin :* Umbra (Ombre), *Arcanique :* Conumbra (Con + umbra)
+*Latin :* Umbra (Ombre), *Arcanique :* Conumbra (Con + umbra) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -873,10 +873,10 @@ Génère un enchantement de lieu qui prend la forme d'une hantise, tant qu'un in
 
 ---
 
-#### 68. Armement élémentaire
+#### 68. Armement élémentaire ['Conj'!C26]
 *École :* École de Conjuration
 
-*Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma)
+*Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
 
@@ -886,10 +886,10 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 69. Armure élémentaire
+#### 69. Armure élémentaire ['Conj'!C27]
 *École :* École de Conjuration
 
-*Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric)
+*Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
 
@@ -899,10 +899,10 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 70. Réanimation
+#### 70. Réanimation ['Conj'!C58]
 *École :* École de Conjuration
 
-*Latin :* Anima (Âme), *Arcanique :* Caranima (Car + anima)
+*Latin :* Anima (Âme), *Arcanique :* Caranima (Car + anima) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -912,10 +912,10 @@ Sur une cible morte - Génère un enchantement qui force la cible à reprendre v
 
 ---
 
-#### 71. Infection
+#### 71. Infection ['Alté'!C12]
 *École :* École d'Altération
 
-*Latin :* Inficio (Souiller), *Arcanique :* Arinfic (Ar + infic)
+*Latin :* Inficio (Souiller), *Arcanique :* Arinfic (Ar + infic) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -925,10 +925,10 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 72. Ponction
+#### 72. Ponction ['Alté'!C15]
 *École :* École d'Altération
 
-*Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung)
+*Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 

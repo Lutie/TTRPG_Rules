@@ -2,10 +2,10 @@
 
 > 40 mots pour ce domaine
 
-#### 1. Conversion
+#### 1. Conversion ['Dest'!C63]
 *École :* École de Destruction
 
-*Latin :* Vert (Tourner), *Arcanique :* Kaverto (Ka + verto)
+*Latin :* Vert (Tourner), *Arcanique :* Kaverto (Ka + verto) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -15,10 +15,10 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant autant de dég
 
 ---
 
-#### 2. Restauration
+#### 2. Restauration ['Rest'!C3]
 *École :* École de Restauration
 
-*Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura)
+*Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -28,10 +28,10 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 3. Restitution
+#### 3. Restitution ['Béné'!C4]
 *École :* École de Bénédiction
 
-*Latin :* Reddo (Rendre, restituer), *Arcanique :* Luxreddo (Lux + reddo)
+*Latin :* Reddo (Rendre, restituer), *Arcanique :* Luxreddo (Lux + reddo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -41,10 +41,10 @@ Génère un enchantement positif qui augmente la récupération d'une ressource 
 
 ---
 
-#### 4. Atténuation
+#### 4. Atténuation ['Béné'!C15]
 *École :* École de Bénédiction
 
-*Latin :* Tenuis (Mince, faible), *Arcanique :* Loktenu (Lok + tenu)
+*Latin :* Tenuis (Mince, faible), *Arcanique :* Loktenu (Lok + tenu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -54,10 +54,10 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 5. Isolation
+#### 5. Isolation ['Béné'!C16]
 *École :* École de Bénédiction
 
-*Latin :* Solus (Seul), *Arcanique :* Luxsolu (Lux + solu)
+*Latin :* Solus (Seul), *Arcanique :* Luxsolu (Lux + solu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -67,10 +67,10 @@ Génère un enchantement positif qui réduit jusqu'à <span style="color:#ff1493
 
 ---
 
-#### 6. Endurcissement
+#### 6. Endurcissement ['Béné'!C17]
 *École :* École de Bénédiction
 
-*Latin :* Durus (Dur), *Arcanique :* Lemdur (Lem + dur)
+*Latin :* Durus (Dur), *Arcanique :* Lemdur (Lem + dur) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -80,10 +80,10 @@ Génère un enchantement positif qui augmente d'un total de <span style="color:#
 
 ---
 
-#### 7. Répercussion
+#### 7. Répercussion ['Béné'!C18]
 *École :* École de Bénédiction
 
-*Latin :* Perto (Frapper, heurter), *Arcanique :* Lirpercu (Lir + percu)
+*Latin :* Perto (Frapper, heurter), *Arcanique :* Lirpercu (Lir + percu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -93,10 +93,10 @@ Génère un enchantement positif qui duplique jusqu'à <span style="color:#ff149
 
 ---
 
-#### 8. Anticipation
+#### 8. Anticipation ['Béné'!C20]
 *École :* École de Bénédiction
 
-*Latin :* Anticipo (Prendre avant), *Arcanique :* Luxanti (Lux + anti)
+*Latin :* Anticipo (Prendre avant), *Arcanique :* Luxanti (Lux + anti) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -106,10 +106,10 @@ Génère un enchantement positif qui réduit la gravité des blessures à venir 
 
 ---
 
-#### 9. Dynamisation
+#### 9. Dynamisation ['Béné'!C67]
 *École :* École de Bénédiction
 
-*Latin :* Dynamis (Puissance, grec), *Arcanique :* Ludyna (Lu + dyna)
+*Latin :* Dynamis (Puissance, grec), *Arcanique :* Ludyna (Lu + dyna) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -119,10 +119,10 @@ Génère un enchantement positif qui provoque une double décharge des condition
 
 ---
 
-#### 10. Fortification
+#### 10. Fortification ['Béné'!C70]
 *École :* École de Bénédiction
 
-*Latin :* Munio (Fortifier), *Arcanique :* Lirmunio (Lir + munio)
+*Latin :* Munio (Fortifier), *Arcanique :* Lirmunio (Lir + munio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -132,10 +132,10 @@ Génère un enchantement positif qui augmente le maximum d'une ressource au choi
 
 ---
 
-#### 11. Récupération
+#### 11. Récupération ['Béné'!C77]
 *École :* École de Bénédiction
 
-*Latin :* Capio (Prendre), *Arcanique :* Lemcapio (Lem + capio)
+*Latin :* Capio (Prendre), *Arcanique :* Lemcapio (Lem + capio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -145,10 +145,10 @@ Produit un enchantement positif qui octroie à chaque tour <span style="color:#f
 
 ---
 
-#### 12. Consécration
+#### 12. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
-*Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
+*Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -158,10 +158,10 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 13. Cicatrisation
+#### 13. Cicatrisation ['Béné'!C115]
 *École :* École de Bénédiction
 
-*Latin :* Cico (Je calme), *Arcanique :* Lyncica (Lyn + cica)
+*Latin :* Cico (Je calme), *Arcanique :* Lyncica (Lyn + cica) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -171,10 +171,10 @@ Génère un enchantement positif qui réduit la gravité des lésions reçues pa
 
 ---
 
-#### 14. Expiration
+#### 14. Expiration ['Béné'!C116]
 *École :* École de Bénédiction
 
-*Latin :* Spirare (Souffler), *Arcanique :* Luxspir (Lux + spir)
+*Latin :* Spirare (Souffler), *Arcanique :* Luxspir (Lux + spir) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -184,10 +184,10 @@ Génère un enchantement positif qui attends la mort de la cible afin de déclen
 
 ---
 
-#### 15. Tempérance
+#### 15. Tempérance ['Béné'!C117]
 *École :* École de Bénédiction
 
-*Latin :* Tempero (Modérer), *Arcanique :* Lemtemper (Lem + temper)
+*Latin :* Tempero (Modérer), *Arcanique :* Lemtemper (Lem + temper) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -197,10 +197,10 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 16. Prophylaxie
+#### 16. Prophylaxie ['Béné'!C118]
 *École :* École de Bénédiction
 
-*Latin :* Custos (Garde), *Arcanique :* Lircustos (Lir + custos)
+*Latin :* Custos (Garde), *Arcanique :* Lircustos (Lir + custos) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -210,10 +210,10 @@ Génère un enchantement positif qui octroie une forte résistance aux toxines, 
 
 ---
 
-#### 17. Expiation
+#### 17. Expiation ['Béné'!C119]
 *École :* École de Bénédiction
 
-*Latin :* Pio (Purifier), *Arcanique :* Lupio (Lu + pio)
+*Latin :* Pio (Purifier), *Arcanique :* Lupio (Lu + pio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -223,10 +223,10 @@ Génère un enchantement positif qui permet à la cible d'ignorer jusqu'à <span
 
 ---
 
-#### 18. Préservation
+#### 18. Préservation ['Béné'!C120]
 *École :* École de Bénédiction
 
-*Latin :* Servatus (Sauvé), *Arcanique :* Luxserv (Lux + serv)
+*Latin :* Servatus (Sauvé), *Arcanique :* Luxserv (Lux + serv) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -236,10 +236,10 @@ Génère un enchantement positif qui permet à la cible d'ignorer jusqu'à <span
 
 ---
 
-#### 19. Abaissement
+#### 19. Abaissement ['Béné'!C121]
 *École :* École de Bénédiction
 
-*Latin :* Pondus (Poids), *Arcanique :* Lempodus (Lem + podus)
+*Latin :* Pondus (Poids), *Arcanique :* Lempodus (Lem + podus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -249,10 +249,10 @@ Génère un enchantement positif qui permet d'ignorer un total de <span style="c
 
 ---
 
-#### 20. Amortissement
+#### 20. Amortissement ['Béné'!C122]
 *École :* École de Bénédiction
 
-*Latin :* Lanio (Assouplir), *Arcanique :* Lirlanio (Lir + lanio)
+*Latin :* Lanio (Assouplir), *Arcanique :* Lirlanio (Lir + lanio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -262,10 +262,10 @@ Génère un enchantement positif qui réduit les dégats et l'impact (dont la na
 
 ---
 
-#### 21. Prolongation
+#### 21. Prolongation ['Béné'!C139]
 *École :* École de Bénédiction
 
-*Latin :* Longus (Long), *Arcanique :* Lulong (Lu + long)
+*Latin :* Longus (Long), *Arcanique :* Lulong (Lu + long) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -275,10 +275,10 @@ Génère un enchantement positif qui permet de repousser le moment de la mort d�
 
 ---
 
-#### 22. ???
+#### 22. ??? ['Béné'!C141]
 *École :* École de Bénédiction
 
-*Latin :* Gloria (Gloire), *Arcanique :* Lemglor (Lem + glor)
+*Latin :* Gloria (Gloire), *Arcanique :* Lemglor (Lem + glor) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -288,10 +288,10 @@ Génère un enchantement positif qui permet de repousser le moment de l'inscienc
 
 ---
 
-#### 23. Perpétuation
+#### 23. Perpétuation ['Béné'!C164]
 *École :* École de Bénédiction
 
-*Latin :* Perpetuus (Permanent), *Arcanique :* Lempetu (Lem + petu)
+*Latin :* Perpetuus (Permanent), *Arcanique :* Lempetu (Lem + petu) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -301,10 +301,10 @@ Génère un enchantement positif qui retarde le moment de la mort définitive de
 
 ---
 
-#### 24. Déprécation
+#### 24. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
-*Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
+*Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -314,10 +314,10 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 25. Elémentaire
+#### 25. Elémentaire ['Invoc'!C3]
 *École :* École d'Invocation
 
-*Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele)
+*Latin :* Elementum (Élément), *Arcanique :* Voele (Vo + ele) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 4, *Drain :* 6
 
@@ -327,10 +327,10 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 26. ???
+#### 26. ??? ['Invoc'!C16]
 *École :* École d'Invocation
 
-*Latin :* Vinculum (Lien, chaîne), *Arcanique :* Vanvincul (Van + vincul)
+*Latin :* Vinculum (Lien, chaîne), *Arcanique :* Vanvincul (Van + vincul) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 2, *Drain :* 2
 
@@ -340,10 +340,10 @@ Génère un enchantement qui permet à l'invocation d'utiliser ses charges comme
 
 ---
 
-#### 27. Ressource (lien)
+#### 27. Ressource (lien) ['Invoc'!C17]
 *École :* École d'Invocation
 
-*Latin :* Opus (Œuvre, besoin), *Arcanique :* Voropus (Vor + opus)
+*Latin :* Opus (Œuvre, besoin), *Arcanique :* Voropus (Vor + opus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -353,10 +353,10 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de part
 
 ---
 
-#### 28. Obstruction
+#### 28. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
-*Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
+*Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -366,10 +366,10 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 29. Protestation
+#### 29. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
-*Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
+*Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -379,10 +379,10 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 30. Neutralisation
+#### 30. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
-*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
+*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -392,10 +392,10 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 31. Interrogation
+#### 31. Interrogation ['Divi'!C11]
 *École :* École de Divination
 
-*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
+*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -405,10 +405,10 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 32. Détection
+#### 32. Détection ['Divi'!C18]
 *École :* École de Divination
 
-*Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego)
+*Latin :* Tego (Couvrir), *Arcanique :* Dartego (Dar + tego) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 0
 
@@ -418,10 +418,10 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 33. Signalement
+#### 33. Signalement ['Divi'!C19]
 *École :* École de Divination
 
-*Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo)
+*Latin :* Signum (Signe), *Arcanique :* Disigno (Di + signo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -431,10 +431,10 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 34. Animation
+#### 34. Animation ['Divi'!C30]
 *École :* École de Divination
 
-*Latin :* Anima (Âme), *Arcanique :* Daranima (Dar + anima)
+*Latin :* Anima (Âme), *Arcanique :* Daranima (Dar + anima) [Pouvoir (Senseur)]
 *Type de mot :* Pouvoir (Senseur), *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -444,10 +444,10 @@ Génère un effet de perception du vivant (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 35. Galvanisation
+#### 35. Galvanisation ['Evoc'!C3]
 *École :* École d'Évocation
 
-*Latin :* Vibro (Agiter, secouer), *Arcanique :* Evvibro (Ev + vibro)
+*Latin :* Vibro (Agiter, secouer), *Arcanique :* Evvibro (Ev + vibro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -457,10 +457,10 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 36. Edification
+#### 36. Edification ['Conj'!C11]
 *École :* École de Conjuration
 
-*Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi)
+*Latin :* Aedifico (Édifier), *Arcanique :* Conedi (Con + edi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -470,10 +470,10 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 37. Revêtement
+#### 37. Revêtement ['Conj'!C12]
 *École :* École de Conjuration
 
-*Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest)
+*Latin :* Vestis (Vêtement), *Arcanique :* Cenvest (Cen + vest) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -483,10 +483,10 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 38. Armement élémentaire
+#### 38. Armement élémentaire ['Conj'!C26]
 *École :* École de Conjuration
 
-*Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma)
+*Latin :* Arma (Arme), *Arcanique :* Cararma (Car + arma) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
 
@@ -496,10 +496,10 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 39. Armure élémentaire
+#### 39. Armure élémentaire ['Conj'!C27]
 *École :* École de Conjuration
 
-*Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric)
+*Latin :* Loric (Cuirasse), *Arcanique :* Conloric (Con + loric) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 4
 
@@ -509,10 +509,10 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 40. Ponction
+#### 40. Ponction ['Alté'!C15]
 *École :* École d'Altération
 
-*Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung)
+*Latin :* Pungo (Piquer), *Arcanique :* Alpung (Al + pung) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 

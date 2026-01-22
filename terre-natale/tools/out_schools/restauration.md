@@ -2,8 +2,8 @@
 
 > 12 mots pour cette école
 
-#### 1. Restauration
-*Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura)
+#### 1. Restauration ['Rest'!C3]
+*Latin :* Instauro (Je rétablis), *Arcanique :* Restaura (Re + staura) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -13,8 +13,8 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 2. Vivification
-*Latin :* Vita (Vie), *Arcanique :* Renvita (Ren + vita)
+#### 2. Vivification ['Rest'!C4]
+*Latin :* Vita (Vie), *Arcanique :* Renvita (Ren + vita) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -24,8 +24,8 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 3. Revitalisation
-*Latin :* Vigor (Force, Vigueur), *Arcanique :* Ryuvigo (Ryu + vigo)
+#### 3. Revitalisation ['Rest'!C5]
+*Latin :* Vigor (Force, Vigueur), *Arcanique :* Ryuvigo (Ryu + vigo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -35,8 +35,8 @@ Produit un soin de l'endurance (PE) équivalant à la moitié des PE manquants, 
 
 ---
 
-#### 4. Réinvigoration
-*Latin :* Roboro (Je fortifie), *Arcanique :* Rhorobor (Rho + robor)
+#### 4. Réinvigoration ['Rest'!C6]
+*Latin :* Roboro (Je fortifie), *Arcanique :* Rhorobor (Rho + robor) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -46,8 +46,8 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 5. Transfusion
-*Latin :* Fundo (Je verse), *Arcanique :* Refund (Re + fund)
+#### 5. Transfusion ['Rest'!C7]
+*Latin :* Fundo (Je verse), *Arcanique :* Refund (Re + fund) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -57,8 +57,8 @@ Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 6. Grandiloquence
-*Latin :* Magnus (Grand), *Arcanique :* Relmagnus (Rel + magnus)
+#### 6. Grandiloquence ['Rest'!C8]
+*Latin :* Magnus (Grand), *Arcanique :* Relmagnus (Rel + magnus) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -68,8 +68,8 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 7. Revigoration
-*Latin :* Vigor (Force, Vigueur), *Arcanique :* Rasvigore (Ras + vigore)
+#### 7. Revigoration ['Rest'!C9]
+*Latin :* Vigor (Force, Vigueur), *Arcanique :* Rasvigore (Ras + vigore) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -79,8 +79,8 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]<
 
 ---
 
-#### 8. Purification
-*Latin :* Purgo (Je nettoie), *Arcanique :* Rhopurgo (Rho + purgo)
+#### 8. Purification ['Rest'!C10]
+*Latin :* Purgo (Je nettoie), *Arcanique :* Rhopurgo (Rho + purgo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -90,8 +90,8 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]<
 
 ---
 
-#### 9. Canalisation
-*Latin :* Canalis (Conduit), *Arcanique :* Recana (Re + cana)
+#### 9. Canalisation ['Rest'!C11]
+*Latin :* Canalis (Conduit), *Arcanique :* Recana (Re + cana) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -101,8 +101,8 @@ Produit un soin qui convertis un maximum de <span style="color:#ff1493; font-wei
 
 ---
 
-#### 10. Dissolution
-*Latin :* Solvo (Délier), *Arcanique :* Rensolvo (Ren + solvo)
+#### 10. Dissolution ['Rest'!C12]
+*Latin :* Solvo (Délier), *Arcanique :* Rensolvo (Ren + solvo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -112,8 +112,8 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 11. Neutralisation
-*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Rasneuta (Ras + neuta)
+#### 11. Neutralisation ['Rest'!C13]
+*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Rasneuta (Ras + neuta) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -123,8 +123,8 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 12. Absolution
-*Latin :* Absolvo (Je délie), *Arcanique :* Rhoabsol (Rho + absol)
+#### 12. Absolution ['Rest'!C14]
+*Latin :* Absolvo (Je délie), *Arcanique :* Rhoabsol (Rho + absol) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 

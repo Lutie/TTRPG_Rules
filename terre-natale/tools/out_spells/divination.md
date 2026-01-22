@@ -6,7 +6,7 @@
 
 *Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Rétrocognition (Retro (Arrière) + Nosco (Connaître) / Diretro (Di + retro)) [Pouvoir] : Génère un effet permettant au lanceur de sort de consulter le passé de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans le passé, la vision en question n'est pas lié aux sens de la cible mais en est totalement indépendant.
+**Mot de pouvoir :** Rétrocognition ['Divi'!C3] (Retro (Arrière) + Nosco (Connaître) / Diretro (Di + retro)) [Pouvoir] : Génère un effet permettant au lanceur de sort de consulter le passé de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans le passé, la vision en question n'est pas lié aux sens de la cible mais en est totalement indépendant.
 
 **Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -18,7 +18,7 @@
 
 *Difficulté :* 10, *Drain :* 10
 
-**Mot de pouvoir :** Précognition (Prae (Avant) + Nosco (Connaître) / Dornosc (Dor + nosc)) [Pouvoir] : Génère un effet permettant au lanceur de sort de consulter le futur de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans l'avenir, cette vision ne se fait pas pars le prisme des sens ou de la perception de la cible mais d'une façon plus extérieur et neutre, ce futur peux changer si quelque chose le préviens mais la nature du monde cherchera à contourner tout changement trop important, le changement doit donc être drastique pour forcer la main du destin.
+**Mot de pouvoir :** Précognition ['Divi'!C4] (Prae (Avant) + Nosco (Connaître) / Dornosc (Dor + nosc)) [Pouvoir] : Génère un effet permettant au lanceur de sort de consulter le futur de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans l'avenir, cette vision ne se fait pas pars le prisme des sens ou de la perception de la cible mais d'une façon plus extérieur et neutre, ce futur peux changer si quelque chose le préviens mais la nature du monde cherchera à contourner tout changement trop important, le changement doit donc être drastique pour forcer la main du destin.
 
 **Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -30,7 +30,7 @@
 
 *Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Rétrospection (Retro (En arrière) / Eruretro (Eru + retro)) [Pouvoir] : Génère un effet qui octroie au lanceur de sort l'historique de la cible sur <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> heures, si la cible est une personne elle peux réaliser un test de sauvegarde pour réduire ou échapper à ces effets.
+**Mot de pouvoir :** Rétrospection ['Evoc'!C21] (Retro (En arrière) / Eruretro (Eru + retro)) [Pouvoir] : Génère un effet qui octroie au lanceur de sort l'historique de la cible sur <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> heures, si la cible est une personne elle peux réaliser un test de sauvegarde pour réduire ou échapper à ces effets.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -42,7 +42,7 @@
 
 *Difficulté :* 14, *Drain :* 12
 
-**Mot de pouvoir :** Scrutation (Quaero (Chercher) / Dorquer (Dor + quer)) [Pouvoir] : Le sort permet au lanceur de sort de « percevoir » les environs d’un lieu, d’un objet ou d’une personne donnée. La cible doit être désignée en fonction d’un élément, d’une matière, de corps, d’esprits, d’un objet, etc... Qui le caractérise ou le représente. La distance maximale de scrutation est fixée à <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> mètres. Le lanceur de sort ne sait pas forcément d'où est-ce qu'il scrute, mais peux essayer de le déduire en observant bien la scène.
+**Mot de pouvoir :** Scrutation ['Divi'!C40] (Quaero (Chercher) / Dorquer (Dor + quer)) [Pouvoir] : Le sort permet au lanceur de sort de « percevoir » les environs d’un lieu, d’un objet ou d’une personne donnée. La cible doit être désignée en fonction d’un élément, d’une matière, de corps, d’esprits, d’un objet, etc... Qui le caractérise ou le représente. La distance maximale de scrutation est fixée à <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> mètres. Le lanceur de sort ne sait pas forcément d'où est-ce qu'il scrute, mais peux essayer de le déduire en observant bien la scène.
 
 **Mot de diffusion :** Nom [Forme] : Portée : Lieu, Vecteur : Voix.
 
@@ -114,7 +114,7 @@
 
 *Difficulté :* 8, *Drain :* 8
 
-**Mot de pouvoir :** Intuition (Tueor (Regarder) / Deltueo (Del + tueo)) [Pouvoir (Senseur)] : Génère un effet de perception du danger (voir règle sur les "senseurs"), révèle ainsi les êtres qui souhaite ou pourrait s'en prendre au personnage, quel qu'en soit la raison... Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
+**Mot de pouvoir :** Intuition ['Divi'!C25] (Tueor (Regarder) / Deltueo (Del + tueo)) [Pouvoir (Senseur)] : Génère un effet de perception du danger (voir règle sur les "senseurs"), révèle ainsi les êtres qui souhaite ou pourrait s'en prendre au personnage, quel qu'en soit la raison... Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
 
 **Mot de diffusion :** Soi [Forme] : Portée : Sans, Vecteur : Sans, Cible soi possible.
 

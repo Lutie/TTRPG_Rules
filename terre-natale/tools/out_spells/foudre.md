@@ -6,7 +6,7 @@
 
 *Difficulté :* 14, *Drain :* 14
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -23,7 +23,7 @@
 
 *Difficulté :* 12, *Drain :* 14
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -37,7 +37,7 @@
 
 *Difficulté :* 8, *Drain :* 10
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Soi [Forme] : Portée : Sans, Vecteur : Sans, Cible soi possible.
 
@@ -49,7 +49,7 @@
 
 *Difficulté :* 14, *Drain :* 14
 
-**Mot de pouvoir :** Condamnation (Condemno (Condamner) / Malconde (Mal + conde)) [Pouvoir] : Génère un enchantement négatif qui attends la mort de la cible afin de déclencher les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> avec la magnitude du sort qui doit être nécessairement un effet de dégats, l'effet a une rayon de 1m, le lanceur de sort peux décider de réduire la magnitude du sort de 1/5, 1/4 ou 1/3 afin de respectivement augmenter ce rayon à 2, 4 ou 8. Les dégats sont sujets aux règles de dégats de zone, etc...
+**Mot de pouvoir :** Condamnation ['Malé'!C115] (Condemno (Condamner) / Malconde (Mal + conde)) [Pouvoir] : Génère un enchantement négatif qui attends la mort de la cible afin de déclencher les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> avec la magnitude du sort qui doit être nécessairement un effet de dégats, l'effet a une rayon de 1m, le lanceur de sort peux décider de réduire la magnitude du sort de 1/5, 1/4 ou 1/3 afin de respectivement augmenter ce rayon à 2, 4 ou 8. Les dégats sont sujets aux règles de dégats de zone, etc...
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -63,7 +63,7 @@
 
 *Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Désintégration (Integro (Intégrité) / Korintegr (Kor + integr)) [Pouvoir] : Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats structurels via <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Désintégration ['Dest'!C40] (Integro (Intégrité) / Korintegr (Kor + integr)) [Pouvoir] : Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats structurels via <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -75,7 +75,7 @@
 
 *Difficulté :* 16, *Drain :* 12
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Projectile [Forme] : Portée : Portée magique x2, Vecteur : Vue.
 
@@ -90,7 +90,7 @@
 
 *Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Affliction (Fligo (Frapper) / Aenfligo (Aen + fligo)) [Pouvoir] : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).
+**Mot de pouvoir :** Affliction ['Alté'!C10] (Fligo (Frapper) / Aenfligo (Aen + fligo)) [Pouvoir] : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -116,7 +116,7 @@
 
 *Difficulté :* 14+2X, *Drain :* 12+2X
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Projectile [Forme] : Portée : Portée magique x2, Vecteur : Vue.
 
@@ -131,7 +131,7 @@
 
 *Difficulté :* 14+2X, *Drain :* 12+2X
 
-**Mot de pouvoir :** Déflagration (Flagro (Brûler) / Morflagro (Mor + flagro)) [Pouvoir] : Génère un enchantement négatif qui attends la mise hors d'état de la cible (PV <= 0) afin de déclencher les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> avec les 2/3 de la magnitude du sort qui doit être nécessairement un effet de dégats, l'effet a une rayon de 1m, le lanceur de sort peux décider de réduire la magnitude du sort de 1/5, 1/4 ou 1/3 afin de respectivement augmenter ce rayon à 2, 4 ou 8. Les dégats sont sujets aux règles de dégats de zone, etc... La cible de l'enchantement est elle même affectée par le sort mais pour elle ce ne sont pas des dégats de zone.
+**Mot de pouvoir :** Déflagration ['Malé'!C116] (Flagro (Brûler) / Morflagro (Mor + flagro)) [Pouvoir] : Génère un enchantement négatif qui attends la mise hors d'état de la cible (PV <= 0) afin de déclencher les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> avec les 2/3 de la magnitude du sort qui doit être nécessairement un effet de dégats, l'effet a une rayon de 1m, le lanceur de sort peux décider de réduire la magnitude du sort de 1/5, 1/4 ou 1/3 afin de respectivement augmenter ce rayon à 2, 4 ou 8. Les dégats sont sujets aux règles de dégats de zone, etc... La cible de l'enchantement est elle même affectée par le sort mais pour elle ce ne sont pas des dégats de zone.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -146,7 +146,7 @@
 
 *Difficulté :* 12, *Drain :* 14
 
-**Mot de pouvoir :** Elémentaire (Elementum (Élément) / Voele (Vo + ele)) [Pouvoir] : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+**Mot de pouvoir :** Elémentaire ['Invoc'!C3] (Elementum (Élément) / Voele (Vo + ele)) [Pouvoir] : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 **Mot de diffusion :** Contact [Forme] : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 
@@ -158,7 +158,7 @@
 
 *Difficulté :* 16, *Drain :* 16
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -173,7 +173,7 @@
 
 *Difficulté :* 12, *Drain :* 12
 
-**Mot de pouvoir :** Mitigation (Mitis (Doux) / Luxmitis (Lux + mitis)) [Pouvoir] : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.
+**Mot de pouvoir :** Mitigation ['Béné'!C60] (Mitis (Doux) / Luxmitis (Lux + mitis)) [Pouvoir] : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
@@ -199,7 +199,7 @@
 
 *Difficulté :* 16+X, *Drain :* 16+X
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 

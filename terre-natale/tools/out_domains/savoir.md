@@ -2,10 +2,10 @@
 
 > 32 mots pour ce domaine
 
-#### 1. Obfuscation
+#### 1. Obfuscation ['Dest'!C43]
 *École :* École de Destruction
 
-*Latin :* Fusco (Noircir), *Arcanique :* Kafusc (Ka + fusc)
+*Latin :* Fusco (Noircir), *Arcanique :* Kafusc (Ka + fusc) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -15,10 +15,10 @@ Détruit l'indice, la piste ou autre information ciblé, rendue bien plus diffic
 
 ---
 
-#### 2. Perfectionnement
+#### 2. Perfectionnement ['Béné'!C73]
 *École :* École de Bénédiction
 
-*Latin :* Perficere (Achever), *Arcanique :* Lempfect (Lem + pfect)
+*Latin :* Perficere (Achever), *Arcanique :* Lempfect (Lem + pfect) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -28,10 +28,10 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 3. Cognitransfert
+#### 3. Cognitransfert ['Béné'!C86]
 *École :* École de Bénédiction
 
-*Latin :* Cognitio (Connaissance), *Arcanique :* Lircognit (Lir + cognit)
+*Latin :* Cognitio (Connaissance), *Arcanique :* Lircognit (Lir + cognit) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -41,10 +41,10 @@ Génère un enchantement positif qui permet à la cible de partager la mémoire 
 
 ---
 
-#### 4. Précognition
+#### 4. Précognition ['Béné'!C88]
 *École :* École de Bénédiction
 
-*Latin :* Scio (Savoir), *Arcanique :* Luxscio (Lux + scio)
+*Latin :* Scio (Savoir), *Arcanique :* Luxscio (Lux + scio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -54,10 +54,10 @@ Génère un enchantement positif qui permet de voir une fraction de temps en ava
 
 ---
 
-#### 5. Consécration
+#### 5. Consécration ['Béné'!C93]
 *École :* École de Bénédiction
 
-*Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro)
+*Latin :* Sacro (Rendre sacré), *Arcanique :* Lemsacro (Lem + sacro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -67,10 +67,10 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 6. Déqualification
+#### 6. Déqualification ['Malé'!C72]
 *École :* École de Malédiction
 
-*Latin :* Qualis (Qualité), *Arcanique :* Morquali (Mor + quali)
+*Latin :* Qualis (Qualité), *Arcanique :* Morquali (Mor + quali) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -80,10 +80,10 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 7. Oblitération
+#### 7. Oblitération ['Malé'!C85]
 *École :* École de Malédiction
 
-*Latin :* Littera (Lettre), *Arcanique :* Muglitera (Mug + litera)
+*Latin :* Littera (Lettre), *Arcanique :* Muglitera (Mug + litera) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -93,10 +93,10 @@ Génère un enchantement négatif qui réduit la mémoire de la cible de <span s
 
 ---
 
-#### 8. Déprécation
+#### 8. Déprécation ['Malé'!C90]
 *École :* École de Malédiction
 
-*Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec)
+*Latin :* Precor (Prier), *Arcanique :* Munprec (Mun + prec) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -106,10 +106,10 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 9. Livre
+#### 9. Livre ['Invoc'!C15]
 *École :* École d'Invocation
 
-*Latin :* Liber (Livre), *Arcanique :* Voliber (Vo + liber)
+*Latin :* Liber (Livre), *Arcanique :* Voliber (Vo + liber) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (lieu)
 *Difficulté :* 2, *Drain :* 2
 
@@ -119,10 +119,10 @@ Génère un enchantement qui invoque un livre, la charge est de <span style="col
 
 ---
 
-#### 10. Consultation
+#### 10. Consultation ['Invoc'!C20]
 *École :* École d'Invocation
 
-*Latin :* Consulo (Consulter), *Arcanique :* Vanconsul (Van + consul)
+*Latin :* Consulo (Consulter), *Arcanique :* Vanconsul (Van + consul) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible (invocation)
 *Difficulté :* 2, *Drain :* 2
 
@@ -132,10 +132,10 @@ Génère un effet qui permet de consulter la mémoire d'une invocation sur <span
 
 ---
 
-#### 11. Obstruction
+#### 11. Obstruction ['Abju'!C29]
 *École :* École d'Abjuration
 
-*Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru)
+*Latin :* Obstruo (Boucher), *Arcanique :* Basobstru (Bas + obstru) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -145,10 +145,10 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 12. Protestation
+#### 12. Protestation ['Abju'!C30]
 *École :* École d'Abjuration
 
-*Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste)
+*Latin :* Testor (Témoigner), *Arcanique :* Barenteste (Bren + teste) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -158,10 +158,10 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 13. Neutralisation
+#### 13. Neutralisation ['Abju'!C31]
 *École :* École d'Abjuration
 
-*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute)
+*Latin :* Neuter (Ni l'un ni l'autre), *Arcanique :* Barneute (Bar + neute) [Interruption]
 *Type de mot :* Interruption, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -171,10 +171,10 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 14. Oblitération
+#### 14. Oblitération ['Abju'!C51]
 *École :* École d'Abjuration
 
-*Latin :* Littera (Lettre, signe), *Arcanique :* Barlita (Bar + lita)
+*Latin :* Littera (Lettre, signe), *Arcanique :* Barlita (Bar + lita) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -184,10 +184,10 @@ Génère un effet qui permet au lanceur de sort de connaitre les manoeuvres conn
 
 ---
 
-#### 15. Identification
+#### 15. Identification ['Divi'!C7]
 *École :* École de Divination
 
-*Latin :* Idem (Le même), *Arcanique :* Diidem (Di + idem)
+*Latin :* Idem (Le même), *Arcanique :* Diidem (Di + idem) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -197,10 +197,10 @@ Génère un effet permettant au lanceur de sort de savoir des choses sur la cibl
 
 ---
 
-#### 16. Confirmation
+#### 16. Confirmation ['Divi'!C8]
 *École :* École de Divination
 
-*Latin :* Firmo (Affirmer), *Arcanique :* Dorfirmo (Dor + firmo)
+*Latin :* Firmo (Affirmer), *Arcanique :* Dorfirmo (Dor + firmo) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -210,10 +210,10 @@ Génère un effet permettant au lanceur de sort de valider des choses sur la cib
 
 ---
 
-#### 17. Oraculation
+#### 17. Oraculation ['Divi'!C10]
 *École :* École de Divination
 
-*Latin :* Oraculum (Oracle), *Arcanique :* Darora (Dar + ora)
+*Latin :* Oraculum (Oracle), *Arcanique :* Darora (Dar + ora) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -223,10 +223,10 @@ Génère un effet permettant au lanceur de sort de connaitre la solution à un p
 
 ---
 
-#### 18. Interrogation
+#### 18. Interrogation ['Divi'!C11]
 *École :* École de Divination
 
-*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga)
+*Latin :* Rogo (Questionner), *Arcanique :* Diroga (Di + roga) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -236,10 +236,10 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 19. Élucidation
+#### 19. Élucidation ['Divi'!C12]
 *École :* École de Divination
 
-*Latin :* Lux (Lumière), *Arcanique :* Dorlux (Dor + lux)
+*Latin :* Lux (Lumière), *Arcanique :* Dorlux (Dor + lux) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -249,10 +249,10 @@ Génère un effet permettant au lanceur de sort de connaitre la solution à un p
 
 ---
 
-#### 20. Érudition
+#### 20. Érudition ['Divi'!C20]
 *École :* École de Divination
 
-*Latin :* Erudio (Instruire), *Arcanique :* Dorerudi (Dor + erudi)
+*Latin :* Erudio (Instruire), *Arcanique :* Dorerudi (Dor + erudi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -262,10 +262,10 @@ Génère un effet qui permet au lanceur de sort de réaliser une action de conna
 
 ---
 
-#### 21. Cogitation
+#### 21. Cogitation ['Divi'!C21]
 *École :* École de Divination
 
-*Latin :* Cogito (Penser), *Arcanique :* Delcogi (Del + cogi)
+*Latin :* Cogito (Penser), *Arcanique :* Delcogi (Del + cogi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -275,10 +275,10 @@ Génère un effet qui permet au lanceur de sort de d'entreprendre jusqu'à <span
 
 ---
 
-#### 22. Narration
+#### 22. Narration ['Divi'!C38]
 *École :* École de Divination
 
-*Latin :* Narro (Raconter), *Arcanique :* Darnarra (Dar + narra)
+*Latin :* Narro (Raconter), *Arcanique :* Darnarra (Dar + narra) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -288,10 +288,10 @@ Génère un effet qui permet au lanceur de sort d'avoir l'historique de la cible
 
 ---
 
-#### 23. Rétrospection
+#### 23. Rétrospection ['Divi'!C39]
 *École :* École de Divination
 
-*Latin :* Specio (Regarder), *Arcanique :* Dispecio (Di + specio)
+*Latin :* Specio (Regarder), *Arcanique :* Dispecio (Di + specio) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -301,10 +301,10 @@ Génère un effet qui permet au lanceur de sort d'avoir la mémoire de la cible 
 
 ---
 
-#### 24. Rétrospection
+#### 24. Rétrospection ['Evoc'!C21]
 *École :* École d'Évocation
 
-*Latin :* Retro (En arrière), *Arcanique :* Eruretro (Eru + retro)
+*Latin :* Retro (En arrière), *Arcanique :* Eruretro (Eru + retro) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -314,10 +314,10 @@ Génère un effet qui octroie au lanceur de sort l'historique de la cible sur <s
 
 ---
 
-#### 25. Intrusion
+#### 25. Intrusion ['Evoc'!C25]
 *École :* École d'Évocation
 
-*Latin :* Trudo (Pousser), *Arcanique :* Eruitrud (Eru + itrud)
+*Latin :* Trudo (Pousser), *Arcanique :* Eruitrud (Eru + itrud) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -327,10 +327,10 @@ Génère un effet qui octroie au lanceur de sort de consulter la mémoire (infor
 
 ---
 
-#### 26. Visualisation
+#### 26. Visualisation ['Evoc'!C29]
 *École :* École d'Évocation
 
-*Latin :* Video (Voir), *Arcanique :* Eruvidi (Eru + vidi)
+*Latin :* Video (Voir), *Arcanique :* Eruvidi (Eru + vidi) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -340,10 +340,10 @@ Génère un effet qui permet de voir ce que contient un espace interdimentionnel
 
 ---
 
-#### 27. Manifestation
+#### 27. Manifestation ['Evoc'!C35]
 *École :* École d'Évocation
 
-*Latin :* Manes (Esprits, apparences), *Arcanique :* Enmani (En + mani)
+*Latin :* Manes (Esprits, apparences), *Arcanique :* Enmani (En + mani) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 2, *Drain :* 2
 
@@ -353,10 +353,10 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 28. Cognition
+#### 28. Cognition ['Evoc'!C68]
 *École :* École d'Évocation
 
-*Latin :* Cogito (Penser), *Arcanique :* Erucogit (Eru + cogit)
+*Latin :* Cogito (Penser), *Arcanique :* Erucogit (Eru + cogit) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Soi
 *Difficulté :* 6, *Drain :* 2
 
@@ -366,10 +366,10 @@ Génère un effet qui déclanche chez le lanceur de sort un test de connaissance
 
 ---
 
-#### 29. Télétransmission
+#### 29. Télétransmission ['Evoc'!C71]
 *École :* École d'Évocation
 
-*Latin :* Mitto (Envoyer), *Arcanique :* Elotrams (Elo + trams)
+*Latin :* Mitto (Envoyer), *Arcanique :* Elotrams (Elo + trams) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 6, *Drain :* 2
 
@@ -379,10 +379,10 @@ Génère un message envoyé à une cible peu importe sa localisation, la distanc
 
 ---
 
-#### 30. Lecture mentale
+#### 30. Lecture mentale ['Conj'!C41]
 *École :* École de Conjuration
 
-*Latin :* Mente (Esprit), *Arcanique :* Colment (Col + ment)
+*Latin :* Mente (Esprit), *Arcanique :* Colment (Col + ment) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 4, *Drain :* 4
 
@@ -392,10 +392,10 @@ Génère un enchantement qui permet au lanceur de sort d'entendre les pensées d
 
 ---
 
-#### 31. Falsification
+#### 31. Falsification ['Alté'!C33]
 *École :* École d'Altération
 
-*Latin :* Fallo (Tromper), *Arcanique :* Asfall (As + fall)
+*Latin :* Fallo (Tromper), *Arcanique :* Asfall (As + fall) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 
@@ -405,10 +405,10 @@ Dénature l'indice, la piste ou autre information ciblé, lui donnant une toute 
 
 ---
 
-#### 32. Fabrication
+#### 32. Fabrication ['Alté'!C34]
 *École :* École d'Altération
 
-*Latin :* Facere (Faire), *Arcanique :* Aenfac (Aen + fac)
+*Latin :* Facere (Faire), *Arcanique :* Aenfac (Aen + fac) [Pouvoir]
 *Type de mot :* Pouvoir, *Type de cible :* Cible
 *Difficulté :* 2, *Drain :* 2
 

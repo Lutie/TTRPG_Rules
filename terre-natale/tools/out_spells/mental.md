@@ -6,7 +6,7 @@
 
 *Difficulté :* 8, *Drain :* 8
 
-**Mot de pouvoir :** Spiritualisation (Spiritus (Souffle) / Luspiri (Lu + spiri)) [Pouvoir] : Génère un enchantement positif qui augmente tous les attributs de l'esprit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> mais réduit ceux du corps d'autant.
+**Mot de pouvoir :** Spiritualisation ['Béné'!C55] (Spiritus (Souffle) / Luspiri (Lu + spiri)) [Pouvoir] : Génère un enchantement positif qui augmente tous les attributs de l'esprit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> mais réduit ceux du corps d'autant.
 
 **Mot de diffusion :** Soi [Forme] : Portée : Sans, Vecteur : Sans, Cible soi possible.
 

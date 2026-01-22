@@ -48,7 +48,7 @@
 
 *Difficulté :* 16+X, *Drain :* 14+X
 
-**Mot de pouvoir :** Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+**Mot de pouvoir :** Destruction ['Dest'!C3] (Ruptura (Rupture) / Kinrupt (Kin + rupt)) [Pouvoir] : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 **Mot de diffusion :** Manifestation [Forme] : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 
