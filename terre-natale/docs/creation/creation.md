@@ -178,19 +178,19 @@ Philosophie de vie issue de la culture.
 | Neutre    | Le Refus du Choix                | —                         | —                             |
 | Magie     | La Primauté du Mystère           | Magie                     | Chance                        |
 | Arcanes  | La Réécriture du Réel            | Magie                     | Équilibre                     |
-| Héritage | Le Poids du Passé                | Magie                     | Au choix                      |
+| Héritage | Le Poids du Passé                | Magie                     | Esprit ou Corps               |
 | Nature   | L'Harmonie Vivante               | Équilibre                 | Magie **ou** Logique          |
-| Source   | L'Ordre Fondamental              | Équilibre                 | Au choix                      |
+| Source   | L'Ordre Fondamental              | Équilibre                 | Esprit ou Corps               |
 | Ankou    | Le Cycle Inéluctable             | Équilibre                 | Chance                        |
 | Chaos    | L'Acceptation de l'Imprévisible  | Chance                    | Équilibre                     |
-| Songes   | La Guidance de l'Intuition       | Chance                    | Au choix                      |
+| Songes   | La Guidance de l'Intuition       | Chance                    | Esprit ou Corpsc
 | Steam    | La Foi dans la Machine           | Logique                   | Chance                        |
 | Sciences | Le Dépassement des Limites       | Logique                   | Équilibre                     |
-| Raison   | La Suprématie du Calcul          | Logique                   | Au choix                      |
-| Emeth    | La Vérité par l'Utilité          | Magie & Logique           | Chance & Équilibre            |
-| Silence  | La Retenue                       | Au choix                  | Équilibre                     |
-| Foi      | L'Abandon à l'Absolu             | Au choix                  | Chance                        |
-| Ambition | La Quête de l'Ascension          | Au choix                  | Au choix                      |
+| Raison   | La Suprématie du Calcul          | Logique                   | Esprit ou Corps               |
+| Emeth    | La Vérité par l'Utilité          | Magie & Logique           | Esprit ou Corps               |
+| Silence  | La Retenue                       | Esprit ou Corps           | Équilibre                     |
+| Foi      | L'Abandon à l'Absolu             | Esprit ou Corps           | Chance                        |
+| Ambition | La Quête de l'Ascension          | Esprit ou Corps           | Esprit ou Corps               |
 
 
 #### Choix du milieu de vie
