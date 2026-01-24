@@ -79,6 +79,11 @@ button {
   padding: 10px 10px;
 }
 
+select option {
+  background: var(--bg);
+  color: var(--text);
+}
+
 button {
   background: rgba(255, 255, 255, 0.04);
   cursor: pointer;
