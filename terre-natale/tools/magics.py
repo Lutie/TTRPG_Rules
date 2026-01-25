@@ -13,6 +13,7 @@ Features:
 - Stops when a row is missing any required core fields
 - Numbers entries per school/domain
 - Highlights [bracketed] text in bold pink (HTML) in markdown
+- Highlights keys in bold green
 - Adds a final dot to descriptions when missing
 - Builds a JSON file with all words
 """
@@ -215,6 +216,15 @@ def highlight_brackets(text: str) -> str:
 
     return re.sub(r"\[[^\]]+\]", repl, text)
 
+def highlight_keys(text: str) -> str:
+    """
+    Wrap key text in bold green HTML.
+    Example: Feu -> <span style="color:#228B22; font-weight:bold;">Feu</span>
+    """
+    if not text:
+        return text
+    return f'<span style="color:#228B22; font-weight:bold;">{text}</span>'
+
 def extract_domains_from_keys(keys_raw: str) -> List[str]:
     """Return list of domain icons present in keys_raw."""
     domains: List[str] = []
@@ -253,8 +263,9 @@ def row_to_markdown(
     raw_description = ensure_final_dot(raw_description)
     description = highlight_brackets(raw_description)
 
-    # Keys: only highlighting
-    keys = highlight_brackets(get_field(row, "keys"))
+    # Keys: no highlighting here (just raw text)
+    keys_raw = get_field(row, "keys")
+    keys = keys_raw
 
     if not vulgar:
         return ""
@@ -274,27 +285,23 @@ def row_to_markdown(
 
     # Optional school info (useful for domain view)
     if school_label:
-        lines.append(f"*École :* {school_label}")
-        lines.append("")
+        lines.append(f"***École :*** {school_label}")
 
-    # Latin / Arcane
-    type_part = f" [{word_type}]" if word_type else ""
-    lines.append(f"*Latin :* {latin}, *Arcanique :* {arcane}{type_part}")
+    # Latin / Arcane (sans le type redondant)
+    lines.append(f"***Latin :*** {latin}, ***Arcanique :*** {arcane}")
 
     # Word type / Target type
-    lines.append(f"*Type de mot :* {word_type}, *Type de cible :* {target_type}")
+    lines.append(f"***Type de mot :*** {word_type}, ***Type de cible :*** {target_type}")
 
     # Difficulty / Drain
-    lines.append(f"*Difficulté :* {difficulty}, *Drain :* {drain}")
+    lines.append(f"***Difficulté :*** {difficulty}, ***Drain :*** {drain}")
 
     # Keys
     if keys:
-        lines.append("")
         lines.append(f"**Clés :** {keys}")
 
     # Description
     if description:
-        lines.append("")
         lines.append(description)
 
     return "\n".join(lines)
@@ -599,12 +606,30 @@ def generate_spells_from_sorts() -> None:
 
     # Role labels (for presentation)
     ROLE_LABELS = {
-        "power": "Mot de pouvoir",
         "diffusion": "Mot de diffusion",
         "propagation": "Mot de propagation",
         "structure": "Mot de structure",
+        "power": "Mot de pouvoir",
+        "power_single": "Mot de pouvoir",
+        "power_main": "Mot de pouvoir principal",
+        "power2": "Mot de pouvoir secondaire",
         "avance": "Mot avancé",
         "liaison": "Mot de liaison",
+        "linked": "Mot de pouvoir lié",
+    }
+    
+    # Order of display for spell components
+    ROLE_ORDER = {
+        "diffusion": 1,
+        "propagation": 2,
+        "structure": 3,
+        "power": 4,
+        "power_single": 4,
+        "power_main": 4,
+        "power2": 5,
+        "avance": 6,
+        "liaison": 7,
+        "linked": 8,
     }
 
     current_group: str | None = None
@@ -631,6 +656,7 @@ def generate_spells_from_sorts() -> None:
         # --- noms de mots ---
 
         power_name = get_cell(row, "H")   # mot de pouvoir (nom vulgaire)
+        power_key = get_cell(row, "I")    # clé du mot de pouvoir principal
         diffusion_name = get_cell(row, "K")
         propagation_name = get_cell(row, "L")
         structure_name = get_cell(row, "M")
@@ -641,14 +667,31 @@ def generate_spells_from_sorts() -> None:
             get_cell(row, "R"),
         ]
         notes_raw = get_cell(row, "S")
+        
+        # NOUVELLES COLONNES
+        power2_name = get_cell(row, "T")   # 2ème mot de pouvoir
+        power2_key = get_cell(row, "U")    # clé du 2ème mot
+        linked_name = get_cell(row, "V")   # clé liée
+        linked_key = get_cell(row, "W")    # clé de la clé liée
+        spell_description = get_cell(row, "X")  # description synthétique/RP du sort
 
         words_used: List[Dict[str, Any]] = []
 
-        # mot de pouvoir (main dico)
+        # Déterminer le rôle du mot de pouvoir principal selon le contexte
+        has_power2 = bool(power2_name)
+        has_linked = bool(linked_name)
+        
         if power_name:
+            # Ajuster le rôle selon qu'il y ait d'autres mots de pouvoir
+            if has_power2 or has_linked:
+                power_role = "power_main"
+            else:
+                power_role = "power_single"
+            
             words_used.append({
-                "role": "power",
+                "role": power_role,
                 "name": power_name,
+                "key": power_key,
                 "entry": main_by_vulgar.get(power_name),
                 "source": "main",
             })
@@ -671,6 +714,26 @@ def generate_spells_from_sorts() -> None:
         for l_name in liaison_names:
             if l_name:
                 add_extra_word("liaison", l_name)
+
+        # AJOUT du 2ème mot de pouvoir
+        if power2_name:
+            words_used.append({
+                "role": "power2",
+                "name": power2_name,
+                "key": power2_key,
+                "entry": main_by_vulgar.get(power2_name),
+                "source": "main",
+            })
+
+        # AJOUT de la clé liée
+        if linked_name:
+            words_used.append({
+                "role": "linked",
+                "name": linked_name,
+                "key": linked_key,
+                "entry": main_by_vulgar.get(linked_name),
+                "source": "main",
+            })
 
         # --- calcul difficulté & drain (avec X) ---
 
@@ -714,7 +777,6 @@ def generate_spells_from_sorts() -> None:
             drain_str = str(entry.get("drain", "")).strip()
 
             # Coeff X par mot (on ne compte qu'une seule fois, même s'il y a X en diff ET en drain)
-            # FIXED: Only count X coefficient once per word
             has_x_diff = "X" in diff_str
             has_x_drain = "X" in drain_str
             
@@ -766,71 +828,74 @@ def generate_spells_from_sorts() -> None:
         difficulty_display = format_with_x(total_difficulty, x_coeff_total)
         drain_display = format_with_x(total_drain, x_coeff_total)
 
+        # Récupérer le type de sort, l'école et le domaine depuis les mots de pouvoir
+        spell_type = ""
+        spell_schools = []
+        spell_domains = []
+        
+        for w in words_used:
+            if w["role"] in ("power_single", "power_main", "power2") and w["entry"]:
+                # Type de sort (seulement du mot principal)
+                if w["role"] in ("power_single", "power_main") and not spell_type:
+                    spell_type = w["entry"].get("word_type", "")
+                
+                # École du sort
+                school_label = w["entry"].get("school_label", "")
+                if school_label and school_label not in spell_schools:
+                    spell_schools.append(school_label)
+                
+                # Domaine (première lettre de chaque clé)
+                key = w.get("key", "")
+                if key:
+                    # Prendre la première lettre de la clé
+                    first_letter = key[0] if key else ""
+                    if first_letter:
+                        spell_domains.append(first_letter)
+
+        # --- Sort words_used by display order ---
+        words_used.sort(key=lambda w: ROLE_ORDER.get(w["role"], 99))
+
         # --- bloc markdown du sort ---
 
         lines: List[str] = []
         lines.append(f"## {title}")
-        lines.append("")
-        lines.append(f"*Difficulté :* {difficulty_display}, *Drain :* {drain_display}")
-        lines.append("")
-
-        # mot de pouvoir en premier, sans les clés
+        
+        # Difficulté, Drain, Type de sort, Domaine et École
+        type_part = f", ***Type de sort :*** {spell_type}" if spell_type else ""
+        
+        domain_str = "".join(spell_domains) if spell_domains else ""
+        domain_part = f", ***Domaine du sort :*** {domain_str}" if domain_str else ""
+        
+        school_str = " et ".join(spell_schools) if spell_schools else ""
+        school_part = f", ***École du sort :*** {school_str}" if school_str else ""
+        
+        lines.append(f"***Difficulté :*** {difficulty_display}, ***Drain :*** {drain_display}{type_part}{domain_part}{school_part}")
+        
+        # Séparer les mots de pouvoir des autres mots
+        power_words = []
+        other_words = []
+        
         for w in words_used:
-            if w["role"] != "power":
-                continue
-
-            entry = w["entry"]
-            name = w["name"]
-
-            if entry:
-                latin = entry.get("latin", "")
-                arcane = entry.get("arcane", "")
-                word_type_str = entry.get("word_type", "")
-                desc_raw = ensure_final_dot(entry.get("description", ""))
-                desc_md = highlight_brackets(desc_raw)
-
-                # Add cell reference in debug mode
-                ref_part = ""
-                if DEBUG_MODE:
-                    cell_ref = entry.get("cell_ref", "")
-                    if cell_ref:
-                        ref_part = f" [{cell_ref}]"
-
-                # Add word type
-                type_part = f" [{word_type_str}]" if word_type_str else ""
-
-                line = (
-                    f"**{ROLE_LABELS['power']} :** "
-                    f"{entry.get('vulgar', name)}{ref_part} ({latin} / {arcane}){type_part} : {desc_md}"
-                )
+            if w["role"] in ("power_single", "power_main", "power2", "linked"):
+                power_words.append(w)
             else:
-                line = (
-                    f"**{ROLE_LABELS['power']} :** {name} "
-                    f"*(mot introuvable dans les dictionnaires)*"
-                )
-
-            lines.append(line)
-            lines.append("")
-
-        # autres mots (diffusion/propagation/structure/avancé/liaison)
-        for w in words_used:
-            if w["role"] == "power":
-                continue
-
+                other_words.append(w)
+        
+        # Afficher les autres mots (diffusion, propagation, etc.) d'abord
+        for w in other_words:
             role = w["role"]
             label = ROLE_LABELS.get(role, role.capitalize())
             entry = w["entry"]
             name = w["name"]
-
+            
             if entry:
-                word_type_str = entry.get("word_type", "")
                 desc_raw = ensure_final_dot(entry.get("description", ""))
                 desc_md = highlight_brackets(desc_raw)
                 
-                # Add word type for extra words too
-                type_part = f" [{word_type_str}]" if word_type_str else ""
+                # Nom du mot en vert
+                word_name = highlight_keys(entry.get('name', name))
                 
-                line = f"**{label} :** {entry.get('name', name)}{type_part} : {desc_md}"
+                line = f"**{label} :** {word_name} : {desc_md}"
                 lines.append(line)
 
                 # cas spécial : mot de structure → Modificateurs de Magnitude
@@ -838,20 +903,73 @@ def generate_spells_from_sorts() -> None:
                     mag_mod = entry.get("magnitude_modifiers", "")
                     if mag_mod:
                         mag_mod_md = highlight_brackets(mag_mod)
-                        lines.append(f"*Modificateurs de Magnitude :* {mag_mod_md}")
+                        lines.append(f"***Modificateurs de Magnitude :*** {mag_mod_md}")
 
-                lines.append("")
             else:
-                line = f"**{label} :** {name} *(mot introuvable dans les dictionnaires)*"
+                word_name = highlight_keys(name)
+                line = f"**{label} :** {word_name} *(mot introuvable dans les dictionnaires)*"
                 lines.append(line)
-                lines.append("")
+        
+        # Encadré pour les mots de pouvoir (blockquote)
+        if power_words:
+            lines.append("")
+            
+            for w in power_words:
+                role = w["role"]
+                label = ROLE_LABELS.get(role, role.capitalize())
+                entry = w["entry"]
+                name = w["name"]
+                key = w.get("key", "")
+                
+                if entry:
+                    latin = entry.get("latin", "")
+                    arcane = entry.get("arcane", "")
+                    desc_raw = ensure_final_dot(entry.get("description", ""))
+                    desc_md = highlight_brackets(desc_raw)
+
+                    ref_part = ""
+                    if DEBUG_MODE:
+                        cell_ref = entry.get("cell_ref", "")
+                        if cell_ref:
+                            ref_part = f" [{cell_ref}]"
+                    
+                    # Format key in normal text if present
+                    key_part = ""
+                    if key:
+                        key_part = f" ***Clé :*** {key}"
+
+                    # Nom du mot en vert
+                    word_name = highlight_keys(entry.get('vulgar', name))
+
+                    line = (
+                        f"> **{label} :** "
+                        f"{word_name}{ref_part} ({latin} / {arcane}) : {desc_md}{key_part}"
+                    )
+                else:
+                    key_part = ""
+                    if key:
+                        key_part = f" ***Clé :*** {key}"
+                    word_name = highlight_keys(name)
+                    line = (
+                        f"> **{label} :** {word_name} "
+                        f"*(mot introuvable dans les dictionnaires)*{key_part}"
+                    )
+
+                lines.append(line)
+        
+        # Description synthétique/RP du sort en bas (si présente)
+        if spell_description:
+            lines.append("")
+            spell_desc_formatted = ensure_final_dot(spell_description)
+            spell_desc_md = highlight_brackets(spell_desc_formatted)
+            lines.append(f"***Description :*** {spell_desc_md}")
 
         # notes
         if notes_raw:
+            lines.append("")
             notes = ensure_final_dot(notes_raw)
             notes_md = highlight_brackets(notes)
-            lines.append(f"**Notes :** {notes_md}")
-            lines.append("")
+            lines.append(f"***Notes :*** {notes_md}")
 
         spell_block = "\n".join(lines).strip()
 

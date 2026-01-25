@@ -10,6 +10,14 @@ nav:
   - Création: creation/creation/index.html
   - Castes: castes/castes/index.html
   - Ethnies: ethnies/ethnies/index.html
+  - Magies:
+    - Ombre: magies/ombre.html
+    - Impie:  magies/impie.html
+    - Toxique:  magies/toxique.html
+    - Arcane:  magies/arcane.html
+    - Magie:  magies/magie.html
+    - Acier:  magies/acier.html
+    - Guerre:  magies/guerre.html
   - Outils:
     - Vitals: tools/vitals/index.html
     - Stats: tools/stats/index.html

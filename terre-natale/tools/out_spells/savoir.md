@@ -3,5 +3,4 @@
 > 1 sorts pour Savoir
 
 ## Rappel Ancestral
-
-*Difficulté :* 8, *Drain :* 8
+***Difficulté :*** 8, ***Drain :*** 8
