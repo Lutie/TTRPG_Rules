@@ -1,0 +1,261 @@
+<!DOCTYPE html><html><head>
+      <title>vide</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Lutie\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="sorts--vide">Sorts – Vide </h1>
+<blockquote>
+<p>23 sorts pour Vide</p>
+</blockquote>
+<h2 id="mot-de-rapidité">Mot de Rapidité </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Promptification</span> (Promptus (Prompt) / Luxpromp (Lux + promp)) : Génère un enchantement positif qui augmente la rapidité de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Luxpromparh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Accélère fortement les réactions de la cible en améliorant sa rapidité.</p>
+<hr>
+<h2 id="mot-de-vitesse">Mot de Vitesse </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Vivification</span> (Vita (Vie) / Lokvita (Lok + vita)) : Génère un enchantement positif qui augmente la vitesse de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Lokvitaarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente la vitesse de déplacement de la cible de façon surnaturelle.</p>
+<hr>
+<h2 id="mot-dinitiative">Mot d'Initiative </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Stimulation</span> (Stimulo (Piquer) / Luxstimu (Lux + stimu)) : Génère un enchantement positif qui ajuste l'initiative de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Luxstimu arh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Améliore la réactivité de la cible en modifiant son initiative.</p>
+<hr>
+<h2 id="mot-de-hâte">Mot de Hâte </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Surexécution</span> (Exsequor (Exécuter) / Lirsequor (Lir + sequor)) : Génère un enchantement positif qui permet à la cible de réaliser une ACTS ou ACTR ou ACTL supplémentaire par round, chaque usage provoque une décharge de l'enchantement (+2 s'il s'agit d'une ACTS ou ACTR). <em><strong>Clé :</strong></em> 💢 Vide: Lirsequor arh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet à la cible d’agir plus souvent chaque round, au prix d’un épuisement progressif de l’effet.</p>
+<hr>
+<h2 id="mot-de-lenteur">Mot de Lenteur </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Ralentissement</span> (Tardus (Lent) / Mortard (Mor + tard)) : Génère un enchantement négatif qui octroie à la cible un malus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> à son initiative, cette altération de valeurs est appliquée au moment où l'enchantement est lancé puis à chaque début de tours. <em><strong>Clé :</strong></em> 💢 Vide: Mortardarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Ralentit la cible dans le temps, la faisant agir de plus en plus tard.</p>
+<hr>
+<h2 id="mot-de-lourdeur">Mot de Lourdeur </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Alourdissement</span> (Pondus (Poids) / Malpondu (Mal + pondu)) : Génère un enchantement négatif qui double les pénalités d'usage de la cible (arme, outils ou armure) avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Muggravarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Alourdit le corps et l’équipement de la cible, rendant toute action plus pénible.</p>
+<hr>
+<h2 id="mot-dentrave">Mot d'Entrave </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Entravement</span> (Vinculum (Lien) / Mugvin (Mug + vin)) : Génère un enchantement négatif qui réduit l'allure de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Munresto arh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Entrave la cible et réduit drastiquement sa capacité de déplacement.</p>
+<hr>
+<h2 id="quartz">Quartz </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Gravitation</span> (Gravis (Lourd) / Korgrav (Kor + grav)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.25]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x0.75]</span> de dégats physique (PV), les dégats permanents et temporaires ne peuvent respectivement être supérieur au cinquième / quart / tier / moitié de la vitalité et de l'endurance actuels, le choix est à effectuer à la création du sort. <em><strong>Clé :</strong></em> 💢 Vide: Korgravarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Écrase la cible sous une pression gravitationnelle brutale infligeant de lourds dégâts directs.</p>
+<p><em><strong>Notes :</strong></em> Quart.</p>
+<hr>
+<h2 id="demi">Demi </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Gravitation</span> (Gravis (Lourd) / Korgrav (Kor + grav)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.25]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x0.75]</span> de dégats physique (PV), les dégats permanents et temporaires ne peuvent respectivement être supérieur au cinquième / quart / tier / moitié de la vitalité et de l'endurance actuels, le choix est à effectuer à la création du sort. <em><strong>Clé :</strong></em> 💢 Vide: Korgravarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Compresse violemment la cible, infligeant des dégâts proportionnels à son état actuel.</p>
+<p><em><strong>Notes :</strong></em> Moitié.</p>
+<hr>
+<h2 id="champs-de-gravité">Champs de Gravité </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 16, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de structure :</strong> <span style="color:#228B22; font-weight:bold;">Puit</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.<br>
+<em><strong>Modificateurs de Magnitude :</strong></em> PWR -2/-2/-2 (6)</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Gravitation</span> (Gravis (Lourd) / Korgrav (Kor + grav)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.25]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude x0.75]</span> de dégats physique (PV), les dégats permanents et temporaires ne peuvent respectivement être supérieur au cinquième / quart / tier / moitié de la vitalité et de l'endurance actuels, le choix est à effectuer à la création du sort. <em><strong>Clé :</strong></em> 💢 Vide: Korgravarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Crée un puits de gravité qui écrase tout dans la zone pendant plusieurs instants.</p>
+<hr>
+<h2 id="petit-portail">Petit Portail </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Portail</span> (Porta (Porte) / Cenporta (Cen + porta)) : Le sort génère un enchantement de type portail sur le lieu ciblé avec un potenciel de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, le lanceur de sort répartie le potenciel entre X, Y et Z, le portail en question occupe 1 case et permet au lanceur de sort ou à n'importe qui d'autre de passer à travers afin d'atteindre un lieu déterminé lors du lancement de sort à une distance maximale de X cases, ce portail permet de faire passer jusqu'à Y/3 individus et le retour est possible si Z vaux au moins 5. <em><strong>Clé :</strong></em> 💢 Vide: Cenportaarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Ouvre un petit portail permettant de traverser l’espace vers un lieu prédéfini.</p>
+<hr>
+<h2 id="chiquenaude-temporelle">Chiquenaude Temporelle </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Inhibition</span> (Habeo (Tenir) / Belhabe (Bel + habe)) : Contrecarre le pouvoir surnaturel (dons etc) ciblé dont la valeurs (chi dépensés, etc) est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues. <em><strong>Clé :</strong></em> 💢 Vide: Krainhibarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Interrompt et neutralise l’utilisation d’un pouvoir surnaturel en cours.</p>
+<hr>
+<h2 id="accélération-temporelle">Accélération Temporelle </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Accélération</span> (Velox (Rapide) / Eloveloc (Elo + veloc)) : Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> points d'initiative. <em><strong>Clé :</strong></em> 💢 Vide: Elovelocarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Accélère temporairement le flux temporel autour de la cible pour lui donner un avantage d’initiative.</p>
+<hr>
+<h2 id="fuite-du-temps">Fuite du Temps </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Sénescence</span> (Senex (Vieux) / Kinsenex (Kin + senex)) : La cible vieillit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> années, la cible autant de mourir que son (Âge - Espérance de vie / 4) x 2, un test de robustesse permet de réduire les effets de ce sort. <em><strong>Clé :</strong></em> 💢 Vide: Kinsenexarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Vieillit brutalement la cible, accélérant le passage du temps sur son corps.</p>
+<hr>
+<h2 id="marée-du-temps">Marée du Temps </h2>
+<p><em><strong>Difficulté :</strong></em> 16+X, <em><strong>Drain :</strong></em> 16+X, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de structure :</strong> <span style="color:#228B22; font-weight:bold;">Puit</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.<br>
+<em><strong>Modificateurs de Magnitude :</strong></em> PWR -2/-2/-2 (6)<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Inhibition</span> (Habeo (Tenir) / Belhabe (Bel + habe)) : Contrecarre le pouvoir surnaturel (dons etc) ciblé dont la valeurs (chi dépensés, etc) est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues. <em><strong>Clé :</strong></em> 💢 Vide: Krainhibarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Crée une zone d’inhibition temporelle qui empêche l’activation de pouvoirs surnaturels.</p>
+<hr>
+<h2 id="maleström">Maleström </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 18, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de structure :</strong> <span style="color:#228B22; font-weight:bold;">Puit</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.<br>
+<em><strong>Modificateurs de Magnitude :</strong></em> PWR -2/-2/-2 (6)<br>
+<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Attraction</span> (Traho (Tirer) / Coltraho (Col + traho)) : Génère un enchantement d'attraction agissant chaque tour comme l'action tactique de déplacement forcé avec un jet de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> et attirant en son centre toutes les cibles dans la zone d'effet, de fait le sort doit inclure une zone d'effet. <em><strong>Clé :</strong></em> 💢 Vide: Eruatratarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Génère un maelström gravitationnel attirant toutes les créatures vers son centre.</p>
+<hr>
+<h2 id="gravité-clémente">Gravité Clémente </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Allégement</span> (Leves (Léger) / Carleves (Car + leves)) : Génère un enchantement de lieu qui réduit le drain des sorts lancés dans la zone de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, ce qui n'affecte pas le cout minimum des sorts. <em><strong>Clé :</strong></em> 💢 Vide: Lemlevesarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Allège la gravité locale, réduisant le coût des sorts lancés dans la zone.</p>
+<hr>
+<h2 id="passage-du-temps">Passage du Temps </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Purgation</span> (Purgo (Nettoyer) / Lirpurg (Lir + purg)) : Génère un enchantement positif qui force les enchantements négatifs affectants la cible de se décharger de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> à la fin de chaque tour, maintenir l'enchantement ne permet pas d'éviter cette décharge. <em><strong>Clé :</strong></em> 💢 Vide: Lirpurgarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Purifie la cible en forçant les effets négatifs à se dissiper plus rapidement.</p>
+<hr>
+<h2>???</h2>
+<p><em><strong>Difficulté :</strong></em> 14, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢💢, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Promptification</span> (Promptus (Prompt) / Luxpromp (Lux + promp)) : Génère un enchantement positif qui augmente la rapidité de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Luxpromparh<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Vivification</span> (Vita (Vie) / Lokvita (Lok + vita)) : Génère un enchantement positif qui augmente la vitesse de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> 💢 Vide: Lokvitaarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Combine accélération et vitesse pour transformer la cible en véritable éclair vivant.</p>
+<hr>
+<h2 id="contre-temps">Contre Temps </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Simplification</span> (Simplex (Simple) / Brensim (Bren + sim)) : Génère un effet qui annule la manoeuvre en cours d'utilisation si la cible a moins que <span style="color:#ff1493; font-weight:bold;">[Magnitudex2]</span> en endurance actuelle, un test de sauvegarde de détermination peux permettre de réduire les effets, la manoeuvre entreprise est perdue mais pas l'action, cependant la manoeuvre employée est oublié pour une durée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> cycles. <em><strong>Clé :</strong></em> 💢 Vide: Brensimarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Interrompt une manœuvre en cours et perturbe durablement la capacité technique de la cible.</p>
+<hr>
+<h2 id="sceau-temporel">Sceau Temporel </h2>
+<p><em><strong>Difficulté :</strong></em> 14, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Stagnation</span> (Stagno (Stagner) / Morstagn (Mor + stagn)) : Génère un enchantement négatif qui empêche la cible d'agir ou d'être affectée par quoi que ce soit, figée dans le temps, cet enchantement ne peux être maintenu, la décharge de l'enchantement est doublé. <em><strong>Clé :</strong></em> 💢 Vide: Morstagnarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Fige complètement la cible hors du temps, la rendant intouchable mais incapable d’agir.</p>
+<hr>
+<h2 id="palimpseste">Palimpseste </h2>
+<p><em><strong>Difficulté :</strong></em> 14+X, <em><strong>Drain :</strong></em> 14+X, <em><strong>Type de sort :</strong></em> Miracle, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Palimpseste</span> (Limpia (Nettoyer) / Enpalim (En + palim)) : Génère un effet qui renvoie tous les participants d'une scène en cours dans le passé, le sort a un potenciel de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> a répartie en X et Y. Le temps ainsi remonté a pour maximum X (un round ici est considéré comme durant 10s) et le sort ne fonctionne que si il affecte au mieux Y/3 personnes, pas de sauvegarde possible. <em><strong>Clé :</strong></em> 💢 Vide: Enpalimarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Réécrit le déroulement récent d’une scène en renvoyant les participants dans le passé.</p>
+<hr>
+<h2 id="tempus-fugit">Tempus Fugit </h2>
+<p><em><strong>Difficulté :</strong></em> 16+X, <em><strong>Drain :</strong></em> 16+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 💢, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Retemporisation</span> (Tempus (Temps) / Entempus (En + tempus)) : Génère un effet qui force toutes les cibles (qui doivent être à portée) au choix du lanceur de sort de relancer un test d'initiative avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> si allié et un malus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> dans le cas inverse, les alliés peuvent garder le nouveau résultat ou conserver l'ancien, les autres gardent le résultat qui convient le mieux au lanceur de sort, notons que ce sort ne peux affecter qu'un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> cibles (lanceur de sort inclus le cas échéant), notons que le nouveau résultat conserve toutes les décotes que l'initiative d'origine à subit, de sorte que SEUL la partie concernant le test change. <em><strong>Clé :</strong></em> 💢 Vide: Entempusarh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Bouleverse l’ordre du temps en forçant toutes les cibles à rejouer leur place dans l’initiative.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
