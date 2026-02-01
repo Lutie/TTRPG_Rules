@@ -1,8 +1,8 @@
 # Domaine du Charme ⚜️
 
-> 49 mots pour ce domaine
+> 61 mots pour ce domaine
 
-#### 1. Privation
+#### 1. Privation ['Dest'!C39]
 ***École :*** École de Destruction
 ***Latin :*** Privo (Enlever), ***Arcanique :*** Kaprivo (Ka + privo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -12,7 +12,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 2. Démoralisation
+#### 2. Démoralisation ['Dest'!C69]
 ***École :*** École de Destruction
 ***Latin :*** Mos (Mœurs, caractère), ***Arcanique :*** Keldemos (Kel + demos)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -22,7 +22,17 @@ Génère un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Mag
 
 ---
 
-#### 3. Inflexion
+#### 3. ??? ['Rest'!C35]
+***École :*** École de Restauration
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme: Rengenynh
+Génère un effet qui restaure <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de moral à la cible, le soin de moral est dispensé des règles des soins naturels et de la fatigue.
+
+---
+
+#### 4. Inflexion ['Béné'!C29]
 ***École :*** École de Bénédiction
 ***Latin :*** Flecto (Courber), ***Arcanique :*** Lemfleco (Lem + fleco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -32,7 +42,7 @@ Génère un enchantement positif qui rend la cible plus difficulté à persuader
 
 ---
 
-#### 4. Perfectionnement
+#### 5. Perfectionnement ['Béné'!C73]
 ***École :*** École de Bénédiction
 ***Latin :*** Perficere (Achever), ***Arcanique :*** Lempfect (Lem + pfect)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -42,7 +52,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 5. Inapparition
+#### 6. Inapparition ['Béné'!C82]
 ***École :*** École de Bénédiction
 ***Latin :*** Apareo (Apparaître), ***Arcanique :*** Lirapare (Lir + apare)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -52,7 +62,7 @@ Génère un enchantement positif qui rend la cible moins marquante, les autres s
 
 ---
 
-#### 6. Consécration
+#### 7. Consécration ['Béné'!C93]
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -62,7 +72,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 7. Vigilance
+#### 8. Vigilance ['Béné'!C156]
 ***École :*** École de Bénédiction
 ***Latin :*** Vigilo (Veiller), ***Arcanique :*** Luxvigil (Lux + vigil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +82,7 @@ Génère un enchantement positif qui permet de se défendre des actions même si
 
 ---
 
-#### 8. Apaisement
+#### 9. Apaisement ['Béné'!C170]
 ***École :*** École de Bénédiction
 ***Latin :*** Paco (Pacifier), ***Arcanique :*** Lirpaco (Lir + paco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +92,117 @@ Génère un enchantement positif qui protège la cible des émotions négatives,
 
 ---
 
-#### 9. Fascination
+#### 10. ??? ['Béné'!C178]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+détruit le moral.
+
+---
+
+#### 11. ??? ['Béné'!C179]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit une confusion magique, la cible a une chance sur 1+<span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> de se tromper de cible lorsqu'elle réalise une action, elle peux faire partie de ces cibles potenciels, chaque fois que la cible n'est pas la bonne l'enchantement subit une double décharge.
+
+---
+
+#### 12. ??? ['Béné'!C180]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit une folie magique, la cible a une chance sur 8-<span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> (utilisez un d8) de s'attaquer via une attaque simple (affectée par les règles idoines) elle même au lieu de réaliser sa première action du round, chaque fois que cela surviens l'enchantement subit une double décharge.
+
+---
+
+#### 13. ??? ['Béné'!C181]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit une peur magique, lorsque l'enchantement est lancé l'objet de la peur doit être définit clairement, la cible a une chance sur 8-<span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> (utilisez un d8) d'être pétrifiée de peur lorsqu'elle doit réaliser une action ou subir une action de l'objet de sa peur, lorsqu'elle est pétrifiée de peur son action est perdue ou elle ne peux se défendre de l'action qui viens.
+
+---
+
+#### 14. ??? ['Béné'!C182]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit une Terreur magique, la cible a une chance est obligée d'utiliser sa première action du round pour se déplacer aussi loin que possible de l'objet de sa Terreur, chaque fois que cela surviens l'enchantement subit une double décharge.
+
+---
+
+#### 15. ??? ['Béné'!C183]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit un sommeil magique, la cible est alors incapable d'agir, chaque tour perdus (ou scène hors combat) provoque une décharge (qui s'ajoute à la décharge de fin de tour le cas échéant), de plus si la cible est l'objet d'une action l'enchantement subit une décharge, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.
+
+---
+
+#### 16. ??? ['Béné'!C184]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit un regret magique, la cible subit une perte de PS équivalant à 1/3 des dégats (tous types confondus) qu'elle inflige aux autres, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
+
+---
+
+#### 17. ??? ['Béné'!C185]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles "alliées" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.
+
+---
+
+#### 18. ??? ['Béné'!C186]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, voir même mieux elle cherchera à le défendre ou à le soutenir activement (même si c'est contre ses propres réels alliés), si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles "alliées" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.
+
+---
+
+#### 19. ??? ['Béné'!C187]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, il ira jusqu'à attaquer les adversaires qui s'opposent ou menacent la cible en question (il ne voit plus ses réels alliés comme des alliés), si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles "alliées" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.
+
+---
+
+#### 20. ??? ['Béné'!C188]
+***École :*** École de Bénédiction
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme
+Génère un enchantement qui induit une rage magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charges, la cible ne pense plus et s'attaque (avec les moyens les plus sévères) à la cible la plus proche d'elle (elle exclus), cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.
+
+---
+
+#### 21. Fascination ['Malé'!C19]
 ***École :*** École de Malédiction
 ***Latin :*** Fascinum (Charme), ***Arcanique :*** Malfasci (Mal + fasci)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +212,7 @@ Génère un enchantement négatif qui octroie à une cible A un bonus à son app
 
 ---
 
-#### 10. Dépréciation
+#### 22. Dépréciation ['Malé'!C20]
 ***École :*** École de Malédiction
 ***Latin :*** Pretium (Prix, valeur), ***Arcanique :*** Morpret (Mor + pret)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +222,7 @@ Génère un enchantement négatif qui octroie à une cible A un malus à son app
 
 ---
 
-#### 11. Tentation
+#### 23. Tentation ['Malé'!C21]
 ***École :*** École de Malédiction
 ***Latin :*** Tempto (Tenter), ***Arcanique :*** Mugtemp (Mug + temp)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +232,7 @@ Génère un enchantement négatif qui persuade la cible que le lanceur de sort d
 
 ---
 
-#### 12. Suggestion
+#### 24. Suggestion ['Malé'!C30]
 ***École :*** École de Malédiction
 ***Latin :*** Subgero (Porter), ***Arcanique :*** Munsubger (Mun + subger)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +242,7 @@ Génère un enchantement négatif qui rend la cible moins difficulté à persuad
 
 ---
 
-#### 13. Provocation
+#### 25. Provocation ['Malé'!C34]
 ***École :*** École de Malédiction
 ***Latin :*** Voco (Appeler), ***Arcanique :*** Munvoco (Mun + voco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +252,7 @@ Génère un enchantement négatif qui force la cible à s'en prendre en priorit�
 
 ---
 
-#### 14. Intimidation
+#### 26. Intimidation ['Malé'!C35]
 ***École :*** École de Malédiction
 ***Latin :*** Timeo (Craindre), ***Arcanique :*** Maltimo (Mal + timo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +262,7 @@ Génère un enchantement négatif qui force la cible à ignorer une autre cible 
 
 ---
 
-#### 15. Adoration
+#### 27. Adoration ['Malé'!C36]
 ***École :*** École de Malédiction
 ***Latin :*** Oro (Prier), ***Arcanique :*** Mororo (Mor + oro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +272,7 @@ Génère un enchantement négatif qui force la cible à aider une autre cible au
 
 ---
 
-#### 16. Déqualification
+#### 28. Déqualification ['Malé'!C72]
 ***École :*** École de Malédiction
 ***Latin :*** Qualis (Qualité), ***Arcanique :*** Morquali (Mor + quali)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +282,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 17. Duperie
+#### 29. Duperie ['Malé'!C75]
 ***École :*** École de Malédiction
 ***Latin :*** Fraus (Fraude), ***Arcanique :*** Malfrau (Mal + frau)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +292,7 @@ Produit un enchantement négatif qui force la cible à dire la vérité ou à me
 
 ---
 
-#### 18. Distraction
+#### 30. Distraction ['Malé'!C77]
 ***École :*** École de Malédiction
 ***Latin :*** Traho (Tirer), ***Arcanique :*** Mugdistra (Mug + distra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +302,7 @@ Génère un enchantement négatif qui rend la cible plus marquante, les autres s
 
 ---
 
-#### 19. Déprécation
+#### 31. Déprécation ['Malé'!C90]
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -192,7 +312,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 20. Abdication
+#### 32. Abdication ['Malé'!C91]
 ***École :*** École de Malédiction
 ***Latin :*** Dico (Dire), ***Arcanique :*** Malabdi (Mal + abdi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -202,7 +322,7 @@ Génère un enchantement négatif qui résigne la cible à ne plus intervenir da
 
 ---
 
-#### 21. Perturbation
+#### 33. Perturbation ['Malé'!C114]
 ***École :*** École de Malédiction
 ***Latin :*** Turbo (Troubler), ***Arcanique :*** Munturb (Mun + turb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -212,7 +332,7 @@ Génère un enchantement négatif qui rend la cible plus sensibles aux émotions
 
 ---
 
-#### 22. Aberration
+#### 34. Aberration ['Malé'!C138]
 ***École :*** École de Malédiction
 ***Latin :*** Erro (EReur), ***Arcanique :*** Munerro (Mun + erro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -222,7 +342,7 @@ Génère un enchantement qui induit une confusion magique, la cible a une chance
 
 ---
 
-#### 23. Aliénation
+#### 35. Aliénation ['Malé'!C139]
 ***École :*** École de Malédiction
 ***Latin :*** Alienus (Étranger), ***Arcanique :*** Malalien (Mal + alien)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -232,7 +352,7 @@ Génère un enchantement qui induit une folie magique, la cible a une chance sur
 
 ---
 
-#### 24. Intimidation
+#### 36. Intimidation ['Malé'!C140]
 ***École :*** École de Malédiction
 ***Latin :*** Paveo (Craindre), ***Arcanique :*** Morpaveo (Mor + paveo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +362,7 @@ Génère un enchantement qui induit une peur magique, lorsque l'enchantement est
 
 ---
 
-#### 25. Effroi
+#### 37. Effroi ['Malé'!C141]
 ***École :*** École de Malédiction
 ***Latin :*** Pavor (Terreur), ***Arcanique :*** Mugpavor (Mug + pavor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +372,7 @@ Génère un enchantement qui induit une Terreur magique, la cible a une chance e
 
 ---
 
-#### 26. Léthargie
+#### 38. Léthargie ['Malé'!C142]
 ***École :*** École de Malédiction
 ***Latin :*** Lethos (Oubli), ***Arcanique :*** Munletho (Mun + letho)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +382,7 @@ Génère un enchantement qui induit un sommeil magique, la cible est alors incap
 
 ---
 
-#### 27. Culpabilisation
+#### 39. Culpabilisation ['Malé'!C143]
 ***École :*** École de Malédiction
 ***Latin :*** Culpa (Faute), ***Arcanique :*** Malculpa (Mal + culpa)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +392,7 @@ Génère un enchantement qui induit un regret magique, la cible subit une perte 
 
 ---
 
-#### 28. Domination
+#### 40. Domination ['Malé'!C144]
 ***École :*** École de Malédiction
 ***Latin :*** Dominus (Maître), ***Arcanique :*** Mordomin (Mor + domin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -282,7 +402,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 29. Rebellion
+#### 41. Rebellion ['Malé'!C145]
 ***École :*** École de Malédiction
 ***Latin :*** Bello (Guerre), ***Arcanique :*** Mugbello (Mug + bello)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -292,7 +412,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 30. Révolution
+#### 42. Révolution ['Malé'!C146]
 ***École :*** École de Malédiction
 ***Latin :*** Volvo (Rouler), ***Arcanique :*** Munvolvo (Mun + volvo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -302,7 +422,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 31. Rageance
+#### 43. Rageance ['Malé'!C147]
 ***École :*** École de Malédiction
 ***Latin :*** Ira (Colère), ***Arcanique :*** Malira (Mal + ira)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -312,7 +432,7 @@ Génère un enchantement qui induit une rage magique, sachant que cet enchanteme
 
 ---
 
-#### 32. Annulation
+#### 44. Annulation ['Abju'!C12]
 ***École :*** École d'Abjuration
 ***Latin :*** Casso (Détruire, annuler), ***Arcanique :*** Belcasso (Bel + casso)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -322,7 +442,7 @@ Génère un effet qui annule l'action à venir de la cible cette dernière a moi
 
 ---
 
-#### 33. Rétroaction
+#### 45. Rétroaction ['Abju'!C13]
 ***École :*** École d'Abjuration
 ***Latin :*** Ago (Agir), ***Arcanique :*** Basago (Bas + ago)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -332,7 +452,7 @@ Génère un effet qui retourne l'action à venir de la cible contre elle même �
 
 ---
 
-#### 34. Obstruction
+#### 46. Obstruction ['Abju'!C29]
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -342,7 +462,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 35. Protestation
+#### 47. Protestation ['Abju'!C30]
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -352,7 +472,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 36. Neutralisation
+#### 48. Neutralisation ['Abju'!C31]
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -362,7 +482,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 37. Dissuasion
+#### 49. Dissuasion ['Abju'!C39]
 ***École :*** École d'Abjuration
 ***Latin :*** Suadeo (Conseiller), ***Arcanique :*** Barvias (Bar + vias)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -372,7 +492,7 @@ Génère un effet qui augmente la difficulté d'une action qui vise le lanceur d
 
 ---
 
-#### 38. Empathisation
+#### 50. Empathisation ['Divi'!C34]
 ***École :*** École de Divination
 ***Latin :*** Pathos (Sentiment), ***Arcanique :*** Darpath (Dar + path)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -382,7 +502,7 @@ Génère un effet de perception des émotions (voir règle sur les "senseurs"), 
 
 ---
 
-#### 39. Exaltation
+#### 51. Exaltation ['Evoc'!C19]
 ***École :*** École d'Évocation
 ***Latin :*** Alto (Élever), ***Arcanique :*** Enalto (En + alto)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -392,7 +512,7 @@ Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 40. Manifestation
+#### 52. Manifestation ['Evoc'!C34]
 ***École :*** École d'Évocation
 ***Latin :*** Manes (Esprits, apparences), ***Arcanique :*** Enmani (En + mani)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Soi
@@ -402,7 +522,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 41. Séquençation
+#### 53. Séquençation ['Evoc'!C38]
 ***École :*** École d'Évocation
 ***Latin :*** Sequor (Suivre), ***Arcanique :*** Ensequor (En + sequor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -412,7 +532,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 42. Fascination
+#### 54. Fascination ['Evoc'!C59]
 ***École :*** École d'Évocation
 ***Latin :*** Fascinum (Charme), ***Arcanique :*** Erufasci (Eru + fasci)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -422,7 +542,7 @@ Génère un effet qui charme une personne, le sort remplace un test de prestige 
 
 ---
 
-#### 43. Induction
+#### 55. Induction ['Evoc'!C64]
 ***École :*** École d'Évocation
 ***Latin :*** Duco (Mener), ***Arcanique :*** Evduco (Ev + duco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -432,7 +552,7 @@ Génère une émotion (bien réelle, voir la liste dans les règles) sur la cibl
 
 ---
 
-#### 44. Suggestion
+#### 56. Suggestion ['Evoc'!C65]
 ***École :*** École d'Évocation
 ***Latin :*** Gero (Porter), ***Arcanique :*** Ensubger (En + subger)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -442,7 +562,7 @@ Génère une suggestion qui implente un objectif ou désir nouveau chez la cible
 
 ---
 
-#### 45. Sédation
+#### 57. Sédation ['Evoc'!C71]
 ***École :*** École d'Évocation
 ***Latin :*** Sedeo (Être assis), ***Arcanique :*** Erusedeo (Eru + sedeo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -452,7 +572,7 @@ Le sort permet à la cible de s'endormir quelque soit son état d'agitement, mai
 
 ---
 
-#### 46. Subordination
+#### 58. Subordination ['Evoc'!C76]
 ***École :*** École d'Évocation
 ***Latin :*** Ordo (Ordre), ***Arcanique :*** Evsubor (Ev + subor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -462,7 +582,7 @@ Génère un effet qui force la cible à réaliser une action sur-le-champs, cela
 
 ---
 
-#### 47. Entrave
+#### 59. Entrave ['Conj'!C38]
 ***École :*** École de Conjuration
 ***Latin :*** Impedio (Empêcher), ***Arcanique :*** Cariped (Car + iped)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -472,7 +592,7 @@ Génère un enchantement qui permet au lanceur de sort de empêcher sa cible d'a
 
 ---
 
-#### 48. Marionnettisation
+#### 60. Marionnettisation ['Conj'!C39]
 ***École :*** École de Conjuration
 ***Latin :*** Pupus (Poupée), ***Arcanique :*** Conpupa (Con + pupa)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -482,7 +602,7 @@ Génère un enchantement qui permet au lanceur de sort de contrôler partielleme
 
 ---
 
-#### 49. Domination
+#### 61. Domination ['Conj'!C40]
 ***École :*** École de Conjuration
 ***Latin :*** Dominus (Maître), ***Arcanique :*** Cendomin (Cen + domin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible

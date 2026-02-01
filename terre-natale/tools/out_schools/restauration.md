@@ -1,8 +1,8 @@
 # École de Restauration
 
-> 12 mots pour cette école
+> 34 mots pour cette école
 
-#### 1. Restauration
+#### 1. Restauration ['Rest'!C3]
 ***Latin :*** Instauro (Je rétablis), ***Arcanique :*** Restaura (Re + staura)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -11,7 +11,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 2. Vivification
+#### 2. Vivification ['Rest'!C4]
 ***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -20,7 +20,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 3. Revitalisation
+#### 3. Revitalisation ['Rest'!C5]
 ***Latin :*** Vigor (Force, Vigueur), ***Arcanique :*** Ryuvigo (Ryu + vigo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -29,7 +29,7 @@ Produit un soin de l'endurance (PE) équivalant à la moitié des PE manquants, 
 
 ---
 
-#### 4. Réinvigoration
+#### 4. Réinvigoration ['Rest'!C6]
 ***Latin :*** Roboro (Je fortifie), ***Arcanique :*** Rhorobor (Rho + robor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -38,7 +38,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 5. Transfusion
+#### 5. Transfusion ['Rest'!C7]
 ***Latin :*** Fundo (Je verse), ***Arcanique :*** Refund (Re + fund)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -47,7 +47,7 @@ Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 6. Grandiloquence
+#### 6. Grandiloquence ['Rest'!C8]
 ***Latin :*** Magnus (Grand), ***Arcanique :*** Relmagnus (Rel + magnus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -56,7 +56,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 7. Revigoration
+#### 7. Revigoration ['Rest'!C9]
 ***Latin :*** Vigor (Force, Vigueur), ***Arcanique :*** Rasvigore (Ras + vigore)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -65,7 +65,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]<
 
 ---
 
-#### 8. Purification
+#### 8. Purification ['Rest'!C10]
 ***Latin :*** Purgo (Je nettoie), ***Arcanique :*** Rhopurgo (Rho + purgo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -74,7 +74,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]<
 
 ---
 
-#### 9. Canalisation
+#### 9. Canalisation ['Rest'!C11]
 ***Latin :*** Canalis (Conduit), ***Arcanique :*** Recana (Re + cana)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -83,7 +83,7 @@ Produit un soin qui convertis un maximum de <span style="color:#ff1493; font-wei
 
 ---
 
-#### 10. Dissolution
+#### 10. Dissolution ['Rest'!C12]
 ***Latin :*** Solvo (Délier), ***Arcanique :*** Rensolvo (Ren + solvo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -92,7 +92,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 11. Neutralisation
+#### 11. Neutralisation ['Rest'!C13]
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Rasneuta (Ras + neuta)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -101,9 +101,207 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 12. Absolution
+#### 12. Absolution ['Rest'!C14]
 ***Latin :*** Absolvo (Je délie), ***Arcanique :*** Rhoabsol (Rho + absol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🪷 Nature: Rhoabsoleiln
 Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant toutes les conditions négatives (physique et mentale) affectant la cible.
+
+---
+
+#### 13. ??? ['Rest'!C15]
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚕️ Corps: Resoliden (Force, Dextérité, Agilité, Perception, Constitution)
+Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/5 points d'un attribut du corps associé à <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+---
+
+#### 14. Consolidation ['Rest'!C16]
+***Latin :*** Solidus (Solide), ***Arcanique :*** Resolid (Re + solid)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🧠 Esprit: Relumenys (Charisme, Intelligence, Ruse, Sagesse, Volonté)
+Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/5 points d'un attribut de l'esprit associé à <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+---
+
+#### 15. Illumination ['Rest'!C17]
+***Latin :*** Lumen (Lumière), ***Arcanique :*** Relumen (Rel + lumen)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ✡️ Arcane: Rascauter ys (Magie), 🌀 Chaos: Rascauterix (Chance), ⚕️ Corps: RascauTerren (Stature, Taille), 🧠 Esprit: Rascauterys (Ego, Apparence), 🪷 Nature: RascauTerreiln (Equilibre)
+Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/5 points d'un attribut secondaire associé à <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+---
+
+#### 16. Cautérisation ['Rest'!C18]
+***Latin :*** Adustus (Brûlé), ***Arcanique :*** Rascauter (Ras + cauter)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🔥 Feu: Rascauterar
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant une blessure (lésion physique), la moitié de ce soin est perdu en PV.
+
+---
+
+#### 17. Cicatrisation ['Rest'!C19]
+***Latin :*** Cico (Je calme), ***Arcanique :*** Rhocicat (Rho + cicat)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ❤️ Vie: Rhocicatiir
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant une blessure (lésion physique), génère la moitié en fatigue.
+
+---
+
+#### 18. Harmonisation ['Rest'!C20]
+***Latin :*** Harmonia (Harmonie), ***Arcanique :*** Reharmo (Re + harmo)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🧩 Mental: Reharmoend
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant un trauma (lésion mentale), génère la moitié en fatigue.
+
+---
+
+#### 19. RésuRection ['Rest'!C21]
+***Latin :*** Resurgo (Je me relève), ***Arcanique :*** Renresur (Ren + resur)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 6, ***Drain :*** 6
+**Clés :** ❤️ Vie: Renresuriir
+Sur une cible morte - Restaure tout ce qui a causé la mort de la cible pile à la limite de celle ci, la cible reçoit un niveau entier de fatigue, chaque fois qu'une cible doit être ramenée à la vie au delà de la première fois il y a une chance sur deux que cela échoue et qu'il ne soit plus jamais possible de le faire, le sort ne peux être lancé qu'à un niveau de 3 au minimum.
+
+---
+
+#### 20. Rajeunissement ['Rest'!C22]
+***Latin :*** Iuventus (Jeunesse), ***Arcanique :*** Ryujuve (Ryu + juve)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 💢 Vide: Ryujuvearh
+La cible rajeunit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> années, cependant elle reçoit 1 point de corruption permanent, qui ne peux être enlevé d'aucune manière que ce soit, ce sort peux à la place soigné un vieillissement magique sans conséquences à la place.
+
+---
+
+#### 21. Reconstitution ['Rest'!C23]
+***Latin :*** Statuo (Je rétablis), ***Arcanique :*** Rhostatuo (Rho + statuo)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 📚 Savoir: Rhostatuaum
+Restaure l'indice, la piste ou autre information ciblé, qui a été rendue bien plus difficile à déchiffrer ou comprendre quelque soit le moyen employé (magie ou manuel), restaure un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> lettres cependant (ou équivalant).
+
+---
+
+#### 22. Libération ['Rest'!C24]
+***Latin :*** Libero (Je délivre), ***Arcanique :*** Reliber (Re + liber)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 👁️ Vision: Relibereth
+Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> visant toutes les conditions négative affectant les sens.
+
+---
+
+#### 23. Stabilisation ['Rest'!C25]
+***Latin :*** Firmus (Ferme), ***Arcanique :*** Relfirmus (Rel + firmus)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 0, ***Drain :*** 0
+**Clés :** ❤️ Vie: Relfirmusiir
+Génère un soin qui stabilise l'état, physique ou mental, de la cible.
+
+---
+
+#### 24. Désintoxication ['Rest'!C26]
+***Latin :*** Veneno (Poison), ***Arcanique :*** Rasvenen (Ras + venen)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ❤️ Vie: Rasveneniir
+Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2]</span> visant une condition négative de type poison, venin ou autre forme de substances du même genre.
+
+---
+
+#### 25. Sanguination ['Rest'!C27]
+***Latin :*** Sanguis (Sang), ***Arcanique :*** Rhosangu (Rho + sangu)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ❤️ Vie: Rhosanguiir
+Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2]</span> visant une condition négative de type maladie.
+
+---
+
+#### 26. Réincarnation ['Rest'!C28]
+***Latin :*** Caro (Chair, corps), ***Arcanique :*** Recarno (Re + carno)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ❤️ Vie: Recarnoir
+Génère un effet qui apaise l'âme d'un mort et soigne celle-ci, offrant à l'individu l'accés à son cycle de réincarnation, l'âme peux réaliser un test de sauvegarde (réussir signifie ignorer ce sort), l'âme doit avoir été mis hors d'état (ou ne doit pas être en mesure de se manifester pour se défendre).
+
+---
+
+#### 27. Stabilisation ['Rest'!C29]
+***Latin :*** Stato (Je me tiens), ***Arcanique :*** Ryustato (Ryu + stato)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 0
+**Clés :** ❤️ Vie: Ryustatoir
+Génère un sort qui stabilise un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> rangs de lésions, répartis comme souhaité, quelques soit leurs types.
+
+---
+
+#### 28. Stigmatisation ['Rest'!C30]
+***Latin :*** Nota (Marque), ***Arcanique :*** Rasnota (Ras + nota)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ✨ Sacre: Rasnotai el
+Génère un effet qui permet au lanceur de sort de recevoir et encaisser lui même jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> rangs de lésions (tous type) de la cible.
+
+---
+
+#### 29. Sanctification ['Rest'!C31]
+***Latin :*** Sanctus (Sacré), ***Arcanique :*** Rhosanct (Rho + sanct)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🩸 Impie: Rhosanctun
+Nécessite du sang au sol à proximité de la cible, produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant l'endurance (PE) et génère la même quantité de vitalité (PV) temporaires, le sang en question est consummé (et ne peux être réutilisé), la quantité de sang requis est équivalant à celle que laisse une blessure légère, par rang de blessure supérieur le sort est majoré (+1 par dés) maximum 3 fois, ce soin n'est pas dispensé des règles des soins naturels et de la fatigue (voir guérison dans les règles de base) mais le seuil du gain de fatigue est doublé.
+
+---
+
+#### 30. Cryothérapie ['Rest'!C32]
+***Latin :*** Frigus (Froid), ***Arcanique :*** Refrig (Re + frig)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ❄️ Glace: Refrigis
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant la vitalité (PV), génère une blessure dont la gravité est équivalante à 2 fois les PV ainsi soignés (mais pas de fatigue).
+
+---
+
+#### 31. Régénération ['Rest'!C33]
+***Latin :*** Gigno (J'engendre), ***Arcanique :*** Rengen (Ren + gen)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ❤️ Vie: Rengenir (Tonique)
+Génère un effet qui octroie une condition de soin dans le temps (HOT).
+
+---
+
+#### 32. ??? ['Rest'!C34]
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 📚 Savoir
+Génère un enchantement qui réduit la magnitude des marques dont fait l'objet la cible d'autant que <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+
+---
+
+#### 33. ??? ['Rest'!C35]
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ⚜️ Charme: Rengenynh
+Génère un effet qui restaure <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de moral à la cible, le soin de moral est dispensé des règles des soins naturels et de la fatigue.
+
+---
+
+#### 34. Emoglobine ['Rest'!C36]
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🩸 Impie
+Génère un effet qui soigne <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> PV la cible pour chaque fois où le sang a été versé durant la scène et dans la zone, après quoi ces itérations ne peuvent plus compter pour des effets du genre, le gain de fatigue à ces soins est divisé par deux.

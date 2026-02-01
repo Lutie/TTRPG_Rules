@@ -108,7 +108,7 @@ SPECIAL_SHEETS = {
     "L": {
         "category": "Liaison",
         "type": "liaison",
-        "start_row_index": 2,
+        "start_row_index": 1,
         "columns": {
             "name": "A",
             "word_type": "B",
@@ -120,7 +120,7 @@ SPECIAL_SHEETS = {
     "A": {
         "category": "Annexe",
         "type": "annexe",
-        "start_row_index": 2,
+        "start_row_index": 1,
         "columns": {
             "name": "A",
             "word_type": "B",
