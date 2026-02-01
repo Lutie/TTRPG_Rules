@@ -10,6 +10,7 @@ nav:
   - Création: creation/creation/index.html
   - Castes: castes/castes/index.html
   - Ethnies: ethnies/ethnies/index.html
+  - Patch: rules/confrontations/index.md
   - Magies:
     - Ombre: magies/ombre.html
     - Impie:  magies/impie.html
@@ -18,6 +19,9 @@ nav:
     - Magie:  magies/magie.html
     - Acier:  magies/acier.html
     - Guerre:  magies/guerre.html
+    - Chaos:  magies/chaos.html
+    - Vide:  magies/vide.html
+    - Terre:  magies/terre.html
   - Outils:
     - Vitals: tools/vitals/index.html
     - Stats: tools/stats/index.html

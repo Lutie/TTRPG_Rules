@@ -3039,7 +3039,7 @@ The character endures strain longer than most.
 
 ### Keep Best {#birth-keep-best}
 Luck favors the character even when fate is rewritten.  
-**Effect:** When rerolling dice through Karma or reroll effects, the character keeps the best result between the original and the new roll.
+**Effect:** Once per rerolling dice through Karma or reroll effects, the character keeps the best result between the original and the new re-roll dice.
 
 ---
 
