@@ -2,7 +2,7 @@
 
 > 56 mots pour ce domaine
 
-#### 1. Annihilation ['Dest'!C6]
+#### 1. Annihilation
 ***École :*** École de Destruction
 ***Latin :*** Nihil (Rien), ***Arcanique :*** Kranihil (Kra + nihil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -12,7 +12,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 2. Convulsion ['Dest'!C53]
+#### 2. Convulsion
 ***École :*** École de Destruction
 ***Latin :*** Vello (Arracher), ***Arcanique :*** Kelvello (Kel + vello)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -22,7 +22,7 @@ Génère un effet qui créée une (ou des) entité(s) magique (voir la règle co
 
 ---
 
-#### 3. Exaction ['Dest'!C63]
+#### 3. Exaction
 ***École :*** École de Destruction
 ***Latin :*** Ago (Agir), ***Arcanique :*** Kinago (Kin + ago)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -32,7 +32,7 @@ Génère un effet qui fait perdre autant de ressources permanentes que de ressou
 
 ---
 
-#### 4. Restauration ['Rest'!C3]
+#### 4. Restauration
 ***École :*** École de Restauration
 ***Latin :*** Instauro (Je rétablis), ***Arcanique :*** Restaura (Re + staura)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -42,7 +42,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 5. Vivification ['Rest'!C4]
+#### 5. Vivification
 ***École :*** École de Restauration
 ***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -52,7 +52,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 6. Illumination ['Rest'!C17]
+#### 6. Illumination
 ***École :*** École de Restauration
 ***Latin :*** Lumen (Lumière), ***Arcanique :*** Relumen (Rel + lumen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -62,7 +62,7 @@ Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnit
 
 ---
 
-#### 7. Restitution ['Béné'!C4]
+#### 7. Restitution
 ***École :*** École de Bénédiction
 ***Latin :*** Reddo (Rendre, restituer), ***Arcanique :*** Luxreddo (Lux + reddo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +72,7 @@ Génère un enchantement positif qui augmente la récupération d'une ressource 
 
 ---
 
-#### 8. Spécialisation ['Béné'!C53]
+#### 8. Spécialisation
 ***École :*** École de Bénédiction
 ***Latin :*** Specialis (Particulier), ***Arcanique :*** Lemspecia (Lem + specia)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +82,7 @@ Génère un enchantement positif qui augmente un attribut (définit à la créat
 
 ---
 
-#### 9. Mitigation ['Béné'!C60]
+#### 9. Mitigation
 ***École :*** École de Bénédiction
 ***Latin :*** Mitis (Doux), ***Arcanique :*** Luxmitis (Lux + mitis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +92,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 10. Bonification ['Béné'!C64]
+#### 10. Bonification
 ***École :*** École de Bénédiction
 ***Latin :*** Bonus (Bon), ***Arcanique :*** Luxbono (Lux + bono)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +102,7 @@ Génère un enchantement positif qui augmente octroie un bonus de <span style="c
 
 ---
 
-#### 11. Conservation ['Béné'!C68]
+#### 11. Conservation
 ***École :*** École de Bénédiction
 ***Latin :*** Servo (Sauver), ***Arcanique :*** Luxservo (Lux + servo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +112,7 @@ Génère un enchantement positif qui augmente une sauvegarde au choix (dont le t
 
 ---
 
-#### 12. Fortification ['Béné'!C70]
+#### 12. Fortification
 ***École :*** École de Bénédiction
 ***Latin :*** Munio (Fortifier), ***Arcanique :*** Lirmunio (Lir + munio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +122,7 @@ Génère un enchantement positif qui augmente le maximum d'une ressource au choi
 
 ---
 
-#### 13. Récupération ['Béné'!C77]
+#### 13. Récupération
 ***École :*** École de Bénédiction
 ***Latin :*** Capio (Prendre), ***Arcanique :*** Lemcapio (Lem + capio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +132,7 @@ Produit un enchantement positif qui octroie à chaque tour <span style="color:#f
 
 ---
 
-#### 14. Consécration ['Béné'!C93]
+#### 14. Consécration
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +142,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 15. Accumulation ['Béné'!C136]
+#### 15. Accumulation
 ***École :*** École de Bénédiction
 ***Latin :*** Cumulo (Amasser), ***Arcanique :*** Luxcumul (Lux + cumul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +152,7 @@ Génère un enchantement positif qui génère des PK temporaires lorsqu'une cré
 
 ---
 
-#### 16. Recalibration ['Béné'!C143]
+#### 16. Recalibration
 ***École :*** École de Bénédiction
 ***Latin :*** Libra (Équilibre), ***Arcanique :*** Luxliber (Lux + liber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +162,7 @@ Génère un enchantement positif qui permet à la cible de relancer un dé issus
 
 ---
 
-#### 17. Rectification ['Béné'!C167]
+#### 17. Rectification
 ***École :*** École de Bénédiction
 ***Latin :*** Rectus (Droit), ***Arcanique :*** Lynrect (Lyn + rect)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +172,7 @@ Génère un enchantement positif qui permet à la cible de relancer (l'ensemble 
 
 ---
 
-#### 18. ??? ['Béné'!C173]
+#### 18. ???
 ***École :*** École de Bénédiction
 ***Latin :*** Gratia (Grâce), ***Arcanique :*** Lemgrat (Lem + grat)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +182,7 @@ Génère un enchantement positif qui permet à la cible d'utiliser sa sauvegarde
 
 ---
 
-#### 19. Subterfuge ['Béné'!C176]
+#### 19. Subterfuge
 ***École :*** École de Bénédiction
 ***Latin :*** Fugio (S'enfuir), ***Arcanique :*** Colfugi (Lem + fugi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -192,7 +192,7 @@ Génère un enchantement qui améliore la faculté à mentir, falcifier, se dég
 
 ---
 
-#### 20. ??? ['Béné'!C177]
+#### 20. ???
 ***École :*** École de Bénédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -202,7 +202,7 @@ Génère un enchantement positif qui octroie un bonus de <span style="color:#ff1
 
 ---
 
-#### 21. Vulnérisation ['Malé'!C58]
+#### 21. Vulnérable
 ***École :*** École de Malédiction
 ***Latin :*** Laedo (Blesser), ***Arcanique :*** Munlaedo (Mun + laedo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -212,7 +212,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 22. Affliction ['Malé'!C70]
+#### 22. Affliction
 ***École :*** École de Malédiction
 ***Latin :*** Fligo (Frapper), ***Arcanique :*** Munfligo (Mun + fligo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -222,7 +222,7 @@ Génère un enchantement négatif qui réduit un attribut (au choix selon la <sp
 
 ---
 
-#### 23. Duperie ['Malé'!C75]
+#### 23. Duperie
 ***École :*** École de Malédiction
 ***Latin :*** Fraus (Fraude), ***Arcanique :*** Malfrau (Mal + frau)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -232,7 +232,7 @@ Produit un enchantement négatif qui force la cible à dire la vérité ou à me
 
 ---
 
-#### 24. Déprécation ['Malé'!C90]
+#### 24. Déprécation
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +242,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 25. Amplification ['Malé'!C132]
+#### 25. Amplification
 ***École :*** École de Malédiction
 ***Latin :*** Augeo (Augmenter), ***Arcanique :*** Morauge (Mor + auge)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +252,7 @@ Génère un enchantement négatif qui réduit l'attribut le plus bas de la cible
 
 ---
 
-#### 26. Mensongement ['Malé'!C134]
+#### 26. Mensongement
 ***École :*** École de Malédiction
 ***Latin :*** Mendax (Menteur), ***Arcanique :*** Munmendax (Mun + mendax)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +262,7 @@ Génère un enchantement qui oblige la cible à mentir, chaques phrases prononc�
 
 ---
 
-#### 27. Falsification ['Malé'!C135]
+#### 27. Falsification
 ***École :*** École de Malédiction
 ***Latin :*** Fallo (Tromper), ***Arcanique :*** Malfallo (Mal + fallo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +272,7 @@ Génère un enchantement qui inflige une pénalité aux tests de sincérité de 
 
 ---
 
-#### 28. Subversion ['Malé'!C155]
+#### 28. Subversion
 ***École :*** École de Malédiction
 ***Latin :*** Verto (Tourner), ***Arcanique :*** Malvert (Mal + vert)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -282,7 +282,7 @@ Génère un enchantement négatif qui force la cible à utiliser sa sauvegarde d
 
 ---
 
-#### 29. Elémentaire ['Invoc'!C3]
+#### 29. Elémentaire
 ***École :*** École d'Invocation
 ***Latin :*** Elementum (Élément), ***Arcanique :*** Voele (Vo + ele)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -292,7 +292,7 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 30. ??? ['Invoc'!C16]
+#### 30. ???
 ***École :*** École d'Invocation
 ***Latin :*** Vinculum (Lien, chaîne), ***Arcanique :*** Vanvincul (Van + vincul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -302,7 +302,7 @@ Génère un enchantement qui permet à l'invocation d'utiliser ses charges comme
 
 ---
 
-#### 31. Ressource (lien) ['Invoc'!C17]
+#### 31. Ressource (lien)
 ***École :*** École d'Invocation
 ***Latin :*** Opus (Œuvre, besoin), ***Arcanique :*** Voropus (Vor + opus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (invocation)
@@ -312,7 +312,7 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de part
 
 ---
 
-#### 32. Obstruction ['Abju'!C29]
+#### 32. Obstruction
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -322,7 +322,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 33. Protestation ['Abju'!C30]
+#### 33. Protestation
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -332,7 +332,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 34. Neutralisation ['Abju'!C31]
+#### 34. Neutralisation
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -342,7 +342,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 35. Réfraction ['Abju'!C40]
+#### 35. Réfraction
 ***École :*** École d'Abjuration
 ***Latin :*** Frango (Briser), ***Arcanique :*** Brifrang (Bri + frang)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -352,7 +352,7 @@ Génère un enchantement qui renvoie les sorts conditions reçus à l'auteur de 
 
 ---
 
-#### 36. Interrogation ['Divi'!C11]
+#### 36. Interrogation
 ***École :*** École de Divination
 ***Latin :*** Rogo (Questionner), ***Arcanique :*** Diroga (Di + roga)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -362,7 +362,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 37. Détection ['Divi'!C18]
+#### 37. Détection
 ***École :*** École de Divination
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Dartego (Dar + tego)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -372,7 +372,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 38. Signalement ['Divi'!C19]
+#### 38. Signalement
 ***École :*** École de Divination
 ***Latin :*** Signum (Signe), ***Arcanique :*** Disigno (Di + signo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -382,7 +382,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 39. Galvanisation ['Evoc'!C3]
+#### 39. Galvanisation
 ***École :*** École d'Évocation
 ***Latin :*** Vibro (Agiter, secouer), ***Arcanique :*** Evvibro (Ev + vibro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -392,7 +392,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 40. Polarisation ['Evoc'!C55]
+#### 40. Polarisation
 ***École :*** École d'Évocation
 ***Latin :*** Polus (Pôle), ***Arcanique :*** Erupolus (Eru + polus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -402,7 +402,7 @@ Génère un effet qui creuse l'écart entre les PV, PS et PE de deux cibles (à 
 
 ---
 
-#### 41. Préemption ['Evoc'!C56]
+#### 41. Préemption
 ***École :*** École d'Évocation
 ***Latin :*** Emo (Acheter, prendre), ***Arcanique :*** Evemo (Ev + emo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -412,7 +412,7 @@ Génère un effet forçant la cible à "stocker" un test (valeur des 3 dés) par
 
 ---
 
-#### 42. Aléatorisation ['Evoc'!C57]
+#### 42. Aléatorisation
 ***École :*** École d'Évocation
 ***Latin :*** Aleo (Jeu de dés), ***Arcanique :*** Enalea (En + alea)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -422,9 +422,9 @@ Génère un enchantement qui contient les effets d'un autre <span style="color:#
 
 ---
 
-#### 43. ?? ['Evoc'!C87]
+#### 43. ???
 ***École :*** École d'Évocation
-***Latin :*** ??, ***Arcanique :*** ??
+***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌀 Chaos
@@ -432,7 +432,7 @@ Génère un effet qui déclanche chez la cible un test visant à recouvrir la li
 
 ---
 
-#### 44. Edification ['Conj'!C11]
+#### 44. Edification
 ***École :*** École de Conjuration
 ***Latin :*** Aedifico (Édifier), ***Arcanique :*** Conedi (Con + edi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -442,7 +442,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 45. Revêtement ['Conj'!C12]
+#### 45. Revêtement
 ***École :*** École de Conjuration
 ***Latin :*** Vestis (Vêtement), ***Arcanique :*** Cenvest (Cen + vest)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -452,7 +452,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 46. Fers ['Conj'!C13]
+#### 46. Fers
 ***École :*** École de Conjuration
 ***Latin :*** Ferrum (Fer), ***Arcanique :*** Colfer (Col + fer)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -462,7 +462,7 @@ Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui e
 
 ---
 
-#### 47. Incarcération ['Conj'!C14]
+#### 47. Incarcération
 ***École :*** École de Conjuration
 ***Latin :*** Carcer (Prison), ***Arcanique :*** Carcarce (Car + carce)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -472,7 +472,7 @@ Génère un enchantement (sous formes de cage tangibles ou intangibles) qui empr
 
 ---
 
-#### 48. Sarcophagie ['Conj'!C15]
+#### 48. Sarcophagie
 ***École :*** École de Conjuration
 ***Latin :*** Sarcophagus (Grec), ***Arcanique :*** Consar (Con + sar)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -482,7 +482,7 @@ Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui 
 
 ---
 
-#### 49. Armement élémentaire ['Conj'!C26]
+#### 49. Armement élémentaire
 ***École :*** École de Conjuration
 ***Latin :*** Arma (Arme), ***Arcanique :*** Cararma (Car + arma)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -492,7 +492,7 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 50. Armure élémentaire ['Conj'!C27]
+#### 50. Armure élémentaire
 ***École :*** École de Conjuration
 ***Latin :*** Loric (Cuirasse), ***Arcanique :*** Conloric (Con + loric)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -502,7 +502,7 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 51. Subterfuge ['Conj'!C37]
+#### 51. Subterfuge
 ***École :*** École de Conjuration
 ***Latin :*** Fugio (S'enfuir), ***Arcanique :*** Colfugi (Col + fugi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -512,7 +512,7 @@ Génère un enchantement qui améliore la faculté à mentir, falcifier, se dég
 
 ---
 
-#### 52. Corruption ['Alté'!C14]
+#### 52. Corruption
 ***École :*** École d'Altération
 ***Latin :*** Rumpo (Briser), ***Arcanique :*** Aenrump (Aen + rump)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -522,7 +522,7 @@ Génère un effet qui convertis un maximum de <span style="color:#ff1493; font-w
 
 ---
 
-#### 53. Ponction ['Alté'!C15]
+#### 53. Ponction
 ***École :*** École d'Altération
 ***Latin :*** Pungo (Piquer), ***Arcanique :*** Alpung (Al + pung)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -532,7 +532,7 @@ Génère un effet qui transfert un maximum de <span style="color:#ff1493; font-w
 
 ---
 
-#### 54. Déséquilibration ['Alté'!C21]
+#### 54. Déséquilibration
 ***École :*** École d'Altération
 ***Latin :*** Libra (Balance), ***Arcanique :*** Aslibra (As + libra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -542,7 +542,7 @@ Déséquilibre les ressources de la cible: Toutes les ressources sont ajoutés a
 
 ---
 
-#### 55. Altération ['Alté'!C23]
+#### 55. Altération
 ***École :*** École d'Altération
 ***Latin :*** Alter (Autre), ***Arcanique :*** Alalter (Al + alter)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -552,7 +552,7 @@ Génère un effet qui inflige deux conditions négatives aléatoire avec <span s
 
 ---
 
-#### 56. Bénédiction ['Alté'!C24]
+#### 56. Bénédiction
 ***École :*** École d'Altération
 ***Latin :*** Benedico (Dire du bien), ***Arcanique :*** Arbene (Ar + bene)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu

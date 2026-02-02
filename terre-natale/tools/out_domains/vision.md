@@ -2,7 +2,7 @@
 
 > 73 mots pour ce domaine
 
-#### 1. Libération ['Rest'!C24]
+#### 1. Libération
 ***École :*** École de Restauration
 ***Latin :*** Libero (Je délivre), ***Arcanique :*** Reliber (Re + liber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -12,7 +12,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 2. Infravision ['Béné'!C27]
+#### 2. Infravision
 ***École :*** École de Bénédiction
 ***Latin :*** Video (Voir), ***Arcanique :*** Lynvisu (Lyn + visu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -22,7 +22,7 @@ Génère un enchantement positif qui permet à la cible de voir au travers des m
 
 ---
 
-#### 3. Perception ['Béné'!C35]
+#### 3. Perception
 ***École :*** École de Bénédiction
 ***Latin :*** Capio (Saisir), ***Arcanique :*** Lucapti (Lu + capti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -32,7 +32,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 4. Perfectionnement ['Béné'!C73]
+#### 4. Perfectionnement
 ***École :*** École de Bénédiction
 ***Latin :*** Perficere (Achever), ***Arcanique :*** Lempfect (Lem + pfect)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -42,7 +42,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 5. Hyperperception ['Béné'!C80]
+#### 5. Hyperperception
 ***École :*** École de Bénédiction
 ***Latin :*** Sensus (Sens), ***Arcanique :*** Luxsens (Lux + sens)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -52,7 +52,7 @@ Génère un enchantement positif qui augmente drastiquement la portée des sens 
 
 ---
 
-#### 6. DésIllusion ['Béné'!C81]
+#### 6. DésIllusion
 ***École :*** École de Bénédiction
 ***Latin :*** Ludo (Jouer), ***Arcanique :*** Lemludo (Lem + ludo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -62,7 +62,7 @@ Génère un enchantement positif qui permet de voir au travers des Illusions et 
 
 ---
 
-#### 7. Consécration ['Béné'!C93]
+#### 7. Consécration
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +72,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 8. Pistage ['Malé'!C28]
+#### 8. Pistage
 ***École :*** École de Malédiction
 ***Latin :*** Vestigium (Trace), ***Arcanique :*** Morvesti (Mor + vesti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +82,7 @@ Génère un enchantement négatif qui permet au lanceur de sort de connaitre la 
 
 ---
 
-#### 9. Déqualification ['Malé'!C72]
+#### 9. Déqualification
 ***École :*** École de Malédiction
 ***Latin :*** Qualis (Qualité), ***Arcanique :*** Morquali (Mor + quali)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +92,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 10. Privation ['Malé'!C74]
+#### 10. Privation
 ***École :*** École de Malédiction
 ***Latin :*** Privo (Enlever), ***Arcanique :*** Munprivo (Mun + privo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +102,7 @@ Génère un enchantement négatif qui bloque un ou tous les sens de la cible (au
 
 ---
 
-#### 11. Déprécation ['Malé'!C90]
+#### 11. Déprécation
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +112,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 12. Sensation (lien) ['Invoc'!C19]
+#### 12. Sensation (lien)
 ***École :*** École d'Invocation
 ***Latin :*** Sensus (Sens), ***Arcanique :*** Vosens (Vo + sens)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (invocation)
@@ -122,7 +122,7 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de comm
 
 ---
 
-#### 13. Obstruction ['Abju'!C29]
+#### 13. Obstruction
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -132,7 +132,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 14. Protestation ['Abju'!C30]
+#### 14. Protestation
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -142,7 +142,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 15. Neutralisation ['Abju'!C31]
+#### 15. Neutralisation
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -152,7 +152,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 16. Rétrocognition ['Divi'!C3]
+#### 16. Rétrocognition
 ***École :*** École de Divination
 ***Latin :*** Retro (Arrière) + Nosco (Connaître), ***Arcanique :*** Diretro (Di + retro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +162,7 @@ Génère un effet permettant au lanceur de sort de consulter le passé de la cib
 
 ---
 
-#### 17. Précognition ['Divi'!C4]
+#### 17. Précognition
 ***École :*** École de Divination
 ***Latin :*** Prae (Avant) + Nosco (Connaître), ***Arcanique :*** Dornosc (Dor + nosc)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +172,7 @@ Génère un effet permettant au lanceur de sort de consulter le futur de la cibl
 
 ---
 
-#### 18. Remémoration ['Divi'!C5]
+#### 18. Remémoration
 ***École :*** École de Divination
 ***Latin :*** Memoria (Mémoire), ***Arcanique :*** Delmemo (Del + memo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +182,7 @@ Génère un effet permettant au lanceur de sort de consulter la mémoire de la c
 
 ---
 
-#### 19. Scrutation ['Divi'!C6]
+#### 19. Scrutation
 ***École :*** École de Divination
 ***Latin :*** Scrutator (Examiner), ***Arcanique :*** Darsrut (Dar + srut)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -192,7 +192,7 @@ Génère un effet permettant à la cible de consulter ce qui se passe à l'insta
 
 ---
 
-#### 20. Supposition ['Divi'!C9]
+#### 20. Supposition
 ***École :*** École de Divination
 ***Latin :*** Pono (Poser), ***Arcanique :*** Delponi (Del + poni)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -202,7 +202,7 @@ Génère un effet permettant au lanceur de sort de consulter le futur de la cibl
 
 ---
 
-#### 21. Intrusion ['Divi'!C13]
+#### 21. Intrusion
 ***École :*** École de Divination
 ***Latin :*** Trudo (Pousser), ***Arcanique :*** Deltrud (Del + trud)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -212,7 +212,7 @@ Génère un enchantement qui permet à la cible de voir les pensés des autres e
 
 ---
 
-#### 22. Localisation ['Divi'!C14]
+#### 22. Localisation
 ***École :*** École de Divination
 ***Latin :*** Locus (Lieu), ***Arcanique :*** Darlocus (Dar + locus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -222,7 +222,7 @@ Génère un effet permettant à la cible de connaitre la direction et la distanc
 
 ---
 
-#### 23. Balisation ['Divi'!C15]
+#### 23. Balisation
 ***École :*** École de Divination
 ***Latin :*** Palus (Pieu), ***Arcanique :*** Dipale (Di + pale)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -232,7 +232,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 24. Infravision ['Divi'!C16]
+#### 24. Infravision
 ***École :*** École de Divination
 ***Latin :*** Video (Voir), ***Arcanique :*** Dorvidi (Dor + vidi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +242,7 @@ Génère un effet permettant à la cible de voir les reliefs (murs, meubles, sur
 
 ---
 
-#### 25. Transvision ['Divi'!C17]
+#### 25. Transvision
 ***École :*** École de Divination
 ***Latin :*** Visio (Vision), ***Arcanique :*** Delvisu (Del + visu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +252,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 26. Détection ['Divi'!C18]
+#### 26. Détection
 ***École :*** École de Divination
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Dartego (Dar + tego)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +262,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 27. Signalement ['Divi'!C19]
+#### 27. Signalement
 ***École :*** École de Divination
 ***Latin :*** Signum (Signe), ***Arcanique :*** Disigno (Di + signo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +272,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 28. Prévision ['Divi'!C22]
+#### 28. Prévision
 ***École :*** École de Divination
 ***Latin :*** Video (Voir), ***Arcanique :*** Darviso (Dar + viso)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -282,7 +282,7 @@ Génère un effet qui permet au lanceur du sort de lire dans les signes afin de 
 
 ---
 
-#### 29. Magnification ['Divi'!C23]
+#### 29. Magnification
 ***École :*** École de Divination
 ***Latin :*** Magnus (Grand), ***Arcanique :*** Dimagno (Di + magno)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -292,7 +292,7 @@ Génère un enchantement positif qui double la Magnitude concernant la portée d
 
 ---
 
-#### 30. Prolongation ['Divi'!C24]
+#### 30. Prolongation
 ***École :*** École de Divination
 ***Latin :*** Longus (Long), ***Arcanique :*** Dorlong (Dor + long)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -302,7 +302,7 @@ Génère un enchantement positif qui doit être associé à un autre <span style
 
 ---
 
-#### 31. Intuition ['Divi'!C25]
+#### 31. Intuition
 ***École :*** École de Divination
 ***Latin :*** Tueor (Regarder), ***Arcanique :*** Deltueo (Del + tueo)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -312,7 +312,7 @@ Génère un effet de perception du danger (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 32. Décellement ['Divi'!C26]
+#### 32. Décellement
 ***École :*** École de Divination
 ***Latin :*** Celo (Cacher), ***Arcanique :*** Darcelo (Dar + celo)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -322,7 +322,7 @@ Génère un effet de perception des pièges (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 33. Dévoilement ['Divi'!C27]
+#### 33. Dévoilement
 ***École :*** École de Divination
 ***Latin :*** Velum (Voile), ***Arcanique :*** Divelo (Di + velo)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -332,7 +332,7 @@ Génère un effet de perception des secrets (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 34. Évaluation ['Divi'!C28]
+#### 34. Évaluation
 ***École :*** École de Divination
 ***Latin :*** Aestimo (Estimer), ***Arcanique :*** Doraesti (Dor + aesti)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -342,7 +342,7 @@ Génère un effet de perception des objets de valeurs (voir règle sur les "sens
 
 ---
 
-#### 35. Hiérarchisation ['Divi'!C29]
+#### 35. Hiérarchisation
 ***École :*** École de Divination
 ***Latin :*** Ordo (Ordre), ***Arcanique :*** Delordo (Del + ordo)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -352,7 +352,7 @@ Génère un effet de perception des objets importants (voir règle sur les "sens
 
 ---
 
-#### 36. Animation ['Divi'!C30]
+#### 36. Animation
 ***École :*** École de Divination
 ***Latin :*** Anima (Âme), ***Arcanique :*** Daranima (Dar + anima)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -362,7 +362,7 @@ Génère un effet de perception du vivant (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 37. Pistement ['Divi'!C31]
+#### 37. Pistement
 ***École :*** École de Divination
 ***Latin :*** Vestigium (Trace), ***Arcanique :*** Divesti (Di + vesti)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -372,7 +372,7 @@ Génère un effet de perception des créatures d'un certain reigne (selon la <sp
 
 ---
 
-#### 38. Nécrolocation ['Divi'!C32]
+#### 38. Nécrolocation
 ***École :*** École de Divination
 ***Latin :*** Necro (Mort) + Locus (Lieu), ***Arcanique :*** Dornecro (Dor + necro)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -382,7 +382,7 @@ Génère un effet de perception des morts (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 39. Arcanovision ['Divi'!C33]
+#### 39. Arcanovision
 ***École :*** École de Divination
 ***Latin :*** Arcanum (Secret), ***Arcanique :*** Delarcan (Del + arcan)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -392,7 +392,7 @@ Génère un effet de perception de la magie (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 40. Empathisation ['Divi'!C34]
+#### 40. Empathisation
 ***École :*** École de Divination
 ***Latin :*** Pathos (Sentiment), ***Arcanique :*** Darpath (Dar + path)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -402,7 +402,7 @@ Génère un effet de perception des émotions (voir règle sur les "senseurs"), 
 
 ---
 
-#### 41. Rétrovision ['Divi'!C35]
+#### 41. Rétrovision
 ***École :*** École de Divination
 ***Latin :*** Retro (Arrière) + Visio (Vision), ***Arcanique :*** Divisio (Di + visio)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -412,7 +412,7 @@ Génère un effet de perception du passé (voir règle sur les "senseurs"), rév
 
 ---
 
-#### 42. Préfiguration ['Divi'!C36]
+#### 42. Préfiguration
 ***École :*** École de Divination
 ***Latin :*** Figuro (Former), ***Arcanique :*** Dorfigu (Dor + figu)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -422,7 +422,7 @@ Génère un effet de perception du futur (voir règle sur les "senseurs"), rév�
 
 ---
 
-#### 43. Anticipation ['Divi'!C37]
+#### 43. Anticipation
 ***École :*** École de Divination
 ***Latin :*** Capio (Prendre), ***Arcanique :*** Delcipi (Del + cipi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -432,9 +432,9 @@ Génère un effet qui permet au lanceur du sort de lire dans les signes afin de 
 
 ---
 
-#### 44. Scrutation ['Divi'!C40]
+#### 44. Inspection
 ***École :*** École de Divination
-***Latin :*** Quaero (Chercher), ***Arcanique :*** Dorquer (Dor + quer)
+***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 👁️ Vision: Dorquereth
@@ -442,7 +442,7 @@ Le sort permet au lanceur de sort de « percevoir » les environs d’un lieu,
 
 ---
 
-#### 45. Transposition ['Divi'!C41]
+#### 45. Transposition
 ***École :*** École de Divination
 ***Latin :*** Pono (Placer), ***Arcanique :*** Delposto (Del + posto)
 ***Type de mot :*** Liaison, ***Type de cible :*** Cible
@@ -452,7 +452,7 @@ Le sort de "perception" peux être lancé sans avoir la cible en vu mais en conn
 
 ---
 
-#### 46. Ligation ['Divi'!C42]
+#### 46. Ligation
 ***École :*** École de Divination
 ***Latin :*** Liga (Lier), ***Arcanique :*** Darliga (Dar + liga)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -462,7 +462,7 @@ Génère un effet qui permet à la cible de « percevoir » les connexions inv
 
 ---
 
-#### 47. Prémonition ['Divi'!C43]
+#### 47. Prémonition
 ***École :*** École de Divination
 ***Latin :*** Moneo (Avertir), ***Arcanique :*** Dimoni (Di + moni)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -472,7 +472,7 @@ Génère un effet qui permet à la cible de « percevoir » l’alignement d�
 
 ---
 
-#### 48. Harmonisation ['Divi'!C44]
+#### 48. Harmonisation
 ***École :*** École de Divination
 ***Latin :*** Harmonia (Harmonie), ***Arcanique :*** Dorharmo (Dor + harmo)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -482,7 +482,7 @@ Génère un effet qui permet à la cible de « percevoir » les pensées de sa
 
 ---
 
-#### 49. Communication ['Divi'!C45]
+#### 49. Communication
 ***École :*** École de Divination
 ***Latin :*** Communis (Commun), ***Arcanique :*** Delcommu (Del + commu)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -492,7 +492,7 @@ Génère un effet qui permet à la cible de « percevoir » les pensées de sa
 
 ---
 
-#### 50. Incarnation ['Divi'!C46]
+#### 50. Incarnation
 ***École :*** École de Divination
 ***Latin :*** Caro (Chair), ***Arcanique :*** Darcarn (Dar + carn)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -502,7 +502,7 @@ Génère un effet qui permet à la cible de « percevoir » les environs les s
 
 ---
 
-#### 51. Orientation ['Divi'!C47]
+#### 51. Orientation
 ***École :*** École de Divination
 ***Latin :*** Oriens (Est, Levant), ***Arcanique :*** Dirien (Di + rien)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -512,7 +512,7 @@ Génère un effet qui permet à la cible de « percevoir » la localisation d'
 
 ---
 
-#### 52. Destination ['Divi'!C49]
+#### 52. Destination
 ***École :*** École de Divination
 ***Latin :*** Sto (Se tenir), ***Arcanique :*** Delstatio (Del + statio)
 ***Type de mot :*** Pouvoir (Percevoir), ***Type de cible :*** Cible
@@ -522,7 +522,7 @@ Génère un effet qui permet à la cible de « percevoir » l’itinéraire ve
 
 ---
 
-#### 53. Volition ['Divi'!C50]
+#### 53. Volition
 ***École :*** École de Divination
 ***Latin :*** Volo (Vouloir), ***Arcanique :*** Darvol (Dar + vol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -532,7 +532,7 @@ Le sort permet au lanceur de sort d'apprendre les motivations de la cible. Les m
 
 ---
 
-#### 54. Transperception ['Divi'!C53]
+#### 54. Transperception
 ***École :*** École de Divination
 ***Latin :*** Perceptio (Perception), ***Arcanique :*** Delcept (Del + cept)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -542,7 +542,7 @@ Génère un enchantement positif qui permet à la cible de voir à travers les m
 
 ---
 
-#### 55. Noctovision ['Divi'!C54]
+#### 55. Noctovision
 ***École :*** École de Divination
 ***Latin :*** Nox (Nuit), ***Arcanique :*** Darnox (Dar + nox)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -552,7 +552,7 @@ Génère un enchantement positif qui permet à la cible de voir à travers la p�
 
 ---
 
-#### 56. Intention ['Divi'!C55]
+#### 56. Intention
 ***École :*** École de Divination
 ***Latin :*** Tendo (Tendre), ***Arcanique :*** Ditende (Di + tende)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -562,7 +562,7 @@ Génère un enchantement positif qui permet à la cible de savoir ce que les par
 
 ---
 
-#### 57. Décorporation ['Divi'!C57]
+#### 57. Décorporation
 ***École :*** École de Divination
 ***Latin :*** Corpus (Corps), ***Arcanique :*** Delcorp (Del + corp)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -572,7 +572,7 @@ Génère un enchantement neutre qui permet à la cible de faire sortir son âme 
 
 ---
 
-#### 58. Révélation ['Divi'!C58]
+#### 58. Révélation
 ***École :*** École de Divination
 ***Latin :*** Apertus (Ouvert), ***Arcanique :*** Darape (Dar + ape)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -582,7 +582,7 @@ Génère un enchantement neutre qui permet à la cible de faire sortir son âme 
 
 ---
 
-#### 59. Préroulement ['Divi'!C59]
+#### 59. Préroulement
 ***École :*** École de Divination
 ***Latin :*** Volvo (Rouler), ***Arcanique :*** Divolvo (Di + volvo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -592,7 +592,7 @@ Génère un enchantement positif qui permet à la cible de lancer jusqu'à <span
 
 ---
 
-#### 60. Augurement ['Divi'!C60]
+#### 60. Augurement
 ***École :*** École de Divination
 ***Latin :*** Augur (Devin), ***Arcanique :*** Doraugur (Dor + augur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -602,7 +602,7 @@ Génère un enchantement positif qui permet à la cible de lancer jusqu'à <span
 
 ---
 
-#### 61. Traçation ['Divi'!C61]
+#### 61. Traçation
 ***École :*** École de Divination
 ***Latin :*** Traho (Tirer, tracer), ***Arcanique :*** Deltrac (Del + trac)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -612,7 +612,7 @@ Le sort permet au lanceur de sort de connaitre la localisation d'une personne co
 
 ---
 
-#### 62. Panoptisation ['Divi'!C73]
+#### 62. Panoptisation
 ***École :*** École de Divination
 ***Latin :*** Omnis (Tout) + Visio (Vision), ***Arcanique :*** Delpanop (Del + panop)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -622,7 +622,7 @@ Génère un effet qui permet à la cible de percevoir l'ensemble du champs de ba
 
 ---
 
-#### 63. Empreintation ['Divi'!C74]
+#### 63. Empreintation
 ***École :*** École de Divination
 ***Latin :*** Impressio (Empreinte), ***Arcanique :*** Darimpre (Dar + impre)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -632,7 +632,7 @@ Génère un effet qui permet à la cible de percevoir les "pas" (tracks) avec le
 
 ---
 
-#### 64. Surdétection ['Divi'!C77]
+#### 64. Surdétection
 ***École :*** École de Divination
 ***Latin :*** Super (Sur) + Tego (Couvrir), ***Arcanique :*** Deltuper (Del + tuper)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -642,7 +642,7 @@ Génère un enchantement positif qui force les sens de la cible à réagir au qu
 
 ---
 
-#### 65. Aiguisement ['Divi'!C80]
+#### 65. Aiguisement
 ***École :*** École de Divination
 ***Latin :*** Acies (Pointe), ***Arcanique :*** Doracie (Dor + acie)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -652,7 +652,7 @@ Génère un enchantement positif qui augmente tous les sens de la cible, les tes
 
 ---
 
-#### 66. Auspication ['Divi'!C81]
+#### 66. Auspication
 ***École :*** École de Divination
 ***Latin :*** Avis (Oiseau), ***Arcanique :*** Delauspi (Del + auspi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -662,7 +662,7 @@ Génère un effet qui permet à la cible de connaitre l’instant le plus favora
 
 ---
 
-#### 67. Véridiction ['Divi'!C84]
+#### 67. Véridiction
 ***École :*** École de Divination
 ***Latin :*** Veritas (Vérité), ***Arcanique :*** Dorveritas (Dor + veritas)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -672,7 +672,7 @@ Génère un effet permettant au lanceur de démasquer la véracité des propos q
 
 ---
 
-#### 68. Assimilation ['Divi'!C86]
+#### 68. Assimilation
 ***École :*** École de Divination
 ***Latin :*** Similis (Semblable), ***Arcanique :*** Darsimil (Dar + simil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -682,7 +682,7 @@ Génère un effet qui permet au lanceur de sort « percevoir » du point de vu
 
 ---
 
-#### 69. Détection ['Evoc'!C27]
+#### 69. Détection
 ***École :*** École d'Évocation
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Eloteges (Elo + teges)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -692,7 +692,7 @@ Génère un effet qui révèle la localisation de tous les espaces interdimentio
 
 ---
 
-#### 70. Manifestation ['Evoc'!C34]
+#### 70. Manifestation
 ***École :*** École d'Évocation
 ***Latin :*** Manes (Esprits, apparences), ***Arcanique :*** Enmani (En + mani)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Soi
@@ -702,7 +702,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 71. Oculus ['Conj'!C30]
+#### 71. Oculus
 ***École :*** École de Conjuration
 ***Latin :*** Oculus (Œil), ***Arcanique :*** Carocul (Car + ocul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -712,7 +712,7 @@ Génère un enchantement qui prend la forme d'un globe de petite taille capable 
 
 ---
 
-#### 72. Fenêtre astrale ['Conj'!C55]
+#### 72. Fenêtre astrale
 ***École :*** École de Conjuration
 ***Latin :*** Astra (Étoile), ***Arcanique :*** Conastra (Con + astra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -722,7 +722,7 @@ Génère un enchantement de lieu qui prend la forme d'une fenêtre vers un autre
 
 ---
 
-#### 73. Miroitement ['Alté'!C35]
+#### 73. Miroitement
 ***École :*** École d'Altération
 ***Latin :*** Speculum (Miroir), ***Arcanique :*** Alspecul (Al + specul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible

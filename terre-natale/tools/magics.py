@@ -40,18 +40,18 @@ OUTPUT_JSON = Path("all_magic_words.json")
 OUTPUT_SPELLS_DIR = Path("out_spells")
 OUTPUT_EXTRA_JSON = Path("other_magic_words.json")
 
-# Mapping of sheet names (tabs) to pretty school names and filenames
+# Mapping of sheet names (tabs) to pretty school names, filenames and symbols
 SCHOOL_SHEETS: Dict[str, Dict[str, str]] = {
-    "Dest": {"label": "École de Destruction", "filename": "destruction.md"},
-    "Rest": {"label": "École de Restauration", "filename": "restauration.md"},
-    "Béné": {"label": "École de Bénédiction", "filename": "benediction.md"},
-    "Malé": {"label": "École de Malédiction", "filename": "malediction.md"},
-    "Invoc": {"label": "École d'Invocation", "filename": "invocation.md"},
-    "Abju": {"label": "École d'Abjuration", "filename": "abjuration.md"},
-    "Divi": {"label": "École de Divination", "filename": "divination.md"},
-    "Evoc": {"label": "École d'Évocation", "filename": "evocation.md"},
-    "Conj": {"label": "École de Conjuration", "filename": "conjuration.md"},
-    "Alté": {"label": "École d'Altération", "filename": "alteration.md"},
+    "Dest": {"label": "École de Destruction", "filename": "destruction.md", "symbol": "✸"},
+    "Rest": {"label": "École de Restauration", "filename": "restauration.md", "symbol": "⌖"},
+    "Béné": {"label": "École de Bénédiction", "filename": "benediction.md", "symbol": "✧"},
+    "Malé": {"label": "École de Malédiction", "filename": "malediction.md", "symbol": "⧖"},
+    "Invoc": {"label": "École d'Invocation", "filename": "invocation.md", "symbol": "✪"},
+    "Abju": {"label": "École d'Abjuration", "filename": "abjuration.md", "symbol": "⛊"},
+    "Divi": {"label": "École de Divination", "filename": "divination.md", "symbol": "⊙"},
+    "Evoc": {"label": "École d'Évocation", "filename": "evocation.md", "symbol": "⧉"},
+    "Conj": {"label": "École de Conjuration", "filename": "conjuration.md", "symbol": "⧗"},
+    "Alté": {"label": "École d'Altération", "filename": "alteration.md", "symbol": "≈"},
 }
 
 # Domains configuration: icon → (domain label, output filename)
@@ -327,7 +327,7 @@ def generate_markdown() -> None:
     excel = pd.ExcelFile(input_path)
 
     # For domains and JSON
-    all_rows: List[Tuple[str, str, pd.Series, str]] = []
+    all_rows: List[Tuple[str, str, pd.Series, str, str]] = []  # Added symbol
     json_entries: List[Dict[str, Any]] = []
     global_index = 1
 
@@ -340,6 +340,7 @@ def generate_markdown() -> None:
             continue
 
         school_label = meta["label"]
+        school_symbol = meta["symbol"]  # Get the school symbol
         out_file = OUTPUT_DIR_SCHOOLS / meta["filename"]
 
         # Read sheet with NO HEADER: we work only with positions
@@ -366,7 +367,7 @@ def generate_markdown() -> None:
             )
             if block.strip():
                 blocks.append(block)
-                all_rows.append((sheet_name, school_label, row, cell_ref))
+                all_rows.append((sheet_name, school_label, row, cell_ref, school_symbol))  # Add symbol
 
                 # JSON entry (raw values, no HTML)
                 latin = get_field(row, "latin")
@@ -380,13 +381,16 @@ def generate_markdown() -> None:
                 keys_raw = get_field(row, "keys")
                 domains_icons = extract_domains_from_keys(keys_raw)
 
+                # Add symbol to vulgar name
+                vulgar_with_symbol = f"{vulgar} {school_symbol}"
+
                 json_entries.append({
                     "id": global_index,
                     "school_code": sheet_name,
                     "school_label": school_label,
                     "latin": latin,
                     "arcane": arcane,
-                    "vulgar": vulgar,
+                    "vulgar": vulgar_with_symbol,
                     "word_type": word_type,
                     "target_type": target_type,
                     "difficulty": difficulty,
@@ -425,7 +429,7 @@ def generate_markdown() -> None:
         domain_blocks: List[str] = []
 
         entry_index = 1
-        for sheet_name, school_label, row, cell_ref in all_rows:
+        for sheet_name, school_label, row, cell_ref, school_symbol in all_rows:
             keys_text = get_field(row, "keys")
             if icon in keys_text:
                 block = row_to_markdown(
@@ -841,6 +845,7 @@ def generate_spells_from_sorts() -> None:
                 
                 # École du sort
                 school_label = w["entry"].get("school_label", "")
+                
                 if school_label and school_label not in spell_schools:
                     spell_schools.append(school_label)
                 
@@ -938,7 +943,7 @@ def generate_spells_from_sorts() -> None:
                     if key:
                         key_part = f" ***Clé :*** {key}"
 
-                    # Nom du mot en vert
+                    # Nom du mot en vert (avec symbole déjà inclus)
                     word_name = highlight_keys(entry.get('vulgar', name))
 
                     line = (

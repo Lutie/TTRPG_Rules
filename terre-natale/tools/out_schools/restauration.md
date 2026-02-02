@@ -2,7 +2,7 @@
 
 > 34 mots pour cette école
 
-#### 1. Restauration ['Rest'!C3]
+#### 1. Restauration
 ***Latin :*** Instauro (Je rétablis), ***Arcanique :*** Restaura (Re + staura)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -11,7 +11,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 2. Vivification ['Rest'!C4]
+#### 2. Vivification
 ***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -20,7 +20,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 3. Revitalisation ['Rest'!C5]
+#### 3. Revitalisation
 ***Latin :*** Vigor (Force, Vigueur), ***Arcanique :*** Ryuvigo (Ryu + vigo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -29,7 +29,7 @@ Produit un soin de l'endurance (PE) équivalant à la moitié des PE manquants, 
 
 ---
 
-#### 4. Réinvigoration ['Rest'!C6]
+#### 4. Réinvigoration
 ***Latin :*** Roboro (Je fortifie), ***Arcanique :*** Rhorobor (Rho + robor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -38,7 +38,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 5. Transfusion ['Rest'!C7]
+#### 5. Transfusion
 ***Latin :*** Fundo (Je verse), ***Arcanique :*** Refund (Re + fund)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -47,7 +47,7 @@ Produit un soin qui convertis <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 6. Grandiloquence ['Rest'!C8]
+#### 6. Grandiloquence
 ***Latin :*** Magnus (Grand), ***Arcanique :*** Relmagnus (Rel + magnus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -56,7 +56,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 7. Revigoration ['Rest'!C9]
+#### 7. Revigoration
 ***Latin :*** Vigor (Force, Vigueur), ***Arcanique :*** Rasvigore (Ras + vigore)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -65,7 +65,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]<
 
 ---
 
-#### 8. Purification ['Rest'!C10]
+#### 8. Purification
 ***Latin :*** Purgo (Je nettoie), ***Arcanique :*** Rhopurgo (Rho + purgo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -74,7 +74,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]<
 
 ---
 
-#### 9. Canalisation ['Rest'!C11]
+#### 9. Canalisation
 ***Latin :*** Canalis (Conduit), ***Arcanique :*** Recana (Re + cana)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -83,7 +83,7 @@ Produit un soin qui convertis un maximum de <span style="color:#ff1493; font-wei
 
 ---
 
-#### 10. Dissolution ['Rest'!C12]
+#### 10. Dissolution
 ***Latin :*** Solvo (Délier), ***Arcanique :*** Rensolvo (Ren + solvo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -92,7 +92,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 11. Neutralisation ['Rest'!C13]
+#### 11. Neutralisation
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Rasneuta (Ras + neuta)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -101,7 +101,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 12. Absolution ['Rest'!C14]
+#### 12. Absolution
 ***Latin :*** Absolvo (Je délie), ***Arcanique :*** Rhoabsol (Rho + absol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -110,7 +110,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]
 
 ---
 
-#### 13. ??? ['Rest'!C15]
+#### 13. ???
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -119,7 +119,7 @@ Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnit
 
 ---
 
-#### 14. Consolidation ['Rest'!C16]
+#### 14. Consolidation
 ***Latin :*** Solidus (Solide), ***Arcanique :*** Resolid (Re + solid)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -128,7 +128,7 @@ Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnit
 
 ---
 
-#### 15. Illumination ['Rest'!C17]
+#### 15. Illumination
 ***Latin :*** Lumen (Lumière), ***Arcanique :*** Relumen (Rel + lumen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -137,7 +137,7 @@ Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnit
 
 ---
 
-#### 16. Cautérisation ['Rest'!C18]
+#### 16. Cautérisation
 ***Latin :*** Adustus (Brûlé), ***Arcanique :*** Rascauter (Ras + cauter)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -146,7 +146,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 17. Cicatrisation ['Rest'!C19]
+#### 17. Cicatrisation
 ***Latin :*** Cico (Je calme), ***Arcanique :*** Rhocicat (Rho + cicat)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -155,7 +155,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 18. Harmonisation ['Rest'!C20]
+#### 18. Harmonisation
 ***Latin :*** Harmonia (Harmonie), ***Arcanique :*** Reharmo (Re + harmo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -164,7 +164,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 19. RésuRection ['Rest'!C21]
+#### 19. RésuRection
 ***Latin :*** Resurgo (Je me relève), ***Arcanique :*** Renresur (Ren + resur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
@@ -173,7 +173,7 @@ Sur une cible morte - Restaure tout ce qui a causé la mort de la cible pile à 
 
 ---
 
-#### 20. Rajeunissement ['Rest'!C22]
+#### 20. Rajeunissement
 ***Latin :*** Iuventus (Jeunesse), ***Arcanique :*** Ryujuve (Ryu + juve)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -182,7 +182,7 @@ La cible rajeunit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4
 
 ---
 
-#### 21. Reconstitution ['Rest'!C23]
+#### 21. Reconstitution
 ***Latin :*** Statuo (Je rétablis), ***Arcanique :*** Rhostatuo (Rho + statuo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -191,7 +191,7 @@ Restaure l'indice, la piste ou autre information ciblé, qui a été rendue bien
 
 ---
 
-#### 22. Libération ['Rest'!C24]
+#### 22. Libération
 ***Latin :*** Libero (Je délivre), ***Arcanique :*** Reliber (Re + liber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -200,7 +200,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</
 
 ---
 
-#### 23. Stabilisation ['Rest'!C25]
+#### 23. Stabilisation
 ***Latin :*** Firmus (Ferme), ***Arcanique :*** Relfirmus (Rel + firmus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 0, ***Drain :*** 0
@@ -209,7 +209,7 @@ Génère un soin qui stabilise l'état, physique ou mental, de la cible.
 
 ---
 
-#### 24. Désintoxication ['Rest'!C26]
+#### 24. Désintoxication
 ***Latin :*** Veneno (Poison), ***Arcanique :*** Rasvenen (Ras + venen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -218,7 +218,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 25. Sanguination ['Rest'!C27]
+#### 25. Sanguination
 ***Latin :*** Sanguis (Sang), ***Arcanique :*** Rhosangu (Rho + sangu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -227,7 +227,7 @@ Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2
 
 ---
 
-#### 26. Réincarnation ['Rest'!C28]
+#### 26. Réincarnation
 ***Latin :*** Caro (Chair, corps), ***Arcanique :*** Recarno (Re + carno)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -236,7 +236,7 @@ Génère un effet qui apaise l'âme d'un mort et soigne celle-ci, offrant à l'i
 
 ---
 
-#### 27. Stabilisation ['Rest'!C29]
+#### 27. Ancrage
 ***Latin :*** Stato (Je me tiens), ***Arcanique :*** Ryustato (Ryu + stato)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 0
@@ -245,7 +245,7 @@ Génère un sort qui stabilise un total de <span style="color:#ff1493; font-weig
 
 ---
 
-#### 28. Stigmatisation ['Rest'!C30]
+#### 28. Stigmatisation
 ***Latin :*** Nota (Marque), ***Arcanique :*** Rasnota (Ras + nota)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -254,7 +254,7 @@ Génère un effet qui permet au lanceur de sort de recevoir et encaisser lui mê
 
 ---
 
-#### 29. Sanctification ['Rest'!C31]
+#### 29. Sanctification
 ***Latin :*** Sanctus (Sacré), ***Arcanique :*** Rhosanct (Rho + sanct)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -263,7 +263,7 @@ Nécessite du sang au sol à proximité de la cible, produit un soin de <span st
 
 ---
 
-#### 30. Cryothérapie ['Rest'!C32]
+#### 30. Cryothérapie
 ***Latin :*** Frigus (Froid), ***Arcanique :*** Refrig (Re + frig)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -272,7 +272,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 31. Régénération ['Rest'!C33]
+#### 31. Régénération
 ***Latin :*** Gigno (J'engendre), ***Arcanique :*** Rengen (Ren + gen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -281,7 +281,7 @@ Génère un effet qui octroie une condition de soin dans le temps (HOT).
 
 ---
 
-#### 32. ??? ['Rest'!C34]
+#### 32. ???
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -290,7 +290,7 @@ Génère un enchantement qui réduit la magnitude des marques dont fait l'objet 
 
 ---
 
-#### 33. ??? ['Rest'!C35]
+#### 33. ???
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -299,7 +299,7 @@ Génère un effet qui restaure <span style="color:#ff1493; font-weight:bold;">[M
 
 ---
 
-#### 34. Emoglobine ['Rest'!C36]
+#### 34. Emoglobine
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2

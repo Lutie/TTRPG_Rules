@@ -3,11 +3,11 @@
 > 5 sorts pour Faune
 
 ## Forme Bestiale
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Interruption, ***Domaine du sort :*** 🐗, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 6, ***Drain :*** 6
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Fortification</span> ['Abju'!C46] (Fortis (Fort) / Brenfortis (Bren + fortis)) : Génère un effet qui augmente la défense passive contre les attaques physiques de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. ***Clé :*** 🐗 Faune: Lynfortiorh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Protection</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** 🐗 Faune: Lynfortiorh
 
 ---
 
