@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terre Natale - Feuille de Personnage</title>
+
+  <!-- Polices Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Terre Natale</h1>
+      <div class="header-actions">
+        <button id="btn-new" title="Nouveau personnage">Nouveau</button>
+        <button id="btn-export" title="Exporter en JSON">Exporter</button>
+        <button id="btn-import" title="Importer un fichier JSON">Importer</button>
+        <input type="file" id="file-import" accept=".json">
+      </div>
+    </header>
+
+    <!-- Navigation par onglets -->
+    <nav class="tabs-container">
+      <button class="tab-btn active" data-tab="principal">Principal</button>
+      <button class="tab-btn" data-tab="competences">Compétences</button>
+      <button class="tab-btn" data-tab="inventaire">Inventaire</button>
+      <button class="tab-btn" data-tab="memoire">Mémoire</button>
+      <button class="tab-btn" data-tab="magie">Magie</button>
+      <button class="tab-btn" data-tab="confrontation">Confrontation</button>
+    </nav>
+
+    <!-- Contenu des onglets -->
+    <main>
+      <!-- Onglet Principal -->
+      <div id="tab-principal" class="tab-content active">
+        <!-- Informations du personnage -->
+        <section class="section">
+          <h2 class="section-title">Informations</h2>
+          <div id="infos-personnage"></div>
+        </section>
+
+        <!-- PA et Attributs -->
+        <section class="section">
+          <div class="section-header">
+            <h2 class="section-title">Attributs</h2>
+            <div id="pa-display"></div>
+          </div>
+
+          <h3 class="attr-section-title">Corps</h3>
+          <div id="attributs-corps"></div>
+
+          <h3 class="attr-section-title">Esprit</h3>
+          <div id="attributs-esprit"></div>
+
+          <h3 class="attr-section-title">Spéciaux</h3>
+          <div id="attributs-magiques"></div>
+
+          <h3 class="attr-section-title">Secondaires</h3>
+          <div id="attributs-destin"></div>
+
+          <h3 class="attr-section-title">Secondaires</h3>
+          <div id="attributs-secondaires"></div>
+        </section>
+
+        <!-- Caste -->
+        <section class="section">
+          <h2 class="section-title">Caste</h2>
+          <div id="caste-section"></div>
+        </section>
+
+        <!-- Ressources -->
+        <section class="section">
+          <h2 class="section-title">Ressources</h2>
+          <div id="ressources-section"></div>
+        </section>
+
+        <!-- Caractéristiques calculées -->
+        <section class="section">
+          <h2 class="section-title">Caractéristiques</h2>
+          <div id="caracteristiques-section"></div>
+        </section>
+
+        <!-- Sauvegardes -->
+        <section class="section">
+          <h2 class="section-title">Sauvegardes</h2>
+          <div id="sauvegardes-section"></div>
+        </section>
+      </div>
+
+      <!-- Onglet Compétences (placeholder) -->
+      <div id="tab-competences" class="tab-content">
+        <div class="placeholder">
+          <h2>Compétences</h2>
+          <p>Cette section sera disponible dans une future mise à jour.</p>
+        </div>
+      </div>
+
+      <!-- Onglet Inventaire (placeholder) -->
+      <div id="tab-inventaire" class="tab-content">
+        <div class="placeholder">
+          <h2>Inventaire</h2>
+          <p>Cette section sera disponible dans une future mise à jour.</p>
+        </div>
+      </div>
+
+      <!-- Onglet Mémoire (placeholder) -->
+      <div id="tab-memoire" class="tab-content">
+        <div class="placeholder">
+          <h2>Mémoire</h2>
+          <p>Cette section sera disponible dans une future mise à jour.</p>
+        </div>
+      </div>
+
+      <!-- Onglet Magie -->
+      <div id="tab-magie" class="tab-content">
+        <!-- Tradition Magique -->
+        <section class="section">
+          <h2 class="section-title">Tradition Magique</h2>
+          <div id="tradition-section"></div>
+        </section>
+
+        <div class="placeholder">
+          <h2>Sorts & Capacités Magiques</h2>
+          <p>Cette section sera disponible dans une future mise à jour.</p>
+        </div>
+      </div>
+
+      <!-- Onglet Confrontation (placeholder) -->
+      <div id="tab-confrontation" class="tab-content">
+        <div class="placeholder">
+          <h2>Confrontation</h2>
+          <p>Cette section sera disponible dans une future mise à jour.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/character.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,818 @@
+/* style.css - Thème livre ancien / parchemin pour Terre Natale */
+
+/* === Variables === */
+:root {
+  --color-bg: #f4e4c1;
+  --color-bg-dark: #e8d4a8;
+  --color-bg-light: #faf3e3;
+  --color-border: #8b7355;
+  --color-border-dark: #5c4a32;
+  --color-text: #3d2914;
+  --color-text-light: #6b5344;
+  --color-accent: #8b4513;
+  --color-accent-light: #a0522d;
+  --color-positive: #2e7d32;
+  --color-negative: #c62828;
+  --color-highlight: #d4a574;
+  --font-title: 'Cinzel', 'Times New Roman', serif;
+  --font-body: 'Crimson Text', Georgia, serif;
+  --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --shadow-hard: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* === Reset & Base === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  background: linear-gradient(135deg, #d4c4a8 0%, #c4b498 50%, #b4a488 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* === Layout principal === */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: var(--color-bg);
+  border: 3px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-hard);
+  overflow: hidden;
+}
+
+/* === Header === */
+header {
+  background: linear-gradient(180deg, var(--color-border-dark) 0%, var(--color-border) 100%);
+  color: var(--color-bg-light);
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--color-border-dark);
+}
+
+header h1 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.header-actions button {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 2px solid var(--color-border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.header-actions button:hover {
+  background: var(--color-bg-light);
+  transform: translateY(-1px);
+}
+
+/* === Navigation par onglets === */
+.tabs-container {
+  display: flex;
+  background: var(--color-bg-dark);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.tab-btn {
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  padding: 12px 24px;
+  background: transparent;
+  color: var(--color-text-light);
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.tab-btn.active {
+  background: var(--color-bg);
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* === Contenu des onglets === */
+.tab-content {
+  display: none;
+  padding: 25px 30px;
+  min-height: 500px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* === Sections === */
+.section {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  box-shadow: var(--shadow-soft);
+}
+
+.section-title {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  color: var(--color-accent);
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-highlight);
+}
+
+/* === Grille d'infos === */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.info-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-field input,
+.info-field select {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 8px 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  transition: border-color 0.2s;
+}
+
+.info-field input:focus,
+.info-field select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(139, 69, 19, 0.2);
+}
+
+/* === Section header avec PA === */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-header .section-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* === Titres de sous-sections attributs === */
+.attr-section-title {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.attr-section-title:first-of-type {
+  margin-top: 0;
+}
+
+/* === Grille d'attributs avec images === */
+.attr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+
+/* === Bloc attribut avec image === */
+.attr-block {
+  display: flex;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.attr-block:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-soft);
+}
+
+.attr-image {
+  width: 80px;
+  min-height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-right: 2px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.attr-content {
+  flex: 1;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+}
+
+.attr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.attr-header .attr-name {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.attr-header .attr-id {
+  font-size: 0.7rem;
+  color: var(--color-text-light);
+  font-weight: 600;
+}
+
+.attr-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.75rem;
+}
+
+.attr-details-row {
+  display: flex;
+  gap: 12px;
+}
+
+.attr-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.attr-row label {
+  color: var(--color-text-light);
+  font-size: 0.7rem;
+}
+
+.attr-input {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  width: 42px;
+  padding: 2px 4px;
+  text-align: center;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  color: var(--color-text);
+}
+
+.attr-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.attr-bonus, .attr-mod, .attr-def, .attr-choc {
+  font-weight: 600;
+  min-width: 20px;
+  text-align: center;
+}
+
+.attr-bonus.positive, .attr-mod.positive {
+  color: var(--color-positive);
+}
+
+.attr-mod.negative {
+  color: var(--color-negative);
+}
+
+.attr-def, .attr-choc {
+  color: var(--color-accent);
+}
+
+.attr-base-calc {
+  font-weight: 700;
+  color: var(--color-text);
+  min-width: 30px;
+  text-align: center;
+}
+
+.attr-calc-info {
+  font-size: 0.65rem;
+  color: var(--color-text-light);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.attr-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
+  border-left: 2px solid var(--color-border-dark);
+}
+
+.total-value {
+  font-family: var(--font-title);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-bg-light);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 1;
+}
+
+.total-mod {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-bg-light);
+  margin-top: 2px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.total-mod.positive {
+  color: #c8e6c9;
+}
+
+.total-mod.negative {
+  color: #ffcdd2;
+}
+
+/* === Attributs secondaires (affichage compact) === */
+.attr-compact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.attr-compact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.attr-compact:hover {
+  border-color: var(--color-accent);
+}
+
+.compact-name {
+  font-weight: 600;
+  color: var(--color-text);
+  min-width: 70px;
+}
+
+.attr-input-compact {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  width: 45px;
+  padding: 4px;
+  text-align: center;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.attr-input-compact:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.compact-bonus {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  min-width: 20px;
+}
+
+.compact-bonus.positive {
+  color: var(--color-positive);
+  font-weight: 600;
+}
+
+.compact-total {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  min-width: 25px;
+  text-align: center;
+}
+
+.compact-mod {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+.compact-mod.positive {
+  color: var(--color-positive);
+}
+
+.compact-mod.negative {
+  color: var(--color-negative);
+}
+
+/* === PA Display === */
+#pa-display {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background: var(--color-bg-dark);
+  border-radius: 4px;
+}
+
+#pa-display .over-budget {
+  color: var(--color-negative);
+  font-weight: 700;
+}
+
+/* === Grid layouts === */
+.two-columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.attributs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* === Caste === */
+.caste-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.caste-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.caste-field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+}
+
+.caste-field select {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 8px 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.caste-info {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background: var(--color-bg);
+  border: 1px dashed var(--color-border);
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.caste-info p {
+  margin-bottom: 5px;
+}
+
+/* === Ressources === */
+.ressources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.ressource-box {
+  padding: 15px;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.ressource-name {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ressource-value {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+/* === Caractéristiques === */
+.caracteristiques-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 15px;
+}
+
+.carac-box {
+  padding: 15px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.carac-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+}
+
+.carac-value {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+/* === Sauvegardes === */
+.sauvegardes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.sauvegarde-box {
+  padding: 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sauvegarde-box.majeure {
+  border-color: var(--color-accent);
+  border-width: 2px;
+  background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg) 100%);
+}
+
+.sauvegarde-box.mineure {
+  border-style: dashed;
+}
+
+.sauv-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-transform: uppercase;
+}
+
+.sauv-value {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.sauv-attrs {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* === Placeholder pour onglets non implémentés === */
+.placeholder {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--color-text-light);
+}
+
+.placeholder h2 {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--color-border);
+}
+
+.placeholder p {
+  font-style: italic;
+}
+
+/* === Erreur === */
+.error-message {
+  text-align: center;
+  padding: 40px;
+}
+
+.error-message h2 {
+  font-family: var(--font-title);
+  color: var(--color-negative);
+  margin-bottom: 15px;
+}
+
+.error-message button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* === Input file caché === */
+#file-import {
+  display: none;
+}
+
+/* === Responsive === */
+@media (max-width: 1100px) {
+  .attr-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .attr-compact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .attributs-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .attr-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .attr-compact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .attr-block {
+    min-height: auto;
+  }
+
+  .attr-image {
+    width: 60px;
+    min-height: 80px;
+  }
+
+  .total-value {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .tabs-container {
+    flex-wrap: wrap;
+  }
+
+  .tab-btn {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+
+  .tab-content {
+    padding: 15px;
+  }
+
+  .section {
+    padding: 15px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .attr-compact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .attr-compact {
+    justify-content: space-between;
+  }
+
+  .compact-name {
+    min-width: auto;
+    flex: 1;
+  }
+}
+
+/* === Scrollbar personnalisée === */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-dark);
+}
