@@ -30,6 +30,7 @@
     <nav class="tabs-container">
       <button class="tab-btn active" data-tab="principal">Principal</button>
       <button class="tab-btn" data-tab="competences">Compétences</button>
+      <button class="tab-btn" data-tab="traits">Traits</button>
       <button class="tab-btn" data-tab="inventaire">Inventaire</button>
       <button class="tab-btn" data-tab="memoire">Mémoire</button>
       <button class="tab-btn" data-tab="magie">Magie</button>
@@ -42,9 +43,147 @@
       <div id="tab-principal" class="tab-content active">
         <!-- Informations du personnage -->
         <section class="section">
-          <h2 class="section-title">Informations</h2>
+          <div class="section-header">
+            <h2 class="section-title">Informations</h2>
+            <button id="btn-origines" class="btn-origines">Origines</button>
+          </div>
           <div id="infos-personnage"></div>
         </section>
+
+        <!-- Modale Origines -->
+        <div id="modal-origines" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Ajustements d'Origines</h2>
+              <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-info">
+                <strong>Règles :</strong> 1er Boost = +2, suivants = +1 (max +4, ou +6 si Race x2).
+                1er Deboost = -2, suivants = -1 (max -4). Les boosts et deboosts ne s'annulent pas.
+              </p>
+
+              <!-- Ethnie -->
+              <div class="origin-section" id="section-ethnie">
+                <h3>Ethnie <span class="origin-ethnie-label"></span></h3>
+                <p class="origin-desc">2 Boosts parmi les attributs forts, 1 Deboost parmi les faibles, +1 Boost si Deboost pris</p>
+                <div class="origin-selects">
+                  <div class="origin-field">
+                    <label>Boost 1</label>
+                    <select class="origin-select origin-race-boost" data-source="race" data-type="boost" data-slot="boost1"></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Boost 2</label>
+                    <select class="origin-select origin-race-boost" data-source="race" data-type="boost" data-slot="boost2"></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Deboost</label>
+                    <select class="origin-select origin-race-deboost" data-source="race" data-type="deboost" data-slot="deboost1"></select>
+                  </div>
+                  <div class="origin-field origin-conditional">
+                    <label>Boost 3</label>
+                    <select class="origin-select origin-race-boost origin-conditional-select" data-source="race" data-type="boost" data-slot="boost3" disabled></select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Allégeance -->
+              <div class="origin-section">
+                <h3>Allégeance <span class="origin-allegeance-label"></span></h3>
+                <p class="origin-desc">1 Boost débloqué si Deboost pris</p>
+                <div class="origin-selects origin-selects-paired">
+                  <div class="origin-field origin-conditional">
+                    <label>Boost</label>
+                    <select class="origin-select origin-conditional-select" data-source="allegeance" data-type="boost" data-slot="boost1" data-requires="deboost1" disabled></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Deboost</label>
+                    <select class="origin-select origin-deboost-trigger" data-source="allegeance" data-type="deboost" data-slot="deboost1"></select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Milieu -->
+              <div class="origin-section">
+                <h3>Milieu de vie <span class="origin-milieu-label"></span></h3>
+                <p class="origin-desc">Chaque Boost se débloque si son Deboost correspondant est pris</p>
+                <div class="origin-selects origin-selects-paired">
+                  <div class="origin-field origin-conditional">
+                    <label>Boost 1</label>
+                    <select class="origin-select origin-conditional-select" data-source="milieu" data-type="boost" data-slot="boost1" data-requires="deboost1" disabled></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Deboost 1</label>
+                    <select class="origin-select origin-deboost-trigger" data-source="milieu" data-type="deboost" data-slot="deboost1"></select>
+                  </div>
+                  <div class="origin-field origin-conditional">
+                    <label>Boost 2</label>
+                    <select class="origin-select origin-conditional-select" data-source="milieu" data-type="boost" data-slot="boost2" data-requires="deboost2" disabled></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Deboost 2</label>
+                    <select class="origin-select origin-deboost-trigger" data-source="milieu" data-type="deboost" data-slot="deboost2"></select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Persona -->
+              <div class="origin-section">
+                <h3>Persona <span class="origin-persona-label"></span></h3>
+                <p class="origin-desc">2 Boosts parmi les attributs forts, 1 Deboost parmi les faibles, +1 Boost si Deboost pris</p>
+                <div class="origin-selects">
+                  <div class="origin-field">
+                    <label>Boost 1</label>
+                    <select class="origin-select" data-source="persona" data-type="boost" data-slot="boost1"></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Boost 2</label>
+                    <select class="origin-select" data-source="persona" data-type="boost" data-slot="boost2"></select>
+                  </div>
+                  <div class="origin-field">
+                    <label>Deboost</label>
+                    <select class="origin-select origin-deboost-trigger" data-source="persona" data-type="deboost" data-slot="deboost1"></select>
+                  </div>
+                  <div class="origin-field origin-conditional">
+                    <label>Boost 3</label>
+                    <select class="origin-select origin-conditional-select" data-source="persona" data-type="boost" data-slot="boost3" disabled></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="btn-reset-origines" class="btn-secondary">Réinitialiser</button>
+              <button id="btn-apply-origines" class="btn-primary">Appliquer</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modale Naissance -->
+        <div id="modal-naissance" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Attributs de Naissance</h2>
+              <button class="modal-close" id="modal-naissance-close">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-info">
+                <strong>Règles :</strong> Ajustez les modificateurs de naissance (-6 à +6).
+                Le total des modificateurs doit être égal à 0.
+              </p>
+              <div class="naissance-status" id="naissance-status">
+                <span class="naissance-total">Total: 0</span>
+                <span class="naissance-conforme conforme">Conforme</span>
+              </div>
+              <div class="naissance-grid" id="naissance-grid">
+                <!-- Généré dynamiquement -->
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="btn-reset-naissance" class="btn-secondary">Réinitialiser</button>
+              <button id="btn-apply-naissance" class="btn-primary">Appliquer</button>
+            </div>
+          </div>
+        </div>
 
         <!-- PA et Attributs -->
         <section class="section">
@@ -62,10 +201,13 @@
           <h3 class="attr-section-title">Spéciaux</h3>
           <div id="attributs-magiques"></div>
 
-          <h3 class="attr-section-title">Secondaires</h3>
+          <h3 class="attr-section-title">Destin</h3>
           <div id="attributs-destin"></div>
 
-          <h3 class="attr-section-title">Secondaires</h3>
+          <div class="attr-section-header">
+            <h3 class="attr-section-title">Naissance</h3>
+            <button id="btn-naissance" class="btn-naissance">Naissance</button>
+          </div>
           <div id="attributs-secondaires"></div>
         </section>
 
@@ -98,6 +240,14 @@
       <div id="tab-competences" class="tab-content">
         <div class="placeholder">
           <h2>Compétences</h2>
+          <p>Cette section sera disponible dans une future mise à jour.</p>
+        </div>
+      </div>
+
+      <!-- Onglet Traits (placeholder) -->
+      <div id="tab-traits" class="tab-content">
+        <div class="placeholder">
+          <h2>Traits</h2>
           <p>Cette section sera disponible dans une future mise à jour.</p>
         </div>
       </div>
@@ -143,6 +293,12 @@
   </div>
 
   <!-- Scripts -->
+  <script src="js/data/castes.js"></script>
+  <script src="js/data/ethnies.js"></script>
+  <script src="js/data/origines.js"></script>
+  <script src="js/data/allegeances.js"></script>
+  <script src="js/data/milieux.js"></script>
+  <script src="js/data/personas.js"></script>
   <script src="js/data.js"></script>
   <script src="js/storage.js"></script>
   <script src="js/character.js"></script>

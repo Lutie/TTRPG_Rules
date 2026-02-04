@@ -29,50 +29,126 @@ const Character = {
         PC: { actuel: 0, max: 0 },
         PK: { actuel: 3, max: 3 },
         PM: { actuel: 0, max: 0 }
+      },
+      originesChoix: {},
+      originesBonus: {},
+      naissanceBonus: {
+        STA: 0,
+        TAI: 0,
+        EGO: 0,
+        APP: 0,
+        CHN: 0,
+        EQU: 0
       }
     };
 
-    // Initialise les attributs principaux à 10
+    // Initialise les attributs principaux (Corps + Esprit) à 7
     DATA.attributsPrincipaux.forEach(attr => {
       character.attributs[attr.id] = {
-        base: DATA.valeurDefaut,
+        base: DATA.valeurDefautPrincipal,
         bonus: 0
       };
     });
 
-    // Initialise les attributs secondaires à 10
+    // Initialise les attributs secondaires (STA, TAI, EGO, APP) à 10
     DATA.attributsSecondaires.forEach(attr => {
       character.attributs[attr.id] = {
-        base: DATA.valeurDefaut,
+        base: DATA.valeurDefautSecondaire,
         bonus: 0
       };
     });
 
-    // Initialise les attributs spéciaux à 10
+    // Initialise les attributs spéciaux
+    // MAG et LOG à 7 (comme les principaux)
+    // EQU est calculé, CHN à 10
     DATA.attributsSpeciaux.forEach(attr => {
-      character.attributs[attr.id] = {
-        base: DATA.valeurDefaut,
-        bonus: 0
-      };
+      if (attr.id === 'CHN' || attr.id === 'EQU') {
+        character.attributs[attr.id] = {
+          base: DATA.valeurDefautSecondaire,
+          bonus: 0
+        };
+      } else {
+        // MAG et LOG
+        character.attributs[attr.id] = {
+          base: DATA.valeurDefautPrincipal,
+          bonus: 0
+        };
+      }
     });
 
     return character;
   },
 
-  // Calcule le coût en PA pour une valeur d'attribut
-  calculerCoutPA(valeur) {
-    if (valeur <= 8) return 0;
-    const n = valeur - 8;
-    return Math.floor(0.5 * n * (n + 5));
+  // Calcule le coût PA pour passer de X à X+1 (attributs principaux)
+  // Formule: X → X+1 coûte (X - 4) PA
+  coutPasAttributPrincipal(valeur) {
+    return Math.max(0, valeur - 4);
+  },
+
+  // Calcule le coût PA cumulé pour un attribut principal (base 7)
+  calculerCoutPAPrincipal(valeur) {
+    const base = DATA.valeurDefautPrincipal; // 7
+    if (valeur <= base) return 0;
+
+    let cout = 0;
+    for (let x = base; x < valeur; x++) {
+      cout += this.coutPasAttributPrincipal(x);
+    }
+    return cout;
+  },
+
+  // Calcule le coût PA pour un attribut secondaire (STA, TAI, EGO, APP)
+  // Retourne négatif si gain de PA, positif si dépense
+  calculerCoutPASecondaire(valeur) {
+    // Inverse le signe car dans DATA c'est: positif = gain, négatif = dépense
+    return -(DATA.coutSecondaire[valeur] || 0);
+  },
+
+  // Calcule le coût PA pour la Chance
+  calculerCoutPAChance(valeur) {
+    return -(DATA.coutChance[valeur] || 0);
+  },
+
+  // Récupère les PA de départ selon la destinée
+  getPADepart(character) {
+    const destineeNom = character.infos?.destinee;
+    const destinee = DATA.destinees.find(d => d.nom === destineeNom);
+    return destinee ? destinee.pa : DATA.destinees[0].pa; // Par défaut: Commun des Mortels
+  },
+
+  // Récupère le max d'attribut selon la destinée
+  getMaxAttribut(character) {
+    const destineeNom = character.infos?.destinee;
+    const destinee = DATA.destinees.find(d => d.nom === destineeNom);
+    return destinee ? destinee.maxAttribut : DATA.destinees[0].maxAttribut;
   },
 
   // Calcule le PA total utilisé
   calculerPAUtilises(character) {
     let total = 0;
+
+    // Attributs principaux (Corps + Esprit) - base 7
     DATA.attributsPrincipaux.forEach(attr => {
-      const val = character.attributs[attr.id]?.base || DATA.valeurDefaut;
-      total += this.calculerCoutPA(val);
+      const val = character.attributs[attr.id]?.base || DATA.valeurDefautPrincipal;
+      total += this.calculerCoutPAPrincipal(val);
     });
+
+    // MAG et LOG - base 7
+    ['MAG', 'LOG'].forEach(id => {
+      const val = character.attributs[id]?.base || DATA.valeurDefautPrincipal;
+      total += this.calculerCoutPAPrincipal(val);
+    });
+
+    // Attributs secondaires (STA, TAI, EGO, APP) - base 10
+    DATA.attributsSecondaires.forEach(attr => {
+      const val = character.attributs[attr.id]?.base || DATA.valeurDefautSecondaire;
+      total += this.calculerCoutPASecondaire(val);
+    });
+
+    // Chance - base 10, coût spécial
+    const chn = character.attributs['CHN']?.base || DATA.valeurDefautSecondaire;
+    total += this.calculerCoutPAChance(chn);
+
     return total;
   },
 
@@ -81,11 +157,38 @@ const Character = {
     return Math.floor((valeur - 10) / 2);
   },
 
-  // Calcule la valeur totale d'un attribut (base + bonus)
+  // Retourne la valeur par défaut d'un attribut selon son type
+  getValeurDefaut(attrId) {
+    // Attributs secondaires et CHN/EQU = base 10
+    const secondaires = ['STA', 'TAI', 'EGO', 'APP', 'CHN', 'EQU'];
+    if (secondaires.includes(attrId)) {
+      return DATA.valeurDefautSecondaire;
+    }
+    // Attributs principaux et MAG/LOG = base 7
+    return DATA.valeurDefautPrincipal;
+  },
+
+  // Calcule la valeur totale d'un attribut (base + bonus + origines + naissance + caste pour EQU)
   getValeurTotale(character, attrId) {
     const attr = character.attributs[attrId];
-    if (!attr) return DATA.valeurDefaut;
-    return (attr.base || DATA.valeurDefaut) + (attr.bonus || 0);
+    const defaut = this.getValeurDefaut(attrId);
+    if (!attr) return defaut;
+
+    const base = attr.base || defaut;
+    const bonusEthnie = attr.bonus || 0;
+    const bonusOrigines = (character.originesBonus && character.originesBonus[attrId]) || 0;
+
+    // Bonus de naissance pour STA, TAI, EGO, APP, CHN, EQU
+    const bonusNaissance = (character.naissanceBonus && character.naissanceBonus[attrId]) || 0;
+
+    // Bonus de caste pour EQU : +1 tous les 2 rangs révolus
+    let bonusCaste = 0;
+    if (attrId === 'EQU') {
+      const rang = character.caste?.rang || 0;
+      bonusCaste = Math.floor(rang / 2);
+    }
+
+    return base + bonusEthnie + bonusOrigines + bonusNaissance + bonusCaste;
   },
 
   // Calcule la défense normale
@@ -338,22 +441,12 @@ const Character = {
     return this.getValeurTotale(character, 'CHA');
   },
 
-  // Applique les bonus d'ethnie
+  // Réinitialise les bonus d'ethnie (plus de bonus directs, géré par origines)
   appliquerBonusEthnie(character, ethnies) {
-    // Reset tous les bonus
+    // Reset tous les bonus d'ethnie (ils sont maintenant gérés via les origines)
     Object.keys(character.attributs).forEach(id => {
       character.attributs[id].bonus = 0;
     });
-
-    // Applique les bonus de l'ethnie sélectionnée
-    const ethnie = ethnies.find(e => e.nom === character.infos.ethnie);
-    if (ethnie && ethnie.bonus) {
-      Object.entries(ethnie.bonus).forEach(([attr, bonus]) => {
-        if (character.attributs[attr]) {
-          character.attributs[attr].bonus = bonus;
-        }
-      });
-    }
 
     return character;
   },
@@ -366,11 +459,31 @@ const Character = {
     if (!character.caste) character.caste = { nom: '', rang: 0, attribut1: '', attribut2: '' };
     if (!character.ressources) character.ressources = {};
     if (!character.tradition) character.tradition = '';
+    if (!character.originesChoix) character.originesChoix = {};
+    if (!character.originesBonus) character.originesBonus = {};
+    if (!character.naissanceBonus) {
+      character.naissanceBonus = { STA: 0, TAI: 0, EGO: 0, APP: 0, CHN: 0, EQU: 0 };
+    }
 
-    // Vérifie tous les attributs (principaux, secondaires, spéciaux)
-    [...DATA.attributsPrincipaux, ...DATA.attributsSecondaires, ...DATA.attributsSpeciaux].forEach(attr => {
+    // Vérifie tous les attributs avec leurs valeurs par défaut appropriées
+    DATA.attributsPrincipaux.forEach(attr => {
       if (!character.attributs[attr.id]) {
-        character.attributs[attr.id] = { base: DATA.valeurDefaut, bonus: 0 };
+        character.attributs[attr.id] = { base: DATA.valeurDefautPrincipal, bonus: 0 };
+      }
+    });
+
+    DATA.attributsSecondaires.forEach(attr => {
+      if (!character.attributs[attr.id]) {
+        character.attributs[attr.id] = { base: DATA.valeurDefautSecondaire, bonus: 0 };
+      }
+    });
+
+    DATA.attributsSpeciaux.forEach(attr => {
+      if (!character.attributs[attr.id]) {
+        const base = (attr.id === 'CHN' || attr.id === 'EQU')
+          ? DATA.valeurDefautSecondaire
+          : DATA.valeurDefautPrincipal;
+        character.attributs[attr.id] = { base, bonus: 0 };
       }
     });
 

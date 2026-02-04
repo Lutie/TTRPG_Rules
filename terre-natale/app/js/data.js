@@ -107,11 +107,40 @@ const DATA = {
     { id: 'encombrement', nom: 'Encombrement Max', description: 'Poids transportable' }
   ],
 
-  // Valeur par défaut des attributs
-  valeurDefaut: 10,
+  // Valeur par défaut des attributs principaux (Corps, Esprit, MAG, LOG)
+  valeurDefautPrincipal: 7,
 
-  // PA de départ
-  paDepart: 27
+  // Valeur par défaut des attributs secondaires (STA, TAI, EGO, APP, CHN)
+  valeurDefautSecondaire: 10,
+
+  // Limites des attributs secondaires
+  secondaireMin: 8,
+  secondaireMax: 12,
+
+  // Destinées et leurs PA/PP/Max
+  destinees: [
+    { nom: 'Commun des Mortels', pa: 200, pp: 2, maxAttribut: 15 },
+    { nom: 'Destin Honorable', pa: 300, pp: 4, maxAttribut: 16 },
+    { nom: 'Marche de la Gloire', pa: 400, pp: 6, maxAttribut: 17 },
+    { nom: 'Arpenteur Héroïque', pa: 500, pp: 8, maxAttribut: 18 },
+    { nom: 'Dieu parmi les Hommes', pa: 600, pp: 10, maxAttribut: 19 }
+  ],
+
+  // Vécus et leurs XP/PO/Max compétences
+  vecus: [
+    { nom: 'Aucun', xp: 200, po: 10, maxGroupe: 1, maxCompetence: 1 },
+    { nom: 'Notable', xp: 300, po: 15, maxGroupe: 1, maxCompetence: 2 },
+    { nom: 'Admirable', xp: 400, po: 20, maxGroupe: 2, maxCompetence: 2 },
+    { nom: 'Spectaculaire', xp: 500, po: 25, maxGroupe: 2, maxCompetence: 3 },
+    { nom: 'Légendaire', xp: 600, po: 30, maxGroupe: 2, maxCompetence: 4 }
+  ],
+
+  // Coûts PA des attributs secondaires (base 10)
+  // Positif = gain de PA, Négatif = dépense de PA
+  coutSecondaire: { 8: 5, 9: 2, 10: 0, 11: -4, 12: -9 },
+
+  // Coûts PA de la Chance (base 10, même logique que principaux)
+  coutChance: { 8: 9, 9: 5, 10: 0, 11: -6, 12: -13 }
 };
 
 // Freeze pour éviter les modifications accidentelles
@@ -126,3 +155,7 @@ Object.freeze(DATA.sauvegardes);
 Object.freeze(DATA.ressources);
 Object.freeze(DATA.traditions);
 Object.freeze(DATA.caracteristiques);
+Object.freeze(DATA.destinees);
+Object.freeze(DATA.vecus);
+Object.freeze(DATA.coutSecondaire);
+Object.freeze(DATA.coutChance);

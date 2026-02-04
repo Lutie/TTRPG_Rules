@@ -4,12 +4,16 @@ const App = {
   character: null,
   castes: [],
   ethnies: [],
+  origines: [],
+  allegeances: [],
+  milieux: [],
+  personas: [],
 
   // Initialisation de l'application
   async init() {
     try {
-      // Charge les données JSON
-      await this.loadData();
+      // Charge les données depuis les fichiers JS
+      this.loadData();
 
       // Charge ou crée le personnage
       this.character = Storage.load();
@@ -26,7 +30,7 @@ const App = {
       Storage.save(this.character);
 
       // Initialise l'interface
-      UI.init(this.character, this.castes, this.ethnies);
+      UI.init(this.character, this.castes, this.ethnies, this.origines, this.allegeances, this.milieux, this.personas);
 
       console.log('Terre Natale - Application initialisée');
     } catch (error) {
@@ -35,143 +39,25 @@ const App = {
     }
   },
 
-  // Charge les fichiers JSON
-  async loadData() {
-    try {
-      // Essaie de charger les fichiers JSON
-      const [castesResponse, ethniesResponse] = await Promise.all([
-        fetch('data/castes.json'),
-        fetch('data/ethnies.json')
-      ]);
+  // Charge les données depuis les fichiers JS
+  loadData() {
+    this.castes = Castes.get();
+    console.log('Castes chargées:', this.castes.length, 'entrées');
 
-      if (castesResponse.ok) {
-        this.castes = await castesResponse.json();
-      } else {
-        console.warn('Impossible de charger castes.json, utilisation des données intégrées');
-        this.castes = this.getDefaultCastes();
-      }
+    this.ethnies = Ethnies.get();
+    console.log('Ethnies chargées:', this.ethnies.length, 'entrées');
 
-      if (ethniesResponse.ok) {
-        this.ethnies = await ethniesResponse.json();
-      } else {
-        console.warn('Impossible de charger ethnies.json, utilisation des données intégrées');
-        this.ethnies = this.getDefaultEthnies();
-      }
-    } catch (error) {
-      // En mode fichier local (file://), fetch ne fonctionne pas
-      console.warn('Mode fichier local détecté, utilisation des données intégrées');
-      this.castes = this.getDefaultCastes();
-      this.ethnies = this.getDefaultEthnies();
-    }
-  },
+    this.origines = Origines.get();
+    console.log('Origines chargées:', this.origines.length, 'entrées');
 
-  // Données de castes par défaut (fallback)
-  getDefaultCastes() {
-    return [
-      {
-        nom: "Combattant",
-        type: "fondamentale",
-        attribut1: ["FOR", "DEX", "AGI", "CON", "PER"],
-        attribut2: ["FOR", "DEX", "AGI", "CON", "PER"],
-        domaine: "Martiale",
-        style: "Corps",
-        ressources: ["PV", "PE"],
-        sauvegardesMajeures: ["Robustesse", "Réflexes"],
-        sauvegardesMineures: ["Détermination", "Sang-Froid"]
-      },
-      {
-        nom: "Érudit",
-        type: "fondamentale",
-        attribut1: ["INT", "SAG", "CHA", "VOL", "PER"],
-        attribut2: ["INT", "SAG", "CHA", "VOL", "PER"],
-        domaine: "Connaissance",
-        style: "Esprit",
-        ressources: ["PS", "PM"],
-        sauvegardesMajeures: ["Détermination", "Intuition"],
-        sauvegardesMineures: ["Sang-Froid", "Prestige"]
-      },
-      {
-        nom: "Roublard",
-        type: "fondamentale",
-        attribut1: ["DEX", "AGI", "PER", "RUS", "INT"],
-        attribut2: ["DEX", "AGI", "PER", "RUS", "INT"],
-        domaine: "Furtivité",
-        style: "Corps",
-        ressources: ["PE", "PC"],
-        sauvegardesMajeures: ["Réflexes", "Sang-Froid"],
-        sauvegardesMineures: ["Intuition", "Fortune"]
-      },
-      {
-        nom: "Mystique",
-        type: "fondamentale",
-        attribut1: ["SAG", "VOL", "CHA", "INT", "PER"],
-        attribut2: ["SAG", "VOL", "CHA", "INT", "PER"],
-        domaine: "Magie",
-        style: "Esprit",
-        ressources: ["PM", "PS"],
-        sauvegardesMajeures: ["Détermination", "Opposition"],
-        sauvegardesMineures: ["Intuition", "Robustesse"]
-      },
-      {
-        nom: "Artisan",
-        type: "fondamentale",
-        attribut1: ["INT", "DEX", "SAG", "CON", "PER"],
-        attribut2: ["INT", "DEX", "SAG", "CON", "PER"],
-        domaine: "Artisanat",
-        style: "Corps",
-        ressources: ["PV", "PC"],
-        sauvegardesMajeures: ["Robustesse", "Intuition"],
-        sauvegardesMineures: ["Sang-Froid", "Détermination"]
-      }
-    ];
-  },
+    this.allegeances = Allegeances.get();
+    console.log('Allégeances chargées:', this.allegeances.length, 'entrées');
 
-  // Données d'ethnies par défaut (fallback)
-  getDefaultEthnies() {
-    return [
-      {
-        nom: "Humain des Plaines",
-        origine: "Humain",
-        bonus: { FOR: 1, CON: 1 },
-        description: "Les humains des plaines sont robustes et endurants."
-      },
-      {
-        nom: "Humain des Montagnes",
-        origine: "Humain",
-        bonus: { CON: 1, VOL: 1 },
-        description: "Les montagnards sont résistants et déterminés."
-      },
-      {
-        nom: "Humain des Côtes",
-        origine: "Humain",
-        bonus: { DEX: 1, PER: 1 },
-        description: "Les habitants des côtes sont agiles et observateurs."
-      },
-      {
-        nom: "Elfe des Bois",
-        origine: "Elfe",
-        bonus: { AGI: 1, PER: 1 },
-        description: "Les elfes des bois sont gracieux et vifs."
-      },
-      {
-        nom: "Elfe des Cités",
-        origine: "Elfe",
-        bonus: { INT: 1, CHA: 1 },
-        description: "Les elfes des cités sont cultivés et charismatiques."
-      },
-      {
-        nom: "Nain des Forges",
-        origine: "Nain",
-        bonus: { CON: 2 },
-        description: "Les nains des forges sont incroyablement résistants."
-      },
-      {
-        nom: "Nain des Profondeurs",
-        origine: "Nain",
-        bonus: { FOR: 1, SAG: 1 },
-        description: "Les nains des profondeurs sont forts et sages."
-      }
-    ];
+    this.milieux = Milieux.get();
+    console.log('Milieux chargés:', this.milieux.length, 'entrées');
+
+    this.personas = Personas.get();
+    console.log('Personas chargés:', this.personas.length, 'entrées');
   },
 
   // Affiche une erreur
