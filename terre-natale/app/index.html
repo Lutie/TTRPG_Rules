@@ -34,7 +34,7 @@
       <button class="tab-btn" data-tab="inventaire">Inventaire</button>
       <button class="tab-btn" data-tab="memoire">Mémoire</button>
       <button class="tab-btn" data-tab="magie">Magie</button>
-      <button class="tab-btn" data-tab="confrontation">Confrontation</button>
+      <button class="tab-btn" data-tab="status">Status</button>
     </nav>
 
     <!-- Contenu des onglets -->
@@ -217,6 +217,16 @@
           <div id="caste-section"></div>
         </section>
 
+        <!-- XP Summary -->
+        <section class="section xp-section">
+          <div id="xp-summary"></div>
+        </section>
+
+        <!-- PP Summary -->
+        <section class="section xp-section">
+          <div id="pp-summary"></div>
+        </section>
+
         <!-- Ressources -->
         <section class="section">
           <h2 class="section-title">Ressources</h2>
@@ -236,20 +246,14 @@
         </section>
       </div>
 
-      <!-- Onglet Compétences (placeholder) -->
+      <!-- Onglet Compétences -->
       <div id="tab-competences" class="tab-content">
-        <div class="placeholder">
-          <h2>Compétences</h2>
-          <p>Cette section sera disponible dans une future mise à jour.</p>
-        </div>
+        <!-- Contenu généré dynamiquement par UI.renderCompetences() -->
       </div>
 
-      <!-- Onglet Traits (placeholder) -->
+      <!-- Onglet Traits -->
       <div id="tab-traits" class="tab-content">
-        <div class="placeholder">
-          <h2>Traits</h2>
-          <p>Cette section sera disponible dans une future mise à jour.</p>
-        </div>
+        <!-- Contenu généré dynamiquement par UI.renderTraits() -->
       </div>
 
       <!-- Onglet Inventaire (placeholder) -->
@@ -260,12 +264,9 @@
         </div>
       </div>
 
-      <!-- Onglet Mémoire (placeholder) -->
+      <!-- Onglet Mémoire -->
       <div id="tab-memoire" class="tab-content">
-        <div class="placeholder">
-          <h2>Mémoire</h2>
-          <p>Cette section sera disponible dans une future mise à jour.</p>
-        </div>
+        <!-- Contenu généré dynamiquement par UI.renderMemoire() -->
       </div>
 
       <!-- Onglet Magie -->
@@ -282,10 +283,10 @@
         </div>
       </div>
 
-      <!-- Onglet Confrontation (placeholder) -->
-      <div id="tab-confrontation" class="tab-content">
+      <!-- Onglet Status -->
+      <div id="tab-status" class="tab-content">
         <div class="placeholder">
-          <h2>Confrontation</h2>
+          <h2>Status</h2>
           <p>Cette section sera disponible dans une future mise à jour.</p>
         </div>
       </div>
@@ -299,6 +300,9 @@
   <script src="js/data/allegeances.js"></script>
   <script src="js/data/milieux.js"></script>
   <script src="js/data/personas.js"></script>
+  <script src="js/data/competences.js"></script>
+  <script src="js/data/traits.js"></script>
+  <script src="js/data/leveling.js"></script>
   <script src="js/data.js"></script>
   <script src="js/storage.js"></script>
   <script src="js/character.js"></script>

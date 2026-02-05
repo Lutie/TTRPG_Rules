@@ -39,7 +39,15 @@ const Character = {
         APP: 0,
         CHN: 0,
         EQU: 0
-      }
+      },
+      xpAcquis: 0,
+      competences: {
+        groupes: {},
+        competences: {},
+        attributsChoisis: {}
+      },
+      traits: [],  // Array de { id: string, rang: number }
+      memoire: []  // Array de { typeId: number, nom: string }
     };
 
     // Initialise les attributs principaux (Corps + Esprit) à 7
@@ -116,6 +124,111 @@ const Character = {
     return destinee ? destinee.pa : DATA.destinees[0].pa; // Par défaut: Commun des Mortels
   },
 
+  // Calcule les PA bonus de la caste (chaque rang ajoute 6 + rang)
+  getPACaste(character) {
+    const rang = character.caste?.rang || 0;
+    let total = 0;
+    for (let i = 1; i <= rang; i++) {
+      total += 6 + i;
+    }
+    return total;
+  },
+
+  // Calcule les PA totaux (départ + caste)
+  getPATotal(character) {
+    return this.getPADepart(character) + this.getPACaste(character);
+  },
+
+  // Calcule l'aptitude du personnage (pour les prérequis de rang de caste)
+  calculerAptitude(character) {
+    const competencesData = typeof Competences !== 'undefined' ? Competences.get() : [];
+    const charCompetences = character.competences || { groupes: {}, competences: {} };
+
+    // Attributs de caste du personnage
+    const attrCaste1 = character.caste?.attribut1;
+    const attrCaste2 = character.caste?.attribut2;
+    if (!attrCaste1 && !attrCaste2) return 0;
+
+    const attrsCaste = [attrCaste1, attrCaste2].filter(Boolean);
+    let aptitude = 0;
+
+    competencesData.forEach(groupe => {
+      // Vérifier si le groupe a au moins une compétence liée à un attribut de caste
+      let groupeEstLie = false;
+
+      groupe.competences.forEach(comp => {
+        // Vérifier si la compétence est liée à un attribut de caste
+        const compEstLiee = comp.attributs.some(attr => attrsCaste.includes(attr));
+
+        if (compEstLiee) {
+          groupeEstLie = true;
+          // Ajouter le rang de la compétence
+          const rangComp = charCompetences.competences?.[comp.id] || 0;
+          aptitude += rangComp;
+        }
+      });
+
+      // Si le groupe est lié, ajouter le rang du groupe
+      if (groupeEstLie) {
+        const rangGroupe = charCompetences.groupes?.[groupe.id] || 0;
+        aptitude += rangGroupe;
+      }
+    });
+
+    return aptitude;
+  },
+
+  // Calcule le rang de caste permis par l'XP
+  calculerRangCasteParXP(character) {
+    const xpTotal = this.getXPTotal(character);
+    const progression = typeof CasteProgression !== 'undefined' ? CasteProgression.get() : [];
+
+    let rang = 0;
+    for (const level of progression) {
+      if (xpTotal >= level.reqXp) {
+        rang = level.rang;
+      } else {
+        break;
+      }
+    }
+    return rang;
+  },
+
+  // Calcule le rang de caste permis par l'aptitude
+  calculerRangCasteParAptitude(character) {
+    const aptitude = this.calculerAptitude(character);
+    const progression = typeof CasteProgression !== 'undefined' ? CasteProgression.get() : [];
+
+    let rang = 0;
+    for (const level of progression) {
+      if (aptitude >= level.reqAptitude) {
+        rang = level.rang;
+      } else {
+        break;
+      }
+    }
+    return rang;
+  },
+
+  // Calcule le rang de caste réel (minimum entre XP et aptitude)
+  calculerRangCaste(character) {
+    const rangXP = this.calculerRangCasteParXP(character);
+    const rangAptitude = this.calculerRangCasteParAptitude(character);
+    return Math.min(rangXP, rangAptitude);
+  },
+
+  // Récupère les infos de progression pour un rang donné
+  getProgressionInfo(rang) {
+    const progression = typeof CasteProgression !== 'undefined' ? CasteProgression.get() : [];
+    return progression.find(p => p.rang === rang) || null;
+  },
+
+  // Récupère le prochain palier de rang
+  getNextProgressionInfo(rang) {
+    const progression = typeof CasteProgression !== 'undefined' ? CasteProgression.get() : [];
+    return progression.find(p => p.rang === rang + 1) || null;
+  },
+
   // Récupère le max d'attribut selon la destinée
   getMaxAttribut(character) {
     const destineeNom = character.infos?.destinee;
@@ -181,11 +294,12 @@ const Character = {
     // Bonus de naissance pour STA, TAI, EGO, APP, CHN, EQU
     const bonusNaissance = (character.naissanceBonus && character.naissanceBonus[attrId]) || 0;
 
-    // Bonus de caste pour EQU : +1 tous les 2 rangs révolus
+    // Bonus de caste pour EQU : bonusEquilibre du rang actuel dans CasteProgression
     let bonusCaste = 0;
     if (attrId === 'EQU') {
       const rang = character.caste?.rang || 0;
-      bonusCaste = Math.floor(rang / 2);
+      const progression = this.getProgressionInfo(rang);
+      bonusCaste = progression?.bonusEquilibre || 0;
     }
 
     return base + bonusEthnie + bonusOrigines + bonusNaissance + bonusCaste;
@@ -264,52 +378,41 @@ const Character = {
   },
 
   // Calcule une sauvegarde
+  // Le bonus de sauvegarde s'ajoute à l'attribut avant de calculer le modificateur
   calculerSauvegarde(character, sauvegarde, caste, estMajeure, estMineure, estAutre) {
-    let valeur;
+    let valeurAttribut;
 
     // Opposition utilise le max entre MAG et LOG
     if (Array.isArray(sauvegarde.attribut)) {
       const valeurs = sauvegarde.attribut.map(attr => this.getValeurTotale(character, attr));
-      valeur = Math.max(...valeurs);
+      valeurAttribut = Math.max(...valeurs);
     } else {
-      valeur = this.getValeurTotale(character, sauvegarde.attribut);
+      valeurAttribut = this.getValeurTotale(character, sauvegarde.attribut);
     }
 
-    let bonus = this.calculerModificateur(valeur);
-
-    // Bonus selon le type de sauvegarde et le rang (voir tableau Notes.md)
+    // Récupérer le bonus de sauvegarde selon le rang de caste
     const rang = character.caste.rang || 0;
-    const bonusMajeur = this.getBonusSauvegardeMajeure(rang);
-    const bonusMineur = this.getBonusSauvegardeMineure(rang);
-    const bonusAutre = this.getBonusSauvegardeAutre(rang);
+    const bonusSauvegarde = this.getBonusSauvegardeParRang(rang, estMajeure, estMineure, estAutre);
+
+    // Le bonus s'ajoute à l'attribut avant de calculer le modificateur
+    const valeurModifiee = valeurAttribut + bonusSauvegarde;
+
+    return this.calculerModificateur(valeurModifiee);
+  },
+
+  // Récupère le bonus de sauvegarde selon le rang et le type (majeure/mineure/autre)
+  getBonusSauvegardeParRang(rang, estMajeure, estMineure, estAutre) {
+    const progression = this.getProgressionInfo(rang);
+    if (!progression || !progression.sauvegardes) return 0;
 
     if (estMajeure) {
-      bonus += bonusMajeur;
+      return progression.sauvegardes.max || 0;
     } else if (estMineure) {
-      bonus += bonusMineur;
+      return progression.sauvegardes.mid || 0;
     } else if (estAutre) {
-      bonus += bonusAutre;
+      return progression.sauvegardes.min || 0;
     }
-
-    return bonus;
-  },
-
-  // Bonus de sauvegarde majeure selon le rang
-  getBonusSauvegardeMajeure(rang) {
-    const table = [0, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7];
-    return table[rang] || 0;
-  },
-
-  // Bonus de sauvegarde mineure selon le rang
-  getBonusSauvegardeMineure(rang) {
-    const table = [0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4];
-    return table[rang] || 0;
-  },
-
-  // Bonus de sauvegarde autre selon le rang
-  getBonusSauvegardeAutre(rang) {
-    const table = [0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2];
-    return table[rang] || 0;
+    return 0;
   },
 
   // Calcule l'allure (10 + mTAI + mAGI - Encombrement)
@@ -451,6 +554,163 @@ const Character = {
     return character;
   },
 
+  // === GESTION XP ET COMPETENCES ===
+
+  // Récupère les XP de départ selon le vécu
+  getXPDepart(character) {
+    const vecuNom = character.infos?.vecu;
+    const vecu = DATA.vecus.find(v => v.nom === vecuNom);
+    return vecu ? vecu.xp : DATA.vecus[0].xp; // Par défaut: Aucun
+  },
+
+  // Récupère le max rang de groupe selon le vécu
+  getMaxRangGroupe(character) {
+    const vecuNom = character.infos?.vecu;
+    const vecu = DATA.vecus.find(v => v.nom === vecuNom);
+    return vecu ? vecu.maxGroupe : DATA.vecus[0].maxGroupe;
+  },
+
+  // Récupère le max rang de compétence selon le vécu
+  getMaxRangCompetence(character) {
+    const vecuNom = character.infos?.vecu;
+    const vecu = DATA.vecus.find(v => v.nom === vecuNom);
+    return vecu ? vecu.maxCompetence : DATA.vecus[0].maxCompetence;
+  },
+
+  // Calcule le coût cumulé pour atteindre un rang de groupe
+  // Coût: 20 PX par rang (cumul: rang 1 = 20, rang 2 = 60, rang 3 = 120)
+  calculerCoutGroupeTotal(rang) {
+    let total = 0;
+    for (let i = 1; i <= rang; i++) {
+      total += 20 * i;
+    }
+    return total;
+  },
+
+  // Calcule le coût cumulé pour atteindre un rang de compétence
+  // Coût: 10 PX par rang (cumul: rang 1 = 10, rang 2 = 30, rang 3 = 60, etc.)
+  calculerCoutCompetenceTotal(rang) {
+    let total = 0;
+    for (let i = 1; i <= rang; i++) {
+      total += 10 * i;
+    }
+    return total;
+  },
+
+  // Calcule les XP utilisés pour les compétences
+  calculerXPUtilises(character) {
+    let total = 0;
+    const competencesData = character.competences || { groupes: {}, competences: {} };
+
+    // Coût des rangs de groupes
+    Object.values(competencesData.groupes || {}).forEach(rang => {
+      total += this.calculerCoutGroupeTotal(rang);
+    });
+
+    // Coût des rangs de compétences
+    Object.values(competencesData.competences || {}).forEach(rang => {
+      total += this.calculerCoutCompetenceTotal(rang);
+    });
+
+    return total;
+  },
+
+  // Calcule les XP totaux (départ + acquis)
+  getXPTotal(character) {
+    return this.getXPDepart(character) + (character.xpAcquis || 0);
+  },
+
+  // Calcule les XP restants
+  calculerXPRestants(character) {
+    return this.getXPTotal(character) - this.calculerXPUtilises(character);
+  },
+
+  // Calcule le bonus d'une compétence (mATT + rang groupe + rang compétence)
+  calculerBonusCompetence(character, groupeId, competenceId, attributId) {
+    const competencesData = character.competences || { groupes: {}, competences: {} };
+    const rangGroupe = competencesData.groupes?.[groupeId] || 0;
+    const rangCompetence = competencesData.competences?.[competenceId] || 0;
+
+    // Modificateur de l'attribut
+    const valeurAttr = this.getValeurTotale(character, attributId);
+    const modAttr = this.calculerModificateur(valeurAttr);
+
+    return modAttr + rangGroupe + rangCompetence;
+  },
+
+  // Calcule la prouesse possible d'un groupe (mRUS + rang groupe)
+  calculerProuesse(character, groupeId) {
+    const competencesData = character.competences || { groupes: {} };
+    const rangGroupe = competencesData.groupes?.[groupeId] || 0;
+    const prouessesInnees = this.calculerProuessesInnees(character);
+    return prouessesInnees + rangGroupe;
+  },
+
+  // === GESTION PP (POINTS DE PERSONNAGE) ===
+
+  // Récupère les PP de départ selon la destinée
+  getPPDepart(character) {
+    const destineeNom = character.infos?.destinee;
+    const destinee = DATA.destinees.find(d => d.nom === destineeNom);
+    return destinee ? destinee.pp : DATA.destinees[0].pp;
+  },
+
+  // Calcule les PP acquis via désavantages (somme des rangs de désavantages)
+  getPPDesavantages(character) {
+    const traitsData = typeof Traits !== 'undefined' ? Traits.get() : [];
+    const characterTraits = character.traits || [];
+
+    let total = 0;
+    characterTraits.forEach(ct => {
+      const traitInfo = traitsData.find(t => t.id === ct.id);
+      if (traitInfo && traitInfo.type === 'desavantage') {
+        total += ct.rang * traitInfo.coutPP;
+      }
+    });
+    return total;
+  },
+
+  // Calcule les PP acquis via le rang de caste (paliers 5, 7, 9, 11, 13, 15, 17, 19)
+  getPPCaste(character) {
+    const rang = character.caste?.rang || 0;
+    const paliers = [5, 7, 9, 11, 13, 15, 17, 19];
+    let total = 0;
+    paliers.forEach(p => {
+      if (rang >= p) total += 1;
+    });
+    return total;
+  },
+
+  // Calcule les PP acquis total (désavantages + caste)
+  getPPAcquis(character) {
+    return this.getPPDesavantages(character) + this.getPPCaste(character);
+  },
+
+  // Calcule les PP totaux (départ + acquis)
+  getPPTotal(character) {
+    return this.getPPDepart(character) + this.getPPAcquis(character);
+  },
+
+  // Calcule les PP utilisés (coût des avantages)
+  calculerPPUtilises(character) {
+    const traitsData = typeof Traits !== 'undefined' ? Traits.get() : [];
+    const characterTraits = character.traits || [];
+
+    let total = 0;
+    characterTraits.forEach(ct => {
+      const traitInfo = traitsData.find(t => t.id === ct.id);
+      if (traitInfo && traitInfo.type === 'avantage') {
+        total += ct.rang * traitInfo.coutPP;
+      }
+    });
+    return total;
+  },
+
+  // Calcule les PP restants
+  calculerPPRestants(character) {
+    return this.getPPTotal(character) - this.calculerPPUtilises(character);
+  },
+
   // Valide et corrige un personnage importé
   valider(character) {
     // S'assure que toutes les propriétés existent
@@ -464,6 +724,15 @@ const Character = {
     if (!character.naissanceBonus) {
       character.naissanceBonus = { STA: 0, TAI: 0, EGO: 0, APP: 0, CHN: 0, EQU: 0 };
     }
+    if (character.xpAcquis === undefined) character.xpAcquis = 0;
+    if (!character.competences) {
+      character.competences = { groupes: {}, competences: {}, attributsChoisis: {} };
+    }
+    if (!character.competences.groupes) character.competences.groupes = {};
+    if (!character.competences.competences) character.competences.competences = {};
+    if (!character.competences.attributsChoisis) character.competences.attributsChoisis = {};
+    if (!character.traits) character.traits = [];
+    if (!character.memoire) character.memoire = [];
 
     // Vérifie tous les attributs avec leurs valeurs par défaut appropriées
     DATA.attributsPrincipaux.forEach(attr => {

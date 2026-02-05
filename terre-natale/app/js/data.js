@@ -140,7 +140,15 @@ const DATA = {
   coutSecondaire: { 8: 5, 9: 2, 10: 0, 11: -4, 12: -9 },
 
   // Coûts PA de la Chance (base 10, même logique que principaux)
-  coutChance: { 8: 9, 9: 5, 10: 0, 11: -6, 12: -13 }
+  coutChance: { 8: 9, 9: 5, 10: 0, 11: -6, 12: -13 },
+
+  // Types de mémoire (id fixe pour rétrocompatibilité)
+  typesMémoire: [
+    { id: 0, nom: 'Manoeuvre' },
+    { id: 1, nom: 'Sort' },
+    { id: 2, nom: 'Patron' },
+    { id: 3, nom: 'Autre' }
+  ]
 };
 
 // Freeze pour éviter les modifications accidentelles
@@ -159,3 +167,4 @@ Object.freeze(DATA.destinees);
 Object.freeze(DATA.vecus);
 Object.freeze(DATA.coutSecondaire);
 Object.freeze(DATA.coutChance);
+Object.freeze(DATA.typesMémoire);

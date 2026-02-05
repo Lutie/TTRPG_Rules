@@ -790,10 +790,15 @@ const UI = {
     this.renderInfos();
     this.renderAttributs();
     this.renderCaste();
+    this.renderXPSummary('xp-summary');
+    this.renderPPSummary('pp-summary');
     this.renderTradition();
     this.renderRessources();
     this.renderCaracteristiques();
     this.renderSauvegardes();
+    this.renderCompetences();
+    this.renderTraits();
+    this.renderMemoire();
   },
 
   // Rendu des informations du personnage
@@ -929,9 +934,17 @@ const UI = {
           this.updatePersonaSelects();
         }
 
-        // Si la destinée change, recalculer les PA
+        // Si la destinée change, recalculer les PA et PP
         if (field === 'destinee') {
           this.renderAttributs();
+          this.renderPPSummary('pp-summary');
+          this.renderPPSummary('pp-summary-traits');
+        }
+
+        // Si le vécu change, recalculer les XP
+        if (field === 'vecu') {
+          this.renderXPSummary('xp-summary');
+          this.renderXPSummary('xp-summary-competences');
         }
 
         Storage.save(this.character);
@@ -1094,12 +1107,15 @@ const UI = {
   // Rendu des attributs
   renderAttributs() {
     const paUtilises = Character.calculerPAUtilises(this.character);
-    const paTotal = Character.getPADepart(this.character);
+    const paDepart = Character.getPADepart(this.character);
+    const paCaste = Character.getPACaste(this.character);
+    const paTotal = Character.getPATotal(this.character);
     const paRestants = paTotal - paUtilises;
 
+    const rangCaste = this.character.caste?.rang || 0;
     document.getElementById('pa-display').innerHTML = `
       <span class="${paRestants < 0 ? 'over-budget' : ''}">
-        PA: ${paUtilises} / ${paTotal} (reste: ${paRestants})
+        PA: ${paUtilises} / ${paTotal} (${paDepart}+${paCaste}) reste: ${paRestants}
       </span>
       <button type="button" class="pa-reset-btn" data-reset="7" title="Remettre les attributs principaux à 7">→ 7</button>
       <button type="button" class="pa-reset-btn" data-reset="10" title="Mettre les attributs principaux à 10">→ 10</button>
@@ -1195,46 +1211,108 @@ const UI = {
     const container = document.getElementById('caste-section');
     const casteActuelle = this.castes.find(c => c.nom === this.character.caste.nom);
 
+    // Calculer le rang basé sur l'XP et l'aptitude
+    const rangXP = Character.calculerRangCasteParXP(this.character);
+    const rangAptitude = Character.calculerRangCasteParAptitude(this.character);
+    const rangCalcule = Character.calculerRangCaste(this.character);
+    this.character.caste.rang = rangCalcule;
+
+    const aptitudeActuelle = Character.calculerAptitude(this.character);
+    const xpTotal = Character.getXPTotal(this.character);
+    const estLimiteParAptitude = rangAptitude < rangXP;
+    const estLimiteParXP = rangXP < rangAptitude;
+
+    // Récupérer les infos de progression pour aptitude et XP séparément
+    const progressionAptitude = Character.getProgressionInfo(rangAptitude);
+    const progressionXP = Character.getProgressionInfo(rangXP);
+    const prochainAptitude = Character.getNextProgressionInfo(rangAptitude);
+    const prochainXP = Character.getNextProgressionInfo(rangXP);
+
+    // Calculer la progression aptitude
+    let aptitudePct = 100;
+    if (prochainAptitude) {
+      const aptPourCeRang = progressionAptitude ? progressionAptitude.reqAptitude : 0;
+      const aptPourProchain = prochainAptitude.reqAptitude;
+      const aptDansRang = aptitudeActuelle - aptPourCeRang;
+      const aptNecessaire = aptPourProchain - aptPourCeRang;
+      aptitudePct = aptNecessaire > 0 ? Math.min(100, Math.floor((aptDansRang / aptNecessaire) * 100)) : 100;
+    }
+
+    // Calculer la progression XP
+    let xpPct = 100;
+    if (prochainXP) {
+      const xpPourCeRang = progressionXP ? progressionXP.reqXp : 0;
+      const xpPourProchain = prochainXP.reqXp;
+      const xpDansRang = xpTotal - xpPourCeRang;
+      const xpNecessaire = xpPourProchain - xpPourCeRang;
+      xpPct = xpNecessaire > 0 ? Math.min(100, Math.floor((xpDansRang / xpNecessaire) * 100)) : 100;
+    }
+
+    const titreRang = Character.getProgressionInfo(rangCalcule)?.titre || 'Novice';
+
     container.innerHTML = `
       <div class="caste-grid">
-        <div class="caste-field">
-          <label>Caste</label>
-          <select id="select-caste">
-            <option value="">-- Sélectionner --</option>
-            ${this.castes.map(c => `
-              <option value="${c.nom}" ${this.character.caste.nom === c.nom ? 'selected' : ''}>
-                ${c.nom} (${c.type})
-              </option>
-            `).join('')}
-          </select>
+        <div class="caste-row-top">
+          <div class="caste-field caste-field-caste">
+            <label>Caste</label>
+            <select id="select-caste">
+              <option value="">-- Sélectionner --</option>
+              ${this.castes.map(c => `
+                <option value="${c.nom}" ${this.character.caste.nom === c.nom ? 'selected' : ''}>
+                  ${c.nom} (${c.type})
+                </option>
+              `).join('')}
+            </select>
+          </div>
+          <div class="caste-field caste-field-rang">
+            <label>Rang ${estLimiteParAptitude ? '<span class="rang-limite">(limité par aptitude)</span>' : estLimiteParXP ? '<span class="rang-limite">(limité par expérience)</span>' : ''}</label>
+            <div class="caste-rang-display">
+              <span class="caste-rang-value">${rangCalcule}</span>
+              <span class="caste-rang-titre">${titreRang}</span>
+            </div>
+          </div>
+          ${casteActuelle ? `
+            <div class="caste-field caste-field-attr">
+              <label>Attribut 1</label>
+              <select id="select-attr1">
+                ${casteActuelle.attribut1.map(a => `
+                  <option value="${a}" ${this.character.caste.attribut1 === a ? 'selected' : ''}>${a}</option>
+                `).join('')}
+              </select>
+            </div>
+            <div class="caste-field caste-field-attr">
+              <label>Attribut 2</label>
+              <select id="select-attr2">
+                ${casteActuelle.attribut2.map(a => `
+                  <option value="${a}" ${this.character.caste.attribut2 === a ? 'selected' : ''}>${a}</option>
+                `).join('')}
+              </select>
+            </div>
+          ` : ''}
         </div>
-        <div class="caste-field">
-          <label>Rang</label>
-          <select id="select-rang">
-            ${DATA.rangs.map(r => `
-              <option value="${r.niveau}" ${this.character.caste.rang === r.niveau ? 'selected' : ''}>
-                ${r.niveau} - ${r.nom}
-              </option>
-            `).join('')}
-          </select>
+        <div class="caste-row-progression">
+          <div class="caste-progression-block ${estLimiteParAptitude ? 'progression-limite' : ''}">
+            <div class="caste-progression-header">
+              <span class="caste-progression-label">Aptitude</span>
+              <span class="caste-progression-rang">Rang ${rangAptitude}</span>
+              <span class="caste-progression-value">${aptitudeActuelle}${prochainAptitude ? ` / ${prochainAptitude.reqAptitude}` : ''}</span>
+            </div>
+            <div class="caste-progression-bar">
+              <div class="caste-progression-fill ${estLimiteParAptitude ? 'fill-limite' : ''}" style="width: ${aptitudePct}%"></div>
+            </div>
+          </div>
+          <div class="caste-progression-block ${estLimiteParXP ? 'progression-limite' : ''}">
+            <div class="caste-progression-header">
+              <span class="caste-progression-label">Expérience</span>
+              <span class="caste-progression-rang">Rang ${rangXP}</span>
+              <span class="caste-progression-value">${xpTotal}${prochainXP ? ` / ${prochainXP.reqXp}` : ''}</span>
+            </div>
+            <div class="caste-progression-bar">
+              <div class="caste-progression-fill ${estLimiteParXP ? 'fill-limite' : ''}" style="width: ${xpPct}%"></div>
+            </div>
+          </div>
         </div>
         ${casteActuelle ? `
-          <div class="caste-field">
-            <label>Attribut Principal 1</label>
-            <select id="select-attr1">
-              ${casteActuelle.attribut1.map(a => `
-                <option value="${a}" ${this.character.caste.attribut1 === a ? 'selected' : ''}>${a}</option>
-              `).join('')}
-            </select>
-          </div>
-          <div class="caste-field">
-            <label>Attribut Principal 2</label>
-            <select id="select-attr2">
-              ${casteActuelle.attribut2.map(a => `
-                <option value="${a}" ${this.character.caste.attribut2 === a ? 'selected' : ''}>${a}</option>
-              `).join('')}
-            </select>
-          </div>
           <div class="caste-info">
             <p><strong>Domaine:</strong> ${casteActuelle.domaine}</p>
             <p><strong>Style:</strong> ${casteActuelle.style}</p>
@@ -1260,23 +1338,18 @@ const UI = {
       this.renderSauvegardes();
     });
 
-    document.getElementById('select-rang')?.addEventListener('change', (e) => {
-      this.character.caste.rang = parseInt(e.target.value);
-      Storage.save(this.character);
-      this.renderRessources();
-      this.renderSauvegardes();
-    });
-
     document.getElementById('select-attr1')?.addEventListener('change', (e) => {
       this.character.caste.attribut1 = e.target.value;
       Storage.save(this.character);
       this.renderAttributs();
+      this.renderCaste();
     });
 
     document.getElementById('select-attr2')?.addEventListener('change', (e) => {
       this.character.caste.attribut2 = e.target.value;
       Storage.save(this.character);
       this.renderAttributs();
+      this.renderCaste();
     });
   },
 
@@ -1304,7 +1377,7 @@ const UI = {
           const baseForMod = sagTotal + modEqu + (isCasteRessource ? rangCaste : 0);
           const recup = 5 + Character.calculerModificateur(baseForMod);
           return `
-            <div class="ressource-box">
+            <div class="ressource-box ${isCasteRessource ? 'ressource-caste' : ''}">
               <div class="ressource-name">${res.icone || ''} ${res.nom}</div>
               <div class="ressource-value">${data.max}</div>
               <div class="ressource-recup">Récupération ${recup >= 0 ? '+' : ''}${recup}</div>
@@ -1440,10 +1513,8 @@ const UI = {
           let typeLabel = '';
           if (estMajeure) {
             typeClass = 'majeure';
-            typeLabel = ' (M)';
           } else if (estMineure) {
             typeClass = 'mineure';
-            typeLabel = ' (m)';
           }
 
           // Affichage de l'attribut
@@ -1484,6 +1555,639 @@ const UI = {
       this.character.tradition = e.target.value;
       Storage.save(this.character);
       this.renderRessources();
+    });
+  },
+
+  // === COMPETENCES ===
+
+  // Rendu du bloc XP (page principale et compétences)
+  renderXPSummary(containerId = 'xp-summary') {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const xpDepart = Character.getXPDepart(this.character);
+    const xpAcquis = this.character.xpAcquis || 0;
+    const xpTotal = Character.getXPTotal(this.character);
+    const xpUtilises = Character.calculerXPUtilises(this.character);
+    const xpRestants = Character.calculerXPRestants(this.character);
+
+    const vecuNom = this.character.infos?.vecu || 'Aucun';
+
+    container.innerHTML = `
+      <div class="xp-summary-box">
+        <div class="xp-summary-title">Points d'Expérience</div>
+        <div class="xp-summary-content">
+          <div class="xp-summary-row">
+            <span class="xp-label">Départ (${vecuNom})</span>
+            <span class="xp-value">${xpDepart}</span>
+          </div>
+          <div class="xp-summary-row">
+            <span class="xp-label">Acquis</span>
+            <input type="number" class="xp-input" id="${containerId}-acquis" value="${xpAcquis}" min="0" />
+          </div>
+          <div class="xp-summary-row xp-total-row">
+            <span class="xp-label">Total</span>
+            <span class="xp-value">${xpTotal}</span>
+          </div>
+          <div class="xp-summary-row xp-rest-row ${xpRestants < 0 ? 'over-budget' : ''}">
+            <span class="xp-label">Restant</span>
+            <span class="xp-value xp-restant">${xpRestants} / ${xpTotal}</span>
+          </div>
+        </div>
+      </div>
+    `;
+
+    // Event listener pour XP acquis
+    const inputAcquis = document.getElementById(`${containerId}-acquis`);
+    if (inputAcquis) {
+      inputAcquis.addEventListener('change', (e) => {
+        this.character.xpAcquis = parseInt(e.target.value) || 0;
+        Storage.save(this.character);
+        this.renderXPSummary('xp-summary');
+        this.renderXPSummary('xp-summary-competences');
+        this.renderCompetences();
+        this.renderCaste();
+        this.renderAttributs();
+        this.renderRessources();
+        this.renderSauvegardes();
+        this.renderPPSummary('pp-summary');
+        this.renderPPSummary('pp-summary-traits');
+      });
+    }
+  },
+
+  // Rendu du bloc PP (page principale et traits)
+  renderPPSummary(containerId = 'pp-summary') {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const ppDepart = Character.getPPDepart(this.character);
+    const ppDesavantages = Character.getPPDesavantages(this.character);
+    const ppCaste = Character.getPPCaste(this.character);
+    const ppAcquis = Character.getPPAcquis(this.character);
+    const ppTotal = Character.getPPTotal(this.character);
+    const ppUtilises = Character.calculerPPUtilises(this.character);
+    const ppRestants = Character.calculerPPRestants(this.character);
+
+    const destineeNom = this.character.infos?.destinee || 'Commun des Mortels';
+    const rangCaste = this.character.caste?.rang || 0;
+
+    container.innerHTML = `
+      <div class="xp-summary-box pp-summary-box">
+        <div class="xp-summary-title">Points de Personnage</div>
+        <div class="xp-summary-content">
+          <div class="xp-summary-row">
+            <span class="xp-label">Départ (${destineeNom})</span>
+            <span class="xp-value">${ppDepart}</span>
+          </div>
+          <div class="xp-summary-row">
+            <span class="xp-label">Désavantages</span>
+            <span class="xp-value">${ppDesavantages}</span>
+          </div>
+          <div class="xp-summary-row">
+            <span class="xp-label">Caste (rang ${rangCaste})</span>
+            <span class="xp-value">${ppCaste}</span>
+          </div>
+          <div class="xp-summary-row xp-total-row">
+            <span class="xp-label">Total</span>
+            <span class="xp-value">${ppTotal}</span>
+          </div>
+          <div class="xp-summary-row xp-rest-row ${ppRestants < 0 ? 'over-budget' : ''}">
+            <span class="xp-label">Restant</span>
+            <span class="xp-value xp-restant">${ppRestants} / ${ppTotal}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  // Rendu de la page compétences
+  renderCompetences() {
+    const container = document.getElementById('tab-competences');
+    if (!container) return;
+
+    const groupesData = typeof Competences !== 'undefined' ? Competences.get() : [];
+    const maxRangGroupe = 3;
+    const maxRangCompetence = 6;
+    const competencesData = this.character.competences || { groupes: {}, competences: {}, attributsChoisis: {} };
+
+    // Construction des attributs disponibles pour chaque groupe
+    const getGroupeAttributs = (groupe) => {
+      const attrsSet = new Set();
+      groupe.competences.forEach(comp => {
+        comp.attributs.forEach(attr => attrsSet.add(attr));
+      });
+      return Array.from(attrsSet);
+    };
+
+    container.innerHTML = `
+      <!-- Bloc XP Résumé -->
+      <section class="section xp-section">
+        <div id="xp-summary-competences"></div>
+      </section>
+
+      <!-- Groupes de compétences -->
+      <section class="section">
+        <h2 class="section-title">Compétences</h2>
+        <div class="competences-container">
+          ${groupesData.map(groupe => {
+            const groupeAttrs = getGroupeAttributs(groupe);
+            const rangGroupe = competencesData.groupes?.[groupe.id] || 0;
+            const prouesse = Character.calculerProuesse(this.character, groupe.id);
+
+            return `
+              <div class="groupe-block">
+                <div class="groupe-header">
+                  <div class="groupe-info">
+                    <span class="groupe-nom">${groupe.nom}</span>
+                    <span class="groupe-desc">${groupe.description || ''}</span>
+                  </div>
+                  <div class="groupe-stats">
+                    <div class="groupe-rang">
+                      <label>Rang</label>
+                      <select class="groupe-rang-select" data-groupe="${groupe.id}">
+                        ${Array.from({length: maxRangGroupe + 1}, (_, i) => `
+                          <option value="${i}" ${rangGroupe === i ? 'selected' : ''}>${i}</option>
+                        `).join('')}
+                      </select>
+                    </div>
+                    <div class="groupe-prouesse">
+                      Prouesse: ${prouesse >= 0 ? '+' : ''}${prouesse}
+                    </div>
+                  </div>
+                </div>
+                <div class="competences-list">
+                  ${groupe.competences.map(comp => {
+                    const rangComp = competencesData.competences?.[comp.id] || 0;
+                    const attrChoisi = competencesData.attributsChoisis?.[comp.id] || comp.attributs[0];
+                    const bonus = Character.calculerBonusCompetence(this.character, groupe.id, comp.id, attrChoisi);
+
+                    return `
+                      <div class="competence-item">
+                        <div class="competence-main">
+                          <select class="competence-attr-select" data-competence="${comp.id}">
+                            ${comp.attributs.map(attr => `
+                              <option value="${attr}" ${attrChoisi === attr ? 'selected' : ''}>${attr}</option>
+                            `).join('')}
+                          </select>
+                          <span class="competence-nom">${comp.nom}</span>
+                        </div>
+                        <div class="competence-rang">
+                          <select class="competence-rang-select" data-groupe="${groupe.id}" data-competence="${comp.id}">
+                            ${Array.from({length: maxRangCompetence + 1}, (_, i) => `
+                              <option value="${i}" ${rangComp === i ? 'selected' : ''}>${i}</option>
+                            `).join('')}
+                          </select>
+                        </div>
+                        <div class="competence-bonus ${bonus >= 0 ? 'positive' : 'negative'}">
+                          ${bonus >= 0 ? '+' : ''}${bonus}
+                        </div>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </section>
+    `;
+
+    // Rendu du bloc XP
+    this.renderXPSummary('xp-summary-competences');
+
+    // Event listeners pour les rangs de groupes
+    container.querySelectorAll('.groupe-rang-select').forEach(select => {
+      select.addEventListener('change', (e) => {
+        const groupeId = e.target.dataset.groupe;
+        const rang = parseInt(e.target.value);
+        if (!this.character.competences) {
+          this.character.competences = { groupes: {}, competences: {}, attributsChoisis: {} };
+        }
+        if (!this.character.competences.groupes) {
+          this.character.competences.groupes = {};
+        }
+        this.character.competences.groupes[groupeId] = rang;
+        Storage.save(this.character);
+        this.renderXPSummary('xp-summary');
+        this.renderXPSummary('xp-summary-competences');
+        this.renderCompetences();
+        this.renderCaste();
+      });
+    });
+
+    // Event listeners pour les rangs de compétences
+    container.querySelectorAll('.competence-rang-select').forEach(select => {
+      select.addEventListener('change', (e) => {
+        const compId = e.target.dataset.competence;
+        const rang = parseInt(e.target.value);
+        if (!this.character.competences) {
+          this.character.competences = { groupes: {}, competences: {}, attributsChoisis: {} };
+        }
+        if (!this.character.competences.competences) {
+          this.character.competences.competences = {};
+        }
+        this.character.competences.competences[compId] = rang;
+        Storage.save(this.character);
+        this.renderXPSummary('xp-summary');
+        this.renderXPSummary('xp-summary-competences');
+        this.renderCompetences();
+        this.renderCaste();
+      });
+    });
+
+    // Event listeners pour les attributs choisis
+    container.querySelectorAll('.competence-attr-select').forEach(select => {
+      select.addEventListener('change', (e) => {
+        const compId = e.target.dataset.competence;
+        const attr = e.target.value;
+        if (!this.character.competences) {
+          this.character.competences = { groupes: {}, competences: {}, attributsChoisis: {} };
+        }
+        if (!this.character.competences.attributsChoisis) {
+          this.character.competences.attributsChoisis = {};
+        }
+        this.character.competences.attributsChoisis[compId] = attr;
+        Storage.save(this.character);
+        this.renderCompetences();
+      });
+    });
+  },
+
+  // === TRAITS ===
+
+  // État des traits dépliés
+  traitsExpanded: {},
+
+  // Génère le HTML d'une liste de traits
+  renderTraitsList(traits, type, traitsDisponibles) {
+    const typeLabel = type === 'avantage' ? 'Avantages Généraux' : 'Désavantages';
+    const typeClass = type === 'avantage' ? 'avantages' : 'desavantages';
+    const traitsFiltered = traitsDisponibles.filter(t => t.type === type);
+
+    return `
+      <div class="traits-section traits-${typeClass}">
+        <h3 class="traits-section-title">${typeLabel}</h3>
+        <div class="traits-list">
+          ${traits.length === 0 ? `
+            <div class="traits-empty">Aucun ${type}</div>
+          ` : traits.map(trait => {
+            const isExpanded = this.traitsExpanded[trait.id] || false;
+            return `
+              <div class="trait-item ${isExpanded ? 'expanded' : ''} trait-${type}" data-trait-id="${trait.id}">
+                <div class="trait-header">
+                  <div class="trait-info">
+                    <span class="trait-nom">${trait.info.nom}</span>
+                    <span class="trait-rang">[${trait.rang}]</span>
+                  </div>
+                  <div class="trait-controls">
+                    <button class="btn-trait-toggle" data-trait-id="${trait.id}" title="${isExpanded ? 'Replier' : 'Déplier'}">
+                      ${isExpanded ? '&#9650;' : '&#9660;'}
+                    </button>
+                    <button class="btn-trait-delete" data-trait-id="${trait.id}" title="Supprimer">&#10005;</button>
+                  </div>
+                </div>
+                <div class="trait-content" style="display: ${isExpanded ? 'block' : 'none'}">
+                  <p class="trait-description">${trait.info.description}</p>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+        <!-- Ajout de trait -->
+        <div class="trait-add-section">
+          <div class="trait-add-row">
+            <select class="select-add-trait" data-type="${type}">
+              <option value="">-- Ajouter un ${type} --</option>
+              ${traitsFiltered.map(t => `
+                <option value="${t.id}">${t.nom} (${t.coutPP} PP, max ${t.rangMax})</option>
+              `).join('')}
+            </select>
+            <button class="btn-add-trait" data-type="${type}" title="Ajouter">+</button>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  // Génère le HTML des avantages de caste (basé sur CasteProgression)
+  renderAvantagesCaste() {
+    const rang = this.character.caste?.rang || 0;
+    const progression = typeof CasteProgression !== 'undefined' ? CasteProgression.get() : [];
+
+    // Collecter tous les avantages jusqu'au rang actuel
+    const avantagesCaste = [];
+    for (const level of progression) {
+      if (level.rang <= rang && level.avantages) {
+        level.avantages.forEach(av => {
+          avantagesCaste.push({
+            ...av,
+            rang: level.rang
+          });
+        });
+      }
+    }
+
+    return `
+      <div class="traits-section traits-caste">
+        <h3 class="traits-section-title">Avantages de Caste</h3>
+        <div class="traits-list">
+          ${avantagesCaste.length === 0 ? `
+            <div class="traits-empty">Aucun avantage de caste (rang 0)</div>
+          ` : avantagesCaste.map(av => {
+            const isExpanded = this.traitsExpanded[`caste-${av.rang}-${av.nom}`] || false;
+            const expandId = `caste-${av.rang}-${av.nom}`;
+            return `
+              <div class="trait-item ${isExpanded ? 'expanded' : ''} trait-caste" data-trait-id="${expandId}">
+                <div class="trait-header">
+                  <div class="trait-info">
+                    <span class="trait-nom">${av.nom}</span>
+                    <span class="trait-rang-caste">Rang ${av.rang}</span>
+                  </div>
+                  <div class="trait-controls">
+                    <button class="btn-trait-toggle" data-trait-id="${expandId}" title="${isExpanded ? 'Replier' : 'Déplier'}">
+                      ${isExpanded ? '&#9650;' : '&#9660;'}
+                    </button>
+                  </div>
+                </div>
+                <div class="trait-content" style="display: ${isExpanded ? 'block' : 'none'}">
+                  <p class="trait-description">${av.description}</p>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  },
+
+  // Rendu de la page traits
+  renderTraits() {
+    const container = document.getElementById('tab-traits');
+    if (!container) return;
+
+    const traitsData = typeof Traits !== 'undefined' ? Traits.get() : [];
+    const characterTraits = this.character.traits || [];
+
+    // Récupérer les infos complètes des traits du personnage
+    const traitsAvecInfos = characterTraits.map(ct => {
+      const traitInfo = traitsData.find(t => t.id === ct.id);
+      return { ...ct, info: traitInfo };
+    }).filter(t => t.info);
+
+    // Séparer avantages et désavantages
+    const avantages = traitsAvecInfos.filter(t => t.info.type === 'avantage');
+    const desavantages = traitsAvecInfos.filter(t => t.info.type === 'desavantage');
+
+    // Traits disponibles (non encore pris)
+    const traitsDisponibles = traitsData.filter(t =>
+      !characterTraits.some(ct => ct.id === t.id)
+    );
+
+    container.innerHTML = `
+      <!-- Bloc PP -->
+      <section class="section xp-section">
+        <div id="pp-summary-traits"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">Traits du Personnage</h2>
+          <div class="traits-actions">
+            <button class="btn-traits-expand" id="btn-expand-all" title="Tout déplier">&#9660; Tout</button>
+            <button class="btn-traits-expand" id="btn-collapse-all" title="Tout replier">&#9650; Tout</button>
+          </div>
+        </div>
+
+        <div class="traits-container">
+          ${this.renderTraitsList(desavantages, 'desavantage', traitsDisponibles)}
+          ${this.renderAvantagesCaste()}
+          ${this.renderTraitsList(avantages, 'avantage', traitsDisponibles)}
+        </div>
+      </section>
+    `;
+
+    // Rendu du bloc PP
+    this.renderPPSummary('pp-summary-traits');
+
+    // Event listeners
+    this.setupTraitsEventListeners(container);
+  },
+
+  // Configure les événements de la page traits
+  setupTraitsEventListeners(container) {
+    // Bouton tout déplier
+    document.getElementById('btn-expand-all')?.addEventListener('click', () => {
+      const characterTraits = this.character.traits || [];
+      characterTraits.forEach(t => {
+        this.traitsExpanded[t.id] = true;
+      });
+      this.renderTraits();
+    });
+
+    // Bouton tout replier
+    document.getElementById('btn-collapse-all')?.addEventListener('click', () => {
+      this.traitsExpanded = {};
+      this.renderTraits();
+    });
+
+    // Boutons toggle individuels
+    container.querySelectorAll('.btn-trait-toggle').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const traitId = e.target.dataset.traitId;
+        this.traitsExpanded[traitId] = !this.traitsExpanded[traitId];
+        this.renderTraits();
+      });
+    });
+
+    // Boutons supprimer
+    container.querySelectorAll('.btn-trait-delete').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const traitId = e.target.dataset.traitId;
+        const traitsData = typeof Traits !== 'undefined' ? Traits.get() : [];
+        const traitInfo = traitsData.find(t => t.id === traitId);
+        const traitNom = traitInfo ? traitInfo.nom : traitId;
+
+        if (confirm(`Supprimer le trait "${traitNom}" ?`)) {
+          this.character.traits = this.character.traits.filter(t => t.id !== traitId);
+          delete this.traitsExpanded[traitId];
+          Storage.save(this.character);
+          this.renderTraits();
+          this.renderPPSummary('pp-summary');
+        }
+      });
+    });
+
+    // Boutons ajouter (un par type)
+    container.querySelectorAll('.btn-add-trait').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const type = e.target.dataset.type;
+        const select = container.querySelector(`.select-add-trait[data-type="${type}"]`);
+        const traitId = select?.value;
+        if (!traitId) return;
+
+        const traitsData = typeof Traits !== 'undefined' ? Traits.get() : [];
+        const traitInfo = traitsData.find(t => t.id === traitId);
+        if (!traitInfo) return;
+
+        // Ajouter le trait avec rang 1
+        if (!this.character.traits) this.character.traits = [];
+        this.character.traits.push({ id: traitId, rang: 1 });
+        Storage.save(this.character);
+        this.renderTraits();
+        this.renderPPSummary('pp-summary');
+      });
+    });
+  },
+
+  // === MEMOIRE ===
+
+  // État des descriptions de mémoire dépliées
+  memoireDescExpanded: {},
+
+  // Rendu de la page mémoire
+  renderMemoire() {
+    const container = document.getElementById('tab-memoire');
+    if (!container) return;
+
+    const typesMémoire = DATA.typesMémoire || [];
+    const memoireEntries = this.character.memoire || [];
+    const memoireMax = Character.calculerMemoire(this.character);
+    const memoireUsed = memoireEntries.length;
+
+    // Grouper les entrées par type
+    const entriesParType = {};
+    typesMémoire.forEach(type => {
+      entriesParType[type.id] = memoireEntries
+        .map((entry, index) => ({ ...entry, index }))
+        .filter(entry => entry.typeId === type.id);
+    });
+
+    container.innerHTML = `
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">Mémoire</h2>
+          <div class="memoire-counter ${memoireUsed > memoireMax ? 'over-budget' : ''}">
+            ${memoireUsed} / ${memoireMax}
+          </div>
+        </div>
+
+        <div class="memoire-container">
+          ${typesMémoire.map(type => `
+            <div class="memoire-section" data-type-id="${type.id}">
+              <div class="memoire-section-header">
+                <h3 class="memoire-section-title">${type.nom}</h3>
+                <span class="memoire-section-count">(${entriesParType[type.id].length})</span>
+              </div>
+              <div class="memoire-list">
+                ${entriesParType[type.id].length === 0 ? `
+                  <div class="memoire-empty">Aucune entrée</div>
+                ` : entriesParType[type.id].map(entry => {
+                  const isExpanded = this.memoireDescExpanded[entry.index] || false;
+                  const hasDesc = entry.description && entry.description.trim() !== '';
+                  return `
+                    <div class="memoire-item ${isExpanded ? 'expanded' : ''}" data-index="${entry.index}">
+                      <div class="memoire-item-header">
+                        <span class="memoire-nom">${entry.nom}</span>
+                        <div class="memoire-item-controls">
+                          <button class="btn-memoire-desc ${hasDesc ? 'has-content' : ''}" data-index="${entry.index}" title="Description">&#9998;</button>
+                          <button class="btn-memoire-delete" data-index="${entry.index}" title="Supprimer">&#10005;</button>
+                        </div>
+                      </div>
+                      ${isExpanded ? `
+                        <div class="memoire-item-desc">
+                          <textarea class="memoire-desc-input" data-index="${entry.index}" placeholder="Description...">${entry.description || ''}</textarea>
+                        </div>
+                      ` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+              <div class="memoire-add">
+                <input type="text" class="memoire-input" data-type-id="${type.id}" placeholder="Nouvelle entrée..." />
+                <button class="btn-memoire-add" data-type-id="${type.id}" title="Ajouter">+</button>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    `;
+
+    // Event listeners
+    this.setupMemoireEventListeners(container);
+  },
+
+  // Configure les événements de la page mémoire
+  setupMemoireEventListeners(container) {
+    // Boutons supprimer
+    container.querySelectorAll('.btn-memoire-delete').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        if (!this.character.memoire) return;
+
+        const entry = this.character.memoire[index];
+        if (confirm(`Supprimer "${entry.nom}" ?`)) {
+          this.character.memoire.splice(index, 1);
+          delete this.memoireDescExpanded[index];
+          Storage.save(this.character);
+          this.renderMemoire();
+        }
+      });
+    });
+
+    // Boutons description (toggle)
+    container.querySelectorAll('.btn-memoire-desc').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        this.memoireDescExpanded[index] = !this.memoireDescExpanded[index];
+        this.renderMemoire();
+
+        // Focus sur le textarea si on vient de l'ouvrir
+        if (this.memoireDescExpanded[index]) {
+          setTimeout(() => {
+            const textarea = container.querySelector(`.memoire-desc-input[data-index="${index}"]`);
+            textarea?.focus();
+          }, 10);
+        }
+      });
+    });
+
+    // Textarea description (sauvegarde au blur)
+    container.querySelectorAll('.memoire-desc-input').forEach(textarea => {
+      textarea.addEventListener('blur', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        if (!this.character.memoire || !this.character.memoire[index]) return;
+
+        this.character.memoire[index].description = e.target.value;
+        Storage.save(this.character);
+      });
+    });
+
+    // Boutons ajouter
+    container.querySelectorAll('.btn-memoire-add').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const typeId = parseInt(e.target.dataset.typeId);
+        const input = container.querySelector(`.memoire-input[data-type-id="${typeId}"]`);
+        const nom = input?.value.trim();
+
+        if (!nom) return;
+
+        if (!this.character.memoire) this.character.memoire = [];
+        this.character.memoire.push({ typeId, nom, description: '' });
+        Storage.save(this.character);
+        this.renderMemoire();
+      });
+    });
+
+    // Entrée avec la touche Enter
+    container.querySelectorAll('.memoire-input').forEach(input => {
+      input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          const typeId = parseInt(input.dataset.typeId);
+          const btn = container.querySelector(`.btn-memoire-add[data-type-id="${typeId}"]`);
+          btn?.click();
+        }
+      });
     });
   }
 };
