@@ -23,12 +23,12 @@ const Character = {
       },
       tradition: '',
       ressources: {
-        PE: { actuel: 0, max: 0 },
-        PV: { actuel: 0, max: 0 },
-        PS: { actuel: 0, max: 0 },
-        PC: { actuel: 0, max: 0 },
-        PK: { actuel: 3, max: 3 },
-        PM: { actuel: 0, max: 0 }
+        PE: { actuel: 0, max: 0, temporaire: 0 },
+        PV: { actuel: 0, max: 0, temporaire: 0 },
+        PS: { actuel: 0, max: 0, temporaire: 0 },
+        PC: { actuel: 0, max: 0, temporaire: 0 },
+        PK: { actuel: 3, max: 3, temporaire: 0 },
+        PM: { actuel: 0, max: 0, temporaire: 0 }
       },
       originesChoix: {},
       originesBonus: {},
@@ -47,7 +47,73 @@ const Character = {
         attributsChoisis: {}
       },
       traits: [],  // Array de { id: string, rang: number }
-      memoire: []  // Array de { typeId: number, nom: string }
+      memoire: [],  // Array de { typeId: number, nom: string }
+      autresRessources: [],  // Array de { id: string, actuel: number, max: number }
+      lesions: [],  // Array de { type: string, actuel: number, max: number }
+      conditions: [],  // Array de { id: string, charges: number, avancee: boolean }
+      tensions: {  // Fatigue et Corruption, max = résilience
+        fatigue: 0,
+        corruption: 0
+      },
+      bonusConfig: {  // Bonus configurables pour les caractéristiques
+        allure: 0,
+        resilience: 0,
+        encombrement: 0,
+        protectionPhysique: 0,
+        protectionMentale: 0,
+        absorptionPhysique: 0,
+        absorptionMentale: 0,
+        recuperation: 0,
+        recuperationPV: 0,
+        recuperationPS: 0,
+        recuperationPE: 0,
+        recuperationPM: 0,
+        recuperationPK: 0,
+        recuperationPC: 0,
+        memoire: 0,
+        chargeMax: 0,
+        poigne: 0,
+        prouessesInnees: 0,
+        moral: 0,
+        perfPhysique: 0,
+        perfMentale: 0,
+        controleActif: 0,
+        controlePassif: 0,
+        techniqueMax: 0,
+        expertisePhysique: 0,
+        expertiseMentale: 0,
+        precisionPhysique: 0,
+        precisionMentale: 0,
+        maxPV: 0,
+        maxPS: 0,
+        maxPE: 0,
+        maxPM: 0,
+        maxPK: 0,
+        maxPC: 0,
+        // Bonus magie
+        porteeMagique: 0,
+        tempsIncantation: 0,
+        expertiseMagique: 0,
+        resistanceDrain: 0,
+        puissanceInvocatrice: 0,
+        puissanceSoinsDegats: 0,
+        puissancePositive: 0,
+        puissanceNegative: 0,
+        puissanceGenerique: 0,
+        // Bonus résiliences spécifiques
+        resiliencePhysique: 0,    // PE temporaires
+        resilienceMentale: 0,     // PS temporaires
+        resilienceMagique: 0,     // PM temporaires
+        resilienceNerf: 0,        // Garde, Rage, Adrénaline
+        resilienceCorruption: 0,  // Max Corruption
+        resilienceFatigue: 0,     // Max Fatigue
+        // Bonus aux attributs
+        attrFOR: 0, attrDEX: 0, attrAGI: 0, attrCON: 0, attrPER: 0,
+        attrCHA: 0, attrINT: 0, attrRUS: 0, attrVOL: 0, attrSAG: 0,
+        attrMAG: 0, attrLOG: 0, attrCHN: 0,
+        attrSTA: 0, attrTAI: 0, attrEGO: 0, attrAPP: 0
+      },
+      notes: []  // Array de { titre: string, contenu: string }
     };
 
     // Initialise les attributs principaux (Corps + Esprit) à 7
@@ -302,7 +368,11 @@ const Character = {
       bonusCaste = progression?.bonusEquilibre || 0;
     }
 
-    return base + bonusEthnie + bonusOrigines + bonusNaissance + bonusCaste;
+    // Bonus configurable (équipement, etc.)
+    const bonusKey = 'attr' + attrId;
+    const bonusConfig = character.bonusConfig?.[bonusKey] || 0;
+
+    return base + bonusEthnie + bonusOrigines + bonusNaissance + bonusCaste + bonusConfig;
   },
 
   // Calcule la défense normale
@@ -368,9 +438,15 @@ const Character = {
         max += rang;
       }
 
+      // Bonus de configuration pour le max de la ressource
+      const bonusKey = 'max' + res.id;
+      const bonusMax = character.bonusConfig?.[bonusKey] || 0;
+      max += bonusMax;
+
       ressources[res.id] = {
         actuel: Math.min(character.ressources[res.id]?.actuel || max, max),
-        max: max
+        max: max,
+        temporaire: character.ressources[res.id]?.temporaire || 0
       };
     });
 
@@ -415,11 +491,12 @@ const Character = {
     return 0;
   },
 
-  // Calcule l'allure (10 + mTAI + mAGI - Encombrement)
+  // Calcule l'allure (10 + mTAI + mAGI - Encombrement + bonus)
   calculerAllure(character, encombrementEquipement = 0) {
     const tai = this.getValeurTotale(character, 'TAI');
     const agi = this.getValeurTotale(character, 'AGI');
-    return 10 + this.calculerModificateur(tai) + this.calculerModificateur(agi) - encombrementEquipement;
+    const bonus = character.bonusConfig?.allure || 0;
+    return 10 + this.calculerModificateur(tai) + this.calculerModificateur(agi) - encombrementEquipement + bonus;
   },
 
   // Calcule le déplacement (Allure / 2)
@@ -427,109 +504,235 @@ const Character = {
     return Math.floor(this.calculerAllure(character, encombrementEquipement) / 2);
   },
 
-  // Calcule la résilience (10 + mVOL + mEQU)
+  // Calcule la résilience (10 + mVOL + mEQU + bonus)
   calculerResilience(character) {
     const vol = this.getValeurTotale(character, 'VOL');
     const equ = this.getValeurTotale(character, 'EQU');
-    return 10 + this.calculerModificateur(vol) + this.calculerModificateur(equ);
+    const bonus = character.bonusConfig?.resilience || 0;
+    return 10 + this.calculerModificateur(vol) + this.calculerModificateur(equ) + bonus;
   },
 
-  // Calcule la récupération (5 + aSAG)
+  // Calcule la récupération globale (5 + mSAG + bonus)
   calculerRecuperation(character) {
     const sag = this.getValeurTotale(character, 'SAG');
-    // aSAG = modificateur avec ajustement d'équilibre (simplifié ici)
-    return 5 + this.calculerModificateur(sag);
+    const bonus = character.bonusConfig?.recuperation || 0;
+    return 5 + this.calculerModificateur(sag) + bonus;
   },
 
-  // Calcule la mémoire (INT - 5)
+  // Calcule la récupération d'une ressource spécifique
+  calculerRecuperationRessource(character, ressourceId) {
+    const baseRecup = this.calculerRecuperation(character);
+    const bonusKey = 'recuperation' + ressourceId;
+    const bonus = character.bonusConfig?.[bonusKey] || 0;
+    return baseRecup + bonus;
+  },
+
+  // Calcule la mémoire (INT - 5 + bonus)
   calculerMemoire(character) {
     const intel = this.getValeurTotale(character, 'INT');
-    return intel - 5;
+    const bonus = character.bonusConfig?.memoire || 0;
+    return intel - 5 + bonus;
   },
 
-  // Calcule la charge maximale (5 + FOR + STA)
+  // Calcule la charge maximale (5 + FOR + STA + bonus)
   calculerChargeMax(character) {
     const forVal = this.getValeurTotale(character, 'FOR');
     const sta = this.getValeurTotale(character, 'STA');
-    return 5 + forVal + sta;
+    const bonus = character.bonusConfig?.chargeMax || 0;
+    return 5 + forVal + sta + bonus;
   },
 
-  // Calcule l'encombrement maximum (5 + FOR + STA)
+  // Calcule l'encombrement maximum (5 + FOR + STA + bonus)
   calculerEncombrementMax(character) {
     const forVal = this.getValeurTotale(character, 'FOR');
     const sta = this.getValeurTotale(character, 'STA');
-    return 5 + forVal + sta;
+    const bonus = character.bonusConfig?.encombrement || 0;
+    return 5 + forVal + sta + bonus;
   },
 
-  // Calcule la poigne (FOR)
+  // Calcule la poigne (FOR + bonus)
   calculerPoigne(character) {
-    return this.getValeurTotale(character, 'FOR');
+    const bonus = character.bonusConfig?.poigne || 0;
+    return this.getValeurTotale(character, 'FOR') + bonus;
   },
 
-  // Calcule la protection physique naturelle (5 + mSTA)
+  // Calcule la protection physique naturelle (5 + mSTA + bonus)
   calculerProtectionPhysique(character) {
     const sta = this.getValeurTotale(character, 'STA');
-    return 5 + this.calculerModificateur(sta);
+    const bonus = character.bonusConfig?.protectionPhysique || 0;
+    return 5 + this.calculerModificateur(sta) + bonus;
   },
 
-  // Calcule la protection mentale naturelle (5 + mEGO)
+  // Calcule la protection mentale naturelle (5 + mEGO + bonus)
   calculerProtectionMentale(character) {
     const ego = this.getValeurTotale(character, 'EGO');
-    return 5 + this.calculerModificateur(ego);
+    const bonus = character.bonusConfig?.protectionMentale || 0;
+    return 5 + this.calculerModificateur(ego) + bonus;
   },
 
-  // Calcule l'absorption physique naturelle (mCON)
+  // Calcule l'absorption physique naturelle (mCON + bonus)
   calculerAbsorptionPhysique(character) {
     const con = this.getValeurTotale(character, 'CON');
-    return this.calculerModificateur(con);
+    const bonus = character.bonusConfig?.absorptionPhysique || 0;
+    return this.calculerModificateur(con) + bonus;
   },
 
-  // Calcule l'absorption mentale naturelle (mVOL)
+  // Calcule l'absorption mentale naturelle (mVOL + bonus)
   calculerAbsorptionMentale(character) {
     const vol = this.getValeurTotale(character, 'VOL');
-    return this.calculerModificateur(vol);
+    const bonus = character.bonusConfig?.absorptionMentale || 0;
+    return this.calculerModificateur(vol) + bonus;
   },
 
-  // Calcule les prouesses innées (mRUS)
+  // Calcule les prouesses innées (mRUS + bonus)
   calculerProuessesInnees(character) {
     const rus = this.getValeurTotale(character, 'RUS');
-    return this.calculerModificateur(rus);
+    const bonus = character.bonusConfig?.prouessesInnees || 0;
+    return this.calculerModificateur(rus) + bonus;
   },
 
-  // Calcule le moral (mCHA)
+  // Calcule le moral (mCHA + bonus)
   calculerMoral(character) {
     const cha = this.getValeurTotale(character, 'CHA');
-    return this.calculerModificateur(cha);
+    const bonus = character.bonusConfig?.moral || 0;
+    return this.calculerModificateur(cha) + bonus;
   },
 
-  // Calcule la perforation physique (mPER)
+  // Calcule la perforation physique (mPER + bonus)
   calculerPerforationPhysique(character) {
     const per = this.getValeurTotale(character, 'PER');
-    return this.calculerModificateur(per);
+    const bonus = character.bonusConfig?.perfPhysique || 0;
+    return this.calculerModificateur(per) + bonus;
   },
 
-  // Calcule la perforation mentale (mSAG)
+  // Calcule la perforation mentale (mSAG + bonus)
   calculerPerforationMentale(character) {
     const sag = this.getValeurTotale(character, 'SAG');
-    return this.calculerModificateur(sag);
+    const bonus = character.bonusConfig?.perfMentale || 0;
+    return this.calculerModificateur(sag) + bonus;
   },
 
-  // Calcule le contrôle actif (mDEX)
+  // Calcule le contrôle actif (mDEX + bonus)
   calculerControleActif(character) {
     const dex = this.getValeurTotale(character, 'DEX');
-    return this.calculerModificateur(dex);
+    const bonus = character.bonusConfig?.controleActif || 0;
+    return this.calculerModificateur(dex) + bonus;
   },
 
-  // Calcule le contrôle passif (mAGI)
+  // Calcule le contrôle passif (mAGI + bonus)
   calculerControlePassif(character) {
     const agi = this.getValeurTotale(character, 'AGI');
-    return this.calculerModificateur(agi);
+    const bonus = character.bonusConfig?.controlePassif || 0;
+    return this.calculerModificateur(agi) + bonus;
   },
 
-  // Calcule la technique max (mINT)
+  // Calcule la technique max (mINT + bonus)
   calculerTechniqueMax(character) {
     const intel = this.getValeurTotale(character, 'INT');
-    return this.calculerModificateur(intel);
+    const bonus = character.bonusConfig?.techniqueMax || 0;
+    return this.calculerModificateur(intel) + bonus;
+  },
+
+  // Calcule l'expertise physique (mDEX + bonus)
+  calculerExpertisePhysique(character) {
+    const dex = this.getValeurTotale(character, 'DEX');
+    const bonus = character.bonusConfig?.expertisePhysique || 0;
+    return this.calculerModificateur(dex) + bonus;
+  },
+
+  // Calcule l'expertise mentale (mINT + bonus)
+  calculerExpertiseMentale(character) {
+    const intel = this.getValeurTotale(character, 'INT');
+    const bonus = character.bonusConfig?.expertiseMentale || 0;
+    return this.calculerModificateur(intel) + bonus;
+  },
+
+  // Calcule la précision physique (mDEX + bonus)
+  calculerPrecisionPhysique(character) {
+    const dex = this.getValeurTotale(character, 'DEX');
+    const bonus = character.bonusConfig?.precisionPhysique || 0;
+    return this.calculerModificateur(dex) + bonus;
+  },
+
+  // Calcule la précision mentale (mINT + bonus)
+  calculerPrecisionMentale(character) {
+    const intel = this.getValeurTotale(character, 'INT');
+    const bonus = character.bonusConfig?.precisionMentale || 0;
+    return this.calculerModificateur(intel) + bonus;
+  },
+
+  // Calcule la portée magique (10 + mPER + bonus)
+  calculerPorteeMagique(character) {
+    const per = this.getValeurTotale(character, 'PER');
+    const bonus = character.bonusConfig?.porteeMagique || 0;
+    return 10 + this.calculerModificateur(per) + bonus;
+  },
+
+  // Calcule le temps d'incantation (-mDEX + bonus, affiché comme réduction)
+  calculerTempsIncantation(character) {
+    const dex = this.getValeurTotale(character, 'DEX');
+    const bonus = character.bonusConfig?.tempsIncantation || 0;
+    return this.calculerModificateur(dex) + bonus;
+  },
+
+  // Récupère l'attribut de la tradition magique
+  getAttributTradition(character) {
+    if (!character.tradition) return null;
+    const tradition = DATA.traditions.find(t => t.id === character.tradition);
+    return tradition ? tradition.attribut : null;
+  },
+
+  // Calcule l'expertise magique (mAttributTradition + bonus)
+  calculerExpertiseMagique(character) {
+    const attrTradition = this.getAttributTradition(character);
+    if (!attrTradition) return 0;
+    const valeur = this.getValeurTotale(character, attrTradition);
+    const bonus = character.bonusConfig?.expertiseMagique || 0;
+    return this.calculerModificateur(valeur) + bonus;
+  },
+
+  // Calcule la résistance au drain (mAttributTradition + bonus)
+  calculerResistanceDrain(character) {
+    const attrTradition = this.getAttributTradition(character);
+    if (!attrTradition) return 0;
+    const valeur = this.getValeurTotale(character, attrTradition);
+    const bonus = character.bonusConfig?.resistanceDrain || 0;
+    return this.calculerModificateur(valeur) + bonus;
+  },
+
+  // Calcule la puissance invocatrice (mCHA + bonus)
+  calculerPuissanceInvocatrice(character) {
+    const cha = this.getValeurTotale(character, 'CHA');
+    const bonus = character.bonusConfig?.puissanceInvocatrice || 0;
+    return this.calculerModificateur(cha) + bonus;
+  },
+
+  // Calcule la puissance soins/dégâts (mVOL + bonus)
+  calculerPuissanceSoinsDegats(character) {
+    const vol = this.getValeurTotale(character, 'VOL');
+    const bonus = character.bonusConfig?.puissanceSoinsDegats || 0;
+    return this.calculerModificateur(vol) + bonus;
+  },
+
+  // Calcule la puissance positive (mSAG + bonus)
+  calculerPuissancePositive(character) {
+    const sag = this.getValeurTotale(character, 'SAG');
+    const bonus = character.bonusConfig?.puissancePositive || 0;
+    return this.calculerModificateur(sag) + bonus;
+  },
+
+  // Calcule la puissance négative (mRUS + bonus)
+  calculerPuissanceNegative(character) {
+    const rus = this.getValeurTotale(character, 'RUS');
+    const bonus = character.bonusConfig?.puissanceNegative || 0;
+    return this.calculerModificateur(rus) + bonus;
+  },
+
+  // Calcule la puissance générique (mINT + bonus)
+  calculerPuissanceGenerique(character) {
+    const intel = this.getValeurTotale(character, 'INT');
+    const bonus = character.bonusConfig?.puissanceGenerique || 0;
+    return this.calculerModificateur(intel) + bonus;
   },
 
   // Calcule la charge mentale maximale (5 + CHA + EGO)

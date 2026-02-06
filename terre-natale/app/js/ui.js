@@ -705,6 +705,7 @@ const UI = {
     this.renderAttributs();
     this.renderRessources();
     this.renderCaracteristiques();
+    this.renderMagieCaracteristiques();
     this.renderSauvegardes();
   },
 
@@ -793,12 +794,16 @@ const UI = {
     this.renderXPSummary('xp-summary');
     this.renderPPSummary('pp-summary');
     this.renderTradition();
+    this.renderMagieCaracteristiques();
     this.renderRessources();
     this.renderCaracteristiques();
     this.renderSauvegardes();
     this.renderCompetences();
     this.renderTraits();
     this.renderMemoire();
+    this.renderStatus();
+    this.renderNotes();
+    this.renderConfig();
   },
 
   // Rendu des informations du personnage
@@ -966,18 +971,22 @@ const UI = {
     const choc = Character.calculerDefenseChoquee(total);
     const isCaste = this.isAttributCaste(attr.id);
 
-    // Calcul des bonus séparés
+    // Calcul des bonus d'origines séparés
     const bonusEthnie = data.bonus || 0;
     const bonusOrigines = (this.character.originesBonus && this.character.originesBonus[attr.id]) || 0;
-    const totalBonus = bonusEthnie + bonusOrigines;
+    const totalOrigine = bonusEthnie + bonusOrigines;
 
     // Bonus de naissance (pour CHN notamment)
     const hasNaissance = ['STA', 'TAI', 'EGO', 'APP', 'CHN', 'EQU'].includes(attr.id);
     const bonusNaissance = hasNaissance ? (this.character.naissanceBonus?.[attr.id] || 0) : 0;
 
+    // Bonus configuré (équipement, effets, etc.)
+    const bonusConfig = this.character.bonusConfig?.['attr' + attr.id] || 0;
+
     const formatBonus = (val) => val > 0 ? '+' + val : (val < 0 ? val : '0');
-    const bonusClass = totalBonus > 0 ? 'positive' : (totalBonus < 0 ? 'negative' : '');
+    const origineClass = totalOrigine > 0 ? 'positive' : (totalOrigine < 0 ? 'negative' : '');
     const naissanceClass = bonusNaissance > 0 ? 'positive' : (bonusNaissance < 0 ? 'negative' : '');
+    const bonusConfigClass = bonusConfig > 0 ? 'positive' : (bonusConfig < 0 ? 'negative' : '');
 
     return `
       <div class="attr-block ${isCaste ? 'attr-caste' : ''}" title="${attr.description}">
@@ -994,13 +1003,19 @@ const UI = {
                 <input type="number" class="attr-input" data-attr="${attr.id}" value="${data.base}" min="${DATA.valeurDefautPrincipal}" max="20" />
               </div>
               <div class="attr-row">
-                <label>Bonus</label>
-                <span class="attr-bonus ${bonusClass}" title="Ethnie: ${formatBonus(bonusEthnie)}, Origines: ${formatBonus(bonusOrigines)}">${formatBonus(totalBonus)}</span>
+                <label>Origine</label>
+                <span class="attr-bonus ${origineClass}" title="Ethnie: ${formatBonus(bonusEthnie)}, Origines: ${formatBonus(bonusOrigines)}">${formatBonus(totalOrigine)}</span>
               </div>
               ${hasNaissance ? `
               <div class="attr-row">
                 <label>Naissance</label>
                 <span class="attr-bonus ${naissanceClass}">${formatBonus(bonusNaissance)}</span>
+              </div>
+              ` : ''}
+              ${bonusConfig !== 0 ? `
+              <div class="attr-row">
+                <label>Bonus</label>
+                <span class="attr-bonus ${bonusConfigClass}">${formatBonus(bonusConfig)}</span>
               </div>
               ` : ''}
             </div>
@@ -1035,7 +1050,7 @@ const UI = {
     const data = this.character.attributs[attr.id];
     const bonusEthnie = data.bonus || 0;
     const bonusOrigines = (this.character.originesBonus && this.character.originesBonus[attr.id]) || 0;
-    const totalBonus = bonusEthnie + bonusOrigines;
+    const totalOrigine = bonusEthnie + bonusOrigines;
 
     // Bonus de naissance pour EQU
     const bonusNaissance = this.character.naissanceBonus?.[attr.id] || 0;
@@ -1044,14 +1059,18 @@ const UI = {
     const rang = this.character.caste?.rang || 0;
     const bonusCaste = Math.floor(rang / 2);
 
+    // Bonus configuré (équipement, effets, etc.)
+    const bonusConfig = this.character.bonusConfig?.['attr' + attr.id] || 0;
+
     // Utilise getValeurTotale pour le total (inclut tous les bonus)
     const total = Character.getValeurTotale(this.character, attr.id);
     const mod = Character.calculerModificateur(total);
 
     const formatBonus = (val) => val > 0 ? '+' + val : (val < 0 ? val : '0');
-    const bonusClass = totalBonus > 0 ? 'positive' : (totalBonus < 0 ? 'negative' : '');
+    const origineClass = totalOrigine > 0 ? 'positive' : (totalOrigine < 0 ? 'negative' : '');
     const naissanceClass = bonusNaissance > 0 ? 'positive' : (bonusNaissance < 0 ? 'negative' : '');
     const casteClass = bonusCaste > 0 ? 'positive' : '';
+    const bonusConfigClass = bonusConfig > 0 ? 'positive' : (bonusConfig < 0 ? 'negative' : '');
 
     return `
       <div class="attr-block" title="${attr.description}">
@@ -1068,8 +1087,8 @@ const UI = {
                 <span class="attr-base-calc">${baseCalculee}</span>
               </div>
               <div class="attr-row">
-                <label>Bonus</label>
-                <span class="attr-bonus ${bonusClass}" title="Ethnie: ${formatBonus(bonusEthnie)}, Origines: ${formatBonus(bonusOrigines)}">${formatBonus(totalBonus)}</span>
+                <label>Origine</label>
+                <span class="attr-bonus ${origineClass}" title="Ethnie: ${formatBonus(bonusEthnie)}, Origines: ${formatBonus(bonusOrigines)}">${formatBonus(totalOrigine)}</span>
               </div>
               <div class="attr-row">
                 <label>Naissance</label>
@@ -1079,6 +1098,12 @@ const UI = {
                 <label>Caste</label>
                 <span class="attr-bonus ${casteClass}" title="+1 par 2 rangs révolus">${formatBonus(bonusCaste)}</span>
               </div>
+              ${bonusConfig !== 0 ? `
+              <div class="attr-row">
+                <label>Bonus</label>
+                <span class="attr-bonus ${bonusConfigClass}">${formatBonus(bonusConfig)}</span>
+              </div>
+              ` : ''}
             </div>
             <div class="attr-calc-info">moy(min/max principaux)</div>
           </div>
@@ -1101,6 +1126,7 @@ const UI = {
     this.renderAttributs();
     this.renderRessources();
     this.renderCaracteristiques();
+    this.renderMagieCaracteristiques();
     this.renderSauvegardes();
   },
 
@@ -1176,12 +1202,16 @@ const UI = {
           const naissanceBonus = this.character.naissanceBonus?.[attr.id] || 0;
           const formatNaissance = naissanceBonus > 0 ? '+' + naissanceBonus : (naissanceBonus < 0 ? naissanceBonus : '');
           const naissanceClass = naissanceBonus > 0 ? 'positive' : (naissanceBonus < 0 ? 'negative' : '');
+          const bonusConfig = this.character.bonusConfig?.['attr' + attr.id] || 0;
+          const formatBonus = bonusConfig > 0 ? '+' + bonusConfig : (bonusConfig < 0 ? bonusConfig : '');
+          const bonusClass = bonusConfig > 0 ? 'positive' : (bonusConfig < 0 ? 'negative' : '');
 
           return `
             <div class="attr-compact" title="${attr.description}">
               <span class="compact-name">${attr.nom}</span>
               <input type="number" class="attr-input-compact" data-attr="${attr.id}" value="${data.base}" min="${DATA.secondaireMin}" max="${DATA.secondaireMax}" />
               <span class="compact-naissance ${naissanceClass}" title="Naissance">${formatNaissance}</span>
+              ${bonusConfig !== 0 ? `<span class="compact-bonus ${bonusClass}" title="Bonus">${formatBonus}</span>` : ''}
               <span class="compact-total">${total}</span>
               <span class="compact-mod ${mod >= 0 ? 'positive' : 'negative'}">(${mod >= 0 ? '+' + mod : mod})</span>
             </div>
@@ -1201,6 +1231,7 @@ const UI = {
         this.renderAttributs();
         this.renderRessources();
         this.renderCaracteristiques();
+        this.renderMagieCaracteristiques();
         this.renderSauvegardes();
       });
     });
@@ -1372,10 +1403,9 @@ const UI = {
       <div class="ressources-grid">
         ${DATA.ressources.map(res => {
           const data = ressources[res.id];
-          // Récupération = 5 + mod(SAG + mod EQU + rang caste si ressource de caste)
           const isCasteRessource = caste && caste.ressources && caste.ressources.includes(res.id);
-          const baseForMod = sagTotal + modEqu + (isCasteRessource ? rangCaste : 0);
-          const recup = 5 + Character.calculerModificateur(baseForMod);
+          // Utilise la même fonction que pour le repos long
+          const recup = this.calculerRecuperationRessource(res.id, sagTotal, modEqu, caste, rangCaste);
           return `
             <div class="ressource-box ${isCasteRessource ? 'ressource-caste' : ''}">
               <div class="ressource-name">${res.icone || ''} ${res.nom}</div>
@@ -1394,6 +1424,8 @@ const UI = {
 
     const allure = Character.calculerAllure(this.character);
     const deplacement = Character.calculerDeplacement(this.character);
+    const sautHauteur = Math.floor(allure / 8);
+    const sautLargeur = Math.floor(allure / 4);
     const resilience = Character.calculerResilience(this.character);
     const recuperation = Character.calculerRecuperation(this.character);
     const memoire = Character.calculerMemoire(this.character);
@@ -1411,6 +1443,19 @@ const UI = {
     const ctrlActif = Character.calculerControleActif(this.character);
     const ctrlPassif = Character.calculerControlePassif(this.character);
     const techMax = Character.calculerTechniqueMax(this.character);
+    const expPhys = Character.calculerExpertisePhysique(this.character);
+    const expMent = Character.calculerExpertiseMentale(this.character);
+    const precPhys = Character.calculerPrecisionPhysique(this.character);
+    const precMent = Character.calculerPrecisionMentale(this.character);
+
+    // Résiliences spécifiques
+    const bonusConfig = this.character.bonusConfig || {};
+    const resilPhys = resilience + (bonusConfig.resiliencePhysique || 0);
+    const resilMent = resilience + (bonusConfig.resilienceMentale || 0);
+    const resilMag = resilience + (bonusConfig.resilienceMagique || 0);
+    const resilNerf = resilience + (bonusConfig.resilienceNerf || 0);
+    const resilCorr = resilience + (bonusConfig.resilienceCorruption || 0);
+    const resilFat = resilience + (bonusConfig.resilienceFatigue || 0);
 
     const formatMod = (val) => val >= 0 ? '+' + val : val;
 
@@ -1419,78 +1464,128 @@ const UI = {
         <div class="carac-box">
           <span class="carac-name">Allure</span>
           <span class="carac-value">${allure}</span>
+          <span class="carac-help" title="10 + mTAI + mAGI">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Déplacement</span>
-          <span class="carac-value">${deplacement}</span>
+          <span class="carac-value">${deplacement} <small>m/c</small></span>
+          <span class="carac-help" title="Allure / 2">ⓘ</span>
+        </div>
+        <div class="carac-box">
+          <span class="carac-name">Saut Hauteur</span>
+          <span class="carac-value">${sautHauteur} <small>m/c</small></span>
+          <span class="carac-help" title="Allure / 8">ⓘ</span>
+        </div>
+        <div class="carac-box">
+          <span class="carac-name">Saut Largeur</span>
+          <span class="carac-value">${sautLargeur} <small>m/c</small></span>
+          <span class="carac-help" title="Allure / 4">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Résilience</span>
           <span class="carac-value">${resilience}</span>
+          <span class="carac-help" title="10 + mVOL + mEQU">ⓘ</span>
+          <span class="carac-help carac-help-details" title="Physique (PE temp): ${resilPhys} | Mentale (PS temp): ${resilMent} | Magique (PM temp): ${resilMag} | Nerf (Garde/Rage/Adré): ${resilNerf} | Fatigue: ${resilFat} | Corruption: ${resilCorr}">!</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Récupération</span>
           <span class="carac-value">${recuperation}</span>
+          <span class="carac-help" title="5 + mSAG">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Mémoire</span>
           <span class="carac-value">${memoire}</span>
+          <span class="carac-help" title="INT - 5">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Charge Max</span>
           <span class="carac-value">${chargeMax}</span>
+          <span class="carac-help" title="5 + FOR + STA">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Encombrement Max</span>
           <span class="carac-value">${encombrementMax}</span>
+          <span class="carac-help" title="5 + FOR + STA">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Poigne</span>
           <span class="carac-value">${poigne}</span>
+          <span class="carac-help" title="FOR">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Prot. Physique</span>
           <span class="carac-value">${protPhys}</span>
+          <span class="carac-help" title="5 + mSTA">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Prot. Mentale</span>
           <span class="carac-value">${protMent}</span>
+          <span class="carac-help" title="5 + mEGO">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Abs. Physique</span>
           <span class="carac-value">${formatMod(absPhys)}</span>
+          <span class="carac-help" title="mCON">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Abs. Mentale</span>
           <span class="carac-value">${formatMod(absMent)}</span>
+          <span class="carac-help" title="mVOL">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Prouesses Innées</span>
           <span class="carac-value">${formatMod(prouesses)}</span>
+          <span class="carac-help" title="mRUS">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Moral</span>
           <span class="carac-value">${formatMod(moral)}</span>
+          <span class="carac-help" title="mCHA">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Perf. Physique</span>
           <span class="carac-value">${formatMod(perfPhys)}</span>
+          <span class="carac-help" title="mPER">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Perf. Mentale</span>
           <span class="carac-value">${formatMod(perfMent)}</span>
+          <span class="carac-help" title="mSAG">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Contrôle Actif</span>
           <span class="carac-value">${formatMod(ctrlActif)}</span>
+          <span class="carac-help" title="mDEX">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Contrôle Passif</span>
           <span class="carac-value">${formatMod(ctrlPassif)}</span>
+          <span class="carac-help" title="mAGI">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Technique Max</span>
           <span class="carac-value">${formatMod(techMax)}</span>
+          <span class="carac-help" title="mINT">ⓘ</span>
+        </div>
+        <div class="carac-box">
+          <span class="carac-name">Expertise Physique</span>
+          <span class="carac-value">${formatMod(expPhys)}</span>
+          <span class="carac-help" title="mDEX">ⓘ</span>
+        </div>
+        <div class="carac-box">
+          <span class="carac-name">Expertise Mentale</span>
+          <span class="carac-value">${formatMod(expMent)}</span>
+          <span class="carac-help" title="mINT">ⓘ</span>
+        </div>
+        <div class="carac-box">
+          <span class="carac-name">Précision Physique</span>
+          <span class="carac-value">${formatMod(precPhys)}</span>
+          <span class="carac-help" title="mDEX">ⓘ</span>
+        </div>
+        <div class="carac-box">
+          <span class="carac-name">Précision Mentale</span>
+          <span class="carac-value">${formatMod(precMent)}</span>
+          <span class="carac-help" title="mINT">ⓘ</span>
         </div>
       </div>
     `;
@@ -1555,7 +1650,80 @@ const UI = {
       this.character.tradition = e.target.value;
       Storage.save(this.character);
       this.renderRessources();
+      this.renderMagieCaracteristiques();
     });
+  },
+
+  // Rendu des caractéristiques magiques
+  renderMagieCaracteristiques() {
+    const container = document.getElementById('magie-caracteristiques');
+    if (!container) return;
+
+    const porteeMagique = Character.calculerPorteeMagique(this.character);
+    const tempsIncantation = Character.calculerTempsIncantation(this.character);
+    const expertiseMagique = Character.calculerExpertiseMagique(this.character);
+    const resistanceDrain = Character.calculerResistanceDrain(this.character);
+    const puissanceInvocatrice = Character.calculerPuissanceInvocatrice(this.character);
+    const puissanceSoinsDegats = Character.calculerPuissanceSoinsDegats(this.character);
+    const puissancePositive = Character.calculerPuissancePositive(this.character);
+    const puissanceNegative = Character.calculerPuissanceNegative(this.character);
+    const puissanceGenerique = Character.calculerPuissanceGenerique(this.character);
+
+    const formatMod = (val) => val >= 0 ? '+' + val : val;
+
+    container.innerHTML = `
+      <div class="magie-carac-section">
+        <div class="magie-carac-row magie-puissances">
+          <div class="carac-box carac-box-small">
+            <span class="carac-name">Puissance Invocatrice</span>
+            <span class="carac-value">${formatMod(puissanceInvocatrice)}</span>
+            <span class="carac-desc">Effets d'invocation</span>
+          </div>
+          <div class="carac-box carac-box-small">
+            <span class="carac-name">Puissance Soins/Dégâts</span>
+            <span class="carac-value">${formatMod(puissanceSoinsDegats)}</span>
+            <span class="carac-desc">Effets de soins/dégats/perte/gain/etc</span>
+          </div>
+          <div class="carac-box carac-box-small">
+            <span class="carac-name">Puissance Positive</span>
+            <span class="carac-value">${formatMod(puissancePositive)}</span>
+            <span class="carac-desc">Enchantements positif (bénédictions)</span>
+          </div>
+          <div class="carac-box carac-box-small">
+            <span class="carac-name">Puissance Négative</span>
+            <span class="carac-value">${formatMod(puissanceNegative)}</span>
+            <span class="carac-desc">Enchantements négatif (malédictions)</span>
+          </div>
+          <div class="carac-box carac-box-small">
+            <span class="carac-name">Puissance Générique</span>
+            <span class="carac-value">${formatMod(puissanceGenerique)}</span>
+            <span class="carac-desc">Tous les autres effets</span>
+          </div>
+        </div>
+        <div class="caracteristiques-grid">
+          <div class="carac-box">
+            <span class="carac-name">Portée Magique</span>
+            <span class="carac-value">${porteeMagique} <small>m/c</small></span>
+            <span class="carac-help" title="10 + mPER">ⓘ</span>
+          </div>
+          <div class="carac-box">
+            <span class="carac-name">Temps d'Incantation</span>
+            <span class="carac-value">${formatMod(-tempsIncantation)}</span>
+            <span class="carac-help" title="-mDEX">ⓘ</span>
+          </div>
+          <div class="carac-box">
+            <span class="carac-name">Expertise Magique</span>
+            <span class="carac-value">${formatMod(expertiseMagique)}</span>
+            <span class="carac-help" title="mAttribut Tradition">ⓘ</span>
+          </div>
+          <div class="carac-box">
+            <span class="carac-name">Résistance au Drain</span>
+            <span class="carac-value">${resistanceDrain}</span>
+            <span class="carac-help" title="mAttribut Tradition">ⓘ</span>
+          </div>
+        </div>
+      </div>
+    `;
   },
 
   // === COMPETENCES ===
@@ -1960,9 +2128,9 @@ const UI = {
         </div>
 
         <div class="traits-container">
-          ${this.renderTraitsList(desavantages, 'desavantage', traitsDisponibles)}
-          ${this.renderAvantagesCaste()}
           ${this.renderTraitsList(avantages, 'avantage', traitsDisponibles)}
+          ${this.renderAvantagesCaste()}
+          ${this.renderTraitsList(desavantages, 'desavantage', traitsDisponibles)}
         </div>
       </section>
     `;
@@ -2188,6 +2356,1908 @@ const UI = {
           btn?.click();
         }
       });
+    });
+  },
+
+  // === STATUS ===
+
+  renderStatus() {
+    const container = document.getElementById('tab-status');
+    if (!container) return;
+
+    const resilience = Character.calculerResilience(this.character);
+    const bonusConfig = this.character.bonusConfig || {};
+
+    // Résiliences spécifiques
+    const resilPhys = resilience + (bonusConfig.resiliencePhysique || 0);
+    const resilMent = resilience + (bonusConfig.resilienceMentale || 0);
+    const resilMag = resilience + (bonusConfig.resilienceMagique || 0);
+    const resilFat = resilience + (bonusConfig.resilienceFatigue || 0);
+    const resilCorr = resilience + (bonusConfig.resilienceCorruption || 0);
+
+    // Mapping ressource → résilience spécifique pour les temporaires
+    const resilParRessource = {
+      PE: resilPhys,
+      PS: resilMent,
+      PM: resilMag,
+      PV: resilience,
+      PK: resilience,
+      PC: resilience
+    };
+
+    const ressourcesData = DATA.ressources;
+
+    // S'assurer que les ressources ont la propriété temporaire
+    for (const key of Object.keys(this.character.ressources)) {
+      if (this.character.ressources[key].temporaire === undefined) {
+        this.character.ressources[key].temporaire = 0;
+      }
+    }
+
+    const recuperation = Character.calculerRecuperation(this.character);
+    const equilibreTotal = Character.getValeurTotale(this.character, 'EQU');
+
+    // Calcul des pénalités de lésions
+    const lesions = this.character.lesions || [];
+    const blessures = lesions.filter(l => l.type === 'blessure');
+    const traumas = lesions.filter(l => l.type === 'traumatisme');
+    const maxNivBlessure = blessures.length > 0
+      ? Math.max(...blessures.map(l => l.max > 0 ? Math.ceil(l.actuel / l.max) : 0))
+      : 0;
+    const maxNivTrauma = traumas.length > 0
+      ? Math.max(...traumas.map(l => l.max > 0 ? Math.ceil(l.actuel / l.max) : 0))
+      : 0;
+
+    // Calcul des pénalités de tensions (Fatigue et Corruption)
+    const tensions = this.character.tensions || { fatigue: 0, corruption: 0 };
+    const nivFatigue = resilFat > 0 ? Math.ceil(tensions.fatigue / resilFat) : 0;
+    const nivCorruption = resilCorr > 0 ? Math.ceil(tensions.corruption / resilCorr) : 0;
+
+    const penaliteLesions = maxNivBlessure + maxNivTrauma;
+    const penaliteTensions = nivFatigue + nivCorruption;
+    const penaliteTotal = penaliteLesions + penaliteTensions;
+
+    // État de choc si PE <= 0
+    const peActuel = this.character.ressources?.PE?.actuel || 0;
+    const enChoc = peActuel <= 0;
+
+    container.innerHTML = `
+      <!-- Récap État -->
+      <div class="status-recap-box">
+        <div class="status-recap-item">
+          <span class="status-recap-label">État</span>
+          <span class="status-recap-value ${enChoc ? 'etat-choc' : 'etat-normal'}">${enChoc ? 'Choc' : 'Normal'}</span>
+        </div>
+        <div class="status-recap-item">
+          <span class="status-recap-label">Pénalités</span>
+          <span class="status-recap-value ${penaliteTotal > 0 ? 'has-penalty' : ''}">${penaliteTotal} <span class="status-recap-detail">(${maxNivBlessure}/${maxNivTrauma}/${nivFatigue}/${nivCorruption})</span></span>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <section class="section status-actions-section">
+        <div class="status-actions-box">
+          <div class="status-actions-group">
+            <span class="status-actions-label">Combat</span>
+            <button class="btn-combat" id="btn-confrontation" title="Démarre une confrontation avec Initiative et Moral">Confrontation</button>
+            <button class="btn-combat" id="btn-nouveau-tour" title="Nouveau tour de combat">Nouveau Tour</button>
+            <button class="btn-combat" id="btn-nouveau-round" title="Réduit l'Initiative de 10">Nouveau Round</button>
+          </div>
+          <div class="status-actions-group">
+            <span class="status-actions-label">Scène</span>
+            <button class="btn-scene" id="btn-fin-scene" title="Supprime temporaires et initiative">Fin de Scène</button>
+          </div>
+          <div class="status-actions-group">
+            <span class="status-actions-label">Repos</span>
+            <button class="btn-repos" id="btn-repos-court" title="Remet PE au minimum (EQU) et supprime les temporaires">Repos Court</button>
+            <button class="btn-repos" id="btn-repos-long" title="Applique la récupération et remet PE au max">Repos Long</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ressources -->
+      <section class="section">
+        <h2 class="section-title">Ressources</h2>
+        <p class="status-info">Résilience : ${resilience} | Récupération : ${recuperation} | Équilibre : ${equilibreTotal}</p>
+        <div class="status-ressources-grid">
+          ${ressourcesData.map(res => {
+            const ressource = this.character.ressources[res.id] || { actuel: 0, max: 0, temporaire: 0 };
+            const actuel = ressource.actuel || 0;
+            const max = ressource.max || 0;
+            const resilTemp = resilParRessource[res.id] || resilience;
+            const temporaire = Math.min(ressource.temporaire || 0, resilTemp);
+            const total = max + temporaire;
+            const pctActuel = total > 0 ? Math.min(100, (actuel / total) * 100) : 0;
+            const pctTemp = total > 0 ? Math.min(100, (temporaire / total) * 100) : 0;
+
+            return `
+              <div class="status-ressource-box" data-ressource="${res.id}" data-resil-temp="${resilTemp}">
+                <div class="status-ressource-icone">${res.icone || ''}</div>
+                <div class="status-ressource-content">
+                  <div class="status-ressource-header">
+                    <span class="status-ressource-nom">${res.nom}</span>
+                    <span class="status-ressource-valeurs">
+                      ${actuel} / ${max}${temporaire > 0 ? ` <span class="status-valeur-temp">(+${temporaire})</span>` : ''}
+                    </span>
+                  </div>
+                  <div class="status-ressource-bar-container">
+                    <div class="status-ressource-bar">
+                      <div class="status-ressource-bar-fill" style="width: ${pctActuel}%"></div>
+                    </div>
+                    ${temporaire > 0 ? `
+                      <div class="status-ressource-bar-temp" style="width: ${pctTemp}%; left: ${100 - pctTemp}%"></div>
+                    ` : ''}
+                  </div>
+                  <div class="status-ressource-controls">
+                    <span class="status-control-label">Actu</span>
+                    <button class="btn-status-minus" data-ressource="${res.id}" data-field="actuel">-</button>
+                    <button class="btn-status-edit" data-ressource="${res.id}" data-field="actuel" data-max="${total}">${actuel}</button>
+                    <button class="btn-status-plus" data-ressource="${res.id}" data-field="actuel">+</button>
+                    <span class="status-separator">|</span>
+                    <span class="status-control-label">Temp</span>
+                    <button class="btn-status-minus" data-ressource="${res.id}" data-field="temporaire">-</button>
+                    <button class="btn-status-edit" data-ressource="${res.id}" data-field="temporaire" data-max="${resilTemp}">${temporaire}</button>
+                    <button class="btn-status-plus" data-ressource="${res.id}" data-field="temporaire">+</button>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </section>
+
+      <!-- Autres Ressources -->
+      <section class="section">
+        <h2 class="section-title">Autres Ressources</h2>
+        <div class="status-ressources-grid status-autres-grid">
+          ${(this.character.autresRessources || []).map((ar, index) => {
+            const resData = DATA.autresRessources.find(r => r.id === ar.id);
+            if (!resData) return '';
+            const isSansMax = resData.sansMax === true;
+            const isTemporaire = resData.temporaire === true;
+            const isAbsorption = !!resData.absorption;
+            let maxEffectif;
+            if (isAbsorption) {
+              maxEffectif = resData.absorption === 'physique'
+                ? Character.calculerAbsorptionPhysique(this.character)
+                : Character.calculerAbsorptionMentale(this.character);
+            } else if (isTemporaire) {
+              maxEffectif = resilience;
+            } else {
+              maxEffectif = ar.max || 0;
+            }
+            const pctActuel = !isSansMax && maxEffectif > 0 ? Math.min(100, (ar.actuel / maxEffectif) * 100) : 0;
+            const reposTag = resData.reposCourt ? 'Court' : 'Long';
+            const reposClass = resData.reposCourt ? 'repos-court' : 'repos-long';
+            const hasEditableMax = !isSansMax && !isTemporaire && !isAbsorption;
+            return `
+              <div class="status-ressource-box status-autre-ressource ${reposClass}" data-autre-index="${index}">
+                <div class="status-ressource-icone">${resData.icone || ''}</div>
+                <div class="status-ressource-content">
+                  <div class="status-ressource-header">
+                    <span class="status-ressource-nom">${resData.nom} <span class="status-repos-tag ${reposClass}">${reposTag}</span></span>
+                    <span class="status-ressource-valeurs">${ar.actuel}${!isSansMax ? ` / ${maxEffectif}` : ''}</span>
+                  </div>
+                  ${!isSansMax ? `
+                  <div class="status-ressource-bar-container">
+                    <div class="status-ressource-bar">
+                      <div class="status-ressource-bar-fill status-autre-bar" style="width: ${pctActuel}%; background: linear-gradient(90deg, ${resData.couleur} 0%, ${resData.couleur}99 100%);"></div>
+                    </div>
+                  </div>
+                  ` : ''}
+                  <div class="status-ressource-controls">
+                    <span class="status-control-label">Valeur</span>
+                    <button class="btn-status-minus btn-autre-minus" data-autre-index="${index}">-</button>
+                    ${ar.id === 'initiative' ? `<button class="btn-status-minus btn-initiative-moins5" data-autre-index="${index}">-5</button>` : ''}
+                    <button class="btn-status-edit btn-autre-edit" data-autre-index="${index}" data-max="${isSansMax ? 999 : maxEffectif}" data-sans-max="${isSansMax}">${ar.actuel}</button>
+                    <button class="btn-status-plus btn-autre-plus" data-autre-index="${index}" data-sans-max="${isSansMax}" data-max="${isSansMax ? 999 : maxEffectif}">+</button>
+                    ${hasEditableMax ? `
+                    <span class="status-separator">|</span>
+                    <span class="status-control-label">Max</span>
+                    <button class="btn-status-edit btn-autre-max-edit" data-autre-index="${index}">${ar.max}</button>
+                    ` : ''}
+                    <button class="btn-autre-delete" data-autre-index="${index}" title="Supprimer">✕</button>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+          <!-- Carte d'ajout -->
+          <div class="status-ressource-box status-autre-add">
+            <div class="status-autre-add-content">
+              <select class="select-autre-ressource" id="select-autre-ressource">
+                <option value="">-- Ajouter --</option>
+                ${DATA.autresRessources.filter(ar =>
+                  !(this.character.autresRessources || []).some(cr => cr.id === ar.id)
+                ).map(ar => `
+                  <option value="${ar.id}">${ar.icone} ${ar.nom} (${ar.reposCourt ? 'Court' : 'Long'})</option>
+                `).join('')}
+              </select>
+              <button class="btn-autre-add" id="btn-autre-add" title="Ajouter">+</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lésions -->
+      <section class="section">
+        <h2 class="section-title">Lésions</h2>
+        <div class="status-ressources-grid status-lesions-grid">
+          ${(this.character.lesions || []).map((lesion, index) => {
+            const lesionData = DATA.typesLesions.find(l => l.id === lesion.type);
+            if (!lesionData) return '';
+            const pctActuel = lesion.max > 0 ? Math.min(100, (lesion.actuel / lesion.max) * 100) : 0;
+            const niveauGravite = lesion.max > 0 ? Math.ceil(lesion.actuel / lesion.max) : 0;
+            const gravite = DATA.gravites.find(g => g.niveau === Math.min(niveauGravite, 5)) || DATA.gravites[0];
+            return `
+              <div class="status-ressource-box status-lesion" data-lesion-index="${index}">
+                <div class="status-ressource-icone">${lesionData.icone || ''}</div>
+                <div class="status-ressource-content">
+                  <div class="status-ressource-header">
+                    <span class="status-ressource-nom">${lesionData.nom} <span class="status-lesion-gravite" style="color: ${gravite.couleur};">${gravite.nom}</span></span>
+                    <span class="status-ressource-valeurs">${lesion.actuel} / ${lesion.max}</span>
+                  </div>
+                  <div class="status-ressource-bar-container">
+                    <div class="status-ressource-bar">
+                      <div class="status-ressource-bar-fill" style="width: ${pctActuel}%; background: linear-gradient(90deg, ${gravite.couleur} 0%, ${gravite.couleur}99 100%);"></div>
+                    </div>
+                  </div>
+                  <div class="status-ressource-controls">
+                    <span class="status-control-label">Valeur</span>
+                    <button class="btn-status-minus btn-lesion-minus" data-lesion-index="${index}">-</button>
+                    <button class="btn-status-edit btn-lesion-edit" data-lesion-index="${index}" data-max="${lesion.max}">${lesion.actuel}</button>
+                    <button class="btn-status-plus btn-lesion-plus" data-lesion-index="${index}">+</button>
+                    <button class="btn-lesion-delete" data-lesion-index="${index}" title="Supprimer">✕</button>
+                    <span class="status-lesion-niveau" style="color: ${gravite.couleur};">Nv ${niveauGravite}</span>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+          <!-- Carte d'ajout -->
+          <div class="status-ressource-box status-lesion-add">
+            <div class="status-lesion-add-content">
+              <select class="select-lesion" id="select-lesion">
+                <option value="">-- Type --</option>
+                ${DATA.typesLesions.map(l => {
+                  const protection = l.protection === 'physique'
+                    ? Character.calculerProtectionPhysique(this.character)
+                    : Character.calculerProtectionMentale(this.character);
+                  return `<option value="${l.id}" data-max="${protection}">${l.icone} ${l.nom} (max: ${protection})</option>`;
+                }).join('')}
+              </select>
+              <input type="number" class="input-lesion-valeur" id="input-lesion-valeur" min="1" placeholder="Valeur" title="Valeur initiale">
+              <button class="btn-lesion-add" id="btn-lesion-add" title="Ajouter">+</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conditions -->
+      <section class="section">
+        <h2 class="section-title">Conditions</h2>
+        <div class="status-ressources-grid status-conditions-grid">
+          ${(this.character.conditions || []).map((cond, index) => {
+            const condData = DATA.conditions.find(c => c.id === cond.id);
+            if (!condData) return '';
+            const typeClass = condData.type === 'physique' ? 'type-physique' : 'type-mentale';
+            const typeLabel = condData.type === 'physique' ? 'Phys' : 'Ment';
+            return `
+              <div class="status-ressource-box status-condition ${typeClass} ${cond.avancee ? 'condition-avancee' : ''}" data-condition-index="${index}">
+                <div class="status-ressource-icone">${condData.icone || ''}</div>
+                <div class="status-ressource-content">
+                  <div class="status-ressource-header">
+                    <span class="status-ressource-nom">${condData.nom} ${cond.avancee ? '<span class="condition-avancee-tag">Avancée</span>' : ''}</span>
+                    <span class="status-condition-type ${typeClass}">${typeLabel}</span>
+                  </div>
+                  <div class="status-condition-effets">${condData.effets}</div>
+                  <div class="status-ressource-controls">
+                    <span class="status-control-label">Charges</span>
+                    <button class="btn-status-minus btn-condition-minus" data-condition-index="${index}">-</button>
+                    <button class="btn-status-edit btn-condition-edit" data-condition-index="${index}">${cond.charges}</button>
+                    <button class="btn-status-plus btn-condition-plus" data-condition-index="${index}">+</button>
+                    <label class="condition-avancee-toggle" title="Avancée">
+                      <input type="checkbox" class="condition-avancee-checkbox" data-condition-index="${index}" ${cond.avancee ? 'checked' : ''}>
+                      <span class="condition-avancee-label">Av.</span>
+                    </label>
+                    <button class="btn-condition-delete" data-condition-index="${index}" title="Supprimer">✕</button>
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+          <!-- Carte d'ajout -->
+          <div class="status-ressource-box status-condition-add">
+            <div class="status-condition-add-content">
+              <select class="select-condition" id="select-condition">
+                <option value="">-- Condition --</option>
+                ${DATA.conditions.map(c => {
+                  const typeLabel = c.type === 'physique' ? '🏃' : '🧠';
+                  return `<option value="${c.id}">${typeLabel} ${c.nom}</option>`;
+                }).join('')}
+              </select>
+              <input type="number" class="input-condition-charges" id="input-condition-charges" min="1" value="10" placeholder="Charges" title="Charges initiales">
+              <button class="btn-condition-add" id="btn-condition-add" title="Ajouter">+</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tensions -->
+      <section class="section">
+        <h2 class="section-title">Tensions</h2>
+        <div class="status-ressources-grid status-lesions-grid">
+          ${this.renderTensionCard('fatigue', 'Fatigue', '😫', tensions.fatigue, resilFat, nivFatigue)}
+          ${this.renderTensionCard('corruption', 'Corruption', '💀', tensions.corruption, resilCorr, nivCorruption)}
+        </div>
+      </section>
+    `;
+
+    // Event listeners pour ressources principales
+    container.querySelectorAll('.btn-status-minus:not(.btn-autre-minus)').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const resId = btn.dataset.ressource;
+        const field = btn.dataset.field;
+        const ressource = this.character.ressources[resId];
+        if (ressource[field] > 0) {
+          ressource[field]--;
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-status-plus:not(.btn-autre-plus)').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const resId = btn.dataset.ressource;
+        const field = btn.dataset.field;
+        const ressource = this.character.ressources[resId];
+        const box = btn.closest('.status-ressource-box');
+        const resilTemp = parseInt(box?.dataset.resilTemp) || resilience;
+        const maxVal = field === 'temporaire' ? resilTemp : ressource.max + (ressource.temporaire || 0);
+        if (ressource[field] < maxVal) {
+          ressource[field]++;
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-status-edit:not(.btn-autre-edit):not(.btn-autre-max-edit)').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const resId = btn.dataset.ressource;
+        const field = btn.dataset.field;
+        const maxVal = parseInt(btn.dataset.max) || 0;
+        const ressource = this.character.ressources[resId];
+        const currentVal = ressource[field] || 0;
+
+        this.showStatusEditModal(resId, field, currentVal, maxVal, resilience);
+      });
+    });
+
+    // Event listeners pour autres ressources
+    container.querySelectorAll('.btn-autre-minus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.autreIndex);
+        const ar = this.character.autresRessources[index];
+        if (ar && ar.actuel > 0) {
+          ar.actuel--;
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-initiative-moins5').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.autreIndex);
+        const ar = this.character.autresRessources[index];
+        if (ar) {
+          ar.actuel = Math.max(0, ar.actuel - 5);
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-autre-plus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.autreIndex);
+        const ar = this.character.autresRessources[index];
+        const resData = DATA.autresRessources.find(r => r.id === ar?.id);
+        if (ar) {
+          const isSansMax = resData?.sansMax === true;
+          const isTemporaire = resData?.temporaire === true;
+          const isAbsorption = !!resData?.absorption;
+          let maxEffectif;
+          if (isSansMax) {
+            maxEffectif = 999;
+          } else if (isAbsorption) {
+            maxEffectif = resData.absorption === 'physique'
+              ? Character.calculerAbsorptionPhysique(this.character)
+              : Character.calculerAbsorptionMentale(this.character);
+          } else if (isTemporaire) {
+            maxEffectif = resilience;
+          } else {
+            maxEffectif = ar.max;
+          }
+          if (ar.actuel < maxEffectif) {
+            ar.actuel++;
+            Storage.save(this.character);
+            this.renderStatus();
+          }
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-autre-edit').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.autreIndex);
+        const ar = this.character.autresRessources[index];
+        const resData = DATA.autresRessources.find(r => r.id === ar?.id);
+        if (ar) {
+          const isSansMax = resData?.sansMax === true;
+          const isTemporaire = resData?.temporaire === true;
+          const isAbsorption = !!resData?.absorption;
+          let maxEffectif;
+          if (isSansMax) {
+            maxEffectif = 999;
+          } else if (isAbsorption) {
+            maxEffectif = resData.absorption === 'physique'
+              ? Character.calculerAbsorptionPhysique(this.character)
+              : Character.calculerAbsorptionMentale(this.character);
+          } else if (isTemporaire) {
+            maxEffectif = resilience;
+          } else {
+            maxEffectif = ar.max;
+          }
+          this.showAutreRessourceEditModal(index, 'actuel', ar.actuel, maxEffectif, isSansMax);
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-autre-max-edit').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.autreIndex);
+        const ar = this.character.autresRessources[index];
+        if (ar) {
+          this.showAutreRessourceEditModal(index, 'max', ar.max, 99);
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-autre-delete').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.autreIndex);
+        this.character.autresRessources.splice(index, 1);
+        Storage.save(this.character);
+        this.renderStatus();
+      });
+    });
+
+    document.getElementById('btn-autre-add')?.addEventListener('click', () => {
+      const select = document.getElementById('select-autre-ressource');
+      const id = select?.value;
+      if (id) {
+        if (!this.character.autresRessources) this.character.autresRessources = [];
+        this.character.autresRessources.push({ id, actuel: 0, max: 10 });
+        Storage.save(this.character);
+        this.renderStatus();
+      }
+    });
+
+    // Event listeners pour lésions
+    container.querySelectorAll('.btn-lesion-minus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.lesionIndex);
+        const lesion = this.character.lesions[index];
+        if (lesion && lesion.actuel > 0) {
+          lesion.actuel--;
+          // Supprimer si actuel atteint 0
+          if (lesion.actuel <= 0) {
+            this.character.lesions.splice(index, 1);
+          }
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-lesion-plus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.lesionIndex);
+        const lesion = this.character.lesions[index];
+        if (lesion) {
+          lesion.actuel++;
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-lesion-edit').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.lesionIndex);
+        const lesion = this.character.lesions[index];
+        if (lesion) {
+          this.showLesionEditModal(index, lesion.actuel, lesion.max);
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-lesion-delete').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.lesionIndex);
+        this.character.lesions.splice(index, 1);
+        Storage.save(this.character);
+        this.renderStatus();
+      });
+    });
+
+    // Mise à jour de la valeur par défaut quand on change le type de lésion
+    document.getElementById('select-lesion')?.addEventListener('change', (e) => {
+      const input = document.getElementById('input-lesion-valeur');
+      const selectedOption = e.target.selectedOptions[0];
+      if (input && selectedOption) {
+        const maxVal = selectedOption.dataset.max || '';
+        input.value = maxVal; // Valeur par défaut = protection, mais pas de limite max
+      }
+    });
+
+    document.getElementById('btn-lesion-add')?.addEventListener('click', () => {
+      const select = document.getElementById('select-lesion');
+      const input = document.getElementById('input-lesion-valeur');
+      const type = select?.value;
+      if (type) {
+        const lesionData = DATA.typesLesions.find(l => l.id === type);
+        const protection = lesionData.protection === 'physique'
+          ? Character.calculerProtectionPhysique(this.character)
+          : Character.calculerProtectionMentale(this.character);
+        let valeur = parseInt(input?.value) || protection;
+        valeur = Math.max(1, valeur); // Minimum 1, pas de maximum
+        if (!this.character.lesions) this.character.lesions = [];
+        this.character.lesions.push({ type, actuel: valeur, max: protection });
+        Storage.save(this.character);
+        this.renderStatus();
+      }
+    });
+
+    // Event listeners pour conditions
+    container.querySelectorAll('.btn-condition-minus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.conditionIndex);
+        const cond = this.character.conditions[index];
+        if (cond && cond.charges > 0) {
+          cond.charges--;
+          if (cond.charges <= 0) {
+            this.character.conditions.splice(index, 1);
+          }
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-condition-plus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.conditionIndex);
+        const cond = this.character.conditions[index];
+        if (cond) {
+          cond.charges++;
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-condition-edit').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.conditionIndex);
+        const cond = this.character.conditions[index];
+        if (cond) {
+          this.showConditionEditModal(index, cond.charges);
+        }
+      });
+    });
+
+    container.querySelectorAll('.condition-avancee-checkbox').forEach(cb => {
+      cb.addEventListener('change', () => {
+        const index = parseInt(cb.dataset.conditionIndex);
+        const cond = this.character.conditions[index];
+        if (cond) {
+          cond.avancee = cb.checked;
+          Storage.save(this.character);
+          this.renderStatus();
+        }
+      });
+    });
+
+    container.querySelectorAll('.btn-condition-delete').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.dataset.conditionIndex);
+        this.character.conditions.splice(index, 1);
+        Storage.save(this.character);
+        this.renderStatus();
+      });
+    });
+
+    document.getElementById('btn-condition-add')?.addEventListener('click', () => {
+      const select = document.getElementById('select-condition');
+      const input = document.getElementById('input-condition-charges');
+      const id = select?.value;
+      if (id) {
+        let charges = parseInt(input?.value) || 10;
+        charges = Math.max(1, charges);
+        if (!this.character.conditions) this.character.conditions = [];
+        this.character.conditions.push({ id, charges, avancee: false });
+        Storage.save(this.character);
+        this.renderStatus();
+      }
+    });
+
+    // Boutons de combat
+    document.getElementById('btn-confrontation')?.addEventListener('click', () => {
+      this.showConfrontationModal();
+    });
+
+    document.getElementById('btn-nouveau-tour')?.addEventListener('click', () => {
+      this.appliquerNouveauTour();
+    });
+
+    document.getElementById('btn-nouveau-round')?.addEventListener('click', () => {
+      this.appliquerNouveauRound();
+    });
+
+    // Bouton fin de scène
+    document.getElementById('btn-fin-scene')?.addEventListener('click', () => {
+      this.appliquerFinDeScene();
+    });
+
+    // Boutons de repos
+    document.getElementById('btn-repos-court')?.addEventListener('click', () => {
+      this.showReposConfirmModal('court', equilibreTotal, recuperation);
+    });
+
+    document.getElementById('btn-repos-long')?.addEventListener('click', () => {
+      this.showReposConfirmModal('long', equilibreTotal, recuperation);
+    });
+
+    // Event listeners pour tensions
+    container.querySelectorAll('.btn-tension-minus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tensionId = btn.dataset.tension;
+        if (!this.character.tensions) this.character.tensions = { fatigue: 0, corruption: 0 };
+        this.character.tensions[tensionId] = Math.max(0, (this.character.tensions[tensionId] || 0) - 1);
+        Storage.save(this.character);
+        this.renderStatus();
+      });
+    });
+
+    container.querySelectorAll('.btn-tension-plus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tensionId = btn.dataset.tension;
+        if (!this.character.tensions) this.character.tensions = { fatigue: 0, corruption: 0 };
+        this.character.tensions[tensionId] = (this.character.tensions[tensionId] || 0) + 1;
+        Storage.save(this.character);
+        this.renderStatus();
+      });
+    });
+
+    container.querySelectorAll('.btn-tension-edit').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tensionId = btn.dataset.tension;
+        this.showTensionEditModal(tensionId);
+      });
+    });
+  },
+
+  renderTensionCard(id, nom, icone, actuel, max, niveau) {
+    const gravite = DATA.gravites.find(g => g.niveau === Math.min(niveau, 5)) || DATA.gravites[0];
+    const pct = max > 0 ? Math.min((actuel / max) * 100, 100) : 0;
+
+    return `
+      <div class="status-ressource-box status-lesion status-tension" data-tension="${id}">
+        <div class="status-ressource-icone">${icone}</div>
+        <div class="status-ressource-content">
+          <div class="status-ressource-header">
+            <span class="status-ressource-nom">${nom} <span class="status-lesion-gravite" style="color: ${gravite.couleur};">${gravite.nom}</span></span>
+            <span class="status-ressource-valeurs">${actuel} / ${max}</span>
+          </div>
+          <div class="status-ressource-bar-container">
+            <div class="status-ressource-bar">
+              <div class="status-ressource-bar-fill" style="width: ${pct}%; background: linear-gradient(90deg, ${gravite.couleur} 0%, ${gravite.couleur}99 100%);"></div>
+            </div>
+          </div>
+          <div class="status-ressource-controls">
+            <span class="status-control-label">Valeur</span>
+            <button class="btn-status-minus btn-tension-minus" data-tension="${id}">-</button>
+            <button class="btn-status-edit btn-tension-edit" data-tension="${id}">${actuel}</button>
+            <button class="btn-status-plus btn-tension-plus" data-tension="${id}">+</button>
+            <span class="status-lesion-niveau" style="color: ${gravite.couleur};">Nv ${niveau}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  showTensionEditModal(tensionId) {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    if (!this.character.tensions) this.character.tensions = { fatigue: 0, corruption: 0 };
+    const actuel = this.character.tensions[tensionId] || 0;
+    const nom = tensionId === 'fatigue' ? 'Fatigue' : 'Corruption';
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>Modifier ${nom}</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body">
+          <input type="number" class="status-edit-input" id="input-tension-value" value="${actuel}" min="0" autofocus>
+        </div>
+        <div class="status-edit-modal-footer">
+          <button class="btn-repos-confirm" id="btn-tension-confirm">OK</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const input = modal.querySelector('#input-tension-value');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const confirmBtn = modal.querySelector('#btn-tension-confirm');
+
+    input.focus();
+    input.select();
+
+    const applyValue = () => {
+      const val = Math.max(0, parseInt(input.value) || 0);
+      this.character.tensions[tensionId] = val;
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyValue);
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyValue();
+    });
+    closeBtn.addEventListener('click', () => modal.remove());
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  appliquerNouveauTour() {
+    // Affiche une popup pour saisir l'initiative
+    this.showNouveauTourModal();
+  },
+
+  showNouveauTourModal() {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const absPhysique = Character.calculerAbsorptionPhysique(this.character);
+    const absMentale = Character.calculerAbsorptionMentale(this.character);
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>Nouveau Tour</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body" style="flex-direction: column; gap: 15px;">
+          <p class="repos-description">Entrez le résultat de votre jet d'Initiative.</p>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span>Initiative :</span>
+            <input type="number" class="status-edit-input" id="input-initiative-tour" value="10" min="0" autofocus>
+          </div>
+          <p class="repos-description" style="font-size: 0.8rem; color: var(--color-text-light);">
+            Armure Physique : ${absPhysique} | Armure Mentale : ${absMentale}
+          </p>
+        </div>
+        <div class="status-edit-modal-footer repos-footer">
+          <button class="btn-repos-cancel">Annuler</button>
+          <button class="btn-repos-confirm">Démarrer</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const input = modal.querySelector('#input-initiative-tour');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const cancelBtn = modal.querySelector('.btn-repos-cancel');
+    const confirmBtn = modal.querySelector('.btn-repos-confirm');
+
+    input.focus();
+    input.select();
+
+    const applyNouveauTour = () => {
+      const initiative = parseInt(input.value) || 0;
+
+      // Initialise les autres ressources si nécessaire
+      if (!this.character.autresRessources) this.character.autresRessources = [];
+
+      // Supprime les anciennes armures et initiative si présentes
+      this.character.autresRessources = this.character.autresRessources.filter(
+        ar => !['armure_physique', 'armure_mentale', 'initiative'].includes(ar.id)
+      );
+
+      // Ajoute les ressources de combat au début (dans l'ordre inverse pour unshift)
+      // Ajoute Initiative
+      if (initiative > 0) {
+        this.character.autresRessources.unshift({
+          id: 'initiative',
+          actuel: initiative
+        });
+      }
+
+      // Ajoute Armure Mentale (si absorption > 0)
+      if (absMentale > 0) {
+        this.character.autresRessources.unshift({
+          id: 'armure_mentale',
+          actuel: absMentale
+        });
+      }
+
+      // Ajoute Armure Physique (si absorption > 0)
+      if (absPhysique > 0) {
+        this.character.autresRessources.unshift({
+          id: 'armure_physique',
+          actuel: absPhysique
+        });
+      }
+
+      // Réduit les conditions selon leur type
+      if (this.character.conditions && this.character.conditions.length > 0) {
+        const sagTotal = Character.getValeurTotale(this.character, 'SAG');
+        const modEqu = Character.calculerModificateur(Character.getValeurTotale(this.character, 'EQU'));
+        const caste = this.castes.find(c => c.nom === this.character.caste.nom);
+        const rangCaste = this.character.caste.rang || 0;
+
+        const recupPV = this.calculerRecuperationRessource('PV', sagTotal, modEqu, caste, rangCaste);
+        const recupPS = this.calculerRecuperationRessource('PS', sagTotal, modEqu, caste, rangCaste);
+
+        this.character.conditions = this.character.conditions.filter(cond => {
+          const condData = DATA.conditions.find(c => c.id === cond.id);
+          if (!condData) return false;
+
+          const recup = condData.type === 'physique' ? recupPV : recupPS;
+          cond.charges -= recup;
+
+          return cond.charges > 0;
+        });
+      }
+
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyNouveauTour);
+
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyNouveauTour();
+    });
+
+    cancelBtn.addEventListener('click', () => modal.remove());
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  showConfrontationModal() {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const absPhysique = Character.calculerAbsorptionPhysique(this.character);
+    const absMentale = Character.calculerAbsorptionMentale(this.character);
+    const resilience = Character.calculerResilience(this.character);
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>Début de Confrontation</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body" style="flex-direction: column; gap: 15px;">
+          <p class="repos-description">Entrez vos résultats de jets d'Initiative et de Moral.</p>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="min-width: 80px;">Initiative :</span>
+            <input type="number" class="status-edit-input" id="input-confrontation-initiative" value="10" min="0" autofocus>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="min-width: 80px;">Moral :</span>
+            <input type="number" class="status-edit-input" id="input-confrontation-moral" value="10" min="0" max="${resilience}">
+            <small style="color: var(--color-text-muted);">max: ${resilience}</small>
+          </div>
+          <p class="repos-description" style="font-size: 0.8rem; color: var(--color-text-light);">
+            Armure Physique : ${absPhysique} | Armure Mentale : ${absMentale}
+          </p>
+        </div>
+        <div class="status-edit-modal-footer repos-footer">
+          <button class="btn-repos-cancel">Annuler</button>
+          <button class="btn-repos-confirm">Démarrer</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const inputInitiative = modal.querySelector('#input-confrontation-initiative');
+    const inputMoral = modal.querySelector('#input-confrontation-moral');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const cancelBtn = modal.querySelector('.btn-repos-cancel');
+    const confirmBtn = modal.querySelector('.btn-repos-confirm');
+
+    inputInitiative.focus();
+    inputInitiative.select();
+
+    const applyConfrontation = () => {
+      const initiative = parseInt(inputInitiative.value) || 0;
+      const moral = Math.min(parseInt(inputMoral.value) || 0, resilience);
+
+      // Initialise les autres ressources si nécessaire
+      if (!this.character.autresRessources) this.character.autresRessources = [];
+
+      // Supprime les anciennes armures, initiative et moral si présentes
+      this.character.autresRessources = this.character.autresRessources.filter(
+        ar => !['armure_physique', 'armure_mentale', 'initiative', 'moral'].includes(ar.id)
+      );
+
+      // Ajoute les ressources de combat au début (dans l'ordre inverse pour unshift)
+      // Ajoute Moral
+      if (moral > 0) {
+        this.character.autresRessources.unshift({
+          id: 'moral',
+          actuel: moral,
+          max: resilience
+        });
+      }
+
+      // Ajoute Initiative
+      if (initiative > 0) {
+        this.character.autresRessources.unshift({
+          id: 'initiative',
+          actuel: initiative
+        });
+      }
+
+      // Ajoute Armure Mentale (si absorption > 0)
+      if (absMentale > 0) {
+        this.character.autresRessources.unshift({
+          id: 'armure_mentale',
+          actuel: absMentale
+        });
+      }
+
+      // Ajoute Armure Physique (si absorption > 0)
+      if (absPhysique > 0) {
+        this.character.autresRessources.unshift({
+          id: 'armure_physique',
+          actuel: absPhysique
+        });
+      }
+
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyConfrontation);
+
+    inputInitiative.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') inputMoral.focus();
+    });
+
+    inputMoral.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyConfrontation();
+    });
+
+    cancelBtn.addEventListener('click', () => modal.remove());
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  appliquerNouveauRound() {
+    // Réduit l'initiative de 10
+    if (this.character.autresRessources) {
+      const initiative = this.character.autresRessources.find(ar => ar.id === 'initiative');
+      if (initiative) {
+        initiative.actuel = Math.max(0, initiative.actuel - 10);
+        // Si l'initiative tombe à 0, on la supprime
+        if (initiative.actuel <= 0) {
+          this.character.autresRessources = this.character.autresRessources.filter(ar => ar.id !== 'initiative');
+        }
+      }
+    }
+    Storage.save(this.character);
+    this.renderStatus();
+  },
+
+  appliquerFinDeScene() {
+    // Supprime tous les temporaires des ressources principales
+    for (const key of Object.keys(this.character.ressources)) {
+      this.character.ressources[key].temporaire = 0;
+    }
+
+    // Supprime l'initiative et les armures
+    if (this.character.autresRessources) {
+      this.character.autresRessources = this.character.autresRessources.filter(
+        ar => !['armure_physique', 'armure_mentale', 'initiative'].includes(ar.id)
+      );
+    }
+
+    Storage.save(this.character);
+    this.renderStatus();
+  },
+
+  showReposConfirmModal(type, equilibreTotal, recuperation) {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const isCourtType = type === 'court';
+    const titre = isCourtType ? 'Repos Court' : 'Repos Long';
+    const description = isCourtType
+      ? `Remet l'Endurance au minimum (${equilibreTotal}) et supprime tous les points temporaires.`
+      : `Applique la récupération à chaque ressource (bonus pour ressources de caste), remet l'Endurance au maximum, réduit la Fatigue (récup PE) et la Corruption (récup normale).`;
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>${titre}</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body">
+          <p class="repos-description">${description}</p>
+        </div>
+        <div class="status-edit-modal-footer repos-footer">
+          <button class="btn-repos-cancel">Annuler</button>
+          <button class="btn-repos-confirm">Confirmer</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const cancelBtn = modal.querySelector('.btn-repos-cancel');
+    const confirmBtn = modal.querySelector('.btn-repos-confirm');
+
+    const closeModal = () => modal.remove();
+
+    closeBtn.addEventListener('click', closeModal);
+    cancelBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+    confirmBtn.addEventListener('click', () => {
+      if (isCourtType) {
+        this.appliquerReposCourt(equilibreTotal);
+      } else {
+        this.appliquerReposLong(recuperation);
+      }
+      closeModal();
+    });
+  },
+
+  appliquerReposCourt(equilibreTotal) {
+    // Remet PE au minimum (équilibre total)
+    const pe = this.character.ressources['PE'];
+    if (pe) {
+      pe.actuel = Math.max(pe.actuel, equilibreTotal);
+      if (pe.actuel > pe.max) pe.actuel = pe.max;
+    }
+
+    // Supprime tous les temporaires
+    for (const key of Object.keys(this.character.ressources)) {
+      this.character.ressources[key].temporaire = 0;
+    }
+
+    // Supprime les autres ressources qui se nettoient au repos court
+    if (this.character.autresRessources) {
+      this.character.autresRessources = this.character.autresRessources.filter(ar => {
+        const resData = DATA.autresRessources.find(r => r.id === ar.id);
+        return resData && resData.reposCourt === false;
+      });
+    }
+
+    Storage.save(this.character);
+    this.renderStatus();
+  },
+
+  appliquerReposLong(recuperationBase) {
+    // Calcul de la récupération par ressource (bonus caste)
+    const sagTotal = Character.getValeurTotale(this.character, 'SAG');
+    const modEqu = Character.calculerModificateur(Character.getValeurTotale(this.character, 'EQU'));
+    const caste = this.castes.find(c => c.nom === this.character.caste.nom);
+    const rangCaste = this.character.caste.rang || 0;
+
+    // Applique la récupération à chaque ressource
+    DATA.ressources.forEach(resData => {
+      const res = this.character.ressources[resData.id];
+      if (!res) return;
+
+      const recup = this.calculerRecuperationRessource(resData.id, sagTotal, modEqu, caste, rangCaste);
+      res.actuel = Math.min(res.actuel + recup, res.max);
+    });
+
+    // Remet PE au maximum
+    const pe = this.character.ressources['PE'];
+    if (pe) {
+      pe.actuel = pe.max;
+    }
+
+    // Supprime les autres ressources
+    this.character.autresRessources = [];
+
+    // Récupération des lésions
+    if (this.character.lesions && this.character.lesions.length > 0) {
+      // Calcule la récup PV et PS pour les lésions
+      const recupPV = this.calculerRecuperationRessource('PV', sagTotal, modEqu, caste, rangCaste);
+      const recupPS = this.calculerRecuperationRessource('PS', sagTotal, modEqu, caste, rangCaste);
+
+      // Réduit chaque lésion selon son type
+      this.character.lesions = this.character.lesions.filter(lesion => {
+        const lesionData = DATA.typesLesions.find(l => l.id === lesion.type);
+        if (!lesionData) return false;
+
+        const recup = lesionData.ressource === 'PV' ? recupPV : recupPS;
+        lesion.actuel -= recup;
+
+        // Garde la lésion seulement si elle a encore des points
+        return lesion.actuel > 0;
+      });
+    }
+
+    // Récupération des tensions
+    if (!this.character.tensions) this.character.tensions = { fatigue: 0, corruption: 0 };
+    const recupPE = this.calculerRecuperationRessource('PE', sagTotal, modEqu, caste, rangCaste);
+    // Fatigue réduite de la récupération PE
+    this.character.tensions.fatigue = Math.max(0, this.character.tensions.fatigue - recupPE);
+    // Corruption réduite de la récupération normale
+    this.character.tensions.corruption = Math.max(0, this.character.tensions.corruption - recuperationBase);
+
+    Storage.save(this.character);
+    this.renderStatus();
+  },
+
+  calculerRecuperationRessource(resId, sagTotal, modEqu, caste, rangCaste) {
+    // Récupération de base (utilise Character.calculerRecuperation qui inclut bonusConfig.recuperation)
+    const baseRecup = Character.calculerRecuperation(this.character);
+
+    // Bonus spécifique à la ressource (bonusConfig.recuperationPV, etc.)
+    const bonusKey = 'recuperation' + resId;
+    const bonusRessource = this.character.bonusConfig?.[bonusKey] || 0;
+
+    // Bonus de caste : +1 par rang impair (1, 3, 5, 7...) si ressource de caste
+    const isCasteRessource = caste && caste.ressources && caste.ressources.includes(resId);
+    const bonusCaste = isCasteRessource ? Math.ceil(rangCaste / 2) : 0;
+
+    return baseRecup + bonusRessource + bonusCaste;
+  },
+
+  showStatusEditModal(resId, field, currentVal, maxVal, resilience) {
+    // Supprimer modale existante si présente
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const fieldLabel = field === 'actuel' ? 'Actuel' : 'Temporaire';
+    const resData = DATA.ressources.find(r => r.id === resId);
+    const resNom = resData ? resData.nom : resId;
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>${resNom} - ${fieldLabel}</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body">
+          <input type="number" class="status-edit-input" value="${currentVal}" min="0" max="${maxVal}" autofocus>
+          <span class="status-edit-max">/ ${maxVal}</span>
+        </div>
+        <div class="status-edit-modal-footer">
+          <button class="btn-status-edit-confirm">OK</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const input = modal.querySelector('.status-edit-input');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const confirmBtn = modal.querySelector('.btn-status-edit-confirm');
+
+    // Focus et sélection
+    input.focus();
+    input.select();
+
+    const applyValue = () => {
+      let val = parseInt(input.value) || 0;
+      val = Math.max(0, Math.min(val, maxVal));
+      this.character.ressources[resId][field] = val;
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyValue);
+
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyValue();
+    });
+
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  showAutreRessourceEditModal(index, field, currentVal, maxVal, isSansMax = false) {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const ar = this.character.autresRessources[index];
+    const resData = DATA.autresRessources.find(r => r.id === ar.id);
+    const fieldLabel = field === 'actuel' ? 'Valeur' : 'Maximum';
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>${resData?.nom || ar.id} - ${fieldLabel}</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body">
+          <input type="number" class="status-edit-input" value="${currentVal}" min="0" ${!isSansMax ? `max="${maxVal}"` : ''} autofocus>
+          ${field === 'actuel' && !isSansMax ? `<span class="status-edit-max">/ ${maxVal}</span>` : ''}
+        </div>
+        <div class="status-edit-modal-footer">
+          <button class="btn-status-edit-confirm">OK</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const input = modal.querySelector('.status-edit-input');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const confirmBtn = modal.querySelector('.btn-status-edit-confirm');
+
+    input.focus();
+    input.select();
+
+    const applyValue = () => {
+      let val = parseInt(input.value) || 0;
+      val = Math.max(0, isSansMax ? val : Math.min(val, maxVal));
+      this.character.autresRessources[index][field] = val;
+      // Si on modifie le max et que actuel > max, ajuster actuel
+      if (field === 'max' && this.character.autresRessources[index].actuel > val) {
+        this.character.autresRessources[index].actuel = val;
+      }
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyValue);
+
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyValue();
+    });
+
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  showLesionEditModal(index, currentVal, maxVal) {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const lesion = this.character.lesions[index];
+    const lesionData = DATA.typesLesions.find(l => l.id === lesion.type);
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>${lesionData?.nom || lesion.type} - Valeur</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body">
+          <input type="number" class="status-edit-input" value="${currentVal}" min="0" autofocus>
+          <span class="status-edit-max">/ ${maxVal}</span>
+        </div>
+        <div class="status-edit-modal-footer">
+          <button class="btn-status-edit-confirm">OK</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const input = modal.querySelector('.status-edit-input');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const confirmBtn = modal.querySelector('.btn-status-edit-confirm');
+
+    input.focus();
+    input.select();
+
+    const applyValue = () => {
+      let val = parseInt(input.value) || 0;
+      val = Math.max(0, val);
+      this.character.lesions[index].actuel = val;
+      // Si la lésion tombe à 0, la supprimer
+      if (val <= 0) {
+        this.character.lesions.splice(index, 1);
+      }
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyValue);
+
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyValue();
+    });
+
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  showConditionEditModal(index, currentVal) {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const cond = this.character.conditions[index];
+    const condData = DATA.conditions.find(c => c.id === cond.id);
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content">
+        <div class="status-edit-modal-header">
+          <span>${condData?.nom || cond.id} - Charges</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body">
+          <input type="number" class="status-edit-input" value="${currentVal}" min="0" autofocus>
+        </div>
+        <div class="status-edit-modal-footer">
+          <button class="btn-status-edit-confirm">OK</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const input = modal.querySelector('.status-edit-input');
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const confirmBtn = modal.querySelector('.btn-status-edit-confirm');
+
+    input.focus();
+    input.select();
+
+    const applyValue = () => {
+      let val = parseInt(input.value) || 0;
+      val = Math.max(0, val);
+      this.character.conditions[index].charges = val;
+      if (val <= 0) {
+        this.character.conditions.splice(index, 1);
+      }
+      Storage.save(this.character);
+      modal.remove();
+      this.renderStatus();
+    };
+
+    confirmBtn.addEventListener('click', applyValue);
+
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') applyValue();
+    });
+
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  // === NOTES ===
+
+  renderNotes() {
+    const container = document.getElementById('tab-notes');
+    if (!container) return;
+
+    // Migration : convertit l'ancien format objet en array
+    if (this.character.notes && !Array.isArray(this.character.notes)) {
+      const oldNotes = this.character.notes;
+      const newNotes = [];
+      if (oldNotes.note1) newNotes.push({ titre: 'Note 1', contenu: oldNotes.note1 });
+      if (oldNotes.note2) newNotes.push({ titre: 'Note 2', contenu: oldNotes.note2 });
+      if (oldNotes.note3) newNotes.push({ titre: 'Note 3', contenu: oldNotes.note3 });
+      this.character.notes = newNotes;
+      Storage.save(this.character);
+    }
+
+    // Initialise notes si absent
+    if (!this.character.notes) {
+      this.character.notes = [];
+    }
+
+    const notes = this.character.notes;
+
+    const notesHtml = notes.map((note, index) => `
+      <div class="note-block" data-index="${index}">
+        <div class="note-header">
+          <input type="text" class="note-titre" data-index="${index}" value="${note.titre || ''}" placeholder="Titre de la note..." />
+          <button class="note-delete" data-index="${index}" title="Supprimer cette note">&times;</button>
+        </div>
+        <textarea class="note-textarea" data-index="${index}" placeholder="Écrivez vos notes ici...">${note.contenu || ''}</textarea>
+      </div>
+    `).join('');
+
+    container.innerHTML = `
+      <section class="section notes-section">
+        <h2 class="section-title">Notes</h2>
+        <div class="notes-container">
+          ${notesHtml}
+          <button class="note-add-btn" id="btn-add-note">
+            <span class="note-add-icon">+</span>
+            <span class="note-add-text">Ajouter une note</span>
+          </button>
+        </div>
+      </section>
+    `;
+
+    // Événement ajout de note
+    document.getElementById('btn-add-note')?.addEventListener('click', () => {
+      this.character.notes.push({ titre: '', contenu: '' });
+      Storage.save(this.character);
+      this.renderNotes();
+      // Focus sur le titre de la nouvelle note
+      const lastTitre = container.querySelector('.note-block:last-of-type .note-titre');
+      if (lastTitre) lastTitre.focus();
+    });
+
+    // Événements de sauvegarde automatique pour les titres
+    container.querySelectorAll('.note-titre').forEach(input => {
+      input.addEventListener('input', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        this.character.notes[index].titre = e.target.value;
+        Storage.save(this.character);
+      });
+    });
+
+    // Événements de sauvegarde automatique pour les contenus
+    container.querySelectorAll('.note-textarea').forEach(textarea => {
+      textarea.addEventListener('input', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        this.character.notes[index].contenu = e.target.value;
+        Storage.save(this.character);
+      });
+    });
+
+    // Événements de suppression
+    container.querySelectorAll('.note-delete').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const index = parseInt(e.target.dataset.index);
+        if (confirm('Supprimer cette note ?')) {
+          this.character.notes.splice(index, 1);
+          Storage.save(this.character);
+          this.renderNotes();
+        }
+      });
+    });
+  },
+
+  // === CONFIG ===
+
+  renderConfig() {
+    const container = document.getElementById('tab-config');
+    if (!container) return;
+
+    // Initialise bonusConfig si absent ou incomplet
+    const defaultBonus = {
+      allure: 0, resilience: 0, encombrement: 0,
+      protectionPhysique: 0, protectionMentale: 0,
+      absorptionPhysique: 0, absorptionMentale: 0,
+      recuperation: 0, recuperationPV: 0, recuperationPS: 0,
+      recuperationPE: 0, recuperationPM: 0, recuperationPK: 0, recuperationPC: 0,
+      memoire: 0, chargeMax: 0, poigne: 0, prouessesInnees: 0,
+      moral: 0, perfPhysique: 0, perfMentale: 0,
+      controleActif: 0, controlePassif: 0, techniqueMax: 0, expertisePhysique: 0, expertiseMentale: 0, precisionPhysique: 0, precisionMentale: 0,
+      porteeMagique: 0, tempsIncantation: 0, expertiseMagique: 0, resistanceDrain: 0,
+      puissanceInvocatrice: 0, puissanceSoinsDegats: 0, puissancePositive: 0, puissanceNegative: 0, puissanceGenerique: 0,
+      maxPV: 0, maxPS: 0, maxPE: 0, maxPM: 0, maxPK: 0, maxPC: 0,
+      attrFOR: 0, attrDEX: 0, attrAGI: 0, attrCON: 0, attrPER: 0,
+      attrCHA: 0, attrINT: 0, attrRUS: 0, attrVOL: 0, attrSAG: 0,
+      attrMAG: 0, attrLOG: 0, attrCHN: 0,
+      attrSTA: 0, attrTAI: 0, attrEGO: 0, attrAPP: 0
+    };
+    this.character.bonusConfig = { ...defaultBonus, ...this.character.bonusConfig };
+
+    const bonusConfig = this.character.bonusConfig;
+    const caracKeys = ['allure', 'resilience', 'encombrement', 'protectionPhysique', 'protectionMentale',
+      'absorptionPhysique', 'absorptionMentale', 'recuperation', 'recuperationPV', 'recuperationPS',
+      'recuperationPE', 'recuperationPM', 'recuperationPK', 'recuperationPC', 'memoire', 'chargeMax',
+      'poigne', 'prouessesInnees', 'moral', 'perfPhysique', 'perfMentale', 'controleActif', 'controlePassif', 'techniqueMax'];
+    const maxKeys = ['maxPV', 'maxPS', 'maxPE', 'maxPM', 'maxPK', 'maxPC'];
+    const attrKeys = ['attrFOR', 'attrDEX', 'attrAGI', 'attrCON', 'attrPER',
+      'attrCHA', 'attrINT', 'attrRUS', 'attrVOL', 'attrSAG',
+      'attrMAG', 'attrLOG', 'attrCHN', 'attrSTA', 'attrTAI', 'attrEGO', 'attrAPP'];
+
+    const hasCaracBonus = caracKeys.some(k => bonusConfig[k] !== 0);
+    const hasMaxBonus = maxKeys.some(k => bonusConfig[k] !== 0);
+    const hasAttrBonus = attrKeys.some(k => bonusConfig[k] !== 0);
+
+    container.innerHTML = `
+      <section class="section">
+        <h2 class="section-title">Configuration</h2>
+        <div class="config-content">
+          <div class="config-option">
+            <div class="config-option-header">
+              <span class="config-option-label">Bonus aux attributs</span>
+              ${hasAttrBonus ? '<span class="config-bonus-active">Actif</span>' : ''}
+            </div>
+            <p class="config-option-desc">Ajustez les bonus/malus aux attributs (équipement, effets, etc.)</p>
+            <button class="btn-config" id="btn-config-attr">Configurer les attributs</button>
+          </div>
+          <div class="config-option">
+            <div class="config-option-header">
+              <span class="config-option-label">Bonus aux caractéristiques</span>
+              ${hasCaracBonus ? '<span class="config-bonus-active">Actif</span>' : ''}
+            </div>
+            <p class="config-option-desc">Ajustez les bonus/malus aux caractéristiques calculées</p>
+            <button class="btn-config" id="btn-config-bonus">Configurer les bonus</button>
+          </div>
+          <div class="config-option">
+            <div class="config-option-header">
+              <span class="config-option-label">Bonus aux ressources max</span>
+              ${hasMaxBonus ? '<span class="config-bonus-active">Actif</span>' : ''}
+            </div>
+            <p class="config-option-desc">Ajustez les bonus/malus aux maximums des ressources</p>
+            <button class="btn-config" id="btn-config-max">Configurer les max</button>
+          </div>
+        </div>
+      </section>
+    `;
+
+    document.getElementById('btn-config-attr')?.addEventListener('click', () => {
+      this.showAttributsConfigModal();
+    });
+
+    document.getElementById('btn-config-bonus')?.addEventListener('click', () => {
+      this.showBonusConfigModal();
+    });
+
+    document.getElementById('btn-config-max')?.addEventListener('click', () => {
+      this.showMaxConfigModal();
+    });
+  },
+
+  showBonusConfigModal() {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const bonusConfig = this.character.bonusConfig || {};
+
+    const bonusFields = [
+      // Général
+      { id: 'allure', nom: 'Allure', desc: 'Vitesse de déplacement', section: 'Général' },
+      { id: 'resilience', nom: 'Résilience', desc: 'Résistance aux effets' },
+      { id: 'encombrement', nom: 'Encombrement Max', desc: 'Capacité de charge' },
+      { id: 'chargeMax', nom: 'Charge Max', desc: 'Poids transportable' },
+      { id: 'memoire', nom: 'Mémoire', desc: 'Capacité de mémorisation' },
+      // Combat
+      { id: 'protectionPhysique', nom: 'Protection Physique', desc: 'Seuil de blessure', section: 'Combat' },
+      { id: 'protectionMentale', nom: 'Protection Mentale', desc: 'Seuil de trauma' },
+      { id: 'absorptionPhysique', nom: 'Absorption Physique', desc: 'Réduction dégâts physiques' },
+      { id: 'absorptionMentale', nom: 'Absorption Mentale', desc: 'Réduction dégâts mentaux' },
+      { id: 'poigne', nom: 'Poigne', desc: 'Force de préhension' },
+      { id: 'prouessesInnees', nom: 'Prouesses Innées', desc: 'Capacités naturelles' },
+      { id: 'moral', nom: 'Moral', desc: 'Force mentale' },
+      { id: 'perfPhysique', nom: 'Perf. Physique', desc: 'Perforation physique' },
+      { id: 'perfMentale', nom: 'Perf. Mentale', desc: 'Perforation mentale' },
+      { id: 'controleActif', nom: 'Contrôle Actif', desc: 'Précision active' },
+      { id: 'controlePassif', nom: 'Contrôle Passif', desc: 'Esquive passive' },
+      { id: 'techniqueMax', nom: 'Technique Max', desc: 'Maîtrise technique' },
+      { id: 'expertisePhysique', nom: 'Expertise Physique', desc: 'Maîtrise physique (mDEX)' },
+      { id: 'expertiseMentale', nom: 'Expertise Mentale', desc: 'Maîtrise mentale (mINT)' },
+      { id: 'precisionPhysique', nom: 'Précision Physique', desc: 'Précision physique (mDEX)' },
+      { id: 'precisionMentale', nom: 'Précision Mentale', desc: 'Précision mentale (mINT)' },
+      // Magie
+      { id: 'porteeMagique', nom: 'Portée Magique', desc: 'Distance des sorts', section: 'Magie' },
+      { id: 'tempsIncantation', nom: 'Temps Incantation', desc: 'Réduction temps de lancement' },
+      { id: 'expertiseMagique', nom: 'Expertise Magique', desc: 'Maîtrise (mAttr Tradition)' },
+      { id: 'resistanceDrain', nom: 'Résist. Drain', desc: 'Résistance (mAttr Tradition)' },
+      { id: 'puissanceInvocatrice', nom: 'Puiss. Invocatrice', desc: 'Invocation (mCHA)' },
+      { id: 'puissanceSoinsDegats', nom: 'Puiss. Soins/Dégâts', desc: 'Soins et dégâts (mVOL)' },
+      { id: 'puissancePositive', nom: 'Puiss. Positive', desc: 'Effets positifs (mSAG)' },
+      { id: 'puissanceNegative', nom: 'Puiss. Négative', desc: 'Effets négatifs (mRUS)' },
+      { id: 'puissanceGenerique', nom: 'Puiss. Générique', desc: 'Effets génériques (mINT)' },
+      // Résiliences spécifiques
+      { id: 'resiliencePhysique', nom: 'Résil. Physique', desc: 'PE temporaires', section: 'Résiliences' },
+      { id: 'resilienceMentale', nom: 'Résil. Mentale', desc: 'PS temporaires' },
+      { id: 'resilienceMagique', nom: 'Résil. Magique', desc: 'PM temporaires' },
+      { id: 'resilienceNerf', nom: 'Résil. Nerf', desc: 'Garde, Rage, Adrénaline' },
+      { id: 'resilienceCorruption', nom: 'Résil. Corruption', desc: 'Max Corruption' },
+      { id: 'resilienceFatigue', nom: 'Résil. Fatigue', desc: 'Max Fatigue' },
+      // Récupération
+      { id: 'recuperation', nom: 'Récupération', desc: 'Récupération globale', section: 'Récupération' },
+      { id: 'recuperationPV', nom: 'Récup. PV', desc: 'Bonus récupération Vitalité' },
+      { id: 'recuperationPS', nom: 'Récup. PS', desc: 'Bonus récupération Spiritualité' },
+      { id: 'recuperationPE', nom: 'Récup. PE', desc: 'Bonus récupération Endurance' },
+      { id: 'recuperationPM', nom: 'Récup. PM', desc: 'Bonus récupération Mana' },
+      { id: 'recuperationPK', nom: 'Récup. PK', desc: 'Bonus récupération Karma' },
+      { id: 'recuperationPC', nom: 'Récup. PC', desc: 'Bonus récupération Chi' }
+    ];
+
+    // Générer le HTML avec sections
+    let currentSection = '';
+    const gridHtml = bonusFields.map(field => {
+      let sectionHtml = '';
+      if (field.section && field.section !== currentSection) {
+        currentSection = field.section;
+        sectionHtml = `<div class="config-bonus-section">${field.section}</div>`;
+      }
+      return `${sectionHtml}
+        <div class="config-bonus-row">
+          <span class="config-bonus-nom">${field.nom}</span>
+          <input type="number" class="config-bonus-input" data-bonus-id="${field.id}" value="${bonusConfig[field.id] || 0}">
+        </div>`;
+    }).join('');
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content config-modal-content">
+        <div class="status-edit-modal-header">
+          <span>Configurer les bonus</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body config-modal-body">
+          <div class="config-bonus-grid">
+            ${gridHtml}
+          </div>
+        </div>
+        <div class="status-edit-modal-footer repos-footer">
+          <button class="btn-repos-cancel" id="btn-bonus-reset">Réinitialiser</button>
+          <button class="btn-repos-confirm" id="btn-bonus-apply">Appliquer</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const resetBtn = modal.querySelector('#btn-bonus-reset');
+    const applyBtn = modal.querySelector('#btn-bonus-apply');
+
+    const applyBonus = () => {
+      modal.querySelectorAll('.config-bonus-input').forEach(input => {
+        const id = input.dataset.bonusId;
+        const val = parseInt(input.value) || 0;
+        this.character.bonusConfig[id] = val;
+      });
+      Storage.save(this.character);
+      modal.remove();
+      this.render();
+    };
+
+    const resetBonus = () => {
+      modal.querySelectorAll('.config-bonus-input').forEach(input => {
+        input.value = 0;
+      });
+    };
+
+    applyBtn.addEventListener('click', applyBonus);
+    resetBtn.addEventListener('click', resetBonus);
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  showMaxConfigModal() {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const bonusConfig = this.character.bonusConfig || {};
+
+    const maxFields = [
+      { id: 'maxPV', nom: 'Max PV', desc: 'Points de Vitalité' },
+      { id: 'maxPS', nom: 'Max PS', desc: 'Points de Spiritualité' },
+      { id: 'maxPE', nom: 'Max PE', desc: 'Points d\'Endurance' },
+      { id: 'maxPM', nom: 'Max PM', desc: 'Points de Mana' },
+      { id: 'maxPK', nom: 'Max PK', desc: 'Points de Karma' },
+      { id: 'maxPC', nom: 'Max PC', desc: 'Points de Chi' }
+    ];
+
+    const gridHtml = maxFields.map(field => {
+      return `
+        <div class="config-bonus-row">
+          <span class="config-bonus-nom">${field.nom}</span>
+          <input type="number" class="config-bonus-input" data-bonus-id="${field.id}" value="${bonusConfig[field.id] || 0}">
+        </div>`;
+    }).join('');
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content config-modal-content config-max-modal">
+        <div class="status-edit-modal-header">
+          <span>Bonus aux Ressources Max</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body config-modal-body">
+          <div class="config-max-grid">
+            ${gridHtml}
+          </div>
+        </div>
+        <div class="status-edit-modal-footer repos-footer">
+          <button class="btn-repos-cancel" id="btn-max-reset">Réinitialiser</button>
+          <button class="btn-repos-confirm" id="btn-max-apply">Appliquer</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const resetBtn = modal.querySelector('#btn-max-reset');
+    const applyBtn = modal.querySelector('#btn-max-apply');
+
+    const applyMax = () => {
+      modal.querySelectorAll('.config-bonus-input').forEach(input => {
+        const id = input.dataset.bonusId;
+        const val = parseInt(input.value) || 0;
+        this.character.bonusConfig[id] = val;
+      });
+      Storage.save(this.character);
+      modal.remove();
+      this.render();
+    };
+
+    const resetMax = () => {
+      modal.querySelectorAll('.config-bonus-input').forEach(input => {
+        input.value = 0;
+      });
+    };
+
+    applyBtn.addEventListener('click', applyMax);
+    resetBtn.addEventListener('click', resetMax);
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
+    });
+  },
+
+  showAttributsConfigModal() {
+    const existingModal = document.querySelector('.status-edit-modal');
+    if (existingModal) existingModal.remove();
+
+    const bonusConfig = this.character.bonusConfig || {};
+
+    const attrFields = [
+      // Corps
+      { id: 'attrFOR', nom: 'Force', section: 'Corps' },
+      { id: 'attrDEX', nom: 'Dextérité' },
+      { id: 'attrAGI', nom: 'Agilité' },
+      { id: 'attrCON', nom: 'Constitution' },
+      { id: 'attrPER', nom: 'Perception' },
+      // Esprit
+      { id: 'attrCHA', nom: 'Charisme', section: 'Esprit' },
+      { id: 'attrINT', nom: 'Intelligence' },
+      { id: 'attrRUS', nom: 'Ruse' },
+      { id: 'attrVOL', nom: 'Volonté' },
+      { id: 'attrSAG', nom: 'Sagesse' },
+      // Spéciaux
+      { id: 'attrMAG', nom: 'Magie', section: 'Spéciaux' },
+      { id: 'attrLOG', nom: 'Logique' },
+      { id: 'attrCHN', nom: 'Chance' },
+      // Secondaires
+      { id: 'attrSTA', nom: 'Stature', section: 'Secondaires' },
+      { id: 'attrTAI', nom: 'Taille' },
+      { id: 'attrEGO', nom: 'Ego' },
+      { id: 'attrAPP', nom: 'Apparence' }
+    ];
+
+    // Générer le HTML avec sections
+    let currentSection = '';
+    const gridHtml = attrFields.map(field => {
+      let sectionHtml = '';
+      if (field.section && field.section !== currentSection) {
+        currentSection = field.section;
+        sectionHtml = `<div class="config-bonus-section">${field.section}</div>`;
+      }
+      return `${sectionHtml}
+        <div class="config-bonus-row">
+          <span class="config-bonus-nom">${field.nom}</span>
+          <input type="number" class="config-bonus-input" data-bonus-id="${field.id}" value="${bonusConfig[field.id] || 0}">
+        </div>`;
+    }).join('');
+
+    const modal = document.createElement('div');
+    modal.className = 'status-edit-modal';
+    modal.innerHTML = `
+      <div class="status-edit-modal-content config-modal-content config-attr-modal">
+        <div class="status-edit-modal-header">
+          <span>Bonus aux Attributs</span>
+          <button class="status-edit-modal-close">&times;</button>
+        </div>
+        <div class="status-edit-modal-body config-modal-body">
+          <div class="config-attr-grid">
+            ${gridHtml}
+          </div>
+        </div>
+        <div class="status-edit-modal-footer repos-footer">
+          <button class="btn-repos-cancel" id="btn-attr-reset">Réinitialiser</button>
+          <button class="btn-repos-confirm" id="btn-attr-apply">Appliquer</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const closeBtn = modal.querySelector('.status-edit-modal-close');
+    const resetBtn = modal.querySelector('#btn-attr-reset');
+    const applyBtn = modal.querySelector('#btn-attr-apply');
+
+    const applyAttr = () => {
+      modal.querySelectorAll('.config-bonus-input').forEach(input => {
+        const id = input.dataset.bonusId;
+        const val = parseInt(input.value) || 0;
+        this.character.bonusConfig[id] = val;
+      });
+      Storage.save(this.character);
+      modal.remove();
+      this.render();
+    };
+
+    const resetAttr = () => {
+      modal.querySelectorAll('.config-bonus-input').forEach(input => {
+        input.value = 0;
+      });
+    };
+
+    applyBtn.addEventListener('click', applyAttr);
+    resetBtn.addEventListener('click', resetAttr);
+    closeBtn.addEventListener('click', () => modal.remove());
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.remove();
     });
   }
 };

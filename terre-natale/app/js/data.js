@@ -152,6 +152,57 @@ const DATA = {
 };
 
 // Freeze pour éviter les modifications accidentelles
+// Types de lésions
+DATA.typesLesions = [
+  { id: 'blessure', nom: 'Blessure', icone: '🩸', couleur: '#8B0000', protection: 'physique', ressource: 'PV' },
+  { id: 'traumatisme', nom: 'Traumatisme', icone: '💔', couleur: '#4B0082', protection: 'mentale', ressource: 'PS' }
+];
+
+// Niveaux de gravité des lésions (niveau = ceil(actuel / max))
+DATA.gravites = [
+  { niveau: 0, nom: 'Bénine', couleur: '#2E7D32' },
+  { niveau: 1, nom: 'Légère', couleur: '#689F38' },
+  { niveau: 2, nom: 'Importante', couleur: '#F9A825' },
+  { niveau: 3, nom: 'Grave', couleur: '#EF6C00' },
+  { niveau: 4, nom: 'Mortelle', couleur: '#C62828' },
+  { niveau: 5, nom: 'Incapacitante', couleur: '#4A148C' }
+];
+
+// Autres ressources (optionnelles)
+// reposCourt: true = nettoyée au repos court (et long), false = nettoyée uniquement au repos long
+// temporaire: true = max limité à résilience, false/absent = max personnalisé
+// sansMax: true = pas de maximum (affiche juste la valeur actuelle)
+DATA.autresRessources = [
+  { id: 'armure_physique', nom: 'Armure Physique', icone: '🛡️', couleur: '#8B4513', reposCourt: true, absorption: 'physique' },
+  { id: 'armure_mentale', nom: 'Armure Mentale', icone: '🧠', couleur: '#483D8B', reposCourt: true, absorption: 'mentale' },
+  { id: 'initiative', nom: 'Initiative', icone: '⏱️', couleur: '#DAA520', reposCourt: true, sansMax: true },
+  { id: 'moral', nom: 'Moral', icone: '💪', couleur: '#228B22', reposCourt: true, maxResilience: true },
+  { id: 'rage', nom: 'Rage', icone: '🔥', couleur: '#B22222', reposCourt: true, temporaire: true },
+  { id: 'garde', nom: 'Garde', icone: '🛡️', couleur: '#4682B4', reposCourt: true, temporaire: true },
+  { id: 'adrenaline', nom: 'Adrénaline', icone: '⚡', couleur: '#9932CC', reposCourt: true, temporaire: true },
+  { id: 'strategie', nom: 'Stratégie', icone: '♟️', couleur: '#2E8B57', reposCourt: false }
+];
+
+// Conditions (type: physique ou mentale, avancee: effets aggravés)
+DATA.conditions = [
+  // Conditions physiques
+  { id: 'empoisonne', nom: 'Empoisonné', type: 'physique', effets: 'Malus aux actions physiques', icone: '☠️' },
+  { id: 'affaibli', nom: 'Affaibli', type: 'physique', effets: 'Dégâts réduits', icone: '💪' },
+  { id: 'ralenti', nom: 'Ralenti', type: 'physique', effets: 'Allure et initiative réduites', icone: '🐌' },
+  { id: 'aveugle', nom: 'Aveuglé', type: 'physique', effets: 'Ne peut pas voir', icone: '🙈' },
+  { id: 'assourdi', nom: 'Assourdi', type: 'physique', effets: 'Ne peut pas entendre', icone: '🙉' },
+  { id: 'entrave', nom: 'Entravé', type: 'physique', effets: 'Immobilisé', icone: '⛓️' },
+  { id: 'saignement', nom: 'Saignement', type: 'physique', effets: 'Perd des PV chaque tour', icone: '🩸' },
+  { id: 'fatigue', nom: 'Fatigué', type: 'physique', effets: 'Malus général', icone: '😴' },
+  // Conditions mentales
+  { id: 'effraye', nom: 'Effrayé', type: 'mentale', effets: 'Fuit la source de peur', icone: '😨' },
+  { id: 'charme', nom: 'Charmé', type: 'mentale', effets: 'Considère la source comme alliée', icone: '💕' },
+  { id: 'confus', nom: 'Confus', type: 'mentale', effets: 'Actions aléatoires', icone: '😵' },
+  { id: 'provoque', nom: 'Provoqué', type: 'mentale', effets: 'Doit attaquer la source', icone: '😤' },
+  { id: 'distrait', nom: 'Distrait', type: 'mentale', effets: 'Malus à la perception', icone: '🤔' },
+  { id: 'desespere', nom: 'Désespéré', type: 'mentale', effets: 'Malus aux actions mentales', icone: '😢' }
+];
+
 Object.freeze(DATA);
 Object.freeze(DATA.attributsCorps);
 Object.freeze(DATA.attributsEsprit);
@@ -168,3 +219,7 @@ Object.freeze(DATA.vecus);
 Object.freeze(DATA.coutSecondaire);
 Object.freeze(DATA.coutChance);
 Object.freeze(DATA.typesMémoire);
+Object.freeze(DATA.typesLesions);
+Object.freeze(DATA.gravites);
+Object.freeze(DATA.autresRessources);
+Object.freeze(DATA.conditions);
