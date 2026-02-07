@@ -1464,128 +1464,128 @@ const UI = {
         <div class="carac-box">
           <span class="carac-name">Allure</span>
           <span class="carac-value">${allure}</span>
-          <span class="carac-help" title="10 + mTAI + mAGI">ⓘ</span>
+          <span class="carac-help" title="10 + mTAI + mAGI">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Déplacement</span>
           <span class="carac-value">${deplacement} <small>m/c</small></span>
-          <span class="carac-help" title="Allure / 2">ⓘ</span>
+          <span class="carac-help" title="Allure / 2">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Saut Hauteur</span>
           <span class="carac-value">${sautHauteur} <small>m/c</small></span>
-          <span class="carac-help" title="Allure / 8">ⓘ</span>
+          <span class="carac-help" title="Allure / 8">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Saut Largeur</span>
           <span class="carac-value">${sautLargeur} <small>m/c</small></span>
-          <span class="carac-help" title="Allure / 4">ⓘ</span>
+          <span class="carac-help" title="Allure / 4">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Résilience</span>
           <span class="carac-value">${resilience}</span>
-          <span class="carac-help" title="10 + mVOL + mEQU">ⓘ</span>
-          <span class="carac-help carac-help-details" title="Physique (PE temp): ${resilPhys} | Mentale (PS temp): ${resilMent} | Magique (PM temp): ${resilMag} | Nerf (Garde/Rage/Adré): ${resilNerf} | Fatigue: ${resilFat} | Corruption: ${resilCorr}">!</span>
+          <span class="carac-help" title="10 + mVOL + mEQU">�</span>
+          <span class="carac-help carac-help-details" title="Physique (PE temp): ${resilPhys} | Mentale (PS temp): ${resilMent} | Magique (PM temp): ${resilMag} | Nerf (Garde/Rage/Adré): ${resilNerf} | Fatigue: ${resilFat} | Corruption: ${resilCorr}">ⓘ</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Récupération</span>
           <span class="carac-value">${recuperation}</span>
-          <span class="carac-help" title="5 + mSAG">ⓘ</span>
+          <span class="carac-help" title="5 + mSAG">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Mémoire</span>
           <span class="carac-value">${memoire}</span>
-          <span class="carac-help" title="INT - 5">ⓘ</span>
+          <span class="carac-help" title="INT - 5">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Charge Max</span>
           <span class="carac-value">${chargeMax}</span>
-          <span class="carac-help" title="5 + FOR + STA">ⓘ</span>
+          <span class="carac-help" title="5 + FOR + STA">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Encombrement Max</span>
           <span class="carac-value">${encombrementMax}</span>
-          <span class="carac-help" title="5 + FOR + STA">ⓘ</span>
+          <span class="carac-help" title="5 + FOR + STA">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Poigne</span>
           <span class="carac-value">${poigne}</span>
-          <span class="carac-help" title="FOR">ⓘ</span>
+          <span class="carac-help" title="FOR">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Prot. Physique</span>
           <span class="carac-value">${protPhys}</span>
-          <span class="carac-help" title="5 + mSTA">ⓘ</span>
+          <span class="carac-help" title="5 + mSTA">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Prot. Mentale</span>
           <span class="carac-value">${protMent}</span>
-          <span class="carac-help" title="5 + mEGO">ⓘ</span>
+          <span class="carac-help" title="5 + mEGO">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Abs. Physique</span>
           <span class="carac-value">${formatMod(absPhys)}</span>
-          <span class="carac-help" title="mCON">ⓘ</span>
+          <span class="carac-help" title="mCON">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Abs. Mentale</span>
           <span class="carac-value">${formatMod(absMent)}</span>
-          <span class="carac-help" title="mVOL">ⓘ</span>
+          <span class="carac-help" title="mVOL">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Prouesses Innées</span>
           <span class="carac-value">${formatMod(prouesses)}</span>
-          <span class="carac-help" title="mRUS">ⓘ</span>
+          <span class="carac-help" title="mRUS">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Moral</span>
           <span class="carac-value">${formatMod(moral)}</span>
-          <span class="carac-help" title="mCHA">ⓘ</span>
+          <span class="carac-help" title="mCHA">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Perf. Physique</span>
           <span class="carac-value">${formatMod(perfPhys)}</span>
-          <span class="carac-help" title="mPER">ⓘ</span>
+          <span class="carac-help" title="mPER">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Perf. Mentale</span>
           <span class="carac-value">${formatMod(perfMent)}</span>
-          <span class="carac-help" title="mSAG">ⓘ</span>
+          <span class="carac-help" title="mSAG">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Contrôle Actif</span>
           <span class="carac-value">${formatMod(ctrlActif)}</span>
-          <span class="carac-help" title="mDEX">ⓘ</span>
+          <span class="carac-help" title="mDEX">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Contrôle Passif</span>
           <span class="carac-value">${formatMod(ctrlPassif)}</span>
-          <span class="carac-help" title="mAGI">ⓘ</span>
+          <span class="carac-help" title="mAGI">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Technique Max</span>
           <span class="carac-value">${formatMod(techMax)}</span>
-          <span class="carac-help" title="mINT">ⓘ</span>
+          <span class="carac-help" title="mINT">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Expertise Physique</span>
           <span class="carac-value">${formatMod(expPhys)}</span>
-          <span class="carac-help" title="mDEX">ⓘ</span>
+          <span class="carac-help" title="mDEX">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Expertise Mentale</span>
           <span class="carac-value">${formatMod(expMent)}</span>
-          <span class="carac-help" title="mINT">ⓘ</span>
+          <span class="carac-help" title="mINT">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Précision Physique</span>
           <span class="carac-value">${formatMod(precPhys)}</span>
-          <span class="carac-help" title="mDEX">ⓘ</span>
+          <span class="carac-help" title="mDEX">�</span>
         </div>
         <div class="carac-box">
           <span class="carac-name">Précision Mentale</span>
           <span class="carac-value">${formatMod(precMent)}</span>
-          <span class="carac-help" title="mINT">ⓘ</span>
+          <span class="carac-help" title="mINT">�</span>
         </div>
       </div>
     `;
@@ -1704,22 +1704,22 @@ const UI = {
           <div class="carac-box">
             <span class="carac-name">Portée Magique</span>
             <span class="carac-value">${porteeMagique} <small>m/c</small></span>
-            <span class="carac-help" title="10 + mPER">ⓘ</span>
+            <span class="carac-help" title="10 + mPER">�</span>
           </div>
           <div class="carac-box">
             <span class="carac-name">Temps d'Incantation</span>
             <span class="carac-value">${formatMod(-tempsIncantation)}</span>
-            <span class="carac-help" title="-mDEX">ⓘ</span>
+            <span class="carac-help" title="-mDEX">�</span>
           </div>
           <div class="carac-box">
             <span class="carac-name">Expertise Magique</span>
             <span class="carac-value">${formatMod(expertiseMagique)}</span>
-            <span class="carac-help" title="mAttribut Tradition">ⓘ</span>
+            <span class="carac-help" title="mAttribut Tradition">�</span>
           </div>
           <div class="carac-box">
             <span class="carac-name">Résistance au Drain</span>
             <span class="carac-value">${resistanceDrain}</span>
-            <span class="carac-help" title="mAttribut Tradition">ⓘ</span>
+            <span class="carac-help" title="mAttribut Tradition">�</span>
           </div>
         </div>
       </div>
