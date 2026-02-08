@@ -421,7 +421,7 @@ Génère un enchantement donne à sa cible les traits (visuel, sonore, odeurs) d
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✡️ Arcane: Colspatiys
-Génère un enchantement qui maintient un espace interdimentionnel en place, cet espace peux contenir <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> d'encombrement en matériel, cet espace appartient au lanceur de sort et déverse son contenu si l'enchantement prend fin, l'utilisation d'un mot pouvoir d'évocation est nécessaire pour stocker ou retirer des choses de cet espace.
+Génère un enchantement qui maintient un espace interdimentionnel en place, cet espace peux contenir <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> d'encombrement en matériel, cet espace appartient au lanceur de sort et déverse son contenu si l'enchantement prend fin, un lanceur de sort ne peux avoir qu'un espace de ce genre, les objets dans cet espaces subsistent à la fermerture de l'enchantement, mais un objet occupe une place qui dépends d'où/quand il est déposé (exemple : déposer un objet d'encombrement 3 alors qu'il y avait déjà 10 dans la poche le situs à 13, donc un usage ultérieur de cette poche nécessitera une magnitude 13 pour accéder à cet objet).
 
 ---
 
