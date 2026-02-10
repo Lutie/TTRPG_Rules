@@ -1,13 +1,27 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
-import { useCharacterCalculations } from '../../hooks/useCharacterCalculations';
+import { useCharacterCalculations, calculerModificateur, getValeurTotale } from '../../hooks/useCharacterCalculations';
+
+const ATTRS_PHYSIQUES = ['FOR', 'DEX', 'AGI', 'CON', 'PER'];
+
+const calculerDefense = (valeur, choque) => {
+  const mod = calculerModificateur(valeur);
+  const impair = valeur % 2 !== 0 ? 1 : 0;
+  return 10 + mod + (choque ? 0 : 5) + impair;
+};
 import DATA from '../../data';
 import Section from '../common/Section';
+import { calculerPenaliteAjustement } from './TabInventaire';
 
 function TabStatus() {
   const { character, updateCharacter } = useCharacter();
   const calc = useCharacterCalculations(character);
   const [editModal, setEditModal] = useState(null);
+  const [showConfrontationModal, setShowConfrontationModal] = useState(false);
+  const [showNouveauTourModal, setShowNouveauTourModal] = useState(false);
+  const [showRecapDetail, setShowRecapDetail] = useState(false);
+  const [showPhysique, setShowPhysique] = useState(false);
+  const [showMental, setShowMental] = useState(false);
 
   // Raccourcis
   const lesions = character.lesions || [];
@@ -36,6 +50,82 @@ function TabStatus() {
   // État de choc si PE <= 0
   const peActuel = character.ressources?.PE?.actuel || 0;
   const enChoc = peActuel <= 0;
+
+  // Calculs combat avec armure
+  const inventaire = character.inventaire || [];
+  const armureEquipee = inventaire.find(o => o.type === 'armure' && o.slot === 'armure');
+  const armureCat = armureEquipee ? (armureEquipee.categorie ?? 1) : 0;
+  const armureQualite = armureEquipee ? (armureEquipee.qualite ?? 0) : 0;
+  const bonus = character.bonusConfig || {};
+
+  // Absorption = absorption armure (cat×3) + mCON (CON finale = CON + qualité armure)
+  const conBase = getValeurTotale(character, 'CON');
+  const conEffective = conBase + armureQualite;
+  const mConEffective = calculerModificateur(conEffective);
+  const absorptionArmure = armureCat * 3;
+  const absorptionTotale = absorptionArmure + mConEffective + (bonus.absorptionPhysique || 0);
+
+  // Résistance = résistance armure (cat) + bonus
+  const resistanceArmure = armureCat;
+  const resistanceTotale = resistanceArmure + (bonus.resiliencePhysique || 0);
+
+  // Protection physique = carac protection (5 + mSTA) + protection armure (cat) + bonus
+  const protectionBase = 5 + calc.getMod('STA') + (bonus.protectionPhysique || 0);
+  const protectionArmure = armureCat;
+  const protectionTotale = protectionBase + protectionArmure;
+
+  // Défenses passives physiques (attribut + qualité armure, -5 si choqué)
+  const defensesPassives = ATTRS_PHYSIQUES.map(id => {
+    const val = getValeurTotale(character, id) + armureQualite;
+    return { id, defense: calculerDefense(val, enChoc) };
+  });
+
+  // Dégâts armes équipées
+  const FORMES_ATTR = {
+    tranchant: 'DEX', contondant: 'FOR', perforant: 'AGI', defense: 'CON', distance: 'PER'
+  };
+  const calcArme = (arme) => {
+    if (!arme) return null;
+    const cat = arme.categorie ?? 1;
+    const qual = arme.qualite ?? 0;
+    const attrId = FORMES_ATTR[arme.forme] || 'FOR';
+    const attrBase = getValeurTotale(character, attrId);
+    const mod = calculerModificateur(attrBase + qual);
+    const nbDes = 2 + cat;
+    // Perforation = m(PER + qualité arme) + bonus
+    const perBase = getValeurTotale(character, 'PER');
+    const perforation = calculerModificateur(perBase + qual) + (bonus.perfPhysique || 0);
+    // Précision = m(DEX + qualité arme) + bonus
+    const dexBase = getValeurTotale(character, 'DEX');
+    const precision = calculerModificateur(dexBase + qual) + (bonus.precisionPhysique || 0);
+    // Zone de contrôle active = m(DEX + qualité arme) + catégorie + bonus
+    const zoneActive = calculerModificateur(dexBase + qual) + cat + (bonus.controleActif || 0);
+    // Zone de contrôle passive = 5 + m(AGI + qualité arme) - catégorie + bonus
+    const agiBase = getValeurTotale(character, 'AGI');
+    const zonePassive = 5 + calculerModificateur(agiBase + qual) - cat + (bonus.controlePassif || 0);
+    // Expertise = 10 + m(DEX + qualité arme) + bonus
+    const expertise = 10 + calculerModificateur(dexBase + qual) + (bonus.expertisePhysique || 0);
+    return { nom: arme.nom, nbDes, mod, attrId, qual, cat, perforation, precision, zoneActive, zonePassive, expertise };
+  };
+  const armeMainDir = inventaire.find(o => o.type === 'arme' && o.slot === 'mainDirectrice')
+    || inventaire.find(o => o.type === 'arme' && o.slot === 'deuxMains');
+  const armeMainNonDir = inventaire.find(o => o.type === 'arme' && o.slot === 'mainNonDirectrice');
+  const degatsMainDir = calcArme(armeMainDir);
+  const degatsMainNonDir = calcArme(armeMainNonDir);
+
+  // Pénalités d'ajustement
+  const entrainements = character.entrainements || {};
+  const penaliteArmure = armureEquipee ? calculerPenaliteAjustement(armureEquipee, entrainements) : 0;
+  const penaliteArmeDir = armeMainDir ? calculerPenaliteAjustement(armeMainDir, entrainements) : 0;
+  const penaliteArmeNonDir = armeMainNonDir ? calculerPenaliteAjustement(armeMainNonDir, entrainements) : 0;
+
+  // Status mental
+  const absorptionMentale = calc.getMod('VOL') + (bonus.absorptionMentale || 0);
+  const resistanceMentale = bonus.resilienceMentale || 0;
+  const protectionMentale = 5 + calc.getMod('EGO') + (bonus.protectionMentale || 0);
+
+  // Détail pour savoir si le recap état a du contenu
+  const hasRecapDetail = enChoc || penaliteTotal > 0;
 
   // Résiliences par ressource
   const resilParRessource = {
@@ -225,33 +315,71 @@ function TabStatus() {
 
   // === Actions combat/repos ===
   const handleConfrontation = () => {
-    // Ajoute Initiative et Moral si pas présents
-    updateCharacter(prev => {
-      let autresRes = [...(prev.autresRessources || [])];
+    setShowConfrontationModal(true);
+  };
 
-      if (!autresRes.some(ar => ar.id === 'initiative')) {
-        autresRes.push({ id: 'initiative', actuel: 0, max: 0 });
+  const applyConfrontation = (initiative, moral) => {
+    updateCharacter(prev => {
+      // Supprime les anciennes armures, initiative et moral si présentes
+      let autresRes = (prev.autresRessources || []).filter(
+        ar => !['armure_physique', 'armure_mentale', 'initiative', 'moral'].includes(ar.id)
+      );
+
+      // Ajoute les ressources de combat au début
+      if (calc.absPhys > 0) {
+        autresRes.unshift({ id: 'armure_physique', actuel: calc.absPhys, max: calc.absPhys });
       }
-      if (!autresRes.some(ar => ar.id === 'moral')) {
-        autresRes.push({ id: 'moral', actuel: calc.moral, max: calc.resilience });
+      if (calc.absMent > 0) {
+        autresRes.unshift({ id: 'armure_mentale', actuel: calc.absMent, max: calc.absMent });
+      }
+      if (initiative > 0) {
+        autresRes.unshift({ id: 'initiative', actuel: initiative, max: 0 });
+      }
+      if (moral > 0) {
+        autresRes.unshift({ id: 'moral', actuel: Math.min(moral, calc.resilience), max: calc.resilience });
       }
 
       return { ...prev, autresRessources: autresRes };
     });
+    setShowConfrontationModal(false);
   };
 
   const handleNouveauTour = () => {
-    // Reset des ressources temporaires comme Garde
+    setShowNouveauTourModal(true);
+  };
+
+  const applyNouveauTour = (initiative) => {
     updateCharacter(prev => {
-      const autresRes = prev.autresRessources?.map(ar => {
-        const resData = DATA.autresRessources.find(r => r.id === ar.id);
-        if (resData?.temporaire && ar.id !== 'rage' && ar.id !== 'adrenaline') {
-          return { ...ar, actuel: 0 };
-        }
-        return ar;
-      }) || [];
-      return { ...prev, autresRessources: autresRes };
+      // Supprime les anciennes armures et initiative si présentes
+      let autresRes = (prev.autresRessources || []).filter(
+        ar => !['armure_physique', 'armure_mentale', 'initiative'].includes(ar.id)
+      );
+
+      // Ajoute les ressources de combat au début
+      if (calc.absPhys > 0) {
+        autresRes.unshift({ id: 'armure_physique', actuel: calc.absPhys, max: calc.absPhys });
+      }
+      if (calc.absMent > 0) {
+        autresRes.unshift({ id: 'armure_mentale', actuel: calc.absMent, max: calc.absMent });
+      }
+      if (initiative > 0) {
+        autresRes.unshift({ id: 'initiative', actuel: initiative, max: 0 });
+      }
+
+      // Réduit les conditions selon leur type
+      let newConditions = (prev.conditions || []).filter(cond => {
+        const condData = DATA.conditions.find(c => c.id === cond.id);
+        if (!condData) return false;
+        const recup = condData.type === 'physique'
+          ? (calc.recuperationRessource?.PV || calc.recuperation)
+          : (calc.recuperationRessource?.PS || calc.recuperation);
+        cond.charges -= recup;
+        return cond.charges > 0;
+      });
+
+      return { ...prev, autresRessources: autresRes, conditions: newConditions };
     });
+    setShowNouveauTourModal(false);
   };
 
   const handleNouveauRound = () => {
@@ -348,21 +476,205 @@ function TabStatus() {
   return (
     <div id="tab-status" className="tab-content active">
       {/* Récap État / Pénalités */}
-      <div className="status-recap-box">
-        <div className="status-recap-item">
-          <span className="status-recap-label">État</span>
-          <span className={`status-recap-value ${enChoc ? 'etat-choc' : 'etat-normal'}`}>
-            {enChoc ? 'Choc' : 'Normal'}
-          </span>
+      <div className="status-bandeau-group">
+        <div
+          className={`status-bandeau ${hasRecapDetail ? 'expandable' : ''}`}
+          onClick={() => hasRecapDetail && setShowRecapDetail(!showRecapDetail)}
+        >
+          <div className="status-bandeau-summary">
+            <div className="status-recap-item">
+              <span className="status-recap-label">État</span>
+              <span className={`status-recap-value ${enChoc ? 'etat-choc' : 'etat-normal'}`}>
+                {enChoc ? 'Choc' : 'Normal'}
+              </span>
+            </div>
+            <div className="status-recap-item">
+              <span className="status-recap-label">Pénalités</span>
+              <span className={`status-recap-value ${penaliteTotal > 0 ? 'has-penalty' : ''}`}>
+                {penaliteTotal}
+                <span className="status-recap-detail">
+                {' '}({maxNivBlessure}/{maxNivTrauma}/{nivFatigue}/{nivCorruption})
+                </span>
+              </span>
+            </div>
+            {hasRecapDetail && (
+              <span className="status-bandeau-toggle">{showRecapDetail ? '▲' : '▼'}</span>
+            )}
+          </div>
+          {showRecapDetail && (
+            <div className="status-bandeau-detail" onClick={e => e.stopPropagation()}>
+              {enChoc && <div className="status-bandeau-detail-line">En état de choc (PE ≤ 0) : défenses réduites</div>}
+              {penaliteTotal > 0 && <div className="status-bandeau-detail-line">
+                Blessures {maxNivBlessure}, Traumatismes {maxNivTrauma}, Fatigue {nivFatigue}, Corruption {nivCorruption}
+              </div>}
+            </div>
+          )}
         </div>
-        <div className="status-recap-item">
-          <span className="status-recap-label">Pénalités</span>
-          <span className={`status-recap-value ${penaliteTotal > 0 ? 'has-penalty' : ''}`}>
-            {penaliteTotal}
-            <span className="status-recap-detail">
-            {' '}({maxNivBlessure}/{maxNivTrauma}/{nivFatigue}/{nivCorruption})
-            </span>
-          </span>
+
+        {/* Status Physique */}
+        <div className="status-bandeau expandable" onClick={() => setShowPhysique(!showPhysique)}>
+          <div className="status-bandeau-summary">
+            <div className="status-recap-item">
+              <span className="status-recap-label">Status Physique</span>
+            </div>
+            <span className="status-bandeau-toggle">{showPhysique ? '▲' : '▼'}</span>
+          </div>
+          {showPhysique && (
+            <div className="status-bandeau-detail" onClick={e => e.stopPropagation()}>
+              {/* Armure */}
+              <div className="status-bandeau-combat-row">
+                <span className="status-recap-combat-label status-row-title">🛡 {armureEquipee ? armureEquipee.nom : 'Armure'}</span>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Absorption</span>
+                  <span className="status-recap-combat-value">{absorptionTotale}</span>
+                  <span className="status-recap-combat-detail">
+                    ({absorptionArmure} + mCON {mConEffective >= 0 ? '+' : ''}{mConEffective}{armureQualite !== 0 ? `, Q${armureQualite}` : ''}{bonus.absorptionPhysique ? `, bonus ${bonus.absorptionPhysique}` : ''})
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Résistance</span>
+                  <span className="status-recap-combat-value">{resistanceTotale}</span>
+                  <span className="status-recap-combat-detail">
+                    ({resistanceArmure}{bonus.resiliencePhysique ? ` + bonus ${bonus.resiliencePhysique}` : ''})
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Protection</span>
+                  <span className="status-recap-combat-value">{protectionTotale}</span>
+                  <span className="status-recap-combat-detail">
+                    ({protectionBase} + armure {protectionArmure})
+                  </span>
+                </div>
+                <div className="status-defenses-passives">
+                  <span className="status-defenses-passives-label">Défenses Passives :</span>
+                  {defensesPassives.map((d, i) => (
+                    <span key={d.id} className="status-defense-passive">
+                      <span className="status-defense-attr">{d.id}</span> {d.defense}{i < defensesPassives.length - 1 ? ',\u00A0' : ''}
+                    </span>
+                  ))}
+                  {enChoc && <span className="status-defense-choc">,&nbsp;choc -5</span>}
+                  {penaliteArmure > 0 && (
+                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArmure}</span></>
+                  )}
+                </div>
+              </div>
+              {/* Arme main directrice / deux mains */}
+              {degatsMainDir && (
+                <div className="status-bandeau-combat-row">
+                  <span className="status-recap-combat-label status-row-title">⚔ {degatsMainDir.nom} ({armeMainDir.slot === 'deuxMains' ? '2 mains' : 'main dir.'})</span>
+                  <div className="status-recap-combat-item">
+                    <span className="status-recap-combat-label">Dégâts</span>
+                    <span className="status-recap-combat-value">
+                      {degatsMainDir.nbDes}D8 {degatsMainDir.mod >= 0 ? `(+${degatsMainDir.mod})` : `(${degatsMainDir.mod})`}
+                    </span>
+                    <span className="status-recap-combat-detail">
+                      ({degatsMainDir.attrId}{degatsMainDir.qual !== 0 ? ` Q${degatsMainDir.qual}` : ''})
+                    </span>
+                  </div>
+                  <div className="status-recap-combat-item">
+                    <span className="status-recap-combat-label">Perforation</span>
+                    <span className="status-recap-combat-value">{degatsMainDir.perforation}</span>
+                    <span className="status-recap-combat-detail">
+                      (PER{degatsMainDir.qual !== 0 ? ` Q${degatsMainDir.qual}` : ''}{bonus.perfPhysique ? ` + bonus ${bonus.perfPhysique}` : ''})
+                    </span>
+                  </div>
+                  <div className="status-recap-combat-item">
+                    <span className="status-recap-combat-label">Précision</span>
+                    <span className="status-recap-combat-value">{degatsMainDir.precision}</span>
+                    <span className="status-recap-combat-detail">
+                      (DEX{degatsMainDir.qual !== 0 ? ` Q${degatsMainDir.qual}` : ''}{bonus.precisionPhysique ? ` + bonus ${bonus.precisionPhysique}` : ''})
+                    </span>
+                  </div>
+                  <div className="status-defenses-passives">
+                    <span className="status-defenses-passives-label">Expertise :</span>
+                    <span className="status-defense-passive">{degatsMainDir.expertise},&nbsp;</span>
+                    <span className="status-defenses-passives-label">Zones de Contrôle :</span>
+                    <span className="status-defense-passive">Active {degatsMainDir.zoneActive},&nbsp;</span>
+                    <span className="status-defense-passive">Passive {degatsMainDir.zonePassive}</span>
+                    {penaliteArmeDir > 0 && (
+                      <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArmeDir}</span></>
+                    )}
+                  </div>
+                </div>
+              )}
+              {/* Arme main non directrice */}
+              {degatsMainNonDir && (
+                <div className="status-bandeau-combat-row">
+                  <span className="status-recap-combat-label status-row-title">⚔ {degatsMainNonDir.nom} (main non dir.)</span>
+                  <div className="status-recap-combat-item">
+                    <span className="status-recap-combat-label">Dégâts</span>
+                    <span className="status-recap-combat-value">
+                      {degatsMainNonDir.nbDes}D8 {degatsMainNonDir.mod >= 0 ? `(+${degatsMainNonDir.mod})` : `(${degatsMainNonDir.mod})`}
+                    </span>
+                    <span className="status-recap-combat-detail">
+                      ({degatsMainNonDir.attrId}{degatsMainNonDir.qual !== 0 ? ` Q${degatsMainNonDir.qual}` : ''})
+                    </span>
+                  </div>
+                  <div className="status-recap-combat-item">
+                    <span className="status-recap-combat-label">Perforation</span>
+                    <span className="status-recap-combat-value">{degatsMainNonDir.perforation}</span>
+                    <span className="status-recap-combat-detail">
+                      (PER{degatsMainNonDir.qual !== 0 ? ` Q${degatsMainNonDir.qual}` : ''}{bonus.perfPhysique ? ` + bonus ${bonus.perfPhysique}` : ''})
+                    </span>
+                  </div>
+                  <div className="status-recap-combat-item">
+                    <span className="status-recap-combat-label">Précision</span>
+                    <span className="status-recap-combat-value">{degatsMainNonDir.precision}</span>
+                    <span className="status-recap-combat-detail">
+                      (DEX{degatsMainNonDir.qual !== 0 ? ` Q${degatsMainNonDir.qual}` : ''}{bonus.precisionPhysique ? ` + bonus ${bonus.precisionPhysique}` : ''})
+                    </span>
+                  </div>
+                  <div className="status-defenses-passives">
+                    <span className="status-defenses-passives-label">Expertise :</span>
+                    <span className="status-defense-passive">{degatsMainNonDir.expertise},&nbsp;</span>
+                    <span className="status-defenses-passives-label">Zones de Contrôle :</span>
+                    <span className="status-defense-passive">Active {degatsMainNonDir.zoneActive},&nbsp;</span>
+                    <span className="status-defense-passive">Passive {degatsMainNonDir.zonePassive}</span>
+                    {penaliteArmeNonDir > 0 && (
+                      <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArmeNonDir}</span></>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Status Mental */}
+        <div className="status-bandeau expandable" onClick={() => setShowMental(!showMental)}>
+          <div className="status-bandeau-summary">
+            <div className="status-recap-item">
+              <span className="status-recap-label">Status Mental</span>
+            </div>
+            <span className="status-bandeau-toggle">{showMental ? '▲' : '▼'}</span>
+          </div>
+          {showMental && (
+            <div className="status-bandeau-detail" onClick={e => e.stopPropagation()}>
+              <div className="status-bandeau-combat-row">
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Absorption</span>
+                  <span className="status-recap-combat-value">{absorptionMentale}</span>
+                  <span className="status-recap-combat-detail">
+                    mVOL {calc.getMod('VOL') >= 0 ? '+' : ''}{calc.getMod('VOL')}{bonus.absorptionMentale ? ` + bonus ${bonus.absorptionMentale}` : ''}
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Résistance</span>
+                  <span className="status-recap-combat-value">{resistanceMentale}</span>
+                  <span className="status-recap-combat-detail">
+                    {bonus.resilienceMentale ? `bonus ${bonus.resilienceMentale}` : '—'}
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Protection</span>
+                  <span className="status-recap-combat-value">{protectionMentale}</span>
+                  <span className="status-recap-combat-detail">
+                    5 + mEGO {calc.getMod('EGO') >= 0 ? '+' : ''}{calc.getMod('EGO')}{bonus.protectionMentale ? ` + bonus ${bonus.protectionMentale}` : ''}
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -663,6 +975,27 @@ function TabStatus() {
           }}
         />
       )}
+
+      {/* Modal Confrontation */}
+      {showConfrontationModal && (
+        <ConfrontationModal
+          resilience={calc.resilience}
+          absPhys={calc.absPhys}
+          absMent={calc.absMent}
+          onClose={() => setShowConfrontationModal(false)}
+          onApply={applyConfrontation}
+        />
+      )}
+
+      {/* Modal Nouveau Tour */}
+      {showNouveauTourModal && (
+        <NouveauTourModal
+          absPhys={calc.absPhys}
+          absMent={calc.absMent}
+          onClose={() => setShowNouveauTourModal(false)}
+          onApply={applyNouveauTour}
+        />
+      )}
     </div>
   );
 }
@@ -863,6 +1196,109 @@ function EditModal({ value, max, onClose, onSave }) {
         <div className="status-edit-modal-actions">
           <button className="btn-status-edit-cancel" onClick={onClose}>Annuler</button>
           <button className="btn-status-edit-save" onClick={handleSave}>OK</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ConfrontationModal({ resilience, absPhys, absMent, onClose, onApply }) {
+  const [initiative, setInitiative] = useState(10);
+  const [moral, setMoral] = useState(10);
+
+  const handleBackdropClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
+  const handleApply = () => {
+    onApply(initiative, Math.min(moral, resilience));
+  };
+
+  return (
+    <div className="modal-overlay" onClick={handleBackdropClick}>
+      <div className="combat-modal">
+        <h3 className="combat-modal-title">Confrontation</h3>
+
+        <div className="combat-modal-fields">
+          <div className="combat-modal-field">
+            <label>Initiative</label>
+            <input
+              type="number"
+              value={initiative}
+              onChange={(e) => setInitiative(parseInt(e.target.value) || 0)}
+              onKeyDown={(e) => e.key === 'Enter' && document.getElementById('input-moral')?.focus()}
+              min="0"
+              autoFocus
+            />
+          </div>
+          <div className="combat-modal-field">
+            <label>Moral <span className="combat-modal-hint">(max {resilience})</span></label>
+            <input
+              id="input-moral"
+              type="number"
+              value={moral}
+              onChange={(e) => setMoral(parseInt(e.target.value) || 0)}
+              onKeyDown={(e) => e.key === 'Enter' && handleApply()}
+              min="0"
+              max={resilience}
+            />
+          </div>
+        </div>
+
+        <p className="combat-modal-info">
+          Armure Phys: {absPhys} | Armure Ment: {absMent}
+        </p>
+
+        <div className="combat-modal-buttons">
+          <button className="btn-combat-cancel" onClick={onClose}>Annuler</button>
+          <button className="btn-combat-confirm" onClick={handleApply}>Démarrer</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function NouveauTourModal({ absPhys, absMent, onClose, onApply }) {
+  const [initiative, setInitiative] = useState(10);
+
+  const handleBackdropClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
+  const handleApply = () => {
+    onApply(initiative);
+  };
+
+  return (
+    <div className="modal-overlay" onClick={handleBackdropClick}>
+      <div className="combat-modal">
+        <h3 className="combat-modal-title">Nouveau Tour</h3>
+
+        <div className="combat-modal-fields">
+          <div className="combat-modal-field">
+            <label>Initiative</label>
+            <input
+              type="number"
+              value={initiative}
+              onChange={(e) => setInitiative(parseInt(e.target.value) || 0)}
+              onKeyDown={(e) => e.key === 'Enter' && handleApply()}
+              min="0"
+              autoFocus
+            />
+          </div>
+        </div>
+
+        <p className="combat-modal-info">
+          Armure Phys: {absPhys} | Armure Ment: {absMent}
+        </p>
+
+        <div className="combat-modal-buttons">
+          <button className="btn-combat-cancel" onClick={onClose}>Annuler</button>
+          <button className="btn-combat-confirm" onClick={handleApply}>Démarrer</button>
         </div>
       </div>
     </div>

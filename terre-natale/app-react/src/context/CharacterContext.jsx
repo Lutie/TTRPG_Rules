@@ -37,9 +37,14 @@ const createEmptyCharacter = () => {
     competences: { groupes: {}, competences: {}, attributsChoisis: {} },
     traits: [],
     memoire: [],
+    inventaire: [],
     autresRessources: [],
     lesions: [],
     conditions: [],
+    entrainements: {
+      armesMelee: 0, armesDistance: 0, armures: 0, outils: 0,
+      magie: 0, science: 0, social: 0
+    },
     tensions: { fatigue: 0, corruption: 0 },
     bonusConfig: {
       allure: 0, resilience: 0, encombrement: 0,

@@ -8,6 +8,7 @@ import TabMemoire from './components/tabs/TabMemoire';
 import TabMagie from './components/tabs/TabMagie';
 import TabNotes from './components/tabs/TabNotes';
 import TabConfig from './components/tabs/TabConfig';
+import TabInventaire from './components/tabs/TabInventaire';
 import './styles.css';
 
 const TABS = [
@@ -46,7 +47,7 @@ function AppContent() {
       case 'traits':
         return <TabTraits />;
       case 'inventaire':
-        return <Placeholder title="Inventaire" />;
+        return <TabInventaire />;
       case 'memoire':
         return <TabMemoire />;
       case 'magie':
@@ -63,7 +64,7 @@ function AppContent() {
   return (
     <div className="container">
       <header>
-        <h1>Terre Natale</h1>
+        <h1><span className="title-symbol">Ͽ</span> Terre Natale</h1>
         <div className="header-actions">
           <button onClick={resetCharacter} title="Nouveau personnage">Nouveau</button>
           <button onClick={exportCharacter} title="Exporter en JSON">Exporter</button>

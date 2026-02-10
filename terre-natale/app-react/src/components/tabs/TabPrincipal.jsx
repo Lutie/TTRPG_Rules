@@ -312,6 +312,11 @@ function TabPrincipal() {
         <PPSummary character={character} calc={calc} />
       </Section>
 
+      {/* Entraînements */}
+      <Section title="Entraînements">
+        <EntrainementsSection character={character} updateCharacter={updateCharacter} />
+      </Section>
+
       {/* Modal Origines */}
       {showOriginesModal && (
         <OriginesModal
@@ -550,6 +555,61 @@ function PPSummary({ character, calc }) {
           <span className="xp-value xp-restant">{calc.ppRestants} / {calc.ppTotal}</span>
         </div>
       </div>
+    </div>
+  );
+}
+
+const ENTRAINEMENTS = [
+  { id: 'armesMelee', label: 'Armes de Mêlée' },
+  { id: 'armesDistance', label: 'Armes à Distance' },
+  { id: 'armures', label: 'Armures' },
+  { id: 'outils', label: 'Outils' },
+  { id: 'magie', label: 'Magie' },
+  { id: 'science', label: 'Science' },
+  { id: 'social', label: 'Social' }
+];
+
+const NIVEAUX_ENTRAINEMENT = [
+  { value: 0, label: 'Non entraîné' },
+  { value: 1, label: 'Expert' },
+  { value: 2, label: 'Maître' }
+];
+
+function EntrainementsSection({ character, updateCharacter }) {
+  const entrainements = character.entrainements || {};
+
+  const handleChange = (id, value) => {
+    updateCharacter(prev => ({
+      ...prev,
+      entrainements: { ...prev.entrainements, [id]: value }
+    }));
+  };
+
+  return (
+    <div className="entrainements-grid">
+      {ENTRAINEMENTS.map(e => {
+        const niveau = entrainements[e.id] ?? 0;
+        return (
+          <div key={e.id} className="entrainement-box">
+            <span className="entrainement-label">{e.label}</span>
+            <div className="entrainement-levels">
+              {NIVEAUX_ENTRAINEMENT.map(n => (
+                <button
+                  key={n.value}
+                  className={`entrainement-btn ${niveau === n.value ? 'active' : ''} niveau-${n.value}`}
+                  onClick={() => handleChange(e.id, n.value)}
+                  title={n.label}
+                >
+                  {n.value}
+                </button>
+              ))}
+            </div>
+            <span className="entrainement-niveau-label">
+              {NIVEAUX_ENTRAINEMENT.find(n => n.value === niveau)?.label}
+            </span>
+          </div>
+        );
+      })}
     </div>
   );
 }
