@@ -119,10 +119,48 @@ function TabStatus() {
   const penaliteArmeDir = armeMainDir ? calculerPenaliteAjustement(armeMainDir, entrainements) : 0;
   const penaliteArmeNonDir = armeMainNonDir ? calculerPenaliteAjustement(armeMainNonDir, entrainements) : 0;
 
-  // Status mental
-  const absorptionMentale = calc.getMod('VOL') + (bonus.absorptionMentale || 0);
-  const resistanceMentale = bonus.resilienceMentale || 0;
-  const protectionMentale = 5 + calc.getMod('EGO') + (bonus.protectionMentale || 0);
+  // Status mental - Résolution
+  const resolution = character.resolution || { categorie: 0, useQualiteArmure: false };
+  const resCat = resolution.categorie ?? 0;
+  const resQual = resolution.useQualiteArmure && armureEquipee ? (armureEquipee.qualite ?? 0) : 0;
+  const volBase = getValeurTotale(character, 'VOL');
+  const mVolEffective = calculerModificateur(volBase + resQual);
+  const absorptionMentale = resCat * 3 + mVolEffective + (bonus.absorptionMentale || 0);
+  const resistanceMentale = resCat + (bonus.resilienceMentale || 0);
+  const protectionMentale = 5 + calc.getMod('EGO') + resCat + (bonus.protectionMentale || 0);
+  const penaliteResolution = Math.max(0, 2 * resCat - 2 * (entrainements.social ?? 0) + resQual);
+  const ATTRS_MENTAUX = ['CHA', 'INT', 'RUS', 'VOL', 'SAG'];
+  const defensesPassivesMentales = ATTRS_MENTAUX.map(id => {
+    const val = getValeurTotale(character, id) + resQual;
+    return { id, defense: calculerDefense(val, enChoc) };
+  });
+
+  // Status mental - Argumentation
+  const argumentation = character.argumentation || { categorie: 0, attribut: 'CHA', useQualiteArme: false };
+  const argCat = argumentation.categorie ?? 0;
+  const argAttr = argumentation.attribut || 'CHA';
+  const argQual = argumentation.useQualiteArme && armeMainDir ? (armeMainDir.qualite ?? 0) : 0;
+  const argAttrBase = getValeurTotale(character, argAttr);
+  const argMod = calculerModificateur(argAttrBase + argQual);
+  const argNbDes = 2 + argCat;
+  const expertiseArgumentation = 10 + calculerModificateur(getValeurTotale(character, 'INT') + argQual) + (bonus.expertiseMentale || 0);
+  const perforationMentale = calc.getMod('SAG') + (bonus.perfMentale || 0);
+  const precisionMentale = calc.getMod('INT') + (bonus.precisionMentale || 0);
+  const penaliteArgumentation = Math.max(0, 2 * argCat - 2 * (entrainements.social ?? 0) + argQual);
+
+  // Surcharge sociale (prestance)
+  const surchargePrestige = (resCat + argCat) * 5 > calc.prestance;
+
+  // Surcharge physique (encombrement)
+  const encEquipe = inventaire.reduce((total, o) => {
+    if (o.type === 'consommable') {
+      return total + (o.encombrement ?? 0.125) * (o.quantite ?? 1);
+    } else if (['arme', 'armure', 'focalisateur', 'outil', 'autre'].includes(o.type)) {
+      return total + (o.categorie ?? 0);
+    }
+    return total;
+  }, 0);
+  const surchargePhysique = encEquipe > calc.encombrementMax;
 
   // Détail pour savoir si le recap état a du contenu
   const hasRecapDetail = enChoc || penaliteTotal > 0;
@@ -313,6 +351,24 @@ function TabStatus() {
     }));
   };
 
+  // Calcule les catégories par défaut résolution/argumentation
+  const calcDefaultSocial = () => {
+    const maxParPanache = Math.min(Math.floor(calc.panache / 5), 6);
+    const resCatDefault = Math.min(maxParPanache, Math.floor(calc.prestance / 5));
+    const prestanceRestante = calc.prestance - resCatDefault * 5;
+    const argCatDefault = Math.min(maxParPanache, Math.floor(prestanceRestante / 5), 6);
+    return { resCatDefault, argCatDefault };
+  };
+
+  const applyDefaultSocial = (prev) => {
+    const { resCatDefault, argCatDefault } = calcDefaultSocial();
+    return {
+      ...prev,
+      resolution: { ...prev.resolution, categorie: resCatDefault },
+      argumentation: { ...prev.argumentation, categorie: argCatDefault }
+    };
+  };
+
   // === Actions combat/repos ===
   const handleConfrontation = () => {
     setShowConfrontationModal(true);
@@ -339,7 +395,7 @@ function TabStatus() {
         autresRes.unshift({ id: 'moral', actuel: Math.min(moral, calc.resilience), max: calc.resilience });
       }
 
-      return { ...prev, autresRessources: autresRes };
+      return applyDefaultSocial({ ...prev, autresRessources: autresRes });
     });
     setShowConfrontationModal(false);
   };
@@ -410,7 +466,7 @@ function TabStatus() {
         return !resData?.temporaire && ar.id !== 'initiative' && ar.id !== 'moral';
       }) || [];
 
-      return { ...prev, ressources, autresRessources: autresRes };
+      return applyDefaultSocial({ ...prev, ressources, autresRessources: autresRes });
     });
   };
 
@@ -438,7 +494,7 @@ function TabStatus() {
         return !resData?.reposCourt;
       }) || [];
 
-      return { ...prev, ressources, autresRessources: autresRes };
+      return applyDefaultSocial({ ...prev, ressources, autresRessources: autresRes });
     });
   };
 
@@ -469,7 +525,7 @@ function TabStatus() {
       });
 
       // Supprime toutes les autres ressources
-      return { ...prev, ressources, lesions: newLesions, autresRessources: [] };
+      return applyDefaultSocial({ ...prev, ressources, lesions: newLesions, autresRessources: [] });
     });
   };
 
@@ -523,7 +579,7 @@ function TabStatus() {
             <div className="status-bandeau-detail" onClick={e => e.stopPropagation()}>
               {/* Armure */}
               <div className="status-bandeau-combat-row">
-                <span className="status-recap-combat-label status-row-title">🛡 {armureEquipee ? armureEquipee.nom : 'Armure'}</span>
+                <span className="status-recap-combat-label status-row-title">🛡 {armureEquipee ? armureEquipee.nom : 'Armure'}{armureEquipee && (armureEquipee.categorie ?? 1) * 5 > calc.poigne && <span className="inventaire-poids-warn" title="Poigne insuffisante : désavantagé au port de l'armure">&#x26A0;</span>}{surchargePhysique && <span className="inventaire-poids-warn" title="Encombrement dépassé : désavantagé">&#x26A0;</span>}</span>
                 <div className="status-recap-combat-item">
                   <span className="status-recap-combat-label">Absorption</span>
                   <span className="status-recap-combat-value">{absorptionTotale}</span>
@@ -561,7 +617,7 @@ function TabStatus() {
               {/* Arme main directrice / deux mains */}
               {degatsMainDir && (
                 <div className="status-bandeau-combat-row">
-                  <span className="status-recap-combat-label status-row-title">⚔ {degatsMainDir.nom} ({armeMainDir.slot === 'deuxMains' ? '2 mains' : 'main dir.'})</span>
+                  <span className="status-recap-combat-label status-row-title">⚔ {degatsMainDir.nom} ({armeMainDir.slot === 'deuxMains' ? '2 mains' : 'main dir.'}){(armeMainDir.categorie ?? 1) * 5 > calc.poigne && <span className="inventaire-poids-warn" title="Poigne insuffisante : désavantagé à l'usage">&#x26A0;</span>}{surchargePhysique && <span className="inventaire-poids-warn" title="Encombrement dépassé : désavantagé">&#x26A0;</span>}</span>
                   <div className="status-recap-combat-item">
                     <span className="status-recap-combat-label">Dégâts</span>
                     <span className="status-recap-combat-value">
@@ -600,7 +656,7 @@ function TabStatus() {
               {/* Arme main non directrice */}
               {degatsMainNonDir && (
                 <div className="status-bandeau-combat-row">
-                  <span className="status-recap-combat-label status-row-title">⚔ {degatsMainNonDir.nom} (main non dir.)</span>
+                  <span className="status-recap-combat-label status-row-title">⚔ {degatsMainNonDir.nom} (main non dir.){(armeMainNonDir.categorie ?? 1) * 5 > calc.poigne && <span className="inventaire-poids-warn" title="Poigne insuffisante : désavantagé à l'usage">&#x26A0;</span>}{surchargePhysique && <span className="inventaire-poids-warn" title="Encombrement dépassé : désavantagé">&#x26A0;</span>}</span>
                   <div className="status-recap-combat-item">
                     <span className="status-recap-combat-label">Dégâts</span>
                     <span className="status-recap-combat-value">
@@ -650,27 +706,121 @@ function TabStatus() {
           </div>
           {showMental && (
             <div className="status-bandeau-detail" onClick={e => e.stopPropagation()}>
+              {/* Résolution */}
               <div className="status-bandeau-combat-row">
+                <span className="status-recap-combat-label status-row-title">
+                  🛡 Résolution{resCat * 5 > calc.panache && <span className="inventaire-poids-warn" title="Panache insuffisant : désavantagé à l'usage">&#x26A0;</span>}{surchargePrestige && <span className="inventaire-poids-warn" title="Prestance dépassée : désavantagé">&#x26A0;</span>}
+                  <select
+                    className="status-inline-select"
+                    value={resCat}
+                    onChange={e => updateCharacter(prev => ({ ...prev, resolution: { ...prev.resolution, categorie: Number(e.target.value) } }))}
+                    onClick={e => e.stopPropagation()}
+                  >
+                    {[0,1,2,3,4,5,6].map(v => <option key={v} value={v}>C{v}</option>)}
+                  </select>
+                  <label className="status-inline-checkbox" onClick={e => e.stopPropagation()}>
+                    <input
+                      type="checkbox"
+                      checked={resolution.useQualiteArmure || false}
+                      onChange={e => updateCharacter(prev => ({ ...prev, resolution: { ...prev.resolution, useQualiteArmure: e.target.checked } }))}
+                    />
+                    <span className="status-inline-checkbox-label">Q armure{resQual !== 0 ? ` (${resQual > 0 ? '+' : ''}${resQual})` : ''}</span>
+                    <span className="status-info-pip" title="Votre armure est-elle de prestige ou d'apparat ? Si oui, cochez cette case.">ⓘ</span>
+                  </label>
+                </span>
                 <div className="status-recap-combat-item">
                   <span className="status-recap-combat-label">Absorption</span>
                   <span className="status-recap-combat-value">{absorptionMentale}</span>
                   <span className="status-recap-combat-detail">
-                    mVOL {calc.getMod('VOL') >= 0 ? '+' : ''}{calc.getMod('VOL')}{bonus.absorptionMentale ? ` + bonus ${bonus.absorptionMentale}` : ''}
+                    ({resCat * 3} + mVOL {mVolEffective >= 0 ? '+' : ''}{mVolEffective}{resQual !== 0 ? `, Q${resQual}` : ''}{bonus.absorptionMentale ? ` + bonus ${bonus.absorptionMentale}` : ''})
                   </span>
                 </div>
                 <div className="status-recap-combat-item">
                   <span className="status-recap-combat-label">Résistance</span>
                   <span className="status-recap-combat-value">{resistanceMentale}</span>
                   <span className="status-recap-combat-detail">
-                    {bonus.resilienceMentale ? `bonus ${bonus.resilienceMentale}` : '—'}
+                    ({resCat}{bonus.resilienceMentale ? ` + bonus ${bonus.resilienceMentale}` : ''})
                   </span>
                 </div>
                 <div className="status-recap-combat-item">
                   <span className="status-recap-combat-label">Protection</span>
                   <span className="status-recap-combat-value">{protectionMentale}</span>
                   <span className="status-recap-combat-detail">
-                    5 + mEGO {calc.getMod('EGO') >= 0 ? '+' : ''}{calc.getMod('EGO')}{bonus.protectionMentale ? ` + bonus ${bonus.protectionMentale}` : ''}
+                    (5 + mEGO {calc.getMod('EGO') >= 0 ? '+' : ''}{calc.getMod('EGO')} + rés. {resCat}{bonus.protectionMentale ? ` + bonus ${bonus.protectionMentale}` : ''})
                   </span>
+                </div>
+                <div className="status-defenses-passives">
+                  <span className="status-defenses-passives-label">Défenses Passives :</span>
+                  {defensesPassivesMentales.map((d, i) => (
+                    <span key={d.id} className="status-defense-passive">
+                      <span className="status-defense-attr">{d.id}</span> {d.defense}{i < defensesPassivesMentales.length - 1 ? ',\u00A0' : ''}
+                    </span>
+                  ))}
+                  {enChoc && <span className="status-defense-choc">,&nbsp;choc -5</span>}
+                  {penaliteResolution > 0 && (
+                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteResolution}</span></>
+                  )}
+                </div>
+              </div>
+              {/* Argumentation */}
+              <div className="status-bandeau-combat-row">
+                <span className="status-recap-combat-label status-row-title">
+                  ⚔ Argumentation{argCat * 5 > calc.panache && <span className="inventaire-poids-warn" title="Panache insuffisant : désavantagé à l'usage">&#x26A0;</span>}{surchargePrestige && <span className="inventaire-poids-warn" title="Prestance dépassée : désavantagé">&#x26A0;</span>}
+                  <select
+                    className="status-inline-select"
+                    value={argCat}
+                    onChange={e => updateCharacter(prev => ({ ...prev, argumentation: { ...prev.argumentation, categorie: Number(e.target.value) } }))}
+                    onClick={e => e.stopPropagation()}
+                  >
+                    {[0,1,2,3,4,5,6].map(v => <option key={v} value={v}>C{v}</option>)}
+                  </select>
+                  <select
+                    className="status-inline-select"
+                    value={argAttr}
+                    onChange={e => updateCharacter(prev => ({ ...prev, argumentation: { ...prev.argumentation, attribut: e.target.value } }))}
+                    onClick={e => e.stopPropagation()}
+                  >
+                    {['CHA', 'INT', 'RUS'].map(a => <option key={a} value={a}>{a}</option>)}
+                  </select>
+                  <label className="status-inline-checkbox" onClick={e => e.stopPropagation()}>
+                    <input
+                      type="checkbox"
+                      checked={argumentation.useQualiteArme || false}
+                      onChange={e => updateCharacter(prev => ({ ...prev, argumentation: { ...prev.argumentation, useQualiteArme: e.target.checked } }))}
+                    />
+                    <span className="status-inline-checkbox-label">Q arme{argQual !== 0 ? ` (${argQual > 0 ? '+' : ''}${argQual})` : ''}</span>
+                    <span className="status-info-pip" title="Votre arme est-elle de prestige ou d'apparat ? Si oui, cochez cette case.">ⓘ</span>
+                  </label>
+                </span>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Dégâts</span>
+                  <span className="status-recap-combat-value">
+                    {argNbDes}D8 {argMod >= 0 ? `(+${argMod})` : `(${argMod})`}
+                  </span>
+                  <span className="status-recap-combat-detail">
+                    ({argAttr}{argQual !== 0 ? ` Q${argQual}` : ''})
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Perforation</span>
+                  <span className="status-recap-combat-value">{perforationMentale}</span>
+                  <span className="status-recap-combat-detail">
+                    (mSAG{bonus.perfMentale ? ` + bonus ${bonus.perfMentale}` : ''})
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Précision</span>
+                  <span className="status-recap-combat-value">{precisionMentale}</span>
+                  <span className="status-recap-combat-detail">
+                    (mINT{bonus.precisionMentale ? ` + bonus ${bonus.precisionMentale}` : ''})
+                  </span>
+                </div>
+                <div className="status-defenses-passives">
+                  <span className="status-defenses-passives-label">Expertise :</span>
+                  <span className="status-defense-passive">{expertiseArgumentation}</span>
+                  {penaliteArgumentation > 0 && (
+                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArgumentation}</span></>
+                  )}
                 </div>
               </div>
             </div>

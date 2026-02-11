@@ -10,13 +10,26 @@ export const getValeurDefaut = (attrId) => {
   return secondaires.includes(attrId) ? DATA.valeurDefautSecondaire : DATA.valeurDefautPrincipal;
 };
 
+// Calcule la base de l'équilibre : moyenne du plus faible et du 2e plus élevé des attributs principaux
+export const getBaseEquilibre = (character) => {
+  const ids = DATA.attributsPrincipaux.map(a => a.id);
+  const bases = ids.map(id => {
+    const attr = character.attributs[id];
+    return attr?.base || DATA.valeurDefautPrincipal;
+  });
+  const sorted = [...bases].sort((a, b) => a - b);
+  const plusFaible = sorted[0];
+  const deuxiemePlusEleve = sorted[sorted.length - 2];
+  return Math.floor((plusFaible + deuxiemePlusEleve) / 2);
+};
+
 // Calcule la valeur totale d'un attribut
 export const getValeurTotale = (character, attrId, progressionInfo = null) => {
   const attr = character.attributs[attrId];
   const defaut = getValeurDefaut(attrId);
   if (!attr) return defaut;
 
-  const base = attr.base || defaut;
+  const base = attrId === 'EQU' ? getBaseEquilibre(character) : (attr.base || defaut);
   const bonusEthnie = attr.bonus || 0;
   const bonusOrigines = (character.originesBonus && character.originesBonus[attrId]) || 0;
   const bonusNaissance = (character.naissanceBonus && character.naissanceBonus[attrId]) || 0;
@@ -153,6 +166,8 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const chargeMax = 5 + getAttr('FOR') + getAttr('STA') + (bonus.chargeMax || 0);
     const encombrementMax = 5 + getAttr('FOR') + getAttr('STA') + (bonus.encombrement || 0);
     const poigne = getAttr('FOR') + (bonus.poigne || 0);
+    const panache = getAttr('CHA') + (bonus.panache || 0);
+    const prestance = getAttr('CHA') + getAttr('EGO') + (bonus.prestance || 0);
 
     // Protections et absorptions
     const protPhys = 5 + getMod('STA') + (bonus.protectionPhysique || 0);
@@ -311,6 +326,8 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       chargeMax,
       encombrementMax,
       poigne,
+      panache,
+      prestance,
       protPhys,
       protMent,
       absPhys,

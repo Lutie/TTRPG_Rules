@@ -284,6 +284,8 @@ function TabPrincipal() {
           <CaracBox name="Charge Max" value={calc.chargeMax} help="5 + FOR + STA" />
           <CaracBox name="Encombrement Max" value={calc.encombrementMax} help="5 + FOR + STA" />
           <CaracBox name="Poigne" value={calc.poigne} help="FOR" />
+          <CaracBox name="Panache" value={calc.panache} help="CHA" />
+          <CaracBox name="Prestance" value={calc.prestance} help="5 + CHA + EGO" />
           <CaracBox name="Protection Physique" value={calc.protPhys} help="5 + mSTA" />
           <CaracBox name="Protection Mentale" value={calc.protMent} help="5 + mEGO" />
           <CaracBox name="Absorption Physique" value={calc.absPhys} help="mCON" />

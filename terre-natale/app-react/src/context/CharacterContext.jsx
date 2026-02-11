@@ -41,6 +41,8 @@ const createEmptyCharacter = () => {
     autresRessources: [],
     lesions: [],
     conditions: [],
+    resolution: { categorie: 0, useQualiteArmure: false },
+    argumentation: { categorie: 0, attribut: 'CHA', useQualiteArme: false },
     entrainements: {
       armesMelee: 0, armesDistance: 0, armures: 0, outils: 0,
       magie: 0, science: 0, social: 0

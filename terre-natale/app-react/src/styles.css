@@ -27,6 +27,11 @@
   padding: 0;
 }
 
+html {
+  background: #b4a488;
+  overscroll-behavior: none;
+}
+
 body {
   font-family: var(--font-body);
   font-size: 16px;
@@ -35,6 +40,7 @@ body {
   background: linear-gradient(135deg, #d4c4a8 0%, #c4b498 50%, #b4a488 100%);
   min-height: 100vh;
   padding: 20px;
+  overscroll-behavior: none;
 }
 
 /* === Layout principal === */
@@ -70,7 +76,7 @@ header h1 {
 .title-symbol {
   font-size: 2.4rem;
   font-weight: 900;
-  color: #E8D5A3;
+  color: #F5ECD0;
   text-shadow: 0 0 12px rgba(232, 213, 163, 0.7), 0 0 24px rgba(232, 213, 163, 0.3);
   margin-right: 2px;
   vertical-align: middle;
@@ -2570,6 +2576,52 @@ header h1 {
   font-weight: 700;
   color: var(--color-text);
   margin-bottom: -16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.status-inline-select {
+  font-size: 0.75rem;
+  padding: 1px 4px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-title);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.status-inline-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.status-inline-checkbox input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.status-inline-checkbox-label {
+  font-size: 0.7rem;
+  color: var(--color-text-light);
+  font-weight: 400;
+}
+
+.status-info-pip {
+  font-size: 0.65rem;
+  color: var(--color-text-light);
+  cursor: help;
+  opacity: 0.6;
+}
+
+.status-info-pip:hover {
+  opacity: 1;
 }
 
 .status-recap-combat-item {
