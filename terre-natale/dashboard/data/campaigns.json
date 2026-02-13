@@ -1,0 +1,19 @@
+[
+  {
+    "id": "4af34486-2b4b-44fe-a89b-1df959cdf42d",
+    "nom": "Origines",
+    "personnages": [
+      "a33dd554-357b-4010-a5d8-a7c0301126d6",
+      "6b52c226-818e-45c1-a0ac-80bb77a32ca2"
+    ],
+    "dateCreation": "2026-02-12T23:45:57.445Z"
+  },
+  {
+    "id": "7321d23c-0e9f-4dd5-b3c2-4a322f47222a",
+    "nom": "Corruption",
+    "personnages": [
+      "a33dd554-357b-4010-a5d8-a7c0301126d6"
+    ],
+    "dateCreation": "2026-02-13T00:05:58.347Z"
+  }
+]

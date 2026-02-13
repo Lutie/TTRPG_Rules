@@ -1168,6 +1168,250 @@ header h1 {
   border-radius: 0 0 5px 5px;
 }
 
+/* === Modale Sélection Personnage === */
+.charselect-modal {
+  background: var(--color-bg);
+  border: 3px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-hard);
+  max-width: 450px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.charselect-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: linear-gradient(180deg, var(--color-border-dark) 0%, var(--color-border) 100%);
+  color: var(--color-bg-light);
+}
+
+.charselect-header h2 {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.charselect-close {
+  background: none;
+  border: none;
+  color: var(--color-bg-light);
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+.charselect-close:hover {
+  color: var(--color-highlight);
+}
+
+.charselect-list {
+  max-height: 50vh;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.charselect-card {
+  display: flex;
+  align-items: center;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.charselect-card:hover {
+  border-color: var(--color-accent);
+}
+
+.charselect-card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  cursor: pointer;
+  gap: 2px;
+}
+
+.charselect-card-nom {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.charselect-card-date {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+}
+
+.charselect-btn-delete {
+  background: none;
+  border: none;
+  color: var(--color-text-light);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: color 0.2s;
+}
+
+.charselect-btn-delete:hover {
+  color: var(--color-negative);
+}
+
+.charselect-confirm {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  color: var(--color-negative);
+  font-weight: 600;
+}
+
+.charselect-confirm-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.charselect-btn-confirm-yes {
+  background: var(--color-negative);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.charselect-btn-confirm-no {
+  background: var(--color-bg-dark);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.charselect-empty {
+  padding: 20px;
+  text-align: center;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.charselect-actions {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--color-bg-dark);
+  border-top: 1px solid var(--color-border);
+}
+
+.charselect-btn-create,
+.charselect-btn-import {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.charselect-btn-create {
+  background: var(--color-accent);
+  color: var(--color-bg-light);
+  border: 2px solid var(--color-border-dark);
+}
+
+.charselect-btn-create:hover {
+  background: var(--color-accent-light);
+}
+
+.charselect-btn-import {
+  background: var(--color-bg-light);
+  color: var(--color-text);
+  border: 2px solid var(--color-border);
+}
+
+.charselect-btn-import:hover {
+  background: var(--color-bg);
+  border-color: var(--color-accent);
+}
+
+.charselect-dashboard {
+  padding: 10px 16px 14px;
+  border-top: 1px solid var(--color-border);
+}
+
+.charselect-dashboard-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  margin-bottom: 4px;
+  display: block;
+}
+
+.charselect-dashboard-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.charselect-dashboard-row input {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg-light);
+  color: var(--color-text);
+}
+
+.charselect-dashboard-ok {
+  color: var(--color-positive);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* Sync button */
+.btn-sync {
+  font-size: 1.2rem;
+  padding: 4px 10px;
+  background: transparent;
+  border: 2px solid var(--color-bg-light);
+  color: var(--color-bg-light);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1;
+}
+
+.btn-sync:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.btn-sync.sync-ok {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.btn-sync.sync-error {
+  border-color: #f44336;
+  color: #f44336;
+}
+
 .btn-primary, .btn-secondary {
   font-family: var(--font-body);
   font-size: 0.9rem;
@@ -4044,6 +4288,17 @@ header h1 {
   background: var(--color-border-light);
 }
 
+.inventaire-amel-rang {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-bg-light);
+  background: var(--color-accent);
+  border-radius: 3px;
+  padding: 0 4px;
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
 .inventaire-amel-nom {
   font-size: 0.85rem;
   font-weight: 600;
@@ -4063,6 +4318,26 @@ header h1 {
   background: var(--color-bg);
   border-radius: 4px;
   border: 1px solid var(--color-border-light);
+}
+
+.inventaire-amel-edit-row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.inventaire-amel-edit-row input {
+  flex: 1;
+}
+
+.inventaire-amel-rang-select {
+  font-size: 0.8rem;
+  padding: 4px 4px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg-light);
+  color: var(--color-text);
+  width: 50px;
 }
 
 .inventaire-amel-edit input,

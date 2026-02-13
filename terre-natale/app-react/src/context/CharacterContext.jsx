@@ -1,9 +1,11 @@
 import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import DATA from '../data';
+import { getValeurTotale, calculerRangCaste } from '../hooks/useCharacterCalculations';
 
 // État initial du personnage
 const createEmptyCharacter = () => {
   const character = {
+    uuid: crypto.randomUUID(),
     infos: {
       nom: '',
       origine: '',
@@ -87,33 +89,100 @@ const createEmptyCharacter = () => {
   return character;
 };
 
-// Clé localStorage
-const STORAGE_KEY = 'terreNatale_character';
+// Clés localStorage
+const STORAGE_CHARACTERS = 'terreNatale_characters';
+const STORAGE_LAST_ID = 'terreNatale_lastCharacterId';
+const STORAGE_OLD_KEY = 'terreNatale_character';
+const STORAGE_DASHBOARD_URL = 'terreNatale_dashboardUrl';
+
+// Helpers localStorage
+const loadAllCharacters = () => {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_CHARACTERS)) || {};
+  } catch { return {}; }
+};
+
+const saveAllCharacters = (chars) => {
+  localStorage.setItem(STORAGE_CHARACTERS, JSON.stringify(chars));
+};
+
+const saveCharacterToStore = (character) => {
+  const chars = loadAllCharacters();
+  chars[character.uuid] = {
+    ...character,
+    _meta: {
+      uuid: character.uuid,
+      nom: character.infos?.nom || 'Sans nom',
+      dateModification: new Date().toISOString()
+    }
+  };
+  saveAllCharacters(chars);
+  localStorage.setItem(STORAGE_LAST_ID, character.uuid);
+};
+
+// Migration depuis l'ancien format
+const migrateOldFormat = () => {
+  const old = localStorage.getItem(STORAGE_OLD_KEY);
+  if (!old) return null;
+  try {
+    const character = JSON.parse(old);
+    if (!character.uuid) {
+      character.uuid = crypto.randomUUID();
+    }
+    saveCharacterToStore(character);
+    localStorage.removeItem(STORAGE_OLD_KEY);
+    return character;
+  } catch {
+    localStorage.removeItem(STORAGE_OLD_KEY);
+    return null;
+  }
+};
 
 // Context
 const CharacterContext = createContext(null);
 
 export function CharacterProvider({ children }) {
-  const [character, setCharacter] = useState(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        return JSON.parse(saved);
-      } catch (e) {
-        console.error('Erreur chargement personnage:', e);
+  const [character, setCharacter] = useState(null);
+  const [currentCharacterId, setCurrentCharacterId] = useState(null);
+  const [dashboardUrl, setDashboardUrlState] = useState(
+    () => localStorage.getItem(STORAGE_DASHBOARD_URL) || ''
+  );
+
+  // Initialisation : migration + chargement
+  useEffect(() => {
+    // Migration ancien format
+    const migrated = migrateOldFormat();
+    if (migrated) {
+      setCharacter(migrated);
+      setCurrentCharacterId(migrated.uuid);
+      return;
+    }
+
+    // Charger le dernier personnage utilisé
+    const lastId = localStorage.getItem(STORAGE_LAST_ID);
+    if (lastId) {
+      const chars = loadAllCharacters();
+      if (chars[lastId]) {
+        const { _meta, ...charData } = chars[lastId];
+        setCharacter(charData);
+        setCurrentCharacterId(lastId);
+        return;
       }
     }
-    return createEmptyCharacter();
-  });
+    // Sinon, aucun personnage chargé → modale s'affichera
+  }, []);
 
   // Sauvegarde automatique
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(character));
+    if (character && character.uuid) {
+      saveCharacterToStore(character);
+    }
   }, [character]);
 
   // Mise à jour partielle
   const updateCharacter = useCallback((updates) => {
     setCharacter(prev => {
+      if (!prev) return prev;
       if (typeof updates === 'function') {
         return updates(prev);
       }
@@ -121,13 +190,64 @@ export function CharacterProvider({ children }) {
     });
   }, []);
 
-  // Nouveau personnage
-  const resetCharacter = useCallback(() => {
-    setCharacter(createEmptyCharacter());
+  // Liste des personnages
+  const listCharacters = useCallback(() => {
+    const chars = loadAllCharacters();
+    return Object.values(chars).map(c => ({
+      uuid: c.uuid || c._meta?.uuid,
+      nom: c._meta?.nom || c.infos?.nom || 'Sans nom',
+      dateModification: c._meta?.dateModification || null
+    })).sort((a, b) => {
+      if (!a.dateModification) return 1;
+      if (!b.dateModification) return -1;
+      return b.dateModification.localeCompare(a.dateModification);
+    });
   }, []);
+
+  // Charger un personnage
+  const loadCharacter = useCallback((uuid) => {
+    // Sauvegarder le personnage courant avant de changer
+    if (character && character.uuid) {
+      saveCharacterToStore(character);
+    }
+    const chars = loadAllCharacters();
+    if (chars[uuid]) {
+      const { _meta, ...charData } = chars[uuid];
+      setCharacter(charData);
+      setCurrentCharacterId(uuid);
+      localStorage.setItem(STORAGE_LAST_ID, uuid);
+    }
+  }, [character]);
+
+  // Créer un nouveau personnage
+  const createNewCharacter = useCallback(() => {
+    // Sauvegarder le personnage courant avant
+    if (character && character.uuid) {
+      saveCharacterToStore(character);
+    }
+    const newChar = createEmptyCharacter();
+    setCharacter(newChar);
+    setCurrentCharacterId(newChar.uuid);
+    saveCharacterToStore(newChar);
+    return newChar.uuid;
+  }, [character]);
+
+  // Supprimer un personnage
+  const deleteCharacter = useCallback((uuid) => {
+    const chars = loadAllCharacters();
+    delete chars[uuid];
+    saveAllCharacters(chars);
+    // Si c'est le personnage courant, décharger
+    if (currentCharacterId === uuid) {
+      setCharacter(null);
+      setCurrentCharacterId(null);
+      localStorage.removeItem(STORAGE_LAST_ID);
+    }
+  }, [currentCharacterId]);
 
   // Export JSON
   const exportCharacter = useCallback(() => {
+    if (!character) return;
     const blob = new Blob([JSON.stringify(character, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -139,25 +259,96 @@ export function CharacterProvider({ children }) {
 
   // Import JSON
   const importCharacter = useCallback((file) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const imported = JSON.parse(e.target.result);
-        setCharacter(imported);
-      } catch (err) {
-        console.error('Erreur import:', err);
-      }
-    };
-    reader.readAsText(file);
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const imported = JSON.parse(e.target.result);
+          // Attribuer un nouvel UUID pour éviter les conflits
+          imported.uuid = crypto.randomUUID();
+          // Sauvegarder le courant avant
+          if (character && character.uuid) {
+            saveCharacterToStore(character);
+          }
+          setCharacter(imported);
+          setCurrentCharacterId(imported.uuid);
+          saveCharacterToStore(imported);
+          resolve(imported.uuid);
+        } catch (err) {
+          console.error('Erreur import:', err);
+          resolve(null);
+        }
+      };
+      reader.readAsText(file);
+    });
+  }, [character]);
+
+  // Dashboard sync
+  const setDashboardUrl = useCallback((url) => {
+    const cleaned = url.replace(/\/+$/, '');
+    setDashboardUrlState(cleaned);
+    if (cleaned) {
+      localStorage.setItem(STORAGE_DASHBOARD_URL, cleaned);
+    } else {
+      localStorage.removeItem(STORAGE_DASHBOARD_URL);
+    }
   }, []);
+
+  const syncToDashboard = useCallback(async () => {
+    if (!dashboardUrl || !character) return false;
+    try {
+      // Calculer les max des ressources pour le dashboard
+      const getAttr = (id) => getValeurTotale(character, id);
+      const bonus = character.bonusConfig || {};
+      const caste = DATA.castes.find(c => c.nom === character.caste?.nom);
+      const rang = calculerRangCaste(character);
+      const tradition = DATA.traditions.find(t => t.id === character.tradition);
+      const attrTradition = tradition?.attribut;
+
+      const enrichedRessources = { ...character.ressources };
+      DATA.ressources.forEach(res => {
+        let max = 0;
+        if (res.type === 'caste') {
+          if (character.caste?.attribut1 && character.caste?.attribut2) {
+            max = getAttr(character.caste.attribut1) + getAttr(character.caste.attribut2);
+          }
+        } else if (res.type === 'tradition') {
+          if (attrTradition) max = getAttr(attrTradition) * res.multiplicateur;
+        } else if (res.attribut) {
+          max = getAttr(res.attribut) * res.multiplicateur;
+        }
+        if (caste?.ressources?.includes(res.id)) max += rang;
+        max += bonus[`max${res.id}`] || 0;
+        enrichedRessources[res.id] = { ...enrichedRessources[res.id], max };
+      });
+
+      const enrichedCharacter = { ...character, ressources: enrichedRessources };
+      const res = await fetch(`${dashboardUrl}/api/sync`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(enrichedCharacter)
+      });
+      return res.ok;
+    } catch (err) {
+      console.error('Sync dashboard échoué:', err);
+      return false;
+    }
+  }, [dashboardUrl, character]);
 
   const value = {
     character,
+    currentCharacterId,
     setCharacter,
     updateCharacter,
-    resetCharacter,
+    listCharacters,
+    loadCharacter,
+    createNewCharacter,
+    deleteCharacter,
     exportCharacter,
-    importCharacter
+    importCharacter,
+    dashboardUrl,
+    setDashboardUrl,
+    syncToDashboard
   };
 
   return (

@@ -470,84 +470,115 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
           )}
           {hasQualite && qualite > 0 && (
             <div className="inventaire-ameliorations">
-              <div className="inventaire-ameliorations-header">
-                <span className="inventaire-ameliorations-label">Améliorations ({(objet.ameliorations || []).length}/{qualite})</span>
-                {(objet.ameliorations || []).length < qualite && (
-                  <button
-                    className="inventaire-btn-amel-add"
-                    onClick={() => { setEditingAmelIdx('new'); setAmelForm({ nom: '', description: '' }); }}
-                  >+</button>
-                )}
-              </div>
-              {(objet.ameliorations || []).map((amel, idx) => (
-                <div key={idx} className="inventaire-amelioration">
-                  {editingAmelIdx === idx ? (
-                    <div className="inventaire-amel-edit">
-                      <input
-                        type="text"
-                        placeholder="Nom"
-                        value={amelForm.nom}
-                        onChange={e => setAmelForm({ ...amelForm, nom: e.target.value })}
-                        autoFocus
-                      />
-                      <textarea
-                        placeholder="Description"
-                        value={amelForm.description}
-                        onChange={e => setAmelForm({ ...amelForm, description: e.target.value })}
-                        rows={2}
-                      />
-                      <div className="inventaire-amel-edit-actions">
-                        <button className="btn-primary" onClick={() => {
-                          if (!amelForm.nom.trim()) return;
-                          const amels = [...(objet.ameliorations || [])];
-                          amels[idx] = { nom: amelForm.nom, description: amelForm.description };
-                          onUpdateAmeliorations(objet.id, amels);
-                          setEditingAmelIdx(null);
-                        }}>OK</button>
-                        <button className="btn-secondary" onClick={() => setEditingAmelIdx(null)}>Annuler</button>
-                        <button className="inventaire-btn-delete" onClick={() => {
-                          const amels = (objet.ameliorations || []).filter((_, i) => i !== idx);
-                          onUpdateAmeliorations(objet.id, amels);
-                          setEditingAmelIdx(null);
-                        }}>✕</button>
+              {(() => {
+                const amels = objet.ameliorations || [];
+                const slotsUtilises = amels.reduce((s, a) => s + (a.rang || 1), 0);
+                const slotsRestants = qualite - slotsUtilises;
+                return (
+                  <>
+                    <div className="inventaire-ameliorations-header">
+                      <span className="inventaire-ameliorations-label">Améliorations ({slotsUtilises}/{qualite} slots)</span>
+                      {slotsRestants >= 1 && (
+                        <button
+                          className="inventaire-btn-amel-add"
+                          onClick={() => { setEditingAmelIdx('new'); setAmelForm({ nom: '', description: '', rang: 1 }); }}
+                        >+</button>
+                      )}
+                    </div>
+                    {amels.map((amel, idx) => (
+                      <div key={idx} className="inventaire-amelioration">
+                        {editingAmelIdx === idx ? (
+                          <div className="inventaire-amel-edit">
+                            <div className="inventaire-amel-edit-row">
+                              <input
+                                type="text"
+                                placeholder="Nom"
+                                value={amelForm.nom}
+                                onChange={e => setAmelForm({ ...amelForm, nom: e.target.value })}
+                                autoFocus
+                              />
+                              <select
+                                className="inventaire-amel-rang-select"
+                                value={amelForm.rang || 1}
+                                onChange={e => setAmelForm({ ...amelForm, rang: Number(e.target.value) })}
+                              >
+                                {[1, 2, 3].filter(r => r <= slotsRestants + (amel.rang || 1)).map(r => (
+                                  <option key={r} value={r}>{['I','II','III'][r-1]}</option>
+                                ))}
+                              </select>
+                            </div>
+                            <textarea
+                              placeholder="Description"
+                              value={amelForm.description}
+                              onChange={e => setAmelForm({ ...amelForm, description: e.target.value })}
+                              rows={2}
+                            />
+                            <div className="inventaire-amel-edit-actions">
+                              <button className="btn-primary" onClick={() => {
+                                if (!amelForm.nom.trim()) return;
+                                const newAmels = [...amels];
+                                newAmels[idx] = { nom: amelForm.nom, description: amelForm.description, rang: amelForm.rang || 1 };
+                                onUpdateAmeliorations(objet.id, newAmels);
+                                setEditingAmelIdx(null);
+                              }}>OK</button>
+                              <button className="btn-secondary" onClick={() => setEditingAmelIdx(null)}>Annuler</button>
+                              <button className="inventaire-btn-delete" onClick={() => {
+                                const newAmels = amels.filter((_, i) => i !== idx);
+                                onUpdateAmeliorations(objet.id, newAmels);
+                                setEditingAmelIdx(null);
+                              }}>✕</button>
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="inventaire-amel-display" onClick={() => { setEditingAmelIdx(idx); setAmelForm({ nom: amel.nom, description: amel.description, rang: amel.rang || 1 }); }}>
+                            <span className="inventaire-amel-nom"><span className="inventaire-amel-rang">{['I','II','III'][(amel.rang || 1) - 1]}</span>{amel.nom}</span>
+                            {amel.description && <span className="inventaire-amel-desc">{amel.description}</span>}
+                          </div>
+                        )}
                       </div>
-                    </div>
-                  ) : (
-                    <div className="inventaire-amel-display" onClick={() => { setEditingAmelIdx(idx); setAmelForm({ nom: amel.nom, description: amel.description }); }}>
-                      <span className="inventaire-amel-nom">{amel.nom}</span>
-                      {amel.description && <span className="inventaire-amel-desc">{amel.description}</span>}
-                    </div>
-                  )}
-                </div>
-              ))}
-              {editingAmelIdx === 'new' && (
-                <div className="inventaire-amelioration">
-                  <div className="inventaire-amel-edit">
-                    <input
-                      type="text"
-                      placeholder="Nom"
-                      value={amelForm.nom}
-                      onChange={e => setAmelForm({ ...amelForm, nom: e.target.value })}
-                      autoFocus
-                    />
-                    <textarea
-                      placeholder="Description"
-                      value={amelForm.description}
-                      onChange={e => setAmelForm({ ...amelForm, description: e.target.value })}
-                      rows={2}
-                    />
-                    <div className="inventaire-amel-edit-actions">
-                      <button className="btn-primary" onClick={() => {
-                        if (!amelForm.nom.trim()) return;
-                        const amels = [...(objet.ameliorations || []), { nom: amelForm.nom, description: amelForm.description }];
-                        onUpdateAmeliorations(objet.id, amels);
-                        setEditingAmelIdx(null);
-                      }}>Ajouter</button>
-                      <button className="btn-secondary" onClick={() => setEditingAmelIdx(null)}>Annuler</button>
-                    </div>
-                  </div>
-                </div>
-              )}
+                    ))}
+                    {editingAmelIdx === 'new' && (
+                      <div className="inventaire-amelioration">
+                        <div className="inventaire-amel-edit">
+                          <div className="inventaire-amel-edit-row">
+                            <input
+                              type="text"
+                              placeholder="Nom"
+                              value={amelForm.nom}
+                              onChange={e => setAmelForm({ ...amelForm, nom: e.target.value })}
+                              autoFocus
+                            />
+                            <select
+                              className="inventaire-amel-rang-select"
+                              value={amelForm.rang || 1}
+                              onChange={e => setAmelForm({ ...amelForm, rang: Number(e.target.value) })}
+                            >
+                              {[1, 2, 3].filter(r => r <= slotsRestants).map(r => (
+                                <option key={r} value={r}>{['I','II','III'][r-1]}</option>
+                              ))}
+                            </select>
+                          </div>
+                          <textarea
+                            placeholder="Description"
+                            value={amelForm.description}
+                            onChange={e => setAmelForm({ ...amelForm, description: e.target.value })}
+                            rows={2}
+                          />
+                          <div className="inventaire-amel-edit-actions">
+                            <button className="btn-primary" onClick={() => {
+                              if (!amelForm.nom.trim()) return;
+                              const newAmels = [...amels, { nom: amelForm.nom, description: amelForm.description, rang: amelForm.rang || 1 }];
+                              onUpdateAmeliorations(objet.id, newAmels);
+                              setEditingAmelIdx(null);
+                            }}>Ajouter</button>
+                            <button className="btn-secondary" onClick={() => setEditingAmelIdx(null)}>Annuler</button>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
             </div>
           )}
         </div>
