@@ -57,6 +57,12 @@ export const getXPTotal = (character) => {
   return getXPDepart(character) + (character.xpAcquis || 0);
 };
 
+// Clé de stockage d'une compétence (doit correspondre à compKey dans TabCompetences)
+const _compKey = (comp) =>
+  comp.sousGroupe
+    ? `${comp.groupe}__${comp.sousGroupe}__${comp.id}`
+    : `${comp.groupe}__${comp.id}`;
+
 // Calcule l'aptitude (somme des rangs de compétences liées aux attributs de caste)
 export const calculerAptitude = (character) => {
   const charCompetences = character.competences || { groupes: {}, competences: {} };
@@ -67,25 +73,42 @@ export const calculerAptitude = (character) => {
   const attrsCaste = [attrCaste1, attrCaste2].filter(Boolean);
   let aptitude = 0;
 
-  DATA.competences.forEach(groupe => {
-    let groupeEstLie = false;
-    groupe.competences?.forEach(comp => {
-      if (comp.attributs?.some(a => attrsCaste.includes(a))) {
-        groupeEstLie = true;
+  DATA.categoriesCompetences.forEach(cat => {
+    cat.groupes.forEach(groupe => {
+      // Ambidextrie est limitant par DEX — compte comme groupe DEX
+      const groupeAttrs = groupe.id === 'ambidextrie'
+        ? ['DEX']
+        : [...new Set(DATA.competences.filter(c => c.groupe === groupe.id).flatMap(c => c.attributs))];
+
+      if (!groupeAttrs.some(a => attrsCaste.includes(a))) return;
+
+      aptitude += charCompetences.groupes?.[groupe.id] || 0;
+
+      // Compétences individuelles (pas pour les groupes libres sans liste fixe)
+      if (!groupe.libre) {
+        DATA.competences
+          .filter(c => c.groupe === groupe.id)
+          .forEach(comp => {
+            if (comp.libre) {
+              // Slots libres (< Type d'Arme >) : compter chaque entrée dont l'attr correspond
+              const entries = charCompetences.libres?.[_compKey(comp)] || [];
+              entries.forEach(entry => {
+                if (entry.attr && attrsCaste.includes(entry.attr)) {
+                  aptitude += entry.rang || 0;
+                }
+              });
+            } else {
+              // Compétence limitante sans attr fixe (ex: Représailles) → utilise l'attr choisi stocké
+              const compAttrs = (comp.limitant && comp.attributs.length === 0)
+                ? [charCompetences.attributsChoisis?.[_compKey(comp)]].filter(Boolean)
+                : comp.attributs;
+              if (compAttrs.some(a => attrsCaste.includes(a))) {
+                aptitude += charCompetences.competences?.[_compKey(comp)] || 0;
+              }
+            }
+          });
       }
     });
-
-    if (groupeEstLie) {
-      const rangGroupe = charCompetences.groupes?.[groupe.id] || 0;
-      aptitude += rangGroupe;
-
-      groupe.competences?.forEach(comp => {
-        if (comp.attributs?.some(a => attrsCaste.includes(a))) {
-          const rangComp = charCompetences.competences?.[comp.id] || 0;
-          aptitude += rangComp;
-        }
-      });
-    }
   });
 
   return aptitude;
@@ -290,11 +313,12 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     let ppCaste = 0;
     paliersPP.forEach(p => { if (rangCaste >= p) ppCaste += 1; });
     const ppTotal = ppDepart + ppDesavantages + ppCaste;
-    // PP utilisés = coût des avantages
+    // PP utilisés = coût des avantages (majeurs et archétypes, pas mineurs)
+    const TYPES_PP = ['avantage_majeur', 'avantage_archetype', 'avantage'];
     let ppUtilises = 0;
     characterTraits.forEach(ct => {
       const traitInfo = DATA.traits.find(t => t.id === ct.id);
-      if (traitInfo && traitInfo.type === 'avantage') {
+      if (traitInfo && TYPES_PP.includes(traitInfo.type)) {
         ppUtilises += ct.rang * (traitInfo.coutPP || 1);
       }
     });

@@ -1,4 +1,8 @@
 // data/index.js - Données statiques pour Terre Natale
+import traits from './traits.js';
+import _rawEthnies from './ethnies.js';
+import { competences, categoriesCompetences } from './competences.js';
+import { castes as _castes } from './castes.js';
 
 export const attributsCorps = [
   { id: 'FOR', nom: 'Force', description: 'Puissance physique brute', image: 'images/attributes/strength.webp' },
@@ -106,11 +110,33 @@ export const vecus = [
 export const coutSecondaire = { 8: 5, 9: 2, 10: 0, 11: -4, 12: -9 };
 export const coutChance = { 8: 9, 9: 5, 10: 0, 11: -6, 12: -13 };
 
+export const manoeuvres = [
+  { id: 1, nom: 'Manœuvre 1', description: '' },
+  { id: 2, nom: 'Manœuvre 2', description: '' }
+];
+
+export const sorts = [
+  { id: 1, nom: 'Sort 1', description: '' },
+  { id: 2, nom: 'Sort 2', description: '' }
+];
+
+export const patrons = [
+  { id: 1, nom: 'Patron 1', description: '' },
+  { id: 2, nom: 'Patron 2', description: '' }
+];
+
+// Placeholder — sera remplacé par la vraie liste issue du compendium
+export const prouesses = [
+  { id: 1, nom: 'Prouesse 1', description: '' },
+  { id: 2, nom: 'Prouesse 2', description: '' }
+];
+
 export const typesMémoire = [
-  { id: 0, nom: 'Manoeuvre' },
-  { id: 1, nom: 'Sort' },
-  { id: 2, nom: 'Patron' },
-  { id: 3, nom: 'Autre' }
+  { id: 0, nom: 'Manœuvre', liste: manoeuvres },
+  { id: 1, nom: 'Sort',     liste: sorts },
+  { id: 2, nom: 'Patron',   liste: patrons },
+  { id: 3, nom: 'Prouesse', liste: prouesses },
+  { id: 4, nom: 'Autre',    liste: null }
 ];
 
 export const typesLesions = [
@@ -155,174 +181,35 @@ export const conditions = [
   { id: 'desespere', nom: 'Désespéré', type: 'mentale', effets: 'Malus aux actions mentales', icone: '😢' }
 ];
 
-// Castes
-export const castes = [
-  {
-    nom: "Combattant",
-    type: "fondamentale",
-    attribut1: ["FOR", "DEX", "AGI", "CON", "PER"],
-    attribut2: ["FOR", "DEX", "AGI", "CON", "PER"],
-    domaine: "Martiale",
-    style: "Corps",
-    ressources: ["PV", "PE"],
-    sauvegardesMajeures: ["Robustesse", "Réflexes"],
-    sauvegardesMineures: ["Détermination", "Sang-Froid"]
-  },
-  {
-    nom: "Érudit",
-    type: "fondamentale",
-    attribut1: ["INT", "SAG", "CHA", "VOL", "PER"],
-    attribut2: ["INT", "SAG", "CHA", "VOL", "PER"],
-    domaine: "Connaissance",
-    style: "Esprit",
-    ressources: ["PS", "PM"],
-    sauvegardesMajeures: ["Détermination", "Intuition"],
-    sauvegardesMineures: ["Sang-Froid", "Prestige"]
-  },
-  {
-    nom: "Mystique",
-    type: "fondamentale",
-    attribut1: ["SAG", "VOL", "CHA", "INT", "PER"],
-    attribut2: ["SAG", "VOL", "CHA", "INT", "PER"],
-    domaine: "Magie",
-    style: "Esprit",
-    ressources: ["PM", "PS"],
-    sauvegardesMajeures: ["Détermination", "Opposition"],
-    sauvegardesMineures: ["Intuition", "Robustesse"]
-  }
-];
+// Castes — importées depuis ./castes.js (auto-généré via tools/castes.py)
+export const castes = _castes;
 
-// Compétences
-export const competences = [
-  {
-    id: 'combat',
-    nom: 'Combat',
-    description: 'Techniques de combat et maniement des armes',
-    competences: [
-      { id: 'melee', nom: 'Mêlée', attributs: ['FOR', 'DEX', 'AGI'] },
-      { id: 'distance', nom: 'Distance', attributs: ['DEX', 'PER', 'AGI'] },
-      { id: 'defense', nom: 'Défense', attributs: ['CON', 'AGI', 'PER'] }
-    ]
-  },
-  {
-    id: 'social',
-    nom: 'Social',
-    description: 'Interactions et influence sociale',
-    competences: [
-      { id: 'persuasion', nom: 'Persuasion', attributs: ['CHA', 'INT', 'RUS'] },
-      { id: 'intimidation', nom: 'Intimidation', attributs: ['CHA', 'FOR', 'VOL'] },
-      { id: 'tromperie', nom: 'Tromperie', attributs: ['RUS', 'CHA', 'INT'] }
-    ]
-  }
-];
+// Compétences — importées depuis ./competences.js (auto-généré)
+export { competences, categoriesCompetences };
 
-// Traits
-export const traits = [
-  {
-    id: 'vision-nocturne',
-    nom: 'Vision Nocturne',
-    type: 'avantage',
-    description: 'Le personnage possède une vision adaptée aux environnements sombres.',
-    effets: 'Ignore les malus de visibilité dus à l\'obscurité partielle.',
-    rangMax: 2,
-    coutPP: 1,
-    categories: ['Physique', 'Sensoriel']
-  },
-  {
-    id: 'resistance-magique',
-    nom: 'Résistance Magique',
-    type: 'avantage',
-    description: 'Le personnage possède une résistance innée aux effets magiques.',
-    effets: 'Bonus de +2 par rang aux sauvegardes contre les effets magiques.',
-    rangMax: 3,
-    coutPP: 1,
-    categories: ['Magique', 'Défensif'],
-    prerequis: 'MAG 10+'
-  },
-  {
-    id: 'charisme-naturel',
-    nom: 'Charisme Naturel',
-    type: 'avantage',
-    description: 'Le personnage dégage une aura de confiance et d\'autorité naturelle.',
-    effets: 'Bonus de +1 par rang aux tests sociaux.',
-    rangMax: 2,
-    coutPP: 1,
-    categories: ['Social', 'Mental'],
-    prerequis: 'CHA 12+'
-  },
-  {
-    id: 'mauvaise-vue',
-    nom: 'Mauvaise Vue',
-    type: 'desavantage',
-    description: 'Le personnage souffre d\'une vue déficiente.',
-    effets: 'Malus de -2 par rang aux tests de Perception basés sur la vue.',
-    rangMax: 2,
-    coutPP: 1,
-    categories: ['Physique', 'Sensoriel']
-  },
-  {
-    id: 'phobie',
-    nom: 'Phobie',
-    type: 'desavantage',
-    description: 'Le personnage possède une peur irrationnelle et incontrôlable.',
-    effets: 'En présence de l\'objet de sa phobie, malus de -2 par rang à tous les tests.',
-    rangMax: 3,
-    coutPP: 1,
-    categories: ['Mental', 'Psychologique']
-  }
-];
+// Traits — importés depuis ./traits.js (auto-généré)
+export { traits };
 
 // Origines (races)
 export const origines = ['Humain', 'Elfe', 'Nain'];
 
-// Ethnies
-export const ethnies = [
-  {
-    nom: "Humain des Plaines",
-    origine: "Humain",
-    strongAttributes: ["FOR", "CON", "AGI"],
-    weakAttributes: ["INT", "RUS", "CHA"],
-    description: "Les humains des plaines sont robustes et endurants.",
-    naissanceRanges: {
-      STA: { min: -2, max: 4 },
-      TAI: { min: -2, max: 4 },
-      EGO: { min: -3, max: 3 },
-      APP: { min: -4, max: 4 },
-      CHN: { min: -6, max: 6 },
-      EQU: { min: -2, max: 2 }
-    }
-  },
-  {
-    nom: "Elfe des Bois",
-    origine: "Elfe",
-    strongAttributes: ["AGI", "PER", "SAG"],
-    weakAttributes: ["FOR", "CON", "VOL"],
-    description: "Les elfes des bois sont gracieux et vifs.",
-    naissanceRanges: {
-      STA: { min: -4, max: 2 },
-      TAI: { min: -2, max: 4 },
-      EGO: { min: -2, max: 4 },
-      APP: { min: 0, max: 6 },
-      CHN: { min: -6, max: 6 },
-      EQU: { min: -1, max: 3 }
-    }
-  },
-  {
-    nom: "Nain des Forges",
-    origine: "Nain",
-    strongAttributes: ["CON", "FOR", "VOL"],
-    weakAttributes: ["AGI", "CHA", "PER"],
-    description: "Les nains des forges sont incroyablement résistants.",
-    naissanceRanges: {
-      STA: { min: 0, max: 6 },
-      TAI: { min: -6, max: -2 },
-      EGO: { min: -2, max: 4 },
-      APP: { min: -4, max: 2 },
-      CHN: { min: -6, max: 6 },
-      EQU: { min: -2, max: 2 }
-    }
-  }
-];
+// Aplatit attributs_forts / attributs_faibles en liste d'IDs simple
+// { choice: ['MAG','LOG'] } → ['MAG','LOG']  ;  { id:'PER', fois:2 } → ['PER','PER']
+function _flattenAttrs(list) {
+  return (list || []).flatMap(a =>
+    typeof a === 'string'  ? [a]
+    : a.choice             ? a.choice
+    : Array(a.fois || 1).fill(a.id)
+  );
+}
+
+// Ethnies — source : docs/ethnies/ethnies.md via tools/parse_ethnies.py
+export const ethnies = _rawEthnies.map(e => ({
+  ...e,
+  origine:          e.race,
+  strongAttributes: _flattenAttrs(e.attributs_forts),
+  weakAttributes:   _flattenAttrs(e.attributs_faibles),
+}));
 
 // Allégeances
 export const allegeances = [
@@ -468,6 +355,7 @@ const DATA = {
   conditions,
   castes,
   competences,
+  categoriesCompetences,
   traits,
   origines,
   ethnies,

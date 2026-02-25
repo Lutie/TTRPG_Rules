@@ -1538,7 +1538,7 @@ The Urssian are a feral ethnicity similar to the Koddans, but with a more aggres
 - [Mountain Affinity](#cult-affinity)
 - [Furious Instincts](#cult-furious-instincts)
 - [Affinity with Totem](#cult-affinity-with-totem)
-- [Frenzy Shoot](#cult-frenzy-shoot)
+- [Frenzy Shout](#cult-frenzy-shout)
 - [Align with Totem](#cult-align-with-totem) [1PP]
 
 <div class="page-break"></div>
@@ -2607,70 +2607,6 @@ The character can perceive the immediate intent of draconic beings.
 
 ---
 
-### Tireless Fortitude {#birth-tireless-fortitude}
-Dwarves endure combat through sheer resilience, wearing down their enemies through unwavering toughness.  
-**Effect:** All attack, defense, and tactical rolls made by opponents against the character are reduced by **1** during combat.
-
----
-
-### Financial Acumen {#birth-financial-acumen}
-The character possesses a natural sense for value, profit, and material worth.  
-**Effect:** The character gains **5% more money** from all monetary gains.
-
----
-
-### Infra Vision {#birth-infra-vision}
-The character's eyes are adapted to low-light environments, allowing effective perception underground and in darkness.  
-**Effect:** The character can see in dim light and darkness, but not in total darkness. Penalties caused by low light are reduced by **3**, while penalties caused by complete darkness are not reduced.
-
----
-
-### Expansive Memory {#birth-expansive-memory}
-The character's memory is exceptionally reliable, capable of retaining vast amounts of technical, historical, or practical information.  
-**Effect:** The character's Memory score is increased by **+5**.
-
----
-
-### Forethought {#cult-forethought}
-The character is habitually prepared, rarely caught without the tools they need.  
-**Effect:** As long as the character owns the appropriate tools or items and has sufficient inventory space, they are assumed to have them available when needed. No Intuition test is required to determine whether the character remembered to bring necessary equipment.
-
----
-
-### Efficient Repairs {#cult-efficient-repairs}
-Dwarven craftsmanship prioritizes durability and efficiency, especially when restoring damaged equipment.  
-**Effect:** The cost **or** the duration of repair actions is halved (player chooses which applies each time).
-
----
-
-### Mercantile Culture {#cult-mercantile-culture}
-Trade and wealth are deeply ingrained in the character's cultural background.  
-**Effect:** The character gains **5% more money** from all monetary gains. This bonus stacks with **Financial Acumen**.
-
----
-
-### Hardness {#birth-hardness}
-The character's body is physically dense and resistant to harm.  
-**Effect:** Physical Protection is increased by **+1**, and the character can sustain one additional scratch wound.
-
----
-
-### Bloodline Pride {#cult-bloodline-pride}
-The character draws strength and confidence from their lineage, invoking ancestral achievements when it truly matters.  
-**Effect:** Once per day, if the character meaningfully references their lineage or family accomplishments during a skill test, all dice rolled for that test have a minimum value of **4** (this effect cannot generate singularities). In combat, this may be used, but requires a speech action appropriate to the length of the explanation.
-
----
-
-### Unyielding {#cult-unyielding}
-Refusing to fall, the character clings to consciousness through sheer stubborn will.  
-**Effect:** Once per scene, when the character would lose their last Vitality (PV) or Spirituality (PS) point, that resource is set to **0** instead of going into negative values.
-
----
-
-### Stubbornness {#cult-stubbornness}
-Experience hardens the character against afflictions they have already endured.  
-**Effect:** The character may reroll a test to resist venom, poison, sickness, curses, or rare conditions that they have already experienced at least once. For common conditions, this applies if the character has experienced the condition earlier in the same scene.
-
 ## Particularities: Dwarf
 
 ### Tireless Fortitude {#birth-tireless-fortitude}
@@ -2757,12 +2693,6 @@ The character's hide, scales, or shell offer enhanced protection.
 
 ---
 
-### Hardness {#birth-hardness}
-The character's body is dense and resistant to impact.  
-**Effect:** Physical Protection is increased by **+1**, and the character can sustain **one additional scratch wound**.
-
----
-
 ### Unyielding Bulk {#birth-unyielding-bulk}
 The character's massive build allows them to carry far more than most.  
 **Effect:** Bulk capacity is increased by **+2**, and total bulk capacity is increased by **+4**.
@@ -2841,7 +2771,7 @@ The character shields allies through commanding warnings.
 
 ---
 
-### Frenzy Shout {#cult-frenzy-shoot}
+### Frenzy Shout {#cult-frenzy-shout}
 The character spreads chaos and reckless aggression.  
 **Effect:** Once per turn, the character may attempt a non-standard Shout simple action (Difficulty **15**) to mark all nearby enemies, giving them disadvantage on their next defense action. The mark lasts until the character's next turn. May be combined with a standard Shout action by spending a Free Action.
 
@@ -3476,8 +3406,14 @@ The character instinctively detects cold or calculated intent to cause harm.
 ---
 
 ### Vermin Instinct {#cult-vermin-instinct}
-The character instinctively perceives the presence and dynamics of the weak, submissive, or easily manipulated.  
+The character instinctively perceives the presence and dynamics of the weak, submissive, or easily manipulated.
 **Topic:** Minions, underlings, powerless individuals, and highly influenceable people.
+
+---
+
+### Avid Instinct {#cult-avid-instinct}
+The character's senses latch onto anything that stirs their desire—treasure, opportunity, or the faint trace of something worth having. Where others pass by, they notice.
+**Topic:** <TODO>
 
 ---
 
@@ -3608,3 +3544,57 @@ Each time the character participates in a **Confrontation**, their Shadow Thresh
 If the character dies as a result of Corruption, they do not perish normally. Instead, they transform into a **Creature of Shadow**, an aberration of overwhelming violence and power—an outcome greatly feared by all who know of the Dark Surge.
 
 To mitigate the Dark Surge, the character may consume a dose of **Thaïs Flowers**, reducing their Shadow Threshold by **1d8**. Each dose costs **1 gold piece**.
+
+---
+
+### Black Cat {#birth-black-cat}
+Something about this character seems to invert the natural order of misfortune. Those who move against them find that fate itself bristles at the presumption.
+**Topic:** Karma expenditures aimed at altering an action that is directly detrimental to the character and targets them directly or indirectly are doubled.
+
+---
+
+### White Cat {#birth-white-cat}
+Fortune has a way of leaning toward this character. What benefits them seems to flow more easily, as though the world has quietly decided to be generous.
+**Topic:** Karma expenditures aimed at altering an action that directly benefits the character, whether by targeting them directly or indirectly, are divided by 2, rounded up.
+
+---
+
+### Wild Sentinel {#birth-wild-sentinel}
+This character never fully lowers their guard. Even at rest, something in them remains watchful — a deep, instinctive readiness that predates conscious thought.
+**Topic:** The character and their close allies do not need to prepare the first defense of a turn; if they do, they gain an advantage during that first defense.
+
+---
+
+### 4th Breakfast {#cult-4th-breakfast}
+For this character, food is not merely sustenance — it is ritual, comfort, and the quiet engine of their remarkable resilience. A second helping is never wasted; a third is practically medicinal.
+**Topic:** Each meal beyond the two normal daily meals grants 2 temporary PK that lasts until the end of the day. Meals must be spaced at least 2 hours apart and require/cost the same as a normal meal.
+
+---
+
+### Demanding {#cult-demanding}
+This character holds themselves — and those around them — to a standard that leaves little room for the acceptable. Precision is expected. Excellence is the floor, not the ceiling.
+**Topic:** Character criticality increased by 1.
+
+---
+
+### Excellency {#cult-excellency}
+When this character acts at their best, they surpass themselves. Moments of brilliance do not merely succeed — they resonate, as though the action itself demanded to be done perfectly.
+**Topic:** On a critical hit, the character receives a bonus of 2 to their roll.
+
+---
+
+### Sturdy Back {#birth-sturdy-back}
+A life spent in motion — carrying their own body across vast ground — has built this character's frame into something exceptional. Their back does not simply endure: it bears.
+**Topic:** The character's maximum total bulk is increased by 6.
+
+---
+
+### Momentum Breaker {#cult-momentum-breaker}
+Once this character commits to disrupting an opponent, the sheer weight of their presence makes it nearly impossible to ignore. They do not merely interrupt — they derail.
+**Topic:** An opponent making a saving throw to avoid being interrupted by the character does so at a disadvantage.
+
+---
+
+### Force of Nature {#cult-force-of-nature}
+The character's body is deeply attuned to natural patterns.  
+**Effect:** Gets **Strength** and **Constitution** improvement by **4**, but all mind attributes suffers from a **-2 penalty**.

@@ -9,16 +9,39 @@ const ATTRIBUTS_PRINCIPAUX = DATA.attributsPrincipaux.map(a => a.id);
 const TYPES_OBJET = [
   { id: 'arme', label: 'Arme' },
   { id: 'armure', label: 'Armure' },
+  { id: 'sous_piece_armure', label: 'Sous-pièce d\'armure' },
+  { id: 'colifichet', label: 'Colifichet' },
   { id: 'focalisateur', label: 'Focalisateur' },
   { id: 'outil', label: 'Outil' },
   { id: 'consommable', label: 'Consommable' },
   { id: 'autre', label: 'Autre' }
 ];
 
-const TYPES_AVEC_QUALITE = ['arme', 'armure', 'focalisateur', 'outil', 'autre', 'consommable'];
-const TYPES_AVEC_CATEGORIE = ['arme', 'armure', 'focalisateur', 'outil', 'autre'];
+const TYPES_AVEC_QUALITE = ['arme', 'armure', 'sous_piece_armure', 'colifichet', 'focalisateur', 'outil', 'autre', 'consommable'];
+const TYPES_AVEC_CATEGORIE = ['arme', 'armure', 'sous_piece_armure', 'focalisateur', 'outil', 'autre'];
 const TYPES_EN_MAIN = ['arme', 'focalisateur'];
-const TYPES_EQUIPABLES = ['arme', 'armure', 'focalisateur'];
+const TYPES_EQUIPABLES = ['arme', 'armure', 'sous_piece_armure', 'colifichet', 'focalisateur'];
+const TYPES_AVEC_PROMOTIONS = ['arme', 'outil', 'armure', 'sous_piece_armure', 'colifichet'];
+const TYPES_AVEC_MATIERE = ['arme', 'focalisateur', 'armure', 'outil'];
+
+const MATIERES_LISTE = [
+  { id: 1, nom: 'Fer',    description: '' },
+  { id: 2, nom: 'Acier',  description: '' },
+  { id: 3, nom: 'Bronze', description: '' },
+  { id: 4, nom: 'Bois',   description: '' },
+  { id: 5, nom: 'Cuir',   description: '' },
+  { id: 6, nom: 'Tissu',  description: '' },
+  { id: 7, nom: 'Pierre', description: '' },
+  { id: 8, nom: 'Os',     description: '' }
+];
+
+// Améliorations prédéfinies — types: null = universelle, sinon liste des types d'objet concernés
+const AMELIORATIONS_LISTE = [
+  { id: 1, nom: 'Alléger',           description: 'Réduit la charge/poids de l\'objet de 1.', types: null },
+  { id: 2, nom: 'Solidité accrue',   description: 'Solidité de l\'objet +1.',                 types: null },
+  { id: 3, nom: 'Perforation accrue', description: 'Perforation de l\'arme +2.',              types: ['arme'] },
+  { id: 4, nom: 'Absorption accrue',  description: 'Absorption de l\'armure +2.',             types: ['armure'] }
+];
 
 // Qualité : 0, 1..6, -1..-6 (positifs en priorité)
 const QUALITE_OPTIONS = [0, 1, 2, 3, 4, 5, 6, -1, -2, -3, -4, -5, -6];
@@ -48,6 +71,49 @@ const TYPES_ARME = [
 const getForme = (id) => FORMES_ARME.find(f => f.id === id);
 const getTypeArme = (id) => TYPES_ARME.find(t => t.id === id);
 
+// Taille, Gabarit, Équilibre : -2 à +2 (impactent le poids de l'arme)
+const ARME_DIMENSIONS = [
+  {
+    id: 'taille',
+    label: 'Taille',
+    options: [
+      { value: -2, label: 'Très petite' },
+      { value: -1, label: 'Petite' },
+      { value:  0, label: 'Normale' },
+      { value:  1, label: 'Grande' },
+      { value:  2, label: 'Très grande' }
+    ]
+  },
+  {
+    id: 'gabarit',
+    label: 'Gabarit',
+    options: [
+      { value: -2, label: 'Très fin' },
+      { value: -1, label: 'Fin' },
+      { value:  0, label: 'Normal' },
+      { value:  1, label: 'Large' },
+      { value:  2, label: 'Très large' }
+    ]
+  },
+  {
+    id: 'equilibre',
+    label: 'Équilibre',
+    options: [
+      { value: -2, label: 'Très déséquilibré' },
+      { value: -1, label: 'Déséquilibré' },
+      { value:  0, label: 'Normal' },
+      { value:  1, label: 'Équilibré' },
+      { value:  2, label: 'Très équilibré' }
+    ]
+  }
+];
+
+function calculerPoidsArme(arme) {
+  const base = (arme.categorie ?? 1) * 5;
+  const ajust = (arme.taille ?? 0) + (arme.gabarit ?? 0) + (arme.equilibre ?? 0);
+  return Math.max(0, base + ajust);
+}
+
 function calculerPenaliteAjustement(objet, entrainements) {
   const cat = objet.categorie ?? 0;
   const qual = objet.qualite ?? 0;
@@ -57,7 +123,7 @@ function calculerPenaliteAjustement(objet, entrainements) {
     niveau = forme?.attr === 'PER'
       ? (entrainements.armesDistance ?? 0)
       : (entrainements.armesMelee ?? 0);
-  } else if (objet.type === 'armure') {
+  } else if (objet.type === 'armure' || objet.type === 'sous_piece_armure') {
     niveau = entrainements.armures ?? 0;
   } else if (objet.type === 'outil') {
     niveau = entrainements.outils ?? 0;
@@ -66,14 +132,27 @@ function calculerPenaliteAjustement(objet, entrainements) {
   } else {
     return 0;
   }
-  return Math.max(0, 2 * cat - 2 * niveau + qual);
+  return -2 * cat + 2 * niveau + qual;
 }
 
 const SLOTS = {
   mainDirectrice: 'Main directrice',
   mainNonDirectrice: 'Main non directrice',
   deuxMains: 'Deux mains',
-  armure: 'Armure'
+  armure: 'Armure',
+  // Sous-pièces d'armure
+  visage: 'Visage',
+  epaules: 'Épaules',
+  dos: 'Dos',
+  mains: 'Mains',
+  pieds: 'Pieds',
+  // Colifichets
+  poignetGauche: 'Poignet gauche',
+  poignetDroit: 'Poignet droit',
+  doigtGauche: 'Doigt gauche',
+  doigtDroit: 'Doigt droit',
+  cou: 'Cou',
+  taille: 'Taille'
 };
 
 const SLOTS_ARME = [
@@ -82,7 +161,31 @@ const SLOTS_ARME = [
   { id: 'deuxMains', label: 'Deux mains' }
 ];
 
+// Emplacements pour sous-pièces d'armure — le slotType de l'objet détermine son slot
+const SLOTS_SOUS_PIECE = [
+  { id: 'visage', label: 'Visage', exemple: 'masque…' },
+  { id: 'epaules', label: 'Épaules', exemple: 'spallières…' },
+  { id: 'dos', label: 'Dos', exemple: 'cape…' },
+  { id: 'mains', label: 'Mains', exemple: 'gants…' },
+  { id: 'pieds', label: 'Pieds', exemple: 'chausses…' }
+];
+
+// Types de colifichets — slots détermine le/les emplacements disponibles
+const TYPES_COLIFICHET = [
+  { id: 'poignet', label: 'Poignet', exemple: 'bracelet…', slots: ['poignetGauche', 'poignetDroit'] },
+  { id: 'doigt', label: 'Doigt', exemple: 'anneau…', slots: ['doigtGauche', 'doigtDroit'] },
+  { id: 'cou', label: 'Cou', exemple: 'amulette…', slots: ['cou'] },
+  { id: 'taille', label: 'Taille', exemple: 'ceinture…', slots: ['taille'] }
+];
+
+function getDefaultSlotType(type) {
+  if (type === 'sous_piece_armure') return 'visage';
+  if (type === 'colifichet') return 'cou';
+  return '';
+}
+
 function ObjetModal({ objet, isEdit, onSave, onClose }) {
+  const _matiereMatch = MATIERES_LISTE.find(m => m.nom === objet?.matiere);
   const [form, setForm] = useState({
     nom: objet?.nom || '',
     type: objet?.type || 'arme',
@@ -91,9 +194,16 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
     categorie: objet?.categorie ?? 0,
     forme: objet?.forme || 'tranchant',
     typeArme: objet?.typeArme || 'escrime',
+    taille: objet?.taille ?? 0,
+    gabarit: objet?.gabarit ?? 0,
+    equilibre: objet?.equilibre ?? 0,
     attributOutil: objet?.attributOutil || 'DEX',
     encombrement: objet?.encombrement ?? 0.125,
-    quantite: objet?.quantite ?? 1
+    quantite: objet?.quantite ?? 1,
+    slotType: objet?.slotType || getDefaultSlotType(objet?.type),
+    matiereMode: objet?.matiere ? (_matiereMatch ? 'liste' : 'libre') : 'liste',
+    matiereListeId: _matiereMatch?.id ?? '',
+    matiereLibre: _matiereMatch ? '' : (objet?.matiere || '')
   });
 
   const hasQualite = TYPES_AVEC_QUALITE.includes(form.type);
@@ -101,9 +211,15 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
   const isArme = form.type === 'arme';
   const isOutil = form.type === 'outil';
   const isConsommable = form.type === 'consommable';
+  const isSousPiece = form.type === 'sous_piece_armure';
+  const isColifichet = form.type === 'colifichet';
 
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) onClose();
+  };
+
+  const handleTypeChange = (newType) => {
+    setForm({ ...form, type: newType, slotType: getDefaultSlotType(newType) });
   };
 
   const handleSave = () => {
@@ -118,6 +234,9 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
     if (form.type === 'arme') {
       data.forme = form.forme;
       data.typeArme = form.typeArme;
+      data.taille = form.taille;
+      data.gabarit = form.gabarit;
+      data.equilibre = form.equilibre;
     }
     if (form.type === 'outil') {
       data.attributOutil = form.attributOutil;
@@ -125,6 +244,18 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
     if (form.type === 'consommable') {
       data.encombrement = form.encombrement;
       data.quantite = form.quantite;
+    }
+    if (form.type === 'sous_piece_armure' || form.type === 'colifichet') {
+      data.slotType = form.slotType;
+    }
+    if (TYPES_AVEC_MATIERE.includes(form.type)) {
+      if (form.matiereMode === 'liste' && form.matiereListeId) {
+        data.matiere = MATIERES_LISTE.find(m => m.id === form.matiereListeId)?.nom || '';
+      } else if (form.matiereMode === 'libre' && form.matiereLibre.trim()) {
+        data.matiere = form.matiereLibre.trim();
+      } else {
+        data.matiere = '';
+      }
     }
     onSave(data);
   };
@@ -151,13 +282,39 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
               <label>Type</label>
               <select
                 value={form.type}
-                onChange={e => setForm({ ...form, type: e.target.value })}
+                onChange={e => handleTypeChange(e.target.value)}
               >
                 {TYPES_OBJET.map(t => (
                   <option key={t.id} value={t.id}>{t.label}</option>
                 ))}
               </select>
             </div>
+            {isSousPiece && (
+              <div className="info-field">
+                <label>Emplacement</label>
+                <select
+                  value={form.slotType}
+                  onChange={e => setForm({ ...form, slotType: e.target.value })}
+                >
+                  {SLOTS_SOUS_PIECE.map(s => (
+                    <option key={s.id} value={s.id}>{s.label} ({s.exemple})</option>
+                  ))}
+                </select>
+              </div>
+            )}
+            {isColifichet && (
+              <div className="info-field">
+                <label>Type de colifichet</label>
+                <select
+                  value={form.slotType}
+                  onChange={e => setForm({ ...form, slotType: e.target.value })}
+                >
+                  {TYPES_COLIFICHET.map(t => (
+                    <option key={t.id} value={t.id}>{t.label} ({t.exemple})</option>
+                  ))}
+                </select>
+              </div>
+            )}
             {(hasQualite || hasCategorie) && (
               <div className="inventaire-modal-row">
                 {hasQualite && (
@@ -189,30 +346,47 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
               </div>
             )}
             {isArme && (
-              <div className="inventaire-modal-row">
-                <div className="info-field">
-                  <label>Forme</label>
-                  <select
-                    value={form.forme}
-                    onChange={e => setForm({ ...form, forme: e.target.value })}
-                  >
-                    {FORMES_ARME.map(f => (
-                      <option key={f.id} value={f.id}>{f.label} ({f.attr})</option>
-                    ))}
-                  </select>
+              <>
+                <div className="inventaire-modal-row">
+                  <div className="info-field">
+                    <label>Forme</label>
+                    <select
+                      value={form.forme}
+                      onChange={e => setForm({ ...form, forme: e.target.value })}
+                    >
+                      {FORMES_ARME.map(f => (
+                        <option key={f.id} value={f.id}>{f.label} ({f.attr})</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div className="info-field">
+                    <label>Type d'arme</label>
+                    <select
+                      value={form.typeArme}
+                      onChange={e => setForm({ ...form, typeArme: e.target.value })}
+                    >
+                      {TYPES_ARME.map(t => (
+                        <option key={t.id} value={t.id}>{t.label} ({t.attr})</option>
+                      ))}
+                    </select>
+                  </div>
                 </div>
-                <div className="info-field">
-                  <label>Type d'arme</label>
-                  <select
-                    value={form.typeArme}
-                    onChange={e => setForm({ ...form, typeArme: e.target.value })}
-                  >
-                    {TYPES_ARME.map(t => (
-                      <option key={t.id} value={t.id}>{t.label} ({t.attr})</option>
-                    ))}
-                  </select>
+                <div className="inventaire-modal-row">
+                  {ARME_DIMENSIONS.map(dim => (
+                    <div className="info-field" key={dim.id}>
+                      <label>{dim.label}</label>
+                      <select
+                        value={form[dim.id]}
+                        onChange={e => setForm({ ...form, [dim.id]: Number(e.target.value) })}
+                      >
+                        {dim.options.map(o => (
+                          <option key={o.value} value={o.value}>{o.label}</option>
+                        ))}
+                      </select>
+                    </div>
+                  ))}
                 </div>
-              </div>
+              </>
             )}
             {isOutil && (
               <div className="info-field">
@@ -251,6 +425,41 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
                 </div>
               </div>
             )}
+            {TYPES_AVEC_MATIERE.includes(form.type) && (
+              <div className="info-field">
+                <label>Matière</label>
+                <div className="inventaire-matiere-field">
+                  <div className="inventaire-amel-mode-toggle">
+                    <button
+                      className={`inventaire-amel-mode-btn${form.matiereMode === 'liste' ? ' active' : ''}`}
+                      onClick={() => setForm({ ...form, matiereMode: 'liste' })}
+                    >Liste</button>
+                    <button
+                      className={`inventaire-amel-mode-btn${form.matiereMode === 'libre' ? ' active' : ''}`}
+                      onClick={() => setForm({ ...form, matiereMode: 'libre' })}
+                    >Libre</button>
+                  </div>
+                  {form.matiereMode === 'liste' ? (
+                    <select
+                      value={form.matiereListeId}
+                      onChange={e => setForm({ ...form, matiereListeId: Number(e.target.value) || '' })}
+                    >
+                      <option value="">— aucune —</option>
+                      {MATIERES_LISTE.map(m => (
+                        <option key={m.id} value={m.id}>{m.nom}</option>
+                      ))}
+                    </select>
+                  ) : (
+                    <input
+                      type="text"
+                      placeholder="Matière libre"
+                      value={form.matiereLibre}
+                      onChange={e => setForm({ ...form, matiereLibre: e.target.value })}
+                    />
+                  )}
+                </div>
+              </div>
+            )}
             <div className="info-field">
               <label>Description</label>
               <textarea
@@ -272,7 +481,7 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
   );
 }
 
-function SlotPickerModal({ objet, onSelect, onClose }) {
+function SlotPickerModal({ objet, slots, onSelect, onClose }) {
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) onClose();
   };
@@ -286,7 +495,7 @@ function SlotPickerModal({ objet, onSelect, onClose }) {
         </div>
         <div className="modal-body">
           <div className="inventaire-slot-picker">
-            {SLOTS_ARME.map(slot => (
+            {slots.map(slot => (
               <button
                 key={slot.id}
                 className="inventaire-slot-btn"
@@ -317,10 +526,83 @@ function formatJet(categorie, mod) {
   return `${nbDes}D8 ${modStr}`;
 }
 
-function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainements, onToggle, onEdit, onEquip, onUnequip, onDelete, onConsommer, onUpdateAmeliorations }) {
+function AmeliorationEditForm({ objet, amel, slotsRestants, onSave, onCancel, onDelete }) {
+  const [mode, setMode] = useState(amel ? 'libre' : 'liste');
+  const [selectedListeId, setSelectedListeId] = useState('');
+  const [rang, setRang] = useState(amel?.rang || 1);
+  const [nom, setNom] = useState(amel?.nom || '');
+  const [description, setDescription] = useState(amel?.description || '');
+
+  const amelDisponibles = AMELIORATIONS_LISTE.filter(
+    a => a.types === null || a.types.includes(objet.type)
+  );
+  const slotsMax = slotsRestants + (amel?.rang || 0);
+  const selectedListeAmel = amelDisponibles.find(a => a.id === selectedListeId);
+
+  const handleSave = () => {
+    if (mode === 'liste') {
+      if (!selectedListeAmel) return;
+      onSave({ nom: selectedListeAmel.nom, description: selectedListeAmel.description, rang });
+    } else {
+      if (!nom.trim()) return;
+      onSave({ nom, description, rang });
+    }
+  };
+
+  return (
+    <div className="inventaire-amel-edit">
+      <div className="inventaire-amel-mode-toggle">
+        <button className={`inventaire-amel-mode-btn${mode === 'liste' ? ' active' : ''}`} onClick={() => setMode('liste')}>Liste</button>
+        <button className={`inventaire-amel-mode-btn${mode === 'libre' ? ' active' : ''}`} onClick={() => setMode('libre')}>Libre</button>
+      </div>
+      {mode === 'liste' ? (
+        <>
+          <div className="inventaire-amel-edit-row">
+            <select value={selectedListeId} onChange={e => setSelectedListeId(e.target.value)} autoFocus>
+              <option value="">— choisir —</option>
+              {amelDisponibles.map(a => (
+                <option key={a.id} value={a.id}>{a.nom}</option>
+              ))}
+            </select>
+            <select className="inventaire-amel-rang-select" value={rang} onChange={e => setRang(Number(e.target.value))}>
+              {[1, 2, 3].filter(r => r <= slotsMax).map(r => (
+                <option key={r} value={r}>{['I','II','III'][r-1]}</option>
+              ))}
+            </select>
+          </div>
+          {selectedListeAmel && (
+            <p className="inventaire-amel-liste-desc">{selectedListeAmel.description}</p>
+          )}
+        </>
+      ) : (
+        <>
+          <div className="inventaire-amel-edit-row">
+            <input type="text" placeholder="Nom" value={nom} onChange={e => setNom(e.target.value)} autoFocus />
+            <select className="inventaire-amel-rang-select" value={rang} onChange={e => setRang(Number(e.target.value))}>
+              {[1, 2, 3].filter(r => r <= slotsMax).map(r => (
+                <option key={r} value={r}>{['I','II','III'][r-1]}</option>
+              ))}
+            </select>
+          </div>
+          <textarea placeholder="Description" value={description} onChange={e => setDescription(e.target.value)} rows={2} />
+        </>
+      )}
+      <div className="inventaire-amel-edit-actions">
+        <button className="btn-primary" onClick={handleSave}>{amel ? 'OK' : 'Ajouter'}</button>
+        <button className="btn-secondary" onClick={onCancel}>Annuler</button>
+        {amel && onDelete && (
+          <button className="inventaire-btn-delete" onClick={onDelete}>✕</button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainements, onToggle, onEdit, onEquip, onUnequip, onDelete, onConsommer, onUpdateAmeliorations, onUpdatePromotions }) {
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [editingAmelIdx, setEditingAmelIdx] = useState(null);
-  const [amelForm, setAmelForm] = useState({ nom: '', description: '' });
+  const [editingPromIdx, setEditingPromIdx] = useState(null);
+  const [promForm, setPromForm] = useState({ nom: '', description: '', rang: 1 });
   const typeLabel = TYPES_OBJET.find(t => t.id === objet.type)?.label || objet.type;
   const slotLabel = objet.slot ? SLOTS[objet.slot] : null;
   const canEquip = TYPES_EQUIPABLES.includes(objet.type);
@@ -328,19 +610,31 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
   const hasCategorie = TYPES_AVEC_CATEGORIE.includes(objet.type);
   const isArme = objet.type === 'arme';
   const isArmure = objet.type === 'armure';
+  const isSousPiece = objet.type === 'sous_piece_armure';
+  const isColifichet = objet.type === 'colifichet';
   const isOutil = objet.type === 'outil';
   const isConsommable = objet.type === 'consommable';
   const qualite = objet.qualite ?? 0;
   const forme = isArme ? getForme(objet.forme) : null;
   const typeArme = isArme ? getTypeArme(objet.typeArme) : null;
-  const poids = TYPES_EQUIPABLES.includes(objet.type) ? (objet.categorie ?? 1) * 5 : 0;
+  const poids = isArme
+    ? calculerPoidsArme(objet)
+    : (TYPES_EQUIPABLES.includes(objet.type) && TYPES_AVEC_CATEGORIE.includes(objet.type)) ? (objet.categorie ?? 0) * 5 : 0;
   const tropLourd = isEquipped && poids > 0 && poigne < poids;
   const encLabel = isConsommable ? ENCOMBREMENT_OPTIONS.find(o => o.value === objet.encombrement)?.label || '1/8' : null;
   const jetAttr = getJetAttribut(objet);
-  const jet = (isArme || isOutil) ? formatJet(objet.categorie, jetAttr ? getMod(jetAttr) : 0) : null;
+  const jet = isOutil ? formatJet(objet.categorie, jetAttr ? getMod(jetAttr) : 0) : null;
+  const solidite = hasQualite ? 10 + (objet.categorie ?? 0) + (objet.qualite ?? 0) + (objet.gabarit ?? 0) : null;
   const isFocalisateur = objet.type === 'focalisateur';
-  const hasPenalite = isArme || isArmure || isOutil || isFocalisateur;
+  const hasPenalite = isArme || isArmure || isSousPiece || isOutil || isFocalisateur;
+  const hasPromotions = TYPES_AVEC_PROMOTIONS.includes(objet.type) && qualite > 0;
   const penaliteAjustement = hasPenalite ? calculerPenaliteAjustement(objet, entrainements || {}) : 0;
+
+  const slotTypeLabel = isSousPiece
+    ? SLOTS_SOUS_PIECE.find(s => s.id === objet.slotType)?.label
+    : isColifichet
+      ? TYPES_COLIFICHET.find(t => t.id === objet.slotType)?.label
+      : null;
 
   const handleDelete = () => {
     if (confirmDelete) {
@@ -354,7 +648,7 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
     <div className={`inventaire-ligne ${isExpanded ? 'expanded' : ''}`}>
       <div className="inventaire-ligne-header">
         <div className="inventaire-ligne-info" onClick={onToggle}>
-          <span className="inventaire-ligne-nom">{isArme ? '⚔ ' : isArmure ? '🛡 ' : ''}{objet.nom}</span>
+          <span className="inventaire-ligne-nom">{isArme ? '⚔ ' : isArmure ? '🛡 ' : isSousPiece ? '🔰 ' : isColifichet ? '💍 ' : ''}{objet.nom}</span>
           {tropLourd && (
             <span
               className="inventaire-poids-warn"
@@ -373,7 +667,9 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
               )}
             </span>
           )}
-          <span className="inventaire-ligne-type">{typeLabel}</span>
+          <span className="inventaire-ligne-type">
+            {typeLabel}{slotTypeLabel ? ` — ${slotTypeLabel}` : ''}
+          </span>
           {isConsommable && (
             <span className="inventaire-ligne-slot">×{objet.quantite ?? 1} (enc. {encLabel})</span>
           )}
@@ -420,26 +716,66 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
       {isExpanded && (
         <div className="inventaire-ligne-detail">
           {isArme && forme && typeArme && (
-            <div className="inventaire-detail-auto">
-              Forme : {forme.label} (attaque avec {forme.attr}), Type : {typeArme.label} (attaque sur {typeArme.attr})
-            </div>
+            <>
+              <div className="inventaire-detail-auto">
+                {[
+                  `Forme : ${forme.label} (${forme.attr})`,
+                  `Type : ${typeArme.label} (${typeArme.attr})`,
+                  ...ARME_DIMENSIONS.map(dim => {
+                    const val = objet[dim.id] ?? 0;
+                    const label = dim.options.find(o => o.value === val)?.label || 'Normal';
+                    return `${dim.label} : ${label}`;
+                  })
+                ].join(', ')}
+              </div>
+              <div className="inventaire-detail-auto">
+                {(() => {
+                  const baseMod = getMod(forme.attr);
+                  const cat = objet.categorie ?? 0;
+                  const taille = objet.taille ?? 0;
+                  const gabarit = objet.gabarit ?? 0;
+                  const equilibre = objet.equilibre ?? 0;
+                  const nbDes = 2 + cat;
+                  const fmt = (m) => m >= 0 ? `+${m}` : `${m}`;
+                  const isDistance = forme.attr === 'PER';
+
+                  let porteeStr;
+                  if (isDistance) {
+                    const x = (cat + taille) * 4;
+                    porteeStr = `Portée de tir : 0(dsvgt) ~ ${x} ~ ${2 * x}(dsvgt) ~ ${3 * x}(2×dsvgt)`;
+                  } else {
+                    const porteeMelee = Math.floor((cat + getMod('TAI') + taille) / 4);
+                    const porteeJet = Math.max(0, 5 - cat + taille);
+                    porteeStr = `Portée de mêlée : ${porteeMelee}, Portée de jet : ${porteeJet}`;
+                  }
+
+                  return [
+                    `${nbDes}D8 (${fmt(baseMod + taille - gabarit - equilibre)} attaque) (${fmt(baseMod - taille + gabarit - equilibre)} défense) (${fmt(baseMod - taille - gabarit + equilibre)} tactique)`,
+                    `Hâte : ${fmt(equilibre)}`,
+                    porteeStr
+                  ].join(', ');
+                })()}
+              </div>
+            </>
           )}
           {isOutil && objet.attributOutil && (
             <div className="inventaire-detail-auto">
               Type : {objet.attributOutil}
             </div>
           )}
-          {isArmure && (
+          {(isArmure || isSousPiece) && (
             <div className="inventaire-detail-auto">
               Absorption : {(objet.categorie ?? 1) * 3}, Résistance : {objet.categorie ?? 1}, Protection : {objet.categorie ?? 1}
             </div>
           )}
-          {(jet || poids > 0 || hasCategorie || hasPenalite) && (
+          {(jet || poids > 0 || hasCategorie || hasPenalite || solidite !== null) && (
             <div className="inventaire-detail-auto">
               {[
                 jet && `Jet : ${jet}`,
+                TYPES_AVEC_MATIERE.includes(objet.type) && objet.matiere && `Matière : ${objet.matiere}`,
                 poids > 0 && `Poids : ${poids}`,
                 hasCategorie && `Encombrement : ${objet.categorie ?? 0}`,
+                solidite !== null && `Solidité : ${solidite}`,
                 hasPenalite && (() => {
                   const cat = objet.categorie ?? 0;
                   const qual = objet.qualite ?? 0;
@@ -449,13 +785,14 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
                     if (isArme) {
                       const f = getForme(objet.forme);
                       niv = f?.attr === 'PER' ? (entrainements.armesDistance ?? 0) : (entrainements.armesMelee ?? 0);
-                    } else if (isArmure) niv = entrainements.armures ?? 0;
+                    } else if (isArmure || isSousPiece) niv = entrainements.armures ?? 0;
                     else if (isOutil) niv = entrainements.outils ?? 0;
-                    else if (objet.type === 'focalisateur') niv = entrainements.magie ?? 0;
+                    else if (isFocalisateur) niv = entrainements.magie ?? 0;
                     if (niv > 0) parts.push(`entr. -${2 * niv}`);
                   }
                   if (qual !== 0) parts.push(`qual. ${qual > 0 ? '+' : ''}${qual}`);
-                  return `Ajustement : -${penaliteAjustement} (${parts.join(', ')})`;
+                  const sign = penaliteAjustement > 0 ? '+' : '';
+                  return `Ajustement : ${sign}${penaliteAjustement} (${parts.join(', ')})`;
                 })()
               ].filter(Boolean).join(', ')}
             </div>
@@ -467,6 +804,119 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
           )}
           {objet.description && (
             <div className="inventaire-detail-desc">{objet.description}</div>
+          )}
+          {hasPromotions && (
+            <div className="inventaire-ameliorations">
+              {(() => {
+                const proms = objet.promotions || [];
+                const slotsUtilises = proms.reduce((s, p) => s + (p.rang || 1), 0);
+                const slotsRestants = qualite - slotsUtilises;
+                return (
+                  <>
+                    <div className="inventaire-ameliorations-header">
+                      <span className="inventaire-ameliorations-label">Promotions ({slotsUtilises}/{qualite} slots)</span>
+                      {slotsRestants >= 1 && (
+                        <button
+                          className="inventaire-btn-amel-add"
+                          onClick={() => { setEditingPromIdx('new'); setPromForm({ nom: '', description: '', rang: 1 }); }}
+                        >+</button>
+                      )}
+                    </div>
+                    {proms.map((prom, idx) => (
+                      <div key={idx} className="inventaire-amelioration">
+                        {editingPromIdx === idx ? (
+                          <div className="inventaire-amel-edit">
+                            <div className="inventaire-amel-edit-row">
+                              <input
+                                type="text"
+                                placeholder="Nom"
+                                value={promForm.nom}
+                                onChange={e => setPromForm({ ...promForm, nom: e.target.value })}
+                                autoFocus
+                              />
+                              <select
+                                className="inventaire-amel-rang-select"
+                                value={promForm.rang || 1}
+                                onChange={e => setPromForm({ ...promForm, rang: Number(e.target.value) })}
+                              >
+                                {[1, 2, 3].filter(r => r <= slotsRestants + (prom.rang || 1)).map(r => (
+                                  <option key={r} value={r}>{['I','II','III'][r-1]}</option>
+                                ))}
+                              </select>
+                            </div>
+                            <textarea
+                              placeholder="Description"
+                              value={promForm.description}
+                              onChange={e => setPromForm({ ...promForm, description: e.target.value })}
+                              rows={2}
+                            />
+                            <div className="inventaire-amel-edit-actions">
+                              <button className="btn-primary" onClick={() => {
+                                if (!promForm.nom.trim()) return;
+                                const newProms = [...proms];
+                                newProms[idx] = { nom: promForm.nom, description: promForm.description, rang: promForm.rang || 1 };
+                                onUpdatePromotions(objet.id, newProms);
+                                setEditingPromIdx(null);
+                              }}>OK</button>
+                              <button className="btn-secondary" onClick={() => setEditingPromIdx(null)}>Annuler</button>
+                              <button className="inventaire-btn-delete" onClick={() => {
+                                const newProms = proms.filter((_, i) => i !== idx);
+                                onUpdatePromotions(objet.id, newProms);
+                                setEditingPromIdx(null);
+                              }}>✕</button>
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="inventaire-amel-display" onClick={() => { setEditingPromIdx(idx); setPromForm({ nom: prom.nom, description: prom.description, rang: prom.rang || 1 }); }}>
+                            <span className="inventaire-amel-nom"><span className="inventaire-amel-rang">{['I','II','III'][(prom.rang || 1) - 1]}</span>{prom.nom}</span>
+                            {prom.description && <span className="inventaire-amel-desc">{prom.description}</span>}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                    {editingPromIdx === 'new' && (
+                      <div className="inventaire-amelioration">
+                        <div className="inventaire-amel-edit">
+                          <div className="inventaire-amel-edit-row">
+                            <input
+                              type="text"
+                              placeholder="Nom"
+                              value={promForm.nom}
+                              onChange={e => setPromForm({ ...promForm, nom: e.target.value })}
+                              autoFocus
+                            />
+                            <select
+                              className="inventaire-amel-rang-select"
+                              value={promForm.rang || 1}
+                              onChange={e => setPromForm({ ...promForm, rang: Number(e.target.value) })}
+                            >
+                              {[1, 2, 3].filter(r => r <= slotsRestants).map(r => (
+                                <option key={r} value={r}>{['I','II','III'][r-1]}</option>
+                              ))}
+                            </select>
+                          </div>
+                          <textarea
+                            placeholder="Description"
+                            value={promForm.description}
+                            onChange={e => setPromForm({ ...promForm, description: e.target.value })}
+                            rows={2}
+                          />
+                          <div className="inventaire-amel-edit-actions">
+                            <button className="btn-primary" onClick={() => {
+                              if (!promForm.nom.trim()) return;
+                              const newProms = [...proms, { nom: promForm.nom, description: promForm.description, rang: promForm.rang || 1 }];
+                              onUpdatePromotions(objet.id, newProms);
+                              setEditingPromIdx(null);
+                            }}>Ajouter</button>
+                            <button className="btn-secondary" onClick={() => setEditingPromIdx(null)}>Annuler</button>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
+            </div>
           )}
           {hasQualite && qualite > 0 && (
             <div className="inventaire-ameliorations">
@@ -481,56 +931,32 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
                       {slotsRestants >= 1 && (
                         <button
                           className="inventaire-btn-amel-add"
-                          onClick={() => { setEditingAmelIdx('new'); setAmelForm({ nom: '', description: '', rang: 1 }); }}
+                          onClick={() => setEditingAmelIdx('new')}
                         >+</button>
                       )}
                     </div>
                     {amels.map((amel, idx) => (
                       <div key={idx} className="inventaire-amelioration">
                         {editingAmelIdx === idx ? (
-                          <div className="inventaire-amel-edit">
-                            <div className="inventaire-amel-edit-row">
-                              <input
-                                type="text"
-                                placeholder="Nom"
-                                value={amelForm.nom}
-                                onChange={e => setAmelForm({ ...amelForm, nom: e.target.value })}
-                                autoFocus
-                              />
-                              <select
-                                className="inventaire-amel-rang-select"
-                                value={amelForm.rang || 1}
-                                onChange={e => setAmelForm({ ...amelForm, rang: Number(e.target.value) })}
-                              >
-                                {[1, 2, 3].filter(r => r <= slotsRestants + (amel.rang || 1)).map(r => (
-                                  <option key={r} value={r}>{['I','II','III'][r-1]}</option>
-                                ))}
-                              </select>
-                            </div>
-                            <textarea
-                              placeholder="Description"
-                              value={amelForm.description}
-                              onChange={e => setAmelForm({ ...amelForm, description: e.target.value })}
-                              rows={2}
-                            />
-                            <div className="inventaire-amel-edit-actions">
-                              <button className="btn-primary" onClick={() => {
-                                if (!amelForm.nom.trim()) return;
-                                const newAmels = [...amels];
-                                newAmels[idx] = { nom: amelForm.nom, description: amelForm.description, rang: amelForm.rang || 1 };
-                                onUpdateAmeliorations(objet.id, newAmels);
-                                setEditingAmelIdx(null);
-                              }}>OK</button>
-                              <button className="btn-secondary" onClick={() => setEditingAmelIdx(null)}>Annuler</button>
-                              <button className="inventaire-btn-delete" onClick={() => {
-                                const newAmels = amels.filter((_, i) => i !== idx);
-                                onUpdateAmeliorations(objet.id, newAmels);
-                                setEditingAmelIdx(null);
-                              }}>✕</button>
-                            </div>
-                          </div>
+                          <AmeliorationEditForm
+                            objet={objet}
+                            amel={amel}
+                            slotsRestants={slotsRestants}
+                            onSave={saved => {
+                              const newAmels = [...amels];
+                              newAmels[idx] = saved;
+                              onUpdateAmeliorations(objet.id, newAmels);
+                              setEditingAmelIdx(null);
+                            }}
+                            onCancel={() => setEditingAmelIdx(null)}
+                            onDelete={() => {
+                              const newAmels = amels.filter((_, i) => i !== idx);
+                              onUpdateAmeliorations(objet.id, newAmels);
+                              setEditingAmelIdx(null);
+                            }}
+                          />
                         ) : (
-                          <div className="inventaire-amel-display" onClick={() => { setEditingAmelIdx(idx); setAmelForm({ nom: amel.nom, description: amel.description, rang: amel.rang || 1 }); }}>
+                          <div className="inventaire-amel-display" onClick={() => setEditingAmelIdx(idx)}>
                             <span className="inventaire-amel-nom"><span className="inventaire-amel-rang">{['I','II','III'][(amel.rang || 1) - 1]}</span>{amel.nom}</span>
                             {amel.description && <span className="inventaire-amel-desc">{amel.description}</span>}
                           </div>
@@ -539,41 +965,17 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
                     ))}
                     {editingAmelIdx === 'new' && (
                       <div className="inventaire-amelioration">
-                        <div className="inventaire-amel-edit">
-                          <div className="inventaire-amel-edit-row">
-                            <input
-                              type="text"
-                              placeholder="Nom"
-                              value={amelForm.nom}
-                              onChange={e => setAmelForm({ ...amelForm, nom: e.target.value })}
-                              autoFocus
-                            />
-                            <select
-                              className="inventaire-amel-rang-select"
-                              value={amelForm.rang || 1}
-                              onChange={e => setAmelForm({ ...amelForm, rang: Number(e.target.value) })}
-                            >
-                              {[1, 2, 3].filter(r => r <= slotsRestants).map(r => (
-                                <option key={r} value={r}>{['I','II','III'][r-1]}</option>
-                              ))}
-                            </select>
-                          </div>
-                          <textarea
-                            placeholder="Description"
-                            value={amelForm.description}
-                            onChange={e => setAmelForm({ ...amelForm, description: e.target.value })}
-                            rows={2}
-                          />
-                          <div className="inventaire-amel-edit-actions">
-                            <button className="btn-primary" onClick={() => {
-                              if (!amelForm.nom.trim()) return;
-                              const newAmels = [...amels, { nom: amelForm.nom, description: amelForm.description, rang: amelForm.rang || 1 }];
-                              onUpdateAmeliorations(objet.id, newAmels);
-                              setEditingAmelIdx(null);
-                            }}>Ajouter</button>
-                            <button className="btn-secondary" onClick={() => setEditingAmelIdx(null)}>Annuler</button>
-                          </div>
-                        </div>
+                        <AmeliorationEditForm
+                          objet={objet}
+                          amel={null}
+                          slotsRestants={slotsRestants}
+                          onSave={saved => {
+                            const newAmels = [...amels, saved];
+                            onUpdateAmeliorations(objet.id, newAmels);
+                            setEditingAmelIdx(null);
+                          }}
+                          onCancel={() => setEditingAmelIdx(null)}
+                        />
                       </div>
                     )}
                   </>
@@ -590,6 +992,7 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
 function calculerCharge(objetsEquipes) {
   const armesEquipees = objetsEquipes.filter(o => TYPES_EN_MAIN.includes(o.type) && o.slot);
   const armureEquipee = objetsEquipes.find(o => o.type === 'armure' && o.slot);
+  const piecesEquipees = objetsEquipes.filter(o => (o.type === 'sous_piece_armure' || o.type === 'colifichet') && o.slot);
 
   let charge = 0;
 
@@ -600,15 +1003,20 @@ function calculerCharge(objetsEquipes) {
 
   // Armes
   if (armesEquipees.length === 1) {
-    charge += (armesEquipees[0].categorie ?? 1) * 5;
+    charge += calculerPoidsArme(armesEquipees[0]);
   } else if (armesEquipees.length >= 2) {
-    const poids = armesEquipees.map(a => (a.categorie ?? 1) * 5).sort((a, b) => a - b);
+    const poids = armesEquipees.map(calculerPoidsArme).sort((a, b) => a - b);
     // La plus légère est divisée par deux
     charge += Math.floor(poids[0] / 2);
     for (let i = 1; i < poids.length; i++) {
       charge += poids[i];
     }
   }
+
+  // Sous-pièces d'armure et colifichets : poids plein
+  piecesEquipees.forEach(p => {
+    charge += (p.categorie ?? 0) * 5;
+  });
 
   return charge;
 }
@@ -669,7 +1077,7 @@ function TabInventaire() {
   const { character, updateCharacter } = useCharacter();
   const calc = useCharacterCalculations(character);
   const [modal, setModal] = useState(null); // null | 'new' | { edit: objet }
-  const [slotPicker, setSlotPicker] = useState(null); // null | objet (arme to equip)
+  const [slotPicker, setSlotPicker] = useState(null); // null | { objet, slots: [{id, label}] }
   const [expandedId, setExpandedId] = useState(null);
 
   const inventaire = character.inventaire || [];
@@ -692,8 +1100,8 @@ function TabInventaire() {
 
       if (modal?.edit) {
         const old = modal.edit;
-        // Si le type change et l'objet est équipé, le déséquiper
-        const shouldUnequip = old.slot && form.type !== old.type;
+        // Déséquiper si le type ou le slotType change
+        const shouldUnequip = old.slot && (form.type !== old.type || form.slotType !== old.slotType);
         return {
           ...prev,
           inventaire: inv.map(o => o.id === old.id
@@ -739,11 +1147,11 @@ function TabInventaire() {
           if (occupant && o.id === occupant.id) return { ...o, slot: null };
           return o;
         });
-      } else if (slot === 'armure') {
-        // Armure : swap si occupé
-        const occupant = inv.find(o => o.slot === 'armure' && o.id !== objetId);
+      } else {
+        // Slot simple (armure, sous-pièce d'armure, colifichet…) : swap si occupé
+        const occupant = inv.find(o => o.slot === slot && o.id !== objetId);
         inv = inv.map(o => {
-          if (o.id === objetId) return { ...o, slot: 'armure' };
+          if (o.id === objetId) return { ...o, slot };
           if (occupant && o.id === occupant.id) return { ...o, slot: null };
           return o;
         });
@@ -757,13 +1165,30 @@ function TabInventaire() {
     if (objet.type === 'armure') {
       equipToSlot(objet.id, 'armure');
     } else if (TYPES_EN_MAIN.includes(objet.type)) {
-      setSlotPicker(objet);
+      setSlotPicker({ objet, slots: SLOTS_ARME });
+    } else if (objet.type === 'sous_piece_armure') {
+      // Le slotType de l'objet détermine directement son emplacement
+      if (objet.slotType) equipToSlot(objet.id, objet.slotType);
+    } else if (objet.type === 'colifichet') {
+      const typeColif = TYPES_COLIFICHET.find(t => t.id === objet.slotType);
+      if (typeColif) {
+        if (typeColif.slots.length > 1) {
+          // Deux emplacements possibles (gauche/droit) → picker
+          setSlotPicker({
+            objet,
+            slots: typeColif.slots.map(s => ({ id: s, label: SLOTS[s] }))
+          });
+        } else {
+          // Slot unique → équipement direct
+          equipToSlot(objet.id, typeColif.slots[0]);
+        }
+      }
     }
   };
 
   const handleSlotSelect = (slot) => {
     if (slotPicker) {
-      equipToSlot(slotPicker.id, slot);
+      equipToSlot(slotPicker.objet.id, slot);
       setSlotPicker(null);
     }
   };
@@ -789,6 +1214,15 @@ function TabInventaire() {
       ...prev,
       inventaire: (prev.inventaire || []).map(o =>
         o.id === id ? { ...o, ameliorations } : o
+      )
+    }));
+  };
+
+  const handleUpdatePromotions = (id, promotions) => {
+    updateCharacter(prev => ({
+      ...prev,
+      inventaire: (prev.inventaire || []).map(o =>
+        o.id === id ? { ...o, promotions } : o
       )
     }));
   };
@@ -833,6 +1267,7 @@ function TabInventaire() {
               onDelete={handleDelete}
               onConsommer={handleConsommer}
               onUpdateAmeliorations={handleUpdateAmeliorations}
+              onUpdatePromotions={handleUpdatePromotions}
             />
           ))}
         </div>
@@ -861,6 +1296,7 @@ function TabInventaire() {
               onDelete={handleDelete}
               onConsommer={handleConsommer}
               onUpdateAmeliorations={handleUpdateAmeliorations}
+              onUpdatePromotions={handleUpdatePromotions}
             />
           ))}
         </div>
@@ -877,7 +1313,8 @@ function TabInventaire() {
 
       {slotPicker && (
         <SlotPickerModal
-          objet={slotPicker}
+          objet={slotPicker.objet}
+          slots={slotPicker.slots}
           onSelect={handleSlotSelect}
           onClose={() => setSlotPicker(null)}
         />

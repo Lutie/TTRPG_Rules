@@ -168,7 +168,7 @@ header h1 {
 /* === Grille d'infos === */
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
@@ -207,6 +207,17 @@ header h1 {
 
 .info-field-wide {
   grid-column: span 2;
+}
+
+.info-field-readonly {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 8px 12px;
+  background: var(--color-bg-alt, var(--color-bg));
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text-light);
+  font-style: italic;
 }
 
 /* === Section header avec PA === */
@@ -599,25 +610,15 @@ header h1 {
 }
 
 .caste-row-top {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 15px;
-  flex-wrap: wrap;
-  align-items: flex-end;
 }
 
-.caste-field-caste {
-  flex: 2;
-  min-width: 180px;
-}
-
-.caste-field-rang {
-  flex: 1.5;
-  min-width: 140px;
-}
-
+.caste-field-caste,
+.caste-field-rang,
 .caste-field-attr {
-  flex: 1;
-  min-width: 100px;
+  min-width: 0;
 }
 
 .caste-field {
@@ -650,10 +651,27 @@ header h1 {
   border: 1px dashed var(--color-border);
   border-radius: 4px;
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.caste-info p {
-  margin-bottom: 5px;
+.caste-info-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.caste-info-privilege,
+.caste-info-entrainements,
+.caste-info-unlock {
+  color: var(--color-text-light);
+}
+
+.caste-info-pc-hint {
+  font-size: 0.8em;
+  color: var(--color-text-muted, #888);
+  font-style: italic;
 }
 
 .caste-rang-display {
@@ -1510,6 +1528,24 @@ header h1 {
   border-color: #B8860B;
 }
 
+.entrainement-btn.special {
+  border-style: dashed;
+  border-color: #7c3aed;
+  color: #a78bfa;
+}
+
+.entrainement-btn.special:hover {
+  border-color: #a78bfa;
+  color: #c4b5fd;
+}
+
+.entrainement-btn.active.niveau-3 {
+  background: #7c3aed;
+  color: #fff;
+  border-color: #7c3aed;
+  border-style: solid;
+}
+
 .entrainement-niveau-label {
   font-size: 0.75rem;
   color: var(--color-text-light);
@@ -1610,6 +1646,137 @@ header h1 {
 .origines-modal-body {
   max-height: 70vh;
   overflow-y: auto;
+}
+
+/* === Section Attributs de Naissance (dans modale Origines) === */
+.naissance-section {
+  border-color: var(--color-accent);
+  border-style: dashed;
+}
+
+.naissance-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.naissance-header h3 {
+  margin: 0;
+}
+
+.naissance-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.naissance-total-badge {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 12px;
+  border: 1px solid;
+}
+
+.naissance-total-badge.ok {
+  color: var(--color-success, #4caf50);
+  border-color: var(--color-success, #4caf50);
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.naissance-total-badge.warn {
+  color: var(--color-danger, #e57373);
+  border-color: var(--color-danger, #e57373);
+  background: rgba(229, 115, 115, 0.1);
+}
+
+.naissance-warn-icon {
+  font-size: 1.1rem;
+  color: var(--color-danger, #e57373);
+  animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.naissance-attr-field.out-of-bounds {
+  border-color: var(--color-danger, #e57373);
+  background: rgba(229, 115, 115, 0.07);
+}
+
+.naissance-field-warn {
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: var(--color-danger, #e57373);
+}
+
+.naissance-attrs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.naissance-attr-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.naissance-attr-nom {
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-width: 72px;
+}
+
+.naissance-attr-stepper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.naissance-attr-val {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  min-width: 26px;
+  text-align: center;
+}
+
+.naissance-attr-fixed {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-light);
+  min-width: 26px;
+  text-align: center;
+}
+
+.naissance-attr-delta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 28px;
+  text-align: center;
+  color: var(--color-text-light);
+}
+
+.naissance-attr-delta.positive { color: var(--color-success, #4caf50); }
+.naissance-attr-delta.negative { color: var(--color-danger, #e57373); }
+
+.naissance-attr-range {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin-left: auto;
+  white-space: nowrap;
 }
 
 .info-section-header {
@@ -1831,11 +1998,7 @@ header h1 {
   }
 
   .info-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .info-field-wide {
-    grid-column: span 1;
+    grid-template-columns: 1fr 1fr;
   }
 
   .attr-compact-grid {
@@ -1994,8 +2157,9 @@ header h1 {
 
 .groupe-info {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
 }
 
 .groupe-nom {
@@ -2176,6 +2340,286 @@ header h1 {
   .xp-summary-content {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/* Panneau résumé compétences investies */
+.comp-summary-panel {
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.comp-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: linear-gradient(180deg, var(--color-border-dark) 0%, var(--color-border) 100%);
+  color: var(--color-bg-light);
+  cursor: pointer;
+  user-select: none;
+  font-family: var(--font-title);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.comp-summary-count {
+  margin-left: auto;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.comp-summary-body {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comp-summary-empty {
+  font-style: italic;
+  font-size: 0.85rem;
+  opacity: 0.55;
+}
+
+.comp-summary-groupe {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.comp-summary-groupe-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 3px;
+}
+
+.comp-summary-groupe-nom {
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.comp-summary-badge {
+  font-size: 0.75rem;
+  padding: 2px 7px;
+  background: var(--color-bg-dark);
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+.comp-summary-comp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 6px;
+  font-size: 0.85rem;
+}
+
+.comp-summary-attr {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  min-width: 32px;
+}
+
+.comp-summary-nom {
+  flex: 1;
+}
+
+.comp-summary-comp-rang {
+  font-size: 0.78rem;
+  opacity: 0.65;
+}
+
+.comp-summary-bonus {
+  font-family: var(--font-title);
+  font-weight: 700;
+  min-width: 32px;
+  text-align: right;
+}
+
+.comp-summary-bonus.positive { color: var(--color-positive); }
+.comp-summary-bonus.negative { color: var(--color-negative); }
+
+/* Barre ouvrir/fermer tout */
+.competences-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.btn-comp-toggle {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  padding: 5px 12px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-comp-toggle:hover {
+  background: var(--color-bg-light);
+  border-color: var(--color-accent);
+}
+
+/* Header cliquable */
+.groupe-header {
+  cursor: pointer;
+  user-select: none;
+}
+
+.groupe-chevron {
+  font-size: 0.9rem;
+  margin-right: 6px;
+  transition: transform 0.15s;
+  display: inline-block;
+}
+
+/* Sous-groupes (ex: Combat → Par Genre / Par Type / Spéciales) */
+.sous-groupe-block {
+  border-top: 1px solid var(--color-border);
+}
+
+.sous-groupe-header {
+  padding: 5px 15px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  background: var(--color-bg-dark);
+  font-family: var(--font-title);
+}
+
+/* Badge attribut non-sélectionnable (quand un seul attr disponible) */
+.competence-attr-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  min-width: 36px;
+  text-align: center;
+  padding: 3px 5px;
+  background: var(--color-bg-dark);
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+}
+
+/* Badge (L) pour compétences limitantes */
+.badge-limitant {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-negative);
+  opacity: 0.85;
+}
+
+/* Compétence limitante — bordure colorée */
+.competence-item.limitant {
+  border-left: 3px solid var(--color-negative);
+}
+
+/* Groupe libre (Ambidextrie) */
+.groupe-block.groupe-limitant .groupe-header {
+  background: linear-gradient(180deg, #3d2020 0%, #2d1515 100%);
+}
+
+/* Slot de compétence libre (< Type d'Arme >, < Langue >…) */
+.competence-libre-slot {
+  border-left: 3px solid var(--color-highlight);
+  margin-bottom: 4px;
+  background: rgba(212, 165, 116, 0.08);
+  border-radius: 0 4px 4px 0;
+}
+
+.competence-libre-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px 4px;
+}
+
+.competence-libre-label {
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  flex: 1;
+}
+
+.btn-libre-add {
+  background: var(--color-accent);
+  color: var(--color-bg-light);
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.btn-libre-add:hover {
+  background: var(--color-accent-light);
+}
+
+.competence-libre-entry {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px 3px 20px;
+  border-top: 1px dashed rgba(139, 115, 85, 0.3);
+}
+
+.competence-libre-nom-input {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  padding: 1px 4px;
+  min-width: 0;
+}
+
+.competence-libre-nom-input:focus {
+  outline: none;
+  border-bottom-color: var(--color-accent);
+}
+
+.btn-libre-remove {
+  background: none;
+  border: none;
+  color: var(--color-negative);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 2px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.btn-libre-remove:hover {
+  opacity: 1;
+}
+
+/* Entrées libres dans le résumé */
+.comp-summary-comp.comp-summary-libre {
+  opacity: 0.85;
+  font-style: italic;
 }
 
 /* === Traits === */
@@ -2365,29 +2809,52 @@ header h1 {
   margin: 0;
 }
 
-.trait-rang-control {
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px dashed var(--color-border);
+.trait-rang-stepper {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.9rem;
+  gap: 6px;
+  flex-shrink: 0;
 }
 
-.trait-rang-control select {
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  padding: 4px 8px;
-  background: var(--color-bg-light);
+.btn-rang-step {
+  width: 24px;
+  height: 24px;
   border: 1px solid var(--color-border);
   border-radius: 4px;
+  background: var(--color-bg-light);
   color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background 0.15s, border-color 0.15s;
 }
 
-.trait-cout-total {
+.btn-rang-step:hover:not(:disabled) {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.btn-rang-step:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.trait-rang-value {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+.trait-rang-max {
   color: var(--color-text-light);
-  font-style: italic;
+  font-weight: 400;
 }
 
 /* Ajout de trait */
@@ -2449,6 +2916,343 @@ header h1 {
 
   .select-add-trait {
     min-width: 100%;
+  }
+}
+
+/* ── Nouveaux types de traits ── */
+
+.trait-item.trait-avantage-majeur    { border-left: 3px solid var(--color-positive); }
+.trait-item.trait-avantage-archetype { border-left: 3px solid #5e9f6f; }
+.trait-item.trait-avantage-mineur    { border-left: 3px solid #8fbc8f; border-left-style: dashed; }
+.trait-item.trait-desavantage        { border-left: 3px solid var(--color-negative); }
+
+/* ── Header de section avec bouton ── */
+
+.traits-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.traits-section-header .traits-section-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.traits-avantages .traits-section-header { border-bottom-color: var(--color-positive); }
+.traits-avantages .traits-section-header .traits-section-title { color: var(--color-positive); }
+.traits-desavantages .traits-section-header { border-bottom-color: var(--color-negative); }
+.traits-desavantages .traits-section-header .traits-section-title { color: var(--color-negative); }
+.traits-avantages-mineurs .traits-section-header { border-bottom-color: #8fbc8f; }
+.traits-avantages-mineurs .traits-section-header .traits-section-title { color: #5e9f6f; }
+
+.btn-open-modal {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 5px 12px;
+  background: var(--color-accent);
+  color: var(--color-bg-light);
+  border: 1px solid var(--color-border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.btn-open-modal:hover {
+  background: var(--color-accent-light);
+}
+
+/* ── Slot count avantages mineurs ── */
+
+.trait-slot-count {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: #5e9f6f;
+}
+
+.trait-slot-count.over {
+  color: var(--color-negative);
+}
+
+/* ── Tags ── */
+
+.trait-tags-inline,
+.trait-tags-full {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+}
+
+.trait-tags-inline {
+  flex: 1;
+  justify-content: flex-end;
+  margin: 0 8px;
+}
+
+.trait-tags-full {
+  margin-top: 8px;
+}
+
+.trait-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-family: var(--font-body);
+}
+
+.tag-extension {
+  background: #d4c5a0;
+  color: #5c4a32;
+  border: 1px solid #b8a882;
+}
+
+.tag-categorie {
+  background: #e8d5b0;
+  color: #6b4c2a;
+  border: 1px solid #c8aa78;
+}
+
+/* ── Badges PP ── */
+
+.trait-cout-badge {
+  font-size: 0.75rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.badge-cost {
+  background: rgba(46, 125, 50, 0.15);
+  color: var(--color-positive);
+  border: 1px solid rgba(46, 125, 50, 0.3);
+}
+
+.badge-gain {
+  background: rgba(198, 40, 40, 0.12);
+  color: var(--color-negative);
+  border: 1px solid rgba(198, 40, 40, 0.25);
+}
+
+.trait-bonus-badge {
+  font-size: 0.9rem;
+  color: #c8900a;
+  cursor: help;
+}
+
+.trait-rangmax-badge {
+  font-size: 0.75rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 10px;
+  background: rgba(139, 69, 19, 0.1);
+  color: var(--color-accent);
+  border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+/* ── Métadonnées d'un trait ── */
+
+.trait-meta-block {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.trait-meta {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  line-height: 1.4;
+}
+
+.trait-meta strong {
+  color: var(--color-text);
+}
+
+/* ── Modale de sélection de traits ── */
+
+.traits-modal-content {
+  max-width: 700px;
+  width: 95vw;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+
+.traits-modal-search {
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-light);
+  flex-shrink: 0;
+}
+
+.traits-search-input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.traits-search-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.traits-filter-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.traits-filter-row select {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 5px 8px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  flex: 1;
+  min-width: 140px;
+}
+
+.traits-filter-row select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.traits-modal-count {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.traits-results {
+  overflow-y: auto;
+  flex: 1;
+  padding: 8px 12px;
+}
+
+.traits-no-results {
+  text-align: center;
+  padding: 30px;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* ── Ligne de résultat dans la modale ── */
+
+.trait-result-item {
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.trait-result-item:hover {
+  border-color: var(--color-accent);
+}
+
+.trait-result-item.expanded {
+  border-color: var(--color-accent);
+}
+
+.trait-result-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--color-bg-light);
+  flex-wrap: wrap;
+}
+
+.trait-result-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.trait-result-name:hover .trait-nom {
+  color: var(--color-accent);
+}
+
+.trait-result-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  flex: 1;
+}
+
+.btn-add-trait-modal {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  background: var(--color-accent);
+  color: var(--color-bg-light);
+  border: 1px solid var(--color-border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s;
+}
+
+.btn-add-trait-modal:hover {
+  background: var(--color-accent-light);
+}
+
+.trait-result-detail {
+  padding: 12px 15px;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+/* ── Responsive modale ── */
+
+@media (max-width: 600px) {
+  .traits-modal-content {
+    max-height: 95vh;
+    width: 100vw;
+    border-radius: 0;
+  }
+
+  .traits-filter-row {
+    flex-direction: column;
+  }
+
+  .trait-result-header {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .btn-add-trait-modal {
+    width: 100%;
   }
 }
 
@@ -4349,6 +5153,43 @@ header h1 {
   background: var(--color-bg-light);
   color: var(--color-text);
   font-family: inherit;
+}
+
+.inventaire-matiere-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.inventaire-amel-mode-toggle {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+
+.inventaire-amel-mode-btn {
+  flex: 1;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border: 1px solid var(--color-border, #888);
+  background: transparent;
+  color: var(--color-text-muted, #aaa);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.inventaire-amel-mode-btn.active {
+  background: var(--color-primary, #8b7355);
+  color: #fff;
+  border-color: var(--color-primary, #8b7355);
+}
+
+.inventaire-amel-liste-desc {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #aaa);
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
 }
 
 .inventaire-amel-edit-actions {

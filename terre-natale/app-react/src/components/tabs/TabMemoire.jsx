@@ -22,12 +22,23 @@ function TabMemoire() {
   });
 
   const handleAdd = (typeId) => {
-    const nom = newItemNames[typeId]?.trim();
-    if (!nom) return;
+    const type = DATA.typesMémoire.find(t => t.id === typeId);
+    let nom, description;
+    if (type?.liste) {
+      const id = Number(newItemNames[typeId]);
+      const entry = type.liste.find(e => e.id === id);
+      if (!entry) return;
+      nom = entry.nom;
+      description = entry.description || '';
+    } else {
+      nom = newItemNames[typeId]?.trim();
+      if (!nom) return;
+      description = '';
+    }
 
     updateCharacter(prev => ({
       ...prev,
-      memoire: [...(prev.memoire || []), { typeId, nom, description: '' }]
+      memoire: [...(prev.memoire || []), { typeId, nom, description }]
     }));
 
     setNewItemNames(prev => ({ ...prev, [typeId]: '' }));
@@ -138,14 +149,27 @@ function TabMemoire() {
                 )}
               </div>
               <div className="memoire-add">
-                <input
-                  type="text"
-                  className="memoire-input"
-                  placeholder="Nouvelle entrée..."
-                  value={newItemNames[type.id] || ''}
-                  onChange={(e) => handleInputChange(type.id, e.target.value)}
-                  onKeyPress={(e) => handleKeyPress(e, type.id)}
-                />
+                {type.liste ? (
+                  <select
+                    className="memoire-input"
+                    value={newItemNames[type.id] || ''}
+                    onChange={(e) => handleInputChange(type.id, e.target.value)}
+                  >
+                    <option value="">— choisir —</option>
+                    {type.liste.map(entry => (
+                      <option key={entry.id} value={entry.id}>{entry.nom}</option>
+                    ))}
+                  </select>
+                ) : (
+                  <input
+                    type="text"
+                    className="memoire-input"
+                    placeholder="Nouvelle entrée..."
+                    value={newItemNames[type.id] || ''}
+                    onChange={(e) => handleInputChange(type.id, e.target.value)}
+                    onKeyPress={(e) => handleKeyPress(e, type.id)}
+                  />
+                )}
                 <button
                   className="btn-memoire-add"
                   onClick={() => handleAdd(type.id)}

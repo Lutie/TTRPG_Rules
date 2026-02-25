@@ -84,6 +84,7 @@ function TabStatus() {
   const FORMES_ATTR = {
     tranchant: 'DEX', contondant: 'FOR', perforant: 'AGI', defense: 'CON', distance: 'PER'
   };
+  const initiativeActuelle = (autresRessources.find(ar => ar.id === 'initiative')?.actuel) ?? null;
   const calcArme = (arme) => {
     if (!arme) return null;
     const cat = arme.categorie ?? 1;
@@ -105,7 +106,17 @@ function TabStatus() {
     const zonePassive = 5 + calculerModificateur(agiBase + qual) - cat + (bonus.controlePassif || 0);
     // Expertise = 10 + m(DEX + qualité arme) + bonus
     const expertise = 10 + calculerModificateur(dexBase + qual) + (bonus.expertisePhysique || 0);
-    return { nom: arme.nom, nbDes, mod, attrId, qual, cat, perforation, precision, zoneActive, zonePassive, expertise };
+    // Hâte = initiative actuelle + équilibre de l'arme (null si pas d'initiative en jeu)
+    const hate = initiativeActuelle !== null ? initiativeActuelle + (arme.equilibre ?? 0) : null;
+    // Modificateurs de jet (att/def/tac) — basés sur l'attribut sans qualité, pondérés par taille/gabarit/équilibre
+    const baseModJet = calculerModificateur(attrBase);
+    const taille = arme.taille ?? 0;
+    const gabarit = arme.gabarit ?? 0;
+    const equilibre = arme.equilibre ?? 0;
+    const modAtt = baseModJet + taille - gabarit - equilibre;
+    const modDef = baseModJet - taille + gabarit - equilibre;
+    const modTac = baseModJet - taille - gabarit + equilibre;
+    return { nom: arme.nom, nbDes, mod, attrId, qual, cat, perforation, precision, zoneActive, zonePassive, expertise, hate, modAtt, modDef, modTac };
   };
   const armeMainDir = inventaire.find(o => o.type === 'arme' && o.slot === 'mainDirectrice')
     || inventaire.find(o => o.type === 'arme' && o.slot === 'deuxMains');
@@ -128,7 +139,7 @@ function TabStatus() {
   const absorptionMentale = resCat * 3 + mVolEffective + (bonus.absorptionMentale || 0);
   const resistanceMentale = resCat + (bonus.resilienceMentale || 0);
   const protectionMentale = 5 + calc.getMod('EGO') + resCat + (bonus.protectionMentale || 0);
-  const penaliteResolution = Math.max(0, 2 * resCat - 2 * (entrainements.social ?? 0) + resQual);
+  const penaliteResolution = -2 * resCat + 2 * (entrainements.social ?? 0) + resQual;
   const ATTRS_MENTAUX = ['CHA', 'INT', 'RUS', 'VOL', 'SAG'];
   const defensesPassivesMentales = ATTRS_MENTAUX.map(id => {
     const val = getValeurTotale(character, id) + resQual;
@@ -146,7 +157,7 @@ function TabStatus() {
   const expertiseArgumentation = 10 + calculerModificateur(getValeurTotale(character, 'INT') + argQual) + (bonus.expertiseMentale || 0);
   const perforationMentale = calc.getMod('SAG') + (bonus.perfMentale || 0);
   const precisionMentale = calc.getMod('INT') + (bonus.precisionMentale || 0);
-  const penaliteArgumentation = Math.max(0, 2 * argCat - 2 * (entrainements.social ?? 0) + argQual);
+  const penaliteArgumentation = -2 * argCat + 2 * (entrainements.social ?? 0) + argQual;
 
   // Surcharge sociale (prestance)
   const surchargePrestige = (resCat + argCat) * 5 > calc.prestance;
@@ -602,15 +613,14 @@ function TabStatus() {
                   </span>
                 </div>
                 <div className="status-defenses-passives">
-                  <span className="status-defenses-passives-label">Défenses Passives :</span>
+                  <span className="status-defenses-passives-label">Défenses Passives{enChoc && <span className="status-defense-choc">,&nbsp;en état de choc</span>} :</span>
                   {defensesPassives.map((d, i) => (
                     <span key={d.id} className="status-defense-passive">
                       <span className="status-defense-attr">{d.id}</span> {d.defense}{i < defensesPassives.length - 1 ? ',\u00A0' : ''}
                     </span>
                   ))}
-                  {enChoc && <span className="status-defense-choc">,&nbsp;choc -5</span>}
-                  {penaliteArmure > 0 && (
-                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArmure}</span></>
+                  {penaliteArmure !== 0 && (
+                    <><span className="status-defense-passive">,&nbsp;</span><span className={`status-defenses-passives-label${penaliteArmure < 0 ? ' status-penalite-warn' : ''}`}>Ajustement : {penaliteArmure > 0 ? '+' : ''}{penaliteArmure}</span></>
                   )}
                 </div>
               </div>
@@ -647,8 +657,12 @@ function TabStatus() {
                     <span className="status-defenses-passives-label">Zones de Contrôle :</span>
                     <span className="status-defense-passive">Active {degatsMainDir.zoneActive},&nbsp;</span>
                     <span className="status-defense-passive">Passive {degatsMainDir.zonePassive}</span>
-                    {penaliteArmeDir > 0 && (
-                      <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArmeDir}</span></>
+                    {degatsMainDir.hate !== null && (
+                      <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label">Hâte : {degatsMainDir.hate}</span></>
+                    )}
+                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label" title={`Att/Déf/Tac calculés depuis ${degatsMainDir.attrId} (taille ${armeMainDir.taille ?? 0}, gabarit ${armeMainDir.gabarit ?? 0}, équilibre ${armeMainDir.equilibre ?? 0})`}>Jet Att {degatsMainDir.modAtt >= 0 ? `+${degatsMainDir.modAtt}` : degatsMainDir.modAtt}, Jet Déf {degatsMainDir.modDef >= 0 ? `+${degatsMainDir.modDef}` : degatsMainDir.modDef}, Jet Tac {degatsMainDir.modTac >= 0 ? `+${degatsMainDir.modTac}` : degatsMainDir.modTac}</span></>
+                    {penaliteArmeDir !== 0 && (
+                      <><span className="status-defense-passive">,&nbsp;</span><span className={`status-defenses-passives-label${penaliteArmeDir < 0 ? ' status-penalite-warn' : ''}`}>Ajustement : {penaliteArmeDir > 0 ? '+' : ''}{penaliteArmeDir}</span></>
                     )}
                   </div>
                 </div>
@@ -686,8 +700,12 @@ function TabStatus() {
                     <span className="status-defenses-passives-label">Zones de Contrôle :</span>
                     <span className="status-defense-passive">Active {degatsMainNonDir.zoneActive},&nbsp;</span>
                     <span className="status-defense-passive">Passive {degatsMainNonDir.zonePassive}</span>
-                    {penaliteArmeNonDir > 0 && (
-                      <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArmeNonDir}</span></>
+                    {degatsMainNonDir.hate !== null && (
+                      <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label">Hâte : {degatsMainNonDir.hate}</span></>
+                    )}
+                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label" title={`Att/Déf/Tac calculés depuis ${degatsMainNonDir.attrId} (taille ${armeMainNonDir.taille ?? 0}, gabarit ${armeMainNonDir.gabarit ?? 0}, équilibre ${armeMainNonDir.equilibre ?? 0})`}>Jet Att {degatsMainNonDir.modAtt >= 0 ? `+${degatsMainNonDir.modAtt}` : degatsMainNonDir.modAtt}, Jet Déf {degatsMainNonDir.modDef >= 0 ? `+${degatsMainNonDir.modDef}` : degatsMainNonDir.modDef}, Jet Tac {degatsMainNonDir.modTac >= 0 ? `+${degatsMainNonDir.modTac}` : degatsMainNonDir.modTac}</span></>
+                    {penaliteArmeNonDir !== 0 && (
+                      <><span className="status-defense-passive">,&nbsp;</span><span className={`status-defenses-passives-label${penaliteArmeNonDir < 0 ? ' status-penalite-warn' : ''}`}>Ajustement : {penaliteArmeNonDir > 0 ? '+' : ''}{penaliteArmeNonDir}</span></>
                     )}
                   </div>
                 </div>
@@ -750,15 +768,14 @@ function TabStatus() {
                   </span>
                 </div>
                 <div className="status-defenses-passives">
-                  <span className="status-defenses-passives-label">Défenses Passives :</span>
+                  <span className="status-defenses-passives-label">Défenses Passives{enChoc && <span className="status-defense-choc">,&nbsp;en état de choc</span>} :</span>
                   {defensesPassivesMentales.map((d, i) => (
                     <span key={d.id} className="status-defense-passive">
                       <span className="status-defense-attr">{d.id}</span> {d.defense}{i < defensesPassivesMentales.length - 1 ? ',\u00A0' : ''}
                     </span>
                   ))}
-                  {enChoc && <span className="status-defense-choc">,&nbsp;choc -5</span>}
-                  {penaliteResolution > 0 && (
-                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteResolution}</span></>
+                  {penaliteResolution !== 0 && (
+                    <><span className="status-defense-passive">,&nbsp;</span><span className={`status-defenses-passives-label${penaliteResolution < 0 ? ' status-penalite-warn' : ''}`}>Ajustement : {penaliteResolution > 0 ? '+' : ''}{penaliteResolution}</span></>
                   )}
                 </div>
               </div>
@@ -818,8 +835,8 @@ function TabStatus() {
                 <div className="status-defenses-passives">
                   <span className="status-defenses-passives-label">Expertise :</span>
                   <span className="status-defense-passive">{expertiseArgumentation}</span>
-                  {penaliteArgumentation > 0 && (
-                    <><span className="status-defense-passive">,&nbsp;</span><span className="status-defenses-passives-label status-penalite-warn">Ajustement : -{penaliteArgumentation}</span></>
+                  {penaliteArgumentation !== 0 && (
+                    <><span className="status-defense-passive">,&nbsp;</span><span className={`status-defenses-passives-label${penaliteArgumentation < 0 ? ' status-penalite-warn' : ''}`}>Ajustement : {penaliteArgumentation > 0 ? '+' : ''}{penaliteArgumentation}</span></>
                   )}
                 </div>
               </div>

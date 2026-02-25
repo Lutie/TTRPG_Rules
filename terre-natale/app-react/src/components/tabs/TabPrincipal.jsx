@@ -35,6 +35,21 @@ function TabPrincipal() {
     }));
   };
 
+  const handleEthnieChange = (nom) => {
+    const ethnie = DATA.ethnies.find(e => e.nom === nom);
+    updateCharacter(prev => ({
+      ...prev,
+      infos: { ...prev.infos, ethnie: nom, origine: ethnie?.origine || '' }
+    }));
+  };
+
+  // Ethnies regroupées par race pour le select
+  const ethniesParRace = DATA.ethnies.reduce((acc, e) => {
+    if (!acc[e.origine]) acc[e.origine] = [];
+    acc[e.origine].push(e);
+    return acc;
+  }, {});
+
   const formatMod = (val) => val >= 0 ? `+${val}` : `${val}`;
 
   return (
@@ -47,7 +62,8 @@ function TabPrincipal() {
           </button>
         </div>
         <div className="info-grid">
-          <div className="info-field info-field-wide">
+          {/* Ligne 1 : Nom | Race (auto) | Destinée | Vécu */}
+          <div className="info-field">
             <label>Nom</label>
             <input
               type="text"
@@ -56,52 +72,10 @@ function TabPrincipal() {
             />
           </div>
           <div className="info-field">
-            <label>Origine</label>
-            <select
-              value={character.infos?.origine || ''}
-              onChange={(e) => handleInfoChange('origine', e.target.value)}
-            >
-              <option value="">-- Choisir --</option>
-              {DATA.origines.map(o => (
-                <option key={o} value={o}>{o}</option>
-              ))}
-            </select>
-          </div>
-          <div className="info-field">
-            <label>Ethnie</label>
-            <select
-              value={character.infos?.ethnie || ''}
-              onChange={(e) => handleInfoChange('ethnie', e.target.value)}
-            >
-              <option value="">-- Choisir --</option>
-              {DATA.ethnies.map(e => (
-                <option key={e.nom} value={e.nom}>{e.nom} ({e.origine})</option>
-              ))}
-            </select>
-          </div>
-          <div className="info-field">
-            <label>Comportement</label>
-            <select
-              value={character.infos?.comportement || ''}
-              onChange={(e) => handleInfoChange('comportement', e.target.value)}
-            >
-              <option value="">-- Choisir --</option>
-              {DATA.temperaments.map(t => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </select>
-          </div>
-          <div className="info-field">
-            <label>Caractère</label>
-            <select
-              value={character.infos?.caractere || ''}
-              onChange={(e) => handleInfoChange('caractere', e.target.value)}
-            >
-              <option value="">-- Choisir --</option>
-              {DATA.temperaments.map(t => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </select>
+            <label>Race</label>
+            <div className="info-field-readonly">
+              {character.infos?.origine || '—'}
+            </div>
           </div>
           <div className="info-field">
             <label>Destinée</label>
@@ -127,27 +101,21 @@ function TabPrincipal() {
               ))}
             </select>
           </div>
+
+          {/* Ligne 2 : Ethnie | Milieu de vie | Allégeance | Persona */}
           <div className="info-field">
-            <label>Nombre Fétiche</label>
+            <label>Ethnie</label>
             <select
-              value={character.infos?.nombreFetiche || ''}
-              onChange={(e) => handleInfoChange('nombreFetiche', e.target.value)}
+              value={character.infos?.ethnie || ''}
+              onChange={(e) => handleEthnieChange(e.target.value)}
             >
               <option value="">-- Choisir --</option>
-              {[1, 2, 3, 4, 5, 6].map(n => (
-                <option key={n} value={n}>{n}</option>
-              ))}
-            </select>
-          </div>
-          <div className="info-field">
-            <label>Allégeance</label>
-            <select
-              value={character.infos?.allegeance || ''}
-              onChange={(e) => handleInfoChange('allegeance', e.target.value)}
-            >
-              <option value="">-- Choisir --</option>
-              {DATA.allegeances.map(a => (
-                <option key={a.nom} value={a.nom}>{a.nom}</option>
+              {Object.entries(ethniesParRace).map(([race, liste]) => (
+                <optgroup key={race} label={race}>
+                  {liste.map(e => (
+                    <option key={e.nom} value={e.nom}>{e.nom}</option>
+                  ))}
+                </optgroup>
               ))}
             </select>
           </div>
@@ -164,6 +132,18 @@ function TabPrincipal() {
             </select>
           </div>
           <div className="info-field">
+            <label>Allégeance</label>
+            <select
+              value={character.infos?.allegeance || ''}
+              onChange={(e) => handleInfoChange('allegeance', e.target.value)}
+            >
+              <option value="">-- Choisir --</option>
+              {DATA.allegeances.map(a => (
+                <option key={a.nom} value={a.nom}>{a.nom}</option>
+              ))}
+            </select>
+          </div>
+          <div className="info-field">
             <label>Persona</label>
             <select
               value={character.infos?.persona || ''}
@@ -172,6 +152,44 @@ function TabPrincipal() {
               <option value="">-- Choisir --</option>
               {DATA.personas.map(p => (
                 <option key={p.nom} value={p.nom}>{p.nom}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* Ligne 3 : Comportement | Caractère | Nombre Fétiche */}
+          <div className="info-field">
+            <label>Comportement</label>
+            <select
+              value={character.infos?.comportement || ''}
+              onChange={(e) => handleInfoChange('comportement', e.target.value)}
+            >
+              <option value="">-- Choisir --</option>
+              {DATA.temperaments.map(t => (
+                <option key={t} value={t}>{t}</option>
+              ))}
+            </select>
+          </div>
+          <div className="info-field">
+            <label>Caractère</label>
+            <select
+              value={character.infos?.caractere || ''}
+              onChange={(e) => handleInfoChange('caractere', e.target.value)}
+            >
+              <option value="">-- Choisir --</option>
+              {DATA.temperaments.map(t => (
+                <option key={t} value={t}>{t}</option>
+              ))}
+            </select>
+          </div>
+          <div className="info-field">
+            <label>Nombre Fétiche</label>
+            <select
+              value={character.infos?.nombreFetiche || ''}
+              onChange={(e) => handleInfoChange('nombreFetiche', e.target.value)}
+            >
+              <option value="">-- Choisir --</option>
+              {[1, 2, 3, 4, 5, 6].map(n => (
+                <option key={n} value={n}>{n}</option>
               ))}
             </select>
           </div>
@@ -477,11 +495,45 @@ function CasteSection({ character, updateCharacter, calc }) {
       </div>
       {casteActuelle && (
         <div className="caste-info">
-          <p><strong>Domaine:</strong> {casteActuelle.domaine}</p>
-          <p><strong>Style:</strong> {casteActuelle.style}</p>
-          <p><strong>Ressources:</strong> {casteActuelle.ressources?.join(', ') || '-'}</p>
-          <p><strong>Sauvegardes Majeures:</strong> {casteActuelle.sauvegardesMajeures?.join(', ') || '-'}</p>
-          <p><strong>Sauvegardes Mineures:</strong> {casteActuelle.sauvegardesMineures?.join(', ') || '-'}</p>
+          <div className="caste-info-row">
+            <span><strong>Domaine :</strong> {casteActuelle.domaine || '—'}</span>
+            <span><strong>Style :</strong> {casteActuelle.style || '—'}</span>
+          </div>
+          <div className="caste-info-row">
+            <span><strong>Ressources :</strong> {casteActuelle.ressources?.join(', ') || '—'}</span>
+            <span><strong>Sauv. majeures :</strong> {casteActuelle.sauvegardesMajeures?.join(', ') || '—'}</span>
+            <span><strong>Sauv. mineures :</strong> {casteActuelle.sauvegardesMineures?.join(', ') || '—'}</span>
+          </div>
+          {casteActuelle.privilege && (
+            <div className="caste-info-privilege">
+              <strong>Privilège</strong> <span className="caste-info-pc-hint">(Jusqu'à {calc.rangCaste} PC pour {calc.rangCaste} d'ajustement dans les situations concernées)</span> <strong>:</strong> {casteActuelle.privilege}
+            </div>
+          )}
+          {calc.rangCaste >= 3 && casteActuelle.trait1 && (
+            <div className="caste-info-unlock">
+              <strong>1er Trait de Caste :</strong> {casteActuelle.trait1}
+            </div>
+          )}
+          {calc.rangCaste >= 4 && casteActuelle.actionSpeciale && (
+            <div className="caste-info-unlock">
+              <strong>Action de Caste :</strong> {casteActuelle.actionSpeciale}
+            </div>
+          )}
+          {calc.rangCaste >= 6 && casteActuelle.trait2 && (
+            <div className="caste-info-unlock">
+              <strong>2nd Trait de Caste :</strong> {casteActuelle.trait2}
+            </div>
+          )}
+          {calc.rangCaste >= 8 && casteActuelle.amelioration && (
+            <div className="caste-info-unlock">
+              <strong>Action de Caste Améliorée :</strong> {casteActuelle.amelioration}
+            </div>
+          )}
+          {casteActuelle.entrainements && (
+            <div className="caste-info-entrainements">
+              <strong>Entraînements :</strong> {casteActuelle.entrainements}
+            </div>
+          )}
         </div>
       )}
     </div>
@@ -537,7 +589,7 @@ function PPSummary({ character, calc }) {
       <div className="xp-summary-title">Points de Personnage</div>
       <div className="xp-summary-content">
         <div className="xp-summary-row">
-          <span className="xp-label">Départ ({destineeNom})</span>
+          <span className="xp-label">Départ</span>
           <span className="xp-value">{calc.ppDepart}</span>
         </div>
         <div className="xp-summary-row">
@@ -545,7 +597,7 @@ function PPSummary({ character, calc }) {
           <span className="xp-value">{calc.ppDesavantages}</span>
         </div>
         <div className="xp-summary-row">
-          <span className="xp-label">Caste (rang {calc.rangCaste})</span>
+          <span className="xp-label">Caste</span>
           <span className="xp-value">{calc.ppCaste}</span>
         </div>
         <div className="xp-summary-row xp-total-row">
@@ -564,6 +616,7 @@ function PPSummary({ character, calc }) {
 const ENTRAINEMENTS = [
   { id: 'armesMelee', label: 'Armes de Mêlée' },
   { id: 'armesDistance', label: 'Armes à Distance' },
+  { id: 'armesJet', label: 'Armes de Jet' },
   { id: 'armures', label: 'Armures' },
   { id: 'outils', label: 'Outils' },
   { id: 'magie', label: 'Magie' },
@@ -574,7 +627,8 @@ const ENTRAINEMENTS = [
 const NIVEAUX_ENTRAINEMENT = [
   { value: 0, label: 'Non entraîné' },
   { value: 1, label: 'Expert' },
-  { value: 2, label: 'Maître' }
+  { value: 2, label: 'Maître' },
+  { value: 3, label: 'Légende', special: true }
 ];
 
 function EntrainementsSection({ character, updateCharacter }) {
@@ -598,9 +652,11 @@ function EntrainementsSection({ character, updateCharacter }) {
               {NIVEAUX_ENTRAINEMENT.map(n => (
                 <button
                   key={n.value}
-                  className={`entrainement-btn ${niveau === n.value ? 'active' : ''} niveau-${n.value}`}
+                  className={`entrainement-btn ${niveau === n.value ? 'active' : ''} niveau-${n.value}${n.special ? ' special' : ''}`}
                   onClick={() => handleChange(e.id, n.value)}
-                  title={n.label}
+                  title={n.special
+                    ? `${n.label} — Uniquement accessible dans des conditions spéciales ou avec l'accord explicite du Meneur de Jeu`
+                    : n.label}
                 >
                   {n.value}
                 </button>
@@ -620,12 +676,25 @@ function EntrainementsSection({ character, updateCharacter }) {
 function OriginesModal({ character, updateCharacter, onClose }) {
   // État local pour les choix temporaires
   const [choices, setChoices] = useState(() => character.originesChoix || {});
+  const [naissanceChoix, setNaissanceChoix] = useState(() => {
+    const nb = character.naissanceBonus || {};
+    const eth = DATA.ethnies.find(e => e.nom === character.infos?.ethnie);
+    const result = {};
+    Object.entries(eth?.attributs_naissance || {}).forEach(([id, def]) => {
+      result[id] = DATA.valeurDefautSecondaire + (nb[id] || 0);
+    });
+    return result;
+  });
 
   // Récupère les données actuelles
   const ethnie = DATA.ethnies.find(e => e.nom === character.infos?.ethnie);
   const allegeance = DATA.allegeances.find(a => a.nom === character.infos?.allegeance);
   const milieu = DATA.milieux.find(m => m.nom === character.infos?.milieu);
   const persona = DATA.personas.find(p => p.nom === character.infos?.persona);
+
+  const handleNaissanceChange = (attrId, val) => {
+    setNaissanceChoix(prev => ({ ...prev, [attrId]: val }));
+  };
 
   // Gestion des choix
   const handleChoiceChange = (source, slot, value) => {
@@ -707,10 +776,16 @@ function OriginesModal({ character, updateCharacter, onClose }) {
   // Applique les origines
   const handleApply = () => {
     const adjustments = computeAdjustments();
+    const newNaissanceBonus = { ...(character.naissanceBonus || {}) };
+    Object.entries(ethnie?.attributs_naissance || {}).forEach(([id]) => {
+      const val = naissanceChoix[id] ?? DATA.valeurDefautSecondaire;
+      newNaissanceBonus[id] = val - DATA.valeurDefautSecondaire;
+    });
     updateCharacter(prev => ({
       ...prev,
       originesChoix: choices,
-      originesBonus: adjustments
+      originesBonus: adjustments,
+      naissanceBonus: newNaissanceBonus,
     }));
     onClose();
   };
@@ -718,6 +793,11 @@ function OriginesModal({ character, updateCharacter, onClose }) {
   // Réinitialise
   const handleReset = () => {
     setChoices({});
+    const resetNaissance = {};
+    Object.entries(ethnie?.attributs_naissance || {}).forEach(([id, def]) => {
+      resetNaissance[id] = def.val ?? def.min;
+    });
+    setNaissanceChoix(resetNaissance);
   };
 
   // Ferme en cliquant sur le backdrop
@@ -929,6 +1009,79 @@ function OriginesModal({ character, updateCharacter, onClose }) {
               </div>
             </div>
           </div>
+
+          {/* Attributs de Naissance */}
+          {ethnie?.attributs_naissance && Object.keys(ethnie.attributs_naissance).length > 0 && (() => {
+            const NOMS = { STA: 'Stature', TAI: 'Taille', EGO: 'Ego', APP: 'Apparence', CHN: 'Chance', EQU: 'Équilibre' };
+            const entries = Object.entries(ethnie.attributs_naissance);
+            const naissanceTotal = entries.reduce((sum, [attrId, def]) => {
+              const minVal = def.val ?? def.min;
+              return sum + (naissanceChoix[attrId] ?? minVal);
+            }, 0);
+            const totalOk = naissanceTotal === 60;
+            const hasOutOfBounds = entries.some(([attrId, def]) => {
+              const minVal = def.val ?? def.min;
+              const maxVal = def.val ?? def.max;
+              const val = naissanceChoix[attrId] ?? minVal;
+              return val < minVal || val > maxVal;
+            });
+            return (
+              <div className="origin-section naissance-section">
+                <div className="naissance-header">
+                  <h3>Attributs de Naissance <span className="origin-label">({ethnie.nom})</span></h3>
+                  <div className="naissance-header-right">
+                    {hasOutOfBounds && (
+                      <span className="naissance-warn-icon" title="Certains attributs sont hors bornes">⚠</span>
+                    )}
+                    <span className={`naissance-total-badge ${totalOk ? 'ok' : 'warn'}`}>
+                      {naissanceTotal}/60
+                    </span>
+                  </div>
+                </div>
+                <p className="origin-desc">Valeurs absolues définies par votre ethnie — ajustez dans les bornes indiquées. Le total doit être 60.</p>
+                <div className="naissance-attrs-grid">
+                  {entries.map(([attrId, def]) => {
+                    const nom = NOMS[attrId] || attrId;
+                    const isFixed = def.val !== undefined;
+                    const minVal = isFixed ? def.val : def.min;
+                    const maxVal = isFixed ? def.val : def.max;
+                    const currentVal = naissanceChoix[attrId] ?? minVal;
+                    const delta = currentVal - DATA.valeurDefautSecondaire;
+                    const outOfBounds = currentVal < minVal || currentVal > maxVal;
+                    return (
+                      <div key={attrId} className={`naissance-attr-field ${outOfBounds ? 'out-of-bounds' : ''}`}>
+                        <span className="naissance-attr-nom">{nom}</span>
+                        {isFixed ? (
+                          <span className="naissance-attr-fixed">{minVal}</span>
+                        ) : (
+                          <div className="naissance-attr-stepper">
+                            <button
+                              className="btn-rang-step"
+                              onClick={() => handleNaissanceChange(attrId, Math.max(minVal, currentVal - 1))}
+                              disabled={currentVal <= minVal}
+                            >−</button>
+                            <span className="naissance-attr-val">{currentVal}</span>
+                            <button
+                              className="btn-rang-step"
+                              onClick={() => handleNaissanceChange(attrId, Math.min(maxVal, currentVal + 1))}
+                              disabled={currentVal >= maxVal}
+                            >+</button>
+                          </div>
+                        )}
+                        <span className={`naissance-attr-delta ${delta > 0 ? 'positive' : delta < 0 ? 'negative' : ''}`}>
+                          {delta > 0 ? `+${delta}` : delta === 0 ? '±0' : delta}
+                        </span>
+                        <span className="naissance-attr-range">
+                          {isFixed ? 'fixe' : `${minVal}–${maxVal}`}
+                          {outOfBounds && <span className="naissance-field-warn" title="Hors bornes">⚠</span>}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })()}
         </div>
         <div className="modal-footer">
           <button className="btn-secondary" onClick={handleReset}>Réinitialiser</button>
