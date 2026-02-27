@@ -12,3 +12,11 @@ Icones Materials:
 https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
 
 mkdocs gh-deploy
+
+# TODO
+
+- Mémoire = ajouter les éléments de liste
+- Compétence = avoir une description ?
+- ajouter le groupe de compétence pour la magie ? car effectivement là on l'a pas comme c'est d'une extension... Peut être rendre le volet magie/science optionnel
+- ajouter les inputs à renseigner sur certains traits ? des choix à faire en somme...
+- Gérer les aptitudes

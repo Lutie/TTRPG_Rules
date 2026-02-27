@@ -76,6 +76,7 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
             {formatBonus(bonusConfig)}
           </span>
         )}
+        <span className="compact-eq">=</span>
         <span className="compact-total">{valeurTotale}</span>
         <span className={`compact-mod ${modificateur >= 0 ? 'positive' : 'negative'}`}>
           ({modificateur >= 0 ? `+${modificateur}` : modificateur})

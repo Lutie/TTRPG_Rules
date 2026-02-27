@@ -514,14 +514,14 @@ function CasteSection({ character, updateCharacter, calc }) {
               <strong>1er Trait de Caste :</strong> {casteActuelle.trait1}
             </div>
           )}
-          {calc.rangCaste >= 4 && casteActuelle.actionSpeciale && (
-            <div className="caste-info-unlock">
-              <strong>Action de Caste :</strong> {casteActuelle.actionSpeciale}
-            </div>
-          )}
           {calc.rangCaste >= 6 && casteActuelle.trait2 && (
             <div className="caste-info-unlock">
               <strong>2nd Trait de Caste :</strong> {casteActuelle.trait2}
+            </div>
+          )}
+          {calc.rangCaste >= 4 && casteActuelle.actionSpeciale && (
+            <div className="caste-info-unlock">
+              <strong>Action de Caste :</strong> {casteActuelle.actionSpeciale}
             </div>
           )}
           {calc.rangCaste >= 8 && casteActuelle.amelioration && (

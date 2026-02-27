@@ -532,6 +532,12 @@ header h1 {
   font-weight: 600;
 }
 
+.compact-eq {
+  color: var(--color-text-muted, #888);
+  font-size: 0.85rem;
+  padding: 0 2px;
+}
+
 .compact-total {
   font-family: var(--font-title);
   font-size: 1.1rem;
@@ -2514,6 +2520,25 @@ header h1 {
   border: 1px solid var(--color-border);
 }
 
+/* Icônes info/note sur les compétences */
+.comp-icon-desc,
+.comp-icon-note {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.7rem;
+  cursor: help;
+  opacity: 0.5;
+  vertical-align: middle;
+  line-height: 1;
+  transition: opacity 0.15s;
+}
+.comp-icon-desc:hover,
+.comp-icon-note:hover {
+  opacity: 1;
+}
+.comp-icon-desc,
+.comp-icon-note { color: inherit; }
+
 /* Badge (L) pour compétences limitantes */
 .badge-limitant {
   font-size: 0.75rem;
@@ -2598,6 +2623,24 @@ header h1 {
 .competence-libre-nom-input:focus {
   outline: none;
   border-bottom-color: var(--color-accent);
+}
+
+.competence-libre-nom-select {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  padding: 1px 4px;
+  min-width: 0;
+  cursor: pointer;
+}
+
+.competence-libre-nom-select:focus {
+  outline: none;
+  border-color: var(--color-accent);
 }
 
 .btn-libre-remove {
@@ -3419,7 +3462,23 @@ header h1 {
 
 .memoire-add {
   display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.memoire-add-row {
+  display: flex;
+  align-items: center;
   gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.memoire-add-row .memoire-input {
+  min-width: 0;
+}
+
+.memoire-add-row .btn-memoire-add {
+  flex-shrink: 0;
 }
 
 .memoire-input {
@@ -4824,6 +4883,23 @@ header h1 {
   margin-bottom: 12px;
 }
 
+.config-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  user-select: none;
+}
+
+.config-toggle-row input[type="checkbox"] {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  accent-color: var(--color-accent);
+}
+
 .btn-config {
   padding: 8px 16px;
   font-family: var(--font-body);
@@ -5416,4 +5492,102 @@ header h1 {
   .status-ressources-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* === Onglet Aptitude === */
+
+.btn-aptitude-add-style {
+  padding: 6px 14px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  background: var(--color-accent);
+  color: var(--color-bg-light);
+  border: 2px solid var(--color-border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-aptitude-add-style:hover {
+  background: var(--color-accent-light);
+}
+
+.aptitude-style-nom {
+  flex: 1;
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  color: inherit;
+  padding: 2px 4px;
+  min-width: 0;
+  transition: border-color 0.15s;
+}
+
+.aptitude-style-nom:focus {
+  outline: none;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.aptitude-style-nom::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.btn-aptitude-remove-style {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0 4px;
+  opacity: 0.5;
+  line-height: 1;
+  transition: opacity 0.15s;
+}
+
+.btn-aptitude-remove-style:hover {
+  opacity: 1;
+}
+
+.aptitude-entry {
+  padding-left: 20px;
+}
+
+.aptitude-entry-nom {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  padding: 1px 4px;
+  min-width: 0;
+}
+
+.aptitude-entry-nom:focus {
+  outline: none;
+  border-bottom-color: var(--color-accent);
+}
+
+.aptitude-entry-nom::placeholder {
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.aptitude-entry-add {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px 6px 20px;
+  border-top: 1px dashed rgba(139, 115, 85, 0.3);
+}
+
+.aptitude-entry-add-label {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
 }

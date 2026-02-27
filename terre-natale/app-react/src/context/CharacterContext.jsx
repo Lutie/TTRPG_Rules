@@ -50,6 +50,10 @@ const createEmptyCharacter = () => {
       magie: 0, science: 0, social: 0
     },
     tensions: { fatigue: 0, corruption: 0 },
+    options: {
+      magieActive: false,
+      aptitudeActive: false
+    },
     bonusConfig: {
       allure: 0, resilience: 0, encombrement: 0,
       protectionPhysique: 0, protectionMentale: 0,
@@ -70,7 +74,8 @@ const createEmptyCharacter = () => {
       attrMAG: 0, attrLOG: 0, attrCHN: 0,
       attrSTA: 0, attrTAI: 0, attrEGO: 0, attrAPP: 0
     },
-    notes: []
+    notes: [],
+    aptitudes: { styles: [{ id: crypto.randomUUID(), nom: 'Styles', rang: 0, entries: [] }] }
   };
 
   // Initialise les attributs

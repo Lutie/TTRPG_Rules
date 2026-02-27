@@ -89,6 +89,14 @@ function TabConfig() {
   const { character, updateCharacter } = useCharacter();
   const [activeModal, setActiveModal] = useState(null);
   const bonusConfig = character.bonusConfig || {};
+  const options = character.options || {};
+
+  const handleOptionToggle = (key) => {
+    updateCharacter(prev => ({
+      ...prev,
+      options: { ...prev.options, [key]: !prev.options?.[key] }
+    }));
+  };
 
   const handleBonusChange = (id, value) => {
     const numValue = parseInt(value) || 0;
@@ -152,6 +160,28 @@ function TabConfig() {
       <section className="section">
         <h2 className="section-title">Configuration</h2>
         <div className="config-content">
+          <div className="config-option">
+            <div className="config-option-header">
+              <span className="config-option-label">Options</span>
+            </div>
+            <label className="config-toggle-row">
+              <input
+                type="checkbox"
+                checked={!!options.magieActive}
+                onChange={() => handleOptionToggle('magieActive')}
+              />
+              <span>Activer l'onglet Magie</span>
+            </label>
+            <label className="config-toggle-row">
+              <input
+                type="checkbox"
+                checked={!!options.aptitudeActive}
+                onChange={() => handleOptionToggle('aptitudeActive')}
+              />
+              <span>Activer l'onglet Aptitude</span>
+            </label>
+          </div>
+
           <div className="config-option">
             <div className="config-option-header">
               <span className="config-option-label">Bonus aux attributs</span>

@@ -293,6 +293,18 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     Object.values(competencesData.competences || {}).forEach(r => {
       for (let i = 1; i <= r; i++) xpUtilises += coutComp[i] || 0;
     });
+    // Coût des aptitudes (styles)
+    let xpAptitudes = 0;
+    const aptitudesData = character.aptitudes || { styles: [] };
+    (aptitudesData.styles || []).forEach(style => {
+      const rg = style.rang || 0;
+      for (let i = 1; i <= rg; i++) xpAptitudes += coutGroupe[i] || 0;
+      (style.entries || []).forEach(entry => {
+        const re = entry.rang || 0;
+        for (let i = 1; i <= re; i++) xpAptitudes += coutComp[i] || 0;
+      });
+    });
+    xpUtilises += xpAptitudes;
     const xpRestants = xpTotal - xpUtilises;
 
     // PP calculations
@@ -399,6 +411,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       xpDepart,
       xpAcquis,
       xpUtilises,
+      xpAptitudes,
       xpRestants,
 
       // PP

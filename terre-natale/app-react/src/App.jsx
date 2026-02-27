@@ -6,19 +6,21 @@ import TabCompetences from './components/tabs/TabCompetences';
 import TabTraits from './components/tabs/TabTraits';
 import TabMemoire from './components/tabs/TabMemoire';
 import TabMagie from './components/tabs/TabMagie';
+import TabAptitude from './components/tabs/TabAptitude';
 import TabNotes from './components/tabs/TabNotes';
 import TabConfig from './components/tabs/TabConfig';
 import TabInventaire from './components/tabs/TabInventaire';
 import './styles.css';
 
-const TABS = [
+const ALL_TABS = [
   { id: 'status', label: 'Status' },
   { id: 'principal', label: 'Principal' },
   { id: 'competences', label: 'Compétences' },
+  { id: 'aptitude', label: 'Aptitudes', option: 'aptitudeActive' },
   { id: 'traits', label: 'Traits' },
   { id: 'inventaire', label: 'Inventaire' },
   { id: 'memoire', label: 'Mémoire' },
-  { id: 'magie', label: 'Magie' },
+  { id: 'magie', label: 'Magie', option: 'magieActive' },
   { id: 'notes', label: 'Notes' },
   { id: 'config', label: 'Config' }
 ];
@@ -152,6 +154,13 @@ function AppContent() {
   const [syncStatus, setSyncStatus] = useState(null); // null | 'ok' | 'error'
   const { character, currentCharacterId, exportCharacter, createNewCharacter, dashboardUrl, syncToDashboard } = useCharacter();
 
+  const visibleTabs = ALL_TABS.filter(tab =>
+    !tab.option || character?.options?.[tab.option]
+  );
+
+  // Rediriger si l'onglet actif n'est plus visible
+  const effectiveTab = visibleTabs.some(t => t.id === activeTab) ? activeTab : 'principal';
+
   // Si aucun personnage chargé, afficher la modale obligatoire
   const mustSelectCharacter = !currentCharacterId || !character;
 
@@ -172,7 +181,7 @@ function AppContent() {
   }, [dashboardUrl, character, syncToDashboard]);
 
   const renderTabContent = () => {
-    switch (activeTab) {
+    switch (effectiveTab) {
       case 'principal':
         return <TabPrincipal />;
       case 'status':
@@ -187,6 +196,8 @@ function AppContent() {
         return <TabMemoire />;
       case 'magie':
         return <TabMagie />;
+      case 'aptitude':
+        return <TabAptitude />;
       case 'notes':
         return <TabNotes />;
       case 'config':
@@ -217,10 +228,10 @@ function AppContent() {
       </header>
 
       <nav className="tabs-container">
-        {TABS.map(tab => (
+        {visibleTabs.map(tab => (
           <button
             key={tab.id}
-            className={`tab-btn ${activeTab === tab.id ? 'active' : ''}`}
+            className={`tab-btn ${effectiveTab === tab.id ? 'active' : ''}`}
             onClick={() => setActiveTab(tab.id)}
           >
             {tab.label}

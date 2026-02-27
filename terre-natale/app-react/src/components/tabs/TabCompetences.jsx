@@ -1,12 +1,16 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
 import { useCharacterCalculations, calculerModificateur, getValeurTotale } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
+import { competencesMagie, categoriesMagie } from '../../data/competences_magie';
 import Section from '../common/Section';
 
 // Groupes libres sans sous-groupes (Ambidextrie) : entête seule, pas collapsible
 const isHeaderOnly = (g) => g.libre && !g.sousGroupes;
-const ALL_GROUP_IDS = DATA.categoriesCompetences.flatMap(c =>
+const BASE_GROUP_IDS = DATA.categoriesCompetences.flatMap(c =>
+  c.groupes.filter(g => !isHeaderOnly(g)).map(g => g.id)
+);
+const MAGIC_GROUP_IDS = categoriesMagie.flatMap(c =>
   c.groupes.filter(g => !isHeaderOnly(g)).map(g => g.id)
 );
 
@@ -16,16 +20,16 @@ const MAX_RANG_GROUPE = 3;
 const MAX_RANG_COMPETENCE = 6;
 
 // Retourne la liste des compétences (objets) d'un groupe, dans l'ordre affiché
-function getCompsInGroupe(groupe) {
+function getCompsInGroupe(groupe, competences = DATA.competences) {
   if (groupe.sousGroupes) {
     return groupe.sousGroupes.flatMap(sg =>
       sg.competences.map(cid =>
-        DATA.competences.find(c => c.id === cid && c.groupe === groupe.id && c.sousGroupe === sg.nom) || null
+        competences.find(c => c.id === cid && c.groupe === groupe.id && c.sousGroupe === sg.nom) || null
       ).filter(Boolean)
     );
   }
   return (groupe.competences || []).map(cid =>
-    DATA.competences.find(c => c.id === cid && c.groupe === groupe.id) || null
+    competences.find(c => c.id === cid && c.groupe === groupe.id) || null
   ).filter(Boolean);
 }
 
@@ -48,13 +52,24 @@ function TabCompetences() {
   const { character, updateCharacter } = useCharacter();
   const calc = useCharacterCalculations(character);
 
+  const magieActive = character.options?.magieActive;
+  const activeCategories = magieActive
+    ? [...DATA.categoriesCompetences, ...categoriesMagie]
+    : DATA.categoriesCompetences;
+  const activeCompetences = magieActive
+    ? [...DATA.competences, ...competencesMagie]
+    : DATA.competences;
+  const ALL_GROUP_IDS = magieActive
+    ? [...BASE_GROUP_IDS, ...MAGIC_GROUP_IDS]
+    : BASE_GROUP_IDS;
+
   const stored = character.competences || { groupes: {}, competences: {}, attributsChoisis: {} };
 
   // Panneau résumé
   const [summaryOpen, setSummaryOpen] = useState(false);
 
   // Groupes ouverts / fermés
-  const [openGroups, setOpenGroups] = useState(() => new Set(ALL_GROUP_IDS));
+  const [openGroups, setOpenGroups] = useState(() => new Set(BASE_GROUP_IDS));
   const toggleGroupe = useCallback(id =>
     setOpenGroups(prev => {
       const next = new Set(prev);
@@ -63,6 +78,17 @@ function TabCompetences() {
     }), []);
   const ouvrirTout  = () => setOpenGroups(new Set(ALL_GROUP_IDS));
   const fermerTout  = () => setOpenGroups(new Set());
+
+  // Ouvrir les groupes magiques quand l'option est activée
+  useEffect(() => {
+    if (magieActive) {
+      setOpenGroups(prev => {
+        const next = new Set(prev);
+        MAGIC_GROUP_IDS.forEach(id => next.add(id));
+        return next;
+      });
+    }
+  }, [magieActive]);
 
   const handleGroupeChange = (groupeId, value) => {
     updateCharacter(prev => ({
@@ -94,14 +120,14 @@ function TabCompetences() {
     }));
   };
 
-  const handleLibreAdd = (key) => {
+  const handleLibreAdd = (key, defaultAttr = ALL_ATTRS[0]) => {
     updateCharacter(prev => {
       const current = prev.competences?.libres?.[key] || [];
       return {
         ...prev,
         competences: {
           ...prev.competences,
-          libres: { ...prev.competences?.libres, [key]: [...current, { nom: '', attr: ALL_ATTRS[0], rang: 0 }] }
+          libres: { ...prev.competences?.libres, [key]: [...current, { nom: '', attr: defaultAttr, rang: 0 }] }
         }
       };
     });
@@ -158,8 +184,12 @@ function TabCompetences() {
     return (
       <div key={key} className="competence-libre-slot">
         <div className="competence-libre-header">
-          <span className="competence-libre-label">{comp.nom}</span>
-          <button className="btn-libre-add" onClick={() => handleLibreAdd(key)} title="Ajouter une entrée">+</button>
+          <span className="competence-libre-label">
+            {comp.nom}
+            {comp.description && <span className="comp-icon-desc" title={comp.description}>※</span>}
+            {comp.note && <span className="comp-icon-note" title={comp.note}>࿉</span>}
+          </span>
+          <button className="btn-libre-add" onClick={() => handleLibreAdd(key, comp.attributs[0] || ALL_ATTRS[0])} title="Ajouter une entrée">+</button>
         </div>
         {entries.map((entry, idx) => {
           const attr = entry.attr || ALL_ATTRS[0];
@@ -173,13 +203,30 @@ function TabCompetences() {
               >
                 {ALL_ATTRS.map(a => <option key={a} value={a}>{a}</option>)}
               </select>
-              <input
-                type="text"
-                className="competence-libre-nom-input"
-                value={entry.nom}
-                placeholder="Nom…"
-                onChange={e => handleLibreUpdate(key, idx, 'nom', e.target.value)}
-              />
+              {comp.choices ? (
+                <select
+                  className="competence-libre-nom-select"
+                  value={entry.nom || ''}
+                  onChange={e => handleLibreUpdate(key, idx, 'nom', e.target.value)}
+                >
+                  <option value="">— choisir —</option>
+                  {comp.choices.map(group => (
+                    <optgroup key={group.group} label={group.group}>
+                      {group.options.map(opt => (
+                        <option key={opt} value={opt}>{opt}</option>
+                      ))}
+                    </optgroup>
+                  ))}
+                </select>
+              ) : (
+                <input
+                  type="text"
+                  className="competence-libre-nom-input"
+                  value={entry.nom}
+                  placeholder="Nom…"
+                  onChange={e => handleLibreUpdate(key, idx, 'nom', e.target.value)}
+                />
+              )}
               <div className="competence-rang">
                 <select
                   className="competence-rang-select"
@@ -209,13 +256,19 @@ function TabCompetences() {
     const key = compKey(comp);
     const rangComp = stored.competences?.[key] || 0;
 
+    // Attribut automatique depuis la tradition magique du personnage
+    const tradAttr = comp.attrTradition
+      ? (DATA.traditions.find(t => t.id === character.tradition)?.attribut || null)
+      : null;
+
     // Liste d'attrs proposés dans le select
     // Compétence limitante sans attr fixe (ex: Représailles) → choix libre parmi tous les attrs
     const attrOptions = (comp.attrVariable || (comp.limitant && comp.attributs.length === 0))
       ? ALL_ATTRS
       : [...comp.attributs, ...comp.secondaires];
 
-    const attrChoisi = stored.attributsChoisis?.[key]
+    const attrChoisi = tradAttr
+      || stored.attributsChoisis?.[key]
       || (attrOptions.length > 0 ? attrOptions[0] : null);
 
     const valeurAttr = attrChoisi ? getValeurTotale(character, attrChoisi) : 0;
@@ -225,7 +278,11 @@ function TabCompetences() {
     return (
       <div key={key} className={`competence-item${comp.limitant ? ' limitant' : ''}`}>
         <div className="competence-main">
-          {attrOptions.length > 1 ? (
+          {comp.attrTradition ? (
+            <span className="competence-attr-badge" title="Attribut de la tradition magique">
+              {tradAttr || '—'}
+            </span>
+          ) : attrOptions.length > 1 ? (
             <select
               className="competence-attr-select"
               value={attrChoisi || ''}
@@ -241,6 +298,8 @@ function TabCompetences() {
           <span className="competence-nom">
             {comp.nom}
             {comp.limitant && <span className="badge-limitant" title="Compétence limitante"> (L)</span>}
+            {comp.description && <span className="comp-icon-desc" title={comp.description}>※</span>}
+            {comp.note && <span className="comp-icon-note" title={comp.note}>࿉</span>}
           </span>
         </div>
         <div className="competence-rang">
@@ -282,6 +341,7 @@ function TabCompetences() {
             <span className="groupe-nom">
               {groupe.nom}
               {groupe.limitant && <span className="badge-limitant" title="Groupe limitant"> (L)</span>}
+              {groupe.description && <span className="comp-icon-desc" title={groupe.description}>※</span>}
             </span>
           </div>
           <div className="groupe-stats" onClick={e => e.stopPropagation()}>
@@ -315,7 +375,7 @@ function TabCompetences() {
                 <div className="sous-groupe-header">{sg.nom}</div>
                 <div className="competences-list">
                   {sg.competences.map(cid => {
-                    const comp = DATA.competences.find(
+                    const comp = activeCompetences.find(
                       c => c.id === cid && c.groupe === groupe.id && c.sousGroupe === sg.nom
                     );
                     return comp ? renderCompetence(comp, rangGroupe) : null;
@@ -326,7 +386,7 @@ function TabCompetences() {
           ) : (
             <div className="competences-list">
               {(groupe.competences || []).map(cid => {
-                const comp = DATA.competences.find(c => c.id === cid && c.groupe === groupe.id);
+                const comp = activeCompetences.find(c => c.id === cid && c.groupe === groupe.id);
                 return comp ? renderCompetence(comp, rangGroupe) : null;
               })}
             </div>
@@ -337,10 +397,10 @@ function TabCompetences() {
   };
 
   // Groupes/compétences où le personnage a investi des points
-  const summaryGroupes = DATA.categoriesCompetences.flatMap(cat =>
+  const summaryGroupes = activeCategories.flatMap(cat =>
     cat.groupes.flatMap(groupe => {
       const rangGroupe = stored.groupes?.[groupe.id] || 0;
-      const comps = isHeaderOnly(groupe) ? [] : getCompsInGroupe(groupe);
+      const comps = isHeaderOnly(groupe) ? [] : getCompsInGroupe(groupe, activeCompetences);
       const compsInvestis = comps.filter(comp => !comp.libre && (stored.competences?.[compKey(comp)] || 0) > 0);
       const libreSlots = comps
         .filter(comp => comp.libre)
@@ -450,7 +510,7 @@ function TabCompetences() {
         <button className="btn-comp-toggle" onClick={fermerTout}>▸ Tout fermer</button>
       </div>
 
-      {DATA.categoriesCompetences.map(categorie => (
+      {activeCategories.map(categorie => (
         <Section key={categorie.id} title={categorie.nom}>
           <div className="competences-container">
             {categorie.groupes.map(groupe => renderGroupe(groupe))}

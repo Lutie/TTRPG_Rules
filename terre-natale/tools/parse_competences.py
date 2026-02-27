@@ -401,6 +401,158 @@ def parse_apercu(source_path):
     return competences_list, categories_list
 
 
+# ─── Parser de descriptions ───────────────────────────────────────────────────
+
+def parse_descriptions(source_path):
+    """
+    Parse les descriptions de compétences depuis la section détaillée du document.
+    Marqueurs :
+      ⇛  = début de description (partie 1)
+      ᐉ  = début de note/variante (partie 2)
+      🢟  = fin du bloc actif (peut être inline en fin de ligne)
+
+    Retourne : dict { comp_slug: { 'description': str|None, 'note': str|None } }
+               La première occurrence d'un slug gagne (cross-groupe : premier contexte).
+    """
+    CLOSE = '🢟'
+
+    # * Nom [(ATTRS)]
+    # - nom : commence par majuscule, chiffre ou <, ne contient pas — ni :
+    # - ATTRS : optionnel (ALL_CAPS / / / * / L)
+    # → exclut les sous-bullets "* CHA — ...", "* Niveau 3 : ..." etc.
+    COMP_RE = re.compile(
+        r'^\s*\*\s+'
+        r'([A-ZÀÂÄÉÈÊËÎÏÔÙÛÜŸŒ0-9<][^—:()\n]*?)'
+        r'(?:\s*\(([A-Z][A-Z\s/*]*|L|\*)\))?'
+        r'\s*$'
+    )
+
+    # Corrections de noms entre section détaillée et aperçu (singulier/pluriel, typos…)
+    SLUG_ALIASES = {
+        'arme-flexibles': 'armes-flexibles',
+        'armes-tactique': 'armes-tactiques',
+    }
+
+    descriptions       = {}   # comp_slug → { description, note }
+    group_descriptions = {}   # group_slug → str
+
+    current_slug       = None
+    current_desc       = []
+    current_note       = []
+    active             = None   # 'desc' | 'note' | None
+
+    current_group_slug = None   # groupe en cours (pour lier Description :)
+    in_group_desc      = False
+    group_desc_parts   = []
+    prev_clean_line    = None   # dernière ligne non-vide non-marqueur (= nom de groupe)
+
+    def flush():
+        nonlocal current_slug, current_desc, current_note, active
+        if current_slug:
+            desc = '\n'.join(current_desc).strip()
+            note = '\n'.join(current_note).strip()
+            key = SLUG_ALIASES.get(current_slug, current_slug)
+            if (desc or note) and key not in descriptions:
+                descriptions[key] = {
+                    'description': desc or None,
+                    'note':        note or None,
+                }
+        current_slug = None
+        current_desc = []
+        current_note = []
+        active       = None
+
+    for raw_line in source_path.read_text(encoding='utf-8').split('\n'):
+        had_close = CLOSE in raw_line
+        line = raw_line.replace(CLOSE, '').strip()
+
+        # Séparateur ___
+        if re.match(r'^_{3,}', line):
+            flush()
+            in_group_desc = False
+            prev_clean_line = None
+            continue
+
+        # Ligne vide
+        if not line:
+            if had_close:
+                active = None
+            continue
+
+        # Suite de description de groupe (avant toute autre règle)
+        if in_group_desc:
+            if line:
+                group_desc_parts.append(line)
+            if had_close:
+                if current_group_slug:
+                    group_descriptions[current_group_slug] = '\n'.join(group_desc_parts).strip()
+                in_group_desc   = False
+                group_desc_parts = []
+            continue
+
+        # "Compétences :" → la ligne précédente était le nom du groupe
+        if re.match(r'^Compétences\s*:', line):
+            if prev_clean_line:
+                current_group_slug = slugify(prev_clean_line)
+            prev_clean_line = None
+            continue
+
+        # "Description :" → description du groupe courant
+        if line.startswith('Description :'):
+            text = line[len('Description :'):].strip()
+            group_desc_parts = [text] if text else []
+            if had_close:
+                if current_group_slug:
+                    group_descriptions[current_group_slug] = '\n'.join(group_desc_parts).strip()
+                group_desc_parts = []
+            else:
+                in_group_desc = True
+            continue
+
+        # Nouvelle compétence : * Nom [(ATTRS)]
+        m = COMP_RE.match(raw_line.strip())
+        if m:
+            flush()
+            current_slug = slugify(m.group(1).strip())
+            prev_clean_line = None
+            continue
+
+        # ⇛ description de compétence
+        if line.startswith('⇛'):
+            active = 'desc'
+            text = line[1:].strip()
+            if text:
+                current_desc.append(text)
+            if had_close:
+                active = None
+            continue
+
+        # ᐉ note de compétence
+        if line.startswith('ᐉ'):
+            active = 'note'
+            text = line[1:].strip()
+            if text:
+                current_note.append(text)
+            if had_close:
+                active = None
+            continue
+
+        # Continuation du bloc actif
+        if active == 'desc':
+            current_desc.append(line)
+        elif active == 'note':
+            current_note.append(line)
+        else:
+            # Ligne "propre" hors bloc actif → candidate pour nom de groupe
+            prev_clean_line = line
+
+        if had_close:
+            active = None
+
+    flush()
+    return descriptions, group_descriptions
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -410,6 +562,38 @@ def main():
     js_path     = tools_dir.parent / 'app-react' / 'src' / 'data' / 'competences.js'
 
     competences, categories = parse_apercu(source_path)
+
+    # ── Descriptions
+    descriptions, group_descriptions = parse_descriptions(source_path)
+
+    # Corrections singulier/pluriel pour les slugs de groupes
+    GROUP_ALIASES = {
+        'arme-de-trait': 'armes-de-trait',
+        'arme-a-feu':    'armes-a-feu',
+        'arme-de-siege': 'armes-de-siege',
+        'arme-de-jet':   'jet-darme',
+    }
+    group_descriptions = {GROUP_ALIASES.get(k, k): v for k, v in group_descriptions.items()}
+
+    # Injecter descriptions dans les groupes
+    for cat in categories:
+        for groupe in cat['groupes']:
+            groupe['description'] = group_descriptions.get(groupe['id']) or None
+
+    # Compétences à rang fixe (non investissables par le joueur)
+    FIXED_RANG = {
+        'maternelle': 3,
+    }
+
+    no_desc = []
+    for comp in competences:
+        d = descriptions.get(comp['id'])
+        comp['description'] = d['description'] if d else None
+        comp['note']        = d['note']        if d else None
+        if comp['id'] in FIXED_RANG:
+            comp['fixedRang'] = FIXED_RANG[comp['id']]
+        if not d:
+            no_desc.append(comp['nom'])
 
     # ── JSON intermédiaire
     output_data = {
@@ -476,6 +660,16 @@ def main():
     variables = [c for c in competences if c['attrVariable']]
     if variables:
         print(f"\n  Attribut variable ({len(variables)}) : {', '.join(c['nom'] for c in variables)}")
+
+    # Descriptions
+    has_desc = sum(1 for c in competences if c.get('description'))
+    has_note = sum(1 for c in competences if c.get('note'))
+    print(f"\n  Descriptions : {has_desc}/{len(competences)}  |  Notes : {has_note}/{len(competences)}")
+    unique_no_desc = sorted(set(no_desc))
+    if unique_no_desc:
+        preview = ', '.join(unique_no_desc[:8])
+        suffix  = '…' if len(unique_no_desc) > 8 else ''
+        print(f"  ⚠  Sans description ({len(unique_no_desc)}) : {preview}{suffix}")
 
 
 if __name__ == '__main__':

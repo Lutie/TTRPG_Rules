@@ -15,7 +15,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes légères et équilibrées utilisées pour des frappes rapides, précises et contrôlées — rapières, épées courtes, sabres.",
+    "note": null
   },
   {
     "id": "arme-a-hampe",
@@ -29,7 +31,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes allongées, offrant portée et mobilité — lances, hallebardes, naginata, bâtons.",
+    "note": null
   },
   {
     "id": "arme-a-manche",
@@ -43,7 +47,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes lourdes nécessitant force et puissance — haches, masses, marteaux.",
+    "note": null
   },
   {
     "id": "arme-de-defense",
@@ -57,7 +63,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes destinées autant à la protection qu’à l’impact — boucliers, tonfas, rondaches.",
+    "note": null
   },
   {
     "id": "arme-tranchante",
@@ -69,7 +77,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes conçues pour couper ou sectionner, efficaces contre les défenses basées sur la mobilité et la précision.",
+    "note": null
   },
   {
     "id": "arme-contondante",
@@ -81,7 +91,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes qui écrasent et brisent, redoutables contre les défenses fondées sur la force ou l’endurance.",
+    "note": null
   },
   {
     "id": "arme-perforante",
@@ -93,7 +105,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes qui percent ou transpercent, destinées à exploiter les failles d’une protection ou d’une armure.",
+    "note": null
   },
   {
     "id": "arme-courte",
@@ -105,7 +119,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes de faible allonge (catégories 0 à 1), privilégiant la vitesse et la proximité — dagues, poignards, couteaux.",
+    "note": null
   },
   {
     "id": "arme-lourde",
@@ -117,7 +133,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes de grande taille ou de forte inertie (catégories 4 et plus), exigeant de la puissance et du contrôle.",
+    "note": null
   },
   {
     "id": "arme-exotique",
@@ -129,7 +147,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes au design ou maniement inhabituel, propres à certaines cultures ou écoles — katar, faux, kusarigama.",
+    "note": "L’attribut dépend de la forme et du maniement de l’arme (ex. : katar DEX, faux AGI)."
   },
   {
     "id": "armes-flexibles",
@@ -141,11 +161,13 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Armes à mouvement libre, difficiles à anticiper — fouets, chaînes, nunchakus.",
+    "note": null
   },
   {
-    "id": "armes-tactique",
-    "nom": "Armes Tactique",
+    "id": "armes-tactiques",
+    "nom": "Armes Tactiques",
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
@@ -153,7 +175,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": true,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Usage d’outils destinés à neutraliser, entraver ou capturer : bolas, filets, grappins, cordes à lancer. Ces armes servent à immobiliser, désarmer ou entraver la mobilité.",
+    "note": null
   },
   {
     "id": "represailles",
@@ -165,7 +189,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": true
+    "limitant": true,
+    "description": "Action de contre-attaque directe après une agression, exploitant l’ouverture laissée par l’adversaire.",
+    "note": "Se base et limite une compétence de combat."
   },
   {
     "id": "evasion",
@@ -179,7 +205,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Éviter une attaque en se déplaçant rapidement, esquiver ou se soustraire à la trajectoire d’un coup.",
+    "note": null
   },
   {
     "id": "parade",
@@ -194,7 +222,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Bloquer ou détourner une attaque à l’aide d’une arme ou d’un bouclier. La parade permet de protéger, de se préparer à une contre-attaque ou de défendre un allié.",
+    "note": null
   },
   {
     "id": "armure",
@@ -208,7 +238,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Encaisser les impacts, absorber les chocs et tirer parti de sa protection. L’armure traduit la capacité à résister physiquement à la violence du combat.",
+    "note": null
   },
   {
     "id": "escroquerie",
@@ -222,7 +254,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Feinter un mouvement, tromper la vigilance de l’adversaire ou créer une ouverture par la ruse gestuelle. L’escroquerie défensive repose sur l’illusion du mouvement.",
+    "note": null
   },
   {
     "id": "vigilance",
@@ -236,7 +270,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Détecter ou anticiper les menaces avant qu’elles ne frappent : surveiller les angles, repérer les trajectoires et réagir aux attaques à distance ou aux manœuvres tactiques.",
+    "note": null
   },
   {
     "id": "domination",
@@ -251,7 +287,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Forcer un adversaire à bouger ou à se repositionner : repousser, renverser, déséquilibrer ou imposer sa puissance.",
+    "note": "Peut se lier à l’AGI lorsqu’il s’agit de renverser, via un croc en jambe par exemple."
   },
   {
     "id": "controle",
@@ -267,7 +305,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Empêcher un adversaire de se déplacer ou le stopper dans son déplacement.",
+    "note": "Peut se lier à la DEX lorsqu’il s’agit de bloquer les gestes d’un adversaire ou neutraliser un de ses membres.\nPeut se lier lier à la CON lorsqu’il s’agit de maintenir une prise ou de se placer en obstacle."
   },
   {
     "id": "evasion",
@@ -281,7 +321,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Éviter une attaque en se déplaçant rapidement, esquiver ou se soustraire à la trajectoire d’un coup.",
+    "note": null
   },
   {
     "id": "assistance",
@@ -295,7 +337,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Aider un allié dans l’action, qu’il s’agisse de l’épauler, détourner une menace ou le galvaniser au moment critique.",
+    "note": null
   },
   {
     "id": "affliction",
@@ -311,7 +355,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Gêner un adversaire pour réduire son efficacité : l’étourdir, l’aveugler, le désorienter ou perturber son équilibre.\nL’attribut utilisé dépend du type de la condition.\n* FOR — Conditions basées sur la “violence” (ex: étourdissement).\n* DEX — Conditions basées sur la “patiente” (ex: saignement).\n* AGI — Conditions basées sur la “finesse” (ex: vulnérable).",
+    "note": null
   },
   {
     "id": "represailles",
@@ -323,7 +369,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": true
+    "limitant": true,
+    "description": "Action de contre-attaque directe après une agression, exploitant l’ouverture laissée par l’adversaire.",
+    "note": "Se base et limite une compétence de combat."
   },
   {
     "id": "persuasion",
@@ -340,7 +388,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à influencer autrui par la parole, le ton ou la structure d’un argument.\nL’attribut utilisé dépend de la nature de la persuasion employée :\n* CHA — Convaincre par l’assurance, l’autorité, le charisme ou la crédibilité.\n* INT — Convaincre par la logique, les faits, la rigueur ou la rhétorique.\n* SAG — Convaincre par la suggestion, l’amorçage ou l’influence subtile, en amenant autrui à croire que l’idée vient de lui.\n* RUS — Convaincre par la contrainte, la menace voilée ou la manipulation coercitive.",
+    "note": null
   },
   {
     "id": "represailles",
@@ -352,7 +402,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": true
+    "limitant": true,
+    "description": "Action de contre-attaque directe après une agression, exploitant l’ouverture laissée par l’adversaire.",
+    "note": "Se base et limite une compétence de combat."
   },
   {
     "id": "evasion",
@@ -366,7 +418,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Éviter une attaque en se déplaçant rapidement, esquiver ou se soustraire à la trajectoire d’un coup.",
+    "note": null
   },
   {
     "id": "rhetorique",
@@ -381,7 +435,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Bloquer ou contrer un argument en opposant une logique ou une formule de réponse. C’est la parade verbale, l’affirmation d’une position solide.",
+    "note": null
   },
   {
     "id": "temperance",
@@ -395,7 +451,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Encaisser les attaques verbales sans se laisser déstabiliser, garder son sang-froid et sa cohérence malgré la pression.",
+    "note": null
   },
   {
     "id": "escroquerie",
@@ -409,7 +467,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Feinter un mouvement, tromper la vigilance de l’adversaire ou créer une ouverture par la ruse gestuelle. L’escroquerie défensive repose sur l’illusion du mouvement.",
+    "note": null
   },
   {
     "id": "vigilance",
@@ -423,7 +483,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Détecter ou anticiper les menaces avant qu’elles ne frappent : surveiller les angles, repérer les trajectoires et réagir aux attaques à distance ou aux manœuvres tactiques.",
+    "note": null
   },
   {
     "id": "manipulation",
@@ -441,7 +503,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art d’influencer les réactions d’autrui pour le pousser à agir ou penser différemment.\nChaque attribut traduit un mode de manipulation différent :\n* CHA — Séduire, charmer ou fasciner.\n* VOL — Provoquer, défier, inciter à réagir.\n* RUS — Intimider, menacer, faire pression.\n* INT — Détourner, distraire, semer la confusion logique.\n* SAG — Apaiser, raisonner, désamorcer une tension.",
+    "note": null
   },
   {
     "id": "influence",
@@ -459,7 +523,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art d’influencer les émotions profondes, d’éveiller un sentiment ou de raviver une conviction. Chaque attribut traduit une tonalité émotionnelle distincte :\n* CHA — Éveiller le courage, la confiance ou l’enthousiasme.\n* VOL — Transmettre la détermination, la persévérance ou la foi.\n* RUS — Susciter la mélancolie, la gravité ou la lucidité.\n* INT — Inspirer le calme, la mesure et la réflexion.\n* SAG — Faire naître la sérénité, la paix ou la compassion.",
+    "note": null
   },
   {
     "id": "assistance",
@@ -473,7 +539,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Aider un allié dans l’action, qu’il s’agisse de l’épauler, détourner une menace ou le galvaniser au moment critique.",
+    "note": null
   },
   {
     "id": "affliction",
@@ -489,7 +557,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Gêner un adversaire pour réduire son efficacité : l’étourdir, l’aveugler, le désorienter ou perturber son équilibre.\nL’attribut utilisé dépend du type de la condition.\n* FOR — Conditions basées sur la “violence” (ex: étourdissement).\n* DEX — Conditions basées sur la “patiente” (ex: saignement).\n* AGI — Conditions basées sur la “finesse” (ex: vulnérable).",
+    "note": null
   },
   {
     "id": "represailles",
@@ -501,7 +571,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": true
+    "limitant": true,
+    "description": "Action de contre-attaque directe après une agression, exploitant l’ouverture laissée par l’adversaire.",
+    "note": "Se base et limite une compétence de combat."
   },
   {
     "id": "arc",
@@ -515,7 +587,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Tirer des flèches avec précision et régularité, en tenant compte de la tension de la corde, de la distance et du vent.",
+    "note": "Peut se lier à la INT lorsqu’il s’agit d’évaluer la qualité, la conception, la valeur d’un tel objet."
   },
   {
     "id": "arbalete",
@@ -529,7 +603,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Utiliser une arbalète pour atteindre une cible fixe ou mobile, gérer le rechargement et le tir avec efficacité.",
+    "note": "Peut se lier à la INT lorsqu’il s’agit d’évaluer la qualité, la conception, la valeur d’un tel objet."
   },
   {
     "id": "type-darme",
@@ -541,7 +617,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": true,
-    "limitant": false
+    "limitant": false,
+    "description": null,
+    "note": null
   },
   {
     "id": "arme-de-poing",
@@ -555,7 +633,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Maîtrise des pistolets, revolvers et armes courtes : visée à courte/ moyenne portée, rapidité de prise en main et gestion du recul.",
+    "note": null
   },
   {
     "id": "arme-depaule",
@@ -569,7 +649,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Maîtrise des carabines, fusils, fusils à pompe et carabines d’assaut : stabilité, visée sur appui, contrôle du tir en rafale ou en une seule balle.",
+    "note": null
   },
   {
     "id": "type-darme",
@@ -581,7 +663,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": true,
-    "limitant": false
+    "limitant": false,
+    "description": null,
+    "note": null
   },
   {
     "id": "baliste",
@@ -595,7 +679,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Utiliser une baliste pour projeter des traits massifs avec précision sur une cible directe. Arme de précision par excellence, la baliste allie tension, visée et stabilité.",
+    "note": "Les compétences de siège doivent être manipulée à plusieurs, le test principal est mené par une personne tandis que ceux qui l’aide à manipuler l’engin ont leurs propres  tests à mener, qui dépendent de la nature de la machine : DEX ou FOR selon qu’il s’agit de manipulation rapide/précise ou de déplacer l’arme."
   },
   {
     "id": "catapulte",
@@ -609,7 +695,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Maîtriser le tir en cloche d’un engin de lancement à bras de levier : régler la tension, l’angle et la charge pour un impact optimal à distance.",
+    "note": "Les compétences de siège doivent être manipulée à plusieurs, le test principal est mené par une personne tandis que ceux qui l’aide à manipuler l’engin ont leurs propres  tests à mener, qui dépendent de la nature de la machine : DEX ou FOR selon qu’il s’agit de manipulation rapide/précise ou de déplacer l’arme."
   },
   {
     "id": "belier",
@@ -623,7 +711,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Utiliser un bélier pour abattre des portes, des murs ou des fortifications. Cette arme de siège repose sur la force, la coordination et le rythme du groupe qui la manœuvre.",
+    "note": "Les compétences de siège doivent être manipulée à plusieurs, le test principal est mené par une personne tandis que ceux qui l’aide à manipuler l’engin ont leurs propres  tests à mener, qui dépendent de la nature de la machine : DEX ou FOR selon qu’il s’agit de manipulation rapide/précise ou de déplacer l’arme."
   },
   {
     "id": "type-darme",
@@ -635,7 +725,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": true,
-    "limitant": false
+    "limitant": false,
+    "description": null,
+    "note": null
   },
   {
     "id": "armes-de-jet",
@@ -649,7 +741,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Maîtrise du lancer direct d’objets : couteaux de lancer, javelots, pierres, frondes. Vise la précision, la cadence et l’ajustement de la trajectoire.",
+    "note": null
   },
   {
     "id": "armes-tactiques",
@@ -663,7 +757,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Usage d’outils destinés à neutraliser, entraver ou capturer : bolas, filets, grappins, cordes à lancer. Ces armes servent à immobiliser, désarmer ou entraver la mobilité.",
+    "note": null
   },
   {
     "id": "armes-explosives",
@@ -677,7 +773,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Maîtrise des engins projetés qui causent un effet de zone : grenades, bouteilles incendiaires, charge improvisée. Gestion du délai, de la force et de la zone d’impact.",
+    "note": null
   },
   {
     "id": "armes-de-precision",
@@ -691,7 +789,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Outils de jet fin et technique : carreaux de fronde de précision, shuriken, fléchettes silencieuses. Priorise la régularité et la ponctualité du tir.",
+    "note": null
   },
   {
     "id": "pistage",
@@ -707,7 +807,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Retrouver et suivre des traces, deviner la logique de déplacement d’une proie ou d’une cible grâce aux indices du terrain et à l’expérience.",
+    "note": "Peut se lier à la INT lorsqu’il s’agit d’assembler des indices matériellement évidents (traces, empreintes, frottements) pour remonter une piste de façon méthodique plutôt que par simple intuition."
   },
   {
     "id": "leurre",
@@ -723,7 +825,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Attirer, appâter ou tromper une cible en jouant sur ses habitudes, ses instincts ou son environnement — créer une occasion crédible pour la manipulation.",
+    "note": "Peut se lier à la RUS lorsque la réussite dépend d’un stratagème inventif, d’un leurre finement conçu ou d’une mise en scène astucieuse plus que d’une simple connaissance des comportements."
   },
   {
     "id": "piegeage",
@@ -739,7 +843,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Concevoir, dissimuler et déclencher des pièges : choisir l’emplacement, camoufler le mécanisme et préparer la scène pour que la proie se livre d’elle-même.",
+    "note": "Peut se lier à la DEX lorsque la réussite repose sur la précision du montage, le réglage ou la pose délicate du dispositif."
   },
   {
     "id": "arc",
@@ -753,7 +859,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Tirer des flèches avec précision et régularité, en tenant compte de la tension de la corde, de la distance et du vent.",
+    "note": "Peut se lier à la INT lorsqu’il s’agit d’évaluer la qualité, la conception, la valeur d’un tel objet."
   },
   {
     "id": "orientation",
@@ -769,7 +877,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Se repérer en pleine nature : azimut, relief, repères naturels, ciel.",
+    "note": "Peut se lier à l’INT lorsqu’on s’appuie sur des cartes, calculs d’itinéraires ou relevés précis."
   },
   {
     "id": "animaux",
@@ -785,7 +895,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Comprendre, approcher et gérer les animaux (montures, bêtes de bât, chiens…).",
+    "note": "Peut se lier à la CHA lorsqu’il faut surtout apaiser, rassurer ou inspirer confiance."
   },
   {
     "id": "navigation",
@@ -801,7 +913,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Se déplacer sur l’eau (courants, vents, lecture des rives) ou suivre des voies naturelles.",
+    "note": "Peut se lier à l’INT pour la planification d’itinéraires techniques (courants, marées)."
   },
   {
     "id": "equitation",
@@ -817,7 +931,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Monter, guider, ménager la monture et lire ses réactions.",
+    "note": "Peut se lier à la CON pour de longues chevauchées ou efforts prolongés."
   },
   {
     "id": "observation",
@@ -834,7 +950,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Repérer traces, anomalies, silhouettes ou mouvements au loin.",
+    "note": "Peut se lier à la CHN quand la découverte tient surtout au hasard d’un regard au bon moment.\nPeut se lier à la PER quand la découverte tient surtout à l’attention."
   },
   {
     "id": "subsistance",
@@ -850,7 +968,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Trouver eau, comestibles, abri et feu ; installer un bivouac sûr.",
+    "note": "Peut se lier à la CON lorsqu’il s’agit d’endurer des conditions difficiles sur la durée ou l’absence de bonnes conditions."
   },
   {
     "id": "detection-visuelle",
@@ -864,7 +984,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à repérer les détails visibles : mouvement, forme, couleur, lumière, silhouette. Elle traduit la précision du regard et la rapidité d’identification.",
+    "note": null
   },
   {
     "id": "detection-auditive",
@@ -878,7 +1000,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’aptitude à discerner, isoler et reconnaître les sons : bruits, voix, vibrations, silences inhabituels. L’ouïe devient ici un outil de veille et d’alerte.",
+    "note": null
   },
   {
     "id": "detection-odogout",
@@ -892,7 +1016,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La perception par les sens dits “proches” : odorat, goût, toucher. Elle permet d’identifier une substance, un matériau, une texture ou une atmosphère.",
+    "note": null
   },
   {
     "id": "6e-sens",
@@ -906,7 +1032,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La perception des forces invisibles : aura, vitalité, flux d’énergie, influences spirituelles ou mentales. C’est une lecture du monde qui dépasse les sens physiques.",
+    "note": null
   },
   {
     "id": "7e-sens",
@@ -922,7 +1050,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’intuition pure : savoir qu’on est observé, qu’un danger approche, ou qu’une présence nous frôle sans qu’aucun signe concret ne le trahisse.",
+    "note": "Peut se lier à la CHN lorsque percevoir une telle présence peut être aperçu par chance."
   },
   {
     "id": "orientation",
@@ -938,7 +1068,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Se repérer en pleine nature : azimut, relief, repères naturels, ciel.",
+    "note": "Peut se lier à l’INT lorsqu’on s’appuie sur des cartes, calculs d’itinéraires ou relevés précis."
   },
   {
     "id": "animaux",
@@ -954,7 +1086,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Comprendre, approcher et gérer les animaux (montures, bêtes de bât, chiens…).",
+    "note": "Peut se lier à la CHA lorsqu’il faut surtout apaiser, rassurer ou inspirer confiance."
   },
   {
     "id": "conduite",
@@ -970,7 +1104,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La maîtrise d’engins simples ou légers — embarcations, chariots, deux-roues — dans des environnements étroits, encombrés ou instables.",
+    "note": "Peut se lier à la DEX pour les manœuvres demandant une grande précision."
   },
   {
     "id": "pilotage",
@@ -986,7 +1122,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à manier des véhicules motorisés ou montures rapides dans un environnement dynamique ou dangereux. Entre adresse et anticipation, le conducteur rusé lit la circulation comme un langage.",
+    "note": "Peut se lier à la DEX lorsque la coordination et les réflexes priment sur l’instinct."
   },
   {
     "id": "observation",
@@ -1003,7 +1141,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Repérer traces, anomalies, silhouettes ou mouvements au loin.",
+    "note": "Peut se lier à la CHN quand la découverte tient surtout au hasard d’un regard au bon moment.\nPeut se lier à la PER quand la découverte tient surtout à l’attention."
   },
   {
     "id": "subsistance",
@@ -1019,7 +1159,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Trouver eau, comestibles, abri et feu ; installer un bivouac sûr.",
+    "note": "Peut se lier à la CON lorsqu’il s’agit d’endurer des conditions difficiles sur la durée ou l’absence de bonnes conditions."
   },
   {
     "id": "danse",
@@ -1036,7 +1178,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art du mouvement rythmé et expressif. La danse traduit l’émotion par le geste, qu’il s’agisse d’une célébration, d’un rituel ou d’une représentation scénique.",
+    "note": "Peut se lier à la CHA lorsque la performance met en avant le magnétisme et la présence, ou à la CON pour les prestations d’endurance."
   },
   {
     "id": "musique",
@@ -1052,7 +1196,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La maîtrise du son, du rythme et de la mélodie à travers un instrument. La musique évoque, relie et apaise.",
+    "note": "Peut se lier à la INT pour la composition ou l’improvisation structurée."
   },
   {
     "id": "chant",
@@ -1068,7 +1214,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’expression de l’émotion et de la volonté par la voix. Le chant unit souffle, justesse et intensité pour faire vibrer ceux qui écoutent.",
+    "note": "Peut se lier à la CHA pour les performances scéniques."
   },
   {
     "id": "comedie",
@@ -1082,7 +1230,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de l’interprétation, de la mise en scène et du jeu. Le comédien prête corps et voix à des rôles imaginaires pour divertir, émouvoir ou faire réfléchir.",
+    "note": "Peut se lier à la VOL pour les rôles exigeant un fort contrôle émotionnel."
   },
   {
     "id": "peinture",
@@ -1098,7 +1248,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à donner forme à une vision à travers la couleur, la lumière et la matière. La peinture capture le visible et l’invisible d’un regard.",
+    "note": "Peut se lier à la PER pour le rendu minutieux des détails."
   },
   {
     "id": "commandement",
@@ -1114,7 +1266,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de rallier et de guider un groupe. Cette compétence traduit la présence, la confiance et la capacité à incarner une autorité naturelle, que ce soit sur un champ de bataille ou au sein d’une assemblée.",
+    "note": "Peut se lier à la VOL lorsque le commandement repose davantage sur la force de volonté que sur le magnétisme naturel ou les mots."
   },
   {
     "id": "renseignement",
@@ -1130,7 +1284,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à capter et interpréter les informations sociales : habitudes, rumeurs, intentions ou dynamiques de groupe. Le renseignement repose sur le contact humain, l’écoute et la compréhension des non-dits — l’art de tirer des vérités d’une conversation ordinaire.",
+    "note": "Peut se lier à la PER lorsqu’il s’agit surtout de déduire des informations par l’observation des comportements, des habitudes ou des signes discrets plutôt que par l’échange direct."
   },
   {
     "id": "enseignement",
@@ -1146,7 +1302,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de transmettre un savoir ou un savoir-faire. Enseigner demande de comprendre comment les autres apprennent, d’adapter son discours et de guider avec clarté.",
+    "note": "Peut se lier à la SAG lorsque l’approche repose sur l’écoute et la compréhension intuitive des besoins des élèves."
   },
   {
     "id": "deguisement",
@@ -1162,7 +1320,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art d’altérer son apparence ou ses manières pour se fondre dans un milieu ou incarner un rôle crédible. C’est une discipline d’observation et d’adaptation : savoir quel détail trahirait, quel geste rassurerait, quelle posture ferait illusion.",
+    "note": "Peut se lier à la CHA lorsque l’enjeu repose moins sur la précision du déguisement que sur la capacité à incarner pleinement le personnage aux yeux des autres."
   },
   {
     "id": "etiquette",
@@ -1178,7 +1338,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La connaissance des usages sociaux et la capacité à adopter le ton, les gestes et le langage adaptés à chaque milieu. L’étiquette ne vise pas à séduire, mais à s’intégrer naturellement dans les codes établis.",
+    "note": "Peut se lier à la INT lorsque l’on applique consciemment les règles, coutumes ou convenances d’un environnement donné plutôt que d’y réagir par instinct."
   },
   {
     "id": "escroquerie",
@@ -1194,7 +1356,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Feinter un mouvement, tromper la vigilance de l’adversaire ou créer une ouverture par la ruse gestuelle. L’escroquerie défensive repose sur l’illusion du mouvement.",
+    "note": null
   },
   {
     "id": "empathie",
@@ -1210,7 +1374,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La faculté de percevoir et comprendre les émotions d’autrui. L’empathie permet d’adapter son discours, d’apaiser, de convaincre ou de détecter le malaise.",
+    "note": "Peut se lier à la INT lorsqu’elle s’appuie sur une lecture rationnelle et structurée du comportement plutôt que sur l’intuition émotionnelle."
   },
   {
     "id": "deplacement-furtif",
@@ -1226,7 +1392,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à se mouvoir sans être vu. Ce n’est pas une simple lenteur, mais un art du mouvement calculé : choisir le bon moment, la bonne trajectoire, la bonne ombre.",
+    "note": "Peut se lier à la RUS lorsqu’il s’agit davantage de tromper l’attention que d’éviter les regards."
   },
   {
     "id": "deplacement-silencieux",
@@ -1242,7 +1410,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Le contrôle du son produit par le corps : pas feutrés, respiration, froissement de tissu. Là où le furtif évite les yeux, le silencieux échappe aux oreilles.",
+    "note": "Peut se lier à la RUS lorsqu’il s’agit davantage de tromper l’attention que d’éviter l’écoute."
   },
   {
     "id": "filature",
@@ -1258,7 +1428,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de suivre une cible sans éveiller les soupçons. Il ne s’agit pas de se cacher, mais de paraître banal, invisible dans la foule, effacé dans le décor.",
+    "note": "Peut se lier à la PER lorsque l’attention est centrée sur le maintien du contact visuel avec la cible."
   },
   {
     "id": "camouflage",
@@ -1274,7 +1446,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à se dissimuler en restant immobile ou à dissimuler un objet dans l’environnement. C’est la maîtrise du cadre, de la lumière et de la matière pour effacer sa présence.",
+    "note": "Peut se lier à la PER lorsqu’il s’agit de choisir le meilleur emplacement ou les détails visuels à exploiter."
   },
   {
     "id": "desamorcage",
@@ -1290,7 +1464,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Neutraliser un piège ou un dispositif sans déclencher son effet : détecter son principe, dégager un élément dangereux, ou au besoin l’activer « dans le vent » pour le rendre inoffensif.",
+    "note": "Peut se lier à la RUS lorsque la réussite tient moins à l’outillage qu’à une astuce, un bricolage temporaire ou une manipulation opportuniste permettant de contourner le mécanisme."
   },
   {
     "id": "crochetage",
@@ -1306,7 +1482,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Ouvrir — ou fermer — une serrure ou un mécanisme de verrouillage sans clé. Le geste reste important, mais la solution passe souvent par une ruse : trouver une faille, improviser un outil ou tromper le mécanisme.",
+    "note": "Peut se lier à la RUS lorsque l’opération repose sur un stratagème malin plutôt que sur la connaissance purement mécanique du modèle."
   },
   {
     "id": "sabotage",
@@ -1322,7 +1500,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Altérer, désactiver ou détourner l’usage d’un appareil ou d’un système pour le rendre inefficace ou lui faire exécuter une fonction différente. Le bon sabotage ressemble parfois à une panne fortuite.",
+    "note": "Peut se lier à la RUS lorsque l’on use d’ingéniosité pour exploiter une faiblesse ou bricoler une solution non orthodoxe plutôt que d’appliquer une procédure technique standard."
   },
   {
     "id": "escamotage",
@@ -1338,7 +1518,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Le vol à la tire, la disparition discrète d’un objet, le tour de main qui dérobe sans attirer l’attention. La fluidité du geste est essentielle, mais la réussite dépend souvent d’une mise en scène ou d’une diversion.",
+    "note": "Peut se lier à la RUS lorsque la réussite provient d’une feinte sociale, d’un leurre ou d’une manœuvre d’ensemble plus que d’une pure dextérité."
   },
   {
     "id": "initiative",
@@ -1354,7 +1536,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La rapidité à agir ou à réagir dans une situation tendue. Qu’il s’agisse d’esquiver un coup, de saisir une ouverture ou d’improviser un geste, l’initiative marque la différence entre subir et dominer le rythme.",
+    "note": "Peut se lier à la RUS lorsque la confrontation est mentale — un duel d’esprit, de bluff ou d’audace où il s’agit d’agir plus vite que la pensée adverse."
   },
   {
     "id": "surprise",
@@ -1370,7 +1554,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à prendre autrui de court, à frapper ou agir avant qu’il ne puisse réagir. La vitesse, la discrétion et le bon moment sont ses piliers.",
+    "note": "Peut se lier à la RUS lorsque la surprise provient d’un stratagème, d’un piège ou d’une mise en scène plutôt que d’un réflexe physique."
   },
   {
     "id": "vigilance",
@@ -1386,7 +1572,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Détecter ou anticiper les menaces avant qu’elles ne frappent : surveiller les angles, repérer les trajectoires et réagir aux attaques à distance ou aux manœuvres tactiques.",
+    "note": null
   },
   {
     "id": "diligence",
@@ -1402,7 +1590,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à agir vite sans sacrifier la précision. Qu’il s’agisse d’un travail manuel ou d’une action technique, la diligence valorise l’efficacité autant que la vitesse.",
+    "note": "Peut se lier à la AGI lorsque la rapidité concerne tout le corps, dans des tâches physiques ou des manœuvres demandant coordination et mouvement."
   },
   {
     "id": "contrefacon",
@@ -1418,7 +1608,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à créer ou falsifier des objets, des documents ou des signes d’appartenance de façon crédible. Du tampon au faux-papier, la contrefaçon repose sur l’ingéniosité et l’œil pour les détails qui trompent.",
+    "note": "Peut se lier à la INT si la falsification exige une connaissance technique ou historique particulière, mais la réussite tient souvent à l’astuce."
   },
   {
     "id": "escamotage",
@@ -1434,7 +1626,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Le vol à la tire, la disparition discrète d’un objet, le tour de main qui dérobe sans attirer l’attention. La fluidité du geste est essentielle, mais la réussite dépend souvent d’une mise en scène ou d’une diversion.",
+    "note": "Peut se lier à la RUS lorsque la réussite provient d’une feinte sociale, d’un leurre ou d’une manœuvre d’ensemble plus que d’une pure dextérité."
   },
   {
     "id": "escroquerie",
@@ -1450,7 +1644,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Feinter un mouvement, tromper la vigilance de l’adversaire ou créer une ouverture par la ruse gestuelle. L’escroquerie défensive repose sur l’illusion du mouvement.",
+    "note": null
   },
   {
     "id": "course",
@@ -1467,7 +1663,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à courir vite et efficacement, que ce soit pour sprinter, poursuivre ou fuir.",
+    "note": "Peut se lier à la CON lorsque la performance dépend de l’endurance, de la constance ou de la résistance à la fatigue.\nPeut se lier à l’AGI lorsque la course demande de la souplesse, des changements rapides de trajectoire ou une adaptation à un terrain difficile."
   },
   {
     "id": "escalade",
@@ -1484,7 +1682,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La force et la coordination nécessaires pour grimper, se hisser ou franchir des obstacles verticaux.",
+    "note": "Peut se lier à la CON lorsque l’effort est long ou continu, exigeant de maintenir la tension musculaire sur la durée.\nPeut se lier à l’AGI lorsque la progression dépend d’un équilibre fin ou de prises précaires nécessitant souplesse et précision."
   },
   {
     "id": "natation",
@@ -1501,7 +1701,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à se déplacer dans l’eau, à maintenir sa flottabilité et à avancer efficacement.",
+    "note": "Peut se lier à la CON lorsque la nage s’inscrit dans la durée, qu’il faut gérer son souffle ou préserver son énergie.\nPeut se lier à l’AGI lorsque la performance repose sur la fluidité, la maîtrise du mouvement et l’adaptation au courant ou à l’environnement."
   },
   {
     "id": "musculation",
@@ -1517,7 +1719,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’application directe de la force physique pour soulever, pousser, tirer ou porter des charges lourdes.",
+    "note": "Peut se lier à la CON lorsqu’il s’agit de soutenir un effort prolongé, de stabiliser une position ou de résister à la contrainte."
   },
   {
     "id": "acrobatie",
@@ -1531,7 +1735,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à effectuer des mouvements complexes, à retomber juste, à franchir des obstacles avec grâce ou à garder l’équilibre dans des positions instables.",
+    "note": "(Pas de défausse pertinente — pure maîtrise de l’agilité corporelle.)"
   },
   {
     "id": "coordination",
@@ -1547,7 +1753,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’harmonie entre les gestes, la synchronisation des mouvements et la capacité à maintenir un contrôle total de son corps dans l’action.",
+    "note": "Peut se lier à la DEX lorsque la coordination concerne surtout les mains ou les manipulations précises plutôt que le mouvement global."
   },
   {
     "id": "souplesse",
@@ -1561,7 +1769,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’aisance à plier, étirer ou adapter son corps à des positions extrêmes sans contrainte apparente. La souplesse est la base de tout mouvement fluide et maîtrisé.",
+    "note": "(Pas de défausse pertinente — compétence purement physique et instinctive.)"
   },
   {
     "id": "endurance",
@@ -1577,7 +1787,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à supporter la douleur, la faim, les effets du climat ou des blessures. Endurer, c’est refuser de céder, qu’il s’agisse de poursuivre un effort, de surmonter un affaiblissement ou de briser un état nuisible.",
+    "note": "Peut se lier à la VOL lorsque la ténacité repose davantage sur la détermination mentale que sur la robustesse physique."
   },
   {
     "id": "concentration",
@@ -1593,7 +1805,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La faculté à maintenir son attention ou sa préparation malgré les distractions, les coups, le bruit ou la pression. C’est la stabilité de l’esprit dans l’action.",
+    "note": "Peut se lier à la CON lorsque la concentration dépend surtout de la résistance corporelle — douleur, épuisement, environnement hostile.\nPeut être utilisé via la PER lorsque la concentration sert à préparer des actions physiques.\nPeut être utilisé via la SAG lorsque la concentration sert à préparer des actions mentales."
   },
   {
     "id": "meditation",
@@ -1609,7 +1823,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à faire le vide, à se recentrer et à restaurer son équilibre intérieur. La méditation apaise, clarifie et ordonne, qu’il s’agisse de préparer l’action ou de retrouver la maîtrise de soi après l’épreuve.",
+    "note": "Peut se lier à la CON lorsque la pratique repose sur la régularité et la stabilité physique, plus que sur la seule force mentale."
   },
   {
     "id": "bagarre",
@@ -1623,7 +1839,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Tactiques offensives et frappes brutes visant à pousser, bousculer ou déstabiliser l’adversaire pour le faire reculer ou briser sa posture. Utilise poings, coudes, épaules et corps pour imposer la distance et créer des ouvertures — tout en infligeant des coups lourds.",
+    "note": null
   },
   {
     "id": "boxe",
@@ -1637,7 +1855,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La boxe cherche à percer la garde adverse par le positionnement et la posture défensive : se protéger, attirer l’attaque, puis se glisser dans les ouvertures pour riposter. Parer et contre-attaquer est ici une manière naturelle de frapper — poings, coudes ou épaules deviennent des armes dans un jeu de tempo et d’espace.",
+    "note": null
   },
   {
     "id": "pugilat",
@@ -1651,7 +1871,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Combat mobile, fondé sur la rapidité, les blocages et les ripostes instantanées. Le pugilat mise sur la disponibilité corporelle : frapper depuis des positions instables, se glisser entre les gardes et punir les relâchements par des attaques dynamiques et précises.",
+    "note": null
   },
   {
     "id": "lutte",
@@ -1665,7 +1887,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Techniques de saisie, d’ancrage et d’immobilisation : verrouiller, projeter ou neutraliser l’adversaire. La lutte utilise le corps pour réduire la mobilité ennemie — par des prises, des clefs ou des immobilisations — tout en maintenant la capacité à infliger des dégâts proches et contrôlés.",
+    "note": null
   },
   {
     "id": "investigation",
@@ -1681,7 +1905,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Rechercher et examiner des éléments matériels dans un lieu, afin d’en tirer des indices pertinents. L’investigation suppose méthode, logique et compréhension du contexte.",
+    "note": "Peut se lier à la CHN lorsqu’on compte davantage sur la chance ou l’intuition fortuite pour découvrir un élément sans vraiment savoir ce qu’on cherche."
   },
   {
     "id": "deduction",
@@ -1697,7 +1923,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Mettre en relation plusieurs faits ou hypothèses pour en tirer une conclusion logique. La déduction permet de séparer ce que le joueur comprend de ce que le personnage saisit réellement.",
+    "note": "Peut se lier à la SAG lorsque le raisonnement se base sur l’intuition, l’expérience ou une lecture humaine plutôt que sur la stricte logique."
   },
   {
     "id": "memoire",
@@ -1713,7 +1941,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La faculté à se souvenir d’informations apprises, de visages croisés ou de détails oubliés. Elle aide à rappeler ce que le joueur aurait pu manquer mais que le personnage, lui, n’a pas oublié.",
+    "note": "Peut se lier à la VOL lorsque la remémoration demande un effort de concentration ou de maîtrise mentale face à la confusion ou à la fatigue."
   },
   {
     "id": "interrogatoire",
@@ -1729,7 +1959,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art d’obtenir des informations au cours d’un entretien formel ou sous tension : poser les bonnes questions, confronter les contradictions, interpréter les réponses.",
+    "note": "Peut se lier à la SAG lorsque l’on s’appuie davantage sur la lecture des émotions et des attitudes que sur la logique du questionnement."
   },
   {
     "id": "extrapolation",
@@ -1745,7 +1977,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Reconstituer un passé ou un vécu à partir d’indices matériels, de traces ou de sensations. L’extrapolation relie les faits visibles à des intentions ou des émotions invisibles.",
+    "note": "Peut se lier à la SAG lorsque la reconstruction repose plus sur la compréhension intuitive ou empathique que sur l’analyse factuelle."
   },
   {
     "id": "ecriture",
@@ -1761,7 +1995,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à rédiger avec justesse et profondeur : structurer une idée, restituer fidèlement une information, ou produire un texte clair et complet.",
+    "note": "Peut se lier à la SAG lorsque l’écriture cherche à émouvoir, à traduire une perception personnelle ou à transmettre une vérité intérieure plutôt qu’un contenu factuel."
   },
   {
     "id": "lecture",
@@ -1777,7 +2013,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La faculté de comprendre un texte dans sa forme et dans son fond : saisir le sens, mais aussi la logique et la construction de la pensée.",
+    "note": "Peut se lier à la SAG lorsque la lecture vise à percevoir l’état d’esprit, l’émotion ou la subjectivité de l’auteur, plutôt qu’à en extraire les informations objectives."
   },
   {
     "id": "culture",
@@ -1793,7 +2031,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’ensemble des connaissances générales acquises par l’éducation, l’histoire ou l’expérience collective. C’est le socle de la compréhension du monde, de ses usages et de ses idées.",
+    "note": "Peut se lier à la SAG lorsque la culture concerne les traditions, le folklore, les coutumes ou les récits transmis par la mémoire plutôt que par les livres."
   },
   {
     "id": "strategie",
@@ -1809,7 +2049,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à établir des plans d’action efficaces : préparer une manœuvre, anticiper une riposte, coordonner des ressources ou harmoniser des efforts.",
+    "note": "Peut se lier à la VOL lorsqu’il s’agit avant tout de rassembler et de motiver un groupe autour d’un objectif commun, la stratégie devenant un acte de volonté partagée."
   },
   {
     "id": "evaluation",
@@ -1825,7 +2067,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La faculté d’estimer la valeur, la fiabilité ou la sincérité d’un élément, qu’il s’agisse d’un objet, d’une ressource ou d’une personne. Évaluer, c’est juger à partir de ce que l’on perçoit et de ce que l’on soupçonne.",
+    "note": "Peut se lier à la VOL lorsque l’évaluation porte sur une intention, un mensonge ou une tentative de manipulation, demandant lucidité et sang-froid plutôt que simple analyse logique."
   },
   {
     "id": "negociation",
@@ -1841,7 +2085,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de trouver un terrain d’entente entre des intérêts opposés : discuter, céder, ou contraindre selon le contexte. La négociation repose sur la logique, la mesure et la compréhension des besoins.",
+    "note": "Peut se lier à la RUS lorsque la négociation sert de couverture à une manœuvre, une trahison ou un double jeu assumé."
   },
   {
     "id": "medecine",
@@ -1857,7 +2103,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de diagnostiquer et de traiter les blessures ou affections communes, qu’elles soient physiques ou psychiques. La médecine combine savoir, observation et sang-froid.",
+    "note": "Peut se lier à la VOL lorsque les soins reposent sur la détermination, la maîtrise de soi ou la capacité à agir sous la pression plutôt que sur la rigueur intellectuelle."
   },
   {
     "id": "chirurgie",
@@ -1873,7 +2121,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La pratique des soins lourds et invasifs : opérer, suturer, stabiliser un blessé grave. La chirurgie exige précision, discipline et concentration.",
+    "note": "Peut se lier à la DEX lorsque le geste précis et le contrôle moteur priment sur la planification intellectuelle."
   },
   {
     "id": "psychologie",
@@ -1889,7 +2139,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Comprendre les émotions, identifier les déséquilibres et accompagner la reconstruction intérieure. La psychologie cherche à rétablir la cohérence entre pensée et ressenti.",
+    "note": "Peut se lier à la SAG lorsque l’approche repose sur l’écoute, la compassion ou la lecture intuitive des émotions."
   },
   {
     "id": "diagnostic",
@@ -1905,7 +2157,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Identifier la cause d’un trouble, d’un symptôme ou d’un phénomène. Cela peut concerner le corps, l’esprit ou même une situation complexe.",
+    "note": "Peut se lier à la RUS lorsque la compréhension repose sur l’observation d’indices indirects ou la reconstruction ingénieuse d’un contexte."
   },
   {
     "id": "therapie",
@@ -1921,7 +2175,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Restaurer le bien-être par la parole, le contact ou la présence : apaiser, relâcher, équilibrer. La thérapie agit sur la confiance, la respiration, la résonance humaine.",
+    "note": "Peut se lier à la CHA lorsque le soin s’appuie sur le magnétisme personnel, la voix, la chaleur du ton ou la capacité à inspirer le calme."
   },
   {
     "id": "travail-du-metal",
@@ -1937,7 +2193,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Façonner, fondre, forger ou réparer le métal sous toutes ses formes : outils, armes, armures, décorations. La force brute et le contrôle du marteau font toute la différence.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "travail-de-la-pierre",
@@ -1953,7 +2211,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Tailler, sculpter et ériger des structures en pierre : blocs, statues, fondations, monuments. Un artisanat de force et d’endurance où chaque coup compte.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "travail-du-bois",
@@ -1969,7 +2229,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Tailler, sculpter, assembler ou ajuster des pièces de bois. Cet artisanat demande précision, coordination et sens de la matière.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "travail-du-tissu",
@@ -1985,7 +2247,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Coudre, broder, tisser ou assembler des étoffes. La finesse du geste et le sens du détail en sont la clef.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "travail-du-cuir",
@@ -2001,7 +2265,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Préparer, assouplir, coudre ou teindre les peaux afin de créer vêtements, accessoires ou protections.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "travail-des-herbes",
@@ -2017,7 +2283,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Préparer, sécher, broyer et mélanger des plantes pour leurs usages médicinaux ou pratiques.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "travail-du-poison",
@@ -2033,7 +2301,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Créer, raffiner ou stabiliser des substances toxiques. Un artisanat où la précision du geste vaut la survie.",
+    "note": "Peut se lier à la INT pour les tâches de conception/évaluations."
   },
   {
     "id": "cuisine",
@@ -2049,7 +2319,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Préparer et transformer les aliments, équilibrer les saveurs, adapter les ingrédients selon le contexte. La cuisine repose sur l’expérience, le goût et la compréhension intuitive des équilibres.",
+    "note": "Peut se lier à la INT pour les étapes de conceptions ou d’analyses."
   },
   {
     "id": "coiffure",
@@ -2065,7 +2337,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Couper, coiffer, arranger ou teindre les cheveux. La précision et la délicatesse du geste sont essentielles, tout comme le sens esthétique.",
+    "note": "Peut se lier à la INT pour les étapes de conceptions ou d’analyses."
   },
   {
     "id": "minage",
@@ -2081,7 +2355,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Extraire la roche, la terre ou les minerais. La force physique et la résistance à l’effort sont essentielles, mais la prudence et la méthode restent vitales.",
+    "note": "Peut se lier à la INT pour les étapes de conceptions ou d’analyses."
   },
   {
     "id": "bricolage",
@@ -2097,7 +2373,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Réparer, rafistoler ou improviser des dispositifs temporaires avec les moyens du bord. Le bricolage, c’est l’art de faire fonctionner quelque chose là où rien n’est prévu pour.",
+    "note": "Peut se lier à la RUS lorsque la réussite repose sur une idée ingénieuse, un montage inattendu ou une solution de fortune inventive."
   },
   {
     "id": "recyclage",
@@ -2113,7 +2391,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Récupérer des matériaux, composants ou pièces utiles à partir d’objets brisés, épaves ou structures abandonnées. Le recyclage, c’est savoir reconnaître ce qui garde encore de la valeur.",
+    "note": "Peut se lier à la CHN lorsqu’on se fie davantage au hasard ou à la chance pour trouver ce qui sera réellement utile."
   },
   {
     "id": "demolissage",
@@ -2129,7 +2409,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Casser, désassembler ou abattre des structures, des coffres, des murs ou tout obstacle physique. La puissance est reine, mais la méthode fait la différence.",
+    "note": "Peut se lier à la INT lorsque la réussite dépend du choix du point de rupture, du calcul de la contrainte ou d’une approche raisonnée plutôt que brute."
   },
   {
     "id": "jeu",
@@ -2146,7 +2428,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "La capacité à remporter des victoires aux jeux, qu’ils soient de hasard, de stratégie ou de bluff. Le jeu révèle la relation du personnage au risque, à la logique et à l’imprévisible.",
+    "note": "Peut se lier à la INT pour les jeux de stratégie et de réflexion, ou à la RUS pour ceux fondés sur la ruse, la manipulation ou le bluff."
   },
   {
     "id": "loisirs",
@@ -2162,7 +2446,9 @@ const competences = [
     ],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’art de trouver ou d’improviser des activités plaisantes pour se détendre, seul ou en groupe. Le loisir est une échappatoire, un moment de respiration ou de plaisir partagé.",
+    "note": "Peut se lier à la SAG lorsque le loisir repose sur la qualité des relations humaines, l’échange ou la complicité plutôt que sur le simple hasard des occasions."
   },
   {
     "id": "maternelle",
@@ -2176,7 +2462,10 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": null,
+    "note": null,
+    "fixedRang": 3
   },
   {
     "id": "langue",
@@ -2190,7 +2479,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": true,
-    "limitant": false
+    "limitant": false,
+    "description": null,
+    "note": null
   },
   {
     "id": "theologie",
@@ -2206,7 +2497,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Religions, croyances, rites, mythes et structures spirituelles, y compris leurs dérivés et cultes marginaux.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "histoire",
@@ -2222,7 +2515,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Événements majeurs, civilisations, guerres, personnages marquants et chronologies locales.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "nature",
@@ -2238,7 +2533,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Faune, flore, géographie, écologie et phénomènes naturels.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "rurale",
@@ -2254,7 +2551,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Organisation, coutumes et modes de vie des communautés rurales.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "urbaine",
@@ -2270,7 +2569,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Fonctionnement des cités, services, structures sociales et réseaux d’influence.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "crime",
@@ -2286,7 +2587,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Milieux criminels, structures de la pègre, activités illicites et contrebandes.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "culture",
@@ -2302,7 +2605,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "L’ensemble des connaissances générales acquises par l’éducation, l’histoire ou l’expérience collective. C’est le socle de la compréhension du monde, de ses usages et de ses idées.",
+    "note": "Peut se lier à la SAG lorsque la culture concerne les traditions, le folklore, les coutumes ou les récits transmis par la mémoire plutôt que par les livres."
   },
   {
     "id": "politique",
@@ -2318,7 +2623,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Institutions, hiérarchies, stratégies de pouvoir et relations d’influence.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "economie",
@@ -2334,7 +2641,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Marchés, monnaies, échanges, logistique et principes du commerce.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "sciences",
@@ -2350,7 +2659,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
+    "limitant": false,
+    "description": "Physique, chimie, biologie, ingénierie et technologie.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   },
   {
     "id": "arcanes",
@@ -2366,19 +2677,9 @@ const competences = [
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
-    "limitant": false
-  },
-  {
-    "id": "connaissance-libre",
-    "nom": "< Connaissance >",
-    "categorie": "connaissances",
-    "groupe": "connaissances",
-    "sousGroupe": null,
-    "attributs": [],
-    "secondaires": [],
-    "attrVariable": false,
-    "libre": true,
-    "limitant": false
+    "limitant": false,
+    "description": "Études magiques, rituels, artefacts, théories occultes et plans d’existence.",
+    "note": "Voir la description du groupe pour les associations d’attributs possibles."
   }
 ];
 
@@ -2417,11 +2718,12 @@ const categoriesCompetences = [
               "arme-lourde",
               "arme-exotique",
               "armes-flexibles",
-              "armes-tactique",
+              "armes-tactiques",
               "represailles"
             ]
           }
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à l’utilisation offensive des armes.\nCes compétences mesurent la capacité à frapper, blesser et tirer parti du type ou du maniement d’une arme dans un contexte de confrontation.\nElles définissent le style de combat du personnage, qu’il soit précis, puissant, rapide ou défensif."
       },
       {
         "id": "defense",
@@ -2434,7 +2736,8 @@ const categoriesCompetences = [
           "armure",
           "escroquerie",
           "vigilance"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la protection, à la survie et à la gestion du danger.\nElles mesurent la capacité du combattant à éviter, encaisser, tromper ou anticiper les attaques adverses, qu’elles soient directes ou tactiques."
       },
       {
         "id": "tactique",
@@ -2448,14 +2751,16 @@ const categoriesCompetences = [
           "assistance",
           "affliction",
           "represailles"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la gestion et au rythme des affrontements.\nElles mesurent la capacité du combattant à influencer la dynamique du combat — contraindre, libérer, soutenir ou retourner une situation."
       },
       {
         "id": "ambidextrie",
         "nom": "Ambidextrie",
         "limitant": true,
         "libre": true,
-        "competences": []
+        "competences": [],
+        "description": "Ce groupe est essentiellement limitant. C’est le cas lorsque le personnage utilise une arme ou un objet qui n’est pas prévu pour la « mauvaise main » avec celle-ci : Ce groupe limite le niveau du groupe utilisé pour l’action ET la dextérité limitée l’attribut utilisé via la compétence.\nL’exception notable est le bouclier, prévu pour être utilisé en main non-directrice, et qui ne concerne donc ambidextrie que si utilisé dans la main directrice.\nPour les qualifications d’aptitude des castes l’ambidextrie compte comme un groupe rattaché à la DEX."
       }
     ]
   },
@@ -2471,7 +2776,8 @@ const categoriesCompetences = [
         "competences": [
           "persuasion",
           "represailles"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la confrontation verbale et idéologique.\nIl s’agit ici d’influencer, de convaincre, de déstabiliser ou de dominer par la parole, la posture ou la logique.\nLa joute est l’équivalent rhétorique du combat : les mots remplacent les armes, mais l’affrontement reste réel."
       },
       {
         "id": "representation",
@@ -2484,7 +2790,8 @@ const categoriesCompetences = [
           "temperance",
           "escroquerie",
           "vigilance"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la protection mentale et verbale lors d’une confrontation d’idées.\nElles mesurent la capacité à éviter les attaques rhétoriques, à garder son calme ou à déjouer les tentatives de manipulation."
       },
       {
         "id": "inspiration",
@@ -2497,7 +2804,8 @@ const categoriesCompetences = [
           "assistance",
           "affliction",
           "represailles"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la modulation des émotions, des réactions et de la volonté d’autrui.\nLà où la Manipulation oriente l’attention ou l’action dans une direction précise, l’Inspiration agit sur l’émotion et l’élan intérieur.\nCe groupe traduit la capacité à influencer les dynamiques mentales d’un échange — à apaiser, à galvaniser, à troubler ou à fortifier."
       }
     ]
   },
@@ -2514,7 +2822,8 @@ const categoriesCompetences = [
           "arc",
           "arbalete",
           "type-darme"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à l’usage des armes à projectiles légers : arcs, arbalètes et leurs dérivés.\nCes compétences mesurent la capacité à viser, ajuster et atteindre une cible avec précision. Elles représentent la maîtrise du tir plutôt que la connaissance technique de l’arme."
       },
       {
         "id": "armes-a-feu",
@@ -2525,7 +2834,8 @@ const categoriesCompetences = [
           "arme-de-poing",
           "arme-depaule",
           "type-darme"
-        ]
+        ],
+        "description": "Ce groupe mesure l’aptitude du personnage au combat lorsqu’il emploie une arme à feu. Il s’agit d’attaquer une cible pour la blesser ou la neutraliser ; la compétence évalue la visée, le contrôle du recul, le choix du moment de tir et l’anticipation du déplacement de la cible."
       },
       {
         "id": "armes-de-siege",
@@ -2537,7 +2847,8 @@ const categoriesCompetences = [
           "catapulte",
           "belier",
           "type-darme"
-        ]
+        ],
+        "description": "Ce groupe mesure l’aptitude du personnage à utiliser des engins lourds destinés à la destruction des fortifications ou des troupes à distance.\nCes armes exigent puissance, coordination et sens du calcul pour maximiser la portée et la précision des tirs.\nDans tous les cas, il s’agit d’attaquer afin de blesser, détruire ou abattre les défenses adverses."
       },
       {
         "id": "jet-darme",
@@ -2549,7 +2860,8 @@ const categoriesCompetences = [
           "armes-tactiques",
           "armes-explosives",
           "armes-de-precision"
-        ]
+        ],
+        "description": "Ce groupe mesure l’aptitude du personnage à utiliser des armes projetées ou lancées. Il s’agit d’atteindre une cible en exploitant la vitesse, la trajectoire ou l’effet du projectile — par la force du bras, la mécanique d’un lanceur ou l’explosion contrôlée."
       }
     ]
   },
@@ -2567,7 +2879,8 @@ const categoriesCompetences = [
           "leurre",
           "piegeage",
           "arc"
-        ]
+        ],
+        "description": "Ce groupe rassemble les savoir-faire de la chasse, de la mise en scène et de la capture. Ici, la Sagesse incarne l’instinct ancestral : lire le terrain, comprendre les rythmes d’une proie et anticiper ses réactions. La ruse et la dextérité interviennent quand il faut tromper, dissimuler ou poser précisément un dispositif."
       },
       {
         "id": "survie-rurale",
@@ -2581,7 +2894,8 @@ const categoriesCompetences = [
           "equitation",
           "observation",
           "subsistance"
-        ]
+        ],
+        "description": "Ce groupe traite de la débrouillardise en milieu naturel : lire la météo et le terrain, composer avec la faune et la flore, se déplacer, camper, trouver eau et nourriture, rester en sécurité loin des murs."
       },
       {
         "id": "acuite",
@@ -2594,7 +2908,8 @@ const categoriesCompetences = [
           "detection-odogout",
           "6e-sens",
           "7e-sens"
-        ]
+        ],
+        "description": "Ce groupe mesure la capacité du personnage à percevoir le monde qui l’entoure, qu’il s’agisse de signaux physiques, de sensations plus diffuses ou de perceptions intuitives.\nC’est la frontière entre la vigilance et l’instinct, entre ce que l’on voit et ce que l’on ressent."
       }
     ]
   },
@@ -2614,7 +2929,8 @@ const categoriesCompetences = [
           "pilotage",
           "observation",
           "subsistance"
-        ]
+        ],
+        "description": "Cette famille de compétences représente la débrouillardise et la capacité à s’adapter aux environnements habités. Savoir évoluer dans une ville, c’est comprendre ses rythmes, ses règles implicites et ses interstices. Ces compétences permettent de survivre, de circuler et d’observer dans le tumulte du monde civilisé."
       },
       {
         "id": "art",
@@ -2627,7 +2943,8 @@ const categoriesCompetences = [
           "chant",
           "comedie",
           "peinture"
-        ]
+        ],
+        "description": "L’Art incarne la créativité et la sensibilité d’un individu. Ces compétences traduisent la capacité à émouvoir, captiver ou exprimer des émotions à travers des formes esthétiques. Chaque discipline repose sur la maîtrise d’un médium — corps, voix, instrument ou image — et sur l’intention d’enchanter un public."
       },
       {
         "id": "entregent",
@@ -2639,7 +2956,8 @@ const categoriesCompetences = [
           "renseignement",
           "enseignement",
           "deguisement"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la compréhension et à la gestion des relations humaines. Il s’agit de savoir interagir, diriger, instruire ou s’adapter à un milieu social. Ces compétences reposent sur la perception des autres, la maîtrise de soi et la capacité à inspirer ou à transmettre."
       },
       {
         "id": "eloquence",
@@ -2650,7 +2968,8 @@ const categoriesCompetences = [
           "etiquette",
           "escroquerie",
           "empathie"
-        ]
+        ],
+        "description": "Ce groupe rassemble les compétences liées à la communication, à la mise en scène de soi et à la compréhension des autres. C’est l’art de dire ce qu’il faut — ou de le faire croire. Ces savoir-faire reposent sur la maîtrise du langage, l’adaptation sociale et la lecture des émotions."
       }
     ]
   },
@@ -2668,7 +2987,8 @@ const categoriesCompetences = [
           "deplacement-silencieux",
           "filature",
           "camouflage"
-        ]
+        ],
+        "description": "Ce groupe réunit les savoir-faire permettant d’agir sans attirer l’attention. Se fondre dans le décor, se déplacer sans bruit, disparaître dans la foule ou se rendre invisible aux regards : autant de manières d’exister à la marge du visible. Ces compétences s’appuient sur la maîtrise du corps, du rythme et de la perception des autres."
       },
       {
         "id": "larcin",
@@ -2680,7 +3000,8 @@ const categoriesCompetences = [
           "crochetage",
           "sabotage",
           "escamotage"
-        ]
+        ],
+        "description": "Ce groupe réunit les savoir-faire liés à la manipulation précise et discrète d’objets, dispositifs ou mécanismes. Ces compétences servent à contourner, neutraliser ou détourner ce qui protège, piège ou limite. Tout repose sur la maîtrise du geste, le sens du risque et la capacité à improviser des solutions ingénieuses."
       },
       {
         "id": "sagacite",
@@ -2692,7 +3013,8 @@ const categoriesCompetences = [
           "surprise",
           "vigilance",
           "diligence"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la réactivité, à l’attention et à la rapidité d’exécution. C’est la capacité à percevoir les opportunités ou les dangers avant les autres, à agir sans hésiter, et à maintenir un équilibre entre réflexion vive et action immédiate."
       },
       {
         "id": "subterfuge",
@@ -2703,7 +3025,8 @@ const categoriesCompetences = [
           "contrefacon",
           "escamotage",
           "escroquerie"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences consacrées à la supercherie matérielle et à l’usurpation : fabriquer des faux, dissimuler ce qu’il faut garder hors de vue, ou se faire passer pour un autre. Là où l’Éloquence manipule la parole, le Subterfuge modifie les preuves et l’apparence tangible du réel."
       }
     ]
   },
@@ -2721,7 +3044,8 @@ const categoriesCompetences = [
           "escalade",
           "natation",
           "musculation"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à l’effort physique, à la puissance corporelle et à la maîtrise du mouvement. Courir, grimper, nager ou soulever : autant de façons d’imposer le corps au monde, par la force, l’endurance ou la souplesse."
       },
       {
         "id": "finesse",
@@ -2732,7 +3056,8 @@ const categoriesCompetences = [
           "acrobatie",
           "coordination",
           "souplesse"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées au contrôle du mouvement, à l’équilibre et à la souplesse du corps. Là où l’Athlétisme repose sur la force, la Finesse s’exprime dans la précision et la légèreté — chaque geste est calculé, fluide, maîtrisé."
       },
       {
         "id": "discipline",
@@ -2743,7 +3068,8 @@ const categoriesCompetences = [
           "endurance",
           "concentration",
           "meditation"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la résistance, à la maîtrise de soi et à la persévérance. C’est l’art de tenir bon, de canaliser ses forces et de maintenir le contrôle face à la douleur, à la distraction ou au désordre intérieur."
       },
       {
         "id": "corps-a-corps",
@@ -2755,7 +3081,8 @@ const categoriesCompetences = [
           "boxe",
           "pugilat",
           "lutte"
-        ]
+        ],
+        "description": "Ce groupe réunit les techniques de combat rapproché : frapper, immobiliser, parer ou riposter. Toutes ces méthodes peuvent infliger des dégâts — elles diffèrent par leur logique d’approche et par les options tactiques qu’elles privilégient : pousser l’adversaire, s’insérer dans sa garde, surprendre par la mobilité ou verrouiller son corps."
       }
     ]
   },
@@ -2774,7 +3101,8 @@ const categoriesCompetences = [
           "memoire",
           "interrogatoire",
           "extrapolation"
-        ]
+        ],
+        "description": "L’Enquête regroupe les compétences liées à la recherche d’informations, à l’analyse logique et à la compréhension des faits. C’est la capacité à interroger le réel, à relier les indices et à faire parler les détails. Enquêter, c’est donner du sens à ce que les autres ne voient pas."
       },
       {
         "id": "erudition",
@@ -2785,7 +3113,8 @@ const categoriesCompetences = [
           "ecriture",
           "lecture",
           "culture"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la connaissance générale, à la maîtrise du langage et à la compréhension du sens. Elle ne traite pas de savoirs techniques ou spécialisés, mais de la culture commune, de la lecture et de l’écriture comme moyens de penser, comprendre et transmettre."
       },
       {
         "id": "analyse",
@@ -2796,7 +3125,8 @@ const categoriesCompetences = [
           "strategie",
           "evaluation",
           "negociation"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la réflexion pratique, à la planification et au jugement. Qu’il s’agisse de commerce, de diplomatie ou de guerre, il s’agit toujours de comprendre la situation, d’en évaluer les forces et faiblesses, puis d’en tirer parti."
       },
       {
         "id": "guerison",
@@ -2809,7 +3139,8 @@ const categoriesCompetences = [
           "psychologie",
           "diagnostic",
           "therapie"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences liées à la compréhension, au soin et à la restauration du corps comme de l’esprit. Il ne s’agit pas seulement de réparer, mais d’accompagner le vivant dans son équilibre — qu’il soit physique, mental ou émotionnel."
       }
     ]
   },
@@ -2830,7 +3161,8 @@ const categoriesCompetences = [
           "travail-du-cuir",
           "travail-des-herbes",
           "travail-du-poison"
-        ]
+        ],
+        "description": "Ce groupe réunit les savoir-faire liés au travail des matières et à la création d’objets concrets. Chaque artisanat repose sur la maîtrise d’un matériau, d’un outil et d’un geste. Créer ne signifie pas nécessairement produire des objets puissants ou magiques — mais c’en est souvent le premier pas."
       },
       {
         "id": "profession",
@@ -2841,7 +3173,8 @@ const categoriesCompetences = [
           "cuisine",
           "coiffure",
           "minage"
-        ]
+        ],
+        "description": "Ce groupe réunit les métiers et savoir-faire du quotidien. Ces compétences traduisent la maîtrise pratique d’un domaine issu de l’expérience, de la patience et du sens du concret. Là où l’Artisanat créé, la Profession entretient, transforme et fait vivre."
       },
       {
         "id": "savoir-faire",
@@ -2852,7 +3185,8 @@ const categoriesCompetences = [
           "bricolage",
           "recyclage",
           "demolissage"
-        ]
+        ],
+        "description": "Ce groupe réunit les compétences de débrouille et de réparation. Il ne s’agit pas de créer, mais de s’adapter, réparer, transformer ou réutiliser avec ce qu’on a sous la main. Ces savoir-faire reposent sur la logique du système D : efficacité avant élégance."
       },
       {
         "id": "savoir-etre",
@@ -2862,7 +3196,8 @@ const categoriesCompetences = [
         "competences": [
           "jeu",
           "loisirs"
-        ]
+        ],
+        "description": "Ce groupe mesure la capacité du personnage à s’occuper, à se détendre et à tirer du plaisir de la vie.\nCes compétences traduisent la manière dont chacun trouve son équilibre — par le jeu, la chance, la compagnie ou la simple joie d’exister."
       }
     ]
   },
@@ -2878,7 +3213,8 @@ const categoriesCompetences = [
         "competences": [
           "maternelle",
           "langue"
-        ]
+        ],
+        "description": "Ce groupe de compétence mesure la maîtrise linguistique du personnage dans les différentes langues du monde.\nTout personnage s’exprime naturellement et sans restriction dans sa langue maternelle."
       },
       {
         "id": "connaissances",
@@ -2896,9 +3232,9 @@ const categoriesCompetences = [
           "politique",
           "economie",
           "sciences",
-          "arcanes",
-          "connaissance-libre"
-        ]
+          "arcanes"
+        ],
+        "description": "Les Connaissances mesurent la compréhension théorique ou culturelle d’un sujet.\nElles ne traduisent pas la capacité à faire, mais à comprendre, analyser et exploiter un savoir dans son contexte.\nElles peuvent soutenir n’importe quelle autre compétence lorsqu’un savoir pertinent éclaire, explique ou oriente une action.\nL’interprétation de ces apports dépend toujours du MJ et du cadre narratif.\nAttribut selon l’origine du savoir :\n• INT — Savoir académique, appris par l’étude, les lectures ou la formation.\n• RUS — Savoir empirique, acquis par la pratique, l’expérience ou la débrouille.\n• SAG — Savoir traditionnel, transmis par la parole, la mémoire ou l’observation des anciens."
       }
     ]
   }
