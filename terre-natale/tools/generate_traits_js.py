@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-generate_traits_js.py — Convertit traits.json en app-react/src/data/traits.js
+generate_traits_js.py — Convertit traits.json en app-react/src/data/traits.json
 
 Usage: python3 tools/generate_traits_js.py
 """
@@ -58,7 +58,7 @@ def transform(trait, section_key):
 def main():
     tools_dir = Path(__file__).parent
     traits_json_path = tools_dir / 'traits.json'
-    output_path = tools_dir.parent / 'app-react' / 'src' / 'data' / 'traits.js'
+    output_path = tools_dir.parent / 'app-react' / 'src' / 'data' / 'traits.json'
 
     with open(traits_json_path, encoding='utf-8') as f:
         data = json.load(f)
@@ -83,17 +83,9 @@ def main():
             # Met l'id en premier pour la lisibilité du JSON généré
             all_traits.append({'id': slug, **{k: v for k, v in obj.items() if k != 'id'}})
 
-    traits_str = json.dumps(all_traits, ensure_ascii=False, indent=2)
-    js_output = (
-        "// AUTO-GENERATED — ne pas modifier manuellement\n"
-        "// Source : tools/traits.json  •  Script : tools/generate_traits_js.py\n"
-        f"// {len(all_traits)} traits au total\n\n"
-        f"const traits = {traits_str};\n\n"
-        "export default traits;\n"
-    )
-
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(js_output)
+        json.dump(all_traits, f, ensure_ascii=False, indent=2)
+        f.write('\n')
 
     print(f"✓ Généré : {output_path}")
     print(f"  Total  : {len(all_traits)} traits")

@@ -39,6 +39,7 @@ OUTPUT_DIR_DOMAINS = Path("out_domains")
 OUTPUT_JSON = Path("all_magic_words.json")
 OUTPUT_SPELLS_DIR = Path("out_spells")
 OUTPUT_EXTRA_JSON = Path("other_magic_words.json")
+OUTPUT_SPELLS_JSON = Path("all_spells.json")
 
 # Mapping of sheet names (tabs) to pretty school names, filenames and symbols
 SCHOOL_SHEETS: Dict[str, Dict[str, str]] = {
@@ -587,7 +588,16 @@ def generate_spells_from_sorts() -> None:
         extra_words = json.load(f)
 
     # Build lookup maps
-    main_by_vulgar = {w["vulgar"]: w for w in main_words}
+    # Index by full vulgar name (with school symbol, e.g. "Bête de Feu ✪")
+    # AND by stripped name (without symbol) so lookups from the Sorts sheet work
+    # regardless of whether the symbol is present.
+    main_by_vulgar: Dict[str, Any] = {}
+    for w in main_words:
+        main_by_vulgar[w["vulgar"]] = w
+        # Also index by the name without the trailing symbol token
+        parts = w["vulgar"].rsplit(" ", 1)
+        if len(parts) == 2:
+            main_by_vulgar.setdefault(parts[0], w)
     extra_by_name = {w["name"]: w for w in extra_words}
 
     # Access 'Sorts' sheet
@@ -601,6 +611,8 @@ def generate_spells_from_sorts() -> None:
 
     # group_name -> list of spell markdown blocks
     spells_by_group: Dict[str, List[str]] = {}
+    spell_entries: List[Dict[str, Any]] = []
+    spell_global_id = 1
 
     def get_cell(row: pd.Series, col_letter: str) -> str:
         idx = letter_to_index(col_letter)
@@ -981,6 +993,45 @@ def generate_spells_from_sorts() -> None:
         group_name = current_group
         spells_by_group.setdefault(group_name, []).append(spell_block)
 
+        # --- JSON entry (skip if any word entry is missing) ---
+        if all(w["entry"] is not None for w in words_used):
+            json_words: List[Dict[str, Any]] = []
+            for w in words_used:
+                entry = w["entry"]
+                role = w["role"]
+                word_obj: Dict[str, Any] = {
+                    "role": role,
+                    "name": entry.get("vulgar", w["name"]) if w["source"] == "main" else entry.get("name", w["name"]),
+                    "word_type": entry.get("word_type", ""),
+                    "difficulty": entry.get("difficulty", ""),
+                    "drain": entry.get("drain", ""),
+                    "description": entry.get("description", ""),
+                }
+                if w["source"] == "main":
+                    word_obj["latin"] = entry.get("latin", "")
+                    word_obj["arcane"] = entry.get("arcane", "")
+                    word_obj["school_code"] = entry.get("school_code", "")
+                    word_obj["school_label"] = entry.get("school_label", "")
+                    word_obj["key"] = w.get("key", "")
+                if entry.get("magnitude_modifiers"):
+                    word_obj["magnitude_modifiers"] = entry["magnitude_modifiers"]
+                json_words.append(word_obj)
+
+            spell_entries.append({
+                "id": spell_global_id,
+                "title": title,
+                "group": group_name,
+                "difficulty": difficulty_display,
+                "drain": drain_display,
+                "spell_type": spell_type,
+                "schools": spell_schools,
+                "domains": spell_domains,
+                "description": ensure_final_dot(spell_description) if spell_description else "",
+                "notes": ensure_final_dot(notes_raw) if notes_raw else "",
+                "words": json_words,
+            })
+            spell_global_id += 1
+
     # --- fichiers markdown par groupe ---
 
     for group_name, spells in spells_by_group.items():
@@ -996,6 +1047,13 @@ def generate_spells_from_sorts() -> None:
 
         out_file.write_text("\n".join(content_lines), encoding="utf-8")
         print(f"[OK] Fichier de sorts généré : {out_file}")
+
+    # --- JSON global des sorts ---
+    OUTPUT_SPELLS_JSON.write_text(
+        json.dumps(spell_entries, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+    print(f"[OK] Fichier JSON des sorts généré : {OUTPUT_SPELLS_JSON} ({len(spell_entries)} sorts)")
 
 def check_duplicate_words() -> None:
     """

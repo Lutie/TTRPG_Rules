@@ -1,0 +1,33 @@
+[
+  {
+    "id": "magie",
+    "nom": "Les Compétences de Magie",
+    "groupes": [
+      {
+        "id": "tradition",
+        "nom": "Tradition",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "tradition-domaine"
+        ]
+      },
+      {
+        "id": "arcanes",
+        "nom": "Arcanes",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "erudis",
+          "focus",
+          "imperius",
+          "denis",
+          "aldus",
+          "modus",
+          "rituel",
+          "apertus"
+        ]
+      }
+    ]
+  }
+]

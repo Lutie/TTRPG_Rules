@@ -1,0 +1,556 @@
+[
+  {
+    "id": "martiales",
+    "nom": "Les Compétences Martiales",
+    "groupes": [
+      {
+        "id": "combat",
+        "nom": "Combat",
+        "limitant": false,
+        "libre": false,
+        "sousGroupes": [
+          {
+            "nom": "Par Genre",
+            "competences": [
+              "arme-a-garde",
+              "arme-a-hampe",
+              "arme-a-manche",
+              "arme-de-defense"
+            ]
+          },
+          {
+            "nom": "Par Type",
+            "competences": [
+              "arme-tranchante",
+              "arme-contondante",
+              "arme-perforante"
+            ]
+          },
+          {
+            "nom": "Spéciales",
+            "competences": [
+              "arme-courte",
+              "arme-lourde",
+              "arme-exotique",
+              "armes-flexibles",
+              "armes-tactiques",
+              "represailles"
+            ]
+          }
+        ],
+        "description": "Ce groupe réunit les compétences liées à l’utilisation offensive des armes.\nCes compétences mesurent la capacité à frapper, blesser et tirer parti du type ou du maniement d’une arme dans un contexte de confrontation.\nElles définissent le style de combat du personnage, qu’il soit précis, puissant, rapide ou défensif."
+      },
+      {
+        "id": "defense",
+        "nom": "Défense",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "evasion",
+          "parade",
+          "armure",
+          "escroquerie",
+          "vigilance"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la protection, à la survie et à la gestion du danger.\nElles mesurent la capacité du combattant à éviter, encaisser, tromper ou anticiper les attaques adverses, qu’elles soient directes ou tactiques."
+      },
+      {
+        "id": "tactique",
+        "nom": "Tactique",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "domination",
+          "controle",
+          "evasion",
+          "assistance",
+          "affliction",
+          "represailles"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la gestion et au rythme des affrontements.\nElles mesurent la capacité du combattant à influencer la dynamique du combat — contraindre, libérer, soutenir ou retourner une situation."
+      },
+      {
+        "id": "ambidextrie",
+        "nom": "Ambidextrie",
+        "limitant": true,
+        "libre": true,
+        "competences": [],
+        "description": "Ce groupe est essentiellement limitant. C’est le cas lorsque le personnage utilise une arme ou un objet qui n’est pas prévu pour la « mauvaise main » avec celle-ci : Ce groupe limite le niveau du groupe utilisé pour l’action ET la dextérité limitée l’attribut utilisé via la compétence.\nL’exception notable est le bouclier, prévu pour être utilisé en main non-directrice, et qui ne concerne donc ambidextrie que si utilisé dans la main directrice.\nPour les qualifications d’aptitude des castes l’ambidextrie compte comme un groupe rattaché à la DEX."
+      }
+    ]
+  },
+  {
+    "id": "sociales",
+    "nom": "Les Compétences Sociales",
+    "groupes": [
+      {
+        "id": "communication",
+        "nom": "Communication",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "persuasion",
+          "represailles"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la confrontation verbale et idéologique.\nIl s’agit ici d’influencer, de convaincre, de déstabiliser ou de dominer par la parole, la posture ou la logique.\nLa joute est l’équivalent rhétorique du combat : les mots remplacent les armes, mais l’affrontement reste réel."
+      },
+      {
+        "id": "representation",
+        "nom": "Représentation",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "evasion",
+          "rhetorique",
+          "temperance",
+          "escroquerie",
+          "vigilance"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la protection mentale et verbale lors d’une confrontation d’idées.\nElles mesurent la capacité à éviter les attaques rhétoriques, à garder son calme ou à déjouer les tentatives de manipulation."
+      },
+      {
+        "id": "inspiration",
+        "nom": "Inspiration",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "manipulation",
+          "influence",
+          "assistance",
+          "affliction",
+          "represailles"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la modulation des émotions, des réactions et de la volonté d’autrui.\nLà où la Manipulation oriente l’attention ou l’action dans une direction précise, l’Inspiration agit sur l’émotion et l’élan intérieur.\nCe groupe traduit la capacité à influencer les dynamiques mentales d’un échange — à apaiser, à galvaniser, à troubler ou à fortifier."
+      }
+    ]
+  },
+  {
+    "id": "tir",
+    "nom": "Les Compétences de Tir",
+    "groupes": [
+      {
+        "id": "armes-de-trait",
+        "nom": "Armes de Trait",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "arc",
+          "arbalete",
+          "type-darme"
+        ],
+        "description": "Ce groupe réunit les compétences liées à l’usage des armes à projectiles légers : arcs, arbalètes et leurs dérivés.\nCes compétences mesurent la capacité à viser, ajuster et atteindre une cible avec précision. Elles représentent la maîtrise du tir plutôt que la connaissance technique de l’arme."
+      },
+      {
+        "id": "armes-a-feu",
+        "nom": "Armes à Feu",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "arme-de-poing",
+          "arme-depaule",
+          "type-darme"
+        ],
+        "description": "Ce groupe mesure l’aptitude du personnage au combat lorsqu’il emploie une arme à feu. Il s’agit d’attaquer une cible pour la blesser ou la neutraliser ; la compétence évalue la visée, le contrôle du recul, le choix du moment de tir et l’anticipation du déplacement de la cible."
+      },
+      {
+        "id": "armes-de-siege",
+        "nom": "Armes de Siège",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "baliste",
+          "catapulte",
+          "belier",
+          "type-darme"
+        ],
+        "description": "Ce groupe mesure l’aptitude du personnage à utiliser des engins lourds destinés à la destruction des fortifications ou des troupes à distance.\nCes armes exigent puissance, coordination et sens du calcul pour maximiser la portée et la précision des tirs.\nDans tous les cas, il s’agit d’attaquer afin de blesser, détruire ou abattre les défenses adverses."
+      },
+      {
+        "id": "jet-darme",
+        "nom": "Jet d’Arme",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "armes-de-jet",
+          "armes-tactiques",
+          "armes-explosives",
+          "armes-de-precision"
+        ],
+        "description": "Ce groupe mesure l’aptitude du personnage à utiliser des armes projetées ou lancées. Il s’agit d’atteindre une cible en exploitant la vitesse, la trajectoire ou l’effet du projectile — par la force du bras, la mécanique d’un lanceur ou l’explosion contrôlée."
+      }
+    ]
+  },
+  {
+    "id": "rurales",
+    "nom": "Les Compétences Rurales",
+    "groupes": [
+      {
+        "id": "chasse",
+        "nom": "Chasse",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "pistage",
+          "leurre",
+          "piegeage",
+          "arc"
+        ],
+        "description": "Ce groupe rassemble les savoir-faire de la chasse, de la mise en scène et de la capture. Ici, la Sagesse incarne l’instinct ancestral : lire le terrain, comprendre les rythmes d’une proie et anticiper ses réactions. La ruse et la dextérité interviennent quand il faut tromper, dissimuler ou poser précisément un dispositif."
+      },
+      {
+        "id": "survie-rurale",
+        "nom": "Survie Rurale",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "orientation",
+          "animaux",
+          "navigation",
+          "equitation",
+          "observation",
+          "subsistance"
+        ],
+        "description": "Ce groupe traite de la débrouillardise en milieu naturel : lire la météo et le terrain, composer avec la faune et la flore, se déplacer, camper, trouver eau et nourriture, rester en sécurité loin des murs."
+      },
+      {
+        "id": "acuite",
+        "nom": "Acuité",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "detection-visuelle",
+          "detection-auditive",
+          "detection-odogout",
+          "6e-sens",
+          "7e-sens"
+        ],
+        "description": "Ce groupe mesure la capacité du personnage à percevoir le monde qui l’entoure, qu’il s’agisse de signaux physiques, de sensations plus diffuses ou de perceptions intuitives.\nC’est la frontière entre la vigilance et l’instinct, entre ce que l’on voit et ce que l’on ressent."
+      }
+    ]
+  },
+  {
+    "id": "urbaines",
+    "nom": "Les Compétences Urbaines",
+    "groupes": [
+      {
+        "id": "survie-urbaine",
+        "nom": "Survie Urbaine",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "orientation",
+          "animaux",
+          "conduite",
+          "pilotage",
+          "observation",
+          "subsistance"
+        ],
+        "description": "Cette famille de compétences représente la débrouillardise et la capacité à s’adapter aux environnements habités. Savoir évoluer dans une ville, c’est comprendre ses rythmes, ses règles implicites et ses interstices. Ces compétences permettent de survivre, de circuler et d’observer dans le tumulte du monde civilisé."
+      },
+      {
+        "id": "art",
+        "nom": "Art",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "danse",
+          "musique",
+          "chant",
+          "comedie",
+          "peinture"
+        ],
+        "description": "L’Art incarne la créativité et la sensibilité d’un individu. Ces compétences traduisent la capacité à émouvoir, captiver ou exprimer des émotions à travers des formes esthétiques. Chaque discipline repose sur la maîtrise d’un médium — corps, voix, instrument ou image — et sur l’intention d’enchanter un public."
+      },
+      {
+        "id": "entregent",
+        "nom": "Entregent",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "commandement",
+          "renseignement",
+          "enseignement",
+          "deguisement"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la compréhension et à la gestion des relations humaines. Il s’agit de savoir interagir, diriger, instruire ou s’adapter à un milieu social. Ces compétences reposent sur la perception des autres, la maîtrise de soi et la capacité à inspirer ou à transmettre."
+      },
+      {
+        "id": "eloquence",
+        "nom": "Éloquence",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "etiquette",
+          "escroquerie",
+          "empathie"
+        ],
+        "description": "Ce groupe rassemble les compétences liées à la communication, à la mise en scène de soi et à la compréhension des autres. C’est l’art de dire ce qu’il faut — ou de le faire croire. Ces savoir-faire reposent sur la maîtrise du langage, l’adaptation sociale et la lecture des émotions."
+      }
+    ]
+  },
+  {
+    "id": "de-lombre",
+    "nom": "Les Compétences de l’Ombre",
+    "groupes": [
+      {
+        "id": "discretion",
+        "nom": "Discrétion",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "deplacement-furtif",
+          "deplacement-silencieux",
+          "filature",
+          "camouflage"
+        ],
+        "description": "Ce groupe réunit les savoir-faire permettant d’agir sans attirer l’attention. Se fondre dans le décor, se déplacer sans bruit, disparaître dans la foule ou se rendre invisible aux regards : autant de manières d’exister à la marge du visible. Ces compétences s’appuient sur la maîtrise du corps, du rythme et de la perception des autres."
+      },
+      {
+        "id": "larcin",
+        "nom": "Larcin",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "desamorcage",
+          "crochetage",
+          "sabotage",
+          "escamotage"
+        ],
+        "description": "Ce groupe réunit les savoir-faire liés à la manipulation précise et discrète d’objets, dispositifs ou mécanismes. Ces compétences servent à contourner, neutraliser ou détourner ce qui protège, piège ou limite. Tout repose sur la maîtrise du geste, le sens du risque et la capacité à improviser des solutions ingénieuses."
+      },
+      {
+        "id": "sagacite",
+        "nom": "Sagacité",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "initiative",
+          "surprise",
+          "vigilance",
+          "diligence"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la réactivité, à l’attention et à la rapidité d’exécution. C’est la capacité à percevoir les opportunités ou les dangers avant les autres, à agir sans hésiter, et à maintenir un équilibre entre réflexion vive et action immédiate."
+      },
+      {
+        "id": "subterfuge",
+        "nom": "Subterfuge",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "contrefacon",
+          "escamotage",
+          "escroquerie"
+        ],
+        "description": "Ce groupe réunit les compétences consacrées à la supercherie matérielle et à l’usurpation : fabriquer des faux, dissimuler ce qu’il faut garder hors de vue, ou se faire passer pour un autre. Là où l’Éloquence manipule la parole, le Subterfuge modifie les preuves et l’apparence tangible du réel."
+      }
+    ]
+  },
+  {
+    "id": "physiques",
+    "nom": "Les Compétences Physiques",
+    "groupes": [
+      {
+        "id": "athletisme",
+        "nom": "Athlétisme",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "course",
+          "escalade",
+          "natation",
+          "musculation"
+        ],
+        "description": "Ce groupe réunit les compétences liées à l’effort physique, à la puissance corporelle et à la maîtrise du mouvement. Courir, grimper, nager ou soulever : autant de façons d’imposer le corps au monde, par la force, l’endurance ou la souplesse."
+      },
+      {
+        "id": "finesse",
+        "nom": "Finesse",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "acrobatie",
+          "coordination",
+          "souplesse"
+        ],
+        "description": "Ce groupe réunit les compétences liées au contrôle du mouvement, à l’équilibre et à la souplesse du corps. Là où l’Athlétisme repose sur la force, la Finesse s’exprime dans la précision et la légèreté — chaque geste est calculé, fluide, maîtrisé."
+      },
+      {
+        "id": "discipline",
+        "nom": "Discipline",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "endurance",
+          "concentration",
+          "meditation"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la résistance, à la maîtrise de soi et à la persévérance. C’est l’art de tenir bon, de canaliser ses forces et de maintenir le contrôle face à la douleur, à la distraction ou au désordre intérieur."
+      },
+      {
+        "id": "corps-a-corps",
+        "nom": "Corps à Corps",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "bagarre",
+          "boxe",
+          "pugilat",
+          "lutte"
+        ],
+        "description": "Ce groupe réunit les techniques de combat rapproché : frapper, immobiliser, parer ou riposter. Toutes ces méthodes peuvent infliger des dégâts — elles diffèrent par leur logique d’approche et par les options tactiques qu’elles privilégient : pousser l’adversaire, s’insérer dans sa garde, surprendre par la mobilité ou verrouiller son corps."
+      }
+    ]
+  },
+  {
+    "id": "mentales",
+    "nom": "Les Compétences Mentales",
+    "groupes": [
+      {
+        "id": "enquete",
+        "nom": "Enquête",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "investigation",
+          "deduction",
+          "memoire",
+          "interrogatoire",
+          "extrapolation"
+        ],
+        "description": "L’Enquête regroupe les compétences liées à la recherche d’informations, à l’analyse logique et à la compréhension des faits. C’est la capacité à interroger le réel, à relier les indices et à faire parler les détails. Enquêter, c’est donner du sens à ce que les autres ne voient pas."
+      },
+      {
+        "id": "erudition",
+        "nom": "Érudition",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "ecriture",
+          "lecture",
+          "culture"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la connaissance générale, à la maîtrise du langage et à la compréhension du sens. Elle ne traite pas de savoirs techniques ou spécialisés, mais de la culture commune, de la lecture et de l’écriture comme moyens de penser, comprendre et transmettre."
+      },
+      {
+        "id": "analyse",
+        "nom": "Analyse",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "strategie",
+          "evaluation",
+          "negociation"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la réflexion pratique, à la planification et au jugement. Qu’il s’agisse de commerce, de diplomatie ou de guerre, il s’agit toujours de comprendre la situation, d’en évaluer les forces et faiblesses, puis d’en tirer parti."
+      },
+      {
+        "id": "guerison",
+        "nom": "Guérison",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "medecine",
+          "chirurgie",
+          "psychologie",
+          "diagnostic",
+          "therapie"
+        ],
+        "description": "Ce groupe réunit les compétences liées à la compréhension, au soin et à la restauration du corps comme de l’esprit. Il ne s’agit pas seulement de réparer, mais d’accompagner le vivant dans son équilibre — qu’il soit physique, mental ou émotionnel."
+      }
+    ]
+  },
+  {
+    "id": "metiers",
+    "nom": "Les Compétences de Métiers",
+    "groupes": [
+      {
+        "id": "artisanat",
+        "nom": "Artisanat",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "travail-du-metal",
+          "travail-de-la-pierre",
+          "travail-du-bois",
+          "travail-du-tissu",
+          "travail-du-cuir",
+          "travail-des-herbes",
+          "travail-du-poison"
+        ],
+        "description": "Ce groupe réunit les savoir-faire liés au travail des matières et à la création d’objets concrets. Chaque artisanat repose sur la maîtrise d’un matériau, d’un outil et d’un geste. Créer ne signifie pas nécessairement produire des objets puissants ou magiques — mais c’en est souvent le premier pas."
+      },
+      {
+        "id": "profession",
+        "nom": "Profession",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "cuisine",
+          "coiffure",
+          "minage"
+        ],
+        "description": "Ce groupe réunit les métiers et savoir-faire du quotidien. Ces compétences traduisent la maîtrise pratique d’un domaine issu de l’expérience, de la patience et du sens du concret. Là où l’Artisanat créé, la Profession entretient, transforme et fait vivre."
+      },
+      {
+        "id": "savoir-faire",
+        "nom": "Savoir-Faire",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "bricolage",
+          "recyclage",
+          "demolissage"
+        ],
+        "description": "Ce groupe réunit les compétences de débrouille et de réparation. Il ne s’agit pas de créer, mais de s’adapter, réparer, transformer ou réutiliser avec ce qu’on a sous la main. Ces savoir-faire reposent sur la logique du système D : efficacité avant élégance."
+      },
+      {
+        "id": "savoir-etre",
+        "nom": "Savoir-Être",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "jeu",
+          "loisirs"
+        ],
+        "description": "Ce groupe mesure la capacité du personnage à s’occuper, à se détendre et à tirer du plaisir de la vie.\nCes compétences traduisent la manière dont chacun trouve son équilibre — par le jeu, la chance, la compagnie ou la simple joie d’exister."
+      }
+    ]
+  },
+  {
+    "id": "connaissances",
+    "nom": "Les Compétences de Connaissances",
+    "groupes": [
+      {
+        "id": "langues",
+        "nom": "Langues",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "maternelle",
+          "langue"
+        ],
+        "description": "Ce groupe de compétence mesure la maîtrise linguistique du personnage dans les différentes langues du monde.\nTout personnage s’exprime naturellement et sans restriction dans sa langue maternelle."
+      },
+      {
+        "id": "connaissances",
+        "nom": "Connaissances",
+        "limitant": false,
+        "libre": false,
+        "competences": [
+          "theologie",
+          "histoire",
+          "nature",
+          "rurale",
+          "urbaine",
+          "crime",
+          "culture",
+          "politique",
+          "economie",
+          "sciences",
+          "arcanes"
+        ],
+        "description": "Les Connaissances mesurent la compréhension théorique ou culturelle d’un sujet.\nElles ne traduisent pas la capacité à faire, mais à comprendre, analyser et exploiter un savoir dans son contexte.\nElles peuvent soutenir n’importe quelle autre compétence lorsqu’un savoir pertinent éclaire, explique ou oriente une action.\nL’interprétation de ces apports dépend toujours du MJ et du cadre narratif.\nAttribut selon l’origine du savoir :\n• INT — Savoir académique, appris par l’étude, les lectures ou la formation.\n• RUS — Savoir empirique, acquis par la pratique, l’expérience ou la débrouille.\n• SAG — Savoir traditionnel, transmis par la parole, la mémoire ou l’observation des anciens."
+      }
+    ]
+  }
+]
