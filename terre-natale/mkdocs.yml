@@ -6,12 +6,89 @@ extra_css:
 plugins:
   - search
 nav:
-  - Accueil: index.md
-  - Création: creation/creation/index.html
-  - Castes: castes/castes/index.html
-  - Ethnies: ethnies/ethnies/index.html
-  - Patch: rules/confrontations/index.html
-  - Magies:
+  - Règles de Base:
+    - Introduction: regles/introduction.md
+    - "Chapitre 0 : Le Système de jeu": regles/chapitre-0-le-systeme-de-jeu.md
+    - "Chapitre 1 : Les Attributs": regles/chapitre-1-les-attributs.md
+    - "Chapitre 2 : Les Compétences": regles/chapitre-2-les-competences.md
+    - "Chapitre 3 : Les Traits": regles/chapitre-3-les-traits.md
+    - "Chapitre 4 : Les Caractéristiques": regles/chapitre-4-les-caracteristiques.md
+    - "Chapitre 5 : La Création de Personnage": regles/chapitre-5-la-creation-de-personnage.md
+    - "Chapitre 6 : La Caste du Personnage": regles/chapitre-6-la-caste-du-personnage.md
+    - "Chapitre 7 : La Progression du Personnage": regles/chapitre-7-la-progression-du-personnage.md
+    - "Chapitre 8 : Les Confrontations": regles/chapitre-8-les-confrontations.md
+    - "Chapitre 9 : Les Objets": regles/chapitre-9-les-objets.md
+    - "Chapitre 10 : L'Aventure & autres Règles": regles/chapitre-10-l-aventure-autres-regles.md
+    - Lexique: regles/chapitre-lexique.md
+  - Compendium des Traits: traits/index.md
+  - Extension Confrontation:
+    - "Extension de l'Univers": confrontation/extension-de-l-univers.md
+    - "Détails de l'Extension": confrontation/details-de-l-extension.md
+    - "La Confrontation": confrontation/la-confrontation.md
+    - "Les Manœuvres": confrontation/les-man-uvres.md
+    - "Les Styles": confrontation/les-styles.md
+    - "Les Matières": confrontation/les-matieres.md
+  - Extension Magie:
+    - "Extension de l'Univers": magie-ext/univers/extension-de-l-univers.md
+    - "Détails de l'Extension":
+      - "Généralités": magie-ext/details/generalites.md
+      - "Les Traditions de Magies": magie-ext/details/les-traditions-de-magies.md
+      - "Domaines de Magie": magie-ext/details/domaines-de-magie.md
+      - "Écoles de Magie": magie-ext/details/ecoles-de-magie.md
+      - "Les Différents Sorts": magie-ext/details/les-differents-sorts.md
+      - "L'Usage de la Magie": magie-ext/details/l-usage-de-la-magie.md
+      - "Le Drain de Mana": magie-ext/details/le-drain-de-mana.md
+      - "La Brûlure de Mana": magie-ext/details/la-brulure-de-mana.md
+      - "La Magie lors d'une Confrontation": magie-ext/details/la-magie-lors-d-une-confrontation.md
+      - "Les Sorts": magie-ext/details/les-sorts.md
+      - "Traditions de Magie": magie-ext/details/traditions-de-magie.md
+      - "Les Effets d'un Sort": magie-ext/details/les-effets-d-un-sort.md
+      - "Les Eléments": magie-ext/details/les-elements.md
+      - "Les Particularités d'un Sort": magie-ext/details/les-particularites-d-un-sort.md
+      - "Les Rituels": magie-ext/details/les-rituels.md
+      - "Création et apprentissage des Sorts": magie-ext/details/creation-et-apprentissage-des-sorts.md
+      - "Liste des Manœuvres Incantatoires": magie-ext/details/liste-des-man-uvres-incantatoires.md
+      - "Liste des Styles Incantatoires": magie-ext/details/liste-des-styles-incantatoires.md
+      - "Équipements Magiques": magie-ext/details/equipements-magiques.md
+  - Extension Héros:
+    - "Extension de l'Univers": heros-ext/univers/extension-de-l-univers.md
+    - "Détails de l'Extension":
+      - "Généralités": heros-ext/details/generalites.md
+      - "Les Dons": heros-ext/details/les-dons.md
+      - "Les Voies": heros-ext/details/les-voies.md
+      - "Les Aptitudes": heros-ext/details/les-aptitudes.md
+  - Extension Steam:
+    - "Extension de l'Univers": steam-ext/univers/extension-de-l-univers.md
+    - "Détails de l'Extension":
+      - "Généralités": steam-ext/details/generalites.md
+      - "Comprendre la Technologie": steam-ext/details/comprendre-la-technologie.md
+      - "La Pratique de l'Industrie": steam-ext/details/la-pratique-de-l-industrie.md
+      - "Les Sciences Biologiques": steam-ext/details/les-sciences-biologiques.md
+      - "Les Sciences Organiques": steam-ext/details/les-sciences-organiques.md
+      - "Les Sciences Technologiques": steam-ext/details/les-sciences-technologiques.md
+      - "Les Sciences Mécaniques": steam-ext/details/les-sciences-mecaniques.md
+      - "Les Sciences Mécatroniques": steam-ext/details/les-sciences-mecatroniques.md
+      - "Les Sciences Générales": steam-ext/details/les-sciences-generales.md
+      - "La Pratique du Steam": steam-ext/details/la-pratique-du-steam.md
+    - "Les Armes à Feu":
+      - "Présentation": steam-ext/armes/presentation.md
+      - "Généralités": steam-ext/armes/generalites.md
+      - "Les Fabricants": steam-ext/armes/les-fabricants.md
+      - "Liste des Fabricants": steam-ext/armes/liste-des-fabricants.md
+      - "Travailler les Blocs": steam-ext/armes/travailler-les-blocs.md
+  - Compendium de l'Équipement:
+    - "Généralités": equipement/generalites.md
+    - "Les Matières": equipement/les-matieres.md
+    - "Le Matériel": equipement/le-materiel.md
+    - "Les Consommables": equipement/les-consommables.md
+    - "Les Équipements": equipement/les-equipements.md
+    - "Les Améliorations": equipement/les-ameliorations.md
+  - Compendium des Actions:
+    - "Règles Spéciales": actions/regles-speciales.md
+    - "Extension : Règle de Base": actions/extension-regle-de-base.md
+    - "Extension : Confrontations": actions/extension-confrontations.md
+    - "Extension : Magie": actions/extension-magie.md
+  - Liste des Sorts:
     - Ombre: magies/ombre.html
     - Impie:  magies/impie.html
     - Toxique:  magies/toxique.html
@@ -22,6 +99,10 @@ nav:
     - Chaos:  magies/chaos.html
     - Vide:  magies/vide.html
     - Terre:  magies/terre.html
+  - Création en Thalifen: creation/creation/index.html
+  - Castes de Thalifen: castes/castes/index.html
+  - Ethnies de Thalifen: ethnies/ethnies/index.html
+  - Patch: rules/confrontations/index.html
   - Outils:
     - Vitals: tools/vitals/index.html
     - Stats: tools/stats/index.html
@@ -35,3 +116,4 @@ theme:
     code: 'Roboto Mono'
 markdown_extensions:
   - attr_list
+  - admonition

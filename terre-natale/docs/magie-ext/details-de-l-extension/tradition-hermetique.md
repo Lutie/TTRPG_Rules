@@ -1,0 +1,3 @@
+## Tradition Hermétique
+
+L’hermétique voit la magie comme projection de la Volonté pure. Les mots de forme deviennent des symboles, les mots de pouvoir des verbes qui affirment une réalité, et les mots d’ancrage des réceptacles, supports choisis pour accueillir cette volonté. Les mots de structure sont appelés sceaux, véritables lois imposées au monde ; les mots-clés, quintessences, traces de la substance fondamentale manipulée ; et les mots de liaison, contrats qui équilibrent ou fixent les conditions de la transformation. Les mots supérieurs sont ici des édits, expressions ultimes de maîtrise. Ce dialecte exprime une philosophie d’affirmation et de discipline intérieure.

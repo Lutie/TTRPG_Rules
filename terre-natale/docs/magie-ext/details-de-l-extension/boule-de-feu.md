@@ -1,0 +1,3 @@
+## Boule de Feu
+
+Difficulté : 20, Drain : 18 Mot de pouvoir : Destruction (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant [Magnitude] de dégats physique (PV) basés sur l'élément [clé]. Mot de diffusion : Projectile : Portée : Portée magique x2, Vecteur : Vue. Mot de propagation : Unique : Touche une cible unique. Mot de structure : Souffle : Le sort s'applique normalement mais une version diminuée du sort affecte également les cibles adjacentes (en AOE la portée de ce souffle est équivalente à la distance d'AOE). Modificateurs de Magnitude : PWR +0/-2

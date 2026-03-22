@@ -1,0 +1,3 @@
+## Tradition Académique
+
+Pour l’académicien, la magie est un langage scientifique ; chaque mot possède une valeur logique. Les mots de forme deviennent des vecteurs, les mots de pouvoir des principes, les mots d’ancrage des cibles, et les mots de structure des schèmes soigneusement modélisés. Les mots-clés sont appelés substrats, c’est-à-dire la nature énergétique de la formule, tandis que les mots de liaison sont des paramètres ajustés pour optimiser la stabilité. Enfin, les mots supérieurs sont traités comme des axiomes, rares et périlleux. Tout dans ce dialecte reflète une vision analytique : comprendre les lois du mana, c’est les maîtriser.

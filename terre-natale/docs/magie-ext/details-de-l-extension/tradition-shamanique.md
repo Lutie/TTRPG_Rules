@@ -1,0 +1,3 @@
+## Tradition Shamanique
+
+Chez les shamans, la magie est une respiration du monde à laquelle il faut s’accorder. Les mots de forme sont appelés souffles, les mots de pouvoir deviennent des volontés offertes ou demandées aux esprits, et les mots d’ancrage prennent le nom de présences, car la cible est un être ou un lieu avec lequel on entre en relation. Les mots de structure sont des trames tissées entre les plans, les mots-clés des essences qui guident l’harmonie du sort, et les mots de liaison des marques : des pactes, bénédictions ou interdits. Les mots supérieurs sont perçus comme des totems : des forces anciennes qu’on n'éveille qu’avec respect. Le dialecte shamanique reflète la symbiose plutôt que le contrôle.

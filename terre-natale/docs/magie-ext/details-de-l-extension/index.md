@@ -1,0 +1,1 @@
+# Détails de l’Extension
