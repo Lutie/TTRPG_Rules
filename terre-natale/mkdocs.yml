@@ -20,7 +20,6 @@ nav:
     - "Chapitre 9 : Les Objets": regles/chapitre-9-les-objets.md
     - "Chapitre 10 : L'Aventure & autres Règles": regles/chapitre-10-l-aventure-autres-regles.md
     - Lexique: regles/chapitre-lexique.md
-  - Compendium des Traits: traits/index.md
   - Extension Confrontation:
     - "Extension de l'Univers": confrontation/extension-de-l-univers.md
     - "Détails de l'Extension": confrontation/details-de-l-extension.md
@@ -57,6 +56,7 @@ nav:
       - "Les Dons": heros-ext/details/les-dons.md
       - "Les Voies": heros-ext/details/les-voies.md
       - "Les Aptitudes": heros-ext/details/les-aptitudes.md
+      - "Les Archétypes": archetypes/index.md
   - Extension Steam:
     - "Extension de l'Univers": steam-ext/univers/extension-de-l-univers.md
     - "Détails de l'Extension":
@@ -76,6 +76,7 @@ nav:
       - "Les Fabricants": steam-ext/armes/les-fabricants.md
       - "Liste des Fabricants": steam-ext/armes/liste-des-fabricants.md
       - "Travailler les Blocs": steam-ext/armes/travailler-les-blocs.md
+  - Compendium des Traits: traits/index.md
   - Compendium de l'Équipement:
     - "Généralités": equipement/generalites.md
     - "Les Matières": equipement/les-matieres.md
@@ -83,11 +84,16 @@ nav:
     - "Les Consommables": equipement/les-consommables.md
     - "Les Équipements": equipement/les-equipements.md
     - "Les Améliorations": equipement/les-ameliorations.md
+  - Compendium des Styles: styles/index.md
+  - Compendium des Manœuvres: manoeuvres/index.md
   - Compendium des Actions:
     - "Règles Spéciales": actions/regles-speciales.md
     - "Extension : Règle de Base": actions/extension-regle-de-base.md
     - "Extension : Confrontations": actions/extension-confrontations.md
     - "Extension : Magie": actions/extension-magie.md
+  - Compendium des Conditions: conditions/index.md
+  - Listes:
+    - "Liste des Achats": listes/liste-des-achats.md
   - Liste des Sorts:
     - Ombre: magies/ombre.html
     - Impie:  magies/impie.html

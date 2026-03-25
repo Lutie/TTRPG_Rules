@@ -1,0 +1,71 @@
+[
+  {
+    "nom": "Inspiration",
+    "concept": "Barde — performances buffant/debuffant via la musique, le chant ou la danse",
+    "description": "L'archétype de l'Inspiration permet au personnage de réaliser des compositions performatives — musique, chant ou danse — pour affecter les attributs de ses cibles. Chaque composition produit un effet positif (Bonus) ou négatif (Malus) sur les personnes qui perçoivent la prestation.",
+    "mecaniques": [
+      {
+        "titre": "Nouvelle Action : Composer",
+        "texte": "Réaliser une composition performative ciblant les personnes qui perçoivent la prestation. Choisir un **Style** (Bonus ou Malus) et une **Méthode** : **Danse** (ACTS, 2 rounds, 2 PS), **Chant** (ACTL, 2 rounds, 5 PS) ou **Musique** (ACTC, 3 rounds, 2 PS)."
+      },
+      {
+        "titre": "Évaluation",
+        "texte": "**Difficulté** 5 ; résultat en **ajustements aux tests** (pas aux jets) : 10 = +1, 15 = +2, etc."
+      },
+      {
+        "titre": "Style",
+        "texte": "**Bonus** : affecte positivement les cibles. **Malus** : les cibles effectuent un jet de Détermination pour résister — ne peut jamais affecter le personnage lui-même."
+      },
+      {
+        "titre": "Composition",
+        "texte": "**Simple** = 1 attribut. **Experte** = 2 attributs (débloquable). Portée de base : à proximité."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "titre": "Base",
+        "description": "Accès aux compositions d'Inspiration. Au moment de la composition, choisir un Style (Bonus ou Malus) et une Méthode (Danse, Chant ou Musique).",
+        "choix": null
+      },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Difficulté nulle",
+        "description": "Évaluation : difficulté ramenée à 0 (résultat minimum +1)."
+      },
+      {
+        "nom": "Composition experte",
+        "description": "Peut composer avec 2 attributs au lieu d'un."
+      },
+      {
+        "nom": "Ciblage affiné",
+        "description": "Distingue alliés et ennemis : les effets négatifs n'affectent pas les alliés, les effets positifs n'affectent pas les ennemis. Les méthodes affectent désormais toutes les personnes dans la zone d'effet, qu'elles perçoivent ou non la prestation."
+      },
+      {
+        "nom": "Double composition",
+        "description": "Une même composition peut buff un attribut et debuff un autre simultanément."
+      },
+      {
+        "nom": "Répertoire",
+        "description": "5 emplacements de mémoire pour des compositions préparées à l'avance."
+      },
+      {
+        "nom": "Durée prolongée",
+        "description": "La durée s'exprime en tours plutôt qu'en rounds (coût +2 PS)."
+      },
+      {
+        "nom": "Résistance diminuée",
+        "description": "Les sauvegardes adverses contre les effets négatifs sont désavantagées."
+      },
+      {
+        "nom": "Portée supérieure",
+        "description": "Portée étendue : proximité devient zone."
+      }
+    ]
+  }
+]

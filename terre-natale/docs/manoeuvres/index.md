@@ -1,0 +1,4362 @@
+# Compendium des Manœuvres
+
+<div id="man-app">
+
+<div class="man-filters">
+  <input type="text" id="man-search" placeholder="Rechercher…" />
+  <select id="man-type">
+    <option value="">Tous types</option>
+    <option value="Combat">Combat</option>
+<option value="Création">Création</option>
+<option value="Défense">Défense</option>
+<option value="Escrime">Escrime</option>
+<option value="Général">Général</option>
+<option value="Incantation">Incantation</option>
+<option value="Joute">Joute</option>
+<option value="Mixte">Mixte</option>
+<option value="Tir">Tir</option>
+  </select>
+  <select id="man-cat">
+    <option value="">Toutes catégories</option>
+    <option value="Base">Base</option>
+<option value="Escrime">Escrime</option>
+<option value="Exotique">Exotique</option>
+<option value="Finesse">Finesse</option>
+<option value="Prudence/Patience">Prudence/Patience</option>
+<option value="Puissance/Brutale">Puissance/Brutale</option>
+<option value="Spécial">Spécial</option>
+  </select>
+  <select id="man-pen">
+    <option value="">Toutes pénalités</option>
+    <option value="-6">-6</option>
+<option value="-4">-4</option>
+<option value="-2">-2</option>
+<option value="0">0</option>
+<option value="1">+1</option>
+<option value="2">+2</option>
+  </select>
+  <div class="man-checks">
+    <label><input type="checkbox" id="f-att" /> Attaque</label>
+    <label><input type="checkbox" id="f-def" /> Défense</label>
+    <label><input type="checkbox" id="f-tac" /> Tactique</label>
+  </div>
+  <div class="man-checks">
+    <label><input type="checkbox" id="f-combat" /> Combat</label>
+    <label><input type="checkbox" id="f-joute"  /> Joute</label>
+    <label><input type="checkbox" id="f-mixte"  /> Mixte</label>
+    <label><input type="checkbox" id="f-autre"  /> Autre</label>
+  </div>
+  <span id="man-count"></span>
+</div>
+
+<table id="man-table">
+  <thead>
+    <tr>
+      <th class="col-nom"  data-col="nom">Manœuvre ↕</th>
+      <th class="col-type" data-col="type">Type ↕</th>
+      <th class="col-cat"  data-col="categorie">Catégorie ↕</th>
+      <th class="col-pen"  data-col="penalite">Pén. ↕</th>
+      <th class="col-restr">Restr.</th>
+      <th class="col-act">Action</th>
+      <th class="col-det">Effets / Modularité / Conditions</th>
+    </tr>
+  </thead>
+  <tbody id="man-tbody"></tbody>
+</table>
+
+</div>
+
+<style>
+#man-app {
+  font-size: 0.88em;
+}
+.man-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1em;
+  align-items: center;
+}
+.man-filters input[type=text], .man-filters select {
+  padding: 0.35em 0.6em;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 0.9em;
+  background: var(--md-default-bg-color, #fff);
+  color: var(--md-default-fg-color, #000);
+}
+.man-filters input[type=text] {
+  flex: 1;
+  min-width: 160px;
+}
+.man-checks {
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.man-checks label {
+  display: flex;
+  gap: 0.25em;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#man-count {
+  margin-left: auto;
+  color: #888;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+#man-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+#man-table th, #man-table td {
+  padding: 0.4em 0.55em;
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  vertical-align: top;
+  word-break: break-word;
+}
+#man-table th {
+  background: var(--md-primary-fg-color, #3f51b5);
+  color: var(--md-primary-bg-color, #fff);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+#man-table th:hover { opacity: 0.85; }
+.col-nom  { width: 11%; }
+.col-type { width: 8%;  }
+.col-cat  { width: 10%; }
+.col-pen  { width: 5%;  text-align: center; }
+.col-restr{ width: 7%;  }
+.col-act  { width: 8%;  }
+.col-det  { width: 51%; }
+#man-table tbody tr:nth-child(even) {
+  background: var(--md-default-bg-color--light, #f9f9f9);
+}
+#man-table tbody tr:hover {
+  background: var(--md-accent-fg-color--transparent, #e8eaf6);
+}
+.man-nom { font-weight: 600; }
+.man-resume { font-style: italic; font-size: 0.85em; color: #666; margin-top: 0.15em; }
+.tag {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.78em;
+  margin: 0.1em 0.1em 0.1em 0;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.tag-att   { background: #fde8d8; color: #7d3200; }
+.tag-def   { background: #d8eafd; color: #003d7d; }
+.tag-tac   { background: #e8d8fd; color: #4a007d; }
+.tag-combat{ background: #fdf5d8; color: #5a4a00; }
+.tag-joute { background: #d8fde8; color: #00622a; }
+.tag-mixte { background: #fdd8f5; color: #62006b; }
+.tag-autre { background: #ececec; color: #444; }
+.pen-neg  { color: #c0392b; font-weight: 700; }
+.pen-pos  { color: #27ae60; font-weight: 700; }
+.pen-zero { color: #888; }
+.man-effets { margin-bottom: 0.3em; }
+.man-sub { font-size: 0.85em; color: #555; margin-top: 0.25em; }
+.man-sub-label { font-weight: 600; color: #333; }
+</style>
+
+<script>
+(function() {
+  const DATA = [
+  {
+    "nom": "Cercle",
+    "type": "Général",
+    "penalite": -6,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action dites de zone tout autour de lui (360°) afin de toucher plus de cibles à la fois, qu’il s’agisse d’un combat comme d’une joute.",
+    "effets": "L’action entreprise affecte toutes les cibles autour du personnage du moment que la portée de l’action le permet. L’action devient une action de « zone ». Un unique test est réalisé de la part du personnage. Contre cette attaque les adversaires ont un test de défense avantagé, de plus les dés du jet associé à l’action ne peuvent afficher plus de 4. Si utilisé en défense alors celle ci s'applique aux alliés dans la zone d'effet, généralement pour protéger d'une action elle même de zone.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "Action en zone (360°)"
+  },
+  {
+    "nom": "Zone",
+    "type": "Général",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en arc de cercle (90°) (ou une petite zone de 5x5 pour une action de joute) afin de toucher plus de cibles rapprochées à la fois, qu’il s’agisse d’un combat comme d’une joute.",
+    "effets": "L’action entreprise affecte jusqu’à deux cibles faisant face au personnage (combat) ou dans une zone restreinte (joute). Ces cibles doivent se trouver dans un arc de cercle de 90° (combat), sur un plan quadrillé il s’agira de 3 cases devant le personnage soit 3x1, ou dans une petite zone de 5x5 (joute). L’action devient une action de « zone ».  Un unique test est réalisé de la part du personnage. Si utilisé en défense alors celle ci s'applique aux alliés dans la zone d'effet, généralement pour protéger d'une action elle même de zone.",
+    "modularite": "Augmenter les pénalités de 2 (maximum 6) permet de passer l’arc de frappe à 180° OU d’augmenter le nombre de cible à 3.",
+    "notes": "",
+    "conditions": "",
+    "resume": "Action en zone (90°)"
+  },
+  {
+    "nom": "Masse",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action qui vise tous ses adversaires à portée en prenant un minimum de risque pour un résultat modeste mais qui a peu de chance de rater.",
+    "effets": "L’action deviens une action de zone, elle affecte toutes les cibles valides à la fois et sont sujettes aux règles des actions de zone, cependant il n’y a pas de test de sauvegarde à effectuer car cette partie-là est forcément ignorée par les cibles. Dit autrement, l’action n’a que la moitié de ses effets (et de son jet donc) qui n’est appliqué que si le test dépasse la défense passive. Contre cette attaque les adversaires ont un test de défense avantagé. Si utilisé en défense alors celle ci s'applique aux alliés dans la zone d'effet, généralement pour protéger d'une action elle même de zone.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "Action en zone (360°), 1/2 efficacité"
+  },
+  {
+    "nom": "Soudaine",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action (qui n’est pas une interruption à la base) en réaction à celle d’un adversaire, c’est-à-dire après avoir pris connaissance de celle-ci et avant qu’elle ne se réalise. C’est un avantage tactique certains puisque cela permet d’attendre de voir ce que va faire l’adversaire pour l’en empêcher etc…",
+    "effets": "L’action entreprise est une interruption et prend donc place avant celle de l’adversaire. Cependant comme toutes interruptions celle-ci est désavantagée si elle n’a pas été préparée au préalable.",
+    "modularite": "Augmenter les pénalités de 2 permet de profiter de cette manœuvre en ayant une rapidité simplement supérieure à la rapidité de la cible. Augmenter encore les pénalités de 2 permet de profiter de cette manœuvre en ayant une rapidité inférieure à celle de la cible de 5 ou moins. On peut donc interrompre l’ennemie avant même d’avoir pu prendre son propre tour.",
+    "notes": "",
+    "conditions": "Rapidité Active > Rapidité Passive (de la Cible) +5",
+    "resume": "Action en interruption"
+  },
+  {
+    "nom": "Hâte",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action rapidement afin de surpasser ou égaler la vitesse de son adversaire.",
+    "effets": "Pour l’action le personnage reçoit un bonus de vitesse équivalant aux pénalités. Il peut alors tenter de doubler son adversaire OU simplement espérer ne pas l’être.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre la vitesse de 1.",
+    "notes": "",
+    "conditions": "Situation de confrontation (initiative etc)",
+    "resume": "Action avec bonus de vitesse"
+  },
+  {
+    "nom": "Simple",
+    "type": "Général",
+    "penalite": 1,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action de manière à se priver de toute possibilité de doubler celle-ci mais, sous couvert de cette simplicité, il l’exécute avec un petit avantage.",
+    "effets": "Si la vitesse du personnage est supérieure à celle de son adversaire de 5 ou plus et ne cherche pas à doubler celle-ci, il reçoit le bonus d’usage, sinon subit celui-ci en pénalité. Si le personnage peut réduire les pénalités d’une manœuvre cela peut s’appliquer au malus en cas question.",
+    "modularite": "Le bonus d’usage peut passer à 2 mais dans ce cas il n’est reçu que si la vitesse est supérieure à celle de l’adversaire de 8 ou plus (et subit en malus sinon). Le bonus d’usage peut passer à 3 mais dans ce cas il n’est reçu que si la vitesse est supérieure à celle de l’adversaire de 10 ou plus (et subit en malus sinon).",
+    "notes": "",
+    "conditions": "Situation de confrontation (initiative etc)",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Travaillée",
+    "type": "Général",
+    "penalite": 1,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action avec précaution afin d’en assurer la réussite même si cela doit lui couter un temps précieux.",
+    "effets": "Pour l’action le personnage reçoit un malus de vitesse équivalant à 3x le bonus d’usage. L’adversaire connait la vitesse active du personnage et peut réagir en fonction (cad doubler ses propres actions en retour si sa vitesse le permet).",
+    "modularite": "Le bonus d’usage peut être accru de 1 pour un malus de vitesse augmenté de 2.",
+    "notes": "",
+    "conditions": "Situation de confrontation (initiative etc), vitesse avec malus supérieure à 0.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "à la Volée",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action à la volée en sacrifiant la précision contre une vitesse d’exécution supérieure afin de prendre de court ses adversaires.",
+    "effets": "Pour l’action le personnage reçoit un bonus de rapidité équivalant aux pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre la rapidité de 1.",
+    "notes": "",
+    "conditions": "Situation de confrontation (initiative etc), rapidité avec malus supérieure à 0.",
+    "resume": "Action avec bonus de rapidité"
+  },
+  {
+    "nom": "à Rebours",
+    "type": "Général",
+    "penalite": 1,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action en imprimant un certain retard afin de bien analyser les gestes de son adversaire.",
+    "effets": "Pour l’action le personnage reçoit un malus de rapidité de 5. La manœuvre doit donc être déclarée au bon moment.",
+    "modularite": "Augmenter le malus de rapidité de 5 augmente le bonus d’usage de 1.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Discrète",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action discrètement.",
+    "effets": "L’action entreprise est discrète, le personnage profite donc de son score de discrétion. Ce score est cependant réduit de 4.",
+    "modularite": "Augmenter les pénalités de 1 permet de réduire les pénalités associées à la discrétion de 2. Lorsqu’il n’y a plus de pénalité à réduire la modularité permet de recevoir un bonus à la place.",
+    "notes": "",
+    "conditions": "Être discret (et avoir réalisé un test de discrétion au préalable).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Silencieuse",
+    "type": "Général",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise son action silencieusement.",
+    "effets": "L’action entreprise est silencieuse, le personnage profite donc de son score de discrétion auditivement parlant. Ce score est cependant réduit de 4.",
+    "modularite": "Augmenter les pénalités de 1 permet de réduire les pénalités associées à la discrétion de 2. Lorsqu’il n’y a plus de pénalité à réduire la modularité permet de recevoir un bonus à la place.",
+    "notes": "",
+    "conditions": "Être discret (et avoir réalisé un test de discrétion au préalable).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Prudente",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage tente de s’éviter les affres d’un échec cuisant.",
+    "effets": "L’action entreprise profite d’une plage de maladresse réduite (-1). Ainsi les maladresses sur double 1, 2 et 3 deviennent des maladresses sur double 1 et 2. Si le personnage profite déjà d’un effet similaire alors cela passe à des maladresses sur doubles 1 uniquement. Si c’était déjà le cas le personnage ne peut plus produire de maladresse.",
+    "modularite": "Augmenter les pénalités de 2 permet de réduire la plage de maladresse de 1 supplémentaire.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Exubérante",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage tente de forcer un exploit.",
+    "effets": "L’action entreprise profite d’une plage d’exploit augmentée (+1). Cette manœuvre s’applique à toutes les actions nécessitant un test. Ainsi les exploits sur double 6 deviennent des exploits sur double 5 et 6. Si le personnage profite déjà d’un effet similaire alors cela passe à des exploits sur doubles 4, 5 et 6. On ne peut produire d’exploits sur des doubles 1, 2 ou 3.",
+    "modularite": "Augmenter les pénalités de 2 permet de réduire la plage de maladresse de 1 supplémentaire.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Risquée",
+    "type": "Général",
+    "penalite": 0,
+    "categorie": "Exotique",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage tente le tout pour le tout. Ça passe ou ça casse.",
+    "effets": "L’action entreprise profite d’une plage d’exploit et de maladresse augmentée (+1 aux deux).",
+    "modularite": "Le personnage accroitre les plages d’exploits et de maladresse de 1 encore s’il le souhaite. Il ne peut faire ce choix que tant que les plages ne s’entrecroisent pas.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Exotique",
+    "type": "Général",
+    "penalite": -2,
+    "categorie": "Exotique",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente d’appliquer une condition en sollicitant une sauvegarde différente.",
+    "effets": "Les conditions véhiculées par l’action entreprise (via d’autres manœuvres) affectent désormais la sauvegarde physique ou mentale, au choix. Les pénalités de cette manœuvre ne compte pas dans le maximum permis.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "La condition doit logiquement, ou presque, pouvoir être associée à l’autre sauvegarde.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Affliction",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Spécial",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente d’infliger une condition à sa victime EN PLUS des effets normaux de l’action qui porte la manœuvre.",
+    "effets": "L’action entreprise peut provoquer une des conditions physiques de base (voir encadré). La sauvegarde est basée sur le physique (Robustesse) contre une difficulté d’effets (10+mDEX) et les effets s’appliquent uniquement sur le plan physique. Les charges de la condition sont, comme habituellement ceux de l’arme mais divisés par 2. L’action doit réussir/toucher pour que la condition puisse être appliquée, il n’y a aucun test de sauvegarde sans ça. Il est possible de moduler la durée de cette condition (voir les règles associées à la modularité des durées de conditions).",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la difficulté d’effets associée à la condition de 1.",
+    "notes": "Liste",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Sournoise",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage profite d’une situation favorable pour asséner un coup mortel à sa cible prise au dépourvue.",
+    "effets": "L’attaque entreprise réalise des dégâts augmentés de D8.",
+    "modularite": "Augmenter les pénalités de 2 permet d’accroitre l’augmentation de 1D8.",
+    "notes": "",
+    "conditions": "Cible à revers.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Pernicieuse",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage profite d’une situation favorable pour provoquer des conditions aggravées à sa cible prise au dépourvue.",
+    "effets": "L’attaque entreprise voit la difficulté de ses conditions augmentées de 2 fois les pénalités appliquées à l’attaque.",
+    "modularite": "Voir description de la manœuvre.",
+    "notes": "",
+    "conditions": "Cible à revers.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Perturbante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action (attaque ou tactique) qui peux particulièrement perturber la concentration de son adversaire.",
+    "effets": "L’action est associée à une difficulté de déconcentration (le cas échéant) de 2 par pénalités investies.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre les bonus reçus en retour.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Supériorité",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage profite d’une position supérieure à sa cible pour asséner un coup imparable à sa cible. S’il n’est pas muni d’une arme à distance il devra rejoindre sa cible en sautant sur elle ou jeter son arme à celle-ci pour profiter de cette manœuvre !",
+    "effets": "L’action entreprise ne prend pas en compte les pénalités de cette manœuvre lorsqu’il est nécessaire de fixer la difficulté visant à s’en défendre. A la place ces pénalités deviennent un bonus.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre les bonus reçus en retour.",
+    "notes": "",
+    "conditions": "Cible positionnée en dessous du personnage, minimum 1m de différence.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Tombante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage profite d’une position supérieure à sa cible pour asséner un mouvement imparable à sa cible. Le personnage doit se jeter sur sa cible avec une arme de mêlée pour profiter de cette manœuvre !",
+    "effets": "L’action entreprise reçoit un bonus aux jets. On parle de « modificateur de distance » : Les 4 premiers mètres sont comptabilisés normalement, les 8 suivants comptent moitié moins (2m pour 1m), les 16 suivants comptent quart moins (4m pour 1m). Au-delà les mètres ne comptent plus. Le modificateur maximum est donc de 12. Le bonus aux jets est de 1,5x le « modificateur de distance ». Le personnage qui réalise cette manœuvre est alors sujet à des dégâts de chute normaux (basés sur la VRAIE distance de chute, pas celle qui est comptabilisée pour les besoins de la manœuvre).",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le multiplicateur de 0,5x.",
+    "notes": "",
+    "conditions": "Cible positionnée en dessous du personnage, minimum 1m de différence.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Localisée",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action qui génère une condition en fonction de la zone touchée (voir règles de localisation et celles des conditions). Les effets pouvant en résulter sont donc très variés. L’une des avantages de cette manœuvre est de pouvoir réaliser des conditions avec des pénalités plus modérées qu’à l’aide des manœuvres tel que celle des afflictions, mais elle nécessite de viser une partie du corps pour ça.",
+    "effets": "L’attaque réalisée peut provoquer une condition qui dépends de la zone touchée.",
+    "modularite": "Augmenter les pénalités de 4 permet d’appliquer deux fois la condition, doublant ses effets.",
+    "notes": "Liste",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Couverture",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tactique de feinte qui vise à sécuriser une zone afin d’aider ses alliés ou de placer virtuellement en sécurité derrière un périmètre.",
+    "effets": "L’action est une feinte confrontée à une difficulté de 10. Elle génère cependant un périmètre de contrainte dans la zone de frappe. Ce périmètre de contrainte est établi jusqu’à la fin d’un cycle. Cette contrainte est une pénalité aux tests d’attaque ou de tactique équivalant au degré de réussite de la couverture. Dans le cas d’une tactique à distance le personnage peut tirer plusieurs projectiles (si son arme le peut) afin d’accroitre la zone de frappe de 100% à chaque tirs.",
+    "modularite": "Augmenter les pénalités de 2 permet d’appliquer une fois de plus les pénalités générées.",
+    "notes": "",
+    "conditions": "Action de tactique (gestion).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Supression",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tactique de feinte qui vise à empêcher l’accès à une zone afin de gêner ses adversaires ou de placer virtuellement une ligne de défense.",
+    "effets": "L’action est une feinte et elle est confrontée à une difficulté de 10. Elle génère cependant un périmètre de contrainte dans la zone de frappe. Ce périmètre de contrainte est établi jusqu’à la fin d’un cycle. Cette contrainte génère une attaque automatique dès qu’un individu cherche à la traverser celle-ci ou y débuter un déplacement. L’attaque touche automatiquement mais peut être défendu (la difficulté étant fixée par l’action ayant générée le périmètre), elle inflige des dégâts dont la catégorie est augmentée par le degré de réussite. Dans le cas d’une attaque à distance le personnage peut tirer plusieurs projectiles (si son arme le peut) afin d’accroitre la zone de frappe de 100% à chaque tirs.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter la catégorie de l’attaque automatique de 1 encore.",
+    "notes": "",
+    "conditions": "Action de tactique (gestion ET contrôle).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Exposition",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tactique de feinte qui vise à menacer une zone afin de gêner ses adversaires et de les mettre virtuellement en danger.",
+    "effets": "L’action est une feinte et elle est confrontée à une difficulté de 10. Elle génère cependant un périmètre de contrainte dans la zone de frappe. Ce périmètre de contrainte est établi jusqu’à la fin d’un cycle. Cette contrainte est une pénalité aux tests de défenses équivalant au degré de réussite de la couverture. Dans le cas d’une attaque à distance le personnage peut tirer plusieurs projectiles (si son arme le peut) afin d’accroitre la zone de frappe de 100% à chaque tirs.",
+    "modularite": "Augmenter les pénalités de 2 permet d’appliquer une fois de plus les pénalités générées.",
+    "notes": "",
+    "conditions": "Action de tactique (contrôle).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Tranchante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à tirer avantage de la force adverse.",
+    "effets": "L’attaque effectuée reçoit un bonus aux jets équivalant au modificateur de force de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Arme tranchante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Perforante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à tirer avantage de l’adresse adverse.",
+    "effets": "L’attaque effectuée reçoit un bonus aux jets équivalant au modificateur de dextérité de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Arme perforante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Contondante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à tirer avantage de l’agilité adverse, maximum 4.",
+    "effets": "L’attaque effectuée reçoit un bonus aux jets équivalant au modificateur d’agilité de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Arme contondante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Sanglante",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant une artère ou tout autre zone permettant un saignement abondant.",
+    "effets": "L’action entreprise peut provoquer le saignement (condition physique). Saignement (physique) : A la fin de chaque tour le personnage subit des dégâts de rupture (voir les conditions pour plus de détails à ce sujet).",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Arme tranchante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Flexible",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Exotique",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à tirer avantage de constitution adverse.",
+    "effets": "L’attaque effectuée reçoit un bonus aux jets équivalant au modificateur de constitution de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum des dégâts de 2.",
+    "notes": "",
+    "conditions": "Arme flexible.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Courbée",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action profitant de la lame pour réaliser une courbe extrêmement efficace pour entrer dans la garde adverse mais facile à défendre. Idéal si la cible n’a plus les moins de se défendre activement.",
+    "effets": "L’action entreprise ne prend pas en compte les pénalités de cette manœuvre lorsqu’il est nécessaire de fixer la difficulté visant à réussir l’action. A la place ces pénalités deviennent un bonus. La criticité est réduite d’autant que les pénalités de la manœuvre (il n’est donc pas plus aisé de réaliser un critique dû à baisse virtuelle de la défense passive).",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet de 1.",
+    "notes": "",
+    "conditions": "Arme tranchante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Coupe",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action de taille pouvant frapper avec force mais bien plus aisément déviée.",
+    "effets": "L’attaque réalisée voit ses jets avantagés mais les défenses adverses le sont aussi.",
+    "modularite": "Augmenter les pénalités de 2 permet d’avantager une fois encore l’attaque et la défense.",
+    "notes": "",
+    "conditions": "Arme tranchante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Emoussante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à perforer l’armure de la cible.",
+    "effets": "L’action entreprise force l’objet touché à réaliser un test de solidité. En cas d’échec l’objet est « abimé » jusqu’à réparation : En faire usage se fait avec un malus de 1.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter les pénalités de 1 en cas d’échec du test.",
+    "notes": "Notes",
+    "conditions": "Arme tranchante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Etourdissante",
+    "type": "Combat",
+    "penalite": -6,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à secouer la cible afin de l’engourdir.",
+    "effets": "L’action entreprise peut provoquer l’étourdissement (condition physique). Etourdissement (physique) : Le personnage ne peut entreprendre d’action autre que le repositionnement. Celle-ci reçoit un bonus de +2 à chaque nouvelle tentative, sauf si la condition a été appliquée deux fois.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Arme contondante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Destructrice",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à détruire tout matériel qu’elle va toucher.",
+    "effets": "L’action entreprise force l’objet touché à réaliser un test de solidité. En cas d’échec l’objet voit son état s’aggraver d’un stade ou plusieurs comme le prévoit les règles de solidité.",
+    "modularite": "Augmenter les pénalités de 2 permet de désavantager le test de solidité.",
+    "notes": "",
+    "conditions": "Arme contondante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Sonnante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à couper le souffle de son adversaire et lui faire ainsi perdre un temps notable.",
+    "effets": "L’action entreprise réduit l’initiative adverse de 2.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter la perte d’initiative de 1.",
+    "notes": "",
+    "conditions": "Arme contondante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Choc",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à fatiguer le corps adverse via un choc soudain.",
+    "effets": "L’attaque réalisée produit moins de dégâts permanents (-D8) et plus de dégâts temporaires (+D8).",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter les modificateurs de D8 supplémentaires.",
+    "notes": "",
+    "conditions": "Arme contondante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Perforante (bis?)",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à perforer l’objet de la cible afin de rendre celui-ci bien moins praticable.",
+    "effets": "L’action entreprise force l’objet touché à réaliser un test de solidité. En cas d’échec l’objet est « perforé » jusqu’à réparation : En faire usage se fait avec une pénalité de vitesse et de rapidité de 3.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter les pénalités de 1 en cas d’échec du test.",
+    "notes": "",
+    "conditions": "Arme perforante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Infaillible",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action profitant de la finesse de son arme pour réaliser un estoc extrêmement efficace pour entrer dans la défense adverse.",
+    "effets": "L’action entreprise ne prend pas en compte les pénalités de cette manœuvre lorsqu’il est nécessaire de fixer la difficulté visant à défendre de cette l’action. A la place ces pénalités deviennent un bonus.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet de 1.",
+    "notes": "",
+    "conditions": "Arme perforante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Pénétrante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action profitant de la finesse de son arme pour pénétrer l’armure adverse et ainsi l’ignorer partiellement.",
+    "effets": "L’attaque réalisée par le personnage profite d’une perforation augmentée de 4. Elle ignore donc jusqu’à 4 point d’absorption de l’armure adverse !",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre la perforation de 2.",
+    "notes": "",
+    "conditions": "Arme perforante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Attrition",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action provoquant une plus ample fatigue.",
+    "effets": "L’attaque réalisée par le personnage réalise 50% de dégâts temporaires supplémentaires. Maximum 6.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre le maximum de 3.",
+    "notes": "",
+    "conditions": "Arme contondante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Front",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action visant à blesser subtilement la cible sans formuler de choc afin d’accentuer l’effet de perforation.",
+    "effets": "L’attaque réalisée produit moins de dégâts temporaires (-2D8) et plus de dégâts permanents (+D8). Ignorez ces effets si aucuns dégâts permanents ne doivent être réalisés avant l’application de ces effets.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter les modificateurs de respectivement 2D8 et D8 supplémentaires ET seulement si cela n’amène pas les dégâts temporaires à moins de 1D8.",
+    "notes": "",
+    "conditions": "Arme perforante.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "à Contre-pieds",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en profitant de sa taille et de celle de son adversaire.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à la différence de taille entre le personnage et sa cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "L’adversaire est plus grand que le personnage.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Pression",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en profitant de sa taille et de celle de son adversaire.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à la différence de taille entre le personnage et sa cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "L’adversaire est plus petit que le personnage.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "à Contre-poids",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en profitant de sa stature et de celle de son adversaire.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à la différence de stature entre le personnage et sa cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "L’adversaire est plus large que le personnage.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "d'écrasement",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en profitant de sa stature et de celle de son adversaire.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à la différence de stature entre le personnage et sa cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "L’adversaire est plus fin que le personnage.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Précise",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action puissante et stable via ses deux mains.",
+    "effets": "L’attaque réalisée reçoit un avantage lors de son jet.",
+    "modularite": "Augmenter les pénalités de 2 permet d’avantage un peu plus le jet.",
+    "notes": "",
+    "conditions": "Arme manipulée à deux mains.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Gandiloquante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage produit une attaque en réalisant de grands gestes amples.",
+    "effets": "L’attaque réalisée reçoit un bonus aux jets dépendant de la superficie disponible autour du personnage, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Arme manipulée à deux mains.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Sans Pitié",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage produit une attaque qui profite des conditions de la cible pour frapper là où ça fait mal.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à 2x le nombre de conditions physiques affectant la cible.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le modificateur de 1x.",
+    "notes": "",
+    "conditions": "Arme manipulée à deux mains.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Fulgurante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage produit une action qui assure un minimum de fiabilité.",
+    "effets": "L’action réalise des jets dont le minimum affiché par les dés est 3.",
+    "modularite": "Augmenter les pénalités de 2 permet de changer le résultat minimum des dés en 4. Augmenter les pénalités de 4 permet de changer le résultat minimum des dés en 5.",
+    "notes": "",
+    "conditions": "Arme manipulée à deux mains.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Violente",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage produit une attaque qui met à profit la force cinétique comme jamais.",
+    "effets": "L’action voit son jet augmenté d’autant que la catégorie de l’arme employée.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Arme manipulée à deux mains.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Cruelle",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "L’action réalise des jets augmentés de 4x les pénalités de la blessure la plus grave de la cible.",
+    "effets": "L’action réalise des jets augmentés de 4x les pénalités de la blessure la plus grave de la cible.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le multiplicateur de dégâts de 2x.",
+    "notes": "",
+    "conditions": "Arme manipulée à deux mains.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Jumelle",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise deux attaques en même temps, chacune portée par une main différente profitant de ses deux armes pour synchroniser parfaitement le timing.",
+    "effets": "Sans dépenser plus d’actions le personnage produit deux attaques qui partagent un même test, bien que l’une des deux se base quand même sur le groupe d’ambidextrie. La cible ne peut se défendre activement que d’une seule de ces deux attaques, pas les deux à la fois. Comme l’une des attaques est une feinte permettant à la seconde d’être assurée, seule une de ces deux attaques peut produire des dégâts même si aucune action de défense n’a été produite.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Manipuler deux armes.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Croix",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise sa parade d’une arme et la contre-attaque de l’autre. Cette dernière ne laisse aucune chance à l’adversaire.",
+    "effets": "Le personnage réalise une parade d’une main et la riposte de l’autre au prix d’une action libre (au lieu de simple). Celle-ci ne nécessite pas de préparation et si elle a été préparée elle reçoit un avantage à la place.",
+    "modularite": "",
+    "notes": "Parade",
+    "conditions": "Manipuler deux armes.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "du Zénith",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action qui détourne l’opiniâtreté de l’adversaire à son avantage.",
+    "effets": "L’action réalisée reçoit un bonus de 4 à ses jets si l’adversaire est indemne.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre les dégâts infligés de 1.",
+    "notes": "",
+    "conditions": "Manipuler deux armes.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "du Bastion",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise son blocage via son bouclier et la riposte via son autre arme, ou inversement.",
+    "effets": "Le personnage réalise un blocage de son bouclier et la riposte de son arme au prix d’une action libre (au lieu de simple), ou inversement. Celle-ci ne nécessite pas de préparation et si elle a été préparée elle reçoit un avantage à la place.",
+    "modularite": "",
+    "notes": "Blocage",
+    "conditions": "Manipuler une arme et un bouclier.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Grandiose",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en cherchant l’extravagance.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à ses pénalités. Ce bonus est quadruplé si l’action est critique.",
+    "modularite": "Voir effets.",
+    "notes": "",
+    "conditions": "Manipuler une seule arme à une main.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Etonnante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en cherchant à pousser l’adversaire à la faute.",
+    "effets": "Si l’adversaire tente de se défendre de l’action il produit sa défense avec une maladresse augmentée la plage de la maladresse de 1. De plus si l’action en question est effectivement une maladresse alors les pénalités (normalement de 5) sont augmentées d’autant que les pénalités de la manœuvre.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter la plage de maladresse de 1.",
+    "notes": "",
+    "conditions": "Manipuler une seule arme à une main.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Parfaite",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en visant la perfection. Ni trop, ni pas assez, juste ce qu’il faut.",
+    "effets": "L’attaque réalisée reçoit un bonus de 6 aux jets. Ce bonus est réduit par la marge de réussite de l’action.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter doubler les bonus (après réduction issus de la marge de réussite).",
+    "notes": "",
+    "conditions": "Manipuler une seule arme à une main.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Maitre",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en jouant sur le triangle des armes pour plus d’efficacité.",
+    "effets": "L’action réalisée est produite avec un avantage contre un adversaire munie d’une arme faible face à celle-ci.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Manipuler une seule arme à une main.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Filante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action qui, si elle est merveilleusement exécutée, sera particulièrement implacable.",
+    "effets": "Si l’action réalisée est critique alors son jet est augmenté de 4.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le bonus de 4.",
+    "notes": "",
+    "conditions": "Manipuler une seule arme à une main.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Experte",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action qui profite d’une parfaite exécution.",
+    "effets": "L’attaque profite de sa marge de réussite aux valeurs de ses jets.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter de moitié le bonus aux jets (arrondis inférieurs).",
+    "notes": "",
+    "conditions": "Manipuler une seule arme à une main.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Véloce",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action qui profite de sa vélocité pour décupler l’efficacité de l’action !",
+    "effets": "Si l’action est doublée avec succès alors la différence de vitesse entre les deux protagonistes s’appliquent sous forme de bonus au jet, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Arme légère.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Acérée",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque en visant un point vital.",
+    "effets": "L’attaque réalisée n’a besoin que d’une marge de réussite de 7 pour être critique.",
+    "modularite": "Augmenter les pénalités de 2 permet de réduire la marge de réussite nécessaire à une attaque critique à 4. Elle ne peut être baissée plus bas encore.",
+    "notes": "",
+    "conditions": "Arme légère.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Succincte",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action succinctement dans l’espoir de gagner l’impetus qui lui offrira la victoire.",
+    "effets": "L’action réalisée redonne 2 d’initiative si elle est couronnée de succès.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le regain d’initiative de 1 supplémentaire.",
+    "notes": "1 fois/T",
+    "conditions": "Arme légère.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Simple",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action simple qui n’aura peu d’impact en cas d’échec.",
+    "effets": "L’action réalisée redonne 2 d’initiative si elle est a échoué.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le regain d’initiative de 1 supplémentaire.",
+    "notes": "1 fois/T",
+    "conditions": "Arme légère.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Défaut",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action tactique atypique (Tactique + Arme + Attribut associé à l’arme) dont le but est d’éprouver l’adverse.",
+    "effets": "La tactique met en « défaut» la cible face au personnage. Le degré de réussite de la feinte définit le niveau de ce défaut. La cible peut répondre à l’aide d’une action de Défaut de Défense : La prochaine défense que la cible réalise contre l’auteur du défaut est désavantage autant de fois que le niveau du défaut. Défaut d’Attaque : La prochaine attaque que la cible réalise contre l’auteur du défaut est désavantage autant de fois que le niveau du défaut. Défaut Tactique : La prochaine tactique que la cible réalise contre l’auteur du défaut est désavantage autant de fois que le niveau du défaut.",
+    "modularite": "Augmenter les pénalités de 2 permet d’affranchir le défaut d’une cible unique : Celui-ci s’appliquera sur tous les adversaires sans distinction. La manœuvre peut ainsi être réalisée sans cible spécifique et devient une « posture ».",
+    "notes": "Notes",
+    "conditions": "Arme légère.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Sadique",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque visant à aggraver une blessure.",
+    "effets": "Au lieu de provoquer une nouvelle blessure l’attaque réalisée aggrave une des lésions qui ne produit pas encore de pénalités en lui ajoutant 50% de sa gravité. Si plusieurs blessures correspondent alors la plus basse est affectée. Les dégâts eux sont infligés normalement.",
+    "modularite": "Augmenter les pénalités de 2 permet d’appliquer la totalité de la gravité à la place.",
+    "notes": "",
+    "conditions": "Arme légère.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Gênante",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque afin de gêner son adversaire et le ralentir.",
+    "effets": "Le jet de l’action est réduit de 2D8. L’adversaire subit alors une perte d’initiative de 1D8.",
+    "modularite": "Augmenter les pénalités de 2 permet de réduire les jets de D8 supplémentaires pour une perte d’initiative augmentées de 1. Le jet ne peut devenir inférieur à 1D8 de cette manière.",
+    "notes": "",
+    "conditions": "Arme intermédiaire ou lourde.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Qualité",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action tactique atypique (Tactique + Arme + Attribut associé à l’arme) dont le but est d’échauffer ses sens et de se préparer.",
+    "effets": "La tactique met en « qualité » la cible face au personnage. Le degré de réussite de la feinte définit le niveau de cette qualité. Qualité de Défense : La prochaine défense que le personnage réalise contre la cible est avantagée autant de fois que le niveau de la qualité. Qualité d’Attaque : La prochaine attaque que le personnage réalise contre la cible est avantagée autant de fois que le niveau de la qualité. Qualité Tactique : La prochaine tactique que le personnage réalise contre la cible est avantagée autant de fois que le niveau de la qualité.",
+    "modularite": "Augmenter les pénalités de 2 permet d’affranchir cette qualité d’une cible : Celui-ci s’appliquera sur tous les adversaires sans distinction. La manœuvre peut ainsi être réalisée sans cible spécifique et devient une « posture ».",
+    "notes": "",
+    "conditions": "Arme lourde.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Galvanisante",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage mal en point réalise une attaque qu’il souhaite galvanisante pour lui.",
+    "effets": "Le jet de l’attaque est réduit de 2D8. Puis le personnage soigne l’endurance de 2D8. Ce soin ne peut pas faire passer l’endurance à plus de la moitié de sa valeur maximale.",
+    "modularite": "Augmenter les pénalités de 2 permet de réduire le jet de D8 supplémentaires pour un soin augmenté d’autant.",
+    "notes": "",
+    "conditions": "Arme lourde ou intermédiaire.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Adaptée",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action tactique atypique (Tactique + Arme + Attribut associé à l’arme) dont le but est d’accroitre l’efficacité de ses actions ou décroitre l’efficacité des actions de ses adversaires.",
+    "effets": "La tactique place en « qualité » ou en « défaut » la cible face au personnage. Le degré de réussite de la feinte définit le niveau de cette qualité. Qualité de Jet : La prochaine attaque, défense ou tactique que le personnage réalise contre la cible voit ses jets avantagée autant de fois que le niveau de la qualité. Défaut de Jet : La prochaine attaque, défense ou tactique que la cible réalise contre l’auteur du défaut voit ses jets désavantage autant de fois que le niveau du défaut.",
+    "modularite": "Augmenter les pénalités de 2 permet d’affranchir cette qualité d’une cible : Celui-ci s’appliquera sur tous les adversaires sans distinction. La manœuvre peut ainsi être réalisée sans cible spécifique et devient une « posture ».",
+    "notes": "",
+    "conditions": "Arme ni légère, ni lourde (intermédiaire).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Fracassante",
+    "type": "Combat",
+    "penalite": 1,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action particulièrement violente qui ne ménage en aucun cas l’arme (ou la cible).",
+    "effets": "L’action réalisée reçoit un bonus aux jets de 3. L’arme doit effectuer un test de solidité après coup. Si le test est raté alors le bonus de jet est doublé.",
+    "modularite": "Augmenter le bonus d’usage permet d’accroitre le bonus aux jets de 1 mais implique un désavantage au test de solidité (qui du coup a plus de chance de rater).",
+    "notes": "",
+    "conditions": "Arme lourde ou intermédiaire.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Ecrasante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque visant à écraser sa cible au sol sous le poids de son arme.",
+    "effets": "L’attaque réalisée reçoit un bonus aux jets équivalant au gabarit de l’arme.",
+    "modularite": "Augmenter les pénalités de 2 permet d’ajouter une fois de plus le modificateur aux dégâts.",
+    "notes": "",
+    "conditions": "Cible au sol.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Puissante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action puissante en sacrifiant la précision du geste.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant aux pénalités. Les dés affichants 1 valent 2 pour ce qui est du jet.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le bonus aux jets de 1.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Assurée",
+    "type": "Combat",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action assurée dont le résultat est moindre.",
+    "effets": "L’action réalisée reçoit un malus aux jets équivalant à 2x le bonus d’usage reçu.",
+    "modularite": "Augmenter le bonus de 1 se fait en contrepartie d’un malus aux jets supplémentaires.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Lente",
+    "type": "Combat",
+    "penalite": 2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en prenant tout son temps afin de s’assurer de sa réussite.",
+    "effets": "L’action réalisée consomme une action rapide supplémentaire.",
+    "modularite": "Augmenter le bonus d’usage de 1 est possible en sacrifiant une action simple au lieu d’une action rapide.",
+    "notes": "",
+    "conditions": "Cette manœuvre n’est réalisable que durant une situation de confrontation (initiative).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Bascule",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action en profitant de la synergie de l’arme adverse et non de la sienne.",
+    "effets": "L’action inverse la catégorie de l’arme de la cible et celle du personnage en ce qui concerne les tests et les jets durant cet échange. Les armes respectives ne peuvent être augmentés ou réduites de plus de 1.",
+    "modularite": "Augmenter les pénalités de 2 permet d’ajouter l’augmentation ou la réduction des catégories de 1.",
+    "notes": "",
+    "conditions": "Taille du personnage + 4 < Taille de l’adversaire.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Impatiente",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action rapide qui prend de court l’adversaire.",
+    "effets": "L’action réalisée reçoit un bonus aux jets égaux à la différence entre l’initiative du personnage et son adversaire si celle-ci est positive. Maximum 6.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la limite du bonus de 3.",
+    "notes": "1 fois/T",
+    "conditions": "Arme Courte.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Patiente",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action calculée qui lui permet de prendre son adversaire de court.",
+    "effets": "L’action réalisée reçoit un bonus de jet qui dépend de la différence entre l’initiative du personnage et son adversaire si celle-ci est négative. Maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la limite du bonus de 2.",
+    "notes": "1 fois/T",
+    "conditions": "Arme Longue.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Renversante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action pouvant renverser son adversaire.",
+    "effets": "L’action entreprise est succédée d’une tentative de renversement au prix d’une action rapide supplémentaire. La tentative en question reçoit un bonus de +2.",
+    "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Repoussante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action pouvant repousser son adversaire.",
+    "effets": "L’action entreprise est succédée d’une tentative de repoussement au prix d’une action rapide supplémentaire. La tentative en question reçoit un bonus de +2.",
+    "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Désarmante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action pouvant désarmer son adversaire.",
+    "effets": "L’action entreprise est succédée d’une tentative de désarmement au prix d’une action rapide supplémentaire. La tentative en question reçoit un bonus de +2.",
+    "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Contraignante",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une action pouvant contraindre son adversaire.",
+    "effets": "L’action entreprise est succédée d’une tentative de contrainte au prix d’une action rapide supplémentaire. La tentative en question reçoit un bonus de +2.",
+    "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
+    "notes": "",
+    "conditions": "Arme pouvant permettre la contrainte (fouet, etc).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Mise à Mort",
+    "type": "Combat",
+    "penalite": -6,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de mettre à mort un adversaire qui n’a pas ou plus les moyens de se défendre.",
+    "effets": "L’attaque peut provoquer la mort de la cible (Condition Physique). Mort : J’imagine que cela se passe de description.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Cible sans défense.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Assommante",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de mettre hors d’état un adversaire qui n’a pas ou plus les moyens de se défendre.",
+    "effets": "L’attaque peut assommer la cible (Condition Physique). Assommé : Elle perd connaissance pour une durée qui dépend de la marge de réussite (en minutes).",
+    "modularite": "Augmenter les pénalités de 2 permet à faire passer la durée en heure à la place.",
+    "notes": "",
+    "conditions": "Cible sans défense.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Technique",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque qui profite d’un de ses attributs.",
+    "effets": "L’attaque réalisée profite d’un attribut et convertis le modificateur de celui-ci en un bonus spécifique.",
+    "modularite": "Augmenter les pénalités de +1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "Notes",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Boucherie",
+    "type": "Combat",
+    "penalite": -4,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de réaliser une à plusieurs attaque supplémentaires.",
+    "effets": "Le personnage tente une attaque. Si l’attaque obtient une degré de réussite de 1 (dépassant donc la défense passive d’au moins 5) alors il peut immédiatement tenter une attaque restreinte supplémentaire avec les même pénalités que l’attaque d’origine.",
+    "modularite": "Augmenter les pénalités de 2 permet à l’attaque restreinte de s’affranchir de sa limitation en catégorie.",
+    "notes": "1 fois/T",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Innombrable",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de réaliser une à plusieurs attaque supplémentaires.",
+    "effets": "Le personnage réalise une attaque restreinte en plus de son attaque normale, dont la catégorie effective ne peux alors dépasser 2. Les deux attaques font l’objet de deux tests séparés, l’attaque normale reçoit les pénalités de la manœuvre et l’attaque restreinte (voir les règles à ce sujet) reçoit le double des pénalités. Les pénalités sont donc de -2/-4.",
+    "modularite": "Augmenter les pénalités de 2 permet d’engager une seconde attaque restreinte. Ses pénalités sont équivalentes à la première. Les pénalités sont alors de -4/-8/-8. Bien que ce ne soit pas conseiller, il est possible d’augmenter encore la pénalité de 2 pour une 3e attaque restreinte, ce qui fait passer les pénalités à -6/-12/-12/-12.",
+    "notes": "1 fois/T",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Successive",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente plusieurs fois son action jusqu’à obtenir un succès.",
+    "effets": "Le personnage réalise son action normalement. Si l’action échoue à dépasser la défense passive adversaire (mais pas si une défense active surviens) alors il peut tenter une action similaire mais restreinte (voir les règles associées) qui subit les pénalités de cette manœuvre en les augmentant de 2 à chaque nouvel essai au-delà du premier. Il peut continuer de tenter tant qu’il est mesure de pratiquer une manœuvre avec les pénalités cumulés. Lorsqu’une réussite surviens il n’est plus possible de tenter de nouveau.",
+    "modularite": "Augmenter les pénalités de 2 permet d’engager une seconde attaque restreinte. Ses pénalités sont équivalentes à la première. Les pénalités sont alors de -4/-8/-8. Bien que ce ne soit pas conseiller, il est possible d’augmenter encore la pénalité de 2 pour une 3e attaque restreinte, ce qui fait passer les pénalités à -6/-12/-12/-12.",
+    "notes": "1 fois/T",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Berserker",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage, à bout de force, tente de mettre toute sa rage dans une attaque brutale et, espérons-le pour lui, définitive.",
+    "effets": "Le personnage augmente les effets de la Rage dépensée pour l’attaque de 1 pour 2, maximum +6.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre le maximum de 3.",
+    "notes": "",
+    "conditions": "Arme à 2 mains requis. Le personnage est épuisé et blessé.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Berruier",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage, à bout de force, tente de mettre toute sa garde dans une défense extrême.",
+    "effets": "Le personnage augmente les effets de la Garde dépensée pour la défense de 1 pour 2, maximum +6.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre le maximum de 3.",
+    "notes": "",
+    "conditions": "Bouclier requis. Le personnage est épuisé et blessé.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Finale",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage cherche à mettre un terme épique à un combat éprouvant.",
+    "effets": "L’action réalisée reçoit un bonus aux jets équivalant à 2 fois nombre de tour écoulés dans le combat, maximum 6. Jusqu’à la fin du combat le personnage qui utilise cette manœuvre se voit « démoralisé » (désavantagé à tous ces tests).",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 3.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Tenaille",
+    "type": "Combat",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tire profit d’une situation fort avantageuse où lui et un allié prennent en tenaille un opposant.",
+    "effets": "L’attaque profite d’un bonus au jet de 1 et de perforation de 2 par points de pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter les effets.",
+    "notes": "",
+    "conditions": "En mêlée sur un adversaire de dos pris en tenaille",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Groupe",
+    "type": "Combat",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tire profit d’une situation fort avantageuse où lui et un ou plusieurs alliés s’attaque en combat rapproché à la même cible.",
+    "effets": "L’attaque réalisée est plus difficile à défendre et profite d’un bonus de maitrise +1.",
+    "modularite": "Il est possible de profiter d’un bonus plus élevé, ce qui augmente le bonus de maitrise également, le bonus maximum étant de 1 par personnage au corps à corps avec la cible au-delà de celui qui réalise la manœuvre.",
+    "notes": "",
+    "conditions": "En mêlée sur un adversaire avec au moins un allié au corps à corps avec lui.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Zenith",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage ajuste son tir pour en augmenté la portée, très utile pour les armes dont la porté est très faible",
+    "effets": "L'attaque profite d'une portée de tir augmentée de 50% ou de 5, le plus haut des deux",
+    "modularite": "Augmenter les pénalités de 1 augmente ce bonus de 25% ou de +2, on conserve le plus haut bonus des deux modalités",
+    "notes": "",
+    "conditions": "Arme à distance.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Transperçant",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir qui peut transpercer les cibles qu’elle touche afin de toucher d’éventuelle cibles supplémentaires.",
+    "effets": "L’attaque traverse sa première cible afin de toucher une autre cible dans le prolongement du tir. L’attaque reçoit une pénalité de 2 supplémentaire contre les cibles au-delà de la première.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le nombre de cible de 1.",
+    "notes": "",
+    "conditions": "Arme à distance.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Cloche",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir qui fond vers le ciel avant de retourner frapper sur terre.",
+    "effets": "L’attaque réalisée peut ignorer la moitié de la couverture de la cible.",
+    "modularite": "Augmenter les pénalités de 2 permet d’ignorer entièrement les couvertures de la cible, même totale. Augmenter les pénalités de 2 permet également, à la place ou en plus, d’empêcher la cible de réaliser une action de défense en réponse à ce tir mais uniquement si une couverture a été ainsi ignorée.",
+    "notes": "",
+    "conditions": "Arme à distance archaïque (arc/arbalète), ciel dégagé au-dessus du tireur et de sa cible.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Rebond",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir qui rebondit sur une surface afin de toucher malgré un angle impossible à couvrir normalement.",
+    "effets": "L’attaque réalisée peut rebondir sur une surface afin de constituer sa course vers une cible valide. La surface doit être dure et inerte (pierre, métal, etc)… Le tir peut ainsi dévier au plus de 90° sa trajectoire.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le nombre de rebonds de 1.",
+    "notes": "",
+    "conditions": "Arme à distance.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Ricochet",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir qui rebondit sur ses cibles afin de toucher plusieurs cibles dans un espace restreint.",
+    "effets": "L’attaque réalisée peut ricochet sur une cible afin de continuer sa course vers une autre cible valide. Chaque ricochet divise par 2 la portée restante du projectile. L’attaque reçoit une pénalité de 2 supplémentaire contre les cibles au-delà de la première.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le nombre de ricochet de 1.",
+    "notes": "",
+    "conditions": "Arme à distance.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Tir à l'Epaule",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage fait fit de la précision et place son arme plus près de son épaule afin d’assurer sa prise.",
+    "effets": "Pour l’attaque en question le recul de l’arme est réduit de 2.",
+    "modularite": "Augmenter les pénalités permet d’accroitre les effets.",
+    "notes": "",
+    "conditions": "Arme à distance via arme à recule.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Démultiplié",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage fait fit de la précision et des limitations naturelles de son arme pour tenter des tirs supplémentaires.",
+    "effets": "Pour l’attaque en question la cadence de l’arme est augmentée de 1.",
+    "modularite": "Augmenter les pénalités permet d’accroitre les effets (pour plus de tirs, mais attention les tirs supplémentaires ont eu même des pénalités croissantes).",
+    "notes": "",
+    "conditions": "Arme à distance (dont le magasin permet des tirs supplémentaires).",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Groupé",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir frénétique qui vise le même point d’impact.",
+    "effets": "Les tirs supplémentaires qui touchent la cible ne provoquent pas de jet mais augmentent le jet du tir principal de 1D8 à la place.",
+    "modularite": "Augmente les pénalités de 2 permet d’accroitre les dégâts ajoutés de 1D8 par tirs supplémentaires faisant mouche.",
+    "notes": "",
+    "conditions": "Tir multiple.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Nourris",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir frénétique visant à affaiblir son adversaire.",
+    "effets": "Chaque tirs au-delà du premier reçoit un bonus d’attrition de 4.",
+    "modularite": "Augmente les pénalités de 1 permet d’accroitre l’attrition par tirs de 2.",
+    "notes": "",
+    "conditions": "Tir multiple.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Salve",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir frénétique visant à gêner son adversaire.",
+    "effets": "Chaque tirs au-delà du premier inflige une perte d’initiative de 1.",
+    "modularite": "Augmente les pénalités de 2 permet d’accroitre la perte d’initiative de 1.",
+    "notes": "1 fois/T",
+    "conditions": "Tir multiple.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "depuis les Hauteurs",
+    "type": "Tir",
+    "penalite": 1,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un tir depuis les hauteurs afin de prendre sa cible dans un angle difficile à défendre ou prédire.",
+    "effets": "Rien de particulier.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le multiplicateur de 0,5x et 0,25x.",
+    "notes": "",
+    "conditions": "Cible positionnée en dessous du personnage, minimum 6m de différence. Arme à distance.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "à Rebours",
+    "type": "Tir",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une feinte et détermine une zone de marquage dans laquelle tout déplacement provoque un tir d’opportunité gratuit.",
+    "effets": "Le personnage réalise une attaque feinte (ne requière pas de munition) afin de produire un marquage (difficulté 10). Il détermine alors une zone à distance maximale équivalant à sa Perception en mètre (mais visible) et de 1m de rayon. Chaque adversaire qui réalise un déplacement dans la zone peut déclencher une attaque d’opportunité de la part du personnage. Le test de l’attaque est basé sur celle de la manœuvre, il n’y a donc pas de test d’attaque à produire. L’adversaire peut se défendre activement à l’aide d’un test de défense. Pour réaliser son attaque le personnage doit en avoir la possibilité (arme chargée etc). Le personnage peux réaliser autant d’opportunités que modificateur de DEX.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la zone de marquage de 1 mètre.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Couverture",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une feinte et détermine une zone de marquage dans laquelle les cibles ont des pénalités pour attaquer.",
+    "effets": "Le personnage réalise une attaque feinte (ne requière pas de munition) afin de produire un marquage (difficulté 10). Il détermine alors une zone à distance maximale équivalant à sa Perception en mètre (mais visible) et de 1m de rayon. Chaque cibles (adversaires ou alliés) dans cet espace reçoit une pénalité aux tests d’attaque équivalente à degré de réussite de la feinte. Les tirs supplémentaires consomment bien les munitions mais ne produisent pas plus de dégâts que le premier tir, le tout constituant une attaque feinte. En revanche le recul est bel et bien accru.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la zone de marquage de 1 mètre.",
+    "notes": "",
+    "conditions": "Tir multiple d’au moins 3 tirs.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Barrage",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une feinte et détermine une zone de marquage dans laquelle les cibles ont des pénalités pour se défendre.",
+    "effets": "Le personnage réalise une attaque feinte (ne requière pas de munition) afin de produire un marquage (difficulté 10). Il détermine alors une zone à distance maximale équivalant à sa Perception en mètre (mais visible) et de 1m de rayon. Chaque cibles (adversaires ou alliés) dans cet espace reçoit une pénalité aux tests de défense et à ses défenses passives équivalente à degré de réussite de la feinte. Les tirs supplémentaires consomment bien les munitions mais ne produisent pas plus de dégâts que le premier tir, le tout constituant une attaque feinte. En revanche le recul est bel et bien accru.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la zone de marquage de 1 mètre.",
+    "notes": "",
+    "conditions": "Tir multiple d’au moins 3 tirs.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Patient",
+    "type": "Tir",
+    "penalite": 2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage prend le temps de viser afin de tirer au plus juste.",
+    "effets": "L’attaque du personnage est une action complexe plutôt que simple.",
+    "modularite": "Sacrifier son action libre permet d’obtenir un bonus supplémentaire de +1.",
+    "notes": "",
+    "conditions": "Ne pas être dans zone de menace d’un adversaire.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "du Chasseur",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage prend soin de gêner la progression de sa cible.",
+    "effets": "Si l’attaque touche la cible alors celle-ci voit son allure réduite de 1 par pénalités engagées dans cette attaque. Cette pénalité d’allure est effective jusqu’à la fin de la prochaine passe de la cible uniquement.",
+    "modularite": "Augmenter les pénalités accroit les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Repositionnement",
+    "type": "Tir",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tir tout en se jetant dans une direction afin de changer de position dans la foulée.",
+    "effets": "Le personnage réalise un bond en arrière visant à le mettre en sécurité ou dans une position plus favorable. Ce bond nécessite une action rapide. La distance parcourus est équivalant à l’allure du personnage.",
+    "modularite": "Augmenter les pénalités permet de réduire le cout en initiative d’autant.",
+    "notes": "1 fois/T",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "de Marquage",
+    "type": "Tir",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tir afin de mieux apprécier les distances, la position, le vent, etc... et d’ainsi assurer ses prochains tirs sur la même cible.",
+    "effets": "Le personnage réalise un tir. Tant que la cible ne bouge pas le personnage profite d’un bonus de 1 à ses tirs, si et seulement si la cible a été atteinte par ce tir (qu’il en résulte des dégâts ou pas).",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le bonus de tir de 1.",
+    "notes": "1 fois/T",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "d'Estoc",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque d’estoc en cherchant à provoquer une blessure aggravée.",
+    "effets": "L’attaque réalisées provoque des blessures dont la gravité est augmentée de 3*Pénalités. Si l’attaque ne provoque pas de blessure alors cet effet est ignoré.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Taille",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une attaque en frappant de taille. C’est une frappe prévisible mais particulièrement efficace si elle touche au but.",
+    "effets": "L’attaque réalisée est avantagée en ce qui concerne son jet de dégâts. Cependant l’adversaire reçoit également un avantage simple au test et au jet s’il tente de se défendre de cette attaque.",
+    "modularite": "Augmenter les pénalités de 2 permet d’ajouter un avantage au jet de dégâts.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Flèche",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un bond en avant puis attaque en frappant vers le bas.",
+    "effets": "Le personnage réalise un bond puis attaque. Le bond ne nécessite pas d’action et sa distance est équivalant à 25% du déplacement du personnage. L’attaque est avantagée si la dernière action de la cible est une défense. Le bond est ici considéré comme un déplacement gratuit, le personnage ne peut profiter que d’un seul déplacement comme celui-ci par round.",
+    "modularite": "Augmenter les pénalités de 2 permet de doubler la portée du bond.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "en Fente",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un pas de placement en avant puis attaque en frappant vers le haut.",
+    "effets": "Le personnage réalise un pas de placement puis attaque. Les défenses de l’adversaire sont alors désavantagées. L’attaque est avantagée si la dernière action de la cible est une attaque. Le déplacement est ici considéré comme un déplacement gratuit, le personnage ne peut profiter que d’un seul déplacement comme celui-ci par round.",
+    "modularite": "Augmenter les pénalités de 2 permet d’augmenter le désavantage imposé aux défenses de l’adversaire.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Dextre",
+    "type": "Escrime",
+    "penalite": 0,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage s’expose en réalisant une attaque du côté droit de son adversaire.",
+    "effets": "L’attaque réalisée reçoit un bonus de circonstance équivalant à la catégorie de l’arme tenu dans la main droite (souvent directrice) de son adversaire. Le personnage est en « posture » d’imprudence et met fin à son round (il perd les actions simples restantes). Comme toutes les postures elle prend fin lors d’un déplacement, voulu ou non. Toutes actions adverses sont avantagées sur un personnage dans cette posture ci.",
+    "modularite": "Augmenter les bonus d’usage de 1 est possible en imposant des pénalités de défenses (passive et active) de 1 à sa posture d’imprudence. Le bonus d’usage ne peut dépasser la catégorie de l’arme tenu en main droite.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Senestre",
+    "type": "Escrime",
+    "penalite": 0,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage s’expose en réalisant une attaque du côté gauche de son adversaire.",
+    "effets": "L’attaque réalisée reçoit un bonus de circonstance équivalant à la catégorie de l’arme tenu dans la main gauche (souvent non directrice) de son adversaire. Le personnage est en « posture » d’imprudence et met fin à son round (il perd les actions simples restantes).",
+    "modularite": "Augmenter les bonus d’usage de 1 est possible en imposant des pénalités de défenses (passive et active) de 1 à sa posture d’imprudence. Le bonus d’usage ne peut dépasser la catégorie de l’arme tenu en main gauche.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Ballestra",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un déplacement à mi vitesse puis attaque sans ambages.",
+    "effets": "Le personnage réalise un déplacement mêlant jeu de jambes et petits bonds puis attaque. Le déplacement ne nécessite pas d’action et sa distance est équivalant à 25% du déplacement du personnage. L’attaque est avantagée si la dernière action de la cible est un déplacement.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter les dégâts infligés de 2.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Battement",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une feinte visant à réduire les champs d’action de l’arme adversaire.",
+    "effets": "Le personnage réalise une tactique de gestion. Si elle réussit l’adversaire dans la zone de contrôle du personnage n’a plus de zone de contrôle OU de menace pendant un cycle, au choix (celle-ci passe à 0).",
+    "modularite": "Augmenter les pénalités de 2 permet d’affecter tous les adversaires à portée, augmenter les pénalités de 2 permet d’appliquer les deux effets au lieu d’un seul.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Contre-Attaque",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de désorienter les armes de sa cible via une défense armée vibrante.",
+    "effets": "La défense entreprise provoque une « posture » de défaillance chez l’adversaire. La défense en question doit être une réussite pour que ce soit le cas. Sous cette posture les défenses actives sont pénalisées de 2.",
+    "modularite": "Augmenter les pénalités de cette manœuvre de 1 permet d’accroitre les pénalités imposée par la posture de 1.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Représailles",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage imprime dans sa défense l’élan qui servira d’appuis à l’action immédiate à venir.",
+    "effets": "La défense entreprise est suivie d’une contre-attaque ou riposte (selon qu’il s’agisse respectivement d’une parade ou d’un blocage) qui recevra un bonus de circonstance équivalant aux pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre les bonus octroyaient à l’action qui suit de 1.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Dérobement",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une esquive tout en se déplaçant activement vers l’arrière de manière à fuir le contacte.",
+    "effets": "L’esquive réalisée génère une mise à distance sécurisée vis-à-vis d’un adversaire unique, elle ne provoque alors aucune attaque d’opportunité de sa part.",
+    "modularite": "Augmenter les pénalités de 2 permet de sécuriser le mouvement contre un adversaire supplémentaire.",
+    "notes": "",
+    "conditions": "Arme d’Escrime. Esquive.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Dégagement",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une défense visant à mettre une grande distance avec l’adversaire.",
+    "effets": "La défense réalisée génère une mise à distance augmentée de 25%, faisant passer celle-ci à 50% du déplacement. La mise à distance est ici considérée comme un déplacement gratuit, le personnage ne peut profiter que d’un seul déplacement comme celui-ci par round.",
+    "modularite": "Augmenter les pénalités de 2 permet d’accroitre la mise à distance de 25%.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Mise à Distance",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage profite d’une zone de contrôle plus grande que la normale !",
+    "effets": "La zone de contrôle du personnage, pour l’action concernée, est augmentée de 1.",
+    "modularite": "Augmenter les pénalités de 2 permet d’accroitre le bonus de 1.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Réduire la Distance",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage profite d’une zone de menace plus grande que la normale !",
+    "effets": "La zone de menace du personnage, pour l’action concernée, est augmentée de 1.",
+    "modularite": "Augmenter les pénalités de 2 permet d’accroitre le bonus de 1.",
+    "notes": "",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Posture d'Escrime",
+    "type": "Escrime",
+    "penalite": -2,
+    "categorie": "Escrime",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage adosse l’une des 8 grandes postures qu’offre l’art de l’escrime (Quarte, Quinte, etc).",
+    "effets": "Le personnage réalise un test d’arme spécifique (Tactique + Arme + Attribut de l’arme) puis se place dans la posture de son choix. Le degré de réussite de l’action définit le nombre de fois que la posture peut être sollicitée avant de prendre fin (donc pour 10 ce sera 1x, pour 15 ce sera 2x, pour 20 ce sera 3x, etc).",
+    "modularite": "Augmenter les pénalités de 4 permet de faire en sorte que la posture offre un double avantage à la place.",
+    "notes": "Notes",
+    "conditions": "Arme d’Escrime.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Esquive Sûre",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une esquive plus sûre.",
+    "effets": "Lorsque que le personnage réalise une esquive et que cette dernière réussie les attaques d’opportunité ainsi déclenchées reçoivent le double des pénalités de cette manœuvre. Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur de DEX.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Esquive.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Esquive Ample",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une esquive mêlée à une dérobade afin de mieux s’éloigner du danger.",
+    "effets": "Lorsque que le personnage réalise une esquive et que cette dernière réussie son pas de placement voit sa distance augmenter d’autant que les pénalités (attention, les déplacements durant une esquive provoque des opportunités). Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur d’AGI.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Esquive.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Défense Brutale",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une défense qu’un combattant classique qualifierait sans sourciller de « bourrine ».",
+    "effets": "Lorsque que le personnage réalise une esquive et que cette dernière réussie son adversaire perd 2 PE par pénalités investies. Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur de FOR.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Parade Préparative",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une parade visant à assurer la contre-attaque qui suit.",
+    "effets": "Lorsque que le personnage réalise une parade et que cette dernière réussie l’adversaire reçoivent le double des pénalités de cette manœuvre en défense contre une éventuelle contre-attaque. Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur de DEX.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Parade.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Parade Eclair",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une parade succincte afin de procéder promptement à la contre-attaque.",
+    "effets": "Lorsque que le personnage réalise une parade et que cette dernière réussie la contre-attaque qui en découle cout 1 point d’initiative de moins par pénalités appliqués. Les pénalités s’appliquent également à la contre-attaque dans ce cas. Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur d’AGI.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Parade.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Blocage Préparatif",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise un blocage visant à assurer la riposte qui suit.",
+    "effets": "Lorsque que le personnage réalise un blocage et que ce dernier réussi l’adversaire reçoivent le double des pénalités de cette manœuvre en défense contre une éventuelle riposte. Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur de DEX.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Blocage.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Blocage Eclair",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une blocage succinct afin de procéder promptement à la riposte.",
+    "effets": "Lorsque que le personnage réalise un blocage et que ce dernier réussi la riposte qui en découle cout 1 point d’initiative de moins par pénalités appliqués. Les pénalités s’appliquent également à la riposte dans ce cas. Le niveau de pénalité que le personnage peut appliquer ne peux dépasser son modificateur d’AGI.",
+    "modularite": "Augmenter les pénalités améliore les effets.",
+    "notes": "",
+    "conditions": "Blocage.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Défense Calculée",
+    "type": "Défense",
+    "penalite": 1,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une défense contre une attaque qu’il a déjà vu et contre laquelle il s’est préparé mentalement.",
+    "effets": "Le bonus augmente de 1 si le personnage a déjà été la cible de la technique contre laquelle il cherche à se défendre. Le bonus augmente de 1 si le personnage a été plusieurs fois le témoin de cette même technique (par ce même adversaire). L’adversaire doit avoir réalisé une technique (attaque profitant d’une manœuvre) similaire dans la même scène. Cette manœuvre ne fonctionne pas sur les attaques simples (sans manœuvres). Les pénalités choisies pour les manœuvres de la technique n’entre pas en compte, seul la composition en termes de manœuvre compte. Si le personnage profite d’un trait qui met en avant sa mémoire il est possible que cette manœuvre fonctionne sur des techniques qu’il a vu dans un passé plus distant (à la discrétion du MJ).",
+    "modularite": "Le bonus augmente de 1 si le personnage a déjà été lui-même la cible de la technique en question. Le bonus augmente de 1 si le personnage a été plusieurs fois le témoin de cette même technique (par ce même adversaire).",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Contre Tir",
+    "type": "Défense",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": true,
+      "tac": false
+    },
+    "types_action": {
+      "combat": true,
+      "joute": false,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une défense de mise à couvert (couverture) contre une attaque à distance tout en se préparant à contre-attaquer dans la foulée.",
+    "effets": "Lorsque que le personnage réalise une mise à couvert (couverture) et que cette dernière réussie alors le personnage peux immédiatement réaliser une contre-attaque à distance (à l’aide d’une arme de tir ou de jet). La contre-attaque nécessite, comme les contre-attaques classiques, l’usage d’une action simple ou rapide et constitue une action d’interruption (dont on ne peut se défendre). Le test d’attaque se fait à l’aide de la compétence d’attaque approprié qui subit également les pénalités d’usage.",
+    "modularite": "Augmenter les pénalités applique l’excédent en bonus à la contre-attaque.",
+    "notes": "",
+    "conditions": "Couverture.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "d'Affliction",
+    "type": "Joute",
+    "penalite": -4,
+    "categorie": "Spécial",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente d’infliger une condition à sa victime EN PLUS des effets normaux de l’action qui porte la manœuvre.",
+    "effets": "L’action entreprise peut provoquer une des conditions mentales de base (voir encadré). La sauvegarde est basée sur le mental (Détermination) et les effets s’appliquent uniquement sur le plan mental. La difficulté d’effets est de 10+mRUS. Les charges de la condition sont ceux de l’attaque divisés par 2. L’action doit réussir/toucher pour que la condition puisse être appliquée, il n’y a aucun test de sauvegarde sans ça.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter la difficulté associée à la condition de 1.",
+    "notes": "Notes",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Agressive",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise ses tirades en inondant son interlocuteur d’invectives et de menace sur lesquels la logique et le bon sens ont peu de prises.",
+    "effets": "L’action effectuée reçoit un bonus aux jets équivalant au modificateur d’intelligence de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Attitude Alpha.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Vindicative",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade dénonçant la dernière agression de l’adversaire.",
+    "effets": "L’attaque réalisée profite d’un avantage aux jets si la cible a réalisé une attaque contre le personnage. Le personnage peut, à la place, augmenter le jet d’autant que les dégâts permanents subits le cas échéant, maximum 6.",
+    "modularite": "Augmenter les pénalités de 1 permet d’accroitre le maximum du bonus aux jets de 3 si le personnage a opté pour celui-ci.",
+    "notes": "",
+    "conditions": "Attitude Alpha.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Logique",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade visant à prendre l’adversaire dans son propre piège.",
+    "effets": "L’action effectuée reçoit un bonus aux jets équivalant au modificateur d’intelligence de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Attitude Bêta.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Passive",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade dénonçant la dernière tentative de manipulation de l’adversaire.",
+    "effets": "L’attaque réalisée profite d’un avantage en attaque si la cible a produit au moins une tactique durant le round en cours. Si celle-ci a ciblé le personnage lui-même alors il reçoit un bonus d’efficacité équivalant aux pénalités.",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Attitude Bêta.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Vexante",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade qui cherche à remettre en cause l’assurance et l’amour propre de l’adversaire.",
+    "effets": "L’action effectuée reçoit un bonus aux jets équivalant au modificateur de Charisme de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Attitude Delta.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Mesquine",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "",
+    "effets": "Le personnage réalise une tirade dénonçant la dernière justification de l’adversaire (sans doute en se moquant passablement).",
+    "modularite": "",
+    "notes": "",
+    "conditions": "Attitude Delta.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Injuste",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade qui cherche à remettre en cause les bonnes intentions de son interlocuteur.",
+    "effets": "L’action effectuée reçoit un bonus aux jets équivalant au modificateur de sagesse de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Attitude Lambda.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Harcelante",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade qui cherche à éprouver la volonté de l’adversaire.",
+    "effets": "L’action effectuée reçoit un bonus aux jets équivalant au modificateur de volonté de la cible, maximum 4.",
+    "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
+    "notes": "",
+    "conditions": "Attitude Lambda.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Technique",
+    "type": "Joute",
+    "penalite": -2,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage réalise une tirade qui profite d’un de ses attributs.",
+    "effets": "La tirade réalisée profite d’un attribut et convertis le modificateur de celui-ci en un bonus spécifique.",
+    "modularite": "Augmenter les pénalités de +2 permet de doubler le bonus, cependant limité à +4.",
+    "notes": "Notes",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Suicidaire",
+    "type": "Mixte",
+    "penalite": -4,
+    "categorie": "Puissance/Brutale",
+    "restrictions": {
+      "att": true,
+      "def": false,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage agit en même temps que son opposant afin de s’assurer que celui-ci ne puisse y répondre.",
+    "effets": "L’action entreprise est réalisée « en même temps » que celle de l’adversaire. Ni le personnage ni sa cible ne peuvent donc répondre à ces actions simultanées par des interruptions.",
+    "modularite": "Augmenter les pénalités de 2 permet de réduire la marge de condition de 3. Augmenter encore les pénalités de 2 permet de réduire la marge de conditions de 2 supplémentaire (pour un total de 5, soit une simple égalité suffit).",
+    "notes": "",
+    "conditions": "Vitesse du Personnage > Vitesse de la Cible + 5.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Fourbe",
+    "type": "Mixte",
+    "penalite": -4,
+    "categorie": "Finesse",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de faire un coup bas à sa cible.",
+    "effets": "L’action entreprise peut provoquer un « coup bas » (condition physique ET mentale). Comme pour toutes les conditions appliquer une seconde fois en augmente les effets (on parle de condition avancée). Coup bas : La plage d'exploits est réduite de 1 et plage de maladresse augmentée de 1.",
+    "modularite": "Augmenter les pénalités de 2 permet de forcer la cible à l’utiliser que le plus bas de ses deux sauvegardes.",
+    "notes": "",
+    "conditions": "Ruse du Personnage > Ruse de la Cible.",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Affaiblissante",
+    "type": "Mixte",
+    "penalite": -4,
+    "categorie": "Prudence/Patience",
+    "restrictions": {
+      "att": true,
+      "def": true,
+      "tac": true
+    },
+    "types_action": {
+      "combat": true,
+      "joute": true,
+      "mixte": false,
+      "autre": false
+    },
+    "description": "Le personnage tente de provoquer une pénalité d’attribut chez sa cible.",
+    "effets": "L’action entreprise peut provoquer l’ « affaiblissement » d’un attribut (condition physique ou mentale, selon l’attribut). La condition est appliquée si la cible rate son test de sauvegarde. L’attribut doit être du corps si l’action est physique ou de l’esprit si l’action est mentale.",
+    "modularite": "",
+    "notes": "Notes",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Parcimonieuse",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en sacrifiant moins de matière première qu’il n’aurait dû en limitant les pertes à leurs minimums.",
+    "effets": "La création est réalisée avec un requis en matière première réduite de 5% par pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Méticuleuse",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en sacrifiant moins de matériel qu’il n’aurait dû en limitant les pertes à leurs minimums.",
+    "effets": "La création est réalisée avec un requis en matériaux réduite de 5% par pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Maitrisée",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en limitant les pertes en cas d’échec.",
+    "effets": "En cas d’échec le personnage peut récupérer 10% des matières et matériels mis en place pour la création par pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Rapide",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création plus vite qu’il ne le devrait.",
+    "effets": "La création est réalisée avec un requis de temps réduit de 10% par pénalités. Minimum -1 par pénalités. Minimum de temps 50% du temps initial.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Durable",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création avec une solidité accrue.",
+    "effets": "La création est réalisée avec un bonus de solidité équivalente aux pénalités.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Prolifique",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": false,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser plus de quantité que prévu.",
+    "effets": "La création est réalisée en quantité augmentée de 10% par pénalités. Minimum +1 de quantité par pénalité. Maximum +50% de quantité totale.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création de Qualité",
+    "type": "Création",
+    "penalite": -4,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": false,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser une création dont la qualité dépasse normalement ses compétences.",
+    "effets": "La création réalisée peut atteindre un niveau de qualité supérieur de 1 à celui permis par les compétences du personnage. Cette manœuvre ne permet pas de dépasser un niveau de qualité de 6.",
+    "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Luxueuse",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": false,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en rendant celle-ci plus luxueuse, quand bien cela n’a pas d’intérêt sur le plan pratique mais uniquement sur le plan artistique ou financier.",
+    "effets": "La création est réalisée avec un prix final augmenté de 10% par pénalités.",
+    "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Succinte",
+    "type": "Création",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": false,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser une création en moins d’étape que prévu.",
+    "effets": "La création réalisée nécessite une étape de moins pour chaque 2 points de pénalités fixées. Une création ne peut être réalisée en moins de 1 étape. De base une création nécessite autant d’étape que son niveau de qualité + 1.",
+    "modularite": "Augmenter les pénalités de 2 permet donc d’accroitre l’effet.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Appliquée",
+    "type": "Création",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en sacrifiant plus de matière première afin d’avoir de plus grande chance de réussite.",
+    "effets": "La création est réalisée avec un requis en matière première augmenté de 10% par bonus.",
+    "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Patiente",
+    "type": "Création",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en sacrifiant plus de temps que prévu afin de s’assurer de sa réussite.",
+    "effets": "La création est réalisée avec un requis en temps augmenté de 25% par bonus.",
+    "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Restreinte",
+    "type": "Création",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": false,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création en limitant le nombre de produits mais en privilégiant la qualité de son travail.",
+    "effets": "La création est réalisée en quantité réduite de 15% par pénalités. Minimum -1 de quantité par pénalité.",
+    "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Ephémère",
+    "type": "Création",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage tente de réaliser sa création avec une solidité décrue, privilégiant ses chances de réussir même si sa création doit être fragile et éphémère.",
+    "effets": "La création est réalisée avec une pénalité de solidité équivalente à 2*bonus.",
+    "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Création Contrôlée",
+    "type": "Création",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": true
+    },
+    "description": "Le personnage réalise une création sans chercher à atteindre ses limites afin de s’assurer de sa réussite.",
+    "effets": "La création réalisée ne peut prétendre au niveau maximum auquel peut prétendre en temps normale le personnage. Ce niveau devra être au mieux réduit de 1.",
+    "modularite": "Augmenter le bonus de 1 implique de réduire 1 encore le niveau maximum auquel le personnage peut prétendre pour sa création. Maximum 3.",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation en Rituel",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Concentrée",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Controlée",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation de Combat",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Malicieuse",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Planifiée",
+    "type": "Incantation",
+    "penalite": 0,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Amplifiée",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Etendue",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Chargée",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Risquée",
+    "type": "Incantation",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Désinvolte",
+    "type": "Incantation",
+    "penalite": 1,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation à Plusieurs",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  },
+  {
+    "nom": "Incantation Rapide",
+    "type": "Incantation",
+    "penalite": -2,
+    "categorie": "Base",
+    "restrictions": {
+      "att": false,
+      "def": false,
+      "tac": false
+    },
+    "types_action": {
+      "combat": false,
+      "joute": false,
+      "mixte": true,
+      "autre": false
+    },
+    "description": "",
+    "effets": "",
+    "modularite": "",
+    "notes": "",
+    "conditions": "",
+    "resume": "TODO ???"
+  }
+];
+
+  const tbody   = document.getElementById('man-tbody');
+  const search  = document.getElementById('man-search');
+  const selType = document.getElementById('man-type');
+  const selCat  = document.getElementById('man-cat');
+  const selPen  = document.getElementById('man-pen');
+  const fAtt    = document.getElementById('f-att');
+  const fDef    = document.getElementById('f-def');
+  const fTac    = document.getElementById('f-tac');
+  const fCombat = document.getElementById('f-combat');
+  const fJoute  = document.getElementById('f-joute');
+  const fMixte  = document.getElementById('f-mixte');
+  const fAutre  = document.getElementById('f-autre');
+  const counter = document.getElementById('man-count');
+
+  let sortCol = 'nom';
+  let sortAsc = true;
+
+  function penHtml(p) {
+    const lbl = p > 0 ? '+' + p : String(p);
+    const cls = p < 0 ? 'pen-neg' : p > 0 ? 'pen-pos' : 'pen-zero';
+    return `<span class="${cls}">${lbl}</span>`;
+  }
+
+  function restrTags(r) {
+    const out = [];
+    if (r.att) out.push('<span class="tag tag-att">Att</span>');
+    if (r.def) out.push('<span class="tag tag-def">Déf</span>');
+    if (r.tac) out.push('<span class="tag tag-tac">Tac</span>');
+    return out.join(' ');
+  }
+
+  function actionTags(t) {
+    const out = [];
+    if (t.combat) out.push('<span class="tag tag-combat">Combat</span>');
+    if (t.joute)  out.push('<span class="tag tag-joute">Joute</span>');
+    if (t.mixte)  out.push('<span class="tag tag-mixte">Mixte</span>');
+    if (t.autre)  out.push('<span class="tag tag-autre">Autre</span>');
+    return out.join(' ');
+  }
+
+  function detailHtml(m) {
+    let html = `<div class="man-effets">${m.effets}</div>`;
+    if (m.modularite) html += `<div class="man-sub"><span class="man-sub-label">Modularité : </span>${m.modularite}</div>`;
+    if (m.conditions) html += `<div class="man-sub"><span class="man-sub-label">Conditions : </span>${m.conditions}</div>`;
+    if (m.notes)      html += `<div class="man-sub"><span class="man-sub-label">Notes : </span>${m.notes}</div>`;
+    return html;
+  }
+
+  function render(list) {
+    tbody.innerHTML = '';
+    list.forEach(m => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>
+          <div class="man-nom">${m.nom}</div>
+          <div class="man-resume">${m.resume}</div>
+        </td>
+        <td>${m.type}</td>
+        <td>${m.categorie}</td>
+        <td style="text-align:center">${penHtml(m.penalite)}</td>
+        <td>${restrTags(m.restrictions)}</td>
+        <td>${actionTags(m.types_action)}</td>
+        <td>${detailHtml(m)}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+    counter.textContent = list.length + ' manœuvre' + (list.length !== 1 ? 's' : '');
+  }
+
+  function filter() {
+    const q   = search.value.toLowerCase();
+    const typ = selType.value;
+    const cat = selCat.value;
+    const pen = selPen.value;
+
+    let list = DATA.filter(m => {
+      if (typ && m.type !== typ) return false;
+      if (cat && m.categorie !== cat) return false;
+      if (pen !== '' && String(m.penalite) !== pen) return false;
+      if (fAtt.checked    && !m.restrictions.att)    return false;
+      if (fDef.checked    && !m.restrictions.def)    return false;
+      if (fTac.checked    && !m.restrictions.tac)    return false;
+      if (fCombat.checked && !m.types_action.combat) return false;
+      if (fJoute.checked  && !m.types_action.joute)  return false;
+      if (fMixte.checked  && !m.types_action.mixte)  return false;
+      if (fAutre.checked  && !m.types_action.autre)  return false;
+      if (q && !m.nom.toLowerCase().includes(q) &&
+               !m.resume.toLowerCase().includes(q) &&
+               !m.effets.toLowerCase().includes(q) &&
+               !m.type.toLowerCase().includes(q)) return false;
+      return true;
+    });
+
+    list = list.slice().sort((a, b) => {
+      let va = sortCol === 'penalite' ? a[sortCol] : (a[sortCol] || '').toLowerCase();
+      let vb = sortCol === 'penalite' ? b[sortCol] : (b[sortCol] || '').toLowerCase();
+      if (va < vb) return sortAsc ? -1 : 1;
+      if (va > vb) return sortAsc ?  1 : -1;
+      return 0;
+    });
+
+    render(list);
+  }
+
+  [search, selType, selCat, selPen, fAtt, fDef, fTac, fCombat, fJoute, fMixte, fAutre]
+    .forEach(el => el.addEventListener(el.tagName === 'INPUT' && el.type === 'text' ? 'input' : 'change', filter));
+
+  document.querySelectorAll('#man-table th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      if (sortCol === th.dataset.col) sortAsc = !sortAsc;
+      else { sortCol = th.dataset.col; sortAsc = true; }
+      filter();
+    });
+  });
+
+  filter();
+})();
+</script>

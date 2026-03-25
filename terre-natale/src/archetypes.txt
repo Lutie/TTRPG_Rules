@@ -1,0 +1,27 @@
+Archétype de l’Inspiration
+Pour infos, l'archétype lié à ce qu'on imagine être la compétence d'un barde:
+Archétype de l’Inspiration
+Méthode => Dance: ACTS (durée 2 rounds, 2 PS), Chant: ACTL (durée 2 rounds, 5 PS), Musique: ACTC (durée 3 rounds, 2 PS)
+Les cibles doivent percevoir la prestation donc une danse n’affecte que ceux qui la perçoivent, chant et musique que ceux qui l’entendent
+Eval difficulté 5, DR en ajustements aux tests (pas les jets) (donc 10 = +1, 15 = +2, etc)
+Style => Bonus ou Malus
+Bonus = Affecte le personnage
+Malus = DD pour réduire (vs détermination) (n'affecte jamais le personnage lui même)
+Choix : Style, Méthode…
+Composition simple = 1 attribut, experte 2 attributs
+Portée = à proximité du personnage
+Rang 1 : Base
+Rang 2 : Une amélioration
+Rang 3 : Une amélioration
+Rang 4 : Une amélioration
+Rang 5 : Une amélioration
+Améliorations:
+• Eval difficulté 0 (donc bonus +1 en gros)
+• Composition expertes (2 attributs)
+• Tri entre alliés et ennemis (les debuffs affectent pas les alliés et les buffs n'affectent pas les ennemis), de plus les méthodes affectent les personnes qu’ils perçoivent/entendent ou pas la prestation tant qu’elles sont dans la zone d’effet
+• Peux buff ET debuff (le personnage a accès aux deux fonctionnalités, une même composition peux buff un attribut et debuff un autre)
+• 5 de mémoire pour des compositions
+• Durée en tours (Cout +2)
+• Sauvegarde adversaire désavantagés (pour les debuffs)
+• Portée supérieure (proximité => zone)
+
