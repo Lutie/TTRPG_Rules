@@ -1,0 +1,14 @@
+services:
+  app-dash:
+    build: ./app-dash
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./app-dash/data:/app/data
+    restart: unless-stopped
+
+  app-sheet:
+    build: ./app-sheet
+    ports:
+      - "8080:80"
+    restart: unless-stopped
