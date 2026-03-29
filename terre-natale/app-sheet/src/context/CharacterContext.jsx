@@ -187,6 +187,7 @@ const STORAGE_CHARACTERS = 'terreNatale_characters';
 const STORAGE_LAST_ID = 'terreNatale_lastCharacterId';
 const STORAGE_OLD_KEY = 'terreNatale_character';
 const STORAGE_DASHBOARD_URL = 'terreNatale_dashboardUrl';
+const STORAGE_SYNC_ENABLED = 'terreNatale_syncEnabled';
 
 // Helpers localStorage
 const loadAllCharacters = () => {
@@ -239,6 +240,9 @@ export function CharacterProvider({ children }) {
   const [currentCharacterId, setCurrentCharacterId] = useState(null);
   const [dashboardUrl, setDashboardUrlState] = useState(
     () => localStorage.getItem(STORAGE_DASHBOARD_URL) || 'https://dash.thalifen.synology.me'
+  );
+  const [syncEnabled, setSyncEnabledState] = useState(
+    () => localStorage.getItem(STORAGE_SYNC_ENABLED) !== 'false'
   );
 
   // Initialisation : migration + chargement
@@ -390,8 +394,13 @@ export function CharacterProvider({ children }) {
     }
   }, []);
 
+  const setSyncEnabled = useCallback((val) => {
+    setSyncEnabledState(val);
+    localStorage.setItem(STORAGE_SYNC_ENABLED, val ? 'true' : 'false');
+  }, []);
+
   const syncToDashboard = useCallback(async () => {
-    if (!dashboardUrl || !character) return false;
+    if (!syncEnabled || !dashboardUrl || !character) return false;
     try {
       // Calculer les max des ressources pour le dashboard
       const getAttr = (id) => getValeurTotale(character, id);
@@ -429,7 +438,7 @@ export function CharacterProvider({ children }) {
       console.error('Sync dashboard échoué:', err);
       return false;
     }
-  }, [dashboardUrl, character]);
+  }, [syncEnabled, dashboardUrl, character]);
 
   const value = {
     character,
@@ -444,6 +453,8 @@ export function CharacterProvider({ children }) {
     importCharacter,
     dashboardUrl,
     setDashboardUrl,
+    syncEnabled,
+    setSyncEnabled,
     syncToDashboard
   };
 

@@ -87,7 +87,7 @@ const ATTR_FIELDS = [
 ];
 
 function TabConfig() {
-  const { character, updateCharacter, dashboardUrl, setDashboardUrl } = useCharacter();
+  const { character, updateCharacter, dashboardUrl, setDashboardUrl, syncEnabled, setSyncEnabled } = useCharacter();
   const [activeModal, setActiveModal] = useState(null);
   const [urlInput, setUrlInput] = useState(dashboardUrl);
   const bonusConfig = character.bonusConfig || {};
@@ -186,25 +186,6 @@ function TabConfig() {
 
           <div className="config-option">
             <div className="config-option-header">
-              <span className="config-option-label">Synchronisation Dashboard</span>
-              {dashboardUrl && <span className="config-bonus-active">Actif</span>}
-            </div>
-            <p className="config-option-desc">URL du serveur dashboard pour la synchronisation automatique</p>
-            <div className="charselect-dashboard-row">
-              <input
-                type="text"
-                placeholder="https://dash.thalifen.synology.me"
-                value={urlInput}
-                onChange={e => setUrlInput(e.target.value)}
-                onBlur={() => setDashboardUrl(urlInput)}
-                onKeyDown={e => { if (e.key === 'Enter') { setDashboardUrl(urlInput); e.target.blur(); } }}
-                className="config-url-input"
-              />
-            </div>
-          </div>
-
-          <div className="config-option">
-            <div className="config-option-header">
               <span className="config-option-label">Bonus aux attributs</span>
               {hasAttrBonus && <span className="config-bonus-active">Actif</span>}
             </div>
@@ -234,6 +215,33 @@ function TabConfig() {
             <button className="btn-config" onClick={() => setActiveModal('max')}>
               Configurer les max
             </button>
+          </div>
+
+          <div className="config-option">
+            <div className="config-option-header">
+              <span className="config-option-label">Synchronisation Dashboard</span>
+              {syncEnabled && dashboardUrl && <span className="config-bonus-active">Actif</span>}
+            </div>
+            <p className="config-option-desc">URL du serveur dashboard pour la synchronisation automatique</p>
+            <label className="config-toggle-row">
+              <input
+                type="checkbox"
+                checked={!!syncEnabled}
+                onChange={() => setSyncEnabled(!syncEnabled)}
+              />
+              <span>Activer la synchronisation</span>
+            </label>
+            <div className="charselect-dashboard-row">
+              <input
+                type="text"
+                placeholder="https://dash.thalifen.synology.me"
+                value={urlInput}
+                onChange={e => setUrlInput(e.target.value)}
+                onBlur={() => setDashboardUrl(urlInput)}
+                onKeyDown={e => { if (e.key === 'Enter') { setDashboardUrl(urlInput); e.target.blur(); } }}
+                className="config-url-input"
+              />
+            </div>
           </div>
         </div>
       </section>

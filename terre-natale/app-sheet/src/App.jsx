@@ -139,7 +139,7 @@ function AppContent() {
   const [activeTab, setActiveTab] = useState('principal');
   const [showCharSelect, setShowCharSelect] = useState(false);
   const [syncStatus, setSyncStatus] = useState(null); // null | 'ok' | 'error'
-  const { character, currentCharacterId, exportCharacter, createNewCharacter, dashboardUrl, syncToDashboard } = useCharacter();
+  const { character, currentCharacterId, exportCharacter, createNewCharacter, dashboardUrl, syncEnabled, syncToDashboard } = useCharacter();
   const calc = useCharacterCalculations(character || {});
 
   const visibleTabs = ALL_TABS.filter(tab =>
@@ -161,12 +161,12 @@ function AppContent() {
 
   // Sync auto toutes les 30s
   useEffect(() => {
-    if (!dashboardUrl || !character) return;
+    if (!syncEnabled || !dashboardUrl || !character) return;
     const interval = setInterval(() => {
       syncToDashboard();
     }, 30000);
     return () => clearInterval(interval);
-  }, [dashboardUrl, character, syncToDashboard]);
+  }, [syncEnabled, dashboardUrl, character, syncToDashboard]);
 
   const renderTabContent = () => {
     switch (effectiveTab) {
@@ -204,7 +204,7 @@ function AppContent() {
           <button onClick={exportCharacter} title="Exporter en JSON">Exporter</button>
           {character && <button onClick={() => printCharacter(character, calc)} title="Exporter en PDF">PDF</button>}
           <button onClick={() => { createNewCharacter(); }} title="Créer un nouveau personnage">Nouveau</button>
-          {dashboardUrl && (
+          {syncEnabled && dashboardUrl && (
             <button
               className={`btn-sync ${syncStatus === 'ok' ? 'sync-ok' : syncStatus === 'error' ? 'sync-error' : ''}`}
               onClick={handleSync}
