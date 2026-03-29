@@ -238,7 +238,7 @@ export function CharacterProvider({ children }) {
   const [character, setCharacter] = useState(null);
   const [currentCharacterId, setCurrentCharacterId] = useState(null);
   const [dashboardUrl, setDashboardUrlState] = useState(
-    () => localStorage.getItem(STORAGE_DASHBOARD_URL) || ''
+    () => localStorage.getItem(STORAGE_DASHBOARD_URL) || 'https://dash.thalifen.synology.me'
   );
 
   // Initialisation : migration + chargement

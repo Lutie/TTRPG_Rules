@@ -28,10 +28,9 @@ const ALL_TABS = [
 ];
 
 function CharacterSelectModal({ onClose, canClose }) {
-  const { listCharacters, loadCharacter, createNewCharacter, deleteCharacter, importCharacter, dashboardUrl, setDashboardUrl } = useCharacter();
+  const { listCharacters, loadCharacter, createNewCharacter, deleteCharacter, importCharacter } = useCharacter();
   const [characters, setCharacters] = useState(() => listCharacters());
   const [confirmDelete, setConfirmDelete] = useState(null);
-  const [urlInput, setUrlInput] = useState(dashboardUrl);
   const fileInputRef = useRef(null);
 
   const refresh = () => setCharacters(listCharacters());
@@ -131,20 +130,6 @@ function CharacterSelectModal({ onClose, canClose }) {
           />
         </div>
 
-        <div className="charselect-dashboard">
-          <label className="charselect-dashboard-label">Dashboard URL</label>
-          <div className="charselect-dashboard-row">
-            <input
-              type="text"
-              placeholder="http://192.168.1.x:3100"
-              value={urlInput}
-              onChange={e => setUrlInput(e.target.value)}
-              onBlur={() => setDashboardUrl(urlInput)}
-              onKeyDown={e => { if (e.key === 'Enter') { setDashboardUrl(urlInput); e.target.blur(); } }}
-            />
-            {dashboardUrl && <span className="charselect-dashboard-ok">✓</span>}
-          </div>
-        </div>
       </div>
     </div>
   );
