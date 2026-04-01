@@ -41,8 +41,8 @@ const migrateCharacterFields = (character) => {
   migrateField('allegeance', 'allegiance', DATA.allegeances);
   migrateField('persona', 'persona', DATA.personas);
   migrateField('origine', 'origin', DATA.origines);
-  migrateField('comportement', 'behavior', DATA.temperaments);
-  migrateField('caractere', 'nature', DATA.temperaments);
+  migrateField('comportement', 'behavior', DATA.comportements);
+  migrateField('caractere', 'nature', DATA.caracteres);
 
   // Migrate caste.nom → caste.id
   let caste = character.caste ? { ...character.caste } : character.caste;
@@ -188,6 +188,7 @@ const STORAGE_LAST_ID = 'terreNatale_lastCharacterId';
 const STORAGE_OLD_KEY = 'terreNatale_character';
 const STORAGE_DASHBOARD_URL = 'terreNatale_dashboardUrl';
 const STORAGE_SYNC_ENABLED = 'terreNatale_syncEnabled';
+const STORAGE_PLAYER_TOKEN = 'terreNatale_playerToken';
 
 // Helpers localStorage
 const loadAllCharacters = () => {
@@ -243,6 +244,9 @@ export function CharacterProvider({ children }) {
   );
   const [syncEnabled, setSyncEnabledState] = useState(
     () => localStorage.getItem(STORAGE_SYNC_ENABLED) !== 'false'
+  );
+  const [playerToken, setPlayerTokenState] = useState(
+    () => localStorage.getItem(STORAGE_PLAYER_TOKEN) || ''
   );
 
   // Initialisation : migration + chargement
@@ -399,9 +403,25 @@ export function CharacterProvider({ children }) {
     localStorage.setItem(STORAGE_SYNC_ENABLED, val ? 'true' : 'false');
   }, []);
 
+  const setPlayerToken = useCallback((token) => {
+    const trimmed = token.trim().toUpperCase();
+    setPlayerTokenState(trimmed);
+    if (trimmed) {
+      localStorage.setItem(STORAGE_PLAYER_TOKEN, trimmed);
+    } else {
+      localStorage.removeItem(STORAGE_PLAYER_TOKEN);
+    }
+  }, []);
+
   const syncToDashboard = useCallback(async () => {
     if (!syncEnabled || !dashboardUrl || !character) return false;
+    // Ne pas synchroniser les personnages sans nom
+    if (!character.infos?.nom?.trim()) return false;
     try {
+      // Récupérer le dateModification depuis le store local
+      const chars = loadAllCharacters();
+      const dateModification = chars[character.uuid]?._meta?.dateModification || new Date().toISOString();
+
       // Calculer les max des ressources pour le dashboard
       const getAttr = (id) => getValeurTotale(character, id);
       const bonus = character.bonusConfig || {};
@@ -427,18 +447,75 @@ export function CharacterProvider({ children }) {
         enrichedRessources[res.id] = { ...enrichedRessources[res.id], max };
       });
 
-      const enrichedCharacter = { ...character, ressources: enrichedRessources };
+      const payload = {
+        ...character,
+        ressources: enrichedRessources,
+        dateModification,
+        playerToken: playerToken || undefined
+      };
+
       const res = await fetch(`${dashboardUrl}/api/sync`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(enrichedCharacter)
+        body: JSON.stringify(payload)
       });
+
+      if (res.status === 409) return 'conflict';
       return res.ok;
     } catch (err) {
       console.error('Sync dashboard échoué:', err);
       return false;
     }
-  }, [syncEnabled, dashboardUrl, character]);
+  }, [syncEnabled, dashboardUrl, character, playerToken]);
+
+  const pullFromDashboard = useCallback(async () => {
+    if (!dashboardUrl || !playerToken) return { ok: false, error: 'Token ou URL manquant' };
+    try {
+      const res = await fetch(`${dashboardUrl}/api/players/${playerToken}/characters`);
+      if (res.status === 404) return { ok: false, error: 'Token invalide' };
+      if (!res.ok) return { ok: false, error: 'Erreur serveur' };
+
+      const remoteChars = await res.json();
+      const localChars = loadAllCharacters();
+      let added = 0;
+      let updated = 0;
+
+      for (const remote of remoteChars) {
+        const { _sync, ...charData } = remote;
+        const remoteDate = _sync?.dateModification;
+        const local = localChars[charData.uuid];
+        const localDate = local?._meta?.dateModification;
+
+        if (!local) {
+          localChars[charData.uuid] = {
+            ...charData,
+            _meta: {
+              uuid: charData.uuid,
+              nom: charData.infos?.nom || 'Sans nom',
+              dateModification: remoteDate || new Date().toISOString()
+            }
+          };
+          added++;
+        } else if (remoteDate && localDate && remoteDate > localDate) {
+          localChars[charData.uuid] = {
+            ...charData,
+            _meta: {
+              uuid: charData.uuid,
+              nom: charData.infos?.nom || 'Sans nom',
+              dateModification: remoteDate
+            }
+          };
+          updated++;
+        }
+      }
+
+      saveAllCharacters(localChars);
+      return { ok: true, added, updated };
+    } catch (err) {
+      console.error('Pull dashboard échoué:', err);
+      return { ok: false, error: 'Erreur réseau' };
+    }
+  }, [dashboardUrl, playerToken]);
 
   const value = {
     character,
@@ -455,7 +532,10 @@ export function CharacterProvider({ children }) {
     setDashboardUrl,
     syncEnabled,
     setSyncEnabled,
-    syncToDashboard
+    playerToken,
+    setPlayerToken,
+    syncToDashboard,
+    pullFromDashboard
   };
 
   return (

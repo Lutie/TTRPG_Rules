@@ -4,6 +4,7 @@ import { useCharacterCalculations } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
 import AttributeBlock from '../common/AttributeBlock';
 import Section from '../common/Section';
+import PickerModal from '../common/PickerModal';
 
 // Attributs disponibles pour les origines
 const ORIGINES_ATTRS = [
@@ -27,6 +28,7 @@ function TabPrincipal() {
   const { character, updateCharacter } = useCharacter();
   const calc = useCharacterCalculations(character);
   const [showOriginesModal, setShowOriginesModal] = useState(false);
+  const [pickerModal, setPickerModal] = useState(null);
 
   const handleInfoChange = (field, value) => {
     updateCharacter(prev => ({
@@ -106,81 +108,59 @@ function TabPrincipal() {
           {/* Ligne 2 : Ethnie | Milieu de vie | Allégeance | Persona */}
           <div className="info-field">
             <label>Ethnie</label>
-            <select
-              value={character.infos?.ethnicity || ''}
-              onChange={(e) => handleEthnieChange(e.target.value)}
+            <button
+              className={`picker-select-btn${character.infos?.ethnicity ? ' has-value' : ''}`}
+              onClick={() => setPickerModal('ethnicity')}
             >
-              <option value="">-- Choisir --</option>
-              {Object.entries(ethniesParRace).map(([race, liste]) => (
-                <optgroup key={race} label={race}>
-                  {liste.map(e => (
-                    <option key={e.id} value={e.id}>{e.nom}</option>
-                  ))}
-                </optgroup>
-              ))}
-            </select>
+              {DATA.ethnies.find(e => e.id === character.infos?.ethnicity)?.nom || '— Choisir —'}
+            </button>
           </div>
           <div className="info-field">
             <label>Milieu de vie</label>
-            <select
-              value={character.infos?.environment || ''}
-              onChange={(e) => handleInfoChange('environment', e.target.value)}
+            <button
+              className={`picker-select-btn${character.infos?.environment ? ' has-value' : ''}`}
+              onClick={() => setPickerModal('environment')}
             >
-              <option value="">-- Choisir --</option>
-              {DATA.milieux.map(m => (
-                <option key={m.id} value={m.id}>{m.nom}</option>
-              ))}
-            </select>
+              {DATA.milieux.find(m => m.id === character.infos?.environment)?.nom || '— Choisir —'}
+            </button>
           </div>
           <div className="info-field">
             <label>Allégeance</label>
-            <select
-              value={character.infos?.allegiance || ''}
-              onChange={(e) => handleInfoChange('allegiance', e.target.value)}
+            <button
+              className={`picker-select-btn${character.infos?.allegiance ? ' has-value' : ''}`}
+              onClick={() => setPickerModal('allegiance')}
             >
-              <option value="">-- Choisir --</option>
-              {DATA.allegeances.map(a => (
-                <option key={a.id} value={a.id}>{a.nom}</option>
-              ))}
-            </select>
+              {DATA.allegeances.find(a => a.id === character.infos?.allegiance)?.nom || '— Choisir —'}
+            </button>
           </div>
           <div className="info-field">
             <label>Persona</label>
-            <select
-              value={character.infos?.persona || ''}
-              onChange={(e) => handleInfoChange('persona', e.target.value)}
+            <button
+              className={`picker-select-btn${character.infos?.persona ? ' has-value' : ''}`}
+              onClick={() => setPickerModal('persona')}
             >
-              <option value="">-- Choisir --</option>
-              {DATA.personas.map(p => (
-                <option key={p.id} value={p.id}>{p.nom}</option>
-              ))}
-            </select>
+              {DATA.personas.find(p => p.id === character.infos?.persona)?.nom || '— Choisir —'}
+            </button>
           </div>
 
           {/* Ligne 3 : Comportement | Caractère | Nombre Fétiche */}
           <div className="info-field">
             <label>Comportement</label>
-            <select
-              value={character.infos?.behavior || ''}
-              onChange={(e) => handleInfoChange('behavior', e.target.value)}
+            <button
+              className={`picker-select-btn${character.infos?.behavior ? ' has-value' : ''}`}
+              onClick={() => setPickerModal('behavior')}
             >
-              <option value="">-- Choisir --</option>
-              {DATA.temperaments.map(t => (
-                <option key={t.id} value={t.id}>{t.nom}</option>
-              ))}
-            </select>
+              {DATA.comportements.find(c => c.id === character.infos?.behavior)?.nom || '— Choisir —'}
+            </button>
           </div>
           <div className="info-field">
             <label>Caractère</label>
-            <select
-              value={character.infos?.nature || ''}
-              onChange={(e) => handleInfoChange('nature', e.target.value)}
+            <button
+              className={`picker-select-btn${character.infos?.nature ? ' has-value' : ''}`}
+              onClick={() => setPickerModal('nature')}
             >
-              <option value="">-- Choisir --</option>
-              {DATA.temperaments.map(t => (
-                <option key={t.id} value={t.id}>{t.nom}</option>
-              ))}
-            </select>
+              {DATA.caracteres.find(c => c.id === character.infos?.nature)?.nom || '— Choisir —'}
+            </button>
           </div>
           <div className="info-field">
             <label>Nombre Fétiche</label>
@@ -344,6 +324,17 @@ function TabPrincipal() {
           character={character}
           updateCharacter={updateCharacter}
           onClose={() => setShowOriginesModal(false)}
+        />
+      )}
+
+      {/* Picker Modal */}
+      {pickerModal && (
+        <ActivePickerModal
+          field={pickerModal}
+          character={character}
+          handleInfoChange={handleInfoChange}
+          handleEthnieChange={handleEthnieChange}
+          onClose={() => setPickerModal(null)}
         />
       )}
     </div>
@@ -615,14 +606,15 @@ function PPSummary({ character, calc }) {
 }
 
 const ENTRAINEMENTS = [
-  { id: 'armesMelee', label: 'Armes de Mêlée' },
+  { id: 'naturel',       label: 'Naturel' },
+  { id: 'armesMelee',   label: 'Armes de Mêlée' },
   { id: 'armesDistance', label: 'Armes à Distance' },
-  { id: 'armesJet', label: 'Armes de Jet' },
-  { id: 'armures', label: 'Armures' },
-  { id: 'outils', label: 'Outils' },
-  { id: 'magie', label: 'Magie' },
-  { id: 'science', label: 'Science' },
-  { id: 'social', label: 'Social' }
+  { id: 'armesJet',     label: 'Armes de Jet' },
+  { id: 'armures',      label: 'Armures' },
+  { id: 'outils',       label: 'Outils' },
+  { id: 'magie',        label: 'Magie' },
+  { id: 'science',      label: 'Science' },
+  { id: 'social',       label: 'Social' },
 ];
 
 const NIVEAUX_ENTRAINEMENT = [
@@ -634,6 +626,10 @@ const NIVEAUX_ENTRAINEMENT = [
 
 function EntrainementsSection({ character, updateCharacter }) {
   const entrainements = character.entrainements || {};
+  const [showAdd, setShowAdd] = useState(false);
+
+  const addedIds = new Set(Object.keys(entrainements));
+  const available = ENTRAINEMENTS.filter(e => !addedIds.has(e.id));
 
   const handleChange = (id, value) => {
     updateCharacter(prev => ({
@@ -642,19 +638,37 @@ function EntrainementsSection({ character, updateCharacter }) {
     }));
   };
 
+  const handleAdd = (id) => {
+    handleChange(id, 0);
+    setShowAdd(false);
+  };
+
+  const handleRemove = (id) => {
+    updateCharacter(prev => {
+      const next = { ...(prev.entrainements || {}) };
+      delete next[id];
+      return { ...prev, entrainements: next };
+    });
+  };
+
   return (
     <div className="entrainements-grid">
-      {ENTRAINEMENTS.map(e => {
-        const niveau = entrainements[e.id] ?? 0;
+      {Object.keys(entrainements).map(id => {
+        const e = ENTRAINEMENTS.find(x => x.id === id);
+        if (!e) return null;
+        const niveau = entrainements[id] ?? 0;
         return (
-          <div key={e.id} className="entrainement-box">
-            <span className="entrainement-label">{e.label}</span>
+          <div key={id} className="entrainement-box">
+            <div className="entrainement-box-header">
+              <span className="entrainement-label">{e.label}</span>
+              <button className="entrainement-delete" onClick={() => handleRemove(id)} title="Retirer">×</button>
+            </div>
             <div className="entrainement-levels">
               {NIVEAUX_ENTRAINEMENT.map(n => (
                 <button
                   key={n.value}
                   className={`entrainement-btn ${niveau === n.value ? 'active' : ''} niveau-${n.value}${n.special ? ' special' : ''}`}
-                  onClick={() => handleChange(e.id, n.value)}
+                  onClick={() => handleChange(id, n.value)}
                   title={n.special
                     ? `${n.label} — Uniquement accessible dans des conditions spéciales ou avec l'accord explicite du Meneur de Jeu`
                     : n.label}
@@ -669,6 +683,25 @@ function EntrainementsSection({ character, updateCharacter }) {
           </div>
         );
       })}
+
+      {available.length > 0 && (
+        <div className="entrainement-add-card" onClick={() => setShowAdd(true)}>
+          <span className="entrainement-add-icon">+</span>
+        </div>
+      )}
+
+      {showAdd && (
+        <div className="entrainement-add-overlay" onClick={() => setShowAdd(false)}>
+          <div className="entrainement-add-list" onClick={e => e.stopPropagation()}>
+            <div className="entrainement-add-title">Ajouter un entraînement</div>
+            {available.map(e => (
+              <button key={e.id} className="entrainement-add-item" onClick={() => handleAdd(e.id)}>
+                {e.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -1091,6 +1124,243 @@ function OriginesModal({ character, updateCharacter, onClose }) {
       </div>
     </div>
   );
+}
+
+// ─── Helpers attributs ───────────────────────────────────────────────────────
+
+const ATTR_NOMS = Object.fromEntries(ORIGINES_ATTRS.map(a => [a.id, a.nom]));
+const attrList  = (ids) => ids?.length ? ids.map(id => ATTR_NOMS[id] || id).join(', ') : '—';
+
+function AttrBoosts({ item }) {
+  if (!item.strongAttributes?.length && !item.weakAttributes?.length) return null;
+  return (
+    <div className="picker-item-extra">
+      {item.strongAttributes?.length > 0 && (
+        <div className="picker-item-attr-row">
+          <span className="picker-attr-label picker-attr-boost">Boost</span>
+          <span>{attrList(item.strongAttributes)}</span>
+        </div>
+      )}
+      {item.weakAttributes?.length > 0 && (
+        <div className="picker-item-attr-row">
+          <span className="picker-attr-label picker-attr-deboost">Déboost</span>
+          <span>{attrList(item.weakAttributes)}</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function MilieuExtra({ item }) {
+  if (item.nbBoosts === 0 && item.nbDeboosts === 0) return null;
+  return (
+    <div className="picker-item-extra">
+      <div className="picker-item-attr-row">
+        <span className="picker-attr-label picker-attr-boost">
+          {item.nbBoosts} Boost{item.nbBoosts > 1 ? 's' : ''}
+        </span>
+        <span>parmi : {attrList(item.strongAttributes)}</span>
+      </div>
+      <div className="picker-item-attr-row">
+        <span className="picker-attr-label picker-attr-deboost">
+          {item.nbDeboosts} Déboost{item.nbDeboosts > 1 ? 's' : ''}
+        </span>
+        <span>parmi : {attrList(item.weakAttributes)}</span>
+      </div>
+    </div>
+  );
+}
+
+// Formate attributs_forts/faibles bruts (peut contenir { choice: [...] })
+function formatAttrsRaw(list) {
+  if (!list?.length) return null;
+  const parts = list.map(a => {
+    if (typeof a === 'string') return a;
+    if (a.choice) return a.choice.join(' ou ');
+    if (a.id) return a.id;
+    return '';
+  }).filter(Boolean);
+  return parts.length ? parts.join(', ') : null;
+}
+
+// Formate les attributs secondaires de naissance
+function formatNaissance(attrs) {
+  if (!attrs) return null;
+  return Object.entries(attrs).map(([id, v]) =>
+    v.val !== undefined ? `${id} ${v.val}` : `${id} ${v.min}–${v.max}`
+  ).join(' · ');
+}
+
+function EthnieExtra({ item }) {
+  const attrsForts   = formatAttrsRaw(item.attributs_forts);
+  const attrsFaibles = formatAttrsRaw(item.attributs_faibles);
+  const naissance    = formatNaissance(item.attributs_naissance);
+  const particularites = [
+    ...(item.particularites_naissance  || []),
+    ...(item.particularites_culturelles || []),
+  ];
+
+  return (
+    <div className="ethnie-extra">
+      {attrsForts && (
+        <div className="ethnie-extra-row">
+          <span className="ethnie-extra-key">Attributs forts</span>
+          <span className="ethnie-extra-val">{attrsForts}</span>
+        </div>
+      )}
+      {attrsFaibles && (
+        <div className="ethnie-extra-row">
+          <span className="ethnie-extra-key">Attributs faibles</span>
+          <span className="ethnie-extra-val">{attrsFaibles}</span>
+        </div>
+      )}
+      {naissance && (
+        <div className="ethnie-extra-row">
+          <span className="ethnie-extra-key">Attrs secondaires</span>
+          <span className="ethnie-extra-val ethnie-extra-val--mono">{naissance}</span>
+        </div>
+      )}
+      {item.allegeances?.length > 0 && (
+        <div className="ethnie-extra-row">
+          <span className="ethnie-extra-key">Allégeances</span>
+          <span className="ethnie-extra-val">{item.allegeances.join(', ')}</span>
+        </div>
+      )}
+      {item.environnement?.length > 0 && (
+        <div className="ethnie-extra-row">
+          <span className="ethnie-extra-key">Environnements</span>
+          <span className="ethnie-extra-val">{item.environnement.join(', ')}</span>
+        </div>
+      )}
+      {item.origines && (
+        <div className="ethnie-extra-row ethnie-extra-row--block">
+          <span className="ethnie-extra-key">Origines</span>
+          <span className="ethnie-extra-val">{item.origines}</span>
+        </div>
+      )}
+      {particularites.length > 0 && (
+        <div className="ethnie-extra-row ethnie-extra-row--block">
+          <span className="ethnie-extra-key">Particularités</span>
+          <div className="ethnie-extra-pills">
+            {particularites.map((p, i) => (
+              <span key={i} className="ethnie-extra-pill">
+                {p.nom}{p.details?.length ? ` (${p.details.join(', ')})` : ''}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+      {item.competences?.length > 0 && (
+        <div className="ethnie-extra-row ethnie-extra-row--block">
+          <span className="ethnie-extra-key">Compétences</span>
+          <div className="ethnie-extra-pills">
+            {item.competences.map((c, i) => (
+              <span key={i} className="ethnie-extra-pill ethnie-extra-pill--competence">
+                {c.replace(/\.$/, '')}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+      {item.traits_personnalite?.length > 0 && (
+        <div className="ethnie-extra-row ethnie-extra-row--block">
+          <span className="ethnie-extra-key">Personnalité</span>
+          <div className="ethnie-extra-pills">
+            {item.traits_personnalite.map((t, i) => (
+              <span key={i} className="ethnie-extra-pill ethnie-extra-pill--trait">
+                {t.replace(/\.$/, '')}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Picker actif — configure et rend le PickerModal selon le champ ───────────
+
+const ALLEGEANCES_AVEC_DESC = DATA.allegeances.map(a => ({ ...a, description: a.catchphrase }));
+const ETHNIES_AVEC_SOUS     = DATA.ethnies.map(e => ({ ...e, subtitle: e.sousNom }));
+
+// Mapping des chaînes anglaises de ethnies.json vers les IDs français
+const ALLEGEANCE_EN_TO_ID = {
+  Neutral: 'neutre',  Sciences: 'sciences', Steam: 'steam',   Reason: 'raison',
+  Emeth:   'emeth',   Nature:   'nature',   Ankou: 'ankou',   Heritage: 'heritage',
+  Chaos:   'chaos',   Ambition: 'ambition', Silence: 'silence', Faith: 'foi',
+  Source:  'source',  Dreams:   'songes',   Magic: 'magie',   Arcanes: 'arcanes',
+};
+const ENV_EN_TO_ID = {
+  'Urban':        'urbain',   'City-dwelling': 'citadin',    'Rural':    'campagne',
+  'Desertic':     'steppe',   'Desert':        'steppe',     'Mountain': 'montagne',
+  'Mountainous':  'montagne', 'Nomadic':       'nomade',     'Forest':   'forestier',
+  'Marine':       'littoral', 'Subterranean':  'souterrains',
+  'Desert (hot)': 'steppe',   'Desert (hot/cold)': 'steppe',
+};
+
+function getPreferredIds(list, mapping) {
+  const ids = new Set();
+  (list || []).forEach(s => {
+    if (mapping[s]) { ids.add(mapping[s]); return; }
+    // "Forest and Marine" → try each part
+    s.split(/ and | or /i).forEach(part => {
+      const key = part.trim();
+      if (mapping[key]) ids.add(mapping[key]);
+    });
+  });
+  return ids;
+}
+
+function ActivePickerModal({ field, character, handleInfoChange, handleEthnieChange, onClose }) {
+  const infos = character.infos || {};
+
+  const ethnie = infos.ethnicity ? DATA.ethnies.find(e => e.id === infos.ethnicity) : null;
+  const prefAllegeances = getPreferredIds(ethnie?.allegeances,  ALLEGEANCE_EN_TO_ID);
+  const prefMilieux     = getPreferredIds(ethnie?.environnement, ENV_EN_TO_ID);
+
+  const configs = {
+    ethnicity: {
+      title: 'Ethnie', items: ETHNIES_AVEC_SOUS,
+      currentValue: infos.ethnicity || '',
+      onSelect: handleEthnieChange,
+      searchable: true, wide: true,
+      renderExtra: (item) => <EthnieExtra item={item} />,
+    },
+    environment: {
+      title: 'Milieu de vie',
+      items: DATA.milieux.map(m => ({ ...m, culturel: prefMilieux.has(m.id) })),
+      currentValue: infos.environment || '',
+      onSelect: (id) => handleInfoChange('environment', id),
+      renderExtra: (item) => <MilieuExtra item={item} />,
+    },
+    allegiance: {
+      title: 'Allégeance',
+      items: ALLEGEANCES_AVEC_DESC.map(a => ({ ...a, culturel: prefAllegeances.has(a.id) })),
+      currentValue: infos.allegiance || '',
+      onSelect: (id) => handleInfoChange('allegiance', id),
+      renderExtra: (item) => <AttrBoosts item={item} />,
+    },
+    persona: {
+      title: 'Persona', items: DATA.personas,
+      currentValue: infos.persona || '',
+      onSelect: (id) => handleInfoChange('persona', id),
+      searchable: true,
+      renderExtra: (item) => <AttrBoosts item={item} />,
+    },
+    behavior: {
+      title: 'Comportement', items: DATA.comportements,
+      currentValue: infos.behavior || '',
+      onSelect: (id) => handleInfoChange('behavior', id),
+    },
+    nature: {
+      title: 'Caractère', items: DATA.caracteres,
+      currentValue: infos.nature || '',
+      onSelect: (id) => handleInfoChange('nature', id),
+    },
+  };
+  const cfg = configs[field];
+  if (!cfg) return null;
+  return <PickerModal {...cfg} onClose={onClose} />;
 }
 
 export default TabPrincipal;

@@ -235,34 +235,113 @@ export const ethnies = _rawEthnies.map(e => ({
   weakAttributes:   _flattenAttrs(e.attributs_faibles),
 }));
 
+const CORPS  = ['FOR', 'DEX', 'AGI', 'CON', 'PER'];
+const ESPRIT = ['CHA', 'INT', 'RUS', 'VOL', 'SAG'];
+const TOUS   = [...ESPRIT, ...CORPS];
+
 // Allégeances
 export const allegeances = [
-  { id: "neutre", nom: "Neutre", strongAttributes: [], weakAttributes: [] },
-  { id: "magie", nom: "Magie", strongAttributes: ["MAG"], weakAttributes: ["CHN"] },
-  { id: "nature", nom: "Nature", strongAttributes: ["EQU"], weakAttributes: ["MAG", "LOG"] }
+  { id: 'neutre',   nom: 'Neutre',    catchphrase: 'Le Refus du Choix',                strongAttributes: [],          weakAttributes: []     },
+  { id: 'magie',    nom: 'Magie',     catchphrase: 'La Primauté du Mystère',            strongAttributes: ['MAG'],     weakAttributes: ['CHN'] },
+  { id: 'arcanes',  nom: 'Arcanes',   catchphrase: 'La Réécriture du Réel',             strongAttributes: ['MAG'],     weakAttributes: ['EQU'] },
+  { id: 'heritage', nom: 'Héritage',  catchphrase: 'Le Poids du Passé',                 strongAttributes: ['MAG'],     weakAttributes: TOUS   },
+  { id: 'nature',   nom: 'Nature',    catchphrase: "L'Harmonie Vivante",                strongAttributes: ['EQU'],     weakAttributes: ['MAG', 'LOG'] },
+  { id: 'source',   nom: 'Source',    catchphrase: "L'Ordre Fondamental",               strongAttributes: ['EQU'],     weakAttributes: TOUS   },
+  { id: 'ankou',    nom: 'Ankou',     catchphrase: 'Le Cycle Inéluctable',              strongAttributes: ['EQU'],     weakAttributes: ['CHN'] },
+  { id: 'chaos',    nom: 'Chaos',     catchphrase: "L'Acceptation de l'Imprévisible",   strongAttributes: ['CHN'],     weakAttributes: ['EQU'] },
+  { id: 'songes',   nom: 'Songes',    catchphrase: 'La Guidance de l\'Intuition',       strongAttributes: ['CHN'],     weakAttributes: TOUS   },
+  { id: 'steam',    nom: 'Steam',     catchphrase: 'La Foi dans la Machine',            strongAttributes: ['LOG'],     weakAttributes: ['CHN'] },
+  { id: 'sciences', nom: 'Sciences',  catchphrase: 'Le Dépassement des Limites',        strongAttributes: ['LOG'],     weakAttributes: ['EQU'] },
+  { id: 'raison',   nom: 'Raison',    catchphrase: 'La Suprématie du Calcul',           strongAttributes: ['LOG'],     weakAttributes: TOUS   },
+  { id: 'emeth',    nom: 'Emeth',     catchphrase: "La Vérité par l'Utilité",           strongAttributes: ['MAG','LOG'], weakAttributes: TOUS  },
+  { id: 'silence',  nom: 'Silence',   catchphrase: 'La Retenue',                        strongAttributes: TOUS,        weakAttributes: ['EQU'] },
+  { id: 'foi',      nom: 'Foi',       catchphrase: "L'Abandon à l'Absolu",              strongAttributes: TOUS,        weakAttributes: ['CHN'] },
+  { id: 'ambition', nom: 'Ambition',  catchphrase: "La Quête de l'Ascension",           strongAttributes: TOUS,        weakAttributes: TOUS   },
 ];
 
 // Milieux de vie
+// nbBoosts / nbDeboosts indiquent le nombre de slots actifs selon le biome (UI à compléter)
 export const milieux = [
-  { id: "mixte", nom: "Mixte", strongAttributes: [], weakAttributes: [] },
-  { id: "citadin", nom: "Citadin", strongAttributes: ["CHA", "INT", "RUS", "VOL", "SAG"], weakAttributes: ["FOR", "DEX", "AGI", "CON", "PER"] },
-  { id: "forestier", nom: "Forestier", strongAttributes: ["FOR", "DEX", "AGI", "CON", "PER"], weakAttributes: ["CHA", "INT", "RUS", "VOL", "SAG"] }
+  { id: 'mixte',       nom: 'Mixte',       description: 'Varié, familier, sans contrainte.',         strongAttributes: [],    weakAttributes: [],    nbBoosts: 0, nbDeboosts: 0 },
+  { id: 'citadin',     nom: 'Citadin',     description: 'Structuré, social, rythmé.',                strongAttributes: ESPRIT, weakAttributes: CORPS, nbBoosts: 1, nbDeboosts: 1 },
+  { id: 'campagne',    nom: 'Campagne',    description: 'Calme, agricole, routinier.',               strongAttributes: ESPRIT, weakAttributes: ESPRIT, nbBoosts: 1, nbDeboosts: 1 },
+  { id: 'steppe',      nom: 'Steppe',      description: 'Vaste, exposé, exigeant.',                  strongAttributes: CORPS,  weakAttributes: CORPS,  nbBoosts: 1, nbDeboosts: 1 },
+  { id: 'fluvial',     nom: 'Fluvial',     description: 'Humide, instable, adaptatif.',              strongAttributes: CORPS,  weakAttributes: ESPRIT, nbBoosts: 1, nbDeboosts: 1 },
+  { id: 'isole',       nom: 'Isolé',       description: 'Silencieux, solitaire, introspectif.',      strongAttributes: ESPRIT, weakAttributes: ESPRIT, nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'urbain',      nom: 'Urbain',      description: 'Dense, pressant, stimulant.',               strongAttributes: ESPRIT, weakAttributes: TOUS,   nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'metropole',   nom: 'Métropole',   description: 'Tentaculaire, saturé, écrasant.',           strongAttributes: ESPRIT, weakAttributes: CORPS,  nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'souterrains', nom: 'Souterrains', description: 'Clos, oppressant, dangereux.',              strongAttributes: CORPS,  weakAttributes: ESPRIT, nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'toundra',     nom: 'Toundra',     description: 'Glacé, austère, implacable.',               strongAttributes: CORPS,  weakAttributes: TOUS,   nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'deserts',     nom: 'Déserts',     description: 'Aride, brûlant, extrême.',                  strongAttributes: CORPS,  weakAttributes: CORPS,  nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'marin',       nom: 'Marin',       description: 'Mouvant, isolé, imprévisible.',             strongAttributes: TOUS,   weakAttributes: ESPRIT, nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'forestier',   nom: 'Forestier',   description: 'Sauvage, irrégulier, exigeant.',            strongAttributes: TOUS,   weakAttributes: TOUS,   nbBoosts: 2, nbDeboosts: 2 },
+  { id: 'nomade',      nom: 'Nomade',      description: 'Itinérant, exposé, endurant.',              strongAttributes: TOUS,   weakAttributes: CORPS,  nbBoosts: 2, nbDeboosts: 2 },
 ];
 
 // Personas
 export const personas = [
-  { id: "loup", nom: "Loup", strongAttributes: ["RUS", "CHA", "AGI"], weakAttributes: ["DEX", "SAG", "PER"] },
-  { id: "renard", nom: "Renard", strongAttributes: ["INT", "RUS", "PER"], weakAttributes: ["FOR", "CON", "VOL"] },
-  { id: "ours", nom: "Ours", strongAttributes: ["CON", "FOR", "VOL"], weakAttributes: ["AGI", "DEX", "PER"] }
+  { id: 'loup',           nom: 'Loup',           description: 'Loyal, stratège, social mais farouchement indépendant.',          strongAttributes: ['RUS','CHA','AGI'],  weakAttributes: ['DEX','SAG','PER'] },
+  { id: 'renard',         nom: 'Renard',         description: 'Rusé, adaptatif, esprit vif et opportuniste.',                    strongAttributes: ['INT','RUS','PER'],  weakAttributes: ['FOR','CON','VOL'] },
+  { id: 'ours',           nom: 'Ours',           description: "Puissant, endurant, calme jusqu'à la provocation.",               strongAttributes: ['CON','FOR','VOL'],  weakAttributes: ['AGI','DEX','PER'] },
+  { id: 'hibou',          nom: 'Hibou',          description: 'Observateur, réfléchi, patient et perspicace.',                   strongAttributes: ['PER','SAG','INT'],  weakAttributes: ['DEX','CHA','AGI'] },
+  { id: 'serpent',        nom: 'Serpent',        description: 'Subtil, méthodique, patient et imprévisible.',                    strongAttributes: ['RUS','DEX','AGI'],  weakAttributes: ['VOL','CON','FOR'] },
+  { id: 'cerf',           nom: 'Cerf',           description: 'Digne, posé, force tranquille et noblesse naturelle.',            strongAttributes: ['CHA','FOR','SAG'],  weakAttributes: ['INT','PER','AGI'] },
+  { id: 'corbeau',        nom: 'Corbeau',        description: 'Ingénieux, opportuniste, survivant et observateur.',              strongAttributes: ['INT','CHN','RUS'],  weakAttributes: ['CON','FOR','SAG'] },
+  { id: 'sanglier',       nom: 'Sanglier',       description: "Frontal, déterminé, tenace face à l'adversité.",                  strongAttributes: ['FOR','CON','AGI'],  weakAttributes: ['INT','VOL','PER'] },
+  { id: 'chat',           nom: 'Chat',           description: 'Indépendant, agile, intuitif et réservé.',                       strongAttributes: ['AGI','DEX','CHN'],  weakAttributes: ['VOL','CON','CHA'] },
+  { id: 'faucon',         nom: 'Faucon',         description: 'Précis, dominateur, concentré et autoritaire.',                  strongAttributes: ['PER','CHA','DEX'],  weakAttributes: ['CHN','INT','RUS'] },
+  { id: 'mouton',         nom: 'Mouton',         description: 'Communautaire, loyal, résilient par le collectif.',              strongAttributes: ['CON','VOL','SAG'],  weakAttributes: ['INT','CHA','AGI'] },
+  { id: 'rat',            nom: 'Rat',            description: 'Débrouillard, prudent, survivant des marges.',                   strongAttributes: ['RUS','DEX','PER'],  weakAttributes: ['CHA','FOR','VOL'] },
+  { id: 'lapin',          nom: 'Lapin',          description: 'Vigilant, rapide, instinctif et craintif.',                      strongAttributes: ['AGI','PER','CHN'],  weakAttributes: ['FOR','VOL','CON'] },
+  { id: 'chien',          nom: 'Chien',          description: 'Loyal, protecteur, courageux et dévoué.',                        strongAttributes: ['CHA','VOL','CON'],  weakAttributes: ['RUS','DEX','INT'] },
+  { id: 'bouc',           nom: 'Bouc',           description: "Tenace, indépendant, sûr de lui et obstiné.",                    strongAttributes: ['VOL','AGI','CON'],  weakAttributes: ['CHA','DEX','INT'] },
+  { id: 'araignee',       nom: 'Araignée',       description: 'Patiente, calculatrice, méthodique.',                            strongAttributes: ['DEX','RUS','PER'],  weakAttributes: ['FOR','CHA','CON'] },
+  { id: 'daim',           nom: 'Daim',           description: 'Élégant, vigilant, en harmonie avec son environnement.',         strongAttributes: ['AGI','PER','SAG'],  weakAttributes: ['FOR','VOL','CON'] },
+  { id: 'castor',         nom: 'Castor',         description: 'Travailleur, méthodique, bâtisseur persévérant.',                strongAttributes: ['CON','INT','DEX'],  weakAttributes: ['CHA','AGI','CHN'] },
+  { id: 'cheval',         nom: 'Cheval',         description: 'Endurant, loyal, fier et indomptable.',                          strongAttributes: ['FOR','AGI','VOL'],  weakAttributes: ['RUS','INT','DEX'] },
+  { id: 'crapaud',        nom: 'Crapaud',        description: "Résilient, discret, porteur d'une sagesse cachée.",              strongAttributes: ['CON','SAG','PER'],  weakAttributes: ['CHA','AGI','FOR'] },
+  { id: 'crocodile',      nom: 'Crocodile',      description: 'Patient, implacable, prédateur méthodique.',                     strongAttributes: ['FOR','CON','PER'],  weakAttributes: ['AGI','CHA','DEX'] },
+  { id: 'coq',            nom: 'Coq',            description: "Fier, vigilant, provocateur et sûr de lui.",                     strongAttributes: ['CHA','VOL','PER'],  weakAttributes: ['FOR','RUS','DEX'] },
+  { id: 'lion',           nom: 'Lion',           description: 'Majestueux, dominateur, meneur naturel.',                        strongAttributes: ['CHA','FOR','VOL'],  weakAttributes: ['RUS','DEX','INT'] },
+  { id: 'cochon',         nom: 'Cochon',         description: 'Pragmatique, adaptable, résilient et sous-estimé.',              strongAttributes: ['CON','INT','CHN'],  weakAttributes: ['DEX','CHA','PER'] },
+  { id: 'singe',          nom: 'Singe',          description: 'Curieux, malin, joueur et imprévisible.',                        strongAttributes: ['DEX','INT','RUS'],  weakAttributes: ['FOR','CON','VOL'] },
+  { id: 'souris',         nom: 'Souris',         description: "Discrète, prudente, survivante par l'évitement.",                strongAttributes: ['PER','DEX','CHN'],  weakAttributes: ['FOR','CHA','CON'] },
+  { id: 'taureau',        nom: 'Taureau',        description: 'Stable, obstiné, puissance brute et détermination.',             strongAttributes: ['FOR','CON','VOL'],  weakAttributes: ['DEX','RUS','AGI'] },
+  { id: 'abeille',        nom: 'Abeille',        description: 'Disciplinée, travailleuse, tournée vers le collectif.',          strongAttributes: ['VOL','PER','DEX'],  weakAttributes: ['CHA','CHN','FOR'] },
+  { id: 'grue',           nom: 'Grue',           description: 'Sage, digne, meneur calme et visionnaire.',                      strongAttributes: ['PER','SAG','CHA'],  weakAttributes: ['FOR','DEX','RUS'] },
+  { id: 'cygne',          nom: 'Cygne',          description: 'Élégant, loyal, calme et résolu.',                               strongAttributes: ['CHA','AGI','SAG'],  weakAttributes: ['FOR','DEX','RUS'] },
+  { id: 'blaireau',       nom: 'Blaireau',       description: 'Endurant, solitaire, opiniâtre et résistant.',                   strongAttributes: ['CON','VOL','PER'],  weakAttributes: ['CHA','CHN','DEX'] },
+  { id: 'hyene',          nom: 'Hyène',          description: 'Opportuniste, rusée, brutale et adaptative.',                    strongAttributes: ['FOR','DEX','RUS'],  weakAttributes: ['CHA','SAG','VOL'] },
+  { id: 'hamster',        nom: 'Hamster',        description: 'Curieux, nerveux, prudent et joueur.',                           strongAttributes: ['DEX','CHN','AGI'],  weakAttributes: ['FOR','CHA','INT'] },
+  { id: 'panda',          nom: 'Panda',          description: 'Paisible, résilient, bon vivant et placide.',                    strongAttributes: ['CON','CHN','AGI'],  weakAttributes: ['SAG','DEX','VOL'] },
+  { id: 'rouge_gorge',    nom: 'Rouge-gorge',    description: 'Sociable, vif, optimiste et curieux.',                           strongAttributes: ['CHA','DEX','PER'],  weakAttributes: ['FOR','VOL','RUS'] },
+  { id: 'pie',            nom: 'Pie',            description: 'Curieuse, malicieuse, opportuniste.',                            strongAttributes: ['DEX','PER','RUS'],  weakAttributes: ['CON','SAG','VOL'] },
+  { id: 'faucon_pelerin', nom: 'Faucon pèlerin', description: 'Rapide, précis, déterminé et implacable.',                      strongAttributes: ['PER','DEX','VOL'],  weakAttributes: ['CHA','SAG','CHN'] },
+  { id: 'elephant',       nom: 'Éléphant',       description: 'Sage, protecteur, mémoriel et bienveillant.',                    strongAttributes: ['FOR','CON','SAG'],  weakAttributes: ['AGI','RUS','DEX'] },
+  { id: 'dauphin',        nom: 'Dauphin',        description: 'Joueur, sociable, optimiste et empathique.',                     strongAttributes: ['INT','PER','CHA'],  weakAttributes: ['FOR','SAG','RUS'] },
+  { id: 'tortue',         nom: 'Tortue',         description: 'Patiente, prudente, résiliente et constante.',                   strongAttributes: ['CON','SAG','VOL'],  weakAttributes: ['AGI','CHA','DEX'] },
+  { id: 'raton_laveur',   nom: 'Raton laveur',   description: 'Curieux, fouineur, opportuniste et malin.',                      strongAttributes: ['DEX','RUS','PER'],  weakAttributes: ['VOL','SAG','CHA'] },
+  { id: 'requin',         nom: 'Requin',         description: 'Prédateur froid, déterminé et implacable.',                      strongAttributes: ['FOR','AGI','PER'],  weakAttributes: ['CON','VOL','RUS'] },
 ];
 
-// Tempéraments
-export const temperaments = [
-  { id: 'alpha', nom: 'Alpha' },
-  { id: 'beta', nom: 'Bêta' },
-  { id: 'delta', nom: 'Delta' },
-  { id: 'lambda', nom: 'Lambda' }
+// Comportements (axe 1 de personnalité)
+export const comportements = [
+  { id: 'agressif',  nom: 'Agressif',  description: '' },
+  { id: 'assertif',  nom: 'Assertif',  description: '' },
+  { id: 'exclusif',  nom: 'Exclusif',  description: '' },
+  { id: 'passif',    nom: 'Passif',    description: '' },
 ];
+
+// Caractères (axe 2 de personnalité)
+export const caracteres = [
+  { id: 'dominateur',   nom: 'Dominateur',   description: '' },
+  { id: 'introverti',   nom: 'Introverti',   description: '' },
+  { id: 'extraverti',   nom: 'Extraverti',   description: '' },
+  { id: 'conciliateur', nom: 'Conciliateur', description: '' },
+];
+
+// Alias pour compatibilité migration
+export const temperaments = [...comportements, ...caracteres];
 
 // Progression de caste
 export const casteProgression = [
@@ -393,6 +472,8 @@ const DATA = {
   allegeances,
   milieux,
   personas,
+  comportements,
+  caracteres,
   temperaments,
   casteProgression
 };

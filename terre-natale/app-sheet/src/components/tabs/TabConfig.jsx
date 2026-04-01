@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
 
 const CARAC_FIELDS = [
@@ -87,9 +87,41 @@ const ATTR_FIELDS = [
 ];
 
 function TabConfig() {
-  const { character, updateCharacter, dashboardUrl, setDashboardUrl, syncEnabled, setSyncEnabled } = useCharacter();
+  const { character, updateCharacter, dashboardUrl, setDashboardUrl, syncEnabled, setSyncEnabled, playerToken, setPlayerToken, pullFromDashboard } = useCharacter();
   const [activeModal, setActiveModal] = useState(null);
   const [urlInput, setUrlInput] = useState(dashboardUrl);
+  const [tokenInput, setTokenInput] = useState(playerToken);
+  const [tokenStatus, setTokenStatus] = useState(null); // null | { ok, nom } | { ok: false, error }
+  const [pullStatus, setPullStatus] = useState(null); // null | { ok, added, updated } | { ok: false, error }
+
+  const handleVerifyToken = useCallback(async () => {
+    const token = tokenInput.trim().toUpperCase();
+    if (!token) return;
+    setTokenStatus(null);
+    try {
+      const res = await fetch(`${dashboardUrl}/api/players/auth`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setPlayerToken(token);
+        setTokenStatus({ ok: true, nom: data.nom });
+      } else {
+        setTokenStatus({ ok: false, error: 'Token invalide' });
+      }
+    } catch {
+      setTokenStatus({ ok: false, error: 'Impossible de joindre le dashboard' });
+    }
+  }, [tokenInput, dashboardUrl, setPlayerToken]);
+
+  const handlePull = useCallback(async () => {
+    setPullStatus(null);
+    const result = await pullFromDashboard();
+    setPullStatus(result);
+    setTimeout(() => setPullStatus(null), 5000);
+  }, [pullFromDashboard]);
   const bonusConfig = character.bonusConfig || {};
   const options = character.options || {};
 
@@ -219,28 +251,76 @@ function TabConfig() {
 
           <div className="config-option">
             <div className="config-option-header">
-              <span className="config-option-label">Synchronisation Dashboard</span>
-              {syncEnabled && dashboardUrl && <span className="config-bonus-active">Actif</span>}
+              <span className="config-option-label">Dashboard & Identité joueur</span>
+              {syncEnabled && dashboardUrl && playerToken && <span className="config-bonus-active">Sync active</span>}
             </div>
-            <p className="config-option-desc">URL du serveur dashboard pour la synchronisation automatique</p>
-            <label className="config-toggle-row">
-              <input
-                type="checkbox"
-                checked={!!syncEnabled}
-                onChange={() => setSyncEnabled(!syncEnabled)}
-              />
-              <span>Activer la synchronisation</span>
-            </label>
-            <div className="charselect-dashboard-row">
-              <input
-                type="text"
-                placeholder="https://dash.thalifen.synology.me"
-                value={urlInput}
-                onChange={e => setUrlInput(e.target.value)}
-                onBlur={() => setDashboardUrl(urlInput)}
-                onKeyDown={e => { if (e.key === 'Enter') { setDashboardUrl(urlInput); e.target.blur(); } }}
-                className="config-url-input"
-              />
+
+            <div className="config-subsection">
+              <span className="config-subsection-label">Synchronisation</span>
+              <p className="config-option-desc">URL du serveur dashboard pour la synchronisation automatique</p>
+              <label className="config-toggle-row">
+                <input
+                  type="checkbox"
+                  checked={!!syncEnabled}
+                  onChange={() => setSyncEnabled(!syncEnabled)}
+                />
+                <span>Activer la synchronisation</span>
+              </label>
+              <div className="charselect-dashboard-row">
+                <input
+                  type="text"
+                  placeholder="https://dash.thalifen.synology.me"
+                  value={urlInput}
+                  onChange={e => setUrlInput(e.target.value)}
+                  onBlur={() => setDashboardUrl(urlInput)}
+                  onKeyDown={e => { if (e.key === 'Enter') { setDashboardUrl(urlInput); e.target.blur(); } }}
+                  className="config-url-input"
+                />
+              </div>
+            </div>
+
+            <div className="config-subsection-divider" />
+
+            <div className="config-subsection">
+              <span className="config-subsection-label">
+                Identité joueur
+                {playerToken && <span className="config-bonus-active" style={{marginLeft: '8px'}}>Actif</span>}
+              </span>
+              <p className="config-option-desc">
+                Token fourni par le MJ. Permet de récupérer vos personnages depuis n'importe quel navigateur.
+                {!syncEnabled && <span className="config-option-desc-warn"> La synchronisation doit être activée ci-dessus pour envoyer vos personnages au dashboard.</span>}
+              </p>
+              <div className="config-token-row">
+                <input
+                  type="text"
+                  placeholder="XXXX-XXXX"
+                  value={tokenInput}
+                  onChange={e => setTokenInput(e.target.value.toUpperCase())}
+                  onKeyDown={e => { if (e.key === 'Enter') handleVerifyToken(); }}
+                  className="config-url-input"
+                  maxLength={9}
+                />
+                <button className="btn-config" onClick={handleVerifyToken}>Vérifier</button>
+              </div>
+              {tokenStatus && (
+                <p className={`config-token-status ${tokenStatus.ok ? 'token-ok' : 'token-error'}`}>
+                  {tokenStatus.ok ? `Connecté en tant que : ${tokenStatus.nom}` : tokenStatus.error}
+                </p>
+              )}
+              {playerToken && (
+                <div className="config-pull-row">
+                  <button className="btn-config" onClick={handlePull}>
+                    ↓ Récupérer depuis le dashboard
+                  </button>
+                  {pullStatus && (
+                    <span className={`config-token-status ${pullStatus.ok ? 'token-ok' : 'token-error'}`}>
+                      {pullStatus.ok
+                        ? `${pullStatus.added} ajouté(s), ${pullStatus.updated} mis à jour`
+                        : pullStatus.error}
+                    </span>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>

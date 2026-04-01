@@ -138,7 +138,7 @@ function CharacterSelectModal({ onClose, canClose }) {
 function AppContent() {
   const [activeTab, setActiveTab] = useState('principal');
   const [showCharSelect, setShowCharSelect] = useState(false);
-  const [syncStatus, setSyncStatus] = useState(null); // null | 'ok' | 'error'
+  const [syncStatus, setSyncStatus] = useState(null); // null | 'ok' | 'error' | 'conflict'
   const { character, currentCharacterId, exportCharacter, createNewCharacter, dashboardUrl, syncEnabled, syncToDashboard } = useCharacter();
   const calc = useCharacterCalculations(character || {});
 
@@ -154,14 +154,19 @@ function AppContent() {
 
   // Sync manuelle
   const handleSync = useCallback(async () => {
-    const ok = await syncToDashboard();
-    setSyncStatus(ok ? 'ok' : 'error');
-    setTimeout(() => setSyncStatus(null), 3000);
+    const result = await syncToDashboard();
+    if (result === 'conflict') {
+      setSyncStatus('conflict');
+    } else {
+      setSyncStatus(result ? 'ok' : 'error');
+    }
+    setTimeout(() => setSyncStatus(null), 4000);
   }, [syncToDashboard]);
 
-  // Sync auto toutes les 30s
+  // Sync auto toutes les 30s (seulement si le perso a un nom)
   useEffect(() => {
     if (!syncEnabled || !dashboardUrl || !character) return;
+    if (!character.infos?.nom?.trim()) return;
     const interval = setInterval(() => {
       syncToDashboard();
     }, 30000);
@@ -206,11 +211,11 @@ function AppContent() {
           <button onClick={() => { createNewCharacter(); }} title="Créer un nouveau personnage">Nouveau</button>
           {syncEnabled && dashboardUrl && (
             <button
-              className={`btn-sync ${syncStatus === 'ok' ? 'sync-ok' : syncStatus === 'error' ? 'sync-error' : ''}`}
+              className={`btn-sync ${syncStatus === 'ok' ? 'sync-ok' : syncStatus === 'error' ? 'sync-error' : syncStatus === 'conflict' ? 'sync-conflict' : ''}`}
               onClick={handleSync}
-              title={`Synchroniser avec le dashboard (${dashboardUrl})`}
+              title={syncStatus === 'conflict' ? 'Conflit : le dashboard a une version plus récente — récupérez-la depuis Config' : `Synchroniser avec le dashboard (${dashboardUrl})`}
             >
-              ↻
+              {syncStatus === 'conflict' ? '⚠' : '↻'}
             </button>
           )}
         </div>

@@ -1516,11 +1516,116 @@ header h1 {
   border-radius: 6px;
 }
 
+.entrainement-box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .entrainement-label {
   font-family: var(--font-title);
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-text);
+}
+
+.entrainement-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-light);
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0 2px;
+  opacity: 0.4;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.entrainement-delete:hover {
+  opacity: 1;
+  color: var(--color-negative);
+}
+
+.entrainement-add-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  background: transparent;
+  border: 2px dashed var(--color-border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.entrainement-add-card:hover {
+  border-color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 6%, transparent);
+}
+
+.entrainement-add-icon {
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--color-border);
+  transition: color 0.15s;
+}
+
+.entrainement-add-card:hover .entrainement-add-icon {
+  color: var(--color-accent);
+}
+
+.entrainement-add-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrainement-add-list {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-hard);
+  min-width: 220px;
+}
+
+.entrainement-add-title {
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 14px;
+  color: var(--color-text);
+  background: var(--color-bg-dark);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.entrainement-add-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 14px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--color-border-light, #d4c4a8);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text);
+  transition: background 0.12s, color 0.12s;
+}
+
+.entrainement-add-item:last-child {
+  border-bottom: none;
+}
+
+.entrainement-add-item:hover {
+  background: var(--color-bg-dark);
+  color: var(--color-accent);
 }
 
 .entrainement-levels {
@@ -5303,6 +5408,37 @@ header h1 {
   margin-bottom: 12px;
 }
 
+.config-option-desc-warn {
+  color: var(--color-accent);
+}
+
+.config-subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.config-subsection .config-option-desc {
+  margin-bottom: 0;
+}
+
+.config-subsection-label {
+  font-family: var(--font-title);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-light);
+  display: flex;
+  align-items: center;
+}
+
+.config-subsection-divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 4px 0;
+}
+
 .config-toggle-row {
   display: flex;
   align-items: center;
@@ -6010,4 +6146,365 @@ header h1 {
 .aptitude-entry-add-label {
   font-size: 0.8rem;
   color: var(--color-text-light);
+}
+
+/* Config URL / token inputs */
+.config-url-input {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.config-token-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.config-token-status {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.token-ok {
+  color: var(--color-positive);
+  font-weight: 600;
+}
+
+.token-error {
+  color: var(--color-negative);
+}
+
+.config-pull-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+/* Sync conflict state */
+.btn-sync.sync-conflict {
+  border-color: #ff9800;
+  color: #ff9800;
+}
+
+/* === Picker Modal (sélecteur accordion générique) === */
+.picker-modal-content {
+  max-width: 460px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.picker-modal-content--wide {
+  max-width: 620px;
+}
+
+.picker-search {
+  padding: 10px 12px 4px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.picker-search-input {
+  width: 100%;
+  padding: 7px 10px;
+  background: var(--color-bg-dark);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.picker-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.picker-item {
+  flex-shrink: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.picker-item--selected {
+  border-color: var(--color-accent);
+}
+
+.picker-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 14px;
+  background: var(--color-bg-dark);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  text-align: left;
+  color: var(--color-text);
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  transition: background 0.15s;
+}
+
+.picker-item--selected .picker-item-header {
+  background: color-mix(in srgb, var(--color-accent) 15%, var(--color-bg-dark));
+}
+
+.picker-item-header:hover {
+  background: color-mix(in srgb, var(--color-accent) 10%, var(--color-bg-dark));
+}
+
+.picker-item-name {
+  flex: 1;
+  display: block;
+}
+
+.picker-item-name-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.picker-item-culturel {
+  font-family: var(--font-title);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-accent) 14%, var(--color-bg-dark));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.picker-item-subtitle {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.78rem;
+  font-family: var(--font-body, sans-serif);
+  color: var(--color-text-muted, #888);
+  font-weight: normal;
+}
+
+.picker-item-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.picker-item-badge {
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.picker-item-chevron {
+  font-size: 0.65rem;
+  color: var(--color-text-muted, #888);
+}
+
+.picker-item-body {
+  padding: 12px 14px;
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+}
+
+.picker-item-desc {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+
+.picker-item-desc--empty {
+  font-style: italic;
+  color: var(--color-text-muted, #888);
+}
+
+.picker-item-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.picker-item-extra {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+
+.picker-item-attr-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.picker-attr-label {
+  font-family: var(--font-title);
+  font-size: 0.78rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.picker-attr-boost {
+  background: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  color: var(--color-accent);
+}
+
+.picker-attr-deboost {
+  background: color-mix(in srgb, #c62828 20%, transparent);
+  color: #e57373;
+}
+
+/* === Ethnie Extra (dans PickerModal) === */
+.ethnie-extra {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.ethnie-extra-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 0.83rem;
+}
+
+.ethnie-extra-row--block {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.ethnie-extra-key {
+  flex-shrink: 0;
+  font-family: var(--font-title);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  min-width: 130px;
+}
+
+.ethnie-extra-row--block .ethnie-extra-key {
+  min-width: unset;
+}
+
+.ethnie-extra-val {
+  color: var(--color-text-light);
+  line-height: 1.4;
+}
+
+.ethnie-extra-val--mono {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.ethnie-extra-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.ethnie-extra-pill {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  background: var(--color-bg-dark);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-light);
+  font-family: var(--font-body);
+}
+
+.ethnie-extra-pill--competence {
+  background: color-mix(in srgb, var(--color-accent) 12%, var(--color-bg-dark));
+  border-color: color-mix(in srgb, var(--color-accent) 35%, var(--color-border));
+  color: var(--color-accent-light);
+}
+
+.ethnie-extra-pill--trait {
+  background: color-mix(in srgb, var(--color-positive) 10%, var(--color-bg-dark));
+  border-color: color-mix(in srgb, var(--color-positive) 30%, var(--color-border));
+  color: var(--color-positive);
+}
+
+.picker-no-results {
+  padding: 16px;
+  text-align: center;
+  font-style: italic;
+  color: var(--color-text-muted, #888);
+  font-size: 0.9rem;
+}
+
+.btn-picker-select {
+  padding: 6px 16px;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: var(--font-title);
+  transition: opacity 0.15s;
+}
+
+.btn-picker-select:hover {
+  opacity: 0.85;
+}
+
+.btn-picker-select--active {
+  background: var(--color-border);
+  cursor: default;
+  opacity: 1;
+}
+
+/* Bouton trigger dans la fiche */
+.picker-select-btn {
+  width: 100%;
+  padding: 6px 10px;
+  background: var(--color-bg-dark);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s;
+}
+
+.picker-select-btn:hover {
+  border-color: var(--color-accent);
+}
+
+.picker-select-btn.has-value {
+  border-color: color-mix(in srgb, var(--color-accent) 50%, var(--color-border));
 }

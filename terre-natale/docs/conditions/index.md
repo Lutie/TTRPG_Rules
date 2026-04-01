@@ -159,7 +159,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "✨ Sacre",
-    "domaine_b": "",
+    "domaine_b": "⚜️ Charme",
     "sauvegarde": "",
     "effet": "Jusqu'à un test au choix du personnage reçoit un avantage, une fois par tours (rounds)"
   },
@@ -169,8 +169,8 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🩸 Impie",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "⚖️ Loi",
+    "sauvegarde": "Détermination",
     "effet": "Jusqu'à un test au choix du personnage qui est à l'origine de cette condition reçoit un désavantage, une fois par tours (rounds)"
   },
   {
@@ -179,7 +179,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "⚡ Foudre",
-    "domaine_b": "",
+    "domaine_b": "🧩 Mental",
     "sauvegarde": "",
     "effet": "Le personnage reçoit un (deux) avantage à ses tests réalisés par un membre spécifique X"
   },
@@ -190,7 +190,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "⚡ Foudre",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests réalisés par un membre spécifique X"
   },
   {
@@ -210,7 +210,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🛡️ Guerre",
     "domaine_b": "🩸 Impie",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests d'attaque"
   },
   {
@@ -230,7 +230,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🛡️ Guerre",
     "domaine_b": "☠️ Mort",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests de défense"
   },
   {
@@ -250,7 +250,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🛡️ Guerre",
     "domaine_b": "🌀 Chaos",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests tactiques"
   },
   {
@@ -270,7 +270,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🛡️ Guerre",
     "domaine_b": "🌑 Ombre",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests d'initiatives"
   },
   {
@@ -289,8 +289,8 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "⚕️ Corps",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "☠️ Mort",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests de robustesse"
   },
   {
@@ -309,8 +309,8 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🧠 Esprit",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🌑 Ombre",
+    "sauvegarde": "Détermination",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests de détermination"
   },
   {
@@ -319,7 +319,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🧩 Mental",
-    "domaine_b": "",
+    "domaine_b": "✨ Sacre",
     "sauvegarde": "",
     "effet": "Le personnage reçoit un (deux) avantage à ses tests d'intuition, fortune et opposition"
   },
@@ -330,7 +330,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🧩 Mental",
     "domaine_b": "🐗 Faune",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests d'intuition"
   },
   {
@@ -350,7 +350,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🧩 Mental",
     "domaine_b": "☠️ Mort",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "Le personnage reçoit un (deux) désavantage lorsqu'il est à l'agonie"
   },
   {
@@ -359,7 +359,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🧩 Mental",
-    "domaine_b": "",
+    "domaine_b": "🛡️ Guerre",
     "sauvegarde": "",
     "effet": "Le personnage reçoit un (deux) avantage lorsqu'il tente de fuire (toutes les actions visant ou permettant de fuire)"
   },
@@ -369,8 +369,8 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🧩 Mental",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "☠️ Mort",
+    "sauvegarde": "Les deux",
     "effet": "Le personnage reçoit un (deux) désavantage lorsqu'il n'est pas en train de fuir"
   },
   {
@@ -390,7 +390,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🌀 Chaos",
     "domaine_b": "🛡️ Guerre",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests réalisés visant à accomplir un (contre) ordre qui lui a été donné lorsqu'il a reçu cette condition, le test ne soit pas vaguement contribuer à l'objectif mais directement y contribuer"
   },
   {
@@ -410,7 +410,7 @@
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "👁️ Vision",
     "domaine_b": "🌑 Ombre",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests visant les sens, le personnage voit le cout de ses ACTR augmenté de 2 (3)"
   },
   {
@@ -430,7 +430,7 @@
     "cat_key": "Jet mod",
     "domaine_a": "🩸 Impie",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Les jets de combat reçus par le personnage sont augmentés de 1D8 (2D8)"
   },
   {
@@ -439,7 +439,7 @@
     "categorie": "Modificateur de Jet",
     "cat_key": "Jet mod",
     "domaine_a": "✨ Sacre",
-    "domaine_b": "",
+    "domaine_b": "🛡️ Guerre",
     "sauvegarde": "",
     "effet": "Les jets de combat infligés par le personnage sont augmentés de 1D8 (2D8)"
   },
@@ -450,7 +450,7 @@
     "cat_key": "Jet mod",
     "domaine_a": "🩸 Impie",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Les jets de combat infligés par le personnage sont réduits de 1D8 (2D8)"
   },
   {
@@ -469,8 +469,8 @@
     "categorie": "Modificateur de Jet",
     "cat_key": "Jet mod",
     "domaine_a": "🩸 Impie",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "⚕️ Corps",
+    "sauvegarde": "Robustesse",
     "effet": "Les jets de rupture reçues par le personnage sont augmentés de 1/3 (1/2)"
   },
   {
@@ -479,7 +479,7 @@
     "categorie": "Modificateur de Jet",
     "cat_key": "Jet mod",
     "domaine_a": "⚖️ Loi",
-    "domaine_b": "",
+    "domaine_b": "🧩 Mental",
     "sauvegarde": "",
     "effet": "Les jets du personnage affiche des valeurs minimum de 4 (5), lors d'un critique la valeurs des dés est augmentées de 1"
   },
@@ -489,8 +489,8 @@
     "categorie": "Modificateur de Jet",
     "cat_key": "Jet mod",
     "domaine_a": "🌀 Chaos",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🧩 Mental",
+    "sauvegarde": "Détermination",
     "effet": "Les jets du personnage affiche des valeurs maximum de 5 (4), lors d'un critique ce maximum est conservé"
   },
   {
@@ -499,7 +499,7 @@
     "categorie": "Modificateur de Test",
     "cat_key": "Test mod",
     "domaine_a": "☀️ Lumière",
-    "domaine_b": "",
+    "domaine_b": "⚜️ Charme",
     "sauvegarde": "",
     "effet": "Tous les tests reçoivent un bonus de 1 (2)"
   },
@@ -510,7 +510,7 @@
     "cat_key": "Test mod",
     "domaine_a": "🌑 Ombre",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Tous les tests reçoivent un malus de 1 (2)"
   },
   {
@@ -530,7 +530,7 @@
     "cat_key": "Test mod",
     "domaine_a": "🛡️ Guerre",
     "domaine_b": "🌿 Flore",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "Tous les tests de confrontation reçoivent un malus de 2 (3)"
   },
   {
@@ -550,7 +550,7 @@
     "cat_key": "Test mod",
     "domaine_a": "☢️ Toxique",
     "domaine_b": "🩸 Impie",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Tous les tests de sauvegarde reçoivent un malus de 2 (3)"
   },
   {
@@ -559,7 +559,7 @@
     "categorie": "Modificateur de Test",
     "cat_key": "Test mod",
     "domaine_a": "🪷 Nature",
-    "domaine_b": "",
+    "domaine_b": "❤️ Vie",
     "sauvegarde": "",
     "effet": "Tous les tests d'aventure reçoivent un bonus de 2 (3)"
   },
@@ -569,8 +569,8 @@
     "categorie": "Modificateur de Test",
     "cat_key": "Test mod",
     "domaine_a": "🪷 Nature",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🌀 Chaos",
+    "sauvegarde": "Détermination",
     "effet": "Tous les tests d'aventure reçoivent un malus de 2 (3)"
   },
   {
@@ -590,7 +590,7 @@
     "cat_key": "Test mod",
     "domaine_a": "⚡ Foudre",
     "domaine_b": "🌿 Flore",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Tous les tests d'interruption reçoivent un malus de 3 (5)"
   },
   {
@@ -598,7 +598,7 @@
     "polarite": "positive",
     "categorie": "Modificateur de Test",
     "cat_key": "Test mod",
-    "domaine_a": "",
+    "domaine_a": "🪨 Terre",
     "domaine_b": "🌿 Flore",
     "sauvegarde": "",
     "effet": "Tous les tests reçoivent un bonus de 2 (3) lorsque le personnage est choqué"
@@ -608,9 +608,9 @@
     "polarite": "negative",
     "categorie": "Modificateur de Test",
     "cat_key": "Test mod",
-    "domaine_a": "",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_a": "🩸 Impie",
+    "domaine_b": "☠️ Mort",
+    "sauvegarde": "Les deux",
     "effet": "Tous les tests reçoivent un malus de 2 (3) lorsque le personnage est choqué"
   },
   {
@@ -619,7 +619,7 @@
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
     "domaine_a": "🛡️ Guerre",
-    "domaine_b": "",
+    "domaine_b": "👁️ Vision",
     "sauvegarde": "",
     "effet": "Les défenses passives physique du personnage contre les attaques sont augmentées de 2 (3)"
   },
@@ -629,8 +629,8 @@
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
     "domaine_a": "🛡️ Guerre",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🌀 Chaos",
+    "sauvegarde": "Détermination",
     "effet": "Les défenses passives du personnage contre les attaques sont réduites de 2 (3)"
   },
   {
@@ -649,8 +649,8 @@
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
     "domaine_a": "🛡️ Guerre",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🌀 Chaos",
+    "sauvegarde": "Les deux",
     "effet": "Les défenses passives du personnage contre les tactiques sont réduites de 2 (3)"
   },
   {
@@ -658,8 +658,8 @@
     "polarite": "positive",
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
-    "domaine_a": "",
-    "domaine_b": "",
+    "domaine_a": "🐗 Faune",
+    "domaine_b": "🛡️ Guerre",
     "sauvegarde": "",
     "effet": "Les défenses passives mentales du personnage sont augmentées de 2 (3)"
   },
@@ -669,8 +669,8 @@
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
     "domaine_a": "🐗 Faune",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🛡️ Guerre",
+    "sauvegarde": "Détermination",
     "effet": "Les défenses passives mentales du personnage sont réduites de 2 (3)"
   },
   {
@@ -690,7 +690,7 @@
     "cat_key": "Carac buff",
     "domaine_a": "❄️ Glace",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage perd 3 (5) en protection (le minimum reste 5)"
   },
   {
@@ -698,8 +698,8 @@
     "polarite": "positive",
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
-    "domaine_a": "",
-    "domaine_b": "",
+    "domaine_a": "⚖️ Loi",
+    "domaine_b": "🧩 Mental",
     "sauvegarde": "",
     "effet": "Le personnage gagne 2 (3) en criticité (réduit la MR requise pour un réussite critique) et en adresse (augmente la MR réquise pour un échec critique)"
   },
@@ -709,8 +709,8 @@
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
     "domaine_a": "🐗 Faune",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🌀 Chaos",
+    "sauvegarde": "Détermination",
     "effet": "Le personnage perd 2 (3) en criticité (réduit la MR requise pour un réussite critique) et en adresse (augmente la MR réquise pour un échec critique)"
   },
   {
@@ -728,9 +728,9 @@
     "polarite": "negative",
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
-    "domaine_a": "",
+    "domaine_a": "⚕️ Corps",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage perd 2 (3) en allure"
   },
   {
@@ -748,9 +748,9 @@
     "polarite": "negative",
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
-    "domaine_a": "",
+    "domaine_a": "⚕️ Corps",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage perd 2 (3) en initiative"
   },
   {
@@ -768,9 +768,9 @@
     "polarite": "negative",
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
-    "domaine_a": "",
+    "domaine_a": "⚕️ Corps",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage perd 3 (5) en rapidité et vitesse"
   },
   {
@@ -788,9 +788,9 @@
     "polarite": "negative",
     "categorie": "Caractéristique",
     "cat_key": "Carac buff",
-    "domaine_a": "",
+    "domaine_a": "⚕️ Corps",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage voit sa capacité de charge et d'encombrement réduit de 3 (5), son seuil des fatigues est également réduit de 3 (5)"
   },
   {
@@ -808,9 +808,9 @@
     "polarite": "negative",
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
-    "domaine_a": "",
+    "domaine_a": "⚕️ Corps",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage doit payer 2 (3) points d'initiative chaque fois qu'il souhaite réaliser une action rapide, de même avec les actions libres qui requière 1 (2) à la place"
   },
   {
@@ -819,7 +819,7 @@
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
     "domaine_a": "⚡ Foudre",
-    "domaine_b": "",
+    "domaine_b": "🌪️ Air",
     "sauvegarde": "",
     "effet": "Le personnage peux réaliser une action simple non déplacement gratuite par tour (rounds)"
   },
@@ -828,9 +828,9 @@
     "polarite": "negative",
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
-    "domaine_a": "",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_a": "🌑 Ombre",
+    "domaine_b": "⚕️ Corps",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage doit payer 2 (3) points d'initiative chaque fois qu'il souhaite réaliser une action simple"
   },
   {
@@ -848,9 +848,9 @@
     "polarite": "negative",
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
-    "domaine_a": "",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_a": "☢️ Toxique",
+    "domaine_b": "⚕️ Corps",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage doit payer 2 (3) points d'initiative chaque fois qu'il souhaite réaliser une action de déplacement"
   },
   {
@@ -870,7 +870,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "🩸 Impie",
     "domaine_b": "⚖️ Loi",
-    "sauvegarde": "LOWEST",
+    "sauvegarde": "Détermination",
     "effet": "Tous les attributs du personnage sont réduits de 2 (3)"
   },
   {
@@ -879,7 +879,7 @@
     "categorie": "Attributs",
     "cat_key": "Attributs mod",
     "domaine_a": "🐗 Faune",
-    "domaine_b": "",
+    "domaine_b": "🌿 Flore",
     "sauvegarde": "",
     "effet": "Tous les attributs du corps du personnage sont augmentés de 3 (4), ceux de l'esprit sont réduits de 1 (2)"
   },
@@ -889,8 +889,8 @@
     "categorie": "Attributs",
     "cat_key": "Attributs mod",
     "domaine_a": "🌿 Flore",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "☠️ Mort",
+    "sauvegarde": "Robustesse",
     "effet": "Tous les attributs du corps du personnage sont réduits de 3 (4), ceux de l'esprit sont augmentés de 1 (2)"
   },
   {
@@ -899,7 +899,7 @@
     "categorie": "Attributs",
     "cat_key": "Attributs mod",
     "domaine_a": "🌿 Flore",
-    "domaine_b": "",
+    "domaine_b": "🧩 Mental",
     "sauvegarde": "",
     "effet": "Tous les attributs de l'esprit du personnage sont augmentés de 3 (4), ceux du corps sont réduits de 1 (2)"
   },
@@ -909,8 +909,8 @@
     "categorie": "Attributs",
     "cat_key": "Attributs mod",
     "domaine_a": "🐗 Faune",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "🌀 Chaos",
+    "sauvegarde": "Détermination",
     "effet": "Tous les attributs de l'esprit du personnage sont réduits de 3 (4), ceux du corps sont augmentés de 1 (2)"
   },
   {
@@ -930,7 +930,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "⚕️ Corps",
     "domaine_b": "❄️ Glace",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "L'attribut de force du personnage est réduit de 4 (6)"
   },
   {
@@ -950,7 +950,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "⚕️ Corps",
     "domaine_b": "🐗 Faune",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "L'attribut de dextérité du personnage est réduit de 4 (6)"
   },
   {
@@ -970,7 +970,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "⚕️ Corps",
     "domaine_b": "🌑 Ombre",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "L'attribut de agilité du personnage est réduit de 4 (6)"
   },
   {
@@ -990,7 +990,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "⚕️ Corps",
     "domaine_b": "☀️ Lumière",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "L'attribut de perception du personnage est réduit de 4 (6)"
   },
   {
@@ -1010,7 +1010,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "⚕️ Corps",
     "domaine_b": "⚡ Foudre",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "L'attribut de constitution du personnage est réduit de 4 (6)"
   },
   {
@@ -1030,7 +1030,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "🧠 Esprit",
     "domaine_b": "❄️ Glace",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "L'attribut de charisme du personnage est réduit de 4 (6)"
   },
   {
@@ -1050,7 +1050,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "🧠 Esprit",
     "domaine_b": "🐗 Faune",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "L'attribut de intelligence du personnage est réduit de 4 (6)"
   },
   {
@@ -1070,7 +1070,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "🧠 Esprit",
     "domaine_b": "🌑 Ombre",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "L'attribut de ruse du personnage est réduit de 4 (6)"
   },
   {
@@ -1090,7 +1090,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "🧠 Esprit",
     "domaine_b": "☀️ Lumière",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "L'attribut de sagesse du personnage est réduit de 4 (6)"
   },
   {
@@ -1110,7 +1110,7 @@
     "cat_key": "Attributs mod",
     "domaine_a": "🧠 Esprit",
     "domaine_b": "⚡ Foudre",
-    "sauvegarde": "",
+    "sauvegarde": "Détermination",
     "effet": "L'attribut de volonté du personnage est réduit de 4 (6)"
   },
   {
@@ -1119,7 +1119,7 @@
     "categorie": "Résistance Élémentaire",
     "cat_key": "Résist elem",
     "domaine_a": "🔥 Feu",
-    "domaine_b": "",
+    "domaine_b": "✨ Sacre",
     "sauvegarde": "",
     "effet": "Le personnage est voit sa résistance à l'eau et au froid augmenter d'un (deux) cran, ses résistances au vent et à la foudre sont réduits d'un cran"
   },
@@ -1129,7 +1129,7 @@
     "categorie": "Résistance Élémentaire",
     "cat_key": "Résist elem",
     "domaine_a": "❄️ Glace",
-    "domaine_b": "",
+    "domaine_b": "💧 Eau",
     "sauvegarde": "",
     "effet": "Le personnage est voit sa résistance à la terre et au feu augmenter d'un (deux) cran, ses résistances à l'eau et à la glace sont réduits d'un cran"
   },
@@ -1139,7 +1139,7 @@
     "categorie": "Résistance Élémentaire",
     "cat_key": "Résist elem",
     "domaine_a": "⚡ Foudre",
-    "domaine_b": "",
+    "domaine_b": "🪨 Terre",
     "sauvegarde": "",
     "effet": "Le personnage est voit sa résistance au vent et à l'électricité augmenter d'un (deux) cran, ses résistances au feu et à la terre sont réduits d'un cran"
   },
@@ -1149,7 +1149,7 @@
     "categorie": "Résistance Élémentaire",
     "cat_key": "Résist elem",
     "domaine_a": "✨ Sacre",
-    "domaine_b": "",
+    "domaine_b": "❤️ Vie",
     "sauvegarde": "",
     "effet": "Le personnage est voit sa résistance à la lumière, la loi, le sacré et la vie d'un (deux) cran, ses résistances à l'ombre, le chaos, l'impie et la mort sont réduits d'un cran"
   },
@@ -1159,7 +1159,7 @@
     "categorie": "Résistance Élémentaire",
     "cat_key": "Résist elem",
     "domaine_a": "🩸 Impie",
-    "domaine_b": "",
+    "domaine_b": "☠️ Mort",
     "sauvegarde": "",
     "effet": "Le personnage est voit sa résistance à l'ombre, le chaos, l'impie et la mort d'un (deux) cran, ses résistances à lumière, la loi, le sacré et la vie sont réduits d'un cran"
   },
@@ -1178,9 +1178,9 @@
     "polarite": "negative",
     "categorie": "Spécial",
     "cat_key": "Spécial",
-    "domaine_a": "",
+    "domaine_a": "⚕️ Corps",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage voit ses lésions non stabilisées même si elles le sont tant qu'il a cette condition (toujours)"
   },
   {
@@ -1199,8 +1199,8 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "🌪️ Air",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "⚕️ Corps",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage voit sa fatigue réelle augmentée de moitié (doublée)"
   },
   {
@@ -1220,7 +1220,7 @@
     "cat_key": "Spécial",
     "domaine_a": "🪨 Terre",
     "domaine_b": "⚔️ Acier",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "Le maximum d'endurance du personnage est réduit de 33% (50%), cette augmentation fait perdre l'endurance qui dépasse le cas échéant"
   },
   {
@@ -1240,7 +1240,7 @@
     "cat_key": "Spécial",
     "domaine_a": "🎭 Illusion",
     "domaine_b": "🧩 Mental",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "Le personnage compte double jusqu'à une (deux) lésion la (les) plus grave de chaque type"
   },
   {
@@ -1248,8 +1248,8 @@
     "polarite": "positive",
     "categorie": "Spécial",
     "cat_key": "Spécial",
-    "domaine_a": "",
-    "domaine_b": "",
+    "domaine_a": "🛡️ Guerre",
+    "domaine_b": "✨ Sacre",
     "sauvegarde": "",
     "effet": "Les conditions positive du personnage ont une décharge réduit de 3 (5), les décharges négatives ont une décharge augmentée d'autant"
   },
@@ -1258,9 +1258,9 @@
     "polarite": "negative",
     "categorie": "Spécial",
     "cat_key": "Spécial",
-    "domaine_a": "",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_a": "🧩 Mental",
+    "domaine_b": "⚜️ Charme",
+    "sauvegarde": "Détermination",
     "effet": "Les conditions positives du personnage ont une décharge augmentée de 3 (5), les décharges négatives ont une décharge réduite d’autant"
   },
   {
@@ -1269,7 +1269,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "❤️ Vie",
-    "domaine_b": "",
+    "domaine_b": "🌿 Flore",
     "sauvegarde": "",
     "effet": "Lorsque le personnage reçoit un soin de ressource permanent ou temporaire, il peux recevoir 1/3 (1/2) de plus sous forme de ressource temporaire"
   },
@@ -1279,8 +1279,8 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "☠️ Mort",
-    "domaine_b": "",
-    "sauvegarde": "",
+    "domaine_b": "☢️ Toxique",
+    "sauvegarde": "Robustesse",
     "effet": "Lorsque le personnage reçoit un soin de ressource permanent ou temporaire, il reçoit 1/2 (100%) de moins, le calcul de la fatigue ainsi acquises le cas échéant est basée sur la valeurs avant réduction"
   },
   {
@@ -1300,7 +1300,7 @@
     "cat_key": "Spécial",
     "domaine_a": "👁️ Vision",
     "domaine_b": "🌑 Ombre",
-    "sauvegarde": "",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage voit la portée de ses sens et de ses attaques à distance réduite de moitié (à 1, proximité uniquement), sa zone est réduite de 2 (3)"
   },
   {
@@ -1308,8 +1308,8 @@
     "polarite": "positive",
     "categorie": "Spécial",
     "cat_key": "Spécial",
-    "domaine_a": "",
-    "domaine_b": "",
+    "domaine_a": "🌪️ Air",
+    "domaine_b": "🌀 Chaos",
     "sauvegarde": "",
     "effet": "Le personnage ignore les conditions négatives dont la charge est inférieure à (deux fois) celle ci"
   },
@@ -1320,7 +1320,7 @@
     "cat_key": "Spécial",
     "domaine_a": "🩸 Impie",
     "domaine_b": "🧩 Mental",
-    "sauvegarde": "",
+    "sauvegarde": "Les deux",
     "effet": "Le personnage ignore les conditions positives dont la charge est inférieure à (deux fois) celle ci"
   },
   {
@@ -1328,7 +1328,7 @@
     "polarite": "positive",
     "categorie": "HOT / DOT",
     "cat_key": "HOT/DOT",
-    "domaine_a": "",
+    "domaine_a": "🧩 Mental",
     "domaine_b": "⚜️ Charme",
     "sauvegarde": "",
     "effet": "Le personnage gagne 1D6+1 (+3) points de moral par rounds (l'excédent est perdu)"
@@ -1348,7 +1348,7 @@
     "polarite": "positive",
     "categorie": "HOT / DOT",
     "cat_key": "HOT/DOT",
-    "domaine_a": "",
+    "domaine_a": "🛡️ Guerre",
     "domaine_b": "🪷 Nature",
     "sauvegarde": "",
     "effet": "Le personnage gagne 1D6 (+2) PE temporaires par rounds"
@@ -1428,7 +1428,7 @@
     "polarite": "positive",
     "categorie": "HOT / DOT",
     "cat_key": "HOT/DOT",
-    "domaine_a": "",
+    "domaine_a": "⚡ Foudre",
     "domaine_b": "🌀 Chaos",
     "sauvegarde": "",
     "effet": "Le personnage gagne 1D6 (+2) PK temporaires par rounds"
@@ -1448,7 +1448,7 @@
     "polarite": "positive",
     "categorie": "HOT / DOT",
     "cat_key": "HOT/DOT",
-    "domaine_a": "",
+    "domaine_a": "🌿 Flore",
     "domaine_b": "❤️ Vie",
     "sauvegarde": "",
     "effet": "La gravité des lésions du personnage sont réduites de 2 (3) par rounds, doublé si la lésion est stabilisée, n'affecte que les gravités reçues durant la scène en cours et ne peux réduire les lésions en question en de ça de la moitié de leurs valeurs initiale"
@@ -1489,7 +1489,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "💧 Eau",
-    "domaine_b": "",
+    "domaine_b": "🌪️ Air",
     "sauvegarde": "",
     "effet": "Chaque fois que le personnage est la cible d'une agression (attaque, tactique, ...) il gagne 1D6 (+2) PE temporaires"
   },
@@ -1499,7 +1499,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚡ Foudre",
-    "domaine_b": "",
+    "domaine_b": "⚕️ Corps",
     "sauvegarde": "Robustesse",
     "effet": "Chaque fois que le personnage est la cible d'une agression, réussite ou non, (attaque, tactique, ...) il perd 1D6 (+2) PE"
   },
@@ -1509,7 +1509,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "🌪️ Air",
-    "domaine_b": "",
+    "domaine_b": "⚡ Foudre",
     "sauvegarde": "",
     "effet": "Le personnage reçoit un (deux) avantage à ses tests visant à esquiver ou s'échapper"
   },
@@ -1519,7 +1519,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "❄️ Glace",
-    "domaine_b": "",
+    "domaine_b": "💧 Eau",
     "sauvegarde": "Robustesse",
     "effet": "A chaque action entreprise par le personnage son initiative baisse de 1 (2), de plus le personnage reçoit un (deux) désavantage à ses tests visant à esquiver ou s'échapper"
   },
@@ -1539,7 +1539,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "🔥 Feu",
-    "domaine_b": "",
+    "domaine_b": "🩸 Impie",
     "sauvegarde": "Robustesse",
     "effet": "Au début de son round le personnage reçoit la condition \"enflammé\" avec la moitié (totalité) des charges de cette condition ci"
   },
@@ -1549,7 +1549,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "✨ Sacre",
     "sauvegarde": "",
     "effet": "Tous les tests de compétence du personnage sont désavantagés, sauf les actions d'attaques qui sont doublement (triplemet) avantagées"
   },
@@ -1559,7 +1559,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🔥 Feu",
     "sauvegarde": "Détermination",
     "effet": "Tous les tests de compétence du personnage sont (doublement) désavantagés, sauf les actions d'attaques"
   },
@@ -1569,7 +1569,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "⚖️ Loi",
     "sauvegarde": "",
     "effet": "Tous les tests de compétence du personnage sont désavantagés, sauf les actions de défenses qui sont doublement (triplement) avantagées"
   },
@@ -1579,7 +1579,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🌀 Chaos",
     "sauvegarde": "Détermination",
     "effet": "Tous les tests de compétence du personnage sont (doublement) désavantagés, sauf les actions de défenses"
   },
@@ -1589,7 +1589,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "☀️ Lumière",
     "sauvegarde": "",
     "effet": "Plage d'exploit et maladresse des actions de combat +1 (2) et -1 (2)"
   },
@@ -1599,7 +1599,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "☠️ Mort",
     "sauvegarde": "Détermination",
     "effet": "Plage d'exploit et maladresse des actions de combat -1 (2) et +1 (2)"
   },
@@ -1609,7 +1609,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🛡️ Guerre",
     "sauvegarde": "",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests visant l'object de son courage (qui est déterminé lorsque la condition est contractée)"
   },
@@ -1619,7 +1619,7 @@
     "categorie": "Avantage / Désavantage",
     "cat_key": "Avtg/Dsvgt",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🌑 Ombre",
     "sauvegarde": "Détermination",
     "effet": "Le personnage reçoit un (deux) désavantage à ses tests visant l'object de sa peur (qui est déterminé lorsque la condition est contractée)"
   },
@@ -1639,7 +1639,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🧩 Mental",
     "sauvegarde": "Détermination",
     "effet": "Le personnage est choqué lorsque ses PE sont inférieurs à 1/3 (1/2) du maximum"
   },
@@ -1649,7 +1649,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "⚖️ Loi",
     "sauvegarde": "",
     "effet": "Lorsque le personnage réalise une action de confrontation autre qu'une défense il gagne 2 (3) PE temporaires"
   },
@@ -1659,7 +1659,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "☠️ Mort",
     "sauvegarde": "Détermination",
     "effet": "Lorsque le personnage réalise une action de confrontation autre qu'une défense, il perd 4 (7) PE"
   },
@@ -1669,7 +1669,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🔥 Feu",
     "sauvegarde": "",
     "effet": "Le personnage voit ses jets infligés augmentés de 1D8 (2D8) et reçus réduits de 1D8 (2D8), quelque soit le type d'action, si elle vise ou sont originaire de l'object de son extase (qui est déterminé lorsque la condition est contractée)"
   },
@@ -1679,7 +1679,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🩸 Impie",
     "sauvegarde": "Détermination",
     "effet": "Le personnage voit ses jets infligés réduits de 1D8 (2D8) et reçus augmentés de 1D8 (2D8), quelque soit le type d'action, si elle vise ou sont originaire de l'object de sa haine (qui est déterminé lorsque la condition est contractée)"
   },
@@ -1689,7 +1689,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "👁️ Vision",
     "sauvegarde": "",
     "effet": "Le personnage ne peux plus réaliser d'échec critique (ne peux plus faire l'objet de réussite critique), le personnage reçoit un (deux) avantage à ses tests d'opportunité, de plus ses défenses contre de telles actions sont augmentés de 2 (3)"
   },
@@ -1699,7 +1699,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "🌑 Ombre",
     "sauvegarde": "Détermination",
     "effet": "Le personnage perd 5 (10) en adresse (augmente la MR réquise pour un échec critique, donc à 10 un échec est automatiquement critique), le personnage reçoit un (deux) désavantage à ses tests d'opportunité, de plus ses défenses contre de telles actions sont réduites de 2 (3)"
   },
@@ -1719,7 +1719,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "⚜️ Charme",
-    "domaine_b": "",
+    "domaine_b": "⚖️ Loi",
     "sauvegarde": "Détermination",
     "effet": "Le personnage perd 1/3 (1/2) des PVs perdus par une cible lors d'une attaque de mếlée sous forme de PE, puis de PV si plus assez de PE"
   },
@@ -1739,7 +1739,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "🧩 Mental",
-    "domaine_b": "",
+    "domaine_b": "🌀 Chaos",
     "sauvegarde": "Détermination",
     "effet": "Le personnage prend sa première (ses deux) action simples de façon aléatoire parmis (1D8) : Attaquer, Préparer une défense, Tactique, Déplacement, Au choix, Au choix, Rien, Rien, de fait le personnage ne peux plus entreprendre d'action complexe"
   },
@@ -1759,7 +1759,7 @@
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
     "domaine_a": "🧩 Mental",
-    "domaine_b": "",
+    "domaine_b": "🔥 Feu",
     "sauvegarde": "Détermination",
     "effet": "Le personnage prend sa première (ses deux) action simples de façon à approcher et/ou attaquer la cible la plus proche de lui, de fait le personnage ne peux plus entreprendre d'action complexe"
   },
@@ -1779,7 +1779,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "🧩 Mental",
-    "domaine_b": "",
+    "domaine_b": "🌀 Chaos",
     "sauvegarde": "Détermination",
     "effet": "A chaque action entreprise par le personnage la cible est modifiée de façon aléatoire : Il a 3 (5) chances sur 8 que la cible ne soit pas la bonne, lorsque c'est le cas la cible peux être n'importe laquelle à portée de l'action (allié ou non)"
   },
@@ -1949,7 +1949,7 @@
     "categorie": "Spécial",
     "cat_key": "Spécial",
     "domaine_a": "❤️ Vie",
-    "domaine_b": "",
+    "domaine_b": "✨ Sacre",
     "sauvegarde": "",
     "effet": "Le personnage ne peux pas perdre connaissance à moins d'avoir dépasser ses limites de plus de 50% (pas de limites). Ceci est très dangereux."
   },
@@ -1960,7 +1960,7 @@
     "cat_key": "Spécial",
     "domaine_a": "☠️ Mort",
     "domaine_b": "🩸 Impie",
-    "sauvegarde": "LOWEST",
+    "sauvegarde": "Robustesse",
     "effet": "Le personnage perd connaissance si il a atteint 33% (50%) des limites normales."
   },
   {
@@ -1989,7 +1989,7 @@
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
     "domaine_a": "☀️ Lumière",
-    "domaine_b": "",
+    "domaine_b": "⚡ Foudre",
     "sauvegarde": "",
     "effet": "Le personnage ne peux pas perdre d'actions à cause d'effets (naturels ou non), jusqu'à un (tous) effet"
   },
@@ -1999,7 +1999,7 @@
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
     "domaine_a": "🌑 Ombre",
-    "domaine_b": "",
+    "domaine_b": "🧩 Mental",
     "sauvegarde": "Détermination",
     "effet": "Le personnage perd une action simple (deux actions simples) par rounds, cette condition est ignorée si le personnage a fait l'objet d'une interaction physique depuis son dernier round (une simple tape dans le dos en ACTL suffit, mais encore faut-il le faire), une action mentale n'a qu'une chance sur 2 de fonctionner"
   },
@@ -2069,7 +2069,7 @@
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
     "domaine_a": "🔥 Feu",
-    "domaine_b": "",
+    "domaine_b": "🩸 Impie",
     "sauvegarde": "Robustesse",
     "effet": "Le personnage subit, au début de chaque tours, des dégats de rupture équivalants à D8+4 (+6) de dégats physiques d'élément feu (calcule des dégats normaux, une seule lésion associée qui croit à mesure que les PV sont perdus)."
   },
@@ -2079,7 +2079,7 @@
     "categorie": "Économie d'Action",
     "cat_key": "Action eco",
     "domaine_a": "🔥 Feu",
-    "domaine_b": "",
+    "domaine_b": "⚕️ Corps",
     "sauvegarde": "Robustesse",
     "effet": "Le personnage subit, au début de chaque tours, des dégats de rupture équivalants à D8 (+2) directement sur l'endurance (PE) puis la vitalité (PV) si choqué."
   },

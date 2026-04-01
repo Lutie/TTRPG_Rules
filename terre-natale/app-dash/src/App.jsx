@@ -4,11 +4,13 @@ import CampaignView from './components/CampaignView';
 import ConfrontationList from './components/ConfrontationList';
 import ConfrontationView from './components/ConfrontationView';
 import CharacterList from './components/CharacterList';
+import PlayerList from './components/PlayerList';
 
 function App() {
   const [campaigns, setCampaigns] = useState([]);
   const [confrontations, setConfrontations] = useState([]);
   const [characters, setCharacters] = useState([]);
+  const [players, setPlayers] = useState([]);
   const [selectedCampaignId, setSelectedCampaignId] = useState(null);
   const [selectedConfrontationId, setSelectedConfrontationId] = useState(null);
 
@@ -27,13 +29,19 @@ function App() {
     if (res.ok) setCharacters(await res.json());
   }, []);
 
+  const fetchPlayers = useCallback(async () => {
+    const res = await fetch('/api/players');
+    if (res.ok) setPlayers(await res.json());
+  }, []);
+
   useEffect(() => {
     fetchCampaigns();
     fetchConfrontations();
     fetchCharacters();
+    fetchPlayers();
     const interval = setInterval(fetchCharacters, 10000);
     return () => clearInterval(interval);
-  }, [fetchCampaigns, fetchConfrontations, fetchCharacters]);
+  }, [fetchCampaigns, fetchConfrontations, fetchCharacters, fetchPlayers]);
 
   const selectedCampaign = campaigns.find(c => c.id === selectedCampaignId);
   const selectedConfrontation = confrontations.find(c => c.id === selectedConfrontationId);
@@ -61,6 +69,21 @@ function App() {
       body: JSON.stringify(updates)
     });
     await fetchCampaigns();
+  };
+
+  // --- Joueurs ---
+  const handleCreatePlayer = async (nom) => {
+    const res = await fetch('/api/players', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ nom })
+    });
+    if (res.ok) await fetchPlayers();
+  };
+
+  const handleDeletePlayer = async (id) => {
+    await fetch(`/api/players/${id}`, { method: 'DELETE' });
+    await fetchPlayers();
   };
 
   // --- Confrontations ---
@@ -124,6 +147,11 @@ function App() {
           />
         ) : (
           <>
+            <PlayerList
+              players={players}
+              onCreate={handleCreatePlayer}
+              onDelete={handleDeletePlayer}
+            />
             <CampaignList
               campaigns={campaigns}
               onCreate={handleCreateCampaign}

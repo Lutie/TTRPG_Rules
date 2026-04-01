@@ -14,6 +14,7 @@ const CHARACTERS_DIR = path.join(DATA_DIR, 'characters');
 const CAMPAIGNS_FILE = path.join(DATA_DIR, 'campaigns.json');
 const CONFRONTATIONS_FILE = path.join(DATA_DIR, 'confrontations.json');
 const NPC_PRESETS_FILE = path.join(DATA_DIR, 'npc_presets.json');
+const PLAYERS_FILE = path.join(DATA_DIR, 'players.json');
 
 // Crée les dossiers si nécessaire
 fs.mkdirSync(CHARACTERS_DIR, { recursive: true });
@@ -26,6 +27,9 @@ if (!fs.existsSync(CONFRONTATIONS_FILE)) {
 if (!fs.existsSync(NPC_PRESETS_FILE)) {
   fs.writeFileSync(NPC_PRESETS_FILE, '[]', 'utf-8');
 }
+if (!fs.existsSync(PLAYERS_FILE)) {
+  fs.writeFileSync(PLAYERS_FILE, '[]', 'utf-8');
+}
 
 app.use(cors());
 app.use(express.json({ limit: '5mb' }));
@@ -36,26 +40,111 @@ if (fs.existsSync(distPath)) {
   app.use(express.static(distPath));
 }
 
+// === API Joueurs ===
+
+const loadPlayers = () => {
+  try { return JSON.parse(fs.readFileSync(PLAYERS_FILE, 'utf-8')); }
+  catch { return []; }
+};
+const savePlayers = (p) => fs.writeFileSync(PLAYERS_FILE, JSON.stringify(p, null, 2), 'utf-8');
+
+const generateToken = () => {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let token = '';
+  for (let i = 0; i < 8; i++) {
+    if (i === 4) token += '-';
+    token += chars[Math.floor(Math.random() * chars.length)];
+  }
+  return token;
+};
+
+// Lister les joueurs (MJ)
+app.get('/api/players', (req, res) => {
+  res.json(loadPlayers());
+});
+
+// Créer un joueur (MJ)
+app.post('/api/players', (req, res) => {
+  const { nom } = req.body;
+  if (!nom) return res.status(400).json({ error: 'Nom requis' });
+  const players = loadPlayers();
+  const player = {
+    id: crypto.randomUUID(),
+    nom,
+    token: generateToken(),
+    dateCreation: new Date().toISOString()
+  };
+  players.push(player);
+  savePlayers(players);
+  res.json(player);
+});
+
+// Supprimer un joueur
+app.delete('/api/players/:id', (req, res) => {
+  savePlayers(loadPlayers().filter(p => p.id !== req.params.id));
+  res.json({ ok: true });
+});
+
+// Authentifier un token (depuis app-sheet)
+app.post('/api/players/auth', (req, res) => {
+  const { token } = req.body;
+  if (!token) return res.status(400).json({ error: 'Token requis' });
+  const player = loadPlayers().find(p => p.token === token);
+  if (!player) return res.status(404).json({ error: 'Token invalide' });
+  res.json({ ok: true, nom: player.nom });
+});
+
+// Récupérer les personnages d'un joueur (pull depuis app-sheet)
+app.get('/api/players/:token/characters', (req, res) => {
+  const player = loadPlayers().find(p => p.token === req.params.token);
+  if (!player) return res.status(404).json({ error: 'Token invalide' });
+
+  const files = fs.readdirSync(CHARACTERS_DIR).filter(f => f.endsWith('.json'));
+  const characters = files.map(f => {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(CHARACTERS_DIR, f), 'utf-8'));
+      return data._sync?.playerToken === req.params.token ? data : null;
+    } catch { return null; }
+  }).filter(Boolean);
+
+  res.json(characters);
+});
+
 // === API Personnages ===
 
-// Recevoir l'état d'un personnage (sync depuis app-react)
+// Recevoir l'état d'un personnage (sync depuis app-sheet)
 app.post('/api/sync', (req, res) => {
-  const character = req.body;
+  const { playerToken, dateModification, ...character } = req.body;
   if (!character || !character.uuid) {
     return res.status(400).json({ error: 'UUID requis' });
+  }
+
+  const filePath = path.join(CHARACTERS_DIR, `${character.uuid}.json`);
+
+  // Vérification de conflit : refuser si le serveur a une version plus récente
+  if (fs.existsSync(filePath)) {
+    const existing = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const existingDate = existing._sync?.dateModification;
+    if (existingDate && dateModification && existingDate > dateModification) {
+      return res.status(409).json({
+        error: 'conflict',
+        message: 'Le serveur possède une version plus récente',
+        serverDate: existingDate
+      });
+    }
   }
 
   const data = {
     ...character,
     _sync: {
       dateSync: new Date().toISOString(),
-      nom: character.infos?.nom || 'Sans nom'
+      dateModification: dateModification || new Date().toISOString(),
+      nom: character.infos?.nom || 'Sans nom',
+      playerToken: playerToken || null
     }
   };
 
-  const filePath = path.join(CHARACTERS_DIR, `${character.uuid}.json`);
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
-
   res.json({ ok: true, uuid: character.uuid });
 });
 
