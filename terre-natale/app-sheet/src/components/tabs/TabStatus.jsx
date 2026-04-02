@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { useCharacter } from '../../context/CharacterContext';
 import { useCharacterCalculations, calculerModificateur, getValeurTotale } from '../../hooks/useCharacterCalculations';
+import CharacterAvatar from '../common/CharacterAvatar';
 
 const ATTRS_PHYSIQUES = ['FOR', 'DEX', 'AGI', 'CON', 'PER'];
 
@@ -549,7 +550,9 @@ function TabStatus() {
 
   return (
     <div id="tab-status" className="tab-content active">
-      {/* Récap État / Pénalités */}
+      {/* Récap État / Pénalités + Avatar */}
+      <div className="status-top-with-avatar">
+        <CharacterAvatar showLabel={false} />
       <div className="status-bandeau-group">
         <div
           className={`status-bandeau ${hasRecapDetail ? 'expandable' : ''}`}
@@ -577,7 +580,7 @@ function TabStatus() {
                 <span className="status-recap-value has-penalty">
                   {desavantagesTensions}
                   <span className="status-recap-detail">
-                  {' '}(Fat.{desavantagesFatigue}/Corr.{desavantagesCorruption})
+                  {' '}(Fatigue {desavantagesFatigue} / Corruption {desavantagesCorruption})
                   </span>
                 </span>
               </div>
@@ -864,7 +867,8 @@ function TabStatus() {
             </div>
           )}
         </div>
-      </div>
+      </div>{/* end status-bandeau-group */}
+      </div>{/* end status-top-with-avatar */}
 
       {/* Actions Combat/Repos */}
       <section className="section status-actions-section">

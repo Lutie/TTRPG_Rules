@@ -5,6 +5,7 @@ import DATA from '../../data';
 import AttributeBlock from '../common/AttributeBlock';
 import Section from '../common/Section';
 import PickerModal from '../common/PickerModal';
+import CharacterAvatar from '../common/CharacterAvatar';
 
 // Attributs disponibles pour les origines
 const ORIGINES_ATTRS = [
@@ -59,11 +60,14 @@ function TabPrincipal() {
     <div id="tab-principal" className="tab-content active">
       {/* Informations */}
       <Section title="Informations">
-        <div className="info-section-header">
-          <button className="btn-origines" onClick={() => setShowOriginesModal(true)}>
-            Origines
-          </button>
-        </div>
+        <div className="info-with-avatar">
+          <div className="info-avatar-col">
+            <CharacterAvatar />
+            <button className="btn-origines" onClick={() => setShowOriginesModal(true)}>
+              Origines
+            </button>
+          </div>
+          <div className="info-with-avatar-content">
         <div className="info-grid">
           {/* Ligne 1 : Nom | Race (auto) | Destinée | Vécu */}
           <div className="info-field">
@@ -175,6 +179,8 @@ function TabPrincipal() {
             </select>
           </div>
         </div>
+          </div>{/* end info-with-avatar-content */}
+        </div>{/* end info-with-avatar */}
       </Section>
 
       {/* Attributs */}
@@ -846,6 +852,20 @@ function OriginesModal({ character, updateCharacter, onClose }) {
     const key = `${source}_${slot}`;
     const value = choices[key] || '';
 
+    // Nombre de fois que chaque attribut est autorisé (selon fois:2 dans la liste)
+    const allowedCounts = {};
+    availableAttrs.forEach(id => { allowedCounts[id] = (allowedCounts[id] || 0) + 1; });
+
+    // Nombre de fois que chaque attribut est déjà pris dans les autres slots de la même source
+    const usedCounts = {};
+    Object.entries(choices).forEach(([k, val]) => {
+      const [src, sl] = k.split('_');
+      if (src === source && sl !== slot) usedCounts[val] = (usedCounts[val] || 0) + 1;
+    });
+
+    // Liste dédupliquée pour le rendu
+    const uniqueAttrs = [...new Set(availableAttrs)];
+
     return (
       <select
         className="origin-select"
@@ -854,13 +874,16 @@ function OriginesModal({ character, updateCharacter, onClose }) {
         disabled={disabled}
       >
         <option value="">—</option>
-        {availableAttrs.map(attrId => {
+        {uniqueAttrs.map(attrId => {
           const attr = ORIGINES_ATTRS.find(a => a.id === attrId);
           if (!attr) return null;
-          const isUsed = isUsedInSource(source, attrId, slot);
+          const allowed = allowedCounts[attrId] || 1;
+          const used    = usedCounts[attrId]    || 0;
+          const isUsed  = used >= allowed;
+          const label   = allowed > 1 ? `${attr.nom} ×${allowed}` : attr.nom;
           return (
             <option key={attrId} value={attrId} disabled={isUsed}>
-              {attr.nom}
+              {label}
             </option>
           );
         })}
@@ -1129,7 +1152,14 @@ function OriginesModal({ character, updateCharacter, onClose }) {
 // ─── Helpers attributs ───────────────────────────────────────────────────────
 
 const ATTR_NOMS = Object.fromEntries(ORIGINES_ATTRS.map(a => [a.id, a.nom]));
-const attrList  = (ids) => ids?.length ? ids.map(id => ATTR_NOMS[id] || id).join(', ') : '—';
+const attrList = (ids) => {
+  if (!ids?.length) return '—';
+  const counts = {};
+  ids.forEach(id => { counts[id] = (counts[id] || 0) + 1; });
+  return Object.entries(counts)
+    .map(([id, n]) => n > 1 ? `${ATTR_NOMS[id] || id} ×${n}` : (ATTR_NOMS[id] || id))
+    .join(', ');
+};
 
 function AttrBoosts({ item }) {
   if (!item.strongAttributes?.length && !item.weakAttributes?.length) return null;
@@ -1171,16 +1201,15 @@ function MilieuExtra({ item }) {
   );
 }
 
-// Formate attributs_forts/faibles bruts (peut contenir { choice: [...] })
-function formatAttrsRaw(list) {
-  if (!list?.length) return null;
-  const parts = list.map(a => {
+// Formate attributs_forts/faibles bruts → tableau de strings (un par pill)
+function formatAttrsRawParts(list) {
+  if (!list?.length) return [];
+  return list.map(a => {
     if (typeof a === 'string') return a;
     if (a.choice) return a.choice.join(' ou ');
-    if (a.id) return a.id;
+    if (a.id) return a.fois > 1 ? `${a.id} ×${a.fois}` : a.id;
     return '';
   }).filter(Boolean);
-  return parts.length ? parts.join(', ') : null;
 }
 
 // Formate les attributs secondaires de naissance
@@ -1192,8 +1221,8 @@ function formatNaissance(attrs) {
 }
 
 function EthnieExtra({ item }) {
-  const attrsForts   = formatAttrsRaw(item.attributs_forts);
-  const attrsFaibles = formatAttrsRaw(item.attributs_faibles);
+  const attrsForts   = formatAttrsRawParts(item.attributs_forts);
+  const attrsFaibles = formatAttrsRawParts(item.attributs_faibles);
   const naissance    = formatNaissance(item.attributs_naissance);
   const particularites = [
     ...(item.particularites_naissance  || []),
@@ -1202,16 +1231,24 @@ function EthnieExtra({ item }) {
 
   return (
     <div className="ethnie-extra">
-      {attrsForts && (
-        <div className="ethnie-extra-row">
-          <span className="ethnie-extra-key">Attributs forts</span>
-          <span className="ethnie-extra-val">{attrsForts}</span>
+      {attrsForts.length > 0 && (
+        <div className="ethnie-extra-row ethnie-extra-row--block">
+          <span className="ethnie-extra-key">Boosts</span>
+          <div className="ethnie-extra-pills">
+            {attrsForts.map((p, i) => (
+              <span key={i} className="ethnie-extra-pill picker-attr-boost">{p}</span>
+            ))}
+          </div>
         </div>
       )}
-      {attrsFaibles && (
-        <div className="ethnie-extra-row">
-          <span className="ethnie-extra-key">Attributs faibles</span>
-          <span className="ethnie-extra-val">{attrsFaibles}</span>
+      {attrsFaibles.length > 0 && (
+        <div className="ethnie-extra-row ethnie-extra-row--block">
+          <span className="ethnie-extra-key">Deboosts</span>
+          <div className="ethnie-extra-pills">
+            {attrsFaibles.map((p, i) => (
+              <span key={i} className="ethnie-extra-pill picker-attr-deboost">{p}</span>
+            ))}
+          </div>
         </div>
       )}
       {naissance && (

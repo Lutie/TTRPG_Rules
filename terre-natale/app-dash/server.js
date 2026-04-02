@@ -7,6 +7,19 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const PORT = process.env.PORT || 3100;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
+
+// Sessions admin en mémoire (expire au redémarrage du serveur)
+const adminSessions = new Set();
+
+const requireAdmin = (req, res, next) => {
+  const auth = req.headers.authorization;
+  const token = auth?.startsWith('Bearer ') ? auth.slice(7) : null;
+  if (!token || !adminSessions.has(token)) {
+    return res.status(401).json({ error: 'Non autorisé' });
+  }
+  next();
+};
 
 // Dossiers de données
 const DATA_DIR = path.join(__dirname, 'data');
@@ -40,6 +53,24 @@ if (fs.existsSync(distPath)) {
   app.use(express.static(distPath));
 }
 
+// === API Admin ===
+
+app.post('/api/admin/login', (req, res) => {
+  if (!ADMIN_PASSWORD) return res.status(503).json({ error: 'Aucun mot de passe configuré (ADMIN_PASSWORD manquant)' });
+  const { password } = req.body;
+  if (password !== ADMIN_PASSWORD) return res.status(401).json({ error: 'Mot de passe incorrect' });
+  const token = crypto.randomUUID();
+  adminSessions.add(token);
+  res.json({ token });
+});
+
+app.post('/api/admin/logout', (req, res) => {
+  const auth = req.headers.authorization;
+  const token = auth?.startsWith('Bearer ') ? auth.slice(7) : null;
+  if (token) adminSessions.delete(token);
+  res.json({ ok: true });
+});
+
 // === API Joueurs ===
 
 const loadPlayers = () => {
@@ -64,7 +95,7 @@ app.get('/api/players', (req, res) => {
 });
 
 // Créer un joueur (MJ)
-app.post('/api/players', (req, res) => {
+app.post('/api/players', requireAdmin, (req, res) => {
   const { nom } = req.body;
   if (!nom) return res.status(400).json({ error: 'Nom requis' });
   const players = loadPlayers();
@@ -80,7 +111,7 @@ app.post('/api/players', (req, res) => {
 });
 
 // Supprimer un joueur
-app.delete('/api/players/:id', (req, res) => {
+app.delete('/api/players/:id', requireAdmin, (req, res) => {
   savePlayers(loadPlayers().filter(p => p.id !== req.params.id));
   res.json({ ok: true });
 });
@@ -159,7 +190,8 @@ app.get('/api/characters', (req, res) => {
         nom: data._sync?.nom || data.infos?.nom || 'Sans nom',
         dateSync: data._sync?.dateSync || null,
         caste: data.caste?.nom || '',
-        rang: data.caste?.rang || 0
+        rang: data.caste?.rang || 0,
+        avatar: data.avatar || null
       };
     } catch { return null; }
   }).filter(Boolean);
@@ -175,6 +207,16 @@ app.get('/api/characters/:uuid', (req, res) => {
   }
   const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   res.json(data);
+});
+
+// Supprimer un personnage
+app.delete('/api/characters/:uuid', requireAdmin, (req, res) => {
+  const filePath = path.join(CHARACTERS_DIR, `${req.params.uuid}.json`);
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).json({ error: 'Personnage non trouvé' });
+  }
+  fs.unlinkSync(filePath);
+  res.json({ ok: true });
 });
 
 // === API Campagnes ===
@@ -195,7 +237,7 @@ app.get('/api/campaigns', (req, res) => {
 });
 
 // Créer une campagne
-app.post('/api/campaigns', (req, res) => {
+app.post('/api/campaigns', requireAdmin, (req, res) => {
   const { nom } = req.body;
   if (!nom) return res.status(400).json({ error: 'Nom requis' });
 
@@ -213,7 +255,7 @@ app.post('/api/campaigns', (req, res) => {
 });
 
 // Mettre à jour une campagne (ajouter/retirer personnages)
-app.put('/api/campaigns/:id', (req, res) => {
+app.put('/api/campaigns/:id', requireAdmin, (req, res) => {
   const campaigns = loadCampaigns();
   const idx = campaigns.findIndex(c => c.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Campagne non trouvée' });
@@ -227,7 +269,7 @@ app.put('/api/campaigns/:id', (req, res) => {
 });
 
 // Supprimer une campagne
-app.delete('/api/campaigns/:id', (req, res) => {
+app.delete('/api/campaigns/:id', requireAdmin, (req, res) => {
   let campaigns = loadCampaigns();
   campaigns = campaigns.filter(c => c.id !== req.params.id);
   saveCampaigns(campaigns);
@@ -250,7 +292,7 @@ app.get('/api/confrontations', (req, res) => {
   res.json(loadConfrontations());
 });
 
-app.post('/api/confrontations', (req, res) => {
+app.post('/api/confrontations', requireAdmin, (req, res) => {
   const { nom } = req.body;
   if (!nom) return res.status(400).json({ error: 'Nom requis' });
 
@@ -266,7 +308,7 @@ app.post('/api/confrontations', (req, res) => {
   res.json(confrontation);
 });
 
-app.put('/api/confrontations/:id', (req, res) => {
+app.put('/api/confrontations/:id', requireAdmin, (req, res) => {
   const confrontations = loadConfrontations();
   const idx = confrontations.findIndex(c => c.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Confrontation non trouvée' });
@@ -278,7 +320,7 @@ app.put('/api/confrontations/:id', (req, res) => {
   res.json(confrontations[idx]);
 });
 
-app.delete('/api/confrontations/:id', (req, res) => {
+app.delete('/api/confrontations/:id', requireAdmin, (req, res) => {
   let confrontations = loadConfrontations();
   confrontations = confrontations.filter(c => c.id !== req.params.id);
   saveConfrontations(confrontations);
@@ -295,7 +337,7 @@ const savePresets = (p) => fs.writeFileSync(NPC_PRESETS_FILE, JSON.stringify(p, 
 
 app.get('/api/npc-presets', (req, res) => res.json(loadPresets()));
 
-app.post('/api/npc-presets', (req, res) => {
+app.post('/api/npc-presets', requireAdmin, (req, res) => {
   const { nom, ressources, armure_physique, armure_mentale, ajustement_initiative, moral_perso } = req.body;
   if (!nom) return res.status(400).json({ error: 'Nom requis' });
   const presets = loadPresets();
@@ -305,7 +347,7 @@ app.post('/api/npc-presets', (req, res) => {
   res.json(preset);
 });
 
-app.delete('/api/npc-presets/:id', (req, res) => {
+app.delete('/api/npc-presets/:id', requireAdmin, (req, res) => {
   savePresets(loadPresets().filter(p => p.id !== req.params.id));
   res.json({ ok: true });
 });

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import NpcCard from './NpcCard';
+import { apiFetch } from '../adminAuth';
 
 const RESSOURCES = [
   { id: 'PE', icone: '⚡' },
@@ -29,7 +30,7 @@ const defaultForm = () => ({
 
 const roll3d6 = () => [0, 0, 0].reduce(acc => acc + Math.floor(Math.random() * 6) + 1, 0);
 
-function ConfrontationView({ confrontation, onBack, onUpdate }) {
+function ConfrontationView({ confrontation, onBack, onUpdate, isAdmin }) {
   const [showModal, setShowModal] = useState(false);
   const [showPresets, setShowPresets] = useState(false);
   const [form, setForm] = useState(defaultForm());
@@ -74,7 +75,7 @@ function ConfrontationView({ confrontation, onBack, onUpdate }) {
     if (!form.nom.trim()) return;
 
     if (form.saveAsPreset) {
-      await fetch('/api/npc-presets', {
+      await apiFetch('/api/npc-presets', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -195,7 +196,7 @@ function ConfrontationView({ confrontation, onBack, onUpdate }) {
   };
 
   const handleDeletePreset = async (id) => {
-    await fetch(`/api/npc-presets/${id}`, { method: 'DELETE' });
+    await apiFetch(`/api/npc-presets/${id}`, { method: 'DELETE' });
     await fetchPresets();
   };
 
@@ -225,7 +226,7 @@ function ConfrontationView({ confrontation, onBack, onUpdate }) {
         <button className="btn-back" onClick={openInitModal}>
           Nouveau tour
         </button>
-        <button className="btn-add-char" onClick={() => setShowModal(true)}>+ PNJ</button>
+        {isAdmin && <button className="btn-add-char" onClick={() => setShowModal(true)}>+ PNJ</button>}
       </div>
 
       {showPresets && (
@@ -241,11 +242,13 @@ function ConfrontationView({ confrontation, onBack, onUpdate }) {
                   <span className="preset-item-meta">
                     PV {p.ressources?.PV?.max || 0} · PE {p.ressources?.PE?.max || 0} · Adj.Init {p.ajustement_initiative || 0} · Moral⚙ {p.moral_perso || 0}
                   </span>
-                  <button
-                    className="btn-confirm-yes"
-                    onClick={() => handleDeletePreset(p.id)}
-                    title="Supprimer ce preset"
-                  >✕</button>
+                  {isAdmin && (
+                    <button
+                      className="btn-confirm-yes"
+                      onClick={() => handleDeletePreset(p.id)}
+                      title="Supprimer ce preset"
+                    >✕</button>
+                  )}
                 </li>
               ))}
             </ul>
@@ -262,7 +265,7 @@ function ConfrontationView({ confrontation, onBack, onUpdate }) {
           <NpcCard
             key={npc.id}
             npc={npc}
-            onRemove={() => handleRemoveNpc(npc.id)}
+            onRemove={isAdmin ? () => handleRemoveNpc(npc.id) : null}
             onUpdate={(updates) => handleUpdateNpc(npc.id, updates)}
           />
         ))}

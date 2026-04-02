@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
-import { getValeurTotale, calculerModificateur, getValeurDefaut } from '../../hooks/useCharacterCalculations';
+import { getValeurTotale, calculerModificateur, getValeurDefaut, computeBonusConfig } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
 
 // Calcul défense normale
@@ -30,7 +31,7 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
   const bonusOrigines = character.originesBonus?.[attr.id] || 0;
   const totalOrigine = bonusEthnie + bonusOrigines;
   const bonusNaissance = character.naissanceBonus?.[attr.id] || 0;
-  const bonusConfig = character.bonusConfig?.[`attr${attr.id}`] || 0;
+  const bonusConfig = computeBonusConfig(character)[`attr${attr.id}`] || 0;
 
   const hasNaissance = ['STA', 'TAI', 'EGO', 'APP', 'CHN', 'EQU'].includes(attr.id);
   const isSecondary = ['STA', 'TAI', 'EGO', 'APP'].includes(attr.id);
@@ -39,8 +40,11 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
   const min = isSecondary ? DATA.secondaireMin : DATA.valeurDefautPrincipal;
   const max = isSecondary ? DATA.secondaireMax : 20;
 
-  const handleBaseChange = (e) => {
-    const newBase = Math.max(min, Math.min(max, parseInt(e.target.value) || min));
+  const [localValue, setLocalValue] = useState(null);
+
+  const commitBase = (raw) => {
+    const newBase = Math.max(min, Math.min(max, parseInt(raw) || min));
+    setLocalValue(null);
     updateCharacter(prev => ({
       ...prev,
       attributs: {
@@ -61,8 +65,9 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
         <input
           type="number"
           className="attr-input-compact"
-          value={attrData.base}
-          onChange={handleBaseChange}
+          value={localValue ?? attrData.base}
+          onChange={e => setLocalValue(e.target.value)}
+          onBlur={e => commitBase(e.target.value)}
           min={min}
           max={max}
         />
@@ -103,8 +108,9 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
               <input
                 type="number"
                 className="attr-input"
-                value={attrData.base}
-                onChange={handleBaseChange}
+                value={localValue ?? attrData.base}
+                onChange={e => setLocalValue(e.target.value)}
+                onBlur={e => commitBase(e.target.value)}
                 min={min}
                 max={max}
               />

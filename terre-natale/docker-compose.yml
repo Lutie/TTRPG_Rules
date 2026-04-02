@@ -5,6 +5,8 @@ services:
       - "3100:3100"
     volumes:
       - ./app-dash/data:/app/data
+    environment:
+      - ADMIN_PASSWORD=changeme
     restart: unless-stopped
 
   app-sheet:

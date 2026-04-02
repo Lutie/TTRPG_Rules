@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function PlayerList({ players, onCreate, onDelete }) {
+function PlayerList({ players, onCreate, onDelete, isAdmin }) {
   const [newName, setNewName] = useState('');
   const [confirmDelete, setConfirmDelete] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
@@ -23,16 +23,18 @@ function PlayerList({ players, onCreate, onDelete }) {
         <h2>Joueurs</h2>
       </div>
 
-      <div className="campaign-create">
-        <input
-          type="text"
-          placeholder="Nom du joueur"
-          value={newName}
-          onChange={e => setNewName(e.target.value)}
-          onKeyDown={e => e.key === 'Enter' && handleCreate()}
-        />
-        <button className="btn-create" onClick={handleCreate}>Créer</button>
-      </div>
+      {isAdmin && (
+        <div className="campaign-create">
+          <input
+            type="text"
+            placeholder="Nom du joueur"
+            value={newName}
+            onChange={e => setNewName(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && handleCreate()}
+          />
+          <button className="btn-create" onClick={handleCreate}>Créer</button>
+        </div>
+      )}
 
       {players.length === 0 && (
         <p className="empty-message">Aucun joueur. Créez un compte pour générer un token.</p>
@@ -61,11 +63,13 @@ function PlayerList({ players, onCreate, onDelete }) {
                     {copiedId === p.id ? 'Copié !' : p.token}
                   </span>
                 </div>
-                <button
-                  className="btn-card-delete"
-                  onClick={() => setConfirmDelete(p.id)}
-                  title="Supprimer"
-                >✕</button>
+                {isAdmin && (
+                  <button
+                    className="btn-card-delete"
+                    onClick={() => setConfirmDelete(p.id)}
+                    title="Supprimer"
+                  >✕</button>
+                )}
               </>
             )}
           </div>

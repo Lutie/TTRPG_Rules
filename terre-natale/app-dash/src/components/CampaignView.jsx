@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import CharacterCard from './CharacterCard';
 
-function CampaignView({ campaign, allCharacters, onBack, onUpdate, onRefresh }) {
+function CampaignView({ campaign, allCharacters, onBack, onUpdate, onRefresh, isAdmin }) {
   const [characterDetails, setCharacterDetails] = useState({});
   const [showAddPicker, setShowAddPicker] = useState(false);
 
@@ -44,9 +44,11 @@ function CampaignView({ campaign, allCharacters, onBack, onUpdate, onRefresh }) 
       <div className="campaign-view-header">
         <button className="btn-back" onClick={onBack}>← Retour</button>
         <h2>{campaign.nom}</h2>
-        <button className="btn-add-char" onClick={() => setShowAddPicker(!showAddPicker)}>
-          + Personnage
-        </button>
+        {isAdmin && (
+          <button className="btn-add-char" onClick={() => setShowAddPicker(!showAddPicker)}>
+            + Personnage
+          </button>
+        )}
       </div>
 
       {showAddPicker && (
@@ -80,7 +82,7 @@ function CampaignView({ campaign, allCharacters, onBack, onUpdate, onRefresh }) 
               key={uuid}
               character={data}
               summary={summary}
-              onRemove={() => handleRemoveCharacter(uuid)}
+              onRemove={isAdmin ? () => handleRemoveCharacter(uuid) : null}
             />
           );
         })}

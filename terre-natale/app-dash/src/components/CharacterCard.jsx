@@ -12,7 +12,7 @@ function CharacterCard({ character, summary, onRemove }) {
     return (
       <div className="char-card char-card-missing">
         <span className="char-card-nom">Personnage inconnu</span>
-        <button className="btn-card-delete" onClick={onRemove} title="Retirer">✕</button>
+        {onRemove && <button className="btn-card-delete" onClick={onRemove} title="Retirer">✕</button>}
       </div>
     );
   }
@@ -37,10 +37,13 @@ function CharacterCard({ character, summary, onRemove }) {
     <div className={`char-card ${isStale ? 'char-card-stale' : ''}`}>
       <div className="char-card-header">
         <div className="char-card-identity">
-          <span className="char-card-nom">{nom}</span>
-          {caste && <span className="char-card-caste">{caste}</span>}
+          {character?.avatar && <img src={character.avatar} alt="" className="char-card-avatar" />}
+          <div className="char-card-identity-text">
+            <span className="char-card-nom">{nom}</span>
+            {caste && <span className="char-card-caste">{caste}</span>}
+          </div>
         </div>
-        <button className="btn-card-delete" onClick={onRemove} title="Retirer">✕</button>
+        {onRemove && <button className="btn-card-delete" onClick={onRemove} title="Retirer">✕</button>}
       </div>
 
       <div className="char-card-ressources">

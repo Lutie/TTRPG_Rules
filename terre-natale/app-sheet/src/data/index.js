@@ -1,6 +1,7 @@
 // data/index.js - Données statiques pour Terre Natale
 // NOTE: traits.json est AUTO-GÉNÉRÉ via tools/generate_traits_js.py (voir ce script pour mise à jour)
 import traits from './traits.json';
+import particularites from './particularites.json';
 import _rawEthnies from './ethnies.json';
 import competences from './competences.json';
 import categoriesCompetences from './categories_competences.json';
@@ -192,6 +193,9 @@ export { competencesMagie, categoriesMagie };
 // Traits — importés depuis ./traits.json (AUTO-GÉNÉRÉ via tools/generate_traits_js.py → maintenant generate_traits_json.py)
 export { traits };
 
+// Particularités d'ethnies — généré par tools/parse_particularites.py
+export { particularites };
+
 // Origines (races)
 export const origines = [
   { id: 'humain',       nom: 'Humain' },
@@ -233,7 +237,7 @@ export const ethnies = _rawEthnies.map(e => ({
   origineId:        RACE_TO_ID[e.race] || null,
   strongAttributes: _flattenAttrs(e.attributs_forts),
   weakAttributes:   _flattenAttrs(e.attributs_faibles),
-}));
+})).sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 const CORPS  = ['FOR', 'DEX', 'AGI', 'CON', 'PER'];
 const ESPRIT = ['CHA', 'INT', 'RUS', 'VOL', 'SAG'];
@@ -257,7 +261,7 @@ export const allegeances = [
   { id: 'silence',  nom: 'Silence',   catchphrase: 'La Retenue',                        strongAttributes: TOUS,        weakAttributes: ['EQU'] },
   { id: 'foi',      nom: 'Foi',       catchphrase: "L'Abandon à l'Absolu",              strongAttributes: TOUS,        weakAttributes: ['CHN'] },
   { id: 'ambition', nom: 'Ambition',  catchphrase: "La Quête de l'Ascension",           strongAttributes: TOUS,        weakAttributes: TOUS   },
-];
+].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 // Milieux de vie
 // nbBoosts / nbDeboosts indiquent le nombre de slots actifs selon le biome (UI à compléter)
@@ -276,7 +280,7 @@ export const milieux = [
   { id: 'marin',       nom: 'Marin',       description: 'Mouvant, isolé, imprévisible.',             strongAttributes: TOUS,   weakAttributes: ESPRIT, nbBoosts: 2, nbDeboosts: 2 },
   { id: 'forestier',   nom: 'Forestier',   description: 'Sauvage, irrégulier, exigeant.',            strongAttributes: TOUS,   weakAttributes: TOUS,   nbBoosts: 2, nbDeboosts: 2 },
   { id: 'nomade',      nom: 'Nomade',      description: 'Itinérant, exposé, endurant.',              strongAttributes: TOUS,   weakAttributes: CORPS,  nbBoosts: 2, nbDeboosts: 2 },
-];
+].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 // Personas
 export const personas = [
@@ -322,7 +326,7 @@ export const personas = [
   { id: 'tortue',         nom: 'Tortue',         description: 'Patiente, prudente, résiliente et constante.',                   strongAttributes: ['CON','SAG','VOL'],  weakAttributes: ['AGI','CHA','DEX'] },
   { id: 'raton_laveur',   nom: 'Raton laveur',   description: 'Curieux, fouineur, opportuniste et malin.',                      strongAttributes: ['DEX','RUS','PER'],  weakAttributes: ['VOL','SAG','CHA'] },
   { id: 'requin',         nom: 'Requin',         description: 'Prédateur froid, déterminé et implacable.',                      strongAttributes: ['FOR','AGI','PER'],  weakAttributes: ['CON','VOL','RUS'] },
-];
+].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 // Comportements (axe 1 de personnalité)
 export const comportements = [
@@ -475,7 +479,8 @@ const DATA = {
   comportements,
   caracteres,
   temperaments,
-  casteProgression
+  casteProgression,
+  particularites
 };
 
 export default DATA;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function CampaignList({ campaigns, onCreate, onDelete, onSelect }) {
+function CampaignList({ campaigns, onCreate, onDelete, onSelect, isAdmin }) {
   const [newName, setNewName] = useState('');
   const [confirmDelete, setConfirmDelete] = useState(null);
 
@@ -16,16 +16,18 @@ function CampaignList({ campaigns, onCreate, onDelete, onSelect }) {
         <h2>Campagnes</h2>
       </div>
 
-      <div className="campaign-create">
-        <input
-          type="text"
-          placeholder="Nom de la campagne"
-          value={newName}
-          onChange={e => setNewName(e.target.value)}
-          onKeyDown={e => e.key === 'Enter' && handleCreate()}
-        />
-        <button className="btn-create" onClick={handleCreate}>Créer</button>
-      </div>
+      {isAdmin && (
+        <div className="campaign-create">
+          <input
+            type="text"
+            placeholder="Nom de la campagne"
+            value={newName}
+            onChange={e => setNewName(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && handleCreate()}
+          />
+          <button className="btn-create" onClick={handleCreate}>Créer</button>
+        </div>
+      )}
 
       {campaigns.length === 0 && (
         <p className="empty-message">Aucune campagne. Créez-en une pour commencer.</p>
@@ -50,11 +52,13 @@ function CampaignList({ campaigns, onCreate, onDelete, onSelect }) {
                     {c.personnages.length} personnage{c.personnages.length !== 1 ? 's' : ''}
                   </span>
                 </div>
-                <button
-                  className="btn-card-delete"
-                  onClick={() => setConfirmDelete(c.id)}
-                  title="Supprimer"
-                >✕</button>
+                {isAdmin && (
+                  <button
+                    className="btn-card-delete"
+                    onClick={() => setConfirmDelete(c.id)}
+                    title="Supprimer"
+                  >✕</button>
+                )}
               </>
             )}
           </div>

@@ -29,6 +29,18 @@ function TabTraits() {
   const avantagesMineurs = traitsAvecInfos.filter(t => t.info.type === 'avantage_mineur');
   const desavantages     = traitsAvecInfos.filter(t => t.info.type === 'desavantage');
 
+  const ethnie = useMemo(() =>
+    DATA.ethnies.find(e => e.id === character.infos?.ethnicity),
+    [character.infos?.ethnicity]
+  );
+
+  const particuliaritesOrigine = useMemo(() => {
+    if (!ethnie) return [];
+    const naissance   = (ethnie.particularites_naissance   || []).map(p => ({ ...p, categorie: 'Naissance' }));
+    const culturelles = (ethnie.particularites_culturelles || []).map(p => ({ ...p, categorie: 'Culturelle' }));
+    return [...naissance, ...culturelles];
+  }, [ethnie]);
+
   // Comptage des slots d'avantages mineurs (1 par avantage majeur avec ▣)
   const slotsMineurs = avantagesMajeurs.filter(t => t.info.avantage_mineur_bonus).length;
 
@@ -92,6 +104,7 @@ function TabTraits() {
     const next = {};
     traitsAvecInfos.forEach(t => { next[t.id] = true; });
     avantagesCaste.forEach(av => { next[av.key] = true; });
+    particuliaritesOrigine.forEach((_, i) => { next[`part-${i}`] = true; });
     setExpandedTraits(next);
   };
 
@@ -194,6 +207,29 @@ function TabTraits() {
             </div>
           </div>
 
+          {/* Particularités d'origine */}
+          {particuliaritesOrigine.length > 0 && (
+            <div className="traits-section traits-origine">
+              <div className="traits-section-header">
+                <h3 className="traits-section-title">
+                  Particularités liées à l'origine
+                  <span className="traits-section-subtitle"> — {ethnie.nom}</span>
+                </h3>
+              </div>
+              <div className="traits-list">
+                {particuliaritesOrigine.map((p, i) => (
+                  <ParticuliariteCard
+                    key={i}
+                    index={i}
+                    particuliarite={p}
+                    expandedTraits={expandedTraits}
+                    onToggle={toggleExpand}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Avantages Mineurs */}
           <TraitSection
             title={
@@ -276,6 +312,70 @@ function TraitSection({ title, typeClass, isEmpty, emptyMsg, onOpenModal, addLab
           <div className="traits-empty">{emptyMsg}</div>
         ) : children}
       </div>
+    </div>
+  );
+}
+
+// ─── Rendu basique du markdown (gras uniquement) ─────────────────────────────
+
+function renderMd(text) {
+  if (!text) return null;
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((p, i) =>
+    p.startsWith('**') && p.endsWith('**')
+      ? <strong key={i}>{p.slice(2, -2)}</strong>
+      : p
+  );
+}
+
+// ─── Carte d'une particularité d'origine (fixe, non modifiable) ──────────────
+
+function ParticuliariteCard({ index, particuliarite, expandedTraits, onToggle }) {
+  const key = `part-${index}`;
+  const isExpanded = expandedTraits[key] || false;
+
+  const info = DATA.particularites?.[particuliarite.anchor];
+  const hasContent = info?.description || info?.effet || particuliarite.details?.length > 0;
+
+  return (
+    <div className={`trait-item ${isExpanded ? 'expanded' : ''} trait-origine`}>
+      <div className="trait-header">
+        <div className="trait-info">
+          <span className="trait-nom">{particuliarite.nom}</span>
+          <span className={`trait-cout-badge badge-particularite badge-particularite--${particuliarite.categorie.toLowerCase()}`}>
+            {particuliarite.categorie}
+          </span>
+        </div>
+        <div className="trait-tags-inline" />
+        <div className="trait-controls">
+          {hasContent && (
+            <button className="btn-trait-toggle" onClick={() => onToggle(key)}>
+              {isExpanded ? '▲' : '▼'}
+            </button>
+          )}
+        </div>
+      </div>
+      {isExpanded && hasContent && (
+        <div className="trait-content">
+          {info?.description && (
+            <p className="trait-description">{renderMd(info.description)}</p>
+          )}
+          {info?.effet && (
+            <div className="trait-meta-block">
+              <span className="trait-meta">
+                <strong>Effet :</strong>{' '}{renderMd(info.effet)}
+              </span>
+            </div>
+          )}
+          {particuliarite.details?.length > 0 && (
+            <div className="trait-tags-full">
+              {particuliarite.details.map((d, i) => (
+                <span key={i} className="trait-tag tag-categorie">{d}</span>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

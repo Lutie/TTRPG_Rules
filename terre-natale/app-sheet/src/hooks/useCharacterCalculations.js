@@ -4,6 +4,15 @@ import DATA from '../data';
 // Calcule le modificateur d'un attribut
 export const calculerModificateur = (valeur) => Math.floor((valeur - 10) / 2);
 
+// Calcule le bonusConfig effectif depuis bonusEntries (nouveau système)
+export const computeBonusConfig = (character) => {
+  const config = {};
+  (character.bonusEntries || []).forEach(e => {
+    if (e.type) config[e.type] = (config[e.type] || 0) + (e.valeur || 0);
+  });
+  return config;
+};
+
 // Retourne la valeur par défaut d'un attribut selon son type
 export const getValeurDefaut = (attrId) => {
   const secondaires = ['STA', 'TAI', 'EGO', 'APP', 'CHN', 'EQU'];
@@ -40,9 +49,9 @@ export const getValeurTotale = (character, attrId, progressionInfo = null) => {
   }
 
   const bonusKey = 'attr' + attrId;
-  const bonusConfig = character.bonusConfig?.[bonusKey] || 0;
+  const bonusAttr = computeBonusConfig(character)[bonusKey] || 0;
 
-  return base + bonusEthnie + bonusOrigines + bonusNaissance + bonusCaste + bonusConfig;
+  return base + bonusEthnie + bonusOrigines + bonusNaissance + bonusCaste + bonusAttr;
 };
 
 // Calcule l'XP de départ selon le vécu
@@ -164,7 +173,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
   return useMemo(() => {
     const getAttr = (id) => getValeurTotale(character, id);
     const getMod = (id) => calculerModificateur(getAttr(id));
-    const bonus = character.bonusConfig || {};
+    const bonus = computeBonusConfig(character);
 
     // Allure et déplacement
     const allure = 10 + getMod('TAI') + getMod('AGI') + (bonus.allure || 0);
@@ -283,13 +292,13 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     // XP utilisés = coût des groupes + coût des compétences
     const competencesData = character.competences || { groupes: {}, competences: {} };
     let xpUtilises = 0;
-    // Coût des groupes: 1->10, 2->25, 3->45
-    const coutGroupe = [0, 10, 25, 45];
+    // Coût des groupes: 20 par rang (rang 1→20, rang 2→40 cumul, rang 3→60 cumul)
+    const coutGroupe = [0, 20, 20, 20];
     Object.values(competencesData.groupes || {}).forEach(r => {
       for (let i = 1; i <= r; i++) xpUtilises += coutGroupe[i] || 0;
     });
-    // Coût des compétences: 1->5, 2->10, 3->15, 4->25, 5->35, 6->50
-    const coutComp = [0, 5, 10, 15, 25, 35, 50];
+    // Coût des compétences: 10 par rang (rang 1→10, rang 2→20 cumul, …, rang 6→60 cumul)
+    const coutComp = [0, 10, 10, 10, 10, 10, 10];
     Object.values(competencesData.competences || {}).forEach(r => {
       for (let i = 1; i <= r; i++) xpUtilises += coutComp[i] || 0;
     });

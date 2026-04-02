@@ -340,6 +340,13 @@ main {
 
 .char-card-identity {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.char-card-identity-text {
+  display: flex;
   flex-direction: column;
   gap: 1px;
 }
@@ -1028,12 +1035,137 @@ main {
   cursor: not-allowed;
 }
 
+/* Admin button */
+.btn-admin {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-bg-light);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-admin:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-admin.btn-admin-active {
+  border-color: #81c784;
+  color: #81c784;
+  background: rgba(129, 199, 132, 0.15);
+  font-weight: 600;
+}
+
+.btn-admin.btn-admin-active:hover {
+  background: rgba(129, 199, 132, 0.25);
+}
+
+/* Admin login modal */
+.admin-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.admin-modal {
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-hard);
+  width: 320px;
+  overflow: hidden;
+}
+
+.admin-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-dark);
+}
+
+.admin-modal-header h3 {
+  font-family: var(--font-title);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.admin-modal-body {
+  padding: 20px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-password-input {
+  width: 100%;
+  padding: 8px 12px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.admin-error {
+  font-size: 0.85rem;
+  color: var(--color-negative);
+}
+
+.admin-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--color-border);
+}
+
+/* CharacterList delete */
+.charlist-confirm {
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.charlist-delete {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
 /* Empty */
 .empty-message {
   padding: 20px;
   text-align: center;
   color: var(--color-text-light);
   font-style: italic;
+}
+
+/* Portraits */
+.charlist-avatar {
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.char-card-avatar {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+  flex-shrink: 0;
 }
 
 /* Player token */
