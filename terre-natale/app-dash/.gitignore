@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# Data (personnages synchronisés)
-data/characters/
+# Data runtime (générée au démarrage, ne pas versionner)
+data/
