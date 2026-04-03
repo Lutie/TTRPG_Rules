@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
 import { getValeurTotale, calculerModificateur, getValeurDefaut, computeBonusConfig } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
@@ -40,16 +39,27 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
   const min = isSecondary ? DATA.secondaireMin : DATA.valeurDefautPrincipal;
   const max = isSecondary ? DATA.secondaireMax : 20;
 
-  const [localValue, setLocalValue] = useState(null);
+  const handleChange = (raw) => {
+    const parsed = parseInt(raw);
+    if (!isNaN(parsed)) {
+      updateCharacter(prev => ({
+        ...prev,
+        attributs: {
+          ...prev.attributs,
+          [attr.id]: { ...(prev.attributs?.[attr.id] || { base: getValeurDefaut(attr.id), bonus: 0 }), base: parsed }
+        }
+      }));
+    }
+  };
 
-  const commitBase = (raw) => {
-    const newBase = Math.max(min, Math.min(max, parseInt(raw) || min));
-    setLocalValue(null);
+  const handleBlur = (raw) => {
+    const parsed = parseInt(raw);
+    const clamped = Math.max(min, Math.min(max, isNaN(parsed) ? min : parsed));
     updateCharacter(prev => ({
       ...prev,
       attributs: {
         ...prev.attributs,
-        [attr.id]: { ...attrData, base: newBase }
+        [attr.id]: { ...(prev.attributs?.[attr.id] || { base: getValeurDefaut(attr.id), bonus: 0 }), base: clamped }
       }
     }));
   };
@@ -65,9 +75,9 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
         <input
           type="number"
           className="attr-input-compact"
-          value={localValue ?? attrData.base}
-          onChange={e => setLocalValue(e.target.value)}
-          onBlur={e => commitBase(e.target.value)}
+          value={attrData.base}
+          onChange={e => handleChange(e.target.value)}
+          onBlur={e => handleBlur(e.target.value)}
           min={min}
           max={max}
         />
@@ -108,9 +118,9 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
               <input
                 type="number"
                 className="attr-input"
-                value={localValue ?? attrData.base}
-                onChange={e => setLocalValue(e.target.value)}
-                onBlur={e => commitBase(e.target.value)}
+                value={attrData.base}
+                onChange={e => handleChange(e.target.value)}
+                onBlur={e => handleBlur(e.target.value)}
                 min={min}
                 max={max}
               />
