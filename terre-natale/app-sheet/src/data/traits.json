@@ -103,7 +103,8 @@
     "conditions": [],
     "multiples_instances": "Chaque instance vise un attribut différent. Maximum 2 différents",
     "limitation": null,
-    "avantage_mineur_bonus": false
+    "avantage_mineur_bonus": false,
+    "choix": "attribut_principal"
   },
   {
     "id": "autodidacte",
@@ -448,7 +449,8 @@
     "conditions": [],
     "multiples_instances": "La caste d’un personne lui octroie automatiquement ce trait pour les attributs qui lui sont associées. Le personnage ne peut choisir ce trait qu’une fois de façon libre, pour un troisième attribut au choix",
     "limitation": null,
-    "avantage_mineur_bonus": false
+    "avantage_mineur_bonus": false,
+    "choix": "attribut_principal"
   },
   {
     "id": "expertise-des-signes",
@@ -500,7 +502,8 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false
+    "avantage_mineur_bonus": false,
+    "choix": "attribut_principal"
   },
   {
     "id": "fortune",
@@ -2279,7 +2282,8 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false
+    "avantage_mineur_bonus": false,
+    "choix": "attribut_principal"
   },
   {
     "id": "science-du-commerce",
@@ -6158,7 +6162,8 @@
     ],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false
+    "avantage_mineur_bonus": false,
+    "choix": "attribut_principal"
   },
   {
     "id": "dons-dattribut",
@@ -6175,7 +6180,8 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false
+    "avantage_mineur_bonus": false,
+    "choix": "attribut_principal"
   },
   {
     "id": "equilibre-parfait",

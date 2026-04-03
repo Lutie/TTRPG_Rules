@@ -1,10 +1,11 @@
 const RESSOURCES = [
-  { id: 'PE', nom: 'Endurance', icone: '⚡', color: '#e6a820' },
-  { id: 'PV', nom: 'Vitalité', icone: '❤️', color: '#c62828' },
-  { id: 'PS', nom: 'Spiritualité', icone: '💙', color: '#1565c0' },
-  { id: 'PC', nom: 'Chi', icone: '💠', color: '#00838f' },
-  { id: 'PK', nom: 'Karma', icone: '⭐', color: '#f9a825' },
-  { id: 'PM', nom: 'Mana', icone: '🔮', color: '#6a1b9a' }
+  { id: 'PE', nom: 'Endurance',    icone: '⚡',  color: '#e6a820' },
+  { id: 'PV', nom: 'Vitalité',     icone: '❤️',  color: '#c62828' },
+  { id: 'PS', nom: 'Spiritualité', icone: '💙',  color: '#1565c0' },
+  { id: 'PC', nom: 'Chi',          icone: '💠',  color: '#00838f' },
+  { id: 'PK', nom: 'Karma',        icone: '⭐',  color: '#f9a825' },
+  { id: 'PM', nom: 'Mana',         icone: '🔮',  color: '#6a1b9a' },
+  { id: 'PR', nom: 'Steam',        icone: '⚙️', color: '#5d4037' },
 ];
 
 function CharacterCard({ character, summary, onRemove }) {
@@ -51,7 +52,8 @@ function CharacterCard({ character, summary, onRemove }) {
           const r = ressources[res.id] || { actuel: 0, max: 0 };
           const max = r.max || 0;
           const actuel = r.actuel || 0;
-          const pct = max > 0 ? Math.min(100, (actuel / max) * 100) : 0;
+          if (max === 0) return null;
+          const pct = Math.min(100, (actuel / max) * 100);
 
           return (
             <div key={res.id} className="char-res-row">

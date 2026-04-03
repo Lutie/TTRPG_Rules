@@ -249,6 +249,14 @@ function TabConfig() {
               />
               <span>Activer l'onglet Aptitude</span>
             </label>
+            <label className="config-toggle-row">
+              <input
+                type="checkbox"
+                checked={!!options.scienceActive}
+                onChange={() => handleOptionToggle('scienceActive')}
+              />
+              <span>Activer l'onglet Science (Steam)</span>
+            </label>
           </div>
 
           {/* ── Bonus ── */}

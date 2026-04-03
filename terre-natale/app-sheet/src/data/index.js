@@ -80,7 +80,8 @@ export const ressources = [
   { id: 'PS', nom: 'Spiritualité', attribut: 'VOL', multiplicateur: 2, icone: '💙' },
   { id: 'PC', nom: 'Chi', type: 'caste', icone: '💠' },
   { id: 'PK', nom: 'Karma', attribut: 'CHN', multiplicateur: 2, icone: '⭐' },
-  { id: 'PM', nom: 'Mana', type: 'tradition', multiplicateur: 2, icone: '🔮' }
+  { id: 'PM', nom: 'Mana', type: 'tradition', multiplicateur: 2, icone: '🔮' },
+  { id: 'PR', nom: 'Steam', type: 'science', attribut: 'LOG', multiplicateur: 2, icone: '⚙️' }
 ];
 
 export const traditions = [

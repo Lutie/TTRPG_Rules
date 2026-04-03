@@ -110,7 +110,8 @@
       "conditions": [],
       "multiples_instances": "Chaque instance vise un attribut différent. Maximum 2 différents",
       "limitation": null,
-      "rang": null
+      "rang": null,
+      "choix": "attribut_principal"
     },
     {
       "nom": "Autodidacte",
@@ -474,7 +475,8 @@
       "conditions": [],
       "multiples_instances": "La caste d’un personne lui octroie automatiquement ce trait pour les attributs qui lui sont associées. Le personnage ne peut choisir ce trait qu’une fois de façon libre, pour un troisième attribut au choix",
       "limitation": null,
-      "rang": null
+      "rang": null,
+      "choix": "attribut_principal"
     },
     {
       "nom": "Expertise des Signes",
@@ -529,7 +531,8 @@
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null
+      "rang": null,
+      "choix": "attribut_principal"
     },
     {
       "nom": "Fortune",
@@ -2410,7 +2413,8 @@
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null
+      "rang": null,
+      "choix": "attribut_principal"
     },
     {
       "nom": "Science du Commerce",
@@ -6510,7 +6514,8 @@
       ],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null
+      "rang": null,
+      "choix": "attribut_principal"
     },
     {
       "nom": "Dons « d’Attribut »",
@@ -6528,7 +6533,8 @@
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null
+      "rang": null,
+      "choix": "attribut_principal"
     },
     {
       "nom": "Equilibre Parfait",

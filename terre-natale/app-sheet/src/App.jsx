@@ -8,6 +8,7 @@ import TabCompetences from './components/tabs/TabCompetences';
 import TabTraits from './components/tabs/TabTraits';
 import TabMemoire from './components/tabs/TabMemoire';
 import TabMagie from './components/tabs/TabMagie';
+import TabScience from './components/tabs/TabScience';
 import TabAptitude from './components/tabs/TabAptitude';
 import TabNotes from './components/tabs/TabNotes';
 import TabConfig from './components/tabs/TabConfig';
@@ -23,6 +24,7 @@ const ALL_TABS = [
   { id: 'inventaire', label: 'Inventaire' },
   { id: 'memoire', label: 'Mémoire' },
   { id: 'magie', label: 'Magie', option: 'magieActive' },
+  { id: 'science', label: 'Science', option: 'scienceActive' },
   { id: 'notes', label: 'Notes' },
   { id: 'config', label: 'Config' }
 ];
@@ -189,6 +191,8 @@ function AppContent() {
         return <TabMemoire />;
       case 'magie':
         return <TabMagie />;
+      case 'science':
+        return <TabScience />;
       case 'aptitude':
         return <TabAptitude />;
       case 'notes':

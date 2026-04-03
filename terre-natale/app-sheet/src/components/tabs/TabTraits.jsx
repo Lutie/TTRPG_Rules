@@ -17,13 +17,38 @@ function TabTraits() {
 
   const characterTraits = character.traits || [];
 
-  // Traits du personnage avec leurs infos complètes
+  // Traits du personnage avec leurs infos complètes + index dans le tableau source
   const traitsAvecInfos = useMemo(() =>
     characterTraits
-      .map(ct => ({ ...ct, info: DATA.traits.find(t => t.id === ct.id) }))
+      .map((ct, index) => ({ ...ct, _index: index, info: DATA.traits.find(t => t.id === ct.id) }))
       .filter(t => t.info),
     [characterTraits]
   );
+
+  // Options disponibles par type de choix
+  const choixOptions = useMemo(() => ({
+    attribut_principal: DATA.attributsPrincipaux.map(a => ({ id: a.id, label: `${a.nom} (${a.id})` })),
+  }), []);
+
+  // Traits normaux (sans choix) déjà pris
+  const takenIds = useMemo(() => new Set(
+    characterTraits
+      .filter(ct => !DATA.traits.find(t => t.id === ct.id)?.choix)
+      .map(ct => ct.id)
+  ), [characterTraits]);
+
+  // Choix déjà assignés par trait (id → Set de valeurs de choix)
+  const takenChoixPerTrait = useMemo(() => {
+    const map = {};
+    characterTraits.forEach(ct => {
+      const info = DATA.traits.find(t => t.id === ct.id);
+      if (info?.choix && ct.choix) {
+        if (!map[ct.id]) map[ct.id] = new Set();
+        map[ct.id].add(ct.choix);
+      }
+    });
+    return map;
+  }, [characterTraits]);
 
   const avantagesMajeurs = traitsAvecInfos.filter(t => TYPES_AVANTAGE.includes(t.info.type));
   const avantagesMineurs = traitsAvecInfos.filter(t => t.info.type === 'avantage_mineur');
@@ -58,14 +83,10 @@ function TabTraits() {
     return result;
   }, [calc.rangCaste]);
 
-  const takenIds = useMemo(() => new Set(characterTraits.map(t => t.id)), [characterTraits]);
-
   // ── Actions ──
 
   const addTrait = (traitId) => {
     if (!traitId) return;
-    const traitInfo = DATA.traits.find(t => t.id === traitId);
-    if (!traitInfo) return;
     updateCharacter(prev => ({
       ...prev,
       traits: [...(prev.traits || []), { id: traitId, rang: 1 }]
@@ -73,23 +94,34 @@ function TabTraits() {
     setModalType(null);
   };
 
-  const removeTrait = (traitId) => {
-    const info = DATA.traits.find(t => t.id === traitId);
-    if (confirm(`Supprimer "${info?.nom || traitId}" ?`)) {
+  const updateChoix = (index, choix) => {
+    updateCharacter(prev => ({
+      ...prev,
+      traits: (prev.traits || []).map((t, i) =>
+        i === index ? { ...t, choix: choix || undefined } : t
+      )
+    }));
+  };
+
+  const removeTrait = (index) => {
+    const entry = characterTraits[index];
+    const info = DATA.traits.find(t => t.id === entry?.id);
+    const nomAffiche = info ? (info.choix && entry.choix ? `${info.nom} (${entry.choix})` : info.nom) : entry?.id;
+    if (confirm(`Supprimer "${nomAffiche}" ?`)) {
       updateCharacter(prev => ({
         ...prev,
-        traits: (prev.traits || []).filter(t => t.id !== traitId)
+        traits: (prev.traits || []).filter((_, i) => i !== index)
       }));
-      setExpandedTraits(prev => { const n = { ...prev }; delete n[traitId]; return n; });
+      setExpandedTraits(prev => { const n = { ...prev }; delete n[index]; return n; });
     }
   };
 
-  const updateRang = (traitId, newRang) => {
+  const updateRang = (index, newRang) => {
     updateCharacter(prev => ({
       ...prev,
-      traits: (prev.traits || []).map(t => {
-        if (t.id !== traitId) return t;
-        const info = DATA.traits.find(ti => ti.id === traitId);
+      traits: (prev.traits || []).map((t, i) => {
+        if (i !== index) return t;
+        const info = DATA.traits.find(ti => ti.id === t.id);
         const max = info?.rangMax || 1;
         return { ...t, rang: Math.max(1, Math.min(max, newRang)) };
       })
@@ -102,7 +134,7 @@ function TabTraits() {
 
   const expandAll = () => {
     const next = {};
-    traitsAvecInfos.forEach(t => { next[t.id] = true; });
+    traitsAvecInfos.forEach(t => { next[t._index] = true; });
     avantagesCaste.forEach(av => { next[av.key] = true; });
     particuliaritesOrigine.forEach((_, i) => { next[`part-${i}`] = true; });
     setExpandedTraits(next);
@@ -165,12 +197,15 @@ function TabTraits() {
           >
             {avantagesMajeurs.map(t => (
               <TraitCard
-                key={t.id}
+                key={t._index}
                 traitEntry={t}
                 expandedTraits={expandedTraits}
                 onToggle={toggleExpand}
                 onRemove={removeTrait}
                 onRangChange={updateRang}
+                onChoixChange={updateChoix}
+                choixOptions={choixOptions}
+                takenChoixPerTrait={takenChoixPerTrait}
               />
             ))}
           </TraitSection>
@@ -249,12 +284,15 @@ function TabTraits() {
           >
             {avantagesMineurs.map(t => (
               <TraitCard
-                key={t.id}
+                key={t._index}
                 traitEntry={t}
                 expandedTraits={expandedTraits}
                 onToggle={toggleExpand}
                 onRemove={removeTrait}
                 onRangChange={updateRang}
+                onChoixChange={updateChoix}
+                choixOptions={choixOptions}
+                takenChoixPerTrait={takenChoixPerTrait}
               />
             ))}
           </TraitSection>
@@ -270,12 +308,15 @@ function TabTraits() {
           >
             {desavantages.map(t => (
               <TraitCard
-                key={t.id}
+                key={t._index}
                 traitEntry={t}
                 expandedTraits={expandedTraits}
                 onToggle={toggleExpand}
                 onRemove={removeTrait}
                 onRangChange={updateRang}
+                onChoixChange={updateChoix}
+                choixOptions={choixOptions}
+                takenChoixPerTrait={takenChoixPerTrait}
               />
             ))}
           </TraitSection>
@@ -288,6 +329,8 @@ function TabTraits() {
         <SelectionModal
           type={modalType}
           takenIds={takenIds}
+          takenChoixPerTrait={takenChoixPerTrait}
+          choixOptions={choixOptions}
           onAdd={addTrait}
           onClose={() => setModalType(null)}
         />
@@ -382,18 +425,40 @@ function ParticuliariteCard({ index, particuliarite, expandedTraits, onToggle })
 
 // ─── Carte d'un trait dans la fiche ──────────────────────────────────────────
 
-function TraitCard({ traitEntry, expandedTraits, onToggle, onRemove, onRangChange }) {
+function TraitCard({ traitEntry, expandedTraits, onToggle, onRemove, onRangChange, onChoixChange, choixOptions, takenChoixPerTrait }) {
   const t = traitEntry.info;
-  const isExpanded = expandedTraits[traitEntry.id] || false;
+  const expandKey = traitEntry._index;
+  const isExpanded = expandedTraits[expandKey] || false;
   const isDesavantage = t.type === 'desavantage';
   const isMineur = t.type === 'avantage_mineur';
   const coutTotal = t.coutPP * traitEntry.rang;
+
+  // Options disponibles pour ce trait (pas prises par d'autres instances)
+  const availableChoix = useMemo(() => {
+    if (!t.choix) return null;
+    const opts = choixOptions[t.choix] || [];
+    const takenByOthers = takenChoixPerTrait[traitEntry.id] || new Set();
+    return opts.filter(opt => !takenByOthers.has(opt.id) || opt.id === traitEntry.choix);
+  }, [t.choix, choixOptions, takenChoixPerTrait, traitEntry.id, traitEntry.choix]);
 
   return (
     <div className={`trait-item ${isExpanded ? 'expanded' : ''} trait-${t.type.replace(/_/g, '-')}`}>
       <div className="trait-header">
         <div className="trait-info">
           <span className="trait-nom">{t.nom}</span>
+          {t.choix && (
+            <select
+              className="trait-choix-inline"
+              value={traitEntry.choix || ''}
+              onChange={e => onChoixChange(traitEntry._index, e.target.value)}
+              onClick={e => e.stopPropagation()}
+            >
+              <option value="">— choisir —</option>
+              {availableChoix?.map(opt => (
+                <option key={opt.id} value={opt.id}>{opt.label}</option>
+              ))}
+            </select>
+          )}
           {!isMineur && t.coutPP > 0 && (
             <span className={`trait-cout-badge ${isDesavantage ? 'badge-gain' : 'badge-cost'}`}>
               {isDesavantage ? `+${coutTotal}` : `${coutTotal}`} PP
@@ -406,7 +471,7 @@ function TraitCard({ traitEntry, expandedTraits, onToggle, onRemove, onRangChang
             <div className="trait-rang-stepper">
               <button
                 className="btn-rang-step"
-                onClick={() => onRangChange(traitEntry.id, traitEntry.rang - 1)}
+                onClick={() => onRangChange(traitEntry._index, traitEntry.rang - 1)}
                 disabled={traitEntry.rang <= 1}
               >−</button>
               <span className="trait-rang-value">
@@ -414,7 +479,7 @@ function TraitCard({ traitEntry, expandedTraits, onToggle, onRemove, onRangChang
               </span>
               <button
                 className="btn-rang-step"
-                onClick={() => onRangChange(traitEntry.id, traitEntry.rang + 1)}
+                onClick={() => onRangChange(traitEntry._index, traitEntry.rang + 1)}
                 disabled={traitEntry.rang >= t.rangMax}
               >+</button>
             </div>
@@ -427,10 +492,10 @@ function TraitCard({ traitEntry, expandedTraits, onToggle, onRemove, onRangChang
           ))}
         </div>
         <div className="trait-controls">
-          <button className="btn-trait-toggle" onClick={() => onToggle(traitEntry.id)}>
+          <button className="btn-trait-toggle" onClick={() => onToggle(expandKey)}>
             {isExpanded ? '▲' : '▼'}
           </button>
-          <button className="btn-trait-delete" onClick={() => onRemove(traitEntry.id)} title="Supprimer">
+          <button className="btn-trait-delete" onClick={() => onRemove(traitEntry._index)} title="Supprimer">
             ✕
           </button>
         </div>
@@ -489,7 +554,7 @@ const MODAL_TITLES = {
 
 const MAX_RESULTS = 80;
 
-function SelectionModal({ type, takenIds, onAdd, onClose }) {
+function SelectionModal({ type, takenIds, takenChoixPerTrait, choixOptions, onAdd, onClose }) {
   const [search, setSearch]             = useState('');
   const [filterSS, setFilterSS]         = useState('');
   const [filterCat, setFilterCat]       = useState('');
@@ -518,14 +583,19 @@ function SelectionModal({ type, takenIds, onAdd, onClose }) {
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim();
     return pool.filter(t => {
-      if (takenIds.has(t.id)) return false;
       if (filterSS  && t.sous_section !== filterSS)           return false;
       if (filterCat && !t.categories.includes(filterCat))    return false;
       if (q && !t.nom.toLowerCase().includes(q)
             && !t.description?.toLowerCase().includes(q))    return false;
-      return true;
+      // Traits avec choix : disponible si au moins une option reste disponible
+      if (t.choix) {
+        const opts = choixOptions[t.choix] || [];
+        const takenCount = takenChoixPerTrait[t.id]?.size || 0;
+        return takenCount < opts.length;
+      }
+      return !takenIds.has(t.id);
     });
-  }, [pool, takenIds, search, filterSS, filterCat]);
+  }, [pool, takenIds, takenChoixPerTrait, choixOptions, search, filterSS, filterCat]);
 
   const displayed = filtered.slice(0, MAX_RESULTS);
 
@@ -606,6 +676,9 @@ function TraitResultItem({ trait, isExpanded, onToggle, onAdd }) {
             <span className="trait-rangmax-badge" title={`Jusqu'à ${trait.rangMax} rangs`}>
               ×{trait.rangMax}
             </span>
+          )}
+          {trait.choix && (
+            <span className="trait-rangmax-badge" title="Nécessite un choix après ajout">✦</span>
           )}
         </div>
         <div className="trait-result-tags">

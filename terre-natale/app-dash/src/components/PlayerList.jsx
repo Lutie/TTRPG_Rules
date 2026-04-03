@@ -40,7 +40,7 @@ function PlayerList({ players, onCreate, onDelete, isAdmin }) {
         <p className="empty-message">Aucun joueur. Créez un compte pour générer un token.</p>
       )}
 
-      <div className="campaign-grid">
+      <div className="player-grid">
         {players.map(p => (
           <div key={p.id} className="campaign-card">
             {confirmDelete === p.id ? (

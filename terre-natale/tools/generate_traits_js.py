@@ -52,6 +52,9 @@ def transform(trait, section_key):
     if typ in ('avantage_majeur', 'avantage_archetype'):
         obj['avantage_mineur_bonus'] = bool(trait.get('avantage_mineur_bonus'))
 
+    if trait.get('choix'):
+        obj['choix'] = trait['choix']
+
     return obj
 
 

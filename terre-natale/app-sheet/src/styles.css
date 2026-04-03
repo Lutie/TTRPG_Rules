@@ -3347,6 +3347,24 @@ header h1 {
   cursor: help;
 }
 
+.trait-choix-inline {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  padding: 2px 6px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  flex-shrink: 0;
+  max-width: 160px;
+}
+
+.trait-choix-inline:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
 .trait-rangmax-badge {
   font-size: 0.75rem;
   font-family: var(--font-title);
@@ -5944,6 +5962,7 @@ header h1 {
   min-width: 36px;
   text-align: right;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .bonus-entry-del {

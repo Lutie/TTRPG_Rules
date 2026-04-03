@@ -140,7 +140,8 @@ const createEmptyCharacter = () => {
     tensions: { fatigue: 0, corruption: 0 },
     options: {
       magieActive: false,
-      aptitudeActive: false
+      aptitudeActive: false,
+      scienceActive: false
     },
     bonusConfig: {
       allure: 0, resilience: 0, encombrement: 0,

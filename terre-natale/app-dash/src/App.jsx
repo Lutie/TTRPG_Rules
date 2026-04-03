@@ -232,12 +232,14 @@ function App() {
           />
         ) : (
           <>
-            <PlayerList
-              players={players}
-              onCreate={handleCreatePlayer}
-              onDelete={handleDeletePlayer}
-              isAdmin={isAdmin}
-            />
+            {isAdmin && (
+              <PlayerList
+                players={players}
+                onCreate={handleCreatePlayer}
+                onDelete={handleDeletePlayer}
+                isAdmin={isAdmin}
+              />
+            )}
             <CampaignList
               campaigns={campaigns}
               onCreate={handleCreateCampaign}

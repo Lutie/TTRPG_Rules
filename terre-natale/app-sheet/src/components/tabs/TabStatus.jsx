@@ -915,7 +915,11 @@ function TabStatus() {
           Résilience : {calc.resilience} | Récupération : {calc.recuperation} | Équilibre : {calc.getAttr('EQU')}
         </p>
         <div className="status-ressources-grid">
-          {DATA.ressources.map(res => {
+          {DATA.ressources.filter(res => {
+            if (res.type === 'tradition') return !!character.options?.magieActive;
+            if (res.type === 'science')   return !!character.options?.scienceActive;
+            return true;
+          }).map(res => {
             const ressource = character.ressources[res.id] || { actuel: 0, max: 0, temporaire: 0 };
             const max = calc.ressourcesMax[res.id] || 0;
             const actuel = ressource.actuel || 0;
