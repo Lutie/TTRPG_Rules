@@ -345,6 +345,38 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     });
     const ppRestants = ppTotal - ppUtilises;
 
+    // PA calculations
+    // Coût palier principal : x → x+1 coûte max(0, x-4) PA (base départ = 7)
+    const PA_START = 7;
+    const paStepCost = (x) => Math.max(0, x - 4);
+    const paCostPrimary = (value) => {
+      let cost = 0;
+      if (value > PA_START)      for (let x = PA_START; x < value; x++) cost += paStepCost(x);
+      else if (value < PA_START) for (let x = PA_START; x > value; x--) cost -= paStepCost(x - 1);
+      return cost;
+    };
+    const PA_SECONDARY_COSTS = { 8: -5, 9: -3, 10: 0, 11: 4, 12: 9 };
+    const PA_CHANCE_COSTS    = { 8: -9, 9: -5, 10: 0, 11: 6, 12: 13 };
+    const PRIMARY_ATTR_IDS   = ['FOR','DEX','AGI','CON','PER','CHA','INT','RUS','VOL','SAG','MAG','LOG'];
+    const SECONDARY_ATTR_IDS = ['STA','TAI','EGO','APP'];
+
+    let paDepenses = 0;
+    PRIMARY_ATTR_IDS.forEach(id => {
+      const base = character.attributs?.[id]?.base ?? PA_START;
+      paDepenses += paCostPrimary(base);
+    });
+    SECONDARY_ATTR_IDS.forEach(id => {
+      const base = character.attributs?.[id]?.base ?? 10;
+      paDepenses += PA_SECONDARY_COSTS[base] ?? 0;
+    });
+    // CHN (Chance) — coût double des secondaires
+    const chnBase = character.attributs?.['CHN']?.base ?? 10;
+    paDepenses += PA_CHANCE_COSTS[chnBase] ?? 0;
+
+    const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + (bonus.pa || 0);
+    const paMax     = destinee?.maxAttribut || DATA.destinees[0].maxAttribut;
+    const paRestants = paBudget - paDepenses;
+
     return {
       // Attributs
       getAttr,
@@ -430,7 +462,13 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       ppCaste,
       ppTotal,
       ppUtilises,
-      ppRestants
+      ppRestants,
+
+      // PA
+      paBudget,
+      paDepenses,
+      paRestants,
+      paMax,
     };
   }, [character, castes]);
 }

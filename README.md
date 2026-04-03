@@ -18,4 +18,3 @@ mkdocs gh-deploy
 - ajouter les inputs à renseigner sur certains traits ? des choix à faire en somme...
 - Codex (liste des listes pour consultation) dans un onglet à coté de Menu etc
 - Effet des mots à mettre dans les sorts quand hydraté notament
-- Refacto les bonus pour faire des entrées [Bonus][Origine entrée libre][Valeurs]

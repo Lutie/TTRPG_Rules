@@ -185,6 +185,29 @@ function TabPrincipal() {
 
       {/* Attributs */}
       <Section title="Attributs">
+        {/* Récap PA */}
+        <div className="pa-summary-box">
+          <div className="pa-summary-title">Points d'Attributs (PA)</div>
+          <div className="pa-summary-content">
+            <div className="pa-summary-row">
+              <span className="pa-label">Budget ({DATA.destinees.find(d => d.id === character.infos?.destiny)?.nom || 'Commun des Mortels'})</span>
+              <span className="pa-value">{calc.paBudget}</span>
+            </div>
+            <div className="pa-summary-row">
+              <span className="pa-label">Dépensés</span>
+              <span className="pa-value">{calc.paDepenses}</span>
+            </div>
+            <div className={`pa-summary-row pa-rest-row ${calc.paRestants < 0 ? 'over-budget' : ''}`}>
+              <span className="pa-label">Restants</span>
+              <span className="pa-value pa-restant">{calc.paRestants}</span>
+            </div>
+            <div className="pa-summary-row pa-max-row">
+              <span className="pa-label">Max base attribut</span>
+              <span className="pa-value">{calc.paMax}</span>
+            </div>
+          </div>
+        </div>
+
         <h3 className="attr-section-title">Corps</h3>
         <div className="attr-grid">
           {DATA.attributsCorps.map(attr => (
