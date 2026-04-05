@@ -6,11 +6,11 @@
     "mecaniques": [
       {
         "titre": "Nouvelle Action : Composer",
-        "texte": "Réaliser une composition performative ciblant les personnes qui perçoivent la prestation. Choisir un **Style** (Bonus ou Malus) et une **Méthode** : **Danse** (ACTS, 2 rounds, 2 PS), **Chant** (ACTL, 2 rounds, 5 PS) ou **Musique** (ACTC, 3 rounds, 2 PS)."
+        "texte": "Réaliser une composition performative ciblant les personnes qui perçoivent la prestation. Choisir un **Style** (Bonus ou Malus) et une **Méthode** : **Danse** (ACTS, 3 rounds, 2 PS), **Chant** (ACTL, 2 rounds, 2 PS) ou **Musique** (ACTC, 4 rounds, 2 PS)."
       },
       {
-        "titre": "Évaluation",
-        "texte": "**Difficulté** 5 ; résultat en **ajustements aux tests** (pas aux jets) : 10 = +1, 15 = +2, etc."
+        "titre": "Test de compétence",
+        "texte": "**Difficulté d'évaluation** 5 : Degré de réussite en **bonus d'attribut** (selon la composition) de moral, soit 10 = +1, 15 = +2, etc."
       },
       {
         "titre": "Style",
@@ -18,7 +18,7 @@
       },
       {
         "titre": "Composition",
-        "texte": "**Simple** = 1 attribut. **Experte** = 2 attributs (débloquable). Portée de base : à proximité."
+        "texte": "Associée à 2 attributs. Portée de base : à proximité."
       }
     ],
     "rangs": [
@@ -36,19 +36,19 @@
     "ameliorations": [
       {
         "nom": "Difficulté nulle",
-        "description": "Évaluation : difficulté ramenée à 0 (résultat minimum +1)."
+        "description": "La difficulté de l'évaluation est baissée à 0."
       },
       {
         "nom": "Composition experte",
-        "description": "Peut composer avec 2 attributs au lieu d'un."
+        "description": "Peut composer avec 3 attributs au lieu de 2, ou peux composer avec un seul attribut au lieu de 2 pour un effet augmenté de 1."
       },
       {
-        "nom": "Ciblage affiné",
-        "description": "Distingue alliés et ennemis : les effets négatifs n'affectent pas les alliés, les effets positifs n'affectent pas les ennemis. Les méthodes affectent désormais toutes les personnes dans la zone d'effet, qu'elles perçoivent ou non la prestation."
+        "nom": "Exposition forcée",
+        "description": "Les méthodes affectent désormais toutes les personnes dans la zone d'effet, qu'elles perçoivent ou non la prestation."
       },
       {
         "nom": "Double composition",
-        "description": "Une même composition peut buff un attribut et debuff un autre simultanément."
+        "description": "Le personnage a désormais accés aux deux modes. Aussi une même composition peut buff un attribut et debuff le même ou un autre simultanément, chaque effets comptent pour un attribut et ceci requière donc le trait qui augmente le nombre d'attributs par compositions."
       },
       {
         "nom": "Répertoire",
@@ -56,7 +56,7 @@
       },
       {
         "nom": "Durée prolongée",
-        "description": "La durée s'exprime en tours plutôt qu'en rounds (coût +2 PS)."
+        "description": "La durée s'exprime en tours plutôt qu'en rounds."
       },
       {
         "nom": "Résistance diminuée",
