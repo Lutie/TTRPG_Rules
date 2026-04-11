@@ -10,6 +10,7 @@ import _manoeuvresJson from './manoeuvres.json';
 import _prouessesJson from './prouesses.json';
 import competencesMagie from './competences_magie.json';
 import categoriesMagie from './categories_magie.json';
+import _conditionsJson from './conditions.json';
 
 export const attributsCorps = [
   { id: 'FOR', nom: 'Force', description: 'Puissance physique brute', image: 'images/attributes/strength.webp' },
@@ -165,22 +166,24 @@ export const autresRessources = [
   { id: 'strategie', nom: 'Stratégie', icone: '♟️', couleur: '#2E8B57', reposCourt: false }
 ];
 
-export const conditions = [
-  { id: 'empoisonne', nom: 'Empoisonné', type: 'physique', effets: 'Malus aux actions physiques', icone: '☠️' },
-  { id: 'affaibli', nom: 'Affaibli', type: 'physique', effets: 'Dégâts réduits', icone: '💪' },
-  { id: 'ralenti', nom: 'Ralenti', type: 'physique', effets: 'Allure et initiative réduites', icone: '🐌' },
-  { id: 'aveugle', nom: 'Aveuglé', type: 'physique', effets: 'Ne peut pas voir', icone: '🙈' },
-  { id: 'assourdi', nom: 'Assourdi', type: 'physique', effets: 'Ne peut pas entendre', icone: '🙉' },
-  { id: 'entrave', nom: 'Entravé', type: 'physique', effets: 'Immobilisé', icone: '⛓️' },
-  { id: 'saignement', nom: 'Saignement', type: 'physique', effets: 'Perd des PV chaque tour', icone: '🩸' },
-  { id: 'fatigue', nom: 'Fatigué', type: 'physique', effets: 'Malus général', icone: '😴' },
-  { id: 'effraye', nom: 'Effrayé', type: 'mentale', effets: 'Fuit la source de peur', icone: '😨' },
-  { id: 'charme', nom: 'Charmé', type: 'mentale', effets: 'Considère la source comme alliée', icone: '💕' },
-  { id: 'confus', nom: 'Confus', type: 'mentale', effets: 'Actions aléatoires', icone: '😵' },
-  { id: 'provoque', nom: 'Provoqué', type: 'mentale', effets: 'Doit attaquer la source', icone: '😤' },
-  { id: 'distrait', nom: 'Distrait', type: 'mentale', effets: 'Malus à la perception', icone: '🤔' },
-  { id: 'desespere', nom: 'Désespéré', type: 'mentale', effets: 'Malus aux actions mentales', icone: '😢' }
-];
+const _slugifyCondition = (str) =>
+  str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+export const conditions = _conditionsJson.map(c => ({
+  id:        _slugifyCondition(c.nom),
+  nom:       c.nom,
+  polarite:  c.polarite,        // 'positive' | 'negative'
+  categorie: c.categorie,       // ex: 'Avantage / Désavantage', 'HOT / DOT', ...
+  cat_key:   c.cat_key,         // version courte de la catégorie
+  domaine_a: c.domaine_a,       // ex: '✨ Sacre'
+  domaine_b: c.domaine_b,       // ex: '⚜️ Charme'
+  sauvegarde: c.sauvegarde,     // 'Robustesse' | 'Détermination' | 'Les deux' | ''
+  effets:    c.effet,
+  type:      c.sauvegarde === 'Robustesse'    ? 'physique'
+           : c.sauvegarde === 'Détermination' ? 'mentale'
+           : 'autre',
+  icone:     c.domaine_a ? c.domaine_a.split(' ')[0] : (c.polarite === 'positive' ? '✨' : '💀'),
+}));
 
 // Castes — importées depuis ./castes.json (auto-généré via tools/castes.py)
 export const castes = _castes;

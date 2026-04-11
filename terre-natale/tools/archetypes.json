@@ -1,31 +1,39 @@
 [
   {
     "nom": "Inspiration",
-    "concept": "Barde — performances buffant/debuffant via la musique, le chant ou la danse",
-    "description": "L'archétype de l'Inspiration permet au personnage de réaliser des compositions performatives — musique, chant ou danse — pour affecter les attributs de ses cibles. Chaque composition produit un effet positif (Bonus) ou négatif (Malus) sur les personnes qui perçoivent la prestation.",
+    "concept": "Performances pouvant supporter ou gêner via les arts que sont la musique, le chant ou la danse",
+    "description": "L'archétype de l'inspiration permet au personnage de réaliser des compositions performatives — musique, chant ou danse — pour affecter les attributs de ses cibles, en bien ou en mal. Chaque composition produit un effet positif (Bonus) ou négatif (Malus) sur les personnes ciblées par la prestation.",
     "mecaniques": [
       {
-        "titre": "Nouvelle Action : Composer",
-        "texte": "Réaliser une composition performative ciblant les personnes qui perçoivent la prestation. Choisir un **Style** (Bonus ou Malus) et une **Méthode** : **Danse** (ACTS, 3 rounds, 2 PS), **Chant** (ACTL, 2 rounds, 2 PS) ou **Musique** (ACTC, 4 rounds, 2 PS)."
+        "titre": "Action : Composer",
+        "texte": "Requière 2 PS et une Action Simple : Le personnage réalise une composition performative qui affecte une cible de son choix à proximité de lui. L'art pratiqué fixe le **test de compétence** à employer : **Chant**, **Danse** ou **Musique**."
       },
       {
         "titre": "Test de compétence",
-        "texte": "**Difficulté d'évaluation** 5 : Degré de réussite en **bonus d'attribut** (selon la composition) de moral, soit 10 = +1, 15 = +2, etc."
+        "texte": "**Difficulté** 15 : La cibles au choix du personnage reçoit la condition **influencé** (négatif) ou **inspiré** (positif) en fonction de la composition avec des charges qui dépendent de la catégorie de l'action. La sauvegarde de determination modifie les charges d'une condition négative comme prévu dans les règles de base. L'expertise associée à ces conditions est une expertise mentale basée sur 10+mCHA."
       },
       {
-        "titre": "Style",
-        "texte": "**Bonus** : affecte positivement les cibles. **Malus** : les cibles effectuent un jet de Détermination pour résister — ne peut jamais affecter le personnage lui-même."
+        "titre": "Instrument",
+        "texte": "L'instrument est un outils (sujet à l'entrainement). La catégorie de l'instrument employé influence directement la catégorie de l'action composer (qui est de 0 par défaut). L'instrument dépend de l'art employé, il peux être décoratif dans le cas du chant ou de la danse tel qu'un châle, ou un instrument de musique pour la musique, dans tous les cas il doit être tenu via une main et convient aussi bien à la main directrice que non directrice."
+      },
+      {
+        "titre": "Condition : Influencé",
+        "texte": "**Bonus** : Affecte négativement la cible qui reçoit un malus de 2 (4 si avancé) aux attributs associés à la composition qui l'a généré. Si la condition affecte plusieurs fois le même attribut, le malus est augmenté de 1 par occurence au delà de la première."
+      },
+      {
+        "titre": "Condition : Inspiré",
+        "texte": "**Bonus** : Affecte positivement la cible qui reçoit un bonus de 2 (4 si avancé) aux attributs associés à la composition qui l'a généré. Si la condition affecte plusieurs fois le même attribut, le bonus est augmenté de 1 par occurence au delà de la première."
       },
       {
         "titre": "Composition",
-        "texte": "Associée à 2 attributs. Portée de base : à proximité."
+        "texte": "Une composition est une oeuvre rattachée à deux ou trois attributs, selon qu'elle est simple ou complexe. Un même attribut peux être rattaché plusieurs fois à l'oeuvre."
       }
     ],
     "rangs": [
       {
         "rang": 1,
         "titre": "Base",
-        "description": "Accès aux compositions d'Inspiration. Au moment de la composition, choisir un Style (Bonus ou Malus) et une Méthode (Danse, Chant ou Musique).",
+        "description": "Le personnage a désormais accés à l'action **Composer** et peux apprendre des **compositions** simples. Il choisit entre être en mesure d'influencer ou inspirer les cibles.",
         "choix": null
       },
       { "rang": 2, "description": null, "choix": "ameliorations" },
@@ -35,36 +43,84 @@
     ],
     "ameliorations": [
       {
-        "nom": "Difficulté nulle",
-        "description": "La difficulté de l'évaluation est baissée à 0."
+        "nom": "Echos durables",
+        "description": "Le jet associé à une performance est très assuré et renforcé, la valeur minimum des dés étant alors de 3 ET rapporte 1 de plus."
       },
       {
         "nom": "Composition experte",
-        "description": "Peut composer avec 3 attributs au lieu de 2, ou peux composer avec un seul attribut au lieu de 2 pour un effet augmenté de 1."
-      },
-      {
-        "nom": "Exposition forcée",
-        "description": "Les méthodes affectent désormais toutes les personnes dans la zone d'effet, qu'elles perçoivent ou non la prestation."
+        "description": "Le personnage peux apprendre et jouer des compositions complexes."
       },
       {
         "nom": "Double composition",
-        "description": "Le personnage a désormais accés aux deux modes. Aussi une même composition peut buff un attribut et debuff le même ou un autre simultanément, chaque effets comptent pour un attribut et ceci requière donc le trait qui augmente le nombre d'attributs par compositions."
+        "description": "Le personnage peux connaitre des compositions permettant d'influencer OU inspirer. Sur une composition complexe il est en mesure d'avoir un attribut inspiré et un autre influencé. De même le personnage peux avoir deux fois le même attribut, l'un pour inspirer, l'autre pour influencer. Le choix des cibles se fait en fonction des conditions."
       },
       {
-        "nom": "Répertoire",
-        "description": "5 emplacements de mémoire pour des compositions préparées à l'avance."
+        "nom": "Grand Répertoire",
+        "description": "Ajoute 10 emplacements de mémoire pour des compositions uniquement."
       },
       {
-        "nom": "Durée prolongée",
-        "description": "La durée s'exprime en tours plutôt qu'en rounds."
+        "nom": "Instrumentaliste",
+        "description": "Le personnage peux ranger ou sortir son instrument sans action deux fois par rounds. Ranger ou dégainer les armes, même si c'est dans la même séquence, requière des actions normales. De plus l'entrainement du personnage aux instruments est augmenté de 1 (ce qui peux passer l'entrainement effectif à 3 si l'entrainement aux outils est déjà à 2 par exemple)."
       },
       {
-        "nom": "Résistance diminuée",
-        "description": "Les sauvegardes adverses contre les effets négatifs sont désavantagées."
+        "nom": "Echos obsédants",
+        "description": "La condition influencé applique son malus à la valeur de prouesse innée de la cible."
       },
       {
-        "nom": "Portée supérieure",
-        "description": "Portée étendue : proximité devient zone."
+        "nom": "Echos entrainants",
+        "description": "La condition inspiré applique son bonus à la valeur de prouesse innée de la cible."
+      },
+      {
+        "nom": "Divine Comédie",
+        "description": "La portée des compositions est augmentée d'un cran (proximité devient lieu)."
+      },
+      {
+        "nom": "Grandiose",
+        "description": "Le personnage peux réaliser l'action via une ACTC plutôt qu'une ACTS, non sécurisée. Dans ce cas l'action affecte jusqu'à une cible par modificateur de charisme au lieu d'une seule, chaque cible au delà de la première requière 1 PS de plus. A la place, le personnage décider d'appliquer la condition dans sa version avancée plutôt que normale sur son unique cible."
+      }
+    ]
+  },
+  {
+    "nom": "Rituel",
+    "concept": "Pratique avancée des rituels de magie",
+    "description": "L'archétype des rituels permet au personnage de réaliser des rituels plus performants et complexes que la norme.",
+    "mecaniques": [],
+    "rangs": [
+      {
+        "rang": 1,
+        "titre": "Base",
+        "description": "Le personnage acquière une des améliorations disponibles pour la pratique des rituels.",
+        "choix": null
+      },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Rituel différé",
+        "description": "Un rituel peux être différé et appliqué au sort pour lequel il a été réalisé plus tard, tant que le rituel a été réalisé moins de 24h plus tôt."
+      },
+      {
+        "nom": "Rituel facilité",
+        "description": "Pour chaque rituel qu'il organise le personnage peux choisir un paramètre dont les prérequis sont divisés par 2. Ne peux pas être le même paramètre que pour rituel efficace."
+      },
+      {
+        "nom": "Rituel efficace",
+        "description": "Pour chaque rituel qu'il organise le personnage peux choisir un paramètre dont les points acquis sont augmentés de moitié. Ne peux pas être le même paramètre que pour rituel facilité."
+      },
+      {
+        "nom": "Rituel assuré",
+        "description": "Le jet associé à un rituel est très assuré et renforcé, la valeur minimum des dés étant alors de 3 ET rapporte 1 de plus."
+      },
+      {
+        "nom": "Rituel fragmenté",
+        "description": "Le personnage peux réaliser un rituel en plusieurs fois et façon mobile, il peux ainsi se déplacer pour trouver des assistants, pour injecter plus de matière première, pour y passer plus de temps... Le test de rituel d'un tel rituel est désavantagé pour chaque reprises."
+      },
+      {
+        "nom": "Rituel préparé",
+        "description": "Le personnage peux mémoriser un rituel qu'il vient de conclure, ce qui occupe un espace de la mémoire. La prochaine fois qu'un rituel fait appel exactement aux mêmes paramètres, le test du rituel sera avantagé."
       }
     ]
   }

@@ -5381,6 +5381,14 @@ header h1 {
   border-left-color: #4B0082;
 }
 
+.status-condition.type-autre {
+  border-left-color: #555;
+}
+
+.status-condition.cond-positive .status-ressource-icone {
+  filter: hue-rotate(90deg) brightness(1.2);
+}
+
 .status-condition.condition-avancee {
   background: linear-gradient(135deg, var(--color-bg-light) 0%, rgba(200, 50, 50, 0.1) 100%);
 }
@@ -5401,6 +5409,37 @@ header h1 {
 .status-condition-type.type-mentale {
   background: rgba(75, 0, 130, 0.2);
   color: #9370DB;
+}
+
+.status-condition-type.type-autre {
+  background: rgba(80, 80, 80, 0.2);
+  color: var(--color-text-light);
+}
+
+.status-condition-domaines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 3px 0 2px;
+}
+
+.cond-domaine {
+  font-size: 0.7rem;
+  padding: 1px 5px;
+  background: var(--color-bg-dark);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  color: var(--color-text-light);
+}
+
+.cond-save {
+  font-size: 0.7rem;
+  padding: 1px 5px;
+  background: rgba(139, 69, 19, 0.08);
+  border: 1px solid rgba(139, 69, 19, 0.2);
+  border-radius: 3px;
+  color: var(--color-accent);
+  margin-left: auto;
 }
 
 .status-condition-effets {
@@ -5463,22 +5502,62 @@ header h1 {
   border-color: var(--color-negative);
 }
 
+.status-condition-icones {
+  flex-direction: column;
+  gap: 2px;
+  font-size: 1.3rem;
+}
+
+.status-condition-icones span {
+  line-height: 1;
+}
+
 .status-condition-add {
-  display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100px;
+  min-height: 80px;
   border-style: dashed;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
 }
 
-.status-condition-add-content {
+.status-condition-add:hover {
+  background: var(--color-bg-dark);
+  border-color: var(--color-accent);
+}
+
+.cond-add-label {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.status-condition-add:hover .cond-add-label {
+  color: var(--color-accent);
+}
+
+/* ── Modale condition ── */
+
+.cond-modal-content {
+  max-width: 580px;
+  width: 95vw;
+  max-height: 80vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
 }
 
-.select-condition {
+.cond-modal-search {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cond-modal-input {
+  flex: 1;
+  min-width: 150px;
   font-family: var(--font-body);
   font-size: 0.9rem;
   padding: 6px 10px;
@@ -5488,43 +5567,172 @@ header h1 {
   color: var(--color-text);
 }
 
-.input-condition-charges {
-  font-family: var(--font-title);
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 6px 8px;
-  background: var(--color-bg);
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  color: var(--color-accent);
-  text-align: center;
-  width: 60px;
-}
-
-.input-condition-charges:focus {
+.cond-modal-input:focus {
   outline: none;
   border-color: var(--color-accent);
 }
 
-.btn-condition-add {
-  width: 32px;
-  height: 32px;
+.cond-modal-filter {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 5px 8px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.cond-modal-count {
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+  flex-shrink: 0;
+}
+
+.cond-modal-list {
+  overflow-y: auto;
+  flex: 1;
+  padding: 8px 0;
+}
+
+.cond-modal-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 16px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: background 0.1s;
+}
+
+.cond-modal-item:hover {
+  background: var(--color-bg-light);
+}
+
+.cond-modal-item.cond-modal-selected {
+  background: var(--color-bg-light);
+}
+
+.cond-modal-item.cond-positive {
+  border-left-color: rgba(30, 130, 60, 0.4);
+}
+
+.cond-modal-item.cond-negative {
+  border-left-color: rgba(180, 30, 30, 0.35);
+}
+
+.cond-modal-item.cond-modal-selected.cond-positive {
+  border-left-color: #1e823c;
+}
+
+.cond-modal-item.cond-modal-selected.cond-negative {
+  border-left-color: #b41e1e;
+}
+
+.cond-modal-emojis {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  min-width: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.cond-modal-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.cond-modal-row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.cond-modal-nom {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--color-text);
+}
+
+.cond-modal-catkey {
+  font-size: 0.72rem;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--color-bg-dark);
+  color: var(--color-text-light);
+  border: 1px solid var(--color-border);
+}
+
+.cond-modal-save {
+  font-size: 0.72rem;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(139, 69, 19, 0.08);
+  color: var(--color-accent);
+  border: 1px solid rgba(139, 69, 19, 0.2);
+  margin-left: auto;
+}
+
+.cond-modal-effet {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-light);
+  margin: 4px 0 0;
+  line-height: 1.4;
+}
+
+.cond-modal-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-bg-light);
+  flex-wrap: wrap;
+}
+
+.cond-modal-footer-nom {
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.cond-modal-charges-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
+.cond-modal-charges-input {
+  width: 55px;
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 4px 6px;
+  text-align: center;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-accent);
+}
+
+.btn-cond-modal-add {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 6px 14px;
   background: var(--color-accent);
   color: var(--color-bg-light);
   border: none;
-  border-radius: 50%;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 1.2rem;
-  font-weight: bold;
-  transition: all 0.2s;
+  font-weight: 600;
+  transition: background 0.15s;
 }
 
-.btn-condition-add:hover {
+.btn-cond-modal-add:hover {
   background: var(--color-accent-light);
-  transform: scale(1.1);
 }
 
 /* Notes */

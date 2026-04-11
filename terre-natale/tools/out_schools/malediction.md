@@ -2,7 +2,7 @@
 
 > 172 mots pour cette école
 
-#### 1. Blâme
+#### 1. Blâme ['Malé'!C3]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -11,7 +11,7 @@ Génère un enchantement négatif qui réduit toutes les récupérations de <spa
 
 ---
 
-#### 2. Drainage
+#### 2. Drainage ['Malé'!C4]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -20,7 +20,7 @@ Génère un enchantement négatif qui réduit la récupération d'une ressource 
 
 ---
 
-#### 3. Malédiction
+#### 3. Malédiction ['Malé'!C5]
 ***Latin :*** Execror (Maudire), ***Arcanique :*** Mugxecro (Mug + xecro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -29,7 +29,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 4. Dissipation
+#### 4. Dissipation ['Malé'!C6]
 ***Latin :*** Disipo (Disperser), ***Arcanique :*** Mundisi (Mun + disi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -38,7 +38,7 @@ Produit un enchantement négatif qui réduit les charges de <span style="color:#
 
 ---
 
-#### 5. Exacerbation
+#### 5. Exacerbation ['Malé'!C7]
 ***Latin :*** Acerbus (Acre, amer), ***Arcanique :*** Malacerb (Mal + acerb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -47,7 +47,7 @@ Produit un enchantement négatif qui double les charges, maximum <span style="co
 
 ---
 
-#### 6. Mutilation
+#### 6. Mutilation ['Malé'!C8]
 ***Latin :*** Mutilo (Mutiler), ***Arcanique :*** Mormuti (Mor + muti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -56,7 +56,7 @@ Produit un effet d'enchantement négatif provoquant à chaque tour les effets d'
 
 ---
 
-#### 7. Lestage
+#### 7. Lestage ['Malé'!C9]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -65,7 +65,7 @@ Génère un enchantement négatif qui augmente le poids effectif de la cible de 
 
 ---
 
-#### 8. Massification
+#### 8. Massification ['Malé'!C10]
 ***Latin :*** Massa (Masse), ***Arcanique :*** Munmas (Mun + mas)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -74,7 +74,7 @@ Génère un enchantement négatif qui augmente le poids effectif de la cible de 
 
 ---
 
-#### 9. Affaiblissement
+#### 9. Affaiblissement ['Malé'!C11]
 ***Latin :*** Debilito (Affaiblir), ***Arcanique :*** Maldeb (Mal + deb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -83,7 +83,7 @@ Génère un enchantement négatif qui réduit le poids maximum de la cible de <s
 
 ---
 
-#### 10. Expulsion
+#### 10. Expulsion ['Malé'!C12]
 ***Latin :*** Pello (Pousser), ***Arcanique :*** Morexp (Mor + exp)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -92,7 +92,7 @@ Génère un enchantement négatif qui accroit la distance des déplacements forc
 
 ---
 
-#### 11. Effondrement
+#### 11. Effondrement ['Malé'!C13]
 ***Latin :*** Ruina (Chute), ***Arcanique :*** Mugruin (Mug + ruin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -101,7 +101,7 @@ Génère un enchantement négatif qui accroit la distance des chutes de <span st
 
 ---
 
-#### 12. Inertie
+#### 12. Inertie ['Malé'!C14]
 ***Latin :*** Impedio (Empêcher), ***Arcanique :*** Muniped (Mun + iped)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -110,7 +110,7 @@ Génère un enchantement négatif qui permet d'augmenter de <span style="color:#
 
 ---
 
-#### 13. Déportation
+#### 13. Déportation ['Malé'!C15]
 ***Latin :*** Porto (Porter), ***Arcanique :*** Malporto (Mal + porto)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -119,7 +119,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 14. Surenvenimation
+#### 14. Surenvenimation ['Malé'!C16]
 ***Latin :*** Veneno (Poison), ***Arcanique :*** Morvene (Mor + vene)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -128,7 +128,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 15. Calcination
+#### 15. Calcination ['Malé'!C17]
 ***Latin :*** Calco (Fouler, réprimer), ***Arcanique :*** Mugcalco (Mug + calco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -137,7 +137,7 @@ Génère un enchantement négatif augmente jusqu'à <span style="color:#ff1493; 
 
 ---
 
-#### 16. Aminoration
+#### 16. Aminoration ['Malé'!C18]
 ***Latin :*** Minus (Moins), ***Arcanique :*** Munminus (Mun + minus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -146,7 +146,7 @@ Génère un enchantement négatif qui réduit d'un total de <span style="color:#
 
 ---
 
-#### 17. Fascination
+#### 17. Fascination ['Malé'!C19]
 ***Latin :*** Fascinum (Charme), ***Arcanique :*** Malfasci (Mal + fasci)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -155,7 +155,7 @@ Génère un enchantement négatif qui octroie à une cible A un bonus à son app
 
 ---
 
-#### 18. Dépréciation
+#### 18. Dépréciation ['Malé'!C20]
 ***Latin :*** Pretium (Prix, valeur), ***Arcanique :*** Morpret (Mor + pret)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -164,7 +164,7 @@ Génère un enchantement négatif qui octroie à une cible A un malus à son app
 
 ---
 
-#### 19. Tentation
+#### 19. Tentation ['Malé'!C21]
 ***Latin :*** Tempto (Tenter), ***Arcanique :*** Mugtemp (Mug + temp)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -173,7 +173,7 @@ Génère un enchantement négatif qui persuade la cible que le lanceur de sort d
 
 ---
 
-#### 20. Insidiosité
+#### 20. Insidiosité ['Malé'!C22]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -182,7 +182,7 @@ Génère un enchantement négatif qui augmente les dégats reçus de (au choix a
 
 ---
 
-#### 21. Aggravation
+#### 21. Aggravation ['Malé'!C23]
 ***Latin :*** Gravis (Lourd), ***Arcanique :*** Malgravi (Mal + gravi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -191,7 +191,7 @@ Génère un enchantement négatif qui augmente la gravité des blessures à veni
 
 ---
 
-#### 22. Altération
+#### 22. Altération ['Malé'!C24]
 ***Latin :*** Alter (Autre), ***Arcanique :*** Moralter (Mor + alter)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -200,7 +200,7 @@ Génère un enchantement négatif qui augmente la gravité des traumas à venir 
 
 ---
 
-#### 23. Contagion
+#### 23. Contagion ['Malé'!C25]
 ***Latin :*** Tango (Toucher), ***Arcanique :*** Mugtago (Mug + tago)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -209,7 +209,7 @@ Génère un enchantement négatif qui produit les effets d'un autre <span style=
 
 ---
 
-#### 24. Résonance
+#### 24. Résonance ['Malé'!C26]
 ***Latin :*** Sono (Ressonnance), ***Arcanique :*** Munsona (Mun + sona)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -218,7 +218,7 @@ Génère un enchantement négatif qui produit les effets d'un autre <span style=
 
 ---
 
-#### 25. Imprégnation
+#### 25. Imprégnation ['Malé'!C27]
 ***Latin :*** Imbueo (Imprégner), ***Arcanique :*** Malimbu (Mal + imbu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -227,7 +227,7 @@ Génère un enchantement négatif qui réduit la difficulté arcanique des sorts
 
 ---
 
-#### 26. Pistage
+#### 26. Pistage ['Malé'!C28]
 ***Latin :*** Vestigium (Trace), ***Arcanique :*** Morvesti (Mor + vesti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -236,7 +236,7 @@ Génère un enchantement négatif qui permet au lanceur de sort de connaitre la 
 
 ---
 
-#### 27. Contradiction
+#### 27. Contradiction ['Malé'!C29]
 ***Latin :*** Contra (Contre), ***Arcanique :*** Mugcontra (Mug + contra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -245,7 +245,7 @@ Génère un enchantement négatif qui force la cible à relancer tous les dés d
 
 ---
 
-#### 28. Suggestion
+#### 28. Suggestion ['Malé'!C30]
 ***Latin :*** Subgero (Porter), ***Arcanique :*** Munsubger (Mun + subger)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -254,7 +254,7 @@ Génère un enchantement négatif qui rend la cible moins difficulté à persuad
 
 ---
 
-#### 29. Domestication
+#### 29. Domestication ['Malé'!C31]
 ***Latin :*** Domus (Maison), ***Arcanique :*** Maldos (Mal + dos)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -263,7 +263,7 @@ Génère un enchantement négatif qui rend la cible moins difficulté à approch
 
 ---
 
-#### 30. Ralentissement
+#### 30. Ralentissement ['Malé'!C32]
 ***Latin :*** Tardus (Lent), ***Arcanique :*** Mortard (Mor + tard)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -272,7 +272,7 @@ Génère un enchantement négatif qui octroie à la cible un malus de <span styl
 
 ---
 
-#### 31. Incandescence
+#### 31. Incandescence ['Malé'!C33]
 ***Latin :*** Candeo (Être blanc ardent), ***Arcanique :*** Mugcand (Mug + cand)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -281,7 +281,7 @@ Génère un enchantement négatif qui chauffe un objet composé en partie ou ent
 
 ---
 
-#### 32. Provocation
+#### 32. Provocation ['Malé'!C34]
 ***Latin :*** Voco (Appeler), ***Arcanique :*** Munvoco (Mun + voco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -290,7 +290,7 @@ Génère un enchantement négatif qui force la cible à s'en prendre en priorit�
 
 ---
 
-#### 33. Coercition
+#### 33. Coercition ['Malé'!C35]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -299,7 +299,7 @@ Génère un enchantement négatif qui force la cible à ignorer une autre cible 
 
 ---
 
-#### 34. Adoration
+#### 34. Adoration ['Malé'!C36]
 ***Latin :*** Oro (Prier), ***Arcanique :*** Mororo (Mor + oro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -308,7 +308,7 @@ Génère un enchantement négatif qui force la cible à aider une autre cible au
 
 ---
 
-#### 35. Statuefaction
+#### 35. Statuefaction ['Malé'!C37]
 ***Latin :*** Status (Position), ***Arcanique :*** Mugstatu (Mug + statu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -317,7 +317,7 @@ Génère un enchantement négatif qui statufie la cible en formant une couche so
 
 ---
 
-#### 36. Porosité
+#### 36. Porosité ['Malé'!C38]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -326,7 +326,7 @@ Génère un enchantement négatif qui fragilise l'objet ciblé, ce dernier réal
 
 ---
 
-#### 37. Détérioration
+#### 37. Détérioration ['Malé'!C39]
 ***Latin :*** Peior (Pire), ***Arcanique :*** Malpeior (Mal + peior)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -335,7 +335,7 @@ Génère un enchantement négatif qui fragilise l'objet ciblé, ce dernier réal
 
 ---
 
-#### 38. Dislocation
+#### 38. Dislocation ['Malé'!C40]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -344,7 +344,7 @@ Génère un enchantement négatif qui double les pénalités issus des lésions 
 
 ---
 
-#### 39. Défalcation
+#### 39. Défalcation ['Malé'!C41]
 ***Latin :*** Falx (Faux), ***Arcanique :*** Mugfalx (Mug + falx)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -353,7 +353,7 @@ Génère un enchantement négatif qui augmente les dégats et l'impact (dont la 
 
 ---
 
-#### 40. Découverte
+#### 40. Découverte ['Malé'!C42]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -362,7 +362,7 @@ Génère un enchantement négatif qui augmente les dégats (dont la nature dépe
 
 ---
 
-#### 41. Inhibition
+#### 41. Inhibition ['Malé'!C43]
 ***Latin :*** Habeo (Tenir, retenir), ***Arcanique :*** Malhabeo (Mal + habeo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -371,7 +371,7 @@ Génère un enchantement négatif qui réduit les dégats et l'impact (dont la n
 
 ---
 
-#### 42. Atrophiation
+#### 42. Atrophiation ['Malé'!C44]
 ***Latin :*** Atro (Noir), ***Arcanique :*** Moratro (Mor + atro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -380,7 +380,7 @@ Génère un enchantement négatif qui réduit de moitié la génération de ress
 
 ---
 
-#### 43. Débilitation
+#### 43. Débilitation ['Malé'!C45]
 ***Latin :*** Debilito (Affaiblir), ***Arcanique :*** Mugdebil (Mug + debil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -389,7 +389,7 @@ Génère un enchantement positif qui inflige un malus d'attribut de <span style=
 
 ---
 
-#### 44. Affaissement
+#### 44. Affaissement ['Malé'!C46]
 ***Latin :*** Cado (Tomber), ***Arcanique :*** Muncado (Mun + cado)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -398,7 +398,7 @@ Génère un enchantement positif qui inflige un malus d'attribut de <span style=
 
 ---
 
-#### 45. Désorganisation
+#### 45. Désorganisation ['Malé'!C47]
 ***Latin :*** Ordo (Ordre), ***Arcanique :*** Malordo (Mal + ordo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -407,7 +407,7 @@ Génère un enchantement positif qui inflige un malus d'attribut de <span style=
 
 ---
 
-#### 46. Entravation
+#### 46. Entravation ['Malé'!C48]
 ***Latin :*** Impedio (Empêcher), ***Arcanique :*** Morimped (Mor + imped)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -416,7 +416,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 47. Minoration
+#### 47. Minoration ['Malé'!C49]
 ***Latin :*** Minor (Plus petit), ***Arcanique :*** Mugminor (Mug + minor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -425,7 +425,7 @@ Génère un enchantement négatif qui réduit de moitié la déviation physique 
 
 ---
 
-#### 48. Souillure
+#### 48. Souillure ['Malé'!C50]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -434,7 +434,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 49. Contamination
+#### 49. Contamination ['Malé'!C51]
 ***Latin :*** Tamino (Souiller), ***Arcanique :*** Maltamin (Mal + tamin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -443,7 +443,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 50. Naturalisation
+#### 50. Naturalisation ['Malé'!C52]
 ***Latin :*** Natura (Nature), ***Arcanique :*** Mornatur (Mor + natur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -452,7 +452,7 @@ Génère un enchantement négatif qui force la cible à utiliser ses sauvegardes
 
 ---
 
-#### 51. Asphyxiation
+#### 51. Asphyxiation ['Malé'!C53]
 ***Latin :*** Spiritus (Souffle), ***Arcanique :*** Mugspira (Mug + spira)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -461,7 +461,7 @@ Génère un enchantement positif qui réduit la réunion de mana de <span style=
 
 ---
 
-#### 52. Mascarade
+#### 52. Mascarade ['Malé'!C54]
 ***Latin :*** Masca (Fantôme), ***Arcanique :*** Munmasca (Mun + masca)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -470,7 +470,7 @@ Génère un enchantement négatif qui inverse l'utilisation des attributs du cor
 
 ---
 
-#### 53. Dysfonctionnement
+#### 53. Dysfonctionnement ['Malé'!C55]
 ***Latin :*** Functus (Fonction), ***Arcanique :*** Maldysfu (Mal + dysfu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -479,7 +479,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 54. Infection
+#### 54. Infection ['Malé'!C56]
 ***Latin :*** Tinguo (Teindre, imprégner), ***Arcanique :*** Mortingo (Mor + tingo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -488,7 +488,7 @@ Génère un enchantement négatif, à chaque fois que la cible reçoit des déga
 
 ---
 
-#### 55. Flétrissement
+#### 55. Flétrissement ['Malé'!C57]
 ***Latin :*** Marceo (Se flétrir), ***Arcanique :*** Mugmarce (Mug + marce)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -497,7 +497,7 @@ Génère un enchantement négatif, à chaque début de tour la cible reçoit un 
 
 ---
 
-#### 56. Vulnérable
+#### 56. Vulnérable ['Malé'!C58]
 ***Latin :*** Laedo (Blesser), ***Arcanique :*** Munlaedo (Mun + laedo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -506,7 +506,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 57. Irritation
+#### 57. Irritation ['Malé'!C59]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -515,7 +515,7 @@ Génère un enchantement négatif qui augmente de un tiers les dégats reçu par
 
 ---
 
-#### 58. Contraction
+#### 58. Contraction ['Malé'!C60]
 ***Latin :*** Traho (Tirer), ***Arcanique :*** Mortract (Mor + tract)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -524,7 +524,7 @@ Génère un enchantement négatif qui réduit la plage singularité de la cible 
 
 ---
 
-#### 59. Dilatation
+#### 59. Dilatation ['Malé'!C61]
 ***Latin :*** Latus (Large), ***Arcanique :*** Muglatus (Mug + latus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -533,7 +533,7 @@ Génère un enchantement négatif qui augmente la plage singularité contre la c
 
 ---
 
-#### 60. Pénalisation
+#### 60. Pénalisation ['Malé'!C62]
 ***Latin :*** Poena (Peine), ***Arcanique :*** Munpoen (Mun + poen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -542,7 +542,7 @@ Génère un enchantement négatif qui augmente octroie un malus de <span style="
 
 ---
 
-#### 61. Prohibition
+#### 61. Prohibition ['Malé'!C63]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -551,7 +551,7 @@ Génère un enchantement négatif qui interdit à la cible de réaliser une acti
 
 ---
 
-#### 62. Désagrégation
+#### 62. Désagrégation ['Malé'!C64]
 ***Latin :*** Cresco (Croître), ***Arcanique :*** Morcres (Mor + cres)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -560,7 +560,7 @@ Génère un enchantement négatif qui provoque une double décharge des conditio
 
 ---
 
-#### 63. Dégradation
+#### 63. Dégradation ['Malé'!C65]
 ***Latin :*** Lapsus (Chute), ***Arcanique :*** Mugdegrad (Mug + degrad)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -569,7 +569,7 @@ Génère un enchantement négatif qui réduit une sauvegarde au choix (dont le t
 
 ---
 
-#### 64. Fragilisation
+#### 64. Fragilisation ['Malé'!C66]
 ***Latin :*** Frangere (Briser), ***Arcanique :*** Munfreg (Mun + freg)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -578,7 +578,7 @@ Génère un enchantement négatif qui réduit toutes les sauvegardes de <span st
 
 ---
 
-#### 65. Amputation
+#### 65. Amputation ['Malé'!C67]
 ***Latin :*** Puto (Élaguer), ***Arcanique :*** Malputo (Mal + puto)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -587,7 +587,7 @@ Génère un enchantement négatif qui réduit le maximum d'une ressource au choi
 
 ---
 
-#### 66. Appauvrissement
+#### 66. Appauvrissement ['Malé'!C68]
 ***Latin :*** Pauper (Pauvre), ***Arcanique :*** Morpaupe (Mor + paupe)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -596,7 +596,7 @@ Génère un enchantement négatif qui réduit le maximum de toutes les ressource
 
 ---
 
-#### 67. Drainement
+#### 67. Drainement ['Malé'!C69]
 ***Latin :*** Haurio (Puiser), ***Arcanique :*** Mughaur (Mug + haur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -605,7 +605,7 @@ Génère un enchantement négatif qui réduit toutes les ressources (actuelles) 
 
 ---
 
-#### 68. Affliction
+#### 68. Affliction ['Malé'!C70]
 ***Latin :*** Fligo (Frapper), ***Arcanique :*** Munfligo (Mun + fligo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -614,7 +614,7 @@ Génère un enchantement négatif qui réduit un attribut (au choix selon la <sp
 
 ---
 
-#### 69. Réduction
+#### 69. Réduction ['Malé'!C71]
 ***Latin :*** Reduco (Ramener), ***Arcanique :*** Malredu (Mal + redu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -623,7 +623,7 @@ Produit un enchantement négatif qui réduit une caractéristique (dont la natur
 
 ---
 
-#### 70. Déqualification
+#### 70. Déqualification ['Malé'!C72]
 ***Latin :*** Qualis (Qualité), ***Arcanique :*** Morquali (Mor + quali)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -632,7 +632,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 71. Pérennisation
+#### 71. Pérennisation ['Malé'!C73]
 ***Latin :*** Perennis (Durable), ***Arcanique :*** Mugperen (Mug + peren)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -641,7 +641,7 @@ Génère un enchantement négatif qui maintient les conditions négatives sur la
 
 ---
 
-#### 72. Privation
+#### 72. Privation ['Malé'!C74]
 ***Latin :*** Privo (Enlever), ***Arcanique :*** Munprivo (Mun + privo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -650,7 +650,7 @@ Génère un enchantement négatif qui bloque un ou tous les sens de la cible (au
 
 ---
 
-#### 73. Duperie
+#### 73. Duperie ['Malé'!C75]
 ***Latin :*** Fraus (Fraude), ***Arcanique :*** Malfrau (Mal + frau)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -659,7 +659,7 @@ Produit un enchantement négatif qui force la cible à dire la vérité ou à me
 
 ---
 
-#### 74. Obsession
+#### 74. Obsession ['Malé'!C76]
 ***Latin :*** Sedeo (Être assis), ***Arcanique :*** Morobsid (Mor + obsid)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -668,7 +668,7 @@ Produit un enchantement négatif qui pousse la cible à imaginer des menaces qui
 
 ---
 
-#### 75. Distraction
+#### 75. Distraction ['Malé'!C77]
 ***Latin :*** Traho (Tirer), ***Arcanique :*** Mugdistra (Mug + distra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -677,7 +677,7 @@ Génère un enchantement négatif qui rend la cible plus marquante, les autres s
 
 ---
 
-#### 76. Déclassement
+#### 76. Déclassement ['Malé'!C78]
 ***Latin :*** Classis (Classe), ***Arcanique :*** Mundclas (Mun + dclas)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -686,7 +686,7 @@ Génère un enchantement négatif qui réduit la catégorie effective de la cibl
 
 ---
 
-#### 77. Alourdissement
+#### 77. Alourdissement ['Malé'!C79]
 ***Latin :*** Pondus (Poids), ***Arcanique :*** Malpondu (Mal + pondu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -695,7 +695,7 @@ Génère un enchantement négatif qui double les pénalités d'usage de la cible
 
 ---
 
-#### 78. Usure
+#### 78. Usure ['Malé'!C80]
 ***Latin :*** Rodo (Ronger), ***Arcanique :*** Morerode (Mor + erode)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -704,7 +704,7 @@ Génère un enchantement négatif qui double la déterioration que subit l'objet
 
 ---
 
-#### 79. Effritement
+#### 79. Effritement ['Malé'!C81]
 ***Latin :*** Fritus (Brisé), ***Arcanique :*** Mugfrite (Mug + frite)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -713,7 +713,7 @@ Génère un enchantement négatif qui éffrite l'objet ciblé, ce dernier subiss
 
 ---
 
-#### 80. Amoindrissement
+#### 80. Amoindrissement ['Malé'!C82]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -722,7 +722,7 @@ Génère un enchantement négatif qui fragilise l'objet ciblé, ce dernier réal
 
 ---
 
-#### 81. Fracturation
+#### 81. Fracturation ['Malé'!C83]
 ***Latin :*** Frango (Briser), ***Arcanique :*** Malafran (Mal + afran)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -731,7 +731,7 @@ Génère un enchantement négatif qui émousse l'objet ciblé, ce dernier imposa
 
 ---
 
-#### 82. Obturation
+#### 82. Obturation ['Malé'!C84]
 ***Latin :*** Obturo (Boucher), ***Arcanique :*** Morobtur (Mor + obtur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (objet)
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -740,7 +740,7 @@ Génère un enchantement négatif qui rend l'objet cassant, ce dernier subissant
 
 ---
 
-#### 83. Oblitération
+#### 83. Oblitération ['Malé'!C85]
 ***Latin :*** Littera (Lettre), ***Arcanique :*** Muglitera (Mug + litera)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -749,7 +749,7 @@ Génère un enchantement négatif qui réduit la mémoire de la cible de <span s
 
 ---
 
-#### 84. Interdiction
+#### 84. Interdiction ['Malé'!C86]
 ***Latin :*** Arceo (Arcer), ***Arcanique :*** Munarceo (Mun + arceo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -758,7 +758,7 @@ Génère un enchantement négatif qui impose une pénalité de <span style="colo
 
 ---
 
-#### 85. Rétribution
+#### 85. Rétribution ['Malé'!C87]
 ***Latin :*** Tribuo (Donner), ***Arcanique :*** Maltribu (Mal + tribu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -767,7 +767,7 @@ Génère un enchantement négatif qui inflige des dégats temporaires (ignorant 
 
 ---
 
-#### 86. Contrariation
+#### 86. Contrariation ['Malé'!C88]
 ***Latin :*** Contrarius (Contraire), ***Arcanique :*** Morcontra (Mor + contra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -776,7 +776,7 @@ Génère un enchantement négatif qui octroie un malus aux jets des actions dont
 
 ---
 
-#### 87. Précipitation
+#### 87. Précipitation ['Malé'!C89]
 ***Latin :*** Precipito (Lancer), ***Arcanique :*** Mugpreci (Mug + preci)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -785,7 +785,7 @@ Génère un enchantement négatif qui inflige des dégats temporaires (ignorant 
 
 ---
 
-#### 88. Déprécation
+#### 88. Déprécation ['Malé'!C90]
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -794,7 +794,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 89. Abdication
+#### 89. Abdication ['Malé'!C91]
 ***Latin :*** Dico (Dire), ***Arcanique :*** Malabdi (Mal + abdi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -803,7 +803,7 @@ Génère un enchantement négatif qui résigne la cible à ne plus intervenir da
 
 ---
 
-#### 90. Réprobation
+#### 90. Réprobation ['Malé'!C92]
 ***Latin :*** Reprobus (Réprouvé), ***Arcanique :*** MoRepro (Mor + repro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -812,7 +812,7 @@ Génère un enchantement négatif qui duplique les lésions physiques en lésion
 
 ---
 
-#### 91. Dégénération
+#### 91. Dégénération ['Malé'!C93]
 ***Latin :*** Gigno (Engendrer), ***Arcanique :*** Mugdegen (Mug + degen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -821,7 +821,7 @@ Produit un enchantement négatif qui réduit à chaque tour <span style="color:#
 
 ---
 
-#### 92. Intensification
+#### 92. Intensification ['Malé'!C94]
 ***Latin :*** Vehemens (Violent), ***Arcanique :*** Munvehe (Mun + vehe)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -830,7 +830,7 @@ Génère un enchantement négatif augmentant les effets des conditions négative
 
 ---
 
-#### 93. Blocage
+#### 93. Blocage ['Malé'!C95]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -839,7 +839,7 @@ Génère un enchantement négatif réduisant les effets des conditions positives
 
 ---
 
-#### 94. Désacralisation
+#### 94. Désacralisation ['Malé'!C96]
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Morsacro (Mor + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -848,7 +848,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 95. Exaltation
+#### 95. Exaltation ['Malé'!C97]
 ***Latin :*** Altius (Plus haut), ***Arcanique :*** Mugalt (Mug + alt)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -857,7 +857,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 96. Damnation
+#### 96. Damnation ['Malé'!C98]
 ***Latin :*** Condemno (Condamner), ***Arcanique :*** Mundamna (Mun + damna)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -866,7 +866,7 @@ Génère un enchantement négatif qui réduit les sauvegardes contre les conditi
 
 ---
 
-#### 97. Vulnérisation
+#### 97. Vulnérisation ['Malé'!C99]
 ***Latin :*** Lacero (Déchirer), ***Arcanique :*** Malliacer (Mal + liacer)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -875,7 +875,7 @@ Génère un enchantement négatif qui double les bénéfices d'une faiblesse él
 
 ---
 
-#### 98. Magnétisation
+#### 98. Magnétisation ['Malé'!C100]
 ***Latin :*** Magnes (Aimant), ***Arcanique :*** Mormagne (Mor + magne)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -884,7 +884,7 @@ Génère un enchantement négatif qui inflige <span style="color:#ff1493; font-w
 
 ---
 
-#### 99. Electrification
+#### 99. Electrification ['Malé'!C101]
 ***Latin :*** Electro (Ambre), ***Arcanique :*** Mugelec (Mug + elec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Objet
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -893,7 +893,7 @@ Génère un enchantement négatif qui inflige <span style="color:#ff1493; font-w
 
 ---
 
-#### 100. Carbonisation
+#### 100. Carbonisation ['Malé'!C102]
 ***Latin :*** Carbo (Charbon), ***Arcanique :*** Muncarbo (Mun + carbo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Objet
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -902,7 +902,7 @@ Génère un enchantement négatif qui inflige <span style="color:#ff1493; font-w
 
 ---
 
-#### 101. Érosion
+#### 101. Érosion ['Malé'!C103]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -911,7 +911,7 @@ Génère un enchantement négatif qui force les enchantements positifs affectant
 
 ---
 
-#### 102. Suractivation
+#### 102. Suractivation ['Malé'!C104]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -920,7 +920,7 @@ Génère un enchantement négatif qui force les enchantements négatifs affectan
 
 ---
 
-#### 103. Révocation
+#### 103. Révocation ['Malé'!C105]
 ***Latin :*** Voco (Appeler), ***Arcanique :*** Mugvoca (Mug + voca)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -929,7 +929,7 @@ Génère un enchantement négatif qui force la cible à relancer (l'ensemble d')
 
 ---
 
-#### 104. Illumination
+#### 104. Illumination ['Malé'!C106]
 ***Latin :*** Lumen (Lumière), ***Arcanique :*** Munlumen (Mun + lumen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -938,7 +938,7 @@ Génère un enchantement négatif qui rend la cible plus visible, réduisant la 
 
 ---
 
-#### 105. Résonation
+#### 105. Résonation ['Malé'!C107]
 ***Latin :*** Clamor (Clameur), ***Arcanique :*** Malclam (Mal + clam)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -947,7 +947,7 @@ Génère un enchantement négatif qui rend la cible plus bruyante, réduisant la
 
 ---
 
-#### 106. Émanation
+#### 106. Émanation ['Malé'!C108]
 ***Latin :*** Mano (Couler, émaner), ***Arcanique :*** Mormana (Mor + mana)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -956,7 +956,7 @@ Génère un enchantement positif qui rend la cible plus odorante et plus percept
 
 ---
 
-#### 107. Focalisation
+#### 107. Focalisation ['Malé'!C109]
 ***Latin :*** Focus (Foyer), ***Arcanique :*** Mugfocus (Mug + focus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -965,7 +965,7 @@ Génère un enchantement négatif qui révèle la vraie nature de la cible, on p
 
 ---
 
-#### 108. Exposition
+#### 108. Exposition ['Malé'!C110]
 ***Latin :*** Pono (Placer), ***Arcanique :*** Munponi (Mun + poni)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -974,7 +974,7 @@ Génère un enchantement négatif qui rend la cible moins difficile à dicerner 
 
 ---
 
-#### 109. Divulgation
+#### 109. Divulgation ['Malé'!C111]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -983,7 +983,7 @@ Créer un enchantement négatif qui réduit la capacité de la cible à se couvr
 
 ---
 
-#### 110. Limitation
+#### 110. Limitation ['Malé'!C112]
 ***Latin :*** Limes (Limite), ***Arcanique :*** Morlimes (Mor + limes)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -992,7 +992,7 @@ Génère un enchantement négatif qui réduit le maximum des dés de tous les je
 
 ---
 
-#### 111. Désoptimisation
+#### 111. Désoptimisation ['Malé'!C113]
 ***Latin :*** Optimus (Le meilleur), ***Arcanique :*** Mugopti (Mug + opti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1001,7 +1001,7 @@ Génère un enchantement négatif qui réduit le maximum des dés de tous les te
 
 ---
 
-#### 112. Perturbation
+#### 112. Perturbation ['Malé'!C114]
 ***Latin :*** Turbo (Troubler), ***Arcanique :*** Munturb (Mun + turb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1010,7 +1010,7 @@ Génère un enchantement négatif qui rend la cible plus sensibles aux émotions
 
 ---
 
-#### 113. Condamnation
+#### 113. Condamnation ['Malé'!C115]
 ***Latin :*** Condemno (Condamner), ***Arcanique :*** Malconde (Mal + conde)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1019,7 +1019,7 @@ Génère un enchantement négatif qui attends la mort de la cible afin de décle
 
 ---
 
-#### 114. Déflagration
+#### 114. Déflagration ['Malé'!C116]
 ***Latin :*** Flagro (Brûler), ***Arcanique :*** Morflagro (Mor + flagro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 2
@@ -1028,7 +1028,7 @@ Génère un enchantement négatif qui attends la mise hors d'état de la cible (
 
 ---
 
-#### 115. Frustration
+#### 115. Frustration ['Malé'!C117]
 ***Latin :*** Frustra (En vain), ***Arcanique :*** Mugfrustr (Mug + frustr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1037,7 +1037,7 @@ Génère un enchantement négatif qui ajoute aux lésions de la cible <span styl
 
 ---
 
-#### 116. Insalubre
+#### 116. Insalubre ['Malé'!C118]
 ***Latin :*** Salus (Santé), ***Arcanique :*** Munsalu (Mun + salu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1046,7 +1046,7 @@ Génère un enchantement négatif qui augmente la charge/gravité des toxines, m
 
 ---
 
-#### 117. Désacration
+#### 117. Désacration ['Malé'!C119]
 ***Latin :*** Sacer (Sacré), ***Arcanique :*** Malsacer (Mal + sacer)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1055,7 +1055,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 118. Extinction
+#### 118. Extinction ['Malé'!C120]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1064,7 +1064,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 119. Accablement
+#### 119. Accablement ['Malé'!C121]
 ***Latin :*** Premo (Presser), ***Arcanique :*** Mugprema (Mug + prema)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1073,7 +1073,7 @@ Génère un enchantement négatif qui augmente la valeurs actuel de fatigue de <
 
 ---
 
-#### 120. Profanation
+#### 120. Profanation ['Malé'!C122]
 ***Latin :*** PoLuo (Souiller), ***Arcanique :*** MunpoLu (Mun + poLu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1082,7 +1082,7 @@ Génère un enchantement négatif qui augmente la valeurs actuel de corruption d
 
 ---
 
-#### 121. Hantation
+#### 121. Hantation ['Malé'!C123]
 ***Latin :*** Umbra (Ombre), ***Arcanique :*** Malumbra (Mal + umbra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1091,7 +1091,7 @@ Génère un enchantement qui pousse un esprit à hanter la cible, cette dernièr
 
 ---
 
-#### 122. Agonie
+#### 122. Agonie ['Malé'!C124]
 ***Latin :*** Crux (Souffrance, croix), ***Arcanique :*** Morcrux (Mor + crux)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1100,7 +1100,7 @@ Génère un enchantement qui provoque à la fin du tour une perte de PV équival
 
 ---
 
-#### 123. Sporulation
+#### 123. Sporulation ['Malé'!C125]
 ***Latin :*** Spargo (Répandre), ***Arcanique :*** Mugspargo (Mug + spargo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1109,7 +1109,7 @@ Génère un enchantement qui octroie un malus d'ajustement à tous les tests eff
 
 ---
 
-#### 124. Immobilisation
+#### 124. Immobilisation ['Malé'!C126]
 ***Latin :*** Resto (Rester), ***Arcanique :*** Munresto (Mun + resto)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1118,7 +1118,7 @@ Génère un enchantement négatif qui force la cible à perdre une de ses ACTS p
 
 ---
 
-#### 125. Surgélation
+#### 125. Surgélation ['Malé'!C127]
 ***Latin :*** Gelo (Geler), ***Arcanique :*** Malgelo (Mal + gelo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1127,7 +1127,7 @@ Génère un enchantement négatif qui force la cible à perdre son ACTL par roun
 
 ---
 
-#### 126. Pétrification
+#### 126. Pétrification ['Malé'!C128]
 ***Latin :*** Petra (Roche), ***Arcanique :*** Morpetra (Mor + petra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1136,7 +1136,7 @@ Génère un enchantement négatif qui emprisonne un membre de la cible, la <span
 
 ---
 
-#### 127. Enchaînement
+#### 127. Enchaînement ['Malé'!C129]
 ***Latin :*** Catena (Chaîne), ***Arcanique :*** Mugcatena (Mug + catena)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -1145,7 +1145,7 @@ Génère un enchantement négatif qui emprisonne l'ensemble de la cible, la <spa
 
 ---
 
-#### 128. Apathie
+#### 128. Apathie ['Malé'!C130]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1154,7 +1154,7 @@ Génère un enchantement négatif qui double le drain des sorts lancés par la c
 
 ---
 
-#### 129. Diminution
+#### 129. Diminution ['Malé'!C131]
 ***Latin :*** Minor (Plus petit), ***Arcanique :*** Malminor (Mal + minor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1163,7 +1163,7 @@ Génère un enchantement négatif qui réduit l'attribut le plus élevé de la c
 
 ---
 
-#### 130. Amplification
+#### 130. Amplification ['Malé'!C132]
 ***Latin :*** Augeo (Augmenter), ***Arcanique :*** Morauge (Mor + auge)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1172,7 +1172,7 @@ Génère un enchantement négatif qui réduit l'attribut le plus bas de la cible
 
 ---
 
-#### 131. Epuisement
+#### 131. Epuisement ['Malé'!C133]
 ***Latin :*** Labor (Peine, effort), ***Arcanique :*** Muglabor (Mug + labor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1181,7 +1181,7 @@ Génère un enchantement qui provoque une perte de PE équivalant à <span style
 
 ---
 
-#### 132. Mensongement
+#### 132. Mensongement ['Malé'!C134]
 ***Latin :*** Mendax (Menteur), ***Arcanique :*** Munmendax (Mun + mendax)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1190,7 +1190,7 @@ Génère un enchantement qui oblige la cible à mentir, chaques phrases prononc�
 
 ---
 
-#### 133. Falsification
+#### 133. Falsification ['Malé'!C135]
 ***Latin :*** Fallo (Tromper), ***Arcanique :*** Malfallo (Mal + fallo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1199,7 +1199,7 @@ Génère un enchantement qui inflige une pénalité aux tests de sincérité de 
 
 ---
 
-#### 134. Révélation
+#### 134. Révélation ['Malé'!C136]
 ***Latin :*** Pateo (Être ouvert), ***Arcanique :*** Morpateo (Mor + pateo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1208,7 +1208,7 @@ Génère un enchantement qui inflige une pénalité aux tests de mensonges de la
 
 ---
 
-#### 135. Expiration
+#### 135. Expiration ['Malé'!C137]
 ***Latin :*** Spirare (Souffler), ***Arcanique :*** Mugspir (Mug + spir)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1217,7 +1217,7 @@ Génère un enchantement qui provoque une perte de PE équivalant à 1/3 des dé
 
 ---
 
-#### 136. Aberration
+#### 136. Aberration ['Malé'!C138]
 ***Latin :*** Erro (EReur), ***Arcanique :*** Munerro (Mun + erro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1226,7 +1226,7 @@ Génère un enchantement qui induit une confusion magique, la cible a une chance
 
 ---
 
-#### 137. Aliénation
+#### 137. Aliénation ['Malé'!C139]
 ***Latin :*** Alienus (Étranger), ***Arcanique :*** Malalien (Mal + alien)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1235,7 +1235,7 @@ Génère un enchantement qui induit une folie magique, la cible a une chance sur
 
 ---
 
-#### 138. Intimidation
+#### 138. Intimidation ['Malé'!C140]
 ***Latin :*** Paveo (Craindre), ***Arcanique :*** Morpaveo (Mor + paveo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1244,7 +1244,7 @@ Génère un enchantement qui induit une peur magique, lorsque l'enchantement est
 
 ---
 
-#### 139. Effroi
+#### 139. Effroi ['Malé'!C141]
 ***Latin :*** Pavor (Terreur), ***Arcanique :*** Mugpavor (Mug + pavor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1253,7 +1253,7 @@ Génère un enchantement qui induit une Terreur magique, la cible a une chance e
 
 ---
 
-#### 140. Léthargie
+#### 140. Léthargie ['Malé'!C142]
 ***Latin :*** Lethos (Oubli), ***Arcanique :*** Munletho (Mun + letho)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1262,7 +1262,7 @@ Génère un enchantement qui induit un sommeil magique, la cible est alors incap
 
 ---
 
-#### 141. Culpabilisation
+#### 141. Culpabilisation ['Malé'!C143]
 ***Latin :*** Culpa (Faute), ***Arcanique :*** Malculpa (Mal + culpa)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1271,7 +1271,7 @@ Génère un enchantement qui induit un regret magique, la cible subit une perte 
 
 ---
 
-#### 142. Domination
+#### 142. Domination ['Malé'!C144]
 ***Latin :*** Dominus (Maître), ***Arcanique :*** Mordomin (Mor + domin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1280,7 +1280,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 143. Rebellion
+#### 143. Rebellion ['Malé'!C145]
 ***Latin :*** Bello (Guerre), ***Arcanique :*** Mugbello (Mug + bello)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -1289,7 +1289,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 144. Révolution
+#### 144. Révolution ['Malé'!C146]
 ***Latin :*** Volvo (Rouler), ***Arcanique :*** Munvolvo (Mun + volvo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
@@ -1298,7 +1298,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 145. Rageance
+#### 145. Rageance ['Malé'!C147]
 ***Latin :*** Ira (Colère), ***Arcanique :*** Malira (Mal + ira)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -1307,7 +1307,7 @@ Génère un enchantement qui induit une rage magique, sachant que cet enchanteme
 
 ---
 
-#### 146. Stagnation
+#### 146. Stagnation ['Malé'!C148]
 ***Latin :*** Stagno (Stagner), ***Arcanique :*** Morstagn (Mor + stagn)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -1316,7 +1316,7 @@ Génère un enchantement négatif qui empêche la cible d'agir ou d'être affect
 
 ---
 
-#### 147. Mortification
+#### 147. Mortification ['Malé'!C149]
 ***Latin :*** Mors (Mort), ***Arcanique :*** Mugmors (Mug + mors)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1325,7 +1325,7 @@ Génère un enchantement négatif qui réduit jusqu'à <span style="color:#ff149
 
 ---
 
-#### 148. Exténuation
+#### 148. Exténuation ['Malé'!C150]
 ***Latin :*** Fatisco (S'épuiser), ***Arcanique :*** Munfatis (Mun + fatis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1334,7 +1334,7 @@ Génère un enchantement négatif qui double la fatigue reçues par la cible ave
 
 ---
 
-#### 149. Ralenti­ss­ement
+#### 149. Ralenti­ss­ement ['Malé'!C151]
 ***Latin :*** Lentus (Lent), ***Arcanique :*** Maltardi (Mal + tardi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1343,7 +1343,7 @@ Génère un enchantement négatif qui réduit la vitesse de la cible de <span st
 
 ---
 
-#### 150. Inertisation
+#### 150. Inertisation ['Malé'!C152]
 ***Latin :*** Iners (Inerte), ***Arcanique :*** Moriners (Mor + iners)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1352,7 +1352,7 @@ Génère un enchantement négatif qui réduit la rapidité de la cible de <span 
 
 ---
 
-#### 151. Entravement
+#### 151. Entravement ['Malé'!C153]
 ***Latin :*** Vinculum (Lien), ***Arcanique :*** Mugvin (Mug + vin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1361,7 +1361,7 @@ Génère un enchantement négatif qui réduit l'allure de la cible de <span styl
 
 ---
 
-#### 152. Retardement
+#### 152. Retardement ['Malé'!C154]
 ***Latin :*** Tardus (Lent), ***Arcanique :*** Muntardo (Mun + tardo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1370,7 +1370,7 @@ Génère un enchantement négatif qui réduit l'initiative de la cible de <span 
 
 ---
 
-#### 153. Subversion
+#### 153. Subversion ['Malé'!C155]
 ***Latin :*** Verto (Tourner), ***Arcanique :*** Malvert (Mal + vert)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1379,7 +1379,7 @@ Génère un enchantement négatif qui force la cible à utiliser sa sauvegarde d
 
 ---
 
-#### 154. Minimisation
+#### 154. Minimisation ['Malé'!C156]
 ***Latin :*** Minimus (Le plus petit), ***Arcanique :*** Morminima (Mor + minima)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1388,7 +1388,7 @@ Génère un enchantement négatif qui réduit la stature ou la taille de <span s
 
 ---
 
-#### 155. Démajestuatisation
+#### 155. Démajestuatisation ['Malé'!C157]
 ***Latin :*** Maiestas (Majesté), ***Arcanique :*** Mugmajest (Mug + majest)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1397,7 +1397,7 @@ Génère un enchantement négatif qui réduit l'ego ou l'apparence de <span styl
 
 ---
 
-#### 156. Assèchement
+#### 156. Assèchement ['Malé'!C158]
 ***Latin :*** Aridus (Sec), ***Arcanique :*** Munaris (Mun + aris)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1406,7 +1406,7 @@ Génère un enchantement négatif qui réduit les regains (via soins ou actions,
 
 ---
 
-#### 157. Épuisement
+#### 157. Épuisement ['Malé'!C159]
 ***Latin :*** Consumo (Consumer), ***Arcanique :*** Malconsu (Mal + consu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1415,7 +1415,7 @@ Génère un enchantement négatif qui réduit la récupération de la cible de <
 
 ---
 
-#### 158. Tarissement
+#### 158. Tarissement ['Malé'!C160]
 ***Latin :*** Siccus (Sec), ***Arcanique :*** Morsicus (Mor + sicus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1424,7 +1424,7 @@ Génère un enchantement négatif qui réduit les gains de ressources temporaire
 
 ---
 
-#### 159. Répercussion
+#### 159. Répercussion ['Malé'!C161]
 ***Latin :*** Reddo (Rendre), ***Arcanique :*** Munreddo (Mun + reddo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1433,7 +1433,7 @@ Génère un enchantement qui provoque une perte de PS équivalant à 1/3 de la p
 
 ---
 
-#### 160. Saignement
+#### 160. Saignement ['Malé'!C162]
 ***Latin :*** Sanguis (Sang), ***Arcanique :*** Mugsangui (Mug + sangui)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1442,7 +1442,7 @@ Génère un enchantement qui provoque une perte de PV équivalant à 1/3 de la p
 
 ---
 
-#### 161. Coagluation
+#### 161. Coagluation ['Malé'!C163]
 ***Latin :*** Cogo (Assembler), ***Arcanique :*** Malcogo (Mal + cogo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1451,7 +1451,7 @@ Génère un enchantement négatif qui provoque à la fin du tour une perte de PV
 
 ---
 
-#### 162. Déperdition
+#### 162. Déperdition ['Malé'!C164]
 ***Latin :*** Languor (Langueur), ***Arcanique :*** Morlangor (Mor + langor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1460,7 +1460,7 @@ Génère un enchantement négatif qui provoque à la fin du tour une perte de PS
 
 ---
 
-#### 163. Désorientation
+#### 163. Désorientation ['Malé'!C165]
 ***Latin :*** Oriens (Est, Levant), ***Arcanique :*** Mugorien (Mug + orien)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1469,7 +1469,7 @@ Génère un enchantement négatif qui plonge la cible dans un labyrinth mental, 
 
 ---
 
-#### 164. Perdition
+#### 164. Perdition ['Malé'!C166]
 ***Latin :*** Perdo (Perdre), ***Arcanique :*** Munperdo (Mun + perdo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1478,7 +1478,7 @@ Génère un enchantement négatif qui plonge la cible dans un labyrinth mental, 
 
 ---
 
-#### 165. Symbiose
+#### 165. Symbiose ['Malé'!C167]
 ***Latin :*** Symbiosis (Vivre ensemble), ***Arcanique :*** Malsym (Mal + sym)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1487,7 +1487,7 @@ Génère un enchantement qui provoque une perte de ressource équivalant à 1/3 
 
 ---
 
-#### 166. Obligation
+#### 166. Obligation ['Malé'!C168]
 ***Latin :*** Liga (Lier), ***Arcanique :*** Morliga (Mor + liga)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1496,7 +1496,7 @@ Génère un enchantement négatif qui inflige un désavantage à toutes les acti
 
 ---
 
-#### 167. Soumission
+#### 167. Soumission ['Malé'!C169]
 ***Latin :*** Mitto (Envoyer), ***Arcanique :*** Mugmitto (Mug + mitto)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1505,7 +1505,7 @@ Génère un enchantement négatif qui empêche la cible de contrevenir à l'ordr
 
 ---
 
-#### 168. Neutralisation
+#### 168. Neutralisation ['Malé'!C170]
 ***Latin :*** Medius (Milieu), ***Arcanique :*** Munmedi (Mun + medi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1514,7 +1514,7 @@ Génère un enchantement négatif qui réduit l'impact positif d'une force élé
 
 ---
 
-#### 169. Lassitude
+#### 169. Lassitude ['Malé'!C171]
 ***Latin :*** Lassus (Fatigué), ***Arcanique :*** Mallassu (Mal + lassu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1523,7 +1523,7 @@ Génère un enchantement négatif qui double la fatigue pour le calcule des pén
 
 ---
 
-#### 170. Statuequo
+#### 170. Statuequo ['Malé'!C172]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1532,7 +1532,7 @@ Génère un enchantement négatif qui réduit tous les gains de ressource tempor
 
 ---
 
-#### 171. Démagnification
+#### 171. Démagnification ['Malé'!C173]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1541,7 +1541,7 @@ Génère un enchantement négatif qui réduit la puissance des sorts lancés par
 
 ---
 
-#### 172. Implaccable
+#### 172. Implaccable ['Malé'!C174]
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2

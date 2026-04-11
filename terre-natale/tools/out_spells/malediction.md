@@ -7,7 +7,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> ['Malé'!C70] (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps
 
 ---
 
@@ -16,7 +16,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** 🧠 Esprit
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> ['Malé'!C70] (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** 🧠 Esprit
 
 ---
 
@@ -25,7 +25,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Insidiosité ⧖</span> (??? / ???) : Génère un enchantement négatif qui augmente les dégats reçus de (au choix au lancement du sort) <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, s'applique un maximum de 3 / 5 / 7 fois. ***Clé :*** ☠️ Mort
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Insidiosité ⧖</span> ['Malé'!C22] (??? / ???) : Génère un enchantement négatif qui augmente les dégats reçus de (au choix au lancement du sort) <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, s'applique un maximum de 3 / 5 / 7 fois. ***Clé :*** ☠️ Mort
 
 ---
 
@@ -34,7 +34,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Contradiction ⧖</span> (Contra (Contre) / Mugcontra (Mug + contra)) : Génère un enchantement négatif qui force la cible à relancer tous les dés d'un test si le total de ces derniers est supérieur à <span style="color:#ff1493; font-weight:bold;">[18 - Magnitude/4]</span> puis il conserve le moins bon des deux, cet effet peux avoir lieu jusqu'à 3 fois. ***Clé :*** 🩸 Impie
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Contradiction ⧖</span> ['Malé'!C29] (Contra (Contre) / Mugcontra (Mug + contra)) : Génère un enchantement négatif qui force la cible à relancer tous les dés d'un test si le total de ces derniers est supérieur à <span style="color:#ff1493; font-weight:bold;">[18 - Magnitude/4]</span> puis il conserve le moins bon des deux, cet effet peux avoir lieu jusqu'à 3 fois. ***Clé :*** 🩸 Impie
 
 ---
 
@@ -43,7 +43,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Privation ✸</span> (Privo (Enlever) / Kaprivo (Ka + privo)) : Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place. ***Clé :*** 👁️ Vision
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Privation ✸</span> ['Dest'!C39] (Privo (Enlever) / Kaprivo (Ka + privo)) : Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place. ***Clé :*** 👁️ Vision
 
 ---
 
@@ -52,7 +52,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Dégénération ⧖</span> (Gigno (Engendrer) / Mugdegen (Mug + degen)) : Produit un enchantement négatif qui réduit à chaque tour <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> points de ressources (selon la clé). ***Clé :*** ☠️ Mort
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Dégénération ⧖</span> ['Malé'!C93] (Gigno (Engendrer) / Mugdegen (Mug + degen)) : Produit un enchantement négatif qui réduit à chaque tour <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> points de ressources (selon la clé). ***Clé :*** ☠️ Mort
 
 ---
 
@@ -61,7 +61,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Entravement ⧖</span> (Vinculum (Lien) / Mugvin (Mug + vin)) : Génère un enchantement négatif qui réduit l'allure de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 💢 Vide
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Entravement ⧖</span> ['Malé'!C153] (Vinculum (Lien) / Mugvin (Mug + vin)) : Génère un enchantement négatif qui réduit l'allure de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 💢 Vide
 
 ---
 
@@ -70,7 +70,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Épuisement ⧖</span> (Consumo (Consumer) / Malconsu (Mal + consu)) : Génère un enchantement négatif qui réduit la récupération de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ☢️ Toxique
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Épuisement ⧖</span> ['Malé'!C159] (Consumo (Consumer) / Malconsu (Mal + consu)) : Génère un enchantement négatif qui réduit la récupération de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ☢️ Toxique
 
 ---
 
@@ -79,7 +79,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Obligation ⧖</span> (Liga (Lier) / Morliga (Mor + liga)) : Génère un enchantement négatif qui inflige un désavantage à toutes les actions qui contreviennent à un ordre donné lors du lancement du sort, l'ordre doit spécifier un type d'action et une un type de cible (par exemple: N'attaque pas mes alliés), cependant le lanceur de sort peux réduire le scope du type de cible à un seul individus par exemple et dans ce cas l'action subit un double désavantage à la place, chaque fois que la cible est affecté par ces effets le sort se décharge. ***Clé :*** ⚖️ Loi
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Obligation ⧖</span> ['Malé'!C168] (Liga (Lier) / Morliga (Mor + liga)) : Génère un enchantement négatif qui inflige un désavantage à toutes les actions qui contreviennent à un ordre donné lors du lancement du sort, l'ordre doit spécifier un type d'action et une un type de cible (par exemple: N'attaque pas mes alliés), cependant le lanceur de sort peux réduire le scope du type de cible à un seul individus par exemple et dans ce cas l'action subit un double désavantage à la place, chaque fois que la cible est affecté par ces effets le sort se décharge. ***Clé :*** ⚖️ Loi
 
 ---
 
@@ -88,4 +88,4 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Soumission ⧖</span> (Mitto (Envoyer) / Mugmitto (Mug + mitto)) : Génère un enchantement négatif qui empêche la cible de contrevenir à l'ordre qui doit spécifier un type d'action et une un type de cible (par exemple: N'attaque pas mes alliés), cependant le lanceur de sort peux réduire le scope du type de cible à un seul individus par exemple, lorsque la cible tente quand même ce type d'action elle doit réussir un test de détermination ou elle perd son action, chaque fois que la cible est affecté par ces effets (que le test de sauvegarde soit réussit ou non) le sort se décharge, le test est désavantagé si la cible est unique. ***Clé :*** ⚖️ Loi
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Soumission ⧖</span> ['Malé'!C169] (Mitto (Envoyer) / Mugmitto (Mug + mitto)) : Génère un enchantement négatif qui empêche la cible de contrevenir à l'ordre qui doit spécifier un type d'action et une un type de cible (par exemple: N'attaque pas mes alliés), cependant le lanceur de sort peux réduire le scope du type de cible à un seul individus par exemple, lorsque la cible tente quand même ce type d'action elle doit réussir un test de détermination ou elle perd son action, chaque fois que la cible est affecté par ces effets (que le test de sauvegarde soit réussit ou non) le sort se décharge, le test est désavantagé si la cible est unique. ***Clé :*** ⚖️ Loi

@@ -2,7 +2,7 @@
 
 > 65 mots pour ce domaine
 
-#### 1. Restauration
+#### 1. Restauration ['Rest'!C3]
 ***École :*** École de Restauration
 ***Latin :*** Instauro (Je rétablis), ***Arcanique :*** Restaura (Re + staura)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -12,7 +12,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]<
 
 ---
 
-#### 2. Restitution
+#### 2. Restitution ['Béné'!C4]
 ***École :*** École de Bénédiction
 ***Latin :*** Reddo (Rendre, restituer), ***Arcanique :*** Luxreddo (Lux + reddo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -22,7 +22,7 @@ Génère un enchantement positif qui augmente la récupération d'une ressource 
 
 ---
 
-#### 3. Imprégnation
+#### 3. Imprégnation ['Béné'!C26]
 ***École :*** École de Bénédiction
 ***Latin :*** Imbueo (Imprégner), ***Arcanique :*** Lirimbu (Lir + imbu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -32,7 +32,7 @@ Génère un enchantement positif qui augmente la difficulté arcanique des sorts
 
 ---
 
-#### 4. Canalisation
+#### 4. Canalisation ['Béné'!C34]
 ***École :*** École de Bénédiction
 ***Latin :*** Canalis (Conduit), ***Arcanique :*** Lircana (Lir + cana)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -42,7 +42,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 5. Sanctuarisation
+#### 5. Sanctuarisation ['Béné'!C37]
 ***École :*** École de Bénédiction
 ***Latin :*** Sanctus (Sacré), ***Arcanique :*** Lemsanct (Lem + sanct)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -52,7 +52,7 @@ Génère un enchantement positif qui immunise le lanceur de sort aux sorts qu'il
 
 ---
 
-#### 6. Harmonisation
+#### 6. Harmonisation ['Béné'!C46]
 ***École :*** École de Bénédiction
 ***Latin :*** Harmonia (Harmonie), ***Arcanique :*** Lirharmo (Lir + harmo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -62,7 +62,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 7. Convergence
+#### 7. Convergence ['Béné'!C50]
 ***École :*** École de Bénédiction
 ***Latin :*** Convergo (Se diriger), ***Arcanique :*** Lirconver (Lir + conver)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +72,7 @@ Génère un enchantement positif qui augmente la réunion de mana de <span style
 
 ---
 
-#### 8. Spécialisation
+#### 8. Spécialisation ['Béné'!C53]
 ***École :*** École de Bénédiction
 ***Latin :*** Specialis (Particulier), ***Arcanique :*** Lemspecia (Lem + specia)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +82,7 @@ Génère un enchantement positif qui augmente un attribut (définit à la créat
 
 ---
 
-#### 9. Conservation
+#### 9. Conservation ['Béné'!C68]
 ***École :*** École de Bénédiction
 ***Latin :*** Servo (Sauver), ***Arcanique :*** Luxservo (Lux + servo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +92,7 @@ Génère un enchantement positif qui augmente une sauvegarde au choix (dont le t
 
 ---
 
-#### 10. Fortification
+#### 10. Fortification ['Béné'!C70]
 ***École :*** École de Bénédiction
 ***Latin :*** Munio (Fortifier), ***Arcanique :*** Lirmunio (Lir + munio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +102,7 @@ Génère un enchantement positif qui augmente le maximum d'une ressource au choi
 
 ---
 
-#### 11. Perfectionnement
+#### 11. Perfectionnement ['Béné'!C73]
 ***École :*** École de Bénédiction
 ***Latin :*** Perficere (Achever), ***Arcanique :*** Lempfect (Lem + pfect)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +112,7 @@ Produit un enchantement positif qui augmente une compétence (dont la nature dé
 
 ---
 
-#### 12. Récupération
+#### 12. Récupération ['Béné'!C77]
 ***École :*** École de Bénédiction
 ***Latin :*** Capio (Prendre), ***Arcanique :*** Lemcapio (Lem + capio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +122,7 @@ Produit un enchantement positif qui octroie à chaque tour <span style="color:#f
 
 ---
 
-#### 13. Consécration
+#### 13. Consécration ['Béné'!C93]
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +132,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 14. Extension
+#### 14. Extension ['Béné'!C130]
 ***École :*** École de Bénédiction
 ***Latin :*** Tendo (Tendre), ***Arcanique :*** Lirtendi (Lir + tendi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +142,7 @@ Génère un enchantement qui augmente la portée des sorts lancé par la cible d
 
 ---
 
-#### 15. Magnification
+#### 15. Magnification ['Béné'!C131]
 ***École :*** École de Bénédiction
 ***Latin :*** Magnus (Grand), ***Arcanique :*** Lynmagno (Lyn + magno)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +152,7 @@ Génère un enchantement qui augmente la puissance des sorts lancés par la cibl
 
 ---
 
-#### 16. Focalisation
+#### 16. Focalisation ['Béné'!C132]
 ***École :*** École de Bénédiction
 ***Latin :*** Focus (Foyer), ***Arcanique :*** Luxfocus (Lux + focus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +162,7 @@ Génère un enchantement qui permet à la cible de maintenir jusqu'à <span styl
 
 ---
 
-#### 17. Concentration
+#### 17. Concentration ['Béné'!C133]
 ***École :*** École de Bénédiction
 ***Latin :*** Centrum (Centre), ***Arcanique :*** Lemcentr (Lem + centr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +172,7 @@ Génère un enchantement qui permet à la cible de recevoir un bonus de <span st
 
 ---
 
-#### 18. Arcanisation
+#### 18. Arcanisation ['Béné'!C134]
 ***École :*** École de Bénédiction
 ***Latin :*** Arcanum (Secret), ***Arcanique :*** Lirarcana (Lir + arcana)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +182,7 @@ Génère un enchantement positif qui octroie aux compétences associées au grou
 
 ---
 
-#### 19. Résonance
+#### 19. Résonance ['Béné'!C135]
 ***École :*** École de Bénédiction
 ***Latin :*** Sono (Ressonnance), ***Arcanique :*** Loksona (Lok + sona)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -192,7 +192,7 @@ Génère un enchantement positif qui génère des PM temporaires lorsqu'une cré
 
 ---
 
-#### 20. Imprégnation
+#### 20. Imprégnation ['Malé'!C27]
 ***École :*** École de Malédiction
 ***Latin :*** Imbueo (Imprégner), ***Arcanique :*** Malimbu (Mal + imbu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -202,7 +202,7 @@ Génère un enchantement négatif qui réduit la difficulté arcanique des sorts
 
 ---
 
-#### 21. Entravation
+#### 21. Entravation ['Malé'!C48]
 ***École :*** École de Malédiction
 ***Latin :*** Impedio (Empêcher), ***Arcanique :*** Morimped (Mor + imped)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -212,7 +212,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 22. Souillure
+#### 22. Souillure ['Malé'!C50]
 ***École :*** École de Malédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -222,7 +222,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 23. Contamination
+#### 23. Contamination ['Malé'!C51]
 ***École :*** École de Malédiction
 ***Latin :*** Tamino (Souiller), ***Arcanique :*** Maltamin (Mal + tamin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -232,7 +232,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 24. Déqualification
+#### 24. Déqualification ['Malé'!C72]
 ***École :*** École de Malédiction
 ***Latin :*** Qualis (Qualité), ***Arcanique :*** Morquali (Mor + quali)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +242,7 @@ Produit un enchantement négatif qui réduit une compétence (dont la nature dé
 
 ---
 
-#### 25. Déprécation
+#### 25. Déprécation ['Malé'!C90]
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +252,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 26. Apathie
+#### 26. Apathie ['Malé'!C130]
 ***École :*** École de Malédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +262,7 @@ Génère un enchantement négatif qui double le drain des sorts lancés par la c
 
 ---
 
-#### 27. Statuequo
+#### 27. Statuequo ['Malé'!C172]
 ***École :*** École de Malédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +272,7 @@ Génère un enchantement négatif qui réduit tous les gains de ressource tempor
 
 ---
 
-#### 28. Démagnification
+#### 28. Démagnification ['Malé'!C173]
 ***École :*** École de Malédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -282,7 +282,7 @@ Génère un enchantement négatif qui réduit la puissance des sorts lancés par
 
 ---
 
-#### 29. ???
+#### 29. ??? ['Invoc'!C16]
 ***École :*** École d'Invocation
 ***Latin :*** Vinculum (Lien, chaîne), ***Arcanique :*** Vanvincul (Van + vincul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -292,7 +292,7 @@ Génère un enchantement qui permet à l'invocation d'utiliser ses charges comme
 
 ---
 
-#### 30. Ressource (lien)
+#### 30. Ressource (lien) ['Invoc'!C17]
 ***École :*** École d'Invocation
 ***Latin :*** Opus (Œuvre, besoin), ***Arcanique :*** Voropus (Vor + opus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (invocation)
@@ -302,7 +302,7 @@ Génère un enchantement qui permet à l'invocation et à son invocateur de part
 
 ---
 
-#### 31. Infusion
+#### 31. Infusion ['Invoc'!C21]
 ***École :*** École d'Invocation
 ***Latin :*** Fundo (Verser), ***Arcanique :*** Vorfundo (Vor + fundo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (invocation)
@@ -312,7 +312,7 @@ Génère un effet qui consomme une surface/zone élémentaire associé à l'invo
 
 ---
 
-#### 32. Imprégnation
+#### 32. Imprégnation ['Invoc'!C22]
 ***École :*** École d'Invocation
 ***Latin :*** Pingo (Peindre, teindre), ***Arcanique :*** Vaspingo (Vas + pingo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (invocation)
@@ -322,7 +322,7 @@ Génère un enchantement qui augmente la difficulté arcanique associée à l'in
 
 ---
 
-#### 33. Fulgurant
+#### 33. Fulgurant ['Invoc'!C24]
 ***École :*** École d'Invocation
 ***Latin :*** Fulmen (Foudre), ***Arcanique :*** Vanfulmen (Van + fulmen)
 ***Type de mot :*** Liaison, ***Type de cible :*** /
@@ -332,7 +332,7 @@ L'invocation reçoit un avantage à tous ses tests et ses jets sont assurés (mi
 
 ---
 
-#### 34. Majeur
+#### 34. Majeur ['Invoc'!C26]
 ***École :*** École d'Invocation
 ***Latin :*** Maior (Plus grand), ***Arcanique :*** Vasmajor (Vas + major)
 ***Type de mot :*** Liaison, ***Type de cible :*** /
@@ -342,7 +342,7 @@ L'invocation voit tous ses attributs augmentés de 2, le sort doit être de nive
 
 ---
 
-#### 35. Epique
+#### 35. Epique ['Invoc'!C27]
 ***École :*** École d'Invocation
 ***Latin :*** Gloria (Gloire), ***Arcanique :*** Vogloria (Vo + gloria)
 ***Type de mot :*** Liaison, ***Type de cible :*** /
@@ -352,7 +352,7 @@ L'invocation voit tous ses attributs augmentés de 4, le sort doit être de nive
 
 ---
 
-#### 36. Ultime
+#### 36. Ultime ['Invoc'!C28]
 ***École :*** École d'Invocation
 ***Latin :*** Ultimus (Dernier), ***Arcanique :*** Vanultim (Van + ultim)
 ***Type de mot :*** Liaison, ***Type de cible :*** /
@@ -362,7 +362,7 @@ L'invocation voit tous ses attributs augmentés de 6, le sort doit être de nive
 
 ---
 
-#### 37. Imprégnation
+#### 37. Imprégnation ['Abju'!C3]
 ***École :*** École d'Abjuration
 ***Latin :*** Imbueo (Imprégner), ***Arcanique :*** Borimbue (Bor + imbue)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -372,7 +372,7 @@ Génère un effet qui augmente la difficulté arcanique d'un autre sort en cours
 
 ---
 
-#### 38. Déviation
+#### 38. Déviation ['Abju'!C4]
 ***École :*** École d'Abjuration
 ***Latin :*** Deverto (Détourner), ***Arcanique :*** Brivert (Bri + vert)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -382,7 +382,7 @@ Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[M
 
 ---
 
-#### 39. Confiscation
+#### 39. Confiscation ['Abju'!C10]
 ***École :*** École d'Abjuration
 ***Latin :*** Confisco (Confisquer), ***Arcanique :*** Brinfisc (Bri + fisc)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -392,7 +392,7 @@ Génère un effet qui octroie le contrôle de l'enchantement ciblé si ce dernie
 
 ---
 
-#### 40. Délocalisation
+#### 40. Délocalisation ['Abju'!C11]
 ***École :*** École d'Abjuration
 ***Latin :*** Locus (Lieu), ***Arcanique :*** Barlocus (Bar + locus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -402,7 +402,7 @@ Génère un effet qui permet de déplacer l'enchantement de cible (qui doit rest
 
 ---
 
-#### 41. Obstruction
+#### 41. Obstruction ['Abju'!C29]
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -412,7 +412,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 42. Protestation
+#### 42. Protestation ['Abju'!C30]
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -422,7 +422,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 43. Neutralisation
+#### 43. Neutralisation ['Abju'!C31]
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -432,7 +432,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 44. Interrogation
+#### 44. Interrogation ['Divi'!C11]
 ***École :*** École de Divination
 ***Latin :*** Rogo (Questionner), ***Arcanique :*** Diroga (Di + roga)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -442,7 +442,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 45. Détection
+#### 45. Détection ['Divi'!C18]
 ***École :*** École de Divination
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Dartego (Dar + tego)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -452,7 +452,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 46. Signalement
+#### 46. Signalement ['Divi'!C19]
 ***École :*** École de Divination
 ***Latin :*** Signum (Signe), ***Arcanique :*** Disigno (Di + signo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -462,7 +462,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 47. Arcanovision
+#### 47. Arcanovision ['Divi'!C33]
 ***École :*** École de Divination
 ***Latin :*** Arcanum (Secret), ***Arcanique :*** Delarcan (Del + arcan)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -472,7 +472,7 @@ Génère un effet de perception de la magie (voir règle sur les "senseurs"), r�
 
 ---
 
-#### 48. Galvanisation
+#### 48. Galvanisation ['Evoc'!C3]
 ***École :*** École d'Évocation
 ***Latin :*** Vibro (Agiter, secouer), ***Arcanique :*** Evvibro (Ev + vibro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -482,7 +482,7 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 49. Réinjection
+#### 49. Réinjection ['Evoc'!C32]
 ***École :*** École d'Évocation
 ***Latin :*** Iacio (Jeter), ***Arcanique :*** Eruiacio (Eru + iacio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu/Cible
@@ -492,7 +492,7 @@ Génère un effet qui recharge de <span style="color:#ff1493; font-weight:bold;"
 
 ---
 
-#### 50. Rechargement
+#### 50. Rechargement ['Evoc'!C33]
 ***École :*** École d'Évocation
 ***Latin :*** Carga (Charge), ***Arcanique :*** Evcar (Ev + car)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -502,7 +502,7 @@ Génère un effet qui recharge de <span style="color:#ff1493; font-weight:bold;"
 
 ---
 
-#### 51. Manifestation
+#### 51. Manifestation ['Evoc'!C34]
 ***École :*** École d'Évocation
 ***Latin :*** Manes (Esprits, apparences), ***Arcanique :*** Enmani (En + mani)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Soi
@@ -512,7 +512,7 @@ Génère un effet qui permet au lanceur de sort une action caractérisée par un
 
 ---
 
-#### 52. Amplication
+#### 52. Amplication ['Evoc'!C40]
 ***École :*** École d'Évocation
 ***Latin :*** Amplus (Vaste), ***Arcanique :*** Evamplus (Ev + amplus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (enchantement)
@@ -522,7 +522,7 @@ Génère un enchantement qui cible un enchantement existant afin d’en augmente
 
 ---
 
-#### 53. Diminution
+#### 53. Diminution ['Evoc'!C41]
 ***École :*** École d'Évocation
 ***Latin :*** Minus (Moins), ***Arcanique :*** Enminus (En + minus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (enchantement)
@@ -532,7 +532,7 @@ Génère un enchantement qui cible un enchantement existant afin d’en réduire
 
 ---
 
-#### 54. Marque
+#### 54. Marque ['Evoc'!C78]
 ***École :*** École d'Évocation
 ***Latin :*** Nota (Marque), ***Arcanique :*** Elonota (Elo + nota)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -542,7 +542,7 @@ Génère un effet qui inscrit dans la mémoire du lanceur de sort un lieu, un ob
 
 ---
 
-#### 55. Amplification
+#### 55. Amplification ['Evoc'!C80]
 ***École :*** École d'Évocation
 ***Latin :*** Augeo (Augmenter), ***Arcanique :*** Evauge (Ev + auge)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -552,7 +552,7 @@ Génère un effet qui augmente la puissance du sort lancé par la cible de <span
 
 ---
 
-#### 56. Catharsis
+#### 56. Catharsis ['Evoc'!C82]
 ***École :*** École d'Évocation
 ***Latin :*** Canalis (Conduit), ***Arcanique :*** Lircana (Elo + cana)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -562,7 +562,7 @@ Génère un effet qui permet à la cible de réaliser sur-le-champs un total de 
 
 ---
 
-#### 57. Surpuissance
+#### 57. Surpuissance ['Evoc'!C84]
 ***École :*** École d'Évocation
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -572,7 +572,7 @@ Génère un effet qui augmente drastiquement la puissance du prochain sort lanc�
 
 ---
 
-#### 58. ???
+#### 58. ??? ['Evoc'!C85]
 ***École :*** École d'Évocation
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -582,7 +582,7 @@ Génère un effet qui inscrit dans la mémoire de la cible un sort connu du lanc
 
 ---
 
-#### 59. Armement élémentaire
+#### 59. Armement élémentaire ['Conj'!C26]
 ***École :*** École de Conjuration
 ***Latin :*** Arma (Arme), ***Arcanique :*** Cararma (Car + arma)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -592,7 +592,7 @@ Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les
 
 ---
 
-#### 60. Armure élémentaire
+#### 60. Armure élémentaire ['Conj'!C27]
 ***École :*** École de Conjuration
 ***Latin :*** Loric (Cuirasse), ***Arcanique :*** Conloric (Con + loric)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -602,7 +602,7 @@ Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont l
 
 ---
 
-#### 61. Imprégnation
+#### 61. Imprégnation ['Conj'!C29]
 ***École :*** École de Conjuration
 ***Latin :*** Pingo (Peindre), ***Arcanique :*** Colpingo (Col + pingo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -612,7 +612,7 @@ Génère un enchantement qui enchante un autre enchantement pour en augmenter la
 
 ---
 
-#### 62. Démarquation
+#### 62. Démarquation ['Conj'!C31]
 ***École :*** École de Conjuration
 ***Latin :*** Notus (Marque), ***Arcanique :*** Connota (Con + nota)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -622,7 +622,7 @@ Génère un enchantement qui permet, tant que cet enchantement perdure, au lance
 
 ---
 
-#### 63. Harmonisation
+#### 63. Harmonisation ['Conj'!C53]
 ***École :*** École de Conjuration
 ***Latin :*** Harmonia (Harmonie), ***Arcanique :*** Colharmo (Col + harmo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -632,7 +632,7 @@ Génère un enchantement de lieu qui réduit la difficulté de sorts lancés dan
 
 ---
 
-#### 64. Allégement
+#### 64. Allégement ['Conj'!C54]
 ***École :*** École de Conjuration
 ***Latin :*** Leves (Léger), ***Arcanique :*** Carleves (Car + leves)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -642,7 +642,7 @@ Génère un enchantement de lieu qui réduit le drain des sorts lancés dans la 
 
 ---
 
-#### 65. Ponction
+#### 65. Ponction ['Alté'!C15]
 ***École :*** École d'Altération
 ***Latin :*** Pungo (Piquer), ***Arcanique :*** Alpung (Al + pung)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible

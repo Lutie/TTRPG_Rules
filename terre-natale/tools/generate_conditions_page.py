@@ -1,12 +1,15 @@
 """
-Parse src/Conditions - Conditions.csv and generate docs/conditions/index.md
-— a self-contained filterable HTML+JS conditions compendium.
+Parse src/Conditions - Conditions.csv and generate:
+  - app-sheet/src/data/conditions.json  (données brutes pour la sheet React)
+  - docs/conditions/index.md            (compendium HTML+JS filtrable)
 """
 import csv, json, re, os
 
-csv_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/src/Conditions - Conditions.csv"
-out_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/docs/conditions/index.md"
+csv_path  = "/home/lutie/Projects/TTRPG_Rules/terre-natale/src/Conditions - Conditions.csv"
+out_path  = "/home/lutie/Projects/TTRPG_Rules/terre-natale/docs/conditions/index.md"
+json_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/app-sheet/src/data/conditions.json"
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
+os.makedirs(os.path.dirname(json_path), exist_ok=True)
 
 # ---------------------------------------------------------------------------
 # Category labels
@@ -94,6 +97,13 @@ all_cats = list(dict.fromkeys(
 
 print(f"Parsed {len(conditions)} conditions ({sum(1 for c in conditions if c['polarite']=='positive')} pos, {sum(1 for c in conditions if c['polarite']=='negative')} neg)")
 print(f"Categories: {len(all_cats)}, Domains: {len(all_domains)}")
+
+# ---------------------------------------------------------------------------
+# Write JSON for app-sheet
+# ---------------------------------------------------------------------------
+with open(json_path, "w", encoding="utf-8") as f:
+    json.dump(conditions, f, ensure_ascii=False, indent=2)
+print(f"Generated: {json_path}")
 
 # ---------------------------------------------------------------------------
 # Generate page

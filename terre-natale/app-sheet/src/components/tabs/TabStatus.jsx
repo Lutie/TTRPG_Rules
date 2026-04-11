@@ -1099,20 +1099,34 @@ function TabStatus() {
             const condData = DATA.conditions.find(c => c.id === cond.id);
             if (!condData) return null;
 
-            const typeClass = condData.type === 'physique' ? 'type-physique' : 'type-mentale';
-            const typeLabel = condData.type === 'physique' ? 'Phys' : 'Ment';
+            const typeClass = condData.type === 'physique' ? 'type-physique'
+                            : condData.type === 'mentale'  ? 'type-mentale'
+                            : 'type-autre';
+            const polClass  = condData.polarite === 'positive' ? 'cond-positive' : 'cond-negative';
+            const em_a = condData.domaine_a?.split(' ')[0] || '';
+            const em_b = condData.domaine_b?.split(' ')[0] || '';
 
             return (
-              <div key={index} className={`status-ressource-box status-condition ${typeClass} ${cond.avancee ? 'condition-avancee' : ''}`}>
-                <div className="status-ressource-icone">{condData.icone}</div>
+              <div key={index} className={`status-ressource-box status-condition ${typeClass} ${polClass} ${cond.avancee ? 'condition-avancee' : ''}`}>
+                <div className="status-ressource-icone status-condition-icones">
+                  <span>{em_a}</span>
+                  {em_b && em_b !== em_a && <span>{em_b}</span>}
+                </div>
                 <div className="status-ressource-content">
                   <div className="status-ressource-header">
                     <span className="status-ressource-nom">
                       {condData.nom}
                       {cond.avancee && <span className="condition-avancee-tag"> Avancée</span>}
                     </span>
-                    <span className={`status-condition-type ${typeClass}`}>{typeLabel}</span>
+                    <span className={`status-condition-type ${typeClass}`}>{condData.cat_key}</span>
                   </div>
+                  {(condData.domaine_a || condData.domaine_b) && (
+                    <div className="status-condition-domaines">
+                      {condData.domaine_a && <span className="cond-domaine">{condData.domaine_a}</span>}
+                      {condData.domaine_b && <span className="cond-domaine">{condData.domaine_b}</span>}
+                      {condData.sauvegarde && <span className="cond-save">Svg : {condData.sauvegarde}</span>}
+                    </div>
+                  )}
                   <div className="status-condition-effets">{condData.effets}</div>
                   <div className="status-ressource-controls">
                     <span className="status-control-label">Charges</span>
@@ -1346,46 +1360,124 @@ function LesionAddCard({ protPhys, protMent, onAdd }) {
   );
 }
 
-function ConditionAddCard({ onAdd }) {
-  const [selectedId, setSelectedId] = useState('');
-  const [charges, setCharges] = useState(10);
+const CATEGORIES_CONDITIONS = [...new Set(DATA.conditions.map(c => c.categorie))];
 
-  const handleAdd = () => {
-    if (selectedId) {
-      onAdd(selectedId, charges);
-      setSelectedId('');
-      setCharges(10);
-    }
-  };
+function ConditionAddCard({ onAdd }) {
+  const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="status-ressource-box status-condition-add">
-      <div className="status-condition-add-content">
-        <select
-          className="select-condition"
-          value={selectedId}
-          onChange={(e) => setSelectedId(e.target.value)}
-        >
-          <option value="">-- Condition --</option>
-          {DATA.conditions.map(c => {
-            const typeLabel = c.type === 'physique' ? '🏃' : '🧠';
+    <>
+      <div
+        className="status-ressource-box status-condition-add"
+        onClick={() => setShowModal(true)}
+        title="Ajouter une condition"
+      >
+        <span className="cond-add-label">+ Condition</span>
+      </div>
+      {showModal && createPortal(
+        <ConditionModal
+          onAdd={(id, charges) => { onAdd(id, charges); setShowModal(false); }}
+          onClose={() => setShowModal(false)}
+        />,
+        document.body
+      )}
+    </>
+  );
+}
+
+function ConditionModal({ onAdd, onClose }) {
+  const [search, setSearch]         = useState('');
+  const [filterCat, setFilterCat]   = useState('');
+  const [selected, setSelected]     = useState(null);
+  const [charges, setCharges]       = useState(10);
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase().trim();
+    return DATA.conditions.filter(c => {
+      if (filterCat && c.categorie !== filterCat) return false;
+      if (!q) return true;
+      return c.nom.toLowerCase().includes(q) || c.effets?.toLowerCase().includes(q);
+    });
+  }, [search, filterCat]);
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content cond-modal-content" onClick={e => e.stopPropagation()}>
+
+        <div className="modal-header">
+          <h2 className="modal-title">Ajouter une condition</h2>
+          <button className="modal-close" onClick={onClose}>✕</button>
+        </div>
+
+        <div className="cond-modal-search">
+          <input
+            className="cond-modal-input"
+            type="text"
+            autoFocus
+            placeholder="Rechercher par nom ou effet…"
+            value={search}
+            onChange={e => { setSearch(e.target.value); setSelected(null); }}
+          />
+          <select
+            className="cond-modal-filter"
+            value={filterCat}
+            onChange={e => { setFilterCat(e.target.value); setSelected(null); }}
+          >
+            <option value="">— Toutes les catégories —</option>
+            {CATEGORIES_CONDITIONS.map(cat => (
+              <option key={cat} value={cat}>{cat}</option>
+            ))}
+          </select>
+          <span className="cond-modal-count">{filtered.length} condition{filtered.length !== 1 ? 's' : ''}</span>
+        </div>
+
+        <div className="cond-modal-list">
+          {filtered.map(c => {
+            const em_a = c.domaine_a?.split(' ')[0] || '';
+            const em_b = c.domaine_b?.split(' ')[0] || '';
+            const isSelected = selected?.id === c.id;
+            const polClass = c.polarite === 'positive' ? 'cond-positive' : 'cond-negative';
             return (
-              <option key={c.id} value={c.id}>
-                {typeLabel} {c.nom}
-              </option>
+              <div
+                key={c.id}
+                className={`cond-modal-item ${polClass} ${isSelected ? 'cond-modal-selected' : ''}`}
+                onClick={() => setSelected(isSelected ? null : c)}
+              >
+                <span className="cond-modal-emojis">{em_a}{em_b && em_b !== em_a ? em_b : ''}</span>
+                <div className="cond-modal-info">
+                  <div className="cond-modal-row">
+                    <span className="cond-modal-nom">{c.nom}</span>
+                    <span className="cond-modal-catkey">{c.cat_key}</span>
+                    {c.sauvegarde && <span className="cond-modal-save">{c.sauvegarde}</span>}
+                  </div>
+                  {isSelected && (
+                    <p className="cond-modal-effet">{c.effets}</p>
+                  )}
+                </div>
+              </div>
             );
           })}
-        </select>
-        <input
-          type="number"
-          className="input-condition-charges"
-          min="1"
-          placeholder="Charges"
-          title="Charges initiales"
-          value={charges}
-          onChange={(e) => setCharges(parseInt(e.target.value) || 10)}
-        />
-        <button className="btn-condition-add" onClick={handleAdd} title="Ajouter">+</button>
+        </div>
+
+        {selected && (
+          <div className="cond-modal-footer">
+            <span className="cond-modal-footer-nom">{selected.nom}</span>
+            <label className="cond-modal-charges-label">
+              Charges :
+              <input
+                type="number"
+                className="cond-modal-charges-input"
+                min="1"
+                value={charges}
+                onChange={e => setCharges(Math.max(1, parseInt(e.target.value) || 1))}
+              />
+            </label>
+            <button className="btn-cond-modal-add" onClick={() => onAdd(selected.id, charges)}>
+              + Ajouter
+            </button>
+          </div>
+        )}
+
       </div>
     </div>
   );
