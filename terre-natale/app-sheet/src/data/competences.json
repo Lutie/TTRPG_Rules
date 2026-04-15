@@ -982,7 +982,7 @@
     "libre": false,
     "limitant": false,
     "description": "La capacité à repérer les détails visibles : mouvement, forme, couleur, lumière, silhouette. Elle traduit la précision du regard et la rapidité d’identification.",
-    "note": null
+    "note": "S’emploie pour une recherche ciblée — lorsqu’on sait ce qu’on cherche et qu’il s’agit de le localiser."
   },
   {
     "id": "detection-auditive",
@@ -998,7 +998,7 @@
     "libre": false,
     "limitant": false,
     "description": "L’aptitude à discerner, isoler et reconnaître les sons : bruits, voix, vibrations, silences inhabituels. L’ouïe devient ici un outil de veille et d’alerte.",
-    "note": null
+    "note": "S’emploie pour une recherche ciblée — lorsqu’on sait ce qu’on cherche et qu’il s’agit de le localiser."
   },
   {
     "id": "detection-odogout",
@@ -1013,8 +1013,8 @@
     "attrVariable": false,
     "libre": false,
     "limitant": false,
-    "description": "La perception par les sens dits “proches” : odorat, goût, toucher. Elle permet d’identifier une substance, un matériau, une texture ou une atmosphère.",
-    "note": null
+    “description”: “La perception par les sens dits “proches” : odorat, goût, toucher. Elle permet d’identifier une substance, un matériau, une texture ou une atmosphère.”,
+    “note”: “S’emploie pour une recherche ciblée — lorsqu’on sait ce qu’on cherche et qu’il s’agit de le localiser.”
   },
   {
     "id": "6e-sens",
@@ -1902,8 +1902,8 @@
     "attrVariable": false,
     "libre": false,
     "limitant": false,
-    "description": "Rechercher et examiner des éléments matériels dans un lieu, afin d’en tirer des indices pertinents. L’investigation suppose méthode, logique et compréhension du contexte.",
-    "note": "Peut se lier à la CHN lorsqu’on compte davantage sur la chance ou l’intuition fortuite pour découvrir un élément sans vraiment savoir ce qu’on cherche."
+    "description": "Fouiller un lieu, un objet ou une scène pour y trouver quoi que ce soit d’utile ou de révélateur. L’investigation s’emploie quand on ne sait pas ce qu’on cherche : on explore, on scrute, dans l’espoir de dénicher une piste ou un détail significatif.",
+    "note": "Peut se lier à la CHN lorsqu’on compte davantage sur la chance ou l’intuition fortuite que sur la méthode."
   },
   {
     "id": "deduction",

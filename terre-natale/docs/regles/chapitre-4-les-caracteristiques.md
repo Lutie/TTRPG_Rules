@@ -28,7 +28,7 @@ Les ressources fondamentales sont certes moins cruciales que les primordiales ma
 
 #### L’Endurance
 
-L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés. À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » (ou « épuisé », ce mot clé subsiste mais est un reliquat d’anciennes règles) : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT). L'endurance peut être négative. Si l’endurance atteint sa propre valeur dans le négatif, le personnage est KO. L'endurance dépend de l’équilibre. L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
+L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés. À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » (ou « choqué », ce mot clé subsiste mais est un reliquat d’anciennes règles) : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT). L'endurance peut être négative. Si l’endurance atteint sa propre valeur dans le négatif, le personnage est KO. L'endurance dépend de l’équilibre. L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
 
 - Endurance = Équilibre x 2.
 
@@ -39,7 +39,7 @@ L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'
 
     L’endurance permet d’encaisser les dégâts temporaires à hauteur maximale équivalant à l’absorption du personnage (au moins sur la zone touchée). S’il reste de l’absorption après la conversion des dégâts en dégâts temporaires alors l’excédent réduit ces derniers.
 
-    Dépenser de l’endurance pour encaisser les dégâts n’est possible que si le personnage n’est pas épuisé et qu’il peut deviner d’où l’attaque vient (il n’est pas pris au dépourvu etc). Par exemple : Un piège qui a été repéré peux être encaissé de la sorte mais ce n’est donc pas le cas s’il n’a pas été repéré au préalable. Une attaque de dos menée par un adversaire dont la position est connue peut être encaissée mais ce n’est donc pas le cas si la présence ou la position de l’attaquant n'est pas connue.
+    Dépenser de l’endurance pour encaisser les dégâts n’est possible que si le personnage n’est pas choqué et qu’il peut deviner d’où l’attaque vient (il n’est pas pris au dépourvu etc). Par exemple : Un piège qui a été repéré peux être encaissé de la sorte mais ce n’est donc pas le cas s’il n’a pas été repéré au préalable. Une attaque de dos menée par un adversaire dont la position est connue peut être encaissée mais ce n’est donc pas le cas si la présence ou la position de l’attaquant n'est pas connue.
 
 #### Le Karma
 
@@ -206,12 +206,12 @@ La portée des mots représente la distance pour toucher via une tirade (ou tout
 
 - Portée des mots (1m/c) = 5.
 
-| Portée | Plage | Désavantages |
+| Portée | Plage | Désavantages au test |
 | --- | --- | --- |
-| Courte | x0 ~x1 | X1 |
-| Idéale | x1 ~ x3 | / |
-| Longue | x3 ~ x5 | X1 |
-| Extrême | x5 ~ x10 | X2 |
+| Courte | x0 ~ x1 | 1 désavantage |
+| Idéale | x1 ~ x3 | — |
+| Longue | x3 ~ x5 | 1 désavantage |
+| Extrême | x5 ~ x10 | 2 désavantages |
 
 Exemple : Un arc court (catégorie 3, taille 1) a une distance de tir de l’arme de 2 (3 - 1), portée de tir 8. La portée de tir courte est 0 à 8m, la portée de tir idéale est de 8 à 24m, la portée de tir longue est de 24 à 40m, la portée de tir extrême est de 40 à 80m.
 
@@ -266,11 +266,11 @@ Notons que le trait d'entraînement aux armes ou aux armures permet évidemment 
 
 Les défenses représentent la difficulté pour toucher (ou du moins affecter) un personnage. Il existe autant de défenses que de façon d’agresser puisque chaque attribut sert de seuil pour les attaques portées avec lui-même ! C’est la raison pour laquelle il est très risqué d’avoir plusieurs attributs extrêmement faibles… Mais également intéressant de connaître les points faibles adverses.
 
-Les deux grandes particularités de la défense sont que sa valeur de base dépend de l'état du personnage : 15 si le personnage est dans de bonnes conditions et 10 s’il est épuisé (son endurance est égale ou inférieure à 0), de plus elle reçoit un bonus de +1 si l’attribut est impair.
+Les deux grandes particularités de la défense sont que sa valeur de base dépend de l'état du personnage : 15 si le personnage est dans de bonnes conditions et 10 s’il est choqué (son endurance est égale ou inférieure à 0), de plus elle reçoit un bonus de +1 si l’attribut est impair.
 
 Défense [Attribut] = 15 ou 10 + Modificateur d’Attribut + 1 si attribut impaire.
 
-| Attribut | Défense | Défense « épuisé » |
+| Attribut | Défense | Défense « choqué » |
 | --- | --- | --- |
 | 7 – 8 | 14 | 9 |
 | 9 – 10 | 15 | 10 |

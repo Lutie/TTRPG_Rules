@@ -459,7 +459,7 @@ Les attaques dites énergétiques, c’est-à-dire sollicitant une énergie, son
 !!! info "Rappel"
     ![](images/image1.png)
 
-    La défense passive d’un personnage est égale à : 10 + modificateur de l’attribut + 1 si attribut impaire + 5 si non « épuisé ».
+    La défense passive d’un personnage est égale à : 10 + modificateur de l’attribut + 1 si attribut impaire + 5 si non « choqué ».
 
     / !\ Si un personnage porte une armure le bonus de qualité s’applique dans le calcul (pour rappel le bonus de qualité est un ajustement qui augmente les attributs, pas le modificateur directement).
 
@@ -575,7 +575,7 @@ En fonction de la manière dont les dégâts sont attribués, ces derniers affec
 
 Les dégâts permanents affectent la vitalité ou la spiritualité, selon leur nature.
 
-Les dégâts permanents peuvent faire passer les valeurs de vitalité ou de Spiritualité dans le négatif, ce qui génère un ou plusieurs désavantage(s) imputé(s) respectivement aux actions du corps ou de l’esprit (on dit que le personnage est « en danger » dans ce cas). Si les dégâts permanents font chuter la vitalité ou la spiritualité à sa valeur maximale dans le négatif, le personnage est respectivement tué ou mis hors d’état.
+Les dégâts permanents peuvent faire passer les valeurs de vitalité ou de Spiritualité dans le négatif, ce qui génère un ou plusieurs désavantage(s) imputé(s) respectivement aux actions du corps ou de l’esprit (on dit que le personnage est « en danger » dans ce cas). Si les dégâts permanents font chuter la vitalité à sa valeur maximale dans le négatif, le personnage est tué. Si c’est la spiritualité qui atteint sa valeur maximale dans le négatif, le personnage est défait.
 
 La guérison naturelle de la vitalité ou de la spiritualité se fait au rythme de chaque repos et à raison de quelques points.
 
@@ -583,7 +583,7 @@ La guérison naturelle de la vitalité ou de la spiritualité se fait au rythme 
 
 Les dégâts temporaires affectent d’abord l’endurance, peu importe leur nature.
 
-Les dégâts temporaires peuvent faire passer la valeur d’endurance dans le négatif, ce qui fait chuter la défense passive de base 15 à 10 (on dit que le personnage est « épuisé » dans ce cas). Si les dégâts temporaires font chuter l’endurance à sa valeur maximale dans négative, le personnage est KO.
+Les dégâts temporaires peuvent faire passer la valeur d’endurance dans le négatif, ce qui fait chuter la défense passive de base 15 à 10 (on dit que le personnage est « choqué » dans ce cas). Si les dégâts temporaires font chuter l’endurance à sa valeur maximale dans négative, le personnage est KO.
 
 Les dégâts temporaires sont plus faciles et rapides à soigner que les dégâts permanents. La guérison naturelle de l’endurance se fait à chaque fin de scène et à raison de l’ensemble des points.
 
@@ -591,7 +591,7 @@ Les dégâts temporaires sont plus faciles et rapides à soigner que les dégât
 
 Les dégâts continus sont reçus sans être appliqués sur le champ mais sont mis en suspens. A la fin de chaque tour les dégâts continus sont réduits d’un tiers de leur valeur et ce montant est subi sous forme de dégâts de rupture.
 
-Les dégâts de rupture affectent d’abord l’endurance, peu importe leur nature. Cependant ces dégâts ne peuvent pas faire passer l’endurance dans le négatif. Notons qu’une endurance nulle suffit à être considéré comme épuisé. Les dégâts continus affectent la vitalité (si physique) ou la spiritualité (si mentale) lorsque l’endurance est nulle ou inférieure à 0. Si des dégâts de rupture sont supérieurs à l’endurance restante de la cible alors l’excédent est subi sur la vitalité ou spiritualité.
+Les dégâts de rupture affectent d’abord l’endurance, peu importe leur nature. Cependant ces dégâts ne peuvent pas faire passer l’endurance dans le négatif. Notons qu’une endurance nulle suffit à être considéré comme choqué. Les dégâts continus affectent la vitalité (si physique) ou la spiritualité (si mentale) lorsque l’endurance est nulle ou inférieure à 0. Si des dégâts de rupture sont supérieurs à l’endurance restante de la cible alors l’excédent est subi sur la vitalité ou spiritualité.
 
 Les dégâts continus sont issus de manœuvres ou de magies, deux éléments qui ne sont pas présentés dans ce documents mais dans des extensions.
 
@@ -842,9 +842,35 @@ Une défense active permet de se défendre de l’ensemble des dégâts sans dis
 
 | Energie | Défense passive |
 | --- | --- |
-| Chaud (feu) | AGI |
-| Froid (glace) | FOR |
-| Electricité (foudre) | DEX |
+| Chaud (feu) | FOR |
+| Froid (glace) | DEX |
+| Electricité (foudre) | AGI |
+
+#### Résolution complète des dégâts d’énergie
+
+Lorsque plusieurs types de dégâts sont infligés (physique + énergie, ou plusieurs énergies), la résolution se fait dans l’ordre suivant :
+
+1. Chaque type de dégât est calculé séparément.
+2. Les rangs de résistance ou de vulnérabilité propres à chaque énergie sont appliqués (voir ci-dessous).
+3. Les résistances chiffrées spécifiques à chaque énergie (issues de traits, bonus ou équipement) sont soustraites.
+4. Les dégâts de tous les types sont additionnés.
+5. La résistance et l’absorption globales (armure, résistance physique générale…) s’appliquent sur ce total.
+
+#### Rangs de résistance et de vulnérabilité aux énergies
+
+Certaines cibles — principalement des créatures — peuvent présenter une résistance ou une vulnérabilité innée à un élément donné. Ces propriétés s’appliquent avant toute résistance chiffrée.
+
+| Rang | Multiplicateur de dégâts reçus |
+| --- | --- |
+| Très vulnérable | ×200 % |
+| Vulnérable | ×150 % |
+| Normal | ×100 % (référence) |
+| Résistant | ×50 % |
+| Très résistant | ×33 % |
+| Immunisé | ×0 % (aucun dégât) |
+| Absorption | −50 % (soigne au lieu de blesser) |
+
+Ces rangs sont généralement mentionnés dans les fiches de créatures ou accordés par certains matériaux ou traits exceptionnels. Un personnage standard est toujours au rang Normal sans raison mécanique explicite.
 
 ### Forcer les dégâts non létaux
 
@@ -961,7 +987,7 @@ Une condition avancée applique deux fois ses effets, si possible (sinon cela ne
 
 Les dégâts de chocs entraînent la création d’une condition de choc de charge équivalente.
 
-La particularité de cette condition c’est qu’elle peut être physique, mentale ou mixte, selon l’origine des dégâts. À tout moment si les charges sont supérieures aux PV (si physique), aux PS (si mental) ou à l’un des deux (si mixte) alors la cible est en état de choc (elle est épuisée ET souffre d’une pénalité de 2 à tous ses tests actifs).
+La particularité de cette condition c’est qu’elle peut être physique, mentale ou mixte, selon l’origine des dégâts. À tout moment si les charges sont supérieures aux PV (si physique), aux PS (si mental) ou à l’un des deux (si mixte) alors la cible est en état de choc (elle est choquée ET souffre d’une pénalité de 2 à tous ses tests actifs).
 
 Puisqu’il s’agit d’une condition, il est évidemment possible de soigner celle-ci, via des actes médicaux, des objets adaptés ou bien la récupération elle-même.
 
@@ -971,14 +997,6 @@ Les conditions de rupture délivrent des dégâts dans le temps, à chaque débu
 
 Si un effet augmente les dégâts de rupture alors c’est la charge de la condition qui est augmentée.
 
-!!! note "Note"
-    ![](images/image1.png)
-
-    La variété de certaines conditions, notamment physique, représente la possibilité de trouver des substances différentes et donc des propriétés alternatives.
-
-    De tel condition sont présentés dans la liste sous leur version « classique » tandis qu’il existe d’autre versions.
-
-    Ces versions; tel que poison ou venin; peuvent disposer des propriétés suivantes : - « Rapide » : Les dégâts sont augmentés de 2 mais la décharge est augmentée de 3. - « Lent » : Les dégâts sont réduits de 2 mais la décharge est réduite de 3. Ne peut être rapide. - « Dangereuse » : Les dégâts sont augmentés de 1 mais la difficulté (sauvegarde, soins, etc) est réduite de 2. - « Bénigne » : Les dégâts sont réduits de 1 mais la difficulté (sauvegarde, soins, etc) est augmentée de 2. Ne peut être dangereuse. - « Fluide » : La décharge est augmentée de 2 mais la difficulté est augmentée de 2. - « Épais » : La décharge est réduite de 2 mais la difficulté est réduite de 2. Ne peut être fluide.
 
 ## Caractéristiques de Confrontation
 
@@ -1327,11 +1345,14 @@ L’état de santé représente les conditions actuelles d’un personnage.
 
 ### Indemne
 
-Le personnage est indemne tant que sa vitalité et sa spiritualité sont intactes et qu’il n’a pas de lésions.
+Le personnage est indemne tant que ses PV, PS et PE sont à leur maximum et qu’il n’a aucune lésion. Les autres ressources (Karma, Chi, Mana…) ne sont pas prises en compte pour cet état.
 
-### Epuisé
+### Choqué
 
-Le personnage est épuisé lorsque son endurance est égale ou inférieure à 0. Note : Le personnage ne profite plus du bonus naturel de 5 aux défenses lorsqu’il est épuisé.
+Le personnage est choqué lorsque son endurance est égale ou inférieure à 0. Note : Le personnage ne profite plus du bonus naturel de 5 aux défenses lorsqu’il est choqué.
+
+!!! note "Compatibilité"
+    Le terme « épuisé » peut apparaître dans certains documents ou extensions plus anciens. Il est équivalent à « choqué » et doit être interprété comme tel.
 
 ### Hors d’état (KO)
 
@@ -1347,11 +1368,15 @@ Le personnage est agonisant lorsque son endurance ET sa vitalité ou sa Spiritua
 
 ### Blessé / Traumatisé
 
-Le personnage est blessé ou traumatisé lorsqu’il a au moins une blessure (lésion physique) ou un traumatisme (lésion mentale). Note : Le personnage subit des pénalités en fonction de la gravité de ces lésions.
+Le personnage est **blessé** lorsqu’il a au moins une blessure (lésion physique). Il est **traumatisé** lorsqu’il a au moins un traumatisme (lésion mentale). Ces deux états sont indépendants et peuvent se cumuler. Note : Le personnage subit des pénalités en fonction de la gravité de ces lésions.
+
+### Défait
+
+Le personnage est défait lorsque sa spiritualité atteint sa valeur maximale dans le négatif. Il n’est plus en mesure de s’opposer moralement à quoi que ce soit : il abandonne le combat, cède à la pression et ne peut plus initier d’action hostile. Il n’est pas mort et sort de cet état dès que sa spiritualité remonte au-dessus de ce seuil.
 
 ### Mort
 
-Le personnage est mort si sa vitalité ou sa spiritualité atteignent leurs valeurs maximums dans le négatif. De même le personnage est mort s’il reçoit deux lésions incapacitantes (ou une seule lésion incapacitante localisée à la tête).
+Le personnage est mort si sa vitalité atteint sa valeur maximale dans le négatif. De même le personnage est mort s’il reçoit deux lésions incapacitantes (ou une seule lésion incapacitante localisée à la tête).
 
 ## Les Règles de Combats
 
@@ -1581,6 +1606,20 @@ Si un coup doit rater à cause de la pénalité alors ce dernier touche l’obst
 
 Notons que la défense « couverture » permet d’obtenir un bonus de couverture supplémentaire. Ce bonus accroît la pénalité imposée à l’attaquant avec les mêmes conditions et conséquences qu' énoncés ci-dessus.
 
+### Les Conditions de Visibilité
+
+Certaines conditions environnementales dégradent la visibilité et pénalisent les actions qui en dépendent (attaques, tirs, tactiques visuelles…). Ces pénalités s'appliquent sous forme de modificateurs au test, de −1 à −5, selon la sévérité. Elles se cumulent entre elles et avec les pénalités de couverture (obstacles).
+
+| Catégorie | Exemples | Pénalité |
+| --- | --- | --- |
+| Luminosité réduite | Nuit éclairée, torche lointaine, crépuscule | −1 à −3 |
+| Obscurité totale | Nuit sans lune, caverne sans lumière | −4 à −5 |
+| Brouillard / Fumée | Brouillard léger, fumée de combat | −1 à −3 |
+| Brouillard dense | Brouillard épais, fumée lourde | −4 à −5 |
+| Vent (tirs uniquement) | Brise, vent fort, tempête | −1 à −5 |
+
+Le MJ fixe la pénalité exacte selon la logique de la situation. Une cible totalement invisible (obscurité totale et pas d'autre sens disponible) ne peut tout simplement pas être ciblée directement : une attaque en aveugle est alors possible mais traité comme une action sans cible fixe (voir les actions de zone ou les règles de hasard).
+
 ### Les Objets Improvisés
 
 Les objets peuvent être utilisés de façon détournée, c’est-à-dire qui ne respecte pas ce pour quoi ils ont été réalisés/façonnés. C’est le MD qui peut déterminer si un objet peut être utilisé pour une action donnée ou non, en tenant compte de la logique etc…
@@ -1612,6 +1651,27 @@ Lorsqu’un individu est au sol son allure est de 0 (mais il peut cependant touj
 
     Mettre un adversaire au sol est possible via un test tactique de gestion. C’est la méthode la plus « simple » ou disons la plus commune pour ça.
 
+### Terrain Difficile
+
+Certaines surfaces ou zones rendent le déplacement plus laborieux : boue, gravats, eau peu profonde, végétation dense, etc. Le coût de déplacement à travers ces zones est exprimé en **m/c** (mètres par case), qui représente la distance réellement franchissable lors d'une action de déplacement (l'allure servant de base de calcul).
+
+- **Terrain difficile** : chaque case traversée coûte **2 m/c** au lieu de 1. Si le personnage ne dispose pas de suffisamment de m/c pour entrer dans une case difficile et en ressortir, il ne peut pas y entrer.
+- **Terrain très difficile** : chaque case traversée coûte **3 m/c**. Si le personnage ne dispose pas du total requis, tout déplacement est impossible.
+
+!!! note "Note"
+    L'allure est la base de calcul pour les actions de déplacement standard. Lors d'une action plus importante (courir, charger…) le personnage dispose de plus de m/c mais son allure reste identique — c'est bien la distance disponible en m/c qui est comparée au coût des cases traversées.
+
+### Zone Dangereuse
+
+Une zone dangereuse est une zone dont les conditions infligent des dégâts à quiconque y entre ou s'y arrête (feu, acide, vapeurs toxiques, etc.).
+
+- **Zone dangereuse** : inflige **1D8 dégâts** à l'entrée ou en cas d'arrêt dans la zone. Chaque case supplémentaire traversée en une même action au-delà de la première augmente les dégâts de **+2**.
+- **Zone très dangereuse** : inflige **2D8 dégâts** à l'entrée ou en cas d'arrêt, avec **+3 par case** supplémentaire traversée en une même action.
+
+Un test de sauvegarde de **Réflexes** permet de modifier la valeur des dégâts conformément aux règles de sauvegarde. La difficulté est **15 par défaut**, mais le MJ peut l'ajuster selon la nature de la zone. Si la zone est générée par l'action d'un personnage (sort, huile enflammée, etc.), c'est **l'expertise de ce personnage** qui sert de seuil à la place.
+
+Les dégâts d'une zone dangereuse sont de l'élément correspondant à sa nature (feu, acide…) et suivent les règles normales de résistance et de défense passive associées.
+
 ## Les Règles de Joutes
 
 Les joutes sont très proches des combats en ce qui concerne les règles de confrontation mais il subsiste des différences importantes qui sont détaillés par les points de règles suivants.
@@ -1636,9 +1696,17 @@ Les inconvénients : - Faire usage d’une diatribe si le panache requis est inf
 
 En joute il y a des difficultés qui ont pour vocation d’être confrontés à des tests de sauvegarde mentaux adverses, tels que la détermination et le sang-froid.
 
-- Expertise Physique : 10 + modificateur de (Intelligence + ajustement lié à la qualité de l'outil le cas échéant).
+- Expertise Mentale : 10 + modificateur de (Intelligence + ajustement lié à la qualité de l’outil le cas échéant).
 
 L’Expertise Mentale mesure donc la difficulté associée aux conditions et autres effets mentaux (tel que la difficulté opposée aux sang froids pour les actions de zone ou encore la difficulté à surmonter pour ne pas être déconcentré), elle est généralement confrontée à la sauvegarde de détermination pour ce qui est des conditions et de la concentration ou au sang froid pour ce qui est des effets zones, déclenchés etc…
+
+### L’Expertise (sociale)
+
+Dans certains cas des effets peuvent mentionner l'expertise sociale. Elle n'est jamais utilisée pour des difficultés de conditions par exemple, mais peut l'être pour des effets très spécifiques liés au charisme du personnage plus que son intelligence.
+
+- Expertise Sociale : 10 + modificateur de Charisme.
+
+Quelques situations : - Un personnage réalise une action d'intimidation déclenchant un test de moral adverse : la difficulté du test de Détermination est l'expertise sociale de l'instigateur plutôt que la valeur standard. - Un personnage utilisant l'archétype Inspiration avec le style Malus force ses cibles à résister via un jet de Détermination contre son expertise sociale.
 
 ### Les Attributs en Joute
 
@@ -1785,6 +1853,28 @@ Certaines règles affectent aussi bien les confrontations que les joutes.
 Lorsqu’une confrontation débute chaque camps fait la somme des modificateurs de charisme de ses participants : Cette somme correspond au moral de l’équipe en question. Chaque membre reçoit du moral égal au moral de son camp, le moral fait office de tampon pour l’endurance et se limite (comme toutes les ressources temporaires) à la résilience de chaque personnage. Le moral est considéré comme une forme de ressource temporaire.
 
 Lorsqu’un participant entre dans une confrontation, le moral qu’il véhicule est appliqué à tous les participants de son camp.
+
+### Le test de moral
+
+Certains adversaires peuvent être amenés à fuir ou à se rendre lorsque la situation tourne en leur défaveur. Cette règle est optionnelle et à la discrétion du MJ : certains groupes, créatures ou individus peuvent en être exemptés (fanatiques, morts-vivants, automates, créatures sans instinct de survie…).
+
+Un test de moral est déclenché dans l'une des situations suivantes :
+- Un membre du groupe adverse est vaincu.
+- Un personnage réalise une action adaptée (intimidation, démonstration de force, tirade de coercition…), même en l'absence de pertes.
+
+La difficulté du test de Détermination est égale à **10 + le moral actuel du groupe cible**. Si le membre vaincu est un leader ou une figure importante du groupe, la difficulté est augmentée de 5. Lorsque le test est déclenché par une action d'intimidation ou de manipulation d'un personnage, la difficulté est remplacée par l'expertise sociale de ce personnage (10 + modificateur de Charisme). Le MJ peut ajuster la difficulté en fonction de la situation : +5 si la situation est défavorable pour le groupe (isolement partiel, pertes importantes…), +10 si elle est critique (ennemi seul, position intenable…).
+
+Le MJ peut décider que seule une partie des adversaires est soumise au test à un moment donné (un sbire isolé, les troupiers mais pas le chef, etc.).
+
+**Sur une réussite normale :** la cible ignore l'incident et continue le combat normalement.
+
+**Sur une réussite critique :** l'incident ragaillardit la cible — elle est avantagée à son prochain test de moral.
+
+**Sur un échec normal :** la cible fuit ou se replie. Elle peut encore représenter une menace ultérieure.
+
+**Sur un échec critique :** la cible fuit définitivement ou se rend. Elle ne sera plus une menace. Si fuir la met davantage en danger qu'elle ne l'est déjà, elle se rend ; sinon elle fuit.
+
+Une cible disposant de points de moral peut les dépenser pour compléter son test : si le résultat est inférieur à la difficulté, elle peut dépenser autant de points de moral que nécessaire pour atteindre exactement la difficulté et ainsi tenir sa position. Les points dépensés sont perdus.
 
 ### La notion menace
 

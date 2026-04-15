@@ -12,7 +12,7 @@ Les avantages de départ ne peuvent être choisis qu’à la création du person
 
 Les avantages généraux peuvent être choisis à tout moment, cependant dans l'idéal il y devrait y avoir des circonstances et des origines à cette acquisition.
 
-Notons que les avantages octroyant de bonus de même nature ne devraient pas être cumulatifs, c’est en tout cas la règle par défaut. Il y a bien quelques cas de traits qui peuvent se cumuler à d’autres mais dans de tel cas ceci est généralement précisé.
+Les bonus octroyés par les traits sont de type **Inné**. Deux bonus Innés portant sur le même effet ne se cumulent pas — seul le plus élevé s’applique. Ils se cumulent en revanche avec des bonus d’autres types (Conditionné, Équipement, Situationnel). Voir les règles de cumul des bonus (Chapitre 0).
 
 ### Les Désavantages
 

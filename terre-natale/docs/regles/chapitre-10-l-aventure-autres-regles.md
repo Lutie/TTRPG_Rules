@@ -66,6 +66,20 @@ Le maître de jeu est invité à créer ses propres maladies ou à s’inspirer 
 
 Dans l’univers de Thalifen sont présentés un certain nombre de maladies complexes propres à cet univers.
 
+## Le Venin
+
+Les venins sont des substances toxiques d'origine naturelle, généralement issus de créatures (morsures, piqûres, sécrétions…). Leurs effets suivent les mêmes règles que les maladies — incubation, rémission, gravité, particularités — à deux différences près :
+
+- Les pénalités infligées aux attributs sont **divisées par deux** par rapport à une maladie de même gravité.
+- Le personnage subit des **dégâts de rupture** au début de chaque tour, selon la gravité :
+
+| Gravité | Dégâts de rupture / tour |
+| --- | --- |
+| Bénin | 1D8 |
+| Grave | 1D8 + 2 |
+| Très Grave | 1D8 + 4 |
+| Létale | 1D8 + 6 |
+
 ## Le Commerce
 
 Les personnages sont amenés à faire l’acquisition de matériel et d’équipement au cours de leurs aventures. Lorsqu’il s’agit de se procurer ces derniers via le commerce, le personnage doit d’abord trouver l’objet puis il peut, s’il le souhaite, négocier son prix.
@@ -104,11 +118,28 @@ Le prix d’un objet est ainsi simplement le produit des différents facteurs é
 
 ### La Disponibilité
 
-La disponibilité reflète la difficulté d’accès à un objet, qu’elle soit due à une petite production ou à une interdiction. Plus un objet à une faible disponibilité et plus il est difficile à obtenir, les recherches en seront d’autant plus longues et fastidieuses.
+La disponibilité reflète la difficulté d’accès à un objet, qu’elle soit due à une petite production ou à une interdiction. Plus un objet a une faible disponibilité et plus il est difficile à obtenir, les recherches en seront d’autant plus longues et fastidieuses.
 
-La disponibilité est une difficulté contre laquelle on oppose un test de marchandage. En cas d'échec, le personnage ne trouve pas l’article qu’il recherche. La recherche doit être active, à des heures logiques d’ouvertures des magasins/vendeurs, mais peut être interrompue par les repos, etc…
+La disponibilité est une difficulté contre laquelle on oppose un test de marchandage. En cas d’échec, le personnage ne trouve pas l’article qu’il recherche. La recherche doit être active, à des heures logiques d’ouverture des magasins/vendeurs, mais peut être interrompue par les repos, etc…
 
-- Temps de Recherche = Difficulté - Marge de Réussite (en heure).
+**Formule de disponibilité :**
+
+- DD = 10 + qualité + amélioration + catégorie + promotion + modificateurs
+
+Les modificateurs sont les suivants :
+
+- **Illégalité :** +2 par rang d’illégalité de l’objet dans la région concernée.
+- **Culturel :** +2 si l’objet est étranger à la culture locale (peu de demande, peu d’offre).
+- **Rareté :** +2 par rang de rareté de l’objet.
+- **Lieu :** Chaque lieu est lié à un niveau de qualité disponible, qui dépend généralement de la taille de la cité ou du type de biens. Chercher un objet d’une qualité inférieure au niveau du lieu donne un avantage au test ; d’une qualité égale, le test est normal ; d’une qualité supérieure, le test est désavantagé.
+
+**Temps de recherche :**
+
+- Temps de Recherche = 10h − Marge de Réussite
+
+Une marge de réussite de 10 (réussite critique) signifie que l’objet est trouvé instantanément. Le temps de recherche ne peut pas être négatif.
+
+**Échec :** En cas d’échec, le personnage peut dépenser jusqu’à 10 % de plus par marge d’échec afin de trouver malgré tout l’objet recherché, dans la limite de +50 %. Cela représente le cas où l’objet est présent mais rare et donc coûte plus cher à se procurer. Ce surcoût peut être négocié, avec une réduction deux fois plus difficile à obtenir que sur le prix de base.
 
 ### L’Achat
 
@@ -209,7 +240,7 @@ La difficulté à atteindre dépend du temps passé à veiller : 10 + Temps (en 
 - Si l’un des tests est un échec alors le personnage tient le coup mais s’en trouve diminué et peu alerte. Il est désavantagé à ses tests de perception, etc…
 - Si les deux tests sont un échec, le personnage trouve le sommeil sans autre forme de procès.
 
-Si un personnage reste éveillé plus de 24h alors il est automatiquement « épuisé ». Voir les règles supplémentaires du temps de jeu pour l’effet des nuits courtes.
+Si un personnage reste éveillé plus de 24h alors il est automatiquement « choqué ». Voir les règles supplémentaires du temps de jeu pour l’effet des nuits courtes.
 
 ## Les Aptitudes
 
@@ -608,7 +639,7 @@ Une activité longue permet de s'entraîner, effectuer des recherches, mener une
 
 Ensuite évidemment il est possible d’envisager tout cela par le prisme des cas particuliers. Globalement cela reste libre d’interprétation, mais voici un bon exemple : Réduire le temps de repos retire automatiquement une des 3 conditions de repos complet (celui du temps de repos). Si l’activité de repos est inférieure à 6h le personnage alors la fatigue de ce dernier ne profite pas de la récupération. Si l’activité de repos est inférieure à 4h le personnage reçoit 1D8 de fatigue supplémentaire.
 
-Un personnage qui ne dort pas durant 24h est automatiquement « épuisé ».
+Un personnage qui ne dort pas durant 24h est automatiquement « choqué ».
 
 ## Les Références pour le MJ
 
@@ -772,7 +803,7 @@ Une légende est bien supérieure à un personnage héroïque et représente don
 
 ### Les adversaires non conventionnels
 
-Les morts vivants et les machines ne peuvent pas être épuisés et ne disposent pas du bonus de défense associé au fait de ne pas l’être mais d’un bonus de 2 appliqués en toutes situations. Les morts vivants ne subissent pas les pénalités de leurs blessures. Les machines n’ont pas de vitalité mais une structure basée sur leur attribut de constitution. Voir comment endommager les structures dans les règles de combat.
+Les morts vivants et les machines ne peuvent pas être choqués et ne disposent pas du bonus de défense associé au fait de ne pas l’être mais d’un bonus de 2 appliqués en toutes situations. Les morts vivants ne subissent pas les pénalités de leurs blessures. Les machines n’ont pas de vitalité mais une structure basée sur leur attribut de constitution. Voir comment endommager les structures dans les règles de combat.
 
 ### Bestiaire non humain
 

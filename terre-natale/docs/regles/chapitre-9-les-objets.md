@@ -166,7 +166,7 @@ Si un test de disponibilité est un échec, le personnage peut dépenser jusqu�
 
     Tous les objets ont donc : - Une catégorie. - Une qualité. - Des particularités (parfois).
 
-    En découle : - Un encombrement (= catégorie, minimum ½). - Une disponibilité (= 10 + 2*qualité + amélioration + catégorie + modificateurs (légalité/rareté/culturel)).
+    En découle : - Un encombrement (= catégorie, minimum ½). - Une disponibilité (= 10 + qualité + amélioration + catégorie + modificateurs (légalité/rareté/culturel)).
 
     Mais aussi : - Un prix (prix d’achat = (prix de référence x (C + 1) + prix des particularités + prix des améliorations + prix des matières) X modificateur de qualité X modificateur de rareté%). - Des améliorations (limitées par la capacité d’amélioration) (= niveau de qualité). - (Plus rarement) des promotions (limité par la capacité de promotions) (= niveau de qualité).
 

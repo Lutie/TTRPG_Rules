@@ -195,6 +195,21 @@ Les pénalités affectent les tests en leur imposant des malus, qui se traduit n
 
 Les pénalités se distinguent donc en fonction de leurs origines.
 
+## Le cumul des bonus
+
+Les bonus se classent en quatre types selon leur origine. Deux bonus du **même type** portant sur le même effet ne se cumulent pas : seul le plus élevé s'applique. Deux bonus de **types différents** se cumulent librement.
+
+| Type | Origine |
+| --- | --- |
+| **Inné** | Traits, particularités ethniques, raciales ou de caste |
+| **Conditionné** | Styles, manœuvres, magie et tout effet non permanent déclenché par une condition |
+| **Équipement** | Améliorations, matérias, accessoires et tout bonus issu d'un objet porté ou utilisé |
+| **Situationnel** | Bonus ciblant une situation précise (ex. : robustesse contre les maladies, attaque contre les morts-vivants) |
+
+> *Exemple : un bonus de Perforation Inné (particularité raciale) et un bonus de Perforation Équipement (amélioration d'arme) se cumulent. Deux bonus de Perforation issus de deux améliorations différentes ne se cumulent pas — seul le plus élevé s'applique.*
+
+Par exception, certains effets précisent explicitement qu'ils se cumulent même avec des bonus du même type. Dans ce cas, la mention figure dans la description de l'effet et prévaut sur la règle générale.
+
 ## Le Degré de réussite
 
 Certaines actions requièrent un test afin de déterminer leurs effets via le degré de réussite. Le degré de réussite se mesure en fonction du score obtenu dépassant la difficulté, chaque tranche de 5 octroyant un degré de réussite supplémentaire, en commençant à 0.

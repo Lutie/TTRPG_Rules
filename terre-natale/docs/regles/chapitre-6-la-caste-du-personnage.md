@@ -186,6 +186,8 @@ Donne le trait de formation associé à l’attribut de caste principal choisi p
 
 Donne le 1er trait de la Caste. Pour une caste de base le 1e trait peut être choisi parmi les avantages des règles de base (mais pas celles des extensions) OU parmi les 1er traits des castes avancées qui partagent au moins un attribut avec elle. Pour une caste avancée le trait en question est le 1er trait associé à la caste, ce sont des traits uniques.
 
+Si le personnage ne souhaite pas du trait de caste proposé, il peut le remplacer par un trait mineur de son choix.
+
 #### Formation Finale
 
 Donne le trait de formation associé à l’attribut de caste secondaire choisi par le personnage. La formation permet d’éviter les maladresses sur les doubles 2.
@@ -201,6 +203,8 @@ A certains rang le personnage reçoit simplement 1 point de personnage (PP) supp
 #### 2em Trait de Caste
 
 Donne le 2e trait de la Caste. Pour une caste de base le 2e trait peut être choisi parmi les avantages des règles de base (mais pas celles des extensions) OU parmi les 1er traits des castes avancées qui partagent au moins un attribut avec elle. Par nature donc il est impossible de choisir le 2e trait d’une caste de cette manière. Pour une caste avancée un choix est possible : Soit il acquiert le 2eme trait de sa Caste, soit il acquiert le 1er trait d’une caste qui partage un ou plusieurs attributs de caste. Notons que si le personnage opte pour le trait d’une autre caste il se lie à cette caste et ne pourra plus formuler de choix issus d’une autre caste, on peut dire qu’il se multi-caste et fige ainsi un choix.
+
+Si le personnage ne souhaite pas du trait de caste proposé, il peut le remplacer par un trait mineur de son choix.
 
 #### Action de Caste Améliorée
 

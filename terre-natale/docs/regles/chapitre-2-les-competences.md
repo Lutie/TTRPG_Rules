@@ -381,9 +381,9 @@ Compétences : Investigation (INT), Déduction (INT), Mémoire (INT), Interrogat
 
     Il est également important de distinguer la détection de l’investigation.
 
-    La première relève de la perception : repérer quelque chose d’anormal ou d’inhabituel, souvent à distance ou sans interaction directe (ex. : apercevoir une silhouette suspecte sur un toit, remarquer un comportement étrange dans une foule).
+    La **détection** s’utilise quand on sait ce qu’on cherche : localiser un objet précis, retrouver une trace connue, confirmer la présence de quelque chose d’identifié. C’est une recherche ciblée — le personnage a un objectif clair et cherche à l’atteindre (ex. : retrouver le flacon de poison dans une pièce, repérer l’issue secrète dont on a entendu parler, localiser quelqu’un dans une foule).
 
-    La seconde implique une recherche active et méthodique : examiner un lieu, un objet ou une personne afin d’obtenir des indices précis ou de confirmer une hypothèse (ex. : fouiller dans un bureau à la recherche de documents cachés, inspecter un mur pour découvrir un passage secret).
+    L’**investigation** s’utilise quand on ne sait pas ce qu’on cherche : fouiller un lieu, un objet ou une scène pour y trouver quoi que ce soit d’utile ou de révélateur. C’est une recherche ouverte — le personnage explore sans objectif défini, dans l’espoir de dénicher une piste, un indice ou un détail significatif (ex. : inspecter une chambre après un crime, examiner les affaires d’un suspect, scruter une scène de bataille).
 
 #### Erudition
 

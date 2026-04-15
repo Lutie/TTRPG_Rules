@@ -75,8 +75,16 @@
 | Nécessaire de bivouaque | 6 🪙 | Contient du silex à feu, cordelette, mini-lanterne et une couverture légère, indispensable pour survivre en extérieur. | 3 📦 |
 | Nécessaire de concoctions | 8 🪙 | Un coffret modeste avec fioles, filtres et mesures de précision, utilisé pour créer remèdes, poisons et toniques artisanaux. | 3 📦 |
 | Nécessaire de forge | 14 🪙 | Un set mobile comprenant marteau, pinces, lime et pierre à aiguiser, essentiel pour l’entretien et le façonnage d’objets métalliques. | 4 📦 |
+| Pierre à aiguiser | 4 🪙 | Bloc de pierre abrasive utilisé pour affûter les lames. | 1 📦 |
 | Nécessaire de couture | 7 🪙 | Une boîte contenant aiguilles, fils, ciseaux et pièces de tissu, utilisée pour réparer ou ajuster vêtements et armures légères. | 2 📦 |
 | Nécessaire de médecine | 13 🪙 | Une mallette de soins avec bandages, scalpels, onguents et outils de suture, permettant de traiter blessures et maladies courantes. | 2 📦 |
+
+!!! note "Pierre à aiguiser — Règle d'affûtage"
+    Utiliser une pierre à aiguiser prend un **temps court** et requiert un test d'**Artisanat** (évaluation, difficulté 5). Cela ne fonctionne que sur les **armes de mêlée en métal**. En cas de réussite, l'arme gagne un bonus de **Perforation (Équipement)** égal au degré de réussite obtenu (+1 à DR1, +2 à DR2, etc.).
+
+    Ce bonus se dégrade à l'usage : chaque fois que l'arme **touche** sa cible, elle perd 1 point de cette Perforation après application des effets, jusqu'à retomber à 0.
+
+    Chaque usage réduit également l'**intégrité** de l'arme d'autant que le DR obtenu. Une même arme ne peut bénéficier que d'un seul affûtage actif à la fois.
 
 ### Les Colifichets (équipements)
 

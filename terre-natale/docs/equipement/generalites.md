@@ -81,9 +81,7 @@ Taille Peut être occupé par l’équivalent d’une ceinture. Limite : Un pers
 !!! note "Note"
     ![A yellow diamond with a black strip Description automatically generated](images/image6.png)
 
-    Si plusieurs sources doivent octroyer des effets strictement similaires alors ces effets ne se cumulent QUE s’il s’agit d’effet généraux, c’est-à-dire décrit via un mot clé par exemple.
-
-    Il est ainsi possible de cumuler des bonus aux tests de robustesse mais pas aux tests de robustesse contre l’alcool par exemple.
+    Les bonus issus de l’équipement sont de type **Équipement**. Deux bonus Équipement portant sur le même effet ne se cumulent pas — seul le plus élevé s’applique. Ils se cumulent en revanche avec des bonus d’autres types (Inné, Conditionné, Situationnel). Voir les règles de cumul des bonus (Chapitre 0).
 
 #### Accessoires
 
@@ -124,7 +122,8 @@ Les bonus sont physiques par défaut et ne s’appliquent donc qu’aux actions 
 | Résistance +1 | 2 | L’équipement offre un bonus de résistance de 1. La résistance réduit les dégâts des actions adverses. |
 | Résistance Situationnelle +1 | ½ | Dans un cas spécifique l’armure accorde un bonus de résistance de 1. Example : Résistance critique, résistance contre un type de dégâts, résistance aux ruptures, etc… |
 | Criticité +1 | 2 | L’équipement offre un bonus de criticité de 1. La criticité réduit la marge de réussite nécessaire pour qu’une action soit une réussite critique (10 par défaut, minimum 5). |
-| Résilience +1 | 1 | L’équipement offre un bonus de résilience de 1. La résilience augmente la marge de réussite nécessaire pour qu’une action soit une réussite critique sur soi. |
+| Ténacité +1 | 1 | L’équipement offre un bonus de ténacité de 1. La ténacité augmente la marge de réussite nécessaire pour qu’une action soit une réussite critique sur soi. |
+| Résilience +1 | 1 | Augmente la Résilience du personnage de 1. |
 | Difficulté de travail +1 | 1 | Les difficultés associées aux travaux (réparation etc) effectuées sur l’objet sont associées à une difficulté réduite de 1. |
 | Pénalité d’allure -1 | 1 | Les pénalités d’allure imposées par l’équipement sont réduites de 1. Les pénalités d’allure sont par défaut équivalentes à la catégorie de l’objet. |
 | Adresse +1 | 1 | L’équipement offre un bonus d’adresse de 1. L’adresse augmente la marge d’échec nécessaire pour qu’une action soit un échec critique. |

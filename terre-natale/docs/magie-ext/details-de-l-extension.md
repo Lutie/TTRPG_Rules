@@ -482,7 +482,9 @@ De la même manière un sort infligeant une condition négative ou une malédict
 !!! note "Note"
     ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
 
-    Si un sort doit infliger des dégâts de plusieurs éléments, la cible doit faire appel à sa défense passive la plus basse des deux. Même chose en ce qui concerna sa résistance aux énergies, etc…
+    Si un sort doit infliger des dégâts de plusieurs éléments, chaque élément est résolu indépendamment contre sa propre défense passive. Les dégâts de chaque élément n'ont lieu que si le test dépasse la défense passive qui lui est associée. Si les dégâts sont produits, les résistances et absorptions propres à chaque énergie s'appliquent séparément avant que les dégâts ne soient combinés.
+
+    Si plusieurs éléments partagent la même défense passive, l'élément principal (celui qui inflige le plus de dégâts) est résolu en premier contre cette défense. Chaque élément supplémentaire ciblant cette même défense est alors opposé à cette défense +5. Cette règle est identique à celle des règles de base pour les attaques combinées.
 
     Comme il est déjà mentionné dans les règles de base, les dégâts des énergies peuvent être associés à des événements ou des conditions, dans de tels cas le test de l’action doit toujours dépasser la défense passive associée à l’énergie, sans quoi ces dégâts n’ont pas lieu. De même, l’action pouvant initier de tels dégâts peut ne pas réussir mais les dégâts d’énergie sont appliqués car le test a bel et bien dépassé la défense passive associée à celle-ci !
 
