@@ -5736,14 +5736,70 @@ header h1 {
 }
 
 /* Notes */
-.notes-section {
+/* === Notes Board (kanban) === */
+.notes-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
   min-height: calc(100vh - 180px);
+  align-items: start;
 }
 
-.notes-container {
+.notes-column {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  background: var(--color-bg-dark);
+  border: 2px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.notes-column.drop-target {
+  border-color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 8%, var(--color-bg-dark));
+}
+
+.notes-column-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: var(--color-bg);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.notes-column-title {
+  flex: 1;
+  font-family: var(--font-title);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 3px 6px;
+  min-width: 0;
+}
+
+.notes-column-title:hover { border-color: var(--color-border); }
+.notes-column-title:focus { outline: none; border-color: var(--color-accent); background: var(--color-bg-light); }
+
+.notes-column-count {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  background: var(--color-bg-dark);
+  border-radius: 10px;
+  padding: 1px 7px;
+  border: 1px solid var(--color-border);
+}
+
+.notes-column-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
 }
 
 .note-block {
@@ -5753,16 +5809,38 @@ header h1 {
   border: 1px solid var(--color-border);
   border-radius: 8px;
   overflow: hidden;
+  cursor: default;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.note-block.is-dragging {
+  opacity: 0.4;
+}
+
+.note-block.drop-before {
+  border-top: 3px solid var(--color-accent);
 }
 
 .note-header {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
+  gap: 6px;
+  padding: 6px 10px;
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
+  cursor: grab;
 }
+
+.note-drag-handle {
+  flex-shrink: 0;
+  font-size: 1rem;
+  color: var(--color-border);
+  cursor: grab;
+  line-height: 1;
+  user-select: none;
+}
+
+.note-drag-handle:hover { color: var(--color-text-light); }
 
 .note-titre {
   flex: 1;
@@ -5835,44 +5913,35 @@ header h1 {
 
 .note-add-btn {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   width: 100%;
-  min-height: 100px;
-  padding: 20px;
-  background: var(--color-bg);
-  border: 2px dashed var(--color-border);
-  border-radius: 8px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px dashed var(--color-border);
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.15s;
+  color: var(--color-text-light);
 }
 
 .note-add-btn:hover {
   border-color: var(--color-accent);
-  background: var(--color-bg-light);
+  color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 6%, transparent);
 }
 
 .note-add-icon {
-  font-size: 2rem;
+  font-size: 1.1rem;
   font-weight: 300;
-  color: var(--color-text-muted);
   line-height: 1;
-}
-
-.note-add-btn:hover .note-add-icon {
-  color: var(--color-accent);
 }
 
 .note-add-text {
   font-family: var(--font-body);
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-}
-
-.note-add-btn:hover .note-add-text {
-  color: var(--color-accent);
+  font-size: 0.85rem;
 }
 
 /* Config */
@@ -7236,3 +7305,209 @@ header h1 {
 .picker-select-btn.has-value {
   border-color: color-mix(in srgb, var(--color-accent) 50%, var(--color-border));
 }
+
+/* === Bouton Progression de Caste === */
+.caste-select-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.caste-select-row select {
+  flex: 1;
+  min-width: 0;
+}
+
+.btn-caste-progression {
+  flex-shrink: 0;
+  padding: 5px 10px;
+  background: var(--color-accent);
+  color: var(--color-bg-light);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-family: var(--font-title);
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.btn-caste-progression:hover {
+  opacity: 0.85;
+}
+
+/* === Modale Progression de Caste === */
+.caste-prog-modal {
+  background: var(--color-bg);
+  border: 2px solid var(--color-border-dark);
+  border-radius: 8px;
+  max-width: 960px;
+  width: 95vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-hard);
+}
+
+.caste-prog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.caste-prog-header h2 {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.caste-prog-close {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--color-text-light);
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.caste-prog-close:hover {
+  color: var(--color-negative);
+}
+
+.caste-prog-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.caste-prog-table-wrap {
+  width: 100%;
+}
+
+.caste-prog-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  table-layout: fixed;
+}
+
+.caste-prog-table th {
+  padding: 6px 6px;
+  background: var(--color-bg-dark);
+  border-bottom: 2px solid var(--color-border);
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 0.75rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.caste-prog-table td {
+  padding: 5px 6px;
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+  vertical-align: top;
+}
+
+.caste-prog-avantages-col {
+  text-align: left !important;
+  width: 40%;
+}
+
+/* Colonnes numériques — largeur fixe */
+.caste-prog-table th:nth-child(1) { width: 100px; }
+.caste-prog-table th:nth-child(2),
+.caste-prog-table th:nth-child(3),
+.caste-prog-table th:nth-child(4),
+.caste-prog-table th:nth-child(5),
+.caste-prog-table th:nth-child(6) { width: 46px; }
+.caste-prog-table th:nth-child(7) { width: 46px; }
+
+/* Lignes : acquises / actuelle / futures */
+.prog-row-acquired {
+  background: var(--color-bg-light);
+  color: var(--color-text);
+}
+
+.prog-row-current {
+  background: #c8941a;
+  color: #fff8e8;
+  font-weight: 600;
+}
+
+.prog-row-current td {
+  border-bottom-color: #a07010;
+}
+
+.prog-row-future {
+  background: var(--color-bg-dark);
+  color: var(--color-text-light);
+  opacity: 0.65;
+}
+
+.prog-cell-rang {
+  white-space: nowrap;
+  text-align: left !important;
+}
+
+.prog-rang {
+  font-weight: bold;
+  margin-right: 4px;
+  font-size: 0.9rem;
+}
+
+.prog-titre {
+  font-size: 0.72rem;
+  display: block;
+  color: inherit;
+  opacity: 0.8;
+}
+
+.prog-cell-pp {
+  font-weight: bold;
+  color: var(--color-positive);
+}
+
+.prog-row-current .prog-cell-pp {
+  color: #a8f0a0;
+}
+
+.prog-cell-ressource {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.prog-row-current .prog-cell-ressource {
+  color: #ffd080;
+}
+
+.prog-cell-avantages {
+  text-align: left !important;
+}
+
+.prog-avantage {
+  margin-bottom: 3px;
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+.prog-avantage strong {
+  font-weight: 600;
+}
+
+.prog-avantage-detail {
+  color: var(--color-accent-light);
+  font-style: italic;
+  padding-left: 6px;
+}
+
+.prog-row-current .prog-avantage-detail {
+  color: #ffd080;
+}
+

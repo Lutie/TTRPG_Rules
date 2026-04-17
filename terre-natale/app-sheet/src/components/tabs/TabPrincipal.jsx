@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useCharacter } from '../../context/CharacterContext';
 import { useCharacterCalculations } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
@@ -24,6 +25,97 @@ const ORIGINES_ATTRS = [
   { id: 'CHN', nom: 'Chance', groupe: 'special' },
   { id: 'EQU', nom: 'Équilibre', groupe: 'special' }
 ];
+
+const PP_PALIERS = new Set([5, 7, 9, 11, 13, 15, 17, 19]);
+
+function CasteProgressionModal({ caste, rangCaste, onClose }) {
+
+  // Build full 20-rank progression
+  const fullProgression = [];
+  for (let rang = 1; rang <= 20; rang++) {
+    const existing = DATA.casteProgression.find(p => p.rang === rang);
+    const avantages = [
+      ...(existing?.avantages || []),
+      rang === 3 && caste?.trait1 ? { description: `→ ${caste.trait1}`, isDetail: true } : null,
+      rang === 6 && caste?.trait2 ? { description: `→ ${caste.trait2}`, isDetail: true } : null,
+      rang === 4 && caste?.actionSpeciale ? { description: `→ ${caste.actionSpeciale}`, isDetail: true } : null,
+      rang === 8 && caste?.amelioration ? { description: `→ ${caste.amelioration}`, isDetail: true } : null,
+    ].filter(Boolean);
+
+    fullProgression.push({
+      rang,
+      titre: existing?.titre || `Rang ${rang}`,
+      reqXp: existing?.reqXp ?? null,
+      reqAptitude: existing?.reqAptitude ?? null,
+      bonusEquilibre: existing?.bonusEquilibre ?? null,
+      pa: existing?.pa ?? null,
+      ppBonus: PP_PALIERS.has(rang),
+      avantages,
+    });
+  }
+
+  const hasCasteRes = caste?.ressources?.length > 0;
+
+  return createPortal(
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="caste-prog-modal" onClick={e => e.stopPropagation()}>
+        <div className="caste-prog-header">
+          <h2>Progression — {caste?.nom || '?'}</h2>
+          <button className="caste-prog-close" onClick={onClose}>✕</button>
+        </div>
+        <div className="caste-prog-body">
+          <div className="caste-prog-table-wrap">
+            <table className="caste-prog-table">
+              <thead>
+                <tr>
+                  <th>Rang</th>
+                  <th title="XP requis">XP</th>
+                  <th title="Aptitude requise">Apt.</th>
+                  <th title="Bonus Équilibre">ÉQU</th>
+                  <th title="Points d'Attributs">PA</th>
+                  <th title="Points de Personnage">PP</th>
+                  {hasCasteRes && <th title={`Bonus ressource${caste.ressources.length > 1 ? 's' : ''} de caste : ${caste.ressources.join(', ')}`}>{caste.ressources.join('/')}</th>}
+                  <th className="caste-prog-avantages-col">Avantages</th>
+                </tr>
+              </thead>
+              <tbody>
+                {fullProgression.map(row => {
+                  const isAcquired = row.rang < rangCaste;
+                  const isCurrent = row.rang === rangCaste;
+                  const rowClass = isCurrent ? 'prog-row-current' : isAcquired ? 'prog-row-acquired' : 'prog-row-future';
+                  return (
+                    <tr key={row.rang} className={rowClass}>
+                      <td className="prog-cell-rang">
+                        <span className="prog-rang">{row.rang}</span>
+                        <span className="prog-titre">{row.titre}</span>
+                      </td>
+                      <td>{row.reqXp ?? '—'}</td>
+                      <td>{row.reqAptitude ?? '—'}</td>
+                      <td>{row.bonusEquilibre != null ? `+${row.bonusEquilibre}` : '—'}</td>
+                      <td>{row.pa ?? '—'}</td>
+                      <td className="prog-cell-pp">{row.ppBonus ? '+1' : ''}</td>
+                      {hasCasteRes && <td className="prog-cell-ressource">+{row.rang}</td>}
+                      <td className="prog-cell-avantages">
+                        {row.avantages.map((av, i) => (
+                          <div key={i} className={`prog-avantage${av.isDetail ? ' prog-avantage-detail' : ''}`}>
+                            {av.nom && <strong>{av.nom}</strong>}
+                            {av.nom && av.description && ' : '}
+                            {av.description && <span>{av.description}</span>}
+                          </div>
+                        ))}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>,
+    document.body
+  );
+}
 
 function TabPrincipal() {
   const { character, updateCharacter } = useCharacter();
@@ -382,6 +474,7 @@ function CaracBox({ name, value, help, details }) {
 }
 
 function CasteSection({ character, updateCharacter, calc }) {
+  const [showProgression, setShowProgression] = useState(false);
   const casteActuelle = calc.caste;
   const estLimiteParAptitude = calc.rangAptitude < calc.rangXP;
   const estLimiteParXP = calc.rangXP < calc.rangAptitude;
@@ -437,12 +530,19 @@ function CasteSection({ character, updateCharacter, calc }) {
       <div className="caste-row-top">
         <div className="caste-field caste-field-caste">
           <label>Caste</label>
-          <select value={character.caste?.id || ''} onChange={handleCasteChange}>
-            <option value="">-- Sélectionner --</option>
-            {DATA.castes.map(c => (
-              <option key={c.id} value={c.id}>{c.nom} ({c.type})</option>
-            ))}
-          </select>
+          <div className="caste-select-row">
+            <select value={character.caste?.id || ''} onChange={handleCasteChange}>
+              <option value="">-- Sélectionner --</option>
+              {DATA.castes.map(c => (
+                <option key={c.id} value={c.id}>{c.nom} ({c.type})</option>
+              ))}
+            </select>
+            {casteActuelle && (
+              <button className="btn-caste-progression" onClick={() => setShowProgression(true)} title="Voir la progression de caste">
+                Progression
+              </button>
+            )}
+          </div>
         </div>
         <div className="caste-field caste-field-rang">
           <label>
@@ -556,6 +656,13 @@ function CasteSection({ character, updateCharacter, calc }) {
             </div>
           )}
         </div>
+      )}
+      {showProgression && casteActuelle && (
+        <CasteProgressionModal
+          caste={casteActuelle}
+          rangCaste={calc.rangCaste}
+          onClose={() => setShowProgression(false)}
+        />
       )}
     </div>
   );

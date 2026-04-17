@@ -352,7 +352,7 @@
     "attrVariable": false,
     "libre": false,
     "limitant": false,
-    "description": "Gêner un adversaire pour réduire son efficacité : l’étourdir, l’aveugler, le désorienter ou perturber son équilibre.\nL’attribut utilisé dépend du type de la condition.\n* FOR — Conditions basées sur la “violence” (ex: étourdissement).\n* DEX — Conditions basées sur la “patiente” (ex: saignement).\n* AGI — Conditions basées sur la “finesse” (ex: vulnérable).",
+    "description": "Gêner un adversaire pour réduire son efficacité : l’étourdir, l’aveugler, le désorienter ou perturber son équilibre.\nL’attribut utilisé dépend du type de la condition.\n* FOR — Conditions basées sur la 'violence' (ex: étourdissement).\n* DEX — Conditions basées sur la 'patiente' (ex: saignement).\n* AGI — Conditions basées sur la 'finesse' (ex: vulnérable).",
     "note": null
   },
   {
@@ -554,7 +554,7 @@
     "attrVariable": false,
     "libre": false,
     "limitant": false,
-    "description": "Gêner un adversaire pour réduire son efficacité : l’étourdir, l’aveugler, le désorienter ou perturber son équilibre.\nL’attribut utilisé dépend du type de la condition.\n* FOR — Conditions basées sur la “violence” (ex: étourdissement).\n* DEX — Conditions basées sur la “patiente” (ex: saignement).\n* AGI — Conditions basées sur la “finesse” (ex: vulnérable).",
+    "description": "Gêner un adversaire pour réduire son efficacité : l’étourdir, l’aveugler, le désorienter ou perturber son équilibre.\nL’attribut utilisé dépend du type de la condition.\n* FOR — Conditions basées sur la 'violence' (ex: étourdissement).\n* DEX — Conditions basées sur la 'patiente' (ex: saignement).\n* AGI — Conditions basées sur la 'finesse' (ex: vulnérable).",
     "note": null
   },
   {
@@ -1013,8 +1013,8 @@
     "attrVariable": false,
     "libre": false,
     "limitant": false,
-    “description”: “La perception par les sens dits “proches” : odorat, goût, toucher. Elle permet d’identifier une substance, un matériau, une texture ou une atmosphère.”,
-    “note”: “S’emploie pour une recherche ciblée — lorsqu’on sait ce qu’on cherche et qu’il s’agit de le localiser.”
+    "description": "La perception par les sens dits 'proches' : odorat, goût, toucher. Elle permet d’identifier une substance, un matériau, une texture ou une atmosphère.",
+    "note": "S’emploie pour une recherche ciblée — lorsqu’on sait ce qu’on cherche et qu’il s’agit de le localiser."
   },
   {
     "id": "6e-sens",
