@@ -74,8 +74,8 @@ Il est également nécessaire d’avoir consacré un temps d’apprentissage qui
 
 Ce qui nous donne, étape par étape :
 
-| Points d’Attributs |
-| --- |
+| Points d’Attributs | Coût | Apprentissage |
+| --- | --- | --- |
 | De 7 à 8 | 3 PA | 1 app |
 | De 8 à 9 | 4 PA | 2 app |
 | De 9 à 10 | 5 PA | 3 app |
@@ -103,11 +103,13 @@ Il est également nécessaire d’avoir consacré un temps d’apprentissage qui
 
 Ce qui nous donne, étape par étape :
 
-| Points d’Expérience Groupe |
-| --- |
+| Points d’Expérience Groupe | Coût | Apprentissage |
+| --- | --- | --- |
 | De 0 à 1 | 20 PX | 4 app |
 | De 1 à 2 | 40 PX | 8 app |
-| Points d’Expérience Compétences |
+
+| Points d’Expérience Compétences | Coût | Apprentissage |
+| --- | --- | --- |
 | De 0 à 1 | 10 PX | 2 app |
 | De 1 à 2 | 20 PX | 4 app |
 | De 2 à 3 | 30 PX | 6 app |

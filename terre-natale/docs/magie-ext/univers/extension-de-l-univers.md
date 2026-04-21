@@ -95,9 +95,9 @@ Si le personnage a le trait « Tradition Magique » alors sa réserve de Mana d�
 
 #### La Récupération de Mana
 
-Elle fixe la récupération du Mana. La Récupération de Mana dépend de l’Attribut associé à la Tradition et de l'Équilibre.
+Elle fixe la récupération du Mana.
 
-- Récupération du Mana = modificateur de l’attribut de tradition + modificateur d'Équilibre.
+- Récupération du Mana = Récupération.
 
 #### L’Opposition
 

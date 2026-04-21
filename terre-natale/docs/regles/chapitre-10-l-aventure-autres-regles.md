@@ -98,18 +98,18 @@ Chaque objet a un prix de base indexé sur son utilité. Ce prix est augmenté l
 
 Chaque objet a un modificateur de rareté indexé la facilité ou la difficulté à le trouver dans une zone, un pays ou une région. Ce modificateur est voué à changer très souvent et dépend entièrement de l’économie du monde.
 
-| Modificateur de Rareté |
-| --- |
-| Rareté | 0 | 1 | 2 | Normal | 4 | 5 | 6 |
+| Modificateur de Rareté | 0 | 1 | 2 | Normal | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Modif. | X30 | X60 | X90 | X120 | X180 | X240 | X300 |
 
 Chaque objet a un modificateur de qualité indexé sur son niveau de qualité.
 
-| Modificateur de Qualité |
-| --- |
-| Niveau Qualité | 1 | 2 | 3 | 4 | 5 | 6 |
+| Modificateur de Qualité | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
 | Modif. | X3 | X6 | X12 | X25 | X50 | X100 |
-| Niveau Qualité | -5 | -4 | -3 | -2 | -1 | 0 |
+
+| Modificateur de Qualité | -5 | -4 | -3 | -2 | -1 | 0 |
+| --- | --- | --- | --- | --- | --- | --- |
 | Modif. | 1/4 | 1/3 | ½ | 2/3 | 3/4 | X1 |
 
 Le prix d’un objet est ainsi simplement le produit des différents facteurs énoncés.
@@ -604,7 +604,7 @@ Dans certains cas, entraîner un trait ne peut se faire sans circonstances logiq
 
 ### Réaliser une tâche avec outils
 
-Si un personnage réalise une tâche avec un outil alors il est généralement confronté à une situation où la règle de la progression s’applique. La régularité à laquelle le test de progression a lieu dépend entièrement de la situation, on parle d’un temps de travail, allant de l’instantané (pour un crochetage par exemple) à la journée (déchiffrer un texte ancien), c’est au MJ de déterminer cette durée. Chaque temps de travail réalisé sur une tâche permet de réaliser un test adapté à la situation VS la difficulté associée à la tâche (souvent dépends d’une catégorie). - Si le test est une réussite alors la progression augmente d’autant que le résultat du jet issu de ce test. - Si le test est un échec alors la progression est réduite de 20. La tâche est accomplie lorsque la progression atteint 2x la difficulté OU, si applicable, l’intégrité (voir les structures). La tâche est un échec lorsqu’un certain nombre d’échecs sont atteints durant la tâche, successifs ou non, ce nombre est de 2.
+Si un personnage réalise une tâche avec un outil alors il est généralement confronté à une situation où la règle de la progression s’applique. La régularité à laquelle le test de progression a lieu dépend entièrement de la situation, on parle d’un temps de travail, allant de l’instantané (pour un crochetage par exemple) à la journée (déchiffrer un texte ancien), c’est au MJ de déterminer cette durée. Chaque temps de travail réalisé sur une tâche permet de réaliser un test adapté à la situation VS la difficulté associée à la tâche (souvent dépends d’une catégorie). - Si le test est une réussite alors la progression augmente d’autant que le résultat du jet issu de ce test (les règles de réussite critique s’appliquent normalement : sur une marge de 10+, les dés sont au maximum). - Si le test est un échec alors la progression est réduite de 20. La tâche est accomplie dès que la progression atteint 2x la difficulté OU, si applicable, l’intégrité (voir les structures) — tout excédent est ignoré. La tâche est un échec lorsqu’un certain nombre d’échecs sont atteints durant la tâche, successifs ou non, ce nombre est de 2.
 
 | Règle alternative : Tâche interactives |
 | --- |
@@ -680,138 +680,7 @@ Bien entendu il ne s’agit pas que de genre d’effets ou de conditions mais to
 
 ### L’adversité
 
-On parle d’adversité pour qualifier la menace que représente un personnage pour les joueurs.
-
-Comment lire les paragraphes qui suivent ? Les tables donnent une idée rapide des jeux de compétences (groupe inclus) et attributs selon les domaines d’activités du personnage, qui doivent être dictée par la logique (la profession/occupation du personnage notamment), c’est au MJ de faire la démarche mentale de se dire que telle ou telle compétence est très haute ou juste haute pour tel ou tel pnj. Un personnage a toujours le droit à deux ou trois compétences très hautes, au moins trois ou quatre compétences hautes et trois ou quatre moyennes, le reste étant bas ou très bas. Les personnages utiles des outils adaptés à leurs professions (armes et armures incluses) et leurs objets de qualités sont généralement associés à des améliorations adaptées. Si vous utilisez les règles de castes alors le rang correspond au rang que le personnage a atteint dans sa caste. Enfin le moral reflète son état d’âme face à l’adversité et au danger, à moins que la cause ne lui soit fatale ou trop importante le personnage peut s’enfuir ou se rendre dès lors que ses ressources de vitalité ou mentale chute d’autant que le % indiqué, ou qu’il subit une lésion lui infligeant une pénalité au moins égale à celle indiqué. Évidemment, que le personnage abandonne ou pas le combat dépend entièrement du MJ qui est le seul à juger s’il y a de bonnes raisons à le faire ou pas. Notons enfin que le personnage aura toujours les traits nécessaires à l’exercice de sa fonction, quel qu’elle soit. Un artisan est formé à l’usage de ses outils, un combattant à ses armes, un mage à sa magie… Partez du principe qu’ils ont ce qu’ils devraient avoir pour agir sans malus lorsque c’est possible et raccord avec leur rôle.
-
-Pour les attributs notons que le personnage est censé avoir 2 attributs très hauts, 2 hauts, 2 moyens, 2 bas et le reste très bas. La chance doit être un de ces attributs, cependant l’équilibre est calculé normalement (et résulte en la valeur moyenne). Les attributs de taille, stature, ego ou apparence sont par défaut de 10 mais le MJ peut moduler cela en fonction des besoins scénaristiques : Pas de formalités inutiles ici.
-
-!!! note "Note"
-    Selon le bonus lié aux compétences la répartition entre groupe et compétence (à des fins de règles par exemple) va en ce sens :![A picture containing light Description automatically generated](images/image1.png)
-
-    +1 – 1 en compétence, 0 en groupe
-
-    +2 – 1 en compétence, 1 en groupe
-
-    +3 – 2 en compétence, 1 en groupe
-
-    +4 – 2 en compétence, 2 en groupe
-
-    +5 – 3 en compétence, 2 en groupe
-
-    +6 – 4 en compétence, 2 en groupe +7 – 5 en compétence, 2 en groupe +8 – 5 en compétence, 3 en groupe
-
-Le quidam représente monsieur et madame tout le monde, ce sont des personnages qui n’ont rien de particulier sinon un métier qu’il exerce probablement assez mal, pour le reste ils sont dans la grande moyenne. Le quidam ne représente pas une menace pour un personnage héroïque seul. Le boulanger du coin ou le paysan sont des quidams. Le réceptionniste d’un hôtel de ville est un quidam. Le marchand d'armes sans réputation est un quidam.
-
-| Profil - Quidam |
-| --- |
-|  | TrèsHaut | Haut | Moyen | Bas | Très Bas |
-| Compétence | +2 | +1 | +0 | +0 | +0 |
-| Attribut | +2 | +1 | +0 | -1 | -2 |
-| Autre | +0 | +0 | +0 | +0 | +0 |
-| Total | +4 | +2 | +0 | -1 | -2 |
-| Qualité | 0 |
-| Rang | Apprenti (+) (2) |
-| Moral | 25% ou -0 |
-| PK | 0 |
-| PE/PC/PM | 50% |
-| PV/PS | 100% |
-
-Les sbires sont un cran au-dessus des quidams, à peine plus compétents que la moyenne, ils sont généralement employés en masse pour de basses besognes. Le sbire représente une faible menace pour un personnage héroïque seul. Les petites frappes qui œuvrent pour un chef de gang sont des sbires. L'administration occupant un petit poste logistique d’un hôtel de ville est un sbire. Le marchand d'armes un peu réputé du quartier est un sbire.
-
-| Profil - Sbire |
-| --- |
-|  | TrèsHaut | Haut | Moyen | Bas | Très Bas |
-| Compétence | +3 | +2 | +1 | +1 | +0 |
-| Attribut | +3 | +2 | +1 | +0 | -1 |
-| Autre | +0 | +0 | +0 | +0 | +0 |
-| Total | +6 | +4 | +2 | +1 | -1 |
-| Qualité | 1 |
-| Rang | Compagnon (+) (4) |
-| Moral | 50% ou -1 |
-| PK | 0 |
-| PE/PC/PM | 50% |
-| PV/PS | 100% |
-
-Les ennemis sont relativement compétents et disposent d’une certaine maîtrise de leur domaine de prédilection. L’ennemi constitue une menace notable pour un personnage héroïque seul et une menace mineure pour un groupe de personnages. Le chef d’un petit gang de voleurs est un ennemi, l’obstacle à surmonter pour une résolution de petite envergure. Le conseiller d’un maire ou seigneur occupant un poste logistique important dans une ville est l'équivalent un ennemi. Le marchand d'armes réputé être le meilleur en ville est l'équivalent d’un ennemi. Les ennemis utilisent parfois des manœuvres en combat afin d’augmenter leur efficacité, ils ne sont pas dénués d’esprit logique.
-
-| Profil - Ennemis |
-| --- |
-|  | TrèsHaut | Haut | Moyen | Bas | Très Bas |
-| Compétence | +5 | +4 | +2 | +1 | +0 |
-| Attribut | +4 | +3 | +2 | +1 | +0 |
-| Autre | +1 | +0 | +0 | +0 | +0 |
-| Total | +10 | +7 | +4 | +2 | +0 |
-| Qualité | 2 |
-| Rang | Expert (+) (6) |
-| Moral | 75% ou -2 |
-| PK | 50% |
-| PE/PC/PM | 100% |
-| PV/PS | 100% |
-| Promotions | Défaut 0, Max 1 |
-
-Les adversaires sont l’équivalent des personnages héroïques et représentent donc une épreuve majeure pour eux. L’adversaire représente la menace qui se cache derrière un scénario simple, l’obstacle à surmonter pour une résolution d’envergure notable. L’adversaire constitue une menace importante pour un personnage héroïque seul et une menace adaptée/notable pour un groupe de personnages. Le général d’une armée, le chef d’une guilde de voleur, le maître d’arme du roi… ce sont à minima des adversaires. Le marchand d'armes réputé être le meilleur de la région est l'équivalent d’un adversaire. Les adversaires utilisent forcément des manœuvres en combat afin d’augmenter leur efficacité, ils utilisent des manœuvres adaptées selon leurs cibles etc.
-
-| Profil - Adversaires |
-| --- |
-|  | TrèsHaut | Haut | Moyen | Bas | Très Bas |
-| Compétence | +6 | +4 | +3 | +2 | +1 |
-| Attribut | +5 | +4 | +3 | +2 | +1 |
-| Autre | +2 | +1 | +0 | +0 | +0 |
-| Total | +13 | +9 | +6 | +4 | +2 |
-| Qualité | 3~4 |
-| Rang | Maitre (+) (8) |
-| Moral | 100% ou -3 |
-| PK | 100% |
-| PE/PC/PM | 150% |
-| PV/PS | 150% |
-| Promotions | Défaut 1, Max 2 |
-
-Une némésis est supérieure à un personnage héroïque et représente donc une épreuve cruciale pour eux. La némésis représente la menace récurrente qui se trame en toile de fond et qui dévoile ses cartes au dernier moment, quand il s’agit de surprendre ou d’en finir. C’est l’obstacle à surmonter pour une résolution éclatante, pour en finir avec une menace d’envergure, pour conclure une histoire. L’adversaire constitue une menace surdimensionnée pour un personnage héroïque et une menace importante pour un groupe de personnages. Seul des personnages importants d’une histoire sont ainsi catégorisés, mais si on devait donner des correspondances ce seraient les suivantes : Le roi d’une nation, le héros d’une nation, l’homme d’église à la tête d’une religion… peuvent être des némésis. Le marchand d'armes réputé être le meilleur de son royaume est peut être aussi doué qu’une némésis dans son art. Les némésis utilisent forcément des manœuvres en combat afin d’augmenter leur efficacité, ils ont une véritable stratégie.
-
-| Profil - Némésis |
-| --- |
-|  | TrèsHaut | Haut | Moyen | Bas | Très Bas |
-| Compétence | +7 | +5 | +4 | +2 | +1 |
-| Attribut | +7 | +5 | +4 | +3 | +2 |
-| Autre | +3 | +2 | +1 | +0 | +0 |
-| Total | +17 | +12 | +8 | +4 | +2 |
-| Qualité | 4~5 |
-| Rang | Grand Maître (+) (10) ou supérieur Épique (+) (14) au mieux |
-| Moral | Inébranlable, lésion max +1 |
-| PK | 200% |
-| PE/PC/PM | 200% |
-| PV/PS | 200% |
-| Promotions | Défaut 2, Max 4 |
-
-Une légende est bien supérieure à un personnage héroïque et représente donc une épreuve normalement insurmontable pour eux. La légende représente la menace ultime qui instille la déférence et intime la nuance dans un scénario, c’est un personnage si influent ou si puissant qu’il peut servir de levier pour battre les cartes ou créer du drama au besoin et sans forcer. Si c’est un obstacle alors c’est l’obstacle final à surmonter pour une résolution définitive. La légende constitue une menace lunaire pour un personnage héroïque et une menace épique pour un groupe de personnages. Seuls des personnages centraux d’une histoire sont ainsi catégorisés. Les légendes utilisent toutes les règles à leur avantage, ils n’en sont pas arrivés si loin sans raisons.
-
-| Profil - Légendes |
-| --- |
-|  | TrèsHaut | Haut | Moyen | Bas | Très Bas |
-| Compétence | +8 | +6 | +5 | +3 | +2 |
-| Attribut | +9 | +7 | +5 | +4 | +3 |
-| Autre | +4 | +3 | +2 | +1 | +0 |
-| Total | +21 | +16 | +12 | +8 | +5 |
-| Qualité | 5~6 |
-| Rang | Épique (+) (14) ou supérieur Divin (+) (20) au mieux |
-| Moral | Inébranlable, lésion max +2 |
-| PK | 300% |
-| PE/PC/PM | 300% |
-| PV/PS | 300% |
-| Promotions | Défaut 4, Max 6 |
-
-### Les adversaires non conventionnels
-
-Les morts vivants et les machines ne peuvent pas être choqués et ne disposent pas du bonus de défense associé au fait de ne pas l’être mais d’un bonus de 2 appliqués en toutes situations. Les morts vivants ne subissent pas les pénalités de leurs blessures. Les machines n’ont pas de vitalité mais une structure basée sur leur attribut de constitution. Voir comment endommager les structures dans les règles de combat.
-
-### Bestiaire non humain
-
-Parmi les créatures dont les règles de base ne tiennent pas compte, nous notons, selon les univers : Les animaux et les monstres. Voici les différences notables entre ces 2 types de créatures.
-
-Les animaux n’apprennent que très peu mais sont dotés d’attribut naturel très élevé dans leurs domaines respectifs. Par exemple l’ourse ne sait pas faire de la lutte, il n’a pas de techniques, mais il est extrêmement bon dans ce domaine dû à son incroyable constitution. De plus, ils sont plus portés sur les attributs du corps que de l’esprit. Modificateurs (adversité) : * Attributs du corps meilleurs (+50%), Attributs de l’esprit plus faibles (-50%) * Pas de compétence, uniquement des groupes
-
-Les monstres, que l’on peut ranger dans de multiples sous-familles, sont différents des animaux en cela qu’ils ont, pour la majorité en tout cas, des traits particuliers qui sortent de l’ordinaire et qui n’ont rien de naturel. Modificateurs (adversité) : * Avantages (régénération, membres supplémentaires, réductions de dégâts, bonus d’attributs, etc) mineurs ou majeurs * Désavantage qui compense ces avantages. On dénote 2 différentes formes de monstres : Les primitifs et les monstruosités. Les primitifs profitent davantage de notables qui les rendent dangereux, mais il n’est pas nécessaire de connaître ses points faibles pour le vaincre. Ce sont les monstres de base dirons-nous. Les chimères profitent davantage de phénomènes (invulnérabilité, etc) qui les rendent extrêmement dangereux pour qui n’en sait pas assez sur leur nature. Et même ainsi il peut être difficile de vaincre une monstruosité si le moyen de s’en défaire n’est pas disponible ! Ce sont des monstres qui peuvent, à eux seuls, créer des intrigues !
+Voir chapitre 11 — L’Adversité.
 
 ### Échelles de distance
 

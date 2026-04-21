@@ -62,7 +62,8 @@ Il y a deux types de qualifications : - D’expérience : Correspond au totale d
 | XVIII | Légende + | 5200 | 85 |
 | XIX | Divin | 5600 | 95 |
 | XX | Divin + | 6000 | 105 |
-| + : lire « rang confirmé » |
+
+*+ : lire « rang confirmé »*
 
 Endosser le rôle d’une caste place donc le personnage au 1er rang de celle-ci, c’est-à-dire au rang d’apprenti. Lorsque la qualification est suffisante pour un rang, le personnage atteint le rang en question. Un groupe et une compétence augmente la qualification d’autant que leurs niveaux. Un groupe ne compte qu’une fois et ce même s’il a plusieurs compétences associées qui comptent dans la qualification, le groupe compte à partir du moment où au moins une compétence peut être utilisée avec un des attributs de la caste.
 
@@ -127,8 +128,10 @@ Les différentes ressources : PV : Point de vitalité. PS : Point de Spiritualit
 | Mage | Mixte (*) | PM / PC |
 | Science | Esprit (**) | PR / PS |
 | Science | Mixte (**) | PR / PC |
-| (*) : L’un des attributs est nécessairement la Magie, qui compte pour un attribut de l’esprit |
-| (**) : L’un des attributs est nécessairement la Logique, qui compte pour un attribut de l’esprit |
+
+*(*) : L’un des attributs est nécessairement la Magie, qui compte pour un attribut de l’esprit*
+
+*(**) : L’un des attributs est nécessairement la Logique, qui compte pour un attribut de l’esprit*
 
 #### Privilège Max
 
@@ -252,25 +255,29 @@ Lorsqu’il acquiert cet avantage, le personnage peut choisir un de ses traits d
 
 Dans le cas où le personnage ne souhaite pas améliorée un trait de caste ou si ses traits ne présentent pas d’avantage à être numériquement doublés, il peut à la place choisir d’obtenir un bonus de +2 à ses ressources de caste.
 
-| Rang | Titre | Ressources de Caste / Privilège PC Max | PA | Bonus d’Ajustement Sauvegardes | Max Attributs de Caste | Bonus Equilibre | Autres Avantages |
+| Rang | Titre | Res. / Priv. ¹ | PA | Sauvegardes ² | Max Attr. | Éq. | Autres Avantages |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| I | Apprenti | 1 | +7 | +2/+1/+0 | 18 | +0 | Privilège de Caste Entraînement aux armures (1) Maîtrise de caste 1 |
-| II | Apprenti + | 2 | +8 (15) | +2/+1/+0 | 19 | +1 | Entrainement de Caste (1) Formation Initiale |
-| III | Compagnon | 3 | +9 (24) | +3/+1/+0 | 19 | +1 | 1er Trait de Caste Maîtrise de caste 2 |
-| IV | Compagnon + | 4 | +10 (34) | +3/+2/+0 | 19 | +2 | Entrainement de Caste (2) Formation Finale Action de Caste |
-| V | Expert | 5 | +11 (45) | +4/+2/+1 | 20 | +2 | Point de Personnage +1 Science de la Caste Maîtrise de caste 3 |
-| VI | Expert + | 6 | +12 (57) | +4/+2/+1 | 20 | +3 | Entrainement de Caste (3) 2nd Trait de Caste |
-| VII | Maître | 7 | +13 (70) | +5/+3/+1 | 20 | +3 | Point de Personnage +1 Science de la Caste + Maîtrise de caste 4 |
-| VIII | Maître + | 8 | +14 (84) | +5/+3/+1 | 21 | +4 | Action de Caste améliorée Compétences supérieures |
-| IX | Grand Maître | 9 | +15 (99) | +6/+3/+2 | 21 | +4 | Point de Personnage +1 Maîtrise de caste 5 |
-| X | Grand Maître + | 10 | +16 (115) | +6/+4/+2 | 21 | +5 | Récupération Supérieure (+1) Savoir-Faire |
-| XI | Sommité | 11 | 17 | +7/+4/+2 | 22 | +5 | Point de Personnage +1 Maîtrise de caste 6 |
-| XII | Sommité + | 12 | 18 | +7/+4/+2 | 22 | +6 | Groupes supérieurs Attributs supérieurs |
-| XIII | Epique | 13 | 19 | +8/+5/+3 | 22 | +6 | Point de Personnage +1 Maîtrise de caste 7 |
-| XIV | Epique + | 14 | 20 | +8/+5/+3 | 23 | +7 | Multi Caste ou Caste Elite 1ere Apothéose |
-| XV | Légende | 15 | 21 | +9/+5/+3 | 23 | +7 | Point de Personnage +1 Maîtrise de caste 8 |
-| XVI | Légende + | 16 | 22 | +9/+6/+3 | 23 | +8 | Récupération Extrême (+2) 2eme Apothéose |
-| XVII | Mythique | 17 | 23 | +10/+6/+4 | 24 | +8 | Point de Personnage +1 Maîtrise de caste 9 |
-| XVIII | Mythique + | 18 | 24 | +10/+6/+4 | 24 | +9 | Compétences extrêmes Multi Caste ou Caste Elite + 3eme Apothéose |
-| XIX | Divin | 19 | 25 | +11/+7/+4 | 24 | +9 | Point de Personnage +1 Maîtrise de caste 10 |
-| XX | Divin + | 20 | 26 | +11/+7/+4 | 25 | +10 | Groupes extrêmes Récupération Divine (+3) Dernière Apothéose |
+| I | Apprenti | 1 | +7 | +2/+1/+0 | 18 | +0 | Privilège de Caste<br>Entraînement aux armures (1)<br>Maîtrise de caste 1 |
+| II | Apprenti + | 2 | +8 (15) | +2/+1/+0 | 19 | +1 | Entraînement de Caste (1)<br>Formation Initiale |
+| III | Compagnon | 3 | +9 (24) | +3/+1/+0 | 19 | +1 | 1er Trait de Caste<br>Maîtrise de caste 2 |
+| IV | Compagnon + | 4 | +10 (34) | +3/+2/+0 | 19 | +2 | Entraînement de Caste (2)<br>Formation Finale<br>Action de Caste |
+| V | Expert | 5 | +11 (45) | +4/+2/+1 | 20 | +2 | Point de Personnage +1<br>Science de la Caste<br>Maîtrise de caste 3 |
+| VI | Expert + | 6 | +12 (57) | +4/+2/+1 | 20 | +3 | Entraînement de Caste (3)<br>2nd Trait de Caste |
+| VII | Maître | 7 | +13 (70) | +5/+3/+1 | 20 | +3 | Point de Personnage +1<br>Science de la Caste +<br>Maîtrise de caste 4 |
+| VIII | Maître + | 8 | +14 (84) | +5/+3/+1 | 21 | +4 | Action de Caste améliorée<br>Compétences supérieures |
+| IX | Grand Maître | 9 | +15 (99) | +6/+3/+2 | 21 | +4 | Point de Personnage +1<br>Maîtrise de caste 5 |
+| X | Grand Maître + | 10 | +16 (115) | +6/+4/+2 | 21 | +5 | Récupération Supérieure (+1)<br>Savoir-Faire |
+| XI | Sommité | 11 | 17 | +7/+4/+2 | 22 | +5 | Point de Personnage +1<br>Maîtrise de caste 6 |
+| XII | Sommité + | 12 | 18 | +7/+4/+2 | 22 | +6 | Groupes supérieurs<br>Attributs supérieurs |
+| XIII | Épique | 13 | 19 | +8/+5/+3 | 22 | +6 | Point de Personnage +1<br>Maîtrise de caste 7 |
+| XIV | Épique + | 14 | 20 | +8/+5/+3 | 23 | +7 | Multi Caste ou Caste Élite<br>1ère Apothéose |
+| XV | Légende | 15 | 21 | +9/+5/+3 | 23 | +7 | Point de Personnage +1<br>Maîtrise de caste 8 |
+| XVI | Légende + | 16 | 22 | +9/+6/+3 | 23 | +8 | Récupération Extrême (+2)<br>2ème Apothéose |
+| XVII | Mythique | 17 | 23 | +10/+6/+4 | 24 | +8 | Point de Personnage +1<br>Maîtrise de caste 9 |
+| XVIII | Mythique + | 18 | 24 | +10/+6/+4 | 24 | +9 | Compétences extrêmes<br>Multi Caste ou Caste Élite +<br>3ème Apothéose |
+| XIX | Divin | 19 | 25 | +11/+7/+4 | 24 | +9 | Point de Personnage +1<br>Maîtrise de caste 10 |
+| XX | Divin + | 20 | 26 | +11/+7/+4 | 25 | +10 | Groupes extrêmes<br>Récupération Divine (+3)<br>Dernière Apothéose |
+
+*¹ Res. / Priv. : Ressources de Caste (maximum des ressources associées à la caste) et Privilège PC Max (maximum de PC dépensables en une fois lors du privilège). Ces deux valeurs sont toujours identiques.*
+
+*² Sauvegardes : bonus d'ajustement exprimé sous la forme Majeure / Mineure / Hors caste.*

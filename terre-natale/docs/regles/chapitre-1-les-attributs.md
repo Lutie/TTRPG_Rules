@@ -87,15 +87,15 @@ Notons que pour calculer une défense passive l’attribut associé est augment�
 
 Il y a 10 attributs principaux caractérisant un personnage. Ces attributs peuvent être employés pour réaliser des tests de compétences ou d’attributs. Pour un personnage joueur, la valeur de base de ces attributs est de 10, sauf dans le cas d'une création de personnage avec des points à répartir (voir la section concernant la Création de personnage).
 
-| Attributs Principaux |
-| --- |
-| Attributs du Corps |
+| Abréviation | Attributs Principaux |
+| --- | --- |
+| **Attributs du Corps** | |
 | FOR | Force |
 | CON | Constitution |
 | DEX | Dextérité |
 | AGI | Agilité |
 | PER | Perception |
-| Attributs de l’Esprit |
+| **Attributs de l’Esprit** | |
 | CHA | Charisme |
 | VOL | Volonté |
 | INT | Intelligence |
@@ -166,8 +166,8 @@ Il y a 10 attributs principaux caractérisant un personnage. Ces attributs peuve
 
 Il y a donc 6 attributs secondaires qui complètent un personnage. Ces attributs ont pour base une valeur de 10, sauf cas particuliers (l’équilibre).
 
-| Attributs Secondaires |
-| --- |
+| Abréviation | Attributs Secondaires |
+| --- | --- |
 | EGO | Ego |
 | APP | Apparence |
 | STA | Stature |

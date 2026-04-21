@@ -459,7 +459,7 @@ Les attaques dites énergétiques, c’est-à-dire sollicitant une énergie, son
 !!! info "Rappel"
     ![](images/image1.png)
 
-    La défense passive d’un personnage est égale à : 10 + modificateur de l’attribut + 1 si attribut impaire + 5 si non « choqué ».
+    La défense passive d’un personnage suit la formule complète définie au chapitre 4 : **15 + Modificateur d’Attribut + 1 (si attribut impair)**, ou **10 + Modificateur d’Attribut + 1 (si attribut impair)** si le personnage est choqué.
 
     / !\ Si un personnage porte une armure le bonus de qualité s’applique dans le calcul (pour rappel le bonus de qualité est un ajustement qui augmente les attributs, pas le modificateur directement).
 
@@ -618,7 +618,9 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
 
     Malice : Ajustement au jet pour déterminer la charge (associée à une condition) d'une action.
 
-    Dégâts : Ajustement au jet pour déterminer les dégâts d'une attaque. Visée : Réduction de la difficulté de visée.
+    Dégâts : Ajustement au jet pour déterminer les dégâts d'une attaque.
+
+    Visée : Réduit les pénalités de couverture/visibilité puis la difficulté de localisation (dans cet ordre).
 
 !!! tip "Règle optionnelle : Bascule des dégâts"
     Cette règle permet à l’endurance d’être utile dans bien plus de circonstances et pas uniquement lorsqu’on porte une armure et/ou que l’on a de la déviation.![](images/image2.png)
@@ -665,9 +667,10 @@ Toutes les actions de défense n’ont pas pour but de réduire à néant les ef
 
 Les actions de défense physiques sont et se déclinent en de multiples effets dont l’intérêt dépend de ce que le personnage cherche à produire : Celui-ci va-t-il profiter de l’occasion pour contre attaquer ou riposter ? Va-t-il chercher à éviter de subir une blessure cout que cout ? etc…
 
+**Défenses Majeures**
+
 | Action | Comp. | Utilisé pour |
 | --- | --- | --- |
-| Défenses Majeures |
 | Parer | Parade (DEX) | - Ajouter la Déviation à l’absorption - Permettre une Contre-attaque - Si échec : DR (vs diff 5) en déviation x2 |
 | Bloquer | Blocage (CON) | - Ajouter la Déviation à l’absorption - Permettre une Riposte - Si échec : DR (vs diff 5) en déviation x2 |
 | Esquiver | Esquive (AGI) | - Ignorer tous les Dégâts - Provoque des Opportunités - Si échec : DR (vs diff 5) en défense passive x1 |
@@ -675,11 +678,19 @@ Les actions de défense physiques sont et se déclinent en de multiples effets d
 | Protéger | Protection (PER) | - Subit l’attaque à la place d’un allié (obligatoire) - Si échec : DR (vs diff 5) en déviation x2 |
 | Se Couvrir | Couverture (PER) | - Ignorer tous les Dégâts - Si échec : DR (vs diff 5) en pénalité de couverture x1 - Nécessite de profiter d’un bonus de couverture initial via un obstacle (qui encaisse les dégâts à la place et peut être détruit) - Provoque des Opportunités (si déplacement) |
 | Subir | Armure (CON) | - Ignore la blessure - Si échec : DR (vs diff 5) en protection x2 |
-| Défenses Mineures |
+
+**Défenses Mineures**
+
+| Action | Comp. | Utilisé pour |
+| --- | --- | --- |
 | Dévier | Armure (DEX) | - Diviser par 2 les Dégâts Permanents et Temporaires - Si échec : DR (vs diff 5) en réduction de dégâts permanents de 1 et temporaire de 2 |
 | Eviter | Armure (AGI) | - Ignorer les Dégâts Permanents - Si échec : DR (vs diff 5) en réduction de dégâts permanents de 2 |
 | Encaisser | Armure (FOR) | - Ignorer les Dégâts Temporaires - Si échec : DR (vs diff 5) en réduction de temporaire de 4 |
-| Défenses Spéciales |
+
+**Défenses Spéciales**
+
+| Action | Comp. | Utilisé pour |
+| --- | --- | --- |
 | Se Prémunir | Endurance (CON) | Groupe : Discipline - Permet d’ignorer les conditions physiques - Si échec : DR (vs diff 5) en réduction de charge de la condition de 4 |
 
 ### Les Défenses mentales
@@ -1070,7 +1081,7 @@ La précision est la faculté permettant d'ignorer une partie de la protection a
 
 #### La Visée
 
-La visée est la faculté permettant d'ignorer une partie des pénalités liées à la couverture adverse OU d'ignorer une partie des pénalités de visée.
+La visée est un bonus qui réduit les pénalités s'appliquant lors d'une tentative de localisation. Il s'applique en priorité sur les pénalités de couverture et les malus de visibilité, puis sur la difficulté accrue liée à la localisation elle-même. Ces deux effets ne s'appliquent pas simultanément : le bonus est absorbé dans cet ordre.
 
 ### Les Caractéristiques Tactiques
 
@@ -1203,6 +1214,9 @@ Pour plus de détails sur les actions doubles, voir l’encadré à ce sujet.
 
 ## La Localisation
 
+!!! tip "Règle avancée"
+    La localisation est une règle avancée de confrontation. Elle n'est pas nécessaire pour jouer et peut être ignorée dans un premier temps.
+
 En confrontation il est une autre notion très importante (décidément il y en a pas mal) : La localisation !
 
 Il existe ainsi deux types de localisations : Les localisations du corps et les localisations de l’esprit.
@@ -1215,7 +1229,7 @@ Il est bien important de noter qu’une attaque localisée voit effectivement la
 
 La difficulté de la visée fixe donc une difficulté supplémentaire à dépasser lorsqu’un personnage tente de localiser son attaque.
 
-La difficulté de la visée s'établit en fonction de la défense passive de l’attribut à laquelle correspond la zone que l’on souhaite touchée + 5. Si le personnage profite d’un bonus de précision alors la difficulté de visée est réduite d’autant, cela peut amener la difficulté de viser à une valeur inférieure à la difficulté de l’action. Si une attaque dépasse la difficulté de visée mais pas la difficulté de l’action alors l’action réussit mais les jets sont divisés par deux.
+La difficulté de la visée s'établit en fonction de la défense passive de l’attribut à laquelle correspond la zone que l’on souhaite touchée + 5. Si le personnage profite d’un bonus de visée alors la difficulté de visée est réduite d’autant, cela peut amener la difficulté de viser à une valeur inférieure à la difficulté de l’action. Si une attaque dépasse la difficulté de visée mais pas la difficulté de l’action alors l’action réussit mais les jets sont divisés par deux.
 
 ### Les Localisations du Corps
 
@@ -1547,7 +1561,8 @@ Il existe, en plus des actions mentionnées dans le tableau ci-dessous, plusieur
 | Grimper (*) | Action Complexe | 0,5 x Déplacement |
 | Nager (*) | Action Complexe | 0,5 x Déplacement |
 | Désengager (*) | Action Complexe | 0,5 x Déplacement |
-| (*) : Ces actions sont sujettes à des règles spécifiques. Voir le compendium des actions pour celles-ci. |
+
+*(*) : Ces actions sont sujettes à des règles spécifiques. Voir le compendium des actions pour celles-ci.*
 
 ### Les Modificateurs de Test
 
@@ -1850,9 +1865,13 @@ Certaines règles affectent aussi bien les confrontations que les joutes.
 
 ### Le moral des équipes
 
-Lorsqu’une confrontation débute chaque camps fait la somme des modificateurs de charisme de ses participants : Cette somme correspond au moral de l’équipe en question. Chaque membre reçoit du moral égal au moral de son camp, le moral fait office de tampon pour l’endurance et se limite (comme toutes les ressources temporaires) à la résilience de chaque personnage. Le moral est considéré comme une forme de ressource temporaire.
+Le moral est une ressource temporaire de confrontation qui représente la cohésion, la motivation et l’élan collectif d’un camp. Sa valeur de départ est calculée comme suit :
 
-Lorsqu’un participant entre dans une confrontation, le moral qu’il véhicule est appliqué à tous les participants de son camp.
+- Moral d’équipe = somme des modificateurs de Charisme de tous les participants du camp.
+
+Chaque membre reçoit individuellement du moral égal à ce total. Le moral fait office de tampon pour l’endurance et se limite (comme toutes les ressources temporaires) à la résilience de chaque personnage.
+
+Lorsqu’un participant entre dans une confrontation en cours, le moral qu’il véhicule est appliqué à tous les participants de son camp.
 
 ### Le test de moral
 
@@ -1887,25 +1906,4 @@ Les circonstances particulières peuvent réduire ou augmenter la menace d’un 
 
 ## Les Points Vitaux
 
-Lorsqu’il s’agit de combattre des créatures dont la taille ou la morphologie est notablement différente à celle d’un humanoïde, les règles peuvent s’adjoindre du concept de point vitaux.
-
-Par défaut les êtres vivants disposent tous d’un unique point vital, dit point vital principal, c’est techniquement ce qui leur octroie leurs 2 actions simples et 1 action libre par rounds, etc…
-
-### Qui ?
-
-Une créature dont la taille est largement supérieure à celle d’un humanoïde lambda est très généralement doté de plusieurs points vitaux.
-
-!!! note "Note"
-    Selon l’univers il peut s’agir d’animaux massifs comme de monstres ou de créatures plus exotiques tels que des automates.![A yellow diamond with a black strip Description automatically generated](images/image1.png)
-
-    Dans les exemples donnés en encadré nous prendrons celui des dragons, créature mythologique bien connue, afin d’illustrer les règles sur un cas explicite.
-
-### L’impact des points vitaux
-
-Voici ce qui change pour les créatures disposant de plusieurs points vitaux : - La créature dispose, comme tout le monde, de 2 actions simples (ou action complexe) et une action libre par round. Ces actions, liées au point vital principal, peuvent être dépensées pour n’importe quel type d’action et peuvent être égrenées sur les différentes passes d’arme que peut prendre la créature durant un même round. - La créature dispose de passes d’arme supplémentaires équivalant au nombre de points vitaux encore actif (incluant le principal) divisés par 2, arrondis à l’inférieur. - La créature peut agir une première fois à son rang d’initiative puis à nouveau à son rang d’initiative -5 par passes déjà prises lors du même round. Une fois son nombre de passes maximum dépensées elle n’en a plus jusqu’au prochain round. - A chaque passe la créature peut utiliser une ou plusieurs de ses actions simples et/ou libres en stock ET une action supplémentaire. Si l’action supplémentaire n’est pas utilisée, elle est alors perdue (elle peut être utilisée pour préparer une défense cependant, ou tout autre type d’action retardée). - La créature doit respecter la limitation qui empêche un protagoniste de confrontation de réaliser plusieurs fois la même action lors d’un même round (sauf le déplacement qui est limité à 2 à la place). Notons que dans ce cas cela s’étend aussi au fait de ne pas utiliser deux fois le même point vital. - Les actions supplémentaires ne peuvent pas être utilisées en interruption ou à d’autres moments que durant une passe, à moins d’avoir été préparées ou retardées. - Un point vital dispose d’autant de PV que les PV maximum de la créature, le point vital principal dispose de l’entièreté des PV et là où les autres n’ont que la moitié. Si les PV d’un point vital passent à 0 alors le point vital n’est plus actif. - Une créature est vaincue si son point principal l’est, les autres importent peu. - Tant qu’un point vital non principal est actif la résistance du point vital principale est augmentée de 5. - Une attaque localisée ne peut avoir lieu sur une créature disposant de points vitaux, les attaques touchent forcément un point vital (et dépendent plus du placement ou de la situation que d’une visée). - Le point vital principal est toujours rattaché à la partie du tronc (ou ce qui s’en approche, avec le cœur etc) et des jambes. - Le point vital correspond à la tête est généralement rattaché à la notion d’orientation, si ce point vital est inactif alors la créature est désorienté et a du mal à réaliser tout ce qui nécessite de voir/percevoir la cible, elle subit alors un désavantage. C’est un point hautement défendu par la créature qui mettra tout en œuvre pour ne pas perdre cette faculté. - Les blessures n’affectent que les actions relatives au point vital affecté.
-
-### Exemple concret
-
-Prenons l’exemple d’une créature mythique mais hautement symbolique : Un dragon adulte. Le dragon dispose d’un point vital principale : Son corps. Il dispose également d’une gueule, de ses ailes, de sa queue et de ses griffes. L’armure naturelle du dragon (en écaille) est de catégorie 3. Alors le dragon dispose de 5 points vitaux, soit 3 passes en tout (une à son rang d’initiative, puis une autre à -5 et encore une autre à -10). De plus, le corps du dragon bénéficie d’une résistance de 20, il est alors difficile de le vaincre sans avoir vaincu un ou plusieurs points vitaux au préalable. Enfin le dragon peut : - Attaquer via sa gueule ou utiliser un pouvoir de dragon (tel qu’un souffle etc) via sa gueule. - Se déplacer, réaliser une tactique ou attaquer via ses ailes. - Réaliser une tactique ou attaque via sa queue. - Attaquer via ses griffes. Et évidemment si il perd certains de ces points vitaux il perd également les actions associées.
-
-Exemple d’un tour de combat. Le dragon prend sa première passe. Il décide d’utiliser une première action simple pour s’approcher d’une cible et de son action supplémentaire pour attaquer la cible avec sa gueule. De ses actions issus du round il lui reste une action simple et une action libre en stock. Le dragon prend sa seconde passe un peu plus tard. Il décide de n’utiliser que l’action supplémentaire cette fois en utilisant ses ailes pour renverser ses adversaires (tactique de renversement + manœuvre de zone pour toucher tout le monde autour de lui). De ses actions issus du round il lui reste toujours une action simple et une action libre en stock. Avant de prendre sa dernière passe le dragon effectue une action de défense afin de réduire les dégâts subis sur un point vital. Il peut puiser cette action dans l’action simple qui lui restait en stock. Aussi lorsqu’il prend sa passe suivante il n’a plus que son action libre et son action supplémentaire. Remarquons qu’ici le dragon ne tente pas deux fois la même action (tel que mordre deux fois ou agir deux fois avec ses ailes) car il ne peut pas réaliser deux fois la même action ni solliciter deux fois le même point vital.
+Voir chapitre 11 — L’Adversité.

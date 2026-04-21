@@ -122,9 +122,8 @@ Les équipements ne sont pas tous de qualité identique. S’il n’y a parfois 
 
 - La qualité des objets s’exprime en négatif pour des objets de mauvaise qualité ou en positif pour des objets de bonne qualité.
 
-| Qualité |
-| --- |
-| Modif. | Description | Prix Equipement | PrixConso |
+| Qualité (Modif.) | Description | Prix Equipement | Prix Conso |
+| --- | --- | --- | --- |
 | -5 | Minable | X1/4 | - |
 | -4 | Très médiocre | X1/3 | - |
 | -3 | Médiocre | X1/2 | - |
@@ -137,7 +136,8 @@ Les équipements ne sont pas tous de qualité identique. S’il n’y a parfois 
 | 4 | Superbe | X25 | X8 |
 | 5 | Merveilleuse | X50 | X12 |
 | 6 | Légendaire | X100 | - |
-| La valeur après X désigne le facteur de qualité, utilisé comme coefficient pour le prix des objets |
+
+*La valeur après X désigne le facteur de qualité, utilisé comme coefficient pour le prix des objets*
 
 Les effets d’une qualité dépendent de l’objet dont il est question : - Les objets dont on peut faire un usage (arme, armure, outils, etc) reçoivent un ajustement aux attributs équivalant à leur qualité lorsqu’ils sont utilisés dans le cadre de ce pour quoi ils ont été conçus (arme pour attaquer/défendre/tactique, armure pour esquiver/endurer, outils pour leur usage prévu). - La qualité permet de fixer la capacité d’améliorations dont pourra profiter n’importe quel type d’objets (arme, armure, accessoires, outils, et cetera), c’est-à-dire sa capacité d’amélioration. - Enfin la qualité de tous les objets s’ajoute (ou se soustrait) à la solidité de ce dernier.
 
@@ -210,18 +210,18 @@ La catégorie d’une arme est déterminée par le degré de menace qu’elle re
 - La Catégorie fixe les pénalités d’usages (égaux à 2 x Catégorie, affecte l’attribut, impactent autant tous les tests réalisés avec l’arme que l’initiative).
 - La Catégorie fixe également en grande partie le poids d’une arme (Catégorie x5).
 
-|  |  | Poids Pénalité | Jets Allonge | Prix de base (Mêlée/distance) |
+| Catégorie | Nom | Poids Pénalité | Jets Allonge | Prix de base (Mêlée/distance) |
 | --- | --- | --- | --- | --- |
-| Armes légères |
+| **Armes légères** | | | | |
 | 0 | Sans Arme | 0 ![](images/image11.png) -0 ![](images/image6.png) | 2D8 ![](images/image25.png) 0 ![](images/image32.png) | 20 ![](images/image23.png) | N/A |
 | 1 | Arme Commune | 5 ![](images/image11.png) -2 ![](images/image6.png) | 3D8 ![](images/image25.png) 1 ![](images/image32.png) | 40 ![](images/image23.png) | 30 ![](images/image23.png) |
-| Armes intermédiaires |
+| **Armes intermédiaires** | | | | |
 | 2 | Arme Escarmouche | 10 ![](images/image11.png) -4 ![](images/image6.png) | 4D8 ![](images/image25.png) 2 ![](images/image32.png) | 60 ![](images/image23.png) | 50 ![](images/image23.png) |
 | 3 | Arme d’Assaut | 15 ![](images/image11.png) -6 ![](images/image6.png) | 5D8 ![](images/image25.png) 3 ![](images/image32.png) | 80 ![](images/image23.png) | 70 ![](images/image23.png) |
-| Armes lourdes |
+| **Armes lourdes** | | | | |
 | 4 | Arme de Bataille | 20 ![](images/image11.png) -8 ![](images/image6.png) | 6D8 ![](images/image25.png) 4 ![](images/image32.png) | 100 ![](images/image23.png) | 90 ![](images/image23.png) |
 | 5 | Arme de Guerre | 25 ![](images/image11.png) -10 ![](images/image6.png) | 7D8 ![](images/image25.png)5 ![](images/image32.png) | 120 ![](images/image23.png) | 110 ![](images/image23.png) |
-| Catégories spéciales (**) |
+| **Catégories spéciales (**) | | | | |
 | 6 | Arme de Siège léger | 30 ![](images/image11.png) -12 ![](images/image6.png) | 8D8 ![](images/image25.png) 6 ![](images/image32.png) | 160 ![](images/image23.png) | 150 ![](images/image23.png) |
 | 7 | Arme de Siège | 35 ![](images/image11.png) -14 ![](images/image6.png) | 9D8 ![](images/image25.png) 7 ![](images/image32.png) | N/A | 200 ![](images/image23.png) |
 | 8 | Arme de Siège lourd | 40 ![](images/image11.png) -16 ![](images/image6.png) | 10D8 ![](images/image25.png) 8 ![](images/image32.png) | N/A | 250 ![](images/image23.png) |
@@ -307,7 +307,8 @@ La taille de l’arme désigne son envergure. C’est une information notée de 
 | Jet Att | -4 ![](images/image24.png) | -2 ![](images/image24.png) | - | +2 ![](images/image24.png) | +4 ![](images/image24.png) |
 | Allonge* | -2 ![](images/image32.png) | -1 ![](images/image32.png) | - | +1 ![](images/image32.png) | +2 ![](images/image32.png) |
 | Prix** | +6 ![](images/image23.png) | +3 ![](images/image23.png) | - | +3 ![](images/image23.png) | +6 ![](images/image23.png) |
-| * : Le modificateur d’allonge devient un modificateur de portée pour les armes de jet ou à distance. ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie. |
+
+*\* : Le modificateur d’allonge devient un modificateur de portée pour les armes de jet ou à distance. \*\* : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.*
 
 Une valeur différente de 0 désigne une différence notable avec les armes « normales » de même genre : On ne compare donc jamais ces valeurs entre des armes totalement différentes.
 
@@ -481,15 +482,15 @@ La catégorie d’une armure est déterminée par la gravité des menaces qu’e
 - La Catégorie fixe les pénalités d’usages (égaux à 2 x Catégorie, affecte l’attribut, impactent autant tous les tests réalisés avec l’arme que l’initiative, et dans le cas d’une armure la défense passive).
 - La Catégorie définit une partie de la charge que représente une armure (Catégorie x5).
 
-|  |  | Charge | RES Pénalités | ABS | PRO | Prix de base |
+| Catégorie | Nom | Charge | RES Pénalités | ABS | PRO | Prix de base |
 | --- | --- | --- | --- | --- | --- | --- |
-| Armures légères |
+| **Armures légères** | | | | | | |
 | 0 | Sans (Vêtement) | 0 ![](images/image11.png) (2) | 0 ![](images/image35.png) -0 ![](images/image6.png) | 0 ![](images/image33.png) (2) | 0 ![](images/image34.png) (1) | 20 ![](images/image23.png) (40) |
 | 1 | Tissus (Étoffes) | 5 ![](images/image11.png) (7) | 1 ![](images/image35.png) -2 ![](images/image6.png) | 3 ![](images/image33.png) (5) | 1 ![](images/image34.png) (2) | 60 ![](images/image23.png) (80) |
-| Armures intermédiaires |
+| **Armures intermédiaires** | | | | | | |
 | 2 | Peau léger (Peau lourd) | 10 ![](images/image11.png) (12) | 2 ![](images/image35.png) -4 ![](images/image6.png) | 6 ![](images/image33.png)(8) | 2 ![](images/image34.png) (3) | 100 ![](images/image23.png) (120) |
 | 3 | Cuir léger (Cuir lourd) | 15 ![](images/image11.png) (17) | 3 ![](images/image35.png) -6 ![](images/image6.png) | 9 ![](images/image33.png)(11) | 3 ![](images/image34.png) (4) | 140 ![](images/image23.png) (160) |
-| Armures lourdes |
+| **Armures lourdes** | | | | | | |
 | 4 | Mailles (Écailles) | 20 ![](images/image11.png) (22) | 4 ![](images/image35.png) -8 ![](images/image6.png) | 12 ![](images/image33.png)(14) | 4 ![](images/image34.png) (5) | 180 ![](images/image23.png) (200) |
 | 5 | Plaques (Plates) | 25 ![](images/image11.png) (27) | 5 ![](images/image35.png) -10![](images/image6.png) | 15 ![](images/image33.png)(17) | 5 ![](images/image34.png) (6) | 220 ![](images/image23.png) (240) |
 

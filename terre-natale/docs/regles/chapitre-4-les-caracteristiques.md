@@ -28,7 +28,7 @@ Les ressources fondamentales sont certes moins cruciales que les primordiales ma
 
 #### L’Endurance
 
-L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés. À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » (ou « choqué », ce mot clé subsiste mais est un reliquat d’anciennes règles) : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT). L'endurance peut être négative. Si l’endurance atteint sa propre valeur dans le négatif, le personnage est KO. L'endurance dépend de l’équilibre. L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
+L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés. À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT). L'endurance peut être négative. Si l’endurance atteint dans le négatif sa valeur maximale actuelle, le personnage est KO. L'endurance dépend de l’équilibre. L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
 
 - Endurance = Équilibre x 2.
 
@@ -52,7 +52,7 @@ Le Karma représente la force du destin permettant à certains d’accomplir de 
 Le Chi représente la capacité du personnage à réaliser des prouesses physiques et mentales. Si le Chi chute à 0 il est simplement impossible d’y faire appel. Le Chi ne peut pas être négatif. Le Chi dépend des attributs de la caste choisie.
 
 - Chi = 1er Attribut de Caste 1 + 2eme Attribut de Caste.
-- Récupération du Chi = modificateur du 1er Attribut de Caste OU modificateur du 2eme Attribut de Caste (le plus haut) + modificateur d’équilibre.
+- Récupération du Chi = Récupération.
 
 ### Les Ressources Spéciales
 
@@ -70,9 +70,16 @@ Les ressources temporaires sont extrêmement éphémères et n’ont de substanc
 
 Toutes les ressources fondamentales peuvent être acquises sous forme temporaire. Elles fonctionnent de la même façon et sont consommées en priorité.
 
-Il existe également des ressources temporaires associées à des actions spéciales (voir les règles associées dans les annexes idoines) : - Le Moral est une ressource temporaire acquise en début de confrontation. - La Garde est une ressource temporaire issue de l’extension des confrontations. - La Rage est une ressource temporaire issue de l’extension des confrontations. - L’Adrénaline est une ressource temporaire issue de l’extension des confrontations.
+Il existe également des ressources temporaires associées à des actions spéciales (voir les règles associées dans les annexes idoines) :
 
-Il existe également des ressources temporaires associées à des règles spéciales (voir les règles en question) : - Les points de Stratégie sont une ressource temporaire issue des règles “établir un plan”.
+- Le Moral est une ressource temporaire acquise en début de confrontation (voir chapitre 8 pour sa définition et son calcul).
+- La Garde est une ressource temporaire issue de l’extension des confrontations.
+- La Rage est une ressource temporaire issue de l’extension des confrontations.
+- L’Adrénaline est une ressource temporaire issue de l’extension des confrontations.
+
+Il existe également des ressources temporaires associées à des règles spéciales (voir les règles en question) :
+
+- Les points de Stratégie sont une ressource temporaire issue des règles “établir un plan”.
 
 !!! info "Rappel"
     L’initiative est le seul test de compétence qui n’est pas la conséquence d’une action explicitement déclarée par un personnage.![A silhouette of a person's head Description automatically generated](images/image3.png)
@@ -103,7 +110,7 @@ A chaque récupération (repos long) le personnage voit ses lésions réduite de
 
 Lésion bénigne (0) : Difficulté 10. □ □ □ + □ x mATT. Lésion légère (1) : Difficulté 12. □ □. Lésion importante (2) : Difficulté 14. □ □. Lésion grave (3) : Difficulté 16. □ □. Lésion mortelle (4) : Difficulté 18. □ □. Lésion incapacitante (5) : Difficulté 20. □ □. La difficulté de stabilisation/soin augmente de 1 par lésions, aussi soigner une lésion grave en ayant une bénigne et une légère en plus revêt d’une difficulté 18. Il peut donc, selon la maîtrise du soigneur, plus intéressant de commencer par soigner les lésions les plus basses. mATT ci-dessus correspond à mSTA (modificateur stature) pour les blessures (lésions physiques) et à mEGO (modificateur d’égo) pour les traumatismes (lésions mentales).
 
-Si le maximum de lésions incapacitantes est atteint, le personnage meurt.
+Si le maximum de lésions incapacitantes physiques est atteint, le personnage meurt. Si le maximum de lésions incapacitantes mentales est atteint, le personnage est vaincu : résigné ou abattu, il est incapable d'agir activement sur un conflit ou une situation.
 
 #### Les Blessures
 
@@ -115,13 +122,17 @@ Les Blessures sont issues des agressions physiques encaissées par le corps du p
 
 Les Traumatismes sont issus des agressions mentales encaissées par le personnage. - On dénote, dans l’ordre de gravité : Trauma Bénin (0), Trauma Légère (1), Trauma Important (2), Trauma Grave (3) et Trauma Mortel (4), Trauma Incapacitant (5). - Les Pénalités de Traumas sont appliquées aux tests. - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine de l’esprit).
 
-- Seuil de Blessure = 5 + modificateur de Stature + protection dû à la résolution (catégorie).
+- Seuil de Traumatisme = 5 + modificateur d'Ego + protection dû à la résolution (catégorie).
 
 ### Les autres forme de tension
 
 #### La Fatigue
 
-La Fatigue peut avoir plusieurs origines : - La conséquence d’échecs narratifs (voir la règle associée). - L’usage d’action particulière associée à un coût en fatigue (voir les actions). - Les soins non naturels (voir la règle associée). Lorsque la fatigue dépasse le seuil de résilience du personnage, le personnage en subit les conséquences sous forme de désavantages. - Les pénalités de fatigue sont appliquées à tous les tests, qu’il soit de compétences ou de sauvegardes; sous forme de désavantages. - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine douce).
+La Fatigue peut avoir plusieurs origines :
+
+- Les montées de stress consécutives à des échecs ou mauvais choix narratifs (voir « Le Prix de l’Échec », chapitre 10).
+- L’usage d’actions particulières associées à un coût en fatigue (voir le compendium des actions).
+- Les soins non naturels (voir chapitre 8). Lorsque la fatigue dépasse le seuil de résilience du personnage, le personnage en subit les conséquences sous forme de désavantages. - Les pénalités de fatigue sont appliquées à tous les tests, qu’il soit de compétences ou de sauvegardes; sous forme de désavantages. - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine douce).
 
 ## Les Récupérations
 
@@ -144,7 +155,7 @@ La récupération est la valeur par défaut, mais il existe de nombreux effets q
 !!! tip "Règles Optionnelles : Équilibre"
     Une règle optionnelle consiste à ajouter le modificateur d’équilibre à la valeur d’attribut (Sagesse) pour en jauger le modificateur permettant de calculer la récupération. ![](images/image2.png)
 
-    Cette règle est la méthode préconisée car elle permet de donner un impact plus prégnant encore à l’équilibre des attributs, mais cela complexifie notablement le calcul des récupérations, aussi ce n’est pas une règle à inclure à la légère.
+    Cette règle n’est pas la plus optimale sur le plan de l’équilibre, mais elle accélère légèrement le rythme des récupérations — ce qui peut être souhaitable pour des parties au rythme soutenu. C’est donc une question de type de partie visé.
 
 ## Les Seuils
 
@@ -266,9 +277,10 @@ Notons que le trait d'entraînement aux armes ou aux armures permet évidemment 
 
 Les défenses représentent la difficulté pour toucher (ou du moins affecter) un personnage. Il existe autant de défenses que de façon d’agresser puisque chaque attribut sert de seuil pour les attaques portées avec lui-même ! C’est la raison pour laquelle il est très risqué d’avoir plusieurs attributs extrêmement faibles… Mais également intéressant de connaître les points faibles adverses.
 
-Les deux grandes particularités de la défense sont que sa valeur de base dépend de l'état du personnage : 15 si le personnage est dans de bonnes conditions et 10 s’il est choqué (son endurance est égale ou inférieure à 0), de plus elle reçoit un bonus de +1 si l’attribut est impair.
+Les deux grandes particularités de la défense sont que sa valeur de base dépend de l’état du personnage : 15 si le personnage est dans de bonnes conditions et 10 s’il est choqué (son endurance est égale ou inférieure à 0), de plus elle reçoit un bonus de +1 si l’attribut est impair.
 
-Défense [Attribut] = 15 ou 10 + Modificateur d’Attribut + 1 si attribut impaire.
+- **Défense [Attribut] = 15 + Modificateur d’Attribut + 1 (si attribut impair)**
+- **Défense [Attribut] choqué = 10 + Modificateur d’Attribut + 1 (si attribut impair)**
 
 | Attribut | Défense | Défense « choqué » |
 | --- | --- | --- |

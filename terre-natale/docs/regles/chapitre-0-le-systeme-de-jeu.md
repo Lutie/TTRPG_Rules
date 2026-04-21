@@ -1,5 +1,9 @@
 # Chapitre 0 : Le Système de jeu
 
+## Les Règles Optionnelles
+
+Les règles optionnelles de ce jeu ne sont pas des variantes mineures : elles proposent souvent une approche différente, ciblant une ambiance ou un style de jeu particulier. Certaines ajoutent de la granularité, d'autres de la complexité ou du réalisme. Elles sont volontairement présentées comme une boîte à outils ouverte — chaque table, chaque MJ peut y piocher ce qui correspond à sa vision sans être tenu d'en adopter l'ensemble. Empiler toutes les règles optionnelles d'un coup peut alourdir notablement le jeu ; mieux vaut en intégrer une à la fois, selon les besoins de la campagne et le confort des joueurs.
+
 ## Les dés
 
 Tout d’abord présentons les différents types de dés utilisés par les règles de Terre Natale.
@@ -22,15 +26,19 @@ Un test d’attribut devrait être réalisé par choix, à la demande ou par dé
 
 ### Les Tests de compétence
 
-Un test qualifié est un test qui applique le modificateur de l’attribut ET le modificateur de compétence au score réalisé par les dés. On réalise ce genre de test lorsqu’une compétence est disponible pour déterminer la réussite d'une action.
-
-Un test d’attribut devrait être réalisé par choix, à la demande ou par décision du joueur. On parle de tests actifs.
+Un test qualifié est un test qui applique le modificateur de l’attribut ET le modificateur de compétence au score réalisé par les dés. On réalise ce genre de test lorsqu’une compétence est disponible pour déterminer la réussite d’une action. Les tests de compétence sont des tests actifs.
 
 ### Les Tests de sauvegarde
 
-Un test de sauvegarde est un test qui applique le modificateur de l’attribut auxquels on ajoute les ajustements liés au rang de la caste du personnage.
+Un test de sauvegarde est un test qui applique le modificateur de l’attribut auxquels on ajoute les ajustements liés au rang de la caste du personnage. Les tests de sauvegarde sont des tests passifs.
 
-Un test de sauvegarde ne fait pas l’objet d’un choix, ce sont des tests demandés par le conteur. On parle de tests passifs. Un personnage pourrait être en mesure de se sentir épié, observé ? Alors sans doute doit-il réussir un test d’intuition (passif) pour sentir que quelque chose ne va pas ce qui incitera peut-être le personnage à réaliser un test de vigilance (actif) et ainsi découvrir qui l’observe de la sorte.
+### Tests Actifs et Tests Passifs
+
+Un **test actif** est déclenché par une décision du joueur : son personnage choisit d’agir. Les tests d’attribut et les tests de compétence appartiennent à cette catégorie. Le joueur peut toujours décliner un test actif, y compris lorsque le MJ en signale l’opportunité (« tu pourrais tenter de grimper cette paroi »). C’est le joueur qui décide in fine de passer à l’action — et donc de réaliser le test.
+
+Un **test passif** est imposé par le MJ, indépendamment de la volonté du personnage : il ne peut pas être refusé. Les tests de sauvegarde en sont l’archétype. Le personnage subit une situation et y réagit — il n’a pas eu le choix d’y être exposé.
+
+Par exemple : un personnage qui se sent épié devra réussir un test d’intuition (passif) pour prendre conscience du danger. S’il y parvient, il pourra ensuite choisir de réaliser un test de vigilance (actif) pour en localiser la source.
 
 #### Les Tests Avantagés
 
@@ -106,12 +114,18 @@ Exemple : Si j’obtiens 13 à un test alors que la difficulté est de 15, ma ma
 
     Le MJ peut apprécier les retours positifs ou négatifs sous la forme de son choix, ce qui suit n’est donné qu’à titre indicatif : Dans le cas d’une petite réussite ou un petit échec, il y a une petite conséquence. Par exemple : on a réussi à crocheter une serrure « mais » ce sera visible, on n’a pas réussi à crocheter la serrure « mais » la tentative ne sera pas visible. On peut également, à défaut et si besoin, octroyer des effets ténus mais notables sous la forme d’un avantage, ou désavantage, donnés à la prochaine action ayant un rapport plus ou moins direct avec l’action menée (une réussite « oui, mais » entraîne donc un désavantage, un échec « non, mais » entraîne donc un avantage). Dans le cas d’une grosse réussite ou gros échec, il n’y a pas de contrepartie positive ou négative. Dans le cas d’une réussite critique ou un échec critique, il y a de grosses conséquences ! Par exemple : on n’a pas réussi à crocheter la serrure « et » on brise l’outil dedans, on réussit à crocheter la serrure « et » cela ne laissera pas de trace ! De la même manière que pour les petites réussites/échecs on peut octroyer des avantages/désavantages en inversant les cas de figures : une acrobatie critique pourrait bien avantager la prochaine défense du personnage, alors qu’un échec critique pourrait bien la désavantager.
 
-    | Marge d’Échec |
-    | --- |
+    **Marge d’Échec**
+
+    | Marge | Résultat | Niveau | Label |
+    | --- | --- | --- | --- |
     | 10 et + | Échec Critique | 2 | Non et... |
     | 5 à 9 | Gros Échec | 1 | Non |
     | 0 à 4 | Petit Échec | 0 | Non mais... |
-    | Marge de Réussite |
+
+    **Marge de Réussite**
+
+    | Marge | Résultat | Niveau | Label |
+    | --- | --- | --- | --- |
     | 0 à 4 | Petite Réussite | 0 | Oui mais... |
     | 5 à 9 | Grosse Réussite | 1 | Oui |
     | 10 et + | Réussite Critique | 2 | Oui et... |
@@ -130,16 +144,13 @@ Un test peut être un échec critique : c’est le cas lorsque son score est de 
 
 Un test qui se trouve être un échec critique génère un désavantage notable, qui rend la situation plus compliquée encore. En combat cet avantage prend généralement la forme d'un test de solidité imposé à l'objet qui est utilisé pour mener l'attaque ou d'une arme ou armure (selon la nature de la défense) lorsqu'on tente de se défendre. Dans d'autres situations on peut simplement avantager le test adversaire opposé...
 
-!!! tip "Règles Optionnelles : Échec Critique plus souvent"
-    Les règles de base sont assez permissives sur les échecs. En effet, un échec critique survient très rarement en jeu car les joueurs tentent rarement une action pour laquelle ils ont peu de chance de réussite, aussi les échecs peuvent survenir mais les échecs critiques sont très très rares.![](images/image2.png)
-
-    Pour compenser cela et avoir des situations plus colorées même dans la zone de confort des joueurs/personnages, il est tout simplement possible de faire en sorte que les échecs critiques surviennent dès lors que la marge d’échec est de 5 et plus.
-
 ### Les Singularités
 
-Une singularité a lieu si les dés (conservés après relances etc) d’un test affichent au moins un double.
+Une singularité a lieu si les trois dés conservés à l’issue du processus d’avantage/désavantage affichent au moins un double.
 
 De plus, certains cas sortes de lots : - Double 1 ou 2 : Une maladresse survient. - Double 6 : Un exploit survient. - Double « Nombre porte bonheur du personnage » : Un « coup de chance » survient. Les faces réinterprétées (lorsqu’un effet « modifie » la valeurs réelle de la face d’un dé issus d’un test par exemple) conservent leurs valeurs d’origine pour ce qui est des singularités.
+
+Le chiffre porte bonheur est choisi par le joueur lors de la création du personnage (voir chapitre 5). Par défaut — pour les PNJ notamment — il vaut 6.
 
 Il existe plusieurs avantages qui modifient ces chances et risques d’exploits et maladresses. La formation à un attribut par exemple permet de ramener les maladresses au double 1 uniquement. La science d’une compétence permet de monter ses exploits aux doubles 5 et 6. Dans le cas où deux sources offrent la science d’une compétence les exploits s’obtiennent sur doubles 4, 5 et 6. Recevoir plus de deux sources de science d’une compétence n'accroît pas les chances d’exploits.
 
@@ -170,7 +181,7 @@ Notons que si le modificateur en question est nul alors il n’y a pas de coup d
 
 ### La Baraka
 
-La baraka survient lorsqu’un test affiche trois dés identiques. Dans ce cas, le test fait l’objet d’un « coup de chance ». Si les dés affichent le « chiffre porte bonheur » du personnage alors ce coup de chance est doublé.
+La baraka survient lorsque les trois dés conservés à l’issue du processus d’avantage/désavantage affichent tous la même valeur. Dans ce cas, le test fait l’objet d’un « coup de chance ». Si les dés affichent le « chiffre porte bonheur » du personnage alors ce coup de chance est doublé.
 
 ### Les difficultés d’évaluation
 
@@ -257,7 +268,7 @@ Les jets sont similaires à des tests dans la mesure où il est nécessaire de l
 
 ### Anatomie d’un jet
 
-Un test s’effectue toujours des D8. Par défaut il faut 2D8 auquel on ajoute 1D8 par catégorie de l’action qui en est à l’origine. La somme des faces est ajoutée au modificateur d’attribut associé au test afin de définir le score du jet. L’attribut sollicité est généralement le même que celui du test effectué pour l’action, mais pas toujours. Le jet ne répond à aucunes règles affectant les tests : réussites, échecs, singularités, exploits, maladresses et même karma sont autant de règles inutiles concernant les jets.
+Un jet s’effectue toujours des D8. Par défaut il faut 2D8 auquel on ajoute 1D8 par catégorie de l’action qui en est à l’origine. La somme des faces est ajoutée au modificateur d’attribut associé au test afin de définir le score du jet. L’attribut sollicité est généralement le même que celui du test effectué pour l’action, mais pas toujours. Le jet ne répond à aucunes règles affectant les tests : réussites, échecs, singularités, exploits, maladresses et même karma sont autant de règles inutiles concernant les jets.
 
 Les jets sont bien souvent le résultat d’une action : attaque, défense, soins, etc… Si une action doit transmettre plusieurs informations via des jets qui devraient être différents par nature on ne procède qu’à un unique jet tant que le nombre de dés est le même : Le score des différentes informations sera simplement le même. C’est notamment le cas pour une attaque : le score du jet mesure à la fois les dégâts, la gravité des lésions (si le coup n’est pas défendu, etc) et la charge (des conditions s’il y en a) … Dans d’autres cas le jet ne représente qu’une seule notion à la fois (dans le cas des défenses ce sera la déviation).
 

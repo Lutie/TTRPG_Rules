@@ -76,9 +76,9 @@ La créativité est une ressource unique. La Créativité représente la capacit
 
 #### La Récupération du Steam
 
-Elle fixe la récupération du Steam. La Récupération du Steam dépend de la Logique et de l’Equilibre.
+Elle fixe la récupération du Steam.
 
-- Récupération du Steam = modificateur de Logique + modificateur d’Equilibre.
+- Récupération du Steam = Récupération.
 
 ## Actions de l’Extension
 

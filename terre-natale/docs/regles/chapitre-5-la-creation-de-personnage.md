@@ -229,7 +229,7 @@ Tendance : Lambda. Description : Cette personnalité est particulière puisqu’
 
 ### Le Chiffre porte bonheur
 
-Un personnage est associé à un chiffre porte bonheur, choisi entre 1 et 6. Ce chiffre est exclusivement utilisé pour définir si un test fait l’objet d’un « coup de chance » (voir la règle idoine dans le chapitre 0).
+Un personnage est associé à un chiffre porte bonheur, choisi entre 1 et 6. Ce chiffre est exclusivement utilisé pour définir si un test fait l’objet d’un « coup de chance » (voir la règle idoine dans le chapitre 0). Par défaut — notamment pour les PNJ — ce chiffre est 6. Un joueur qui crée son personnage peut librement en choisir un autre.
 
 Le choix du chiffre n’est pas tout à fait anodin et peut donner un indice sur la mentalité du personnage : Il s’agit de favoriser une situation plutôt qu’une autre. Si le chiffre porte bonheur est le 6 alors les coups de chance surviennent lorsque le personnage réalise un exploit, il renforce donc ses coups d’éclats. Le personnage est « audacieux ». Si le chiffre porte bonheur est le 1 alors les coups de chance surviennent lorsque le personnage réalise la pire des maladresses, aidant ainsi à réduire l’impact de ces dernières. Le personnage est « prudent ». Enfin un juste milieu serait associable à un personnage plutôt « pragmatique », etc…
 
@@ -345,11 +345,13 @@ Puis il est nécessaire de répartir les points d’expérience (PX), fixé par 
 
 Ce qui nous donne, étape par étape :
 
-| Points d’Expérience Groupe |
-| --- |
+| Points d’Expérience Groupe | Coût |
+| --- | --- |
 | De 0 à 1 | 20 PX |
 | De 1 à 2 | 40 PX |
-| Points d’Expérience Compétences |
+
+| Points d’Expérience Compétences | Coût |
+| --- | --- |
 | De 0 à 1 | 10 PX |
 | De 1 à 2 | 20 PX |
 | De 2 à 3 | 30 PX |
@@ -357,11 +359,13 @@ Ce qui nous donne, étape par étape :
 
 Ou encore en partant simplement de 0 et en atteignant une valeur désignée :
 
-| Points d’Expérience Groupe |
-| --- |
+| Points d’Expérience Groupe | Coût |
+| --- | --- |
 | De 0 à 1 | 20 PX |
 | De 0 à 2 | 60 PX |
-| Points d’Expérience Compétences |
+
+| Points d’Expérience Compétences | Coût |
+| --- | --- |
 | De 0 à 1 | 10 PX |
 | De 0 à 2 | 30 PX |
 | De 0 à 3 | 60 PX |

@@ -12,7 +12,7 @@
 
 **Ténacité** *(mixte)* : Modifie le seuil de réussite critique adverse (de base celui-ci est de 10). Un bonus augmente le seuil, de sorte qu’il soit plus difficile pour un adversaire d’obtenir une réussite critique sur soi.
 
-**Visée** *(physique ou mentale)* : Modifie la valeur de la visée lors des tentatives de localisations.
+**Visée** *(physique ou mentale)* : Réduit les pénalités lors des tentatives de localisation (règle avancée de confrontation, voir chapitre 8) — en priorité les pénalités de couverture et malus de visibilité, puis la difficulté accrue liée à la localisation. Ces deux effets ne s'appliquent pas simultanément.
 
 **Précision** *(physique ou mentale)* : Permet d’ignorer une partie de la protection de la cible. La précision ne peut cependant pas réduire la protection en deçà de 10.
 
@@ -38,7 +38,6 @@
 
 **Bonus ou Malus d’Ajustement** : Les bonus ou malus d’ajustement s'appliquent à l’attribut d’un test ou d’un jet. Si ce bonus ou malus pousse l’attribut à atteindre un nouveau modificateur (supérieur ou inférieur) alors c’est ce nouveau modificateur qui s’applique. Les ajustements s’accumulent entre eux le cas échéant.
 
-**Visée** : La visée est une valeur déterminante lorsqu’un personnage cherche à localiser une attaque. Elle est basée sur le modificateur de perception ou de sagesse ainsi que la marge de réussite de la localisation. La visée permet alors l’aggravation de lésions causées.
 
 **Attribut d’attaque** : C’est l’attribut qui est employée afin d’attaquer, que ce soit à l’aide d’une arme ou d’une tirade.
 

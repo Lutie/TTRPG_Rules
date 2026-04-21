@@ -7,7 +7,7 @@ Une compétence incarne une maîtrise pouvant être acquise à force d’apprent
 !!! note "Note"
     ![](images/image1.png)
 
-    Le niveau d’une compétence ou d’un groupe est limité par la destinée du personnage et son rang de caste. Ces limites peuvent être modifiées par des traits.
+    Le niveau d’une compétence ou d’un groupe est limité par la destinée du personnage (voir chapitre 5) et son rang de caste. Ces limites peuvent être modifiées par des traits.
 
 Les groupes de compétences servent à regrouper des compétences sous une activité commune. Le groupe agit aussi comme un modificateur, ajouté à celui de la compétence. Une compétence peut faire partie de plusieurs groupes à la fois, mais elle ne profite alors que du modificateur d’un seul groupe (le plus élevé). Le personnage est « novice » dans les groupes de niveau 1. Le personnage est « amateur » dans les groupes de niveau 2. Le personnage est « adepte » dans les groupes de niveau 3. Le personnage est « virtuose » dans les groupes de niveau 4. Les catégories de compétences servent à référencer des compétences sous une notion commune. Elles n’ont pas d'incidences sur le système de compétence à proprement parler mais permet une classification pratique.
 
