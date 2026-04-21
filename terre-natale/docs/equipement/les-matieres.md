@@ -140,7 +140,307 @@ Les pierres sont utilisées dans la création des bijoux et ornements. Elles peu
 
 Les pierres peuvent donc constituer une part notable (partiel ou entière) d’un colifichet.
 
-Notons qu’un colifichet peut être associé à une matière et dans ce cas cela n’affecte que son prix. Sélénite Description : Pierre de pureté et de clarté spirituelle, la sélénite renforce la volonté intérieure en dissipant les doutes et les blocages mentaux. Elle permet de rester déterminé et centré, même face aux épreuves, et protège des influences négatives qui pourraient altérer la résolution. Attribut : Volonté. Propriétés : Protection contre la corruption, qu’elle soit physique ou spirituelle. Sauvegarde : Détermination. Élément(s) : Divin (sacré/impie). Ressource : Spiritualité. Pierre de Lune Description : Pierre de l’intuition et de la perception subtile, la pierre de lune affine les sens invisibles et favorise une compréhension plus profonde du monde. Elle aide à capter les signes cachés, renforce l’instinct et permet de distinguer la vérité derrière les illusions. Attribut : Perception. Propriétés : Protection contre les faux semblants, le mensonge, la tromperie. Sauvegarde : Intuition. Élément(s) : Mauvais (Chaos/Mort/Ombre/Impie). Pierre de Soleil Description : Rayonnante et ardente, la pierre de soleil stimule le charisme et l’assurance personnelle. Elle insuffle une énergie magnétique qui attire le succès et renforce la confiance en soi. Elle est idéale pour les leaders et orateurs, leur permettant d'inspirer et motiver leur entourage. Attribut : Charisme. Propriétés : Protection contre les émotions non souhaitée (colère, peur, intimidation, provocation, etc). Sauvegarde : Première impression. Élément(s) : Bon (Loi/Vie/Lumière/Sacré). Obsidienne Description : L’obsidienne est une pierre de protection et de lucidité, qui renforce l’agilité mentale et physique en éliminant les distractions et les blocages émotionnels. Elle aide à réagir rapidement face aux dangers en donnant une vision claire et tranchante de la réalité. Attribut : Dextérité. Propriétés : Protection contre toutes les formes de surprises. Sauvegarde : Réflexes. Élément(s) : […] Ressource : Vitalité. Améthyste Description : Pierre de sagesse et d’apaisement mental, l’améthyste stimule la pensée claire et la réflexion profonde. Elle renforce l’intellect et la capacité d’analyse, permettant de prendre du recul et d’éviter les décisions précipitées sous l’influence des émotions. Attribut : Intelligence. Propriétés : Protection contre les énigmes, les mystères, les secrets. Sauvegarde : Sang-Froid. Élément(s) : Terre. Quartz Description : Pierre de clarté et d’amplification, le quartz canalise et renforce les énergies environnantes, offrant une meilleure concentration et une perception affinée du réel. Il dissipe le flou mental et empêche l’altération des souvenirs, permettant une pensée structurée et logique en toutes circonstances. Attribut : Logique. Propriétés : Protection contre l’oubli et la perte de mémoire. Sauvegarde : Opposition. Élément(s) : Steam (flux, explosion, etc…). Lapis-Lazuli Description : Pierre de vérité et d’éveil intellectuel, le lapis-lazuli éclaire l’esprit et renforce la cohérence entre la parole et la pensée. Il dissipe les incertitudes et aiguise l’intuition, permettant une compréhension instinctive des interactions et un discernement accru face aux manipulations. Attribut : Sagesse. Propriétés : Protection contre la méfiance (vérité/mensonge). Sauvegarde : Intuition. Élément(s) : Illusion. Azurite Description : Vibrante et mystérieuse, l’azurite favorise une vision au-delà des apparences et stimule l’esprit à percevoir ce qui est caché ou dissimulé. Elle protège contre les illusions et les distorsions de la réalité, offrant une perception plus aiguisée et une meilleure compréhension des phénomènes inexplicables. Attribut : Perception. Propriétés : ???. Sauvegarde : Intuition. Élément(s) : […] Tourmaline Description : Pierre d’ancrage et de stabilité, la tourmaline agit comme un rempart contre les perturbations mentales. Elle absorbe et neutralise les influences négatives, évitant la confusion et maintenant un esprit lucide et ordonné, même dans des situations chaotiques ou sous l’effet d’altérations extérieures. Attribut : Constitution. Propriétés : Protection contre toutes les formes de confusions, y compris l’ivresse. Sauvegarde : Robustesse. Élément(s) : Vie/Mort. Onyx Description : Pierre de discipline et de ténacité, l’onyx renforce la résistance mentale et physique, permettant de surmonter les épreuves avec persévérance. Son énergie stabilisante favorise la récupération et le rétablissement, accélérant la convalescence après une blessure ou une épreuve intense. Attribut : Volonté. Propriétés : Favorise la récupération, le rétablissement, la convalescence. Sauvegarde : Détermination. Élément(s) : Vie/Mort. Jais Description : Sombre et protecteur, le jais est une pierre traditionnellement utilisée pour repousser les énergies néfastes et les malédictions. Il agit comme un rempart contre les influences occultes, tout en permettant d’accéder à une sagesse ancienne, ancrée dans la mémoire des ancêtres. Attribut : Ruse. Propriétés : Protection contre les malédictions. Sauvegarde : Sang-Froid. Élément(s) : Loi/Chaos. Citrine Description : Lumineuse et rayonnante, la citrine attire la prospérité et l’abondance, tout en dissipant la négativité et le doute. Elle protège des pertes et des imprévus financiers, rendant son porteur plus alerte face aux arnaques, manipulations et vols. Attribut : Chance. Propriétés : Protection contre les problèmes d’argents (arnaques, vols, etc). Sauvegarde : Fortune. Élément(s) : Air. Ambre Description : Fossilisé au fil des âges, l’ambre est associé à la longévité et à la vitalité. Sa nature solaire et chaleureuse fortifie le corps et l’esprit, aidant à prévenir et combattre les maladies en renforçant les défenses naturelles et l’équilibre intérieur. Attribut : Sagesse. Propriétés : Protection contre les maladies. Sauvegarde : Intuition. Élément(s) : Bois. Topaze Description : Pierre de clarté mentale et de lucidité, la topaze dissipe la confusion et les influences troublantes, permettant une pensée affûtée et une compréhension limpide des situations complexes. Elle agit comme un filtre énergétique, protégeant son porteur des perturbations extérieures et des influences magiques instables. Attribut : Intelligence. Propriétés : Protection contre les énergies. Sauvegarde : Sang-Froid. Élément(s) : Foudre. Grenat Description : Rayonnant d’une énergie ardente, le grenat stimule la vigueur et la motivation, insufflant force et ténacité. Il est un catalyseur de vitalité, permettant de lutter contre l’épuisement et la lassitude, et conférant une endurance accrue face aux efforts prolongés. Attribut : Force. Propriétés : Protection contre la fatigue. Sauvegarde : Robustesse. Élément(s) : Métal. Rubis Description : Brûlant d’une intensité flamboyante, le rubis est le symbole du courage et de l’ambition, forgeant une volonté inébranlable. Son éclat incandescent confère une résistance exceptionnelle aux chaleurs extrêmes, rendant son porteur moins vulnérable aux environnements hostiles et aux flammes destructrices. Attribut : Volonté. Propriétés : Protection contre la chaleur. Sauvegarde : Détermination. Élément(s) : Feu. Saphir Description : Profond et immuable, le saphir est la pierre de la sagesse et de la discipline mentale. Il favorise la concentration et la rigueur, tout en protégeant son porteur des distractions et des influences émotionnelles nuisibles. Associé à la clarté d’esprit, il procure une résistance naturelle aux froids les plus mordants. Attribut : Constitution. Propriétés : Protection contre le froid. Sauvegarde : Robustesse. Élément(s) : Glace. Cornaline Description : Vibrante et ardente, la cornaline est une pierre de mouvement et d’initiative, insufflant audace et spontanéité. Elle stimule la prise de décision rapide et l’action instinctive, empêchant l’indécision et favorisant l’adaptabilité face aux défis. Attribut : Dextérité. Propriétés : ???. Sauvegarde : Réflexes. Élément(s) : […] Spinelle Description : Énergisant et fortifiant, le spinelle est une pierre de résistance et d’endurance, renforçant la capacité du corps et de l’esprit à encaisser l’oppression. Il confère à son porteur une résilience inébranlable face aux contraintes physiques ou mentales, l’aidant à échapper aux entraves et à préserver sa liberté. Attribut : Agilité. Propriétés : Protection contre la contrainte (qui prive de liberté ou la réduit). Sauvegarde : Réflexes. Élément(s) : Eau. Malachite Description : Profondément liée à la transmutation et à la purification, la malachite agit comme un filtre naturel absorbant les impuretés et les énergies nocives. Elle protège contre les toxines, poisons et venins, tout en renforçant les défenses du corps contre leurs effets. Attribut : Constitution. Propriétés : Protection contre les toxines, poisons ou venins. Sauvegarde : Robustesse. Élément(s) : Poison/Acide/Etc. Jade Description : Symbole d’équilibre et d’harmonie, le jade favorise une connexion fluide avec le destin, attirant la prospérité et les opportunités favorables. Il équilibre les énergies internes et externes, ouvrant la voie aux rencontres bénéfiques et aux tournants positifs de la vie. Attribut : Equilibre. Propriétés : Favorise les bonnes rencontres, les événements bénéfiques. Sauvegarde : Fortune. Élément(s) : […] Péridot Description : Clairvoyant et protecteur, le péridot dissipe les énergies malveillantes et les influences oppressantes. Il agit comme un voile subtil qui détourne les soupçons, les regards indiscrets et l’attention non désirée, rendant son porteur plus difficile à cerner et à surveiller. Attribut : Ruse. Propriétés : Protection contre les soupçons, l’attention ou les regards indiscrets. Sauvegarde : Sang-Froid. Élément(s) : Mental. Aventurine Description : Pierre d’optimisme et de sérénité, l’aventurine attire la chance et les opportunités tout en réduisant les tensions intérieures. Son énergie douce agit comme un bouclier contre les coups du sort, aidant son porteur à se relever et à naviguer à travers l’incertitude avec confiance. Attribut : Chance. Propriétés : Protection contre les coups du sort, les événements néfastes. Sauvegarde : Fortune. Élément(s) : […] Jaspe Description : Symbole de stabilité et de résilience, le jaspe renforce l’endurance et la persévérance face aux épreuves. Il confère une force intérieure permettant de mieux résister aux conditions extrêmes, comme le manque de nourriture ou d’eau, en maintenant l’énergie vitale du porteur. Attribut : Force. Propriétés : Protection contre les problèmes liés à l’absence de nutrition ou hydratation. Sauvegarde : Détermination. Élément(s) : Naturel. Pyrite Description : Pierre d’intellect et d’ambition, la pyrite stimule l’esprit analytique et protège contre les tromperies et les manipulations. Son éclat métallique symbolise la clarté mentale et la résistance aux influences extérieures qui chercheraient à fausser le jugement ou à troubler la perception de la réalité. Attribut : Intelligence. Propriétés : ???. Sauvegarde : Sang-Froid. Élément(s) : […] Ætherite Description : Pierre imprégnée d’énergie cosmique, l’ætherite est un catalyseur de magie pure, reliant son porteur aux flux mystiques de l’univers. Elle protège l’esprit contre les influences oniriques et les altérations du voile, empêchant les incursions extérieures dans la psyché du porteur. Attribut : Magie. Propriétés : Protection contre l’influence des rêves (voile inclus). Sauvegarde : Opposition. Élément(s) : Arcanes. Vesperine Description : Pierre énigmatique liée aux ombres et aux secrets, la vesperine confère une agilité instinctive et une perception affinée des mystères cachés. Son énergie stabilisante réduit les risques liés aux chutes, amortissant leurs conséquences physiques et magiques. Attribut : Agilité. Propriétés : Protection contre la chute et/ou ses conséquences. Sauvegarde : Réflexes. Élément(s) : Lumière/Ombre. Seraphine Description : Pierre de lumière sacrée, la seraphine est un rempart contre les forces occultes et les influences corruptrices. Son éclat purificateur dissipe les ténèbres et protège de toute intrusion divine, qu’elle soit bénédiction ou malédiction, offrant un équilibre spirituel inaltérable. Attribut : Equilibre. Propriétés : Protection contre le divin. Sauvegarde : Fortune. Élément(s) : Sacré/Impie. Dracarys Description : Imprégnée de l’énergie primordiale des dragons, la dracarys incarne la puissance brute et l’instinct combatif. Elle confère une force indomptable, renforçant l’impact des attaques et intensifiant les flammes intérieures, qu’elles soient physiques ou magiques. Attribut : Magie. Propriétés : ???. Sauvegarde : Opposition. Élément(s) : Chroma. Orpheal Description : Pierre de résonance magique, l’orpheal amplifie les vibrations sonores et mystiques, permettant une expression claire et puissante. Elle harmonise les énergies environnantes, rendant la voix plus pénétrante et l’influence plus marquée, qu’il s’agisse d’incantations, de persuasion ou d’art oratoire. Attribut : Charisme. Propriétés : ???. Sauvegarde : Prestige. Élément(s) : Vide.
+Notons qu’un colifichet peut être associé à une matière et dans ce cas cela n’affecte que son prix.
+
+#### Sélénite
+
+Pierre de pureté et de clarté spirituelle, la sélénite renforce la volonté intérieure en dissipant les doutes et les blocages mentaux. Elle permet de rester déterminé et centré, même face aux épreuves, et protège des influences négatives qui pourraient altérer la résolution.
+
+- **Attribut :** Volonté
+- **Propriétés :** Protection contre la corruption, qu’elle soit physique ou spirituelle.
+- **Sauvegarde :** Détermination
+- **Élément(s) :** Divin (sacré/impie)
+- **Ressource :** Spiritualité
+
+#### Pierre de Lune
+
+Pierre de l’intuition et de la perception subtile, la pierre de lune affine les sens invisibles et favorise une compréhension plus profonde du monde. Elle aide à capter les signes cachés, renforce l’instinct et permet de distinguer la vérité derrière les illusions.
+
+- **Attribut :** Perception
+- **Propriétés :** Protection contre les faux semblants, le mensonge, la tromperie.
+- **Sauvegarde :** Intuition
+- **Élément(s) :** Mauvais (Chaos/Mort/Ombre/Impie)
+- **Ressource :** 
+
+#### Pierre de Soleil
+
+Rayonnante et ardente, la pierre de soleil stimule le charisme et l’assurance personnelle. Elle insuffle une énergie magnétique qui attire le succès et renforce la confiance en soi. Elle est idéale pour les leaders et orateurs, leur permettant d’inspirer et motiver leur entourage.
+
+- **Attribut :** Charisme
+- **Propriétés :** Protection contre les émotions non souhaitée (colère, peur, intimidation, provocation, etc).
+- **Sauvegarde :** Première impression
+- **Élément(s) :** Bon (Loi/Vie/Lumière/Sacré)
+- **Ressource :** 
+
+#### Obsidienne
+
+L’obsidienne est une pierre de protection et de lucidité, qui renforce l’agilité mentale et physique en éliminant les distractions et les blocages émotionnels. Elle aide à réagir rapidement face aux dangers en donnant une vision claire et tranchante de la réalité.
+
+- **Attribut :** Dextérité
+- **Propriétés :** Protection contre toutes les formes de surprises.
+- **Sauvegarde :** Réflexes
+- **Élément(s) :** […]
+- **Ressource :** Vitalité
+
+#### Améthyste
+
+Pierre de sagesse et d’apaisement mental, l’améthyste stimule la pensée claire et la réflexion profonde. Elle renforce l’intellect et la capacité d’analyse, permettant de prendre du recul et d’éviter les décisions précipitées sous l’influence des émotions.
+
+- **Attribut :** Intelligence
+- **Propriétés :** Protection contre les énigmes, les mystères, les secrets.
+- **Sauvegarde :** Sang-Froid
+- **Élément(s) :** Terre
+- **Ressource :** 
+
+#### Quartz
+
+Pierre de clarté et d’amplification, le quartz canalise et renforce les énergies environnantes, offrant une meilleure concentration et une perception affinée du réel. Il dissipe le flou mental et empêche l’altération des souvenirs, permettant une pensée structurée et logique en toutes circonstances.
+
+- **Attribut :** Logique
+- **Propriétés :** Protection contre l’oubli et la perte de mémoire.
+- **Sauvegarde :** Opposition
+- **Élément(s) :** Steam (flux, explosion, etc…)
+- **Ressource :** 
+
+#### Lapis-Lazuli
+
+Pierre de vérité et d’éveil intellectuel, le lapis-lazuli éclaire l’esprit et renforce la cohérence entre la parole et la pensée. Il dissipe les incertitudes et aiguise l’intuition, permettant une compréhension instinctive des interactions et un discernement accru face aux manipulations.
+
+- **Attribut :** Sagesse
+- **Propriétés :** Protection contre la méfiance (vérité/mensonge).
+- **Sauvegarde :** Intuition
+- **Élément(s) :** Illusion
+- **Ressource :** 
+
+#### Azurite
+
+Vibrante et mystérieuse, l’azurite favorise une vision au-delà des apparences et stimule l’esprit à percevoir ce qui est caché ou dissimulé. Elle protège contre les illusions et les distorsions de la réalité, offrant une perception plus aiguisée et une meilleure compréhension des phénomènes inexplicables.
+
+- **Attribut :** Perception
+- **Propriétés :** ???
+- **Sauvegarde :** Intuition
+- **Élément(s) :** […]
+- **Ressource :** 
+
+#### Tourmaline
+
+Pierre d’ancrage et de stabilité, la tourmaline agit comme un rempart contre les perturbations mentales. Elle absorbe et neutralise les influences négatives, évitant la confusion et maintenant un esprit lucide et ordonné, même dans des situations chaotiques ou sous l’effet d’altérations extérieures.
+
+- **Attribut :** Constitution
+- **Propriétés :** Protection contre toutes les formes de confusions, y compris l’ivresse.
+- **Sauvegarde :** Robustesse
+- **Élément(s) :** Vie/Mort
+- **Ressource :** 
+
+#### Onyx
+
+Pierre de discipline et de ténacité, l’onyx renforce la résistance mentale et physique, permettant de surmonter les épreuves avec persévérance. Son énergie stabilisante favorise la récupération et le rétablissement, accélérant la convalescence après une blessure ou une épreuve intense.
+
+- **Attribut :** Volonté
+- **Propriétés :** Favorise la récupération, le rétablissement, la convalescence.
+- **Sauvegarde :** Détermination
+- **Élément(s) :** Vie/Mort
+- **Ressource :** 
+
+#### Jais
+
+Sombre et protecteur, le jais est une pierre traditionnellement utilisée pour repousser les énergies néfastes et les malédictions. Il agit comme un rempart contre les influences occultes, tout en permettant d’accéder à une sagesse ancienne, ancrée dans la mémoire des ancêtres.
+
+- **Attribut :** Ruse
+- **Propriétés :** Protection contre les malédictions.
+- **Sauvegarde :** Sang-Froid
+- **Élément(s) :** Loi/Chaos
+- **Ressource :** 
+
+#### Citrine
+
+Lumineuse et rayonnante, la citrine attire la prospérité et l’abondance, tout en dissipant la négativité et le doute. Elle protège des pertes et des imprévus financiers, rendant son porteur plus alerte face aux arnaques, manipulations et vols.
+
+- **Attribut :** Chance
+- **Propriétés :** Protection contre les problèmes d’argents (arnaques, vols, etc).
+- **Sauvegarde :** Fortune
+- **Élément(s) :** Air
+- **Ressource :** 
+
+#### Ambre
+
+Fossilisé au fil des âges, l’ambre est associé à la longévité et à la vitalité. Sa nature solaire et chaleureuse fortifie le corps et l’esprit, aidant à prévenir et combattre les maladies en renforçant les défenses naturelles et l’équilibre intérieur.
+
+- **Attribut :** Sagesse
+- **Propriétés :** Protection contre les maladies.
+- **Sauvegarde :** Intuition
+- **Élément(s) :** Bois
+- **Ressource :** 
+
+#### Topaze
+
+Pierre de clarté mentale et de lucidité, la topaze dissipe la confusion et les influences troublantes, permettant une pensée affûtée et une compréhension limpide des situations complexes. Elle agit comme un filtre énergétique, protégeant son porteur des perturbations extérieures et des influences magiques instables.
+
+- **Attribut :** Intelligence
+- **Propriétés :** Protection contre les énergies.
+- **Sauvegarde :** Sang-Froid
+- **Élément(s) :** Foudre
+- **Ressource :** 
+
+#### Grenat
+
+Rayonnant d’une énergie ardente, le grenat stimule la vigueur et la motivation, insufflant force et ténacité. Il est un catalyseur de vitalité, permettant de lutter contre l’épuisement et la lassitude, et conférant une endurance accrue face aux efforts prolongés.
+
+- **Attribut :** Force
+- **Propriétés :** Protection contre la fatigue.
+- **Sauvegarde :** Robustesse
+- **Élément(s) :** Métal
+- **Ressource :** 
+
+#### Rubis
+
+Brûlant d’une intensité flamboyante, le rubis est le symbole du courage et de l’ambition, forgeant une volonté inébranlable. Son éclat incandescent confère une résistance exceptionnelle aux chaleurs extrêmes, rendant son porteur moins vulnérable aux environnements hostiles et aux flammes destructrices.
+
+- **Attribut :** Volonté
+- **Propriétés :** Protection contre la chaleur.
+- **Sauvegarde :** Détermination
+- **Élément(s) :** Feu
+- **Ressource :** 
+
+#### Saphir
+
+Profond et immuable, le saphir est la pierre de la sagesse et de la discipline mentale. Il favorise la concentration et la rigueur, tout en protégeant son porteur des distractions et des influences émotionnelles nuisibles. Associé à la clarté d’esprit, il procure une résistance naturelle aux froids les plus mordants.
+
+- **Attribut :** Constitution
+- **Propriétés :** Protection contre le froid.
+- **Sauvegarde :** Robustesse
+- **Élément(s) :** Glace
+- **Ressource :** 
+
+#### Cornaline
+
+Vibrante et ardente, la cornaline est une pierre de mouvement et d’initiative, insufflant audace et spontanéité. Elle stimule la prise de décision rapide et l’action instinctive, empêchant l’indécision et favorisant l’adaptabilité face aux défis.
+
+- **Attribut :** Dextérité
+- **Propriétés :** ???
+- **Sauvegarde :** Réflexes
+- **Élément(s) :** […]
+- **Ressource :** 
+
+#### Spinelle
+
+Énergisant et fortifiant, le spinelle est une pierre de résistance et d’endurance, renforçant la capacité du corps et de l’esprit à encaisser l’oppression. Il confère à son porteur une résilience inébranlable face aux contraintes physiques ou mentales, l’aidant à échapper aux entraves et à préserver sa liberté.
+
+- **Attribut :** Agilité
+- **Propriétés :** Protection contre la contrainte (qui prive de liberté ou la réduit).
+- **Sauvegarde :** Réflexes
+- **Élément(s) :** Eau
+- **Ressource :** 
+
+#### Malachite
+
+Profondément liée à la transmutation et à la purification, la malachite agit comme un filtre naturel absorbant les impuretés et les énergies nocives. Elle protège contre les toxines, poisons et venins, tout en renforçant les défenses du corps contre leurs effets.
+
+- **Attribut :** Constitution
+- **Propriétés :** Protection contre les toxines, poisons ou venins.
+- **Sauvegarde :** Robustesse
+- **Élément(s) :** Poison/Acide/Etc.
+- **Ressource :** 
+
+#### Jade
+
+Symbole d’équilibre et d’harmonie, le jade favorise une connexion fluide avec le destin, attirant la prospérité et les opportunités favorables. Il équilibre les énergies internes et externes, ouvrant la voie aux rencontres bénéfiques et aux tournants positifs de la vie.
+
+- **Attribut :** Equilibre
+- **Propriétés :** Favorise les bonnes rencontres, les événements bénéfiques.
+- **Sauvegarde :** Fortune
+- **Élément(s) :** […]
+- **Ressource :** 
+
+#### Péridot
+
+Clairvoyant et protecteur, le péridot dissipe les énergies malveillantes et les influences oppressantes. Il agit comme un voile subtil qui détourne les soupçons, les regards indiscrets et l’attention non désirée, rendant son porteur plus difficile à cerner et à surveiller.
+
+- **Attribut :** Ruse
+- **Propriétés :** Protection contre les soupçons, l’attention ou les regards indiscrets.
+- **Sauvegarde :** Sang-Froid
+- **Élément(s) :** Mental
+- **Ressource :** 
+
+#### Aventurine
+
+Pierre d’optimisme et de sérénité, l’aventurine attire la chance et les opportunités tout en réduisant les tensions intérieures. Son énergie douce agit comme un bouclier contre les coups du sort, aidant son porteur à se relever et à naviguer à travers l’incertitude avec confiance.
+
+- **Attribut :** Chance
+- **Propriétés :** Protection contre les coups du sort, les événements néfastes.
+- **Sauvegarde :** Fortune
+- **Élément(s) :** […]
+- **Ressource :** 
+
+#### Jaspe
+
+Symbole de stabilité et de résilience, le jaspe renforce l’endurance et la persévérance face aux épreuves. Il confère une force intérieure permettant de mieux résister aux conditions extrêmes, comme le manque de nourriture ou d’eau, en maintenant l’énergie vitale du porteur.
+
+- **Attribut :** Force
+- **Propriétés :** Protection contre les problèmes liés à l’absence de nutrition ou hydratation.
+- **Sauvegarde :** Détermination
+- **Élément(s) :** Naturel
+- **Ressource :** 
+
+#### Pyrite
+
+Pierre d’intellect et d’ambition, la pyrite stimule l’esprit analytique et protège contre les tromperies et les manipulations. Son éclat métallique symbolise la clarté mentale et la résistance aux influences extérieures qui chercheraient à fausser le jugement ou à troubler la perception de la réalité.
+
+- **Attribut :** Intelligence
+- **Propriétés :** ???
+- **Sauvegarde :** Sang-Froid
+- **Élément(s) :** […]
+- **Ressource :** 
+
+#### Ætherite
+
+Pierre imprégnée d’énergie cosmique, l’ætherite est un catalyseur de magie pure, reliant son porteur aux flux mystiques de l’univers. Elle protège l’esprit contre les influences oniriques et les altérations du voile, empêchant les incursions extérieures dans la psyché du porteur.
+
+- **Attribut :** Magie
+- **Propriétés :** Protection contre l’influence des rêves (voile inclus).
+- **Sauvegarde :** Opposition
+- **Élément(s) :** Arcanes
+- **Ressource :** 
+
+#### Vesperine
+
+Pierre énigmatique liée aux ombres et aux secrets, la vesperine confère une agilité instinctive et une perception affinée des mystères cachés. Son énergie stabilisante réduit les risques liés aux chutes, amortissant leurs conséquences physiques et magiques.
+
+- **Attribut :** Agilité
+- **Propriétés :** Protection contre la chute et/ou ses conséquences.
+- **Sauvegarde :** Réflexes
+- **Élément(s) :** Lumière/Ombre
+- **Ressource :** 
+
+#### Seraphine
+
+Pierre de lumière sacrée, la seraphine est un rempart contre les forces occultes et les influences corruptrices. Son éclat purificateur dissipe les ténèbres et protège de toute intrusion divine, qu’elle soit bénédiction ou malédiction, offrant un équilibre spirituel inaltérable.
+
+- **Attribut :** Equilibre
+- **Propriétés :** Protection contre le divin.
+- **Sauvegarde :** Fortune
+- **Élément(s) :** Sacré/Impie
+- **Ressource :** 
+
+#### Dracarys
+
+Imprégnée de l’énergie primordiale des dragons, la dracarys incarne la puissance brute et l’instinct combatif. Elle confère une force indomptable, renforçant l’impact des attaques et intensifiant les flammes intérieures, qu’elles soient physiques ou magiques.
+
+- **Attribut :** Magie
+- **Propriétés :** ???
+- **Sauvegarde :** Opposition
+- **Élément(s) :** Chroma
+- **Ressource :** 
+
+#### Orpheal
+
+Pierre de résonance magique, l’orpheal amplifie les vibrations sonores et mystiques, permettant une expression claire et puissante. Elle harmonise les énergies environnantes, rendant la voix plus pénétrante et l’influence plus marquée, qu’il s’agisse d’incantations, de persuasion ou d’art oratoire.
+
+- **Attribut :** Charisme
+- **Propriétés :** ???
+- **Sauvegarde :** Prestige
+- **Élément(s) :** Vide
+- **Ressource :** 
 
 ### Les Magicites
 
@@ -148,6 +448,134 @@ Les magicites sont utilisés dans la création des focalisateurs. Très prisées
 
 Notons que rien n’empêche l’usage de magicites pour la création d’armes ou d’outils, mais leurs effets sont résolument orientés vers l’usage (ou la défense) de la magie.
 
-Modificateur de prix de référence : +15 par niveau de qualité 🪙. Modificateur de disponibilité : +2 par niveau de qualité. Qualité minimum de l’objet : Contrairement à d’autres matériaux, les magicites ne sont pas plus rares les uns que les autres et ne nécessitent pas des supports de qualité particuliers.
+- **Modificateur de prix de référence :** +15 par niveau de qualité 🪙
+- **Modificateur de disponibilité :** +2 par niveau de qualité
+- **Qualité minimum de l’objet :** Contrairement à d’autres matériaux, les magicites ne sont pas plus rares les uns que les autres et ne nécessitent pas des supports de qualité particuliers.
 
-Les magicites sont associées à des constellations, dont elles proviendraient. Magicite Auralis Description : Pierre cristalline d’un blanc laiteux, traversée de veines dorées scintillant à chaque incantation. Elle évoque l’éclat d’une idée parfaitement formulée. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’un bonus à la maîtrise (difficulté pour les défenses) augmenté de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : La Lance d’Aura Une ligne droite de sept étoiles pointant vers le zénith. On dit qu'elle perce le voile de la réalité pour frapper l’esprit, là où naît l’intention magique. Magicite Borealis Description : Fragment d’arc-en-ciel minéral aux teintes changeantes selon l’angle de vue. Le cristal pulse doucement comme s’il respirait une logique supérieure. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’un bonus à l’expertise (difficulté pour les conditions et sauvegardes) augmenté de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : Les Voiles Boréales Un nuage stellaire en spirale, flottant lentement à travers la nuit. Les sages disent que cette constellation murmure les vérités cachées aux plus attentifs. Magicite Caelunox Description : Cristal violet foncé strié de lignes argentées. Il donne une impression d’élasticité arcanique, comme si le temps s’étirait au contact de la matière. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’un mana temporaire de 1 par niveau de qualité (à chaque lancé de sort). Ce bonus est limité par le niveau du sort affecté. Constellation : Le Sablier Fendu Deux astres opposés reliés par une traînée de poussière brillante. On raconte qu’il mesure les sorts trop puissants pour s’arrêter d’eux-mêmes. Magicite Darethys Description : Minerai d’un bleu profond, hérissé de pointes translucides qui s’allument légèrement à chaque usage. On dit qu’il garde la mémoire des sorts. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’une puissance de sort augmentée de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : La Couronne des Liens Un cercle d’étoiles disposé comme des runes anciennes. Erydiome est associée à la magie persistante, celle qui lie les mondes et les volontés sur la durée. Magicite Erydiome Description : Minerai d’un bleu profond, hérissé de pointes translucides qui s’illuminent faiblement au contact de l’énergie magique. Il semble résonner avec les forces latentes du monde. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’une charge des enchantements augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : La Couronne des Liens Un cercle parfait d’étoiles équidistantes, considéré comme le sceau céleste des pactes magiques. On dit qu’il symbolise la permanence des enchantements qui transcendent le temps. Magicite Fayndral Description : Pierre rougeoyante et striée comme une veine battante, elle dégage une chaleur sourde, presque émotionnelle. Elle semble intensifier l’intention du lanceur. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’une charge des conditions augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : L’Étincelle Errante Une chaîne désordonnée d’étoiles qui ne reste jamais à la même position dans le ciel. Elle incarne les liens fragiles, mais puissants, des conditions et des états magiques. Magicite Galmyrra Description : Bloc minéral rugueux à l’extérieur, mais renfermant un cœur cristallin mouvant. Il vibre au rythme des entités convoquées, comme une cage encore habitée. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’une charge des invocations augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : La Griffe Inerte Un bras stellaire recourbé, prêt à saisir ou à libérer. Elle est vénérée par ceux qui croient que chaque invocation laisse une empreinte dans les cieux. Magicite Helionox Description : Éclat doré zébré de noir, semblant se consumer lentement de l’intérieur. Sa présence impose silence et tension. Propriétés : Les sorts lancés via le focalisateur taillé dans cette matière profite d’une difficulté arcanique augmentée de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : Le Cœur Brisé du Soleil Deux demi-cercles d’étoiles ne se rejoignent jamais. Il incarne le savoir perdu, les secrets enfouis, et la difficulté croissante de manipuler les arcanes les plus anciens. Magicite Ignathys Description : Cristal orangé incandescent, dont les reflets dansent comme des braises vivantes. Il semble vouloir bondir hors de la main du mage. Propriétés : Les jets arcaniques via le focalisateur taillé dans cette matière profite d’un bonus de 1 par niveau de qualité. Constellation : Le Feu du Jugement Un triangle d’étoiles formant une flamme inversée. C’est un symbole d’explosion contrôlée : l’exact instant où la volonté se transforme en pouvoir. Magicite Jakharys Description : Pierre noire à reflets bleutés, mate mais vivante, comme un œil fermé. Elle semble amplifier toute forme d’intuition arcanique. Propriétés : Les jets arcaniques via le focalisateur taillé dans cette matière profite d’un bonus de 1 par niveau de qualité. Constellation : Le Masque Oublié Formée de trois étoiles en triangle autour d’un point sombre, cette constellation incarne la force intérieure cachée, révélée au moment décisif. Magicite Kalythis Description : Cristal émeraude taillé en strates, qui s’adapte à l’aura de celui qui le touche. Un lien profond se forme selon la magie façonnée. Propriétés : Les tests d’incantation via le focalisateur taillé dans cette matière profite d’un bonus d’ajustement de 1 par niveau de qualité. Cette matière doit être façonnée pour fonctionner sur une école ou un domaine de magie précis. Constellation : Le Cerf d’Azur Figure élancée aux cornes déployées. Il symbolise la maîtrise spécialisée, le perfectionnement de l’arcane dans un domaine précis. Magicite Lunareth Description : Éclat d’opale lunaire presque translucide. Une fois activée, elle projette de brèves ondulations lumineuses autour du lanceur. Propriétés : Les tests d’arcanes via le focalisateur taillé dans cette matière profite d’un bonus d’ajustement de 1 par niveau de qualité. Cette matière doit être façonnée pour fonctionner sur une action d’arcane précis (dont l’usage des matérias fait partie). Constellation : L’Éclipse Enchaînée Un cercle incomplet entourant un vide d’étoiles. Cette constellation symbolise les liens entre les gestes, les mots et les effets d’un sort précis. Magicite Myros Description : Pierre fumée dont les volutes internes semblent ralentir le flux de mana. Elle adoucit l’impact des excès magiques. Propriétés : Les brûlures de mana via le focalisateur taillé dans cette matière sont réduits de 2 par niveau de qualité. Constellation : La Couronne des Vents Une spirale ouverte d’étoiles dispersées. Symbole d’harmonie et de diffusion, elle veille à ce que l’énergie se propage sans heurt. Magicite Nymbréos Description : Fragment cristallin traversé de veines blanches et bleues. En l’utilisant, les sorts semblent s’étirer plus loin que la main ne peut voir. Propriétés : La portée des sorts augmente de 20% par niveau de qualité. Si le sort n’a pas de portée alors cette matière ne fait pas d’effets particuliers. Constellation : La Brume d’Aube Floue et changeante, elle n’est visible qu’avant l’aurore. C’est le symbole des choses qui vont plus loin que prévu. Magicite Oracyn Description : Cristal argenté irradiant une lueur douce et uniforme. Il semble étendre la présence du lanceur autour de lui. Propriétés : La zone d’effet des sorts augmente de 20% par niveau de qualité. Si le sort n’a pas de zone d’effet alors cette matière ne fait pas d’effets particuliers. Constellation : L’Œil Silencieux Un astre unique entouré d’un halo diffus. Ce regard cosmique perçoit tout et étend l’influence sans un mot. Magicite Phenixia Description : Pierre rouge intense parcourue de nervures dorées. Elle brûle doucement, ranimant la puissance des enchantements qui la touchent. Propriétés : La magnitude des enchantements qui affecte le focalisateur est augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté. Constellation : La Plume Ardente Formée d’une courbe lumineuse descendant vers l’horizon. Elle incarne la renaissance et l’intensité croissante de la magie fixée. Magicite Qyone Description : Bloc minéral d’un gris bleuté, lisse comme le métal poli. Il réagit vivement aux menaces, générant de subtils éclats protecteurs. Propriétés : Le focalisateur produit une déviation augmentée de 2 contre les attaques magiques lors d’action de défense générant de la déviation. Constellation : La Harpe de Glace Une série de lignes fines presque parallèles. Elle symbolise les cordes de la défense magique, qui vibrent au contact de l’agression. Magicite Ravhalis Description : Cristal noir profond, parsemé de micro-luminescences violettes. Il confère une impression de stabilité face à l’inconnu. Propriétés : Le focalisateur octroie un bonus d’ajustement équivalant au niveau de qualité aux actions de défenses contre la magie. Constellation : La Comète d’Argile Un astre filant au ras du monde, traçant une ligne protectrice entre le ciel et la terre. Elle incarne la résistance face à la force céleste brute.
+Les magicites sont associées à des constellations, dont elles proviendraient.
+
+#### Magicite Auralis
+
+Pierre cristalline d’un blanc laiteux, traversée de veines dorées scintillant à chaque incantation. Elle évoque l’éclat d’une idée parfaitement formulée.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’un bonus à la maîtrise (difficulté pour les défenses) augmenté de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** La Lance d’Aura — Une ligne droite de sept étoiles pointant vers le zénith. On dit qu’elle perce le voile de la réalité pour frapper l’esprit, là où naît l’intention magique.
+
+#### Magicite Borealis
+
+Fragment d’arc-en-ciel minéral aux teintes changeantes selon l’angle de vue. Le cristal pulse doucement comme s’il respirait une logique supérieure.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’un bonus à l’expertise (difficulté pour les conditions et sauvegardes) augmenté de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** Les Voiles Boréales — Un nuage stellaire en spirale, flottant lentement à travers la nuit. Les sages disent que cette constellation murmure les vérités cachées aux plus attentifs.
+
+#### Magicite Caelunox
+
+Cristal violet foncé strié de lignes argentées. Il donne une impression d’élasticité arcanique, comme si le temps s’étirait au contact de la matière.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’un mana temporaire de 1 par niveau de qualité (à chaque lancé de sort). Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** Le Sablier Fendu — Deux astres opposés reliés par une traînée de poussière brillante. On raconte qu’il mesure les sorts trop puissants pour s’arrêter d’eux-mêmes.
+
+#### Magicite Darethys
+
+Minerai d’un bleu profond, hérissé de pointes translucides qui s’allument légèrement à chaque usage. On dit qu’il garde la mémoire des sorts.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’une puissance de sort augmentée de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** La Couronne des Liens — Un cercle d’étoiles disposé comme des runes anciennes. Erydiome est associée à la magie persistante, celle qui lie les mondes et les volontés sur la durée.
+
+#### Magicite Erydiome
+
+Minerai d’un bleu profond, hérissé de pointes translucides qui s’illuminent faiblement au contact de l’énergie magique. Il semble résonner avec les forces latentes du monde.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’une charge des enchantements augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** La Couronne des Liens — Un cercle parfait d’étoiles équidistantes, considéré comme le sceau céleste des pactes magiques. On dit qu’il symbolise la permanence des enchantements qui transcendent le temps.
+
+#### Magicite Fayndral
+
+Pierre rougeoyante et striée comme une veine battante, elle dégage une chaleur sourde, presque émotionnelle. Elle semble intensifier l’intention du lanceur.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’une charge des conditions augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** L’Étincelle Errante — Une chaîne désordonnée d’étoiles qui ne reste jamais à la même position dans le ciel. Elle incarne les liens fragiles, mais puissants, des conditions et des états magiques.
+
+#### Magicite Galmyrra
+
+Bloc minéral rugueux à l’extérieur, mais renfermant un cœur cristallin mouvant. Il vibre au rythme des entités convoquées, comme une cage encore habitée.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’une charge des invocations augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** La Griffe Inerte — Un bras stellaire recourbé, prêt à saisir ou à libérer. Elle est vénérée par ceux qui croient que chaque invocation laisse une empreinte dans les cieux.
+
+#### Magicite Helionox
+
+Éclat doré zébré de noir, semblant se consumer lentement de l’intérieur. Sa présence impose silence et tension.
+
+- **Propriétés :** Les sorts lancés via le focalisateur taillé dans cette matière profite d’une difficulté arcanique augmentée de 1 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** Le Cœur Brisé du Soleil — Deux demi-cercles d’étoiles ne se rejoignent jamais. Il incarne le savoir perdu, les secrets enfouis, et la difficulté croissante de manipuler les arcanes les plus anciens.
+
+#### Magicite Ignathys
+
+Cristal orangé incandescent, dont les reflets dansent comme des braises vivantes. Il semble vouloir bondir hors de la main du mage.
+
+- **Propriétés :** Les jets arcaniques via le focalisateur taillé dans cette matière profite d’un bonus de 1 par niveau de qualité.
+- **Constellation :** Le Feu du Jugement — Un triangle d’étoiles formant une flamme inversée. C’est un symbole d’explosion contrôlée : l’exact instant où la volonté se transforme en pouvoir.
+
+#### Magicite Jakharys
+
+Pierre noire à reflets bleutés, mate mais vivante, comme un œil fermé. Elle semble amplifier toute forme d’intuition arcanique.
+
+- **Propriétés :** Les jets arcaniques via le focalisateur taillé dans cette matière profite d’un bonus de 1 par niveau de qualité.
+- **Constellation :** Le Masque Oublié — Formée de trois étoiles en triangle autour d’un point sombre, cette constellation incarne la force intérieure cachée, révélée au moment décisif.
+
+#### Magicite Kalythis
+
+Cristal émeraude taillé en strates, qui s’adapte à l’aura de celui qui le touche. Un lien profond se forme selon la magie façonnée.
+
+- **Propriétés :** Les tests d’incantation via le focalisateur taillé dans cette matière profite d’un bonus d’ajustement de 1 par niveau de qualité. Cette matière doit être façonnée pour fonctionner sur une école ou un domaine de magie précis.
+- **Constellation :** Le Cerf d’Azur — Figure élancée aux cornes déployées. Il symbolise la maîtrise spécialisée, le perfectionnement de l’arcane dans un domaine précis.
+
+#### Magicite Lunareth
+
+Éclat d’opale lunaire presque translucide. Une fois activée, elle projette de brèves ondulations lumineuses autour du lanceur.
+
+- **Propriétés :** Les tests d’arcanes via le focalisateur taillé dans cette matière profite d’un bonus d’ajustement de 1 par niveau de qualité. Cette matière doit être façonnée pour fonctionner sur une action d’arcane précis (dont l’usage des matérias fait partie).
+- **Constellation :** L’Éclipse Enchaînée — Un cercle incomplet entourant un vide d’étoiles. Cette constellation symbolise les liens entre les gestes, les mots et les effets d’un sort précis.
+
+#### Magicite Myros
+
+Pierre fumée dont les volutes internes semblent ralentir le flux de mana. Elle adoucit l’impact des excès magiques.
+
+- **Propriétés :** Les brûlures de mana via le focalisateur taillé dans cette matière sont réduits de 2 par niveau de qualité.
+- **Constellation :** La Couronne des Vents — Une spirale ouverte d’étoiles dispersées. Symbole d’harmonie et de diffusion, elle veille à ce que l’énergie se propage sans heurt.
+
+#### Magicite Nymbréos
+
+Fragment cristallin traversé de veines blanches et bleues. En l’utilisant, les sorts semblent s’étirer plus loin que la main ne peut voir.
+
+- **Propriétés :** La portée des sorts augmente de 20% par niveau de qualité. Si le sort n’a pas de portée alors cette matière ne fait pas d’effets particuliers.
+- **Constellation :** La Brume d’Aube — Floue et changeante, elle n’est visible qu’avant l’aurore. C’est le symbole des choses qui vont plus loin que prévu.
+
+#### Magicite Oracyn
+
+Cristal argenté irradiant une lueur douce et uniforme. Il semble étendre la présence du lanceur autour de lui.
+
+- **Propriétés :** La zone d’effet des sorts augmente de 20% par niveau de qualité. Si le sort n’a pas de zone d’effet alors cette matière ne fait pas d’effets particuliers.
+- **Constellation :** L’Œil Silencieux — Un astre unique entouré d’un halo diffus. Ce regard cosmique perçoit tout et étend l’influence sans un mot.
+
+#### Magicite Phenixia
+
+Pierre rouge intense parcourue de nervures dorées. Elle brûle doucement, ranimant la puissance des enchantements qui la touchent.
+
+- **Propriétés :** La magnitude des enchantements qui affecte le focalisateur est augmentée de 2 par niveau de qualité. Ce bonus est limité par le niveau du sort affecté.
+- **Constellation :** La Plume Ardente — Formée d’une courbe lumineuse descendant vers l’horizon. Elle incarne la renaissance et l’intensité croissante de la magie fixée.
+
+#### Magicite Qyone
+
+Bloc minéral d’un gris bleuté, lisse comme le métal poli. Il réagit vivement aux menaces, générant de subtils éclats protecteurs.
+
+- **Propriétés :** Le focalisateur produit une déviation augmentée de 2 contre les attaques magiques lors d’action de défense générant de la déviation.
+- **Constellation :** La Harpe de Glace — Une série de lignes fines presque parallèles. Elle symbolise les cordes de la défense magique, qui vibrent au contact de l’agression.
+
+#### Magicite Ravhalis
+
+Cristal noir profond, parsemé de micro-luminescences violettes. Il confère une impression de stabilité face à l’inconnu.
+
+- **Propriétés :** Le focalisateur octroie un bonus d’ajustement équivalant au niveau de qualité aux actions de défenses contre la magie.
+- **Constellation :** La Comète d’Argile — Un astre filant au ras du monde, traçant une ligne protectrice entre le ciel et la terre. Elle incarne la résistance face à la force céleste brute.
