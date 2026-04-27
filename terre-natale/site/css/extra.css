@@ -1,0 +1,21 @@
+/* Réduit les gutters latéraux du thème Material */
+.md-grid {
+  max-width: 100%;
+}
+.md-content {
+  max-width: none;
+}
+
+/* Débloque les images dans les tables */
+table img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+/* Améliore le rendu global des tableaux */
+table {
+    margin-bottom: 2em;
+    border-collapse: separate;
+    border-spacing: 1em;
+}

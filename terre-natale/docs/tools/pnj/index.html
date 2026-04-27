@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terre Natale — Forgeur de PNJ</title>
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="pnj.css">
+</head>
+<body>
+
+<h1>⚔ Forgeur de PNJ</h1>
+
+<div class="layout">
+
+  <!-- ── Colonne gauche : configuration ─────────────────── -->
+  <div>
+
+    <!-- Taxonomie -->
+    <div class="panel">
+      <h2>Taxonomie</h2>
+      <div class="field">
+        <label>Règne</label>
+        <select id="sel-regne" class="nes-select"></select>
+      </div>
+      <div class="field">
+        <label>Race</label>
+        <select id="sel-race" class="nes-select">
+          <option value="">— choisir un règne d'abord —</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Ethnie <small>(✦ = transverse)</small></label>
+        <select id="sel-ethnie" class="nes-select">
+          <option value="">— Aucune —</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Lignée <small>(✦ = transverse)</small></label>
+        <select id="sel-lignee" class="nes-select">
+          <option value="">— Aucune —</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Rang & Rôle -->
+    <div class="panel">
+      <h2>Rang &amp; Rôle</h2>
+      <div class="field">
+        <label>Rang</label>
+        <select id="sel-rang" class="nes-select"></select>
+      </div>
+      <div class="field">
+        <label>Rôle</label>
+        <select id="sel-role" class="nes-select"></select>
+      </div>
+      <div class="info-bar" id="rang-info"></div>
+      <div class="info-bar" id="role-info"></div>
+    </div>
+
+    <!-- Attributs -->
+    <div class="panel">
+      <h2>Attributs</h2>
+      <h3>TH × 2, H × 2, M × 2, B × 2 — reste TB<span id="tier-valid"></span></h3>
+      <table class="attr-table">
+        <thead>
+          <tr>
+            <th style="text-align:left">Attr.</th>
+            <th>Tier</th>
+            <th>Base</th>
+            <th>±</th>
+            <th>Final</th>
+          </tr>
+        </thead>
+        <tbody id="attr-tbody"></tbody>
+      </table>
+      <p class="tb-line">TB auto : <span id="tb-summary">—</span></p>
+      <p class="eq-line">Équilibre (M + Ajust.) : <strong id="equilibre-val">—</strong></p>
+    </div>
+
+  </div>
+
+  <!-- ── Colonne droite : résultat ──────────────────────── -->
+  <div>
+    <div class="panel">
+      <h2>Particularités</h2>
+      <div id="result-parts">
+        <p class="muted">Sélectionner un règne, une race et/ou une ethnie.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="pnj.js"></script>
+</body>
+</html>

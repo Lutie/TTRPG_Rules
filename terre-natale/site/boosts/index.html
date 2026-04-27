@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thalifen — Calculateur Boost/Deboost</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Thalifen — Ajustements d’attributs</h1>
+      <p class="subtitle">
+        Sélectionne les attributs ciblés par tes Boosts/Deboosts. Les caps sont appliqués :
+        <strong>Boost +2 puis +1 (max +4)</strong> / <strong>Deboost -2 puis -1 (max -4)</strong>.
+      </p>
+    </header>
+
+    <section class="card">
+      <div class="toolbar">
+        <button id="resetBtn" type="button" class="secondary">Réinitialiser</button>
+      </div>
+
+      <div class="sectionsGrid">
+        <!-- Race -->
+        <section class="groupCard">
+          <h2>Race</h2>
+          <div class="fieldList">
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost 1</div>
+              <select class="attrSelect" data-type="boost" data-source="race" data-slot="boost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost 2</div>
+              <select class="attrSelect" data-type="boost" data-source="race" data-slot="boost2"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Deboost 1</div>
+              <select class="attrSelect" data-type="deboost" data-source="race" data-slot="deboost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost bonus (si Deboost)</div>
+              <select class="attrSelect" data-type="boost" data-source="race" data-slot="boost3"></select>
+            </div>
+          </div>
+          <p class="microhint">Laisse <strong>—</strong> si le choix n’est pas pris.</p>
+        </section>
+
+        <!-- Allégeance -->
+        <section class="groupCard">
+          <h2>Allégeance</h2>
+          <div class="fieldList">
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost</div>
+              <select class="attrSelect" data-type="boost" data-source="allegeance" data-slot="boost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Deboost</div>
+              <select class="attrSelect" data-type="deboost" data-source="allegeance" data-slot="deboost1"></select>
+            </div>
+          </div>
+          <p class="microhint">Selon tes règles, ça peut être 0, 1 ou plusieurs effets — ici on gère le cas simple.</p>
+        </section>
+
+        <!-- Milieu de vie -->
+        <section class="groupCard">
+          <h2>Milieu de vie</h2>
+          <div class="fieldList">
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost 1</div>
+              <select class="attrSelect" data-type="boost" data-source="milieu" data-slot="boost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost 2</div>
+              <select class="attrSelect" data-type="boost" data-source="milieu" data-slot="boost2"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Deboost 1</div>
+              <select class="attrSelect" data-type="deboost" data-source="milieu" data-slot="deboost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Deboost 2</div>
+              <select class="attrSelect" data-type="deboost" data-source="milieu" data-slot="deboost2"></select>
+            </div>
+          </div>
+        </section>
+
+        <!-- Persona -->
+        <section class="groupCard">
+          <h2>Persona</h2>
+          <div class="fieldList">
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost 1</div>
+              <select class="attrSelect" data-type="boost" data-source="persona" data-slot="boost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost 2</div>
+              <select class="attrSelect" data-type="boost" data-source="persona" data-slot="boost2"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Deboost 1</div>
+              <select class="attrSelect" data-type="deboost" data-source="persona" data-slot="deboost1"></select>
+            </div>
+            <div class="fieldRow">
+              <div class="fieldLabel">Boost bonus (si Deboost)</div>
+              <select class="attrSelect" data-type="boost" data-source="persona" data-slot="boost3"></select>
+            </div>
+          </div>
+          <p class="microhint">Même logique que la Race : Boost bonus optionnel.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Résultat</h2>
+      <div class="grid">
+        <div>
+          <h3>Ajustements par attribut</h3>
+          <div id="resultsGrid" class="resultsGrid" aria-live="polite"></div>
+        </div>
+
+        <div>
+          <h3>Détails</h3>
+          <div id="detailsBox" class="detailsBox" aria-live="polite"></div>
+          <p class="footnote">
+            Les Boosts et Deboosts sont comptés par attribut, puis convertis en ajustements avec cap (+4 / -4).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Version simple — HTML/CSS/JS, sans données externes.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

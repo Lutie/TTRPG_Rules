@@ -1,0 +1,51 @@
+@media print {
+  .md-sidebar,
+  .md-header,
+  .md-footer,
+  .md-tabs {
+    display: none !important;
+  }
+
+  .md-main__inner,
+  .md-content,
+  .md-content__inner {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  @page {
+    margin: 10mm;
+  }
+}
+
+@media print {
+  /* Force un saut de page */
+  .page-break {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  /* Sécurité : l'élément lui-même ne prend pas de place visible */
+  .page-break {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  /* Empêche la coupe des tables et images */
+  table,
+  tr,
+  td,
+  img {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Empêche titre seul en bas de page */
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+}

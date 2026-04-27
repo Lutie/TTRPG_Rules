@@ -1,0 +1,255 @@
+<!DOCTYPE html><html><head>
+      <title>acier</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Lutie\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="sorts--acier">Sorts – Acier </h1>
+<blockquote>
+<p>21 sorts pour Acier</p>
+</blockquote>
+<h2 id="affûter-larme">Affûter l'Arme </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Létalisation</span> (Letum (Mort) / Lemleto (Lem + leto)) : Génère un enchantement positif qui augmente la criticité d'une arme ciblé de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, à la fin du cycle ou après que l'attaque est été porté (critique ou non) cet effet prend immédiatement fin. <em><strong>Clé :</strong></em> ⚔️ Acier: Lemletoan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Rend une arme plus meurtrière en augmentant fortement ses chances de critique pour une seule attaque.</p>
+<hr>
+<h2 id="lacérations-sanglantes">Lacérations Sanglantes </h2>
+<p><em><strong>Difficulté :</strong></em> 14+X, <em><strong>Drain :</strong></em> 14+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École de Destruction et École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Destruction</span> (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Kinruptan<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Corruption</span> (Rumpo (Briser) / Aenrump (Aen + rump)) : Génère un effet qui convertis un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charge d'une condition positive au choix en charge de la condition négative opposée avec le double des charges ainsi converties, la cible peux réaliser un test de sauvegarde appropriée pour ce type de condition (ou opposition si supérieure), variante : Ce mot peux affecter toutes les conditions de la cible avec une difficulté augmentée de 4. <em><strong>Clé :</strong></em> ⚔️ Acier: Korruptan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige une blessure tranchante et transforme un avantage de la cible en saignement ou autre affliction.</p>
+<p><em><strong>Notes :</strong></em> Type tranchant, vs DEX, 2nd mot condition : Saignement.</p>
+<hr>
+<h2 id="indestructibilité">indestructibilité </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Annexe</span> <em>(mot introuvable dans les dictionnaires)</em></p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Solidification</span> (Durus (Dur) / Asdur (As + dur)) : Génère un enchantement positive qui augmente la résistance de l'armure enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Lirsolian<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Renforcement</span> (Roboro (Fortifier) / Aenrobor (Aen + robor)) : Génère un enchantement positive qui augmente les dégats de l'arme (actions d'attaque) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Luroboran</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Renforce équipement et porteur en rendant l’armure plus résistante et l’arme plus puissante.</p>
+<hr>
+<h2 id="faille-totale">Faille Totale </h2>
+<p><em><strong>Difficulté :</strong></em> 14+X, <em><strong>Drain :</strong></em> 14+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Intensification</span> (Vehemens (Violent) / Munvehe (Mun + vehe)) : Génère un enchantement négatif augmentant les effets des conditions négatives dont les charges sont inférieures à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> sur la cible (les conditions normales ont les effets de conditions améliorées et les conditions améliorées ont des effets encore améliorés d'un cran, si numériquement applicable). <em><strong>Clé :</strong></em> ⚔️ Acier: Malintensen (Mêlée)<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Intensification</span> (Vehemens (Violent) / Munvehe (Mun + vehe)) : Génère un enchantement négatif augmentant les effets des conditions négatives dont les charges sont inférieures à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> sur la cible (les conditions normales ont les effets de conditions améliorées et les conditions améliorées ont des effets encore améliorés d'un cran, si numériquement applicable). <em><strong>Clé :</strong></em> ⚔️ Acier: Malintensen (Tir)</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Aggrave violemment les afflictions de la cible, les faisant “passer un cran au-dessus” en mêlée ou à distance.</p>
+<hr>
+<h2 id="alourdir-lobjet">Alourdir l'Objet </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Alourdissement</span> (Pondus (Poids) / Malpondu (Mal + pondu)) : Génère un enchantement négatif qui double les pénalités d'usage de la cible (arme, outils ou armure) avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Malponduan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Alourdit un objet ou équipement et double ses pénalités d’utilisation, le rendant difficile à manier.</p>
+<hr>
+<h2 id="de-lacier-à-la-poussière">De l'acier à la poussière </h2>
+<p><em><strong>Difficulté :</strong></em> 14+X, <em><strong>Drain :</strong></em> 14+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Érosion</span> (Rodo (Ronger) / Morerode (Mor + erode)) : Génère un enchantement négatif qui double la déterioration que subit l'objet, tous les 2 points augmentés de cet manière réduisent la charge de cet enchantement de 1. <em><strong>Clé :</strong></em> ⚔️ Acier: Morerodean<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Effritement</span> (Fritus (Brisé) / Mugfrite (Mug + frite)) : Génère un enchantement négatif qui éffrite l'objet ciblé, ce dernier subissant un malus de solidité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Mugfritean</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Accélère l’usure d’un objet et diminue sa solidité, jusqu’à le réduire en poussière.</p>
+<hr>
+<h2 id="résistance-au-métal">Résistance au Métal </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Obstruction</span> (Obstruo (Boucher) / Basobstru (Bas + obstru)) : Génère un effet qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de protection, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de résistance et <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> de bonus aux sauvegardes, cet effet ne s'applique pour un effet/une action. <em><strong>Clé :</strong></em> ⚔️ Acier: Basobstruan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Accorde une protection instantanée très élevée contre les attaques d’armes métalliques (pour une action/impact).</p>
+<p><em><strong>Notes :</strong></em> Protège des armes en métals.</p>
+<hr>
+<h2 id="interroger-le-métal">Interroger le Métal </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Divination<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Interrogation</span> (Rogo (Questionner) / Diroga (Di + roga)) : Génère un effet permettant au lanceur de sort de discuter sommairement avec un élément (la flamme d'une bougie, une flaque, une lame, etc), la nature de cet élément dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée, les informations qui peuvent être transmise sont foncièrement simple comme l'élément en question n'a pas la vision du monde qu'on les hommes etc... Il est possible d'échanger (dire ou recevoir) jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mots. Le domaine du savoir peux questionner tous les éléments mais la magnitude est divisée par deux. <em><strong>Clé :</strong></em> ⚔️ Acier: Dirogaan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet de “questionner” un métal et d’en tirer des informations simples comme s’il pouvait répondre.</p>
+<p><em><strong>Notes :</strong></em> Fonctionne sur les métaux.</p>
+<hr>
+<h2 id="oeil-du-mineur">Oeil du Mineur </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Détection</span> (Tego (Couvrir) / Eloteges (Elo + teges)) : Génère un effet qui révèle la localisation de tous les espaces interdimentionnels sur un rayon de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de distance (ceci reviens à réussir un test de focus avec une distance drastiquement supérieure). <em><strong>Clé :</strong></em> ⚔️ Acier: Dartegoan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Révèle la présence et la localisation des métaux à proximité, comme un instinct de mineur.</p>
+<p><em><strong>Notes :</strong></em> Détecte les métaux.</p>
+<hr>
+<h2 id="mur-de-lames">Mur de Lames </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Edification</span> (Aedifico (Édifier) / Conedi (Con + edi)) : Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des murs magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au mur. <em><strong>Clé :</strong></em> ⚔️ Acier: Conedian</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Conjure un mur de métal/lames servant d’obstacle (et selon la clé, potentiellement dangereux).</p>
+<hr>
+<h2 id="enfer-dacier">Enfer d'Acier </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Fers</span> (Ferrum (Fer) / Colfer (Col + fer)) : Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui emprisonne un membre de la cible, la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer l'intégrité, si intangible la difficulté pour se soustraire à l'effet est augmenté de 5, la cible peux réduire/endommager les charges de l'enchantement comme il le ferait avec une structure (catégorie 0 si intangible sinon 5), il peux aussi réaliser une évaluation (diff 10) de musculation ou évasion (on considère que le jet endommage l'enchantement). <em><strong>Clé :</strong></em> ⚔️ Acier: Colferan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Fait surgir des chaînes de fer qui entravent un membre et retiennent la cible comme une prison.</p>
+<hr>
+<h2 id="conjuration-darme-véritable">Conjuration d'Arme Véritable </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Armement élémentaire</span> (Arma (Arme) / Cararma (Car + arma)) : Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : La dégats sont entièrement élémentaire, le personnage a l'expertise et la science de l'arme en question, la catégorie et la forme de l'arme est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (les contraintes liés à la catégorie, dont le charge, subsistent), l'arme offre un bonus de qualité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> mais sa qualité réelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Cararmaan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Conjure une arme d’acier élémentaire parfaitement maîtrisée, adaptée au niveau de puissance du sort.</p>
+<hr>
+<h2 id="conjuration-darmure-véritable">Conjuration d'Armure Véritable </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Armure élémentaire</span> (Loric (Cuirasse) / Conloric (Con + loric)) : Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Elle profite d'une absorption à son élément et aux éléments opposés de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> mais sa qualité réelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Conlorican</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Conjure une armure d’acier élémentaire offrant une forte absorption et une qualité magique.</p>
+<hr>
+<h2 id="danse-des-lames">Danse des Lames </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Danse des lames</span> (Gladius (Épée) / Cargladi (Car + gladi)) : Génère un enchantement qui prend la forme de 4 petites armes (couteau) / 3 moyennes (épée courte) / 2 grandes (épée longue) / une très grande (claymore) autour du lanceur de sort, le type d'arme affecte la défense passive sollicité le cas échéant uniquement (tranchant, contondant ou perforant), lorsque la cible le souhaite elle peux dépenser une action libre et 0 / 1 / 2 / 3 points d'initiative pour attaquer, défendre ou réaliser une tactique avec l'une de ces lames, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet n'est pas lié à la forme de l'arme mais à <span style="color:#ff1493; font-weight:bold;">[6+Magnitude/4]</span> / <span style="color:#ff1493; font-weight:bold;">[4+Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[2+Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, le test se fait avec une pénalité (totale) de 0 / 1 / 2 / 3, une fois l'arme utilisée elle est inactive jusqu'à ce que la cible utilise une action simple pour recharger le tout, l'arme n'attaque qu'à une portée de contact et l'action ne génère pas d'opportunité ou autre, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée. <em><strong>Clé :</strong></em> ⚔️ Acier: Cargladian</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Fait tournoyer des lames autour du lanceur, utilisables pour attaquer/défendre à volonté avant recharge.</p>
+<hr>
+<h2 id="miriade-de-projectiles">Miriade de Projectiles </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Halo de projectiles</span> (Telum (Trait/Projectile) / Contelum (Con + telum)) : Génère un enchantement qui prend la forme de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> projectiles autour du lanceur de sort, lorsque la cible le souhaite elle peux dépenser une action libre pour attaquer (la nature de l'attaque dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée) avec l'un de ces projectiles, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet n'est pas lié à la forme de l'arme mais à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, une fois le projectile utilisé ce dernier disparait jusqu'à ce que la cible utilise une action simple pour recharger le tout, les projectiles ont une portée équivalante à celle d'un sort "à disance" et l'action ne génère pas d'opportunité ou autre, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée. <em><strong>Clé :</strong></em> ⚔️ Acier: Conteluman</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Crée une couronne de projectiles métalliques utilisables pour des attaques physiques à distance.</p>
+<p><em><strong>Notes :</strong></em> Provoque des attaques physiques.</p>
+<hr>
+<h2 id="miriade-de-boucliers">Miriade de Boucliers </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Couronne de boucliers</span> (Scutum (Bouclier) / Censcutu (Cen + scutu)) : Génère un enchantement qui prend la forme de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> boucliers autour du lanceur de sort, lorsque la cible le souhaite elle peux dépenser une action libre pour se défendre avec l'un de ces boucliers, il est possible de défendre (d'une agression dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée) un allié adjacent de cette manière, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet associé est alors fixé à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, une fois le bouclier utilisé ce dernier disparait jusqu'à ce que la cible utilise une action simple pour recharger le tout, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée. <em><strong>Clé :</strong></em> ⚔️ Acier: Censcutuan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Crée une couronne de boucliers métalliques utilisables pour parer, y compris pour protéger un allié adjacent.</p>
+<p><em><strong>Notes :</strong></em> Protège des attaques physiques.</p>
+<hr>
+<h2 id="transmutation-des-métaux">Transmutation des Métaux </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Transmutation</span> (Muto (Changer) / Almutat (Al + mutat)) : L'effet du sort convertis jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> unités (définit par l'encombrement si on parle d'équipement) d'un type qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> vers une autre du même type (example : acier vers bronze), le niveau de qualité du minerai doit être le même ou inférieur, le résultat sera forcément du niveau de la matière initiale, si le prix des deux produits diffèrent alors il est obligatoire de compenser via la quantité (en somme le sort ne peux produire de la richesse). <em><strong>Clé :</strong></em> ⚔️ Acier: Almutatan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Transforme une quantité limitée de métal en un autre métal équivalent, sans créer de richesse.</p>
+<p><em><strong>Notes :</strong></em> Affecte les objets dont la base est en métal.</p>
+<hr>
+<h2 id="restructuration-du-métal">Restructuration du Métal </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Réparation</span> (Paro (Préparer) / Arparo (Ar + paro)) : L'effet du sort répare un objet ou structure (dont la nature coRespond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) d'un total de dégradation de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, l'objet peux de cette manière voir son niveau de dégradation être réduit, la clé Arcane permet de réparer sans distinction de la nature de l'objet ou de la structure mais la magnitude est divisée par 2. <em><strong>Clé :</strong></em> ⚔️ Acier: Arparoan</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Répare et restructure un objet ou une structure métallique en effaçant une partie de sa dégradation.</p>
+<p><em><strong>Notes :</strong></em> Affecte les objets dont la base est en métal.</p>
+<hr>
+<h2 id="arme-du-destructeur">Arme du Destructeur </h2>
+<p><em><strong>Difficulté :</strong></em> 10+X, <em><strong>Drain :</strong></em> 10+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Renforcement</span> (Roboro (Fortifier) / Aenrobor (Aen + robor)) : Génère un enchantement positive qui augmente les dégats de l'arme (actions d'attaque) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Aenroboran<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Amélioration</span> (Potius (Mieux) / Aenpoti (Aen + poti)) : Génère un enchantement positive qui augmente une caractéristique de l'arme (perforation, attrition, pénétration, malice) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Aenpotian</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Enchante une arme pour frapper plus fort et percer davantage, taillée pour briser les défenses.</p>
+<p><em><strong>Notes :</strong></em> la caractéristique visée par le second mot est la perforation.</p>
+<hr>
+<h2 id="arme-du-protecteur">Arme du Protecteur </h2>
+<p><em><strong>Difficulté :</strong></em> 10+X, <em><strong>Drain :</strong></em> 10+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Déviation</span> (Devius (Détourné) / Ardevi (Ar + devi)) : Génère un enchantement positive qui augmente la déviation de l'arme (actions de défense) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Ardevian<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Amélioration</span> (Potius (Mieux) / Aenpoti (Aen + poti)) : Génère un enchantement positive qui augmente une caractéristique de l'arme (perforation, attrition, pénétration, malice) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Aenpotian</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Enchante une arme pour mieux parer et dévier, idéale pour la garde et la protection.</p>
+<p><em><strong>Notes :</strong></em> la caractéristique visée par le second mot est la déviation.</p>
+<hr>
+<h2 id="arme-du-juggernaut">Arme du Juggernaut </h2>
+<p><em><strong>Difficulté :</strong></em> 10+X, <em><strong>Drain :</strong></em> 10+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚔⚔, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Impactation</span> (Impingo (Frapper) / Alimpac (Al + impac)) : Génère un enchantement positive qui augmente l'impact de l'arme (actions tactique) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Alimpacan<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Amélioration</span> (Potius (Mieux) / Aenpoti (Aen + poti)) : Génère un enchantement positive qui augmente une caractéristique de l'arme (perforation, attrition, pénétration, malice) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> ⚔️ Acier: Aenpotian</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Enchante une arme pour des manœuvres écrasantes et rusées, améliorant ses tactiques et sa “malice”.</p>
+<p><em><strong>Notes :</strong></em> la caractéristique visée par le second mot est la malice.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

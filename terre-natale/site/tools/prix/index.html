@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculateur de Prix — Terre Natale</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <a class="back" href="../">← Outils</a>
+      <h1>Calculateur de Prix</h1>
+      <p class="subtitle">Compose ton objet et obtiens son prix d'achat et de vente.</p>
+    </header>
+
+    <!-- Type -->
+    <section class="card">
+      <h2>Type d'objet</h2>
+      <div class="type-tabs" id="typeTabs">
+        <button class="tab active" data-type="melee">Arme de mêlée</button>
+        <button class="tab" data-type="distance">Arme à distance</button>
+        <button class="tab" data-type="armure">Armure</button>
+      </div>
+    </section>
+
+    <!-- Paramètres -->
+    <section class="card">
+      <h2>Paramètres</h2>
+      <div class="params-grid">
+
+        <!-- Catégorie -->
+        <div class="param-group">
+          <label for="selCat">Catégorie</label>
+          <select id="selCat"></select>
+          <span class="hint" id="hintCat"></span>
+        </div>
+
+        <!-- Armure travaillée (armure only) -->
+        <div class="param-group" id="groupTravaillee" style="display:none">
+          <label>Modèle</label>
+          <div class="toggle-row">
+            <button class="tog" id="togNormale" data-val="normale">Normale</button>
+            <button class="tog" id="togTravaillee" data-val="travaillee">Travaillée</button>
+          </div>
+          <span class="hint">Travaillée = demi-catégorie sup (+20 au prix de base)</span>
+        </div>
+
+        <!-- Qualité -->
+        <div class="param-group">
+          <label for="selQual">Qualité</label>
+          <select id="selQual"></select>
+          <span class="hint" id="hintQual"></span>
+        </div>
+
+        <!-- Taille -->
+        <div class="param-group">
+          <label for="selTaille">Taille</label>
+          <select id="selTaille">
+            <option value="-2">Très Court  (−6 au prix réf.)</option>
+            <option value="-1">Court  (−3 au prix réf.)</option>
+            <option value="0" selected>Normale  (±0)</option>
+            <option value="1">Long  (+3 au prix réf.)</option>
+            <option value="2">Très Long  (+6 au prix réf.)</option>
+          </select>
+        </div>
+
+        <!-- Gabarit -->
+        <div class="param-group">
+          <label for="selGabarit">Gabarit</label>
+          <select id="selGabarit">
+            <option value="-2">Très Légère  (−6 au prix réf.)</option>
+            <option value="-1">Légère  (−3 au prix réf.)</option>
+            <option value="0" selected>Normale  (±0)</option>
+            <option value="1">Lourde  (+3 au prix réf.)</option>
+            <option value="2">Très Lourde  (+6 au prix réf.)</option>
+          </select>
+        </div>
+
+        <!-- Équilibre (armes seulement) -->
+        <div class="param-group" id="groupEquilibre">
+          <label for="selEquilibre">Équilibre</label>
+          <select id="selEquilibre">
+            <option value="-2">Très Déséquilibré  (−6 au prix réf.)</option>
+            <option value="-1">Déséquilibré  (−3 au prix réf.)</option>
+            <option value="0" selected>Normale  (±0)</option>
+            <option value="1">Équilibré  (+3 au prix réf.)</option>
+            <option value="2">Très Équilibré  (+6 au prix réf.)</option>
+          </select>
+        </div>
+
+        <!-- Forme -->
+        <div class="param-group">
+          <label for="selForme">Forme</label>
+          <select id="selForme"></select>
+          <span class="hint" id="hintForme"></span>
+        </div>
+
+        <!-- Améliorations -->
+        <div class="param-group">
+          <label for="inpAmelios">Prix des améliorations <span class="muted">(total, avant qualité)</span></label>
+          <input type="number" id="inpAmelios" value="0" min="0" step="1" />
+          <span class="hint" id="hintAmelios"></span>
+        </div>
+
+        <!-- Matière -->
+        <div class="param-group">
+          <label for="inpMatiere">Prix de la matière <span class="muted">(total, avant qualité)</span></label>
+          <input type="number" id="inpMatiere" value="0" min="0" step="0.1" />
+        </div>
+
+        <!-- Rareté -->
+        <div class="param-group">
+          <label for="inpRarete">Modificateur de rareté <span class="muted">(%)</span></label>
+          <input type="number" id="inpRarete" value="0" step="5" />
+          <span class="hint">Ex : −30 pour courant, +50 pour rare. S'applique en dernier.</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Résultat -->
+    <section class="card result-card">
+      <h2>Résultat</h2>
+      <div class="result-breakdown" id="breakdown"></div>
+      <div class="result-prices" id="prices"></div>
+    </section>
+
+    <footer class="footer">
+      <a class="back" href="../">← Outils</a>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -113,6 +113,7 @@ nav:
   - Outils:
     - Vitals: tools/vitals/index.html
     - Stats: tools/stats/index.html
+    - Forgeur de PNJ: tools/pnj/index.html
 theme:
   name: "material"
   palette:

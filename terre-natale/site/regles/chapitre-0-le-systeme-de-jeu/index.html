@@ -1,0 +1,3936 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../introduction/">
+      
+      
+        <link rel="next" href="../chapitre-1-les-attributs/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Chapitre 0 : Le Système de jeu - Terre Natale</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/print.css">
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapitre-0-le-systeme-de-jeu" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Terre Natale" class="md-header__button md-logo" aria-label="Terre Natale" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Terre Natale
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapitre 0 : Le Système de jeu
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Terre Natale" class="md-nav__button md-logo" aria-label="Terre Natale" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Terre Natale
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Règles de Base
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Règles de Base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Chapitre 0 : Le Système de jeu
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 0 : Le Système de jeu
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#les-des" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les dés
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Tests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anatomie-dun-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anatomie d’un test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-dattribut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests d’Attribut
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-de-competence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests de compétence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-de-sauvegarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests de sauvegarde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Tests de sauvegarde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-avantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests Avantagés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-desavantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests Désavantagés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-ajustements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Ajustements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-combines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests Combinés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-seuils" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Seuils
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-modificateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Modificateurs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-reussites-et-les-echecs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Réussites et les Échecs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Réussites et les Échecs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-marge-de-reussite" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Marge de Réussite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-marge-dechec" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Marge d'Échec
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-reussite-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Réussite Critique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lechec-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      L'Échec Critique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-singularites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Singularités
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexploit" class="md-nav__link">
+    <span class="md-ellipsis">
+      L’Exploit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-maladresse" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Maladresse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-coup-de-chance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Coup de Chance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-baraka" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Baraka
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-difficultes-devaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les difficultés d’évaluation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-activites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Activités
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-cumule-des-penalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le cumule des pénalités
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-cumul-des-bonus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le cumul des bonus
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-degre-de-reussite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Degré de réussite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lappel-a-la-chance" class="md-nav__link">
+    <span class="md-ellipsis">
+      L’Appel à la Chance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-jets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Jets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Jets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anatomie-dun-jet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anatomie d’un jet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-jet-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Jet Critique
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-prouesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Prouesses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Prouesses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timing-des-prouesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timing des prouesses
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-sauvegardes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Sauvegardes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-1-les-attributs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 1 : Les Attributs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-2-les-competences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 2 : Les Compétences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-3-les-traits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 3 : Les Traits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-4-les-caracteristiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 4 : Les Caractéristiques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-5-la-creation-de-personnage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 5 : La Création de Personnage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-6-la-caste-du-personnage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 6 : La Caste du Personnage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-7-la-progression-du-personnage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 7 : La Progression du Personnage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-8-les-confrontations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 8 : Les Confrontations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-9-les-objets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 9 : Les Objets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-10-l-aventure-autres-regles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapitre 10 : L'Aventure & autres Règles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre-lexique/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lexique
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extension Confrontation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Extension Confrontation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../confrontation/extension-de-l-univers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension de l'Univers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../confrontation/details-de-l-extension/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Détails de l'Extension
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../confrontation/la-confrontation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La Confrontation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../confrontation/les-man-uvres/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Manœuvres
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../confrontation/les-styles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../confrontation/les-matieres/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Matières
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extension Magie
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extension Magie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/univers/extension-de-l-univers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension de l'Univers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Détails de l'Extension
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Détails de l'Extension
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/generalites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Généralités
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-traditions-de-magies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Traditions de Magies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/domaines-de-magie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Domaines de Magie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/ecoles-de-magie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Écoles de Magie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-differents-sorts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Différents Sorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/l-usage-de-la-magie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L'Usage de la Magie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/le-drain-de-mana/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Le Drain de Mana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/la-brulure-de-mana/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La Brûlure de Mana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/la-magie-lors-d-une-confrontation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La Magie lors d'une Confrontation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-sorts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/traditions-de-magie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Traditions de Magie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-effets-d-un-sort/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Effets d'un Sort
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-elements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Eléments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-particularites-d-un-sort/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Particularités d'un Sort
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/les-rituels/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Rituels
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/creation-et-apprentissage-des-sorts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Création et apprentissage des Sorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/liste-des-man-uvres-incantatoires/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Liste des Manœuvres Incantatoires
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/liste-des-styles-incantatoires/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Liste des Styles Incantatoires
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magie-ext/details/equipements-magiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Équipements Magiques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extension Héros
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Extension Héros
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heros-ext/univers/extension-de-l-univers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension de l'Univers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Détails de l'Extension
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Détails de l'Extension
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heros-ext/details/generalites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Généralités
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heros-ext/details/les-dons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Dons
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heros-ext/details/les-voies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Voies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heros-ext/details/les-aptitudes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Aptitudes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archetypes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Archétypes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extension Steam
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Extension Steam
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/univers/extension-de-l-univers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension de l'Univers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Détails de l'Extension
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Détails de l'Extension
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/generalites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Généralités
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/comprendre-la-technologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comprendre la Technologie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/la-pratique-de-l-industrie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La Pratique de l'Industrie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/les-sciences-biologiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sciences Biologiques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/les-sciences-organiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sciences Organiques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/les-sciences-technologiques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sciences Technologiques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/les-sciences-mecaniques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sciences Mécaniques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/les-sciences-mecatroniques/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sciences Mécatroniques
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/les-sciences-generales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Sciences Générales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/details/la-pratique-du-steam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    La Pratique du Steam
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Les Armes à Feu
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Les Armes à Feu
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/armes/presentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Présentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/armes/generalites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Généralités
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/armes/les-fabricants/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Fabricants
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/armes/liste-des-fabricants/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Liste des Fabricants
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../steam-ext/armes/travailler-les-blocs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Travailler les Blocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compendium des Traits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Compendium de l'Équipement
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Compendium de l'Équipement
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipement/generalites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Généralités
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipement/les-matieres/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Matières
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipement/le-materiel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Le Matériel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipement/les-consommables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Consommables
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipement/les-equipements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Équipements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipement/les-ameliorations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les Améliorations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../styles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compendium des Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manoeuvres/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compendium des Manœuvres
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Compendium des Actions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Compendium des Actions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../actions/regles-speciales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Règles Spéciales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../actions/extension-regle-de-base/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension : Règle de Base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../actions/extension-confrontations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension : Confrontations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../actions/extension-magie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension : Magie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conditions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compendium des Conditions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Listes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Listes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../listes/liste-des-achats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Liste des Achats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Liste des Sorts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Liste des Sorts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/ombre.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ombre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/impie.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/toxique.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Toxique
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/arcane.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arcane
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/magie.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Magie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/acier.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/guerre.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guerre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/chaos.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chaos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/vide.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magies/terre.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../creation/creation/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Création en Thalifen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../castes/castes/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Castes de Thalifen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethnies/ethnies/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ethnies de Thalifen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rules/confrontations/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Patch
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Outils
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            Outils
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/vitals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vitals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/stats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#les-des" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les dés
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Tests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anatomie-dun-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anatomie d’un test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-dattribut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests d’Attribut
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-de-competence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests de compétence
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-de-sauvegarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests de sauvegarde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Tests de sauvegarde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-avantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests Avantagés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-desavantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests Désavantagés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-ajustements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Ajustements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-tests-combines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Tests Combinés
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-seuils" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Seuils
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-modificateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Modificateurs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-reussites-et-les-echecs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Réussites et les Échecs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Réussites et les Échecs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-marge-de-reussite" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Marge de Réussite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-marge-dechec" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Marge d'Échec
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-reussite-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Réussite Critique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lechec-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      L'Échec Critique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-singularites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Singularités
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexploit" class="md-nav__link">
+    <span class="md-ellipsis">
+      L’Exploit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-maladresse" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Maladresse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-coup-de-chance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Coup de Chance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-baraka" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Baraka
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-difficultes-devaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les difficultés d’évaluation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-activites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Activités
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-cumule-des-penalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le cumule des pénalités
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-cumul-des-bonus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le cumul des bonus
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-degre-de-reussite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Degré de réussite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lappel-a-la-chance" class="md-nav__link">
+    <span class="md-ellipsis">
+      L’Appel à la Chance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-jets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Jets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Jets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anatomie-dun-jet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anatomie d’un jet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-jet-critique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Le Jet Critique
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-prouesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Prouesses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Prouesses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#timing-des-prouesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timing des prouesses
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-sauvegardes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Sauvegardes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="chapitre-0-le-systeme-de-jeu">Chapitre 0 : Le Système de jeu</h1>
+<h2 id="les-des">Les dés</h2>
+<p>Tout d’abord présentons les différents types de dés utilisés par les règles de Terre Natale.</p>
+<p>D6 : Ils sont utilisés pour les tests. D8 : Ils sont utilisés pour les jets. D10 : Ils sont utilisés pour les pourcentages (désignés par 1D100). On utilise ainsi un dé de dizaine et un dé d’unité.</p>
+<h2 id="les-tests">Les Tests</h2>
+<p>Un test est effectué grâce à une base de trois dés à six faces. La somme des faces est ajoutée à différents modificateurs (attributs, compétences, bonus, malus, etc). Le total détermine un score et ce score détermine si le test est une réussite ou un échec.</p>
+<h3 id="anatomie-dun-test">Anatomie d’un test</h3>
+<p>Un test s’effectue toujours des D6. Par défaut il faut 3D6, représentés 🎲 🎲 🎲. Il faut ajouter des dés si le test est avantagé ou désavantagé (voir ci-dessous).</p>
+<h3 id="les-tests-dattribut">Les Tests d’Attribut</h3>
+<p>Un test d’attribut est un test qui applique uniquement le modificateur de l’attribut associé à l'action au score réalisé par les dés. On réalise ce genre de tests si aucune compétence n’est disponible pour déterminer la réussite d'une action.</p>
+<p>Un test d’attribut devrait être réalisé par choix, à la demande ou par décision du joueur. On parle de tests actifs.</p>
+<h3 id="les-tests-de-competence">Les Tests de compétence</h3>
+<p>Un test qualifié est un test qui applique le modificateur de l’attribut ET le modificateur de compétence au score réalisé par les dés. On réalise ce genre de test lorsqu’une compétence est disponible pour déterminer la réussite d'une action.</p>
+<p>Un test d’attribut devrait être réalisé par choix, à la demande ou par décision du joueur. On parle de tests actifs.</p>
+<h3 id="les-tests-de-sauvegarde">Les Tests de sauvegarde</h3>
+<p>Un test de sauvegarde est un test qui applique le modificateur de l’attribut auxquels on ajoute les ajustements liés au rang de la caste du personnage.</p>
+<p>Un test de sauvegarde ne fait pas l’objet d’un choix, ce sont des tests demandés par le conteur. On parle de tests passifs. Un personnage pourrait être en mesure de se sentir épié, observé ? Alors sans doute doit-il réussir un test d’intuition (passif) pour sentir que quelque chose ne va pas ce qui incitera peut-être le personnage à réaliser un test de vigilance (actif) et ainsi découvrir qui l’observe de la sorte.</p>
+<h4 id="les-tests-avantages">Les Tests Avantagés</h4>
+<p>Un test avantagé est effectué grâce à 4 dés ou plus. Un avantage simple donne 1 dé, un double avantage en donne 2, etc… Le ou les dés affichant la valeur la plus basse est/sont écartés, puis la somme des faces restantes est ajoutée aux 3 modificateurs. Le nombre de dés ainsi écartés est équivalent aux nombre de dés ajoutés.</p>
+<h4 id="les-tests-desavantages">Les Tests Désavantagés</h4>
+<p>Un test désavantagé est effectué grâce à 4 dés ou plus. Un désavantage simple ajoute 1 dé, un double désavantage en ajoute 2, etc… Le ou les dés affichant la valeur la plus haute est/sont écarté.s, puis la somme des faces restantes est ajoutée aux 3 modificateurs. Le nombre de dés ainsi écartés est équivalent aux nombres de dés ajoutés.</p>
+<h4 id="les-ajustements">Les Ajustements</h4>
+<p>L’ajustement est une valeur qui s’ajoute ou se soustrait à un attribut dans le cadre d’un test ou d’un jet. Si les changements ainsi appliqués changent le modificateur de l’attribut alors ce changement est appliqué au test ou au jet en question. Le bonus d’ajustement le plus courant est le bonus de qualité : Les outils qui, utilisés pour ce à quoi ils sont prévus, accordent à l'attribut utilisé pour l'action un bonus d'ajustement dépendant de leur qualité (1xQ) et un malus d'ajustement dépendant de leur catégorie (2xQ).</p>
+<p>En combat les attaques sont sujettes à des ajustements liés à l'arme employée, les esquives sont sujettes à l'armure portée, etc...</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><img alt="" src="../images/image1.png" /></p>
+<p>Les tests d’initiatives sont uniques et font l'objet d'une règle spécifique : Ils reçoivent à la fois les ajustements liés à l’arme la moins avantageuse en main ET celle de l’armure.</p>
+<p>De plus, c'est le seul test de compétence qui se fait de façon automatisée et non à la demande. Sans parler du fait que pour déterminer l’initiative du personnage, une ressource typique des confrontations, on observe son résultat directement sans jamais regarder son jet, ce qui est assez rare.</p>
+</div>
+<h3 id="les-tests-combines">Les Tests Combinés</h3>
+<p>Un test peut être le fruit d’une « combinaison ». Ces situations sont spécifiées dans les règles et se font simplement en considérant le bonus le plus bas entre deux (ou plusieurs) lots de groupes/compétences donnés.</p>
+<h3 id="les-seuils">Les Seuils</h3>
+<p>Un seuil représente la valeur minimale ou maximale que peut valoir les faces affichées lors d’un jet. On parle ainsi respectivement de seuil haut et seuil bas. Si un test est associé à un seuil alors les faces de dés affichant respectivement un chiffre inférieur ou supérieur au seuil bas ou haut sont considérés comme de même valeur que ce dernier. On dit alors que les faces sont réinterprétées.</p>
+<h3 id="les-modificateurs">Les Modificateurs</h3>
+<p>Un test peut recevoir plusieurs types de modificateurs, ces derniers pouvant être positifs ou négatifs. Un modificateur d'attribut octroie un modificateur qui dépend de la valeur de l'attribut en question (voir la section concernant les Attributs). Si sa valeur de l'attribut est ajustée alors le modificateur reflète ces changements. Un modificateur de compétence octroie un modificateur qui dépend du rang de la compétence employée auquel s'ajoute le rang du groupe auquel la compétence appartient. Un bonus s’ajoute directement au score d’un test. Un malus se retranche directement au score d’un test.</p>
+<h2 id="les-reussites-et-les-echecs">Les Réussites et les Échecs</h2>
+<p>Un test peut être une réussite : C’est le cas lorsque son score est supérieur à la difficulté. Un test peut être un échec : C'est le cas lorsque son score est inférieur ou égal à la difficulté. Il y a trois cas de figure pour déterminer la difficulté associée à une action : - La défense (passive) de la cible. - Le score d’un test opposé (le cas échéant). - Une valeur arbitraire déterminée par le MJ.</p>
+<p>Voici un ordre d’idée des difficultés pouvant être opposés à un test :</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Difficulté</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>Très Faible</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Faible</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Normale</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Elevée</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Très Élevée</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Extrêmement Élevée</td>
+</tr>
+<tr>
+<td>35 et +</td>
+<td>Quasiment Impossible</td>
+</tr>
+</tbody>
+</table>
+<p>Les difficultés faibles, normales et élevées constituent la majorité des difficultés qui sont normalement associées aux actions d’une aventure, si un personnage ne tente pas des actions surréalistes. La difficulté faible et très faible ne doit nécessiter un test que si des risques d’échecs subsistent vraiment sans quoi ils n'ont que peu d’intérêt et ralentissent probablement pour rien le rythme d'une partie.</p>
+<p>Les difficultés très élevées et au-delà sont issues de situations particulièrement délicates.</p>
+<h3 id="la-marge-de-reussite">La Marge de Réussite</h3>
+<p>La Marge de réussite est la différence entre la difficulté et le score obtenu en cas de réussite de l’action.</p>
+<p>Exemple : Si j’obtiens 17 à un test alors que la difficulté est de 15 alors ma marge de réussite est de 2. « J’ai réussi en ayant 2 de trop ».</p>
+<h3 id="la-marge-dechec">La Marge d'Échec</h3>
+<p>La Marge d’échec est la différence entre la difficulté et le score obtenu en cas d’échec de l’action.</p>
+<p>Exemple : Si j’obtiens 13 à un test alors que la difficulté est de 15, ma marge d’échec est de 2. « J’ai échoué car il me manquait 2 ».</p>
+<div class="admonition tip">
+<p class="admonition-title">Règles Optionnelles : Nuance</p>
+<p>Réussites et échecs ne sont pas les seuls cas possibles : il existe des nuances permettant d’interpréter différemment ces cas de figures. On parle plus communément de système à base de « oui mais, oui, oui et, non mais, non, non et ».<img alt="" src="../images/image2.png" /></p>
+<p>On fait donc la différence entre une réussite de justesse et une réussite éclatante, tout comme on fait la différence entre un échec de peu et un échec cuisant.</p>
+<p>D’un côté les réussites obtenues avec une marge confortable sont plus éclatantes et peuvent avoir des retours positifs pour le personnage. De l’autre, les échecs obtenus avec une marge conséquente seront plus graves, et peuvent pénaliser le personnage.</p>
+<p>Le MJ peut apprécier les retours positifs ou négatifs sous la forme de son choix, ce qui suit n’est donné qu’à titre indicatif : Dans le cas d’une petite réussite ou un petit échec, il y a une petite conséquence. Par exemple : on a réussi à crocheter une serrure « mais » ce sera visible, on n’a pas réussi à crocheter la serrure « mais » la tentative ne sera pas visible. On peut également, à défaut et si besoin, octroyer des effets ténus mais notables sous la forme d’un avantage, ou désavantage, donnés à la prochaine action ayant un rapport plus ou moins direct avec l’action menée (une réussite « oui, mais » entraîne donc un désavantage, un échec « non, mais » entraîne donc un avantage). Dans le cas d’une grosse réussite ou gros échec, il n’y a pas de contrepartie positive ou négative. Dans le cas d’une réussite critique ou un échec critique, il y a de grosses conséquences ! Par exemple : on n’a pas réussi à crocheter la serrure « et » on brise l’outil dedans, on réussit à crocheter la serrure « et » cela ne laissera pas de trace ! De la même manière que pour les petites réussites/échecs on peut octroyer des avantages/désavantages en inversant les cas de figures : une acrobatie critique pourrait bien avantager la prochaine défense du personnage, alors qu’un échec critique pourrait bien la désavantager.</p>
+<table>
+<thead>
+<tr>
+<th>Marge d’Échec</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 et +</td>
+</tr>
+<tr>
+<td>5 à 9</td>
+</tr>
+<tr>
+<td>0 à 4</td>
+</tr>
+<tr>
+<td>Marge de Réussite</td>
+</tr>
+<tr>
+<td>0 à 4</td>
+</tr>
+<tr>
+<td>5 à 9</td>
+</tr>
+<tr>
+<td>10 et +</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="la-reussite-critique">La Réussite Critique</h3>
+<p>Un test peut être une réussite critique : c’est le cas lorsque la marge de réussite est de 10 ou plus.</p>
+<p>Un test qui se trouve être une réussite critique bénéficie d’un avantage notable qui dépend de la nature de l’action. En combat cet avantage prend généralement la forme d'un test de solidité imposé à l'objet touché lors d'une attaque ou d'une arme lors d'une défense, de plus le jet associé à l’action (le cas échéant) est calculé à partir du maximum des dés et on y ajoute, en plus des valeurs classiques, le modificateur de dextérité ou intelligence (selon qu’il s’agisse d’une action physique ou mentale). Dans d'autres situations on peut simplement désavantager le test adversaire opposé...</p>
+<p>Une action est critique si l’ensemble des difficultés à laquelle elle est opposée affiche une marge de réussite suffisante.</p>
+<h3 id="lechec-critique">L'Échec Critique</h3>
+<p>Un test peut être un échec critique : c’est le cas lorsque son score est de 10 points inférieurs à la difficulté.</p>
+<p>Un test qui se trouve être un échec critique génère un désavantage notable, qui rend la situation plus compliquée encore. En combat cet avantage prend généralement la forme d'un test de solidité imposé à l'objet qui est utilisé pour mener l'attaque ou d'une arme ou armure (selon la nature de la défense) lorsqu'on tente de se défendre. Dans d'autres situations on peut simplement avantager le test adversaire opposé...</p>
+<div class="admonition tip">
+<p class="admonition-title">Règles Optionnelles : Échec Critique plus souvent</p>
+<p>Les règles de base sont assez permissives sur les échecs. En effet, un échec critique survient très rarement en jeu car les joueurs tentent rarement une action pour laquelle ils ont peu de chance de réussite, aussi les échecs peuvent survenir mais les échecs critiques sont très très rares.<img alt="" src="../images/image2.png" /></p>
+<p>Pour compenser cela et avoir des situations plus colorées même dans la zone de confort des joueurs/personnages, il est tout simplement possible de faire en sorte que les échecs critiques surviennent dès lors que la marge d’échec est de 5 et plus.</p>
+</div>
+<h3 id="les-singularites">Les Singularités</h3>
+<p>Une singularité a lieu si les dés (conservés après relances etc) d’un test affichent au moins un double.</p>
+<p>De plus, certains cas sortes de lots : - Double 1 ou 2 : Une maladresse survient. - Double 6 : Un exploit survient. - Double « Nombre porte bonheur du personnage » : Un « coup de chance » survient. Les faces réinterprétées (lorsqu’un effet « modifie » la valeurs réelle de la face d’un dé issus d’un test par exemple) conservent leurs valeurs d’origine pour ce qui est des singularités.</p>
+<p>Il existe plusieurs avantages qui modifient ces chances et risques d’exploits et maladresses. La formation à un attribut par exemple permet de ramener les maladresses au double 1 uniquement. La science d’une compétence permet de monter ses exploits aux doubles 5 et 6. Dans le cas où deux sources offrent la science d’une compétence les exploits s’obtiennent sur doubles 4, 5 et 6. Recevoir plus de deux sources de science d’une compétence n'accroît pas les chances d’exploits.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><img alt="" src="../images/image1.png" /></p>
+<p>Si un test affiche un double 6 et que le 6 est le chiffre porte bonheur du personnage alors le test est un exploit ET profite d’un « coup de chance ».</p>
+<p>Même chose pour les maladresses évidemment.</p>
+</div>
+<h3 id="lexploit">L’Exploit</h3>
+<p>Un test qui se trouve être un exploit bénéficie d’un avantage notable, qui dépend de la nature de l’action. Le test reçoit un bonus équivalent au dès le moins élevé.</p>
+<p>Évidemment, un exploit peut générer une réussite critique.</p>
+<h3 id="la-maladresse">La Maladresse</h3>
+<p>Un test qui se trouve être une maladresse génère un désavantage notable qui rend la situation compliquée. Le test reçoit un malus équivalent au dès le plus élevé (en somme ce dernier ne compte pas).</p>
+<p>Évidemment, une maladresse peut générer un échec critique.</p>
+<h3 id="le-coup-de-chance">Le Coup de Chance</h3>
+<p>Un test qui fait l’objet d’un coup de chance ajoute le modificateur lié à l’attribut de chance du personnage à son score.</p>
+<p>Notons que si le modificateur en question est nul alors il n’y a pas de coup de chance. De plus si le modificateur est négatif alors c’est un » coup de malchance » à la place. En somme, la règle s’applique tel quel quoi qu’il arrive, seule la perception qu’on peut avoir de cet événement change selon sa valeur. Si une règle mentionne les « coup de chance » elles s’appliquent aussi aux « coups de malchance » par exemple.</p>
+<h3 id="la-baraka">La Baraka</h3>
+<p>La baraka survient lorsqu’un test affiche trois dés identiques. Dans ce cas, le test fait l’objet d’un « coup de chance ». Si les dés affichent le « chiffre porte bonheur » du personnage alors ce coup de chance est doublé.</p>
+<h3 id="les-difficultes-devaluation">Les difficultés d’évaluation</h3>
+<p>Les évaluations sont, par défaut, associées à des difficultés de 10 et qui permettent essentiellement de mettre en avant des degrés de réussite qui servent alors à quantifier un élément de jeu. Ces difficultés ne peuvent pas être associées à une réussite dans la mesure où il n’y a pas de réelle difficulté, il s’agit seulement d’une évaluation des compétences. Un échec critique est toujours possible cependant, lorsque le test obtient 0 ou moins.</p>
+<h2 id="les-activites">Les Activités</h2>
+<p>Certaines actions sont considérées comme des activités. Créer un objet ou même crocheter une porte peuvent être des exemples d’activité. Lorsque c’est le cas un test seul ne suffit pas à atteindre son but, il est nécessaire de remplir un objectif. A chaque test réussi un jet est réalisé et le score est ajouté à une progression qui est ensuite comparé à l’objectif, une fois celui-ci atteint ou dépassé l’action est un succès. A chaque test raté la progression est réduite de 10 et si la progression passe en dessous de 0 l’action est un échec et la situation empire. C’est au maître de jeu de juger des objectifs à atteindre mais voici un petit ordre de grandeur.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Durée et/ou Complexité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>Très Faible</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Faible</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Normale</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Elevée</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Très Élevée</td>
+</tr>
+<tr>
+<td>60</td>
+<td>Extrêmement Élevée</td>
+</tr>
+</tbody>
+</table>
+<h2 id="le-cumule-des-penalites">Le cumule des pénalités</h2>
+<p>Les pénalités affectent les tests en leur imposant des malus, qui se traduit naturellement par une réduction des scores affichés par les tests. La particularité notable des pénalités est la façon dont elles s’accumulent. En effet la juxtaposition des pénalités n’est pas une simple addition ! On doit appliquer la règle des cumules de pénalités à la place : - Le personnage ne subit que la pénalité la plus élevée d’une même catégorie. - S’il y a plusieurs pénalités « les plus élevées », alors il subit cette pénalité plus une majoration égale au nombre de pénalités ayant cette valeur à la place.</p>
+<p>Les pénalités se distinguent donc en fonction de leurs origines.</p>
+<h2 id="le-cumul-des-bonus">Le cumul des bonus</h2>
+<p>Les bonus se classent en quatre types selon leur origine. Deux bonus du <strong>même type</strong> portant sur le même effet ne se cumulent pas : seul le plus élevé s'applique. Deux bonus de <strong>types différents</strong> se cumulent librement.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Origine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Inné</strong></td>
+<td>Traits, particularités ethniques, raciales ou de caste</td>
+</tr>
+<tr>
+<td><strong>Conditionné</strong></td>
+<td>Styles, manœuvres, magie et tout effet non permanent déclenché par une condition</td>
+</tr>
+<tr>
+<td><strong>Équipement</strong></td>
+<td>Améliorations, matérias, accessoires et tout bonus issu d'un objet porté ou utilisé</td>
+</tr>
+<tr>
+<td><strong>Situationnel</strong></td>
+<td>Bonus ciblant une situation précise (ex. : robustesse contre les maladies, attaque contre les morts-vivants)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>Exemple : un bonus de Perforation Inné (particularité raciale) et un bonus de Perforation Équipement (amélioration d'arme) se cumulent. Deux bonus de Perforation issus de deux améliorations différentes ne se cumulent pas — seul le plus élevé s'applique.</em></p>
+</blockquote>
+<p>Par exception, certains effets précisent explicitement qu'ils se cumulent même avec des bonus du même type. Dans ce cas, la mention figure dans la description de l'effet et prévaut sur la règle générale.</p>
+<h2 id="le-degre-de-reussite">Le Degré de réussite</h2>
+<p>Certaines actions requièrent un test afin de déterminer leurs effets via le degré de réussite. Le degré de réussite se mesure en fonction du score obtenu dépassant la difficulté, chaque tranche de 5 octroyant un degré de réussite supplémentaire, en commençant à 0.</p>
+<p>Un degré de réussite est limité au niveau de compétence du personnage.</p>
+<table>
+<thead>
+<tr>
+<th>Score (en trop)</th>
+<th>Degré de Réussite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>2</td>
+</tr>
+<tr>
+<td>15</td>
+<td>3</td>
+</tr>
+<tr>
+<td>20</td>
+<td>4</td>
+</tr>
+<tr>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr>
+<td>30</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Les évaluations étant basées sur une difficulté de 10, voici leurs degrés de réussites:</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Degré de Réussite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr>
+<td>15</td>
+<td>1</td>
+</tr>
+<tr>
+<td>20</td>
+<td>2</td>
+</tr>
+<tr>
+<td>25</td>
+<td>3</td>
+</tr>
+<tr>
+<td>30</td>
+<td>4</td>
+</tr>
+<tr>
+<td>35</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lappel-a-la-chance">L’Appel à la Chance</h2>
+<p>Lorsqu’un test est particulièrement désastreux, il est possible de faire appel à la chance. Dans ce genre de situation le personnage peut, après avoir effectué son jet de dé et observé le résultat, décider de dépenser du karma afin de relancer certains de ces dés. Ce choix peut être effectué après observation des résultats d’un test (aka valeurs des dés) MAIS doit être effectué avant de savoir si l’action est une réussite ou un échec. Il est possible de relancer des dés qui ont déjà été lancés mais la relance coûte alors 1 de plus par relance déjà effectuée pour ce même dé. Au-delà de ça, la seule réelle limite est le karma disponible.</p>
+<p>Le karma nécessaire pour relancer un dé dépend de la valeur que cette dernière affiche :</p>
+<table>
+<thead>
+<tr>
+<th>Valeur du Dé</th>
+<th>Karma pour relancer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="les-jets">Les Jets</h2>
+<p>Les jets sont similaires à des tests dans la mesure où il est nécessaire de lancer les dés mais ils ne servent pas à mesurer la réussite ou l'échec d'une action : Ils permettent d'en mesurer l'impact (lorsque c'est nécessaire ou utile).</p>
+<h3 id="anatomie-dun-jet">Anatomie d’un jet</h3>
+<p>Un test s’effectue toujours des D8. Par défaut il faut 2D8 auquel on ajoute 1D8 par catégorie de l’action qui en est à l’origine. La somme des faces est ajoutée au modificateur d’attribut associé au test afin de définir le score du jet. L’attribut sollicité est généralement le même que celui du test effectué pour l’action, mais pas toujours. Le jet ne répond à aucunes règles affectant les tests : réussites, échecs, singularités, exploits, maladresses et même karma sont autant de règles inutiles concernant les jets.</p>
+<p>Les jets sont bien souvent le résultat d’une action : attaque, défense, soins, etc… Si une action doit transmettre plusieurs informations via des jets qui devraient être différents par nature on ne procède qu’à un unique jet tant que le nombre de dés est le même : Le score des différentes informations sera simplement le même. C’est notamment le cas pour une attaque : le score du jet mesure à la fois les dégâts, la gravité des lésions (si le coup n’est pas défendu, etc) et la charge (des conditions s’il y en a) … Dans d’autres cas le jet ne représente qu’une seule notion à la fois (dans le cas des défenses ce sera la déviation).</p>
+<p>Un jet vaut 2D8 + Catégorie x D8 + modificateur d’attribut.</p>
+<h3 id="le-jet-critique">Le Jet Critique</h3>
+<p>Lorsqu’un test se solde par une réussite critique et qu’un jet doit mesurer le produit de cette réussite, il est communément admis que la criticité de l’action (si positive) se traduit par le fait suivant : Tous les dés affichent leur maximum et on ajoute également le modificateur de dextérité ou d’intelligence (selon que l’action est physique ou mentale).</p>
+<div class="admonition tip">
+<p class="admonition-title">Règles Optionnelles : Jets fixés</p>
+<p>Cette règle vise à réduire le nombre de dés à lancer durant une partie en procédant à des calculs automatiques pour ce qui est des jets.<img alt="" src="../images/image2.png" /></p>
+<p>Dans un tel cas, le personnage ne tire jamais ses jets et considère simplement que chaque dé affiche 4.</p>
+<p>Il est possible d’envisager cette règle optionnelle avec une subtilité supplémentaire : Le personnage peut fixer ou lancer ses dés, au choix.</p>
+</div>
+<h2 id="les-prouesses">Les Prouesses</h2>
+<p>Lorsqu’un personnage réalise un test de compétence, quelle qu'en soit la nature, il est en mesure de réaliser des prouesses.</p>
+<p>La limite d’une prouesse est de « groupe de la compétence » + modificateur de Ruse. Le personnage peut ainsi dépenser jusqu’à cette limite en points de chi afin de recevoir un ajustement au test et ainsi obtenir un meilleur résultat.</p>
+<p>L’usage des prouesses peut se faire avant ou après le constat du résultat en question.</p>
+<h3 id="timing-des-prouesses">Timing des prouesses</h3>
+<p>Une fois que le résultat d’un test a été figé et que l’action se résolve, que des prouesses aient été utilisées ou pas, il n’est plus possible d’agir sur le test en question.</p>
+<p>Par exemple, si Tico attaque et fait 15 sur son test, il a la possibilité d’utiliser des prouesses pour augmenter ce test à 16 par exemple, voir 17 si sa ruse et/ou son groupe le permettent. Admettons qu’il valide son 15 sans l’améliorer. On constate alors seulement si son action touche, si ce n’est pas le cas il est trop tard pour améliorer les choses !</p>
+<p>Par ailleurs l’adversaire peut tenter une défense contre cette attaque, et évidemment il ne sera pas possible ici non plus d’améliorer le test d’attaque pour la rendre plus difficile à bloquer par exemple.</p>
+<p>Bref, dans tous les cas souvenez-vous qu’il n’y a pas de « surenchères » possible.</p>
+<h2 id="les-sauvegardes">Les Sauvegardes</h2>
+<p>Les sauvegardes représentent des tests qui se distinguent des autres par plusieurs aspects, à commencer par une échelle de grandeur différente.</p>
+<p>Lorsqu’une situation entraîne un test de sauvegarde, ou lorsqu’un tel test est nécessaire pour la narration ou tout autre besoin, on peut se baser sur la table suivante pour avoir une idée précise de la difficulté associée à ces tests.</p>
+<table>
+<thead>
+<tr>
+<th>Difficulté classique</th>
+<th>Qualificatif</th>
+<th>Difficulté sauvegarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>Très Faible</td>
+<td>10</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Faible</td>
+<td>12</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Normale</td>
+<td>14</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Elevée</td>
+<td>16</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Très Élevée</td>
+<td>18</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Extrêmement Élevée</td>
+<td>20</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Quasiment Impossible</td>
+<td>22</td>
+</tr>
+</tbody>
+</table>
+<p>Donc si un événement associé à la difficulté 15 implique un test de sauvegarde alors la difficulté de ce dernier devrait être de 14.</p>
+<p>Les sauvegardes narratives peuvent malgré tout se baser sur le triptyque classique 10/15/20.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

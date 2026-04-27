@@ -1,0 +1,188 @@
+html, body, pre, code, kbd, samp { font-family: "Press Start 2P", monospace; }
+
+body {
+  background: #1a1a2e;
+  color: #e0e0e0;
+  padding: 1rem;
+  font-size: 10px;
+}
+
+h1 { font-size: 0.9rem; margin-bottom: 1.5rem; color: #fff; }
+h2 { font-size: 0.7rem; margin: 1rem 0 0.5rem; color: #92cc41; }
+h3 { font-size: 0.6rem; margin: 0.75rem 0 0.4rem; color: #aaa; }
+
+/* Layout ─────────────────────────────────────────── */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } }
+
+/* Sections ───────────────────────────────────────── */
+.panel {
+  border: 3px solid #333;
+  padding: 0.75rem;
+  background: #16213e;
+}
+
+.panel + .panel { margin-top: 1rem; }
+
+/* Selects ────────────────────────────────────────── */
+.field { margin-bottom: 0.6rem; }
+.field label { display: block; font-size: 0.5rem; color: #aaa; margin-bottom: 0.2rem; }
+.field select { width: 100%; }
+
+/* Info bars ──────────────────────────────────────── */
+.info-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.chip {
+  font-size: 0.45rem;
+  background: #0f3460;
+  border: 1px solid #444;
+  padding: 0.15rem 0.35rem;
+  white-space: nowrap;
+}
+.chip.accent  { background: #533483; border-color: #a78bfa; color: #fff; }
+.chip.sep     { border-left: 2px solid #92cc41; }
+.chip.warn    { background: #5c2020; border-color: #e76e55; color: #e76e55; }
+
+/* Attribute table ────────────────────────────────── */
+.attr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.attr-table th {
+  background: #0f3460;
+  padding: 0.3rem 0.4rem;
+  text-align: center;
+  border: 1px solid #333;
+  font-size: 0.45rem;
+  color: #aaa;
+}
+
+.attr-table td {
+  padding: 0.2rem 0.4rem;
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.attr-table tr:nth-child(even) td { background: #111827; }
+
+.attr-name { text-align: left; font-weight: bold; color: #fff; }
+
+.num        { color: #aaa; }
+.num.pos    { color: #92cc41; }
+.num.neg    { color: #e76e55; }
+.num.final  { color: #fff; font-weight: bold; }
+.num.final.tb { color: #666; }
+
+/* Tier radio buttons */
+.tier-radios { display: flex; gap: 2px; justify-content: center; }
+
+.tier-btn { cursor: pointer; }
+.tier-btn input[type="radio"] { display: none; }
+.tier-btn span {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 0.42rem;
+  border: 2px solid #333;
+  background: #1a1a2e;
+  color: #555;
+  min-width: 20px;
+  text-align: center;
+}
+.tier-btn input[type="radio"]:checked + span { border-color: #92cc41; background: #0f3460; color: #fff; }
+.tier-btn input[type="radio"]:disabled + span { opacity: 0.2; cursor: not-allowed; }
+
+.tier-TH input[type="radio"]:checked + span { background: #5c1a1a; border-color: #e76e55; }
+.tier-H  input[type="radio"]:checked + span { background: #5c3a1a; border-color: #f5a623; }
+.tier-M  input[type="radio"]:checked + span { background: #1a4a1a; border-color: #92cc41; }
+.tier-B  input[type="radio"]:checked + span { background: #1a2e4a; border-color: #5bc8f5; }
+.tier-TB input[type="radio"]:checked + span { background: #222;    border-color: #444; color: #666; }
+
+/* Validation indicator */
+.tier-valid     { font-size: 0.7rem; margin-left: 6px; }
+.tier-valid.ok  { color: #92cc41; }
+.tier-valid.err { color: #e76e55; }
+
+.tb-line {
+  font-size: 0.45rem;
+  color: #666;
+  margin-top: 0.4rem;
+}
+
+/* Particularités ─────────────────────────────────── */
+.part {
+  border: 2px solid #333;
+  padding: 0.6rem;
+  margin-bottom: 0.5rem;
+  background: #0d1b2a;
+}
+
+.part.locked { opacity: 0.35; }
+
+.part-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.35rem;
+}
+
+.part-nom { font-size: 0.55rem; color: #fff; }
+
+.tag {
+  font-size: 0.4rem;
+  background: #1a1a2e;
+  border: 1px solid #444;
+  padding: 0.1rem 0.25rem;
+  color: #aaa;
+}
+
+.level-badge {
+  font-size: 0.4rem;
+  background: #533483;
+  border: 1px solid #a78bfa;
+  padding: 0.1rem 0.25rem;
+  color: #e0e0e0;
+}
+
+.effets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.effets li {
+  font-size: 0.45rem;
+  line-height: 1.8;
+  padding: 0.2rem 0;
+  border-top: 1px solid #1e2a3a;
+  color: #ccc;
+}
+
+.effets li:first-child { border-top: none; }
+
+.val-x { color: #92cc41; }
+
+.muted { color: #555; font-size: 0.45rem; }
+
+/* Equilibre ──────────────────────────────────────── */
+/* Équilibre ──────────────────────────────────────── */
+.eq-line {
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+.eq-line strong { color: #fff; }

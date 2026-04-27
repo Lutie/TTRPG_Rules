@@ -24,67 +24,83 @@ Une créature est définit par un ensemble de facteurs:
 
 Chaque créature appartient à un **règne** — une grande famille taxonomique qui définit son origine et sa nature.
 
-Les humanoïdes sont catégorisés comme faisant partie de l'ensemble des règnes "humain".
-    - Les humanoïdes ont une progression classique, similaire à celle des personnages joueurs, basé sur des accumulations de petits avantages et l'usage de matériel.  
-Les bêtes sont catégorisés comme faisant partie de l'ensemble des règnes "naturels".  
-    - Les bêtes ont une progression spéciales, qui met en avant les attributs purs et en retrait les compétences.  
-Les artificiels sont catégorisés comme faisant partie de l'ensemble des règnes "scientifiques".  
-    - Les artificiels ont une progression spéciales, qui met en avant la structure si particulière de leur enveloppes.  
-Tout le reste est considéré comme faisant partie de l'ensemble des règnes "surnaturels".  
-    - Les surnaturels ont une progression spéciales, qui met en avant des particularités surnaturels au détriment   
+Les humains, vermines et ogroïdes sont catégorisés comme faisant partie de l'ensemble du règne des "humanoïdes".
+Les bêtes sont catégorisés comme faisant partie de l'ensemble du règne "naturel".  
+Les artificiels sont catégorisés comme faisant partie de l'ensemble du règne "scientifique".  
+Les primordiaux, élémentaire et sylvestres est considérés comme faisant partie de l'ensemble du règne "surnaturel".  
+Les Nécrophages, éthérés et Maudits sont considérés comme faisant partie de l'ensemble du règne "corrompu".  
+Les Draconoïdes, Chimères et Abominations considéré comme faisant partie de l'ensemble du règne "monstrueux".  
 
-| Règne | Races | Ethnies |
-| --- | --- | --- |
-| **Humanoïdes** | humains, elfes, nains, férales, sémies, démies | Exemple : Elf blanc, Elf bleu, Elf noir, Elf rouge, Elf brun... |
-| **Bêtes** | félins, ursidés, lupinés, arachnides | Exemple : Ours brun, Ours noir, Ours blanc... |
-| **Artificiels** | automates, drônes | Exemple : Drône d'oiseau, drône de canidé, drône d'araignée... |
-| **Nécrophages** | Squelettes, zombies, ghouls, momies | Ethnie de la créature de son vivant |
-| **Ogroïdes** | Titans, colosses, géants, ogres, cyclopes | Exemple : Titan de feu, Titan de Glace, etc... |
-| **Draconoïdes** | Drakkon, wyverne, guivre (wyrm), dragon, salamandre, hydre, basilique, drake | Exemple : Dragon rouge, dragon vert, etc ... |
-| **Maudits** | Garous, vampires | Exemple : Loup Garou, Chat Garou, etc... |
-| **Élémentaires** | Feu, Froid | Exemple : Classique, Esprit, Salamandre, etc... |
-| **Vermines** | Peaux Vertes : Gobelins, orques | Exemple : Chaque "clans" d'orque est en réalité une ethnie différente |
-| **Chimères** | Gryphon, Manticore | |
-| **Éthérés** | spectre, doppelganger, poltergeist | |
-| **Reliques** | Vers, homonculus, mystiques | |
-| **Sylvains** | Trents, dryades | |
+| Règne            | Races                                              | Ethnies / Variantes                                      |
+|------------------|----------------------------------------------------|----------------------------------------------------------|
+| **Humains**   | Humains, Elfes, Nains, Férales, Sémies, Démies    | Elfes (blanc, bleu, noir, rouge, brun…), Nains des montagnes / abysses… |
+| **Vermines**     | Gobelins, Orques, Kobolds, Gnolls                  | Clans d’orques, tribus gobelines…                       |
+| **Ogroïdes**     | Géants, Ogres, Titans, Colosses, Cyclopes          | Titan de feu, de glace, de pierre, de foudre…           |
+| **Bêtes**        | Félins, Ursidés, Lupinés, Arachnides, Reptiliens… | Ours brun/noir/blanc, Loups des plaines / arctiques…    |
+| **Draconoïdes**  | Dragons, Drakes, Wyvernes, Guivres, Hydres, Basilics, Salamandres | Dragon rouge/vert/bleu/noir/blanc/métallique…           |
+| **Chimères**     | Gryphon, Manticore, Cockatrice                    | Variantes hybrides selon les composantes                 |
+| **Artificiels**  | Automates, Golems, Drônes                          | Drône oiseau / canidé / araignée / humanoïde…           |
+| **Nécrophages**  | Squelettes, Zombies, Ghouls, Momies                | Selon la race d’origine (zombie humain, ghoul elfe…)    |
+| **Maudits**      | Garous, Vampires, Doppelgangers, Liches            | Loup-garou, Chat-garou, Rat-garou…                      |
+| **Élémentaires** | Esprits du Feu, de l’Eau, de la Terre, de l’Air    | Élémentaire pur, Salamandre, Esprit ancien…             |
+| **Sylvestres**   | Trents, Dryades, Satyres, Ents, Mandragores        | Protecteurs de la forêt, esprits des arbres…            |
+| **Éthérés**      | Spectres, Poltergeists, Ombres, Fantômes           | Fantôme vengeur, Esprit gardien, Ombre rampante…        |
+| **Abominations** | Oozes, Vers géants, Horreurs tentaculaires, Créatures innommables | Abomination de la Faille, Ver primordial, Chose qui ne devrait pas exister… |
+| **Primordiaux**  | Fées, Anges, Démons, Diables                      | Fées d’été / d’hiver / des ombres / sauvages… Ange de justice, Démon du chaos… |
+
+A savoir:  
+- Le règne d'une créature peux être à l'origine de règles particulière.  
+
+Avantages systémiques:
+- Le règne est associé à une particularité de règne (qui peux avoir un ou plusieurs effets).
+
+### Le profil
+
+On parle de profil pour désigner l'association : D'une race, d'une ethnie, d'une lignée, d'un rang, d'un rôle.  
+Plusieurs créatures peuvent avoir le même profil, mais un profil est unique vis à vis des autres profils.
+
+Base:  
+- Le profil définit la répartition des attributs d'une créature : Très fort, fort, moyen, bas et très bas.
 
 ### La Race
 
 Les règnes se déclinent en **races** (sous-groupes partageant des caractéristiques communes).  
 
-Avantages systémiques:
-- La race est associé à des d'attributs forts et faibles.
-- La race est associé à une particularité raciales.
-
-Avantages variables:
-- Généralement une race peux offrir des compétences (hautes ou modestes) supplémentaires à la créature.
+Base:  
 - La race définit les attributs secondaires d'une créature.
-- La race définit la catégorie des armes naturelles d'une créature.
+- La race définit la catégorie des armes et armures naturelles d'une créature.
+- La race définit quelques groupes et compétences d'une créature.
+- Notons que l'ensemble de ces facteurs sont équilibrés.
+
+Avantages systémiques:
+- La race est associé à des attributs forts et faibles.
+- La race est associé à une particularité raciales (qui peux avoir un ou plusieurs effets).
 
 ### L'Ethnie
 
 Les races se déclinent en **ethnies** (variantes très spécifiques au sein d'une race, comme l'ours brun ou l'ours blanc au sein des Ursidés).  
 
+Base:
+- L'ethnie est à l'origine des affinitées élémentaires d'une créature.
+- L'ethnie définit quelques groupes et compétences d'une créature.
+
 Avantages systémiques:
 - L'ethnie est associé à des d'attributs forts et faibles.
-- L'ethnie est associé à une particularité ethnies.
-
-Avantages variables:
-- Généralement une race peux offrir des compétences (hautes ou modestes) supplémentaires à la créature.
-- L'ethnie peux être à l'origine des affinitées élémentaires d'une créature.
+- L'ethnie est associé à une particularité ethnies (qui peux avoir un ou plusieurs effets).
 
 ### La Lignée
 
 Les lignées sont l'équivalent des castes des personnages héroïques. Elles représentent l'occupation, la zone d'expertise ou la façon de faire de la créature.
+
+Base:
 - La lignée est associé à deux d'attribut (nécessairement forts).
-- La lignée est associée à une particularité de lignée. C'est l'équivalent des traits de caste, sauf qu'ici la particularité a plusieurs rangs (default, avancé, optimum).
-- La lignée est associée à une action de lignée. C'est l'équivalent de l'action de caste, sauf qu'ici l'action a plusieurs rangs (default, avancé, optimum).
-- La lignée définit ce qui est relève des compétences hautes et des compétences modestes de la créature.
+- L'ethnie est associé à une particularité de lignée (qui peux avoir un ou plusieurs effets).
+- La lignée est associée à une action de lignée.
+- La lignée définit quelques groupes et compétences d'une créature.
 
 ### Le Rang
 
-Chaque adversaire est associé à un **rage** (de -4 à XX) qui cadre ses statistiques. Ce rang détermine le plafond des attributs, les rangs maximaux de compétences et groupes, ainsi que le rang des particularités accessibles via la race, ethnie et lignée.
+Chaque adversaire est associé à un **range** (de -4 à XX) qui cadre ses statistiques. Ce rang détermine le plafond des attributs, les rangs maximaux de compétences et groupes, ainsi que le rang des particularités accessibles via la race, ethnie et lignée.
 
 Les **rang négatifs** (-4 à -1) couvrent les créatures fondamentalement inférieures à l'humain le plus ordinaire : insectes, rongeurs, bêtes chétives. Pour une créature "standard" (toute bête ou monstre de taille et de dangerosité comparables à un humain ou au-delà), les rang vont de **0 à XX** et s'articulent autour du stade de développement de la créature dans son espèce.
 
@@ -106,58 +122,96 @@ Le tableau établit les valeurs de référence pour chaque rang de créature.
 
 Le **Total** (Modif Attr. + Comp + Grp) représente le meilleur modificateur de test possible dans le domaine de prédilection de la créature.
 
-| Rang | Titre | Attribut Max | Ajust. | Modif Attr. | Comp | Grp | **Total** | Particularités | Equilibre |
+| Rang | Titre | Attribut Max | Ajust. | Modif Attr. | Comp | Grp | **Total** | Particularités |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| -4 | Minuscule | 6 | 0 | -2 | 0 | 0 | **-2** | |
-| -3 | Chétif | 7 | 0 | -2 | 1 | 0 | **-1** | |
-| -2 | Faible | 8 | 0 | -1 | 1 | 0 | **0** | |
-| -1 | Modeste | 9 | 0 | -1 | 1 | 1 | **1** | Particularité racial Rg 1 |
-| 0 | Rejeton | 10 | 0 | 0 | 1 | 1 | **2** | Particularité ethnique Rg 1 |
-| 1 | Juvénile | 11 | 0 | 0 | 2 | 1 | **3** | Particularité de lignée Rg 1 |
-| 2 | Jeune | 12 | 0 | 1 | 2 | 1 | **4** | Particularité racial Rg 2 |
-| 3 | Adulte | 13 | 0 | 1 | 3 | 1 | **5** | Particularité ethnique Rg 2 |
-| 4 | Mûr | 14 | 1 | 2 | 3 | 1 | **6** | Particularité de lignée Rg 2 |
-| 5 ★ | Exceptionnel | 15 | 1 | 3 | 3 | 1 | **7** | Particularité racial Rg 3 |
-| 6 | Alpha | 16 | 1 | 3 | 3 | 2 | **8** | Particularité ethnique Rg 3 |
-| 7 | Vieux | 17 | 2 | 4 | 3 | 2 | **9** | Particularité de lignée Rg 3 |
-| 8 | Ancien | 18 | 2 | 5 | 3 | 2 | **10** | Particularité racial Rg 4 |
-| 9 | Vénérable | 19 | 2 | 5 | 4 | 2 | **11** | Particularité ethnique Rg 4 |
-| 10 | Apex | 20 | 3 | 6 | 4 | 2 | **12** | Particularité de lignée Rg 4 |
-| 11 | Sommité | 21 | 3 | 7 | 4 | 2 | **13** | Particularité racial Rg 5 |
-| 12 | Sommité + | 22 | 3 | 7 | 4 | 3 | **14** | Particularité ethnique Rg 5 |
-| 13 | Épique | 23 | 4 | 8 | 4 | 3 | **15** | Particularité de lignée Rg 5 |
-| 14 | Épique + | 24 | 4 | 9 | 4 | 3 | **16** | Particularité racial Rg 6 |
-| 15 | Mythique | 25 | 4 | 9 | 5 | 3 | **17** | Particularité ethnique Rg 6 |
-| 16 | Mythique + | 26 | 5 | 10 | 5 | 3 | **18** | Particularité de lignée Rg 6 |
-| 17 | Légende | 27 | 5 | 11 | 5 | 3 | **19** | Particularité racial Rg 7 |
-| 18 | Légende + | 28 | 5 | 11 | 5 | 4 | **20** | Particularité ethnique Rg 7 |
-| 19 | Divin | 29 | 6 | 12 | 5 | 4 | **21** | Particularité de lignée Rg 7 |
-| 20 | Divin + | 30 | 6 | 13 | 5 | 4 | **22** | |
+| -4 | Minuscule | 6 | 0 | -2 | 0 | 0 | **-2** | - |
+| -3 | Chétif | 7 | 0 | -2 | 1 | 0 | **-1** | Particularité de règne minimale (-1) |
+| -2 | Faible | 8 | 0 | -1 | 1 | 0 | **0** | Particularité de raciale minimale (-1) |
+| -1 | Modeste | 9 | 0 | -1 | 1 | 1 | **1** | Particularité de ethnique minimale (-1) |
+| 0 | Rejeton | 10 | 0 | 0 | 1 | 1 | **2** | Particularité de règne default (0) |
+| 1 | Juvénile | 11 | 0 | 0 | 2 | 1 | **3** | Particularité raciale default (0) |
+| 2 | Jeune | 12 | 0 | 1 | 2 | 1 | **4** | Particularité ethnie default (0) |
+| 3 | Adulte | 13 | 0 | 1 | 3 | 1 | **5** | Particularité de lignée default (0) |
+| 4 | Mûr | 14 | 1 | 2 | 3 | 1 | **6** | Action de lignée default (0) |
+| 5 ★ | Exceptionnel | 15 | 1 | 3 | 3 | 1 | **7** | Particularité de règne avancé (+1) |
+| 6 | Alpha | 16 | 1 | 3 | 3 | 2 | **8** | Particularité raciale avancé (+1) |
+| 7 | Vieux | 17 | 2 | 4 | 3 | 2 | **9** | Particularité ethnie avancé (+1) |
+| 8 | Ancien | 18 | 2 | 5 | 3 | 2 | **10** | Particularité de lignée avancé (+1) |
+| 9 | Vénérable | 19 | 2 | 5 | 4 | 2 | **11** | Action de lignée avancé (+1) |
+| 10 | Apex | 20 | 3 | 6 | 4 | 2 | **12** | Particularité de règne optimisé (+2) |
+| 11 | Sommité | 21 | 3 | 7 | 4 | 2 | **13** | Particularité raciale optimisé (+2) |
+| 12 | Sommité + | 22 | 3 | 7 | 4 | 3 | **14** | Particularité ethnie optimisé (+2) |
+| 13 | Épique | 23 | 4 | 8 | 4 | 3 | **15** | Particularité de lignée optimisé (+2) |
+| 14 | Épique + | 24 | 4 | 9 | 4 | 3 | **16** | Action de lignée optimisé (+2) |
+| 15 | Mythique | 25 | 4 | 9 | 5 | 3 | **17** | Particularité de règne paroxysme (+3) |
+| 16 | Mythique + | 26 | 5 | 10 | 5 | 3 | **18** | Particularité raciale paroxysme (+3) |
+| 17 | Légende | 27 | 5 | 11 | 5 | 3 | **19** | Particularité ethnie paroxysme (+3) |
+| 18 | Légende + | 28 | 5 | 11 | 5 | 4 | **20** | Particularité de lignée paroxysme (+3) |
+| 19 | Divin | 29 | 6 | 12 | 5 | 4 | **21** | Action de lignée paroxysme (+3) |
+| 20 | Divin + | 30 | 6 | 13 | 5 | 4 | **22** | Apothéosis |
 
 Le rang est appliqué comme ajustement à l'équilibre.
 
 ### Attributs
 
-Une créature a:
-- 2 attributs très hauts : Ils ont la valeur de l'attribut max auquel est associé leur rang.
-- 2 attributs hauts : Cet attribut vaux 85% de l'attribut max (arrondis inférieur).
-- 2 attributs moyens : Cet attribut vaux 70% de l'attribut max (arrondis inférieur).
-- 2 attributs faibles : Cet attribut vaux 55% de l'attribut max (arrondis inférieur).
-- 2 attributs très faibles : Cet attribut vaux 40% de l'attribut max (arrondis inférieur).
-Ces valeurs sont modifiés (+2) par les attributs forts et faibles de leurs races, ethnies et lignées.
+Une créature dispose de 10 attributs répartis en cinq tiers (2 par tier), calculés comme pourcentages de son Attribut Max, arrondis à l'inférieur :
+
+- **TH** (Très Haut) — 100% de l'Attribut Max
+- **H** (Haut) — 85%
+- **M / Éq.** (Moyen / Équilibre) — 70%
+- **B** (Bas) — 60%
+- **TB** (Très Bas) — 50%
+
+La valeur d'**équilibre** correspond à la colonne M/Éq. — c'est littéralement la moyenne des attributs de la créature. L'**Ajust.** du rang (voir tableau de référence) s'y ajoute comme bonus.
+
+Les attributs forts et faibles issus de la race, de l'ethnie et de la lignée modifient ces valeurs de ±2 après application des tiers.
+
+| Rang | Attr. Max | TH | H | M / Éq. | B | TB |
+| --- | --- | --- | --- | --- | --- | --- |
+| -4 | 6 | 6 | 5 | 4 | 3 | 3 |
+| -3 | 7 | 7 | 5 | 4 | 4 | 3 |
+| -2 | 8 | 8 | 6 | 5 | 4 | 4 |
+| -1 | 9 | 9 | 7 | 6 | 5 | 4 |
+| 0 | 10 | 10 | 8 | 7 | 6 | 5 |
+| 1 | 11 | 11 | 9 | 7 | 6 | 5 |
+| 2 | 12 | 12 | 10 | 8 | 7 | 6 |
+| 3 | 13 | 13 | 11 | 9 | 7 | 6 |
+| 4 | 14 | 14 | 11 | 9 | 8 | 7 |
+| 5 ★ | 15 | 15 | 12 | 10 | 9 | 7 |
+| 6 | 16 | 16 | 13 | 11 | 9 | 8 |
+| 7 | 17 | 17 | 14 | 11 | 10 | 8 |
+| 8 | 18 | 18 | 15 | 12 | 10 | 9 |
+| 9 | 19 | 19 | 16 | 13 | 11 | 9 |
+| 10 | 20 | 20 | 17 | 14 | 12 | 10 |
+| 11 | 21 | 21 | 17 | 14 | 12 | 10 |
+| 12 | 22 | 22 | 18 | 15 | 13 | 11 |
+| 13 | 23 | 23 | 19 | 16 | 13 | 11 |
+| 14 | 24 | 24 | 20 | 16 | 14 | 12 |
+| 15 | 25 | 25 | 21 | 17 | 15 | 12 |
+| 16 | 26 | 26 | 22 | 18 | 15 | 13 |
+| 17 | 27 | 27 | 22 | 18 | 16 | 13 |
+| 18 | 28 | 28 | 23 | 19 | 16 | 14 |
+| 19 | 29 | 29 | 24 | 20 | 17 | 14 |
+| 20 | 30 | 30 | 25 | 21 | 18 | 15 |
 
 ### Le rôle
 
 Le rôle mesure l'impact qu'il a sur le monde.
 
-| Rôle | Rang | Moral | Karma | Ressources |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Quidam | -4 → 4 | 1 | 0% | 50% |
-| Sbire | 2 → 4 | 2 | 50% | 100% |
-| Ennemi | 3 → 7 | 3 | 100% | 100% |
-| Adversaire | 4 → 9 | 4 | 150% | 150% |
-| Némésis | 8 → 14 | 5 | 200% | 200% |
-| Légende | 10 → 20 | 6 | 300% | 300% |
+| Rôle | Rang | Moral | Karma | Ressources | Bonus/Malus |
+| --- | --- | --- | --- | --- | --- |
+| Quidam | -4 → 3 | 1 | 0% | 50% | -2 |
+| Sbire | 2 → 5 | 2 | 50% | 100% | -1 |
+| Ennemi | 3 → 7 | 3 | 100% | 100% | +0 |
+| Adversaire | 4 → 9 | 4 | 150% | 150% | +1 |
+| Némésis | 7 → 15 | 5 | 200% | 200% | +2 |
+| Légende | 10 → 20 | 6 | 300% | 300% | +3 |
+
+- Rang : Chaque rôle correspond globalement à une certaine plage de rangs, en dessous ou au dessus c'est probablement peu ou pas approprié.  
+- Moral : Seuil de lésion à partir duquel le personnage commence ses tests de moral (il fuit si il échoue, voir la règle). Si les traumas ET les lésions correspondent à ce seuil alors le test est désavantagé.  
+- Karma : Ratio de sa ressource de karma.  
+- Ressources : Ratio pour ses autres ressources.  
+- Bonus/Malus : Correspond à un ajustement à tous les tests actifs et passifs du personnage, permettant d'en altérer la difficulté.  
 
 **Quidam** — L'individu ordinaire de son espèce, sans rôle narratif particulier. Il vit, survit, fait ce que font les créatures de son espèce. Aucune ambition, aucune initiative hors de son quotidien.
 Le quidam représente monsieur et madame tout le monde — des personnages qui n'ont rien de particulier sinon un métier qu'ils exercent probablement assez mal. Le quidam ne représente pas une menace pour un personnage héroïque seul. Le boulanger du coin, le paysan, le réceptionniste d'un hôtel de ville sont des quidams.
