@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "attributs": ["FOR", "DEX", "AGI", "PER", "CON", "CHA", "INT", "RUS", "SAG", "VOL", "MAG"],
+
+  "rangs": [
+    { "rang": -4, "titre": "Minuscule",     "attr_max": 6,  "ajust": 0, "modif": -2, "comp": 0, "grp": 0, "total": -2, "TH": 6,  "H": 5,  "M": 4,  "B": 3,  "TB": 3  },
+    { "rang": -3, "titre": "Chétif",        "attr_max": 7,  "ajust": 0, "modif": -2, "comp": 1, "grp": 0, "total": -1, "TH": 7,  "H": 5,  "M": 4,  "B": 4,  "TB": 3  },
+    { "rang": -2, "titre": "Faible",        "attr_max": 8,  "ajust": 0, "modif": -1, "comp": 1, "grp": 0, "total":  0, "TH": 8,  "H": 6,  "M": 5,  "B": 4,  "TB": 4  },
+    { "rang": -1, "titre": "Modeste",       "attr_max": 9,  "ajust": 0, "modif": -1, "comp": 1, "grp": 1, "total":  1, "TH": 9,  "H": 7,  "M": 6,  "B": 5,  "TB": 4  },
+    { "rang":  0, "titre": "Rejeton",       "attr_max": 10, "ajust": 0, "modif":  0, "comp": 1, "grp": 1, "total":  2, "TH": 10, "H": 8,  "M": 7,  "B": 6,  "TB": 5  },
+    { "rang":  1, "titre": "Juvénile",      "attr_max": 11, "ajust": 0, "modif":  0, "comp": 2, "grp": 1, "total":  3, "TH": 11, "H": 9,  "M": 7,  "B": 6,  "TB": 5  },
+    { "rang":  2, "titre": "Jeune",         "attr_max": 12, "ajust": 0, "modif":  1, "comp": 2, "grp": 1, "total":  4, "TH": 12, "H": 10, "M": 8,  "B": 7,  "TB": 6  },
+    { "rang":  3, "titre": "Adulte",        "attr_max": 13, "ajust": 0, "modif":  1, "comp": 3, "grp": 1, "total":  5, "TH": 13, "H": 11, "M": 9,  "B": 7,  "TB": 6  },
+    { "rang":  4, "titre": "Mûr",           "attr_max": 14, "ajust": 1, "modif":  2, "comp": 3, "grp": 1, "total":  6, "TH": 14, "H": 11, "M": 9,  "B": 8,  "TB": 7  },
+    { "rang":  5, "titre": "Exceptionnel ★","attr_max": 15, "ajust": 1, "modif":  3, "comp": 3, "grp": 1, "total":  7, "TH": 15, "H": 12, "M": 10, "B": 9,  "TB": 7  },
+    { "rang":  6, "titre": "Alpha",         "attr_max": 16, "ajust": 1, "modif":  3, "comp": 3, "grp": 2, "total":  8, "TH": 16, "H": 13, "M": 11, "B": 9,  "TB": 8  },
+    { "rang":  7, "titre": "Vieux",         "attr_max": 17, "ajust": 2, "modif":  4, "comp": 3, "grp": 2, "total":  9, "TH": 17, "H": 14, "M": 11, "B": 10, "TB": 8  },
+    { "rang":  8, "titre": "Ancien",        "attr_max": 18, "ajust": 2, "modif":  5, "comp": 3, "grp": 2, "total": 10, "TH": 18, "H": 15, "M": 12, "B": 10, "TB": 9  },
+    { "rang":  9, "titre": "Vénérable",     "attr_max": 19, "ajust": 2, "modif":  5, "comp": 4, "grp": 2, "total": 11, "TH": 19, "H": 16, "M": 13, "B": 11, "TB": 9  },
+    { "rang": 10, "titre": "Apex",          "attr_max": 20, "ajust": 3, "modif":  6, "comp": 4, "grp": 2, "total": 12, "TH": 20, "H": 17, "M": 14, "B": 12, "TB": 10 },
+    { "rang": 11, "titre": "Sommité",       "attr_max": 21, "ajust": 3, "modif":  7, "comp": 4, "grp": 2, "total": 13, "TH": 21, "H": 17, "M": 14, "B": 12, "TB": 10 },
+    { "rang": 12, "titre": "Sommité +",     "attr_max": 22, "ajust": 3, "modif":  7, "comp": 4, "grp": 3, "total": 14, "TH": 22, "H": 18, "M": 15, "B": 13, "TB": 11 },
+    { "rang": 13, "titre": "Épique",        "attr_max": 23, "ajust": 4, "modif":  8, "comp": 4, "grp": 3, "total": 15, "TH": 23, "H": 19, "M": 16, "B": 13, "TB": 11 },
+    { "rang": 14, "titre": "Épique +",      "attr_max": 24, "ajust": 4, "modif":  9, "comp": 4, "grp": 3, "total": 16, "TH": 24, "H": 20, "M": 16, "B": 14, "TB": 12 },
+    { "rang": 15, "titre": "Mythique",      "attr_max": 25, "ajust": 4, "modif":  9, "comp": 5, "grp": 3, "total": 17, "TH": 25, "H": 21, "M": 17, "B": 15, "TB": 12 },
+    { "rang": 16, "titre": "Mythique +",    "attr_max": 26, "ajust": 5, "modif": 10, "comp": 5, "grp": 3, "total": 18, "TH": 26, "H": 22, "M": 18, "B": 15, "TB": 13 },
+    { "rang": 17, "titre": "Légende",       "attr_max": 27, "ajust": 5, "modif": 11, "comp": 5, "grp": 3, "total": 19, "TH": 27, "H": 22, "M": 18, "B": 16, "TB": 13 },
+    { "rang": 18, "titre": "Légende +",     "attr_max": 28, "ajust": 5, "modif": 11, "comp": 5, "grp": 4, "total": 20, "TH": 28, "H": 23, "M": 19, "B": 16, "TB": 14 },
+    { "rang": 19, "titre": "Divin",         "attr_max": 29, "ajust": 6, "modif": 12, "comp": 5, "grp": 4, "total": 21, "TH": 29, "H": 24, "M": 20, "B": 17, "TB": 14 },
+    { "rang": 20, "titre": "Divin +",       "attr_max": 30, "ajust": 6, "modif": 13, "comp": 5, "grp": 4, "total": 22, "TH": 30, "H": 25, "M": 21, "B": 18, "TB": 15 }
+  ],
+
+  "roles": [
+    { "id": "quidam",     "nom": "Quidam",     "rang_min": -4, "rang_max":  3, "moral": "1",                "pk": "0%",   "ressources": "50%",  "bonus_malus": -2 },
+    { "id": "sbire",      "nom": "Sbire",      "rang_min":  2, "rang_max":  5, "moral": "2",                "pk": "50%",  "ressources": "100%", "bonus_malus": -1 },
+    { "id": "ennemi",     "nom": "Ennemi",     "rang_min":  3, "rang_max":  7, "moral": "3",                "pk": "100%", "ressources": "100%", "bonus_malus":  0 },
+    { "id": "adversaire", "nom": "Adversaire", "rang_min":  4, "rang_max":  9, "moral": "4",                "pk": "150%", "ressources": "150%", "bonus_malus":  1 },
+    { "id": "nemesis",    "nom": "Némésis",    "rang_min":  7, "rang_max": 15, "moral": "5",                "pk": "200%", "ressources": "200%", "bonus_malus":  2 },
+    { "id": "legende",    "nom": "Légende",    "rang_min": 10, "rang_max": 20, "moral": "6 (inébranlable)", "pk": "300%", "ressources": "300%", "bonus_malus":  3 }
+  ]
+}

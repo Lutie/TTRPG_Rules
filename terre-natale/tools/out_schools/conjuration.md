@@ -1,8 +1,8 @@
 # École de Conjuration
 
-> 62 mots pour cette école
+> 63 mots pour cette école
 
-#### 1. Vol ['Conj'!C3]
+#### 1. Vol
 ***Latin :*** Volatus (Vol), ***Arcanique :*** Convol (Con + vol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -11,7 +11,7 @@ Génère un enchantement qui permet à la cible de voler, elle le fait avec une 
 
 ---
 
-#### 2. Planement ['Conj'!C4]
+#### 2. Planement
 ***Latin :*** Plaudo (Applaudir, battre des ailes), ***Arcanique :*** Cemplaud (Cen + plaud)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -20,7 +20,7 @@ Génère un enchantement qui permet à la cible de planer, elle le fait avec une
 
 ---
 
-#### 3. Marcheflots ['Conj'!C5]
+#### 3. Marcheflots
 ***Latin :*** Aqua (Eau), ***Arcanique :*** Colaqua (Col + aqua)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -29,7 +29,7 @@ Génère un enchantement qui permet à la cible marcher sur l'eau, elle le fait 
 
 ---
 
-#### 4. Nage ['Conj'!C6]
+#### 4. Nage
 ***Latin :*** Nato (Nager), ***Arcanique :*** Carnato (Car + nato)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -38,7 +38,7 @@ Génère un enchantement qui permet à la cible de nager, elle le fait avec une 
 
 ---
 
-#### 5. Ascension ['Conj'!C7]
+#### 5. Ascension
 ***Latin :*** Ascendo (Monter), ***Arcanique :*** Conasc (Con + asc)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -47,7 +47,7 @@ Génère un enchantement qui permet à la cible de grimper, elle le fait avec un
 
 ---
 
-#### 6. Terremarche ['Conj'!C8]
+#### 6. Terremarche
 ***Latin :*** Terra (Terre), ***Arcanique :*** Centerra (Cen + terra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -56,7 +56,7 @@ Génère un enchantement qui permet à la cible de marcher sur le sol, elle le f
 
 ---
 
-#### 7. Attraction ['Conj'!C9]
+#### 7. Attraction
 ***Latin :*** Traho (Tirer), ***Arcanique :*** Coltraho (Col + traho)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -65,7 +65,7 @@ Génère un enchantement d'attraction agissant chaque tour comme l'action tactiq
 
 ---
 
-#### 8. Répulsion ['Conj'!C10]
+#### 8. Répulsion
 ***Latin :*** Pello (Pousser), ***Arcanique :*** Carpello (Car + pello)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -74,16 +74,16 @@ Génère un enchantement répulsif agissant comme l'action tactique de déplacem
 
 ---
 
-#### 9. Edification ['Conj'!C11]
+#### 9. Edification
 ***Latin :*** Aedifico (Édifier), ***Arcanique :*** Conedi (Con + edi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
-**Clés :** 🔥 Feu: Conediar, ❄️ Glace: Conediis, ⚡ Foudre: Conedior, 🪨 Terre: Conedium, 💧 Eau: Conediyn, 🌪️ Air: Conediel, ☀️ Lumière: Conediion, 🌑 Ombre: Conedioth, ⚖️ Loi: Conediem, 🌀 Chaos: Conediix, ✨ Sacre: Conediiel, 🩸 Impie: Conediun, ❤️ Vie: Conediir, ☠️ Mort: Conedius, 🌿 Flore: Conediiln, ✡️ Arcane: Conediys, 🎭 Illusion: Conediin, ⚔️ Acier: Conedian
+**Clés :** 🔥 Feu: Conediar, ❄️ Glace: Conediis, ⚡ Foudre: Conedior, 🪨 Terre: Conedium, 💧 Eau: Conediyn, 🌪️ Air: Conediel, ☀️ Lumière: Conediion, 🌑 Ombre: Conedioth, ⚖️ Loi: Conediem, 🌀 Chaos: Conediix, ✨ Sacre: Conediiel, 🩸 Impie: Conediun, ❤️ Vie: Conediir, ☠️ Mort: Conedius, 🌿 Flore: Conediiln, ✡️ Arcane: Conediys, 🎭 Illusion: Conediin, ⚔️ Acier: Conedian, 💢 Vide: Conediarh
 Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des murs magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au mur.
 
 ---
 
-#### 10. Revêtement ['Conj'!C12]
+#### 10. Revêtement
 ***Latin :*** Vestis (Vêtement), ***Arcanique :*** Cenvest (Cen + vest)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -92,7 +92,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 11. Fers ['Conj'!C13]
+#### 11. Fers
 ***Latin :*** Ferrum (Fer), ***Arcanique :*** Colfer (Col + fer)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -101,7 +101,7 @@ Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui e
 
 ---
 
-#### 12. Incarcération ['Conj'!C14]
+#### 12. Incarcération
 ***Latin :*** Carcer (Prison), ***Arcanique :*** Carcarce (Car + carce)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -110,7 +110,7 @@ Génère un enchantement (sous formes de cage tangibles ou intangibles) qui empr
 
 ---
 
-#### 13. Sarcophagie ['Conj'!C15]
+#### 13. Sarcophagie
 ***Latin :*** Sarcophagus (Grec), ***Arcanique :*** Consar (Con + sar)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
@@ -119,7 +119,7 @@ Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui 
 
 ---
 
-#### 14. Asphyxie ['Conj'!C16]
+#### 14. Asphyxie
 ***Latin :*** Spirare (Souffler), ***Arcanique :*** Censpira (Cen + spira)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** TO Finish ?
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -128,7 +128,7 @@ Nécessite le mot de pouvoir X (ci dessus), l'effet inclus une privation d'air q
 
 ---
 
-#### 15. Eclairsissement ['Conj'!C17]
+#### 15. Eclairsissement
 ***Latin :*** Clarus (Clair), ***Arcanique :*** Colclaru (Col + claru)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -137,7 +137,7 @@ Génère un enchantement qui génère de la lumière, au lancement le lanceur de
 
 ---
 
-#### 16. Obscurcissement ['Conj'!C18]
+#### 16. Obscurcissement
 ***Latin :*** Obscuro (Obscurcir), ***Arcanique :*** Carscuro (Car + scuro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -146,16 +146,16 @@ Génère un enchantement qui absorbe la lumière, au lancement le lanceur de sor
 
 ---
 
-#### 17. Simulacre ['Conj'!C19]
+#### 17. Simulacre
 ***Latin :*** Simulo (Imiter), ***Arcanique :*** Consim (Con + sim)
-***Type de mot :*** Pouvoir, ***Type de cible :*** TO PIMP
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🎭 Illusion: Consimin
 Génère un enchantement qui prend les traits de la cible, ce clone agit et parle indépendament de son modèle mais ne peux rien faire par lui même de complexe, il aura l'air de réussire ce qu'il fait mais même si c'est le cas il n'y a pas de réelles conséquences dans le monde réel, à chaque fois qu'un changement de comportement/action est requis cet enchantement subit une décharge, ces effets sont sujets aux règles inhérentes aux Illusions.
 
 ---
 
-#### 18. Spiritisme ['Conj'!C20]
+#### 18. Spiritisme
 ***Latin :*** Spiritus (Esprit), ***Arcanique :*** Censpiri (Cen + spiri)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -164,7 +164,7 @@ Génère un enchantement qui met en contact le lanceur de sort et l'âme d'un ê
 
 ---
 
-#### 19. Miasmes ['Conj'!C21]
+#### 19. Miasmes
 ***Latin :*** Miasma (SouiLure, grec), ***Arcanique :*** Colmias (Col + mias)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -173,7 +173,7 @@ Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un indiv
 
 ---
 
-#### 20. Pestilence ['Conj'!C22]
+#### 20. Pestilence
 ***Latin :*** Pestis (Peste), ***Arcanique :*** Carpesti (Car + pesti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -182,7 +182,7 @@ Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un indiv
 
 ---
 
-#### 21. Hantise ['Conj'!C23]
+#### 21. Hantise
 ***Latin :*** Umbra (Ombre), ***Arcanique :*** Conumbra (Con + umbra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -191,7 +191,7 @@ Génère un enchantement de lieu qui prend la forme d'une hantise, tant qu'un in
 
 ---
 
-#### 22. Pulsation ['Conj'!C24]
+#### 22. Pulsation
 ***Latin :*** Pulso (Frapper), ***Arcanique :*** Cenpulso (Cen + pulso)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -200,7 +200,7 @@ Génère un enchantement de lieu qui produit les effets d'un autre <span style="
 
 ---
 
-#### 23. Mandala ['Conj'!C25]
+#### 23. Mandala
 ***Latin :*** Circulus (Cercle), ***Arcanique :*** Colcircu (Col + circu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
@@ -209,34 +209,43 @@ Génère un enchantement de lieu qui produit les effets d'un autre <span style="
 
 ---
 
-#### 24. Armement élémentaire ['Conj'!C26]
+#### 24. Armement élémentaire
 ***Latin :*** Arma (Arme), ***Arcanique :*** Cararma (Car + arma)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 4
 **Clés :** 🔥 Feu: Cararmaar, ❄️ Glace: Cararmais, ⚡ Foudre: Cararmaor, 🪨 Terre: Cararmaum, 💧 Eau: Cararmayn, 🌪️ Air: Cararmael, ☀️ Lumière: Cararmaion, 🌑 Ombre: Cararmaoth, ⚖️ Loi: Cararmaem, 🌀 Chaos: Cararmaix, ✨ Sacre: Cararmaiel, 🩸 Impie: Cararmaun, ❤️ Vie: Cararmair, ☠️ Mort: Cararmaus, 🌿 Flore: Cararmailn, ✡️ Arcane: Cararmays, 🎭 Illusion: Cararmain, ⚔️ Acier: Cararmaan, 🔮 Magie: Cararmairn
-Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : La dégats sont entièrement élémentaire, le personnage a l'expertise et la science de l'arme en question, la catégorie et la forme de l'arme est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (les contraintes liés à la catégorie, dont le charge, subsistent), l'arme offre un bonus de qualité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> mais sa qualité réelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>.
+Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Spécifique aux armes conjourées : Les dégats sont entièrement de l'élément associé à la clé, toucher la cible requière de passer la défense associée à l'élément ET à la forme de l'arme. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
 
 ---
 
-#### 25. Armure élémentaire ['Conj'!C27]
+#### 25. Armure élémentaire
 ***Latin :*** Loric (Cuirasse), ***Arcanique :*** Conloric (Con + loric)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 4
 **Clés :** 🔥 Feu: Conloricar, ❄️ Glace: Conloricis, ⚡ Foudre: Conloricor, 🪨 Terre: Conloricum, 💧 Eau: Conloricyn, 🌪️ Air: Conloricel, ☀️ Lumière: Conloricion, 🌑 Ombre: Conloricoth, ⚖️ Loi: Conloricem, 🌀 Chaos: Conloricix, ✨ Sacre: Conloriciel, 🩸 Impie: Conloricun, ❤️ Vie: Conloricir, ☠️ Mort: Conloricus, 🌿 Flore: Conloriciln, ✡️ Arcane: Conloricys, 🎭 Illusion: Conloricin, ⚔️ Acier: Conlorican, 🔮 Magie: Conloricirn
-Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Elle profite d'une absorption à son élément et aux éléments opposés de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> mais sa qualité réelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>.
+Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
 
 ---
 
-#### 26. Outil conjuré ['Conj'!C28]
+#### 26. Outil conjuré
 ***Latin :*** Instrumentum (Outil), ***Arcanique :*** Ceninstr (Cen + instr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
-**Clés :** ✡️ Arcane: Ceninstrys
-Conjure un outils sous la forme d'un enchantement (neutre), le personnage a l'expertise et la science de l'outils en question, la catégorie et la forme de l'outils est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (entrainement nécessaire).
+**Clés :** ✡️ Arcane: Ceninstrys, ⚔️ Acier: Coninstran
+Conjure un outil sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Les outils d'arcanes ne permettent que de travailler la magie, là où les outils d'acier permettent de générer les autres types d'outils (pour les activités dites vulguaires). Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
 
 ---
 
-#### 27. Imprégnation ['Conj'!C29]
+#### 27. Focalisateur conjuré
+***Latin :*** Focus (Focaliser), ***Arcanique :*** Cenfoc (Cen + Foc)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ✡️ Arcane: Cenfocrys
+Conjure un focalisateur sous la forme d'un enchantement (neutre) : Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.
+
+---
+
+#### 28. Imprégnation
 ***Latin :*** Pingo (Peindre), ***Arcanique :*** Colpingo (Col + pingo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -245,7 +254,7 @@ Génère un enchantement qui enchante un autre enchantement pour en augmenter la
 
 ---
 
-#### 28. Oculus ['Conj'!C30]
+#### 29. Oculus
 ***Latin :*** Oculus (Œil), ***Arcanique :*** Carocul (Car + ocul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -254,7 +263,7 @@ Génère un enchantement qui prend la forme d'un globe de petite taille capable 
 
 ---
 
-#### 29. Démarquation ['Conj'!C31]
+#### 30. Démarquation
 ***Latin :*** Notus (Marque), ***Arcanique :*** Connota (Con + nota)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -263,7 +272,7 @@ Génère un enchantement qui permet, tant que cet enchantement perdure, au lance
 
 ---
 
-#### 30. Lustration ['Conj'!C32]
+#### 31. Lustration
 ***Latin :*** Lustro (Purifier), ***Arcanique :*** Cenlustr (Cen + lustr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -272,7 +281,7 @@ Génère un enchantement qui purifie une source d'eau, n'importe qui peux alors 
 
 ---
 
-#### 31. Verger pur ['Conj'!C33]
+#### 32. Verger pur
 ***Latin :*** Pura (Pur) + Hortus (Jardin), ***Arcanique :*** Colhort (Col + hort)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -281,7 +290,7 @@ Génère un enchantement qui purifie un arbre fruitier, n'importe qui peux alors
 
 ---
 
-#### 32. Illumination ['Conj'!C34]
+#### 33. Illumination
 ***Latin :*** Lumen (Lumière), ***Arcanique :*** Carlumen (Car + lumen)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -290,7 +299,7 @@ Génère un enchantement qui réduit la faculté à se cacher ou à dissimuler, 
 
 ---
 
-#### 33. Occultation ['Conj'!C35]
+#### 34. Occultation
 ***Latin :*** Occulto (Cacher), ***Arcanique :*** Conocult (Con + nocult)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -299,7 +308,7 @@ Génère un enchantement qui augmente la faculté à se cacher ou à dissimuler,
 
 ---
 
-#### 34. Démasquage ['Conj'!C36]
+#### 35. Démasquage
 ***Latin :*** Larva (Masque), ***Arcanique :*** Cenlarva (Cen + larva)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -308,7 +317,7 @@ Génère un enchantement qui réduit la faculté à mentir, falcifier, se dégui
 
 ---
 
-#### 35. Subterfuge ['Conj'!C37]
+#### 36. Subterfuge
 ***Latin :*** Fugio (S'enfuir), ***Arcanique :*** Colfugi (Col + fugi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -317,34 +326,34 @@ Génère un enchantement qui améliore la faculté à mentir, falcifier, se dég
 
 ---
 
-#### 36. Entrave ['Conj'!C38]
+#### 37. Entrave
 ***Latin :*** Impedio (Empêcher), ***Arcanique :*** Cariped (Car + iped)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
-**Clés :** ⚜️ Charme: Caripedynh
+**Clés :** 🧩 Mental: Caripedyend
 Génère un enchantement qui permet au lanceur de sort de empêcher sa cible d'agir, pour le prix d'une action libre le lanceur du sort peux ainsi empêcher sa cible de réaliser une action d'un type choisit, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même), l'enchantement prend fin après que la cible s'est vue bannir d'un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> actions.
 
 ---
 
-#### 37. Marionnettisation ['Conj'!C39]
+#### 38. Marionnettisation
 ***Latin :*** Pupus (Poupée), ***Arcanique :*** Conpupa (Con + pupa)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
-**Clés :** ⚜️ Charme: Conpupaynh
+**Clés :** 🧩 Mental: Conpupaend
 Génère un enchantement qui permet au lanceur de sort de contrôler partiellement les faits et geste d'une cible, pour le prix d'une action libre le lanceur du sort peux ainsi forcer sa cible à réaliser une action, dés que c'est à elle d'agir celle ci tentera de réaliser l'action en question en premier lieu, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même), l'enchantement prend fin après que la cible est réalisée ou refusée <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> actions forcées.
 
 ---
 
-#### 38. Domination ['Conj'!C40]
+#### 39. Domination
 ***Latin :*** Dominus (Maître), ***Arcanique :*** Cendomin (Cen + domin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
-**Clés :** ⚜️ Charme: Cendominynh
+**Clés :** 🧩 Mental: Cendominend
 Génère un enchantement qui permet au lanceur de sort de contrôler totalement les faits et geste d'une cible, pour le prix d'une action rapide le lanceur du sort peux ainsi choisir les actions pour sa cible lorsque viens le moment pour elle de jouer, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même) et peux agir normalement ce round ci, l'enchantement prend fin après que la cible est réalisée ou refusée <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> actions forcées.
 
 ---
 
-#### 39. Lecture mentale ['Conj'!C41]
+#### 40. Lecture mentale
 ***Latin :*** Mente (Esprit), ***Arcanique :*** Colment (Col + ment)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -353,7 +362,7 @@ Génère un enchantement qui permet au lanceur de sort d'entendre les pensées d
 
 ---
 
-#### 40. Danse des lames ['Conj'!C42]
+#### 41. Danse des lames
 ***Latin :*** Gladius (Épée), ***Arcanique :*** Cargladi (Car + gladi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -362,16 +371,16 @@ Génère un enchantement qui prend la forme de 4 petites armes (couteau) / 3 moy
 
 ---
 
-#### 41. Halo de projectiles ['Conj'!C43]
+#### 42. Halo de projectiles
 ***Latin :*** Telum (Trait/Projectile), ***Arcanique :*** Contelum (Con + telum)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ⚔️ Acier: Conteluman (Physique), 🧩 Mental: Contelume nd (Mental), ✡️ Arcane: Contelums (Magie)
-Génère un enchantement qui prend la forme de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> projectiles autour du lanceur de sort, lorsque la cible le souhaite elle peux dépenser une action libre pour attaquer (la nature de l'attaque dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée) avec l'un de ces projectiles, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet n'est pas lié à la forme de l'arme mais à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, une fois le projectile utilisé ce dernier disparait jusqu'à ce que la cible utilise une action simple pour recharger le tout, les projectiles ont une portée équivalante à celle d'un sort "à disance" et l'action ne génère pas d'opportunité ou autre, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée.
+Génère un enchantement qui prend la forme de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> projectiles (sans catégorie) autour du lanceur de sort, lorsque la cible le souhaite elle peux dépenser une action libre pour attaquer (la nature de l'attaque dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée) avec l'un de ces projectiles, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet de l'attaque vaux <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> (perforation et gravité lié aux caracs du personnage s'appliquent normalement) une fois le projectile utilisé ce dernier disparait jusqu'à ce que la cible utilise une action simple pour recharger le tout, les projectiles ont une portée équivalante à celle d'un sort "à disance" et l'action ne génère pas d'opportunité ou autre, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée.
 
 ---
 
-#### 42. Couronne de boucliers ['Conj'!C44]
+#### 43. Couronne de boucliers
 ***Latin :*** Scutum (Bouclier), ***Arcanique :*** Censcutu (Cen + scutu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -380,7 +389,7 @@ Génère un enchantement qui prend la forme de <span style="color:#ff1493; font-
 
 ---
 
-#### 43. Appel de la foudre ['Conj'!C45]
+#### 44. Appel de la foudre
 ***Latin :*** Fulgur (Foudre), ***Arcanique :*** Colfulgur (Col + fulgur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** c
@@ -389,7 +398,7 @@ Génère un enchantement de lieu qui charge les nuages au dessus (que l'origine 
 
 ---
 
-#### 44. Transmutation ['Conj'!C46]
+#### 45. Transmutation
 ***Latin :*** Muto (Changer), ***Arcanique :*** Carmuta (Car + muta)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -398,7 +407,7 @@ Génère un enchantement qui prend la forme de membres ou d'une particularité p
 
 ---
 
-#### 45. Locomutation ['Conj'!C47]
+#### 46. Locomutation
 ***Latin :*** Locus (Lieu) + Muto (Changer), ***Arcanique :*** Conloco (Con + loco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -407,7 +416,7 @@ Génère un enchantement qui prend la forme de membres ou d'une particularité p
 
 ---
 
-#### 46. Mimétisation ['Conj'!C48]
+#### 47. Mimétisation
 ***Latin :*** Mimicus (Mime), ***Arcanique :*** Cenmimic (Cen + mimic)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -416,16 +425,16 @@ Génère un enchantement donne à sa cible les traits (visuel, sonore, odeurs) d
 
 ---
 
-#### 47. Espace de poche ['Conj'!C49]
+#### 48. Espace de poche
 ***Latin :*** Spatium (Espace), ***Arcanique :*** Colspati (Col + spati)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✡️ Arcane: Colspatiys
-Génère un enchantement qui maintient un espace interdimentionnel en place, cet espace peux contenir <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> d'encombrement en matériel, cet espace appartient au lanceur de sort et déverse son contenu si l'enchantement prend fin, l'utilisation d'un mot pouvoir d'évocation est nécessaire pour stocker ou retirer des choses de cet espace.
+Génère un effet qui ouvre une porte afin de stocker ou récupérer dans l'espace interdimentionnel personel (chaque personne en dispose d'un unique) un ou des objets, la totalité des objets pouvant être stocké et sortis est limité à un encombrement total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, les objets sont catalogués juqu'à ou récupérés depuis l'index de référencement maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, par exemple un objet d'encombrement 3 peux occuper l'espace de 16 à 18, il faudra alors une magnitude de 36 pour le récupérer ensuite.
 
 ---
 
-#### 48. Surcharge ['Conj'!C50]
+#### 49. Surcharge
 ***Latin :*** Onero (Charger), ***Arcanique :*** Carnero (Car + nero)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -434,7 +443,7 @@ Génère un enchantement de lieu qui augmente le drain des sorts lancés dans la
 
 ---
 
-#### 49. Saignée arcanique ['Conj'!C51]
+#### 50. Saignée arcanique
 ***Latin :*** Sanguis (Sang), ***Arcanique :*** Consang (Con + sang)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -443,7 +452,7 @@ Génère un enchantement de lieu qui inflige aux lanceurs de sort l'équivalant 
 
 ---
 
-#### 50. Perturbation ['Conj'!C52]
+#### 51. Perturbation
 ***Latin :*** Turbo (Troubler), ***Arcanique :*** Centurb (Cen + turb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -452,7 +461,7 @@ Génère un enchantement de lieu qui augmente la difficulté de sorts lancés da
 
 ---
 
-#### 51. Harmonisation ['Conj'!C53]
+#### 52. Harmonisation
 ***Latin :*** Harmonia (Harmonie), ***Arcanique :*** Colharmo (Col + harmo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -461,7 +470,7 @@ Génère un enchantement de lieu qui réduit la difficulté de sorts lancés dan
 
 ---
 
-#### 52. Allégement ['Conj'!C54]
+#### 53. Allégement
 ***Latin :*** Leves (Léger), ***Arcanique :*** Carleves (Car + leves)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -470,7 +479,7 @@ Génère un enchantement de lieu qui réduit le drain des sorts lancés dans la 
 
 ---
 
-#### 53. Fenêtre astrale ['Conj'!C55]
+#### 54. Fenêtre astrale
 ***Latin :*** Astra (Étoile), ***Arcanique :*** Conastra (Con + astra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -479,7 +488,7 @@ Génère un enchantement de lieu qui prend la forme d'une fenêtre vers un autre
 
 ---
 
-#### 54. Invisibilité ['Conj'!C56]
+#### 55. Invisibilité
 ***Latin :*** Celo (Cacher), ***Arcanique :*** Cencelo (Cen + celo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 4
@@ -488,7 +497,7 @@ Génère un enchantement sur cible qui tord la lumière et rend le sujet invisib
 
 ---
 
-#### 55. Silence ['Conj'!C57]
+#### 56. Silence
 ***Latin :*** Silentium (Silence), ***Arcanique :*** Colsil (Col + sil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 4
@@ -497,7 +506,7 @@ Génère un enchantement sur cible qui étouffe le son et rend le sujet difficil
 
 ---
 
-#### 56. Réanimation ['Conj'!C58]
+#### 57. Réanimation
 ***Latin :*** Anima (Âme), ***Arcanique :*** Caranima (Car + anima)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -506,7 +515,7 @@ Sur une cible morte - Génère un enchantement qui force la cible à reprendre v
 
 ---
 
-#### 57. Climatisation ['Conj'!C59]
+#### 58. Climatisation
 ***Latin :*** Clima (Climat), ***Arcanique :*** Conclim (Con + clim)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
@@ -515,7 +524,7 @@ Enchantement qui force le changement du climat dans une zone, fonctionne comme l
 
 ---
 
-#### 58. Damnation ['Conj'!C60]
+#### 59. Damnation
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -524,7 +533,7 @@ Génère un enchantement qui permet à la cible de puiser 1 PV pour augmenter de
 
 ---
 
-#### 59. Omnipotence ['Conj'!C61]
+#### 60. Omnipotence
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -533,7 +542,7 @@ Génère un enchantement qui permet à la cible de puiser 1 PS pour augmenter de
 
 ---
 
-#### 60. Main lointaine ['Conj'!C62]
+#### 61. Main lointaine
 ***Latin :*** Manus (Main), ***Arcanique :*** Conmanu (Con + manu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -542,7 +551,7 @@ Le sort génère un enchantement de type portail sur le lieu ciblé, le portail 
 
 ---
 
-#### 61. Portail ['Conj'!C63]
+#### 62. Portail
 ***Latin :*** Porta (Porte), ***Arcanique :*** Cenporta (Cen + porta)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -551,7 +560,7 @@ Le sort génère un enchantement de type portail sur le lieu ciblé avec un pote
 
 ---
 
-#### 62. Arche ['Conj'!C64]
+#### 63. Arche
 ***Latin :*** Arcus (Arche), ***Arcanique :*** Cenarch (Cen + arch)
 ***Type de mot :*** Miracle, ***Type de cible :*** Lieu
 ***Difficulté :*** 8, ***Drain :*** 8

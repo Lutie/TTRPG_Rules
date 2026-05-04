@@ -2,7 +2,7 @@
 
 > 74 mots pour cette école
 
-#### 1. Destruction ['Dest'!C3]
+#### 1. Destruction
 ***Latin :*** Ruptura (Rupture), ***Arcanique :*** Kinrupt (Kin + rupt)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -11,7 +11,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 2. Conjuration ['Dest'!C4]
+#### 2. Conjuration
 ***Latin :*** Iungo (Joindre), ***Arcanique :*** Keljung (Kel + jung)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -20,7 +20,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 3. Mystification ['Dest'!C5]
+#### 3. Mystification
 ***Latin :*** Occulto (Cacher), ***Arcanique :*** Krucclt (Kru + cclt)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -29,7 +29,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 4. Annihilation ['Dest'!C6]
+#### 4. Annihilation
 ***Latin :*** Nihil (Rien), ***Arcanique :*** Kranihil (Kra + nihil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -38,7 +38,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 5. Profanation ['Dest'!C7]
+#### 5. Profanation
 ***Latin :*** Profano (Souiller), ***Arcanique :*** Kaprofan (Ka + profan)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -47,7 +47,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 6. Transgression ['Dest'!C8]
+#### 6. Transgression
 ***Latin :*** Gressus (Pas, marche), ***Arcanique :*** Kintrans (Kin + trans)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -56,7 +56,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 7. Expiation ['Dest'!C9]
+#### 7. Expiation
 ***Latin :*** Luo (Payer, laver), ***Arcanique :*** Krulex (Kru + lex)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -65,7 +65,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 8. Distorsion ['Dest'!C10]
+#### 8. Distorsion
 ***Latin :*** Torsio (Torsion), ***Arcanique :*** Keltor (Kel + tor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -74,7 +74,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 9. Eradication ['Dest'!C11]
+#### 9. Eradication
 ***Latin :*** Radix (Racine), ***Arcanique :*** Karadix (Ka + radix)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -83,7 +83,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 10. Dévastation ['Dest'!C12]
+#### 10. Dévastation
 ***Latin :*** Vasto (Je dévaste), ***Arcanique :*** Kordevast (Kor + devast)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -92,7 +92,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 11. Commotion ['Dest'!C13]
+#### 11. Commotion
 ***Latin :*** Moveo (Bouger, remuer), ***Arcanique :*** Krucomov (Kru + comov)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -101,7 +101,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 12. Perturbation ['Dest'!C14]
+#### 12. Perturbation
 ***Latin :*** Turbo (Troubler), ***Arcanique :*** Kraturb (Kra + turb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -110,7 +110,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 13. Ruine ['Dest'!C15]
+#### 13. Ruine
 ***Latin :*** Ruina (Chute), ***Arcanique :*** Keluina (Kel + ruina)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -119,7 +119,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 14. Percussion ['Dest'!C16]
+#### 14. Percussion
 ***Latin :*** Percutio (Frapper), ***Arcanique :*** Kortio (Kor + tio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -128,7 +128,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 15. Suggestion ['Dest'!C17]
+#### 15. Suggestion
 ***Latin :*** Gero (Porter), ***Arcanique :*** Krusuger (Kru + suger)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -137,7 +137,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 16. Attrition ['Dest'!C18]
+#### 16. Attrition
 ***Latin :*** Tero (Frotter, user), ***Arcanique :*** Kratrit (Kra + trit)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -146,7 +146,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 17. Dissipation ['Dest'!C19]
+#### 17. Dissipation
 ***Latin :*** Dissipo (Je disperse), ***Arcanique :*** Kadisipo (Ka + disipo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -155,7 +155,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 18. Corrosion ['Dest'!C20]
+#### 18. Corrosion
 ***Latin :*** Rodo (Je ronge), ***Arcanique :*** Kinrado (Kin + rado)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -164,7 +164,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 19. Obsession ['Dest'!C21]
+#### 19. Obsession
 ***Latin :*** Sedeo (Être assis), ***Arcanique :*** Kruobsid (Kru + obsid)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -173,7 +173,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 20. Perdition ['Dest'!C22]
+#### 20. Perdition
 ***Latin :*** Perdo (Je perds), ***Arcanique :*** Kraperd (Kra + perd)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -182,7 +182,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 21. Dérision ['Dest'!C23]
+#### 21. Dérision
 ***Latin :*** Rideo (Rire), ***Arcanique :*** Kinrideo (Kin + rideo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -191,7 +191,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 22. Gravitation ['Dest'!C24]
+#### 22. Gravitation
 ***Latin :*** Gravis (Lourd), ***Arcanique :*** Korgrav (Kor + grav)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -200,7 +200,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 23. Relativité ['Dest'!C25]
+#### 23. Relativité
 ***Latin :*** Refero (Rapporter), ***Arcanique :*** Krurelat (Kru + relat)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 6
@@ -209,7 +209,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 24. Lésion ['Dest'!C26]
+#### 24. Lésion
 ***Latin :*** Laedo (Blesser), ***Arcanique :*** Kralesi (Kra + lesi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -218,7 +218,7 @@ Génère un effet infligeant une blessure de gravité <span style="color:#ff1493
 
 ---
 
-#### 25. Traumatisation ['Dest'!C27]
+#### 25. Traumatisation
 ***Latin :*** Vulnus (Blessure), ***Arcanique :*** Kavulnus (Ka + vulnus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -227,7 +227,7 @@ Génère un effet infligeant un trauma de gravité <span style="color:#ff1493; f
 
 ---
 
-#### 26. Exténuation ['Dest'!C28]
+#### 26. Exténuation
 ***Latin :*** Tenuo (Rendre mince/faible), ***Arcanique :*** Keltenua (Kel + tenua)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -236,7 +236,7 @@ Génère un effet infligeant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 27. Damnation ['Dest'!C29]
+#### 27. Damnation
 ***Latin :*** Damno (Condamner), ***Arcanique :*** Krudamn (Kru + damn)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -245,7 +245,7 @@ Génère un effet infligeant un gain de <span style="color:#ff1493; font-weight:
 
 ---
 
-#### 28. Inhibition ['Dest'!C30]
+#### 28. Inhibition
 ***Latin :*** Habeo (Tenir, retenir), ***Arcanique :*** Krainhib (Kra + inhib)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -254,7 +254,7 @@ Génère un effet infligeant la perte de <span style="color:#ff1493; font-weight
 
 ---
 
-#### 29. Putréfaction ['Dest'!C31]
+#### 29. Putréfaction
 ***Latin :*** Putris (Pourri), ***Arcanique :*** Kaputre (Ka + putre)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -263,7 +263,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 30. Détérioration ['Dest'!C32]
+#### 30. Détérioration
 ***Latin :*** Pessum (Au pire), ***Arcanique :*** Kinpessum (Kin + pessum)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -272,7 +272,7 @@ Produit un effet infligeant une perte de <span style="color:#ff1493; font-weight
 
 ---
 
-#### 31. Atonation ['Dest'!C33]
+#### 31. Atonation
 ***Latin :*** Tonus (Tension), ***Arcanique :*** Kruaton (Kru + aton)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -281,7 +281,7 @@ Produit un effet infligeant une perte de <span style="color:#ff1493; font-weight
 
 ---
 
-#### 32. Fragmentation ['Dest'!C34]
+#### 32. Fragmentation
 ***Latin :*** Frango (Je brise), ***Arcanique :*** Krafrag (Kra + frag)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -290,7 +290,7 @@ Produit un effet infligeant une perte de <span style="color:#ff1493; font-weight
 
 ---
 
-#### 33. Dématérialisation ['Dest'!C35]
+#### 33. Dématérialisation
 ***Latin :*** Materia (Matière), ***Arcanique :*** Keldemater (Kel + demater)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -299,7 +299,7 @@ Produit un effet qui détruit <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 34. Hallucination ['Dest'!C36]
+#### 34. Hallucination
 ***Latin :*** Luceo (Briller), ***Arcanique :*** KorhaLu (Kor + hallu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -308,7 +308,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 35. Intimidation ['Dest'!C37]
+#### 35. Intimidation
 ***Latin :*** Timeo (Craindre), ***Arcanique :*** Krutimid (Kru + timid)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -317,7 +317,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 36. Délabrement ['Dest'!C38]
+#### 36. Délabrement
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -326,7 +326,7 @@ Produit un effet supprimant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 37. Privation ['Dest'!C39]
+#### 37. Privation
 ***Latin :*** Privo (Enlever), ***Arcanique :*** Kaprivo (Ka + privo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 2
@@ -335,7 +335,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 38. Désintégration ['Dest'!C40]
+#### 38. Désintégration
 ***Latin :*** Integro (Intégrité), ***Arcanique :*** Korintegr (Kor + integr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -344,7 +344,7 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 39. Dévitalisation ['Dest'!C41]
+#### 39. Dévitalisation
 ***Latin :*** Vita (Vie), ***Arcanique :*** Kruvit (Kru + vit)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -353,7 +353,7 @@ La cible perd 2 points d'endurance (PE) par mana temporaire qu'elle possède act
 
 ---
 
-#### 40. Sénescence ['Dest'!C42]
+#### 40. Sénescence
 ***Latin :*** Senex (Vieux), ***Arcanique :*** Kinsenex (Kin + senex)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -362,7 +362,7 @@ La cible vieillit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3
 
 ---
 
-#### 41. Obfuscation ['Dest'!C43]
+#### 41. Obfuscation
 ***Latin :*** Fusco (Noircir), ***Arcanique :*** Kafusc (Ka + fusc)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -371,7 +371,7 @@ Détruit l'indice, la piste ou autre information ciblé, rendue bien plus diffic
 
 ---
 
-#### 42. Déperdition ['Dest'!C44]
+#### 42. Déperdition
 ***Latin :*** Perdo (Je perds), ***Arcanique :*** Kordeperd (Kor + deperd)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -380,7 +380,7 @@ Génère un effet qui duplique une lésion (physique ou mentale selon la clé), 
 
 ---
 
-#### 43. Aggravation ['Dest'!C45]
+#### 43. Aggravation
 ***Latin :*** Gravis (Lourd), ***Arcanique :*** Keluagrav (Kel + agrav)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -389,7 +389,7 @@ Produit un effet qui aggrave d'un rang toutes les lésions de la cible, pour un 
 
 ---
 
-#### 44. Mortification ['Dest'!C46]
+#### 44. Mortification
 ***Latin :*** Mors (Mort), ***Arcanique :*** Kramorti (Kra + morti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -398,7 +398,7 @@ Produit un effet qui provoque la mort de la cible si ses PV sont inférieurs à 
 
 ---
 
-#### 45. Termination ['Dest'!C47]
+#### 45. Termination
 ***Latin :*** Terminus (Fin), ***Arcanique :*** Katermin (Ka + termin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -407,7 +407,7 @@ Produit un effet qui provoque la mort de la cible si ses PS sont inférieurs à 
 
 ---
 
-#### 46. Abolition ['Dest'!C48]
+#### 46. Abolition
 ***Latin :*** Abolitio (Suppression), ***Arcanique :*** Kinelabol (Kin + abol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -416,7 +416,7 @@ Produit un effet qui provoque la mort de la cible si elle rate à la fois un tes
 
 ---
 
-#### 47. Déstabilisation ['Dest'!C49]
+#### 47. Déstabilisation
 ***Latin :*** Stabilis (Stable), ***Arcanique :*** Krustabil (Kru + stabil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -425,7 +425,7 @@ Produit un effet qui force toutes les lésions de la cible sont déstabilisées 
 
 ---
 
-#### 48. Dégradation ['Dest'!C50]
+#### 48. Dégradation
 ***Latin :*** Cadus (Chute), ***Arcanique :*** Kracadus (Kra + cadus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -434,7 +434,7 @@ Toutes les lésions de la cible subissent <span style="color:#ff1493; font-weigh
 
 ---
 
-#### 49. Décomposition ['Dest'!C51]
+#### 49. Décomposition
 ***Latin :*** Pono (Mettre, poser), ***Arcanique :*** Kadepono (Ka + depono)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -443,7 +443,7 @@ Génère un effet qui provoque l'explosion d'un corps mort, ce qui coRespond à 
 
 ---
 
-#### 50. Dissolution ['Dest'!C52]
+#### 50. Dissolution
 ***Latin :*** Solvo (Délier), ***Arcanique :*** Kordisol (Kor + disol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -452,7 +452,7 @@ Génère un effet qui réduit une barrière (magique ou technologique) de <span 
 
 ---
 
-#### 51. Convulsion ['Dest'!C53]
+#### 51. Convulsion
 ***Latin :*** Vello (Arracher), ***Arcanique :*** Kelvello (Kel + vello)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -461,7 +461,7 @@ Génère un effet qui créée une (ou des) entité(s) magique (voir la règle co
 
 ---
 
-#### 52. Anticyclone ['Dest'!C54]
+#### 52. Anticyclone
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -470,7 +470,7 @@ Génère un effet qui créée une (ou des) entité(s) magique (voir la règle co
 
 ---
 
-#### 53. Exhumation ['Dest'!C55]
+#### 53. Exhumation
 ***Latin :*** Humus (Terre), ***Arcanique :*** Kraxhum (Kra + xhum)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -479,7 +479,7 @@ Génère un effet qui créée une (ou des) entité(s) magique (voir la règle co
 
 ---
 
-#### 54. Amnésiation ['Dest'!C56]
+#### 54. Amnésiation
 ***Latin :*** Memoria (Mémoire), ***Arcanique :*** Kinmemo (Kin + memo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -488,7 +488,7 @@ Génère un effet qui supprime de la mémoire d'une cible un élément (personne
 
 ---
 
-#### 55. Conflagration ['Dest'!C57]
+#### 55. Conflagration
 ***Latin :*** Flagrare (Brûler), ***Arcanique :*** Korflag (Kor + flag)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Objet
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -497,7 +497,7 @@ Génère un effet qui oblige l'objet à réaliser <span style="color:#ff1493; fo
 
 ---
 
-#### 56. Suppression ['Dest'!C58]
+#### 56. Suppression
 ***Latin :*** Premo (Presser), ***Arcanique :*** Krupremo (Kru + premo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -506,7 +506,7 @@ Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude
 
 ---
 
-#### 57. Exsanguination ['Dest'!C59]
+#### 57. Exsanguination
 ***Latin :*** Sanguis (Sang), ***Arcanique :*** Krasangui (Kra + sangui)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -515,7 +515,7 @@ Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude
 
 ---
 
-#### 58. Scarification ['Dest'!C60]
+#### 58. Scarification
 ***Latin :*** Scara (Coupure), ***Arcanique :*** Kascar (Ka + scar)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -524,7 +524,7 @@ Génère un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5
 
 ---
 
-#### 59. Fission ['Dest'!C61]
+#### 59. Fission
 ***Latin :*** Fissura (Fissure), ***Arcanique :*** Korfiss (Kor + fiss)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -533,7 +533,7 @@ Génère un effet qui oblige tous les objets porté par la cible à réaliser un
 
 ---
 
-#### 60. Condamnation ['Dest'!C62]
+#### 60. Condamnation
 ***Latin :*** Damno (Condamner), ***Arcanique :*** Krudamnat (Kru + damnat)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -542,7 +542,7 @@ Génère un effet qui marque la cible du sort, au prochain cycle si la cible à 
 
 ---
 
-#### 61. Exaction ['Dest'!C63]
+#### 61. Exaction
 ***Latin :*** Ago (Agir), ***Arcanique :*** Kinago (Kin + ago)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -551,7 +551,7 @@ Génère un effet qui fait perdre autant de ressources permanentes que de ressou
 
 ---
 
-#### 62. Conversion ['Dest'!C64]
+#### 62. Conversion
 ***Latin :*** Vert (Tourner), ***Arcanique :*** Kaverto (Ka + verto)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -560,7 +560,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant autant de dég
 
 ---
 
-#### 63. Corruption ['Dest'!C65]
+#### 63. Corruption
 ***Latin :*** Rumpo (Briser), ***Arcanique :*** Korrupt (Kor + rupt)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -569,7 +569,7 @@ Génère un effet infligeant une condition de rupture (DOT), la cible peux réal
 
 ---
 
-#### 64. Déincarnation ['Dest'!C66]
+#### 64. Déincarnation
 ***Latin :*** Caro (Chair), ***Arcanique :*** Krucarno (Kru + carno)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -578,7 +578,7 @@ Génère un effet qui brise l'âme d'un mort et détruit celle-ci, privant l'ind
 
 ---
 
-#### 65. Déflagration ['Dest'!C67]
+#### 65. Déflagration
 ***Latin :*** Flagrare (Brûler), ***Arcanique :*** Kraflagr (Kra + flagr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -587,7 +587,7 @@ Génère un effet qui provoque un test de solidité pour tous les consommables "
 
 ---
 
-#### 66. Extinction ['Dest'!C68]
+#### 66. Extinction
 ***Latin :*** Tingo (Éteindre), ***Arcanique :*** Katingo (Ka + tingo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 6, ***Drain :*** 6
@@ -596,7 +596,7 @@ Produit un effet qui met les PV et PS de la cible à 0, chaque perte est lié à
 
 ---
 
-#### 67. Démoralisation ['Dest'!C69]
+#### 67. Démoralisation
 ***Latin :*** Mos (Mœurs, caractère), ***Arcanique :*** Keldemos (Kel + demos)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -605,7 +605,7 @@ Génère un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Mag
 
 ---
 
-#### 68. Magnétisme ['Dest'!C70]
+#### 68. Magnétisme
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 4
@@ -614,7 +614,7 @@ Produit un effet d'attaque physique (armure) infligeant des dégats physique (PV
 
 ---
 
-#### 69. Stalagmite ['Dest'!C71]
+#### 69. Stalagmite
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -623,7 +623,7 @@ Génère un effet qui cible un lieu en hauteur constitué de pierre et le marque
 
 ---
 
-#### 70. Démarquage ['Dest'!C72]
+#### 70. Démarquage
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -632,7 +632,7 @@ Génère un effet qui permet au lanceur de sort de détruire au moins une marque
 
 ---
 
-#### 71. Ponction ['Dest'!C73]
+#### 71. Ponction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -641,7 +641,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 
 ---
 
-#### 72. Implaccable ['Dest'!C74]
+#### 72. Implaccable
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -650,7 +650,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 
 ---
 
-#### 73. Rétribution ['Dest'!C75]
+#### 73. Rétribution
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -659,7 +659,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 
 ---
 
-#### 74. Conséquence ['Dest'!C76]
+#### 74. Conséquence
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2

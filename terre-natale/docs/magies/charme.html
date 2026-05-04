@@ -1,0 +1,456 @@
+<!DOCTYPE html><html><head>
+      <title>charme</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/lutie/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.24/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-details{margin:0;padding:0;border:none}.markdown-preview .md-toc summary.md-toc-link-wrapper{cursor:pointer;list-style-position:outside}.markdown-preview .md-toc summary.md-toc-link-wrapper::marker{font-size:.85em}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='0']{margin-left:12px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='1']{margin-left:28px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='2']{margin-left:44px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='3']{margin-left:60px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='4']{margin-left:76px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='5']{margin-left:80px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-details{margin:0;padding:0;border:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='0']{padding-left:0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='1']{padding-left:16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='2']{padding-left:32px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='3']{padding-left:48px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='4']{padding-left:64px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='5']{padding-left:80px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="sorts--charme">Sorts – Charme </h1>
+<blockquote>
+<p>44 sorts pour Charme</p>
+</blockquote>
+<h2 id="fracas-du-moral">Fracas du Moral </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Démoralisation ✸</span> (Mos (Mœurs, caractère) / Keldemos (Kel + demos)) : Génère un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> de perte au moral de la cible, la moitié de la perte qui n'a pas pu être infligée au moral passe sur l'endurance. <em><strong>Clé :</strong></em> ⚜️ Charme: Keldemosynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige une perte de moral (moitié reportée sur l'endurance).</p>
+<hr>
+<h2 id="echos-de-bravoure">Echos de Bravoure </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 18, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Restauration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Moralisation ⌖</span> (Moralis (Moral) / Remoral (Re + moral)) : Génère un effet qui restaure <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de moral à la cible, le soin de moral est dispensé des règles des soins naturels et de la fatigue. <em><strong>Clé :</strong></em> ⚜️ Charme: Rengenynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Restaure des points de moral à la cible en zone large.</p>
+<hr>
+<h2 id="divine-comédie">Divine Comédie </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Perfectionnement ✧</span> (Perficere (Achever) / Lempfect (Lem + pfect)) : Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Lempfectynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente la compétence Art.</p>
+<p><em><strong>Notes :</strong></em> La compétence affectée est Art.</p>
+<hr>
+<h2 id="masque-du-rhétoricien">Masque du Rhétoricien </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Perfectionnement ✧</span> (Perficere (Achever) / Lempfect (Lem + pfect)) : Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Lempfectynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente la compétence Persuasion.</p>
+<p><em><strong>Notes :</strong></em> La compétence affectée est Persuasion.</p>
+<hr>
+<h2 id="masque-du-manipulateur">Masque du Manipulateur </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Perfectionnement ✧</span> (Perficere (Achever) / Lempfect (Lem + pfect)) : Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Lempfectynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente la compétence Manipulation.</p>
+<p><em><strong>Notes :</strong></em> La compétence affectée est Manipulation.</p>
+<hr>
+<h2 id="masque-du-quidam">Masque du Quidam </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Inapparition ✧</span> (Apareo (Apparaître) / Lirapare (Lir + apare)) : Génère un enchantement positif qui rend la cible moins marquante, les autres sont prompt à l'ignorer dans la masse ou même dans un environnement chargé, octroyant un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> aux tests visant à échapper à l'attention des autres, voir à la menace. <em><strong>Clé :</strong></em> ⚜️ Charme: Lirapare ynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Rend la cible moins marquante et plus facile à ignorer.</p>
+<hr>
+<h2 id="sérénité-eternelle">Sérénité Eternelle </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Apaisement ✧</span> (Paco (Pacifier) / Lirpaco (Lir + paco)) : Génère un enchantement positif qui protège la cible des émotions négatives, offre un bonus pour y résister de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Lirpacoynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Protège la cible des émotions négatives.</p>
+<hr>
+<h2 id="eclat-de-la-peur">Eclat de la Peur </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Peur ⧖</span> (Paveo (Avoir peur) / Mugpaveo (Mug + paveo)) : Génère un enchantement qui induit une peur magique, lorsque l'enchantement est lancé l'objet de la peur doit être définit clairement, la cible a une chance sur 8-<span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> (utilisez un d8) d'être pétrifiée de peur lorsqu'elle doit réaliser une action ou subir une action de l'objet de sa peur, lorsqu'elle est pétrifiée de peur son action est perdue ou elle ne peux se défendre de l'action qui viens. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit une peur magique (pétrification possible).</p>
+<hr>
+<h2 id="eclat-de-la-terreur">Eclat de la Terreur </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Terreur ⧖</span> (Terreo (Terrifier) / Mugterreo (Mug + terreo)) : Génère un enchantement qui induit une Terreur magique, la cible a une chance est obligée d'utiliser sa première action du round pour se déplacer aussi loin que possible de l'objet de sa Terreur, chaque fois que cela surviens l'enchantement subit une double décharge. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit une terreur magique (fuite forcée).</p>
+<hr>
+<h2 id="eclat-des-regrets">Eclat des Regrets </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Regret ⧖</span> (Paeniteo (Regretter) / Mugpaeni (Mug + paeni)) : Génère un enchantement qui induit un regret magique, la cible subit une perte de PS équivalant à 1/3 des dégats (tous types confondus) qu'elle inflige aux autres, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit un regret magique (perte de PS sur les dégâts infligés).</p>
+<hr>
+<h2 id="eclat-de-lamitié">Eclat de l'Amitié </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Charme ⧖</span> (Fascino (Charmer) / Mugfascin (Mug + fascin)) : Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles "alliées" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit un charme magique (considère la cible comme alliée).</p>
+<hr>
+<h2 id="eclat-de-lamour">Eclat de l'Amour </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Charme Protecteur ⧖</span> (Alligo (Lier d'amitié) / Mugallig (Mug + allig)) : Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, voir même mieux elle cherchera à le défendre ou à le soutenir activement (même si c'est contre ses propres réels alliés), si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles "alliées" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit un charme protecteur (défend activement l'allié).</p>
+<hr>
+<h2 id="eclat-de-la-passion">Eclat de la Passion </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Charme Fanatique ⧖</span> (Servitium (Servitude) / Mugservit (Mug + servit)) : Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, il ira jusqu'à attaquer les adversaires qui s'opposent ou menacent la cible en question (il ne voit plus ses réels alliés comme des alliés), si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles "alliées" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit un charme fanatique (attaque pour l'allié).</p>
+<hr>
+<h2 id="eclat-de-la-rage">Eclat de la Rage </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Rage ⧖</span> (Furor (Fureur) / Mugfuror (Mug + furor)) : Génère un enchantement qui induit une rage magique, sachant que cet enchantement ne peux être maintenu et dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charges, la cible ne pense plus et s'attaque (avec les moyens les plus sévères) à la cible la plus proche d'elle (elle exclus), cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort. <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Induit une rage magique (attaque la cible la plus proche).</p>
+<hr>
+<h2 id="souffle-de-fascination">Souffle de Fascination </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Fascination ⧖</span> (Fascinum (Charme) / Malfasci (Mal + fasci)) : Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets. <em><strong>Clé :</strong></em> ⚜️ Charme: Malfasciynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Octroie un bonus d'apparence pour fasciner une cible.</p>
+<hr>
+<h2 id="souffle-de-méfiance">Souffle de Méfiance </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Dépréciation ⧖</span> (Pretium (Prix, valeur) / Morpret (Mor + pret)) : Génère un enchantement négatif qui octroie à une cible A un malus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible A peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets. <em><strong>Clé :</strong></em> ⚜️ Charme: Morpretynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Octroie un malus d'apparence pour susciter la méfiance.</p>
+<hr>
+<h2 id="fruit-de-la-tentation">Fruit de la Tentation </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Tentation ⧖</span> (Tempto (Tenter) / Mugtemp (Mug + temp)) : Génère un enchantement négatif qui persuade la cible que le lanceur de sort dispose de l'objet de ses désirs et qu'il est prêt à le lui accorder, l'objet en question peux se mesurer sous la forme <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (en terme de qualité), évidemment si la puissance du sort n'est pas suffisante la cible peux très bien estimer que l'objet qu'il pense en possession du lanceur du sort n'est pas suffisant, mais il considérera quand même sa présence dans la balance pour de futurs négociations. <em><strong>Clé :</strong></em> ⚜️ Charme: Mugtempynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Persuade la cible que le lanceur possède l'objet de ses désirs.</p>
+<hr>
+<h2 id="souffle-de-crédulité">Souffle de Crédulité </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Suggestion ✸</span> (Gero (Porter) / Krusuger (Kru + suger)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le jet est assuré (minimum des dés 4) et majoré (+1 par dés). <em><strong>Clé :</strong></em> ⚜️ Charme: Munsubgerynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige des dégâts mentaux temporaires assurés et majorés.</p>
+<hr>
+<h2 id="eclat-de-haine">Eclat de Haine </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Provocation ⧖</span> (Voco (Appeler) / Munvoco (Mun + voco)) : Génère un enchantement négatif qui force la cible à s'en prendre en priorité à une autre cible au choix du lanceur de sort (ce peut être lui même), la seconde cible peux être à portée de vue, à chaque fois qu'elle souhaite contrevenir à cet la cible peux réaliser un test de sauvegarde (vs détermination) pour tenter d'échapper à la contrainte, elle n'a pas conscience d'être ainsi manipulée sauf si elle réussit à se dégager de la contrainte et réussit à un test de concentration, la cible peux être contrainte pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> actions si la cible n'est pas une cible naturelle pour elle (il s'agit d'un allié ou autre). <em><strong>Clé :</strong></em> ⚜️ Charme: Munvocoynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Force la cible à s'en prendre en priorité à une autre cible.</p>
+<hr>
+<h2 id="eclat-de-coercition">Eclat de Coercition </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Coercition ⧖</span> (??? / ???) : Génère un enchantement négatif qui force la cible à ignorer une autre cible au choix du lanceur de sort (ce peut être lui même), la seconde cible peux être à portée de vue, à chaque fois qu'elle souhaite contrevenir à cet la cible peux réaliser un test de sauvegarde (vs détermination) pour tenter d'échapper à la contrainte, elle n'a pas conscience d'être ainsi manipulée sauf si elle réussit à se dégager de la contrainte et réussit à un test de concentration, la cible peux être contrainte pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> actions si la cible n'est pas une cible naturelle pour elle (il s'agit d'un allié ou autre). <em><strong>Clé :</strong></em> ⚜️ Charme: Maltimoynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Force la cible à ignorer une autre cible.</p>
+<hr>
+<h2 id="eclat-dadoration">Eclat d'Adoration </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Adoration ✧</span> (Oro (Prier) / Liroro (Lir + oro)) : Génère un enchantement positif qui se décharge de 1 pour chaque dégats que devrait subir la cible et qui devrait lui faire baisser les PV ou PS en deça de 0, ne fonctionne que si un allié est à proximité. <em><strong>Clé :</strong></em> ⚜️ Charme: Mororo ynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Absorbe les dégâts fatals si un allié est à proximité.</p>
+<hr>
+<h2 id="fourche-langue">Fourche Langue </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Duperie ⧖</span> (Fraus (Fraude) / Malfrau (Mal + frau)) : Produit un enchantement négatif qui force la cible à dire la vérité ou à mentir (au choix au lancement du sort), la cible ou ceux qui l'écoute doivent réussir un test d'intuition pour se rendre compte que quelque chose ne va pas avec les propos en question puis réussir un test de compétence pour comprendre que quelque chose altère les propos (voir en comprendre le sens réel sur un critique). <em><strong>Clé :</strong></em> ⚜️ Charme: Malfrauynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Force la cible à dire la vérité ou à mentir.</p>
+<p><em><strong>Notes :</strong></em> Au lancement du sort le lanceur de sort choisit entre vérité et mensonge.</p>
+<hr>
+<h2 id="grande-fascination">Grande Fascination </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 18, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Fascination ⧖</span> (Fascinum (Charme) / Malfasci (Mal + fasci)) : Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets. <em><strong>Clé :</strong></em> ⚜️ Charme: Malfasciynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Octroie un bonus d'apparence de fascination en zone large.</p>
+<hr>
+<h2 id="eclat-de-suspicion">Eclat de Suspicion </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Distraction ⧖</span> (Traho (Tirer) / Mugdistra (Mug + distra)) : Génère un enchantement négatif qui rend la cible plus marquante, les autres sont prompt à s'interroger sur sa présence quel que soit l'environnement (chargé ou pas), octroyant un malus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> aux tests visant à échapper à l'attention des autres, voir à la menace. <em><strong>Clé :</strong></em> ⚜️ Charme: Mugdistraynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Rend la cible plus marquante et suspecte.</p>
+<hr>
+<h2 id="grande-défaite">Grande Défaite </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 18, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Abdication ⧖</span> (Dico (Dire) / Malabdi (Mal + abdi)) : Génère un enchantement négatif qui résigne la cible à ne plus intervenir dans une confrontation, elle ne se laisse pas faire mais ne s'implique plus non plus, cet effet s'applique si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> d'endurance et des pénalités de lésions cumulées supérieurs à 8 - <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Malabdiy nh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Force la cible à se retirer d'une confrontation en zone large.</p>
+<hr>
+<h2 id="hésitation">Hésitation </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Annulation ⛊</span> (Casso (Détruire, annuler) / Belcasso (Bel + casso)) : Génère un effet qui annule l'action à venir de la cible cette dernière a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> en endurance actuelle, un test de sauvegarde de détermination peux permettre de réduire les effets, l'action entreprise est perdue si annulée. <em><strong>Clé :</strong></em> ⚜️ Charme: Belcassoynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Annule l'action à venir de la cible si elle est faible en endurance.</p>
+<hr>
+<h2 id="effet-papillon">Effet Papillon </h2>
+<p><em><strong>Difficulté :</strong></em> 14, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Rétroaction ⛊</span> (Ago (Agir) / Basago (Bas + ago)) : Génère un effet qui retourne l'action à venir de la cible contre elle même à moins qu'elle ne dispose de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> en endurance actuelle, un test de sauvegarde de détermination peux permettre de réduire les effets. <em><strong>Clé :</strong></em> ⚜️ Charme: Basagoynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Retourne l'action à venir de la cible contre elle-même.</p>
+<hr>
+<h2 id="doute">Doute </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Dissuasion ✧</span> (Suadeo (Conseiller) / Lemsuad (Lem + suad)) : Génère un enchantement positif qui impose une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> aux actions visant à agresser la cible (attaque ou tactique, mais pas uniquement, c'est au MD de trancher si une action constitue une agression ou non), une action qui touche la cible est affectée même si elle ne vise pas directement celle ci, si la cible entreprend une action d'agression l'enchantement se dissipe sur le champs. <em><strong>Clé :</strong></em> ⚜️ Charme: Barviasynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Impose une pénalité aux actions d'agression envers la cible.</p>
+<hr>
+<h2 id="voir-les-emotions">Voir les Emotions </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir (Senseur), <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Divination<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Empathisation ⊙</span> (Pathos (Sentiment) / Darpath (Dar + path)) : Génère un effet de perception des émotions (voir règle sur les "senseurs"), révèle ainsi les sentiments dominants des êtres proches (colère, peur, amour, haine…). Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Darpathynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet de percevoir les émotions dominantes des êtres proches.</p>
+<hr>
+<h2 id="paroles-de-persuasion">Paroles de Persuasion </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Invocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation ✪</span> (Appareo (Apparaître) / Vasapar (Vas + apar)) : Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Enmaniynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Invoque une manifestation de type Charme.</p>
+<hr>
+<h2 id="paroles-de-manipulation">Paroles de Manipulation </h2>
+<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Invocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation ✪</span> (Appareo (Apparaître) / Vasapar (Vas + apar)) : Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. <em><strong>Clé :</strong></em> ⚜️ Charme: Enmaniynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Invoque une manifestation de type Charme.</p>
+<hr>
+<h2 id="vague-de-manipulation">Vague de Manipulation </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Fascination ⧖</span> (Fascinum (Charme) / Malfasci (Mal + fasci)) : Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets. <em><strong>Clé :</strong></em> ⚜️ Charme: Erufasciynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Octroie un bonus d'apparence de fascination.</p>
+<hr>
+<h2 id="suggestion">Suggestion </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Suggestion ✸</span> (Gero (Porter) / Krusuger (Kru + suger)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le jet est assuré (minimum des dés 4) et majoré (+1 par dés). <em><strong>Clé :</strong></em> ⚜️ Charme: Ensubgerynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige des dégâts mentaux temporaires assurés et majorés.</p>
+<hr>
+<h2 id="hypnose-soudaine">Hypnose Soudaine </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Subordination ⧉</span> (Ordo (Ordre) / Evsubor (Ev + subor)) : Génère un effet qui force la cible à réaliser une action sur-le-champs, cela ne lui cout pas d'actions ou d'initiative, il choisit la cible de l'action le cas échéant et les modalités si c'est pertinent (attaque la cible à ta droite, par exemple), la cible peux réaliser un test de détermination pour réduire la puissance du sort, la magnitude du sort permet de déterminer le type d'action qui peux être ainsi réalisées : Action Simple 15, Complexe 30, Libre 10, Rapide 15. Si la cible est un allié et qu'elle accepte l'action, elle reçoit un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> d'ajustement. Le sort peux être lancé en interruption mais avec une difficulté augmenté de 2, par example dans le cas où le mage souhaite qu'un autre le défende d'une action, etc... <em><strong>Clé :</strong></em> ⚜️ Charme: Evsuborynh</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Force la cible à réaliser immédiatement une action spécifique.</p>
+<hr>
+<h2 id="mot-de-rage">Mot de Rage </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Rage.</p>
+<p><em><strong>Notes :</strong></em> Condition : Rage.</p>
+<hr>
+<h2 id="mot-de-surprise">Mot de Surprise </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Surprise.</p>
+<p><em><strong>Notes :</strong></em> Condition : Surprise.</p>
+<hr>
+<h2 id="mot-de-tristesse">Mot de Tristesse </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Tristesse.</p>
+<p><em><strong>Notes :</strong></em> Condition : Tristesse.</p>
+<hr>
+<h2 id="mot-de-panique">Mot de Panique </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Panique.</p>
+<p><em><strong>Notes :</strong></em> Condition : Panique.</p>
+<hr>
+<h2 id="mot-de-mélancolie">Mot de Mélancolie </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Mélancolie.</p>
+<p><em><strong>Notes :</strong></em> Condition : Mélancolie.</p>
+<hr>
+<h2 id="mot-de-charme">Mot de Charme </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Charme.</p>
+<p><em><strong>Notes :</strong></em> Condition : Charme.</p>
+<hr>
+<h2 id="mots-deuphorie">Mots d'Euphorie </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Stocke un effet qui se déclenche sous condition d'Euphorie.</p>
+<p><em><strong>Notes :</strong></em> Condition : Euphorie.</p>
+<hr>
+<h2 id="mots-de-fureur">Mots de Fureur </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Stocke un effet qui se déclenche sous condition de Fureur.</p>
+<p><em><strong>Notes :</strong></em> Condition : Fureur.</p>
+<hr>
+<h2 id="mots-de-cérénité">Mots de Cérénité </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Stocke un effet qui se déclenche sous condition de Sérénité.</p>
+<p><em><strong>Notes :</strong></em> Condition : Cérénité.</p>
+<hr>
+<h2 id="mots-de-joie">Mots de Joie </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> ⚜, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> ⚜️ Charme</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Stocke un effet qui se déclenche sous condition de Joie.</p>
+<p><em><strong>Notes :</strong></em> Condition : Joie.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

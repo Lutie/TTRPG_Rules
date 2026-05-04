@@ -1132,8 +1132,8 @@
     "id": 23,
     "title": "Croissance Physique",
     "group": "Bénédiction",
-    "difficulty": "12",
-    "drain": "12",
+    "difficulty": "14",
+    "drain": "14",
     "spell_type": "Pouvoir",
     "schools": [
       "École de Bénédiction"
@@ -1164,9 +1164,9 @@
         "role": "power_single",
         "name": "Élévation ✧",
         "word_type": "Pouvoir",
-        "difficulty": "2",
-        "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (au choix au lancement du sort selon la [clé]) de [Magnitude/5].",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Génère un enchantement positif qui augmente un attribut (au choix au lancement du sort selon la [clé]) de [Magnitude/6].",
         "latin": "Levo (Soulever)",
         "arcane": "Luxlevo (Lux + levo)",
         "school_code": "Béné",
@@ -1179,8 +1179,8 @@
     "id": 24,
     "title": "Croissance Mentale",
     "group": "Bénédiction",
-    "difficulty": "12",
-    "drain": "12",
+    "difficulty": "14",
+    "drain": "14",
     "spell_type": "Pouvoir",
     "schools": [
       "École de Bénédiction"
@@ -1211,9 +1211,9 @@
         "role": "power_single",
         "name": "Élévation ✧",
         "word_type": "Pouvoir",
-        "difficulty": "2",
-        "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (au choix au lancement du sort selon la [clé]) de [Magnitude/5].",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Génère un enchantement positif qui augmente un attribut (au choix au lancement du sort selon la [clé]) de [Magnitude/6].",
         "latin": "Levo (Soulever)",
         "arcane": "Luxlevo (Lux + levo)",
         "school_code": "Béné",
@@ -3491,7 +3491,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "4",
-        "description": "Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la [clé] : La dégats sont entièrement élémentaire, le personnage a l'expertise et la science de l'arme en question, la catégorie et la forme de l'arme est au choix mais au mieux de [Magnitude/5] (les contraintes liés à la catégorie, dont le charge, subsistent), l'arme offre un bonus de qualité de [Magnitude/5] mais sa qualité réelle est de [Magnitude/10].",
+        "description": "Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Spécifique aux armes conjourées : Les dégats sont entièrement de l'élément associé à la clé, toucher la cible requière de passer la défense associée à l'élément ET à la forme de l'arme. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Arma (Arme)",
         "arcane": "Cararma (Car + arma)",
         "school_code": "Conj",
@@ -3538,12 +3538,12 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Conjure un outils sous la forme d'un enchantement (neutre), le personnage a l'expertise et la science de l'outils en question, la catégorie et la forme de l'outils est au choix mais au mieux de [Magnitude/5] (entrainement nécessaire).",
+        "description": "Conjure un outil sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Les outils d'arcanes ne permettent que de travailler la magie, là où les outils d'acier permettent de générer les autres types d'outils (pour les activités dites vulguaires). Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Instrumentum (Outil)",
         "arcane": "Ceninstr (Cen + instr)",
         "school_code": "Conj",
         "school_label": "École de Conjuration",
-        "key": "✡️ Arcane: Ceninstrys"
+        "key": "✡️ Arcane: Ceninstrys, ⚔️ Acier: Coninstran"
       }
     ]
   },
@@ -3961,7 +3961,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "L'effet du sort génère une crevasse sur un sol de pierre, la largeur x longueur x profondeur doit être inférieure à [Magnitude], aucun de ces paramètres ne peux pas être dépasser [Magnitude/4], une cible peux réaliser un test de réflexe afin de réduire la distance de chute (en cas de réussite critique elle n'est simplement pas tombée et reste au bord), si la cible tombe elle doit réussir un test d'acrobatie ou escalade pour remonter.",
+        "description": "L'effet du sort génère une crevasse sur un sol de terre ou de pierre, la largeur x longueur x profondeur doit être inférieure à [Magnitude], aucun de ces paramètres ne peux pas dépasser [Magnitude/4], si une créature se trouve là où la crevasse a lieu elle peux réaliser un test de réflexe, en cas de réussite critique elle échappe à la chute en se déplaçant vers le bord de son choix, en cas de réussite elle glisse sur le bord de la crevasse à mi hauteur, en cas d'échec elle se retrouve au fond de la crevasse, en cas d'échec critique elle se retrouve au fond de la crevasse et subit les dégats de chute (elle a le droit à son test d'acrobatie pour réduire les dégats de celle ci), une cible dans la crevasse doit réussir un test d'acrobatie (si parois étroites) ou escalade pour remonter (difficulté basé sur la difficulté des effets du sort, voir règle idoines), cet effet fonctionne sur les autres sols mais avec une magnitude divisée par 2.",
         "latin": "Findo (Fendre)",
         "arcane": "Aenfind (Aen + find)",
         "school_code": "Alté",
@@ -4808,7 +4808,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un effet qui permet de stocker ou récupérer dans un espace interdimentionnel (voir enchantements) un ou plusieurs objets pour un total d'encombrement de [Magnitude/5].",
+        "description": "Génère un effet qui permet de stocker ou récupérer dans l'espace interdimentionnel personel (chaque personne en dispose d'un unique) un objet, l'objet est limité à un encombrement de [Magnitude/5], l'objet est catalogué juqu'à ou récupéré depuis l'index de référencement maximum [Magnitude/2], par exemple un objet d'encombrement 3 peux occuper l'espace de 16 à 18, il faudra alors une magnitude de 36 pour le récupérer ensuite, si l'objet a stocké est lié à un individu (équipé, porté, etc) alors ce dernier peux réaliser un test d'opposition et une réussite annule l'effet (test normal si l'objet est ni équipé, ni porté; test avantage si porté; test doublement avantagé si équipé).",
         "latin": "Capto (Saisir)",
         "arcane": "Encap (En + cap)",
         "school_code": "Evoc",
@@ -4902,7 +4902,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "4",
-        "description": "Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la [clé] : Elle profite d'une absorption à son élément et aux éléments opposés de [Magnitude/3], le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de [Magnitude/5] (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de [Magnitude/5] mais sa qualité réelle est de [Magnitude/10].",
+        "description": "Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Loric (Cuirasse)",
         "arcane": "Conloric (Con + loric)",
         "school_code": "Conj",
@@ -6006,7 +6006,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "4",
-        "description": "Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la [clé] : Elle profite d'une absorption à son élément et aux éléments opposés de [Magnitude/3], le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de [Magnitude/5] (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de [Magnitude/5] mais sa qualité réelle est de [Magnitude/10].",
+        "description": "Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Loric (Cuirasse)",
         "arcane": "Conloric (Con + loric)",
         "school_code": "Conj",
@@ -7377,7 +7377,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "L'effet du sort génère une crevasse sur un sol de pierre, la largeur x longueur x profondeur doit être inférieure à [Magnitude], aucun de ces paramètres ne peux pas être dépasser [Magnitude/4], une cible peux réaliser un test de réflexe afin de réduire la distance de chute (en cas de réussite critique elle n'est simplement pas tombée et reste au bord), si la cible tombe elle doit réussir un test d'acrobatie ou escalade pour remonter.",
+        "description": "L'effet du sort génère une crevasse sur un sol de terre ou de pierre, la largeur x longueur x profondeur doit être inférieure à [Magnitude], aucun de ces paramètres ne peux pas dépasser [Magnitude/4], si une créature se trouve là où la crevasse a lieu elle peux réaliser un test de réflexe, en cas de réussite critique elle échappe à la chute en se déplaçant vers le bord de son choix, en cas de réussite elle glisse sur le bord de la crevasse à mi hauteur, en cas d'échec elle se retrouve au fond de la crevasse, en cas d'échec critique elle se retrouve au fond de la crevasse et subit les dégats de chute (elle a le droit à son test d'acrobatie pour réduire les dégats de celle ci), une cible dans la crevasse doit réussir un test d'acrobatie (si parois étroites) ou escalade pour remonter (difficulté basé sur la difficulté des effets du sort, voir règle idoines), cet effet fonctionne sur les autres sols mais avec une magnitude divisée par 2.",
         "latin": "Findo (Fendre)",
         "arcane": "Aenfind (Aen + find)",
         "school_code": "Alté",
@@ -7867,7 +7867,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "4",
-        "description": "Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la [clé] : Elle profite d'une absorption à son élément et aux éléments opposés de [Magnitude/3], le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de [Magnitude/5] (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de [Magnitude/5] mais sa qualité réelle est de [Magnitude/10].",
+        "description": "Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Loric (Cuirasse)",
         "arcane": "Conloric (Con + loric)",
         "school_code": "Conj",
@@ -9795,7 +9795,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
@@ -9992,7 +9992,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
@@ -11206,8 +11206,8 @@
         "difficulty": "2",
         "drain": "2",
         "description": "Génère un effet qui soigne [Magnitude/5] PV la cible pour chaque fois où le sang a été versé durant la scène et dans la zone, après quoi ces itérations ne peuvent plus compter pour des effets du genre, le gain de fatigue à ces soins est divisé par deux.",
-        "latin": "???",
-        "arcane": "???",
+        "latin": "Sanguis (Sang)",
+        "arcane": "Haemosang (Hae + mosang)",
         "school_code": "Rest",
         "school_label": "École de Restauration",
         "key": "🩸 Impie"
@@ -11865,8 +11865,8 @@
     "id": 268,
     "title": "Ponction Vitale",
     "group": "Impie",
-    "difficulty": "12",
-    "drain": "12",
+    "difficulty": "14",
+    "drain": "14",
     "spell_type": "Pouvoir",
     "schools": [
       "École de Destruction"
@@ -11905,6 +11905,14 @@
         "school_code": "Dest",
         "school_label": "École de Destruction",
         "key": "🩸 Impie"
+      },
+      {
+        "role": "liaison",
+        "name": "Interruption",
+        "word_type": "Liaison",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Le sort peux être lancé en interruption, mais requière malgré tout les actions simples habituels (et non une ACTR comme les sorts dont le mot de pouvoir est une interruption)."
       }
     ]
   },
@@ -12358,7 +12366,7 @@
   },
   {
     "id": 285,
-    "title": "Force de Taureau",
+    "title": "Mantra de Force",
     "group": "Corps",
     "difficulty": "10",
     "drain": "10",
@@ -12367,7 +12375,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🐗"
+      "⚕"
     ],
     "description": "",
     "notes": "Attribut : Force.",
@@ -12395,18 +12403,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🐗 Faune: Lemspeciaorh"
+        "key": "⚕️ Corps: Lemspeciaen"
       }
     ]
   },
   {
     "id": 286,
-    "title": "Constitution de l'Ours",
+    "title": "Mantra de Constitution",
     "group": "Corps",
     "difficulty": "10",
     "drain": "10",
@@ -12415,7 +12423,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🐗"
+      "⚕"
     ],
     "description": "",
     "notes": "Attribut : Constitution.",
@@ -12443,18 +12451,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🐗 Faune: Lemspeciaorh"
+        "key": "⚕️ Corps: Lemspeciaen"
       }
     ]
   },
   {
     "id": 287,
-    "title": "Dextérité du Loups",
+    "title": "Mantra de Perception",
     "group": "Corps",
     "difficulty": "10",
     "drain": "10",
@@ -12463,10 +12471,10 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🐗"
+      "⚕"
     ],
     "description": "",
-    "notes": "Attribut : Loups.",
+    "notes": "Attribut : Perception.",
     "words": [
       {
         "role": "diffusion",
@@ -12491,18 +12499,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🐗 Faune: Lemspeciaorh"
+        "key": "⚕️ Corps: Lemspeciaen"
       }
     ]
   },
   {
     "id": 288,
-    "title": "Agilité du Chat",
+    "title": "Mantra de Dextérité",
     "group": "Corps",
     "difficulty": "10",
     "drain": "10",
@@ -12511,7 +12519,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🐗"
+      "⚕"
     ],
     "description": "",
     "notes": "Attribut : Dextérité.",
@@ -12539,18 +12547,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🐗 Faune: Lemspeciaorh"
+        "key": "⚕️ Corps: Lemspeciaen"
       }
     ]
   },
   {
     "id": 289,
-    "title": "Perception de l'Aigle",
+    "title": "Mantra de Agilité",
     "group": "Corps",
     "difficulty": "10",
     "drain": "10",
@@ -12559,7 +12567,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🐗"
+      "⚕"
     ],
     "description": "",
     "notes": "Attribut : Agilité.",
@@ -12587,18 +12595,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🐗 Faune: Lemspeciaorh"
+        "key": "⚕️ Corps: Lemspeciaen"
       }
     ]
   },
   {
     "id": 290,
-    "title": "Charisme du Cerf",
+    "title": "Mantra de Charisme",
     "group": "Esprit",
     "difficulty": "10",
     "drain": "10",
@@ -12607,7 +12615,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🧩"
+      "🧠"
     ],
     "description": "",
     "notes": "Attribut : Charisme.",
@@ -12635,18 +12643,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🧩 Mental: Lemspeciaend"
+        "key": "🧠 Esprit: Lemspeciays"
       }
     ]
   },
   {
     "id": 291,
-    "title": "Volonté du Lion",
+    "title": "Mantra de Volonté",
     "group": "Esprit",
     "difficulty": "10",
     "drain": "10",
@@ -12655,7 +12663,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🧩"
+      "🧠"
     ],
     "description": "",
     "notes": "Attribut : Volonté.",
@@ -12683,18 +12691,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🧩 Mental: Lemspeciaend"
+        "key": "🧠 Esprit: Lemspeciays"
       }
     ]
   },
   {
     "id": 292,
-    "title": "Intelligence du Corbeau",
+    "title": "Mantra de Intelligence",
     "group": "Esprit",
     "difficulty": "10",
     "drain": "10",
@@ -12703,7 +12711,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🧩"
+      "🧠"
     ],
     "description": "",
     "notes": "Attribut : Intelligence.",
@@ -12731,18 +12739,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🧩 Mental: Lemspeciaend"
+        "key": "🧠 Esprit: Lemspeciays"
       }
     ]
   },
   {
     "id": 293,
-    "title": "Sagesse du Hibou",
+    "title": "Mantra de Sagesse",
     "group": "Esprit",
     "difficulty": "10",
     "drain": "10",
@@ -12751,7 +12759,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🧩"
+      "🧠"
     ],
     "description": "",
     "notes": "Attribut : Sagesse.",
@@ -12779,18 +12787,18 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🧩 Mental: Lemspeciaend"
+        "key": "🧠 Esprit: Lemspeciays"
       }
     ]
   },
   {
     "id": 294,
-    "title": "Ruse du Renard",
+    "title": "Mantra de Ruse",
     "group": "Esprit",
     "difficulty": "10",
     "drain": "10",
@@ -12799,7 +12807,7 @@
       "École de Bénédiction"
     ],
     "domains": [
-      "🧩"
+      "🧠"
     ],
     "description": "",
     "notes": "Attribut : Ruse.",
@@ -12827,12 +12835,12 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
         "school_label": "École de Bénédiction",
-        "key": "🧩 Mental: Lemspeciaend"
+        "key": "🧠 Esprit: Lemspeciays"
       }
     ]
   },
@@ -12885,6 +12893,451 @@
   },
   {
     "id": 296,
+    "title": "Force de Taureau",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Force.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "title": "Constitution de l'Ours",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Constitution.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "title": "Dextérité du Loups",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Perception.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "title": "Agilité du Chat",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Dextérité.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "title": "Perception de l'Aigle",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Agilité.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "title": "Charisme du Cerf",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Charisme.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "title": "Volonté du Lion",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Volonté.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "title": "Intelligence du Corbeau",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Intelligence.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "title": "Sagesse du Hibou",
+    "group": "Faune",
+    "difficulty": "10",
+    "drain": "10",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🐗"
+    ],
+    "description": "",
+    "notes": "Attribut : Sagesse.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Contact",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Portée : Mêlée, Vecteur : Touché, Cible soi possible.",
+        "magnitude_modifiers": "Défendable, Interceptible"
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Bestialisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4], si l'attribut est physique alors tous les attributs mentaux sont réduits de 4 et inversement.",
+        "latin": "Bestialis (Bestial)",
+        "arcane": "Lembestia (Lem + bestia)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🐗 Faune: Lembestiarh"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "title": "Ruse du Renard",
+    "group": "Faune",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "",
+    "schools": [],
+    "domains": [],
+    "description": "",
+    "notes": "Attribut : Ruse.",
+    "words": []
+  },
+  {
+    "id": 306,
     "title": "Métamorphose en Faucon",
     "group": "Faune",
     "difficulty": "8",
@@ -12897,7 +13350,7 @@
     "words": []
   },
   {
-    "id": 297,
+    "id": 307,
     "title": "Métamorphose en Rongeur",
     "group": "Faune",
     "difficulty": "8",
@@ -12910,7 +13363,7 @@
     "words": []
   },
   {
-    "id": 298,
+    "id": 308,
     "title": "Invocation d'Ours",
     "group": "Faune",
     "difficulty": "8",
@@ -12923,7 +13376,7 @@
     "words": []
   },
   {
-    "id": 299,
+    "id": 309,
     "title": "Invocation de Cerf",
     "group": "Faune",
     "difficulty": "8",
@@ -12936,7 +13389,7 @@
     "words": []
   },
   {
-    "id": 300,
+    "id": 310,
     "title": "Végétation Luxuriante",
     "group": "Flore",
     "difficulty": "8",
@@ -12949,7 +13402,7 @@
     "words": []
   },
   {
-    "id": 301,
+    "id": 311,
     "title": "Berceau de Gaïa",
     "group": "Flore",
     "difficulty": "8",
@@ -12962,7 +13415,7 @@
     "words": []
   },
   {
-    "id": 302,
+    "id": 312,
     "title": "Transcendance",
     "group": "Mental",
     "difficulty": "8",
@@ -12974,7 +13427,7 @@
     "domains": [
       "🧩"
     ],
-    "description": "",
+    "description": "Augmente tous les attributs de l'esprit au détriment des attributs du corps.",
     "notes": "",
     "words": [
       {
@@ -13009,46 +13462,853 @@
     ]
   },
   {
-    "id": 303,
+    "id": 313,
     "title": "Geyser Mental",
     "group": "Mental",
-    "difficulty": "8",
-    "drain": "8",
-    "spell_type": "",
-    "schools": [],
-    "domains": [],
-    "description": "",
-    "notes": "",
-    "words": []
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Augmente la génération et le maximum de ressources temporaires (rage, garde, adrénaline, PS).",
+    "notes": "Affecte les PS (spiritualité).",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Galvanisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente de moitié la génération de ressources temporaires tel que rage, garde et adrénaline, avec un maximum de [Magnitude/2], augmente également le maximum de ces ressources de [Magnitude/4].",
+        "latin": "Vibro (Agiter)",
+        "arcane": "Lirvibr (Lir + vibr)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🧩 Mental: Evvibroend"
+      }
+    ]
   },
   {
-    "id": 304,
+    "id": 314,
     "title": "Convulsion Cérébrale",
     "group": "Mental",
-    "difficulty": "8",
-    "drain": "8",
-    "spell_type": "",
-    "schools": [],
-    "domains": [],
-    "description": "",
-    "notes": "",
-    "words": []
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Inflige des dégâts mentaux directs via une attaque de résolution.",
+    "notes": "Attaque VS Volonté.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Profanation ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude] de dégats mentaux (PS) basés sur l'élément [clé].",
+        "latin": "Profano (Souiller)",
+        "arcane": "Kaprofan (Ka + profan)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "🧩 Mental: Kaprofanend"
+      }
+    ]
   },
   {
-    "id": 305,
+    "id": 315,
     "title": "Traumastisme",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Inflige un trauma mental de gravité variable.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Traumatisation ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet infligeant un trauma de gravité [Magnitude], la sauvegarde d'opposition modifie ce gain.",
+        "latin": "Vulnus (Blessure)",
+        "arcane": "Kavulnus (Ka + vulnus)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "🧩 Mental: Kavulnusend"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "title": "Trouble Mental",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Inflige des dégâts mentaux temporaires assurés et majorés.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Suggestion ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude] de dégats mentaux temporaires (PE puis PS) basés sur l'élément [clé], le jet est assuré (minimum des dés 4) et majoré (+1 par dés).",
+        "latin": "Gero (Porter)",
+        "arcane": "Krusuger (Kru + suger)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "🧩 Mental: Krusugerend"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "title": "Abysse Mémorielle",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Efface un souvenir ou élément précis de la mémoire de la cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Amnésiation ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui supprime de la mémoire d'une cible un élément (personne, scène, objet ou lieu), le sort a un potenciel de [Magnitude²], le temps auquel remonte la mémoire réduit d'autant le potenciel, chaque minutes nécessite 1 de potenciel, un test de détermination peux être effectué par la cible et si réussie le sort ne fonctionne pas.",
+        "latin": "Memoria (Mémoire)",
+        "arcane": "Kinmemo (Kin + memo)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "🧩 Mental: Kinmemoend"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "title": "Coma Mental",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Vide tous les PE de la cible faible et la met en état de choc.",
+    "notes": "La sauvegard est basée sur la détermination.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Exsanguination ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Si la cible a moins de [Magnitude] PE elle perd tous ses PE et est mise en état de choc, elle peux réaliser un test de robustesse ou détermination (selon clé).",
+        "latin": "Sanguis (Sang)",
+        "arcane": "Krasangui (Kra + sangui)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "🧩 Mental: Krasanguiend"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "title": "Tourments Psychiques",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Inflige une condition de rupture mentale (DOT).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Corruption ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet infligeant une condition de rupture (DOT), la cible peux réaliser un test de sauvegarde (qui dépend de la condition).",
+        "latin": "Rumpo (Briser)",
+        "arcane": "Korrupt (Kor + rupt)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "🧩 Mental: Korruptend"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "title": "Source Mentale",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Restauration"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Soigne des points de santé mentale (PS).",
+    "notes": "Le soin affecte les PS (spiritualité).",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Restauration ⌖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un soin de [Magnitude/2] visant une ressource qui dépends de la [clé], ce soin n'est pas dispensé des règles des soins naturels et de la fatigue (voir guérison dans les règles de base).",
+        "latin": "Instauro (Je rétablis)",
+        "arcane": "Restaura (Re + staura)",
+        "school_code": "Rest",
+        "school_label": "École de Restauration",
+        "key": "🧩 Mental: Restauraend"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "title": "Harmonie Mentale",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Restauration"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Soigne un trauma mental existant.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Harmonisation ⌖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un soin de [Magnitude/2] visant un trauma (lésion mentale), génère la moitié en fatigue.",
+        "latin": "Harmonia (Harmonie)",
+        "arcane": "Reharmo (Re + harmo)",
+        "school_code": "Rest",
+        "school_label": "École de Restauration",
+        "key": "🧩 Mental: Reharmoend"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "title": "Emerveillement",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Augmente tous les attributs de l'esprit au détriment des attributs du corps.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Spiritualisation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente tous les attributs de l'esprit de [Magnitude/7] mais réduit ceux du corps d'autant.",
+        "latin": "Spiritus (Souffle)",
+        "arcane": "Luspiri (Lu + spiri)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🧩 Mental: Luspiriend"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "title": "Armure Mentale",
     "group": "Mental",
     "difficulty": "8",
     "drain": "8",
-    "spell_type": "",
-    "schools": [],
-    "domains": [],
-    "description": "",
-    "notes": "",
-    "words": []
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Réduit de moitié les dégâts mentaux reçus.",
+    "notes": "Affecte les dégats mentaux.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Absorption ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui réduit de moitié les dégats d'un type (selon la [clé] utilisée) avec un maximum de [Magnitude/2].",
+        "latin": "Sorbeo (Boire)",
+        "arcane": "Lemsorb (Lem + sorb)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🧩 Mental: Lemsorbend"
+      }
+    ]
   },
   {
-    "id": 306,
+    "id": 324,
+    "title": "Lecture des Pensées Immédiates",
+    "group": "Mental",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Permet de lire les intentions et améliore la défense contre la cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Divination ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui permet de voir les intentions des autres, lorsque le personnage réalise un test contre une cible dont il peux lire les pensés cette dernière reçoit une pénalité à ses défenses passives de [Magnitude/7], du fait que le lanceur de sort est en mesure de savoir un peu à l'avance ce que la cible fera, de plus la défense du lanceur de sort est augmenté d'autant contre cette cible.",
+        "latin": "Divinus (Divin)",
+        "arcane": "Luvinus (Lu + vinus)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🧩 Mental: Luvinusend"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "title": "Bouclier Mental",
+    "group": "Mental",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Abjuration"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Crée une barrière mentale qui absorbe les jets mentaux.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Introspection ⛊",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement neutre de type barrière mentale pouvant absorber jusqu'à [Magnitude] (minoré) les jets (dégats, impacts, charges) mentaux (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles).",
+        "latin": "Intra (Dedans)",
+        "arcane": "Borintra (Bor + intra)",
+        "school_code": "Abju",
+        "school_label": "École d'Abjuration",
+        "key": "🧩 Mental: Borintraend"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "title": "Dissimulation des Pensés",
+    "group": "Mental",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Cache ses pensées et rend la cible moins perceptible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Occultation ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui rend la perception de la cible plus difficile pour les créatures d'une famille particulières selon la [clé] employée, la difficulté étant augmentée de [Magnitude/3].",
+        "latin": "Occulto (Cacher)",
+        "arcane": "Luccult (Lu + ccult)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🧩 Mental: Basoccultend"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "title": "Sonde des Pensés",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Divination"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Permet de lire les pensées de la cible à différents niveaux de profondeur.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Sondation ⊙",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet permettant au lanceur de lire les pensées de la cible, lesquelles se manifestent comme des phrases ou images mentales ; de base transparaissent les pensées de surface (murmures et impressions immédiates), avec une Magnitude d’au moins 10 apparaissent les pensées immédiates (intentions sur le point d’être dites ou faites, non secrètes, non dissimulées), 20 révèle les pensées profondes (secrets conscients et dissimulés), 30 les très profondes (croyances intimes, serments et schémas fondateurs), 40 les inconscientes (désirs latents, symboles oniriques, secrets inconscients et oubliés), et 50 ouvre l’accès à l’ensemble des pensées quel qu'elle soient ; le lanceur peut analyser (et obtenir plus d'informations) sur un maximum de [Magnitude/5] extraits lors d’un même usage.",
+        "latin": "Fundo (Fond)",
+        "arcane": "Difund (Di + fund)",
+        "school_code": "Divi",
+        "school_label": "École de Divination",
+        "key": "🧩 Mental: Difundend"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "title": "Télépathie",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Permet la télépathie avec une cible pour un nombre limité de mots.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Connexion ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui permet au lanceur de sort de s'entretenir avec une cible par télépathie, pour un maximum de [Magnitude] mots minus la distance entre les deux protagonistes.",
+        "latin": "Necto (Lier)",
+        "arcane": "Elonect (Elo + nect)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "🧩 Mental: Elonectend"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "title": "Création de Souvenirs",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Inflige une pénalité aux tests de sincérité de la cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Falsification ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui inflige une pénalité aux tests de sincérité de la cible de [Magnitude/3].",
+        "latin": "Fallo (Tromper)",
+        "arcane": "Malfallo (Mal + fallo)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "🧩 Mental: Evfallend"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "title": "Message Magique",
+    "group": "Mental",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Envoie un court message mental à une cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Retranscription ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un message envoyé à une cible à portée, le message est limité à [Magnitude/2] mots.",
+        "latin": "Scribo (Écrire)",
+        "arcane": "Erutran (Eru + tran)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "🧩 Mental: Erutranend"
+      }
+    ]
+  },
+  {
+    "id": 331,
     "title": "L'Esprit dépasse la Magie",
     "group": "Mental",
     "difficulty": "8",
@@ -13060,7 +14320,7 @@
     "domains": [
       "🧩"
     ],
-    "description": "",
+    "description": "Permet d'imaginer et lancer n'importe quel sort à la volée jusqu'à une limite de drain.",
     "notes": "",
     "words": [
       {
@@ -13095,7 +14355,2560 @@
     ]
   },
   {
-    "id": 307,
+    "id": 332,
+    "title": "Entraves Mentales",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Conjuration"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Empêche temporairement la cible d'effectuer un type d'action.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Entrave ⧗",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui permet au lanceur de sort de empêcher sa cible d'agir, pour le prix d'une action libre le lanceur du sort peux ainsi empêcher sa cible de réaliser une action d'un type choisit, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même), l'enchantement prend fin après que la cible s'est vue bannir d'un total de [Magnitude/3] actions.",
+        "latin": "Impedio (Empêcher)",
+        "arcane": "Cariped (Car + iped)",
+        "school_code": "Conj",
+        "school_label": "École de Conjuration",
+        "key": "🧩 Mental: Caripedyend"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "title": "Contrôle Magique",
+    "group": "Mental",
+    "difficulty": "14",
+    "drain": "14",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Conjuration"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Contrôle partiellement les actions de la cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Marionnettisation ⧗",
+        "word_type": "Pouvoir",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Génère un enchantement qui permet au lanceur de sort de contrôler partiellement les faits et geste d'une cible, pour le prix d'une action libre le lanceur du sort peux ainsi forcer sa cible à réaliser une action, dés que c'est à elle d'agir celle ci tentera de réaliser l'action en question en premier lieu, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même), l'enchantement prend fin après que la cible est réalisée ou refusée [Magnitude/4] actions forcées.",
+        "latin": "Pupus (Poupée)",
+        "arcane": "Conpupa (Con + pupa)",
+        "school_code": "Conj",
+        "school_label": "École de Conjuration",
+        "key": "🧩 Mental: Conpupaend"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "title": "Domination Totale",
+    "group": "Mental",
+    "difficulty": "12+X",
+    "drain": "12+X",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Augmente l'impact des actions tactiques de la cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Domination ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui augmente l'impact des actions tactique menées par la cible de [Magnitude/6].",
+        "latin": "Dominus (Maître)",
+        "arcane": "Lirdomin (Lir + domin)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "🧩 Mental: Cendominend"
+      },
+      {
+        "role": "avance",
+        "name": "Supérieur",
+        "word_type": "Avancé",
+        "difficulty": "X",
+        "drain": "X",
+        "description": "Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1."
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "title": "Grain de Folie",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Applique une condition de Folie.",
+    "notes": "Condition : Folie.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "🧩 Mental"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "title": "Eclat de Furie",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Applique une condition de Furie.",
+    "notes": "Condition : Furie.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "🧩 Mental"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "title": "Confusion Mentale",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Applique une condition de Confusion.",
+    "notes": "Condition : Confusion.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "🧩 Mental"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "title": "Voile de Morphée",
+    "group": "Mental",
+    "difficulty": "16",
+    "drain": "18",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Applique une condition de Sommeil en zone large.",
+    "notes": "Condition : Sommeil.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Zone",
+        "word_type": "Forme",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Touche une cible et 3 cases à proximité (AOE 7)."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "🧩 Mental"
+      },
+      {
+        "role": "liaison",
+        "name": "Large",
+        "word_type": "Liaison",
+        "difficulty": "0",
+        "drain": "2",
+        "description": "La zone de propagation du sort est doublée."
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "title": "Don d'Excelsior",
+    "group": "Mental",
+    "difficulty": "14+X",
+    "drain": "14+X",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "🧩",
+      "🧩"
+    ],
+    "description": "Permet de stocker deux effets conditionnels (Assurance & Excellence).",
+    "notes": "Conditions : Assurance & Excellence.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_main",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "🧩 Mental"
+      },
+      {
+        "role": "power2",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "🧩 Mental"
+      },
+      {
+        "role": "avance",
+        "name": "Duo",
+        "word_type": "Avancé",
+        "difficulty": "X",
+        "drain": "X",
+        "description": "Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés."
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "title": "Omniscience",
+    "group": "Mental",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "🧩"
+    ],
+    "description": "Stocke un effet qui se déclenche sous une condition précise (Omniscience).",
+    "notes": "Condition : Omniscience.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "🧩 Mental"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "title": "Fracas du Moral",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Inflige une perte de moral (moitié reportée sur l'endurance).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Démoralisation ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet infligeant [Magnitude/2] de perte au moral de la cible, la moitié de la perte qui n'a pas pu être infligée au moral passe sur l'endurance.",
+        "latin": "Mos (Mœurs, caractère)",
+        "arcane": "Keldemos (Kel + demos)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "⚜️ Charme: Keldemosynh"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "title": "Echos de Bravoure",
+    "group": "Charme",
+    "difficulty": "16",
+    "drain": "18",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Restauration"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Restaure des points de moral à la cible en zone large.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Zone",
+        "word_type": "Forme",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Touche une cible et 3 cases à proximité (AOE 7)."
+      },
+      {
+        "role": "power_single",
+        "name": "Moralisation ⌖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui restaure [Magnitude] points de moral à la cible, le soin de moral est dispensé des règles des soins naturels et de la fatigue.",
+        "latin": "Moralis (Moral)",
+        "arcane": "Remoral (Re + moral)",
+        "school_code": "Rest",
+        "school_label": "École de Restauration",
+        "key": "⚜️ Charme: Rengenynh"
+      },
+      {
+        "role": "liaison",
+        "name": "Large",
+        "word_type": "Liaison",
+        "difficulty": "0",
+        "drain": "2",
+        "description": "La zone de propagation du sort est doublée."
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "title": "Divine Comédie",
+    "group": "Charme",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Augmente la compétence Art.",
+    "notes": "La compétence affectée est Art.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Perfectionnement ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la [clé]) de [Magnitude/7].",
+        "latin": "Perficere (Achever)",
+        "arcane": "Lempfect (Lem + pfect)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Lempfectynh"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "title": "Masque du Rhétoricien",
+    "group": "Charme",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Augmente la compétence Persuasion.",
+    "notes": "La compétence affectée est Persuasion.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Perfectionnement ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la [clé]) de [Magnitude/7].",
+        "latin": "Perficere (Achever)",
+        "arcane": "Lempfect (Lem + pfect)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Lempfectynh"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "title": "Masque du Manipulateur",
+    "group": "Charme",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Augmente la compétence Manipulation.",
+    "notes": "La compétence affectée est Manipulation.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Perfectionnement ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la [clé]) de [Magnitude/7].",
+        "latin": "Perficere (Achever)",
+        "arcane": "Lempfect (Lem + pfect)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Lempfectynh"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "title": "Masque du Quidam",
+    "group": "Charme",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Rend la cible moins marquante et plus facile à ignorer.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Inapparition ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui rend la cible moins marquante, les autres sont prompt à l'ignorer dans la masse ou même dans un environnement chargé, octroyant un bonus de [Magnitude/4] aux tests visant à échapper à l'attention des autres, voir à la menace.",
+        "latin": "Apareo (Apparaître)",
+        "arcane": "Lirapare (Lir + apare)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Lirapare ynh"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "title": "Sérénité Eternelle",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Protège la cible des émotions négatives.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Apaisement ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui protège la cible des émotions négatives, offre un bonus pour y résister de [Magnitude/3].",
+        "latin": "Paco (Pacifier)",
+        "arcane": "Lirpaco (Lir + paco)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Lirpacoynh"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "title": "Eclat de la Peur",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit une peur magique (pétrification possible).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Peur ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit une peur magique, lorsque l'enchantement est lancé l'objet de la peur doit être définit clairement, la cible a une chance sur 8-[Magnitude/10] (utilisez un d8) d'être pétrifiée de peur lorsqu'elle doit réaliser une action ou subir une action de l'objet de sa peur, lorsqu'elle est pétrifiée de peur son action est perdue ou elle ne peux se défendre de l'action qui viens.",
+        "latin": "Paveo (Avoir peur)",
+        "arcane": "Mugpaveo (Mug + paveo)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "title": "Eclat de la Terreur",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit une terreur magique (fuite forcée).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Terreur ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit une Terreur magique, la cible a une chance est obligée d'utiliser sa première action du round pour se déplacer aussi loin que possible de l'objet de sa Terreur, chaque fois que cela surviens l'enchantement subit une double décharge.",
+        "latin": "Terreo (Terrifier)",
+        "arcane": "Mugterreo (Mug + terreo)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "title": "Eclat des Regrets",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit un regret magique (perte de PS sur les dégâts infligés).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Regret ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit un regret magique, la cible subit une perte de PS équivalant à 1/3 des dégats (tous types confondus) qu'elle inflige aux autres, maximum [Magnitude/5].",
+        "latin": "Paeniteo (Regretter)",
+        "arcane": "Mugpaeni (Mug + paeni)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "title": "Eclat de l'Amitié",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit un charme magique (considère la cible comme alliée).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Charme ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de [Magnitude] charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles \"alliées\" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.",
+        "latin": "Fascino (Charmer)",
+        "arcane": "Mugfascin (Mug + fascin)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "title": "Eclat de l'Amour",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit un charme protecteur (défend activement l'allié).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Charme Protecteur ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de [Magnitude/2] charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, voir même mieux elle cherchera à le défendre ou à le soutenir activement (même si c'est contre ses propres réels alliés), si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles \"alliées\" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.",
+        "latin": "Alligo (Lier d'amitié)",
+        "arcane": "Mugallig (Mug + allig)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "title": "Eclat de la Passion",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit un charme fanatique (attaque pour l'allié).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Charme Fanatique ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit un charme magique, sachant que cet enchantement ne peux être maintenu et dispose de [Magnitude/3] charges, la cible pense qu'une autre cible (toutes deux à portée, le lanceur de sort pouvant être cette cible) est un allié et ne souhaite plus lui faire du tord, il ira jusqu'à attaquer les adversaires qui s'opposent ou menacent la cible en question (il ne voit plus ses réels alliés comme des alliés), si le lanceur de sort le souhaite il peux faire en sorte que cela s'applique à plusieurs cibles \"alliées\" plutôt qu'un seul mais la magnitude est alors divisée par 2, cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.",
+        "latin": "Servitium (Servitude)",
+        "arcane": "Mugservit (Mug + servit)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "title": "Eclat de la Rage",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Induit une rage magique (attaque la cible la plus proche).",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Rage ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui induit une rage magique, sachant que cet enchantement ne peux être maintenu et dispose de [Magnitude/2] charges, la cible ne pense plus et s'attaque (avec les moyens les plus sévères) à la cible la plus proche d'elle (elle exclus), cet effet ne fonctionne pas sur les adversaires dont le rang est égal ou supérieur à celui du lanceur de sort.",
+        "latin": "Furor (Fureur)",
+        "arcane": "Mugfuror (Mug + furor)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "title": "Souffle de Fascination",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Octroie un bonus d'apparence pour fasciner une cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Fascination ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à [Magnitude/3] envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets.",
+        "latin": "Fascinum (Charme)",
+        "arcane": "Malfasci (Mal + fasci)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Malfasciynh"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "title": "Souffle de Méfiance",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Octroie un malus d'apparence pour susciter la méfiance.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Dépréciation ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui octroie à une cible A un malus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à [Magnitude/3] envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible A peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets.",
+        "latin": "Pretium (Prix, valeur)",
+        "arcane": "Morpret (Mor + pret)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Morpretynh"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "title": "Fruit de la Tentation",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Persuade la cible que le lanceur possède l'objet de ses désirs.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Tentation ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui persuade la cible que le lanceur de sort dispose de l'objet de ses désirs et qu'il est prêt à le lui accorder, l'objet en question peux se mesurer sous la forme [Magnitude/5] (en terme de qualité), évidemment si la puissance du sort n'est pas suffisante la cible peux très bien estimer que l'objet qu'il pense en possession du lanceur du sort n'est pas suffisant, mais il considérera quand même sa présence dans la balance pour de futurs négociations.",
+        "latin": "Tempto (Tenter)",
+        "arcane": "Mugtemp (Mug + temp)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Mugtempynh"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "title": "Souffle de Crédulité",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Inflige des dégâts mentaux temporaires assurés et majorés.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Suggestion ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude] de dégats mentaux temporaires (PE puis PS) basés sur l'élément [clé], le jet est assuré (minimum des dés 4) et majoré (+1 par dés).",
+        "latin": "Gero (Porter)",
+        "arcane": "Krusuger (Kru + suger)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "⚜️ Charme: Munsubgerynh"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "title": "Eclat de Haine",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Force la cible à s'en prendre en priorité à une autre cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Provocation ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui force la cible à s'en prendre en priorité à une autre cible au choix du lanceur de sort (ce peut être lui même), la seconde cible peux être à portée de vue, à chaque fois qu'elle souhaite contrevenir à cet la cible peux réaliser un test de sauvegarde (vs détermination) pour tenter d'échapper à la contrainte, elle n'a pas conscience d'être ainsi manipulée sauf si elle réussit à se dégager de la contrainte et réussit à un test de concentration, la cible peux être contrainte pour un maximum de [Magnitude/4] actions si la cible n'est pas une cible naturelle pour elle (il s'agit d'un allié ou autre).",
+        "latin": "Voco (Appeler)",
+        "arcane": "Munvoco (Mun + voco)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Munvocoynh"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "title": "Eclat de Coercition",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Force la cible à ignorer une autre cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Coercition ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui force la cible à ignorer une autre cible au choix du lanceur de sort (ce peut être lui même), la seconde cible peux être à portée de vue, à chaque fois qu'elle souhaite contrevenir à cet la cible peux réaliser un test de sauvegarde (vs détermination) pour tenter d'échapper à la contrainte, elle n'a pas conscience d'être ainsi manipulée sauf si elle réussit à se dégager de la contrainte et réussit à un test de concentration, la cible peux être contrainte pour un maximum de [Magnitude/4] actions si la cible n'est pas une cible naturelle pour elle (il s'agit d'un allié ou autre).",
+        "latin": "???",
+        "arcane": "???",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Maltimoynh"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "title": "Eclat d'Adoration",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Absorbe les dégâts fatals si un allié est à proximité.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Adoration ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui se décharge de 1 pour chaque dégats que devrait subir la cible et qui devrait lui faire baisser les PV ou PS en deça de 0, ne fonctionne que si un allié est à proximité.",
+        "latin": "Oro (Prier)",
+        "arcane": "Liroro (Lir + oro)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Mororo ynh"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "title": "Fourche Langue",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Force la cible à dire la vérité ou à mentir.",
+    "notes": "Au lancement du sort le lanceur de sort choisit entre vérité et mensonge.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Duperie ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un enchantement négatif qui force la cible à dire la vérité ou à mentir (au choix au lancement du sort), la cible ou ceux qui l'écoute doivent réussir un test d'intuition pour se rendre compte que quelque chose ne va pas avec les propos en question puis réussir un test de compétence pour comprendre que quelque chose altère les propos (voir en comprendre le sens réel sur un critique).",
+        "latin": "Fraus (Fraude)",
+        "arcane": "Malfrau (Mal + frau)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Malfrauynh"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "title": "Grande Fascination",
+    "group": "Charme",
+    "difficulty": "16",
+    "drain": "18",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Octroie un bonus d'apparence de fascination en zone large.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Zone",
+        "word_type": "Forme",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Touche une cible et 3 cases à proximité (AOE 7)."
+      },
+      {
+        "role": "power_single",
+        "name": "Fascination ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à [Magnitude/3] envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets.",
+        "latin": "Fascinum (Charme)",
+        "arcane": "Malfasci (Mal + fasci)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Malfasciynh"
+      },
+      {
+        "role": "liaison",
+        "name": "Large",
+        "word_type": "Liaison",
+        "difficulty": "0",
+        "drain": "2",
+        "description": "La zone de propagation du sort est doublée."
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "title": "Eclat de Suspicion",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Rend la cible plus marquante et suspecte.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Distraction ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui rend la cible plus marquante, les autres sont prompt à s'interroger sur sa présence quel que soit l'environnement (chargé ou pas), octroyant un malus de [Magnitude/4] aux tests visant à échapper à l'attention des autres, voir à la menace.",
+        "latin": "Traho (Tirer)",
+        "arcane": "Mugdistra (Mug + distra)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Mugdistraynh"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "title": "Grande Défaite",
+    "group": "Charme",
+    "difficulty": "16",
+    "drain": "18",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Force la cible à se retirer d'une confrontation en zone large.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Zone",
+        "word_type": "Forme",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Touche une cible et 3 cases à proximité (AOE 7)."
+      },
+      {
+        "role": "power_single",
+        "name": "Abdication ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui résigne la cible à ne plus intervenir dans une confrontation, elle ne se laisse pas faire mais ne s'implique plus non plus, cet effet s'applique si la cible a moins de [Magnitude] d'endurance et des pénalités de lésions cumulées supérieurs à 8 - [Magnitude/5].",
+        "latin": "Dico (Dire)",
+        "arcane": "Malabdi (Mal + abdi)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Malabdiy nh"
+      },
+      {
+        "role": "liaison",
+        "name": "Large",
+        "word_type": "Liaison",
+        "difficulty": "0",
+        "drain": "2",
+        "description": "La zone de propagation du sort est doublée."
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "title": "Hésitation",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Interruption",
+    "schools": [
+      "École d'Abjuration"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Annule l'action à venir de la cible si elle est faible en endurance.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Annulation ⛊",
+        "word_type": "Interruption",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui annule l'action à venir de la cible cette dernière a moins de [Magnitude] en endurance actuelle, un test de sauvegarde de détermination peux permettre de réduire les effets, l'action entreprise est perdue si annulée.",
+        "latin": "Casso (Détruire, annuler)",
+        "arcane": "Belcasso (Bel + casso)",
+        "school_code": "Abju",
+        "school_label": "École d'Abjuration",
+        "key": "⚜️ Charme: Belcassoynh"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "title": "Effet Papillon",
+    "group": "Charme",
+    "difficulty": "14",
+    "drain": "14",
+    "spell_type": "Interruption",
+    "schools": [
+      "École d'Abjuration"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Retourne l'action à venir de la cible contre elle-même.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Rétroaction ⛊",
+        "word_type": "Interruption",
+        "difficulty": "4",
+        "drain": "4",
+        "description": "Génère un effet qui retourne l'action à venir de la cible contre elle même à moins qu'elle ne dispose de [Magnitude/2] en endurance actuelle, un test de sauvegarde de détermination peux permettre de réduire les effets.",
+        "latin": "Ago (Agir)",
+        "arcane": "Basago (Bas + ago)",
+        "school_code": "Abju",
+        "school_label": "École d'Abjuration",
+        "key": "⚜️ Charme: Basagoynh"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "title": "Doute",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Bénédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Impose une pénalité aux actions d'agression envers la cible.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Dissuasion ✧",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement positif qui impose une pénalité de [Magnitude/3] aux actions visant à agresser la cible (attaque ou tactique, mais pas uniquement, c'est au MD de trancher si une action constitue une agression ou non), une action qui touche la cible est affectée même si elle ne vise pas directement celle ci, si la cible entreprend une action d'agression l'enchantement se dissipe sur le champs.",
+        "latin": "Suadeo (Conseiller)",
+        "arcane": "Lemsuad (Lem + suad)",
+        "school_code": "Béné",
+        "school_label": "École de Bénédiction",
+        "key": "⚜️ Charme: Barviasynh"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "title": "Voir les Emotions",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir (Senseur)",
+    "schools": [
+      "École de Divination"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Permet de percevoir les émotions dominantes des êtres proches.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Empathisation ⊙",
+        "word_type": "Pouvoir (Senseur)",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet de perception des émotions (voir règle sur les \"senseurs\"), révèle ainsi les sentiments dominants des êtres proches (colère, peur, amour, haine…). Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit [Magnitude/5].",
+        "latin": "Pathos (Sentiment)",
+        "arcane": "Darpath (Dar + path)",
+        "school_code": "Divi",
+        "school_label": "École de Divination",
+        "key": "⚜️ Charme: Darpathynh"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "title": "Paroles de Persuasion",
+    "group": "Charme",
+    "difficulty": "10",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Invocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Invoque une manifestation de type Charme.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Manifestation ✪",
+        "word_type": "Pouvoir",
+        "difficulty": "4",
+        "drain": "6",
+        "description": "Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une [clé], la charge est de [Magnitude].",
+        "latin": "Appareo (Apparaître)",
+        "arcane": "Vasapar (Vas + apar)",
+        "school_code": "Invoc",
+        "school_label": "École d'Invocation",
+        "key": "⚜️ Charme: Enmaniynh"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "title": "Paroles de Manipulation",
+    "group": "Charme",
+    "difficulty": "10",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Invocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Invoque une manifestation de type Charme.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Manifestation ✪",
+        "word_type": "Pouvoir",
+        "difficulty": "4",
+        "drain": "6",
+        "description": "Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une [clé], la charge est de [Magnitude].",
+        "latin": "Appareo (Apparaître)",
+        "arcane": "Vasapar (Vas + apar)",
+        "school_code": "Invoc",
+        "school_label": "École d'Invocation",
+        "key": "⚜️ Charme: Enmaniynh"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "title": "Vague de Manipulation",
+    "group": "Charme",
+    "difficulty": "8",
+    "drain": "8",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Malédiction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Octroie un bonus d'apparence de fascination.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Soi",
+        "word_type": "Forme",
+        "difficulty": "-2",
+        "drain": "-2",
+        "description": "Portée : Sans, Vecteur : Sans, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Fascination ⧖",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à [Magnitude/3] envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets.",
+        "latin": "Fascinum (Charme)",
+        "arcane": "Malfasci (Mal + fasci)",
+        "school_code": "Malé",
+        "school_label": "École de Malédiction",
+        "key": "⚜️ Charme: Erufasciynh"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "title": "Suggestion",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École de Destruction"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Inflige des dégâts mentaux temporaires assurés et majorés.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Suggestion ✸",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude] de dégats mentaux temporaires (PE puis PS) basés sur l'élément [clé], le jet est assuré (minimum des dés 4) et majoré (+1 par dés).",
+        "latin": "Gero (Porter)",
+        "arcane": "Krusuger (Kru + suger)",
+        "school_code": "Dest",
+        "school_label": "École de Destruction",
+        "key": "⚜️ Charme: Ensubgerynh"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "title": "Hypnose Soudaine",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Force la cible à réaliser immédiatement une action spécifique.",
+    "notes": "",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Subordination ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force la cible à réaliser une action sur-le-champs, cela ne lui cout pas d'actions ou d'initiative, il choisit la cible de l'action le cas échéant et les modalités si c'est pertinent (attaque la cible à ta droite, par exemple), la cible peux réaliser un test de détermination pour réduire la puissance du sort, la magnitude du sort permet de déterminer le type d'action qui peux être ainsi réalisées : Action Simple 15, Complexe 30, Libre 10, Rapide 15. Si la cible est un allié et qu'elle accepte l'action, elle reçoit un bonus de [Magnitude/4] d'ajustement. Le sort peux être lancé en interruption mais avec une difficulté augmenté de 2, par example dans le cas où le mage souhaite qu'un autre le défende d'une action, etc...",
+        "latin": "Ordo (Ordre)",
+        "arcane": "Evsubor (Ev + subor)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "⚜️ Charme: Evsuborynh"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "title": "Mot de Rage",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Applique une condition de Rage.",
+    "notes": "Condition : Rage.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "title": "Mot de Surprise",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Applique une condition de Surprise.",
+    "notes": "Condition : Surprise.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "title": "Mot de Tristesse",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Applique une condition de Tristesse.",
+    "notes": "Condition : Tristesse.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "title": "Mot de Panique",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Applique une condition de Panique.",
+    "notes": "Condition : Panique.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "title": "Mot de Mélancolie",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Applique une condition de Mélancolie.",
+    "notes": "Condition : Mélancolie.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "title": "Mot de Charme",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Altération"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Applique une condition de Charme.",
+    "notes": "Condition : Charme.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Affliction ≈",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la [clé]) avec une charge de [Magnitude], la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure).",
+        "latin": "Fligo (Frapper)",
+        "arcane": "Aenfligo (Aen + fligo)",
+        "school_code": "Alté",
+        "school_label": "École d'Altération",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "title": "Mots d'Euphorie",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Stocke un effet qui se déclenche sous condition d'Euphorie.",
+    "notes": "Condition : Euphorie.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "title": "Mots de Fureur",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Stocke un effet qui se déclenche sous condition de Fureur.",
+    "notes": "Condition : Fureur.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "title": "Mots de Cérénité",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Stocke un effet qui se déclenche sous condition de Sérénité.",
+    "notes": "Condition : Cérénité.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "title": "Mots de Joie",
+    "group": "Charme",
+    "difficulty": "12",
+    "drain": "12",
+    "spell_type": "Pouvoir",
+    "schools": [
+      "École d'Évocation"
+    ],
+    "domains": [
+      "⚜"
+    ],
+    "description": "Stocke un effet qui se déclenche sous condition de Joie.",
+    "notes": "Condition : Joie.",
+    "words": [
+      {
+        "role": "diffusion",
+        "name": "Manifestation",
+        "word_type": "Forme",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Portée : Portée magique x1, Vecteur : Vue, Cible soi possible."
+      },
+      {
+        "role": "propagation",
+        "name": "Unique",
+        "word_type": "Forme",
+        "difficulty": "0",
+        "drain": "0",
+        "description": "Touche une cible unique."
+      },
+      {
+        "role": "power_single",
+        "name": "Conditionnement ⧉",
+        "word_type": "Pouvoir",
+        "difficulty": "2",
+        "drain": "2",
+        "description": "Génère un enchantement qui contient les effets d'un autre [Mot de pouvoir] d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même [Magnitude] mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).",
+        "latin": "Condicio (Condition)",
+        "arcane": "Elocondi (Elo + condi)",
+        "school_code": "Evoc",
+        "school_label": "École d'Évocation",
+        "key": "⚜️ Charme"
+      }
+    ]
+  },
+  {
+    "id": 385,
     "title": "Projectiles Magiques",
     "group": "Arcane",
     "difficulty": "16",
@@ -13160,7 +16973,7 @@
     ]
   },
   {
-    "id": 308,
+    "id": 386,
     "title": "Contre Sort",
     "group": "Arcane",
     "difficulty": "14",
@@ -13207,7 +17020,7 @@
     ]
   },
   {
-    "id": 309,
+    "id": 387,
     "title": "Force de Volonté",
     "group": "Arcane",
     "difficulty": "12",
@@ -13254,7 +17067,7 @@
     ]
   },
   {
-    "id": 310,
+    "id": 388,
     "title": "Dénis des Arcanes",
     "group": "Arcane",
     "difficulty": "16+X",
@@ -13324,7 +17137,7 @@
     ]
   },
   {
-    "id": 311,
+    "id": 389,
     "title": "Chiquenaude de Force",
     "group": "Arcane",
     "difficulty": "16",
@@ -13371,7 +17184,7 @@
     ]
   },
   {
-    "id": 312,
+    "id": 390,
     "title": "Syphon d'Energie",
     "group": "Arcane",
     "difficulty": "10+X",
@@ -13426,7 +17239,7 @@
     ]
   },
   {
-    "id": 313,
+    "id": 391,
     "title": "Télékinésie",
     "group": "Arcane",
     "difficulty": "12",
@@ -13463,7 +17276,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Déplace une cible de [Magnitude] mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude.",
+        "description": "Déplace une cible inerte de [Magnitude] mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant.",
         "latin": "Fero (Porter)",
         "arcane": "Enlata (En + lata)",
         "school_code": "Evoc",
@@ -13473,7 +17286,7 @@
     ]
   },
   {
-    "id": 314,
+    "id": 392,
     "title": "Téléportation",
     "group": "Arcane",
     "difficulty": "14",
@@ -13528,7 +17341,7 @@
     ]
   },
   {
-    "id": 315,
+    "id": 393,
     "title": "Barrière Physique",
     "group": "Arcane",
     "difficulty": "8",
@@ -13575,7 +17388,7 @@
     ]
   },
   {
-    "id": 316,
+    "id": 394,
     "title": "Barrière Mentale",
     "group": "Arcane",
     "difficulty": "8",
@@ -13622,7 +17435,7 @@
     ]
   },
   {
-    "id": 317,
+    "id": 395,
     "title": "Barrière Arcanique",
     "group": "Arcane",
     "difficulty": "8",
@@ -13669,7 +17482,7 @@
     ]
   },
   {
-    "id": 318,
+    "id": 396,
     "title": "Elémentaire Arcanique",
     "group": "Arcane",
     "difficulty": "12",
@@ -13717,7 +17530,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": 397,
     "title": "Allergie aux Arcanes",
     "group": "Arcane",
     "difficulty": "12",
@@ -13764,7 +17577,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 398,
     "title": "Peste Arcanique",
     "group": "Arcane",
     "difficulty": "12",
@@ -13811,7 +17624,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 399,
     "title": "Oeil du Mage",
     "group": "Arcane",
     "difficulty": "8",
@@ -13858,7 +17671,7 @@
     ]
   },
   {
-    "id": 322,
+    "id": 400,
     "title": "Main du Mage",
     "group": "Arcane",
     "difficulty": "14",
@@ -13913,7 +17726,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 401,
     "title": "Panoplie Magique",
     "group": "Arcane",
     "difficulty": "12",
@@ -13961,7 +17774,7 @@
     ]
   },
   {
-    "id": 324,
+    "id": 402,
     "title": "Fuite de Mana",
     "group": "Arcane",
     "difficulty": "12",
@@ -14008,7 +17821,7 @@
     ]
   },
   {
-    "id": 325,
+    "id": 403,
     "title": "Conflux de Mana",
     "group": "Magie",
     "difficulty": "8",
@@ -14055,7 +17868,7 @@
     ]
   },
   {
-    "id": 326,
+    "id": 404,
     "title": "Zone de Surpuissance",
     "group": "Magie",
     "difficulty": "18",
@@ -14110,7 +17923,7 @@
     ]
   },
   {
-    "id": 327,
+    "id": 405,
     "title": "Zone d'Antimagie",
     "group": "Magie",
     "difficulty": "18",
@@ -14156,8 +17969,8 @@
         "difficulty": "2",
         "drain": "2",
         "description": "Génère un enchantement négatif qui réduit la puissance des sorts lancés par la cible de [Magnitude/3], si le lanceur de sort le souhaite il peux conditionner ce bonus à une école ou un domaine précis, le bonus est alors de [Magnitude/2] mais la difficulté et le drain de ce sort sont respectivement augmentés de 2 et 4.",
-        "latin": "???",
-        "arcane": "???",
+        "latin": "Magnus (Grand)",
+        "arcane": "Mugmagn (Mug + magn)",
         "school_code": "Malé",
         "school_label": "École de Malédiction",
         "key": "🔮 Magie"
@@ -14165,7 +17978,7 @@
     ]
   },
   {
-    "id": 328,
+    "id": 406,
     "title": "Aspect du Mage",
     "group": "Magie",
     "difficulty": "10",
@@ -14203,7 +18016,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/4].",
+        "description": "Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la [clé]) de [Magnitude/5].",
         "latin": "Specialis (Particulier)",
         "arcane": "Lemspecia (Lem + specia)",
         "school_code": "Béné",
@@ -14213,7 +18026,7 @@
     ]
   },
   {
-    "id": 329,
+    "id": 407,
     "title": "Rituel Magique",
     "group": "Magie",
     "difficulty": "10",
@@ -14260,7 +18073,7 @@
     ]
   },
   {
-    "id": 330,
+    "id": 408,
     "title": "Stase",
     "group": "Magie",
     "difficulty": "12",
@@ -14298,8 +18111,8 @@
         "difficulty": "2",
         "drain": "2",
         "description": "Génère un enchantement négatif qui réduit tous les gains de ressource temporaire de [Magnitude/2].",
-        "latin": "???",
-        "arcane": "???",
+        "latin": "Statuo (Fixer l'état)",
+        "arcane": "Mugstatuo (Mug + statuo)",
         "school_code": "Malé",
         "school_label": "École de Malédiction",
         "key": "🔮 Magie"
@@ -14307,7 +18120,7 @@
     ]
   },
   {
-    "id": 331,
+    "id": 409,
     "title": "Marque Magique",
     "group": "Magie",
     "difficulty": "8",
@@ -14344,7 +18157,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un effet qui inscrit dans la mémoire du lanceur de sort un lieu, un objet ou une cible, la place prise dans la mémoire occupe un espace similaire aux techniques ou aux sorts par exemple, le lanceur de sort peux plus tard lancer des sorts sur la cible en question comme si il s'agissait d'une cible valide, sur une distance maximale de [Magnitude/2] pour une personne, [Magnitude x5] pour un objet ou [Magnitude x50] pour un lieu (le sort échoue si la cible est trop loin).",
+        "description": "Génère un effet qui inscrit dans la mémoire du lanceur de sort un lieu, un objet ou une cible, la place prise dans la mémoire occupe un espace similaire aux techniques ou aux sorts par exemple, le lanceur de sort peux plus tard lancer des sorts sur la cible en question comme si il s'agissait d'une cible valide, sur une distance maximale de [Magnitude] pour une personne, [Magnitude x5] pour un objet ou [Magnitude x50] pour un lieu (le sort échoue si la cible est trop loin).",
         "latin": "Nota (Marque)",
         "arcane": "Elonota (Elo + nota)",
         "school_code": "Evoc",
@@ -14354,7 +18167,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": 410,
     "title": "Serment Enchanteur",
     "group": "Magie",
     "difficulty": "12",
@@ -14401,7 +18214,7 @@
     ]
   },
   {
-    "id": 333,
+    "id": 411,
     "title": "Eclair de Génie",
     "group": "Magie",
     "difficulty": "8",
@@ -14448,7 +18261,7 @@
     ]
   },
   {
-    "id": 334,
+    "id": 412,
     "title": "Don de Mana",
     "group": "Magie",
     "difficulty": "12",
@@ -14495,7 +18308,7 @@
     ]
   },
   {
-    "id": 335,
+    "id": 413,
     "title": "Amplification",
     "group": "Magie",
     "difficulty": "12",
@@ -14542,7 +18355,7 @@
     ]
   },
   {
-    "id": 336,
+    "id": 414,
     "title": "Sorcellerie Implaccable",
     "group": "Magie",
     "difficulty": "8",
@@ -14589,7 +18402,7 @@
     ]
   },
   {
-    "id": 337,
+    "id": 415,
     "title": "Convergence Arcanique",
     "group": "Magie",
     "difficulty": "8",
@@ -14636,7 +18449,7 @@
     ]
   },
   {
-    "id": 338,
+    "id": 416,
     "title": "Corruption Arcanique",
     "group": "Magie",
     "difficulty": "12",
@@ -14683,7 +18496,7 @@
     ]
   },
   {
-    "id": 339,
+    "id": 417,
     "title": "Déviation Magique",
     "group": "Magie",
     "difficulty": "10",
@@ -14731,7 +18544,7 @@
     ]
   },
   {
-    "id": 340,
+    "id": 418,
     "title": "Délocalisation d'Enchantement",
     "group": "Magie",
     "difficulty": "8",
@@ -14778,7 +18591,7 @@
     ]
   },
   {
-    "id": 341,
+    "id": 419,
     "title": "Interroger la Magie",
     "group": "Magie",
     "difficulty": "12",
@@ -14825,7 +18638,7 @@
     ]
   },
   {
-    "id": 342,
+    "id": 420,
     "title": "Occulus Arcanique",
     "group": "Magie",
     "difficulty": "8",
@@ -14872,7 +18685,7 @@
     ]
   },
   {
-    "id": 343,
+    "id": 421,
     "title": "Serment des Druides",
     "group": "Nature",
     "difficulty": "18",
@@ -14919,7 +18732,7 @@
     ]
   },
   {
-    "id": 344,
+    "id": 422,
     "title": "Source Naturelle",
     "group": "Nature",
     "difficulty": "12+X",
@@ -14974,7 +18787,7 @@
     ]
   },
   {
-    "id": 345,
+    "id": 423,
     "title": "Pulsion de Gaïa",
     "group": "Nature",
     "difficulty": "8",
@@ -14987,7 +18800,7 @@
     "words": []
   },
   {
-    "id": 346,
+    "id": 424,
     "title": "Epidémie",
     "group": "Toxique",
     "difficulty": "18",
@@ -15051,7 +18864,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": 425,
     "title": "Flèche Acide de Melf",
     "group": "Toxique",
     "difficulty": "16",
@@ -15107,7 +18920,7 @@
     ]
   },
   {
-    "id": 348,
+    "id": 426,
     "title": "Eclat de Ruine",
     "group": "Toxique",
     "difficulty": "12",
@@ -15154,7 +18967,7 @@
     ]
   },
   {
-    "id": 349,
+    "id": 427,
     "title": "Vapeurs Pestilencielles",
     "group": "Toxique",
     "difficulty": "18",
@@ -15218,7 +19031,7 @@
     ]
   },
   {
-    "id": 350,
+    "id": 428,
     "title": "Du Sang au Poison",
     "group": "Toxique",
     "difficulty": "12",
@@ -15265,7 +19078,7 @@
     ]
   },
   {
-    "id": 351,
+    "id": 429,
     "title": "Doigt de la Socière",
     "group": "Toxique",
     "difficulty": "10",
@@ -15313,7 +19126,7 @@
     ]
   },
   {
-    "id": 352,
+    "id": 430,
     "title": "Souffle d'Acide",
     "group": "Toxique",
     "difficulty": "18+X",
@@ -15393,7 +19206,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": 431,
     "title": "Vapeurs Toxiques du Morbol",
     "group": "Toxique",
     "difficulty": "18",
@@ -15463,7 +19276,7 @@
     ]
   },
   {
-    "id": 354,
+    "id": 432,
     "title": "Terrible Infection",
     "group": "Toxique",
     "difficulty": "12",
@@ -15510,7 +19323,7 @@
     ]
   },
   {
-    "id": 355,
+    "id": 433,
     "title": "Rupture Inexorable",
     "group": "Toxique",
     "difficulty": "12",
@@ -15557,7 +19370,7 @@
     ]
   },
   {
-    "id": 356,
+    "id": 434,
     "title": "Corrosion du Coeur",
     "group": "Toxique",
     "difficulty": "12",
@@ -15604,7 +19417,7 @@
     ]
   },
   {
-    "id": 357,
+    "id": 435,
     "title": "Soins Corrompus",
     "group": "Toxique",
     "difficulty": "12",
@@ -15651,7 +19464,7 @@
     ]
   },
   {
-    "id": 358,
+    "id": 436,
     "title": "Marque d'épuisement",
     "group": "Toxique",
     "difficulty": "12",
@@ -15698,7 +19511,7 @@
     ]
   },
   {
-    "id": 359,
+    "id": 437,
     "title": "Vision du Toxique",
     "group": "Toxique",
     "difficulty": "14",
@@ -15745,7 +19558,7 @@
     ]
   },
   {
-    "id": 360,
+    "id": 438,
     "title": "Miasmes Infâme",
     "group": "Toxique",
     "difficulty": "20",
@@ -15801,7 +19614,7 @@
     ]
   },
   {
-    "id": 361,
+    "id": 439,
     "title": "Nuages Toxiques",
     "group": "Toxique",
     "difficulty": "20+X",
@@ -15880,7 +19693,7 @@
     ]
   },
   {
-    "id": 362,
+    "id": 440,
     "title": "Nuages Infectieux",
     "group": "Toxique",
     "difficulty": "18",
@@ -15936,7 +19749,7 @@
     ]
   },
   {
-    "id": 363,
+    "id": 441,
     "title": "Illusion des Grandeurs",
     "group": "Illusion",
     "difficulty": "8",
@@ -15949,7 +19762,7 @@
     "words": []
   },
   {
-    "id": 364,
+    "id": 442,
     "title": "Caleïdoscope",
     "group": "Illusion",
     "difficulty": "8",
@@ -15962,7 +19775,7 @@
     "words": []
   },
   {
-    "id": 365,
+    "id": 443,
     "title": "Images Mirroires",
     "group": "Illusion",
     "difficulty": "8",
@@ -15975,7 +19788,7 @@
     "words": []
   },
   {
-    "id": 366,
+    "id": 444,
     "title": "Assassin Illusoire",
     "group": "Illusion",
     "difficulty": "8",
@@ -15988,7 +19801,7 @@
     "words": []
   },
   {
-    "id": 367,
+    "id": 445,
     "title": "Image Fictive",
     "group": "Illusion",
     "difficulty": "8",
@@ -16001,7 +19814,7 @@
     "words": []
   },
   {
-    "id": 368,
+    "id": 446,
     "title": "Son Fictif",
     "group": "Illusion",
     "difficulty": "8",
@@ -16014,7 +19827,7 @@
     "words": []
   },
   {
-    "id": 369,
+    "id": 447,
     "title": "Apparence Altérée",
     "group": "Illusion",
     "difficulty": "8",
@@ -16027,7 +19840,7 @@
     "words": []
   },
   {
-    "id": 370,
+    "id": 448,
     "title": "Mascarade",
     "group": "Illusion",
     "difficulty": "8",
@@ -16040,7 +19853,7 @@
     "words": []
   },
   {
-    "id": 371,
+    "id": 449,
     "title": "Rappel Ancestral",
     "group": "Savoir",
     "difficulty": "8",
@@ -16053,7 +19866,7 @@
     "words": []
   },
   {
-    "id": 372,
+    "id": 450,
     "title": "Globe de l'Occulus",
     "group": "Vision",
     "difficulty": "8",
@@ -16066,7 +19879,7 @@
     "words": []
   },
   {
-    "id": 373,
+    "id": 451,
     "title": "Eclair de Génie",
     "group": "Vision",
     "difficulty": "8",
@@ -16079,7 +19892,7 @@
     "words": []
   },
   {
-    "id": 374,
+    "id": 452,
     "title": "Affûter l'Arme",
     "group": "Acier",
     "difficulty": "10",
@@ -16127,7 +19940,7 @@
     ]
   },
   {
-    "id": 375,
+    "id": 453,
     "title": "Lacérations Sanglantes",
     "group": "Acier",
     "difficulty": "14+X",
@@ -16196,7 +20009,7 @@
     ]
   },
   {
-    "id": 376,
+    "id": 454,
     "title": "indestructibilité",
     "group": "Acier",
     "difficulty": "12+X",
@@ -16266,7 +20079,7 @@
     ]
   },
   {
-    "id": 377,
+    "id": 455,
     "title": "Faille Totale",
     "group": "Acier",
     "difficulty": "14+X",
@@ -16335,7 +20148,7 @@
     ]
   },
   {
-    "id": 378,
+    "id": 456,
     "title": "Alourdir l'Objet",
     "group": "Acier",
     "difficulty": "12",
@@ -16382,7 +20195,7 @@
     ]
   },
   {
-    "id": 379,
+    "id": 457,
     "title": "De l'acier à la poussière",
     "group": "Acier",
     "difficulty": "14+X",
@@ -16451,7 +20264,7 @@
     ]
   },
   {
-    "id": 380,
+    "id": 458,
     "title": "Résistance au Métal",
     "group": "Acier",
     "difficulty": "10",
@@ -16499,7 +20312,7 @@
     ]
   },
   {
-    "id": 381,
+    "id": 459,
     "title": "Interroger le Métal",
     "group": "Acier",
     "difficulty": "10",
@@ -16547,7 +20360,7 @@
     ]
   },
   {
-    "id": 382,
+    "id": 460,
     "title": "Oeil du Mineur",
     "group": "Acier",
     "difficulty": "10",
@@ -16594,7 +20407,7 @@
     ]
   },
   {
-    "id": 383,
+    "id": 461,
     "title": "Mur de Lames",
     "group": "Acier",
     "difficulty": "10",
@@ -16642,7 +20455,7 @@
     ]
   },
   {
-    "id": 384,
+    "id": 462,
     "title": "Enfer d'Acier",
     "group": "Acier",
     "difficulty": "12",
@@ -16689,7 +20502,7 @@
     ]
   },
   {
-    "id": 385,
+    "id": 463,
     "title": "Conjuration d'Arme Véritable",
     "group": "Acier",
     "difficulty": "8",
@@ -16726,7 +20539,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "4",
-        "description": "Conjure une arme élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la [clé] : La dégats sont entièrement élémentaire, le personnage a l'expertise et la science de l'arme en question, la catégorie et la forme de l'arme est au choix mais au mieux de [Magnitude/5] (les contraintes liés à la catégorie, dont le charge, subsistent), l'arme offre un bonus de qualité de [Magnitude/5] mais sa qualité réelle est de [Magnitude/10].",
+        "description": "Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Spécifique aux armes conjourées : Les dégats sont entièrement de l'élément associé à la clé, toucher la cible requière de passer la défense associée à l'élément ET à la forme de l'arme. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Arma (Arme)",
         "arcane": "Cararma (Car + arma)",
         "school_code": "Conj",
@@ -16736,7 +20549,7 @@
     ]
   },
   {
-    "id": 386,
+    "id": 464,
     "title": "Conjuration d'Armure Véritable",
     "group": "Acier",
     "difficulty": "8",
@@ -16773,7 +20586,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "4",
-        "description": "Conjure une armure élémentaire sous la forme d'un enchantement (neutre) dont les propriétés dépendent de la [clé] : Elle profite d'une absorption à son élément et aux éléments opposés de [Magnitude/3], le personnage a l'expertise et la science de l'armure en question, la catégorie et la forme de l'armure est au choix mais mieux de [Magnitude/5] (les contraintes liés à la catégorie, dont le charge, subsistent), l'armure offre un bonus de qualité de [Magnitude/5] mais sa qualité réelle est de [Magnitude/10].",
+        "description": "Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la [clé] : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de [Magnitude/5] (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité [Magnitude/5].",
         "latin": "Loric (Cuirasse)",
         "arcane": "Conloric (Con + loric)",
         "school_code": "Conj",
@@ -16783,7 +20596,7 @@
     ]
   },
   {
-    "id": 387,
+    "id": 465,
     "title": "Danse des Lames",
     "group": "Acier",
     "difficulty": "8",
@@ -16830,7 +20643,7 @@
     ]
   },
   {
-    "id": 388,
+    "id": 466,
     "title": "Miriade de Projectiles",
     "group": "Acier",
     "difficulty": "8",
@@ -16867,7 +20680,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement qui prend la forme de [Magnitude/5] projectiles autour du lanceur de sort, lorsque la cible le souhaite elle peux dépenser une action libre pour attaquer (la nature de l'attaque dépends de la [clé] employée) avec l'un de ces projectiles, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet n'est pas lié à la forme de l'arme mais à [Magnitude/3], une fois le projectile utilisé ce dernier disparait jusqu'à ce que la cible utilise une action simple pour recharger le tout, les projectiles ont une portée équivalante à celle d'un sort \"à disance\" et l'action ne génère pas d'opportunité ou autre, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée.",
+        "description": "Génère un enchantement qui prend la forme de [Magnitude/5] projectiles (sans catégorie) autour du lanceur de sort, lorsque la cible le souhaite elle peux dépenser une action libre pour attaquer (la nature de l'attaque dépends de la [clé] employée) avec l'un de ces projectiles, la cible utilise alors sa compétence de magie et son attribut de magie pour le test en question, le jet de l'attaque vaux [Magnitude/2] (perforation et gravité lié aux caracs du personnage s'appliquent normalement) une fois le projectile utilisé ce dernier disparait jusqu'à ce que la cible utilise une action simple pour recharger le tout, les projectiles ont une portée équivalante à celle d'un sort \"à disance\" et l'action ne génère pas d'opportunité ou autre, si le personnage le souhaite il peux utiliser une action simple ou rapide à la place de libre et l'action sera avantagée.",
         "latin": "Telum (Trait/Projectile)",
         "arcane": "Contelum (Con + telum)",
         "school_code": "Conj",
@@ -16877,7 +20690,7 @@
     ]
   },
   {
-    "id": 389,
+    "id": 467,
     "title": "Miriade de Boucliers",
     "group": "Acier",
     "difficulty": "8",
@@ -16924,7 +20737,7 @@
     ]
   },
   {
-    "id": 390,
+    "id": 468,
     "title": "Transmutation des Métaux",
     "group": "Acier",
     "difficulty": "8",
@@ -16971,7 +20784,7 @@
     ]
   },
   {
-    "id": 391,
+    "id": 469,
     "title": "Restructuration du Métal",
     "group": "Acier",
     "difficulty": "8",
@@ -17018,7 +20831,7 @@
     ]
   },
   {
-    "id": 392,
+    "id": 470,
     "title": "Arme du Destructeur",
     "group": "Acier",
     "difficulty": "10+X",
@@ -17088,7 +20901,7 @@
     ]
   },
   {
-    "id": 393,
+    "id": 471,
     "title": "Arme du Protecteur",
     "group": "Acier",
     "difficulty": "10+X",
@@ -17158,7 +20971,7 @@
     ]
   },
   {
-    "id": 394,
+    "id": 472,
     "title": "Arme du Juggernaut",
     "group": "Acier",
     "difficulty": "10+X",
@@ -17227,7 +21040,7 @@
     ]
   },
   {
-    "id": 395,
+    "id": 473,
     "title": "Héroïsme",
     "group": "Guerre",
     "difficulty": "18+X",
@@ -17304,7 +21117,7 @@
     ]
   },
   {
-    "id": 396,
+    "id": 474,
     "title": "Croisade",
     "group": "Guerre",
     "difficulty": "16",
@@ -17359,7 +21172,7 @@
     ]
   },
   {
-    "id": 397,
+    "id": 475,
     "title": "Sapper la Tension",
     "group": "Guerre",
     "difficulty": "14",
@@ -17406,7 +21219,7 @@
     ]
   },
   {
-    "id": 398,
+    "id": 476,
     "title": "Egide de Douleurs",
     "group": "Guerre",
     "difficulty": "12",
@@ -17466,7 +21279,7 @@
     ]
   },
   {
-    "id": 399,
+    "id": 477,
     "title": "Egide de Courage",
     "group": "Guerre",
     "difficulty": "12",
@@ -17526,7 +21339,7 @@
     ]
   },
   {
-    "id": 400,
+    "id": 478,
     "title": "Creuset de la Guerre",
     "group": "Guerre",
     "difficulty": "8",
@@ -17573,7 +21386,7 @@
     ]
   },
   {
-    "id": 401,
+    "id": 479,
     "title": "Ire de la Bataille",
     "group": "Guerre",
     "difficulty": "12",
@@ -17620,7 +21433,7 @@
     ]
   },
   {
-    "id": 402,
+    "id": 480,
     "title": "Présence du Mentor",
     "group": "Guerre",
     "difficulty": "8",
@@ -17667,7 +21480,7 @@
     ]
   },
   {
-    "id": 403,
+    "id": 481,
     "title": "Portée Accrue",
     "group": "Guerre",
     "difficulty": "12",
@@ -17714,7 +21527,7 @@
     ]
   },
   {
-    "id": 404,
+    "id": 482,
     "title": "Le Feu de la Guerre",
     "group": "Guerre",
     "difficulty": "12",
@@ -17761,7 +21574,7 @@
     ]
   },
   {
-    "id": 405,
+    "id": 483,
     "title": "Vision des Traquenards",
     "group": "Guerre",
     "difficulty": "8",
@@ -17808,7 +21621,7 @@
     ]
   },
   {
-    "id": 406,
+    "id": 484,
     "title": "Vision des Pensées Belliqueuses",
     "group": "Guerre",
     "difficulty": "8",
@@ -17855,7 +21668,7 @@
     ]
   },
   {
-    "id": 407,
+    "id": 485,
     "title": "Egide de Bataille",
     "group": "Guerre",
     "difficulty": "12",
@@ -17902,7 +21715,7 @@
     ]
   },
   {
-    "id": 408,
+    "id": 486,
     "title": "Mot de Rapidité",
     "group": "Vide",
     "difficulty": "16",
@@ -17949,7 +21762,7 @@
     ]
   },
   {
-    "id": 409,
+    "id": 487,
     "title": "Mot de Vitesse",
     "group": "Vide",
     "difficulty": "16",
@@ -17996,7 +21809,7 @@
     ]
   },
   {
-    "id": 410,
+    "id": 488,
     "title": "Mot d'Initiative",
     "group": "Vide",
     "difficulty": "16",
@@ -18043,7 +21856,7 @@
     ]
   },
   {
-    "id": 411,
+    "id": 489,
     "title": "Mot de Hâte",
     "group": "Vide",
     "difficulty": "16",
@@ -18090,7 +21903,7 @@
     ]
   },
   {
-    "id": 412,
+    "id": 490,
     "title": "Mot de Lenteur",
     "group": "Vide",
     "difficulty": "16",
@@ -18137,7 +21950,7 @@
     ]
   },
   {
-    "id": 413,
+    "id": 491,
     "title": "Mot de Lourdeur",
     "group": "Vide",
     "difficulty": "16",
@@ -18184,7 +21997,7 @@
     ]
   },
   {
-    "id": 414,
+    "id": 492,
     "title": "Mot d'Entrave",
     "group": "Vide",
     "difficulty": "16",
@@ -18231,7 +22044,7 @@
     ]
   },
   {
-    "id": 415,
+    "id": 493,
     "title": "Quartz",
     "group": "Vide",
     "difficulty": "12",
@@ -18278,7 +22091,7 @@
     ]
   },
   {
-    "id": 416,
+    "id": 494,
     "title": "Demi",
     "group": "Vide",
     "difficulty": "12",
@@ -18325,7 +22138,7 @@
     ]
   },
   {
-    "id": 417,
+    "id": 495,
     "title": "Champs de Gravité",
     "group": "Vide",
     "difficulty": "16",
@@ -18381,7 +22194,7 @@
     ]
   },
   {
-    "id": 418,
+    "id": 496,
     "title": "Petit Portail",
     "group": "Vide",
     "difficulty": "10",
@@ -18429,7 +22242,7 @@
     ]
   },
   {
-    "id": 419,
+    "id": 497,
     "title": "Chiquenaude Temporelle",
     "group": "Vide",
     "difficulty": "14",
@@ -18476,7 +22289,7 @@
     ]
   },
   {
-    "id": 420,
+    "id": 498,
     "title": "Accélération Temporelle",
     "group": "Vide",
     "difficulty": "12",
@@ -18523,7 +22336,7 @@
     ]
   },
   {
-    "id": 421,
+    "id": 499,
     "title": "Fuite du Temps",
     "group": "Vide",
     "difficulty": "12",
@@ -18570,7 +22383,7 @@
     ]
   },
   {
-    "id": 422,
+    "id": 500,
     "title": "Marée du Temps",
     "group": "Vide",
     "difficulty": "18+X",
@@ -18634,7 +22447,7 @@
     ]
   },
   {
-    "id": 423,
+    "id": 501,
     "title": "Maleström",
     "group": "Vide",
     "difficulty": "16",
@@ -18698,7 +22511,7 @@
     ]
   },
   {
-    "id": 424,
+    "id": 502,
     "title": "Gravité Clémente",
     "group": "Vide",
     "difficulty": "12",
@@ -18745,7 +22558,7 @@
     ]
   },
   {
-    "id": 425,
+    "id": 503,
     "title": "Passage du Temps",
     "group": "Vide",
     "difficulty": "12",
@@ -18792,7 +22605,7 @@
     ]
   },
   {
-    "id": 426,
+    "id": 504,
     "title": "???",
     "group": "Vide",
     "difficulty": "14",
@@ -18854,7 +22667,7 @@
     ]
   },
   {
-    "id": 427,
+    "id": 505,
     "title": "Contre Temps",
     "group": "Vide",
     "difficulty": "12",
@@ -18901,7 +22714,7 @@
     ]
   },
   {
-    "id": 428,
+    "id": 506,
     "title": "Sceau Temporel",
     "group": "Vide",
     "difficulty": "14",
@@ -18948,7 +22761,7 @@
     ]
   },
   {
-    "id": 429,
+    "id": 507,
     "title": "Palimpseste",
     "group": "Vide",
     "difficulty": "14+X",
@@ -19003,7 +22816,7 @@
     ]
   },
   {
-    "id": 430,
+    "id": 508,
     "title": "Tempus Fugit",
     "group": "Vide",
     "difficulty": "16+X",
@@ -19058,7 +22871,7 @@
     ]
   },
   {
-    "id": 431,
+    "id": 509,
     "title": "Drain de Vie",
     "group": "Mixte",
     "difficulty": "18+X",
@@ -19136,7 +22949,7 @@
     ]
   },
   {
-    "id": 432,
+    "id": 510,
     "title": "Drain de Spiritualité",
     "group": "Mixte",
     "difficulty": "18+X",
@@ -19214,7 +23027,7 @@
     ]
   },
   {
-    "id": 433,
+    "id": 511,
     "title": "Drain de Karma",
     "group": "Mixte",
     "difficulty": "18+X",
@@ -19292,7 +23105,7 @@
     ]
   },
   {
-    "id": 434,
+    "id": 512,
     "title": "Drain de Mana",
     "group": "Mixte",
     "difficulty": "18+X",
@@ -19370,7 +23183,7 @@
     ]
   },
   {
-    "id": 435,
+    "id": 513,
     "title": "Drain d'Endurance",
     "group": "Mixte",
     "difficulty": "18+X",
@@ -19448,7 +23261,7 @@
     ]
   },
   {
-    "id": 436,
+    "id": 514,
     "title": "Contre Rigoureux",
     "group": "Mixte",
     "difficulty": "8",
@@ -19461,7 +23274,7 @@
     "words": []
   },
   {
-    "id": 437,
+    "id": 515,
     "title": "Choc Thermique",
     "group": "Mixte",
     "difficulty": "18+X",

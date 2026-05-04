@@ -1,0 +1,319 @@
+<!DOCTYPE html><html><head>
+      <title>mental</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/lutie/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.24/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-details{margin:0;padding:0;border:none}.markdown-preview .md-toc summary.md-toc-link-wrapper{cursor:pointer;list-style-position:outside}.markdown-preview .md-toc summary.md-toc-link-wrapper::marker{font-size:.85em}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='0']{margin-left:12px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='1']{margin-left:28px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='2']{margin-left:44px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='3']{margin-left:60px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='4']{margin-left:76px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='5']{margin-left:80px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-details{margin:0;padding:0;border:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='0']{padding-left:0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='1']{padding-left:16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='2']{padding-left:32px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='3']{padding-left:48px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='4']{padding-left:64px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='5']{padding-left:80px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="sorts--mental">Sorts – Mental </h1>
+<blockquote>
+<p>29 sorts pour Mental</p>
+</blockquote>
+<h2 id="transcendance">Transcendance </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Spiritualisation ✧</span> (Spiritus (Souffle) / Luspiri (Lu + spiri)) : Génère un enchantement positif qui augmente tous les attributs de l'esprit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> mais réduit ceux du corps d'autant. <em><strong>Clé :</strong></em> 🧩 Mental: Luspiriend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente tous les attributs de l'esprit au détriment des attributs du corps.</p>
+<hr>
+<h2 id="geyser-mental">Geyser Mental </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Galvanisation ✧</span> (Vibro (Agiter) / Lirvibr (Lir + vibr)) : Génère un enchantement positif qui augmente de moitié la génération de ressources temporaires tel que rage, garde et adrénaline, avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, augmente également le maximum de ces ressources de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. <em><strong>Clé :</strong></em> 🧩 Mental: Evvibroend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente la génération et le maximum de ressources temporaires (rage, garde, adrénaline, PS).</p>
+<p><em><strong>Notes :</strong></em> Affecte les PS (spiritualité).</p>
+<hr>
+<h2 id="convulsion-cérébrale">Convulsion Cérébrale </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Profanation ✸</span> (Profano (Souiller) / Kaprofan (Ka + profan)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux (PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. <em><strong>Clé :</strong></em> 🧩 Mental: Kaprofanend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige des dégâts mentaux directs via une attaque de résolution.</p>
+<p><em><strong>Notes :</strong></em> Attaque VS Volonté.</p>
+<hr>
+<h2 id="traumastisme">Traumastisme </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Traumatisation ✸</span> (Vulnus (Blessure) / Kavulnus (Ka + vulnus)) : Génère un effet infligeant un trauma de gravité <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la sauvegarde d'opposition modifie ce gain. <em><strong>Clé :</strong></em> 🧩 Mental: Kavulnusend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige un trauma mental de gravité variable.</p>
+<hr>
+<h2 id="trouble-mental">Trouble Mental </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Suggestion ✸</span> (Gero (Porter) / Krusuger (Kru + suger)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le jet est assuré (minimum des dés 4) et majoré (+1 par dés). <em><strong>Clé :</strong></em> 🧩 Mental: Krusugerend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige des dégâts mentaux temporaires assurés et majorés.</p>
+<hr>
+<h2 id="abysse-mémorielle">Abysse Mémorielle </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Amnésiation ✸</span> (Memoria (Mémoire) / Kinmemo (Kin + memo)) : Génère un effet qui supprime de la mémoire d'une cible un élément (personne, scène, objet ou lieu), le sort a un potenciel de <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span>, le temps auquel remonte la mémoire réduit d'autant le potenciel, chaque minutes nécessite 1 de potenciel, un test de détermination peux être effectué par la cible et si réussie le sort ne fonctionne pas. <em><strong>Clé :</strong></em> 🧩 Mental: Kinmemoend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Efface un souvenir ou élément précis de la mémoire de la cible.</p>
+<hr>
+<h2 id="coma-mental">Coma Mental </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Exsanguination ✸</span> (Sanguis (Sang) / Krasangui (Kra + sangui)) : Si la cible a moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> PE elle perd tous ses PE et est mise en état de choc, elle peux réaliser un test de robustesse ou détermination (selon clé). <em><strong>Clé :</strong></em> 🧩 Mental: Krasanguiend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Vide tous les PE de la cible faible et la met en état de choc.</p>
+<p><em><strong>Notes :</strong></em> La sauvegard est basée sur la détermination.</p>
+<hr>
+<h2 id="tourments-psychiques">Tourments Psychiques </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Destruction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Corruption ✸</span> (Rumpo (Briser) / Korrupt (Kor + rupt)) : Génère un effet infligeant une condition de rupture (DOT), la cible peux réaliser un test de sauvegarde (qui dépend de la condition). <em><strong>Clé :</strong></em> 🧩 Mental: Korruptend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige une condition de rupture mentale (DOT).</p>
+<hr>
+<h2 id="source-mentale">Source Mentale </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Restauration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Restauration ⌖</span> (Instauro (Je rétablis) / Restaura (Re + staura)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant une ressource qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>, ce soin n'est pas dispensé des règles des soins naturels et de la fatigue (voir guérison dans les règles de base). <em><strong>Clé :</strong></em> 🧩 Mental: Restauraend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Soigne des points de santé mentale (PS).</p>
+<p><em><strong>Notes :</strong></em> Le soin affecte les PS (spiritualité).</p>
+<hr>
+<h2 id="harmonie-mentale">Harmonie Mentale </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Restauration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Harmonisation ⌖</span> (Harmonia (Harmonie) / Reharmo (Re + harmo)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant un trauma (lésion mentale), génère la moitié en fatigue. <em><strong>Clé :</strong></em> 🧩 Mental: Reharmoend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Soigne un trauma mental existant.</p>
+<hr>
+<h2 id="emerveillement">Emerveillement </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Spiritualisation ✧</span> (Spiritus (Souffle) / Luspiri (Lu + spiri)) : Génère un enchantement positif qui augmente tous les attributs de l'esprit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> mais réduit ceux du corps d'autant. <em><strong>Clé :</strong></em> 🧩 Mental: Luspiriend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente tous les attributs de l'esprit au détriment des attributs du corps.</p>
+<hr>
+<h2 id="armure-mentale">Armure Mentale </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Absorption ✧</span> (Sorbeo (Boire) / Lemsorb (Lem + sorb)) : Génère un enchantement positif qui réduit de moitié les dégats d'un type (selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée) avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>. <em><strong>Clé :</strong></em> 🧩 Mental: Lemsorbend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Réduit de moitié les dégâts mentaux reçus.</p>
+<p><em><strong>Notes :</strong></em> Affecte les dégats mentaux.</p>
+<hr>
+<h2 id="lecture-des-pensées-immédiates">Lecture des Pensées Immédiates </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Divination ✧</span> (Divinus (Divin) / Luvinus (Lu + vinus)) : Génère un enchantement positif qui permet de voir les intentions des autres, lorsque le personnage réalise un test contre une cible dont il peux lire les pensés cette dernière reçoit une pénalité à ses défenses passives de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>, du fait que le lanceur de sort est en mesure de savoir un peu à l'avance ce que la cible fera, de plus la défense du lanceur de sort est augmenté d'autant contre cette cible. <em><strong>Clé :</strong></em> 🧩 Mental: Luvinusend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet de lire les intentions et améliore la défense contre la cible.</p>
+<hr>
+<h2 id="bouclier-mental">Bouclier Mental </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Introspection ⛊</span> (Intra (Dedans) / Borintra (Bor + intra)) : Génère un enchantement neutre de type barrière mentale pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> (minoré) les jets (dégats, impacts, charges) mentaux (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). <em><strong>Clé :</strong></em> 🧩 Mental: Borintraend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Crée une barrière mentale qui absorbe les jets mentaux.</p>
+<hr>
+<h2 id="dissimulation-des-pensés">Dissimulation des Pensés </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Occultation ✧</span> (Occulto (Cacher) / Luccult (Lu + ccult)) : Génère un enchantement positif qui rend la perception de la cible plus difficile pour les créatures d'une famille particulières selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée, la difficulté étant augmentée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. <em><strong>Clé :</strong></em> 🧩 Mental: Basoccultend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Cache ses pensées et rend la cible moins perceptible.</p>
+<hr>
+<h2 id="sonde-des-pensés">Sonde des Pensés </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Divination<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Sondation ⊙</span> (Fundo (Fond) / Difund (Di + fund)) : Génère un effet permettant au lanceur de lire les pensées de la cible, lesquelles se manifestent comme des phrases ou images mentales ; de base transparaissent les pensées de surface (murmures et impressions immédiates), avec une Magnitude d’au moins 10 apparaissent les pensées immédiates (intentions sur le point d’être dites ou faites, non secrètes, non dissimulées), 20 révèle les pensées profondes (secrets conscients et dissimulés), 30 les très profondes (croyances intimes, serments et schémas fondateurs), 40 les inconscientes (désirs latents, symboles oniriques, secrets inconscients et oubliés), et 50 ouvre l’accès à l’ensemble des pensées quel qu'elle soient ; le lanceur peut analyser (et obtenir plus d'informations) sur un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> extraits lors d’un même usage. <em><strong>Clé :</strong></em> 🧩 Mental: Difundend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet de lire les pensées de la cible à différents niveaux de profondeur.</p>
+<hr>
+<h2 id="télépathie">Télépathie </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Connexion ⧉</span> (Necto (Lier) / Elonect (Elo + nect)) : Génère un effet qui permet au lanceur de sort de s'entretenir avec une cible par télépathie, pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mots minus la distance entre les deux protagonistes. <em><strong>Clé :</strong></em> 🧩 Mental: Elonectend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet la télépathie avec une cible pour un nombre limité de mots.</p>
+<hr>
+<h2 id="création-de-souvenirs">Création de Souvenirs </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Malédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Falsification ⧖</span> (Fallo (Tromper) / Malfallo (Mal + fallo)) : Génère un enchantement qui inflige une pénalité aux tests de sincérité de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. <em><strong>Clé :</strong></em> 🧩 Mental: Evfallend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Inflige une pénalité aux tests de sincérité de la cible.</p>
+<hr>
+<h2 id="message-magique">Message Magique </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Retranscription ⧉</span> (Scribo (Écrire) / Erutran (Eru + tran)) : Génère un message envoyé à une cible à portée, le message est limité à <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mots. <em><strong>Clé :</strong></em> 🧩 Mental: Erutranend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Envoie un court message mental à une cible.</p>
+<hr>
+<h2 id="lesprit-dépasse-la-magie">L'Esprit dépasse la Magie </h2>
+<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Divination<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Omnipotence ⊙</span> (Omnis (Tout) / Doromnis (Dor + omnis)) : Génère un enchantement positif qui permet à la cible d'imaginer et de lancer n'importe quel sort à la volée, pour un total maximum de drain (avant réductions etc) de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2]</span> (après quoi l'enchantement expire), le niveau du sort est limité par le niveau de sort qui peux être lancé dans le domaine du savoir. <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet d'imaginer et lancer n'importe quel sort à la volée jusqu'à une limite de drain.</p>
+<hr>
+<h2 id="entraves-mentales">Entraves Mentales </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Entrave ⧗</span> (Impedio (Empêcher) / Cariped (Car + iped)) : Génère un enchantement qui permet au lanceur de sort de empêcher sa cible d'agir, pour le prix d'une action libre le lanceur du sort peux ainsi empêcher sa cible de réaliser une action d'un type choisit, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même), l'enchantement prend fin après que la cible s'est vue bannir d'un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> actions. <em><strong>Clé :</strong></em> 🧩 Mental: Caripedyend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Empêche temporairement la cible d'effectuer un type d'action.</p>
+<hr>
+<h2 id="contrôle-magique">Contrôle Magique </h2>
+<p><em><strong>Difficulté :</strong></em> 14, <em><strong>Drain :</strong></em> 14, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Conjuration<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Marionnettisation ⧗</span> (Pupus (Poupée) / Conpupa (Con + pupa)) : Génère un enchantement qui permet au lanceur de sort de contrôler partiellement les faits et geste d'une cible, pour le prix d'une action libre le lanceur du sort peux ainsi forcer sa cible à réaliser une action, dés que c'est à elle d'agir celle ci tentera de réaliser l'action en question en premier lieu, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même), l'enchantement prend fin après que la cible est réalisée ou refusée <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> actions forcées. <em><strong>Clé :</strong></em> 🧩 Mental: Conpupaend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Contrôle partiellement les actions de la cible.</p>
+<hr>
+<h2 id="domination-totale">Domination Totale </h2>
+<p><em><strong>Difficulté :</strong></em> 12+X, <em><strong>Drain :</strong></em> 12+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Domination ✧</span> (Dominus (Maître) / Lirdomin (Lir + domin)) : Génère un enchantement positif qui augmente l'impact des actions tactique menées par la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. <em><strong>Clé :</strong></em> 🧩 Mental: Cendominend</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Augmente l'impact des actions tactiques de la cible.</p>
+<hr>
+<h2 id="grain-de-folie">Grain de Folie </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Folie.</p>
+<p><em><strong>Notes :</strong></em> Condition : Folie.</p>
+<hr>
+<h2 id="eclat-de-furie">Eclat de Furie </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Furie.</p>
+<p><em><strong>Notes :</strong></em> Condition : Furie.</p>
+<hr>
+<h2 id="confusion-mentale">Confusion Mentale </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Confusion.</p>
+<p><em><strong>Notes :</strong></em> Condition : Confusion.</p>
+<hr>
+<h2 id="voile-de-morphée">Voile de Morphée </h2>
+<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 18, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Altération<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
+<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Applique une condition de Sommeil en zone large.</p>
+<p><em><strong>Notes :</strong></em> Condition : Sommeil.</p>
+<hr>
+<h2 id="don-dexcelsior">Don d'Excelsior </h2>
+<p><em><strong>Difficulté :</strong></em> 14+X, <em><strong>Drain :</strong></em> 14+X, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩🧩, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.<br>
+<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.</p>
+<blockquote>
+<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> 🧩 Mental<br>
+<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Permet de stocker deux effets conditionnels (Assurance &amp; Excellence).</p>
+<p><em><strong>Notes :</strong></em> Conditions : Assurance &amp; Excellence.</p>
+<hr>
+<h2 id="omniscience">Omniscience </h2>
+<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🧩, <em><strong>École du sort :</strong></em> École d'Évocation<br>
+<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
+<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
+<blockquote>
+<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). <em><strong>Clé :</strong></em> 🧩 Mental</p>
+</blockquote>
+<p><em><strong>Description :</strong></em> Stocke un effet qui se déclenche sous une condition précise (Omniscience).</p>
+<p><em><strong>Notes :</strong></em> Condition : Omniscience.</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

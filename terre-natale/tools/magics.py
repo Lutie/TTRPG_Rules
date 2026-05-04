@@ -591,13 +591,22 @@ def generate_spells_from_sorts() -> None:
     # Index by full vulgar name (with school symbol, e.g. "Bête de Feu ✪")
     # AND by stripped name (without symbol) so lookups from the Sorts sheet work
     # regardless of whether the symbol is present.
+    # When multiple schools share the same bare name, the first school in
+    # SCHOOL_SHEETS order wins (preserved behaviour). The bare_name_ambiguous
+    # set is used to emit a warning whenever such a name is actually resolved,
+    # so the Sorts sheet can be updated to use the explicit symbol form
+    # (e.g. "Affliction ≈") for disambiguation.
     main_by_vulgar: Dict[str, Any] = {}
+    bare_name_ambiguous: set = set()
     for w in main_words:
         main_by_vulgar[w["vulgar"]] = w
-        # Also index by the name without the trailing symbol token
         parts = w["vulgar"].rsplit(" ", 1)
         if len(parts) == 2:
-            main_by_vulgar.setdefault(parts[0], w)
+            bare = parts[0]
+            if bare in main_by_vulgar:
+                bare_name_ambiguous.add(bare)
+            else:
+                main_by_vulgar.setdefault(bare, w)
     extra_by_name = {w["name"]: w for w in extra_words}
 
     # Access 'Sorts' sheet
@@ -697,18 +706,29 @@ def generate_spells_from_sorts() -> None:
         has_power2 = bool(power2_name)
         has_linked = bool(linked_name)
         
+        def lookup_main_word(name: str, spell_title: str) -> Optional[Dict[str, Any]]:
+            entry = main_by_vulgar.get(name)
+            if entry and name in bare_name_ambiguous:
+                print(
+                    f"[WARN] Sort '{spell_title}': mot '{name}' est ambigu "
+                    f"(partagé entre plusieurs écoles). École résolue : "
+                    f"{entry.get('school_label', '?')} ({entry.get('vulgar', '?')}). "
+                    f"Utiliser le nom avec symbole dans la feuille Sorts pour lever l'ambiguïté."
+                )
+            return entry
+
         if power_name:
             # Ajuster le rôle selon qu'il y ait d'autres mots de pouvoir
             if has_power2 or has_linked:
                 power_role = "power_main"
             else:
                 power_role = "power_single"
-            
+
             words_used.append({
                 "role": power_role,
                 "name": power_name,
                 "key": power_key,
-                "entry": main_by_vulgar.get(power_name),
+                "entry": lookup_main_word(power_name, title),
                 "source": "main",
             })
 
@@ -737,7 +757,7 @@ def generate_spells_from_sorts() -> None:
                 "role": "power2",
                 "name": power2_name,
                 "key": power2_key,
-                "entry": main_by_vulgar.get(power2_name),
+                "entry": lookup_main_word(power2_name, title),
                 "source": "main",
             })
 
@@ -747,7 +767,7 @@ def generate_spells_from_sorts() -> None:
                 "role": "linked",
                 "name": linked_name,
                 "key": linked_key,
-                "entry": main_by_vulgar.get(linked_name),
+                "entry": lookup_main_word(linked_name, title),
                 "source": "main",
             })
 

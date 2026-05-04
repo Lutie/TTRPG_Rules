@@ -2,55 +2,55 @@
 
 > 5 sorts pour Corps
 
-## Force de Taureau
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🐗, ***École du sort :*** École de Bénédiction
+## Mantra de Force
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🐗 Faune: Lemspeciaorh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps: Lemspeciaen
 
 ***Notes :*** Attribut : Force.
 
 ---
 
-## Constitution de l'Ours
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🐗, ***École du sort :*** École de Bénédiction
+## Mantra de Constitution
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🐗 Faune: Lemspeciaorh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps: Lemspeciaen
 
 ***Notes :*** Attribut : Constitution.
 
 ---
 
-## Dextérité du Loups
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🐗, ***École du sort :*** École de Bénédiction
+## Mantra de Perception
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🐗 Faune: Lemspeciaorh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps: Lemspeciaen
 
-***Notes :*** Attribut : Loups.
+***Notes :*** Attribut : Perception.
 
 ---
 
-## Agilité du Chat
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🐗, ***École du sort :*** École de Bénédiction
+## Mantra de Dextérité
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🐗 Faune: Lemspeciaorh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps: Lemspeciaen
 
 ***Notes :*** Attribut : Dextérité.
 
 ---
 
-## Perception de l'Aigle
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🐗, ***École du sort :*** École de Bénédiction
+## Mantra de Agilité
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> ['Béné'!C53] (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🐗 Faune: Lemspeciaorh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Spécialisation ✧</span> (Specialis (Particulier) / Lemspecia (Lem + specia)) : Génère un enchantement positif qui augmente un attribut (définit à la création du sort selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚕️ Corps: Lemspeciaen
 
 ***Notes :*** Attribut : Agilité.
