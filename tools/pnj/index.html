@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terre Natale — Forgeur de PNJ</title>
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="pnj.css">
+</head>
+<body>
+
+<h1>⚔ Forgeur de PNJ</h1>
+
+<div class="tab-bar">
+  <button class="tab-btn" data-tab="biblio">📚 Bibliothèque</button>
+  <button class="tab-btn active" data-tab="create">⚒ Créer / Éditer</button>
+  <button class="tab-btn" data-tab="io">⇅ Import / Export</button>
+  <button class="tab-btn" data-tab="donnees">🗄 Données</button>
+</div>
+
+<!-- Bibliothèque -->
+<div id="tab-biblio" class="tab-panel tab-hidden">
+  <div class="biblio-toolbar">
+    <span id="biblio-count" class="muted">0 profil(s)</span>
+    <button class="tool-btn" id="btn-new-from-biblio">+ Nouveau profil</button>
+  </div>
+  <div id="profile-grid" class="profile-grid">
+    <p class="muted">Aucun profil sauvegardé.</p>
+  </div>
+</div>
+
+<!-- Créer / Éditer -->
+<div id="tab-create" class="tab-panel">
+
+  <div class="save-bar">
+    <input type="text" id="profile-name" class="name-input" placeholder="Nom du profil…" maxlength="60">
+    <button class="tool-btn save-btn" id="btn-save">💾 Sauvegarder</button>
+    <button class="tool-btn" id="btn-new-profile">✦ Nouveau</button>
+    <span id="save-status" class="save-status"></span>
+  </div>
+
+  <div class="layout">
+
+    <!-- Col 1 -->
+    <div class="col col-left">
+
+      <div class="panel">
+        <h2>Taxonomie</h2>
+        <div class="field">
+          <label>Règne</label>
+          <div class="field-row">
+            <select id="sel-regne" class="nes-select"></select>
+            <button class="add-btn" data-modal="regne">+</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Race</label>
+          <div class="field-row">
+            <select id="sel-race" class="nes-select"><option value="">— choisir un règne —</option></select>
+            <button class="add-btn" data-modal="race">+</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Ethnie <small>(✦ = transverse)</small></label>
+          <div class="field-row">
+            <select id="sel-ethnie" class="nes-select"><option value="">— Aucune —</option></select>
+            <button class="add-btn" data-modal="ethnie">+</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Lignée <small>(✦ = transverse)</small></label>
+          <div class="field-row">
+            <select id="sel-lignee" class="nes-select"><option value="">— Aucune —</option></select>
+            <button class="add-btn" data-modal="lignee">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Rang &amp; Rôle</h2>
+        <div class="field"><label>Rang</label><select id="sel-rang" class="nes-select"></select></div>
+        <div class="field"><label>Rôle</label><select id="sel-role" class="nes-select"></select></div>
+        <div class="info-bar" id="rang-info"></div>
+        <div class="info-bar" id="role-info"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Armes &amp; Armures naturelles</h2>
+        <div class="nat-row">
+          <span class="nat-label">Arme nat.</span>
+          <div class="nat-ctrl">
+            <button class="nat-btn" data-field="arme_nat" data-delta="-1">−</button>
+            <span id="arme-nat-val" class="nat-val">0</span>
+            <button class="nat-btn" data-field="arme_nat" data-delta="1">+</button>
+          </div>
+          <span class="nat-bar" id="arme-nat-bar"></span>
+        </div>
+        <div class="nat-row">
+          <span class="nat-label">Armure nat.</span>
+          <div class="nat-ctrl">
+            <button class="nat-btn" data-field="armure_nat" data-delta="-1">−</button>
+            <span id="armure-nat-val" class="nat-val">0</span>
+            <button class="nat-btn" data-field="armure_nat" data-delta="1">+</button>
+          </div>
+          <span class="nat-bar" id="armure-nat-bar"></span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Attrs secondaires <span id="sec-valid" class="tier-valid"></span></h2>
+        <p class="muted">Somme : <strong id="sec-total" class="sec-total-val">0</strong> (doit être 0)</p>
+        <table class="sec-table">
+          <thead><tr><th>Attr.</th><th>Base</th><th>Ajust.</th><th>Final</th></tr></thead>
+          <tbody id="sec-tbody"></tbody>
+        </table>
+        <p class="muted sec-note">EQU = M + Ajust. du rang (calculé)</p>
+      </div>
+
+    </div>
+
+    <!-- Col 2 -->
+    <div class="col col-mid">
+
+      <div class="panel">
+        <h2>Boosts &amp; Deboosts</h2>
+        <p class="muted">Cliquer pour cycler : <span class="bd-plus-eg">+</span> boost → <span class="bd-minus-eg">−</span> deboost → · vide</p>
+        <div id="boost-table-container" class="boost-scroll"></div>
+        <p class="muted boost-rule">Race &amp; Ethnie : paires égales (≥1). &nbsp; Lignée : 2 boosts, 0 deboosts. &nbsp; Règne : paires ou vide.</p>
+      </div>
+
+      <div class="panel">
+        <h2>Attributs</h2>
+        <h3>TH×2 H×2 M×2 B×2 — reste TB<span id="tier-valid"></span></h3>
+        <table class="attr-table">
+          <thead><tr>
+            <th style="text-align:left">Attr.</th>
+            <th>Tier</th><th>Base</th><th>Mod.</th><th>Final</th>
+          </tr></thead>
+          <tbody id="attr-tbody"></tbody>
+        </table>
+        <p class="tb-line">TB auto : <span id="tb-summary">—</span></p>
+        <p class="eq-line">Équilibre (M + Ajust.) : <strong id="equilibre-val">—</strong></p>
+      </div>
+
+    </div>
+
+    <!-- Col 3 : recaps read-only -->
+    <div class="col col-right">
+
+      <div class="panel">
+        <h2>Groupes &amp; Compétences</h2>
+        <div class="recap-two-cols">
+          <div class="recap-col">
+            <h3>Groupes</h3>
+            <div id="result-groupes"><p class="muted">—</p></div>
+          </div>
+          <div class="recap-col">
+            <h3>Compétences</h3>
+            <div id="result-competences"><p class="muted">—</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Actions</h2>
+        <div id="result-actions"><p class="muted">—</p></div>
+      </div>
+
+      <div class="panel">
+        <h2>Sauvegardes</h2>
+        <div id="result-saves"><p class="muted">—</p></div>
+      </div>
+
+      <div class="panel">
+        <h2>Particularités</h2>
+        <div id="result-parts"><p class="muted">Sélectionner un règne, une race et/ou une ethnie.</p></div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Import / Export -->
+<div id="tab-io" class="tab-panel tab-hidden">
+  <div class="io-layout">
+    <div class="panel io-panel">
+      <h2>Exporter profils</h2>
+      <p class="muted">Télécharge tous les profils sauvegardés en un fichier JSON.</p>
+      <button class="tool-btn" id="btn-export">↓ Télécharger JSON</button>
+      <div class="io-sep"></div>
+      <p class="muted">Ou copier le JSON brut :</p>
+      <textarea id="export-json" class="io-textarea" readonly placeholder="(vide)"></textarea>
+      <button class="tool-btn" id="btn-copy-json">Copier</button>
+      <span id="copy-status" class="save-status"></span>
+    </div>
+    <div class="panel io-panel">
+      <h2>Importer profils</h2>
+      <p class="muted">Les profils importés s'ajoutent à la bibliothèque. Les doublons (même ID) sont ignorés.</p>
+      <div class="field">
+        <label>Fichier JSON</label>
+        <input type="file" id="import-file" accept=".json" class="io-file-input">
+      </div>
+      <p class="muted">— ou —</p>
+      <textarea id="import-json" class="io-textarea" placeholder="Coller du JSON ici…"></textarea>
+      <button class="tool-btn" id="btn-import">↑ Importer</button>
+      <div id="import-status" class="io-status"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Données -->
+<div id="tab-donnees" class="tab-panel tab-hidden">
+  <div class="donnees-toolbar">
+    <div class="dtype-tabs">
+      <button class="dtype-tab active" data-type="regne">Règnes</button>
+      <button class="dtype-tab" data-type="race">Races</button>
+      <button class="dtype-tab" data-type="ethnie">Ethnies</button>
+      <button class="dtype-tab" data-type="lignee">Lignées</button>
+      <button class="dtype-tab" data-type="particularite">Particularités</button>
+      <button class="dtype-tab" data-type="action">Actions</button>
+    </div>
+    <div class="donnees-actions">
+      <button class="tool-btn" id="btn-new-entry">+ Nouveau</button>
+      <button class="tool-btn" id="btn-export-data">↓ Exporter</button>
+      <button class="tool-btn" id="btn-import-data-open">↑ Importer</button>
+      <input type="file" id="import-data-file" accept=".json" style="display:none">
+    </div>
+  </div>
+  <div id="donnees-list" class="donnees-list"></div>
+</div>
+
+<!-- Modale -->
+<div id="modal-overlay" class="modal-overlay modal-hidden">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span id="modal-title" class="modal-title">Nouvelle entrée</span>
+      <button class="modal-close" id="modal-close">✕</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+    <div class="modal-footer">
+      <button class="tool-btn save-btn" id="modal-ok">✓ Valider</button>
+      <button class="tool-btn" id="modal-cancel">Annuler</button>
+    </div>
+  </div>
+</div>
+
+<script src="pnj.js"></script>
+</body>
+</html>
