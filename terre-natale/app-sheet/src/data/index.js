@@ -1,6 +1,6 @@
 // data/index.js - Données statiques pour Terre Natale
 // NOTE: traits.json est AUTO-GÉNÉRÉ via tools/generate_traits_js.py (voir ce script pour mise à jour)
-import traits from './traits.json';
+import _traitsRaw from './traits.json';
 import particularites from './particularites.json';
 import _rawEthnies from './ethnies.json';
 import competences from './competences.json';
@@ -119,7 +119,7 @@ export const vecus = [
 export const coutSecondaire = { 8: 5, 9: 2, 10: 0, 11: -4, 12: -9 };
 export const coutChance = { 8: 9, 9: 5, 10: 0, 11: -6, 12: -13 };
 
-export const manoeuvres = _manoeuvresJson.map((m, i) => ({ id: i + 1, ...m }));
+export const manoeuvres = _manoeuvresJson.map((m, i) => ({ id: i + 1, ...m })).sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 export const sorts = [
   { id: 1, nom: 'Sort 1', description: '' },
@@ -131,7 +131,7 @@ export const patrons = [
   { id: 2, nom: 'Patron 2', description: '' }
 ];
 
-export const prouesses = _prouessesJson.map((p, i) => ({ id: i + 1, ...p }));
+export const prouesses = _prouessesJson.map((p, i) => ({ id: i + 1, ...p })).sort((a, b) => (a.nom_fluff || a.nom).localeCompare(b.nom_fluff || b.nom, 'fr'));
 
 export const typesMémoire = [
   { id: 0, nom: 'Manœuvre', liste: manoeuvres },
@@ -186,7 +186,7 @@ export const conditions = _conditionsJson.map(c => ({
 }));
 
 // Castes — importées depuis ./castes.json (auto-généré via tools/castes.py)
-export const castes = _castes;
+export const castes = [..._castes].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 // Compétences — importées depuis ./competences.json et ./categories_competences.json (auto-généré)
 export { competences, categoriesCompetences };
@@ -195,7 +195,7 @@ export { competences, categoriesCompetences };
 export { competencesMagie, categoriesMagie };
 
 // Traits — importés depuis ./traits.json (AUTO-GÉNÉRÉ via tools/generate_traits_js.py → maintenant generate_traits_json.py)
-export { traits };
+export const traits = [..._traitsRaw].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
 // Particularités d'ethnies — généré par tools/parse_particularites.py
 export { particularites };

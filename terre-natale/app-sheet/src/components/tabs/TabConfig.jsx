@@ -86,6 +86,7 @@ const BONUS_GROUPS = [
   {
     groupe: 'Magie',
     types: [
+      { id: 'memoireDesSorts', nom: 'Mémoire des Sorts' },
       { id: 'porteeMagique', nom: 'Portée Magique' },
       { id: 'tempsIncantation', nom: 'Temps Incantation' },
       { id: 'expertiseMagique', nom: 'Expertise Magique' },

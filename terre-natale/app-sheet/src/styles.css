@@ -739,6 +739,9 @@ header h1 {
 }
 
 .caste-progression-rang {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-family: var(--font-title);
   font-size: 1rem;
   font-weight: 700;
@@ -779,6 +782,86 @@ header h1 {
   color: var(--color-negative);
   text-transform: none;
 }
+
+.btn-rang-override {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  color: var(--color-text-light);
+  cursor: pointer;
+  font-size: 0.7rem;
+  line-height: 1;
+  padding: 1px 4px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-rang-override:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+.rang-overridden .btn-rang-override {
+  border-color: var(--color-warning, #f59e0b);
+  color: var(--color-warning, #f59e0b);
+}
+
+.override-rang-modal {
+  max-width: 340px;
+  width: 90%;
+}
+.override-rang-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.override-rang-calc {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  margin: 0;
+}
+.override-rang-active {
+  color: var(--color-warning, #f59e0b);
+  font-weight: 600;
+}
+.override-rang-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.override-rang-input {
+  width: 80px;
+  padding: 6px 8px;
+  background: var(--color-bg-dark);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  font-size: 1rem;
+  text-align: center;
+}
+.override-rang-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.btn-override-clear {
+  background: none;
+  border: 1px solid var(--color-negative);
+  border-radius: 4px;
+  color: var(--color-negative);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+}
+.btn-override-clear:hover { opacity: 0.8; }
+.btn-override-apply {
+  background: var(--color-accent);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 14px;
+}
+.btn-override-apply:hover { opacity: 0.9; }
 
 /* === Tradition Magique === */
 .tradition-field {

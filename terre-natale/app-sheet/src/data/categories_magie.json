@@ -15,6 +15,7 @@
       {
         "id": "arcanes",
         "nom": "Arcanes",
+        "description": "Les arcanes permettent d'interagir avec la magie une fois que le mana a pris forme. Cela ne requiert par conséquent pas d'utiliser ses propres ressources et les usages sont variés.",
         "limitant": false,
         "libre": false,
         "competences": [

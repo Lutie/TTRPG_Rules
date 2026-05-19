@@ -5477,18 +5477,23 @@
     ]
   },
   {
-    "id": "drakkan",
-    "nom": "Drakkan",
-    "sousNom": null,
-    "race": "Semie",
+    "id": "drakkan-rouge",
+    "nom": "Drakkan Rouge",
+    "sousNom": "Tiamat",
     "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
     "competences": [
-      "..."
+      "Melee",
+      "Endurance",
+      "Persuasion",
+      "Spellcasting",
+      "Tactical",
+      "Leadership",
+      "Brawl",
+      "Defense"
     ],
-    "traits_personnalite": [
-      "Depends on heritage (spawn type)"
-    ],
-    "attributs_forts": [],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
     "attributs_faibles": [],
     "attributs_naissance": {
       "STA": {
@@ -5523,14 +5528,8 @@
       "Ambition",
       "Faith"
     ],
-    "environnement": [
-      "Desert",
-      "Mountain",
-      "or Subterranean"
-    ],
     "nature": null,
     "totem": null,
-    "famille": "Draconic Beings",
     "origines": null,
     "religion": null,
     "particularites_naissance": [
@@ -5593,7 +5592,911 @@
         "anchor": "cult-dragon-powers",
         "coutPP": 1
       }
+    ],
+    "attributs_forts": [
+      "FOR",
+      "CHA"
+    ],
+    "environnement": [
+      "Warm",
+      "Arid"
     ]
+  },
+  {
+    "id": "drakkan-vert",
+    "nom": "Drakkan Vert",
+    "sousNom": "Prometheus",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [
+      "Endurance",
+      "Craftsmanship",
+      "Erudition",
+      "Survival",
+      "Melee",
+      "Tactical",
+      "Defense",
+      "Leadership"
+    ],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      "CON",
+      "VOL"
+    ],
+    "environnement": [
+      "Forest",
+      "Verdant"
+    ]
+  },
+  {
+    "id": "drakkan-bleu",
+    "nom": "Drakkan Bleu",
+    "sousNom": "Leviathan",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [
+      "Swimming",
+      "Acrobatics",
+      "Melee",
+      "Subterfuge",
+      "Persuasion",
+      "Finesse",
+      "Brawl",
+      "Survival"
+    ],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      "DEX",
+      "INT"
+    ],
+    "environnement": [
+      "Waters",
+      "Cold"
+    ]
+  },
+  {
+    "id": "drakkan-jaune",
+    "nom": "Drakkan Jaune",
+    "sousNom": "Aquilon",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [
+      "Athletics",
+      "Melee",
+      "Persuasion",
+      "Finesse",
+      "Leadership",
+      "Acrobatics",
+      "Negotiation",
+      "Survival"
+    ],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      "AGI",
+      "RUS"
+    ],
+    "environnement": [
+      "Windy",
+      "High grounds"
+    ]
+  },
+  {
+    "id": "drakkan-noir",
+    "nom": "Drakkan Noir",
+    "sousNom": "Bahamut",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [
+      "Subterfuge",
+      "Melee",
+      "Tactical",
+      "Discretion",
+      "Persuasion",
+      "Brawl",
+      "Spellcrafting",
+      "Survival"
+    ],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      {
+        "pool": [
+          "FOR",
+          "DEX",
+          "AGI",
+          "CON",
+          "PER"
+        ],
+        "nb": 2,
+        "differents": true
+      }
+    ],
+    "environnement": [
+      "Filthy",
+      "Dark"
+    ]
+  },
+  {
+    "id": "drakkan-blanc",
+    "nom": "Drakkan Blanc",
+    "sousNom": "Chromium",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [
+      "Persuasion",
+      "Leadership",
+      "Defense",
+      "Erudition",
+      "Spellcasting",
+      "Tactical",
+      "Negotiation",
+      "Endurance"
+    ],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      {
+        "pool": [
+          "CHA",
+          "INT",
+          "RUS",
+          "VOL",
+          "SAG"
+        ],
+        "nb": 2,
+        "differents": true
+      }
+    ],
+    "environnement": [
+      "Neutral"
+    ]
+  },
+  {
+    "id": "drakkan-violet",
+    "nom": "Drakkan Violet",
+    "sousNom": "Arcanum",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [
+      "Spellcasting",
+      "Erudition",
+      "Meditation",
+      "Spellcrafting",
+      "Persuasion",
+      "Craftsmanship",
+      "Tactical",
+      "Leadership"
+    ],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      "MAG",
+      {
+        "pool": [
+          "CHA",
+          "INT",
+          "RUS",
+          "VOL",
+          "SAG"
+        ],
+        "nb": 1
+      }
+    ],
+    "environnement": [
+      "Magical places",
+      "Plans of existence"
+    ]
+  },
+  {
+    "id": "drakkan-gris",
+    "nom": "Drakkan Gris",
+    "sousNom": "Gileyn Fu",
+    "description": "The Drakkan are descendants of ancient dragons whose origins stretch so far back in time that no living people can recount them with certainty. Their existence predates most written histories, and even the oldest traditions speak of them only in fragments—stories of great wyrms who once walked the world and left behind mortal offspring. Whether these dragons took physical form, shifted shapes, or begot children through more mystical means is unknown; what remains undeniable is that the Drakkan carry the unmistakable mark of dragonkind.\n\nRecognizable by their horns, scaled skin, powerful physiques, tails, and vestigial wings, Drakkan embody the traits of the Primordial Dragons they descend from. Each lineage reflects the temperament of its progenitor: fiery ambition from Tiamat, resilience and wisdom from Prometheus, cunning fluidity from Leviathan, competitive energy from Aquilon, sharp insight or shadowed instinct from Bahamut, rigid justice from Chromium, or mystical intellect from Arcanum.\n\nTheir past is heavy. Long ago, Drakkan civilizations rose to frightening heights, driven by pride, power, or loyalty to their draconic blood. Their wars—sometimes among themselves, sometimes against other peoples—were so devastating that entire nations united simply to survive them. Though these conflicts are long gone, the memory persists. Many Drakkan today bear the burden of that legacy, living under suspicion or outright fear from other cultures.\n\nDrakkan communities are rare and scattered. Some embrace ancient customs; others reject their heritage, attempting to build humbler lives far from the weight of legend. A few even try to restore a lost sense of honor, arguing that the sins of their ancestors should not define them. Yet everywhere they go, their lineage precedes them—respected by some, distrusted by many, and treated as living artifacts of an age forgotten.\n\nThe Primordial Dragons themselves have vanished, believed by scholars either dead, slumbering, or wandering worlds beyond reach. Drakkan grow up surrounded by tales of these forebears, though none can claim to truly know them. Still, denying the connection is considered foolish—perhaps even dangerous—for it is said that nothing angers a Drakkan more than mocking the truth they carry in their blood.",
+    "competences": [],
+    "race": "Semie",
+    "famille": "Draconic Beings",
+    "traits_personnalite": [],
+    "attributs_faibles": [],
+    "attributs_naissance": {
+      "STA": {
+        "min": 11,
+        "max": 12
+      },
+      "TAI": {
+        "min": 11,
+        "max": 12
+      },
+      "EGO": {
+        "min": 11,
+        "max": 12
+      },
+      "APP": {
+        "min": 6,
+        "max": 8
+      },
+      "CHN": {
+        "min": 6,
+        "max": 8
+      },
+      "EQU": {
+        "min": 10,
+        "max": 11
+      }
+    },
+    "allegeances": [
+      "Neutral",
+      "Heritage",
+      "Chaos",
+      "Ambition",
+      "Faith"
+    ],
+    "nature": null,
+    "totem": null,
+    "origines": null,
+    "religion": null,
+    "particularites_naissance": [
+      {
+        "nom": "Natural Weapons / Armor",
+        "anchor": "birth-natural-wa"
+      },
+      {
+        "nom": "Stronger Natural Weapons",
+        "anchor": "birth-stronger-natural-weapons"
+      },
+      {
+        "nom": "Stronger Natural Armor",
+        "anchor": "birth-stronger-natural-armor"
+      },
+      {
+        "nom": "Chromatic Blood",
+        "anchor": "birth-chromatic-blood"
+      },
+      {
+        "nom": "Winged Creature",
+        "anchor": "birth-winged-creature",
+        "morphologique": true
+      },
+      {
+        "nom": "Tail",
+        "anchor": "birth-tail",
+        "morphologique": true
+      },
+      {
+        "nom": "Horns",
+        "anchor": "birth-horns",
+        "morphologique": true
+      },
+      {
+        "nom": "Natural Resistance",
+        "anchor": "birth-natural-resistance"
+      },
+      {
+        "nom": "Hornamental Magic Tradition",
+        "anchor": "birth-hornamental-magic-tradition"
+      }
+    ],
+    "particularites_culturelles": [
+      {
+        "nom": "Origin-Specific Environment Affinity",
+        "anchor": "cult-affinity"
+      },
+      {
+        "nom": "Surnatural Resistance",
+        "anchor": "birth-surnatural-resistance"
+      },
+      {
+        "nom": "Dragon Breath",
+        "anchor": "cult-dragon-breath",
+        "coutPP": 1
+      },
+      {
+        "nom": "Dragon Powers",
+        "anchor": "cult-dragon-powers",
+        "coutPP": 1
+      }
+    ],
+    "attributs_forts": [
+      "RUS",
+      "VOL"
+    ],
+    "environnement": []
   },
   {
     "id": "ogren",

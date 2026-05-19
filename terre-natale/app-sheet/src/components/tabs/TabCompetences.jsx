@@ -469,7 +469,10 @@ function TabCompetences() {
                   {compsInvestis.map(comp => {
                     const k = compKey(comp);
                     const rangComp = stored.competences?.[k] || 0;
-                    const attrChoisi = stored.attributsChoisis?.[k] || defaultAttr(comp);
+                    const tradAttr = comp.attrTradition
+                      ? (DATA.traditions.find(t => t.id === character.tradition)?.attribut || null)
+                      : null;
+                    const attrChoisi = tradAttr || stored.attributsChoisis?.[k] || defaultAttr(comp);
                     const bonus = calculerModificateur(getValeurTotale(character, attrChoisi)) + rangGroupe + rangComp;
                     return (
                       <div key={k} className="comp-summary-comp">

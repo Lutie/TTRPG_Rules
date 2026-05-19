@@ -141,7 +141,7 @@ function TabMemoire() {
   const memoireEntries = character.memoire || [];
   const sorts = character.sorts || [];
   const memoireMax = calc.memoire;
-  const memoireDesSorts = character.bonusConfig?.memoireDesSorts || 0;
+  const memoireDesSorts = calc.memoireDesSorts || 0;
   const sortsComptabilises = Math.max(0, sorts.length - memoireDesSorts);
   const memoireUsed = memoireEntries.length + sortsComptabilises;
   const magieActive = character.options?.magieActive || false;

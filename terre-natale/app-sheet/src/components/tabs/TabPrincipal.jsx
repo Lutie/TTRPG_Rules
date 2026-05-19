@@ -348,7 +348,11 @@ function TabPrincipal() {
       {/* Ressources */}
       <Section title="Ressources">
         <div className="ressources-grid">
-          {DATA.ressources.map(res => {
+          {DATA.ressources.filter(res => {
+            if (res.type === 'tradition') return !!character.options?.magieActive;
+            if (res.type === 'science')   return !!character.options?.scienceActive;
+            return true;
+          }).map(res => {
             const max = calc.ressourcesMax[res.id] || 0;
             const recup = calc.recuperationRessource[res.id] || 0;
             const isCasteRessource = calc.caste?.ressources?.includes(res.id);
@@ -475,9 +479,36 @@ function CaracBox({ name, value, help, details }) {
 
 function CasteSection({ character, updateCharacter, calc }) {
   const [showProgression, setShowProgression] = useState(false);
+  const [showOverrideModal, setShowOverrideModal] = useState(false);
+  const [overrideInput, setOverrideInput] = useState('');
   const casteActuelle = calc.caste;
   const estLimiteParAptitude = calc.rangAptitude < calc.rangXP;
   const estLimiteParXP = calc.rangXP < calc.rangAptitude;
+  const hasOverride = calc.aptitudeOverride !== null;
+
+  const handleOpenOverride = () => {
+    setOverrideInput(String(calc.aptitudeOverride ?? calc.rangAptitudeCalc));
+    setShowOverrideModal(true);
+  };
+
+  const handleApplyOverride = () => {
+    const val = parseInt(overrideInput);
+    if (!isNaN(val) && val >= 0) {
+      updateCharacter(prev => ({
+        ...prev,
+        caste: { ...prev.caste, rangAptitudeOverride: val }
+      }));
+    }
+    setShowOverrideModal(false);
+  };
+
+  const handleClearOverride = () => {
+    updateCharacter(prev => {
+      const { rangAptitudeOverride, ...casteRest } = prev.caste || {};
+      return { ...prev, caste: casteRest };
+    });
+    setShowOverrideModal(false);
+  };
 
   // Calcul progression aptitude
   let aptitudePct = 100;
@@ -586,7 +617,14 @@ function CasteSection({ character, updateCharacter, calc }) {
         <div className={`caste-progression-block ${estLimiteParAptitude ? 'progression-limite' : ''}`}>
           <div className="caste-progression-header">
             <span className="caste-progression-label">Aptitude</span>
-            <span className="caste-progression-rang">Rang {calc.rangAptitude}</span>
+            <span className={`caste-progression-rang${hasOverride ? ' rang-overridden' : ''}`}>
+              Rang {calc.rangAptitude}
+              <button
+                className="btn-rang-override"
+                onClick={handleOpenOverride}
+                title={hasOverride ? `Override actif (calculé : ${calc.rangAptitudeCalc})` : 'Définir manuellement'}
+              >{hasOverride ? '✎' : '⋯'}</button>
+            </span>
             <span className="caste-progression-value">
               {calc.aptitude}{calc.nextProgression ? ` / ${calc.nextProgression.reqAptitude}` : ''}
             </span>
@@ -598,6 +636,44 @@ function CasteSection({ character, updateCharacter, calc }) {
             />
           </div>
         </div>
+
+        {showOverrideModal && (
+          <div className="modal-overlay" onClick={() => setShowOverrideModal(false)}>
+            <div className="modal-content override-rang-modal" onClick={e => e.stopPropagation()}>
+              <div className="modal-header">
+                <h3 className="modal-title">Override — Rang d'Aptitude</h3>
+                <button className="modal-close" onClick={() => setShowOverrideModal(false)}>✕</button>
+              </div>
+              <div className="override-rang-body">
+                <p className="override-rang-calc">
+                  Rang calculé automatiquement : <strong>{calc.rangAptitudeCalc}</strong>
+                  {hasOverride && <span className="override-rang-active"> (override actif)</span>}
+                </p>
+                <label className="override-rang-label">Rang manuel :</label>
+                <input
+                  type="number"
+                  className="override-rang-input"
+                  min="0"
+                  max="12"
+                  value={overrideInput}
+                  onChange={e => setOverrideInput(e.target.value)}
+                  onKeyDown={e => { if (e.key === 'Enter') handleApplyOverride(); if (e.key === 'Escape') setShowOverrideModal(false); }}
+                  autoFocus
+                />
+                <div className="override-rang-actions">
+                  {hasOverride && (
+                    <button className="btn-override-clear" onClick={handleClearOverride}>
+                      Retirer l'override
+                    </button>
+                  )}
+                  <button className="btn-override-apply" onClick={handleApplyOverride}>
+                    Appliquer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
         <div className={`caste-progression-block ${estLimiteParXP ? 'progression-limite' : ''}`}>
           <div className="caste-progression-header">
             <span className="caste-progression-label">Expérience</span>

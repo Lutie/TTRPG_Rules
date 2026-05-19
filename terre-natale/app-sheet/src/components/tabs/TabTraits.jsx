@@ -14,13 +14,18 @@ function TabTraits() {
 
   const [expandedTraits, setExpandedTraits] = useState({});
   const [modalType, setModalType] = useState(null); // null | 'avantage_majeur' | 'avantage_mineur' | 'desavantage'
+  const [customForm, setCustomForm] = useState(null); // null | { type: 'avantage_majeur'|'desavantage' }
 
   const characterTraits = character.traits || [];
 
   // Traits du personnage avec leurs infos complètes + index dans le tableau source
   const traitsAvecInfos = useMemo(() =>
     characterTraits
-      .map((ct, index) => ({ ...ct, _index: index, info: DATA.traits.find(t => t.id === ct.id) }))
+      .map((ct, index) => ({
+        ...ct,
+        _index: index,
+        info: ct.custom ? ct : DATA.traits.find(t => t.id === ct.id),
+      }))
       .filter(t => t.info),
     [characterTraits]
   );
@@ -92,6 +97,31 @@ function TabTraits() {
       traits: [...(prev.traits || []), { id: traitId, rang: 1 }]
     }));
     setModalType(null);
+  };
+
+  const addCustomTrait = ({ nom, type, coutPP, rangMax }) => {
+    if (!nom.trim()) return;
+    updateCharacter(prev => ({
+      ...prev,
+      traits: [...(prev.traits || []), {
+        id: crypto.randomUUID(),
+        custom: true,
+        nom: nom.trim(),
+        type,
+        coutPP,
+        rangMax,
+        rang: 1,
+        categories: [],
+      }]
+    }));
+    setCustomForm(null);
+  };
+
+  const updateCustomTrait = (index, fields) => {
+    updateCharacter(prev => ({
+      ...prev,
+      traits: (prev.traits || []).map((t, i) => i === index ? { ...t, ...fields } : t)
+    }));
   };
 
   const updateChoix = (index, choix) => {
@@ -194,8 +224,19 @@ function TabTraits() {
             emptyMsg="Aucun avantage majeur"
             onOpenModal={() => setModalType('avantage_majeur')}
             addLabel="Ajouter un avantage"
+            onAddCustom={() => setCustomForm({ type: 'avantage_majeur' })}
           >
-            {avantagesMajeurs.map(t => (
+            {avantagesMajeurs.map(t => t.custom ? (
+              <CustomTraitCard
+                key={t._index}
+                traitEntry={t}
+                expandedTraits={expandedTraits}
+                onToggle={toggleExpand}
+                onRemove={removeTrait}
+                onRangChange={updateRang}
+                onUpdate={updateCustomTrait}
+              />
+            ) : (
               <TraitCard
                 key={t._index}
                 traitEntry={t}
@@ -305,8 +346,19 @@ function TabTraits() {
             emptyMsg="Aucun désavantage"
             onOpenModal={() => setModalType('desavantage')}
             addLabel="Ajouter un désavantage"
+            onAddCustom={() => setCustomForm({ type: 'desavantage' })}
           >
-            {desavantages.map(t => (
+            {desavantages.map(t => t.custom ? (
+              <CustomTraitCard
+                key={t._index}
+                traitEntry={t}
+                expandedTraits={expandedTraits}
+                onToggle={toggleExpand}
+                onRemove={removeTrait}
+                onRangChange={updateRang}
+                onUpdate={updateCustomTrait}
+              />
+            ) : (
               <TraitCard
                 key={t._index}
                 traitEntry={t}
@@ -335,20 +387,34 @@ function TabTraits() {
           onClose={() => setModalType(null)}
         />
       )}
+
+      {/* ── Formulaire trait custom ── */}
+      {customForm && (
+        <CustomTraitForm
+          type={customForm.type}
+          onAdd={addCustomTrait}
+          onClose={() => setCustomForm(null)}
+        />
+      )}
     </div>
   );
 }
 
 // ─── Section générique avec bouton d'ajout ────────────────────────────────────
 
-function TraitSection({ title, typeClass, isEmpty, emptyMsg, onOpenModal, addLabel, children }) {
+function TraitSection({ title, typeClass, isEmpty, emptyMsg, onOpenModal, addLabel, onAddCustom, children }) {
   return (
     <div className={`traits-section traits-${typeClass}`}>
       <div className="traits-section-header">
         <h3 className="traits-section-title">{title}</h3>
-        {onOpenModal && (
-          <button className="btn-open-modal" onClick={onOpenModal}>+ {addLabel}</button>
-        )}
+        <div className="traits-section-actions">
+          {onOpenModal && (
+            <button className="btn-open-modal" onClick={onOpenModal}>+ {addLabel}</button>
+          )}
+          {onAddCustom && (
+            <button className="btn-open-modal btn-custom-trait" onClick={onAddCustom} title="Ajouter un trait personnalisé">+ Personnalisé</button>
+          )}
+        </div>
       </div>
       <div className="traits-list">
         {isEmpty ? (
@@ -723,6 +789,144 @@ function TraitResultItem({ trait, isExpanded, onToggle, onAdd }) {
           </div>
         </div>
       )}
+    </div>
+  );
+}
+
+// ─── Carte d'un trait custom (éditable inline) ────────────────────────────────
+
+function CustomTraitCard({ traitEntry, expandedTraits, onToggle, onRemove, onRangChange, onUpdate }) {
+  const expandKey = traitEntry._index;
+  const isExpanded = expandedTraits[expandKey] || false;
+  const isDesavantage = traitEntry.type === 'desavantage';
+  const coutTotal = (traitEntry.coutPP || 1) * traitEntry.rang;
+
+  return (
+    <div className={`trait-item ${isExpanded ? 'expanded' : ''} trait-custom trait-${traitEntry.type?.replace(/_/g, '-')}`}>
+      <div className="trait-header">
+        <div className="trait-info">
+          <input
+            className="trait-custom-nom-input"
+            value={traitEntry.nom || ''}
+            placeholder="Nom du trait…"
+            onChange={e => onUpdate(traitEntry._index, { nom: e.target.value })}
+            onClick={e => e.stopPropagation()}
+          />
+          <span className={`trait-cout-badge ${isDesavantage ? 'badge-gain' : 'badge-cost'}`}>
+            {isDesavantage ? `+${coutTotal}` : coutTotal} PP
+          </span>
+          {(traitEntry.rangMax || 1) > 1 && (
+            <div className="trait-rang-stepper">
+              <button className="btn-rang-step" onClick={() => onRangChange(traitEntry._index, traitEntry.rang - 1)} disabled={traitEntry.rang <= 1}>−</button>
+              <span className="trait-rang-value">Rang {traitEntry.rang}<span className="trait-rang-max">/{traitEntry.rangMax}</span></span>
+              <button className="btn-rang-step" onClick={() => onRangChange(traitEntry._index, traitEntry.rang + 1)} disabled={traitEntry.rang >= (traitEntry.rangMax || 1)}>+</button>
+            </div>
+          )}
+        </div>
+        <div className="trait-tags-inline">
+          <span className="trait-tag tag-custom">Personnalisé</span>
+        </div>
+        <div className="trait-controls">
+          <button className="btn-trait-toggle" onClick={() => onToggle(expandKey)}>{isExpanded ? '▲' : '▼'}</button>
+          <button className="btn-trait-delete" onClick={() => onRemove(traitEntry._index)} title="Supprimer">✕</button>
+        </div>
+      </div>
+
+      {isExpanded && (
+        <div className="trait-content trait-custom-edit">
+          <div className="trait-custom-row">
+            <label>Coût PP</label>
+            <input
+              type="number"
+              className="trait-custom-number"
+              value={traitEntry.coutPP ?? 1}
+              min={1}
+              onChange={e => onUpdate(traitEntry._index, { coutPP: Math.max(1, parseInt(e.target.value) || 1) })}
+            />
+          </div>
+          <div className="trait-custom-row">
+            <label>Rang max</label>
+            <input
+              type="number"
+              className="trait-custom-number"
+              value={traitEntry.rangMax ?? 1}
+              min={1}
+              onChange={e => onUpdate(traitEntry._index, { rangMax: Math.max(1, parseInt(e.target.value) || 1) })}
+            />
+          </div>
+          <div className="trait-custom-row">
+            <label>Description</label>
+            <textarea
+              className="trait-custom-desc"
+              value={traitEntry.description || ''}
+              placeholder="Description optionnelle…"
+              onChange={e => onUpdate(traitEntry._index, { description: e.target.value })}
+            />
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Formulaire de création d'un trait custom ────────────────────────────────
+
+function CustomTraitForm({ type, onAdd, onClose }) {
+  const [nom, setNom]         = useState('');
+  const [coutPP, setCoutPP]   = useState(1);
+  const [rangMax, setRangMax] = useState(1);
+  const isDesavantage = type === 'desavantage';
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onAdd({ nom, type, coutPP, rangMax });
+  };
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content custom-trait-form-modal" onClick={e => e.stopPropagation()}>
+        <div className="modal-header">
+          <h2 className="modal-title">{isDesavantage ? 'Désavantage personnalisé' : 'Avantage majeur personnalisé'}</h2>
+          <button className="modal-close" onClick={onClose}>✕</button>
+        </div>
+        <form className="custom-trait-form" onSubmit={handleSubmit}>
+          <div className="trait-custom-row">
+            <label>Nom</label>
+            <input
+              type="text"
+              className="trait-custom-nom-input"
+              value={nom}
+              placeholder="Nom du trait…"
+              onChange={e => setNom(e.target.value)}
+              autoFocus
+            />
+          </div>
+          <div className="trait-custom-row">
+            <label>Coût PP {isDesavantage ? '(rapportés)' : '(dépensés)'}</label>
+            <input
+              type="number"
+              className="trait-custom-number"
+              value={coutPP}
+              min={1}
+              onChange={e => setCoutPP(Math.max(1, parseInt(e.target.value) || 1))}
+            />
+          </div>
+          <div className="trait-custom-row">
+            <label>Rang max</label>
+            <input
+              type="number"
+              className="trait-custom-number"
+              value={rangMax}
+              min={1}
+              onChange={e => setRangMax(Math.max(1, parseInt(e.target.value) || 1))}
+            />
+          </div>
+          <div className="custom-trait-form-actions">
+            <button type="button" className="btn-cancel" onClick={onClose}>Annuler</button>
+            <button type="submit" className="btn-add-trait-modal" disabled={!nom.trim()}>Ajouter</button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
