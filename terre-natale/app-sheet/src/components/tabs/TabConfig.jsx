@@ -55,6 +55,9 @@ const BONUS_GROUPS = [
   {
     groupe: 'Général',
     types: [
+      { id: 'pa',      nom: 'Budget PA' },
+      { id: 'paMax',   nom: 'Max Attribut (PA)' },
+      { id: 'xp',      nom: 'Budget XP' },
       { id: 'allure', nom: 'Allure' },
       { id: 'resilience', nom: 'Résilience' },
       { id: 'encombrement', nom: 'Encombrement Max' },

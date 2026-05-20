@@ -262,7 +262,7 @@ function SortModal({ initialValues, onSave, onClose }) {
             <label>Importer depuis le compendium</label>
             <select className="info-input" defaultValue="" onChange={handlePickSpell}>
               <option value="">— choisir un sort —</option>
-              {ALL_SPELLS.map(spell => (
+              {[...ALL_SPELLS].sort((a, b) => (a.title || '').localeCompare(b.title || '', 'fr')).map(spell => (
                 <option key={spell.id} value={spell.id}>{spell.title}</option>
               ))}
             </select>

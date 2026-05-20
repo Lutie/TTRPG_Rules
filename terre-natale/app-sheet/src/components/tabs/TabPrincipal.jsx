@@ -404,7 +404,11 @@ function TabPrincipal() {
             details={`Physique: ${calc.resilPhys} | Mentale: ${calc.resilMent} | Magique: ${calc.resilMag} | Nerf: ${calc.resilNerf} | Fatigue: ${calc.resilFat} | Corruption: ${calc.resilCorr}`}
           />
           <CaracBox name="Récupération" value={calc.recuperation} help="5 + mSAG" />
-          <CaracBox name="Mémoire" value={calc.memoire} help="INT - 5" />
+          <CaracBox
+            name="Mémoire"
+            value={`${(character.memoire || []).length + Math.max(0, (character.sorts || []).length - (calc.memoireDesSorts || 0))} / ${calc.memoire}`}
+            help="INT - 5"
+          />
           <CaracBox name="Charge Max" value={calc.chargeMax} help="5 + FOR + STA" />
           <CaracBox name="Encombrement Max" value={calc.encombrementMax} help="5 + FOR + STA" />
           <CaracBox name="Poigne" value={calc.poigne} help="FOR" />

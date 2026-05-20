@@ -1,5 +1,8 @@
 import { useCharacter } from '../../context/CharacterContext';
-import { getValeurTotale, calculerModificateur, getValeurDefaut, computeBonusConfig } from '../../hooks/useCharacterCalculations';
+import {
+  getValeurTotale, calculerModificateur, getValeurDefaut, computeBonusConfig,
+  getProgressionInfo, calculerRangCasteParXP, calculerRangCasteParAptitude,
+} from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
 
 // Calcul défense normale
@@ -19,8 +22,19 @@ const calculerDefenseChoquee = (valeur) => {
 function AttributeBlock({ attr, showDefenses = true, compact = false }) {
   const { character, updateCharacter } = useCharacter();
 
+  // Bonus caste EQU — calculé en premier car utilisé dans getValeurTotale
+  let progressionInfo = null;
+  if (attr.id === 'EQU') {
+    const aptitudeOverride = character.caste?.rangAptitudeOverride ?? null;
+    const rangXP = calculerRangCasteParXP(character);
+    const rangAptitudeCalc = calculerRangCasteParAptitude(character);
+    const rangAptitude = (aptitudeOverride !== null && !isNaN(aptitudeOverride)) ? aptitudeOverride : rangAptitudeCalc;
+    progressionInfo = getProgressionInfo(Math.min(rangXP, rangAptitude));
+  }
+  const bonusCaste = progressionInfo?.bonusEquilibre || 0;
+
   const attrData = character.attributs[attr.id] || { base: getValeurDefaut(attr.id), bonus: 0 };
-  const valeurTotale = getValeurTotale(character, attr.id);
+  const valeurTotale = getValeurTotale(character, attr.id, progressionInfo);
   const modificateur = calculerModificateur(valeurTotale);
   const defense = calculerDefenseNormale(valeurTotale);
   const defenseChoc = calculerDefenseChoquee(valeurTotale);
@@ -112,45 +126,51 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
           <span className="attr-id">{attr.id}</span>
         </div>
         <div className="attr-details">
-          <div className="attr-details-row">
+          <div className="attr-row">
+            <label>Base</label>
+            <input
+              type="number"
+              className="attr-input"
+              value={attrData.base}
+              onChange={e => handleChange(e.target.value)}
+              onBlur={e => handleBlur(e.target.value)}
+              min={min}
+              max={max}
+            />
+          </div>
+          <div className="attr-row">
+            <label>Origine</label>
+            <span
+              className={`attr-bonus ${bonusClass(totalOrigine)}`}
+              title={`Ethnie: ${formatBonus(bonusEthnie)}, Origines: ${formatBonus(bonusOrigines)}`}
+            >
+              {formatBonus(totalOrigine)}
+            </span>
+          </div>
+          {hasNaissance && (
             <div className="attr-row">
-              <label>Base</label>
-              <input
-                type="number"
-                className="attr-input"
-                value={attrData.base}
-                onChange={e => handleChange(e.target.value)}
-                onBlur={e => handleBlur(e.target.value)}
-                min={min}
-                max={max}
-              />
-            </div>
-            <div className="attr-row">
-              <label>Origine</label>
-              <span
-                className={`attr-bonus ${bonusClass(totalOrigine)}`}
-                title={`Ethnie: ${formatBonus(bonusEthnie)}, Origines: ${formatBonus(bonusOrigines)}`}
-              >
-                {formatBonus(totalOrigine)}
+              <label>Naissance</label>
+              <span className={`attr-bonus ${bonusClass(bonusNaissance)}`}>
+                {formatBonus(bonusNaissance)}
               </span>
             </div>
-            {hasNaissance && (
-              <div className="attr-row">
-                <label>Naissance</label>
-                <span className={`attr-bonus ${bonusClass(bonusNaissance)}`}>
-                  {formatBonus(bonusNaissance)}
-                </span>
-              </div>
-            )}
-            {bonusConfig !== 0 && (
-              <div className="attr-row">
-                <label>Bonus</label>
-                <span className={`attr-bonus ${bonusClass(bonusConfig)}`}>
-                  {formatBonus(bonusConfig)}
-                </span>
-              </div>
-            )}
-          </div>
+          )}
+          {bonusCaste !== 0 && (
+            <div className="attr-row">
+              <label>Caste</label>
+              <span className={`attr-bonus ${bonusClass(bonusCaste)}`}>
+                {formatBonus(bonusCaste)}
+              </span>
+            </div>
+          )}
+          {bonusConfig !== 0 && (
+            <div className="attr-row">
+              <label>Bonus</label>
+              <span className={`attr-bonus ${bonusClass(bonusConfig)}`}>
+                {formatBonus(bonusConfig)}
+              </span>
+            </div>
+          )}
           {showDefenses && (
             <div className="attr-details-row">
               <div className="attr-row">

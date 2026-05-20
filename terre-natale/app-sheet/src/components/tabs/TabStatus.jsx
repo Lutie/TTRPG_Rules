@@ -975,6 +975,30 @@ function TabStatus() {
         </div>
       </Section>
 
+      {/* Tensions */}
+      <Section title="Tensions">
+        <div className="status-ressources-grid status-lesions-grid">
+          <TensionCard
+            id="fatigue"
+            nom="Fatigue"
+            icone={['😄','🙂','😐','😟','😩','😵'][Math.min(nivFatigue, 5)]}
+            actuel={tensions.fatigue}
+            max={calc.resilFat}
+            niveau={nivFatigue}
+            onChange={(delta) => handleTensionChange('fatigue', delta)}
+          />
+          <TensionCard
+            id="corruption"
+            nom="Corruption"
+            icone="💀"
+            actuel={tensions.corruption}
+            max={calc.resilCorr}
+            niveau={nivCorruption}
+            onChange={(delta) => handleTensionChange('corruption', delta)}
+          />
+        </div>
+      </Section>
+
       {/* Autres Ressources */}
       <Section title="Autres Ressources">
         <div className="status-ressources-grid status-autres-grid">
@@ -1151,30 +1175,6 @@ function TabStatus() {
 
           {/* Carte d'ajout */}
           <ConditionAddCard onAdd={handleAddCondition} />
-        </div>
-      </Section>
-
-      {/* Tensions */}
-      <Section title="Tensions">
-        <div className="status-ressources-grid status-lesions-grid">
-          <TensionCard
-            id="fatigue"
-            nom="Fatigue"
-            icone="😫"
-            actuel={tensions.fatigue}
-            max={calc.resilFat}
-            niveau={nivFatigue}
-            onChange={(delta) => handleTensionChange('fatigue', delta)}
-          />
-          <TensionCard
-            id="corruption"
-            nom="Corruption"
-            icone="💀"
-            actuel={tensions.corruption}
-            max={calc.resilCorr}
-            niveau={nivCorruption}
-            onChange={(delta) => handleTensionChange('corruption', delta)}
-          />
         </div>
       </Section>
 

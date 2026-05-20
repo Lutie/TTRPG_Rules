@@ -68,8 +68,19 @@ function TabCompetences() {
   // Panneau résumé
   const [summaryOpen, setSummaryOpen] = useState(false);
 
-  // Groupes ouverts / fermés
-  const [openGroups, setOpenGroups] = useState(() => new Set(BASE_GROUP_IDS));
+  // Groupes ouverts / fermés — persistés en localStorage
+  const [openGroups, setOpenGroups] = useState(() => {
+    try {
+      const saved = localStorage.getItem('terreNatale_comp_openGroups');
+      if (saved) return new Set(JSON.parse(saved));
+    } catch {}
+    return new Set(BASE_GROUP_IDS);
+  });
+  useEffect(() => {
+    try {
+      localStorage.setItem('terreNatale_comp_openGroups', JSON.stringify([...openGroups]));
+    } catch {}
+  }, [openGroups]);
   const toggleGroupe = useCallback(id =>
     setOpenGroups(prev => {
       const next = new Set(prev);

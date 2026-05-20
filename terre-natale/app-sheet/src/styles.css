@@ -3383,6 +3383,177 @@ header h1 {
 .trait-item.trait-avantage-archetype { border-left: 3px solid #5e9f6f; }
 .trait-item.trait-avantage-mineur    { border-left: 3px solid #8fbc8f; border-left-style: dashed; }
 .trait-item.trait-desavantage        { border-left: 3px solid var(--color-negative); }
+.trait-item.trait-custom             { border-left: 3px solid #7b68ee; border-left-style: dotted; }
+
+/* ── Tag "Personnalisé" ── */
+
+.tag-custom {
+  background: rgba(123, 104, 238, 0.12);
+  color: #5a4db0;
+  border: 1px solid rgba(123, 104, 238, 0.3);
+}
+
+/* ── Bouton "+ Personnalisé" (variante secondaire) ── */
+
+.btn-custom-trait {
+  background: transparent;
+  color: #7b68ee;
+  border-color: #7b68ee;
+}
+
+.btn-custom-trait:hover {
+  background: #7b68ee;
+  color: white;
+  border-color: #7b68ee;
+}
+
+/* ── Input nom inline dans la carte custom ── */
+
+.trait-custom-nom-input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 2px 6px;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.trait-custom-nom-input:hover {
+  border-color: var(--color-border);
+}
+
+.trait-custom-nom-input:focus {
+  outline: none;
+  border-color: #7b68ee;
+  background: var(--color-bg);
+}
+
+.trait-custom-nom-input::placeholder {
+  color: var(--color-text-light);
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* ── Zone d'édition inline (trait custom déplié) ── */
+
+.trait-custom-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trait-custom-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trait-custom-row label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+.trait-custom-number {
+  width: 70px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.trait-custom-number:focus {
+  outline: none;
+  border-color: #7b68ee;
+}
+
+.trait-custom-desc {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 60px;
+  line-height: 1.4;
+}
+
+.trait-custom-desc:focus {
+  outline: none;
+  border-color: #7b68ee;
+}
+
+.trait-custom-row:has(.trait-custom-desc) {
+  align-items: flex-start;
+}
+
+/* ── Modale de création d'un trait custom ── */
+
+.custom-trait-form-modal {
+  max-width: 440px;
+  width: 100%;
+}
+
+.custom-trait-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+}
+
+.custom-trait-form .trait-custom-row label {
+  min-width: 110px;
+}
+
+.custom-trait-form .trait-custom-nom-input {
+  border-color: var(--color-border);
+  background: var(--color-bg);
+  flex: 1;
+}
+
+.custom-trait-form .trait-custom-nom-input:focus {
+  border-color: #7b68ee;
+}
+
+.custom-trait-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 6px;
+  border-top: 1px solid var(--color-border);
+  margin-top: 4px;
+}
+
+.btn-cancel {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 7px 16px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-cancel:hover {
+  background: var(--color-bg-dark);
+  border-color: var(--color-border-dark);
+}
 
 /* ── Header de section avec bouton ── */
 
@@ -3408,6 +3579,11 @@ header h1 {
 .traits-avantages-mineurs .traits-section-header { border-bottom-color: #8fbc8f; }
 .traits-avantages-mineurs .traits-section-header .traits-section-title { color: #5e9f6f; }
 .traits-origine .traits-section-header .traits-section-title { color: #9c7b4a; }
+
+.traits-section-actions {
+  display: flex;
+  gap: 8px;
+}
 
 .btn-open-modal {
   font-family: var(--font-body);

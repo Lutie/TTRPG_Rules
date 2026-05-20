@@ -63,7 +63,8 @@ export const getXPDepart = (character) => {
 
 // Calcule l'XP total
 export const getXPTotal = (character) => {
-  return getXPDepart(character) + (character.xpAcquis || 0);
+  const bonusXP = computeBonusConfig(character).xp || 0;
+  return getXPDepart(character) + (character.xpAcquis || 0) + bonusXP;
 };
 
 // Clé de stockage d'une compétence (doit correspondre à compKey dans TabCompetences)
@@ -185,9 +186,26 @@ export const getNextProgressionInfo = (rang) => {
 // Hook principal pour les calculs
 export function useCharacterCalculations(character, castes = DATA.castes) {
   return useMemo(() => {
-    const getAttr = (id) => getValeurTotale(character, id);
-    const getMod = (id) => calculerModificateur(getAttr(id));
     const bonus = computeBonusConfig(character);
+
+    // Caste et progression — calculés en premier car le bonus EQU de caste
+    // doit être disponible dans getAttr dès le début
+    const caste = castes.find(c => c.id === character.caste?.id);
+    const xpTotal = getXPTotal(character);
+    const aptitude = calculerAptitude(character);
+    const rangXP = calculerRangCasteParXP(character);
+    const rangAptitudeCalc = calculerRangCasteParAptitude(character);
+    const aptitudeOverride = character.caste?.rangAptitudeOverride ?? null;
+    const rangAptitude = (aptitudeOverride !== null && !isNaN(aptitudeOverride))
+      ? aptitudeOverride
+      : rangAptitudeCalc;
+    const rangCaste = Math.min(rangXP, rangAptitude);
+    const rang = rangCaste;
+    const progressionInfo = getProgressionInfo(rangCaste);
+    const nextProgression = getNextProgressionInfo(rangCaste);
+
+    const getAttr = (id) => getValeurTotale(character, id, progressionInfo);
+    const getMod = (id) => calculerModificateur(getAttr(id));
 
     // Allure et déplacement
     const allure = 10 + getMod('TAI') + getMod('AGI') + (bonus.allure || 0);
@@ -248,21 +266,6 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const puissancePositive = getMod('SAG') + (bonus.puissancePositive || 0);
     const puissanceNegative = getMod('RUS') + (bonus.puissanceNegative || 0);
     const puissanceGenerique = getMod('INT') + (bonus.puissanceGenerique || 0);
-
-    // Caste et progression
-    const caste = castes.find(c => c.id === character.caste?.id);
-    const xpTotal = getXPTotal(character);
-    const aptitude = calculerAptitude(character);
-    const rangXP = calculerRangCasteParXP(character);
-    const rangAptitudeCalc = calculerRangCasteParAptitude(character);
-    const aptitudeOverride = character.caste?.rangAptitudeOverride ?? null;
-    const rangAptitude = (aptitudeOverride !== null && !isNaN(aptitudeOverride))
-      ? aptitudeOverride
-      : rangAptitudeCalc;
-    const rangCaste = Math.min(rangXP, rangAptitude);
-    const rang = rangCaste;
-    const progressionInfo = getProgressionInfo(rangCaste);
-    const nextProgression = getNextProgressionInfo(rangCaste);
 
     // Ressources max
 
@@ -400,7 +403,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
 
     const paCaste = DATA.casteProgression.reduce((sum, level) => level.rang <= rangCaste ? sum + (level.pa || 0) : sum, 0);
     const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + paCaste + (bonus.pa || 0);
-    const paMax     = destinee?.maxAttribut || DATA.destinees[0].maxAttribut;
+    const paMax     = (destinee?.maxAttribut || DATA.destinees[0].maxAttribut) + (bonus.paMax || 0);
     const paRestants = paBudget - paDepenses;
 
     return {

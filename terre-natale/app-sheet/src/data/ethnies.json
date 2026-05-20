@@ -88,11 +88,11 @@
     "particularites_culturelles": [
       {
         "nom": "Luck Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-luck"
       },
       {
         "nom": "Knowledge Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-knowledge"
       },
       {
         "nom": "Secundary Specialty",
@@ -203,11 +203,11 @@
     "particularites_culturelles": [
       {
         "nom": "Heat Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-heat"
       },
       {
         "nom": "Wounded Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-wounded"
       },
       {
         "nom": "Secundary Specialty",
@@ -316,11 +316,11 @@
     "particularites_culturelles": [
       {
         "nom": "Heat Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-heat"
       },
       {
         "nom": "Wounded Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-wounded"
       },
       {
         "nom": "Secundary Specialty",
@@ -430,11 +430,11 @@
     "particularites_culturelles": [
       {
         "nom": "Calm Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-calm"
       },
       {
         "nom": "Code Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-code"
       },
       {
         "nom": "Secundary Specialty",
@@ -542,11 +542,11 @@
     "particularites_culturelles": [
       {
         "nom": "Field Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-field"
       },
       {
         "nom": "Battle Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-battle"
       },
       {
         "nom": "Secundary Specialty",
@@ -655,11 +655,11 @@
     "particularites_culturelles": [
       {
         "nom": "Plains Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-plains"
       },
       {
         "nom": "Motion Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-motion"
       },
       {
         "nom": "Secundary Specialty",
@@ -769,11 +769,11 @@
     "particularites_culturelles": [
       {
         "nom": "Altitude Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-altitude"
       },
       {
         "nom": "Resistance Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-resistance"
       },
       {
         "nom": "Secundary Specialty",
@@ -880,11 +880,11 @@
     "particularites_culturelles": [
       {
         "nom": "Technology Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-technology"
       },
       {
         "nom": "Repair Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-repair"
       },
       {
         "nom": "Secundary Specialty",
@@ -988,11 +988,11 @@
     "particularites_culturelles": [
       {
         "nom": "Magic Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-magic"
       },
       {
         "nom": "Arcane Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-arcane"
       },
       {
         "choix": [
@@ -1123,19 +1123,19 @@
     "particularites_culturelles": [
       {
         "nom": "Forest Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-forest"
       },
       {
         "nom": "Leather Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-leather"
       },
       {
         "nom": "Distance Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-distance"
       },
       {
         "nom": "Ambidextry Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-ambidextry"
       },
       {
         "nom": "Beast Tongue",
@@ -1260,15 +1260,15 @@
     "particularites_culturelles": [
       {
         "nom": "Immaterial Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-immaterial"
       },
       {
         "nom": "Fabric Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-fabric"
       },
       {
         "nom": "Perfectionist Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-perfectionist"
       },
       {
         "nom": "Magic Tongue",
@@ -1398,15 +1398,15 @@
     "particularites_culturelles": [
       {
         "nom": "Aquatic Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-aquatic"
       },
       {
         "nom": "Mineral Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-mineral"
       },
       {
         "nom": "Pristine Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-pristine"
       },
       {
         "nom": "Fish Tongue",
@@ -1528,15 +1528,15 @@
     "particularites_culturelles": [
       {
         "nom": "Darkness Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-darkness"
       },
       {
         "nom": "Poison Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-poison"
       },
       {
         "nom": "Art Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-art"
       },
       {
         "nom": "Spirit Tongue",
@@ -1658,15 +1658,15 @@
     "particularites_culturelles": [
       {
         "nom": "Heat Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-heat"
       },
       {
         "nom": "Metal Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-metal"
       },
       {
         "nom": "Vengeance Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-vengeance"
       },
       {
         "nom": "Monster Tongue",
@@ -1828,11 +1828,11 @@
     "particularites_culturelles": [
       {
         "nom": "City Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-city"
       },
       {
         "nom": "Technology Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-technology"
       },
       {
         "nom": "Magic Animosity",
@@ -1963,19 +1963,19 @@
     "particularites_culturelles": [
       {
         "nom": "Subterranean Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-subterranean"
       },
       {
         "nom": "Mountain Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-mountain"
       },
       {
         "nom": "Metal Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-metal"
       },
       {
         "nom": "Stone Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-stone"
       },
       {
         "nom": "Vermin Animosity",
@@ -2103,11 +2103,11 @@
     "particularites_culturelles": [
       {
         "nom": "Subterranean Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-subterranean"
       },
       {
         "nom": "Metal & Stone Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-metal-stone"
       },
       {
         "nom": "Spawn Animosity",
@@ -2234,11 +2234,11 @@
     "particularites_culturelles": [
       {
         "nom": "Forest Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-forest"
       },
       {
         "nom": "Pack Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-pack"
       },
       {
         "nom": "Pack Instinct",
@@ -2377,7 +2377,7 @@
     "particularites_culturelles": [
       {
         "nom": "Darkness Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-darkness"
       },
       {
         "nom": "Feline Instincts",
@@ -2497,11 +2497,11 @@
     "particularites_culturelles": [
       {
         "nom": "Desertic Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-desertic"
       },
       {
         "nom": "Barehands Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-barehands"
       },
       {
         "choix": [
@@ -2635,7 +2635,7 @@
     "particularites_culturelles": [
       {
         "nom": "Cold Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-cold"
       },
       {
         "nom": "Survival Instincts",
@@ -2776,11 +2776,11 @@
     "particularites_culturelles": [
       {
         "nom": "Aquatic Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-aquatic"
       },
       {
         "nom": "Flanking Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-flanking"
       },
       {
         "nom": "Hunting Instinct",
@@ -2899,7 +2899,7 @@
     "particularites_culturelles": [
       {
         "nom": "Height Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-height"
       },
       {
         "nom": "Freedom Instinct",
@@ -3013,7 +3013,7 @@
     "particularites_culturelles": [
       {
         "nom": "Prudence Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-prudence"
       },
       {
         "nom": "Alert Instinct",
@@ -3122,11 +3122,11 @@
     "particularites_culturelles": [
       {
         "nom": "Chasing Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-chasing"
       },
       {
-        "nom": "Rivality Affinity",
-        "anchor": "cult-affinity"
+        "nom": "Rivalry Affinity",
+        "anchor": "affinity-rivalry"
       },
       {
         "nom": "Bestial Instincts",
@@ -3240,7 +3240,7 @@
     "particularites_culturelles": [
       {
         "nom": "Honor and Oath Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-honor-and-oath"
       },
       {
         "nom": "Oath Instinct",
@@ -3361,7 +3361,7 @@
     "particularites_culturelles": [
       {
         "nom": "Small Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-small"
       },
       {
         "nom": "Avid Instinct",
@@ -3491,7 +3491,7 @@
     "particularites_culturelles": [
       {
         "nom": "Water Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-water"
       },
       {
         "nom": "Watery Instinct",
@@ -3616,11 +3616,11 @@
     "particularites_culturelles": [
       {
         "nom": "Big Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-big"
       },
       {
         "nom": "Slow Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-slow"
       },
       {
         "nom": "Unknown Instinct",
@@ -3741,7 +3741,7 @@
     "particularites_culturelles": [
       {
         "nom": "Blood Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-blood"
       },
       {
         "nom": "Blood Instincts",
@@ -3876,11 +3876,11 @@
     "particularites_culturelles": [
       {
         "nom": "Curiosity Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-curiosity"
       },
       {
         "nom": "Ingenious Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-ingenious"
       },
       {
         "nom": "Curious Instinct",
@@ -4006,7 +4006,7 @@
     "particularites_culturelles": [
       {
         "nom": "Height Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-height"
       },
       {
         "nom": "Erudition",
@@ -4120,7 +4120,7 @@
     "particularites_culturelles": [
       {
         "nom": "Filth Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-filth"
       },
       {
         "nom": "Malicious Instinct",
@@ -4248,7 +4248,7 @@
     "particularites_culturelles": [
       {
         "nom": "Mountain Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-mountain"
       },
       {
         "nom": "Furious Instincts",
@@ -4376,11 +4376,11 @@
     "particularites_culturelles": [
       {
         "nom": "Thievery Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-thievery"
       },
       {
         "nom": "Food Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-food"
       },
       {
         "nom": "4th Breakfast",
@@ -4486,11 +4486,11 @@
     "particularites_culturelles": [
       {
         "nom": "Forest Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-forest"
       },
       {
         "nom": "Wood Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-wood"
       },
       {
         "nom": "Strongness",
@@ -4615,11 +4615,11 @@
     "particularites_culturelles": [
       {
         "nom": "Light Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-light"
       },
       {
         "nom": "Order Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-order"
       },
       {
         "nom": "Cantrips",
@@ -4743,11 +4743,11 @@
     "particularites_culturelles": [
       {
         "nom": "Dream Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-dream"
       },
       {
         "nom": "Selfishness Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-selfishness"
       },
       {
         "nom": "Whimsical Magic Tradition",
@@ -4861,11 +4861,11 @@
     "particularites_culturelles": [
       {
         "nom": "Community Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-community"
       },
       {
         "nom": "Sacrifice Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-sacrifice"
       },
       {
         "nom": "Tattoo",
@@ -4986,11 +4986,11 @@
     "particularites_culturelles": [
       {
         "nom": "Oratory Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-oratory"
       },
       {
         "nom": "Unarmored Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-unarmored"
       },
       {
         "nom": "Courageous Presence",
@@ -5109,11 +5109,11 @@
     "particularites_culturelles": [
       {
         "nom": "Chaos Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-chaos"
       },
       {
         "nom": "Road Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-road"
       },
       {
         "nom": "Second Chance Gambit",
@@ -5221,7 +5221,7 @@
     "particularites_culturelles": [
       {
         "nom": "Quick Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-quick"
       },
       {
         "nom": "Karmic Vision",
@@ -5340,11 +5340,11 @@
     "particularites_culturelles": [
       {
         "nom": "Custom Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-custom"
       },
       {
         "nom": "Wounded Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-wounded"
       },
       {
         "nom": "Momentum Breaker",
@@ -5460,11 +5460,11 @@
     "particularites_culturelles": [
       {
         "nom": "Water Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-water"
       },
       {
         "nom": "Adaptative Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-adaptative"
       },
       {
         "nom": "Initial Flow",
@@ -5576,7 +5576,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -5702,7 +5702,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -5828,7 +5828,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -5954,7 +5954,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -6080,7 +6080,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -6215,7 +6215,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -6349,7 +6349,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -6475,7 +6475,7 @@
     "particularites_culturelles": [
       {
         "nom": "Origin-Specific Environment Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-origin-specific-environment"
       },
       {
         "nom": "Surnatural Resistance",
@@ -6601,11 +6601,11 @@
     "particularites_culturelles": [
       {
         "nom": "Peril Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-peril"
       },
       {
         "nom": "Strive Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-strive"
       },
       {
         "nom": "Fatigueless",
@@ -6721,12 +6721,12 @@
     ],
     "particularites_culturelles": [
       {
-        "nom": "Rivality Affinity",
-        "anchor": "cult-affinity"
+        "nom": "Rivalry Affinity",
+        "anchor": "affinity-rivalry"
       },
       {
         "nom": "Adversity Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-adversity"
       },
       {
         "nom": "Vermin Instinct",
@@ -6852,11 +6852,11 @@
     "particularites_culturelles": [
       {
         "nom": "Escape Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-escape"
       },
       {
         "nom": "Treachery Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-treachery"
       },
       {
         "nom": "Vermin Instinct",
@@ -6986,11 +6986,11 @@
     "particularites_culturelles": [
       {
         "nom": "Escape Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-escape"
       },
       {
         "nom": "Treachery Affinity",
-        "anchor": "cult-affinity"
+        "anchor": "affinity-treachery"
       },
       {
         "nom": "Vermin Instinct",
