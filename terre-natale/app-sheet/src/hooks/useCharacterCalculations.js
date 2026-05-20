@@ -398,7 +398,8 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const chnBase = character.attributs?.['CHN']?.base ?? 10;
     paDepenses += PA_CHANCE_COSTS[chnBase] ?? 0;
 
-    const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + (progressionInfo?.pa || 0) + (bonus.pa || 0);
+    const paCaste = DATA.casteProgression.reduce((sum, level) => level.rang <= rangCaste ? sum + (level.pa || 0) : sum, 0);
+    const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + paCaste + (bonus.pa || 0);
     const paMax     = destinee?.maxAttribut || DATA.destinees[0].maxAttribut;
     const paRestants = paBudget - paDepenses;
 
