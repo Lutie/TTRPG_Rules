@@ -226,10 +226,12 @@ const RACE_TO_ID = {
 
 // Aplatit attributs_forts / attributs_faibles en liste d'IDs simple
 // { choice: ['MAG','LOG'] } → ['MAG','LOG']  ;  { id:'PER', fois:2 } → ['PER','PER']
+// { pool: ['CHA','INT',...], nb: 1 } → ['CHA','INT',...]  (Drakkan Violet, Noir, Blanc)
 function _flattenAttrs(list) {
   return (list || []).flatMap(a =>
     typeof a === 'string'  ? [a]
     : a.choice             ? a.choice
+    : a.pool               ? a.pool
     : Array(a.fois || 1).fill(a.id)
   );
 }
