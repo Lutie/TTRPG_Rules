@@ -320,6 +320,13 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     Object.values(competencesData.competences || {}).forEach(r => {
       for (let i = 1; i <= r; i++) xpUtilises += coutComp[i] || 0;
     });
+    // Coût des compétences libres (Tradition, Type d'Arme, Langue…) : même tarif
+    Object.values(competencesData.libres || {}).forEach(entries => {
+      (entries || []).forEach(entry => {
+        const r = entry.rang || 0;
+        for (let i = 1; i <= r; i++) xpUtilises += coutComp[i] || 0;
+      });
+    });
     // Coût des aptitudes (styles)
     let xpAptitudes = 0;
     const aptitudesData = character.aptitudes || { styles: [] };
@@ -391,7 +398,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const chnBase = character.attributs?.['CHN']?.base ?? 10;
     paDepenses += PA_CHANCE_COSTS[chnBase] ?? 0;
 
-    const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + (bonus.pa || 0);
+    const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + (progressionInfo?.pa || 0) + (bonus.pa || 0);
     const paMax     = destinee?.maxAttribut || DATA.destinees[0].maxAttribut;
     const paRestants = paBudget - paDepenses;
 
