@@ -357,6 +357,7 @@ export const temperaments = [...comportements, ...caracteres];
 export const casteProgression = [
   {
     rang: 1, titre: "Apprenti", reqXp: 50, reqAptitude: 7, bonusEquilibre: 0, pa: 7,
+    maxAttrCaste: 18, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "Privilège de Caste", description: "Le personnage peut désormais faire appel au privilège de sa caste. Il peut donc dépenser autant de PC que le « privilège PC max » associé à son rang dans les situations couverts par le dit privilège." },
       { nom: "Entraînement aux armures (1)", description: "Reçoit un rang dans le trait d'entraînement associé. L'entraînement permet de réduire les pénalités d'attributs de 2 au rang 1, de 4 au rang 2." },
@@ -365,6 +366,7 @@ export const casteProgression = [
   },
   {
     rang: 2, titre: "Apprenti +", reqXp: 100, reqAptitude: 9, bonusEquilibre: 1, pa: 8,
+    maxAttrCaste: 19, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "Entrainement de Caste (1)", description: "Reçoit un rang dans le trait d'entraînement associé à la caste." },
       { nom: "Formation Initiale", description: "Donne le trait de formation associé à l'attribut de caste principal. Permet d'éviter les maladresses sur les doubles 2." }
@@ -372,6 +374,7 @@ export const casteProgression = [
   },
   {
     rang: 3, titre: "Compagnon", reqXp: 200, reqAptitude: 11, bonusEquilibre: 1, pa: 9,
+    maxAttrCaste: 19, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "1er Trait de Caste", description: "Donne le 1er trait de la Caste." },
       { nom: "Maîtrise de caste 2", description: "Affecte la connaissance, la réputation et la récupération de caste." }
@@ -379,6 +382,7 @@ export const casteProgression = [
   },
   {
     rang: 4, titre: "Compagnon +", reqXp: 370, reqAptitude: 13, bonusEquilibre: 2, pa: 10,
+    maxAttrCaste: 19, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "Entrainement de Caste (2)", description: "Reçoit un rang supplémentaire dans le trait d'entraînement associé." },
       { nom: "Formation Finale", description: "Donne le trait de formation associé à l'attribut de caste secondaire." },
@@ -387,6 +391,7 @@ export const casteProgression = [
   },
   {
     rang: 5, titre: "Expert", reqXp: 550, reqAptitude: 17, bonusEquilibre: 2, pa: 11,
+    maxAttrCaste: 20, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "Point de Personnage +1", description: "Le personnage reçoit 1 PP supplémentaire." },
       { nom: "Science de la Caste", description: "Donne le trait de science associé à l'attribut de caste principal." },
@@ -395,6 +400,7 @@ export const casteProgression = [
   },
   {
     rang: 6, titre: "Expert +", reqXp: 700, reqAptitude: 21, bonusEquilibre: 3, pa: 12,
+    maxAttrCaste: 20, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "Entrainement de Caste (3)", description: "Reçoit un rang supplémentaire dans le trait d'entraînement associé." },
       { nom: "2nd Trait de Caste", description: "Donne le 2e trait de la Caste." }
@@ -402,6 +408,7 @@ export const casteProgression = [
   },
   {
     rang: 7, titre: "Maître", reqXp: 950, reqAptitude: 25, bonusEquilibre: 3, pa: 13,
+    maxAttrCaste: 20, maxCompetence: 4, maxGroupe: 2,
     avantages: [
       { nom: "Point de Personnage +1", description: "Le personnage reçoit 1 PP supplémentaire." },
       { nom: "Science de la Caste +", description: "Donne la science associée à l'autre attribut de caste." },
@@ -410,6 +417,7 @@ export const casteProgression = [
   },
   {
     rang: 8, titre: "Maître +", reqXp: 1250, reqAptitude: 29, bonusEquilibre: 4, pa: 14,
+    maxAttrCaste: 21, maxCompetence: 5, maxGroupe: 2,
     avantages: [
       { nom: "Action de Caste améliorée", description: "Version améliorée de l'action de caste, ou action d'une caste partageant des attributs." },
       { nom: "Compétences supérieures", description: "Le personnage peut apprendre ses compétences jusqu'au rang 5." }
@@ -417,6 +425,7 @@ export const casteProgression = [
   },
   {
     rang: 9, titre: "Grand Maître", reqXp: 1600, reqAptitude: 33, bonusEquilibre: 4, pa: 15,
+    maxAttrCaste: 21, maxCompetence: 5, maxGroupe: 2,
     avantages: [
       { nom: "Point de Personnage +1", description: "Le personnage reçoit 1 PP supplémentaire." },
       { nom: "Maîtrise de caste 5", description: "Affecte la connaissance, la réputation et la récupération de caste." }
@@ -424,6 +433,7 @@ export const casteProgression = [
   },
   {
     rang: 10, titre: "Grand Maître +", reqXp: 2000, reqAptitude: 37, bonusEquilibre: 5, pa: 16,
+    maxAttrCaste: 21, maxCompetence: 5, maxGroupe: 2,
     avantages: [
       { nom: "Récupération Supérieure (+1)", description: "La récupération du personnage est améliorée de 1." },
       { nom: "Savoir-Faire", description: "Peut remplacer les dés affichant 1 et 2 par 3 pour les jets basés sur les attributs de caste." }
@@ -431,6 +441,7 @@ export const casteProgression = [
   },
   {
     rang: 11, titre: "Sommité", reqXp: 2400, reqAptitude: 42, bonusEquilibre: 5, pa: 17,
+    maxAttrCaste: 22, maxCompetence: 5, maxGroupe: 2,
     avantages: [
       { nom: "Point de Personnage +1", description: "Le personnage reçoit 1 PP supplémentaire." },
       { nom: "Maîtrise de caste 6", description: "Affecte la connaissance, la réputation et la récupération de caste." }
@@ -438,6 +449,7 @@ export const casteProgression = [
   },
   {
     rang: 12, titre: "Sommité +", reqXp: 2800, reqAptitude: 47, bonusEquilibre: 6, pa: 18,
+    maxAttrCaste: 22, maxCompetence: 5, maxGroupe: 3,
     avantages: [
       { nom: "Groupes supérieurs", description: "Le personnage peut apprendre ses groupes jusqu'au rang 3." },
       { nom: "Attributs supérieurs", description: "Le personnage peut monter tous ses attributs de base à 18." }

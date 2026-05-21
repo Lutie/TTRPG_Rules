@@ -427,7 +427,8 @@
   "cult-align-with-totem": {
     "nom": "Align with Totem",
     "description": "Through ritual alignment, the character invokes their Totem's supernatural power.  \n**Cost:** 1 PP",
-    "effet": "Once per day, the character may use a Totem power a number of times equal to the Degrees of Success obtained on a Religion test performed the previous day (Difficulty 10; at least 1 Degree at 15).\n\n- **FOR / CHA – Domination:** The target suffers disadvantage on a test involving the character.  \n- **CON / VOL – Resilience:** All disadvantages on a test are negated.  \n- **SAG / PER – Focus:** The target loses all advantages on a test involving the character.  \n- **AGI / RUS – Guile:** The target's advantages become disadvantages on a test involving the character.  \n- **DEX / INT – Coordination:** The target loses one advantage, which the character gains for all resulting actions.\n\nIf the Totem grants the same power twice, it also provides:  \n- **Balance:** The character gains advantage on a test."
+    "effet": "Once per day, the character may use a Totem power a number of times equal to the Degrees of Success obtained on a Religion test performed the previous day (Difficulty 10; at least 1 Degree at 15).\n\n- **FOR / CHA – Domination:** The target suffers disadvantage on a test involving the character.  \n- **CON / VOL – Resilience:** All disadvantages on a test are negated.  \n- **SAG / PER – Focus:** The target loses all advantages on a test involving the character.  \n- **AGI / RUS – Guile:** The target's advantages become disadvantages on a test involving the character.  \n- **DEX / INT – Coordination:** The target loses one advantage, which the character gains for all resulting actions.\n\nIf the Totem grants the same power twice, it also provides:  \n- **Balance:** The character gains advantage on a test.",
+    "coutPP": 1
   },
   "cult-erudition": {
     "nom": "Erudition",
@@ -597,7 +598,8 @@
   "cult-improved-tattoo": {
     "nom": "Improved Tattoo",
     "description": "The tattoo's power is refined and intensified.  \n**Cost:** 1 PP",
-    "effet": "The exploit range of the tattoo's skill is increased by **+1**, stackable up to a maximum final range of **6**."
+    "effet": "The exploit range of the tattoo's skill is increased by **+1**, stackable up to a maximum final range of **6**.",
+    "coutPP": 1
   },
   "cult-training": {
     "nom": "Training",
@@ -647,7 +649,8 @@
   "cult-celestial-powers": {
     "nom": "Celestial Powers",
     "description": "Celestials wield ideal-driven magic rooted in abstract virtues.  \n**Cost:** 1 PP",
-    "effet": "The character selects one **Edict** (ideal). Spells aligned with that Edict gain advantage and are reinforced. Edicts are morally neutral and represent rigid cosmic principles such as Justice, Balance, or Order."
+    "effet": "The character selects one **Edict** (ideal). Spells aligned with that Edict gain advantage and are reinforced. Edicts are morally neutral and represent rigid cosmic principles such as Justice, Balance, or Order.",
+    "coutPP": 1
   },
   "birth-chromatic-blood": {
     "nom": "Chromatic Blood",
@@ -672,7 +675,8 @@
   "cult-dragon-powers": {
     "nom": "Dragon Powers",
     "description": "**Cost:** 1 PP  \nDrakkans carry within their veins a diluted echo of true draconic power. Where true dragons wield Chromatic Power directly through their dragon heart—an overwhelming, primordial force—Drakkans can only access a minute fragment of that power through their blood. This fragment allows them to invoke crude yet potent magical phenomena tied to a specific chromatic domain. Though vastly inferior to true dragons in mastery and magnitude, this inherited magic remains instinctive, raw, and difficult to counter through conventional arcane means.",
-    "effet": "Chroma Points granted by **Chromatic Blood** may be spent to invoke **Dragonic Powers**. These powers represent **Chromatic Magic**, a fast but simple form of magic distinct from spellcasting.\n\n- As a **Simple Action**, once per turn, the character may produce a spell-like phenomenon based on a **simple spell** from the chromatic domain associated with their blood.  \n- Most Drakkan types are tied to a **predefined set of domains**. This choice is made at character creation and cannot be changed later.  \n- **Balance (EQU)** is used to perform the test associated with Dragonic Powers.  \n- A dedicated skill group and skill may be learned to improve the odds of successfully invoking these powers.  \n\nDragonic Powers may be used at **spell level 0**, increased by **+1 spell level for every 4 character ranks**.\n\nMagical tools do not function properly with Dragonic Powers. However, the character may still add their **rank** to the power's roll as if using an appropriate magical tool, regardless of the power's level.\n\nThe **Chroma Point cost** of a Dragonic Power is equal to the **minimum mana cost of a comparable spell** and **cannot be reduced by any means**. The **action difficulty** is also based on that same comparable spell.\n\nDragonic Powers are **not spells**:\n- They cannot be countered.  \n- They are not treated as regular spells.  \n- They are unaffected by arcane actions or effects that specifically interact with spells.\n\nDepending on the Drakkan type, Chroma Points may alternatively be spent as if they were another resource:\n- **Red:** Rage  \n- **Blue:** Chi  \n- **Green:** Guard  \n- **Yellow:** Adrenaline  \n- **Purple:** Mana  \n- **Black:** Vitality  \n- **White:** Karma  \n- **Grey:** Spirituality"
+    "effet": "Chroma Points granted by **Chromatic Blood** may be spent to invoke **Dragonic Powers**. These powers represent **Chromatic Magic**, a fast but simple form of magic distinct from spellcasting.\n\n- As a **Simple Action**, once per turn, the character may produce a spell-like phenomenon based on a **simple spell** from the chromatic domain associated with their blood.  \n- Most Drakkan types are tied to a **predefined set of domains**. This choice is made at character creation and cannot be changed later.  \n- **Balance (EQU)** is used to perform the test associated with Dragonic Powers.  \n- A dedicated skill group and skill may be learned to improve the odds of successfully invoking these powers.  \n\nDragonic Powers may be used at **spell level 0**, increased by **+1 spell level for every 4 character ranks**.\n\nMagical tools do not function properly with Dragonic Powers. However, the character may still add their **rank** to the power's roll as if using an appropriate magical tool, regardless of the power's level.\n\nThe **Chroma Point cost** of a Dragonic Power is equal to the **minimum mana cost of a comparable spell** and **cannot be reduced by any means**. The **action difficulty** is also based on that same comparable spell.\n\nDragonic Powers are **not spells**:\n- They cannot be countered.  \n- They are not treated as regular spells.  \n- They are unaffected by arcane actions or effects that specifically interact with spells.\n\nDepending on the Drakkan type, Chroma Points may alternatively be spent as if they were another resource:\n- **Red:** Rage  \n- **Blue:** Chi  \n- **Green:** Guard  \n- **Yellow:** Adrenaline  \n- **Purple:** Mana  \n- **Black:** Vitality  \n- **White:** Karma  \n- **Grey:** Spirituality",
+    "coutPP": 1
   },
   "birth-high-natural-regeneration": {
     "nom": "High Natural Regeneration",

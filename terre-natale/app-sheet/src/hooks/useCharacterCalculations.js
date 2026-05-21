@@ -371,6 +371,21 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
         ppUtilises += ct.rang * (traitInfo.coutPP || 1);
       }
     });
+    // PP utilisés par les particularités d'origine activées
+    const ethnie = DATA.ethnies.find(e => e.id === character.infos?.ethnicity);
+    if (ethnie) {
+      const allParts = [
+        ...(ethnie.particularites_naissance  || []),
+        ...(ethnie.particularites_culturelles || []),
+      ];
+      allParts.forEach(p => {
+        if (!p.anchor) return;
+        const info = DATA.particularites[p.anchor];
+        if (!info?.coutPP) return;
+        const isActive = character.particuliaritesActives?.[p.anchor] ?? false;
+        if (isActive) ppUtilises += info.coutPP;
+      });
+    }
     const ppRestants = ppTotal - ppUtilises;
 
     // PA calculations
@@ -501,6 +516,11 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       paDepenses,
       paRestants,
       paMax,
+
+      // Plafonds selon rang de caste
+      maxAttrCaste:    progressionInfo?.maxAttrCaste    ?? 18,
+      maxCompetence:   progressionInfo?.maxCompetence   ?? 4,
+      maxGroupe:       progressionInfo?.maxGroupe       ?? 2,
     };
   }, [character, castes]);
 }

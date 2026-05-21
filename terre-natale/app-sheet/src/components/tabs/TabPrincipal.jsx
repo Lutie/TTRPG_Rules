@@ -297,6 +297,12 @@ function TabPrincipal() {
               <span className="pa-label">Max base attribut</span>
               <span className="pa-value">{calc.paMax}</span>
             </div>
+            {calc.rangCaste > 0 && (
+              <div className="pa-summary-row">
+                <span className="pa-label">Max attr. de caste</span>
+                <span className="pa-value">{calc.maxAttrCaste}</span>
+              </div>
+            )}
           </div>
         </div>
 

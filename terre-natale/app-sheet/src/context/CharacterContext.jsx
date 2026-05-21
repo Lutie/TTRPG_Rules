@@ -244,7 +244,7 @@ export function CharacterProvider({ children }) {
     () => localStorage.getItem(STORAGE_DASHBOARD_URL) || 'https://dash.thalifen.synology.me'
   );
   const [syncEnabled, setSyncEnabledState] = useState(
-    () => localStorage.getItem(STORAGE_SYNC_ENABLED) !== 'false'
+    () => localStorage.getItem(STORAGE_SYNC_ENABLED) === 'true'
   );
   const [playerToken, setPlayerTokenState] = useState(
     () => localStorage.getItem(STORAGE_PLAYER_TOKEN) || ''

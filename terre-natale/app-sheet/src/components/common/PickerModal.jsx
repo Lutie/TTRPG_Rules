@@ -61,7 +61,7 @@ export default function PickerModal({
                 key={item.id}
                 className={`picker-item${isSelected ? ' picker-item--selected' : ''}${isExpanded ? ' picker-item--expanded' : ''}`}
               >
-                <button className="picker-item-header" onClick={() => toggle(item.id)}>
+                <div className="picker-item-header" onClick={() => toggle(item.id)}>
                   <span className="picker-item-name">
                     <span className="picker-item-name-row">
                       <span>{item.nom}</span>
@@ -70,10 +70,20 @@ export default function PickerModal({
                     {item.subtitle && <span className="picker-item-subtitle">{item.subtitle}</span>}
                   </span>
                   <span className="picker-item-right">
-                    {isSelected && <span className="picker-item-badge">✓</span>}
+                    {isSelected
+                      ? <span className="picker-item-badge">✓</span>
+                      : (
+                        <button
+                          className="btn-picker-select-inline"
+                          onClick={e => { e.stopPropagation(); onSelect(item.id); onClose(); }}
+                        >
+                          Choisir
+                        </button>
+                      )
+                    }
                     <span className="picker-item-chevron">{isExpanded ? '▲' : '▼'}</span>
                   </span>
-                </button>
+                </div>
 
                 {isExpanded && (
                   <div className="picker-item-body">

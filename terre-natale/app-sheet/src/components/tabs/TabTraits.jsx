@@ -76,13 +76,34 @@ function TabTraits() {
 
   // Avantages de caste
   const avantagesCaste = useMemo(() => {
-    const result = [];
     const rangCaste = calc.rangCaste || 0;
+    const all = [];
     for (const level of DATA.casteProgression) {
       if (level.rang <= rangCaste && level.avantages) {
         level.avantages.forEach((av, i) => {
-          result.push({ ...av, rang: level.rang, key: `caste-${level.rang}-${i}` });
+          all.push({ ...av, rang: level.rang, key: `caste-${level.rang}-${i}` });
         });
+      }
+    }
+    // Les avantages dont le nom se termine par " N" ou " (N)" sont des séries :
+    // seul le rang de caste le plus élevé débloqué est conservé, en remplaçant
+    // l'entrée à sa position d'origine pour ne pas perturber l'ordre d'affichage.
+    const getCanon = (nom) => nom.replace(/ \(\d+\)$/, '').replace(/ \d+$/, '');
+    const seriesMap = new Map();
+    const result = [];
+    for (const av of all) {
+      const canon = getCanon(av.nom);
+      if (canon !== av.nom) {
+        const existing = seriesMap.get(canon);
+        if (!existing) {
+          seriesMap.set(canon, { av, idx: result.length });
+          result.push(av);
+        } else if (av.rang > existing.av.rang) {
+          result[existing.idx] = av;
+          existing.av = av;
+        }
+      } else {
+        result.push(av);
       }
     }
     return result;
@@ -160,6 +181,20 @@ function TabTraits() {
 
   const toggleExpand = (id) => {
     setExpandedTraits(prev => ({ ...prev, [id]: !prev[id] }));
+  };
+
+  const isParticuliariteActive = (anchor) => {
+    const info = DATA.particularites?.[anchor];
+    const defaultActive = !info?.coutPP;
+    return character.particuliaritesActives?.[anchor] ?? defaultActive;
+  };
+
+  const toggleParticuliariteActive = (anchor) => {
+    const current = isParticuliariteActive(anchor);
+    updateCharacter(prev => ({
+      ...prev,
+      particuliaritesActives: { ...(prev.particuliaritesActives || {}), [anchor]: !current }
+    }));
   };
 
   const expandAll = () => {
@@ -300,6 +335,8 @@ function TabTraits() {
                     particuliarite={p}
                     expandedTraits={expandedTraits}
                     onToggle={toggleExpand}
+                    isActive={isParticuliariteActive(p.anchor)}
+                    onToggleActive={() => toggleParticuliariteActive(p.anchor)}
                   />
                 ))}
               </div>
@@ -439,24 +476,35 @@ function renderMd(text) {
 
 // ─── Carte d'une particularité d'origine (fixe, non modifiable) ──────────────
 
-function ParticuliariteCard({ index, particuliarite, expandedTraits, onToggle }) {
+function ParticuliariteCard({ index, particuliarite, expandedTraits, onToggle, isActive, onToggleActive }) {
   const key = `part-${index}`;
   const isExpanded = expandedTraits[key] || false;
 
   const info = DATA.particularites?.[particuliarite.anchor];
   const hasContent = info?.description || info?.effet || particuliarite.details?.length > 0;
+  const coutPP = info?.coutPP || 0;
 
   return (
-    <div className={`trait-item ${isExpanded ? 'expanded' : ''} trait-origine`}>
+    <div className={`trait-item ${isExpanded ? 'expanded' : ''} trait-origine${!isActive ? ' trait-inactive' : ''}`}>
       <div className="trait-header">
         <div className="trait-info">
           <span className="trait-nom">{particuliarite.nom}</span>
           <span className={`trait-cout-badge badge-particularite badge-particularite--${particuliarite.categorie.toLowerCase()}`}>
             {particuliarite.categorie}
           </span>
+          {coutPP > 0 && (
+            <span className="trait-cout-badge badge-cost">{coutPP} PP</span>
+          )}
         </div>
         <div className="trait-tags-inline" />
         <div className="trait-controls">
+          <button
+            className={`btn-particularite-toggle ${isActive ? 'active' : 'inactive'}`}
+            onClick={onToggleActive}
+            title={isActive ? 'Désactiver' : 'Activer'}
+          >
+            {isActive ? '●' : '○'}
+          </button>
           {hasContent && (
             <button className="btn-trait-toggle" onClick={() => onToggle(key)}>
               {isExpanded ? '▲' : '▼'}
@@ -618,7 +666,7 @@ const MODAL_TITLES = {
   desavantage:     'Ajouter un désavantage',
 };
 
-const MAX_RESULTS = 80;
+const MAX_RESULTS = Infinity;
 
 function SelectionModal({ type, takenIds, takenChoixPerTrait, choixOptions, onAdd, onClose }) {
   const [search, setSearch]             = useState('');
@@ -695,7 +743,7 @@ function SelectionModal({ type, takenIds, takenChoixPerTrait, choixOptions, onAd
           </div>
           <div className="traits-modal-count">
             {filtered.length} résultat{filtered.length !== 1 ? 's' : ''}
-            {filtered.length > MAX_RESULTS && ` (affichage limité à ${MAX_RESULTS})`}
+            {''}
           </div>
         </div>
 

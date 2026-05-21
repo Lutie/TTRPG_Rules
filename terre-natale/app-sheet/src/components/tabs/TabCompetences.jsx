@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
 import { useCharacterCalculations, calculerModificateur, getValeurTotale } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
@@ -16,8 +16,6 @@ const MAGIC_GROUP_IDS = categoriesMagie.flatMap(c =>
 
 const ALL_ATTRS = ['FOR', 'DEX', 'AGI', 'CON', 'PER', 'CHA', 'INT', 'RUS', 'VOL', 'SAG', 'MAG', 'LOG', 'EQU', 'CHN'];
 
-const MAX_RANG_GROUPE = 3;
-const MAX_RANG_COMPETENCE = 6;
 
 // Retourne la liste des compétences (objets) d'un groupe, dans l'ordre affiché
 function getCompsInGroupe(groupe, competences = DATA.competences) {
@@ -64,6 +62,28 @@ function TabCompetences() {
     : BASE_GROUP_IDS;
 
   const stored = character.competences || { groupes: {}, competences: {}, attributsChoisis: {} };
+
+  // Pour les compétences présentes dans plusieurs groupes : rang max stocké
+  // toutes catégories confondues, et nom du groupe source.
+  const crossGroupBest = useMemo(() => {
+    const groupeNomById = {};
+    for (const cat of activeCategories) {
+      for (const g of cat.groupes) groupeNomById[g.id] = g.nom;
+    }
+    const best = {}; // compId → { maxRank, groupeNom }
+    for (const cat of activeCategories) {
+      for (const g of cat.groupes) {
+        for (const comp of getCompsInGroupe(g, activeCompetences)) {
+          if (comp.libre) continue;
+          const rang = stored.competences?.[compKey(comp)] || 0;
+          if (!best[comp.id] || rang > best[comp.id].maxRank) {
+            best[comp.id] = { maxRank: rang, groupeNom: groupeNomById[g.id] || g.id };
+          }
+        }
+      }
+    }
+    return best;
+  }, [stored.competences, activeCategories, activeCompetences]);
 
   // Panneau résumé
   const [summaryOpen, setSummaryOpen] = useState(false);
@@ -244,8 +264,8 @@ function TabCompetences() {
                   value={entry.rang || 0}
                   onChange={e => handleLibreUpdate(key, idx, 'rang', e.target.value)}
                 >
-                  {Array.from({ length: MAX_RANG_COMPETENCE + 1 }, (_, i) => (
-                    <option key={i} value={i}>{i}</option>
+                  {Array.from({ length: Math.max(calc.maxCompetence, entry.rang || 0) + 1 }, (_, i) => (
+                    <option key={i} value={i} disabled={i > calc.maxCompetence}>{i}</option>
                   ))}
                 </select>
               </div>
@@ -267,6 +287,11 @@ function TabCompetences() {
     const key = compKey(comp);
     const rangComp = stored.competences?.[key] || 0;
 
+    // Rang emprunté depuis un autre groupe (compétence multi-groupes)
+    const best = crossGroupBest[comp.id];
+    const rangEffectif = (best && best.maxRank > rangComp) ? best.maxRank : rangComp;
+    const rangeEmpruntee = rangEffectif > rangComp;
+
     // Attribut automatique depuis la tradition magique du personnage
     const tradAttr = comp.attrTradition
       ? (DATA.traditions.find(t => t.id === character.tradition)?.attribut || null)
@@ -284,7 +309,7 @@ function TabCompetences() {
 
     const valeurAttr = attrChoisi ? getValeurTotale(character, attrChoisi) : 0;
     const modAttr = calculerModificateur(valeurAttr);
-    const bonus = modAttr + rangGroupe + rangComp;
+    const bonus = modAttr + rangGroupe + rangEffectif;
 
     return (
       <div key={key} className={`competence-item${comp.limitant ? ' limitant' : ''}`}>
@@ -319,10 +344,15 @@ function TabCompetences() {
             value={rangComp}
             onChange={(e) => handleCompetenceChange(key, e.target.value)}
           >
-            {Array.from({ length: MAX_RANG_COMPETENCE + 1 }, (_, i) => (
-              <option key={i} value={i}>{i}</option>
+            {Array.from({ length: Math.max(calc.maxCompetence, rangComp) + 1 }, (_, i) => (
+              <option key={i} value={i} disabled={i > calc.maxCompetence}>{i}</option>
             ))}
           </select>
+          {rangeEmpruntee && (
+            <span className="comp-rang-emprunte" title={`Rang ${rangEffectif} issu du groupe "${best.groupeNom}"`}>
+              (rang {rangEffectif} ↑ {best.groupeNom})
+            </span>
+          )}
         </div>
         <div className={`competence-bonus ${bonus >= 0 ? 'positive' : 'negative'}`}>
           {formatMod(bonus)}
@@ -363,8 +393,8 @@ function TabCompetences() {
                 value={rangGroupe}
                 onChange={(e) => handleGroupeChange(groupe.id, e.target.value)}
               >
-                {Array.from({ length: MAX_RANG_GROUPE + 1 }, (_, i) => (
-                  <option key={i} value={i}>{i}</option>
+                {Array.from({ length: Math.max(calc.maxGroupe, rangGroupe) + 1 }, (_, i) => (
+                  <option key={i} value={i} disabled={i > calc.maxGroupe}>{i}</option>
                 ))}
               </select>
             </div>
@@ -480,16 +510,18 @@ function TabCompetences() {
                   {compsInvestis.map(comp => {
                     const k = compKey(comp);
                     const rangComp = stored.competences?.[k] || 0;
+                    const best = crossGroupBest[comp.id];
+                    const rangEffectif = (best && best.maxRank > rangComp) ? best.maxRank : rangComp;
                     const tradAttr = comp.attrTradition
                       ? (DATA.traditions.find(t => t.id === character.tradition)?.attribut || null)
                       : null;
                     const attrChoisi = tradAttr || stored.attributsChoisis?.[k] || defaultAttr(comp);
-                    const bonus = calculerModificateur(getValeurTotale(character, attrChoisi)) + rangGroupe + rangComp;
+                    const bonus = calculerModificateur(getValeurTotale(character, attrChoisi)) + rangGroupe + rangEffectif;
                     return (
                       <div key={k} className="comp-summary-comp">
                         <span className="comp-summary-attr">{attrChoisi}</span>
                         <span className="comp-summary-nom">{comp.nom}</span>
-                        <span className="comp-summary-comp-rang">rang {rangComp}</span>
+                        <span className="comp-summary-comp-rang">rang {rangEffectif}</span>
                         <span className={`comp-summary-bonus ${bonus >= 0 ? 'positive' : 'negative'}`}>
                           {formatMod(bonus)}
                         </span>
