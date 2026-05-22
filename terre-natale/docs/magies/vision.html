@@ -1,0 +1,594 @@
+<!DOCTYPE html><html><head>
+      <title>vision</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {});
+</script></head><body for="html-export">
+      <div class="crossnote markdown-preview">
+<h1>Domaine de la Vision 👁️</h1>
+<blockquote>
+<p>72 mots pour ce domaine</p>
+</blockquote>
+<h4>1. Infravision</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Video (Voir), <strong><em>Arcanique :</em></strong> Lynvisu (Lyn + visu)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Lynvisueth<br />
+Génère un enchantement positif qui permet à la cible de voir au travers des murs sur une distance de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>2. Perception</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Capio (Saisir), <strong><em>Arcanique :</em></strong> Lucapti (Lu + capti)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Lucaptieth<br />
+Génère un enchantement positif qui octroie à la cible un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> action d'observation (ou autre actions mentales) par tours, hydraté équitablement sur les 3 premiers rounds.</p>
+<hr />
+<h4>3. Perfectionnement</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Perficere (Achever), <strong><em>Arcanique :</em></strong> Lempfect (Lem + pfect)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lempfectorr (Combat, Défense, Tactique, Archerie, Corps à corps), ⚕️ Corps: Lempfecten (Athlétisme, Gymnastique, Discipline), 👁️ Vision: Lempfecteth (Acuité), ✡️ Arcane: Lempfectys (Arcanes), 🔮 Magie: Lempfectirn (Chasse, Survie Rurale, Survie urbaine, Discrétion, Larçin, Sagacité, Subterfuge), ⚜️ Charme: Lempfectynh (Argumentation, Résolution, Manipulation, Art, Eloquence), 🧠 Esprit: Lempfectys (Artisanat, Profession, Savoir être, Savoir faire), 📚 Savoir: Lempfectaum (Langue, Enquête, Erudition, Stratégie, Guérison, Commerce)<br />
+Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>.</p>
+<hr />
+<h4>4. Hyperperception</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sensus (Sens), <strong><em>Arcanique :</em></strong> Luxsens (Lux + sens)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Luxsens eth<br />
+Génère un enchantement positif qui augmente drastiquement la portée des sens de la cible, cette dernière peux désormais percevoir les choses <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> fois plus loin qu'habituellement, les sens sont autant de fois plus intenses et les tests de sauvegarde ou compétence reçoivent un bonus équivalant (ce bonus est réduit au delà de la portée habituelle, par example si l'odeur est à 3x la portée habituelle et que le sort permet de percevoir 5x plus loin alors le bonus est de +2).</p>
+<hr />
+<h4>5. DésIllusion</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Ludo (Jouer), <strong><em>Arcanique :</em></strong> Lemludo (Lem + ludo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Lemludo eth<br />
+Génère un enchantement positif qui permet de voir au travers des Illusions et faux semblants (mensonges, etc), octroyant un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> aux tests en question.</p>
+<hr />
+<h4>6. Consécration</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sacro (Rendre sacré), <strong><em>Arcanique :</em></strong> Lemsacro (Lem + sacro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Lemsacroar, ❄️ Glace: Lemsacrois, ⚡ Foudre: Lemsacroor, 🪨 Terre: Lemsacroum, 💧 Eau: Lemsacroyn, 🌪️ Air: Lemsacroel, ☀️ Lumière: Lemsacroion, 🌑 Ombre: Lemsacrooth, ⚖️ Loi: Lemsacroem, 🌀 Chaos: Lemsacroix, ✨ Sacre: Lemsacroiel, 🩸 Impie: Lemsacroun, ❤️ Vie: Lemsacroir, ☠️ Mort: Lemsacrous, ⚕️ Corps: Lemsacroen, 🧠 Esprit: Lemsacroys, 🐗 Faune: Lemsacroorh, 🌿 Flore: Lemsacroiln, 🧩 Mental: Lemsacroend, ⚜️ Charme: Lemsacroynh, ✡️ Arcane: Lemsacroys, 🔮 Magie: Lemsacroirn, 🪷 Nature: Lemsacroeiln, ☢️ Toxique: Lemsacroex, 🎭 Illusion: Lemsacroin, 📚 Savoir: Lemsacroaum, 👁️ Vision: Lemsacroeth, ⚔️ Acier: Lemsacroan, 🛡️ Guerre: Lemsacroorr, 💢 Vide: Lemsacroarh<br />
+Génère un enchantement positif qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de bonus aux sauvegardes.</p>
+<hr />
+<h4>7. Pistage</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Vestigium (Trace), <strong><em>Arcanique :</em></strong> Morvesti (Mor + vesti)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Morvesti eth<br />
+Génère un enchantement négatif qui permet au lanceur de sort de connaitre la position de la cible à tout moment sur une distance maximale de <span style="color:#ff1493; font-weight:bold;">[Magnitude x100]</span>.</p>
+<hr />
+<h4>8. Déqualification</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Qualis (Qualité), <strong><em>Arcanique :</em></strong> Morquali (Mor + quali)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Morqualiorr (Combat, Défense, Tactique, Archerie, Corps à corps), ⚕️ Corps: Morqualien (Athlétisme, Gymnastique, Discipline), 👁️ Vision: Morqualieth (Acuité), ✡️ Arcane: Morqualiys (Arcanes), 🔮 Magie: Morqualiirn (Chasse, Survie Rurale, Survie urbaine, Discrétion, Larçin, Sagacité, Subterfuge), ⚜️ Charme: Morqualiynh (Argumentation, Résolution, Manipulation, Art, Eloquence), 🧠 Esprit: Morqualiys (Artisanat, Profession, Savoir être, Savoir faire), 📚 Savoir: Morqualiaum (Langue, Enquête, Erudition, Stratégie, Guérison, Commerce)<br />
+Produit un enchantement négatif qui réduit une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>9. Privation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Privo (Enlever), <strong><em>Arcanique :</em></strong> Munprivo (Mun + privo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Munprivoeth<br />
+Génère un enchantement négatif qui bloque un ou tous les sens de la cible (au choix au lancement du sort) sur une distance supérieur à <span style="color:#ff1493; font-weight:bold;">[Perception de la cible x 2]</span> moins <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, si l'effet n'affecte qu'un seul sens la cible est désavantagé à son test de sauvegarde, si l'effet affecte tous les sens la magnitude est divisée par 2.</p>
+<hr />
+<h4>10. Déprécation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Precor (Prier), <strong><em>Arcanique :</em></strong> Munprec (Mun + prec)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Munprecar, ❄️ Glace: Munprecis, ⚡ Foudre: Munprecor, 🪨 Terre: Munprecum, 💧 Eau: Munprecyn, 🌪️ Air: Munprecel, ☀️ Lumière: Munprecion, 🌑 Ombre: Munprecoth, ⚖️ Loi: Munprecem, 🌀 Chaos: Munprecix, ✨ Sacre: Munpreciel, 🩸 Impie: Munprecun, ❤️ Vie: Munprecir, ☠️ Mort: Munprecus, ⚕️ Corps: Munprece n, 🧠 Esprit: Munprecys, 🐗 Faune: Munprecorh, 🌿 Flore: Munpreciln, 🧩 Mental: Munprecend, ⚜️ Charme: Munprecynh, ✡️ Arcane: Munprecys, 🔮 Magie: Munprecirn, 🪷 Nature: Munpreceiln, ☢️ Toxique: Munprecex, 🎭 Illusion: Munprecin, 📚 Savoir: Munprecaum, 👁️ Vision: Munpreceth, ⚔️ Acier: Munprecan, 🛡️ Guerre: Munprecorr, 💢 Vide: Munprecarh<br />
+Génère un enchantement négatif qui octroie à la cible des pénalités très marquée contre un élément donné, cela se traduit par une réduction de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> en protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de malus aux sauvegardes.</p>
+<hr />
+<h4>11. Sensation (lien)</h4>
+<p><strong><em>École :</em></strong> École d'Invocation<br />
+<strong><em>Latin :</em></strong> Sensus (Sens), <strong><em>Arcanique :</em></strong> Vosens (Vo + sens)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible (invocation)<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Vosens eth<br />
+Génère un enchantement qui permet à l'invocation et à son invocateur de communiquer sur une distance maximale de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² mètres, l'invocation partage également ses sens avec l'invocateur sur 10x cette distance (sans pouvoir communiquer avec lui si trop distant).</p>
+<hr />
+<h4>12. Obstruction</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Obstruo (Boucher), <strong><em>Arcanique :</em></strong> Basobstru (Bas + obstru)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Basobstruar, ❄️ Glace: Basobstruis, ⚡ Foudre: Basobstruor, 🪨 Terre: Basobstruum, 💧 Eau: Basobstruyn, 🌪️ Air: Basobstruel, ☀️ Lumière: Basobstruion, 🌑 Ombre: Basobstruoth, ⚖️ Loi: Basobstruem, 🌀 Chaos: Basobstruix, ✨ Sacre: Basobstruiel, 🩸 Impie: Basobstruun, ❤️ Vie: Basobstruir, ☠️ Mort: Basobstruus, ⚕️ Corps: Basobstruen, 🧠 Esprit: Basobstruys, 🐗 Faune: Basobstruorh, 🌿 Flore: Basobstruiln, 🧩 Mental: Basobstruend, ⚜️ Charme: Basobstruynh, ✡️ Arcane: Basobstruys, 🔮 Magie: Basobstruirn, 🪷 Nature: Basobstrueiln, ☢️ Toxique: Basobstruex, 🎭 Illusion: Basobstruin, 📚 Savoir: Basobstruaum, 👁️ Vision: Basobstrueth, ⚔️ Acier: Basobstruan, 🛡️ Guerre: Basobstruorr, 💢 Vide: Basobstruarh<br />
+Génère un effet qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de protection, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de résistance et <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> de bonus aux sauvegardes, cet effet ne s'applique pour un effet/une action.</p>
+<hr />
+<h4>13. Protestation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Testor (Témoigner), <strong><em>Arcanique :</em></strong> Barenteste (Bren + teste)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.</p>
+<hr />
+<h4>14. Neutralisation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Neuter (Ni l'un ni l'autre), <strong><em>Arcanique :</em></strong> Barneute (Bar + neute)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).</p>
+<hr />
+<h4>15. Rétrocognition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Retro (Arrière) + Nosco (Connaître), <strong><em>Arcanique :</em></strong> Diretro (Di + retro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Diretroeth<br />
+Génère un effet permettant au lanceur de sort de consulter le passé de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans le passé, la vision en question n'est pas lié aux sens de la cible mais en est totalement indépendant.</p>
+<hr />
+<h4>16. Précognition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Prae (Avant) + Nosco (Connaître), <strong><em>Arcanique :</em></strong> Dornosc (Dor + nosc)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dornosceth<br />
+Génère un effet permettant au lanceur de sort de consulter le futur de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans l'avenir, cette vision ne se fait pas pars le prisme des sens ou de la perception de la cible mais d'une façon plus extérieur et neutre, ce futur peux changer si quelque chose le préviens mais la nature du monde cherchera à contourner tout changement trop important, le changement doit donc être drastique pour forcer la main du destin.</p>
+<hr />
+<h4>17. Remémoration</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Memoria (Mémoire), <strong><em>Arcanique :</em></strong> Delmemo (Del + memo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delmemoeth<br />
+Génère un effet permettant au lanceur de sort de consulter la mémoire de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans le temps, ne permet pas de voir ou entendre ce que le personnage n'a pas compris ou réellement vécu via ses sens.</p>
+<hr />
+<h4>18. Scrutation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Scrutator (Examiner), <strong><em>Arcanique :</em></strong> Darsrut (Dar + srut)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 0<br />
+<strong>Clés :</strong> 👁️ Vision: Darsruteth<br />
+Génère un effet permettant à la cible de consulter ce qui se passe à l'instant T à un lieu précis dont la distance est mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² mètres, le phénomène est trop rapide pour que les cibles épiées puissent le sentir, mais aussi trop court pour entendre toute une conservation entre deux interlocuteur (au mieux le curieux peux recevoir les informations sur une grosse minute de temps).</p>
+<hr />
+<h4>19. Supposition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Pono (Poser), <strong><em>Arcanique :</em></strong> Delponi (Del + poni)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delponieth<br />
+Génère un effet permettant au lanceur de sort de consulter le futur de la cible selon le prisme d'une hypothèse/d'une action/d'un choix, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> minutes dans le passé, la vision en question n'est pas lié aux sens de la cible mais en est totalement indépendant.</p>
+<hr />
+<h4>20. Intrusion</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Trudo (Pousser), <strong><em>Arcanique :</em></strong> Deltrud (Del + trud)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Deltrudeth<br />
+Génère un enchantement qui permet à la cible de voir les pensés des autres en temps réelles (émotion, réelles intentions, etc).</p>
+<hr />
+<h4>21. Localisation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Locus (Lieu), <strong><em>Arcanique :</em></strong> Darlocus (Dar + locus)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 0<br />
+<strong>Clés :</strong> 👁️ Vision: Darlocus eth<br />
+Génère un effet permettant à la cible de connaitre la direction et la distance de son objectif (définit au lancement du sort), si l'objectif est à une distance inférieure à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres alors la direction donnée par le sort est parfaite, c'est une ligne droite en somme, si l'objectif est à une distance inférieure à <span style="color:#ff1493; font-weight:bold;">[Magnitude x 10]</span> mètres alors la direction donnée par le sort est de l'ordre de 45°, puis pareil avec 100 et 90°, 1km et 180°, au delà de 10km le sort n'échoue pas mais ne donne pas d'indications sauf que l'objectif existe quelque part, au delà de 100km le sort n'échoue pas mais ne donne pas d'indications tout court.</p>
+<hr />
+<h4>22. Balisation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Palus (Pieu), <strong><em>Arcanique :</em></strong> Dipale (Di + pale)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dipaleeth<br />
+Génère un enchantement qui octroie à la cible les mêmes propriétés que le mot "Localisation", cependant la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> est divisée par 2.</p>
+<hr />
+<h4>23. Infravision</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Video (Voir), <strong><em>Arcanique :</em></strong> Dorvidi (Dor + vidi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 0<br />
+<strong>Clés :</strong> 👁️ Vision: Dorvidieth<br />
+Génère un effet permettant à la cible de voir les reliefs (murs, meubles, surface inertes, mais pas les détails ou les formes complexes) au travers des murs et autres surfaces sur une distance de <span style="color:#ff1493; font-weight:bold;">[Magnitude x 2]</span> mètres autour de lui.</p>
+<hr />
+<h4>24. Transvision</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Visio (Vision), <strong><em>Arcanique :</em></strong> Delvisu (Del + visu)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delvisu eth<br />
+Génère un enchantement qui octroie à la cible les mêmes propriétés que le mot "Infravision", cependant la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> est divisée par 2.</p>
+<hr />
+<h4>25. Détection</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Tego (Couvrir), <strong><em>Arcanique :</em></strong> Dartego (Dar + tego)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 0<br />
+<strong>Clés :</strong> 👁️ Vision: Dartegoeth (tout), 🔥 Feu: Dartegoar (feu), ❄️ Glace: Dartegois (glace), ⚡ Foudre: Dartegoor (source d'énergie), 🪨 Terre: Dartegouv (minéraux), 💧 Eau: Dartegoyn (eau), 🌪️ Air: Dartegoel (vents, donc pas juste l'air), ☀️ Lumière: Dartegoion (source de lumière), 🌑 Ombre: Dartegooth (source d'ombre), ⚖️ Loi: Dartegoem (objet au comportement cyclique), 🌀 Chaos: Dartegoix (objet au comportement aléatoire), ❤️ Vie: Dartegoir (humanoïde, même incapable de parler), ☢️ Toxique: Dartegoex (élément toxique), ☠️ Mort: Dartegus (cadavres), ⚔️ Acier: Dartegoan (métal), 🌿 Flore: Dartegoiln (arbres), ✡️ Arcane: Dartegoys (enchantements et objets magiques), ✨ Sacre: Dartegoiel (choses sacrés), 🩸 Impie: Dartego un (choses impies, sang), 🐗 Faune: Dartegoorh (animaux), 🔮 Magie: Dartegoirn (enchantements et monstres)<br />
+Génère un enchantement qui permet à la cible de localiser exactement où se situe les éléments correspondant à la clé utilisée sur une distance de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, ce sort ne permet pas l'infravision (et donc ne permet pas de voir dans quel environnement exact se situe l'élément), mais la conjonction des deux sorts est possible, le domaine de la vision permet de voir tous les éléments notables mais sur une distance divisée par 2.</p>
+<hr />
+<h4>26. Signalement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Signum (Signe), <strong><em>Arcanique :</em></strong> Disigno (Di + signo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Disignoeth (tout), 🔥 Feu: Disignoar (feu), ❄️ Glace: Disignois (glace), ⚡ Foudre: Disignor (source d'énergie), 🪨 Terre: Disignoum (minéraux), 💧 Eau: Disignoyn (eau), 🌪️ Air: Disignoel (vents, donc pas juste l'air), ☀️ Lumière: Disignoion (source de lumière), 🌑 Ombre: Disignooth (source d'ombre), ⚖️ Loi: Disignoem (objet au comportement cyclique), 🌀 Chaos: Disignoix (objet au comportement aléatoire), ❤️ Vie: Disignoir (humanoïde, même incapable de parler), ☢️ Toxique: Disignoex (élément toxique), ☠️ Mort: Disignous (cadavres), ⚔️ Acier: Disignoan (métal), 🌿 Flore: Disignoiln (arbres), ✡️ Arcane: Disignoys (enchantements et objets magiques), ✨ Sacre: Disignoiel (choses sacrés), 🩸 Impie: Disignoun (choses impies, sang), 🐗 Faune: Disignorh (animaux), 🔮 Magie: Disignoirn (enchantements et monstres)<br />
+Génère un enchantement qui octroie à la cible les mêmes propriétés que le mot "Détection", cependant la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> est divisée par 2.</p>
+<hr />
+<h4>27. Prévision</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Video (Voir), <strong><em>Arcanique :</em></strong> Darviso (Dar + viso)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darvisoeth<br />
+Génère un effet qui permet au lanceur du sort de lire dans les signes afin de porter une action de combat (attaque, défense ou tactique) en anticipant les réactions adverses, l'action est confrontée à une difficulté réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> et celles des adversaires (venant du personnage) à une difficulté augmentée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en maitrise (donc à la difficulté pour contrer l'action en question par example).</p>
+<hr />
+<h4>28. Magnification</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Magnus (Grand), <strong><em>Arcanique :</em></strong> Dimagno (Di + magno)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dimagno eth<br />
+Génère un enchantement positif qui double la Magnitude concernant la portée des effets de senseurs, avec pour maximum un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.</p>
+<hr />
+<h4>29. Prolongation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Longus (Long), <strong><em>Arcanique :</em></strong> Dorlong (Dor + long)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dorlongeth<br />
+Génère un enchantement positif qui doit être associé à un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> de type "senseur" ou "percevoir" dont il maintient les effets actifs.</p>
+<hr />
+<h4>30. Intuition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Tueor (Regarder), <strong><em>Arcanique :</em></strong> Deltueo (Del + tueo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Deltueoeth, 🛡️ Guerre: Deltueoorr<br />
+Génère un effet de perception du danger (voir règle sur les "senseurs"), révèle ainsi les êtres qui souhaite ou pourrait s'en prendre au personnage, quel qu'en soit la raison... Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>31. Décellement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Celo (Cacher), <strong><em>Arcanique :</em></strong> Darcelo (Dar + celo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darceloeth, 🛡️ Guerre: Darceloorr<br />
+Génère un effet de perception des pièges (voir règle sur les "senseurs"), révèle ainsi les éléments dissimulés étant de nature à pouvoir entraver ou blesser. Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>32. Dévoilement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Velum (Voile), <strong><em>Arcanique :</em></strong> Divelo (Di + velo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Diveloeth, ☀️ Lumière: Diveloion<br />
+Génère un effet de perception des secrets (voir règle sur les "senseurs"), révèle ainsi les éléments dissimulés tel que les portes, passages, coffres, documents... ou ce qui est faux (un document falcifié, une bête copie d'un objet, etc) bref tout ce qui est de nature à être secret. Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>33. Évaluation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Aestimo (Estimer), <strong><em>Arcanique :</em></strong> Doraesti (Dor + aesti)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Doraestieth<br />
+Génère un effet de perception des objets de valeurs (voir règle sur les "senseurs"), révèle ainsi les éléments ayant une valeurs marchande notable. Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>34. Hiérarchisation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Ordo (Ordre), <strong><em>Arcanique :</em></strong> Delordo (Del + ordo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delordoeth<br />
+Génère un effet de perception des objets importants (voir règle sur les "senseurs"), révèle ainsi les éléments ayant une valeurs sentimentales ou fonctionnels notables (ce qui n'a rien à voir avec le prix même de l'objet). Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>35. Animation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Anima (Âme), <strong><em>Arcanique :</em></strong> Daranima (Dar + anima)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 👁️ Vision: Daranimaeth, ❤️ Vie: Daranimair<br />
+Génère un effet de perception du vivant (voir règle sur les "senseurs"), révèle ainsi les êtres vivants proches, qu’ils soient cachés, camouflés ou invisibles. Cette perception distingue également l’intensité vitale (vigoureux, blessé, mourant) mais reste éphémère, et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>36. Pistement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Vestigium (Trace), <strong><em>Arcanique :</em></strong> Divesti (Di + vesti)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Divestieth, 🐗 Faune: Divestiorh<br />
+Génère un effet de perception des créatures d'un certain reigne (selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (voir règle sur les "senseurs"), révèle ainsi les animaux proches, qu’ils soient cachés ou non. Cette perception distingue également l’intensité vitale (vigoureux, blessé, mourant) mais reste éphémère, et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>37. Nécrolocation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Necro (Mort) + Locus (Lieu), <strong><em>Arcanique :</em></strong> Dornecro (Dor + necro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dornecroeth, ☠️ Mort: Dornecrous<br />
+Génère un effet de perception des morts (voir règle sur les "senseurs"), révèle ainsi les cadavres dissimulés, les âmes errantes ou prisonnières, ainsi que les morts-vivants. Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>38. Arcanovision</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Arcanum (Secret), <strong><em>Arcanique :</em></strong> Delarcan (Del + arcan)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delarcaneth, 🔮 Magie: Delarcanirn<br />
+Génère un effet de perception de la magie (voir règle sur les "senseurs"), révèle ainsi les enchantements, malédictions, zones ensorcelées, ou les êtres et objets porteurs d’aura magique. Selon la Magnitude, il est possible de distinguer la nature ou la force de cette aura. Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>39. Empathisation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Pathos (Sentiment), <strong><em>Arcanique :</em></strong> Darpath (Dar + path)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darpatheth, ⚜️ Charme: Darpathy nh<br />
+Génère un effet de perception des émotions (voir règle sur les "senseurs"), révèle ainsi les sentiments dominants des êtres proches (colère, peur, amour, haine…). Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>40. Rétrovision</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Retro (Arrière) + Visio (Vision), <strong><em>Arcanique :</em></strong> Divisio (Di + visio)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Divisioeth, 💢 Vide: Divisioarh<br />
+Génère un effet de perception du passé (voir règle sur les "senseurs"), révèle ainsi des échos ou images fantomatiques d’événements anciens ayant marqué le lieu ou l’objet ciblé. La portée temporelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> secondes et couvre au mieux une période de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> secondes. Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>41. Préfiguration</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Figuro (Former), <strong><em>Arcanique :</em></strong> Dorfigu (Dor + figu)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dorfigueth, 💢 Vide: Dorfiguarh<br />
+Génère un effet de perception du futur (voir règle sur les "senseurs"), révèle ainsi des fragments d’avenirs possibles, montrant des embranchements liés aux choix et intentions des êtres ou des circonstances. Les événements purement matériels et inéluctables (comme la chute d’une pieRe) apparaissent comme fixes, tandis que les actions conscientes sont perçues sous plusieurs variantes. La portée temporelle est de <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> secondes et couvre au mieux une période de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> secondes. Cette perception est éphémère et le lanceur de sort ne peut observer attentivement qu’une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>42. Anticipation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Capio (Prendre), <strong><em>Arcanique :</em></strong> Delcipi (Del + cipi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delcipieth<br />
+Génère un effet qui permet au lanceur du sort de lire dans les signes afin de porter des actions de combat (attaque, défense ou tactique) en anticipant les réactions adverses, les action de combat du personnage sont ainsi confrontées à une difficulté réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> et celles des adversaires (venant du personnage) à une difficulté augmentée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>.</p>
+<hr />
+<h4>43. Inspection</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dorquereth<br />
+Le sort permet au lanceur de sort de « percevoir » les environs d’un lieu, d’un objet ou d’une personne donnée. La cible doit être désignée en fonction d’un élément, d’une matière, de corps, d’esprits, d’un objet, etc... Qui le caractérise ou le représente. La distance maximale de scrutation est fixée à <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> mètres. Le lanceur de sort ne sait pas forcément d'où est-ce qu'il scrute, mais peux essayer de le déduire en observant bien la scène.</p>
+<hr />
+<h4>44. Transposition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Pono (Placer), <strong><em>Arcanique :</em></strong> Delposto (Del + posto)<br />
+<strong><em>Type de mot :</em></strong> Liaison, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 👁️ Vision: Delpostoeth<br />
+Le sort de "perception" peux être lancé sans avoir la cible en vu mais en connaissant simplement celle ci. La cible doit être désignée en fonction d’un élément, d’une matière, de corps, d’esprits, d’un objet, etc... Qui le caractérise ou le représente. La distance maximale à laquelle la cible peux être trouvée/affectée de la sorte est fixée à <span style="color:#ff1493; font-weight:bold;">[Magnitude²/5]</span> mètres.</p>
+<hr />
+<h4>45. Ligation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Liga (Lier), <strong><em>Arcanique :</em></strong> Darliga (Dar + liga)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darligaeth, ⚖️ Loi: Darligaem<br />
+Génère un effet qui permet à la cible de « percevoir » les connexions invisibles qui relies la cible (personne, objet ou lieu) à d'autres éléments (personne, objet ou lieu). Le lien visible que perçoit au lanceur de sort de définir la nature même de ce qui rapproche ces éléments : Contrats classiques ou magiques, pactes, propriétés (à qui appartient l'objet donc et si cette appropriation est l'objet d'un vol ou non), serments ou liens qu'on peux imaginer). Cependant il n'est possible que de percevoir les liens avec des éléments proches, l'effet ne pouvant désigner quoi que ce soit au delà de <span style="color:#ff1493; font-weight:bold;">[Magnitude²/5]</span> mètres.</p>
+<hr />
+<h4>46. Prémonition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Moneo (Avertir), <strong><em>Arcanique :</em></strong> Dimoni (Di + moni)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dimonieth<br />
+Génère un effet qui permet à la cible de « percevoir » l’alignement d’un événement (et quelques détails très flous) pouvant se produire en relation avec un lieu, un objet ou une personne… et même un verbe.</p>
+<hr />
+<h4>47. Harmonisation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Harmonia (Harmonie), <strong><em>Arcanique :</em></strong> Dorharmo (Dor + harmo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dorharmo eth<br />
+Génère un effet qui permet à la cible de « percevoir » les pensées de sa cible. On parle plus communément de « télépathie » mais celle-ci fonctionne dans un sens unique. Ce sort peut affecter une cible non vivante ou privée d’intelligence telle que des bêtes, des arbres, voir même un lac, etc… mais les propos seront simplement particulièrement flous et imagés. L'échange se limite à <span style="color:#ff1493; font-weight:bold;">[2xMagnitude]</span> mots.</p>
+<hr />
+<h4>48. Communication</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Communis (Commun), <strong><em>Arcanique :</em></strong> Delcommu (Del + commu)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 👁️ Vision: Delcommueth<br />
+Génère un effet qui permet à la cible de « percevoir » les pensées de sa cible. On parle plus communément de « télépathie » et celle-ci fonctionne dans les deux sens. Ce sort peut affecter une cible non vivante ou privée d’intelligence telle que des bêtes, des arbres, voir même un lac, etc… mais les propos reçus seront simplement particulièrement flous et imagés, et les propos envoies peuvent être mal compris si trop complexes. L'échange se limite à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mots.</p>
+<hr />
+<h4>49. Incarnation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Caro (Chair), <strong><em>Arcanique :</em></strong> Darcarn (Dar + carn)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darcarneth<br />
+Génère un effet qui permet à la cible de « percevoir » les environs les sens comme le ferait sa cible. La distance maximale de perception est fixée à <span style="color:#ff1493; font-weight:bold;">[Magnitude²/5]</span> mètres (et ce même si la cible peux ou ne peux pas percevoir plus loin que ça). La perception peut donner une réponse (nécessairement vague) sur un laps de temps maximal fixé à <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> secondes (si l'effet est bel et bien basé sur une durée).</p>
+<hr />
+<h4>50. Orientation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Oriens (Est, Levant), <strong><em>Arcanique :</em></strong> Dirien (Di + rien)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dirieneth<br />
+Génère un effet qui permet à la cible de « percevoir » la localisation d'un objet, un lieu ou une personne donné. La localisation prend la forme d'une d'une "flèche" allant dans la direction de l'objet, le lanceur de sort a une appréciation approximative de la distance qui l'en sépare. La cible doit être désignée en fonction d’un élément, d’une matière, de corps, d’esprits, d’un objet, etc... Qui le caractérise ou le représente. La distance maximale de localisation est fixée à <span style="color:#ff1493; font-weight:bold;">[10 x Magnitude²]</span> mètres.</p>
+<hr />
+<h4>51. Destination</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Sto (Se tenir), <strong><em>Arcanique :</em></strong> Delstatio (Del + statio)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delstatioeth<br />
+Génère un effet qui permet à la cible de « percevoir » l’itinéraire vers un lieu ou un objectif précis ; la vision du chemin peut se décliner selon <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> critères différents (le plus court, le plus sûr, le plus fréquenté, le plus discret, etc.), au choix du lanceur au moment de l’activation, et celui-ci reçoit alors une perception nette de la direction à prendre, des étapes à franchir et des dangers potentiels, comme si le tracé était projeté dans son esprit, la distance maximale couvert par ces indications est de <span style="color:#ff1493; font-weight:bold;">[10 x Magnitude²]</span> mètres.</p>
+<hr />
+<h4>52. Volition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Volo (Vouloir), <strong><em>Arcanique :</em></strong> Darvol (Dar + vol)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darvolet h<br />
+Le sort permet au lanceur de sort d'apprendre les motivations de la cible. Les motivations sont les objectifs de la cible. De base transparaissent les objectifs très courts termes (journée), avec une Magnitude d'au moins 10 transparaissent les objectifs courts termes (semaine), 20 moyen termes (mois), 30 long termes (année), 40 très long termes (vie), 50 tout (jusqu'à remonter à des générations précédentes).</p>
+<hr />
+<h4>53. Transperception</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Perceptio (Perception), <strong><em>Arcanique :</em></strong> Delcept (Del + cept)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delcepteth<br />
+Génère un enchantement positif qui permet à la cible de voir à travers les murs (il les perçoient mais voit au travers), il n'est donc pas gêner par ces derniers, sur un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mètres de distance.</p>
+<hr />
+<h4>54. Noctovision</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Nox (Nuit), <strong><em>Arcanique :</em></strong> Darnox (Dar + nox)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darnoxeth<br />
+Génère un enchantement positif qui permet à la cible de voir à travers la pénombre, il n'est donc pas gêner par cette dernière (même l'obscurité totale), sur un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mètres de distance.</p>
+<hr />
+<h4>55. Intention</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Tendo (Tendre), <strong><em>Arcanique :</em></strong> Ditende (Di + tende)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Ditende eth<br />
+Génère un enchantement positif qui permet à la cible de savoir ce que les participants d'une confrontation vont faire comme prochaine action si et seulement si rien ne viens perturber la logique/raison d'être de l'action, ni joueurs ni le MJ ne doivent dédire l'annonce qui est faite des intensions sans bonnes raisons pour un tel changement de plan, la perception de ces intensions se limite aux individus à moins de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> mètres/cases de la cible.</p>
+<hr />
+<h4>56. Décorporation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Corpus (Corps), <strong><em>Arcanique :</em></strong> Delcorp (Del + corp)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delcorpeth<br />
+Génère un enchantement neutre qui permet à la cible de faire sortir son âme de son corps afin de pouvoir percevoir les alentours, le personnage peux ainsi se déplacer à un maximum <span style="color:#ff1493; font-weight:bold;">[100 x Magnitude²]</span> mètres, l'âme se déplace à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres secondes, le personnage subit un point de fatigue chaque fois le quart de la distance maximale est parcourus, attention car l'âme est quelque chose de fragile...</p>
+<hr />
+<h4>57. Révélation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Apertus (Ouvert), <strong><em>Arcanique :</em></strong> Darape (Dar + ape)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darapeeth<br />
+énère un effet qui permet au lanceur de déterminer si la cible possède des informations sur un sujet ; le sort dispose d’une capacité de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à répartir, chaque sujet coûtant 3 (trivial : savoir courant, rumeur publique, coutume), 5 (discret : détails locaux, pratiques privées, faits peu connus), 7 (compromettant : secrets personnels, agissements illégaux, informations sensibles), ou 10 (crucial : complots, trahisons, rituels ou vérités majeures) ; si la cible réussit son test de sauvegarde, les sujets cruciaux ne peuvent pas être validés.</p>
+<hr />
+<h4>58. Préroulement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Volvo (Rouler), <strong><em>Arcanique :</em></strong> Divolvo (Di + volvo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 6, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Divolvo eth<br />
+Génère un enchantement positif qui permet à la cible de lancer jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> tests d'avance et de choisir l'ordre d'utilisation de ces derniers, le personnage peux toujours choisir de ne pas faire usage d'un test stocké, une fois tous les tests stockés utilisés l'enchantement prend fin, toutes manipulations de dés surviens au moment de l'utilisation et pas avant.</p>
+<hr />
+<h4>59. Augurement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Augur (Devin), <strong><em>Arcanique :</em></strong> Doraugur (Dor + augur)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Doraugureth<br />
+Génère un enchantement positif qui permet à la cible de lancer jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> jets d'avance et de choisir l'ordre d'utilisation de ces derniers, le personnage peux toujours choisir de ne pas faire usage d'un jet stocké, une fois tous les jets stockés utilisés l'enchantement prend fin, toutes manipulations de dés surviens au moment de l'utilisation et pas avant, les jets stockés sont lancés avec 4 dés quoi qu'il arrive et seuls les meilleurs sont concervés, si un jet stocké doit être utilisé pour un jet qui compte plus de d8 alors des dés en plus sont lancés pour compenser.</p>
+<hr />
+<h4>60. Traçation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Traho (Tirer, tracer), <strong><em>Arcanique :</em></strong> Deltrac (Del + trac)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Deltraceth<br />
+Le sort permet au lanceur de sort de connaitre la localisation d'une personne connue. La localisation apparait dans l'esprit du lanceur de sort. Il peux reconnaitre ou pas les lieux, ce n'est pas automatique. La cible doit être connue et le lanceur de sort doit l'avoir cotoyer un minimum. La distance maximale de localisation est fixée à <span style="color:#ff1493; font-weight:bold;">[20 x Magnitude²]</span> mètres.</p>
+<hr />
+<h4>61. Panoptisation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Omnis (Tout) + Visio (Vision), <strong><em>Arcanique :</em></strong> Delpanop (Del + panop)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delpanopeth<br />
+Génère un effet qui permet à la cible de percevoir l'ensemble du champs de bataille avec ses protagonistes, éléments contextuels ou utilisables, témoins, etc... Il peux alors effectuer jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> tests mentaux pour chaques éléments qui l'intrigue ou dont il cherche des précisions/localisations/etc. Cet effet couvre un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mètres de rayon.</p>
+<hr />
+<h4>62. Empreintation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Impressio (Empreinte), <strong><em>Arcanique :</em></strong> Darimpre (Dar + impre)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darimpreth<br />
+Génère un effet qui permet à la cible de percevoir les "pas" (tracks) avec le détails du type de créature ou individus qui a laissé ces traces (un humanoide svelte peu équipé, etc)... Il peux alors effectuer jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> tests mentaux pour chaques éléments qui l'intrigue ou dont il cherche des précisions/localisations/etc. Cet effet couvre un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mètres de rayon.</p>
+<hr />
+<h4>63. Surdétection</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Super (Sur) + Tego (Couvrir), <strong><em>Arcanique :</em></strong> Deltuper (Del + tuper)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Deltupereth<br />
+Génère un enchantement positif qui force les sens de la cible à réagir au quart de tour, le personnage réalise ses tests de détection sans avoir besoin de le demander ni action pour ça, le MJ réalise donc automatiquement ces tests si besoin avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>64. Aiguisement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Acies (Pointe), <strong><em>Arcanique :</em></strong> Doracie (Dor + acie)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Doracieeth<br />
+Génère un enchantement positif qui augmente tous les sens de la cible, les tests de détection associés étant augmentés de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, de plus le personnage est doté d'une intuition passive qui lui permet de noter tout éléments alentours cachés derrière un test d'intuition de difficulté <span style="color:#ff1493; font-weight:bold;">[10+Magnitude/3]</span> ou moins.</p>
+<hr />
+<h4>65. Auspication</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Avis (Oiseau), <strong><em>Arcanique :</em></strong> Delauspi (Del + auspi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Delauspieth<br />
+Génère un effet qui permet à la cible de connaitre l’instant le plus favorable dans une fenêtre de temps allant jusqu'à <span style="color:#ff1493; font-weight:bold;">[10 x Magnitude²]</span> minutes pour accomplir une action (au sens large) précise, l'effet permet d'identifier ainsi jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> actions différentes de la sorte, le moment favorable est désigné avec un bref résumé des raisons (qui ne peuvent être précises ou exhaustives, seulement indicatives), si le lanceur de sort le souhaite il peux lancer le sort avec la moitié seulement de Magnitude et dans ce cas uniquement la raison est détaillée/explicite.</p>
+<hr />
+<h4>66. Véridiction</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Veritas (Vérité), <strong><em>Arcanique :</em></strong> Dorveritas (Dor + veritas)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Dorveritas eth<br />
+Génère un effet permettant au lanceur de démasquer la véracité des propos qui viennent d'être dit ; Le sort affecte jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mots (approximativement) et jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> points de ces propos peuvent être analysés, pour chaque point la cible peux apprendre si le propos entendu est “vrai”, “faux”, “indéterminé” ou “partiellement vrai” ou “partiellement faux” en fonction des connaissances et convictions de l’émetteur, si la cible réussis son test de sauvegarde le sort retourne "peux être vrai" ou "peux être faux" ou "indéterminé" à la place, ce qui est nécessairement bien plus flou à interpréter, si la cible a sciemment mentis (via un test approprié) ce sort révèle la supercherie si la difficulté est inférieure à <span style="color:#ff1493; font-weight:bold;">[10+Magnitude/3]</span> sinon le résultat est forcément "partiellement" ou "peux être" faux, si la cible a sciemment cherché à dire la vérité (via un test approprié) ce sort l'identifie forcément comme une forme de vérité.</p>
+<hr />
+<h4>67. Assimilation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Similis (Semblable), <strong><em>Arcanique :</em></strong> Darsimil (Dar + simil)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darsimileth<br />
+Génère un effet qui permet au lanceur de sort « percevoir » du point de vu de la cible, qui peux être une personne, un lieu ou un objet, il peut maintenir ce contact jusque dans un rayon de <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> mètres, ainsi cette cible fait office de proxy qui lui permet de faire usage de ses sens sens normalement.</p>
+<hr />
+<h4>68. Détection</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Tego (Couvrir), <strong><em>Arcanique :</em></strong> Eloteges (Elo + teges)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Elotegeseth<br />
+Génère un effet qui révèle la localisation de tous les espaces interdimentionnels sur un rayon de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de distance (ceci reviens à réussir un test de focus avec une distance drastiquement supérieure).</p>
+<hr />
+<h4>69. Manifestation</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Manes (Esprits, apparences), <strong><em>Arcanique :</em></strong> Enmani (En + mani)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Soi<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Enmaniorr (Combat, Défense, Tactique, Archerie, Corps à corps), ⚕️ Corps: Enmanien (Athlétisme, Gymnastique, Discipline), 👁️ Vision: Enmanieth (Acuité), ✡️ Arcane: Enmaniys (Arcanes), 🔮 Magie: Enmaniirn (Chasse, Survie Rurale, Survie urbaine, Discrétion, Larçin, Sagacité, Subterfuge), ⚜️ Charme: Enmaniynh (Argumentation, Résolution, Manipulation, Art, Eloquence), 🧠 Esprit: Enmaniys (Artisanat, Profession, Savoir être, Savoir faire), 📚 Savoir: Enmaniaum (Langue, Enquête, Erudition, Stratégie, Guérison, Commerce)<br />
+Génère un effet qui permet au lanceur de sort une action caractérisée par une compétence (dont la nature est associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) en réalisant le test avec, au choix : Un total de Compétence/Groupe de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> ou le total de Compétence/Groupe du lanceur de sort plus un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, le tout plus le modificateur de magie du lanceur de sort (ici aucun bonus, sauf magique, ne peuvent intervenir, encore moins les bonus de qualité issus d'objets ou autre). Dans le cas d'une action avec progression le lanceur du sort peux reproduire un test avec les avantages de ce sort en dépensant 2 PS à chaque fois. L'action peux profiter de manoeuvres normalement.</p>
+<hr />
+<h4>70. Oculus</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Oculus (Œil), <strong><em>Arcanique :</em></strong> Carocul (Car + ocul)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Caroculeth<br />
+Génère un enchantement qui prend la forme d'un globe de petite taille capable de voler à une allure de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, le lanceur de sort peux percevoir (et donc réaliser des tests d'acuité) comme il le ferait lui même au travers de ce globe, le globe ne peux aller au délà d'une distance de <span style="color:#ff1493; font-weight:bold;">[Magnitude x10]</span>, une action libre suffit à contrôler le globe et lui donner d'autres indications/orientation, le globe (et la sensation d'être épié notament) peux être "perçu" (sans localisation) sur un test de sauvegarde (vs intuition) réussie sans quoi il ne l'est pas.</p>
+<hr />
+<h4>71. Fenêtre astrale</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Astra (Étoile), <strong><em>Arcanique :</em></strong> Conastra (Con + astra)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Lieu<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Conastra eth<br />
+Génère un enchantement de lieu qui prend la forme d'une fenêtre vers un autre lieu, on ne peux y passer mais il est possible d'épier à travers, un test d'intuition réussis permet à ceux qui sont épiés de se sentir observés puis un test d'acuité peux permettre de repérer la fenêtre (ou en tout cas d'où viens la sensation), le lieu ainsi épié peux être à une distance maximale de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² mètres.</p>
+<hr />
+<h4>72. Miroitement</h4>
+<p><strong><em>École :</em></strong> École d'Altération<br />
+<strong><em>Latin :</em></strong> Speculum (Miroir), <strong><em>Arcanique :</em></strong> Alspecul (Al + specul)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Alspeculeth<br />
+Altère une surface transparente, mat ou sans teint afin de lui faire prendre une des 2 autres formes, au choix, un individu peux réaliser un test d'intuition pour voir si il perçoit que quelque chose cloche avec la surface puis un test d'acuité pour se rendre compte de la supercherie (ou non).</p>
+      </div>
+</body></html>

@@ -114,7 +114,7 @@ def str_clean(val):
 SCRIPT_DIR      = os.path.dirname(os.path.abspath(__file__))
 XLSX_PATH       = os.path.join(SCRIPT_DIR, "Terre Natale - Aides de jeu _ Castes.xlsx")
 MARKDOWN_OUTPUT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "docs", "classes", "castes.md"))
-JS_OUTPUT       = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "app-react", "src", "data", "castes.js"))
+JS_OUTPUT       = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "app-sheet", "src", "data", "castes.js"))
 IMAGE_PATH_IN_MD = "../images"
 
 if not os.path.exists(XLSX_PATH):

@@ -767,8 +767,8 @@ Les effets d'un sort qui permet d'obtenir des informations "mentalement" peuvent
 
 ---
 
-#### 86. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 86. Découverte
+***Latin :*** Revelo (Révéler), ***Arcanique :*** Direvel (Di + revel)
 ***Type de mot :*** Liaison, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 📚 Savoir

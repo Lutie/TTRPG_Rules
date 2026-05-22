@@ -119,7 +119,7 @@ Génère un enchantement qui invoque un livre, la charge est de <span style="col
 
 ---
 
-#### 14. ???
+#### 14. Lien
 ***Latin :*** Vinculum (Lien, chaîne), ***Arcanique :*** Vanvincul (Van + vincul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
 ***Difficulté :*** 2, ***Drain :*** 2

@@ -96,18 +96,36 @@ nav:
   - Listes:
     - "Liste des Achats": listes/liste-des-achats.md
   - Liste des Sorts:
+    - Acier: magies/acier.html
+    - Air: magies/air.html
+    - Arcane: magies/arcane.html
+    - Chaos: magies/chaos.html
+    - Charme: magies/charme.html
+    - Corps: magies/corps.html
+    - Eau: magies/eau.html
+    - Esprit: magies/esprit.html
+    - Faune: magies/faune.html
+    - Feu: magies/feu.html
+    - Flore: magies/flore.html
+    - Foudre: magies/foudre.html
+    - Glace: magies/glace.html
+    - Guerre: magies/guerre.html
+    - Illusion: magies/illusion.html
+    - Impie: magies/impie.html
+    - Loi: magies/loi.html
+    - Lumière: magies/lumiere.html
+    - Magie: magies/magie.html
+    - Mental: magies/mental.html
+    - Mort: magies/mort.html
+    - Nature: magies/nature.html
     - Ombre: magies/ombre.html
-    - Impie:  magies/impie.html
-    - Toxique:  magies/toxique.html
-    - Arcane:  magies/arcane.html
-    - Magie:  magies/magie.html
-    - Acier:  magies/acier.html
-    - Guerre:  magies/guerre.html
-    - Chaos:  magies/chaos.html
-    - Vide:  magies/vide.html
-    - Terre:  magies/terre.html
-    - Mental:  magies/mental.html
-    - Charme:  magies/charme.html
+    - Sacré: magies/sacre.html
+    - Savoir: magies/savoir.html
+    - Terre: magies/terre.html
+    - Toxique: magies/toxique.html
+    - Vide: magies/vide.html
+    - Vie: magies/vie.html
+    - Vision: magies/vision.html
   - Création en Thalifen: creation/creation/index.html
   - Castes de Thalifen: castes/castes/index.html
   - Ethnies de Thalifen: ethnies/ethnies/index.html

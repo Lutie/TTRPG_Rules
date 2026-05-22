@@ -282,7 +282,7 @@ Génère un enchantement négatif qui réduit la puissance des sorts lancés par
 
 ---
 
-#### 29. ???
+#### 29. Lien
 ***École :*** École d'Invocation
 ***Latin :*** Vinculum (Lien, chaîne), ***Arcanique :*** Vanvincul (Van + vincul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -564,7 +564,7 @@ Génère un effet qui permet à la cible de réaliser sur-le-champs un total de 
 
 #### 57. Surpuissance
 ***École :*** École d'Évocation
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Potentia (Puissance), ***Arcanique :*** Aspoten (As + poten)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🔮 Magie
@@ -572,9 +572,9 @@ Génère un effet qui augmente drastiquement la puissance du prochain sort lanc�
 
 ---
 
-#### 58. ???
+#### 58. Imprimation
 ***École :*** École d'Évocation
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Imprimo (Imprimer / Graver), ***Arcanique :*** Aimprim (Ai + imprim)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🔮 Magie: Elonotairn

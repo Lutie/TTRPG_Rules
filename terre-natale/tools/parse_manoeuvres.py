@@ -1,6 +1,6 @@
 """
 Génère manoeuvres.json et prouesses.json depuis le fichier Excel des aides de jeu.
-Usage : python3 generate_manoeuvres_prouesses.py
+Usage : python3 tools/parse_manoeuvres.py
 """
 import openpyxl
 import json

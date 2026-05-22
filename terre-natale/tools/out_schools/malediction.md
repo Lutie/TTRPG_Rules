@@ -1613,7 +1613,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 180. Charme Protecteur
+#### 180. Amitié
 ***Latin :*** Alligo (Lier d'amitié), ***Arcanique :*** Mugallig (Mug + allig)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1622,7 +1622,7 @@ Génère un enchantement qui induit un charme magique, sachant que cet enchantem
 
 ---
 
-#### 181. Charme Fanatique
+#### 181. Servitude
 ***Latin :*** Servitium (Servitude), ***Arcanique :*** Mugservit (Mug + servit)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2

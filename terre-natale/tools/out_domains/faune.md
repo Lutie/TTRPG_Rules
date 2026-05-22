@@ -1,18 +1,8 @@
 # Domaine de la Faune 🐗
 
-> 40 mots pour ce domaine
+> 39 mots pour ce domaine
 
-#### 1. Vivification
-***École :*** École de Restauration
-***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
-***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
-***Difficulté :*** 2, ***Drain :*** 2
-**Clés :** 🔥 Feu, ❄️ Glace, ⚡ Foudre, 🪨 Terre, 💧 Eau, 🌪️ Air, ☀️ Lumière, 🌑 Ombre, ⚖️ Loi, 🌀 Chaos, 💢 Vide, ❤️ Vie, ☢️ Toxique, ✨ Sacre, 🩸 Impie, ☠️ Mort, 🎭 Illusion, 🌿 Flore, 🐗 Faune, 🛡️ Guerre, ⚔️ Acier, ✡️ Arcane, 🪷 Nature
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée).
-
----
-
-#### 2. Énergisation
+#### 1. Énergisation
 ***École :*** École de Bénédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -22,7 +12,7 @@ Génère un enchantement positif qui accorde un bonus d'attribut de <span style=
 
 ---
 
-#### 3. Solide
+#### 2. Solide
 ***École :*** École de Bénédiction
 ***Latin :*** Solidus (Solide), ***Arcanique :*** Luxconsol (Lux + consol)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -32,7 +22,7 @@ Génère un enchantement positif qui accorde un bonus d'attribut de <span style=
 
 ---
 
-#### 4. Optimal
+#### 3. Optimal
 ***École :*** École de Bénédiction
 ***Latin :*** Perficio (Achever), ***Arcanique :*** Lemperf (Lem + perf)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -42,7 +32,7 @@ Génère un enchantement positif qui accorde un bonus d'attribut de <span style=
 
 ---
 
-#### 5. Protection
+#### 4. Protection
 ***École :*** École de Bénédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -52,7 +42,7 @@ Génère un enchantement positif qui augmente tous les attributs du corps de <sp
 
 ---
 
-#### 6. Maximisation
+#### 5. Maximisation
 ***École :*** École de Bénédiction
 ***Latin :*** Maximus (Très grand), ***Arcanique :*** Lemmax (Lem + max)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -62,7 +52,7 @@ Génère un enchantement positif qui fixe ou nouvelle valeur ou octroie un bonus
 
 ---
 
-#### 7. Absorption
+#### 6. Absorption
 ***École :*** École de Bénédiction
 ***Latin :*** Sorbeo (Boire), ***Arcanique :*** Lemsorb (Lem + sorb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +62,7 @@ Génère un enchantement positif qui réduit de moitié les dégats d'un type (s
 
 ---
 
-#### 8. Consécration
+#### 7. Consécration
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +72,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 9. Occultation
+#### 8. Occultation
 ***École :*** École de Bénédiction
 ***Latin :*** Occulto (Cacher), ***Arcanique :*** Luccult (Lu + ccult)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +82,7 @@ Génère un enchantement positif qui rend la perception de la cible plus diffici
 
 ---
 
-#### 10. Orientation
+#### 9. Orientation
 ***École :*** École de Bénédiction
 ***Latin :*** Oriens (Est, Levant), ***Arcanique :*** Luxoriens (Lux + oriens)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +92,7 @@ Génère un enchantement positif qui améliore la perception de la cible lorsqu'
 
 ---
 
-#### 11. Evolution
+#### 10. Evolution
 ***École :*** École de Bénédiction
 ***Latin :*** Volo (Rouler), ***Arcanique :*** Lemvolvo (Lem + volvo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +102,7 @@ Génère un enchantement positif qui octroie à la cible non humanoïde les bén
 
 ---
 
-#### 12. Bestialisation
+#### 11. Bestialisation
 ***École :*** École de Bénédiction
 ***Latin :*** Bestialis (Bestial), ***Arcanique :*** Lembestia (Lem + bestia)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +112,7 @@ Génère un enchantement positif qui augmente un attribut (définit à la créat
 
 ---
 
-#### 13. Domestication
+#### 12. Domestication
 ***École :*** École de Malédiction
 ***Latin :*** Domus (Maison), ***Arcanique :*** Maldos (Mal + dos)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +122,7 @@ Génère un enchantement négatif qui rend la cible moins difficulté à approch
 
 ---
 
-#### 14. Débilitation
+#### 13. Débilitation
 ***École :*** École de Malédiction
 ***Latin :*** Debilito (Affaiblir), ***Arcanique :*** Mugdebil (Mug + debil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +132,7 @@ Génère un enchantement négatif qui inflige un malus d'attribut de <span style
 
 ---
 
-#### 15. Affaissement
+#### 14. Affaissement
 ***École :*** École de Malédiction
 ***Latin :*** Cado (Tomber), ***Arcanique :*** Muncado (Mun + cado)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +142,7 @@ Génère un enchantement négatif qui inflige un malus d'attribut de <span style
 
 ---
 
-#### 16. Désorganisation
+#### 15. Désorganisation
 ***École :*** École de Malédiction
 ***Latin :*** Ordo (Ordre), ***Arcanique :*** Malordo (Mal + ordo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +152,7 @@ Génère un enchantement négatif qui inflige un malus d'attribut de <span style
 
 ---
 
-#### 17. Irritation
+#### 16. Irritation
 ***École :*** École de Malédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +162,7 @@ Génère un enchantement négatif qui augmente de un tiers les dégats reçu par
 
 ---
 
-#### 18. Déprécation
+#### 17. Déprécation
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +172,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 19. Bête
+#### 18. Bête
 ***École :*** École d'Invocation
 ***Latin :*** Fera (Bête sauvage), ***Arcanique :*** Vofera (Vo + fera)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -192,7 +182,7 @@ Génère un enchantement qui invoque une créature de type bête au choix parmis
 
 ---
 
-#### 20. Démultiplication
+#### 19. Démultiplication
 ***École :*** École d'Invocation
 ***Latin :*** Multiplus (Multiple), ***Arcanique :*** Vomulti (Vo + multi)
 ***Type de mot :*** Liaison, ***Type de cible :*** /
@@ -202,7 +192,7 @@ L'invocation apparait sous la forme de 2 / 3 / 4 créatures, l'enchantement et s
 
 ---
 
-#### 21. Communication
+#### 20. Communication
 ***École :*** École d'Invocation
 ***Latin :*** Communis (Commun), ***Arcanique :*** Vorcommu (Vor + commu)
 ***Type de mot :*** Liaison, ***Type de cible :*** /
@@ -212,7 +202,7 @@ L'invocation est dotée de parole et peux transmettre des messages, sans que cel
 
 ---
 
-#### 22. Obstruction
+#### 21. Obstruction
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -222,7 +212,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 23. Protestation
+#### 22. Protestation
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -232,7 +222,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 24. Neutralisation
+#### 23. Neutralisation
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -242,7 +232,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 25. Interrogation
+#### 24. Interrogation
 ***École :*** École de Divination
 ***Latin :*** Rogo (Questionner), ***Arcanique :*** Diroga (Di + roga)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +242,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 26. Détection
+#### 25. Détection
 ***École :*** École de Divination
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Dartego (Dar + tego)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +252,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 27. Signalement
+#### 26. Signalement
 ***École :*** École de Divination
 ***Latin :*** Signum (Signe), ***Arcanique :*** Disigno (Di + signo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +262,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 28. Pistement
+#### 27. Pistement
 ***École :*** École de Divination
 ***Latin :*** Vestigium (Trace), ***Arcanique :*** Divesti (Di + vesti)
 ***Type de mot :*** Pouvoir (Senseur), ***Type de cible :*** Cible
@@ -282,7 +272,7 @@ Génère un effet de perception des créatures d'un certain reigne (selon la <sp
 
 ---
 
-#### 29. Captivation
+#### 28. Captivation
 ***École :*** École d'Évocation
 ***Latin :*** Capto (Saisir), ***Arcanique :*** Elocaptus (Elo + captus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -292,7 +282,7 @@ Génère un effet qui charme une bête, le sort remplace un test de prestige qui
 
 ---
 
-#### 30. Transmutation
+#### 29. Transmutation
 ***École :*** École de Conjuration
 ***Latin :*** Muto (Changer), ***Arcanique :*** Carmuta (Car + muta)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -302,7 +292,7 @@ Génère un enchantement qui prend la forme de membres ou d'une particularité p
 
 ---
 
-#### 31. Locomutation
+#### 30. Locomutation
 ***École :*** École de Conjuration
 ***Latin :*** Locus (Lieu) + Muto (Changer), ***Arcanique :*** Conloco (Con + loco)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -312,7 +302,7 @@ Génère un enchantement qui prend la forme de membres ou d'une particularité p
 
 ---
 
-#### 32. Transmutation
+#### 31. Transmutation
 ***École :*** École d'Altération
 ***Latin :*** Muto (Changer), ***Arcanique :*** Almutat (Al + mutat)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -322,7 +312,7 @@ L'effet du sort convertis jusqu'à <span style="color:#ff1493; font-weight:bold;
 
 ---
 
-#### 33. Réparation
+#### 32. Réparation
 ***École :*** École d'Altération
 ***Latin :*** Paro (Préparer), ***Arcanique :*** Arparo (Ar + paro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -332,7 +322,7 @@ L'effet du sort répare un objet ou structure (dont la nature coRespond à la <s
 
 ---
 
-#### 34. Déconstruction
+#### 33. Déconstruction
 ***École :*** École d'Altération
 ***Latin :*** Struo (Construire), ***Arcanique :*** Alstruo (Al + struo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -342,7 +332,7 @@ L'effet du sort recycle jusqu'à <span style="color:#ff1493; font-weight:bold;">
 
 ---
 
-#### 35. Construction
+#### 34. Construction
 ***École :*** École d'Altération
 ***Latin :*** Aedifico (Édifier), ***Arcanique :*** Aredifi (Ar + edifi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -352,9 +342,9 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 36. Assemblage
+#### 35. Assemblage
 ***École :*** École d'Altération
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Faber (Forger / Artisan), ***Arcanique :*** Asfaber (As + faber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 6
 **Clés :** ⚔️ Acier: Asfaberan (Métaux), 🐗 Faune: Asfaberorh (Cuir), 🌿 Flore: Asfaberiln (Bois), 🌿 Flore: Asfaberiln (Tissu), 🪨 Terre: Asfaberum (Minéraux), ✡️ Arcane: Asfaberys (Tout)
@@ -362,9 +352,9 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 37. Optimisation
+#### 36. Optimisation
 ***École :*** École d'Altération
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Melior (Mieux / Améliorer), ***Arcanique :*** Aenmelior (Aen + melior)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 2
 **Clés :** ⚔️ Acier: Aenmelioran (Métaux), 🐗 Faune: Aenmeliororh (Cuir), 🌿 Flore: Aenmelioriln (Bois), 🌿 Flore: Aenmelioriln (Tissu), 🪨 Terre: Aenmeliorum (Minéraux), ✡️ Arcane: Aenmelior ys (Tout)
@@ -372,7 +362,7 @@ L'effet du sort améliore la qualité d'un objet avec un potenciel de <span styl
 
 ---
 
-#### 38. Création
+#### 37. Création
 ***École :*** École d'Altération
 ***Latin :*** Creo (Créer), ***Arcanique :*** Alcreo (Al + creo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -382,7 +372,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 39. Solidification
+#### 38. Solidification
 ***École :*** École d'Altération
 ***Latin :*** Solidus (Solide), ***Arcanique :*** Arsoli (Ar + soli)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -392,7 +382,7 @@ Génère de la résistance temporaire afin de renforcer un objet (dont la nature
 
 ---
 
-#### 40. Evolution
+#### 39. Evolution
 ***École :*** École d'Altération
 ***Latin :*** Volvo (Rouler), ***Arcanique :*** Alvolv (Al + volv)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible

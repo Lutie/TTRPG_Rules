@@ -3,7 +3,7 @@
 parse_competences.py — Parse la section "Aperçu rapide des Compétences"
 de tools/Terre Natale.docx.txt et génère :
   - tools/competences.json           (debug/intermédiaire)
-  - app-react/src/data/competences.js  (ES module)
+  - app-sheet/src/data/competences.js  (ES module)
 
 Usage: python3 tools/parse_competences.py
 """
@@ -559,7 +559,7 @@ def main():
     tools_dir   = Path(__file__).parent
     source_path = tools_dir / 'Terre Natale.docx.txt'
     json_path   = tools_dir / 'competences.json'
-    js_path     = tools_dir.parent / 'app-react' / 'src' / 'data' / 'competences.js'
+    js_path     = tools_dir.parent / 'app-sheet' / 'src' / 'data' / 'competences.js'
 
     competences, categories = parse_apercu(source_path)
 

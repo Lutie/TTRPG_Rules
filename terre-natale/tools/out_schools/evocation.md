@@ -722,8 +722,8 @@ Génère un effet qui permet à la cible de réaliser sur-le-champs un total de 
 
 ---
 
-#### 81. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 81. Fictification
+***Latin :*** Fictum (Fictif), ***Arcanique :*** Asfict (As + fict)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🧩 Mental
@@ -732,7 +732,7 @@ Génère un effet qui génère dans la mémoire de la cible un souvenir fictif, 
 ---
 
 #### 82. Surpuissance
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Potentia (Puissance), ***Arcanique :*** Aspoten (As + poten)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🔮 Magie
@@ -740,8 +740,8 @@ Génère un effet qui augmente drastiquement la puissance du prochain sort lanc�
 
 ---
 
-#### 83. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 83. Imprimation
+***Latin :*** Imprimo (Imprimer / Graver), ***Arcanique :*** Aimprim (Ai + imprim)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🔮 Magie: Elonotairn
@@ -750,7 +750,7 @@ Génère un effet qui inscrit dans la mémoire de la cible un sort connu du lanc
 ---
 
 #### 84. Scarification
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Scarifico, ***Arcanique :*** Asscarif
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🩸 Impie
@@ -758,8 +758,8 @@ Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 85. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 85. Libération
+***Latin :*** Libero (Libérer), ***Arcanique :*** Aliber (Al + liber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌀 Chaos

@@ -1208,7 +1208,7 @@ Génère un enchantement positif qui génère des PK temporaires lorsqu'une cré
 
 ---
 
-#### 135. ???
+#### 135. Fidélisation
 ***Latin :*** Fides (Foi), ***Arcanique :*** Lemfides (Lem + fides)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1244,7 +1244,7 @@ Génère un enchantement positif qui permet d'ignorer jusqu'à <span style="colo
 
 ---
 
-#### 139. ???
+#### 139. Gloire
 ***Latin :*** Gloria (Gloire), ***Arcanique :*** Lemglor (Lem + glor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1253,7 +1253,7 @@ Génère un enchantement positif qui permet de repousser le moment de l'inscienc
 
 ---
 
-#### 140. ???
+#### 140. Eternel
 ***Latin :*** Aeternus (Éternel), ***Arcanique :*** Liretros (Lir + etros)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1307,8 +1307,8 @@ Génère un enchantement positif qui augmente la rapidité de la cible de <span 
 
 ---
 
-#### 146. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 146. Prévénation
+***Latin :*** Praevenio, ***Arcanique :*** Luxvenio (Lux + venio)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 💢 Vide
@@ -1487,7 +1487,7 @@ Génère un enchantement positif qui permet à la cible de relancer (l'ensemble 
 
 ---
 
-#### 166. ???
+#### 166. Paix
 ***Latin :*** Pax (Paix), ***Arcanique :*** Luspax (Lux + pax)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1532,7 +1532,7 @@ Génère un enchantement positif qui provoque une perte de PE équivalant à 1/3
 
 ---
 
-#### 171. ???
+#### 171. Grâce
 ***Latin :*** Gratia (Grâce), ***Arcanique :*** Lemgrat (Lem + grat)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
@@ -1551,7 +1551,7 @@ Génère un enchantement positif qui accorde à la cible un gain de ressource é
 ---
 
 #### 173. Démasquage
-***Latin :*** Larva (Masque), ***Arcanique :*** Cenlarva (Lux + larva)
+***Latin :*** Larva (Masque), ***Arcanique :*** Luxlarva (Lux + larva)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ⚖️ Loi: Luxlarvatem
@@ -1560,7 +1560,7 @@ Génère un enchantement qui réduit la faculté à mentir, falcifier, se dégui
 ---
 
 #### 174. Subterfuge
-***Latin :*** Fugio (S'enfuir), ***Arcanique :*** Colfugi (Lem + fugi)
+***Latin :*** Fugio (S'enfuir), ***Arcanique :*** Lemfugi (Lem + fugi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌀 Chaos: Lemfugiix
@@ -1568,8 +1568,8 @@ Génère un enchantement qui améliore la faculté à mentir, falcifier, se dég
 
 ---
 
-#### 175. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 175. Liberté
+***Latin :*** Libero (Libérer), ***Arcanique :*** Luxliber (Lux + liber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌀 Chaos
@@ -1577,8 +1577,8 @@ Génère un enchantement positif qui octroie un bonus de <span style="color:#ff1
 
 ---
 
-#### 176. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 176. Démoralisation
+***Latin :*** Demoralis (de demoralizare), ***Arcanique :*** Ludemoral (Lu + demoral, ou Lemdemoral)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ⚜️ Charme

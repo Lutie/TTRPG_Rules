@@ -1147,6 +1147,54 @@ def check_duplicate_words() -> None:
         print("Aucun doublon trouvé dans les mots L/A/F.")
 
 
+def generate_html_docs() -> None:
+    """Convertit out_domains/*.md en docs/magies/*.html avec le CSS de Markdown Preview Enhanced."""
+    import markdown as md_lib
+    from bs4 import BeautifulSoup
+
+    tools_dir = Path(__file__).parent
+    docs_dir = tools_dir.parent / "docs" / "magies"
+    docs_dir.mkdir(parents=True, exist_ok=True)
+
+    # Extraire le CSS template depuis un fichier HTML existant
+    existing_html = next(docs_dir.glob("*.html"), None)
+    if existing_html:
+        soup = BeautifulSoup(existing_html.read_text(encoding="utf-8"), "html.parser")
+        style_tag = soup.find("style")
+        css = style_tag.string.strip() if style_tag else ""
+    else:
+        css = ""
+
+    html_template = """\
+<!DOCTYPE html><html><head>
+      <title>{title}</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+{css}
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {{}});
+</script></head><body for="html-export">
+      <div class="crossnote markdown-preview">
+{body}
+      </div>
+</body></html>"""
+
+    md_files = sorted(OUTPUT_DIR_DOMAINS.glob("*.md"))
+    count = 0
+    for md_path in md_files:
+        content = md_path.read_text(encoding="utf-8")
+        body = md_lib.markdown(content, extensions=["tables", "nl2br", "sane_lists"])
+        title = md_path.stem
+        html = html_template.format(title=title, css=css, body=body)
+        out_path = docs_dir / (md_path.stem + ".html")
+        out_path.write_text(html, encoding="utf-8")
+        count += 1
+
+    print(f"\n✓ {count} pages HTML générées dans {docs_dir}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate magic word documentation")
     parser.add_argument("--debug", action="store_true", help="Enable debug mode (show cell references)")
@@ -1159,3 +1207,11 @@ if __name__ == "__main__":
     generate_extra_words_json()     # L/A/F -> other_magic_words.json
     generate_spells_from_sorts()    # Sorts -> out_spells/*.md
     check_duplicate_words()         # vérifie les doublons et affiche des warnings
+
+    # Synchronise all_spells.json vers app-sheet
+    dest = Path(__file__).parent.parent / "app-sheet" / "src" / "data" / "all_spells.json"
+    import shutil
+    shutil.copy(OUTPUT_SPELLS_JSON, dest)
+    print(f"\n✓ all_spells.json copié vers {dest}")
+
+    generate_html_docs()            # out_domains/*.md -> docs/magies/*.html

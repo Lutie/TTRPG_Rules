@@ -237,7 +237,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 ---
 
 #### 27. Assemblage
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Faber (Forger / Artisan), ***Arcanique :*** Asfaber (As + faber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 6
 **Clés :** ⚔️ Acier: Asfaberan (Métaux), 🐗 Faune: Asfaberorh (Cuir), 🌿 Flore: Asfaberiln (Bois), 🌿 Flore: Asfaberiln (Tissu), 🪨 Terre: Asfaberum (Minéraux), ✡️ Arcane: Asfaberys (Tout)
@@ -246,7 +246,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 ---
 
 #### 28. Optimisation
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Melior (Mieux / Améliorer), ***Arcanique :*** Aenmelior (Aen + melior)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 2
 **Clés :** ⚔️ Acier: Aenmelioran (Métaux), 🐗 Faune: Aenmeliororh (Cuir), 🌿 Flore: Aenmelioriln (Bois), 🌿 Flore: Aenmelioriln (Tissu), 🪨 Terre: Aenmeliorum (Minéraux), ✡️ Arcane: Aenmelior ys (Tout)
@@ -345,7 +345,7 @@ Génère un enchantement positive qui augmente la déviation de l'arme (actions 
 ---
 
 #### 39. Cristallisation
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Durus (Dur / Solide), ***Arcanique :*** Asduran (As + duran)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ⚔️ Acier: Asduran
@@ -389,8 +389,8 @@ Génère un enchantement négatif qui change la chaire de la cible en pierre à 
 
 ---
 
-#### 44. Epiderme
-***Latin :*** ???, ***Arcanique :*** ???
+#### 44. Dermisation
+***Latin :*** Cutis (Peau), ***Arcanique :*** Arcutis (Ar + cutis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🪨 Terre
@@ -398,8 +398,8 @@ Génère un enchantement positif qui augmente l'armure naturelle de la cible de 
 
 ---
 
-#### 45. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 45. Flagellation
+***Latin :*** Flagellum (Fouet / Cinglant), ***Arcanique :*** Aenflagel
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌿 Flore
@@ -407,8 +407,8 @@ Enchantement neutre qui forme des lianes cinglantes sur place, ces dernières on
 
 ---
 
-#### 46. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 46. Viticination
+***Latin :*** Vitis (Liane / Vigne), ***Arcanique :*** Aenvit
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌿 Flore
@@ -416,8 +416,8 @@ Enchantement neutre qui forme des lianes cinglantes sur place, ces dernières on
 
 ---
 
-#### 47. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 47. Fungination
+***Latin :*** Fungus (Champignon), ***Arcanique :*** Asfung (As + fung)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌿 Flore
@@ -425,8 +425,8 @@ Enchantement neutre qui forme un gros champignon explosif sur place, le lanceur 
 
 ---
 
-#### 48. ???
-***Latin :*** ???, ***Arcanique :*** ???
+#### 48. Sporulation
+***Latin :*** Sporum (Spore), ***Arcanique :*** Aensorp (Aen + spor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🌿 Flore

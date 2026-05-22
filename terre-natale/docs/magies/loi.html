@@ -1,0 +1,458 @@
+<!DOCTYPE html><html><head>
+      <title>loi</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {});
+</script></head><body for="html-export">
+      <div class="crossnote markdown-preview">
+<h1>Domaine de la Loi ⚖️</h1>
+<blockquote>
+<p>55 mots pour ce domaine</p>
+</blockquote>
+<h4>1. Annihilation</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Nihil (Rien), <strong><em>Arcanique :</em></strong> Kranihil (Kra + nihil)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Kranihilem (vs VOL), 🌀 Chaos: Kranihilix (vs VOL), ✨ Sacre: Kranihiliel (vs SAG), 🩸 Impie: Kranihilun (vs RUS)<br />
+Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.</p>
+<hr />
+<h4>2. Transgression</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Gressus (Pas, marche), <strong><em>Arcanique :</em></strong> Kintrans (Kin + trans)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Kintransem (vs VOL)<br />
+Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats karmique (PK) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.</p>
+<hr />
+<h4>3. Fragmentation</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Frango (Je brise), <strong><em>Arcanique :</em></strong> Krafrag (Kra + frag)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ✡️ Arcane: Krafragys (Magie), ⚖️ Loi: Krafragem (Chance), ⚕️ Corps: Krafragen (Stature, Taille), 🧠 Esprit: Krafragys (Ego, Apparence), 🪷 Nature: Krafrageil (Equilibre)<br />
+Produit un effet infligeant une perte de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/5 points d'un attribut secondaire associé à <span style="color:#ff1493; font-weight:bold;">[clé]</span> (vs EQU) (peux être soigné sans magie au même titre que des lésions).</p>
+<hr />
+<h4>4. Privation</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Privo (Enlever), <strong><em>Arcanique :</em></strong> Kaprivo (Ka + privo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), ⚖️ Loi: Kaprivrag (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), ✡️ Arcane: Kaprivoys (Mana), 🪷 Nature: Kaprivoeil (Chi), ☢️ Toxique: Kaprivoex (endurance)<br />
+Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place.</p>
+<hr />
+<h4>5. Conséquence</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi<br />
+Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats temporaires (PE) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le sort ne peux être lancé que si une créature dans la zone a perdu des PV ou des PS suite à une attaque, la cible doit être l'auteur et unique.</p>
+<hr />
+<h4>6. Mitigation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Mitis (Doux), <strong><em>Arcanique :</em></strong> Luxmitis (Lux + mitis)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Luxmitisar, ❄️ Glace: Luxmitisis, ⚡ Foudre: Luxmitisor, 🪨 Terre: Luxmitisum, 💧 Eau: Luxmitisyn, 🌪️ Air: Luxmitisel, ☠️ Mort: Luxmitisus, ✡️ Arcane: Luxmitisys, ☢️ Toxique: Luxmitisex, ⚔️ Acier: Luxmitisan, 🌿 Flore: Luxmitisiln, 🎭 Illusion: Luxmitisin, ⚖️ Loi: Luxmitisem, 🌀 Chaos: Luxmitisix, ✨ Sacre: Luxmitisiel, 🩸 Impie: Luxmitisun, 🧩 Mental: Luxmitisend, ☀️ Lumière: Luxmitision, 🌑 Ombre: Luxmitisoth, 💢 Vide: Luxmitisarh<br />
+Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.</p>
+<hr />
+<h4>7. Amplification</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Amplus (Vaste), <strong><em>Arcanique :</em></strong> Liramplo (Lir + amplo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Liramploem<br />
+Génère un enchantement positif qui augmente la plage singularité de la cible de 1 / 2, à chaque fois que cet effet permet une singularité l'enchantement subit une décharge / double décharge.</p>
+<hr />
+<h4>8. Priorisation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Prior (Premier), <strong><em>Arcanique :</em></strong> Lemprior (Lem + prior)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Lempriorem<br />
+Génère un enchantement positif qui met en avant une action définit au moment où le sort est lancé, la cible peux réaliser cette action avec un avantage, chaque fois que c'est le cas l'enchantement subit une décharge, cependant tant que cette action n'a pas été réalisée ce tour ci les autres actions sont désavantagées.</p>
+<hr />
+<h4>9. Subjugation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Iugum (JouG), <strong><em>Arcanique :</em></strong> Liriugo (Lir + iugo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Lieu/Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Liriugoem<br />
+Génère un effet qui génère une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible (lieu ou cible), la cible peux réaliser un test de détermination afin de réduire les effets.</p>
+<hr />
+<h4>10. Dissuasion</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Suadeo (Conseiller), <strong><em>Arcanique :</em></strong> Lemsuad (Lem + suad)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Lemsuadem<br />
+Génère un enchantement positif qui impose une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> aux actions visant à agresser la cible (attaque ou tactique, mais pas uniquement, c'est au MD de trancher si une action constitue une agression ou non), une action qui touche la cible est affectée même si elle ne vise pas directement celle ci, si la cible entreprend une action d'agression l'enchantement se dissipe sur le champs.</p>
+<hr />
+<h4>11. Consécration</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sacro (Rendre sacré), <strong><em>Arcanique :</em></strong> Lemsacro (Lem + sacro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Lemsacroar, ❄️ Glace: Lemsacrois, ⚡ Foudre: Lemsacroor, 🪨 Terre: Lemsacroum, 💧 Eau: Lemsacroyn, 🌪️ Air: Lemsacroel, ☀️ Lumière: Lemsacroion, 🌑 Ombre: Lemsacrooth, ⚖️ Loi: Lemsacroem, 🌀 Chaos: Lemsacroix, ✨ Sacre: Lemsacroiel, 🩸 Impie: Lemsacroun, ❤️ Vie: Lemsacroir, ☠️ Mort: Lemsacrous, ⚕️ Corps: Lemsacroen, 🧠 Esprit: Lemsacroys, 🐗 Faune: Lemsacroorh, 🌿 Flore: Lemsacroiln, 🧩 Mental: Lemsacroend, ⚜️ Charme: Lemsacroynh, ✡️ Arcane: Lemsacroys, 🔮 Magie: Lemsacroirn, 🪷 Nature: Lemsacroeiln, ☢️ Toxique: Lemsacroex, 🎭 Illusion: Lemsacroin, 📚 Savoir: Lemsacroaum, 👁️ Vision: Lemsacroeth, ⚔️ Acier: Lemsacroan, 🛡️ Guerre: Lemsacroorr, 💢 Vide: Lemsacroarh<br />
+Génère un enchantement positif qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de bonus aux sauvegardes.</p>
+<hr />
+<h4>12. Eternel</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Aeternus (Éternel), <strong><em>Arcanique :</em></strong> Liretros (Lir + etros)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Liretros em<br />
+Génère un enchantement positif qui améliore les actions contre une cible (unique) d'une famille particulières au choix du lanceur de sort, prend la forme d'un bonus d'ajustement de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>.</p>
+<hr />
+<h4>13. Désensibilisation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sensus (Sens), <strong><em>Arcanique :</em></strong> Luxsensi (Lux + sensi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Luxsensiem<br />
+Génère un enchantement qui réduit drastiquement l'impact des faiblesses sur la cible, ces dernières offrant un bonus réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, le bonus peux être réduit à 0 (et donc la faiblesse ne fait plus d'effets notables) mais ne peux amener à une réduction à la place.</p>
+<hr />
+<h4>14. Démasquage</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Larva (Masque), <strong><em>Arcanique :</em></strong> Luxlarva (Lux + larva)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Luxlarvatem<br />
+Génère un enchantement qui réduit la faculté à mentir, falcifier, se déguiser ou autre manipulation de la vérité, la difficulté visant à percevoir la vérité étant réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>15. Drainage</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ☠️ Mort: Morsiccus (PV), 🧩 Mental: Morsiccoend (PS), ⚖️ Loi: Morsiccoem (PK), ⚕️ Corps: Morsiccoen (PC), 🧠 Esprit: Morsiccoys (PC), ✡️ Arcane: Morsiccoys (PM), 🪷 Nature: Morsiccoeiln (PE/fatigue)<br />
+Génère un enchantement négatif qui réduit la récupération d'une ressource qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> associée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, notons que pour que cela soit actif lors d'un repos il est nécessaire que le lanceur de sort ai procédé à un rituel ou qu'il reste éveillé pour maintenir le sort.</p>
+<hr />
+<h4>16. Vulnérable</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Laedo (Blesser), <strong><em>Arcanique :</em></strong> Munlaedo (Mun + laedo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Munlaedoar, ❄️ Glace: Munlaedois, ⚡ Foudre: Munlaedoor, 🪨 Terre: Munlaedoum, 💧 Eau: Munlaedoyn, 🌪️ Air: Munlaedoel, ☠️ Mort: Munlaedous, ✡️ Arcane: Munlaedoys, ☢️ Toxique: Munlaedoex, ⚔️ Acier: Munlaedoan, 🌿 Flore: Munlaedoiln, 🎭 Illusion: Munlaedoin, ⚖️ Loi: Munlaedoem, 🌀 Chaos: Munlaedoix, ✨ Sacre: Munlaedoiel, 🩸 Impie: Munlaedoun, 🧩 Mental: Munlaedoend, ☀️ Lumière: Munlaedoion, 🌑 Ombre: Munlaedooth, 💢 Vide: Munlaedoarh<br />
+Génère un enchantement négatif qui augmente de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ils sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est faible.</p>
+<hr />
+<h4>17. Pénalisation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Poena (Peine), <strong><em>Arcanique :</em></strong> Munpoen (Mun + poen)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Munpoenem<br />
+Génère un enchantement négatif qui augmente octroie un malus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors d'une singularité (positive ou négative).</p>
+<hr />
+<h4>18. Prohibition</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Malvetoem<br />
+Génère un enchantement négatif qui interdit à la cible de réaliser une action définit au moment où le sort est lancé, la cible peux réaliser un test de sauvegarde (détermination) pour outrepasser cette interdiction : sur une réussite elle le peux mais avec un désavantage, sur un échec elle ne le peux pas, sur un échec critique elle perd son action en prime, sur une réussite critique elle le peux sans désavantage, à chaque fois que la cible réaliser un test de sauvegarde l'enchantement subit une décharge.</p>
+<hr />
+<h4>19. Appauvrissement</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Pauper (Pauvre), <strong><em>Arcanique :</em></strong> Morpaupe (Mor + paupe)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ☠️ Mort: Morpaupeus (PV), 🧩 Mental: Morpaupeend (PS), ⚖️ Loi: Morpaupeem (PK), ⚕️ Corps: Morpaupeen (PC), 🧠 Esprit: Morpaupeys (PC), ✡️ Arcane: Morpaupeys (PM), 🪷 Nature: Morpaupeeiln (PE/fatigue)<br />
+Génère un enchantement négatif qui réduit le maximum de toutes les ressources de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources actuelles dépensant le nouveau maximum sont perdues.</p>
+<hr />
+<h4>20. Duperie</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Fraus (Fraude), <strong><em>Arcanique :</em></strong> Malfrau (Mal + frau)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚜️ Charme: Malfrauy nh (l'un ou l'autre), ⚖️ Loi: Malfrau em (vérité), 🌀 Chaos: Malfrauix (mensonge)<br />
+Produit un enchantement négatif qui force la cible à dire la vérité ou à mentir (au choix au lancement du sort), la cible ou ceux qui l'écoute doivent réussir un test d'intuition pour se rendre compte que quelque chose ne va pas avec les propos en question puis réussir un test de compétence pour comprendre que quelque chose altère les propos (voir en comprendre le sens réel sur un critique).</p>
+<hr />
+<h4>21. Interdiction</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Arceo (Arcer), <strong><em>Arcanique :</em></strong> Munarceo (Mun + arceo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Munarceoem<br />
+Génère un enchantement négatif qui impose une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> aux actions visant à agresser une cible (attaque ou tactique, mais pas uniquement, c'est au MD de trancher si une action constitue une agression ou non).</p>
+<hr />
+<h4>22. Déprécation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Precor (Prier), <strong><em>Arcanique :</em></strong> Munprec (Mun + prec)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Munprecar, ❄️ Glace: Munprecis, ⚡ Foudre: Munprecor, 🪨 Terre: Munprecum, 💧 Eau: Munprecyn, 🌪️ Air: Munprecel, ☀️ Lumière: Munprecion, 🌑 Ombre: Munprecoth, ⚖️ Loi: Munprecem, 🌀 Chaos: Munprecix, ✨ Sacre: Munpreciel, 🩸 Impie: Munprecun, ❤️ Vie: Munprecir, ☠️ Mort: Munprecus, ⚕️ Corps: Munprece n, 🧠 Esprit: Munprecys, 🐗 Faune: Munprecorh, 🌿 Flore: Munpreciln, 🧩 Mental: Munprecend, ⚜️ Charme: Munprecynh, ✡️ Arcane: Munprecys, 🔮 Magie: Munprecirn, 🪷 Nature: Munpreceiln, ☢️ Toxique: Munprecex, 🎭 Illusion: Munprecin, 📚 Savoir: Munprecaum, 👁️ Vision: Munpreceth, ⚔️ Acier: Munprecan, 🛡️ Guerre: Munprecorr, 💢 Vide: Munprecarh<br />
+Génère un enchantement négatif qui octroie à la cible des pénalités très marquée contre un élément donné, cela se traduit par une réduction de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> en protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de malus aux sauvegardes.</p>
+<hr />
+<h4>23. Dégénération</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Gigno (Engendrer), <strong><em>Arcanique :</em></strong> Mugdegen (Mug + degen)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ☠️ Mort: Mugdegenus (PV), 🧩 Mental: Mugdegenend (PS), ⚖️ Loi: Mugdegenem (PK), ⚕️ Corps: Mugdegenen (PC), 🧠 Esprit: Mugdegenys (PC), ✡️ Arcane: Mugdegenys (PM), 🪷 Nature: Mugdegeneiln (PE/fatigue)<br />
+Produit un enchantement négatif qui réduit à chaque tour <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> points de ressources (selon la clé).</p>
+<hr />
+<h4>24. Révocation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Voco (Appeler), <strong><em>Arcanique :</em></strong> Mugvoca (Mug + voca)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Mugvocaem<br />
+Génère un enchantement négatif qui force la cible à relancer (l'ensemble d')un test affichant un exploit, chaque occurence provoque une décharge de l'enchantement.</p>
+<hr />
+<h4>25. Diminution</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Minor (Plus petit), <strong><em>Arcanique :</em></strong> Malminor (Mal + minor)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Malminorem<br />
+Génère un enchantement négatif qui réduit l'attribut le plus élevé de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.</p>
+<hr />
+<h4>26. Révélation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Pateo (Être ouvert), <strong><em>Arcanique :</em></strong> Morpateo (Mor + pateo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Morpateoem<br />
+Génère un enchantement qui inflige une pénalité aux tests de mensonges de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.</p>
+<hr />
+<h4>27. Obligation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Liga (Lier), <strong><em>Arcanique :</em></strong> Morliga (Mor + liga)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Morligaem<br />
+Génère un enchantement négatif qui inflige un désavantage à toutes les actions qui contreviennent à un ordre donné lors du lancement du sort, l'ordre doit spécifier un type d'action et une un type de cible (par exemple: N'attaque pas mes alliés), cependant le lanceur de sort peux réduire le scope du type de cible à un seul individus par exemple et dans ce cas l'action subit un double désavantage à la place, chaque fois que la cible est affecté par ces effets le sort se décharge.</p>
+<hr />
+<h4>28. Soumission</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Mitto (Envoyer), <strong><em>Arcanique :</em></strong> Mugmitto (Mug + mitto)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Mugmittoem<br />
+Génère un enchantement négatif qui empêche la cible de contrevenir à l'ordre qui doit spécifier un type d'action et une un type de cible (par exemple: N'attaque pas mes alliés), cependant le lanceur de sort peux réduire le scope du type de cible à un seul individus par exemple, lorsque la cible tente quand même ce type d'action elle doit réussir un test de détermination ou elle perd son action, chaque fois que la cible est affecté par ces effets (que le test de sauvegarde soit réussit ou non) le sort se décharge, le test est désavantagé si la cible est unique.</p>
+<hr />
+<h4>29. Neutralisation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Medius (Milieu), <strong><em>Arcanique :</em></strong> Munmedi (Mun + medi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Munmediem<br />
+Génère un enchantement négatif qui réduit l'impact positif d'une force élémentaire de la cible, avec une réduction maximale de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.</p>
+<hr />
+<h4>30. Elémentaire</h4>
+<p><strong><em>École :</em></strong> École d'Invocation<br />
+<strong><em>Latin :</em></strong> Elementum (Élément), <strong><em>Arcanique :</em></strong> Voele (Vo + ele)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible (lieu)<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 6<br />
+<strong>Clés :</strong> 🔥 Feu: Voelear, ❄️ Glace: Voeleis, ⚡ Foudre: Voeleor, 🪨 Terre: Voeleum, 💧 Eau: Voeleyn, 🌪️ Air: Voeleel, ☀️ Lumière: Voeleion, 🌑 Ombre: Voeleoth, ⚖️ Loi: Voeleem, 🌀 Chaos: Voeleix, 💢 Vide: Voele arh, ❤️ Vie: Voeleir, ☢️ Toxique: Voeleex<br />
+Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.</p>
+<hr />
+<h4>31. Interdiction</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Veto (J'interdis), <strong><em>Arcanique :</em></strong> Brenveto (Bren + veto)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Brenvetoem<br />
+Génère un enchantement positif qui interdit les autres de réaliser une action (définit au moment où le sort est lancé) sur la cible, ceux qui cherche à faire cette action malgré peuvent réaliser un test de sauvegarde (détermination) pour outrepasser cette interdiction : sur une réussite elle le peux mais avec un désavantage, sur un échec elle ne le peux pas, sur un échec critique elle perd son action en prime, sur une réussite critique elle le peux sans désavantage, à chaque fois que la cible réaliser un test de sauvegarde l'enchantement subit une décharge.</p>
+<hr />
+<h4>32. Contestation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Testor (Témoigner), <strong><em>Arcanique :</em></strong> Brentes (Bren + tes)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Brentesem<br />
+Génère un enchantement négatif qui empêche la cible de lancer un sort d'un domaine ou d'une école (au choix lors du lancement du sort), ceux qui cherche à faire cette action malgré tout peuvent réaliser un test de sauvegarde (détermination) pour outrepasser cette interdiction : sur une réussite elle le peux mais avec un désavantage, sur un échec elle ne le peux pas, sur un échec critique elle perd son action en prime, sur une réussite critique elle le peux sans désavantage.</p>
+<hr />
+<h4>33. Proscription</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Borarceoem<br />
+Génère un enchantement négatif qui interdit les autres de réaliser une action (définit au moment où le sort est lancé) sur la cible, ceux qui cherche à faire cette action malgré peuvent réaliser un test de sauvegarde (détermination) pour outrepasser cette interdiction : sur une réussite elle le peux mais avec un désavantage, sur un échec elle ne le peux pas, sur un échec critique elle perd son action en prime, sur une réussite critique elle le peux sans désavantage, à chaque fois que la cible réaliser un test de sauvegarde l'enchantement subit une décharge.</p>
+<hr />
+<h4>34. Obstruction</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Obstruo (Boucher), <strong><em>Arcanique :</em></strong> Basobstru (Bas + obstru)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Basobstruar, ❄️ Glace: Basobstruis, ⚡ Foudre: Basobstruor, 🪨 Terre: Basobstruum, 💧 Eau: Basobstruyn, 🌪️ Air: Basobstruel, ☀️ Lumière: Basobstruion, 🌑 Ombre: Basobstruoth, ⚖️ Loi: Basobstruem, 🌀 Chaos: Basobstruix, ✨ Sacre: Basobstruiel, 🩸 Impie: Basobstruun, ❤️ Vie: Basobstruir, ☠️ Mort: Basobstruus, ⚕️ Corps: Basobstruen, 🧠 Esprit: Basobstruys, 🐗 Faune: Basobstruorh, 🌿 Flore: Basobstruiln, 🧩 Mental: Basobstruend, ⚜️ Charme: Basobstruynh, ✡️ Arcane: Basobstruys, 🔮 Magie: Basobstruirn, 🪷 Nature: Basobstrueiln, ☢️ Toxique: Basobstruex, 🎭 Illusion: Basobstruin, 📚 Savoir: Basobstruaum, 👁️ Vision: Basobstrueth, ⚔️ Acier: Basobstruan, 🛡️ Guerre: Basobstruorr, 💢 Vide: Basobstruarh<br />
+Génère un effet qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de protection, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de résistance et <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> de bonus aux sauvegardes, cet effet ne s'applique pour un effet/une action.</p>
+<hr />
+<h4>35. Protestation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Testor (Témoigner), <strong><em>Arcanique :</em></strong> Barenteste (Bren + teste)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.</p>
+<hr />
+<h4>36. Neutralisation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Neuter (Ni l'un ni l'autre), <strong><em>Arcanique :</em></strong> Barneute (Bar + neute)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).</p>
+<hr />
+<h4>37. Perturbation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Turbo (Troubler), <strong><em>Arcanique :</em></strong> Brinturb (Bri + turb)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Brinturbem<br />
+Génère un effet qui complique la réalisation d'un type d'action au choix (attaque, tactique ou défense) jusqu'à la fin du round, l'action subissant une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.</p>
+<hr />
+<h4>38. Interrogation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Rogo (Questionner), <strong><em>Arcanique :</em></strong> Diroga (Di + roga)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 📚 Savoir: Diroga aum (tout), 🔥 Feu: Dirogaar (feu), ❄️ Glace: Dirogais (glace), ⚡ Foudre: Dirogaor (source d'énergie), 🪨 Terre: Dirogaum (minéraux), 💧 Eau: Dirogayn (eau), 🌪️ Air: Dirogael (vents, donc pas juste l'air), ☀️ Lumière: Dirogaion (source de lumière), 🌑 Ombre: Dirogaoth (source d'ombre), ⚖️ Loi: Dirogaem (objet au comportement cyclique), 🌀 Chaos: Dirogaix (objet au comportement aléatoire), ❤️ Vie: Dirogair (humanoïde, même incapable de parler), ☢️ Toxique: Dirogaex (élément toxique), ☠️ Mort: Dirogaus (cadavres), ⚔️ Acier: Dirogaan (métal), 🌿 Flore: Dirogailn (arbres), ✡️ Arcane: Dirogays (enchantements et objets magiques), ✨ Sacre: Dirogaiel (choses sacrés), 🩸 Impie: Dirogaun (choses impies, sang), 🐗 Faune: Dirogaorh (animaux), 🔮 Magie: Dirogairn (enchantements et monstres)<br />
+Génère un effet permettant au lanceur de sort de discuter sommairement avec un élément (la flamme d'une bougie, une flaque, une lame, etc), la nature de cet élément dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée, les informations qui peuvent être transmise sont foncièrement simple comme l'élément en question n'a pas la vision du monde qu'on les hommes etc... Il est possible d'échanger (dire ou recevoir) jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mots. Le domaine du savoir peux questionner tous les éléments mais la magnitude est divisée par deux.</p>
+<hr />
+<h4>39. Détection</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Tego (Couvrir), <strong><em>Arcanique :</em></strong> Dartego (Dar + tego)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 0<br />
+<strong>Clés :</strong> 👁️ Vision: Dartegoeth (tout), 🔥 Feu: Dartegoar (feu), ❄️ Glace: Dartegois (glace), ⚡ Foudre: Dartegoor (source d'énergie), 🪨 Terre: Dartegouv (minéraux), 💧 Eau: Dartegoyn (eau), 🌪️ Air: Dartegoel (vents, donc pas juste l'air), ☀️ Lumière: Dartegoion (source de lumière), 🌑 Ombre: Dartegooth (source d'ombre), ⚖️ Loi: Dartegoem (objet au comportement cyclique), 🌀 Chaos: Dartegoix (objet au comportement aléatoire), ❤️ Vie: Dartegoir (humanoïde, même incapable de parler), ☢️ Toxique: Dartegoex (élément toxique), ☠️ Mort: Dartegus (cadavres), ⚔️ Acier: Dartegoan (métal), 🌿 Flore: Dartegoiln (arbres), ✡️ Arcane: Dartegoys (enchantements et objets magiques), ✨ Sacre: Dartegoiel (choses sacrés), 🩸 Impie: Dartego un (choses impies, sang), 🐗 Faune: Dartegoorh (animaux), 🔮 Magie: Dartegoirn (enchantements et monstres)<br />
+Génère un enchantement qui permet à la cible de localiser exactement où se situe les éléments correspondant à la clé utilisée sur une distance de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, ce sort ne permet pas l'infravision (et donc ne permet pas de voir dans quel environnement exact se situe l'élément), mais la conjonction des deux sorts est possible, le domaine de la vision permet de voir tous les éléments notables mais sur une distance divisée par 2.</p>
+<hr />
+<h4>40. Signalement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Signum (Signe), <strong><em>Arcanique :</em></strong> Disigno (Di + signo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Disignoeth (tout), 🔥 Feu: Disignoar (feu), ❄️ Glace: Disignois (glace), ⚡ Foudre: Disignor (source d'énergie), 🪨 Terre: Disignoum (minéraux), 💧 Eau: Disignoyn (eau), 🌪️ Air: Disignoel (vents, donc pas juste l'air), ☀️ Lumière: Disignoion (source de lumière), 🌑 Ombre: Disignooth (source d'ombre), ⚖️ Loi: Disignoem (objet au comportement cyclique), 🌀 Chaos: Disignoix (objet au comportement aléatoire), ❤️ Vie: Disignoir (humanoïde, même incapable de parler), ☢️ Toxique: Disignoex (élément toxique), ☠️ Mort: Disignous (cadavres), ⚔️ Acier: Disignoan (métal), 🌿 Flore: Disignoiln (arbres), ✡️ Arcane: Disignoys (enchantements et objets magiques), ✨ Sacre: Disignoiel (choses sacrés), 🩸 Impie: Disignoun (choses impies, sang), 🐗 Faune: Disignorh (animaux), 🔮 Magie: Disignoirn (enchantements et monstres)<br />
+Génère un enchantement qui octroie à la cible les mêmes propriétés que le mot "Détection", cependant la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> est divisée par 2.</p>
+<hr />
+<h4>41. Ligation</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Liga (Lier), <strong><em>Arcanique :</em></strong> Darliga (Dar + liga)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Percevoir), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darligaeth, ⚖️ Loi: Darligaem<br />
+Génère un effet qui permet à la cible de « percevoir » les connexions invisibles qui relies la cible (personne, objet ou lieu) à d'autres éléments (personne, objet ou lieu). Le lien visible que perçoit au lanceur de sort de définir la nature même de ce qui rapproche ces éléments : Contrats classiques ou magiques, pactes, propriétés (à qui appartient l'objet donc et si cette appropriation est l'objet d'un vol ou non), serments ou liens qu'on peux imaginer). Cependant il n'est possible que de percevoir les liens avec des éléments proches, l'effet ne pouvant désigner quoi que ce soit au delà de <span style="color:#ff1493; font-weight:bold;">[Magnitude²/5]</span> mètres.</p>
+<hr />
+<h4>42. Harmonisation</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Harmonia (Harmonie), <strong><em>Arcanique :</em></strong> Evharm (Ev + harm)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Evharmem<br />
+Génère un effet qui rééquilibre les PV, PS et PE entre deux cibles (à portés du sort), les deux cibles aurons donc la moitié de la somme de ces ressources, attention car une même ressource ne peux faire l'objet d'un transfert supérieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> points.</p>
+<hr />
+<h4>43. Prédétermination</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Terminus (Fin), <strong><em>Arcanique :</em></strong> Entermin (En + termin)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Enterminem<br />
+Génère un effet permet à la cible de "stocker" un test (valeur des 3 dés) parmis une série de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> tests différents (réalisés au moment où le sort est lancé), la cible peux ensuite utiliser ce test stocké à la place de n'importe quel autre test qu'il doit effectuer et ce avant que le dit test ne soit lancé, cet effet n'est pas un enchantement et cesse à la fin de la scène, le test stocké ne peux pas être modifié via le karma mais il peux ensuite l'être lorsqu'il est utilisé.</p>
+<hr />
+<h4>44. Conditionnement</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Condicio (Condition), <strong><em>Arcanique :</em></strong> Elocondi (Elo + condi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Elocondiem<br />
+Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).</p>
+<hr />
+<h4>45. Edification</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Aedifico (Édifier), <strong><em>Arcanique :</em></strong> Conedi (Con + edi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Conediar, ❄️ Glace: Conediis, ⚡ Foudre: Conedior, 🪨 Terre: Conedium, 💧 Eau: Conediyn, 🌪️ Air: Conediel, ☀️ Lumière: Conediion, 🌑 Ombre: Conedioth, ⚖️ Loi: Conediem, 🌀 Chaos: Conediix, ✨ Sacre: Conediiel, 🩸 Impie: Conediun, ❤️ Vie: Conediir, ☠️ Mort: Conedius, 🌿 Flore: Conediiln, ✡️ Arcane: Conediys, 🎭 Illusion: Conediin, ⚔️ Acier: Conedian, 💢 Vide: Conediarh<br />
+Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des murs magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au mur.</p>
+<hr />
+<h4>46. Revêtement</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Vestis (Vêtement), <strong><em>Arcanique :</em></strong> Cenvest (Cen + vest)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Cenvestar, ❄️ Glace: Cenvestis, ⚡ Foudre: Cenvestor, 🪨 Terre: Cenvestum, 💧 Eau: Cenvestyn, 🌪️ Air: Cenvestel, ☀️ Lumière: Cenvestion, 🌑 Ombre: Cenvestoth, ⚖️ Loi: Cenvestem, 🌀 Chaos: Cenvestix, ✨ Sacre: Cenvestiiel, 🩸 Impie: Cenvestun, ❤️ Vie: Cenvestir, ☠️ Mort: Cenvestus, 🌿 Flore: Cenvestiln, ✡️ Arcane: Cenvestys, 🎭 Illusion: Cenvestin, 🛡️ Guerre: Cenvestorr<br />
+Génère un enchantement sous la forme d'un revêtement au sol tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des sols magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au sol.</p>
+<hr />
+<h4>47. Fers</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Ferrum (Fer), <strong><em>Arcanique :</em></strong> Colfer (Col + fer)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ☠️ Mort: Colferus, ⚔️ Acier: Colferan, 🌿 Flore: Colferiln, ✡️ Arcane: Colferys, ☀️ Lumière: Colferion, 🌑 Ombre: Colferoth, ⚖️ Loi: Colferem, 🌀 Chaos: Colferix, ✨ Sacre: Colferiiel, 🩸 Impie: Colferun<br />
+Génère un enchantement (sous formes de chaines tangibles ou intangibles) qui emprisonne un membre de la cible, la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer l'intégrité, si intangible la difficulté pour se soustraire à l'effet est augmenté de 5, la cible peux réduire/endommager les charges de l'enchantement comme il le ferait avec une structure (catégorie 0 si intangible sinon 5), il peux aussi réaliser une évaluation (diff 10) de musculation ou évasion (on considère que le jet endommage l'enchantement).</p>
+<hr />
+<h4>48. Incarcération</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Carcer (Prison), <strong><em>Arcanique :</em></strong> Carcarce (Car + carce)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> ☠️ Mort: Carcarceus, ⚔️ Acier: Carcarcean, 🌿 Flore: Carcarceiln, ✡️ Arcane: Carcarceys, ☀️ Lumière: Carcarceion, 🌑 Ombre: Carcarceoth, ⚖️ Loi: Carcarceem, 🌀 Chaos: Carcarceix, ✨ Sacre: Carcarceiel, 🩸 Impie: Carcarceun<br />
+Génère un enchantement (sous formes de cage tangibles ou intangibles) qui emprisonne entièrement la cible, fonctionne comme les fers mais prive de déplacement et réduire drastiquement les actions possibles (la cage étant serrée, l'usage de la plupart des armes est impossible, sauf armes légères).</p>
+<hr />
+<h4>49. Sarcophagie</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Sarcophagus (Grec), <strong><em>Arcanique :</em></strong> Consar (Con + sar)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 6, <strong><em>Drain :</em></strong> 6<br />
+<strong>Clés :</strong> ☠️ Mort: Consarus, ⚔️ Acier: Consaran, 🌿 Flore: Consariln, ✡️ Arcane: Consarys, ☀️ Lumière: Consarion, 🌑 Ombre: Consaroth, ⚖️ Loi: Consarem, 🌀 Chaos: Consarix, ✨ Sacre: Consariel, 🩸 Impie: Consarun<br />
+Génère un enchantement (sous formes de cerceuil tangibles ou intangibles) qui isole totalement la cible, fonctionne comme les fers mais la cible ne peux plus agir/interagir avec les autres, elle peux quand même tenter de briser/se soustraire à l'enchantement (même si là de toute évidence il ne pourra user de sa propre arme pour s'en sortir).</p>
+<hr />
+<h4>50. Armement élémentaire</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Arma (Arme), <strong><em>Arcanique :</em></strong> Cararma (Car + arma)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🔥 Feu: Cararmaar, ❄️ Glace: Cararmais, ⚡ Foudre: Cararmaor, 🪨 Terre: Cararmaum, 💧 Eau: Cararmayn, 🌪️ Air: Cararmael, ☀️ Lumière: Cararmaion, 🌑 Ombre: Cararmaoth, ⚖️ Loi: Cararmaem, 🌀 Chaos: Cararmaix, ✨ Sacre: Cararmaiel, 🩸 Impie: Cararmaun, ❤️ Vie: Cararmair, ☠️ Mort: Cararmaus, 🌿 Flore: Cararmailn, ✡️ Arcane: Cararmays, 🎭 Illusion: Cararmain, ⚔️ Acier: Cararmaan, 🔮 Magie: Cararmairn<br />
+Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Spécifique aux armes conjourées : Les dégats sont entièrement de l'élément associé à la clé, toucher la cible requière de passer la défense associée à l'élément ET à la forme de l'arme. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>51. Armure élémentaire</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Loric (Cuirasse), <strong><em>Arcanique :</em></strong> Conloric (Con + loric)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🔥 Feu: Conloricar, ❄️ Glace: Conloricis, ⚡ Foudre: Conloricor, 🪨 Terre: Conloricum, 💧 Eau: Conloricyn, 🌪️ Air: Conloricel, ☀️ Lumière: Conloricion, 🌑 Ombre: Conloricoth, ⚖️ Loi: Conloricem, 🌀 Chaos: Conloricix, ✨ Sacre: Conloriciel, 🩸 Impie: Conloricun, ❤️ Vie: Conloricir, ☠️ Mort: Conloricus, 🌿 Flore: Conloriciln, ✡️ Arcane: Conloricys, 🎭 Illusion: Conloricin, ⚔️ Acier: Conlorican, 🔮 Magie: Conloricirn<br />
+Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>52. Démasquage</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Larva (Masque), <strong><em>Arcanique :</em></strong> Cenlarva (Cen + larva)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Cenlarvatem<br />
+Génère un enchantement qui réduit la faculté à mentir, falcifier, se déguiser ou autre manipulation de la vérité, la difficulté visant à percevoir la vérité étant réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>53. Conversion</h4>
+<p><strong><em>École :</em></strong> École d'Altération<br />
+<strong><em>Latin :</em></strong> Verto (Tourner), <strong><em>Arcanique :</em></strong> Asvert (As + vert)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Asvertem<br />
+Génère un effet qui convertis un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charge d'une condition négative au choix en charge de la condition positive opposée avec le double des charges ainsi converties, variante : Ce mot peux affecter toutes les conditions de la cible avec une difficulté augmentée de 4.</p>
+<hr />
+<h4>54. Ponction</h4>
+<p><strong><em>École :</em></strong> École d'Altération<br />
+<strong><em>Latin :</em></strong> Pungo (Piquer), <strong><em>Arcanique :</em></strong> Alpung (Al + pung)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ❤️ Vie: Alpungir &amp; ☠️ Mort: Alpungus (PV), 🧩 Mental: Alpungend (PS), ⚖️ Loi: Alpungem &amp; 🌀 Chaos: Alpungix (PK), ⚕️ Corps: Alpungen (PC), 🧠 Esprit: Alpungys (PC), 🔮 Magie: Alpungirn (PM), 🪷 Nature: Alpungeiln (PE/fatigue)<br />
+Génère un effet qui transfert un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> (ou <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour l'endurance) d'une ressource donnée (selon <span style="color:#ff1493; font-weight:bold;">[clé]</span>) d'une cible à une autre au contact (si le sort à une portée alors les deux cibles peuvent être distante de cette même portée), si la cible à laquelle la ressource est prélevée le souhaite elle peux réaliser un test de sauvegarde (vs détermination) afin de réduire les effets du sort, ceci n'est pas considéré comme des dégats ou des soins (d'ailleurs l'effet ne génère pas de fatigue, inutile de préciser utiliser ce sort sur une cible non consentante se voit/sait et que c'est un délit (voir crime)), une même cible ne peux recevoir qu'une fois des ressources de cette manière (une fois par types), en zone il n'y a pas de démultiplications des ressources.</p>
+<hr />
+<h4>55. Rééquilibration</h4>
+<p><strong><em>École :</em></strong> École d'Altération<br />
+<strong><em>Latin :</em></strong> Aequus (Égal), <strong><em>Arcanique :</em></strong> Araequus (Ar + aequus)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Lieu<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> ⚖️ Loi: Araequusem<br />
+Rééquilibre les ressources de la cible: Toutes les ressources sont ajoutés avec un ajustement positif ou négatif (au choix au lancement du sort) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> puis redivisées équitablement, si la cible n'est pas consentente elle peux réaliser un test de sauvegarde (détermination) pour se soustraire à cet effet (sur une réussite), le sort ne peux être lancé qu'à un niveau de 3 au minimum.</p>
+      </div>
+</body></html>

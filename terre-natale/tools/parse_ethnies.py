@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-parse_ethnies.py — Convertit docs/ethnies/ethnies.md en app-react/src/data/ethnies.js
+parse_ethnies.py — Convertit docs/ethnies/ethnies.md en app-sheet/src/data/ethnies.js
 
 Usage: python3 tools/parse_ethnies.py
 
@@ -415,7 +415,7 @@ def main():
     tools_dir   = Path(__file__).parent
     source_path = tools_dir.parent / 'docs' / 'ethnies' / 'ethnies.md'
     json_path   = tools_dir / 'ethnies.json'
-    js_path     = tools_dir.parent / 'app-react' / 'src' / 'data' / 'ethnies.js'
+    js_path     = tools_dir.parent / 'app-sheet' / 'src' / 'data' / 'ethnies.js'
 
     ethnies = parse_file(source_path)
 

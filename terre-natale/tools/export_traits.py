@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-generate_traits_js.py — Convertit traits.json en app-react/src/data/traits.json
+export_traits.py — Convertit traits.json en app-sheet/src/data/traits.json
 
-Usage: python3 tools/generate_traits_js.py
+Usage: python3 tools/export_traits.py
 """
 
 import json
@@ -61,7 +61,7 @@ def transform(trait, section_key):
 def main():
     tools_dir = Path(__file__).parent
     traits_json_path = tools_dir / 'traits.json'
-    output_path = tools_dir.parent / 'app-react' / 'src' / 'data' / 'traits.json'
+    output_path = tools_dir.parent / 'app-sheet' / 'src' / 'data' / 'traits.json'
 
     with open(traits_json_path, encoding='utf-8') as f:
         data = json.load(f)

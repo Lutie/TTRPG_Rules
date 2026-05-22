@@ -299,7 +299,7 @@ Génère un enchantement qui permet à la cible de sacrifier 1 PM pour réduire 
 
 ---
 
-#### 34. Génère un enchantement qui renvoie les sorts non critiques reçus aux lanceur de sort, la magnitude du sort renvoyé est limité à [Magnitude/2] (le sort est renvoyé quoi qu'il arrive, c'est sa puissance qui réduite), chaque fois qu'un sort est renvoyé cet enchantement subit une décharge, ne fonctionne pas sur les sorts de zone
+#### 34. Boomrang
 ***Latin :*** Pello (Pousser), ***Arcanique :*** Borpello (Bor + pello)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2

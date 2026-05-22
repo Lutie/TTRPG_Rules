@@ -1,6 +1,6 @@
 # Domaine de la Terre 🪨
 
-> 47 mots pour ce domaine
+> 46 mots pour ce domaine
 
 #### 1. Percussion
 ***École :*** École de Destruction
@@ -52,17 +52,7 @@ Génère un effet qui cible un lieu en hauteur constitué de pierre et le marque
 
 ---
 
-#### 6. Vivification
-***École :*** École de Restauration
-***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
-***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
-***Difficulté :*** 2, ***Drain :*** 2
-**Clés :** 🔥 Feu, ❄️ Glace, ⚡ Foudre, 🪨 Terre, 💧 Eau, 🌪️ Air, ☀️ Lumière, 🌑 Ombre, ⚖️ Loi, 🌀 Chaos, 💢 Vide, ❤️ Vie, ☢️ Toxique, ✨ Sacre, 🩸 Impie, ☠️ Mort, 🎭 Illusion, 🌿 Flore, 🐗 Faune, 🛡️ Guerre, ⚔️ Acier, ✡️ Arcane, 🪷 Nature
-Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée).
-
----
-
-#### 7. Équilibrage
+#### 6. Équilibrage
 ***École :*** École de Bénédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +62,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 8. Préparation
+#### 7. Préparation
 ***École :*** École de Bénédiction
 ***Latin :*** Paro (Préparer), ***Arcanique :*** Lokparo (Lok + paro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +72,7 @@ Génère un enchantement positif qui octroie à la cible un total de <span style
 
 ---
 
-#### 9. Mitigation
+#### 8. Mitigation
 ***École :*** École de Bénédiction
 ***Latin :*** Mitis (Doux), ***Arcanique :*** Luxmitis (Lux + mitis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +82,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 10. Consécration
+#### 9. Consécration
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +92,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 11. Irradiation
+#### 10. Irradiation
 ***École :*** École de Bénédiction
 ***Latin :*** Radius (Rayon), ***Arcanique :*** Luxradiu (Lux + radiu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +102,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 12. Massification
+#### 11. Massification
 ***École :*** École de Malédiction
 ***Latin :*** Massa (Masse), ***Arcanique :*** Munmas (Mun + mas)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +112,7 @@ Génère un enchantement négatif qui augmente le poids effectif de la cible de 
 
 ---
 
-#### 13. Effondrement
+#### 12. Effondrement
 ***École :*** École de Malédiction
 ***Latin :*** Ruina (Chute), ***Arcanique :*** Mugruin (Mug + ruin)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +122,7 @@ Génère un enchantement négatif qui accroit la distance des chutes de <span st
 
 ---
 
-#### 14. Inertie
+#### 13. Inertie
 ***École :*** École de Malédiction
 ***Latin :*** Impedio (Empêcher), ***Arcanique :*** Muniped (Mun + iped)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +132,7 @@ Génère un enchantement négatif qui permet d'augmenter de <span style="color:#
 
 ---
 
-#### 15. Statuefaction
+#### 14. Statuefaction
 ***École :*** École de Malédiction
 ***Latin :*** Status (Position), ***Arcanique :*** Mugstatu (Mug + statu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +142,7 @@ Génère un enchantement négatif qui statufie la cible en formant une couche so
 
 ---
 
-#### 16. Vulnérable
+#### 15. Vulnérable
 ***École :*** École de Malédiction
 ***Latin :*** Laedo (Blesser), ***Arcanique :*** Munlaedo (Mun + laedo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +152,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 17. Déprécation
+#### 16. Déprécation
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +162,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 18. Pétrification
+#### 17. Pétrification
 ***École :*** École de Malédiction
 ***Latin :*** Petra (Roche), ***Arcanique :*** Morpetra (Mor + petra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +172,7 @@ Génère un enchantement négatif qui emprisonne un membre de la cible, la <span
 
 ---
 
-#### 19. Enchaînement
+#### 18. Enchaînement
 ***École :*** École de Malédiction
 ***Latin :*** Catena (Chaîne), ***Arcanique :*** Mugcatena (Mug + catena)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -192,7 +182,7 @@ Génère un enchantement négatif qui emprisonne l'ensemble de la cible, la <spa
 
 ---
 
-#### 20. Elémentaire
+#### 19. Elémentaire
 ***École :*** École d'Invocation
 ***Latin :*** Elementum (Élément), ***Arcanique :*** Voele (Vo + ele)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -202,7 +192,7 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 21. Obstruction
+#### 20. Obstruction
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -212,7 +202,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 22. Protestation
+#### 21. Protestation
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -222,7 +212,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 23. Neutralisation
+#### 22. Neutralisation
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -232,7 +222,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 24. Interrogation
+#### 23. Interrogation
 ***École :*** École de Divination
 ***Latin :*** Rogo (Questionner), ***Arcanique :*** Diroga (Di + roga)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +232,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 25. Détection
+#### 24. Détection
 ***École :*** École de Divination
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Dartego (Dar + tego)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +242,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 26. Signalement
+#### 25. Signalement
 ***École :*** École de Divination
 ***Latin :*** Signum (Signe), ***Arcanique :*** Disigno (Di + signo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +252,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 27. Précipitation
+#### 26. Précipitation
 ***École :*** École d'Évocation
 ***Latin :*** Precipito (Lancer en avant), ***Arcanique :*** Elopreci (Elo + preci)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible (point)
@@ -272,7 +262,7 @@ Augmente la chute de la cible de <span style="color:#ff1493; font-weight:bold;">
 
 ---
 
-#### 28. Émergence
+#### 27. Émergence
 ***École :*** École d'Évocation
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -282,7 +272,7 @@ Produit un effet qui génère <span style="color:#ff1493; font-weight:bold;">[Ma
 
 ---
 
-#### 29. Matérialisation
+#### 28. Matérialisation
 ***École :*** École d'Évocation
 ***Latin :*** Corp (Corps), ***Arcanique :*** Elocorpus (Elo + corpus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -292,7 +282,7 @@ Produit un effet qui créé de la matière (gaz, liquide ou solide) de <span sty
 
 ---
 
-#### 30. Intromission
+#### 29. Intromission
 ***École :*** École d'Évocation
 ***Latin :*** Mitto (Envoyer), ***Arcanique :*** Evmiss (Ev + miss)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -302,7 +292,7 @@ Génère un effet qui permet à la cible d'être téléporter d'un coté à l'au
 
 ---
 
-#### 31. Vibration
+#### 30. Vibration
 ***École :*** École d'Évocation
 ***Latin :*** Vibro (Agiter), ***Arcanique :*** Eruvibr (Eru + vibr)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -312,7 +302,7 @@ Génère un effet qui agit comme l'action tactique de renversement avec un jet d
 
 ---
 
-#### 32. Ascension
+#### 31. Ascension
 ***École :*** École de Conjuration
 ***Latin :*** Ascendo (Monter), ***Arcanique :*** Conasc (Con + asc)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -322,7 +312,7 @@ Génère un enchantement qui permet à la cible de grimper, elle le fait avec un
 
 ---
 
-#### 33. Terremarche
+#### 32. Terremarche
 ***École :*** École de Conjuration
 ***Latin :*** Terra (Terre), ***Arcanique :*** Centerra (Cen + terra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -332,7 +322,7 @@ Génère un enchantement qui permet à la cible de marcher sur le sol, elle le f
 
 ---
 
-#### 34. Edification
+#### 33. Edification
 ***École :*** École de Conjuration
 ***Latin :*** Aedifico (Édifier), ***Arcanique :*** Conedi (Con + edi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -342,7 +332,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 35. Revêtement
+#### 34. Revêtement
 ***École :*** École de Conjuration
 ***Latin :*** Vestis (Vêtement), ***Arcanique :*** Cenvest (Cen + vest)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -352,7 +342,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 36. Armement élémentaire
+#### 35. Armement élémentaire
 ***École :*** École de Conjuration
 ***Latin :*** Arma (Arme), ***Arcanique :*** Cararma (Car + arma)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -362,7 +352,7 @@ Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des pr
 
 ---
 
-#### 37. Armure élémentaire
+#### 36. Armure élémentaire
 ***École :*** École de Conjuration
 ***Latin :*** Loric (Cuirasse), ***Arcanique :*** Conloric (Con + loric)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -372,7 +362,7 @@ Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des 
 
 ---
 
-#### 38. Sublimification
+#### 37. Sublimification
 ***École :*** École d'Altération
 ***Latin :*** Sublimis (Élevé), ***Arcanique :*** Alsublim (Al + sublim)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -382,7 +372,7 @@ Produit un effet qui change l'état (gaz, liquide ou solide) de <span style="col
 
 ---
 
-#### 39. Fendaison
+#### 38. Fendaison
 ***École :*** École d'Altération
 ***Latin :*** Findo (Fendre), ***Arcanique :*** Aenfind (Aen + find)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -392,7 +382,7 @@ L'effet du sort génère une crevasse sur un sol de terre ou de pierre, la large
 
 ---
 
-#### 40. Réparation
+#### 39. Réparation
 ***École :*** École d'Altération
 ***Latin :*** Paro (Préparer), ***Arcanique :*** Arparo (Ar + paro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -402,7 +392,7 @@ L'effet du sort répare un objet ou structure (dont la nature coRespond à la <s
 
 ---
 
-#### 41. Construction
+#### 40. Construction
 ***École :*** École d'Altération
 ***Latin :*** Aedifico (Édifier), ***Arcanique :*** Aredifi (Ar + edifi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -412,9 +402,9 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 42. Assemblage
+#### 41. Assemblage
 ***École :*** École d'Altération
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Faber (Forger / Artisan), ***Arcanique :*** Asfaber (As + faber)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 6
 **Clés :** ⚔️ Acier: Asfaberan (Métaux), 🐗 Faune: Asfaberorh (Cuir), 🌿 Flore: Asfaberiln (Bois), 🌿 Flore: Asfaberiln (Tissu), 🪨 Terre: Asfaberum (Minéraux), ✡️ Arcane: Asfaberys (Tout)
@@ -422,9 +412,9 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 43. Optimisation
+#### 42. Optimisation
 ***École :*** École d'Altération
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Melior (Mieux / Améliorer), ***Arcanique :*** Aenmelior (Aen + melior)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 4, ***Drain :*** 2
 **Clés :** ⚔️ Acier: Aenmelioran (Métaux), 🐗 Faune: Aenmeliororh (Cuir), 🌿 Flore: Aenmelioriln (Bois), 🌿 Flore: Aenmelioriln (Tissu), 🪨 Terre: Aenmeliorum (Minéraux), ✡️ Arcane: Aenmelior ys (Tout)
@@ -432,7 +422,7 @@ L'effet du sort améliore la qualité d'un objet avec un potenciel de <span styl
 
 ---
 
-#### 44. Création
+#### 43. Création
 ***École :*** École d'Altération
 ***Latin :*** Creo (Créer), ***Arcanique :*** Alcreo (Al + creo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -442,7 +432,7 @@ L'effet du sort créer un objet avec un potenciel de <span style="color:#ff1493;
 
 ---
 
-#### 45. Solidification
+#### 44. Solidification
 ***École :*** École d'Altération
 ***Latin :*** Solidus (Solide), ***Arcanique :*** Arsoli (Ar + soli)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -452,7 +442,7 @@ Génère de la résistance temporaire afin de renforcer un objet (dont la nature
 
 ---
 
-#### 46. Pétrification
+#### 45. Pétrification
 ***École :*** École d'Altération
 ***Latin :*** Petra (Roche), ***Arcanique :*** Aspetra (As + petra)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -462,9 +452,9 @@ Génère un enchantement négatif qui change la chaire de la cible en pierre à 
 
 ---
 
-#### 47. Epiderme
+#### 46. Dermisation
 ***École :*** École d'Altération
-***Latin :*** ???, ***Arcanique :*** ???
+***Latin :*** Cutis (Peau), ***Arcanique :*** Arcutis (Ar + cutis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🪨 Terre
