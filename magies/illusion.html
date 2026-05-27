@@ -1,0 +1,242 @@
+<!DOCTYPE html><html><head>
+      <title>illusion</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {});
+</script></head><body for="html-export">
+      <div class="crossnote markdown-preview">
+<h1>Domaine de l'Illusion 🎭</h1>
+<blockquote>
+<p>28 mots pour ce domaine</p>
+</blockquote>
+<h4>1. Mystification</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Occulto (Cacher), <strong><em>Arcanique :</em></strong> Krucclt (Kru + cclt)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Kruccltin (vs VOL)<br />
+Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux (PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.</p>
+<hr />
+<h4>2. Perturbation</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Turbo (Troubler), <strong><em>Arcanique :</em></strong> Kraturb (Kra + turb)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Kraturbin (vs VOL)<br />
+Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats mentaux choquants (condition mentale de choc, en état de choc si charge &gt; PS actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2).</p>
+<hr />
+<h4>3. Hallucination</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Luceo (Briller), <strong><em>Arcanique :</em></strong> KorhaLu (Kor + hallu)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: KorhaLuin (Mirage)<br />
+Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats mentaux iLusoire <span style="color:#ff1493; font-weight:bold;">[clé]</span>.</p>
+<hr />
+<h4>4. Grandiloquence</h4>
+<p><strong><em>École :</em></strong> École de Restauration<br />
+<strong><em>Latin :</em></strong> Magnus (Grand), <strong><em>Arcanique :</em></strong> Relmagnus (Rel + magnus)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Relmagnusin<br />
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de n'importe quelle ressource, à la fin de la scène ces ressources sont immédiatement perdus (ce qui peux entrainer la mort ou le passage en négatif d'une ressource), ce soin est dispensé des règles des soins naturels et de la fatigue.</p>
+<hr />
+<h4>5. Kaléidoscope</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Forma (Forme), <strong><em>Arcanique :</em></strong> Luxform (Lux + form)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🎭 Illusion: Luxformin<br />
+Génère un enchantement positif qui génère <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> image légèrement décalée de la cible, une attaque (nécessairement mono cible) qui devrait le toucher à donc une chance sur "nombre d'image restantes" d'échouer, chaque fois qu'une attaque échoue de cette manière le nombre d'image restante diminue de 1.</p>
+<hr />
+<h4>6. Réfraction</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Frango (Briser), <strong><em>Arcanique :</em></strong> Lemfran (Lem + fran)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🎭 Illusion: Lemfranin<br />
+Génère un enchantement positif qui génère <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> image légèrement décalée de la cible, une attaque (nécessairement mono cible) qu'un adversaire cherche à défendre via une action de défense à une chance sur "nombre d'image restantes" d'échouée en ciblant la mauvaise image, chaque fois qu'une défense échoue de cette manière le nombre d'image restante diminue de 1.</p>
+<hr />
+<h4>7. Transcandence</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Scando (Grader, monter), <strong><em>Arcanique :</em></strong> Luscand (Lu + scand)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Luscandin<br />
+Génère un enchantement positif qui inverse l'utilisation des attributs du corps et de l'esprit : Chaque fois qu'une cible dans la zone doit utiliser un attribut dans un test (action, sauvegarde, etc) il peux employer son équivalant du corps ou de l'esprit à la place, cet effet ne peux être maintenu et sa décharge est doublée (10).</p>
+<hr />
+<h4>8. Mitigation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Mitis (Doux), <strong><em>Arcanique :</em></strong> Luxmitis (Lux + mitis)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Luxmitisar, ❄️ Glace: Luxmitisis, ⚡ Foudre: Luxmitisor, 🪨 Terre: Luxmitisum, 💧 Eau: Luxmitisyn, 🌪️ Air: Luxmitisel, ☠️ Mort: Luxmitisus, ✡️ Arcane: Luxmitisys, ☢️ Toxique: Luxmitisex, ⚔️ Acier: Luxmitisan, 🌿 Flore: Luxmitisiln, 🎭 Illusion: Luxmitisin, ⚖️ Loi: Luxmitisem, 🌀 Chaos: Luxmitisix, ✨ Sacre: Luxmitisiel, 🩸 Impie: Luxmitisun, 🧩 Mental: Luxmitisend, ☀️ Lumière: Luxmitision, 🌑 Ombre: Luxmitisoth, 💢 Vide: Luxmitisarh<br />
+Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ces dégats sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est forte.</p>
+<hr />
+<h4>9. Consécration</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sacro (Rendre sacré), <strong><em>Arcanique :</em></strong> Lemsacro (Lem + sacro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Lemsacroar, ❄️ Glace: Lemsacrois, ⚡ Foudre: Lemsacroor, 🪨 Terre: Lemsacroum, 💧 Eau: Lemsacroyn, 🌪️ Air: Lemsacroel, ☀️ Lumière: Lemsacroion, 🌑 Ombre: Lemsacrooth, ⚖️ Loi: Lemsacroem, 🌀 Chaos: Lemsacroix, ✨ Sacre: Lemsacroiel, 🩸 Impie: Lemsacroun, ❤️ Vie: Lemsacroir, ☠️ Mort: Lemsacrous, ⚕️ Corps: Lemsacroen, 🧠 Esprit: Lemsacroys, 🐗 Faune: Lemsacroorh, 🌿 Flore: Lemsacroiln, 🧩 Mental: Lemsacroend, ⚜️ Charme: Lemsacroynh, ✡️ Arcane: Lemsacroys, 🔮 Magie: Lemsacroirn, 🪷 Nature: Lemsacroeiln, ☢️ Toxique: Lemsacroex, 🎭 Illusion: Lemsacroin, 📚 Savoir: Lemsacroaum, 👁️ Vision: Lemsacroeth, ⚔️ Acier: Lemsacroan, 🛡️ Guerre: Lemsacroorr, 💢 Vide: Lemsacroarh<br />
+Génère un enchantement positif qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de bonus aux sauvegardes.</p>
+<hr />
+<h4>10. Mascarade</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Masca (Fantôme), <strong><em>Arcanique :</em></strong> Munmasca (Mun + masca)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🎭 Illusion: Munmascain<br />
+Génère un enchantement négatif qui inverse l'utilisation des attributs du corps et de l'esprit : Chaque fois qu'une cible dans la zone doit utiliser un attribut dans un test (action, sauvegarde, etc) il est obligé d'employer son équivalant du corps ou de l'esprit à la place, cet effet ne peux être maintenu et sa décharge est doublée (10), un test de sauvegarde (vs détermination) réussie permet de se soustraire à cet effet (à chaque tests).</p>
+<hr />
+<h4>11. Vulnérable</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Laedo (Blesser), <strong><em>Arcanique :</em></strong> Munlaedo (Mun + laedo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Munlaedoar, ❄️ Glace: Munlaedois, ⚡ Foudre: Munlaedoor, 🪨 Terre: Munlaedoum, 💧 Eau: Munlaedoyn, 🌪️ Air: Munlaedoel, ☠️ Mort: Munlaedous, ✡️ Arcane: Munlaedoys, ☢️ Toxique: Munlaedoex, ⚔️ Acier: Munlaedoan, 🌿 Flore: Munlaedoiln, 🎭 Illusion: Munlaedoin, ⚖️ Loi: Munlaedoem, 🌀 Chaos: Munlaedoix, ✨ Sacre: Munlaedoiel, 🩸 Impie: Munlaedoun, 🧩 Mental: Munlaedoend, ☀️ Lumière: Munlaedoion, 🌑 Ombre: Munlaedooth, 💢 Vide: Munlaedoarh<br />
+Génère un enchantement négatif qui augmente de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> les dégats réalisés sur la cible si ils sont issus d'élément contre lequel la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée est faible.</p>
+<hr />
+<h4>12. Obsession</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Sedeo (Être assis), <strong><em>Arcanique :</em></strong> Morobsid (Mor + obsid)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Morobsidin<br />
+Produit un enchantement négatif qui pousse la cible à imaginer des menaces qui n'existent pas et qui proviennent de ses propres peurs (le lanceur de sort ne décide pas de la nature de ces Illusions donc), la cible peux réussir un test d'intuition pour se rendre compte que quelque chose ne va pas avec une Illusion et un test de compétence pour comprendre la supercherie (comme pour toutes Illusions), cependant cet enchantement génère une nouvelle Illusion à chaque fois que l'une d'entre elle est obsolète, si la cible a des phobies elles sont mises en avant en premier.</p>
+<hr />
+<h4>13. Déprécation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Precor (Prier), <strong><em>Arcanique :</em></strong> Munprec (Mun + prec)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Munprecar, ❄️ Glace: Munprecis, ⚡ Foudre: Munprecor, 🪨 Terre: Munprecum, 💧 Eau: Munprecyn, 🌪️ Air: Munprecel, ☀️ Lumière: Munprecion, 🌑 Ombre: Munprecoth, ⚖️ Loi: Munprecem, 🌀 Chaos: Munprecix, ✨ Sacre: Munpreciel, 🩸 Impie: Munprecun, ❤️ Vie: Munprecir, ☠️ Mort: Munprecus, ⚕️ Corps: Munprece n, 🧠 Esprit: Munprecys, 🐗 Faune: Munprecorh, 🌿 Flore: Munpreciln, 🧩 Mental: Munprecend, ⚜️ Charme: Munprecynh, ✡️ Arcane: Munprecys, 🔮 Magie: Munprecirn, 🪷 Nature: Munpreceiln, ☢️ Toxique: Munprecex, 🎭 Illusion: Munprecin, 📚 Savoir: Munprecaum, 👁️ Vision: Munpreceth, ⚔️ Acier: Munprecan, 🛡️ Guerre: Munprecorr, 💢 Vide: Munprecarh<br />
+Génère un enchantement négatif qui octroie à la cible des pénalités très marquée contre un élément donné, cela se traduit par une réduction de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> en protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de malus aux sauvegardes.</p>
+<hr />
+<h4>14. Désorientation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Oriens (Est, Levant), <strong><em>Arcanique :</em></strong> Mugorien (Mug + orien)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Mugorienin<br />
+Génère un enchantement négatif qui plonge la cible dans un labyrinth mental, tant qu'il est perdu dans ce dernier il subit un double désavantages, la cible peux passer une ACTS à essayer de s'orienter dans ce labyrinth mental via un test d'orientation adapté au type de labyrinth imposé par le lanceur de sort (évaluation difficulté 10) et il progresse d'autant que son jet (catégorie 0 + DR), il peux à la placer utiliser un test de concentration, lorsque la progression atteint <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> il s'affranchit d'un désavantage, l'enchantement prend fin si la cible n'est plus affecté par des désavantages de cette manière, évidemment un test de sauvegarde approprié permet d'altérer la magnitude effective du sort.</p>
+<hr />
+<h4>15. Perdition</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Perdo (Perdre), <strong><em>Arcanique :</em></strong> Munperdo (Mun + perdo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Munperdoin<br />
+Génère un enchantement négatif qui plonge la cible dans un labyrinth mental, tant qu'il est perdu dans ce dernier il ne peux plus agir ni se défendre, la cible peux passer une ACTS à essayer de s'orienter dans ce labyrinth mental via un test d'orientation adapté au type de labyrinth imposé par le lanceur de sort (évaluation difficulté 10) et il progresse d'autant que son jet (catégorie 0 + DR), il peux à la placer utiliser un test de concentration, lorsque la progression atteint <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> il s'affranchit du labyrinth et l'enchantement prend fin, évidemment un test de sauvegarde approprié permet d'altérer la magnitude effective du sort, ce sort n'affecte que les cibles dont le rang est inférieur à celui du lanceur de sort.</p>
+<hr />
+<h4>16. Illusion</h4>
+<p><strong><em>École :</em></strong> École d'Invocation<br />
+<strong><em>Latin :</em></strong> Illusio (Moquerie), <strong><em>Arcanique :</em></strong> Vasilusi (Vas + ilusi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible (lieu)<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 6<br />
+<strong>Clés :</strong> 🎭 Illusion: Vasilusiin<br />
+Génère un enchantement qui invoque une créature de type iLusoire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, ces choix inclus tous les choix de la liste des bêtes et des guerriers, mais dans une version iLusoire, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.</p>
+<hr />
+<h4>17. Obstruction</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Obstruo (Boucher), <strong><em>Arcanique :</em></strong> Basobstru (Bas + obstru)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Basobstruar, ❄️ Glace: Basobstruis, ⚡ Foudre: Basobstruor, 🪨 Terre: Basobstruum, 💧 Eau: Basobstruyn, 🌪️ Air: Basobstruel, ☀️ Lumière: Basobstruion, 🌑 Ombre: Basobstruoth, ⚖️ Loi: Basobstruem, 🌀 Chaos: Basobstruix, ✨ Sacre: Basobstruiel, 🩸 Impie: Basobstruun, ❤️ Vie: Basobstruir, ☠️ Mort: Basobstruus, ⚕️ Corps: Basobstruen, 🧠 Esprit: Basobstruys, 🐗 Faune: Basobstruorh, 🌿 Flore: Basobstruiln, 🧩 Mental: Basobstruend, ⚜️ Charme: Basobstruynh, ✡️ Arcane: Basobstruys, 🔮 Magie: Basobstruirn, 🪷 Nature: Basobstrueiln, ☢️ Toxique: Basobstruex, 🎭 Illusion: Basobstruin, 📚 Savoir: Basobstruaum, 👁️ Vision: Basobstrueth, ⚔️ Acier: Basobstruan, 🛡️ Guerre: Basobstruorr, 💢 Vide: Basobstruarh<br />
+Génère un effet qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de protection, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de résistance et <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> de bonus aux sauvegardes, cet effet ne s'applique pour un effet/une action.</p>
+<hr />
+<h4>18. Protestation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Testor (Témoigner), <strong><em>Arcanique :</em></strong> Barenteste (Bren + teste)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.</p>
+<hr />
+<h4>19. Neutralisation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Neuter (Ni l'un ni l'autre), <strong><em>Arcanique :</em></strong> Barneute (Bar + neute)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).</p>
+<hr />
+<h4>20. Simulation</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Simulo (Imiter), <strong><em>Arcanique :</em></strong> Evsimul (Ev + simul)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Evsimulin<br />
+Génère un son, une image ou une odeur portant sur <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> unités de distance, le phénomène est aussi réaliste que possible sur cette distance, au delà si le phénomène est perçus alors le doute est permis sur si il a bien eu lieu mais pas nécessairement sur son origine (le test de sauvegarde affecte donc cette distance de crédibilité), si la cible a de bonnes raisons de douter du phénomène alors un test d'intuition peux être entrepris, le phénomène dure l'équivalant d'un tour.</p>
+<hr />
+<h4>21. Edification</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Aedifico (Édifier), <strong><em>Arcanique :</em></strong> Conedi (Con + edi)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Conediar, ❄️ Glace: Conediis, ⚡ Foudre: Conedior, 🪨 Terre: Conedium, 💧 Eau: Conediyn, 🌪️ Air: Conediel, ☀️ Lumière: Conediion, 🌑 Ombre: Conedioth, ⚖️ Loi: Conediem, 🌀 Chaos: Conediix, ✨ Sacre: Conediiel, 🩸 Impie: Conediun, ❤️ Vie: Conediir, ☠️ Mort: Conedius, 🌿 Flore: Conediiln, ✡️ Arcane: Conediys, 🎭 Illusion: Conediin, ⚔️ Acier: Conedian, 💢 Vide: Conediarh<br />
+Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des murs magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au mur.</p>
+<hr />
+<h4>22. Revêtement</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Vestis (Vêtement), <strong><em>Arcanique :</em></strong> Cenvest (Cen + vest)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Cenvestar, ❄️ Glace: Cenvestis, ⚡ Foudre: Cenvestor, 🪨 Terre: Cenvestum, 💧 Eau: Cenvestyn, 🌪️ Air: Cenvestel, ☀️ Lumière: Cenvestion, 🌑 Ombre: Cenvestoth, ⚖️ Loi: Cenvestem, 🌀 Chaos: Cenvestix, ✨ Sacre: Cenvestiiel, 🩸 Impie: Cenvestun, ❤️ Vie: Cenvestir, ☠️ Mort: Cenvestus, 🌿 Flore: Cenvestiln, ✡️ Arcane: Cenvestys, 🎭 Illusion: Cenvestin, 🛡️ Guerre: Cenvestorr<br />
+Génère un enchantement sous la forme d'un revêtement au sol tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des sols magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au sol.</p>
+<hr />
+<h4>23. Simulacre</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Simulo (Imiter), <strong><em>Arcanique :</em></strong> Consim (Con + sim)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Consimin<br />
+Génère un enchantement qui prend les traits de la cible, ce clone agit et parle indépendament de son modèle mais ne peux rien faire par lui même de complexe, il aura l'air de réussire ce qu'il fait mais même si c'est le cas il n'y a pas de réelles conséquences dans le monde réel, à chaque fois qu'un changement de comportement/action est requis cet enchantement subit une décharge, ces effets sont sujets aux règles inhérentes aux Illusions.</p>
+<hr />
+<h4>24. Armement élémentaire</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Arma (Arme), <strong><em>Arcanique :</em></strong> Cararma (Car + arma)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🔥 Feu: Cararmaar, ❄️ Glace: Cararmais, ⚡ Foudre: Cararmaor, 🪨 Terre: Cararmaum, 💧 Eau: Cararmayn, 🌪️ Air: Cararmael, ☀️ Lumière: Cararmaion, 🌑 Ombre: Cararmaoth, ⚖️ Loi: Cararmaem, 🌀 Chaos: Cararmaix, ✨ Sacre: Cararmaiel, 🩸 Impie: Cararmaun, ❤️ Vie: Cararmair, ☠️ Mort: Cararmaus, 🌿 Flore: Cararmailn, ✡️ Arcane: Cararmays, 🎭 Illusion: Cararmain, ⚔️ Acier: Cararmaan, 🔮 Magie: Cararmairn<br />
+Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Spécifique aux armes conjourées : Les dégats sont entièrement de l'élément associé à la clé, toucher la cible requière de passer la défense associée à l'élément ET à la forme de l'arme. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>25. Armure élémentaire</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Loric (Cuirasse), <strong><em>Arcanique :</em></strong> Conloric (Con + loric)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🔥 Feu: Conloricar, ❄️ Glace: Conloricis, ⚡ Foudre: Conloricor, 🪨 Terre: Conloricum, 💧 Eau: Conloricyn, 🌪️ Air: Conloricel, ☀️ Lumière: Conloricion, 🌑 Ombre: Conloricoth, ⚖️ Loi: Conloricem, 🌀 Chaos: Conloricix, ✨ Sacre: Conloriciel, 🩸 Impie: Conloricun, ❤️ Vie: Conloricir, ☠️ Mort: Conloricus, 🌿 Flore: Conloriciln, ✡️ Arcane: Conloricys, 🎭 Illusion: Conloricin, ⚔️ Acier: Conlorican, 🔮 Magie: Conloricirn<br />
+Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des propriétés dépendent de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> : Spécifique aux armures conjurées : Offre une résistance notable (mi dégats) aux éléments forts. Global aux objets conjurés : Le personnage a l'expertise et la science de l'objet en question, la catégorie et la forme de l'objet est au choix mais au mieux de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (toutes les contraintes liées à ces valeurs subsistent, poids, etc), l'objet est de qualité <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>26. Mimétisation</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Mimicus (Mime), <strong><em>Arcanique :</em></strong> Cenmimic (Cen + mimic)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🎭 Illusion: Cenmimicin<br />
+Génère un enchantement donne à sa cible les traits (visuel, sonore, odeurs) d'une autre personne, si ces traits sont ceux d'une personne connu du lanceur de sort alors seuls les détails que ce dernier connait vraiment sont parfaits (le reste révèle la nature fausse de la chose à quiquonque connait celui ci chez la personne d'origine), ces effets sont sujets aux règles inhérentes aux Illusions.</p>
+<hr />
+<h4>27. Invisibilité</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Celo (Cacher), <strong><em>Arcanique :</em></strong> Cencelo (Cen + celo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🎭 Illusion: Cenceloin<br />
+Génère un enchantement sur cible qui tord la lumière et rend le sujet invisible, un test d'intuition réussis permet de savoir que quelque chose ne va pas et un test d'acuité permet de voir la cible malgrés tout, ce sort ne peux être lancé à un niveau inférieur à 2, toute action d'agression met un terme à l'enchantement.</p>
+<hr />
+<h4>28. Silence</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Silentium (Silence), <strong><em>Arcanique :</em></strong> Colsil (Col + sil)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🎭 Illusion: Colsilin<br />
+Génère un enchantement sur cible qui étouffe le son et rend le sujet difficile à entendre, un test d'intuition réussis permet de savoir que quelque chose ne va pas et un test d'acuité permet de voir la cible malgrés tout, ce sort ne peux être lancé à un niveau inférieur à 2, toute action d'agression met un terme à l'enchantement.</p>
+      </div>
+</body></html>

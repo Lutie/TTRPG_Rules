@@ -2,175 +2,377 @@
       <title>guerre</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <link rel="stylesheet" href="file:///c:\Users\Lutie\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
-      
-      
-      
-      
-      
       <style>
-      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
 /* Please visit the URL below for more information: */
 /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
-
       </style>
-      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
-    // your code here
-  });
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {});
 </script></head><body for="html-export">
-    
-    
-      <div class="crossnote markdown-preview  ">
-      
-<h1 id="sorts--guerre">Sorts – Guerre </h1>
+      <div class="crossnote markdown-preview">
+<h1>Domaine de la Guerre 🛡️</h1>
 <blockquote>
-<p>14 sorts pour Guerre</p>
+<p>45 mots pour ce domaine</p>
 </blockquote>
-<h2 id="héroïsme">Héroïsme </h2>
-<p><em><strong>Difficulté :</strong></em> 18+X, <em><strong>Drain :</strong></em> 20+X, <em><strong>Type de sort :</strong></em> Barrière, <em><strong>Domaine du sort :</strong></em> 🛡🛡, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
-<strong>Mot avancé :</strong> <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1.<br>
-<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
-<blockquote>
-<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Absorption</span> (Sorbeo (Boire, aspirer) / Belsorb (Bel + sorb)) : Génère un enchantement neutre de type barrière magique pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). <em><strong>Clé :</strong></em> 🛡️ Guerre: Lemsorborr (Mêlée)<br>
-<strong>Mot de pouvoir secondaire :</strong> <span style="color:#228B22; font-weight:bold;">Absorption</span> (Sorbeo (Boire, aspirer) / Belsorb (Bel + sorb)) : Génère un enchantement neutre de type barrière magique pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). <em><strong>Clé :</strong></em> 🛡️ Guerre: Lemsorborr (Tir)</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Crée une puissante barrière de groupe qui absorbe les dégâts des attaques de mêlée et de tir dans la zone.</p>
-<hr>
-<h2 id="croisade">Croisade </h2>
-<p><em><strong>Difficulté :</strong></em> 16, <em><strong>Drain :</strong></em> 18, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Malédiction<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).<br>
-<strong>Mot de liaison :</strong> <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Exacerbation</span> (Acerbus (Acre, amer) / Malacerb (Mal + acerb)) : Produit un enchantement négatif qui double les charges, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, les effets des conditions négatives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. <em><strong>Clé :</strong></em> 🛡️ Guerre: Lemacerborr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Double et aggrave les effets des afflictions négatives sur tous les ennemis présents dans la zone.</p>
-<hr>
-<h2 id="sapper-la-tension">Sapper la Tension </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Malédiction<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Privation</span> (Privo (Enlever) / Munprivo (Mun + privo)) : Génère un enchantement négatif qui bloque un ou tous les sens de la cible (au choix au lancement du sort) sur une distance supérieur à <span style="color:#ff1493; font-weight:bold;">[Perception de la cible x 2]</span> moins <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, si l'effet n'affecte qu'un seul sens la cible est désavantagé à son test de sauvegarde, si l'effet affecte tous les sens la magnitude est divisée par 2. <em><strong>Clé :</strong></em> 🛡️ Guerre: Kaprivoorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Éteint la “tension” de combat d’une cible en lui retirant/affaiblissant ses ressources temporaires (garde, rage, adrénaline).</p>
-<p><em><strong>Notes :</strong></em> Affecte les ressources temporaires suivantes : Garde, Rage et Adrénaline.</p>
-<hr>
-<h2 id="egide-de-douleurs">Egide de Douleurs </h2>
-<p><em><strong>Difficulté :</strong></em> 10, <em><strong>Drain :</strong></em> 10, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Malédiction<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Répercussion</span> (Reddo (Rendre) / Munreddo (Mun + reddo)) : Génère un enchantement qui provoque une perte de PS équivalant à 1/3 de la perte de PS que la cible inflige, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>. <em><strong>Clé :</strong></em> 🛡️ Guerre: Lireverborr<br>
-<strong>Mot de pouvoir lié :</strong> <span style="color:#228B22; font-weight:bold;">Matérialisation</span> (Corp (Corps) / Elocorpus (Elo + corpus)) : Produit un effet qui créé de la matière (gaz, liquide ou solide) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> unités d'un élément qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>.</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Renvoie une partie des dégâts spirituels infligés par la cible et matérialise une action de combat liée.</p>
-<p><em><strong>Notes :</strong></em> Le mot lié génère ici une action de combat.</p>
-<hr>
-<h2 id="egide-de-courage">Egide de Courage </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir principal :</strong> <span style="color:#228B22; font-weight:bold;">Réaction</span> (Ago (Agir) / Lokago (Lok + ago)) : Génère un enchantement positif qui produit les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> à chaque fois qu'une attaque est porté par un adversaire sur la cible, l'effet en question dispose d'une puissance de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> et s'applique un maximum de 3 / 4 / 5 fois, si l'effet est positif il prend effet sur la cible de l'attaque sinon sur l'attaquant. <em><strong>Clé :</strong></em> 🛡️ Guerre: Lokagoorr<br>
-<strong>Mot de pouvoir lié :</strong> <span style="color:#228B22; font-weight:bold;">Galvanisation</span> (Fulgor (Éclat, foudre) / Evfulgo (Ev + fulgo)) : Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de ressource physique temporaire parmi : Garde, Adrénaline et Rage.</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Déclenche un effet automatique à chaque attaque subie (buff ou punition) et nourrit la cible en ressources de combat.</p>
-<hr>
-<h2 id="creuset-de-la-guerre">Creuset de la Guerre </h2>
-<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École d'Évocation<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Galvanisation</span> (Fulgor (Éclat, foudre) / Evfulgo (Ev + fulgo)) : Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de ressource physique temporaire parmi : Garde, Adrénaline et Rage. <em><strong>Clé :</strong></em> 🛡️ Guerre: Lirvibr orr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Insuffle une poussée d’adrénaline en accordant un gros gain de garde/adrénaline/rage temporaires.</p>
-<hr>
-<h2 id="ire-de-la-bataille">Ire de la Bataille </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Malédiction<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Intensification</span> (Vehemens (Violent) / Munvehe (Mun + vehe)) : Génère un enchantement négatif augmentant les effets des conditions négatives dont les charges sont inférieures à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> sur la cible (les conditions normales ont les effets de conditions améliorées et les conditions améliorées ont des effets encore améliorés d'un cran, si numériquement applicable). <em><strong>Clé :</strong></em> 🛡️ Guerre: Lokintenorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Intensifie les malus et afflictions d’une cible tant qu’ils restent sous un certain seuil.</p>
-<hr>
-<h2 id="ire-de-lespoir">Ire de l'Espoir </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Interruption, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Consolidation</span> (Solidus (Solide) / Brisolid (Bri + solid)) : Génère un effet qui augmente la défense passive contre les tactiques physiques de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. <em><strong>Clé :</strong></em> 🛡️ Guerre: Lemperforr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Renforce instantanément la défense passive contre les tactiques physiques (interruption).</p>
-<hr>
-<h2 id="présence-du-mentor">Présence du Mentor </h2>
-<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Conjuration<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Harmonisation</span> (Harmonia (Harmonie) / Colharmo (Col + harmo)) : Génère un enchantement de lieu qui réduit la difficulté de sorts lancés dans la zone de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> 🛡️ Guerre: Lirharmoor</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Crée une zone “mentor” qui facilite les manœuvres et réduit la difficulté des sorts dans l’aire.</p>
-<p><em><strong>Notes :</strong></em> Affecte les manoeuvres de combat.</p>
-<hr>
-<h2 id="portée-accrue">Portée Accrue </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Bénédiction<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Ballistification</span> (Ballo (Lancer, grec) / Lirballo (Lir + ballo)) : Génère un enchantement positif qui augmente la distance de tir et de jet de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/20]</span> fois (soit 5% par magnitude). <em><strong>Clé :</strong></em> 🛡️ Guerre: Lirballoorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Augmente nettement la portée de tir et de lancer d’une cible.</p>
-<hr>
-<h2 id="le-feu-de-la-guerre">Le Feu de la Guerre </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Pouvoir, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École d'Évocation<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Galvanisation</span> (Fulgor (Éclat, foudre) / Evfulgo (Ev + fulgo)) : Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de ressource physique temporaire parmi : Garde, Adrénaline et Rage. <em><strong>Clé :</strong></em> 🛡️ Guerre: Evfulgoorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Allume le feu du combat en accordant une forte réserve temporaire de garde/adrénaline/rage.</p>
-<hr>
-<h2 id="vision-des-traquenards">Vision des Traquenards </h2>
-<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir (Senseur), <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Divination<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Décellement</span> (Celo (Cacher) / Darcelo (Dar + celo)) : Génère un effet de perception des pièges (voir règle sur les "senseurs"), révèle ainsi les éléments dissimulés étant de nature à pouvoir entraver ou blesser. Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> 🛡️ Guerre: Darceloorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Permet de repérer rapidement les pièges, embuscades et éléments dissimulés dangereux.</p>
-<hr>
-<h2 id="vision-des-pensées-belliqueuses">Vision des Pensées Belliqueuses </h2>
-<p><em><strong>Difficulté :</strong></em> 8, <em><strong>Drain :</strong></em> 8, <em><strong>Type de sort :</strong></em> Pouvoir (Senseur), <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École de Divination<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Intuition</span> (Tueor (Regarder) / Deltueo (Del + tueo)) : Génère un effet de perception du danger (voir règle sur les "senseurs"), révèle ainsi les êtres qui souhaite ou pourrait s'en prendre au personnage, quel qu'en soit la raison... Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. <em><strong>Clé :</strong></em> 🛡️ Guerre: Deltueoorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Donne une intuition fulgurante des menaces proches et des intentions belliqueuses dirigées vers soi.</p>
-<hr>
-<h2 id="egide-de-bataille">Egide de Bataille </h2>
-<p><em><strong>Difficulté :</strong></em> 12, <em><strong>Drain :</strong></em> 12, <em><strong>Type de sort :</strong></em> Barrière, <em><strong>Domaine du sort :</strong></em> 🛡, <em><strong>École du sort :</strong></em> École d'Abjuration<br>
-<strong>Mot de diffusion :</strong> <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.<br>
-<strong>Mot de propagation :</strong> <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.</p>
-<blockquote>
-<p><strong>Mot de pouvoir :</strong> <span style="color:#228B22; font-weight:bold;">Déflection</span> (Curvo (Courber) / Barcurvo (Bar + curvo)) : Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> les jets (dégats, impacts, charges) à distance (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). <em><strong>Clé :</strong></em> 🛡️ Guerre: Barcurvoorr</p>
-</blockquote>
-<p><em><strong>Description :</strong></em> Dresse une barrière anti-projectiles qui absorbe et dévie efficacement les attaques à distance.</p>
-
+<h4>1. Privation</h4>
+<p><strong><em>École :</em></strong> École de Destruction<br />
+<strong><em>Latin :</em></strong> Privo (Enlever), <strong><em>Arcanique :</em></strong> Kaprivo (Ka + privo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Kaprivoorr (Garde, Rage ou Adrénaline), ⚜️ Charme: Kaprivoynh (Audace, etc), 🔥 Feu: Kaprivoar (Garde), ❄️ Glace: Kaprivois (Rage), ⚡ Foudre: Kaprivoor (Adréaline), 🪨 Terre: Kaprivoum (Initiative), 💧 Eau: Kaprivoun (Initiative), 🌪️ Air: Kaprivoel (Initiative), ⚖️ Loi: Kaprivrag (Karma), ☠️ Mort: Kaprivous (Vitalité), ⚕️ Corps: Kaprivoen (Vitalité), 🧠 Esprit: Kaprivoys (Psyché), ⚜️ Charme: Kaprivoynh (Psyché), ✡️ Arcane: Kaprivoys (Mana), 🪷 Nature: Kaprivoeil (Chi), ☢️ Toxique: Kaprivoex (endurance)<br />
+Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place.</p>
+<hr />
+<h4>2. Canalisation</h4>
+<p><strong><em>École :</em></strong> École de Restauration<br />
+<strong><em>Latin :</em></strong> Canalis (Conduit), <strong><em>Arcanique :</em></strong> Recana (Re + cana)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Recanaorr, 🧩 Mental: Recanaend<br />
+Produit un soin qui convertis un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de garde/adrénaline/rage ou leurs équivalants mentaux (selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée) en 2 PE chaques, l'éxcédant est acquis en PE temporaires.</p>
+<hr />
+<h4>3. Répercussion</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Reverbero (Répercuter), <strong><em>Arcanique :</em></strong> Lireverb (Lir + reverb)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lireverborr<br />
+Génère un enchantement positif qui produit les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> à chaque fois qu'une attaque est porté par la cible et touche un adversaire, l'effet en question dispose d'une puissance de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> et s'applique un maximum de 3 / 4 / 5 fois, si l'effet est positif il prend effet sur l'attaquant sinon sur la cible de l'attaque.</p>
+<hr />
+<h4>4. Réaction</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Ago (Agir), <strong><em>Arcanique :</em></strong> Lokago (Lok + ago)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lokagoorr<br />
+Génère un enchantement positif qui produit les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> à chaque fois qu'une attaque est porté par un adversaire sur la cible, l'effet en question dispose d'une puissance de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> et s'applique un maximum de 3 / 4 / 5 fois, si l'effet est positif il prend effet sur la cible de l'attaque sinon sur l'attaquant.</p>
+<hr />
+<h4>5. Accélération</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Velox (Rapide), <strong><em>Arcanique :</em></strong> Lirvelo (Lir + velo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lirvelo orr<br />
+Génère un enchantement positif qui octroie à la cible un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> action libre par tours, hydraté équitablement sur les 3 premiers rounds.</p>
+<hr />
+<h4>6. Galvanisation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Vibro (Agiter), <strong><em>Arcanique :</em></strong> Lirvibr (Lir + vibr)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lirvibr orr<br />
+Génère un enchantement positif qui augmente de moitié la génération de ressources temporaires tel que rage, garde et adrénaline, avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, augmente également le maximum de ces ressources de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.</p>
+<hr />
+<h4>7. Énergisation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lokintenorr, 🐗 Faune: Lokintenorh, 🧩 Mental: Lokintenend<br />
+Génère un enchantement positif qui accorde un bonus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests d'attaque via arme non naturelle (clé guerre) ou arme naturelle (clé faune) ou joute (clé mental) de la cible.</p>
+<hr />
+<h4>8. Solide</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Solidus (Solide), <strong><em>Arcanique :</em></strong> Luxconsol (Lux + consol)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Luxconsolorr, 🐗 Faune: Luxconsolorh, 🧩 Mental: Luxconsolend<br />
+Génère un enchantement positif qui accorde un bonus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests de défense via arme non naturelle (clé guerre) ou arme naturelle (clé faune) ou joute (clé mental) de la cible.</p>
+<hr />
+<h4>9. Optimal</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Perficio (Achever), <strong><em>Arcanique :</em></strong> Lemperf (Lem + perf)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lemperforr, 🐗 Faune: Lemperforh, 🧩 Mental: Lemperfend<br />
+Génère un enchantement positif qui accorde un bonus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests tactiques via arme non naturelle (clé guerre) ou arme naturelle (clé faune) ou joute (clé mental) de la cible.</p>
+<hr />
+<h4>10. Harmonisation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Harmonia (Harmonie), <strong><em>Arcanique :</em></strong> Lirharmo (Lir + harmo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lirharmoor, 🧩 Mental: Lirharmoend, 🔮 Magie: Lirharmoirn<br />
+Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> les pénalités des manoeuvres physiques (clé guerre), mentales (clé mental) ou incantatoires (clé magie) de la cible.</p>
+<hr />
+<h4>11. Reverbération</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Verbero (Battre), <strong><em>Arcanique :</em></strong> Luverbe (Lu + verbe)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Luverbeorr, 🧩 Mental: Luverbeend<br />
+Génère un enchantement positif qui génère l'équivalant du tier de la déviation physique ou mentale (selon clé) d'un blocage ou une parade d'ordre physique ou mental (selon clé) en dégats physique ou mental (selon clé) ignorant toutes les défenses de la cible, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.</p>
+<hr />
+<h4>12. Absorption</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sorbeo (Boire), <strong><em>Arcanique :</em></strong> Lemsorb (Lem + sorb)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lemsorborr (Mêlée), 🛡️ Guerre: Lemsorborr (Tir), 🧩 Mental: Lemsorbend (Mental), ✡️ Arcane: Lemsorbys (Magique), 🐗 Faune: Lemsorborh (Naturel)<br />
+Génère un enchantement positif qui réduit de moitié les dégats d'un type (selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée) avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.</p>
+<hr />
+<h4>13. Perfectionnement</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Perficere (Achever), <strong><em>Arcanique :</em></strong> Lempfect (Lem + pfect)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lempfectorr (Combat, Défense, Tactique, Archerie, Corps à corps), ⚕️ Corps: Lempfecten (Athlétisme, Gymnastique, Discipline), 👁️ Vision: Lempfecteth (Acuité), ✡️ Arcane: Lempfectys (Arcanes), 🔮 Magie: Lempfectirn (Chasse, Survie Rurale, Survie urbaine, Discrétion, Larçin, Sagacité, Subterfuge), ⚜️ Charme: Lempfectynh (Argumentation, Résolution, Manipulation, Art, Eloquence), 🧠 Esprit: Lempfectys (Artisanat, Profession, Savoir être, Savoir faire), 📚 Savoir: Lempfectaum (Langue, Enquête, Erudition, Stratégie, Guérison, Commerce)<br />
+Produit un enchantement positif qui augmente une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span>.</p>
+<hr />
+<h4>14. Consécration</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Sacro (Rendre sacré), <strong><em>Arcanique :</em></strong> Lemsacro (Lem + sacro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Lemsacroar, ❄️ Glace: Lemsacrois, ⚡ Foudre: Lemsacroor, 🪨 Terre: Lemsacroum, 💧 Eau: Lemsacroyn, 🌪️ Air: Lemsacroel, ☀️ Lumière: Lemsacroion, 🌑 Ombre: Lemsacrooth, ⚖️ Loi: Lemsacroem, 🌀 Chaos: Lemsacroix, ✨ Sacre: Lemsacroiel, 🩸 Impie: Lemsacroun, ❤️ Vie: Lemsacroir, ☠️ Mort: Lemsacrous, ⚕️ Corps: Lemsacroen, 🧠 Esprit: Lemsacroys, 🐗 Faune: Lemsacroorh, 🌿 Flore: Lemsacroiln, 🧩 Mental: Lemsacroend, ⚜️ Charme: Lemsacroynh, ✡️ Arcane: Lemsacroys, 🔮 Magie: Lemsacroirn, 🪷 Nature: Lemsacroeiln, ☢️ Toxique: Lemsacroex, 🎭 Illusion: Lemsacroin, 📚 Savoir: Lemsacroaum, 👁️ Vision: Lemsacroeth, ⚔️ Acier: Lemsacroan, 🛡️ Guerre: Lemsacroorr, 💢 Vide: Lemsacroarh<br />
+Génère un enchantement positif qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de bonus aux sauvegardes.</p>
+<hr />
+<h4>15. Fractionnement</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Frango (Briser), <strong><em>Arcanique :</em></strong> Lufrange (Lu + frange)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lufrangeorr (Physique), 🧩 Mental: Lufrangeend (Mental)<br />
+Génère un enchantement positif qui divise les dégats (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) subit d'un tier, pour un maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>16. Fragilisation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Fregit (Brisé), <strong><em>Arcanique :</em></strong> Luxfreg (Lux + freg)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Luxfregor (Physique), 🧩 Mental: Luxfregend (Mental)<br />
+Génère un enchantement positif qui augmente les dégats et l'impact (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) reçus par la cible d'autant que le triple de ses pénalités de lésions (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, cet effet ne peux pas augmenter les dégats de plus de leur moitié.</p>
+<hr />
+<h4>17. Exacerbation</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Acerbus (Acre, amer), <strong><em>Arcanique :</em></strong> Lemacerb (Lem + acerb)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lemacerborr<br />
+Génère un enchantement positif qui augmente les dégats des actions d'attaque par menées la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>.</p>
+<hr />
+<h4>18. Domination</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Dominus (Maître), <strong><em>Arcanique :</em></strong> Lirdomin (Lir + domin)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lirdominorr<br />
+Génère un enchantement positif qui augmente l'impact des actions tactique menées par la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>.</p>
+<hr />
+<h4>19. Déflexion</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Flecto (Courber), <strong><em>Arcanique :</em></strong> Luflect (Lu + flect)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Luflectorr<br />
+Génère un enchantement positif qui augmente la déviation des actions de défense menées par la cible <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>.</p>
+<hr />
+<h4>20. Ballistification</h4>
+<p><strong><em>École :</em></strong> École de Bénédiction<br />
+<strong><em>Latin :</em></strong> Ballo (Lancer, grec), <strong><em>Arcanique :</em></strong> Lirballo (Lir + ballo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Lirballoorr<br />
+Génère un enchantement positif qui augmente la distance de tir et de jet de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/20]</span> fois (soit 5% par magnitude).</p>
+<hr />
+<h4>21. Contagion</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Tango (Toucher), <strong><em>Arcanique :</em></strong> Mugtago (Mug + tago)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🛡️ Guerre: Mugtagoorr<br />
+Génère un enchantement négatif qui produit les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> à chaque fois qu'une attaque est porté par la cible et touche un adversaire, l'effet en question dispose d'une puissance de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> et s'applique un maximum de 3 / 4 / 5 fois, si l'effet est positif il prend effet sur la cible de l'attaque sinon sur l'attaquant.</p>
+<hr />
+<h4>22. Résonance</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Sono (Ressonnance), <strong><em>Arcanique :</em></strong> Munsona (Mun + sona)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 4<br />
+<strong>Clés :</strong> 🛡️ Guerre: Munsonaorr<br />
+Génère un enchantement négatif qui produit les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[mot de pouvoir]</span> à chaque fois qu'une attaque est porté par un adversaire sur la cible, l'effet en question dispose d'une puissance de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> et s'applique un maximum de 3 / 4 / 5 fois, si l'effet est positif il prend effet sur la cible de l'attaque sinon sur l'attaquant.</p>
+<hr />
+<h4>23. Découverte</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Munvulneorr, 🧩 Mental: Munvulneend<br />
+Génère un enchantement négatif qui augmente les dégats (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>)  d'un tier, pour un maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>24. Inhibition</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Habeo (Tenir, retenir), <strong><em>Arcanique :</em></strong> Malhabeo (Mal + habeo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Malhabeorr, 🧩 Mental: Malhabeend<br />
+Génère un enchantement négatif qui réduit les dégats et l'impact (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) infligé par la cible d'autant que le triple de ses pénalités de lésions (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, cet effet ne peux pas être réduits de plus de leur moitié.</p>
+<hr />
+<h4>25. Atrophiation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Atro (Noir), <strong><em>Arcanique :</em></strong> Moratro (Mor + atro)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Moratroorr<br />
+Génère un enchantement négatif qui réduit de moitié la génération de ressources temporaires tel que rage, garde et adrénaline, avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, réduit également le maximum de ces ressources de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>.</p>
+<hr />
+<h4>26. Débilitation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Debilito (Affaiblir), <strong><em>Arcanique :</em></strong> Mugdebil (Mug + debil)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Mugdebilorr, 🐗 Faune: Mugdebilorh, 🧩 Mental: Mugdebilend<br />
+Génère un enchantement négatif qui inflige un malus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests d'attaque via arme non naturelle (clé acier) ou arme naturelle (clé faune) ou joute (clé mental) de la cible.</p>
+<hr />
+<h4>27. Affaissement</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Cado (Tomber), <strong><em>Arcanique :</em></strong> Muncado (Mun + cado)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Muncadoorr, 🐗 Faune: Muncadoorh, 🧩 Mental: Muncadoend<br />
+Génère un enchantement négatif qui inflige un malus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests de défense via arme non naturelle (clé acier) ou arme naturelle (clé faune) ou joute (clé mental) de la cible.</p>
+<hr />
+<h4>28. Désorganisation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Ordo (Ordre), <strong><em>Arcanique :</em></strong> Malordo (Mal + ordo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Malordoorr, 🐗 Faune: Malordoorh, 🧩 Mental: Malordoend<br />
+Génère un enchantement négatif qui inflige un malus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests tactiques via arme non naturelle (clé acier) ou arme naturelle (clé faune) ou joute (clé mental) de la cible.</p>
+<hr />
+<h4>29. Entravation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Impedio (Empêcher), <strong><em>Arcanique :</em></strong> Morimped (Mor + imped)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Morimpedorr, 🧩 Mental: Morimpedend, 🔮 Magie: Morimpedirn<br />
+Génère un enchantement négatif qui augmente de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> les pénalités des manoeuvres physiques (clé acier), mentales (clé mental) ou incantatoires (clé magie) de la cible, au mieux double les pénalités mais guère plus.</p>
+<hr />
+<h4>30. Minoration</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Minor (Plus petit), <strong><em>Arcanique :</em></strong> Mugminor (Mug + minor)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Mugminororr, 🧩 Mental: Mugminorend<br />
+Génère un enchantement négatif qui réduit de moitié la déviation physique ou mentale (selon clé) générée par un blocage ou une parade d'ordre physique ou mental (selon clé), maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.</p>
+<hr />
+<h4>31. Déqualification</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Qualis (Qualité), <strong><em>Arcanique :</em></strong> Morquali (Mor + quali)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Morqualiorr (Combat, Défense, Tactique, Archerie, Corps à corps), ⚕️ Corps: Morqualien (Athlétisme, Gymnastique, Discipline), 👁️ Vision: Morqualieth (Acuité), ✡️ Arcane: Morqualiys (Arcanes), 🔮 Magie: Morqualiirn (Chasse, Survie Rurale, Survie urbaine, Discrétion, Larçin, Sagacité, Subterfuge), ⚜️ Charme: Morqualiynh (Argumentation, Résolution, Manipulation, Art, Eloquence), 🧠 Esprit: Morqualiys (Artisanat, Profession, Savoir être, Savoir faire), 📚 Savoir: Morqualiaum (Langue, Enquête, Erudition, Stratégie, Guérison, Commerce)<br />
+Produit un enchantement négatif qui réduit une compétence (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>32. Déprécation</h4>
+<p><strong><em>École :</em></strong> École de Malédiction<br />
+<strong><em>Latin :</em></strong> Precor (Prier), <strong><em>Arcanique :</em></strong> Munprec (Mun + prec)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Munprecar, ❄️ Glace: Munprecis, ⚡ Foudre: Munprecor, 🪨 Terre: Munprecum, 💧 Eau: Munprecyn, 🌪️ Air: Munprecel, ☀️ Lumière: Munprecion, 🌑 Ombre: Munprecoth, ⚖️ Loi: Munprecem, 🌀 Chaos: Munprecix, ✨ Sacre: Munpreciel, 🩸 Impie: Munprecun, ❤️ Vie: Munprecir, ☠️ Mort: Munprecus, ⚕️ Corps: Munprece n, 🧠 Esprit: Munprecys, 🐗 Faune: Munprecorh, 🌿 Flore: Munpreciln, 🧩 Mental: Munprecend, ⚜️ Charme: Munprecynh, ✡️ Arcane: Munprecys, 🔮 Magie: Munprecirn, 🪷 Nature: Munpreceiln, ☢️ Toxique: Munprecex, 🎭 Illusion: Munprecin, 📚 Savoir: Munprecaum, 👁️ Vision: Munpreceth, ⚔️ Acier: Munprecan, 🛡️ Guerre: Munprecorr, 💢 Vide: Munprecarh<br />
+Génère un enchantement négatif qui octroie à la cible des pénalités très marquée contre un élément donné, cela se traduit par une réduction de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> en protection et <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span> de malus aux sauvegardes.</p>
+<hr />
+<h4>33. Manifestation</h4>
+<p><strong><em>École :</em></strong> École d'Invocation<br />
+<strong><em>Latin :</em></strong> Appareo (Apparaître), <strong><em>Arcanique :</em></strong> Vasapar (Vas + apar)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible (lieu)<br />
+<strong><em>Difficulté :</em></strong> 4, <strong><em>Drain :</em></strong> 6<br />
+<strong>Clés :</strong> 🛡️ Guerre: Vasaparorr<br />
+Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.</p>
+<hr />
+<h4>34. Déviation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Deverto (Détourner), <strong><em>Arcanique :</em></strong> Brivert (Bri + vert)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Brivertorr, 🧩 Mental: Brivertend, 🔮 Magie: Briverteirn<br />
+Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de la déviation physique ou mentale chez la cible lorsqu'elle est la cible d'une attaque ou tactique physique ou mentale (selon la clé), la clé de magie permet donc de générer de la déviation à l'égard de toute forme de magie.</p>
+<hr />
+<h4>35. Obstruction</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Obstruo (Boucher), <strong><em>Arcanique :</em></strong> Basobstru (Bas + obstru)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Basobstruar, ❄️ Glace: Basobstruis, ⚡ Foudre: Basobstruor, 🪨 Terre: Basobstruum, 💧 Eau: Basobstruyn, 🌪️ Air: Basobstruel, ☀️ Lumière: Basobstruion, 🌑 Ombre: Basobstruoth, ⚖️ Loi: Basobstruem, 🌀 Chaos: Basobstruix, ✨ Sacre: Basobstruiel, 🩸 Impie: Basobstruun, ❤️ Vie: Basobstruir, ☠️ Mort: Basobstruus, ⚕️ Corps: Basobstruen, 🧠 Esprit: Basobstruys, 🐗 Faune: Basobstruorh, 🌿 Flore: Basobstruiln, 🧩 Mental: Basobstruend, ⚜️ Charme: Basobstruynh, ✡️ Arcane: Basobstruys, 🔮 Magie: Basobstruirn, 🪷 Nature: Basobstrueiln, ☢️ Toxique: Basobstruex, 🎭 Illusion: Basobstruin, 📚 Savoir: Basobstruaum, 👁️ Vision: Basobstrueth, ⚔️ Acier: Basobstruan, 🛡️ Guerre: Basobstruorr, 💢 Vide: Basobstruarh<br />
+Génère un effet qui octroie à la cible une résistance très marquée contre un élément donné, cela se traduit par une augmentation de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> en absorption, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de protection, <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> de résistance et <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> de bonus aux sauvegardes, cet effet ne s'applique pour un effet/une action.</p>
+<hr />
+<h4>36. Protestation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Testor (Témoigner), <strong><em>Arcanique :</em></strong> Barenteste (Bren + teste)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barentestear, ❄️ Glace: Barentesteis, ⚡ Foudre: Barentesteor, 🪨 Terre: Barentesteum, 💧 Eau: Barenteste yn, 🌪️ Air: Barentesteel, ☀️ Lumière: Barentesteion, 🌑 Ombre: Barentesteoth, ⚖️ Loi: Barentesteem, 🌀 Chaos: Barentesteix, ✨ Sacre: Barentesteiel, 🩸 Impie: Barentesteun, ❤️ Vie: Barentesteir, ☠️ Mort: Barentesteus, ⚕️ Corps: Barentesteen, 🧠 Esprit: Barentesteys, 🐗 Faune: Barentesteorh, 🌿 Flore: Barentesteiln, 🧩 Mental: Barentesteend, ⚜️ Charme: Barentesteynh, ✡️ Arcane: Barentesteys, 🔮 Magie: Barentesteirn, 🪷 Nature: Barentesteiln, ☢️ Toxique: Barentesteex, 🎭 Illusion: Barentestein, 📚 Savoir: Barentesteaum, 👁️ Vision: Barentesteeth, ⚔️ Acier: Barentestean, 🛡️ Guerre: Barentesteorr, 💢 Vide: Barentestearh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus la cible subit autant de dégats temporairs (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>.</p>
+<hr />
+<h4>37. Neutralisation</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Neuter (Ni l'un ni l'autre), <strong><em>Arcanique :</em></strong> Barneute (Bar + neute)<br />
+<strong><em>Type de mot :</em></strong> Interruption, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Barneutear, ❄️ Glace: Barneuteis, ⚡ Foudre: Barneuteor, 🪨 Terre: Barneuteum, 💧 Eau: Barneute yn, 🌪️ Air: Barneuteel, ☀️ Lumière: Barneuteion, 🌑 Ombre: Barneuteoth, ⚖️ Loi: Barneuteem, 🌀 Chaos: Barneuteix, ✨ Sacre: Barneuteiel, 🩸 Impie: Barneuteun, ❤️ Vie: Barneuteir, ☠️ Mort: Barneuteus, ⚕️ Corps: Barneuteen, 🧠 Esprit: Barneuteys, 🐗 Faune: Barneuteorh, 🌿 Flore: Barneuteiln, 🧩 Mental: Barneuteend, ⚜️ Charme: Barneuteynh, ✡️ Arcane: Barneuteys, 🔮 Magie: Barneuteirn, 🪷 Nature: Barneuteiln, ☢️ Toxique: Barneuteex, 🎭 Illusion: Barneutein, 📚 Savoir: Barneuteaum, 👁️ Vision: Barneuteeth, ⚔️ Acier: Barneutean, 🛡️ Guerre: Barneuteorr, 💢 Vide: Barneute arh<br />
+Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé, dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, les ressources engagées sont perdues, de plus le lanceur de sort reçoit du mana temporaire à la même hauteur (jusqu'à un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>).</p>
+<hr />
+<h4>38. Interposition</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Pono (Placer), <strong><em>Arcanique :</em></strong> Breniposi (Bren + posi)<br />
+<strong><em>Type de mot :</em></strong> Barrière, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Breniposiorr<br />
+Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> des jets (dégats, impacts, charges) en mêlée (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles).</p>
+<hr />
+<h4>39. Déflection</h4>
+<p><strong><em>École :</em></strong> École d'Abjuration<br />
+<strong><em>Latin :</em></strong> Curvo (Courber), <strong><em>Arcanique :</em></strong> Barcurvo (Bar + curvo)<br />
+<strong><em>Type de mot :</em></strong> Barrière, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Barcurvoorr<br />
+Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> les jets (dégats, impacts, charges) à distance (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles).</p>
+<hr />
+<h4>40. Intuition</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Tueor (Regarder), <strong><em>Arcanique :</em></strong> Deltueo (Del + tueo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Deltueoeth, 🛡️ Guerre: Deltueoorr<br />
+Génère un effet de perception du danger (voir règle sur les "senseurs"), révèle ainsi les êtres qui souhaite ou pourrait s'en prendre au personnage, quel qu'en soit la raison... Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>41. Décellement</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Celo (Cacher), <strong><em>Arcanique :</em></strong> Darcelo (Dar + celo)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir (Senseur), <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 👁️ Vision: Darceloeth, 🛡️ Guerre: Darceloorr<br />
+Génère un effet de perception des pièges (voir règle sur les "senseurs"), révèle ainsi les éléments dissimulés étant de nature à pouvoir entraver ou blesser. Cette effet est éphémère et le lanceur de sort ne peux observer attentivement qu'une partie des éléments ainsi repérés, soit <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>.</p>
+<hr />
+<h4>42. Projection</h4>
+<p><strong><em>École :</em></strong> École de Divination<br />
+<strong><em>Latin :</em></strong> Iacio (Jeter), <strong><em>Arcanique :</em></strong> Dariacto (Dar + iacto)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Dariactoorr<br />
+Génère un enchantement positif qui permet à la cible de mieux lire le champs de bataille et de voir légérement en avance le résultat de ses actions, dans le cadre de ses actions ou des actions qui le vise la défense de ses adversaires et sa propre défense sont modifiés (dans le sens de la cible) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>.</p>
+<hr />
+<h4>43. Déclenchement</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> ???, <strong><em>Arcanique :</em></strong> ???<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Evfulgoorr<br />
+Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de ressource physique temporaire parmi : Garde, Adrénaline et Rage.</p>
+<hr />
+<h4>44. Manifestation</h4>
+<p><strong><em>École :</em></strong> École d'Évocation<br />
+<strong><em>Latin :</em></strong> Manes (Esprits, apparences), <strong><em>Arcanique :</em></strong> Enmani (En + mani)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Soi<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🛡️ Guerre: Enmaniorr (Combat, Défense, Tactique, Archerie, Corps à corps), ⚕️ Corps: Enmanien (Athlétisme, Gymnastique, Discipline), 👁️ Vision: Enmanieth (Acuité), ✡️ Arcane: Enmaniys (Arcanes), 🔮 Magie: Enmaniirn (Chasse, Survie Rurale, Survie urbaine, Discrétion, Larçin, Sagacité, Subterfuge), ⚜️ Charme: Enmaniynh (Argumentation, Résolution, Manipulation, Art, Eloquence), 🧠 Esprit: Enmaniys (Artisanat, Profession, Savoir être, Savoir faire), 📚 Savoir: Enmaniaum (Langue, Enquête, Erudition, Stratégie, Guérison, Commerce)<br />
+Génère un effet qui permet au lanceur de sort une action caractérisée par une compétence (dont la nature est associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) en réalisant le test avec, au choix : Un total de Compétence/Groupe de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> ou le total de Compétence/Groupe du lanceur de sort plus un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, le tout plus le modificateur de magie du lanceur de sort (ici aucun bonus, sauf magique, ne peuvent intervenir, encore moins les bonus de qualité issus d'objets ou autre). Dans le cas d'une action avec progression le lanceur du sort peux reproduire un test avec les avantages de ce sort en dépensant 2 PS à chaque fois. L'action peux profiter de manoeuvres normalement.</p>
+<hr />
+<h4>45. Revêtement</h4>
+<p><strong><em>École :</em></strong> École de Conjuration<br />
+<strong><em>Latin :</em></strong> Vestis (Vêtement), <strong><em>Arcanique :</em></strong> Cenvest (Cen + vest)<br />
+<strong><em>Type de mot :</em></strong> Pouvoir, <strong><em>Type de cible :</em></strong> Cible<br />
+<strong><em>Difficulté :</em></strong> 2, <strong><em>Drain :</em></strong> 2<br />
+<strong>Clés :</strong> 🔥 Feu: Cenvestar, ❄️ Glace: Cenvestis, ⚡ Foudre: Cenvestor, 🪨 Terre: Cenvestum, 💧 Eau: Cenvestyn, 🌪️ Air: Cenvestel, ☀️ Lumière: Cenvestion, 🌑 Ombre: Cenvestoth, ⚖️ Loi: Cenvestem, 🌀 Chaos: Cenvestix, ✨ Sacre: Cenvestiiel, 🩸 Impie: Cenvestun, ❤️ Vie: Cenvestir, ☠️ Mort: Cenvestus, 🌿 Flore: Cenvestiln, ✡️ Arcane: Cenvestys, 🎭 Illusion: Cenvestin, 🛡️ Guerre: Cenvestorr<br />
+Génère un enchantement sous la forme d'un revêtement au sol tangible ou intangible (selon la clé), la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer la distance et/ou l'intensité, voir la règle des sols magiques, de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> dépends les effets associé au sol.</p>
       </div>
-      
-      
-    
-    
-    
-    
-    
-    
-  
-    </body></html>
+</body></html>
