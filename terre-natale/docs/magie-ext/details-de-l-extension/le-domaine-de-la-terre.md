@@ -8,4 +8,4 @@ Comme la plupart des domaines élémentaire matériel, le domaine de la terre pe
 
 Cette discipline est aussi appelée géomancie ou terramancie.
 
-![](images/image35.png)
+![](../images/image35.png)

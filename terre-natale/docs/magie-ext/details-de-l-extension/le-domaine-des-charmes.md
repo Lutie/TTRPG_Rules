@@ -14,4 +14,4 @@ Au cœur du Charme se trouve surtout la modulation du lien et du contrôle : fas
 
 Enfin, quelques mots d’Abjuration font du Charme un outil de contrôle du tempo : annuler une action si la cible est déjà entamée (Annulation), retourner une action contre son auteur (Rétroaction), rendre plus difficile toute action dirigée contre le lanceur (Dissuasion), ou protéger par des résistances via l’Opposition élémentaire classique (Consécration / Obstruction / Protestation / Neutralisation).
 
-![](images/image48.png)
+![](../images/image48.png)

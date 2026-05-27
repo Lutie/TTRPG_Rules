@@ -36,7 +36,7 @@ Afin d’apprendre un sort, un personnage doit faire usage d’un tractatus. Le 
 
 Le personnage peut apprendre un sort sans faire usage d’un tractatus. C’est bien plus difficile car il faut entièrement conceptualiser toute la création du sort sans support écrit et apprendre à partie de cette image mentale. L’activité relève de la méditation et l’attribut associé est celui de la tradition. Le temps d’apprentissage est augmenté (il est moyen au lieu de court) et la difficulté est augmentée de 5.
 
-![](images/image2.png)
+![](../images/image2.png)
 
 ### Les Mots de Forme
 
@@ -46,7 +46,7 @@ Voici la liste des mots de formes. Certains mots de formes sont spécifiques à 
 
 Description : Le sort peut toucher à distance en se manifestant sous forme d’une sphère énergétique véhiculant la mana. L’aspect, essentiellement les couleurs et effets de lumières, de cette sphère varie en fonction du domaine du sort en question. Difficulté Supplémentaire : +1. Effet : Le ciblage du sort ne se fait plus au contact mais à l’impact, donc à distance. La portée d’un sort devient 5 + modificateur de Perception. Note : Le mot de liaison « long » permet d’accroitre la portée.
 
-![](images/image2.png)
+![](../images/image2.png)
 
 ### Les Mots de Liaison
 
@@ -56,7 +56,7 @@ Voici la liste des mots de liaison. Certains mots de liaisons sont spécifiques 
 
 Description : La portée du sort est accrue, ce qui permet bien entendu d’affecter des cibles bien plus lointaines. Difficulté Supplémentaire : +1. Condition : Le sort doit avoir une portée supérieure à 0. Effet : La portée du sort est décuplée en fonction du nombre de fois que ce mot est ajouté. 1x : x2. 2x : x5. 3x : x10. 4x : x25. 5x : x50.
 
-![](images/image2.png)
+![](../images/image2.png)
 
 ### Les Mots de Clé
 
@@ -68,5 +68,5 @@ Les mots clés servent à renseigner une information qui servira à orienter les
 
 Clé multiple Effet : Les 9 mots clés primordiaux sont : Lumière et Ombre, Vie et Mort, Loi et Chaos, Corps et Esprit.
 
-| ![](images/image3.gif) |
+| ![](../images/image3.gif) |
 | --- |

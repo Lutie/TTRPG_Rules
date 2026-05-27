@@ -49,7 +49,7 @@ Le drain du sort est strictement identique à la difficulté de l’incantation.
 Si des effets permettent la réduction du drain minimum alors elle n’affecte que la partie associée au niveau du sort, rien (sauf précisions explicites dans les règles) ne permet de réduire le drain minimum de base de 3.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image10.png)
+    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](../images/image10.png)
 
     Lancer un sort nécessite d’avoir accès d’une manière ou d’une autre aux mots qui le constituent.
 
@@ -78,7 +78,7 @@ Trois cas de figure se présentent alors. - Si le résultat du test est égal ou
 La brûlure de mana est détaillée plus loin.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image10.png)
+    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](../images/image10.png)
 
     Un sort de niveau 0 est dit « Oraison » de son domaine, c’est-à-dire la base de la base. L’effet n’est pas négligeable si le mage est muni d’une focalisateur notable, car ce dernier octroie au sort une puissance non négligeable.
 
@@ -99,7 +99,7 @@ Il y a quelques contraintes à respecter concernant l’usage des sorts et la pr
 Tout d’abord pratiquer la magie nécessite de canaliser du mana afin de mettre celui-ci en œuvre. Ceci n’est ni aisé ni sans danger si on ne fait pas usage d’un focalisateur. Ces outils typiques des mages, que d’aucuns qualifiés d’armes, peuvent prendre des formes très variées : Bâtons, Sceptres, Grimoire, etc…
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
+    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
 
     Un test d’incantation est désavantagé si l’on ne fait pas usage d’un focalisateur. De plus, le drain des sorts est également subi en dégâts temporaires. Par ailleurs la pénalité d’usages issus de la catégorie du focalisateur s’applique évidemment aux tests d’incantations réalisés avec. En contrepartie cependant les sorts reçoivent un avantage réel à la présence du focalisateur qui constitue la base du jet permettant de quantifier la puissance/magnitude. Enfin les focalisateurs ont généralement d’autres avantages qui dépendent de leur nature.
 
@@ -136,7 +136,7 @@ Lancer un sort a des conséquences multiples qui ne se résume pas qu’aux effe
 Chaque fois qu’un sort est lancé une trace est laissée à l’endroit même où s’est arrivé. Cette trace contient toutes les informations utiles à qui sait les déchiffrer : Identité du mage, sort lancés, etc… Si on ne peut apprendre le nom d’un mage de cette manière on peut tout de même apercevoir sa marque et l’identifier de cette manière dans d’autres circonstances. La marque d’un mage ne transparait que si celui-ci fait usage de sa magie, elle n’est pas visiblement autrement.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
+    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
 
     - Il est possible de voir la marque laissée par la trace avec un test de Focus (difficulté de base 5, niveau de localisation = degré de réussite). - Il est possible d’identifier les informations laissées par la trace avec un test d’Erudis (difficulté de base 5, niveau de détails = degré de réussite). - Il est possible d’altérer ou effacer les informations laissées par la trace avec un test d’Aldus (alors opposé au test de Focus/Erudis adverse).
 
@@ -145,6 +145,6 @@ Chaque fois qu’un sort est lancé une trace est laissée à l’endroit même 
 Un lanceur de sort est un aimant à Mana. Ce dernier gravite autour de lui en permanence et est donc visible par ceux qui en ont la faculté.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
+    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
 
     - Il est possible de voir le Mana des autres avec un test de Focus. - Il est possible de camoufler son Mana avec un test d’Aldus (alors opposé au test de focus adverse).

@@ -16,7 +16,7 @@ Les lanceurs de sort maîtrisant le domaine du feu peuvent lancer des sorts de p
 
 Cette discipline est aussi appelée pyromancie.
 
-![](images/image32.png)
+![](../images/image32.png)
 
 ## Le Domaine du Froid
 
@@ -26,7 +26,7 @@ Les lanceurs de sort maîtrisant le domaine du froid peuvent lancer des sorts de
 
 Cette discipline est aussi appelée cryomancie.
 
-![](images/image33.png)
+![](../images/image33.png)
 
 ## Le Domaine de la Foudre
 
@@ -36,7 +36,7 @@ Les lanceurs de sort maîtrisant le domaine de la foudre peuvent lancer des sort
 
 Cette discipline est aussi appelée fulguromancie.
 
-![](images/image34.png)
+![](../images/image34.png)
 
 ## Le Domaine de la Terre
 
@@ -48,7 +48,7 @@ Comme la plupart des domaines élémentaire matériel, le domaine de la terre pe
 
 Cette discipline est aussi appelée géomancie ou terramancie.
 
-![](images/image35.png)
+![](../images/image35.png)
 
 ## Le Domaine de l’Eau
 
@@ -58,7 +58,7 @@ Comme la plupart des domaines élémentaire matériel, le domaine de l’eau peu
 
 Cette discipline est aussi appelée hydromancie.
 
-![](images/image36.png)
+![](../images/image36.png)
 
 ## Le Domaine de l’Air
 
@@ -68,7 +68,7 @@ Comme la plupart des domaines élémentaire matériel, le domaine de l’air peu
 
 Cette discipline est aussi appelée aéromancie.
 
-![](images/image37.png)
+![](../images/image37.png)
 
 ## Le Domaine des Arcanes
 
@@ -76,7 +76,7 @@ Domaine de magie élémentaire (magie) *description*
 
 Opposée à la nature.
 
-![](images/image27.png)
+![](../images/image27.png)
 
 ## Le Domaine de la Nature
 
@@ -84,7 +84,7 @@ Domaine de magie primordiale *description*
 
 Opposée à la magie.
 
-![](images/image19.png)
+![](../images/image19.png)
 
 ## Le Domaine de la Lumière
 
@@ -94,7 +94,7 @@ Domaine de magie primordiale *description*
 
 Cette discipline est aussi appelée luciomancie.
 
-![](images/image20.png)
+![](../images/image20.png)
 
 ## Le Domaine de l’Ombre
 
@@ -104,7 +104,7 @@ Domaine de magie primordiale *description*
 
 Cette discipline est aussi appelée obscuromancie ou umbromancie.
 
-![](images/image21.png)
+![](../images/image21.png)
 
 ## Le Domaine de la Vie
 
@@ -112,7 +112,7 @@ Domaine de magie primordiale *description*
 
 ?
 
-![](images/image22.png)
+![](../images/image22.png)
 
 ## Le Domaine de la Mort
 
@@ -122,7 +122,7 @@ Domaine de magie primordiale *description*
 
 Cette discipline est aussi appelée nécromancie.
 
-![](images/image23.png)
+![](../images/image23.png)
 
 ## Le Domaine de la Loi
 
@@ -130,7 +130,7 @@ Domaine de magie primordiale *description*
 
 ?
 
-![](images/image24.png)
+![](../images/image24.png)
 
 ## Le Domaine du Chaos
 
@@ -138,7 +138,7 @@ Domaine de magie primordiale *description*
 
 ?
 
-![](images/image25.png)
+![](../images/image25.png)
 
 ## Le Domaine du Corps
 
@@ -148,7 +148,7 @@ Le Corps gouverne tout ce qui est physique : les attributs du corps (FOR, CON, D
 
 Les mots liés au Domaine du Corps servent à user, réparer, renforcer ou façonner la chair. Ils peuvent affaiblir ou booster les attributs physiques (FOR, CON, DEX, AGI, PER) via détérioration, affliction ou élévation, altérer la morphologie par la stature et la taille (fragmentation, gigantification, minimisation) ou encore ajuster la charge que le corps peut supporter (renforcement, affaiblissement). Ils manipulent les ressources vitales et physiques – PV, PC, PE et assimilés – en les drainant brutalement (privation, dégénération, ponction), en les restaurant (restauration, récupération, galvanisation) ou en modifiant leur récupération et leur maximum (restitution, fortification, assèchement, appauvrissement). Le Corps est aussi lié aux conditions physiques : blessures, handicaps, états de fatigue ou de gêne peuvent être dissous, neutralisés ou au contraire aggravés et majorés, selon que la magie vise à soigner ou à martyriser le corps. Les compétences corporelles – athlétisme, gymnastique, discipline, mais aussi tout ce qui implique un usage concret du corps – peuvent être portées à l’excellence ou sabotées par perfectionnement, déqualification ou manifestation, permettant parfois d’accomplir une prouesse par la seule force d’un Corps exalté. Enfin, certaines formules protègent la chair contre les agressions du monde (consécration, obstruction, abjurations diverses) ou redistribuent les coups et la dépense de ressources entre invocateur et invocation, faisant du Corps un véritable champ de bataille vivant où se négocient effort, souffrance, puissance et survie.
 
-![](images/image26.png)
+![](../images/image26.png)
 
 ## Le Domaine de l’Esprit
 
@@ -158,7 +158,7 @@ L’Esprit gouverne tout ce qui touche à la psyché consciente : attributs ment
 
 Les mots liés au Domaine de l’Esprit permettent de frapper ou renforcer le mental : ils drainent ou restaurent les ressources intérieures (PC surtout, parfois PS), réduisent ou augmentent les attributs d’Esprit (CHA, VOL, INT, RUS, SAG) et les caractéristiques secondaires comme l’ego, l’apparence, la détermination ou le sang-froid. Ils soignent ou aggravent des conditions mentales (traumas, afflictions psychiques), en dissolvant les malus ou en les majorant, et modulent la récupération ou le maximum des ressources de l’esprit, voire les font se régénérer ou se dégrader tour après tour. Ils bénissent ou maudissent les compétences de l’esprit (artisanat, professions, savoir-faire et savoir-être) en les sublimant ou en les déqualifiant, et ajustent résistances et vulnérabilités aux attaques d’Esprit via consécration, obstruction ou dépréciation. Enfin, ils ouvrent la voie à des liens profonds : partage de perte de ressources avec une invocation, transfert ciblé de PC d’une créature à une autre, ou manifestation d’une expertise « purement mentale » par la magie, permettant au mage de résoudre une action complexe avec la seule force de son esprit.
 
-![](images/image18.png)
+![](../images/image18.png)
 
 ## Le Domaine Sacré
 
@@ -166,7 +166,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image44.png)
+![](../images/image44.png)
 
 ## Le Domaine de la Faune
 
@@ -174,7 +174,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image45.png)
+![](../images/image45.png)
 
 ## Le Domaine de la Flore
 
@@ -182,7 +182,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image46.png)
+![](../images/image46.png)
 
 ## Le Domaine du Mental
 
@@ -196,7 +196,7 @@ En miroir, la Malédiction fait l’inverse : affaiblir, fissurer, faire dégén
 
 Les mots d’Invocation relient PS et autres ressources aux créatures invoquées (Vanvincul, Ressource), partageant pertes et soins entre esprit et serviteur. L’Abjuration offre toute une panoplie de défenses mentales : dévier les attaques psychiques ou tactiques (Déviation), opposer des résistances massives ou contrer les sorts (Obstruction, Protestation, Neutralisation), ériger de véritables boucliers psychiques (Introspection) ou rendre la lecture mentale plus difficile (Occultation). L’Évocation, enfin, gouverne la communication psychique : télépathie, messages mentaux, lien de pensée, intrusion dans les rêves (Connexion, Communication, Retranscription, Onirisation), mais aussi la création de faux souvenirs. La Conjuration décline cette guerre mentale dans des formes concrètes : projectiles et boucliers psychiques (Halo de projectiles, Couronne de boucliers), et Ponction permet de redistribuer PS (ou d’autres ressources) entre cibles.
 
-![](images/image47.png)
+![](../images/image47.png)
 
 ## Le Domaine des Charmes
 
@@ -214,7 +214,7 @@ Au cœur du Charme se trouve surtout la modulation du lien et du contrôle : fas
 
 Enfin, quelques mots d’Abjuration font du Charme un outil de contrôle du tempo : annuler une action si la cible est déjà entamée (Annulation), retourner une action contre son auteur (Rétroaction), rendre plus difficile toute action dirigée contre le lanceur (Dissuasion), ou protéger par des résistances via l’Opposition élémentaire classique (Consécration / Obstruction / Protestation / Neutralisation).
 
-![](images/image48.png)
+![](../images/image48.png)
 
 ## Le Domaine de la Magie
 
@@ -222,7 +222,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image49.png)
+![](../images/image49.png)
 
 ## Le Domaine Toxique
 
@@ -230,7 +230,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image50.png)
+![](../images/image50.png)
 
 ## Le Domaine des Visions
 
@@ -238,7 +238,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image51.png)
+![](../images/image51.png)
 
 ## Le Domaine des Illusions
 
@@ -248,7 +248,7 @@ Les illusions sont le cœur de ce domaine. Un sort provoquant une illusion peut 
 
 Tous les dégâts permanents produits par les sorts d’illusion impacte le mental, jamais la vitalité (causant des traumas au lieu de blessures). Les illusions requièrent un test de détermination échoué pour affecter les cibles, sans quoi ces dernières se rendent compte du subterfuge.
 
-![](images/image42.png)
+![](../images/image42.png)
 
 ## Le Domaine Impie
 
@@ -256,7 +256,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image43.png)
+![](../images/image43.png)
 
 ## Le Domaine du Vide
 
@@ -264,7 +264,7 @@ Domaine de magie fondamentale *description*
 
 ? gravité et champs de force, portails, temps
 
-![](images/image39.png)
+![](../images/image39.png)
 
 ## Le Domaine du Savoir
 
@@ -272,7 +272,7 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image40.png)
+![](../images/image40.png)
 
 ## Le Domaine de la Guerre
 
@@ -280,7 +280,7 @@ Domaine de magie fondamentale *description*
 
 ? note dans le domaine de la guerre on peut, en élément, choisir corps à corps, distance… ce qui permet donc de faire des protections anti CAC ou dist, des bonus de dégâts CAC ou dist, etc
 
-![](images/image41.png)
+![](../images/image41.png)
 
 ## Le Domaine de l’Acier
 

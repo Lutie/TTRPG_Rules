@@ -10,4 +10,4 @@ En miroir, la Malédiction fait l’inverse : affaiblir, fissurer, faire dégén
 
 Les mots d’Invocation relient PS et autres ressources aux créatures invoquées (Vanvincul, Ressource), partageant pertes et soins entre esprit et serviteur. L’Abjuration offre toute une panoplie de défenses mentales : dévier les attaques psychiques ou tactiques (Déviation), opposer des résistances massives ou contrer les sorts (Obstruction, Protestation, Neutralisation), ériger de véritables boucliers psychiques (Introspection) ou rendre la lecture mentale plus difficile (Occultation). L’Évocation, enfin, gouverne la communication psychique : télépathie, messages mentaux, lien de pensée, intrusion dans les rêves (Connexion, Communication, Retranscription, Onirisation), mais aussi la création de faux souvenirs. La Conjuration décline cette guerre mentale dans des formes concrètes : projectiles et boucliers psychiques (Halo de projectiles, Couronne de boucliers), et Ponction permet de redistribuer PS (ou d’autres ressources) entre cibles.
 
-![](images/image47.png)
+![](../images/image47.png)

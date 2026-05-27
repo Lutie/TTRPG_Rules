@@ -4,4 +4,4 @@ Domaine de magie fondamentale *description*
 
 ?
 
-![](images/image49.png)
+![](../images/image49.png)

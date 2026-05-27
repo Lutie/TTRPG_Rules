@@ -6,4 +6,4 @@ Les lanceurs de sort maîtrisant le domaine du froid peuvent lancer des sorts de
 
 Cette discipline est aussi appelée cryomancie.
 
-![](images/image33.png)
+![](../images/image33.png)

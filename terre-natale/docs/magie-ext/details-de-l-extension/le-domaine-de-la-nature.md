@@ -4,4 +4,4 @@ Domaine de magie primordiale *description*
 
 Opposée à la magie.
 
-![](images/image19.png)
+![](../images/image19.png)

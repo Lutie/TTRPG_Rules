@@ -3,7 +3,7 @@
 Comme pour tout ce qui est de l’ordre des confrontations il existe des styles et donc des écoles pour l’usage de la magie. Il s’agira généralement de se spécialiser dans une école, un domaine ou un focalisateur mais pas quelques styles ne sortent de l’ordinaire en proposant un peu plus que cela.
 
 !!! info "Rappel"
-    ![](images/image1.png)
+    ![](../images/image1.png)
 
     Ce chapitre traite des styles, une règle spécifique ajoutée par l’extension des confrontations. Ignorez donc celui-ci si vous ne jouez pas avec celles-ci.
 
@@ -146,7 +146,7 @@ Requis : Pratique des Signes. Effet : a) Le personnage peut lancer un signe à l
 Voici la liste des corpus « de Caste » associés à l’usage de la magie.
 
 !!! info "Rappel"
-    ![](images/image1.png)
+    ![](../images/image1.png)
 
     Cette section traite des castes, une règle spécifique ajoutée par l’univers de Thalifen. Ignorez donc celui-ci si vous ne jouez pas dans cet univers.
 

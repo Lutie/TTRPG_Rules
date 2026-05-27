@@ -6,4 +6,4 @@ Comme la plupart des domaines élémentaire matériel, le domaine de l’eau peu
 
 Cette discipline est aussi appelée hydromancie.
 
-![](images/image36.png)
+![](../images/image36.png)

@@ -1,6 +1,6 @@
-![](images/image38.png)
+![](../images/image38.png)
 
-![](images/image62.png)
+![](../images/image62.png)
 
 Terre Natale
 

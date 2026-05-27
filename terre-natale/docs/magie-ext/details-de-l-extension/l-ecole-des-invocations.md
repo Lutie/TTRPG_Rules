@@ -6,5 +6,5 @@ Les Invocateurs canalisent leur magie pour ouvrir un lien temporaire avec un aut
 
 Ces entités obéissent selon un double principe : elles sont maintenues par un enchantement à charge, et tenues par une notion de services rendus. Lorsque l’un ou l’autre prend fin — l’énergie s’épuise, ou la dette est réglée — l’invocation disparaît et retourne à son plan d’origine.
 
-| ![](images/image8.gif) |
+| ![](../images/image8.gif) |
 | --- |

@@ -6,4 +6,4 @@ Les lanceurs de sort maîtrisant le domaine de la foudre peuvent lancer des sort
 
 Cette discipline est aussi appelée fulguromancie.
 
-![](images/image34.png)
+![](../images/image34.png)

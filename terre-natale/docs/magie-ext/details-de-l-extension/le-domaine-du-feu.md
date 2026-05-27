@@ -6,4 +6,4 @@ Les lanceurs de sort maîtrisant le domaine du feu peuvent lancer des sorts de p
 
 Cette discipline est aussi appelée pyromancie.
 
-![](images/image32.png)
+![](../images/image32.png)

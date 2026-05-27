@@ -10,5 +10,5 @@ Mot de propagation : Unique : Touche une cible unique.
 
 Mot de liaison : Long : La distance de diffusion du sort est doublée.
 
-| ![](images/image4.gif) |
+| ![](../images/image4.gif) |
 | --- |

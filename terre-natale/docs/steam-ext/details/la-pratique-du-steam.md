@@ -42,7 +42,7 @@ Dans les prochaines lignes nous étendrons surtout sur l’élément central, le
 
 De façon schématique le steam peut être représenté par la figure suivante :
 
-![](images/image21.jpg)
+![](../images/image21.jpg)
 
 Figure 1 Circuit type d'un "Automate"
 
@@ -56,9 +56,9 @@ Les éléments sont les points importants d’un circuit. Il en existe de plusie
 
 Tous les éléments présentés ci-dessous sont des éléments du circuit.
 
-Les actions et les « éléments » Action(s) possibles(s) : ![](images/image14.png) Voir, ![](images/image5.png) Supprimer, ![](images/image8.png) Restaurer, ![](images/image11.png) Affaiblir, ![](images/image6.png) Renforcer.
+Les actions et les « éléments » Action(s) possibles(s) : ![](../images/image14.png) Voir, ![](../images/image5.png) Supprimer, ![](../images/image8.png) Restaurer, ![](../images/image11.png) Affaiblir, ![](../images/image6.png) Renforcer.
 
-« ![](images/image14.png) Voir » un élément permet d’obtenir les informations de bases sur celui-ci, pas son contenu à proprement parler mais son état etc… Est-ce une porte fermée, ouverte, etc… « ![](images/image8.png) Restaurer » un élément permet de le réactivé si il a été supprimé. La sauvegarde effectue cette action automatiquement lorsqu’un élément est supprimé. « ![](images/image5.png) Supprimer » un élément permet de le désactiver. « ![](images/image6.png) Renforcer » un élément permet de le prémunir d’une suppression en lui octroyant un bonus. Non cumulable. « ![](images/image11.png) Affaiblir » un élément permet de le rendre plus sensible à une suppression en lui octroyant un malus. Non cumulable.
+« ![](../images/image14.png) Voir » un élément permet d’obtenir les informations de bases sur celui-ci, pas son contenu à proprement parler mais son état etc… Est-ce une porte fermée, ouverte, etc… « ![](../images/image8.png) Restaurer » un élément permet de le réactivé si il a été supprimé. La sauvegarde effectue cette action automatiquement lorsqu’un élément est supprimé. « ![](../images/image5.png) Supprimer » un élément permet de le désactiver. « ![](../images/image6.png) Renforcer » un élément permet de le prémunir d’une suppression en lui octroyant un bonus. Non cumulable. « ![](../images/image11.png) Affaiblir » un élément permet de le rendre plus sensible à une suppression en lui octroyant un malus. Non cumulable.
 
 #### Les Ponts (bridges)
 
@@ -72,9 +72,9 @@ Le Pont Annexe est le pont où se trouvent les fonctionnalités les moins sensib
 
 Le Pont Externe est le pont par lequel accède une impulsion autre que l’impulsion maitre, généralement sans y être la bienvenue (intrus) et parfois oui (invité). Cela étant, il peut parfois être nécessaire à un maitre d’entrer dans son circuit steam par cette zone, si la zone maitre est inaccessible (ce qui est généralement le cas lors d’une première programmation, le registre n’étant PAS installé). Techniquement parlant le pont externe n’existe pas vraiment dans un circuit, c’est une zone qui est établie et greffé au reste pas les usagers désireux d’entrée sans correspondre à la clé maitre. C’est la raison pour laquelle cette zone dispose de la sécurité la plus faible.
 
-Les actions et les « ponts » Action(s) possible(s) : ![](images/image13.png) Percevoir.
+Les actions et les « ponts » Action(s) possible(s) : ![](../images/image13.png) Percevoir.
 
-« ![](images/image13.png) Percevoir » les ponts permet simplement de voir le circuit à proprement parler. C’est la première de toutes les actions nécessaires une fois entré dans un circuit afin d’interagir avec !
+« ![](../images/image13.png) Percevoir » les ponts permet simplement de voir le circuit à proprement parler. C’est la première de toutes les actions nécessaires une fois entré dans un circuit afin d’interagir avec !
 
 #### Les Portes (Doors)
 
@@ -84,9 +84,9 @@ La Porte Maitre est l’entrée principale accessible à ceux dont le code sourc
 
 La Porte Externe est une entrée dérobée accessible à tout le monde, ou du moins à tous ceux qui ont les moyens d’intervenir sur le steam. Ce n’est pas tant qu’une entrée existe et invite à l’intrusion mais qu’il est simplement impossible de prémunir un système steam des dites intrusions. On parle alors d’invités ou intrus. La porte externe n’est pas un élément physique qui peut être retiré ou supprimé, la nature volatile du steam fait qu’il y a forcément un point d’entrée accessible à toutes les impulsions steam. En quelque sort les invités ou intrus mettent eux même en place cette porte. Et c’est à cela que servent ensuite les gates, comme on le verra : à bloquer les intrus et leurs impulsions non désirées. Les « invités » d’un système doivent être référencés dans le registre au préalable.
 
-Les actions et les « portes » Action(s) possible(s) : ![](images/image19.png) Entrer, ![](images/image12.png) Sortir.
+Les actions et les « portes » Action(s) possible(s) : ![](../images/image19.png) Entrer, ![](../images/image12.png) Sortir.
 
-« ![](images/image19.png) Entrer » se fait depuis l’extérieur d’un circuit et permet d’y entrer. L’impulsion apparait alors au niveau d’une des deux portes. « ![](images/image12.png) Sortir » se fait depuis l’intérieur du circuit, au niveau d’une porte, et permet d’en sortir.
+« ![](../images/image19.png) Entrer » se fait depuis l’extérieur d’un circuit et permet d’y entrer. L’impulsion apparait alors au niveau d’une des deux portes. « ![](../images/image12.png) Sortir » se fait depuis l’intérieur du circuit, au niveau d’une porte, et permet d’en sortir.
 
 #### Les Canaux (Gates)
 
@@ -102,9 +102,9 @@ Un steamer peut faire usage de son impulsion steam afin d’ouvrir ou fermer un 
 
 Les maitres peuvent passer la plupart des canaux (même fermés) aussi ne sont-ils pas ralentis lorsqu’ils évoluent dans leur propre circuit.
 
-Les actions et les « canaux » Action(s) possible(s) : ![](images/image4.png) Configurer, ![](images/image10.png) Forcer.
+Les actions et les « canaux » Action(s) possible(s) : ![](../images/image4.png) Configurer, ![](../images/image10.png) Forcer.
 
-« ![](images/image4.png) Configurer » un canal permet, à ceux qui ont des droits d’écriture, de modifier l’état de celui-ci de ouvert/fermé/forcé à ouvert ou fermé. « ![](images/image10.png) Forcer » un canal permet, à ceux qui n’ont pas des droits d’écriture, de modifier l’état de celui-ci en forcé. Un canal forcé laisse passer une impulsion dont le code source est celui qui l’a forcé.
+« ![](../images/image4.png) Configurer » un canal permet, à ceux qui ont des droits d’écriture, de modifier l’état de celui-ci de ouvert/fermé/forcé à ouvert ou fermé. « ![](../images/image10.png) Forcer » un canal permet, à ceux qui n’ont pas des droits d’écriture, de modifier l’état de celui-ci en forcé. Un canal forcé laisse passer une impulsion dont le code source est celui qui l’a forcé.
 
 #### Les Noeuds (Nodes)
 
@@ -116,9 +116,9 @@ Les Nœuds Centraux (A et B) peuvent également être mis en place par le propri
 
 Les Nœuds Externes (A et B) sont des nœuds qui peuvent être mis en place par des steamers via le pont externe. On peut voir sur le schéma que le premier nœud est accessible dès l’entrée dans le circuit alors que le second nécessite au préalable de passer le canal externe.
 
-Les actions et les « noeuds » Action(s) possible(s) : ![](images/image4.png) Configurer, ![](images/image9.png) Créer.
+Les actions et les « noeuds » Action(s) possible(s) : ![](../images/image4.png) Configurer, ![](../images/image9.png) Créer.
 
-« ![](images/image9.png) Créer » un nœud permet d’y installer un trinket. « ![](images/image4.png) Configurer » un nœud permet de modifier les propriétés du trinket (tel que son niveau par exemple).
+« ![](../images/image9.png) Créer » un nœud permet d’y installer un trinket. « ![](../images/image4.png) Configurer » un nœud permet de modifier les propriétés du trinket (tel que son niveau par exemple).
 
 #### Le Centre de Défense (DC)
 
@@ -128,9 +128,9 @@ Le centre ne peut être configuré par une impulsion ne portant pas le code sour
 
 Lorsqu’aucune impulsion n’est dans le circuit, le centre referme tous les canaux et vide tous les nœuds des trinkets dont le code source ne correspond pas au maitre du système circuit.
 
-Les actions et l’« alimentation » Action(s) possible(s) : ![](images/image4.png) Configurer, ![](images/image7.png) Réhabiliter.
+Les actions et l’« alimentation » Action(s) possible(s) : ![](../images/image4.png) Configurer, ![](../images/image7.png) Réhabiliter.
 
-« ![](images/image4.png) Configurer » le centre de défense permet d’en modifier les priorités. « ![](images/image7.png) Réhabiliter » le centre de défense permet de restituer son capital steam lorsque ces derniers ne plus au maximum. La sauvegarde effectue cette action automatiquement lorsque le capital atteint 0.
+« ![](../images/image4.png) Configurer » le centre de défense permet d’en modifier les priorités. « ![](../images/image7.png) Réhabiliter » le centre de défense permet de restituer son capital steam lorsque ces derniers ne plus au maximum. La sauvegarde effectue cette action automatiquement lorsque le capital atteint 0.
 
 #### L’Alimentation (Power)
 
@@ -138,17 +138,17 @@ L’alimentation est la fonctionnalité qui permet au circuit d’alimenté corr
 
 La mise en veille correspond à un état d’attente qui ne consomme (généralement) pas de charges.
 
-Les actions et l’« alimentation » Action(s) possible(s) : ![](images/image4.png) Configurer.
+Les actions et l’« alimentation » Action(s) possible(s) : ![](../images/image4.png) Configurer.
 
-« ![](images/image4.png) Configurer » l’alimentation permet de changer l’état de celui-ci.
+« ![](../images/image4.png) Configurer » l’alimentation permet de changer l’état de celui-ci.
 
 #### Les fonctions Auxiliaires
 
 Les fonctions auxiliaires octroient à l’appareil des propriétés supplémentaires. Ces propriétés peuvent être variées : Armes, Boucliers, etc… Tout dépend du type d’appareil dont on parle et de l’usage qui en est fait ! Bien souvent les améliorations « steam » pouvant être confectionnée et rattachée à un équipement ou un appareil nécessite un circuit steam et se retrouve localisé dans une des fonctions annexes.
 
-Les actions et la « fonction auxiliaire » Action(s) possible(s) : ![](images/image4.png) Configurer.
+Les actions et la « fonction auxiliaire » Action(s) possible(s) : ![](../images/image4.png) Configurer.
 
-« ![](images/image4.png) Configurer » une fonction auxiliaire permet de changer une des options de celui-ci (lorsque ce dernier en a plusieurs).
+« ![](../images/image4.png) Configurer » une fonction auxiliaire permet de changer une des options de celui-ci (lorsque ce dernier en a plusieurs).
 
 #### L’Intelligence Artificielle (A.I.)
 
@@ -158,9 +158,9 @@ L’intelligence artificielle peut être modifiée à la volée selon l’usage 
 
 Les systèmes autonomes qui doivent identifier des personnes alliés (tel que des tourelles ou des travailleurs mécaniques) ont besoins d’un code biothermique pour ça. Et c’est dans cet élément, l’intelligence artificielle, que ces dernières sont répertoriées.
 
-Les actions et l’ « I.A. » Action(s) possible(s) : ![](images/image3.png) Consulter, ![](images/image4.png) Configurer.
+Les actions et l’ « I.A. » Action(s) possible(s) : ![](../images/image3.png) Consulter, ![](../images/image4.png) Configurer.
 
-« ![](images/image3.png) Consulter » permet de prendre connaissance de l’ensemble des paramètres existants pour l’I.A. « ![](images/image4.png) Configurer » permet de modifier une partie de l’I.A., c’est-à-dire UN élément. Changer un ordre par un autre, etc… globalement on peut résumer cette modification par une phrase.
+« ![](../images/image3.png) Consulter » permet de prendre connaissance de l’ensemble des paramètres existants pour l’I.A. « ![](../images/image4.png) Configurer » permet de modifier une partie de l’I.A., c’est-à-dire UN élément. Changer un ordre par un autre, etc… globalement on peut résumer cette modification par une phrase.
 
 #### La Mémoire (Memory)
 
@@ -168,9 +168,9 @@ La mémoire est rattachée à l’usage de l’intelligence dans la mesure où e
 
 De base la mémoire n’enregistre que les événements ayant un lien direct avec l’activation de l’appareil et ses prises de décisions liés à ses fonctionnalités.
 
-Les actions et la « mémoire » Action(s) possible(s) : ![](images/image3.png) Consulter, ![](images/image4.png) Configurer, ![](images/image2.png) Modifier.
+Les actions et la « mémoire » Action(s) possible(s) : ![](../images/image3.png) Consulter, ![](../images/image4.png) Configurer, ![](../images/image2.png) Modifier.
 
-« ![](images/image3.png) Consulter » permet de prendre connaissance des informations stockées dans la mémoire. Du moins une partie : Si on apprend toute la structure de la mémoire et de son potentiel contenu on ne peut en revanche obtenir qu’une seule « réponse » par action. « ![](images/image4.png) Configurer » permet de modifier les événements à enregistrées. Il s’agira ainsi de modifier un élément spécifique (un événement externe au circuit). « ![](images/image2.png) Modifier » la mémoire permet d’y ajouter des informations trompeuses ou d’en retirer. Encore une fois, limité à la modification d’un événement à la fois.
+« ![](../images/image3.png) Consulter » permet de prendre connaissance des informations stockées dans la mémoire. Du moins une partie : Si on apprend toute la structure de la mémoire et de son potentiel contenu on ne peut en revanche obtenir qu’une seule « réponse » par action. « ![](../images/image4.png) Configurer » permet de modifier les événements à enregistrées. Il s’agira ainsi de modifier un élément spécifique (un événement externe au circuit). « ![](../images/image2.png) Modifier » la mémoire permet d’y ajouter des informations trompeuses ou d’en retirer. Encore une fois, limité à la modification d’un événement à la fois.
 
 #### Les Archives
 
@@ -178,15 +178,15 @@ Les archives constituent l’historique du système et garde en mémoire la trac
 
 Il est possible de consulter cet historique à tout moment… ou bien d’en modifier son contenu.
 
-Les actions et les « archive » Action(s) possible(s) : ![](images/image3.png) Consulter, ![](images/image4.png) Configurer, ![](images/image2.png) Modifier.
+Les actions et les « archive » Action(s) possible(s) : ![](../images/image3.png) Consulter, ![](../images/image4.png) Configurer, ![](../images/image2.png) Modifier.
 
-« ![](images/image3.png) Consulter » permet de prendre connaissance des informations stockées dans les archives. Du moins une partie : Si on apprend toute la structure des archives et de son potentiel contenu on ne peut en revanche obtenir qu’une seule « réponse » par action. « ![](images/image4.png) Configurer » permet de modifier les entrées à enregistrées. Il s’agira ainsi de pouvoir filtrer les éléments pouvant susciter une inscription dans les archives (un événement interne au circuit). « ![](images/image2.png) Modifier » la mémoire permet d’y ajouter des informations trompeuses ou d’en retirer. Limité à la modification d’un événement à la fois.
+« ![](../images/image3.png) Consulter » permet de prendre connaissance des informations stockées dans les archives. Du moins une partie : Si on apprend toute la structure des archives et de son potentiel contenu on ne peut en revanche obtenir qu’une seule « réponse » par action. « ![](../images/image4.png) Configurer » permet de modifier les entrées à enregistrées. Il s’agira ainsi de pouvoir filtrer les éléments pouvant susciter une inscription dans les archives (un événement interne au circuit). « ![](../images/image2.png) Modifier » la mémoire permet d’y ajouter des informations trompeuses ou d’en retirer. Limité à la modification d’un événement à la fois.
 
 #### Le Registre
 
 Le registre garde en mémoire le code source désigné comme « maitre » du circuit. Le registre garde également en mémoire le ou les codes sources désignés comme « invité » du circuit. Ces invités peuvent être acceptés avec un certain niveau d’accès. Un « invité » classique peut réaliser des lectures mais pas des écritures. Les « super invités » peuvent réaliser les deux mais ne peuvent pour autant toucher au registre.
 
-Les actions et le « registre » Action(s) possible(s) : ![](images/image3.png) Consulter, ![](images/image4.png) Configurer, ![](images/image2.png) Modifier.
+Les actions et le « registre » Action(s) possible(s) : ![](../images/image3.png) Consulter, ![](../images/image4.png) Configurer, ![](../images/image2.png) Modifier.
 
 #### La Sauvegarde
 
@@ -194,9 +194,9 @@ La sauvegarde garde en mémoire la configuration initiale du circuit et tente de
 
 La sauvegarde se met en marche dès qu’un élément a besoin de son assistance. Cela étant, la sauvegarde ne réalise qu’une action par tour et met donc un certain temps à fixer les problèmes. La sauvegarde procède dans l’ordre des éléments modifiés.
 
-Les actions et la « sauvegarde » Action(s) possible(s) : ![](images/image3.png) Consulter, ![](images/image4.png) Configurer.
+Les actions et la « sauvegarde » Action(s) possible(s) : ![](../images/image3.png) Consulter, ![](../images/image4.png) Configurer.
 
-« ![](images/image3.png) Consulter » permet de connaitre les paramètres actuels de fonction de la sauvegarde. « ![](images/image4.png) Configurer » permet de modifier les paramètres actuels de fonction de la sauvegarde, ajoutant des conditions ou des instructions spécifiques remplissant certains besoins ou une stratégie de défense spécifique (modifier l’ordre des restaurations systèmes, etc).
+« ![](../images/image3.png) Consulter » permet de connaitre les paramètres actuels de fonction de la sauvegarde. « ![](../images/image4.png) Configurer » permet de modifier les paramètres actuels de fonction de la sauvegarde, ajoutant des conditions ou des instructions spécifiques remplissant certains besoins ou une stratégie de défense spécifique (modifier l’ordre des restaurations systèmes, etc).
 
 #### L’Horloge
 
@@ -204,9 +204,9 @@ L’Horloge permet de synchroniser et alimenter tous les trinkets appartenant au
 
 Une horloge en underclock voit tous les trinkets du système réduit de 1 niveau. Une horloge en overlock voit tous les trinkets du système augmenté de 1 niveau pour 2 tours.
 
-Les actions et la « sauvegarde » Action(s) possible(s) : ![](images/image3.png) Consulter, ![](images/image4.png) Configurer.
+Les actions et la « sauvegarde » Action(s) possible(s) : ![](../images/image3.png) Consulter, ![](../images/image4.png) Configurer.
 
-« ![](images/image3.png) Consulter » permet de connaitre l’ensemble des trinkets installés dans le système, même ceux qui se reposent sur une autre horloge que celle du système. « ![](images/image4.png) Configurer » permet de modifier les paramètres d’un ou de plusieurs trinkets rattachés à l’horloge. Il est sinon possible de placer l’horloge en état d’underclock ou d’overclock.
+« ![](../images/image3.png) Consulter » permet de connaitre l’ensemble des trinkets installés dans le système, même ceux qui se reposent sur une autre horloge que celle du système. « ![](../images/image4.png) Configurer » permet de modifier les paramètres d’un ou de plusieurs trinkets rattachés à l’horloge. Il est sinon possible de placer l’horloge en état d’underclock ou d’overclock.
 
 ### Notions propres au circuit
 
@@ -283,11 +283,11 @@ Le maitre entre ainsi par la porte maitre et peut évoluer sans difficulté dans
 
 Le maitre réalise des tests sur son système lorsqu’il souhaite :
 
-- ![](images/image4.png) Configurer un élément.
-- ![](images/image7.png) Réhabiliter un élément (centre).
-- ![](images/image8.png) Restaurer un élément.
-- ![](images/image6.png) Renforcer un élément.
-- ![](images/image9.png) Créer un trinket.
+- ![](../images/image4.png) Configurer un élément.
+- ![](../images/image7.png) Réhabiliter un élément (centre).
+- ![](../images/image8.png) Restaurer un élément.
+- ![](../images/image6.png) Renforcer un élément.
+- ![](../images/image9.png) Créer un trinket.
 
 Les trinkets mis en place par le maitre ne sont jamais retirés par le centre de défense. Les trinkets ainsi disposés doivent être accepté par l’horloge du circuit, dont la capacité est limitée, ou par l’horloge de son opérateur, idem.
 
@@ -309,14 +309,14 @@ L’intrus doit entrer par la porte externe et ne peut pas évoluer dans le syst
 
 L’intrus réalise des tests sur le système lorsqu’il souhaite :
 
-- ![](images/image3.png) Consulter un élément.
-- ![](images/image10.png) Forcer un élément.
-- ![](images/image4.png) Configurer un élément.
-- ![](images/image8.png) Restaurer un élément.
-- ![](images/image5.png) Supprimer un élément.
-- ![](images/image6.png) Renforcer un élément.
-- ![](images/image11.png) Affaiblir un élément.
-- ![](images/image9.png) Créer un trinket.
+- ![](../images/image3.png) Consulter un élément.
+- ![](../images/image10.png) Forcer un élément.
+- ![](../images/image4.png) Configurer un élément.
+- ![](../images/image8.png) Restaurer un élément.
+- ![](../images/image5.png) Supprimer un élément.
+- ![](../images/image6.png) Renforcer un élément.
+- ![](../images/image11.png) Affaiblir un élément.
+- ![](../images/image9.png) Créer un trinket.
 
 Les trinkets mis en place par les intrus sont retirés par le centre de défense lorsqu’il n’y a plus d’impulsion dans le système. Les trinkets ainsi disposés doivent être accepté par l’horloge de l’opérateur de l’intrus, dont la capacité est limitée.
 
@@ -330,10 +330,10 @@ Si un intrus est dans le système et que le centre de défense est actif alors c
 
 Le centre réalise ces actions en suivant l’ordre d’importance suivant :
 
-- ![](images/image16.png) Attaquer l’intrus le plus proche (une fois par round seulement).
-- Se ![](images/image15.png) Déplacer vers l’intrus le plus proche.
-- ![](images/image10.png) Forcer un canal s’il bloque le chemin.
-- Se ![](images/image17.png) Défendre d’une attaque (une fois par round seulement).
+- ![](../images/image16.png) Attaquer l’intrus le plus proche (une fois par round seulement).
+- Se ![](../images/image15.png) Déplacer vers l’intrus le plus proche.
+- ![](../images/image10.png) Forcer un canal s’il bloque le chemin.
+- Se ![](../images/image17.png) Défendre d’une attaque (une fois par round seulement).
 
 #### Attaquer dans le steam
 
@@ -359,45 +359,45 @@ Pour un signal il n’est pas si simple de fuir un circuit une fois qu’il y es
 
 Voici la liste des actions pouvant être réalisées hors du steam.
 
-![](images/image18.png) Observer Cette action permet de voir les circuits présents dans les environs du steameur.
+![](../images/image18.png) Observer Cette action permet de voir les circuits présents dans les environs du steameur.
 
-![](images/image19.png) Entrer Cette action permet d’entrer dans un circuit précédemment observé dans les environs du steameur.
+![](../images/image19.png) Entrer Cette action permet d’entrer dans un circuit précédemment observé dans les environs du steameur.
 
 ### Les Actions dans le Steam
 
 Voici la liste des actions pouvant être réalisées dans le steam.
 
-![](images/image13.png) Percevoir Cette action permet de voir le circuit et ses éléments. L’impulsion peut être n’importe où dans le circuit, cela n’a pas d’importance. Nécessite une action simple.
+![](../images/image13.png) Percevoir Cette action permet de voir le circuit et ses éléments. L’impulsion peut être n’importe où dans le circuit, cela n’a pas d’importance. Nécessite une action simple.
 
-![](images/image14.png) Voir Cette action permet d’obtenir des informations concrètes sur l’état d’un élément donné. Cela permet par exemple de savoir si un élément a été forcé, supprimé, etc… L’impulsion peut être n’importe où dans le circuit, cela n’a pas d’importance. Nécessite une action libre.
+![](../images/image14.png) Voir Cette action permet d’obtenir des informations concrètes sur l’état d’un élément donné. Cela permet par exemple de savoir si un élément a été forcé, supprimé, etc… L’impulsion peut être n’importe où dans le circuit, cela n’a pas d’importance. Nécessite une action libre.
 
-![](images/image15.png) Déplacer Cette action permet de déplacer l’impulsion dans le circuit. L’impulsion peut se déplacer n’importe où le signal à accès. Nécessite une action simple.
+![](../images/image15.png) Déplacer Cette action permet de déplacer l’impulsion dans le circuit. L’impulsion peut se déplacer n’importe où le signal à accès. Nécessite une action simple.
 
-![](images/image3.png) Consulter Cette action permet d’obtenir les informations contenus dans l’élément et pour lequel ce dernier a été conçu. Cela permet par exemple de consulter la mémoire, les archives ou le registre afin d’en connaitre le contenu… Ou bien de connaitre les options appliquées à des fonctions tel que la sauvegarde ou le centre de défense. L’impulsion doit être au niveau de l’élément à consulter. Nécessite une action simple.
+![](../images/image3.png) Consulter Cette action permet d’obtenir les informations contenus dans l’élément et pour lequel ce dernier a été conçu. Cela permet par exemple de consulter la mémoire, les archives ou le registre afin d’en connaitre le contenu… Ou bien de connaitre les options appliquées à des fonctions tel que la sauvegarde ou le centre de défense. L’impulsion doit être au niveau de l’élément à consulter. Nécessite une action simple.
 
-![](images/image5.png) Supprimer Cette action permet de supprimer un élément, causant ainsi la fin de ses activités dans le circuit ou en dehors. Cela permet par exemple de neutraliser un système en coupant son alimentation. On peut également neutraliser l’enregistrement des archives ou de la mémoire de cette façon. Supprimer un élément est plus efficace que de le reconfigurer car il est plus long de restaurer que de revenir à une sauvegarde précédente, mais c’est aussi moins discret. Supprimer un trinket le retire totalement du circuit au lieu de simplement le désactiver. L’impulsion doit être au niveau de l’élément à supprimer. Nécessite une action simple.
+![](../images/image5.png) Supprimer Cette action permet de supprimer un élément, causant ainsi la fin de ses activités dans le circuit ou en dehors. Cela permet par exemple de neutraliser un système en coupant son alimentation. On peut également neutraliser l’enregistrement des archives ou de la mémoire de cette façon. Supprimer un élément est plus efficace que de le reconfigurer car il est plus long de restaurer que de revenir à une sauvegarde précédente, mais c’est aussi moins discret. Supprimer un trinket le retire totalement du circuit au lieu de simplement le désactiver. L’impulsion doit être au niveau de l’élément à supprimer. Nécessite une action simple.
 
-![](images/image8.png) Restaurer Cette action permet de rétablir le fonctionnement d’un élément précédemment supprimé. Un steameur peut réaliser cette action mais c’est aussi la fonction de l’élément de Sauvegarde, qui réalise celle-ci automatiquement. L’impulsion doit être au niveau de l’élément à réhabiliter (sauf pour la sauvegarde). Nécessite une action simple.
+![](../images/image8.png) Restaurer Cette action permet de rétablir le fonctionnement d’un élément précédemment supprimé. Un steameur peut réaliser cette action mais c’est aussi la fonction de l’élément de Sauvegarde, qui réalise celle-ci automatiquement. L’impulsion doit être au niveau de l’élément à réhabiliter (sauf pour la sauvegarde). Nécessite une action simple.
 
-![](images/image7.png) Réhabiliter Cette action permet de rétablir le steam du centre de défense si celui-ci a été altéré. Un steameur peut réaliser cette action mais c’est aussi la fonction de l’élément de Sauvegarde, qui réalise celle-ci automatiquement. Le test permet de rétablir autant de steam que la marge de réussite (inverse d’une attaque donc). L’impulsion doit être au niveau de l’élément à réhabiliter (sauf pour la sauvegarde). Nécessite une action simple.
+![](../images/image7.png) Réhabiliter Cette action permet de rétablir le steam du centre de défense si celui-ci a été altéré. Un steameur peut réaliser cette action mais c’est aussi la fonction de l’élément de Sauvegarde, qui réalise celle-ci automatiquement. Le test permet de rétablir autant de steam que la marge de réussite (inverse d’une attaque donc). L’impulsion doit être au niveau de l’élément à réhabiliter (sauf pour la sauvegarde). Nécessite une action simple.
 
-![](images/image11.png) Affaiblir Cette action permet de diminuer la difficulté associée à un élément OU une impulsion de 2, cumulable jusqu’à 3 fois. Cette action est avantagée et les tests de recherche effectuée en retour sont désavantagés. Cette action sert surtout aux intrus mais le maitre peut y avoir recours si un intrus s’isole dans un bout de circuit en renforçant les éléments qu’il a forcé et les rendant virtuellement impossibles à franchir sans affaiblissement préalable. L’impulsion doit être au niveau de l’élément ou de l’impulsion à affaiblir. Nécessite une action simple.
+![](../images/image11.png) Affaiblir Cette action permet de diminuer la difficulté associée à un élément OU une impulsion de 2, cumulable jusqu’à 3 fois. Cette action est avantagée et les tests de recherche effectuée en retour sont désavantagés. Cette action sert surtout aux intrus mais le maitre peut y avoir recours si un intrus s’isole dans un bout de circuit en renforçant les éléments qu’il a forcé et les rendant virtuellement impossibles à franchir sans affaiblissement préalable. L’impulsion doit être au niveau de l’élément ou de l’impulsion à affaiblir. Nécessite une action simple.
 
-![](images/image6.png) Renforcer Cette action permet d’augmenter la difficulté associée à un élément OU une impulsion de 2, cumulable jusqu’à 3 fois. Cette action est avantagée et les tests de recherche effectuée en retour sont désavantagés. Cette action sert aussi bien au maitre désireux de renforcer la sécurité de son circuit qu’à l’intrus qui cherche à s’isoler dans un bout de circuit. L’impulsion doit être au niveau de l’élément ou de l’impulsion à affaiblir. Nécessite une action simple.
+![](../images/image6.png) Renforcer Cette action permet d’augmenter la difficulté associée à un élément OU une impulsion de 2, cumulable jusqu’à 3 fois. Cette action est avantagée et les tests de recherche effectuée en retour sont désavantagés. Cette action sert aussi bien au maitre désireux de renforcer la sécurité de son circuit qu’à l’intrus qui cherche à s’isoler dans un bout de circuit. L’impulsion doit être au niveau de l’élément ou de l’impulsion à affaiblir. Nécessite une action simple.
 
-![](images/image4.png) Configurer Cette action permet de configurer un élément en modifiant ses paramètres de fonction. Il s’agira par exemple de modifier les ordres d’un automate, désactiver une fonctionnalité, etc… L’impulsion doit être au niveau de l’élément à configurer. A ne pas confondre avec Modifier. Nécessite une action simple.
+![](../images/image4.png) Configurer Cette action permet de configurer un élément en modifiant ses paramètres de fonction. Il s’agira par exemple de modifier les ordres d’un automate, désactiver une fonctionnalité, etc… L’impulsion doit être au niveau de l’élément à configurer. A ne pas confondre avec Modifier. Nécessite une action simple.
 
-![](images/image9.png) Créer Cette action permet de créer un trinket dans un nœud libre. L’impulsion doit être au niveau de l’élément à créer. Nécessite une action simple.
+![](../images/image9.png) Créer Cette action permet de créer un trinket dans un nœud libre. L’impulsion doit être au niveau de l’élément à créer. Nécessite une action simple.
 
-![](images/image10.png) Forcer Cette action permet de modifier l’état d’un canal en « forcé ». Un canal forcé est particulier puisqu’il ne laisse passer que les impulsions correspondant au code source de celui qui l’a forcé. L’impulsion doit être au niveau de l’élément à forcer. Nécessite une action simple.
+![](../images/image10.png) Forcer Cette action permet de modifier l’état d’un canal en « forcé ». Un canal forcé est particulier puisqu’il ne laisse passer que les impulsions correspondant au code source de celui qui l’a forcé. L’impulsion doit être au niveau de l’élément à forcer. Nécessite une action simple.
 
-![](images/image2.png) Modifier Cette action permet de modifier le contenu d’un élément stockant des informations. Il s’agira par exemple de modifier la liste des codes sources du registre, de falsifier le contenu des archives ou de la mémoire, etc… L’impulsion doit être au niveau de l’élément à modifier. A ne pas confondre avec Configurer. Nécessite une action simple.
+![](../images/image2.png) Modifier Cette action permet de modifier le contenu d’un élément stockant des informations. Il s’agira par exemple de modifier la liste des codes sources du registre, de falsifier le contenu des archives ou de la mémoire, etc… L’impulsion doit être au niveau de l’élément à modifier. A ne pas confondre avec Configurer. Nécessite une action simple.
 
-![](images/image12.png) Sortir Cette action permet de sortir du circuit. L’impulsion doit être au niveau d’une des entrées. Nécessite une action simple.
+![](../images/image12.png) Sortir Cette action permet de sortir du circuit. L’impulsion doit être au niveau d’une des entrées. Nécessite une action simple.
 
-![](images/image16.png) Attaquer Cette action permet d’attaquer une autre impulsion. L’impulsion doit être au niveau de l’impulsion à attaquer. Nécessite une action simple. Une fois par round maximum. Action combinée possible avec Attaquer (deux fois donc) ou Affaiblir ou Renforcer (voir les règles des actions combinées).
+![](../images/image16.png) Attaquer Cette action permet d’attaquer une autre impulsion. L’impulsion doit être au niveau de l’impulsion à attaquer. Nécessite une action simple. Une fois par round maximum. Action combinée possible avec Attaquer (deux fois donc) ou Affaiblir ou Renforcer (voir les règles des actions combinées).
 
-![](images/image17.png) Défendre Cette action permet de défendre des attaques d’une autre impulsion. Cette défense peut s’appliquer à une attaque qui vise une autre impulsion que la sienne (dans le cas d’un invité aidant un maitre par exemple). Nécessite une action simple. Action combinée possible avec Affaiblir ou Renforcer (voir les règles des actions combinées).
+![](../images/image17.png) Défendre Cette action permet de défendre des attaques d’une autre impulsion. Cette défense peut s’appliquer à une attaque qui vise une autre impulsion que la sienne (dans le cas d’un invité aidant un maitre par exemple). Nécessite une action simple. Action combinée possible avec Affaiblir ou Renforcer (voir les règles des actions combinées).
 
 ### Les Trinkets
 

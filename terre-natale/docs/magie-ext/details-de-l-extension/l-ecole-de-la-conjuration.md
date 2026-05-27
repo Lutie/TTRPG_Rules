@@ -6,4 +6,4 @@ Les Conjurateurs ne créent pas à partir de la matière, mais à partir de la v
 
 Cette école ne cherche ni à nuire ni à renforcer, mais à créer des outils, des formes ou des conditions propices à la magie elle-même.
 
-![](images/image31.png)
+![](../images/image31.png)

@@ -6,4 +6,4 @@ Les illusions sont le cœur de ce domaine. Un sort provoquant une illusion peut 
 
 Tous les dégâts permanents produits par les sorts d’illusion impacte le mental, jamais la vitalité (causant des traumas au lieu de blessures). Les illusions requièrent un test de détermination échoué pour affecter les cibles, sans quoi ces dernières se rendent compte du subterfuge.
 
-![](images/image42.png)
+![](../images/image42.png)

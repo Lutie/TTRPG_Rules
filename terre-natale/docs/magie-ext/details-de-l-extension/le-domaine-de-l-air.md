@@ -6,4 +6,4 @@ Comme la plupart des domaines élémentaire matériel, le domaine de l’air peu
 
 Cette discipline est aussi appelée aéromancie.
 
-![](images/image37.png)
+![](../images/image37.png)
