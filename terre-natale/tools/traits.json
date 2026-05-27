@@ -110,8 +110,7 @@
       "conditions": [],
       "multiples_instances": "Chaque instance vise un attribut différent. Maximum 2 différents",
       "limitation": null,
-      "rang": null,
-      "choix": "attribut_principal"
+      "rang": null
     },
     {
       "nom": "Autodidacte",
@@ -475,8 +474,7 @@
       "conditions": [],
       "multiples_instances": "La caste d’un personne lui octroie automatiquement ce trait pour les attributs qui lui sont associées. Le personnage ne peut choisir ce trait qu’une fois de façon libre, pour un troisième attribut au choix",
       "limitation": null,
-      "rang": null,
-      "choix": "attribut_principal"
+      "rang": null
     },
     {
       "nom": "Expertise des Signes",
@@ -531,8 +529,7 @@
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null,
-      "choix": "attribut_principal"
+      "rang": null
     },
     {
       "nom": "Fortune",
@@ -2413,8 +2410,7 @@
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null,
-      "choix": "attribut_principal"
+      "rang": null
     },
     {
       "nom": "Science du Commerce",
@@ -3391,7 +3387,7 @@
       "description": "Rien n’est laissé au hasard ; chaque geste est pesé, chaque placement réfléchi. Le personnage préfère perdre du temps plutôt que de risquer une erreur.\nLorsqu’il prend le temps de préparer une action en dehors de toute situation d’urgence et nécessitant méticulosité (pose de pièges, installation, plan, dispositif), le personnage est avantagé à son test s’il y consacre au moins deux fois le temps normal.",
       "categories": [
         "Spécialisation",
-        "aventure"
+        "Aventure"
       ],
       "extension": "Confrontation",
       "prerequis": "Sagesse 13",
@@ -3806,7 +3802,7 @@
       "description": "Habitué aux longues routes et aux terrains incertains, le personnage se déplace avec assurance et endurance, quelle que soit la distance.\nLe personnage est avantagé à ses tests de déplacement hors combat (course, escalade, natation, etc.).",
       "categories": [
         "Spécialisation",
-        "aventure"
+        "Aventure"
       ],
       "extension": "Confrontation",
       "prerequis": "Agilité 13",
@@ -6514,8 +6510,7 @@
       ],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null,
-      "choix": "attribut_principal"
+      "rang": null
     },
     {
       "nom": "Dons « d’Attribut »",
@@ -6533,8 +6528,7 @@
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
-      "rang": null,
-      "choix": "attribut_principal"
+      "rang": null
     },
     {
       "nom": "Equilibre Parfait",
@@ -8079,60 +8073,6 @@
       "multiples_instances": null,
       "limitation": null,
       "rang": 2
-    },
-    {
-      "nom": "Trappeur précautionneux",
-      "type": "avantage_majeur",
-      "section": "avantages_majeurs",
-      "sous_section": "10e anniversaire",
-      "cout": 1,
-      "avantage_mineur_bonus": false,
-      "description": "Le personnage peux réaliser un test d'intution pour déterminer si un piège qu'il a déclanché est réutilisable ou non, la difficulté étant de 10 + 5 par tests précédemment réussis.",
-      "categories": [
-        "Économie"
-      ],
-      "extension": "10e anniversaire",
-      "prerequis": "Sagesse 13",
-      "conditions": [],
-      "multiples_instances": null,
-      "limitation": null,
-      "rang": null
-    },
-    {
-      "nom": "Réflexes éclairs",
-      "type": "avantage_majeur",
-      "section": "avantages_majeurs",
-      "sous_section": "10e anniversaire",
-      "cout": 1,
-      "avantage_mineur_bonus": false,
-      "description": "Le personnage est en mesure de réagir à une interruption via une interruption si et seulement si cette dernière n'est pas déjà en réponse à une interruption. Le personne est ainsi en mesure de se défendre des opportunités, etc...",
-      "categories": [
-        "Combat"
-      ],
-      "extension": "Confrontation",
-      "prerequis": "Agilité 13",
-      "conditions": [],
-      "multiples_instances": null,
-      "limitation": null,
-      "rang": null
-    },
-    {
-      "nom": "Grand Créateur",
-      "type": "avantage_majeur",
-      "section": "avantages_majeurs",
-      "sous_section": "10e anniversaire",
-      "cout": 1,
-      "avantage_mineur_bonus": false,
-      "description": "Le personnage est capable de réaliser des promotions sur les objets associés à un type d'artisant au choix. Chaque rang permet de s'ouvrir à une nouvelle discipline. Voir les règles de base pour ce qui est du fonctionnement des promotions.",
-      "categories": [
-        "Économie"
-      ],
-      "extension": "10e anniversaire",
-      "prerequis": "Intelligence 13",
-      "conditions": [],
-      "multiples_instances": null,
-      "limitation": null,
-      "rang": null
     }
   ]
 }

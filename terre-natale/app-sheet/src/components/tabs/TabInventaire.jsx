@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
 import { useCharacterCalculations } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
+import MATIERES from '../../data/matieres.json';
 import Section from '../common/Section';
 
 const ATTRIBUTS_PRINCIPAUX = DATA.attributsPrincipaux.map(a => a.id);
@@ -22,18 +23,22 @@ const TYPES_AVEC_CATEGORIE = ['arme', 'armure', 'sous_piece_armure', 'focalisate
 const TYPES_EN_MAIN = ['arme', 'focalisateur'];
 const TYPES_EQUIPABLES = ['arme', 'armure', 'sous_piece_armure', 'colifichet', 'focalisateur'];
 const TYPES_AVEC_PROMOTIONS = ['arme', 'outil', 'armure', 'sous_piece_armure', 'colifichet'];
-const TYPES_AVEC_MATIERE = ['arme', 'focalisateur', 'armure', 'outil'];
+const TYPES_AVEC_MATIERE = ['arme', 'focalisateur', 'armure', 'sous_piece_armure', 'colifichet', 'outil'];
 
-const MATIERES_LISTE = [
-  { id: 1, nom: 'Fer',    description: '' },
-  { id: 2, nom: 'Acier',  description: '' },
-  { id: 3, nom: 'Bronze', description: '' },
-  { id: 4, nom: 'Bois',   description: '' },
-  { id: 5, nom: 'Cuir',   description: '' },
-  { id: 6, nom: 'Tissu',  description: '' },
-  { id: 7, nom: 'Pierre', description: '' },
-  { id: 8, nom: 'Os',     description: '' }
-];
+const MATIERE_TYPE_FIELD = {
+  arme:             'armes',
+  armure:           'armures',
+  sous_piece_armure:'armures',
+  colifichet:       'bijoux',
+  focalisateur:     'focalisateurs',
+  outil:            'outils',
+};
+
+function getMatieresForType(type) {
+  const field = MATIERE_TYPE_FIELD[type];
+  if (!field) return MATIERES;
+  return MATIERES.filter(m => m[field]);
+}
 
 // Améliorations prédéfinies — types: null = universelle, sinon liste des types d'objet concernés
 const AMELIORATIONS_LISTE = [
@@ -185,7 +190,7 @@ function getDefaultSlotType(type) {
 }
 
 function ObjetModal({ objet, isEdit, onSave, onClose }) {
-  const _matiereMatch = MATIERES_LISTE.find(m => m.nom === objet?.matiere);
+  const _matiereMatch = MATIERES.find(m => m.nom === objet?.matiere);
   const [form, setForm] = useState({
     nom: objet?.nom || '',
     type: objet?.type || 'arme',
@@ -202,7 +207,7 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
     quantite: objet?.quantite ?? 1,
     slotType: objet?.slotType || getDefaultSlotType(objet?.type),
     matiereMode: objet?.matiere ? (_matiereMatch ? 'liste' : 'libre') : 'liste',
-    matiereListeId: _matiereMatch?.id ?? '',
+    matiereNom: _matiereMatch?.nom ?? '',
     matiereLibre: _matiereMatch ? '' : (objet?.matiere || '')
   });
 
@@ -249,8 +254,8 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
       data.slotType = form.slotType;
     }
     if (TYPES_AVEC_MATIERE.includes(form.type)) {
-      if (form.matiereMode === 'liste' && form.matiereListeId) {
-        data.matiere = MATIERES_LISTE.find(m => m.id === form.matiereListeId)?.nom || '';
+      if (form.matiereMode === 'liste' && form.matiereNom) {
+        data.matiere = form.matiereNom;
       } else if (form.matiereMode === 'libre' && form.matiereLibre.trim()) {
         data.matiere = form.matiereLibre.trim();
       } else {
@@ -440,15 +445,38 @@ function ObjetModal({ objet, isEdit, onSave, onClose }) {
                     >Libre</button>
                   </div>
                   {form.matiereMode === 'liste' ? (
-                    <select
-                      value={form.matiereListeId}
-                      onChange={e => setForm({ ...form, matiereListeId: Number(e.target.value) || '' })}
-                    >
-                      <option value="">— aucune —</option>
-                      {MATIERES_LISTE.map(m => (
-                        <option key={m.id} value={m.id}>{m.nom}</option>
-                      ))}
-                    </select>
+                    <>
+                      <select
+                        value={form.matiereNom}
+                        onChange={e => setForm({ ...form, matiereNom: e.target.value })}
+                      >
+                        <option value="">— aucune —</option>
+                        {Object.entries(
+                          getMatieresForType(form.type).reduce((acc, m) => {
+                            (acc[m.type] = acc[m.type] || []).push(m);
+                            return acc;
+                          }, {})
+                        ).map(([type, mats]) => (
+                          <optgroup key={type} label={type}>
+                            {mats.map(m => (
+                              <option key={m.nom} value={m.nom}>
+                                {m.nom}{m.niveau !== 'X' ? ` (Niv. ${m.niveau})` : ''}
+                              </option>
+                            ))}
+                          </optgroup>
+                        ))}
+                      </select>
+                      {form.matiereNom && (() => {
+                        const mat = MATIERES.find(m => m.nom === form.matiereNom);
+                        if (!mat?.effet) return null;
+                        return (
+                          <p className="inventaire-matiere-effet">
+                            {mat.effet}
+                            {mat.effet_special ? <em> — {mat.effet_special}</em> : null}
+                          </p>
+                        );
+                      })()}
+                    </>
                   ) : (
                     <input
                       type="text"
@@ -772,7 +800,10 @@ function LigneObjet({ objet, isEquipped, isExpanded, poigne, getMod, entrainemen
             <div className="inventaire-detail-auto">
               {[
                 jet && `Jet : ${jet}`,
-                TYPES_AVEC_MATIERE.includes(objet.type) && objet.matiere && `Matière : ${objet.matiere}`,
+                TYPES_AVEC_MATIERE.includes(objet.type) && objet.matiere && (() => {
+                  const mat = MATIERES.find(m => m.nom === objet.matiere);
+                  return `Matière : ${objet.matiere}${mat?.effet ? ` — ${mat.effet}` : ''}`;
+                })(),
                 poids > 0 && `Poids : ${poids}`,
                 hasCategorie && `Encombrement : ${objet.categorie ?? 0}`,
                 solidite !== null && `Solidité : ${solidite}`,

@@ -67,7 +67,7 @@ def nettoyer(s):
 
 def parse_categories(s):
     """'Passif, Social.' → ['Passif', 'Social']"""
-    return [c.strip() for c in nettoyer(s).split(',') if c.strip()]
+    return [c.strip().title() for c in nettoyer(s).split(',') if c.strip()]
 
 
 def parse_premiere_ligne(ligne):
@@ -333,7 +333,7 @@ def main():
     dossier = Path(__file__).parent
 
     source = Path(sys.argv[1]) if len(sys.argv) > 1 \
-             else dossier / 'Compendium des Traits.docx.txt'
+             else dossier / 'src' / 'Compendium des Traits.docx.txt'
 
     sortie = Path(sys.argv[2]) if len(sys.argv) > 2 \
              else dossier / 'traits.json'

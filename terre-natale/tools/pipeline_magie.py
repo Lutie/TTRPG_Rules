@@ -31,7 +31,7 @@ from typing import Dict, List, Tuple, Any, Optional
 # =========================
 
 # Name of the Excel file exported from Google Sheets
-INPUT_FILE = "Terre Natale - Aides de jeu _ Magies.xlsx"
+INPUT_FILE = Path(__file__).parent / "src" / "Terre Natale - Aides de jeu _ Magies.xlsx"
 
 # Where to put generated files
 OUTPUT_DIR_SCHOOLS = Path("out_schools")
@@ -159,7 +159,6 @@ REQUIRED_FIELDS = [
     "difficulty",
     "drain",
     "description",
-    "keys",
 ]
 
 # =========================
@@ -1215,3 +1214,6 @@ if __name__ == "__main__":
     print(f"\n✓ all_spells.json copié vers {dest}")
 
     generate_html_docs()            # out_domains/*.md -> docs/magies/*.html
+
+    import generate_doc_magic_words
+    generate_doc_magic_words.main()  # -> docs/mots-de-pouvoir/*.md

@@ -112,7 +112,7 @@ def str_clean(val):
 
 # ── Chemins ────────────────────────────────────────────────────────────────
 SCRIPT_DIR      = os.path.dirname(os.path.abspath(__file__))
-XLSX_PATH       = os.path.join(SCRIPT_DIR, "Terre Natale - Aides de jeu _ Castes.xlsx")
+XLSX_PATH       = os.path.join(SCRIPT_DIR, "src", "Terre Natale - Aides de jeu _ Castes.xlsx")
 MARKDOWN_OUTPUT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "docs", "classes", "castes.md"))
 JS_OUTPUT       = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "app-sheet", "src", "data", "castes.js"))
 IMAGE_PATH_IN_MD = "../images"

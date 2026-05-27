@@ -427,8 +427,7 @@
   "cult-align-with-totem": {
     "nom": "Align with Totem",
     "description": "Through ritual alignment, the character invokes their Totem's supernatural power.  \n**Cost:** 1 PP",
-    "effet": "Once per day, the character may use a Totem power a number of times equal to the Degrees of Success obtained on a Religion test performed the previous day (Difficulty 10; at least 1 Degree at 15).\n\n- **FOR / CHA – Domination:** The target suffers disadvantage on a test involving the character.  \n- **CON / VOL – Resilience:** All disadvantages on a test are negated.  \n- **SAG / PER – Focus:** The target loses all advantages on a test involving the character.  \n- **AGI / RUS – Guile:** The target's advantages become disadvantages on a test involving the character.  \n- **DEX / INT – Coordination:** The target loses one advantage, which the character gains for all resulting actions.\n\nIf the Totem grants the same power twice, it also provides:  \n- **Balance:** The character gains advantage on a test.",
-    "coutPP": 1
+    "effet": "Once per day, the character may use a Totem power a number of times equal to the Degrees of Success obtained on a Religion test performed the previous day (Difficulty 10; at least 1 Degree at 15).\n\n- **FOR / CHA – Domination:** The target suffers disadvantage on a test involving the character.  \n- **CON / VOL – Resilience:** All disadvantages on a test are negated.  \n- **SAG / PER – Focus:** The target loses all advantages on a test involving the character.  \n- **AGI / RUS – Guile:** The target's advantages become disadvantages on a test involving the character.  \n- **DEX / INT – Coordination:** The target loses one advantage, which the character gains for all resulting actions.\n\nIf the Totem grants the same power twice, it also provides:  \n- **Balance:** The character gains advantage on a test."
   },
   "cult-erudition": {
     "nom": "Erudition",
@@ -598,8 +597,7 @@
   "cult-improved-tattoo": {
     "nom": "Improved Tattoo",
     "description": "The tattoo's power is refined and intensified.  \n**Cost:** 1 PP",
-    "effet": "The exploit range of the tattoo's skill is increased by **+1**, stackable up to a maximum final range of **6**.",
-    "coutPP": 1
+    "effet": "The exploit range of the tattoo's skill is increased by **+1**, stackable up to a maximum final range of **6**."
   },
   "cult-training": {
     "nom": "Training",
@@ -649,8 +647,7 @@
   "cult-celestial-powers": {
     "nom": "Celestial Powers",
     "description": "Celestials wield ideal-driven magic rooted in abstract virtues.  \n**Cost:** 1 PP",
-    "effet": "The character selects one **Edict** (ideal). Spells aligned with that Edict gain advantage and are reinforced. Edicts are morally neutral and represent rigid cosmic principles such as Justice, Balance, or Order.",
-    "coutPP": 1
+    "effet": "The character selects one **Edict** (ideal). Spells aligned with that Edict gain advantage and are reinforced. Edicts are morally neutral and represent rigid cosmic principles such as Justice, Balance, or Order."
   },
   "birth-chromatic-blood": {
     "nom": "Chromatic Blood",
@@ -675,8 +672,7 @@
   "cult-dragon-powers": {
     "nom": "Dragon Powers",
     "description": "**Cost:** 1 PP  \nDrakkans carry within their veins a diluted echo of true draconic power. Where true dragons wield Chromatic Power directly through their dragon heart—an overwhelming, primordial force—Drakkans can only access a minute fragment of that power through their blood. This fragment allows them to invoke crude yet potent magical phenomena tied to a specific chromatic domain. Though vastly inferior to true dragons in mastery and magnitude, this inherited magic remains instinctive, raw, and difficult to counter through conventional arcane means.",
-    "effet": "Chroma Points granted by **Chromatic Blood** may be spent to invoke **Dragonic Powers**. These powers represent **Chromatic Magic**, a fast but simple form of magic distinct from spellcasting.\n\n- As a **Simple Action**, once per turn, the character may produce a spell-like phenomenon based on a **simple spell** from the chromatic domain associated with their blood.  \n- Most Drakkan types are tied to a **predefined set of domains**. This choice is made at character creation and cannot be changed later.  \n- **Balance (EQU)** is used to perform the test associated with Dragonic Powers.  \n- A dedicated skill group and skill may be learned to improve the odds of successfully invoking these powers.  \n\nDragonic Powers may be used at **spell level 0**, increased by **+1 spell level for every 4 character ranks**.\n\nMagical tools do not function properly with Dragonic Powers. However, the character may still add their **rank** to the power's roll as if using an appropriate magical tool, regardless of the power's level.\n\nThe **Chroma Point cost** of a Dragonic Power is equal to the **minimum mana cost of a comparable spell** and **cannot be reduced by any means**. The **action difficulty** is also based on that same comparable spell.\n\nDragonic Powers are **not spells**:\n- They cannot be countered.  \n- They are not treated as regular spells.  \n- They are unaffected by arcane actions or effects that specifically interact with spells.\n\nDepending on the Drakkan type, Chroma Points may alternatively be spent as if they were another resource:\n- **Red:** Rage  \n- **Blue:** Chi  \n- **Green:** Guard  \n- **Yellow:** Adrenaline  \n- **Purple:** Mana  \n- **Black:** Vitality  \n- **White:** Karma  \n- **Grey:** Spirituality",
-    "coutPP": 1
+    "effet": "Chroma Points granted by **Chromatic Blood** may be spent to invoke **Dragonic Powers**. These powers represent **Chromatic Magic**, a fast but simple form of magic distinct from spellcasting.\n\n- As a **Simple Action**, once per turn, the character may produce a spell-like phenomenon based on a **simple spell** from the chromatic domain associated with their blood.  \n- Most Drakkan types are tied to a **predefined set of domains**. This choice is made at character creation and cannot be changed later.  \n- **Balance (EQU)** is used to perform the test associated with Dragonic Powers.  \n- A dedicated skill group and skill may be learned to improve the odds of successfully invoking these powers.  \n\nDragonic Powers may be used at **spell level 0**, increased by **+1 spell level for every 4 character ranks**.\n\nMagical tools do not function properly with Dragonic Powers. However, the character may still add their **rank** to the power's roll as if using an appropriate magical tool, regardless of the power's level.\n\nThe **Chroma Point cost** of a Dragonic Power is equal to the **minimum mana cost of a comparable spell** and **cannot be reduced by any means**. The **action difficulty** is also based on that same comparable spell.\n\nDragonic Powers are **not spells**:\n- They cannot be countered.  \n- They are not treated as regular spells.  \n- They are unaffected by arcane actions or effects that specifically interact with spells.\n\nDepending on the Drakkan type, Chroma Points may alternatively be spent as if they were another resource:\n- **Red:** Rage  \n- **Blue:** Chi  \n- **Green:** Guard  \n- **Yellow:** Adrenaline  \n- **Purple:** Mana  \n- **Black:** Vitality  \n- **White:** Karma  \n- **Grey:** Spirituality"
   },
   "birth-high-natural-regeneration": {
     "nom": "High Natural Regeneration",
@@ -863,381 +859,6 @@
     "description": "The character's senses latch onto anything that stirs their desire—treasure, opportunity, or the faint trace of something worth having. Where others pass by, they notice.",
     "effet": ""
   },
-  "affinity-forest": {
-    "nom": "Forest Affinity",
-    "description": "Lush, forested, or overgrown environments; urban gardens also qualify.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-plains": {
-    "nom": "Plains Affinity",
-    "description": "Open plains or wide empty spaces; large areas devoid of notable scenery also qualify.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-desertic": {
-    "nom": "Desertic Affinity",
-    "description": "Arid or barren environments; completely empty spaces also qualify.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-cold": {
-    "nom": "Cold Affinity",
-    "description": "Cold environments, natural or artificial.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-heat": {
-    "nom": "Heat Affinity",
-    "description": "Hot environments, natural or artificial.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-mountain": {
-    "nom": "Mountain Affinity",
-    "description": "Mountainous, rocky, or cliffside environments.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-subterranean": {
-    "nom": "Subterranean Affinity",
-    "description": "Underground environments such as caves, tunnels, and caverns.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-filth": {
-    "nom": "Filth Affinity",
-    "description": "Extremely dirty or polluted environments (sewers, swamps, refuse-filled areas).",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-water": {
-    "nom": "Water Affinity",
-    "description": "Flooded or humid environments; rain, shores, or full immersion always qualify.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-height": {
-    "nom": "Height Affinity",
-    "description": "Elevated environments or situations involving vertical dominance.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-big": {
-    "nom": "Big Affinity",
-    "description": "Vast or disproportionate spaces; applies only against **large targets (Size 15+)**.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-small": {
-    "nom": "Small Affinity",
-    "description": "Tight or cramped environments; applies only against **small targets (Size 5 or lower)**.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-darkness": {
-    "nom": "Darkness Affinity",
-    "description": "Very dark environments defined by strong shadow contrast, even during daytime.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-light": {
-    "nom": "Light Affinity",
-    "description": "Extremely bright environments with strong light contrast, including direct sunlight.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-calm": {
-    "nom": "Calm Affinity",
-    "description": "Silent and calm environments; any noise, including the character's own, breaks the condition.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-road": {
-    "nom": "Road Affinity",
-    "description": "Travel situations, journeys, nomadic movement, or being “on the road.”",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-dream": {
-    "nom": "Dream Affinity",
-    "description": "Dreamscapes and oneiric environments.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-field": {
-    "nom": "Field Affinity",
-    "description": "Large-scale battlefields involving multiple groups and widespread conflict.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-origin-specific-environment": {
-    "nom": "Origin-Specific Environment Affinity",
-    "description": "An environment strongly tied to the character's origin or culture.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-pack": {
-    "nom": "Pack Affinity",
-    "description": "Presence of nearby allies.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-barehands": {
-    "nom": "Barehands Affinity",
-    "description": "Actions performed unarmed or using natural weapons.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-flanking": {
-    "nom": "Flanking Affinity",
-    "description": "Actions performed against a flanked opponent.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-prudence": {
-    "nom": "Prudence Affinity",
-    "description": "Actions that result in clumsiness or similar negative singularities.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-chasing": {
-    "nom": "Chasing Affinity",
-    "description": "Pursuits, chases, and sustained running actions.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-rivalry": {
-    "nom": "Rivalry Affinity",
-    "description": "Actions that clearly reinforce an established rivalry.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-honor-and-oath": {
-    "nom": "Honor and Oath Affinity",
-    "description": "Actions taken to uphold vows, promises, rules, or personal honor.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-blood": {
-    "nom": "Blood Affinity",
-    "description": "Actions involving blood: sensing, tracking, identifying, or exploiting it.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-curiosity": {
-    "nom": "Curiosity Affinity",
-    "description": "Actions driven by curiosity or investigation.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-ingenious": {
-    "nom": "Ingenious Affinity",
-    "description": "Actions based on clever planning, ruses, or innovative ideas.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-city": {
-    "nom": "City Affinity",
-    "description": "Actions tied to the notable structure or nature of an urban environment.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-distance": {
-    "nom": "Distance Affinity",
-    "description": "Actions involving significant distance; ranged attacks only apply at long range or beyond.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-ambidextry": {
-    "nom": "Ambidextry Affinity",
-    "description": "Actions performed using the non-dominant hand.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-immaterial": {
-    "nom": "Immaterial Affinity",
-    "description": "Actions involving magic or intangible forces.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-perfectionist": {
-    "nom": "Perfectionist Affinity",
-    "description": "Actions using skills of rank 3 or higher and contributing to improvement or refinement.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-motion": {
-    "nom": "Motion Affinity",
-    "description": "Actions tied to emotions or emotional expression.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-battle": {
-    "nom": "Battle Affinity",
-    "description": "Actions related to warfare or combat context, excluding direct combat actions.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-art": {
-    "nom": "Art Affinity",
-    "description": "Actions related to artistic creation or expression.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-vengeance": {
-    "nom": "Vengeance Affinity",
-    "description": "Actions taken to fulfill revenge.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-luck": {
-    "nom": "Luck Affinity",
-    "description": "Actions involving Karma usage.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-order": {
-    "nom": "Order Affinity",
-    "description": "Actions that uphold rules, commands, or obligations.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-chaos": {
-    "nom": "Chaos Affinity",
-    "description": "Actions opposing authority, disobeying orders, or rejecting structure.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-selfishness": {
-    "nom": "Selfishness Affinity",
-    "description": "Actions that benefit only the character, even in the long term.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-community": {
-    "nom": "Community Affinity",
-    "description": "Actions that benefit others but not the character.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-unarmored": {
-    "nom": "Unarmored Affinity",
-    "description": "Combat actions performed while wearing no armor (natural armor does not count).",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-wounded": {
-    "nom": "Wounded Affinity",
-    "description": "Combat actions targeting a wounded opponent (beyond superficial scratches).",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-pristine": {
-    "nom": "Pristine Affinity",
-    "description": "Combat actions while all primary resources are at maximum, including Endurance.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-slow": {
-    "nom": "Slow Affinity",
-    "description": "Combat actions against a single target performed after that target's turn.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-quick": {
-    "nom": "Quick Affinity",
-    "description": "Combat actions against a single target performed before that target's turn.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-resistance": {
-    "nom": "Resistance Affinity",
-    "description": "Defensive actions.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-metal": {
-    "nom": "Metal Affinity",
-    "description": "Actions involving metal work, identification, or observation.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-stone": {
-    "nom": "Stone Affinity",
-    "description": "Actions involving stone or rock.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-leather": {
-    "nom": "Leather Affinity",
-    "description": "Actions involving leather or hides.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-fabric": {
-    "nom": "Fabric Affinity",
-    "description": "Actions involving cloth or textiles.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-mineral": {
-    "nom": "Mineral Affinity",
-    "description": "Actions involving minerals or gemstones.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-poison": {
-    "nom": "Poison Affinity",
-    "description": "Actions involving poisons, venoms, or toxic substances.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-wood": {
-    "nom": "Wood Affinity",
-    "description": "Actions involving wood.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-knowledge": {
-    "nom": "Knowledge Affinity",
-    "description": "Actions involving knowledge or learning.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-code": {
-    "nom": "Code Affinity",
-    "description": "Actions aligned with the character's personal code of honor.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-altitude": {
-    "nom": "Altitude Affinity",
-    "description": "Actions performed from a height relative to the target or objective.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-repair": {
-    "nom": "Repair Affinity",
-    "description": "Actions aimed at repairing objects or structures.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-arcane": {
-    "nom": "Arcane Affinity",
-    "description": "Actions involving arcane principles.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-science": {
-    "nom": "Science Affinity",
-    "description": "Actions involving scientific methods or reasoning.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-technology": {
-    "nom": "Technology Affinity",
-    "description": "Actions involving technological devices or systems.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-magic": {
-    "nom": "Magic Affinity",
-    "description": "Actions involving magical effects or spellcasting.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-thievery": {
-    "nom": "Thievery Affinity",
-    "description": "Actions involving illegal or illicit activities.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-food": {
-    "nom": "Food Affinity",
-    "description": "Actions involving food preparation, acquisition, or consumption.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-sacrifice": {
-    "nom": "Sacrifice Affinity",
-    "description": "Actions that benefit others while causing loss or hardship to the character.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-oratory": {
-    "nom": "Oratory Affinity",
-    "description": "Actions performed before an audience capable of judging the outcome.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-custom": {
-    "nom": "Custom Affinity",
-    "description": "Actions related to customs, beliefs, etiquette, or traditions.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-adaptative": {
-    "nom": "Adaptative Affinity",
-    "description": "Actions taken after changing approach following failure or obstruction.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-peril": {
-    "nom": "Peril Affinity",
-    "description": "Actions taken while facing potentially lethal danger.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-strive": {
-    "nom": "Strive Affinity",
-    "description": "Actions attempted in a weakened or tactically delicate situation.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-adversity": {
-    "nom": "Adversity Affinity",
-    "description": "Actions with very low objective chances of success; applies when Difficulty is **20+**.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-escape": {
-    "nom": "Escape Affinity",
-    "description": "Actions aimed at fleeing or avoiding danger.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-treachery": {
-    "nom": "Treachery Affinity",
-    "description": "Actions involving deception, cheating, or betrayal.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
   "cult-affinity": {
     "nom": "Affinity",
     "description": "An Affinity represents a situational harmony between the character and a specific environment, context, or mode of action. When conditions are met, the character performs more efficiently at critical moments.\n\n**Common Effect (all Affinities):**\nWhen a test performed under the conditions of an Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\n- Multiple Affinities may apply to the same test and can stack.\n- Affinities only apply when the fictional conditions are clearly met, as determined by the GM.\n\n#### Environmental Affinities\n\n- **Forest Affinity** — Lush, forested, or overgrown environments; urban gardens also qualify.  \n- **Plains Affinity** — Open plains or wide empty spaces; large areas devoid of notable scenery also qualify.  \n- **Desertic Affinity** — Arid or barren environments; completely empty spaces also qualify.  \n- **Cold Affinity** — Cold environments, natural or artificial.  \n- **Heat Affinity** — Hot environments, natural or artificial.  \n- **Mountain Affinity** — Mountainous, rocky, or cliffside environments.  \n- **Subterranean Affinity** — Underground environments such as caves, tunnels, and caverns.  \n- **Filth Affinity** — Extremely dirty or polluted environments (sewers, swamps, refuse-filled areas).  \n- **Water Affinity** — Flooded or humid environments; rain, shores, or full immersion always qualify.  \n- **Height Affinity** — Elevated environments or situations involving vertical dominance.  \n- **Big Affinity** — Vast or disproportionate spaces; applies only against **large targets (Size 15+)**.  \n- **Small Affinity** — Tight or cramped environments; applies only against **small targets (Size 5 or lower)**.  \n- **Darkness Affinity** — Very dark environments defined by strong shadow contrast, even during daytime.  \n- **Light Affinity** — Extremely bright environments with strong light contrast, including direct sunlight.  \n- **Calm Affinity** — Silent and calm environments; any noise, including the character's own, breaks the condition.  \n- **Road Affinity** — Travel situations, journeys, nomadic movement, or being “on the road.”  \n- **Dream Affinity** — Dreamscapes and oneiric environments.  \n- **Field Affinity** — Large-scale battlefields involving multiple groups and widespread conflict.  \n- **Origin-Specific Environment Affinity** — An environment strongly tied to the character's origin or culture.\n\n#### Situational & Behavioral Affinities\n\n- **Pack Affinity** — Presence of nearby allies.  \n- **Barehands Affinity** — Actions performed unarmed or using natural weapons.  \n- **Flanking Affinity** — Actions performed against a flanked opponent.  \n- **Prudence Affinity** — Actions that result in clumsiness or similar negative singularities.  \n- **Chasing Affinity** — Pursuits, chases, and sustained running actions.  \n- **Rivalry Affinity** — Actions that clearly reinforce an established rivalry.  \n- **Honor and Oath Affinity** — Actions taken to uphold vows, promises, rules, or personal honor.  \n- **Blood Affinity** — Actions involving blood: sensing, tracking, identifying, or exploiting it.  \n- **Curiosity Affinity** — Actions driven by curiosity or investigation.  \n- **Ingenious Affinity** — Actions based on clever planning, ruses, or innovative ideas.  \n- **City Affinity** — Actions tied to the notable structure or nature of an urban environment.  \n- **Distance Affinity** — Actions involving significant distance; ranged attacks only apply at long range or beyond.  \n- **Ambidextry Affinity** — Actions performed using the non-dominant hand.  \n- **Immaterial Affinity** — Actions involving magic or intangible forces.  \n- **Perfectionist Affinity** — Actions using skills of rank 3 or higher and contributing to improvement or refinement.  \n- **Motion Affinity** — Actions tied to emotions or emotional expression.  \n- **Battle Affinity** — Actions related to warfare or combat context, excluding direct combat actions.  \n- **Art Affinity** — Actions related to artistic creation or expression.  \n- **Vengeance Affinity** — Actions taken to fulfill revenge.  \n- **Luck Affinity** — Actions involving Karma usage.  \n- **Order Affinity** — Actions that uphold rules, commands, or obligations.  \n- **Chaos Affinity** — Actions opposing authority, disobeying orders, or rejecting structure.  \n- **Selfishness Affinity** — Actions that benefit only the character, even in the long term.  \n- **Community Affinity** — Actions that benefit others but not the character.\n\n#### Combat Affinities\n\n- **Unarmored Affinity** — Combat actions performed while wearing no armor (natural armor does not count).  \n- **Wounded Affinity** — Combat actions targeting a wounded opponent (beyond superficial scratches).  \n- **Pristine Affinity** — Combat actions while all primary resources are at maximum, including Endurance.  \n- **Slow Affinity** — Combat actions against a single target performed after that target's turn.  \n- **Quick Affinity** — Combat actions against a single target performed before that target's turn.  \n- **Resistance Affinity** — Defensive actions.\n\n#### Material & Craft Affinities\n\n- **Metal Affinity** — Actions involving metal work, identification, or observation.  \n- **Stone Affinity** — Actions involving stone or rock.  \n- **Leather Affinity** — Actions involving leather or hides.  \n- **Fabric Affinity** — Actions involving cloth or textiles.  \n- **Mineral Affinity** — Actions involving minerals or gemstones.  \n- **Poison Affinity** — Actions involving poisons, venoms, or toxic substances.  \n- **Wood Affinity** — Actions involving wood.\n\n#### Knowledge & Technique Affinities\n\n- **Knowledge Affinity** — Actions involving knowledge or learning.  \n- **Code Affinity** — Actions aligned with the character's personal code of honor.  \n- **Altitude Affinity** — Actions performed from a height relative to the target or objective.  \n- **Repair Affinity** — Actions aimed at repairing objects or structures.  \n- **Arcane Affinity** — Actions involving arcane principles.  \n- **Science Affinity** — Actions involving scientific methods or reasoning.  \n- **Technology Affinity** — Actions involving technological devices or systems.  \n- **Magic Affinity** — Actions involving magical effects or spellcasting.\n\n#### Risk & Conflict Affinities\n\n- **Thievery Affinity** — Actions involving illegal or illicit activities.  \n- **Food Affinity** — Actions involving food preparation, acquisition, or consumption.  \n- **Sacrifice Affinity** — Actions that benefit others while causing loss or hardship to the character.  \n- **Oratory Affinity** — Actions performed before an audience capable of judging the outcome.  \n- **Custom Affinity** — Actions related to customs, beliefs, etiquette, or traditions.  \n- **Adaptative Affinity** — Actions taken after changing approach following failure or obstruction.  \n- **Peril Affinity** — Actions taken while facing potentially lethal danger.  \n- **Strive Affinity** — Actions attempted in a weakened or tactically delicate situation.  \n- **Adversity Affinity** — Actions with very low objective chances of success; applies when Difficulty is **20+**.  \n- **Escape Affinity** — Actions aimed at fleeing or avoiding danger.  \n- **Treachery Affinity** — Actions involving deception, cheating, or betrayal.",
@@ -1287,15 +908,5 @@
     "nom": "Force of Nature",
     "description": "The character's body is deeply attuned to natural patterns.",
     "effet": "Gets **Strength** and **Constitution** improvement by **4**, but all mind attributes suffers from a **-2 penalty**."
-  },
-  "affinity-aquatic": {
-    "nom": "Aquatic Affinity",
-    "description": "Aquatic or semi-aquatic environments: open water, underwater, coastal regions, river crossings, and any situation involving significant water immersion or navigation.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
-  },
-  "affinity-metal-stone": {
-    "nom": "Metal & Stone Affinity",
-    "description": "Actions involving metal or stone: working, identifying, observing, or interacting with metallic or rocky materials, underground stonework, forged equipment, or mineral construction.",
-    "effet": "When a test performed under the conditions of this Affinity results in a **Singularity**, the character gains a **+1 bonus** to that test.\n\nMultiple Affinities may apply to the same test and can stack. Affinities only apply when the fictional conditions are clearly met, as determined by the GM."
   }
 }

@@ -135,7 +135,7 @@
     "modularite": "Le bonus d’usage peut passer à 2 mais dans ce cas il n’est reçu que si la vitesse est supérieure à celle de l’adversaire de 8 ou plus (et subit en malus sinon). Le bonus d’usage peut passer à 3 mais dans ce cas il n’est reçu que si la vitesse est supérieure à celle de l’adversaire de 10 ou plus (et subit en malus sinon).",
     "notes": "",
     "conditions": "Situation de confrontation (initiative etc)",
-    "resume": "Bonus si vitesse supérieure non exploitée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Travaillée",
@@ -158,7 +158,7 @@
     "modularite": "Le bonus d’usage peut être accru de 1 pour un malus de vitesse augmenté de 2.",
     "notes": "",
     "conditions": "Situation de confrontation (initiative etc), vitesse avec malus supérieure à 0.",
-    "resume": "Bonus d’usage contre malus de vitesse"
+    "resume": "TODO ???"
   },
   {
     "nom": "à la Volée",
@@ -204,7 +204,7 @@
     "modularite": "Augmenter les pénalités de 1 permet de réduire les pénalités associées à la discrétion de 2. Lorsqu’il n’y a plus de pénalité à réduire la modularité permet de recevoir un bonus à la place.",
     "notes": "",
     "conditions": "Être discret (et avoir réalisé un test de discrétion au préalable).",
-    "resume": "Action profitant de la discrétion visuelle"
+    "resume": "TODO ???"
   },
   {
     "nom": "Silencieuse",
@@ -227,7 +227,7 @@
     "modularite": "Augmenter les pénalités de 1 permet de réduire les pénalités associées à la discrétion de 2. Lorsqu’il n’y a plus de pénalité à réduire la modularité permet de recevoir un bonus à la place.",
     "notes": "",
     "conditions": "Être discret (et avoir réalisé un test de discrétion au préalable).",
-    "resume": "Action profitant de la discrétion sonore"
+    "resume": "TODO ???"
   },
   {
     "nom": "Prudente",
@@ -250,7 +250,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de réduire la plage de maladresse de 1 supplémentaire.",
     "notes": "",
     "conditions": "",
-    "resume": "Plage de maladresse réduite"
+    "resume": "TODO ???"
   },
   {
     "nom": "Exubérante",
@@ -273,7 +273,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de réduire la plage de maladresse de 1 supplémentaire.",
     "notes": "",
     "conditions": "",
-    "resume": "Plage d’exploit augmentée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Risquée",
@@ -293,10 +293,10 @@
     },
     "description": "Le personnage tente le tout pour le tout. Ça passe ou ça casse.",
     "effets": "L’action entreprise profite d’une plage d’exploit et de maladresse augmentée (+1 aux deux).",
-    "modularite": "En augmentant les pénalités de 2 le personnage accroitre les plages d’exploits et de maladresse de 1 encore s’il le souhaite, en cas d’exploit le bonus au jet est ajouté une fois de plus. Il ne peut faire ce choix que tant que les plages ne s’entrecroisent pas.",
+    "modularite": "En augmentant les pénalités de 2 le personnage accroitre les plages d’exploits et de maladresse de 1 encore s’il le souhaite, en cas d'exploit le bonus au jet est ajouté une fois de plus. Il ne peut faire ce choix que tant que les plages ne s’entrecroisent pas.",
     "notes": "",
     "conditions": "",
-    "resume": "Exploit et maladresse augmentés simultanément"
+    "resume": "TODO ???"
   },
   {
     "nom": "Exotique",
@@ -319,7 +319,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "La condition doit logiquement, ou presque, pouvoir être associée à l’autre sauvegarde.",
-    "resume": "Condition via sauvegarde alternative"
+    "resume": "TODO ???"
   },
   {
     "nom": "Affliction",
@@ -342,7 +342,7 @@
     "modularite": "Augmenter les pénalités de 1 réduit la perte de charge dû à la division de 2.",
     "notes": "Liste",
     "conditions": "",
-    "resume": "Condition physique en plus de l’action"
+    "resume": "TODO ???"
   },
   {
     "nom": "Sournoise",
@@ -365,7 +365,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’accroitre l’augmentation de 1D8.",
     "notes": "",
     "conditions": "Cible à revers.",
-    "resume": "Attaque profitant de la cible à revers"
+    "resume": "TODO ???"
   },
   {
     "nom": "Pernicieuse",
@@ -388,7 +388,7 @@
     "modularite": "Voir description de la manœuvre.",
     "notes": "",
     "conditions": "Cible à revers.",
-    "resume": "Conditions aggravées sur cible à revers"
+    "resume": "TODO ???"
   },
   {
     "nom": "Perturbante",
@@ -411,7 +411,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre les bonus reçus en retour.",
     "notes": "",
     "conditions": "",
-    "resume": "Action brisant la concentration adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Supériorité",
@@ -434,7 +434,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre les bonus reçus en retour.",
     "notes": "",
     "conditions": "Cible positionnée en dessous du personnage, minimum 1m de différence.",
-    "resume": "Attaque depuis la hauteur, défense facilitée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Tombante",
@@ -457,7 +457,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le multiplicateur de 0,5x.",
     "notes": "",
     "conditions": "Cible positionnée en dessous du personnage, minimum 1m de différence.",
-    "resume": "Bond sur la cible, bonus selon distance de chute"
+    "resume": "TODO ???"
   },
   {
     "nom": "Localisée",
@@ -480,7 +480,7 @@
     "modularite": "Augmenter les pénalités de 4 permet d’appliquer deux fois la condition, doublant ses effets.",
     "notes": "Liste",
     "conditions": "",
-    "resume": "Condition selon la zone corporelle visée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Couverture",
@@ -503,7 +503,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’appliquer une fois de plus les pénalités générées.",
     "notes": "",
     "conditions": "Action de tactique (gestion).",
-    "resume": "Zone de pénalité aux attaques adverses"
+    "resume": "TODO ???"
   },
   {
     "nom": "Supression",
@@ -526,7 +526,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter la catégorie de l’attaque automatique de 1 encore.",
     "notes": "",
     "conditions": "Action de tactique (gestion ET contrôle).",
-    "resume": "Zone déclenchant une attaque automatique au passage"
+    "resume": "TODO ???"
   },
   {
     "nom": "Exposition",
@@ -549,7 +549,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’appliquer une fois de plus les pénalités générées.",
     "notes": "",
     "conditions": "Action de tactique (contrôle).",
-    "resume": "Zone de pénalité aux défenses adverses"
+    "resume": "TODO ???"
   },
   {
     "nom": "Tranchante",
@@ -572,7 +572,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Arme tranchante.",
-    "resume": "Bonus via la force adverse (arme tranchante)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Adroite",
@@ -595,7 +595,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Arme perforante.",
-    "resume": "Bonus via la dextérité adverse (arme perforante)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Contondante",
@@ -618,7 +618,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Arme contondante.",
-    "resume": "Bonus via l’agilité adverse (arme contondante)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Sanglante",
@@ -641,7 +641,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Arme tranchante.",
-    "resume": "Attaque visant à provoquer le saignement"
+    "resume": "TODO ???"
   },
   {
     "nom": "Flexible",
@@ -664,7 +664,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum des dégâts de 2.",
     "notes": "",
     "conditions": "Arme flexible.",
-    "resume": "Bonus via la constitution adverse (arme flexible)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Courbée",
@@ -687,7 +687,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet de 1.",
     "notes": "",
     "conditions": "Arme tranchante.",
-    "resume": "Frappe en courbe, facile à toucher mais à défendre"
+    "resume": "TODO ???"
   },
   {
     "nom": "Coupe",
@@ -710,7 +710,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’avantager une fois encore l’attaque et la défense.",
     "notes": "",
     "conditions": "Arme tranchante.",
-    "resume": "Frappe puissante mais aisément déviée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Emoussante",
@@ -729,11 +729,11 @@
       "autre": false
     },
     "description": "Le personnage réalise une action visant à perforer l’armure de la cible.",
-    "effets": "L’action entreprise émousse l’arme employée qui subit une détérioration équivalante aux pénalités, cependant le jet de l’action est augmenté de 2 fois les pénalités en retour.",
+    "effets": "L’action entreprise émousse l'arme employée qui subit une détérioration équivalante aux pénalités, cependant le jet de l'action est augmenté de 2 fois les pénalités en retour.",
     "modularite": "",
     "notes": "Notes",
     "conditions": "Arme tranchante.",
-    "resume": "Bonus au jet contre détérioration de l’arme"
+    "resume": "TODO ???"
   },
   {
     "nom": "Etourdissante",
@@ -756,7 +756,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Arme contondante.",
-    "resume": "Coup visant à étourdir et immobiliser la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Oblitérante",
@@ -775,11 +775,11 @@
       "autre": false
     },
     "description": "Le personnage réalise une action visant à perforer l’armure de la cible.",
-    "effets": "L’action entreprise ajoute son D8 le plus bas à la détérioration de l’objet touché, qui ne réalise pas de test de solidité.",
+    "effets": "L’action entreprise ajoute son D8 le plus bas à la détérioration de l'objet touché, qui ne réalise pas de test de solidité.",
     "modularite": "Augmenter les pénalités de 2 applique un désavantage au test de solidité en question.",
     "notes": "Notes",
     "conditions": "Arme contondante.",
-    "resume": "Détérioration garantie de l’objet touché"
+    "resume": "TODO ???"
   },
   {
     "nom": "Destructrice",
@@ -799,10 +799,10 @@
     },
     "description": "Le personnage réalise une action visant à détruire tout matériel qu’elle va toucher.",
     "effets": "L’action entreprise force l’objet touché à réaliser un test de solidité avantagé, voir les règles idoines.",
-    "modularite": "Augmenter les pénalités de 2 permet d’appliquer 1D8 supplémentaire.",
+    "modularite": "Augmenter les pénalités de 2 permet d'appliquer 1D8 supplémentaire.",
     "notes": "",
     "conditions": "Arme contondante.",
-    "resume": "Test de solidité forcé sur l’objet touché"
+    "resume": "TODO ???"
   },
   {
     "nom": "Sonnante",
@@ -825,7 +825,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la perte d’initiative de 1.",
     "notes": "1 fois/T",
     "conditions": "Arme contondante.",
-    "resume": "Coup faisant perdre de l’initiative adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Choc",
@@ -848,7 +848,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter les modificateurs de D8 supplémentaires.",
     "notes": "",
     "conditions": "Arme contondante.",
-    "resume": "Dégâts temporaires majorés au détriment des permanents"
+    "resume": "TODO ???"
   },
   {
     "nom": "Infaillible",
@@ -871,7 +871,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet de 1.",
     "notes": "",
     "conditions": "Arme perforante.",
-    "resume": "Estoc ignorant les pénalités en défense"
+    "resume": "TODO ???"
   },
   {
     "nom": "Perforante",
@@ -894,7 +894,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre la perforation de 2.",
     "notes": "",
     "conditions": "Arme perforante.",
-    "resume": "Perforation accrue ignorant partiellement l’armure"
+    "resume": "TODO ???"
   },
   {
     "nom": "Attrition",
@@ -917,7 +917,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre le maximum de 3.",
     "notes": "",
     "conditions": "Arme contondante.",
-    "resume": "Attrition accrue (arme contondante)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Pénétrante",
@@ -940,7 +940,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre le maximum de 3.",
     "notes": "",
     "conditions": "Arme tranchante.",
-    "resume": "Pénétration accrue (arme tranchante)"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Front",
@@ -963,7 +963,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter les modificateurs de respectivement 2D8 et D8 supplémentaires ET seulement si cela n’amène pas les dégâts temporaires à moins de 1D8.",
     "notes": "",
     "conditions": "Arme perforante.",
-    "resume": "Dégâts permanents majorés au détriment des temporaires"
+    "resume": "TODO ???"
   },
   {
     "nom": "à Contre-pieds",
@@ -986,7 +986,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "L’adversaire est plus grand que le personnage.",
-    "resume": "Bonus si l’adversaire est plus grand"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Pression",
@@ -1009,7 +1009,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "L’adversaire est plus petit que le personnage.",
-    "resume": "Bonus si l’adversaire est plus petit"
+    "resume": "TODO ???"
   },
   {
     "nom": "à Contre-poids",
@@ -1032,10 +1032,10 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "L’adversaire est plus large que le personnage.",
-    "resume": "Bonus si l’adversaire est plus large"
+    "resume": "TODO ???"
   },
   {
-    "nom": "d’écrasement",
+    "nom": "d'écrasement",
     "type": "Combat",
     "penalite": -2,
     "categorie": "Puissance/Brutale",
@@ -1055,7 +1055,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "L’adversaire est plus fin que le personnage.",
-    "resume": "Bonus si l’adversaire est plus fin"
+    "resume": "TODO ???"
   },
   {
     "nom": "Précise",
@@ -1078,7 +1078,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’avantage un peu plus le jet.",
     "notes": "",
     "conditions": "Arme manipulée à deux mains.",
-    "resume": "Jet avantagé à deux mains"
+    "resume": "TODO ???"
   },
   {
     "nom": "Gandiloquante",
@@ -1101,7 +1101,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Arme manipulée à deux mains.",
-    "resume": "Bonus selon la superficie disponible autour"
+    "resume": "TODO ???"
   },
   {
     "nom": "Sans Pitié",
@@ -1124,7 +1124,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le modificateur de 1x.",
     "notes": "",
     "conditions": "Arme manipulée à deux mains.",
-    "resume": "Bonus selon les conditions physiques de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Fulgurante",
@@ -1147,7 +1147,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de changer le résultat minimum des dés en 4. Augmenter les pénalités de 4 permet de changer le résultat minimum des dés en 5.",
     "notes": "",
     "conditions": "Arme manipulée à deux mains.",
-    "resume": "Minimum garanti aux dés du jet"
+    "resume": "TODO ???"
   },
   {
     "nom": "Violente",
@@ -1170,7 +1170,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Arme manipulée à deux mains.",
-    "resume": "Bonus de jet égal à la catégorie de l’arme"
+    "resume": "TODO ???"
   },
   {
     "nom": "Cruelle",
@@ -1193,7 +1193,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le multiplicateur de dégâts de 2x.",
     "notes": "",
     "conditions": "Arme manipulée à deux mains.",
-    "resume": "Bonus selon la blessure la plus grave de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Jumelle",
@@ -1216,7 +1216,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Manipuler deux armes.",
-    "resume": "Double attaque simultanée, une seule défendable"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Croix",
@@ -1239,7 +1239,7 @@
     "modularite": "",
     "notes": "Parade",
     "conditions": "Manipuler deux armes.",
-    "resume": "Parade + riposte gratuite en croix"
+    "resume": "TODO ???"
   },
   {
     "nom": "du Zénith",
@@ -1262,7 +1262,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’accroitre les dégâts infligés de 1.",
     "notes": "",
     "conditions": "Manipuler deux armes.",
-    "resume": "Bonus si l’adversaire est encore indemne"
+    "resume": "TODO ???"
   },
   {
     "nom": "du Bastion",
@@ -1285,7 +1285,7 @@
     "modularite": "",
     "notes": "Blocage",
     "conditions": "Manipuler une arme et un bouclier.",
-    "resume": "Blocage bouclier + riposte gratuite"
+    "resume": "TODO ???"
   },
   {
     "nom": "Grandiose",
@@ -1308,7 +1308,7 @@
     "modularite": "Voir effets.",
     "notes": "",
     "conditions": "Manipuler une seule arme à une main.",
-    "resume": "Bonus quadruplé si l’action est critique"
+    "resume": "TODO ???"
   },
   {
     "nom": "Etonnante",
@@ -1331,7 +1331,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter la plage de maladresse de 1.",
     "notes": "",
     "conditions": "Manipuler une seule arme à une main.",
-    "resume": "Maladresse de défense adverse augmentée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Parfaite",
@@ -1354,7 +1354,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter doubler les bonus (après réduction issus de la marge de réussite).",
     "notes": "",
     "conditions": "Manipuler une seule arme à une main.",
-    "resume": "Bonus réduit par sa propre marge de réussite"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Maitre",
@@ -1377,7 +1377,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Manipuler une seule arme à une main.",
-    "resume": "Avantage exploitant le triangle des armes"
+    "resume": "TODO ???"
   },
   {
     "nom": "Filante",
@@ -1400,7 +1400,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le bonus de 4.",
     "notes": "",
     "conditions": "Manipuler une seule arme à une main.",
-    "resume": "Bonus important si l’action est critique"
+    "resume": "TODO ???"
   },
   {
     "nom": "Experte",
@@ -1423,7 +1423,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter de moitié le bonus aux jets (arrondis inférieurs).",
     "notes": "",
     "conditions": "Manipuler une seule arme à une main.",
-    "resume": "Marge de réussite convertie en bonus aux jets"
+    "resume": "TODO ???"
   },
   {
     "nom": "Véloce",
@@ -1446,7 +1446,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Bonus si l’action double celle de l’adversaire"
+    "resume": "TODO ???"
   },
   {
     "nom": "Acérée",
@@ -1469,7 +1469,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de réduire la marge de réussite nécessaire à une attaque critique à 4. Elle ne peut être baissée plus bas encore.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Seuil critique abaissé à 7 de marge"
+    "resume": "TODO ???"
   },
   {
     "nom": "Succincte",
@@ -1492,7 +1492,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le regain d’initiative de 1 supplémentaire.",
     "notes": "1 fois/T",
     "conditions": "Arme légère.",
-    "resume": "Regain d’initiative en cas de succès"
+    "resume": "TODO ???"
   },
   {
     "nom": "Simple",
@@ -1515,7 +1515,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le regain d’initiative de 1 supplémentaire.",
     "notes": "1 fois/T",
     "conditions": "Arme légère.",
-    "resume": "Regain d’initiative en cas d’échec"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Défaut",
@@ -1538,7 +1538,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’affranchir le défaut d’une cible unique : Celui-ci s’appliquera sur tous les adversaires sans distinction. La manœuvre peut ainsi être réalisée sans cible spécifique et devient une « posture ».",
     "notes": "Notes",
     "conditions": "Arme légère.",
-    "resume": "Tactique imposant un désavantage ciblé"
+    "resume": "TODO ???"
   },
   {
     "nom": "Sadique",
@@ -1561,7 +1561,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’appliquer la totalité de la gravité à la place.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Aggravation d’une blessure existante"
+    "resume": "TODO ???"
   },
   {
     "nom": "Gênante",
@@ -1584,7 +1584,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de réduire les jets de D8 supplémentaires pour une perte d’initiative augmentées de 1. Le jet ne peut devenir inférieur à 1D8 de cette manière.",
     "notes": "",
     "conditions": "Arme intermédiaire ou lourde.",
-    "resume": "Attaque sacrifiée pour ralentir l’adversaire"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Qualité",
@@ -1607,7 +1607,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’affranchir cette qualité d’une cible : Celui-ci s’appliquera sur tous les adversaires sans distinction. La manœuvre peut ainsi être réalisée sans cible spécifique et devient une « posture ».",
     "notes": "",
     "conditions": "Arme lourde.",
-    "resume": "Tactique accordant un avantage ciblé"
+    "resume": "TODO ???"
   },
   {
     "nom": "Galvanisante",
@@ -1630,7 +1630,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de réduire le jet de D8 supplémentaires pour un soin augmenté d’autant.",
     "notes": "",
     "conditions": "Arme lourde ou intermédiaire.",
-    "resume": "Attaque sacrifiée pour soigner sa propre endurance"
+    "resume": "TODO ???"
   },
   {
     "nom": "Adaptée",
@@ -1653,7 +1653,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’affranchir cette qualité d’une cible : Celui-ci s’appliquera sur tous les adversaires sans distinction. La manœuvre peut ainsi être réalisée sans cible spécifique et devient une « posture ».",
     "notes": "",
     "conditions": "Arme ni légère, ni lourde (intermédiaire).",
-    "resume": "Tactique accordant avantage ou défaut sur les jets"
+    "resume": "TODO ???"
   },
   {
     "nom": "Fracassante",
@@ -1676,7 +1676,7 @@
     "modularite": "Augmenter le bonus d’usage permet d’accroitre le bonus aux jets de 1 mais implique un désavantage au test de solidité (qui du coup a plus de chance de rater).",
     "notes": "",
     "conditions": "Arme lourde ou intermédiaire.",
-    "resume": "Bonus de jet au risque de briser l’arme"
+    "resume": "TODO ???"
   },
   {
     "nom": "Ecrasante",
@@ -1699,7 +1699,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’ajouter une fois de plus le modificateur aux dégâts.",
     "notes": "",
     "conditions": "Cible au sol.",
-    "resume": "Bonus selon le gabarit de l’arme sur cible au sol"
+    "resume": "TODO ???"
   },
   {
     "nom": "Puissante",
@@ -1722,7 +1722,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le bonus aux jets de 1.",
     "notes": "",
     "conditions": "",
-    "resume": "Bonus au jet, dés 1 comptent comme 2"
+    "resume": "TODO ???"
   },
   {
     "nom": "Lente",
@@ -1745,7 +1745,7 @@
     "modularite": "Augmenter le bonus d’usage de 1 est possible en sacrifiant une action simple au lieu d’une action rapide.",
     "notes": "",
     "conditions": "Cette manœuvre n’est réalisable que durant une situation de confrontation (initiative).",
-    "resume": "Action lente consommant une action rapide"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Bascule",
@@ -1768,7 +1768,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’ajouter l’augmentation ou la réduction des catégories de 1.",
     "notes": "",
     "conditions": "Taille du personnage + 4 < Taille de l’adversaire.",
-    "resume": "Inversion des catégories d’armes pour l’échange"
+    "resume": "TODO ???"
   },
   {
     "nom": "Impatiente",
@@ -1791,7 +1791,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la limite du bonus de 3.",
     "notes": "1 fois/T",
     "conditions": "Arme Courte.",
-    "resume": "Bonus selon l’avance d’initiative (arme courte)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Patiente",
@@ -1814,7 +1814,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la limite du bonus de 2.",
     "notes": "1 fois/T",
     "conditions": "Arme Longue.",
-    "resume": "Bonus selon le retard d’initiative (arme longue)"
+    "resume": "TODO ???"
   },
   {
     "nom": "Renversante",
@@ -1837,7 +1837,7 @@
     "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
     "notes": "",
     "conditions": "",
-    "resume": "Tentative de renversement bonifiée en suivie"
+    "resume": "TODO ???"
   },
   {
     "nom": "Repoussante",
@@ -1860,7 +1860,7 @@
     "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
     "notes": "",
     "conditions": "",
-    "resume": "Tentative de repoussement bonifiée en suivie"
+    "resume": "TODO ???"
   },
   {
     "nom": "Désarmante",
@@ -1883,7 +1883,7 @@
     "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
     "notes": "",
     "conditions": "",
-    "resume": "Tentative de désarmement bonifiée en suivie"
+    "resume": "TODO ???"
   },
   {
     "nom": "Contraignante",
@@ -1906,7 +1906,7 @@
     "modularite": "Augmenter les pénalités de 1 permet à la tentative d’augmenter le bonus de +1.",
     "notes": "",
     "conditions": "Arme pouvant permettre la contrainte (fouet, etc).",
-    "resume": "Tentative de contrainte bonifiée en suivie"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Mise à Mort",
@@ -1929,7 +1929,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Cible sans défense.",
-    "resume": "Coup fatal sur cible sans défense"
+    "resume": "TODO ???"
   },
   {
     "nom": "Assommante",
@@ -1952,7 +1952,7 @@
     "modularite": "Augmenter les pénalités de 2 permet à faire passer la durée en heure à la place.",
     "notes": "",
     "conditions": "Cible sans défense.",
-    "resume": "Coup assommant sur cible sans défense"
+    "resume": "TODO ???"
   },
   {
     "nom": "Technique",
@@ -1975,7 +1975,7 @@
     "modularite": "Augmenter les pénalités de +1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "Notes",
     "conditions": "",
-    "resume": "Bonus via un attribut du personnage"
+    "resume": "TODO ???"
   },
   {
     "nom": "Boucherie",
@@ -1998,7 +1998,7 @@
     "modularite": "Augmenter les pénalités de 2 permet à l’attaque restreinte de s’affranchir de sa limitation en catégorie.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Attaque restreinte gratuite si succès suffisant"
+    "resume": "TODO ???"
   },
   {
     "nom": "Innombrable",
@@ -2021,7 +2021,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’engager une seconde attaque restreinte. Ses pénalités sont équivalentes à la première. Les pénalités sont alors de -4/-8/-8. Bien que ce ne soit pas conseiller, il est possible d’augmenter encore la pénalité de 2 pour une 3e attaque restreinte, ce qui fait passer les pénalités à -6/-12/-12/-12.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Attaques restreintes supplémentaires simultanées"
+    "resume": "TODO ???"
   },
   {
     "nom": "Successive",
@@ -2044,7 +2044,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’engager une seconde attaque restreinte. Ses pénalités sont équivalentes à la première. Les pénalités sont alors de -4/-8/-8. Bien que ce ne soit pas conseiller, il est possible d’augmenter encore la pénalité de 2 pour une 3e attaque restreinte, ce qui fait passer les pénalités à -6/-12/-12/-12.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Tentatives enchaînées jusqu’au premier succès"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Berserker",
@@ -2067,7 +2067,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’accroitre le maximum de 3.",
     "notes": "",
     "conditions": "Arme à 2 mains requis. Le personnage est épuisé et blessé.",
-    "resume": "Rage décuplée pour une attaque désespérée"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Berruier",
@@ -2090,7 +2090,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’accroitre le maximum de 3.",
     "notes": "",
     "conditions": "Bouclier requis. Le personnage est épuisé et blessé.",
-    "resume": "Garde décuplée pour une défense désespérée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Finale",
@@ -2113,7 +2113,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 3.",
     "notes": "",
     "conditions": "",
-    "resume": "Bonus croissant avec les tours, puis démoralisé"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Tenaille",
@@ -2136,7 +2136,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter les effets.",
     "notes": "",
     "conditions": "En mêlée sur un adversaire de dos pris en tenaille",
-    "resume": "Bonus si l’ennemi est pris en tenaille"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Groupe",
@@ -2155,11 +2155,11 @@
       "autre": false
     },
     "description": "Le personnage tire profit d’une situation fort avantageuse où lui et un ou plusieurs alliés s’attaque ou réalise une tactique en combat rapproché à la même cible.",
-    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l’attaque.",
+    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l'attaque.",
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter les effets.",
     "notes": "",
     "conditions": "En mêlée sur un adversaire avec au moins un allié au corps à corps avec lui.",
-    "resume": "Bonus coordonné avec des alliés en mêlée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Zenith",
@@ -2182,7 +2182,7 @@
     "modularite": "Augmenter les pénalités de 1 augmente ce bonus de 25% ou de +2, on conserve le plus haut bonus des deux modalités",
     "notes": "",
     "conditions": "Arme à distance.",
-    "resume": "Portée de tir augmentée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Transperçant",
@@ -2205,7 +2205,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le nombre de cible de 1.",
     "notes": "",
     "conditions": "Arme à distance.",
-    "resume": "Tir traversant plusieurs cibles alignées"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Cloche",
@@ -2228,7 +2228,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’ignorer entièrement les couvertures de la cible, même totale. Augmenter les pénalités de 2 permet également, à la place ou en plus, d’empêcher la cible de réaliser une action de défense en réponse à ce tir mais uniquement si une couverture a été ainsi ignorée.",
     "notes": "",
     "conditions": "Arme à distance archaïque (arc/arbalète), ciel dégagé au-dessus du tireur et de sa cible.",
-    "resume": "Tir en cloche ignorant la couverture"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Rebond",
@@ -2251,7 +2251,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le nombre de rebonds de 1.",
     "notes": "",
     "conditions": "Arme à distance.",
-    "resume": "Tir rebondissant sur une surface dure"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Ricochet",
@@ -2274,10 +2274,10 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le nombre de ricochet de 1.",
     "notes": "",
     "conditions": "Arme à distance.",
-    "resume": "Tir ricochant de cible en cible"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Tir à l’Epaule",
+    "nom": "Tir à l'Epaule",
     "type": "Tir",
     "penalite": -2,
     "categorie": "Prudence/Patience",
@@ -2297,7 +2297,7 @@
     "modularite": "Augmenter les pénalités permet d’accroitre les effets.",
     "notes": "",
     "conditions": "Arme à distance via arme à recule.",
-    "resume": "Recul réduit par une prise ferme à l’épaule"
+    "resume": "TODO ???"
   },
   {
     "nom": "Démultiplié",
@@ -2320,7 +2320,7 @@
     "modularite": "Augmenter les pénalités permet d’accroitre les effets (pour plus de tirs, mais attention les tirs supplémentaires ont eu même des pénalités croissantes).",
     "notes": "",
     "conditions": "Arme à distance (dont le magasin permet des tirs supplémentaires).",
-    "resume": "Cadence de tir augmentée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Groupé",
@@ -2343,7 +2343,7 @@
     "modularite": "Augmente les pénalités de 2 permet d’accroitre les dégâts ajoutés de 1D8 par tirs supplémentaires faisant mouche.",
     "notes": "",
     "conditions": "Tir multiple.",
-    "resume": "Tirs multiples concentrés sur le même point"
+    "resume": "TODO ???"
   },
   {
     "nom": "Nourris",
@@ -2366,7 +2366,7 @@
     "modularite": "Augmente les pénalités de 1 permet d’accroitre l’attrition par tirs de 2.",
     "notes": "",
     "conditions": "Tir multiple.",
-    "resume": "Tirs enchaînés avec attrition croissante"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Salve",
@@ -2389,7 +2389,7 @@
     "modularite": "Augmente les pénalités de 2 permet d’accroitre la perte d’initiative de 1.",
     "notes": "1 fois/T",
     "conditions": "Tir multiple.",
-    "resume": "Salve faisant perdre de l’initiative adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "depuis les Hauteurs",
@@ -2408,11 +2408,11 @@
       "autre": false
     },
     "description": "Le personnage réalise un tir depuis les hauteurs afin de prendre sa cible dans un angle difficile à défendre ou prédire.",
-    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l’attaque.",
+    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l'attaque.",
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter les effets.",
     "notes": "",
     "conditions": "Cible positionnée en dessous du personnage, minimum 6m de différence. Arme à distance.",
-    "resume": "Tir en hauteur difficilement défendable"
+    "resume": "TODO ???"
   },
   {
     "nom": "à Rebours",
@@ -2435,7 +2435,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la zone de marquage de 1 mètre.",
     "notes": "",
     "conditions": "",
-    "resume": "Zone de marquage déclenchant des tirs d’opportunité"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Couverture",
@@ -2458,7 +2458,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la zone de marquage de 1 mètre.",
     "notes": "",
     "conditions": "Tir multiple d’au moins 3 tirs.",
-    "resume": "Zone imposant des pénalités aux attaques"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Barrage",
@@ -2481,7 +2481,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la zone de marquage de 1 mètre.",
     "notes": "",
     "conditions": "Tir multiple d’au moins 3 tirs.",
-    "resume": "Zone imposant des pénalités aux défenses"
+    "resume": "TODO ???"
   },
   {
     "nom": "Patient",
@@ -2500,11 +2500,11 @@
       "autre": false
     },
     "description": "Le personnage prend le temps de viser afin de tirer au plus juste.",
-    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l’attaque.",
+    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l'attaque.",
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter les effets.",
     "notes": "",
     "conditions": "Ne pas être dans zone de menace d’un adversaire et utiliser une ACTL en plus des autres actions requises.",
-    "resume": "Visée longue améliorant la précision du tir"
+    "resume": "TODO ???"
   },
   {
     "nom": "du Chasseur",
@@ -2527,7 +2527,7 @@
     "modularite": "Augmenter les pénalités accroit les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Tir ralentissant l’allure de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Repositionnement",
@@ -2550,7 +2550,7 @@
     "modularite": "Augmenter les pénalités permet de réduire le cout en initiative d’autant.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Tir en se rejetant en arrière"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Marquage",
@@ -2573,10 +2573,10 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le bonus de tir de 1.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Tir de calibrage améliorant les suivants"
+    "resume": "TODO ???"
   },
   {
-    "nom": "d’Estoc",
+    "nom": "d'Estoc",
     "type": "Escrime",
     "penalite": -2,
     "categorie": "Escrime",
@@ -2596,7 +2596,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Estoc aggravant la gravité des blessures"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Taille",
@@ -2619,7 +2619,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’ajouter un avantage au jet de dégâts.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Frappe de taille puissante mais aisément défendable"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Flèche",
@@ -2642,7 +2642,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de doubler la portée du bond.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Bond en avant suivi d’une attaque plongeante"
+    "resume": "TODO ???"
   },
   {
     "nom": "en Fente",
@@ -2665,7 +2665,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’augmenter le désavantage imposé aux défenses de l’adversaire.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Pas en avant et attaque montante désavantageant la défense"
+    "resume": "TODO ???"
   },
   {
     "nom": "Dextre",
@@ -2688,7 +2688,7 @@
     "modularite": "Augmenter les bonus d’usage de 1 est possible en imposant des pénalités de défenses (passive et active) de 1 à sa posture d’imprudence. Le bonus d’usage ne peut dépasser la catégorie de l’arme tenu en main droite.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Attaque risquée côté droit, posture d’imprudence"
+    "resume": "TODO ???"
   },
   {
     "nom": "Senestre",
@@ -2711,7 +2711,7 @@
     "modularite": "Augmenter les bonus d’usage de 1 est possible en imposant des pénalités de défenses (passive et active) de 1 à sa posture d’imprudence. Le bonus d’usage ne peut dépasser la catégorie de l’arme tenu en main gauche.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Attaque risquée côté gauche, posture d’imprudence"
+    "resume": "TODO ???"
   },
   {
     "nom": "Ballestra",
@@ -2734,7 +2734,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter les dégâts infligés de 2.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Jeu de jambes rapide précédant l’attaque"
+    "resume": "TODO ???"
   },
   {
     "nom": "Battement",
@@ -2757,7 +2757,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’affecter tous les adversaires à portée, augmenter les pénalités de 2 permet d’appliquer les deux effets au lieu d’un seul.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Frappe annulant zone de contrôle ou menace adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Contre-Attaque",
@@ -2780,7 +2780,7 @@
     "modularite": "Augmenter les pénalités de cette manœuvre de 1 permet d’accroitre les pénalités imposée par la posture de 1.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Défense imposant posture de défaillance à l’adversaire"
+    "resume": "TODO ???"
   },
   {
     "nom": "Représailles",
@@ -2803,7 +2803,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’accroitre les bonus octroyaient à l’action qui suit de 1.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Défense enchaînant sur contre-attaque bonifiée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Dérobement",
@@ -2826,7 +2826,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de sécuriser le mouvement contre un adversaire supplémentaire.",
     "notes": "",
     "conditions": "Arme d’Escrime. Esquive.",
-    "resume": "Esquive reculant sans provoquer d’attaque d’opportunité"
+    "resume": "TODO ???"
   },
   {
     "nom": "Dégagement",
@@ -2849,7 +2849,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’accroitre la mise à distance de 25%.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Défense générant une mise à distance augmentée gratuite"
+    "resume": "TODO ???"
   },
   {
     "nom": "Mise à Distance",
@@ -2872,7 +2872,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’accroitre le bonus de 1.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Défense étendant la zone de contrôle"
+    "resume": "TODO ???"
   },
   {
     "nom": "Réduire la Distance",
@@ -2895,7 +2895,7 @@
     "modularite": "Augmenter les pénalités de 2 permet d’accroitre le bonus de 1.",
     "notes": "",
     "conditions": "Arme d’Escrime.",
-    "resume": "Attaque étendant la zone de menace"
+    "resume": "TODO ???"
   },
   {
     "nom": "Posture d'Escrime",
@@ -2918,7 +2918,7 @@
     "modularite": "Augmenter les pénalités de 4 permet de faire en sorte que la posture offre un double avantage à la place.",
     "notes": "Notes",
     "conditions": "Arme d’Escrime.",
-    "resume": "Adoption d’une posture d’escrime codifiée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Esquive Sûre",
@@ -2941,7 +2941,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Esquive.",
-    "resume": "Esquive pénalisant les attaques d’opportunité déclenchées"
+    "resume": "TODO ???"
   },
   {
     "nom": "Esquive Ample",
@@ -2964,7 +2964,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Esquive.",
-    "resume": "Esquive avec déplacement de recul augmenté"
+    "resume": "TODO ???"
   },
   {
     "nom": "Défense Brutale",
@@ -2987,7 +2987,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Esquive réussie faisant perdre des PE à l’adversaire"
+    "resume": "TODO ???"
   },
   {
     "nom": "Parade Préparative",
@@ -3010,7 +3010,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Parade.",
-    "resume": "Parade pénalisant la défense adverse en prévision d’une contre-attaque"
+    "resume": "TODO ???"
   },
   {
     "nom": "Parade Eclair",
@@ -3033,7 +3033,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Parade.",
-    "resume": "Parade réduisant le coût d’initiative de la contre-attaque"
+    "resume": "TODO ???"
   },
   {
     "nom": "Blocage Préparatif",
@@ -3056,7 +3056,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Blocage.",
-    "resume": "Blocage pénalisant la défense adverse en prévision d’une riposte"
+    "resume": "TODO ???"
   },
   {
     "nom": "Blocage Eclair",
@@ -3079,7 +3079,7 @@
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Blocage.",
-    "resume": "Blocage réduisant le coût d’initiative de la riposte"
+    "resume": "TODO ???"
   },
   {
     "nom": "Blocage de Zone",
@@ -3097,12 +3097,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage étend son bouclier en arc large, couvrant non seulement sa propre ligne de défense mais également celle de l'allié à ses côtés, absorbant les impacts à deux.",
+    "description": "",
     "effets": "Le personnage réalise un blocage qui protège également un allié à proximité.",
     "modularite": "Augmenter les pénalités de 2 permet de protéger un allié de plus.",
     "notes": "",
     "conditions": "Blocage.",
-    "resume": "Blocage couvrant également un allié adjacent"
+    "resume": "TODO ???"
   },
   {
     "nom": "Représailles Violante",
@@ -3120,12 +3120,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage s'expose délibérément en ripostant avec une force brute démesurée, sacrifiant une part de sa protection pour que le retour de flamme soit aussi douloureux que possible.",
+    "description": "",
     "effets": "Le personnage réalise une représaille qui l'expose un peu plus mais accroit les dégats causés, ainsi l'attaque voit son jet augmenter de 2 par pénalité mais la représaille voit son propre jet augmenter de 4 par pénalité.",
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Représailles.",
-    "resume": "Représaille exposée mais aux dégâts fortement accrus"
+    "resume": "TODO ???"
   },
   {
     "nom": "Représailles Terrible",
@@ -3143,12 +3143,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage encaisse le coup en transformant la douleur en carburant : la riposte qui suit nourrit sa puissance de chaque blessure fraîchement infligée.",
+    "description": "",
     "effets": "Le personnage réalise une représaille qui profite des dégats subit, le jet augmente d'un montant équivalant à 50% de ce que l'attaque fait perdre en PV/PE, maximum 3x",
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "Représailles.",
-    "resume": "Représaille bonifiée par les dégâts subis"
+    "resume": "TODO ???"
   },
   {
     "nom": "Défense Calculée",
@@ -3171,7 +3171,7 @@
     "modularite": "Le bonus augmente de 1 si le personnage a déjà été lui-même la cible de la technique en question. Le bonus augmente de 1 si le personnage a été plusieurs fois le témoin de cette même technique (par ce même adversaire).",
     "notes": "",
     "conditions": "",
-    "resume": "Défense bonifiée contre technique déjà observée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Défense Protectrice",
@@ -3189,12 +3189,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage renforce méthodiquement sa garde en réduisant ses angles ouverts, absorbant l'impact avec tout son corps pour en limiter les dégâts.",
+    "description": "",
     "effets": "La défense permet au personnage de profiter d'une protection augmentée de 2 par pénalités si elle est réussie.",
     "modularite": "Augmenter les pénalités améliore les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Défense réussie augmentant la protection du personnage"
+    "resume": "TODO ???"
   },
   {
     "nom": "Contre Tir",
@@ -3217,7 +3217,7 @@
     "modularite": "Augmenter les pénalités applique l’excédent en bonus à la contre-attaque.",
     "notes": "",
     "conditions": "Couverture.",
-    "resume": "Couverture enchaînant sur une contre-attaque à distance"
+    "resume": "TODO ???"
   },
   {
     "nom": "d'Affliction",
@@ -3240,7 +3240,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter la difficulté associée à la condition de 1.",
     "notes": "Notes",
     "conditions": "",
-    "resume": "Action infligeant une condition mentale en sus"
+    "resume": "TODO ???"
   },
   {
     "nom": "Agressive",
@@ -3263,7 +3263,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Attitude Alpha.",
-    "resume": "Tirade de menaces bonifiée par l’intelligence adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Vindicative",
@@ -3286,7 +3286,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’accroitre le maximum du bonus aux jets de 3 si le personnage a opté pour celui-ci.",
     "notes": "",
     "conditions": "Attitude Alpha.",
-    "resume": "Attaque avantagée si l’adversaire a frappé en premier"
+    "resume": "TODO ???"
   },
   {
     "nom": "Logique",
@@ -3309,7 +3309,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Attitude Bêta.",
-    "resume": "Tirade retournant les arguments de l’adversaire contre lui"
+    "resume": "TODO ???"
   },
   {
     "nom": "Passive",
@@ -3332,7 +3332,7 @@
     "modularite": "",
     "notes": "",
     "conditions": "Attitude Bêta.",
-    "resume": "Attaque avantagée si l’adversaire a manœuvré ce round"
+    "resume": "TODO ???"
   },
   {
     "nom": "Vexante",
@@ -3355,7 +3355,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Attitude Delta.",
-    "resume": "Tirade blessant l’ego, bonifiée par le charisme adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Mesquine",
@@ -3373,12 +3373,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage répond aux justifications ou à la dernière saillie de son adversaire par une remarque particulièrement mesquine et bien placée, retournant ses propres mots contre lui.",
+    "description": "",
     "effets": "Le personnage réalise une tirade dénonçant la dernière justification de l’adversaire (sans doute en se moquant passablement).",
     "modularite": "",
     "notes": "",
     "conditions": "Attitude Delta.",
-    "resume": "Attaque moquant la dernière justification de l’adversaire"
+    "resume": "TODO ???"
   },
   {
     "nom": "Injuste",
@@ -3401,7 +3401,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Attitude Lambda.",
-    "resume": "Tirade questionnant les intentions, bonifiée par la sagesse adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Harcelante",
@@ -3424,7 +3424,7 @@
     "modularite": "Augmenter les pénalités de 1 permet d’augmenter le maximum du bonus de 2.",
     "notes": "",
     "conditions": "Attitude Lambda.",
-    "resume": "Tirade épuisant la volonté, bonifiée par la volonté adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Technique",
@@ -3447,7 +3447,7 @@
     "modularite": "Augmenter les pénalités de +2 permet de doubler le bonus, cependant limité à +4.",
     "notes": "Notes",
     "conditions": "",
-    "resume": "Tirade convertissant un attribut du personnage en bonus"
+    "resume": "TODO ???"
   },
   {
     "nom": "Suicidaire",
@@ -3470,7 +3470,7 @@
     "modularite": "Augmenter les pénalités de 2 permet de réduire la marge de condition de 3. Augmenter encore les pénalités de 2 permet de réduire la marge de conditions de 2 supplémentaire (pour un total de 5, soit une simple égalité suffit).",
     "notes": "",
     "conditions": "Vitesse du Personnage > Vitesse de la Cible + 5.",
-    "resume": "Action simultanée bloquant toute interruption adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Fourbe",
@@ -3489,11 +3489,11 @@
       "autre": false
     },
     "description": "Le personnage tente de faire un coup bas à sa cible.",
-    "effets": "L’action entreprise peut provoquer un « coup bas » (condition physique ET mentale). Comme pour toutes les conditions appliquer une seconde fois en augmente les effets (on parle de condition avancée). Coup bas : La plage d’exploits est réduite de 1 et plage de maladresse augmentée de 1.",
+    "effets": "L’action entreprise peut provoquer un « coup bas » (condition physique ET mentale). Comme pour toutes les conditions appliquer une seconde fois en augmente les effets (on parle de condition avancée). Coup bas : La plage d'exploits est réduite de 1 et plage de maladresse augmentée de 1.",
     "modularite": "Augmenter les pénalités de 2 permet de forcer la cible à l’utiliser que le plus bas de ses deux sauvegardes.",
     "notes": "",
     "conditions": "Ruse du Personnage > Ruse de la Cible.",
-    "resume": "Action déloyale infligeant la condition coup bas"
+    "resume": "TODO ???"
   },
   {
     "nom": "Affaiblissante",
@@ -3516,7 +3516,7 @@
     "modularite": "",
     "notes": "Notes",
     "conditions": "",
-    "resume": "Action affaiblissant un attribut de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Parcimonieuse",
@@ -3539,7 +3539,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création réduisant le besoin en matière première"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Méticuleuse",
@@ -3562,7 +3562,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création réduisant le besoin en matériaux"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Maitrisée",
@@ -3585,7 +3585,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création récupérant des ressources en cas d’échec"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Rapide",
@@ -3608,7 +3608,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création réduisant le temps de fabrication"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Durable",
@@ -3631,7 +3631,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création augmentant la solidité du résultat"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Prolifique",
@@ -3654,7 +3654,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création augmentant la quantité produite"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création de Qualité",
@@ -3677,7 +3677,7 @@
     "modularite": "Augmenter les pénalités de 1 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création atteignant un niveau de qualité au-delà des compétences"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Luxueuse",
@@ -3700,7 +3700,7 @@
     "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Création augmentant la valeur marchande du résultat"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Succinte",
@@ -3723,7 +3723,7 @@
     "modularite": "Augmenter les pénalités de 2 permet donc d’accroitre l’effet.",
     "notes": "",
     "conditions": "",
-    "resume": "Création réduisant le nombre d’étapes requises"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Appliquée",
@@ -3746,7 +3746,7 @@
     "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Création sacrifiant plus de matières pour mieux réussir"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Patiente",
@@ -3769,7 +3769,7 @@
     "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Création prenant plus de temps pour mieux réussir"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Restreinte",
@@ -3792,7 +3792,7 @@
     "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Création réduisant la quantité au profit de la qualité"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Ephémère",
@@ -3815,7 +3815,7 @@
     "modularite": "Augmenter le bonus de 1 implique donc d’accroitre la contrepartie mentionnée dans les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Création sacrifiant la solidité pour améliorer les chances"
+    "resume": "TODO ???"
   },
   {
     "nom": "Création Contrôlée",
@@ -3838,7 +3838,7 @@
     "modularite": "Augmenter le bonus de 1 implique de réduire 1 encore le niveau maximum auquel le personnage peut prétendre pour sa création. Maximum 3.",
     "notes": "",
     "conditions": "",
-    "resume": "Création abaissant le niveau visé pour garantir la réussite"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation en Rituel",
@@ -3856,12 +3856,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "L'incantation qui conclut un rituel profite plus encore de ce dernier.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Bonus de rituel supplémentaire en conclusion de rituel"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Concentrée",
@@ -3879,12 +3879,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en mettant une attention toute particulière pour ne pas être déconcentré.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Bonus aux tests de concentration pendant l'incantation"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Controlée",
@@ -3902,12 +3902,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en cherchant à atténuer le drain.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Réduit le drain de l'incantation"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation de Combat",
@@ -3925,12 +3925,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation afin de favoriser la précision du sort d'attaque qui en résulte.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Bonus de précision sur le sort d'attaque résultant"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Malicieuse",
@@ -3971,12 +3971,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation avec soin, en sacrifiant des actions supplémentaires pour réduire ses pénalités incantatoires.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Actions simples supplémentaires pour réduire les pénalités d'incantation"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Amplifiée",
@@ -3994,12 +3994,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en cherchant à agrandir la portée du sort.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Augmente la portée du sort de 50%"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Etendue",
@@ -4017,12 +4017,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en cherchant à étendre la zone d'effet du sort.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Augmente la zone d'effet du sort de 50%"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Chargée",
@@ -4040,12 +4040,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en cherchant à allonger la durée des effets du sort via des surcharges.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Ajoute des surcharges au sort pour prolonger sa durée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Risquée",
@@ -4063,12 +4063,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en provoquant sciemment une surchauffe, au risque de bloquer temporairement son accès à la magie.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Provoque une surchauffe magique en échange de bonus"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Désinvolte",
@@ -4086,12 +4086,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en provoquant sciemment un surcout, augmentant le drain du sort en contrepartie.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Augmente le drain du sort en échange de bonus"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation à Plusieurs",
@@ -4109,12 +4109,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage et un ou des alliés réalisent une incantation en s'aidant mutuellement, partageant le drain mais combinant leur puissance.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Incantation collective : meilleur test retenu, drain partagé"
+    "resume": "TODO ???"
   },
   {
     "nom": "Incantation Rapide",
@@ -4132,12 +4132,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son incantation en un instant, lui permettant de réagir sur le champ aux actions de la partie adverse.",
+    "description": "",
     "effets": "",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Incantation en action rapide plutôt qu'action simple"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Représaille",
@@ -4155,12 +4155,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage intègre dans son geste offensif une feinte calculée qui lui ménage un angle de riposte immédiat, prêt à punir toute réaction adverse dans la foulée.",
+    "description": "",
     "effets": "En cas de réussite de l'action le personnage obtient jusqu'au début de son prochain round une action de défense de type représaille restreinte contre l'adversaire en question, l'action en question sera désavantagée.",
     "modularite": "Augmenté les pénalités de 2 permet à l'action ainsi acquise de ne pas être désavantagée.",
     "notes": "",
     "conditions": "",
-    "resume": "Action réussie octroyant une représaille gratuite désavantagée"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Parade",
@@ -4178,12 +4178,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage exécute son action en laissant volontairement une ouverture contrôlée dans sa garde, afin de capter l'arme adverse et de la dévier dans le mouvement qui suit.",
+    "description": "",
     "effets": "En cas de réussite de l'action le personnage obtient jusqu'au début de son prochain round une action de défense restreinte de type parade contre l'adversaire en question, l'action en question sera désavantagée.",
     "modularite": "Augmenté les pénalités de 2 permet à l'action ainsi acquise de ne pas être désavantagée.",
     "notes": "",
     "conditions": "",
-    "resume": "Action réussie octroyant une parade gratuite désavantagée"
+    "resume": "TODO ???"
   },
   {
     "nom": "de Blocage",
@@ -4201,12 +4201,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage positionne son action de façon à s'interposer activement, faisant de son corps ou de son bouclier un rempart prêt à absorber le retour adverse dès que l'action est conclue.",
+    "description": "",
     "effets": "En cas de réussite de l'action le personnage obtient jusqu'au début de son prochain round une action de défense restreinte de type blocage contre l'adversaire en question, l'action en question sera désavantagée.",
     "modularite": "Augmenté les pénalités de 2 permet à l'action ainsi acquise de ne pas être désavantagée.",
     "notes": "",
     "conditions": "",
-    "resume": "Action réussie octroyant un blocage gratuit désavantagé"
+    "resume": "TODO ???"
   },
   {
     "nom": "Défensif",
@@ -4224,12 +4224,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage réalise son action en retenant légèrement son geste offensif, gardant en tête de se couvrir aussitôt après pour amortir le retour éventuel.",
+    "description": "",
     "effets": "En cas de réussite de l'action le personnage obtient un bonus à son prochain test de défenses équivalant aux pénalités contre l'adversaire jusqu'au prochain round.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Action octroyant un bonus à la prochaine défense"
+    "resume": "TODO ???"
   },
   {
     "nom": "Offensif",
@@ -4247,12 +4247,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage intègre une composante agressive dans sa défense ou sa tactique, cherchant moins à se protéger qu'à créer immédiatement une occasion d'attaque.",
+    "description": "",
     "effets": "En cas de réussite de l'action le personnage obtient un bonus à son prochain test d'attaque équivalant aux pénalités contre l'adversaire jusqu'au prochain round.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Action octroyant un bonus à la prochaine attaque"
+    "resume": "TODO ???"
   },
   {
     "nom": "Tactique",
@@ -4270,12 +4270,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage exécute son action avec un tempo délibérément calculé, y incorporant une feinte ou un placement qui lui ouvre mentalement la voie à une manœuvre tactique dans la foulée.",
+    "description": "",
     "effets": "En cas de réussite de l'action le personnage obtient un bonus à son prochain test de tactique équivalant aux pénalités contre l'adversaire jusqu'au prochain round.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Action octroyant un bonus à la prochaine tactique"
+    "resume": "TODO ???"
   },
   {
     "nom": "Imparrable",
@@ -4293,12 +4293,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage engage son action avec une plénitude de puissance et de précision qui lui ôte toute marge de retrait, rendant son geste difficile à contrer mais aussi plus coûteux à réaliser.",
-    "effets": "L’action applique deux fois ses pénalités à la maitrise de l’action, ce qui augmente la difficulé à s’en défendre.",
+    "description": "",
+    "effets": "L’action applique deux fois ses pénalités à la maitrise de l'action, ce qui augmente la difficulé à s'en défendre.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Action doublant sa maîtrise pour être plus difficile à défendre"
+    "resume": "TODO ???"
   },
   {
     "nom": "Tikal",
@@ -4316,12 +4316,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage retourne les contraintes à son avantage par une technique déroutante issue de traditions martiales exotiques : les pénalités deviennent force, mais la difficulté à se défendre de son action s'en trouve décuplée.",
-    "effets": "L’action ignore les pénalités de manoeuvres et les ajoutent même sous forme de bonus à la place, cependant la difficulté pour se défendre de l’action est calculée en appliquant 4 fois les pénalités.",
+    "description": "",
+    "effets": "L’action ignore les pénalités de manoeuvres et les ajoutent même sous forme de bonus à la place, cependant la difficulté pour se défendre de l'action est calculée en appliquant 4 fois les pénalités.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Action convertissant ses pénalités en bonus, très difficile à défendre"
+    "resume": "TODO ???"
   },
   {
     "nom": "Sournoise",
@@ -4339,12 +4339,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage glisse sa lame avec habileté dans les interstices de l’armure adverse, ciblant les jointures et les zones mal protégées pour contourner la protection plutôt que de la traverser.",
-    "effets": "L’attaque entreprise ignore jusqu’à 4 points d’armure par pénalités. L’armure ignorée ne peux être affectée par la perforation le cas échéant.",
+    "description": "",
+    "effets": "L’attaque entreprise ignore jusqu'à 4 points d'armure par pénalités. L'armure ignorée ne peux être affectée par la perforation le cas échéant.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Cible à revers.",
-    "resume": "Attaque à revers ignorant l’armure de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Célérate",
@@ -4362,12 +4362,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage enchaîne ses gestes avec une rapidité déstabilisante, laissant à l'adversaire si peu de temps pour réagir qu'une défense précipitée devient bien plus susceptible de dérailler.",
+    "description": "",
     "effets": "Les actions de défense contre l'action en question ont plus de chance de provoquer des maladresses et moins de chances de provoquer des exploits, les seuils étant modifier 1.",
     "modularite": "Augmenté les pénalités de 2 accroit l'effet de 1.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Attaque décalant les seuils critiques des défenses adverses"
+    "resume": "TODO ???"
   },
   {
     "nom": "Experte",
@@ -4385,12 +4385,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage puise dans les ressources les plus profondes de sa maîtrise technique, affinant son geste au-delà de ses habitudes pour atteindre un niveau d'expertise légèrement supérieur.",
+    "description": "",
     "effets": "L'action du personnage voit son expertise augmentée de 1.",
     "modularite": "Augmenté les pénalités de 2 accroit l'effet de 1.",
     "notes": "",
     "conditions": "",
-    "resume": "Action augmentant l'expertise du personnage"
+    "resume": "TODO ???"
   },
   {
     "nom": "Massif",
@@ -4408,12 +4408,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage prend le temps d'amorcer son arme lourde avec l'ampleur maximale, y investissant son énergie et son équilibre pour un coup d'une puissance écrasante.",
+    "description": "",
     "effets": "L'action profite d'un bonus au jet équivalant à 2 fois les pénalités.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme lourde + cout en initiative équivalant aux pénalités.",
-    "resume": "Frappe lourde avec fort bonus de jet, coûteuse en initiative"
+    "resume": "TODO ???"
   },
   {
     "nom": "Mortelle",
@@ -4431,12 +4431,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage frappe une cible sans défense avec une précision clinique, cherchant délibérément un point vital pour que le coup ne se contente pas de blesser.",
+    "description": "",
     "effets": "La cible de l'attaque doit réaliser un test de robustesse et subit 1D8 modifié par le résultat.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Cible sans défenses.",
-    "resume": "Attaque sur cible sans défense forçant un test de robustesse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Copie",
@@ -4454,12 +4454,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage reproduit avec un talent naturel la technique qu'il vient d'observer, mimant les gestes de son adversaire ou d'un allié pour les retourner contre lui.",
+    "description": "",
     "effets": "Le personnage reproduit la technique qu'il a aperçu il y a moins d'un tour de ça, il doit alors en appliquer les pénalités normalement mais n'est pas désavantagé par le fait de ne pas connaitre les manoeuvres qui la compose, il ajoute par dessus ces pénalités celle de cette manoeuvre.",
     "modularite": "Augmenter les pénalités de 2 permet d'apprendre une des manoeuvres incluses dans la technique.",
     "notes": "",
     "conditions": "",
-    "resume": "Reproduction immédiate d'une technique adverse observée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Mirroire",
@@ -4477,12 +4477,12 @@
       "mixte": true,
       "autre": false
     },
-    "description": "Le personnage devient le miroir parfait de son adversaire, reproduisant non seulement ses gestes mais ses résultats bruts, retournant contre lui l'exact résultat de son propre jet.",
+    "description": "",
     "effets": "Le personnage reproduit la technique qu'il a aperçu il y a moins d'un tour de ça, il doit alors en appliquer les pénalités normalement mais n'est pas désavantagé par le fait de ne pas connaitre les manoeuvres qui la compose, il ajoute par dessus ces pénalités celle de cette manoeuvre, il utilse pour son test les dés qu'à obtenu son modèle (sans pouvoir les modifier à son tour).",
     "modularite": "",
     "notes": "",
     "conditions": "",
-    "resume": "Copie utilisant les dés obtenus par l'adversaire modèle"
+    "resume": "TODO ???"
   },
   {
     "nom": "Chirurgicale",
@@ -4500,12 +4500,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage cible avec une précision quasi médicale une zone très précise du corps de sa cible — une articulation, un tendon, une veine — maximisant les dégâts là où ça compte.",
+    "description": "",
     "effets": "L'attaque voit son jet augmenté de 2 par pénalités si une sous localisation est touchée.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Attaque localisée.",
-    "resume": "Attaque localisée bonifiée si elle touche une sous-localisation"
+    "resume": "TODO ???"
   },
   {
     "nom": "Visée",
@@ -4523,12 +4523,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage concentre son attention sur une zone précise du corps de sa cible avant de frapper, ajustant mentalement sa trajectoire pour maximiser ses chances de toucher exactement là où il le souhaite.",
+    "description": "",
     "effets": "L'attaque reçoit un bonus équivalant à deux fois les pénalités pour ce qui est de toucher une sous localisation.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Attaque localisée.",
-    "resume": "Attaque augmentant la précision sur une sous-localisation"
+    "resume": "TODO ???"
   },
   {
     "nom": "Implaccable",
@@ -4546,12 +4546,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage réalise une défense d'une solidité implacable avec son arme lourde, absorbant le choc avec une énergie si brute que même un blocage réussi éprouve l'adversaire.",
+    "description": "",
     "effets": "La tactique inflige une attrition équivalante à son plus petit D8 en cas de réussite.",
     "modularite": "Augmenter les pénalités de 2 permet de garder un D8 de plus.",
     "notes": "",
     "conditions": "Arme lourde.",
-    "resume": "Tactique lourde infligeant de l'attrition en cas de réussite"
+    "resume": "TODO ???"
   },
   {
     "nom": "Accablante",
@@ -4569,12 +4569,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage frappe avec la volonté d'épuiser physiquement son adversaire plutôt que de le blesser, ciblant les muscles et les articulations pour réduire progressivement ses capacités.",
+    "description": "",
     "effets": "Si la tactique du personnage touche la cible cette dernière doit réussir un test de robustesse ou subit une condition qui réduit un attribut physique de 2. Ce malus passe à 4 si la condition est réappliquée. Les charges de cette conditions sont équivalantes au jet en ne conservant que 2D8 les plus hauts.",
     "modularite": "Augmenter les pénalités de 1 permet de conserver 1D8 de plus.",
     "notes": "",
     "conditions": "",
-    "resume": "Tactique affaiblissant un attribut physique si la cible rate sa sauvegarde"
+    "resume": "TODO ???"
   },
   {
     "nom": "Trombe",
@@ -4592,12 +4592,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage se lance en trombe à travers le champ de bataille, son arme lourde décrivant un arc dévastateur sur son passage, frappant toutes les cibles qui se trouvent sur sa trajectoire.",
+    "description": "",
     "effets": "Le personnage peux joindre à cette action un déplacement (qui n'est donc pas gratuit) afin d'attaquer les cibles à portée sur son chemin, jusqu'à deux cibles. Ces attaques sont donc des attaques dites de zone.",
     "modularite": "Augmenter les pénalités de 2 permet d'attaquer une cible de plus.",
     "notes": "",
     "conditions": "Arme lourde ou intermédiaire.",
-    "resume": "Charge balayant plusieurs cibles sur le passage"
+    "resume": "TODO ???"
   },
   {
     "nom": "Parfaite",
@@ -4615,12 +4615,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage exploite avec une aisance déconcertante la faiblesse structurelle de l'arme adverse face à la sienne, son geste retrouvant une précision absolue grâce à cet avantage naturel.",
+    "description": "",
     "effets": "Le personnage réalise une action dont le jet est augmenté de 3 par pénalités.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Avantage lié au triangle des armes.",
-    "resume": "Action fortement bonifiée profitant du triangle des armes"
+    "resume": "TODO ???"
   },
   {
     "nom": "du Berserker",
@@ -4638,12 +4638,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage laisse la fureur envahir son geste, frappant avec une brutalité instinctive qui alimente sa propre frénésie de combat à chaque coup porté.",
+    "description": "",
     "effets": "Le personnage reçoit 2 points de rage par pénalité si son action réussie.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme lourde ou intermédiaire.",
-    "resume": "Action générant des points de rage si réussie"
+    "resume": "TODO ???"
   },
   {
     "nom": "du Berrurier",
@@ -4661,12 +4661,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage réalise son action avec la solidité tranquille d'un rempart, chaque mouvement renforçant sa garde intérieure et accumulant une résistance impassible.",
+    "description": "",
     "effets": "Le personnage reçoit 2 points de garde par pénalité si son action réussie.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme lourde ou intermédiaire.",
-    "resume": "Action générant des points de garde si réussie"
+    "resume": "TODO ???"
   },
   {
     "nom": "du Voltigeur",
@@ -4684,12 +4684,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage exécute son action avec la légèreté vive d'un acrobate, chaque geste fluide alimentant son élan et sa vivacité pour les actions à venir.",
+    "description": "",
     "effets": "Le personnage reçoit 2 points d'adrénaline par pénalité si son action réussie.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme légère ou intermédiaire.",
-    "resume": "Action générant des points d'adrénaline si réussie"
+    "resume": "TODO ???"
   },
   {
     "nom": "Mesurée",
@@ -4707,12 +4707,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage dose soigneusement son effort, conservant une réserve d'énergie en cas d'échec pour ne pas se retrouver surexposé après un geste inutile.",
+    "description": "",
     "effets": "Le personnage recupère 1 point d'initiative par pénalités si son action échoue.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme légère ou intermédiaire.",
-    "resume": "Action récupérant de l'initiative en cas d'échec"
+    "resume": "TODO ???"
   },
   {
     "nom": "Calculée",
@@ -4730,12 +4730,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage réalise son action en observant autant qu'en agissant, gravant dans sa mémoire tactique la réaction de sa cible pour en tirer profit immédiatement.",
+    "description": "",
     "effets": "Quelque soit le résultat de son action le personnage marque sa cible : La prochaine technique de même nature (attaque ou tactique) sur la cible reçoit un bonus équivalant aux pénalités.",
     "modularite": "Augmenter les pénalités de 2 permet de pouvoir appliquer la réduction quelque soit la nature de l'action qui suit.",
     "notes": "",
     "conditions": "",
-    "resume": "Action marquant la cible pour bonifier la prochaine action"
+    "resume": "TODO ???"
   },
   {
     "nom": "Vampirique",
@@ -4753,12 +4753,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage frappe avec l'intention délibérée de se nourrir de la vitalité qu'il arrache à sa cible, chaque blessure infligée lui redonnant un souffle de vie.",
+    "description": "",
     "effets": "Le personnage gagne 1D8 de vitalité temporaire. Ce soin ne peux dépasser les PV perdus par la cible au cours de cette attaque.",
     "modularite": "Augmenter les pénalités de 2 permet d'augmenter le gain de 1D8.",
     "notes": "",
     "conditions": "Arme lourde ou intermédiaire.",
-    "resume": "Attaque drainant de la vitalité temporaire de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Fine",
@@ -4776,12 +4776,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage réalise une attaque avec une légèreté trompeuse, visant avec précision pour un résultat tranchant — au risque de se retrouver plus exposé si l'adversaire parvient à la dévier.",
+    "description": "",
     "effets": "Le personnage réalise une attaque dont le jet est augmenté de 2 par pénalités, cependant la déviation adverse le cas échéant sera doublée.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Attaque légère précise mais doublant la déviation adverse"
+    "resume": "TODO ???"
   },
   {
     "nom": "Impétueuse",
@@ -4799,12 +4799,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage puise dans ses dernières réserves physiques pour décupler la puissance de son action, brûlant son endurance en échange d'un geste d'une violence accrue.",
+    "description": "",
     "effets": "Au prix d'une perte de PE équivalant aux pénalités le personnage reçoit un bonus au jet de son action de 3 par pénalités.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "N'est pas en état de choc (PE > 0).",
-    "resume": "Action consommant des PE pour un fort bonus de jet"
+    "resume": "TODO ???"
   },
   {
     "nom": "Glorieuse",
@@ -4822,12 +4822,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage frappe avec la fougue du combattant en pleine forme face à un adversaire affaibli, son assurance décuplant la puissance et la précision de chaque geste.",
+    "description": "",
     "effets": "L'action du personnage reçoit un bonus de jet équivalant à 2 fois les pénalités si la cible à moins de PE actuels que le personnage",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Action bonifiée si le personnage a plus de PE que la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Exécution",
@@ -4845,12 +4845,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage transforme sa propre douleur en moteur, chaque blessure qu'il porte alimentant la précision et la férocité de son attaque dans un dernier sursaut de détermination.",
+    "description": "",
     "effets": "L'attaque du personnage profite d'un bonus de jet équivalant à aux pénalités de blessures qu'il encours par pénalité de cette manoeuvre. Evidemment la blessure qu'il pourrait recevoir de l'attaque en question ne peux être prise en considération.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Attaque bonifiée par les pénalités de blessure du personnage"
+    "resume": "TODO ???"
   },
   {
     "nom": "Finale",
@@ -4868,15 +4868,15 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage convoque tout ce qu'il a accumulé depuis le début du combat — fatigue, rage et résolution — pour libérer un coup décisif qui l'épuise mais peut tout changer.",
+    "description": "",
     "effets": "L'attaque du personnage profite d'un bonus de jet équivalant aux nombre de tours que le personnage a passé dans la confrontation en questionn maximum 5. Après cette attaque le personnage est choqué jusqu'à la fin de la confrontation.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "1 fois/C",
     "conditions": "",
-    "resume": "Attaque ultime bonifiée par la durée du combat, laisse choqué"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Furieuse",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Puissance/Brutale",
@@ -4896,10 +4896,10 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Attaque convertissant la rage en attrition doublée"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Absorbante",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Prudence/Patience",
@@ -4919,7 +4919,7 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "",
-    "resume": "Défense convertissant la garde en déviation doublée"
+    "resume": "TODO ???"
   },
   {
     "nom": "Shrapnel",
@@ -4937,12 +4937,12 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage frappe délibérément sur un équipement ou une surface de façon à provoquer une déflagration d'éclats qui arrose tout ce qui se trouve à proximité.",
+    "description": "",
     "effets": "Chaque niveau de dégradation que provoque l'attaque provoque une déflagration qui inflige 1D8 de dégats transperçant à proximité. Les créatures affectées peuvent réaliser un test de réflexe afin d'en modifier la valeur.",
     "modularite": "Augmenté les pénalités de 2 permet d'augmenter les dégats de 1D8 par niveau de dégradation.",
     "notes": "",
     "conditions": "",
-    "resume": "Attaque provoquant des éclats en zone à chaque dégradation"
+    "resume": "TODO ???"
   },
   {
     "nom": "Outrance",
@@ -4960,15 +4960,15 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage pousse sa lance en avant avec une agressivité débordante, maintenant la pression sur sa cible et marquant le terrain pour que ses alliés ou lui-même puissent en profiter aussitôt.",
+    "description": "",
     "effets": "Si elle touche la cible l'attaque ou la tactique marque celle-ci, jusqu'au prochain tour les opportunités de même nature contre la cible reçoivent un bonus équivalant aux pénalités de cette actions ci à leurs tests et jets contre la cible en question.",
     "modularite": "Augmenter les pénalités de 2 permet d'ajouter un avantage de plus.",
     "notes": "",
     "conditions": "Lance",
-    "resume": "Marque la cible, bonus aux opportunités suivantes contre elle"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Fatale",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Finesse",
@@ -4984,14 +4984,14 @@
       "autre": false
     },
     "description": "",
-    "effets": "Si après calcul des dégâts la cible de l'attaque a moins de 4 PV par pénalités, elle succombe.",
+    "effets": "Si après calcule des dégats la cible de l'attaque a moins de 4 PV par pénalités, elle succombe.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Dague",
-    "resume": "Dague : la cible succombe si ses PV restants sont trop faibles"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Résolue",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Prudence/Patience",
@@ -5011,10 +5011,10 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Epée",
-    "resume": "Épée : valeur minimale des dés augmentée"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Acharnée",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Puissance/Brutale",
@@ -5034,10 +5034,10 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Hache",
-    "resume": "Hache : bonus de jet si la cible est en état de choc"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Ébranlante",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Puissance/Brutale",
@@ -5057,10 +5057,10 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Mace",
-    "resume": "Masse : toucher marque la cible, malus à sa prochaine action similaire"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Entravante",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Prudence/Patience",
@@ -5080,10 +5080,10 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Flexible",
-    "resume": "Flexible : bonus de jet selon les conditions négatives de la cible"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Insidieuse",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Exotique",
@@ -5103,7 +5103,7 @@
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Exotique",
-    "resume": "Exotique : aggrave toutes les blessures actuelles de la cible"
+    "resume": "TODO ???"
   },
   {
     "nom": "Enchainement",
@@ -5121,15 +5121,15 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage maintient son élan offensif après avoir mis à bas un adversaire, pivotant immédiatement vers la menace suivante sans laisser le tempo retomber.",
+    "description": "",
     "effets": "Si l'attaque permet de vaincre un adversaire, le personnage peux réaliser une attaque d'opportunité gratuite désavantagée sur un adversaire à proximité.",
     "modularite": "Augmenter les pénalités de 2 permet d'obtenir un avantage sur l'attaque d'opportunité.",
     "notes": "1 fois/T",
     "conditions": "",
-    "resume": "Attaque d'opportunité gratuite après avoir vaincu un adversaire"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Acculée",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Prudence/Patience",
@@ -5145,11 +5145,11 @@
       "autre": false
     },
     "description": "",
-    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l’attaque.",
+    "effets": "L’action réalisée est plus difficile à défendre et profite d’un bonus de maitrise équivalant au double des pénalités, les pénalités sont également appliqué au jet de l'attaque.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Cible prise en tenaille entre le personnage et un mur.",
-    "resume": "Bonus de maîtrise si la cible est acculée contre un mur"
+    "resume": "TODO ???"
   },
   {
     "nom": "Surin",
@@ -5167,15 +5167,15 @@
       "mixte": false,
       "autre": false
     },
-    "description": "Le personnage enfonce sa lame légère avec une torsion experte, déchirant les chairs de façon à aggraver les ruptures existantes et à provoquer une hémorragie interne difficile à contenir.",
+    "description": "",
     "effets": "Si elle est réussie l'attaque augmente les charges toutes les ruptures (dont la nouvelle le cas échéant) de la cible de 3 par pénalités.",
     "modularite": "Augmenté les pénalités accroit naturellement les effets.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Augmente les charges de toutes les ruptures de la cible"
+    "resume": "TODO ???"
   },
   {
-    "nom": "Rongeante",
+    "nom": "<to define>",
     "type": "Combat",
     "penalite": -1,
     "categorie": "Exotique",
@@ -5195,6 +5195,6 @@
     "modularite": "Augmenté les pénalités de 2 accroit les effets de 1.",
     "notes": "",
     "conditions": "Arme légère.",
-    "resume": "Rend les ruptures progressivement plus dévastatrices à chaque tour"
+    "resume": "TODO ???"
   }
 ]

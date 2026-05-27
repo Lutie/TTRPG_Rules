@@ -69,7 +69,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Par Type",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -83,7 +87,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Par Type",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -97,7 +105,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Par Type",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -111,7 +123,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -125,7 +141,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -139,7 +159,13 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
-    "attributs": ["FOR", "DEX", "AGI", "PER", "CON"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI",
+      "PER",
+      "CON"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -153,7 +179,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -167,7 +197,13 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
-    "attributs": ["FOR", "DEX", "AGI", "PER", "CON"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI",
+      "PER",
+      "CON"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -181,7 +217,11 @@
     "categorie": "martiales",
     "groupe": "combat",
     "sousGroupe": "Spéciales",
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -361,7 +401,11 @@
     "categorie": "martiales",
     "groupe": "tactique",
     "sousGroupe": null,
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "FOR",
+      "DEX",
+      "AGI"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -394,7 +438,13 @@
     "categorie": "sociales",
     "groupe": "communication",
     "sousGroupe": null,
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "CHA",
+      "INT",
+      "RUS",
+      "VOL",
+      "SAG"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,
@@ -563,7 +613,13 @@
     "categorie": "sociales",
     "groupe": "inspiration",
     "sousGroupe": null,
-    "attributs": ["FOR", "DEX", "AGI"],
+    "attributs": [
+      "CHA",
+      "INT",
+      "RUS",
+      "VOL",
+      "SAG"
+    ],
     "secondaires": [],
     "attrVariable": false,
     "libre": false,

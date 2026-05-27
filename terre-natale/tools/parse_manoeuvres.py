@@ -7,7 +7,7 @@ import json
 import re
 from pathlib import Path
 
-XLSX = Path(__file__).parent / 'Terre Natale - Aides de jeu _ Manoeuvres & Prouesses.xlsx'
+XLSX = Path(__file__).parent / 'src' / 'Terre Natale - Aides de jeu _ Manoeuvres & Prouesses.xlsx'
 OUT_MAN = Path(__file__).parent / 'manoeuvres.json'
 OUT_PRO = Path(__file__).parent / 'prouesses.json'
 

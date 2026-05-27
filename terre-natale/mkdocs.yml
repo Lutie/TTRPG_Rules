@@ -50,6 +50,18 @@ nav:
       - "Liste des Manœuvres Incantatoires": magie-ext/details/liste-des-man-uvres-incantatoires.md
       - "Liste des Styles Incantatoires": magie-ext/details/liste-des-styles-incantatoires.md
       - "Équipements Magiques": magie-ext/details/equipements-magiques.md
+    - "Mots de Pouvoir":
+      - "École de Destruction": mots-de-pouvoir/destruction.md
+      - "École de Restauration": mots-de-pouvoir/restauration.md
+      - "École de Bénédiction": mots-de-pouvoir/benediction.md
+      - "École de Malédiction": mots-de-pouvoir/malediction.md
+      - "École d'Invocation": mots-de-pouvoir/invocation.md
+      - "École d'Abjuration": mots-de-pouvoir/abjuration.md
+      - "École de Divination": mots-de-pouvoir/divination.md
+      - "École d'Évocation": mots-de-pouvoir/evocation.md
+      - "École de Conjuration": mots-de-pouvoir/conjuration.md
+      - "École d'Altération": mots-de-pouvoir/alteration.md
+      - "Liaisons, Annexes & Formes": mots-de-pouvoir/liaisons.md
   - Extension Héros:
     - "Extension de l'Univers": heros-ext/univers/extension-de-l-univers.md
     - "Détails de l'Extension":
@@ -85,6 +97,7 @@ nav:
     - "Les Consommables": equipement/les-consommables.md
     - "Les Équipements": equipement/les-equipements.md
     - "Les Améliorations": equipement/les-ameliorations.md
+    - "Compendium des Matières": matieres/index.md
   - Compendium des Styles: styles/index.md
   - Compendium des Manœuvres: manoeuvres/index.md
   - Compendium des Actions:

@@ -557,7 +557,7 @@ def parse_descriptions(source_path):
 
 def main():
     tools_dir   = Path(__file__).parent
-    source_path = tools_dir / 'Terre Natale.docx.txt'
+    source_path = tools_dir / 'src' / 'Terre Natale.docx.txt'
     json_path   = tools_dir / 'competences.json'
     js_path     = tools_dir.parent / 'app-sheet' / 'src' / 'data' / 'competences.js'
 

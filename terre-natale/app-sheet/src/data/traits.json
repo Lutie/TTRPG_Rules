@@ -103,8 +103,7 @@
     "conditions": [],
     "multiples_instances": "Chaque instance vise un attribut différent. Maximum 2 différents",
     "limitation": null,
-    "avantage_mineur_bonus": false,
-    "choix": "attribut_principal"
+    "avantage_mineur_bonus": false
   },
   {
     "id": "autodidacte",
@@ -449,8 +448,7 @@
     "conditions": [],
     "multiples_instances": "La caste d’un personne lui octroie automatiquement ce trait pour les attributs qui lui sont associées. Le personnage ne peut choisir ce trait qu’une fois de façon libre, pour un troisième attribut au choix",
     "limitation": null,
-    "avantage_mineur_bonus": false,
-    "choix": "attribut_principal"
+    "avantage_mineur_bonus": false
   },
   {
     "id": "expertise-des-signes",
@@ -502,8 +500,7 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false,
-    "choix": "attribut_principal"
+    "avantage_mineur_bonus": false
   },
   {
     "id": "fortune",
@@ -2282,8 +2279,7 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false,
-    "choix": "attribut_principal"
+    "avantage_mineur_bonus": false
   },
   {
     "id": "science-du-commerce",
@@ -3206,7 +3202,7 @@
     "description": "Rien n’est laissé au hasard ; chaque geste est pesé, chaque placement réfléchi. Le personnage préfère perdre du temps plutôt que de risquer une erreur.\nLorsqu’il prend le temps de préparer une action en dehors de toute situation d’urgence et nécessitant méticulosité (pose de pièges, installation, plan, dispositif), le personnage est avantagé à son test s’il y consacre au moins deux fois le temps normal.",
     "categories": [
       "Spécialisation",
-      "aventure"
+      "Aventure"
     ],
     "sous_section": "Confrontations",
     "prerequis": "Sagesse 13",
@@ -3598,7 +3594,7 @@
     "description": "Habitué aux longues routes et aux terrains incertains, le personnage se déplace avec assurance et endurance, quelle que soit la distance.\nLe personnage est avantagé à ses tests de déplacement hors combat (course, escalade, natation, etc.).",
     "categories": [
       "Spécialisation",
-      "aventure"
+      "Aventure"
     ],
     "sous_section": "Confrontations",
     "prerequis": "Agilité 13",
@@ -6162,8 +6158,7 @@
     ],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false,
-    "choix": "attribut_principal"
+    "avantage_mineur_bonus": false
   },
   {
     "id": "dons-dattribut",
@@ -6180,8 +6175,7 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null,
-    "avantage_mineur_bonus": false,
-    "choix": "attribut_principal"
+    "avantage_mineur_bonus": false
   },
   {
     "id": "equilibre-parfait",

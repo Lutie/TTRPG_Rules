@@ -4418,6 +4418,39 @@ header h1 {
   font-style: italic;
 }
 
+.domaines-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px 0;
+}
+
+.domaine-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  transition: opacity 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.domaine-btn:hover {
+  opacity: 0.85;
+  border-color: var(--accent);
+}
+
+.domaine-btn--selected {
+  opacity: 1;
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 15%, var(--surface));
+}
+
 .memoire-add {
   display: flex;
   flex-direction: column;
@@ -6988,6 +7021,14 @@ header h1 {
   background: var(--color-primary, #8b7355);
   color: #fff;
   border-color: var(--color-primary, #8b7355);
+}
+
+.inventaire-matiere-effet {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #aaa);
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
 }
 
 .inventaire-amel-liste-desc {

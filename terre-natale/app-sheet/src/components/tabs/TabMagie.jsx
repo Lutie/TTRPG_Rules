@@ -206,15 +206,47 @@ function TabMagie() {
   );
 }
 
+const ECOLES = [
+  "École d'Abjuration", "École d'Altération", "École de Bénédiction",
+  "École de Conjuration", "École de Destruction", "École de Divination",
+  "École d'Évocation", "École d'Invocation", "École de Malédiction",
+  "École de Restauration",
+];
+
+const DOMAINES = [
+  { emoji: '⚔️', nom: 'Acier' },   { emoji: '🌪️', nom: 'Air' },
+  { emoji: '✡️', nom: 'Arcane' },  { emoji: '🌀', nom: 'Chaos' },
+  { emoji: '⚜️', nom: 'Charme' },  { emoji: '⚕️', nom: 'Corps' },
+  { emoji: '💧', nom: 'Eau' },     { emoji: '🧠', nom: 'Esprit' },
+  { emoji: '🐗', nom: 'Faune' },   { emoji: '🔥', nom: 'Feu' },
+  { emoji: '🌿', nom: 'Flore' },   { emoji: '⚡', nom: 'Foudre' },
+  { emoji: '❄️', nom: 'Glace' },   { emoji: '🛡️', nom: 'Guerre' },
+  { emoji: '🎭', nom: 'Illusion' }, { emoji: '🩸', nom: 'Impie' },
+  { emoji: '⚖️', nom: 'Loi' },     { emoji: '☀️', nom: 'Lumière' },
+  { emoji: '🔮', nom: 'Magie' },   { emoji: '🧩', nom: 'Mental' },
+  { emoji: '☠️', nom: 'Mort' },    { emoji: '🪷', nom: 'Nature' },
+  { emoji: '🌑', nom: 'Ombre' },   { emoji: '✨', nom: 'Sacré' },
+  { emoji: '📚', nom: 'Savoir' },  { emoji: '🪨', nom: 'Terre' },
+  { emoji: '☢️', nom: 'Toxique' }, { emoji: '💢', nom: 'Vide' },
+  { emoji: '❤️', nom: 'Vie' },     { emoji: '👁️', nom: 'Vision' },
+];
+
 function SortModal({ initialValues, onSave, onClose }) {
   const isEdit = !!initialValues;
   const [nom, setNom] = useState(initialValues?.nom || '');
   const [difficulte, setDifficulte] = useState(initialValues?.difficulte || '');
   const [drain, setDrain] = useState(initialValues?.drain || '');
   const [ecole, setEcole] = useState(initialValues?.ecole || '');
-  const [domaines, setDomaines] = useState(initialValues?.domaines || '');
+  const [domaines, setDomaines] = useState(() => {
+    if (!initialValues?.domaines) return [];
+    return initialValues.domaines.split(',').map(s => s.trim()).filter(Boolean);
+  });
   const [description, setDescription] = useState(initialValues?.description || '');
   const [effets, setEffets] = useState(initialValues?.effets || '');
+
+  const toggleDomaine = (emoji) => {
+    setDomaines(prev => prev.includes(emoji) ? prev.filter(x => x !== emoji) : [...prev, emoji]);
+  };
 
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) onClose();
@@ -228,8 +260,8 @@ function SortModal({ initialValues, onSave, onClose }) {
     setNom(spell.title || '');
     setDifficulte(spell.difficulty || '');
     setDrain(spell.drain || '');
-    setEcole((spell.schools || []).join(', '));
-    setDomaines((spell.domains || []).join(', '));
+    setEcole((spell.schools || [])[0] || '');
+    setDomaines(spell.domains || []);
     setDescription(spell.description || '');
 
     // Effets : une ligne par mot, puis les notes
@@ -246,7 +278,7 @@ function SortModal({ initialValues, onSave, onClose }) {
 
   const handleSubmit = () => {
     if (!nom.trim()) return;
-    const data = { nom: nom.trim(), difficulte, drain, ecole, domaines, description, effets };
+    const data = { nom: nom.trim(), difficulte, drain, ecole, domaines: domaines.join(', '), description, effets };
     onSave(isEdit ? { ...initialValues, ...data } : data);
   };
 
@@ -280,12 +312,14 @@ function SortModal({ initialValues, onSave, onClose }) {
             </div>
             <div className="info-field">
               <label>École</label>
-              <input
-                type="text"
+              <select
                 className="info-input"
                 value={ecole}
                 onChange={(e) => setEcole(e.target.value)}
-              />
+              >
+                <option value="">— Aucune —</option>
+                {ECOLES.map(e => <option key={e} value={e}>{e}</option>)}
+              </select>
             </div>
             <div className="info-field">
               <label>Difficulté</label>
@@ -307,13 +341,19 @@ function SortModal({ initialValues, onSave, onClose }) {
             </div>
             <div className="info-field sort-modal-full">
               <label>Domaines</label>
-              <input
-                type="text"
-                className="info-input"
-                value={domaines}
-                onChange={(e) => setDomaines(e.target.value)}
-                placeholder="ex: ❄, 🔥"
-              />
+              <div className="domaines-picker">
+                {DOMAINES.map(d => (
+                  <button
+                    key={d.emoji}
+                    type="button"
+                    className={`domaine-btn${domaines.includes(d.emoji) ? ' domaine-btn--selected' : ''}`}
+                    onClick={() => toggleDomaine(d.emoji)}
+                    title={d.nom}
+                  >
+                    {d.emoji}
+                  </button>
+                ))}
+              </div>
             </div>
             <div className="info-field sort-modal-full">
               <label>Description</label>
