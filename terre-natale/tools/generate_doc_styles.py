@@ -1,42 +1,44 @@
 """
-Parse src/Styles - Corpus.csv → tools/styles.json + docs/styles/index.md
+Parse tools/src/Styles - Corpus.xlsx (feuille "Corpus - Combat") → tools/styles.json + docs/styles/index.md
 Self-contained filterable HTML+JS styles compendium.
 """
-import csv, json, os
+import json, os
+import pandas as pd
 
-csv_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/src/Styles - Corpus.csv"
+xlsx_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/tools/src/Styles - Corpus.xlsx"
 json_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/tools/styles.json"
 out_path  = "/home/lutie/Projects/TTRPG_Rules/terre-natale/docs/styles/index.md"
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
 # ---------------------------------------------------------------------------
-# Parse CSV
+# Parse XLSX
 # ---------------------------------------------------------------------------
+df = pd.read_excel(xlsx_path, sheet_name="Corpus - Combat")
+
+def clean(val):
+    s = str(val).strip()
+    return "" if s.lower() == "nan" else s
+
 styles = []
-with open(csv_path, encoding="utf-8") as f:
-    reader = csv.reader(f)
-    header = next(reader)
-    for row in reader:
-        while len(row) < 6:
-            row.append("")
-        nom      = row[0].strip()
-        origines = row[1].strip()
-        pitch    = row[2].strip()
-        rang1    = row[3].strip()
-        rang2    = row[4].strip()
-        rang3    = row[5].strip()
-        if not nom:
-            continue
-        nb_rangs = sum(1 for r in [rang1, rang2, rang3] if r)
-        styles.append({
-            "nom":      nom,
-            "origines": origines,
-            "pitch":    pitch,
-            "rang1":    rang1,
-            "rang2":    rang2,
-            "rang3":    rang3,
-            "nb_rangs": nb_rangs,
-        })
+for _, row in df.iterrows():
+    nom = clean(row.get("Nom", ""))
+    if not nom:
+        continue
+    origines = clean(row.get("Origines", ""))
+    pitch    = clean(row.get("Pitch", ""))
+    rang1    = clean(row.get("Rang 1", ""))
+    rang2    = clean(row.get("Rang 2", ""))
+    rang3    = clean(row.get("Rang 3", ""))
+    nb_rangs = sum(1 for r in [rang1, rang2, rang3] if r)
+    styles.append({
+        "nom":      nom,
+        "origines": origines,
+        "pitch":    pitch,
+        "rang1":    rang1,
+        "rang2":    rang2,
+        "rang3":    rang3,
+        "nb_rangs": nb_rangs,
+    })
 
 print(f"Styles: {len(styles)}")
 print(f"Avec rang3: {sum(1 for s in styles if s['rang3'])}")

@@ -15,8 +15,12 @@ ressource_mapping = {
     ("expert", "corps"): ("PC", "PV"),
     ("expert", "mixte"): ("PC", "PE"),
     ("joker", ""): ("PK", "PC"),
+    ("joker", "esprit"): ("PK", "PS"),
     ("mage", "esprit"): ("PM", "PS"),
     ("mage", "mixte"): ("PM", "PC"),
+    ("mage", "corps"): ("PM", "PV"),
+    ("special", "special"): ("PE", "PC"),
+    ("special", "esprit"): ("PE", "PS"),
     ("science", "esprit"): ("PR", "PS"),
     ("science", "mixte"): ("PR", "PC"),
 }
@@ -139,7 +143,7 @@ if not non_reconnues.empty:
     print("⚠️ Castes ignorées (type non reconnu) :")
     print(non_reconnues[[df.columns[0], df.columns[1]]])
 
-df = df.rename(columns={
+rename_map = {
     df.columns[0]:  "Nom",
     df.columns[2]:  "Attribut1",
     df.columns[3]:  "Attribut2",
@@ -152,8 +156,12 @@ df = df.rename(columns={
     df.columns[15]: "Trait2",
     df.columns[17]: "ActionSpéciale",
     df.columns[18]: "Amélioration",
+    df.columns[20]: "Notes",
     df.columns[21]: "Entrainements",
-})
+}
+if len(df.columns) > 22:
+    rename_map[df.columns[22]] = "Description"
+df = df.rename(columns=rename_map)
 
 ordre_types = ["fondamentale", "avancée", "expert"]
 df = df[df["Type"].isin(ordre_types)]
@@ -202,8 +210,28 @@ for caste_type in ordre_types:
         markdown_lines.append(f"<strong>Trait 2</strong> : {row.get('Trait2', '')}<br>")
         markdown_lines.append(f"<strong>Action spéciale</strong> : {row.get('ActionSpéciale', '')}<br>")
         markdown_lines.append(f"<strong>Amélioration</strong> : {row.get('Amélioration', '')}<br>")
-        markdown_lines.append(f"<strong>Entraînements</strong> : {row.get('Entrainements', '')}</p>")
+
+        entrainements = str_clean(row.get("Entrainements", ""))
+        if entrainements:
+            items = [e.strip() for e in entrainements.split("/") if e.strip()]
+            if len(items) > 1:
+                ent_html = "<ul>" + "".join(f"<li>{e}</li>" for e in items) + "</ul>"
+            else:
+                ent_html = f" {entrainements}"
+            markdown_lines.append(f"<strong>Entraînements</strong> :{ent_html}</p>")
+        else:
+            markdown_lines.append("</p>")
+
         markdown_lines.append("</td></tr></table>\n")
+
+        description = str_clean(row.get("Description", ""))
+        if description:
+            markdown_lines.append(f"<blockquote><em>{description}</em></blockquote>\n")
+
+        notes = str_clean(row.get("Notes", ""))
+        if notes:
+            markdown_lines.append(f'!!! note ""\n    {notes}\n')
+
         markdown_lines.append("<hr/>\n")
 
 os.makedirs(os.path.dirname(MARKDOWN_OUTPUT), exist_ok=True)
@@ -247,6 +275,8 @@ for _, row in df.iterrows():
         "actionSpeciale":     str_clean(row.get("ActionSpéciale", "")),
         "amelioration":       str_clean(row.get("Amélioration",   "")),
         "entrainements":      str_clean(row.get("Entrainements",  "")),
+        "notes":              str_clean(row.get("Notes",          "")),
+        "description":        str_clean(row.get("Description",    "")),
     })
 
 js_lines = [

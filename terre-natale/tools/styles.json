@@ -1,7 +1,7 @@
 [
   {
     "nom": "Contrecourant",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Parade supérieure",
     "rang1": "Une parade échouée peux mener à une contre attaque désavantagée",
     "rang2": "Une parade réussie avec un degré de réussite de 1 ou plus mène à une contre attaque avantagée",
@@ -10,7 +10,7 @@
   },
   {
     "nom": "Riposte",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Riposte supérieure",
     "rang1": "Une blocage échouée peux mener à une riposte désavantagée",
     "rang2": "Une blocage réussie avec un degré de réussite de 1 ou plus mène à une riposte avantagée",
@@ -19,7 +19,7 @@
   },
   {
     "nom": "Sillage",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Conditions de la Seconde Action allégées",
     "rang1": "Une seconde action peux être menée en ayant seulement plus de vitesse que la cible mais avec un désavantage",
     "rang2": "Une seconde action menée avec 5 de vitesse de plus que nécessaire se fait avec un avantage",
@@ -28,7 +28,7 @@
   },
   {
     "nom": "Meute",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Combat avec un allié => Bonus",
     "rang1": "Contre un adversaire qui a été touché récemment par un allié via une attaque ou une tactique de mêlée les actions reçoivent un bonus de 1 jusqu'au prochain cycle",
     "rang2": "Le bonus passe à 2",
@@ -37,7 +37,7 @@
   },
   {
     "nom": "Fracture",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Ignore déviation de l'arme adverse",
     "rang1": "Contre le personnage les armes utilisées pour générer de la déviation ont une catégorie effective réduite de 1",
     "rang2": "La réduction passe à 2",
@@ -46,7 +46,7 @@
   },
   {
     "nom": "Brise-Magie",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Contre un lanceur de sort => Bonus",
     "rang1": "Contre un adversaire qui a lancé un sort récemment les actions d'attaque ou tactique reçoivent un bonus de 1 jusqu'au prochain cycle",
     "rang2": "Le bonus passe à 2",
@@ -55,7 +55,7 @@
   },
   {
     "nom": "Impassibilité",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Défenses progressives",
     "rang1": "Chaque tours qui passe les défenses sont augmentés de 1, ce bonus est remis à 0 dés lors qu'une action ciblée (agression ou même controle) est menée, maximum 1",
     "rang2": "Le bonus passe à 2",
@@ -64,7 +64,7 @@
   },
   {
     "nom": "Prédateur",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Adversaires sous rupture/DOT => Bonus",
     "rang1": "Contre un adversaire qui fait l'objet d'une condition de rupture ou de dégats continues les attaques reçoivent un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -73,7 +73,7 @@
   },
   {
     "nom": "Miroir",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Connaissance/adaptation du style adverse",
     "rang1": "Lorsque vous êtes confronté à un adversaire (vous recevez une attaque de sa part ou vous réalisez une action le visant) vous apprenez automatiquement quel est le focus de son style le cas échéant",
     "rang2": "Vous apprenez aussi son corpus",
@@ -81,8 +81,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Déconstruction",
-    "origines": "",
+    "nom": "Zenith",
+    "origines": "Arjan",
     "pitch": "Défauts adverses augmentées",
     "rang1": "Les défauts d'un style adverse sont augmentés de 1 face à vous",
     "rang2": "Le malus passe à 2",
@@ -91,7 +91,7 @@
   },
   {
     "nom": "Neutralisation",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Ignore les advantages du style adverse",
     "rang1": "Le style dont profite vos adversaires contre vous est réduit de 1, le défaut est maintenu cependant",
     "rang2": "Le malus passe à 2",
@@ -100,7 +100,7 @@
   },
   {
     "nom": "Cavalcade",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Charge => Bonus",
     "rang1": "Une charge menée sur au moins la moitié de sa distance et en ligne droite permet d'obtenir un bonus au test d'attaque ou de tactique qui suit de 1",
     "rang2": "Le bonus passe à 2",
@@ -109,7 +109,7 @@
   },
   {
     "nom": "Enracinement",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Position statique => Bonus (mêlée)",
     "rang1": "Chaque tours qui passe les actions de mêlée profitent d'un bonus de 1, ce bonus est remis à 0 dés lors qu'un déplacement est mené, maximum 1",
     "rang2": "Le bonus passe à 2",
@@ -118,7 +118,7 @@
   },
   {
     "nom": "Torrent",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Position mobile => Bonus (mêlée)",
     "rang1": "Chaque tours qui passe les actions de mêlée profitent d'un bonus de 1, ce bonus est remis à 0 si le personnage ne s'est pas déplacé d'au moins 5c le tour précédent, maximum 1",
     "rang2": "Le bonus passe à 2",
@@ -127,16 +127,16 @@
   },
   {
     "nom": "Épuisement",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Contre adversaire qui s'est défendu => Bonus (mêlée)",
-    "rang1": "Contre un adversaire qui a fait l'objet d'une défense réussie la prochaine attaques de mêlée reçoit un bonus de 1 jusqu'au prochain cycle",
+    "rang1": "Contre un adversaire qui a fait l'objet d'une défense réussie la prochaine attaques de mêlée reçoit un bonus de 1 jusqu'au prochain cycle, de plus le personnage profite d'autant en criticité pour cette attaque",
     "rang2": "Le bonus passe à 2",
     "rang3": "Le bonus passe à 3",
     "nb_rangs": 3
   },
   {
     "nom": "Miasme",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Zone de confusion",
     "rang1": "Action Simple: Découpez une fleurs (stockée préalablement dans l'inventaire) : Faites un test de tactique + préparation + ruse : Pour un cycle entier tous les combattants dans une zone de 5 cases autour de la case où l'action a eu lieu ou attaqués depuis cette même zone reçoivent un bonus ou un malus (au choix) équivalant aux DR en défenses, le personnage est affecté par ces effets, ces effets peuvent être réduits par des effets qui réduisent les pénalités liés à la visibilité",
     "rang2": "Le bonus ou malus augmente de 1",
@@ -145,7 +145,7 @@
   },
   {
     "nom": "Symbiose",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Arme évoquée => Bonus progressif",
     "rang1": "Chaque tours passait à combattre avec une même arme conjurée octroie un bonus de 1 aux actions réalisées avec celle ci, maximum 1",
     "rang2": "Le bonus passe à 2",
@@ -154,7 +154,7 @@
   },
   {
     "nom": "Pénétration",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Arme perforante => Visée accrue",
     "rang1": "En combattant avec une arme perforante le personnage profite d'un bonus de visée de 1",
     "rang2": "Le bonus passe à 2",
@@ -163,7 +163,7 @@
   },
   {
     "nom": "Domination",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Arme contondante => Maitrise accrue",
     "rang1": "En combattant avec une arme contondante le personnage profite d'un bonus de maitrise de 1",
     "rang2": "Le bonus passe à 2",
@@ -172,7 +172,7 @@
   },
   {
     "nom": "Ravage",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Arme tranchante => Gravité accrue",
     "rang1": "En combattant avec une arme tranchante le personnage profite d'un bonus de gravité (des blessures) de 2",
     "rang2": "Le bonus passe à 4",
@@ -181,16 +181,16 @@
   },
   {
     "nom": "Impitoyable",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Contre adversaire ayant raté une défense => Bonus (mêlée)",
-    "rang1": "Contre un adversaire qui a raté une défense la prochaine attaques de mêlée reçoit un bonus de 1",
+    "rang1": "Contre un adversaire qui a raté une défense la prochaine attaques de mêlée reçoit un bonus de 1 jusqu'au prochain cycle, de plus le personnage profite d'autant en criticité pour cette attaque",
     "rang2": "Le bonus passe à 2",
     "rang3": "Le bonus passe à 3",
     "nb_rangs": 3
   },
   {
     "nom": "Résonance",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Cible touchée par matéria => Bonus",
     "rang1": "Contre un adversaire qui a été touché par une magie offensive issus d'une matéria la prochaine attaque reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -199,7 +199,7 @@
   },
   {
     "nom": "Maléfice",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Conditions boostées",
     "rang1": "Les conditions infligées profitent d'un jet assuré (minimum des dés 3)",
     "rang2": "Les conditions infligées sont majorés (+1 par dés)",
@@ -208,7 +208,7 @@
   },
   {
     "nom": "Acuité",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Attaque => Catégorie naturelle +",
     "rang1": "Dans le cadre de ses actions d'attaques le personnage dispose d'une catégorie naturelle augmentée jusqu'à +1",
     "rang2": "Le bonus passe à 2",
@@ -217,7 +217,7 @@
   },
   {
     "nom": "Carapace",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Défense => Catégorie naturelle +",
     "rang1": "Dans le cadre de ses actions de défenses le personnage dispose d'une catégorie naturelle augmentée jusqu'à +1",
     "rang2": "Le bonus passe à 2",
@@ -226,7 +226,7 @@
   },
   {
     "nom": "Intuition",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Tactique => Catégorie naturelle +",
     "rang1": "Dans le cadre de ses actions tactiques le personnage dispose d'une catégorie naturelle augmentée jusqu'à +1",
     "rang2": "Le bonus passe à 2",
@@ -235,7 +235,7 @@
   },
   {
     "nom": "Intimidation",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Zone de menace boostée",
     "rang1": "La zone de menace du personnage augmente de moitié, minimum 2",
     "rang2": "Avoir une zone de menace > zone de contrôle +5 mène à un avantage à l'opportunité",
@@ -244,7 +244,7 @@
   },
   {
     "nom": "Gardien",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Zone de contrôle boostée",
     "rang1": "La zone de contrôle du personnage augmente de moitié, minimum 2",
     "rang2": "Peux se défendre des opportunités normalement",
@@ -253,7 +253,7 @@
   },
   {
     "nom": "Destrier",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Combat monté => Bonus (1f/round)",
     "rang1": "Une fois par round, lorsque le personnage est à dos de destrier il reçoit un bonus de 1 à ses tests d'attaque en combat",
     "rang2": "Le bonus passe à 2",
@@ -262,7 +262,7 @@
   },
   {
     "nom": "Pugiliste",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Endurance boostée",
     "rang1": "Lorsque le personnage perd de l'endurance il réduit cette perte de 2",
     "rang2": "L'endurance peux servir à améliorer les sauvegardes de et en combat (même prorata que pour une amélioration de compétence sauf qu'ici ça se fait après le test), maximum +2",
@@ -271,7 +271,7 @@
   },
   {
     "nom": "Discernement",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Défenses réussies => Stack d'ajustement",
     "rang1": "Lorsque le personnage réussie une défense contre un adversaire il gagne un stack, chaque stack lui offre un bonus d'ajustement à ses actions contre cette cible de 1, maximum 2, les stacks sont perdues si le personnage n'en gagne pas durant un tour complet contre ce même adversaire",
     "rang2": "Maximum 4",
@@ -280,7 +280,7 @@
   },
   {
     "nom": "Exploitation",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Conditions adverses => Bonus",
     "rang1": "Le personnage profite d'un bonus à ses actions équivalant aux nombres de conditions qui affectent son adversaire, maximum 1",
     "rang2": "Maximum 2",
@@ -289,7 +289,7 @@
   },
   {
     "nom": "Avant-Garde",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Défense => Génère de la garde (soi/allié proches)",
     "rang1": "Une défense octroie 2 points de garde à soi et aux alliés à proximité",
     "rang2": "Le gain passe à 4",
@@ -298,7 +298,7 @@
   },
   {
     "nom": "Cadence",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Combat hybride Distance/Mêlée => Bonus (sur un cycle)",
     "rang1": "Contre un adversaire qui a été touché récemment via une attaque à distance les attaques de mêlée reçoivent un bonus de 1 jusqu'au prochain cycle",
     "rang2": "Le bonus passe à 2",
@@ -307,7 +307,7 @@
   },
   {
     "nom": "Marquage",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Combat hybride Distance/Mêlée => Avantage (une fois)",
     "rang1": "Une cible touchée par une attaque à distance ou de jet reçoit un marqueur, les attaques de mêlée sur un adversaire avec marqueur sont avantagés et le marqueur est défaussé",
     "rang2": "Une même cible peux avoir plusieurs marqueurs à la fois",
@@ -316,7 +316,7 @@
   },
   {
     "nom": "Contrecoup",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Contre attaque plus puissante selon dégats absorbés",
     "rang1": "Lorsqu'une parade est réussie la moitié des dégats au delà de Catégorie de l'Arme employée x 5 sont ajoutés à une potencielle contre attaque si un désavantage est pris intentionnellement, ce bonus est limité à 1/4 des dégats de la contre attaque",
     "rang2": "Le calcule se base sur Catégorie x 4, au mieux le bonus peux être de 1/3",
@@ -325,7 +325,7 @@
   },
   {
     "nom": "Vigueur",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Récupération d'endurance par tour",
     "rang1": "Au début du tour le personnage récupère jusqu'à 1/5 de son endurance manquante, reçoit en contre partie 1 PF tous les 3 points récupérés ainsi",
     "rang2": "Au début du tour le personnage récupère 1/4 de son endurance manquante",
@@ -334,16 +334,25 @@
   },
   {
     "nom": "Débordement",
-    "origines": "",
-    "pitch": "J'ai rien compris, tout simplement...",
-    "rang1": "Chaque attaque de mêlée (non restreinte) qui porte avec une arme lourde réduit l'endurance actuelle dépassant les 3/4 de l'endurance maximale de 1/3, maximum équivalant du quart des dégats de l'attaque",
-    "rang2": "La perte est de 1/2, maximum 1/3",
-    "rang3": "L'endurance perdue se base sur ce qui dépasse de la moitié du maximum de l'endurance, maximum 1/2",
+    "origines": "Keld",
+    "pitch": "Arme lourde vs cible avec beaucoups de PE => Attrition ++",
+    "rang1": "Chaque attaque de mêlée (non restreinte) qui porte avec une arme lourde reçoit un bonus d'attrition équivalant à 1D8, ne s'applique que si la cible a des PE actuels supérieurs à la moitié de ses PE maximum et plus de PE actuels que le personnage",
+    "rang2": "Le bonus passe à 2D8",
+    "rang3": "Le bonus passe à 3D8",
     "nb_rangs": 3
   },
   {
-    "nom": "Résilience",
-    "origines": "",
+    "nom": "Secousse",
+    "origines": "Arjan",
+    "pitch": "Cible choquée => Attrition ++",
+    "rang1": "Chaque attaque de mêlée (non restreinte) qui porte sur une cible choquée reçoit un bonus d'attrition de 1D8",
+    "rang2": "Le bonus passe à 2D8",
+    "rang3": "Le bonus passe à 3D8",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Égide",
+    "origines": "Atlas",
     "pitch": "Défense ratée => Avantage jusqu'à réussite",
     "rang1": "Lorsque le personnage rate une action de défense armée il reçoit un marqueur, tant qu'il a un marqueur sa défense armée est avantagée et il perd un marqueur",
     "rang2": "Tant qu'il ne réussie pas une défense armée le personnage garde ses marqueurs, qui s'accumulent donc jusqu'à réussite",
@@ -351,8 +360,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Égide",
-    "origines": "",
+    "nom": "Tortue",
+    "origines": "Outreterre",
     "pitch": "Bouclier => Un blocage gratuit",
     "rang1": "Une fois par tour le personnage peux réaliser une action de blocage gratuitement, elle ne compte pas dans sa limite d'action rapide par tour, le blocage en question est restreint et désavantagé",
     "rang2": "L'action en question n'est plus désavantagé",
@@ -360,8 +369,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Tortue",
-    "origines": "",
+    "nom": "Citadelle",
+    "origines": "Outreterre",
     "pitch": "Deux boucliers => Blocage combinés",
     "rang1": "Le bouclier en main directrice n'entraine pas de pénalités notables dû au fait que c'est une mauvaise main pour ce type d'armes",
     "rang2": "Lorsqu'il porte un bouclier en main directrice et non directrice le personnage est en mesure d'utiliser deux actions de défenses en même temps sur une même attaque avec chaque boucliers",
@@ -369,8 +378,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Ricochet",
-    "origines": "",
+    "nom": "Guetteur",
+    "origines": "Arjan",
     "pitch": "Bouclier comme arme de jet",
     "rang1": "Une fois par tour le personnage peux utiliser son bouclier comme s'il s'agissait d'une arme de jet, le bouclier reviens dans sa main qu'il touche ou non sa cible, l'attaque est resteinte et désavantagée",
     "rang2": "L'action en question n'est plus désavantagé",
@@ -378,8 +387,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Guetteur",
-    "origines": "",
+    "nom": "Leurre",
+    "origines": "Rosaï",
     "pitch": "Actions d'opportunités boostées",
     "rang1": "Les actions d'opportunité cout 1 d'initiative en moins",
     "rang2": "Les actions d'opportunité reçoivent un bonus de 1",
@@ -387,8 +396,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Leurre",
-    "origines": "",
+    "nom": "Dérobade",
+    "origines": "Rosaï",
     "pitch": "Petite attaque => Meilleure contre attaque à venir",
     "rang1": "Les attaques de main directrice peuvent s'infliger une pénalité de catégorie de 1, la cible est alors marquée, la prochaine contre attaque sur la cible marquée se fera avec une catégorie effective augmentée de 2",
     "rang2": "La pénalité peux être de 2 et le bénéfice de 4",
@@ -396,8 +405,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Dérobade",
-    "origines": "",
+    "nom": "Légèreté",
+    "origines": "Rosaï",
     "pitch": "Petite attaque => Meilleure riposte à venir",
     "rang1": "Les attaques de main directrice peuvent s'infliger une pénalité de catégorie de 1, la cible est alors marquée, le prochain blocage contre la cible marquée se fera avec une catégorie effective augmentée de 2",
     "rang2": "La pénalité peux être de 2 et le bénéfice de 4",
@@ -405,8 +414,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Légèreté",
-    "origines": "",
+    "nom": "Impact",
+    "origines": "Arjan",
     "pitch": "Bouclier léger => Blocage = défense +",
     "rang1": "Après un blocage réussie réalisé à l'aide d'un bouclier léger la défense passive physique augmente de 1 jusqu'au prochain round du personnage (non cumulable)",
     "rang2": "Le bonus passe à 2",
@@ -414,8 +423,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Impact",
-    "origines": "",
+    "nom": "Rempart",
+    "origines": "Albalion",
     "pitch": "Bouclier intermédiaire => Blocage = impact +",
     "rang1": "Après un blocage réalisé à l'aide d'un bouclier intermédiaire les jets d'impact (actions tactiques) physique augmente de 1 jusqu'au prochain round du personnage (non cumulable), chaque nouveau blocage au delà du premier augmente de 1 ce bonus jusqu'à un maximum de 3 ce qui relance la durée",
     "rang2": "Le maximum passe à 5",
@@ -423,8 +432,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Rempart",
-    "origines": "",
+    "nom": "Acier",
+    "origines": "Outreterre",
     "pitch": "Bouclier lourd => Blocage = résistance +",
     "rang1": "Après un blocage réalisé à l'aide d'un bouclier lourd la résistance physique augmente de 1 jusqu'au prochain round du personnage (non cumulable), chaque nouveau blocage (réussie ou non) au delà du premier augmente de 1 ce bonus jusqu'à un maximum de 3 ce qui relance la durée",
     "rang2": "Le maximum passe à 5",
@@ -433,7 +442,7 @@
   },
   {
     "nom": "Fantôme",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Armure légère => Esquive (passive) = Opportunités",
     "rang1": "En armure légère les attaques qui échouent à passer la défense passif du personnage génère des opportunités (désavantagée)",
     "rang2": "Les opportunités générées ne sont plus désavantagées",
@@ -442,7 +451,7 @@
   },
   {
     "nom": "Vivacité",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Arme légère => Attaque répétée = Criticité +",
     "rang1": "Avec une arme légère les attaque normale (non restreinte) réussie sur la même cible marque celle ci, ces marqueurs s'accumulent, à tous moment le personnage dispose d'un bonus de +1 en criticité par marqueurs pour ses attaques, maximum +2, lorsqu'un critique surviens les marqueurs sont supprimés",
     "rang2": "Le maximum passe à +4, un critique réduit les marqueurs de 2 au lieu de tous les supprimer",
@@ -451,7 +460,7 @@
   },
   {
     "nom": "Persévérance",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Blocage (rapide) échoués moins pénalisants",
     "rang1": "Un blocage effectué en action rapide qui échoue redonne 1 point d'initiative, il ne peux être récupéré plus que les points utilisés pour l'action de cette manière, le personnage reçoit un marqueur et chaque marqueur octroie +1 au blocage (maximum 2), les marqueurs sont supprimés sur un blocage réussie",
     "rang2": "Le regain est de 2 points d'initiative, le personnage peux stocker jusqu'à 4 marqueurs",
@@ -460,16 +469,16 @@
   },
   {
     "nom": "Transcendance",
-    "origines": "",
-    "pitch": "A Corriger",
-    "rang1": "Chaque tours le personnage gagne des PV temporaires à hauteur du tiers de ce qui lui manque (les PV temporaires ne se cumulent pas), changer ou perdre le style met un terme à ces PV temporaires",
+    "origines": "Outreterre",
+    "pitch": "Personnage non indemne => PV (puis PE) temporaires",
+    "rang1": "Chaque tours le personnage gagne des PV temporaires à hauteur du tiers de ce qui lui manque (les PV temporaires ne se cumulent pas), changer ou perdre le style met un terme à ces PV temporaires (ou autre ressources ainsi générées), maximum de ressources ainsi générées 7",
     "rang2": "Chaque fois que le personnage perd des PV il reçoit le tiers en soin de PE temporaires",
-    "rang3": "Le regain passe à la moitié des PV perdus et le gain de PE temporaires est basé sur la moitié des PVs perdus",
+    "rang3": "Le regain passe à la moitié des PV perdus et le gain de PE temporaires est basé sur la moitié des PVs perdus, le maximum passe à 10",
     "nb_rangs": 3
   },
   {
     "nom": "Omniscience",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Débloque toutes les manoeuvres",
     "rang1": "En augmente les pénalités de 2 le personnage peux réaliser une manoeuvre sans la connaitre et sans désavantages",
     "rang2": "Lorsqu'il fait appel à des manoeuvres qu'il connait le personnage reçoit un bonus de 1 aux tests",
@@ -478,7 +487,7 @@
   },
   {
     "nom": "Contamination",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Conditions splash",
     "rang1": "Lorsque vous infligez une condition de rupture jusqu'à un adversaire à proximité de la cible subit également cette condition avec la moitié du jet (la cible a le droit à un test de sauvegarde)",
     "rang2": "Jusqu'à deux cibles peuvent être affectées OU le jet est réduit de 1/3 seulement",
@@ -487,7 +496,7 @@
   },
   {
     "nom": "Vitalité",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Charge => PV temporaires",
     "rang1": "Lorsque le personnage charge il reçoit 2 PV temporaires, doublé si il arrive à proximité d'un adversaire",
     "rang2": "Il reçoit 3 PV à la place",
@@ -496,7 +505,7 @@
   },
   {
     "nom": "Porte-Voix",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Cri de guerre => PE temporaires",
     "rang1": "Lorsque le personnage réalise une action de cri accorde aux alliés alentours un gain de 2 PE temporaires, doublé si l'allié est à proximité",
     "rang2": "Le gain monte à 3",
@@ -505,7 +514,7 @@
   },
   {
     "nom": "Rugissement",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Cri de guerre => Attrition",
     "rang1": "Lorsque le personnage réalise une action de cri inflige aux adversaires alentours une perte de 2 PE, doublé si la cible est à proximité",
     "rang2": "La perte monte à 3",
@@ -514,115 +523,106 @@
   },
   {
     "nom": "Rupture",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Attaque => Fait perdre condition positive ou posture",
-    "rang1": "Lorsque le personnage réalise une attaque ou une tactique affichant 2 DR (10+) sur un adversaire il peux essayer de lui faire perdre sa posture en cours s'il en avait une, sinon il peux provoquer une décharge sur une condition positive de ce dernier à place, dans les deux cas la cible peux réaliser un test de sauvegarde de réflexes (la perte de la posture est annulée sur une réussite, la décharge est modulée par la réussite/échec du test)",
-    "rang2": "La décharge est doublée OU l'effet peux survenir sur une action dont le DR est de 1 à la place (5+)",
-    "rang3": "La décharge est triplée OU l'effet surviens sur n'importe quelle action appropriée réussite",
+    "rang1": "Lorsque le personnage réalise une attaque ou une tactique affichant 2 DR (10+) sur un adversaire il peux essayer de lui faire perdre sa posture en cours s'il en avait une, sinon il peux provoquer une décharge de 2D8 à toute les conditions positive de ce dernier à place, sinon il peux provoquer la condition \"faiblesse\" avec 2D8  charges dans tous cas la cible peux réaliser un test de sauvegarde approprié soit réflexes, détermination ou robustesse respectivement (la perte de la posture est annulée sur une réussite, la décharge est modulée par la réussite/échec du test)",
+    "rang2": "Les charges sont de 3D8 OU les effets peuvent survenir sur une action dont le DR est de 1 à la place (5+)",
+    "rang3": "Les sauvegardes adverses sont désavantagées contre les effets de ce style",
     "nb_rangs": 3
   },
   {
     "nom": "Exotisme",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une arme exotique, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Exodique => Condition (fracture)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une arme exotique, ce dernier subit la condition \"fracture\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Lacération",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une arme flexible, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Flexible => Condition (exposé)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une arme exotique, ce dernier subit la condition \"exposé\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Saignement",
-    "origines": "",
-    "pitch": "saignement",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une épée, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Epée => Condition (saignement)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une épée, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Affaiblissement",
-    "origines": "",
-    "pitch": "faiblesse (d8 de dégats infligés en moins)",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une mace, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Masse => Condition (léthargie)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une mace, ce dernier subit la condition \"léthargie\" (réduit les D8 d'attaque) avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Entrave",
-    "origines": "",
-    "pitch": "handicape (mvt réduit)",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une lance, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Lance => Condition (infirmité)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une lance, ce dernier subit la condition \"infirmité\" (réduit l'allure) avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Déchirure",
-    "origines": "",
-    "pitch": "vulné (d8 de dégats subit en plus)",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une hache, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Hache => Condition (vulnérabilité)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une hache, ce dernier subit la condition \"vulnérabilité\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Toxine",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une dague, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Dague => Condition (poison)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une dague, ce dernier subit la condition \"poison\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
-    "nom": "Fièvre",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'un arc, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "nom": "Infirmité",
+    "origines": "Morr",
+    "pitch": "Arc => Condition (infirmité)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'un arc, ce dernier subit la condition \"???\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Concussion",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'un arbalète, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Arbalète => Condition (fragile)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'un arbalète, ce dernier subit la condition \"???\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Traumatisme",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une arme de poing, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
-    "rang2": "Les charges sont basées sur 50% du jet",
-    "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
-    "nb_rangs": 3
-  },
-  {
-    "nom": "Déluge",
-    "origines": "",
-    "pitch": "TODO conditions",
-    "rang1": "Lorsque le personnage réalise une attaque sur un adversaire à l'aide d'une arme d'épaule, ce dernier subit la condition \"saignement\" avec 25% du jet en charges",
+    "origines": "Morr",
+    "pitch": "Sans arme => Condition (faiblesse)",
+    "rang1": "Lorsque le personnage réalise une attaque avec succés sur un adversaire à l'aide d'une arme de poing, ce dernier subit la condition \"???\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
     "rang3": "La cible est désavantagée sur son test de sauvegarde associé à la condition (via cet effet)",
     "nb_rangs": 3
   },
   {
     "nom": "Ambidextrie",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Combat à deux armes => Main non directrice plus difficile à défendre",
     "rang1": "Lorsque le personnage réalise une attaque de sa main non directrice après avoir réalisé une attaque de son arme directrice les défenses actives opposées à cette première sont désavantagées, et vice versa, dans tous les cas ces attaques doivent avoir lieu dans le même round et ne peuvent pas être des attaques d'opportunités",
     "rang2": "Il est impossible de se défendre activement de la main non directrice si la première n'a pas touché, les défenses sont désavantagées si une première attaque de la main non directrice n'a pas touché",
@@ -631,7 +631,7 @@
   },
   {
     "nom": "Fragilisation",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Profiter de l'armure dégradée => Bonus attaque/tact",
     "rang1": "Les attaques et tactiques du personnages reçoivent un bonus de 1 si l'armure de la cible est dégradrée d'au moins un niveau",
     "rang2": "Le bonus passe à 2 si l'armure est dégradée d'au moins 2 niveaux",
@@ -640,7 +640,7 @@
   },
   {
     "nom": "Adaptation",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Profiter de l'arme dégradée => bonus défense",
     "rang1": "Les défenses du personnages reçoivent un bonus de 1 si l'arme de la cible est dégradrée d'au moins un niveau",
     "rang2": "Le bonus passe à 2 si l'arme est dégradée d'au moins 2 niveaux",
@@ -649,7 +649,7 @@
   },
   {
     "nom": "Démolisseur",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Dégradation infligée augmentée",
     "rang1": "Lorsque le personnage dégrade un équipement il augmente la dégradation de 2",
     "rang2": "Le bonus passe à 4",
@@ -658,7 +658,7 @@
   },
   {
     "nom": "Trempe",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Dégradation subit réduite",
     "rang1": "Lorsque le personnage voit son équipement subir de la dégradation il réduit celle ci de 2",
     "rang2": "Le bonus passe à 4",
@@ -667,7 +667,7 @@
   },
   {
     "nom": "Corrosion",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Dégradation => Attrition",
     "rang1": "Lorsque le personnage provoque une augmentation du niveau de dégradation d'un objet son porteur subit une perte de 2 PE immédiats",
     "rang2": "La perte monte à 3",
@@ -676,7 +676,7 @@
   },
   {
     "nom": "Fougue",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Délais de la fatigue",
     "rang1": "Lorsque le personnage acquière de la fatigue durant une confrontation, il est en mesure de retenir 1 point de cet augmentation afin de ne l'appliquer qu'à la fin de la confrontation, évitant ainsi les possibles pénalités que devrait engendrer la fatigue en question, il peux mettre de coté jusqu'à 4 points de fatigue de la sorte",
     "rang2": "Le personnage peux délayer 2 points de fatigue de la sorte",
@@ -685,7 +685,7 @@
   },
   {
     "nom": "Surplomb",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Cible en contre bas => Bonus",
     "rang1": "Contre un adversaire qui est situation en contre bas (les pieds de l'attaquant sont situés au dessus de la tête de sa cible) le personnage reçoit un bonus de 1 à ses tests de combat",
     "rang2": "Le bonus passe à 2",
@@ -694,7 +694,7 @@
   },
   {
     "nom": "Adrénaline",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Fatigue => PE temporaires",
     "rang1": "Lorsque le personnage reçoit de la fatigue il reçoit également des PE temporaires équivalants",
     "rang2": "Le regain de PE temporaires est doublé",
@@ -703,7 +703,7 @@
   },
   {
     "nom": "Polyvalence",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Technique via n'importe quelles armes",
     "rang1": "Le personnage peux réaliser des manoeuvres avec n'importe quelles armes en s'imposant un malus de 4",
     "rang2": "Le malus passe à 2",
@@ -712,7 +712,7 @@
   },
   {
     "nom": "Refuge",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Bouclier => meilleure couverture",
     "rang1": "Le personnage profite d'un angle de protection de 240° (au lieu de 180) via son bouclier",
     "rang2": "L'angle passe à 300°",
@@ -721,7 +721,7 @@
   },
   {
     "nom": "Forteresse",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Bouclier => défense à distance",
     "rang1": "Le personnage reçoit un bonus de défense passive et active de 1 contre les attaques à distance",
     "rang2": "Le bonus passe à 2",
@@ -730,7 +730,7 @@
   },
   {
     "nom": "Bastion",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Bouclier => défense minimum",
     "rang1": "Le personnage reçoit un bonus de défense minimum de 1, mais l'angle de protection de son bouclier est divisé par 2 (90°), il ne protège donc plus que devant soi",
     "rang2": "Le bonus passe à 2",
@@ -739,7 +739,7 @@
   },
   {
     "nom": "Marteau-Bouclier",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Bouclier => défense critique peux stun",
     "rang1": "Lorsque le personnage réalise une défense critique via son bouclier, ce dernier subit la condition \"étourdissement\" avec 25% du jet en charges",
     "rang2": "Les charges sont basées sur 50% du jet",
@@ -748,7 +748,7 @@
   },
   {
     "nom": "Avant-Poste",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Bouclier => Bonus de garde",
     "rang1": "Lorsque le personnage porte un bouclier il génère 2 points de garde supplémentaires par actions \"Monter sa garde\" et son maximum de points de garde augmente de 5",
     "rang2": "Le bonus de garde augmente de 1 et le maximum de 2",
@@ -757,7 +757,7 @@
   },
   {
     "nom": "Conversion",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Bouclier => Défense = Garde",
     "rang1": "Lorsque le personnage réalise une défense via son bouclier il peux recevoir 2 points de garde, si la défense est critique il peux recevoir jusqu'à 1 points de garde en plus",
     "rang2": "Le gain est augmenté de 1, le gain critique également",
@@ -766,7 +766,7 @@
   },
   {
     "nom": "Déflexion",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Bouclier => anti critique",
     "rang1": "Lorsque le personnage porte un bouclier les adversaires ont une criticité réduite de 1 contre lui, de plus les jets critiques reçus sont réduits de 2, ces bonus sont doublés lorsqu'une action de défense sont réalisées via ce bouclier",
     "rang2": "Les bonus sont doublés",
@@ -775,7 +775,7 @@
   },
   {
     "nom": "Désarmement",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Arme Légère => défense critique peux désarmer",
     "rang1": "Lorsque le personnage réalise une défense critique via une arme légère, ce dernier est désarmé, l'arme tombe au pieds de ce dernier",
     "rang2": "L'arme tombe à 1D6 mètres dans une direction aléatoire",
@@ -784,7 +784,7 @@
   },
   {
     "nom": "Revers",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Main Gauche => contre attaque d'attrition",
     "rang1": "Lorsque le personnage est en mesure de réaliser une contre attaque via une main gauche, il peux à la placer réaliser une représaille : Le test est identique mais l'attaque résultant est totalement convertie en attrition, cependant l'attaque voit sa catégorie réduite de 1",
     "rang2": "Pas de pénalité de catégorie",
@@ -793,7 +793,7 @@
   },
   {
     "nom": "Sentinelle",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Action de défense en prévention (posture)",
     "rang1": "Le personnage peux réaliser des actions de défense préventives, l'action prend la forme d'une posture qui active les effets de la défense lorsqu'une attaque surviens, la posture est annulée après une occurences de ces effets, il n'est pas possible de modifier le résultat de l'action après coup (pour s'adapter à la difficulté de l'attaque), ces actions sont désavantagées, les adversaires savent que cette posture est active et ses effets du premier coup d'oeil",
     "rang2": "Au choix: L'action de défense préventive n'est pas désavantagée, l'action de défense préventive peux être activée jusqu'à 2 fois avant que la posture ne soit annulée, l'adversaire n'est pas en mesure de reconnaitre la posture d'un coup d'oeil, une activation de la posture peux prendre la forme d'une contre attaque ou riposte (selon le cas), une défense préventive qui échoue ne compte pas dans les activations, une défense préventive qui échoue peux être remplacée par une nouvelle action de défense (cette action n'est pas gratuite)",
@@ -801,8 +801,17 @@
     "nb_rangs": 3
   },
   {
+    "nom": "Plumage",
+    "origines": "Arjan",
+    "pitch": "Arc => Dégats accrus sur cible volante",
+    "rang1": "Si le personnage porte une attaque sur une cible volante les dégats sont augmentés de 2",
+    "rang2": "Le bonus passe à 4",
+    "rang3": "Le bonus passe à 6",
+    "nb_rangs": 3
+  },
+  {
     "nom": "Acharnement",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Hache => Dégats accrus sur cible blessée",
     "rang1": "Si le personnage porte une attaque sur une cible ayant au moins une blessure via une hache les dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
@@ -811,7 +820,7 @@
   },
   {
     "nom": "Initiation",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Katar => Dégats accrus sur cible indemne",
     "rang1": "Si le personnage porte une attaque sur une cible n'ayant aucune blessure via un katar les dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
@@ -820,16 +829,16 @@
   },
   {
     "nom": "Écrasement",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Mace => Dégats accrus sur cible au sol",
-    "rang1": "Si le personnage porte une attaque sur une cible au sol les dégats sont augmentés de 2",
+    "rang1": "Si le personnage porte une attaque sur une cible au sol (ou rempante) les dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
     "rang3": "Le bonus passe à 6",
     "nb_rangs": 3
   },
   {
     "nom": "Estocade",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Epée => Dégats accrus sur cible qui viens d'être parée",
     "rang1": "Si le personnage porte une attaque sur une cible dont il a paré l'attaque ce round ci sont les dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
@@ -838,7 +847,7 @@
   },
   {
     "nom": "Brisure",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Epée => Accentus les ruptures",
     "rang1": "Si le personnage porte une attaque qui touche un adversaire doté de condition de rupture, ces dernières sont augmentées de 2 (en plus des effets normaux de l'attaque)",
     "rang2": "L'augmentation est de 4",
@@ -847,7 +856,7 @@
   },
   {
     "nom": "Allonge",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Lance => Dégats accrus si portée adverse trop faible",
     "rang1": "Si le personnage porte une attaque sur une cible doté d'une allonge plus de deux fois inférieur à la sienne les dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
@@ -856,7 +865,7 @@
   },
   {
     "nom": "Robustesse",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Mace => Attaque reçue = Rage",
     "rang1": "Lorsque le personnage reçoit une attaque (qu'il n'a pas esquivé et qui le touche) il peux recevoir 2 points de rage, si l'attaque en question est critique il peux recevoir jusqu'à 1 points en plus",
     "rang2": "Le gain est augmenté de 1, le gain critique également",
@@ -865,7 +874,7 @@
   },
   {
     "nom": "Frénésie",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Hache => Attaque = Rage",
     "rang1": "Lorsque le personnage réalise une attaque via sa hache il peux recevoir 2 points de rage, si l'attaque est critique il peux recevoir jusqu'à 1 point en plus",
     "rang2": "Le gain est augmenté de 1, le gain critique également",
@@ -874,7 +883,7 @@
   },
   {
     "nom": "Muraille",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Mace => Attaque reçue = Garde",
     "rang1": "Lorsque le personnage reçoit une attaque (qu'il n'a pas esquivé et qui le touche) il peux recevoir 2 points de garde, si l'attaque en question est critique il peux recevoir jusqu'à 1 points en plus",
     "rang2": "Le gain est augmenté de 1, le gain critique également",
@@ -883,7 +892,7 @@
   },
   {
     "nom": "Virtuosité",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Arme légère => Attaque esquivée = Adrénaline",
     "rang1": "Lorsque le personnage reçoit une attaque et qu'il l'a esquivé via une action d'esquive il peux recevoir 2 points d'adrénaline, si l'attaque en question est critique il peux recevoir jusqu'à 1 points en plus",
     "rang2": "Le gain est augmenté de 1, le gain critique également",
@@ -892,7 +901,7 @@
   },
   {
     "nom": "Exécution",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Mace => Dégats accrus si la cible est en état de choc",
     "rang1": "Si le personnage porte une attaque sur une cible en état de choc sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
@@ -901,7 +910,7 @@
   },
   {
     "nom": "Poigne",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "PE > Max PE / 2 : La poigne en trop profite aux jets",
     "rang1": "Si le personnage porte une arme dont la charge requise est inférieure à sa capacité de poigne il convertis l'excédant en bonus de jet, à raison de 1 au jet tous les 8 points de trop s'il porte le coup via une arme à une main, ou tous les 4 points s'il porte le coup via une arme à deux mains, ce bonus n'est plus appliqué si le personnage a perdu plus de la moitié de son endurance",
     "rang2": "1 tous les 6 et 3 points à la place",
@@ -910,7 +919,7 @@
   },
   {
     "nom": "Désespoir",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "PE < 0 : Bonus aux jets infligés, malus de défense accrus",
     "rang1": "Si le personnage est en état de choc il reçoit un bonus de D8 à ses jets par contre ses défenses baissent encore de 2",
     "rang2": "En état de choc les D8 ont un minimum augmenté de 2 (donc 3 par défaut)",
@@ -919,7 +928,7 @@
   },
   {
     "nom": "Enroulement",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Arme flexible permet d'approcher",
     "rang1": "Si le personnage touche une cible à l'aide d'une arme flexible il peux décider de profiter de la réussite de son attaque pour approcher de la cible et réaliser ainsi 1/3 du déplacement qui les séparent, il peux évidemment stopper le déplacement avant pour être positionné où il le souhaite",
     "rang2": "Le déplacement est désormais équivalant à 2/3",
@@ -928,7 +937,7 @@
   },
   {
     "nom": "Artificier",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Arme de jet explosif => Maitrise +",
     "rang1": "Si le personnage fait usage d'arme de jet explosive ses attaques profitent d'une maitrise et expertise augmentée de 1 (les dégats sont plus difficile à réduire via une action de défense ou via le test de réflexe)",
     "rang2": "Le bonus passe à 2",
@@ -937,7 +946,7 @@
   },
   {
     "nom": "Souffle",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Arme de jet explosif => Portée et Zone +",
     "rang1": "Si le personnage fait usage d'arme de jet explosive ses attaques ont une portée augmentée de 2",
     "rang2": "La zone d'impact d'une telle attaque est augmentée de 1",
@@ -946,7 +955,7 @@
   },
   {
     "nom": "Déflagration",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Arme de jet explosif => Dégats massifs",
     "rang1": "Si le personnage fait usage d'arme de jet explosive et que ses attaques touchent plus d'une cible alors les dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 3",
@@ -955,7 +964,7 @@
   },
   {
     "nom": "Versatilité",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Arme légère => Alternance distance/mêlée bonus",
     "rang1": "Si le personnage touche une cible à l'aide d'une arme légère il marque celle ci, sa prochaine attaque avec un type d'attaque différent (distance ou mêlée) reçoit un bonus de 2, les attaques à distance ne sont compte comme tel que si elles sont effectuées à une distance de tir supérieure à courte (pas de désavantages), la marque dure pour un cycle",
     "rang2": "Le bonus passe à 4",
@@ -964,7 +973,7 @@
   },
   {
     "nom": "Brise-Barrière",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Dégats sur barrières/déviation/garde",
     "rang1": "Lorsqu'une attaque du personnage se heurte à une barrière magique/technologique, de la déviation ou de la garde, ses dégats sont augmentés de 2",
     "rang2": "Le bonus passe à 4",
@@ -973,25 +982,25 @@
   },
   {
     "nom": "Furtivité",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Arme légère & discret/à revers => Dégats +",
-    "rang1": "Lorsqu'il porte une attaque sur une cible qui ne connait pas sa position le personnage ajoute 2 de dégats, si la cible est à revers le bonus est de 1",
+    "rang1": "Lorsqu'il porte une attaque sur une cible qui ne connait pas sa position le personnage ajoute 2 de dégats, si la cible est prise de coté le bonus est de 1",
     "rang2": "Le bonus passe à 4 et 2",
     "rang3": "Le bonus passe à 6 et 3",
     "nb_rangs": 3
   },
   {
     "nom": "Infiltration",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Arme légère & discret/à revers => Maitrise +",
-    "rang1": "Lorsqu'il porte une attaque sur une cible à revers l'attaque profite d'une maitrise augmentée de 2, si la cible est à revers le bonus est de 1",
+    "rang1": "Lorsqu'il porte une attaque sur une cible à revers l'attaque profite d'une maitrise augmentée de 2, si la cible est prise de coté le bonus est de 1",
     "rang2": "Le bonus passe à 4 et 2",
     "rang3": "Le bonus passe à 6 et 3",
     "nb_rangs": 3
   },
   {
     "nom": "Fureur",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Hache => Jets d'attaque +, le reste -",
     "rang1": "Une fois par round, si le personnage débute le round avec ce style si le personnage réalise une attaque avec une épée il profite d'un bonus de 2 aux jets, les autres jets de combat sont réduits de D8",
     "rang2": "Le bonus passe à 3",
@@ -1000,7 +1009,7 @@
   },
   {
     "nom": "Parangon",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Epées => Jets de défense +, le reste -",
     "rang1": "Une fois par round, si le personnage débute le round avec ce style le personnage réalise une défense avec une épée il profite d'un bonus de 2 aux jets, les autres jets de combat sont réduits de D8",
     "rang2": "Le bonus passe à 3",
@@ -1009,7 +1018,7 @@
   },
   {
     "nom": "Tacticien",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Lance => Jets tactique +, le reste -",
     "rang1": "Une fois par round, si le personnage débute le round avec ce style le personnage réalise une tactique avec une épée il profite d'un bonus de 2 aux jets, les autres jets de combat sont réduits de D8",
     "rang2": "Le bonus passe à 3",
@@ -1018,16 +1027,16 @@
   },
   {
     "nom": "Réservoir",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Régénère de la Garde/Rage/Adrénaline",
-    "rang1": "Chaque round le personnage voit sa Rage/Garde/Adrénaline augmenter de 1 pour 10, ces ressources ont une valeur maximale augmentée de 2",
-    "rang2": "Le regain passe à 3/10, maximum augmenté de 4",
-    "rang3": "Le regain passe à 4/10, maximum augmenté de 6",
+    "rang1": "Chaque round le personnage voit sa Rage/Garde/Adrénaline augmenter de 1 pour 4, ces ressources ont une valeur maximale augmentée de 2",
+    "rang2": "Le regain passe à 1/3, maximum augmenté de 4",
+    "rang3": "Le regain passe à 1/2, maximum augmenté de 6",
     "nb_rangs": 3
   },
   {
     "nom": "Opportuniste",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Favorise les opportunités",
     "rang1": "Le personnage réalisé ses opportunités avec un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1036,7 +1045,7 @@
   },
   {
     "nom": "Réaction",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Favorise les contre attaques",
     "rang1": "Le personnage réalisé ses contre attaques avec un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1045,7 +1054,7 @@
   },
   {
     "nom": "Feinte",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Feinte +",
     "rang1": "Si l'armure du personnage est de catégorie inférieure à l'arme adverse ses tests de feinte sont avantagés",
     "rang2": "Le personnage ignore jusqu'à un désavantage lié à l'usage de la feinte sur une même cible",
@@ -1054,7 +1063,7 @@
   },
   {
     "nom": "Voltige",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Esquive +",
     "rang1": "Si l'armure du personnage est de catégorie inférieure à l'arme adverse ses tests de esquive sont avantagés",
     "rang2": "Les opportunités générées par l'esquive sont désavantagées",
@@ -1063,7 +1072,7 @@
   },
   {
     "nom": "Vigilance",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Défenses contre les opportunités",
     "rang1": "Le personnage reçoit un bonus de 2 en défense passif contre les opportunités",
     "rang2": "Le bonus passe à 4",
@@ -1072,7 +1081,7 @@
   },
   {
     "nom": "Ancrage",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Statique => Bonus de jets",
     "rang1": "Si le personnage ne s'est pas déplacé le round dernier alors il peux profiter d'un bonus de 2 à ses jets de combat, cependant s'il le fait il ne peux plus ce déplacer ce round ci non plus",
     "rang2": "Le bonus passe à 4",
@@ -1081,7 +1090,7 @@
   },
   {
     "nom": "Élan",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Mobile => Bonus de tests",
     "rang1": "Si le personnage s'est déplacé le round dernier et s'est déplacé ce round ci aussi alors il peux profiter d'un bonus de 1 à ses tests de combat",
     "rang2": "Le bonus passe à 2",
@@ -1090,61 +1099,79 @@
   },
   {
     "nom": "Loup",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Sorceleur => école du loup",
-    "rang1": "profite des faiblesses",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 1
+    "rang1": "Chaque coups portés avec succés peux octroyer 1 point d'adrénaline, maximum une fois par rounds",
+    "rang2": "Le gain passe à 2",
+    "rang3": "Le gain passe à 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Faucon",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Sorceleur => école du faucon",
-    "rang1": "connnaisance",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 1
+    "rang1": "Si le personnage a la connaissance associé à sa cible, ses jets de combats sont augmentés d'autant que le rang de sa compétence de connaissance (maximum 1), les signes profitent de ce bonus",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Ours",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Sorceleur => école de l'ours",
-    "rang1": "tank",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 1
+    "rang1": "Chaque fois qu'il lance un signe le personnage peux générer 2 points de garde ou de rage, au choix",
+    "rang2": "Le gain passe à 4",
+    "rang3": "Le gain passe à 6",
+    "nb_rangs": 3
   },
   {
     "nom": "Chat",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Sorceleur => école du chat",
-    "rang1": "revers",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 1
+    "rang1": "Chaque coups esquivé avec succés peux octroyer 1 point d'adrénaline, maximum une fois par rounds",
+    "rang2": "Le gain passe à 2",
+    "rang3": "Le gain passe à 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Vipère",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Sorceleur => école de la vipère",
-    "rang1": "huile sur les armes, corruption réduite",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 1
+    "rang1": "Le personnage a un bonus de malice de 2 avec ses huildes et autres substances appliquées à ses armes",
+    "rang2": "Le gain passe à 4",
+    "rang3": "Le gain passe à 6",
+    "nb_rangs": 3
   },
   {
     "nom": "Griffon",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Sorceleur => école du griffon",
-    "rang1": "contre attaque ?",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 1
+    "rang1": "Le personnage peux contre attaque avec un signe",
+    "rang2": "Le personnage peux se défendre avec un signe",
+    "rang3": "Le personnage peux réaliser des opportunités avec ses signes",
+    "nb_rangs": 3
   },
   {
-    "nom": "Alchimiste",
-    "origines": "",
+    "nom": "Juggernaut",
+    "origines": "Keld",
+    "pitch": "Arme lourde => Riposte Jet +",
+    "rang1": "Les contre riposte du personnage ont bonus de jet de 2",
+    "rang2": "Le bonus passe à 4",
+    "rang3": "Le bonus passe à 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Rétribution",
+    "origines": "Keld",
+    "pitch": "Arme lourde => Contre Jet +",
+    "rang1": "Les contre attaque du personnage ont bonus de jet de 2",
+    "rang2": "Le bonus passe à 4",
+    "rang3": "Le bonus passe à 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Alchimiste de Combat",
+    "origines": "Atlas",
     "pitch": "Substances (huiles/poisons)",
     "rang1": "Lorsqu'une attaque provoque une décharge des substances enduitent sur l'arme du personnage cette décharge est réduite de 2",
     "rang2": "L'expertise associée aux substances enduitent sur l'arme du personnage augmente de 1",
@@ -1153,7 +1180,7 @@
   },
   {
     "nom": "Mage-Guerrier",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Magiliège (offensif)",
     "rang1": "Lorsque le personnage attaque il peux dépenser une action rapide afin de lancer un sort offensif de niveau 0 dont l'attaquant sera la cible unique",
     "rang2": "Le personnage peux choisir entre la possibilité de lancer le sort avec un niveau de 1 supérieur ou une réduction du drain de 4",
@@ -1161,8 +1188,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Arcane",
-    "origines": "",
+    "nom": "Bouclier Arcanique",
+    "origines": "Asura",
     "pitch": "Magiliège (défensif)",
     "rang1": "Lorsque le personnage est attaqué il peux dépenser une action rapide afin de lancer un sort défensif de niveau 0, il en sera la cible unique",
     "rang2": "Le personnage peux choisir entre la possibilité de lancer le sort avec un niveau de 1 supérieur ou une réduction du drain de 4",
@@ -1170,8 +1197,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Ténacité",
-    "origines": "",
+    "nom": "Instinct de Survie",
+    "origines": "Férale",
     "pitch": "PE < PE max /2 => Bonus",
     "rang1": "Le personnage reçoit un bonus de 1 à une de ses actions de combat par round si son endurance actuelle est inférieure à la moitié du maximum",
     "rang2": "Le bonus passe à 2",
@@ -1180,7 +1207,7 @@
   },
   {
     "nom": "Berserker",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Rage dépensée arme intermédiaire+ et sans armure => Jet +",
     "rang1": "Si le personnage porte au mieux une armure légère et au moins une arme intermédiaire, ses attaque réalisée profitant de la rage voit son jet augmenté de 1 tous les 7 points de rage dépensés",
     "rang2": "Le prorata deviens 1 pour 5",
@@ -1189,7 +1216,7 @@
   },
   {
     "nom": "Titan",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Garde dépensée avec bouclier => Jet +",
     "rang1": "Si le personnage porte au moins une armure intermédiaire et au moins une arme intermédiaire, ses défense réalisée profitant de la garde voit son jet augmenté de 1 tous les 7 points de garde dépensés",
     "rang2": "Le prorata deviens 1 pour 5",
@@ -1197,8 +1224,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Polymorphe",
-    "origines": "",
+    "nom": "Dual",
+    "origines": "Keld",
     "pitch": "Deux armes de types différents => Bonus",
     "rang1": "Si le personnage tiens une arme au moins intermédiaire d'un type (tranchant/contondant/perforant/flexible/jet) différent dans chaques mains il reçoit un ajustement de 1 à ses tests de combat, il reçoit un bonus à la place si les armes ont en prime une méthode d'utilisation différente (FOR/AGI/DEX/CON/PER), seules les armes offensives (donc pas les boucliers par example) sont considérées pour ce style",
     "rang2": "Le bonus passe à 2",
@@ -1207,7 +1234,7 @@
   },
   {
     "nom": "Duel",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Seuls face à un adversaire => Bonus",
     "rang1": "Si le personnage réalise une attaque sur un adversaire qui est seul face à lui, donc ni l'un ni l'autre n'ont d'alliés à proximité ou capable de les rejoindre d'un déplacement simple, cette attaque reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1216,7 +1243,7 @@
   },
   {
     "nom": "Démolition",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Contre structure => Différents effets",
     "rang1": "La difficulté des tests de solidité imposée par l'arme du personnage augmente de 2",
     "rang2": "Le personnage choisit un parmi: Lorsqu'un objet voit son niveau de détérioration augmenter son possesseur subit une perte de 1D8 points d'endurance; ou sa propre arme est avantagée aux tests de solidité lorsqu'elles attaquent; ou la détérioration générée augmente de 4 (avant test)",
@@ -1225,7 +1252,7 @@
   },
   {
     "nom": "Protecteur",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Alliés blessés => Bonus",
     "rang1": "Les actions de combat du personnage reçoivent un bonus de 1 lorsqu'il protège un allié blessé à proximité (ses actions doivent donc avoir pour objectif de défendre activement un tel allié)",
     "rang2": "Le bonus passe à 2",
@@ -1233,8 +1260,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Citadelle",
-    "origines": "",
+    "nom": "Dernier Rempart",
+    "origines": "Arjan",
     "pitch": "Face à plusieurs adversaires => Bonus",
     "rang1": "Si le personnage réalise une action de combat et qu'il est seul face à plusieurs adversaires à proximité, donc ces derniers sont activements orientés vers lui et les alliés du personnage sont incapable de le rejoindre d'un déplacement simple, cette attaque reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1242,62 +1269,134 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Lion",
-    "origines": "",
+    "nom": "Ordre du Lion",
+    "origines": "Albalion",
     "pitch": "Cavalier du Lion => charge +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lors d'un combat monté le personnage profite d'un bonus à de 2 à son jet d'actions s'il s'agit d'une charge (attaque ou tactique)",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
   },
   {
-    "nom": "Aile",
-    "origines": "",
+    "nom": "Ordre d'Argent",
+    "origines": "Albalion",
+    "pitch": "Combat monté => Tactique de la monture +",
+    "rang1": "La monture reçoit un bonus de 1 à ses tests de tactique, le cavalier peux à la place accorder une action de ce type gratuitement à sa monture en dépensant une action gratuite dont le cout est réduit du même montant que le bonus",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ordre d'Or",
+    "origines": "Albalion",
+    "pitch": "Combat monté => Attaque de la monture +",
+    "rang1": "La monture reçoit un bonus de 1 à ses tests d'attaque, le cavalier peux à la place accorder une action de ce type gratuitement à sa monture en dépensant une action gratuite dont le cout est réduit du même montant que le bonus",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ordre de Bronze",
+    "origines": "Albalion",
+    "pitch": "Combat monté => Défenses de la monture +",
+    "rang1": "La monture reçoit un bonus de 1 à ses tests de défense, le cavalier peux à la place accorder une action de ce type gratuitement à sa monture en dépensant une action gratuite dont le cout est réduit du même montant que le bonus",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ordre de l'Hyppogriffe",
+    "origines": "Arjan",
     "pitch": "Cavalier du Griffon => défenses +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lors d'un combat monté le personnage profite d'un bonus à ses tests de 1 à ses actions de défense",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
-    "nom": "Drakkon",
-    "origines": "",
+    "nom": "Ordre du Griffon",
+    "origines": "Arjan",
+    "pitch": "Cavalier du Griffon => + de cas d'opportunités en tactique",
+    "rang1": "Lors d'un combat monté tous les déplacements adverses, sécurisé ou non, sont considérés comme non sécurisés au regard d'opportunité strictement d'ordre tactique et réalisé uniquement à partir d'une action rapide, par ailleurs l'action rapide requise pour cette opportunité requière 2 point d'initiative en plus",
+    "rang2": "Le surcout en initiative est de 1 à la place, une action libre provoque également des opportunités",
+    "rang3": "Pas de surcout en initiative, une action souffrant d'une pénalité de -5 dû à une réitération durant une même passe est aussi un cas d'opportunité",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ordre du Drakkon",
+    "origines": "Arjan",
     "pitch": "Cavalier Drakkon => att +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lors d'un combat monté le personnage profite d'un bonus à ses tests de 1 à ses actions d'attaque",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
-    "nom": "Aube",
-    "origines": "",
+    "nom": "Ordre de l'Aube",
+    "origines": "Aube",
     "pitch": "Chevalier de l'Aube => tact +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lors d'un combat monté le personnage profite d'un bonus à ses tests de 1 à ses actions de tactique",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
-    "nom": "Pégase",
-    "origines": "",
+    "nom": "Ordre du Pégase",
+    "origines": "Arjan",
     "pitch": "Cavalier Pégase => mobilité",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lors d'un combat monté le personnage profite d'une allure augmentée de 1, de plus si il s'est déplacé lors de son round le personnage gagne ce même bonus en défense active et passive, dans tous les cas ce bonus est appliqué dans le cas des opportunités",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
-    "nom": "Derviche",
-    "origines": "",
-    "pitch": "Cavalier Derviche => opportunités ?",
-    "rang1": "",
+    "nom": "Ordre du Derviche",
+    "origines": "Morr",
+    "pitch": "Cavalier Derviche => opportunités",
+    "rang1": "Lors d'un combat monté le personnage voit ses actions d'opportunités couter 1 de moins, la catégorie de son arme est augmentée de 1 pour ce qui est de déterminée la portée des opportunités",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ordre du Wyverne",
+    "origines": "Arjan",
+    "pitch": "Cavalier du Wyverne => + de cas d'opportunités en attaque",
+    "rang1": "Lors d'un combat monté tous les déplacements adverses, sécurisé ou non, sont considérés comme non sécurisés au regard d'opportunité strictement d'ordre attaque et réalisé uniquement à partir d'une action rapide, par ailleurs l'action rapide requise pour cette opportunité requière 2 point d'initiative en plus",
+    "rang2": "Le surcout en initiative est de 1 à la place",
+    "rang3": "Pas de surcout en initiative, une action souffrant d'une pénalité de -5 dû à une réitération durant une même passe est aussi un cas d'opportunité",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Crocs",
+    "origines": "Atlas",
+    "pitch": "Arme légère => Backstab +",
+    "rang1": "Lorsqu'il porte une attaque sur une cible à revers via une arme légère l'attaque profite d'un bonus de jet de 2",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Symphonie",
+    "origines": "Rosaï",
+    "pitch": "Arme légère => Multiple attaque jet +",
+    "rang1": "Chaque attaque portée sur la même cible au delà de la première au cours d'un même round augmente le jet des suivantes de 1, cet effet se cumule jusqu'à 4 fois maximum, changer de cible entre les attaques annule cet effet",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Tactique du Loup",
+    "origines": "Rosaï",
+    "pitch": "Profite des faiblesses de la cible",
+    "rang1": "Si le personnage réalise des dégats d'un type dont la cible est vulnérable ces derniers augmentent de 2 (après modificateurs liés au type donc), ce bonus est également appliqué si le personnage attaque la cible sur son attribut physique le plus faible",
     "rang2": "",
     "rang3": "",
-    "nb_rangs": 0
+    "nb_rangs": 1
   },
   {
     "nom": "Subjugation",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Sur une cible contrôlée => Bonus",
     "rang1": "Si le personnage réalise une action de combat contre un adversaire contrôlé (au sol, désarmé, contraint, mise à porté...) cette dernière reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1306,7 +1405,7 @@
   },
   {
     "nom": "Démoralisation",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Sur une cible démoralisée => Ajustement",
     "rang1": "Si le personnage réalise une action de combat contre un adversaire démoralisé (il n'a plus de points de moral) alors celle ci reçoit un ajustement de 1, si la cible a des PS négatifs alors il s'agit d'un bonus à la place",
     "rang2": "Le bonus passe à 2",
@@ -1315,7 +1414,7 @@
   },
   {
     "nom": "Enchaînement",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Enchainement",
     "rang1": "Une fois par tour si le personnage met hors d'état de nuire une cible, il reçoit l'usufruit d'un pas de placement",
     "rang2": "A la place du pas de placement le personnage peux réaliser un déplacement ou une attaque restreinte",
@@ -1324,88 +1423,88 @@
   },
   {
     "nom": "Plénitude",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "PE >= PE Max => Ajustement",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Tant que le personnage a des PE égaux à son maximum il profite d'un bonus d'ajustement de +2 à ses tests de combat",
+    "rang2": "Pour calculer ses PE actuels le personnage peux ajouter son moral et ses PE temporaires également",
+    "rang3": "Lorsque le personnage perd son bonus d'ajustement il obtient une ACTS supplémentaire pour sa prochaine passe d'arme (une fois par confrontation)",
+    "nb_rangs": 3
   },
   {
     "nom": "Ascèse",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Sans armes/armures => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Avec ses armes naturelles le personnage voit ses jets augmentés de 1, avec son armure naturelle (seule) le personnage voit son absorption augmentée de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Danse",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Armorce \"danse\" => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage profite d'une amorce basé sur la compétence de danse il profite d'un bonus de 1 à son test",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Foulée",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Armorce \"course\" => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage profite d'une amorce basé sur la compétence de course il profite d'un bonus de maitrise de 2",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
   },
   {
     "nom": "Acrobatie",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "Armorce \"acrobatie\" => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage profite d'une amorce basé sur la compétence d'acrobatie il profite d'un bonus de défense de 2 pour toute contre attaque ou riposte à venir, l'action fait l'objet d'une défense qui inflige des dégats ces derniers sont réduits d'autant que le bonus",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
   },
   {
     "nom": "Équitation",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Armorce \"équitation\" => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage profite d'une amorce basé sur la compétence d'équitation il profite d'un bonus de 2 à son jet",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
   },
   {
     "nom": "Pilotage",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Armorce \"pilotage\" => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage profite d'une amorce basé sur la compétence de danse il profite d'un bonus de 1 à son test",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Dérision",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Armorce \"moquerie\" => Bonus",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage profite d'une amorce basé sur la compétence de moqueie il profite d'un bonus d'expertise de 2",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
   },
   {
-    "nom": "Chi",
-    "origines": "",
+    "nom": "Focus",
+    "origines": "Rosaï",
     "pitch": "Si PC utilisés => Ajustement",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Si le personnage dépense au moins 2 PC pour des prouesses sur son action, cette dernière profite d'un ajustement de +1",
+    "rang2": "Dépenser 4 PC permet d'obtenir +2 à la place",
+    "rang3": "Dépenser 6 PC permet d'obtenir +3 à la place",
+    "nb_rangs": 3
   },
   {
     "nom": "Équilibre",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Réduction des pénalités liés aux ressources temporaires",
     "rang1": "Si le personnage a de la Rage ses actions de défenses subissent un malus de 2 à la place d'un désavantage, même chose pour la Garde et les actions d'attaque ou l'Adrénaline et leurs propres actions",
     "rang2": "Le malus est de 1 à la place",
@@ -1414,7 +1513,7 @@
   },
   {
     "nom": "Cohésion",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Si alliés à proximités => Ajustement (soi et alliés)",
     "rang1": "Si le personnage dispose d'au moins un allié à proximité, il reçoit un ajustement de 1 à ses actions de combat, l'allié en question en profite également",
     "rang2": "L'ajustement est de 2",
@@ -1423,7 +1522,7 @@
   },
   {
     "nom": "Canalisation",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Arme évoquée => PM contre Jet",
     "rang1": "Lorsque le personnage réalise des actions de combat via une arme évoquée il peux dépenser 1 PM pour augmenter les jets via son arme de 1, maximum 3 PM",
     "rang2": "Le maximum passe à 5",
@@ -1432,7 +1531,7 @@
   },
   {
     "nom": "Animus",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Arme évoquée => Ajustement",
     "rang1": "Lorsque le personnage réalise des actions de combat via une arme évoquée il reçoit un ajustement de 1",
     "rang2": "L'ajustement est de 2",
@@ -1441,7 +1540,7 @@
   },
   {
     "nom": "Embrasement",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Arme évoquée => Action Offensive (attaque/tact) via PM ou sacrifice charge",
     "rang1": "Lorsque le personnage réalise des actions d'attaque ou tactique via une arme évoquée il peux dépenser des PM pour obtenir un bonus de 1, ce bonus ne peux pas dépasser la différence entre la défense passive de magie de la cible et la défense passive à laquelle s'oppose l'attaque OU 2, le plus petit des deux (donc si la défense magique de la cible est trop élevée il n'est pas possible de dépenser de PM de la sorte)",
     "rang2": "Le maximum passe à 3, de plus le personnage peux décider de porter un coup final en vidant son arme évoquée de ses charges afin d'ajouter la moitié au jet de l'action",
@@ -1450,7 +1549,7 @@
   },
   {
     "nom": "Sanctuaire",
-    "origines": "",
+    "origines": "Asura",
     "pitch": "Arme évoquée => Action Défensive (défense/tact) via PM ou sacrifice charge",
     "rang1": "Lorsque le personnage réalise des actions de défense ou tactique via une arme évoquée il peux dépenser des PM pour obtenir un bonus de 1, ce bonus ne peux pas dépasser la différence entre la défense passive de magie de la cible et la défense passive à laquelle s'oppose l'attaque OU 2, le plus petit des deux (donc si la défense magique de la cible est trop élevée il n'est pas possible de dépenser de PM de la sorte)",
     "rang2": "Le maximum passe à 3, de plus le personnage peux décider de sacrifier son arme évoquée en vidant celle ci de ses charges afin d'ajouter la moitié au jet de l'action",
@@ -1459,7 +1558,7 @@
   },
   {
     "nom": "Carnassier",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Blessures cible => Bonus & Jet",
     "rang1": "Les actions de combats du personnage reçoivent un bonus de 1, ce bonus est limité par les pénalités de blessures de sa cible, il reçoit également le double en bonus à ses jets",
     "rang2": "Les bonus passent à 2 et 4",
@@ -1468,7 +1567,7 @@
   },
   {
     "nom": "Souffrance",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "Blessures soi => Bonus & Jet",
     "rang1": "Les actions de combats du personnage reçoivent un bonus de 1, ce bonus est limité par les pénalités de blessures du personnage, il reçoit également le double en bonus à ses jets",
     "rang2": "Les bonus passent à 2 et 4",
@@ -1477,16 +1576,16 @@
   },
   {
     "nom": "Impulsion",
-    "origines": "",
-    "pitch": "Charge => moins de pénalités ? etc",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "origines": "Keld",
+    "pitch": "Charge => moins de pénalités",
+    "rang1": "Lorsque le personnage réalise une charge il ignore le désavantage aux défenses qui devrait suivre",
+    "rang2": "Le personnage reçoit un avantage à son jet d'attaque lorsqu'il charge",
+    "rang3": "Double avantage à la place",
+    "nb_rangs": 3
   },
   {
     "nom": "Précision",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Tirs avec pénalités dû aux distances => Jet",
     "rang1": "Les tirs réalisés par le personnage qui souffre de désavantage dû à la distance (trop près ou trop long), alors le jet est avantagé, si le personnage n'est pas affecté par les désavantages il ne peux profiter de cet effet",
     "rang2": "Le jet reçoit autant d'avantage que de désavantage au test le cas échéant, de plus si le test est à minima désavantagé le jet est assuré (minimum +1, soit 2)",
@@ -1495,7 +1594,7 @@
   },
   {
     "nom": "Rechargement",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Recharger lors d'un déplacement",
     "rang1": "Lorsque le personnage réalise un déplacement d'au moins 3m il peux réduire le cout en initiative de son action de rechargement de 1 s'il la réalise sur-le-champs",
     "rang2": "La réduction est de 2",
@@ -1504,7 +1603,7 @@
   },
   {
     "nom": "Valkirie",
-    "origines": "Valkirie d'Arkadar",
+    "origines": "Keld",
     "pitch": "Attaque via un bond vertical => Bonus & Jet & criticité",
     "rang1": "Lorsque le personnage réalise une attaque physique en tombant depuis une position plus élevée (dans sa position de départ ses pieds sont au dessus de la tête, ou du point le plus haut, de sa cible) d'au moins 3m, il profite drastiquement de la hauteur, il reçoit alors un bonus de 1 à son test, un bonus de 2 à son jet et un bonus de 1 à la criticité de l'action",
     "rang2": "Si la distance est de 5m et plus, les bonus passent respectivement à 2/4/2",
@@ -1513,7 +1612,7 @@
   },
   {
     "nom": "Opiniâtreté",
-    "origines": "",
+    "origines": "Outreterre",
     "pitch": "PE < 0 : Contre attaque ou riposte possible, il peux faire cela en plus d'une autre action rapide/interruption chaque round",
     "rang1": "Si le personnage est en état de choc et qu'il fait l'objet d'une attaque il peux décider de contre attaquer ou de riposter, l'action se fait avec une action rapide dont le cout en initiative est augmenté de 2, soit 7",
     "rang2": "Le cout est normal (5)",
@@ -1522,7 +1621,7 @@
   },
   {
     "nom": "Obstination",
-    "origines": "",
+    "origines": "Morr",
     "pitch": "PE < 0 : Défenses accrues",
     "rang1": "Si le personnage est en état de choc il compense de 1 la perte de défense passive",
     "rang2": "Compense jusqu'à 2",
@@ -1531,7 +1630,7 @@
   },
   {
     "nom": "Dévotion",
-    "origines": "",
+    "origines": "Rosaï",
     "pitch": "Défense du maitre",
     "rang1": "Le personnage peux désigner un des participants à une confrontation comme étant son maitre, il doit pour ça avoir un lien notable avec celui ci, sinon ce n'est pas une cible valide, être d'égal à égal peux suffire mais dans ce cas l'effet est divisé par deux, toutes les actions du personnage visant à protéger le \"maitre\" reçoivent un ajustement de 2",
     "rang2": "Le bonus est de 4",
@@ -1540,7 +1639,7 @@
   },
   {
     "nom": "Sérénité",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Pacifiste",
     "rang1": "Tant que le personnage n'a pas réalisé d'action agressive (attaque ou tactique) il a ses défenses passives augmentée de 1",
     "rang2": "Le bonus passe à 2",
@@ -1549,7 +1648,7 @@
   },
   {
     "nom": "Expertise",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Tir réalisé à portée longue => Maitrise",
     "rang1": "Tant que le personnage réalise un tir à portée longue son attaque reçoit un bonus de maitrise de 2, notons qu'une telle portée implique généralement des pénalités",
     "rang2": "Le bonus est de 4",
@@ -1558,7 +1657,7 @@
   },
   {
     "nom": "Portée",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Tir réalisé à portée idéale => Ajustement",
     "rang1": "Tant que le personnage réalise un tir à portée idéale (ni courte, ni longue) son attaque reçoit un bonus d'ajustement de 1",
     "rang2": "Le bonus passe à 2",
@@ -1567,7 +1666,7 @@
   },
   {
     "nom": "Proximité",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Tir réalisé à portée courte => Perforation & Attrition",
     "rang1": "Tant que le personnage réalise un tir à portée courte son attaque reçoit un bonus de perforation et d'attrition de 1, notons qu'une telle portée implique généralement des pénalités",
     "rang2": "Le bonus passe à 2",
@@ -1576,7 +1675,7 @@
   },
   {
     "nom": "Initiative",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Agir avant la cible => Ajustement",
     "rang1": "Si le personnage réalise un test d'attaque ou tactique avant sa cible ce round ci, nécessairement unique, il profite d'un ajustement de 1 à cette dernière",
     "rang2": "Le bonus passe à 2",
@@ -1585,7 +1684,7 @@
   },
   {
     "nom": "Anticipation",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Agir après la cible => Ajustement",
     "rang1": "Si le personnage réalise un test après que sa cible, nécessairement unique ai réalisé sa passe d'arme ce round ci, il profite d'un ajustement de 1 à cette dernière",
     "rang2": "Le bonus passe à 2",
@@ -1594,7 +1693,7 @@
   },
   {
     "nom": "Traquenard",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Cible piégée => Bonus",
     "rang1": "Si le personnage réalise un test d'attaque ou tactique et que celle ci a déclanché/subit un piège ce round ci ou le round précédent, le personnage reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1603,7 +1702,7 @@
   },
   {
     "nom": "Embuscade",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Tour de surprise => Bonus & Jet",
     "rang1": "Si le personnage réalise une action de combat durant son tour de surprise il reçoit un bonus aux tests de 1 et aux jets de 2",
     "rang2": "Les bonus passent à 2 et 4",
@@ -1612,7 +1711,7 @@
   },
   {
     "nom": "Chevalerie",
-    "origines": "",
+    "origines": "Albalion",
     "pitch": "Combat à la loyal => Bonus",
     "rang1": "Si le personnage est en combat à la loyale, c'est à dire que son adversaire et lui se sont entendus sur la raison d'être de l'affrontement (protocol, etc), alors il reçoit un bonus de 1 à ses tests de combat",
     "rang2": "Le bonus passe à 2",
@@ -1621,7 +1720,7 @@
   },
   {
     "nom": "Trompeur",
-    "origines": "",
+    "origines": "Atlas",
     "pitch": "Cible feintée => Bonus (2 tours)",
     "rang1": "Si le personnage réalise un test de combat contre une cible qu'il a réussis à feinter ce tour ou le tour dernier, il reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1630,7 +1729,7 @@
   },
   {
     "nom": "Provocateur",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Cible provoquée/intimidée => Bonus (2 tours)",
     "rang1": "Si le personnage réalise un test de combat contre une cible qu'il a réussis à provoquer/intimider/détourner (manipulation) ce tour ou le tour dernier, il reçoit un bonus de 1",
     "rang2": "Le bonus passe à 2",
@@ -1639,7 +1738,7 @@
   },
   {
     "nom": "Connaisseur",
-    "origines": "",
+    "origines": "Arjan",
     "pitch": "Cible identifiée => Ajustement",
     "rang1": "Si le personnage réalise un test de combat contre une cible qu'il a identifié (test de connaissance) il reçoit un ajutsment de 1, l'ajustement ne peux dépasser le degré de réussite du test de connaissance en question",
     "rang2": "Le bonus passe à 2",
@@ -1648,7 +1747,7 @@
   },
   {
     "nom": "Ciblage",
-    "origines": "",
+    "origines": "EFT",
     "pitch": "Cible marquée => Jet",
     "rang1": "Le personnage peux dépenser une action simple pour marquée mentalement une cible, il reçoit un bonus à ses jets de 1 aux actions de combat contre celle ci",
     "rang2": "Le bonus passe à 2",
@@ -1657,7 +1756,7 @@
   },
   {
     "nom": "Traque",
-    "origines": "",
+    "origines": "Vermine",
     "pitch": "Cible en fuite => Bonus & Jet & critique",
     "rang1": "Si le personnage réalise un test de combat contre une cible en fuite, il reçoit un bonus aux test et en criticité de 1 et un bonus aux jets de 2",
     "rang2": "Les bonus passent à 2 et 4",
@@ -1666,16 +1765,16 @@
   },
   {
     "nom": "Territoire",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Défend son territoire => Bonus",
-    "rang1": "Si le personnage réalise un test de combat en étant sur son propre territoire alors il reçoit un bonus de 1 à ses tests de combat, le territoire peux prendre la forme d'une batisse ou d'une navire par example (mais pas une cité entière)",
+    "rang1": "Si le personnage réalise un test de combat en étant sur son propre territoire alors il reçoit un bonus de 1 à ses tests de combat, le territoire peux prendre la forme d'une batisse ou d'une navire par example (mais pas une cité entière), le personnage peux considérer un lieu où il s'est reposé/où ses affaires sont situées comme son territoire (mais il ne peux avoir qu'un lieu de la sorte à la fois, aussi doit-il changer et perdre les précédents le cas échéant)",
     "rang2": "Le bonus passe à 2",
     "rang3": "Le bonus passe à 3",
     "nb_rangs": 3
   },
   {
     "nom": "Tandem",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Combat offensif avec compagnon => Ajustement soi, Bonus compagnon",
     "rang1": "Si le personnage réalise un test de combat d'attaque ou tactique contre un adversaire qui est également en mêlée avec le compagnon animal du personnage, le test reçoit un ajustement de 1, le compagnon profite d'un effet similaire avec le personnage comme déclancheur et reçoit un bonus de 1 à la place",
     "rang2": "Le bonus passe à 2",
@@ -1684,7 +1783,7 @@
   },
   {
     "nom": "Solidarité",
-    "origines": "",
+    "origines": "Férale",
     "pitch": "Combat défensif avec compagnon => Ajustement soi, Bonus compagnon",
     "rang1": "Si le personnage réalise un test de combat de défense ou tactique contre un adversaire qui est également en mêlée avec le compagnon animal du personnage, le test reçoit un ajustement de 1, le compagnon profite d'un effet similaire avec le personnage comme déclancheur et reçoit un bonus de 1 à la place",
     "rang2": "Le bonus passe à 2",
@@ -1692,8 +1791,8 @@
     "nb_rangs": 3
   },
   {
-    "nom": "Dressage",
-    "origines": "",
+    "nom": "Compagnon",
+    "origines": "Arjan",
     "pitch": "Ordre à un compagnon => Bonus",
     "rang1": "Si le personnage donne un ordre direct (via une action libre) à son compagnon ce dernier reçoit un bonus de 1 à son test visant à réussir l'ordre en question",
     "rang2": "Le bonus passe à 2",
@@ -1702,29 +1801,785 @@
   },
   {
     "nom": "Parade",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Arme légère contre Arme plus lourde => Parade +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lorsque le personnage pare une attaque avec succés dans ces conditions les 1 de son jet sont relancés (systématiquement, il ne peux y en avoir)",
+    "rang2": "Même chose avec les 2",
+    "rang3": "Même chose avec les 3",
+    "nb_rangs": 3
   },
   {
     "nom": "Blocage",
-    "origines": "",
+    "origines": "Keld",
     "pitch": "Arme lourde contre Arme plus légère => Blocage +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Lorsque le personnage bloque une attaque avec succés dans ces conditions les 8 adverses sont ignorés",
+    "rang2": "Les 7 et 8 sont ignorés",
+    "rang3": "Les 6, 7 et 8 sont ignorés",
+    "nb_rangs": 3
   },
   {
     "nom": "Esquive",
-    "origines": "",
+    "origines": "Sylvengarde",
     "pitch": "Armure légère contre Arme plus lourde => Esquive +",
-    "rang1": "",
-    "rang2": "",
-    "rang3": "",
-    "nb_rangs": 0
+    "rang1": "Le personnage profite d'un bonus à ses tests d'esquive de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Corrupteur",
+    "origines": "Vermine",
+    "pitch": "Expertise substances",
+    "rang1": "Les substances que le personnage applique via son arme ont une difficulté augmentée de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Sanguin",
+    "origines": "Vermine",
+    "pitch": "PE perdu => Adrénaline",
+    "rang1": "Chaque fois qu'un total de 5 PE est perdu par le personnage il reçoit 1 point d'adrénaline",
+    "rang2": "Tous les 4 PE",
+    "rang3": "Tous les 3 PE",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Prédation",
+    "origines": "Vermine",
+    "pitch": "PE infligé => Adrénaline",
+    "rang1": "Chaque fois qu'un total de 5 PE est infligé par le personnage il reçoit 1 point d'adrénaline",
+    "rang2": "Tous les 4 PE",
+    "rang3": "Tous les 3 PE",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Basilik",
+    "origines": "Albalion",
+    "pitch": "Sorceleur => ex école du cobra",
+    "rang1": "Lorsque le personnage réalise une contre attaque ou riposte sur une cible cette dernière reçoit une marque, maximum 3 marque, puis le jet de l'action en question est augmenté de 1 pour chaque marques sur la cible, ce bonus de jet s'applique également aux signes",
+    "rang2": "Le gain passe à 2",
+    "rang3": "Le gain passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Mammouth",
+    "origines": "Atlas",
+    "pitch": "Cible au sol => Jet",
+    "rang1": "Les attaques et tactiques visant une cible au sol, si le personnage est lui même debout, reçoit un bonus au jet de 2",
+    "rang2": "Le bonus est de 4",
+    "rang3": "Le bonus est de 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Kraken",
+    "origines": "Atlas",
+    "pitch": "Déconcentration",
+    "rang1": "Les adversaires sont désavantage à leurs tests visant à rester concentrer si elles sont provoquée par une action de combat du personnage",
+    "rang2": "Si la cible perd sa concentration elle subit 1D8 d'attrition",
+    "rang3": "Double désavantage OU la cible subit 2D8 à la place en cas d'échec, au choix du personnage au moment d'appliquer cet effet",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Toreador",
+    "origines": "Arjan",
+    "pitch": "Action contre une cible => Aggro",
+    "rang1": "Lorsque le personnage réalise avec succés une action de combat contre un adversaire ce dernier reçoit la condition \"provocation\" avec 1D8+mCHA charges, la condition ne peux pas passer en version avancée de la sorte, l'expertise utilisée ici est l'expertise sociale 10+mCHA",
+    "rang2": "2D8+mCHA à la place",
+    "rang3": "3D8+mCHA à la place",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Moquerie",
+    "origines": "Asura",
+    "pitch": "Cible provoquée => Bonus",
+    "rang1": "Le personnage reçoit un bonus à ses tests de combat de 1 contre les adversaires qu'il a provoqué et qui sont sous les effets de la condition éponyme",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Sparta",
+    "origines": "Atlas",
+    "pitch": "Formation serrée => Défense soi +",
+    "rang1": "Si le personnage est adjacent à un allié alors les défenses du personnage sont augmentées de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Gardien",
+    "origines": "Atlas",
+    "pitch": "Formation serrée => Défense allié +",
+    "rang1": "Si le personnage est adjacent à un allié alors les défenses de l'allié sont augmentées de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Charogne",
+    "origines": "Atlas",
+    "pitch": "Ciblé blessé => Jet",
+    "rang1": "Les actions de combat du personnage reçoivent un bonus de jet de équivalant à la pénalité des blessures les plus graves de la cible",
+    "rang2": "Le bonus est doublé",
+    "rang3": "Le bonus est triplé",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Contre-Manche",
+    "origines": "Arjan",
+    "pitch": "Hampe vs Garde => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme à garde (armes de mêlées généralement basées sur la dextérité, fonctionne sur les armes naturelles utilisant ce même attribut)",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Contre-Garde",
+    "origines": "Arjan",
+    "pitch": "Manche vs Hampe => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme à hampe (armes de mêlées basées généralement sur l'agilité, fonctionne sur les armes naturelles utilisant ce même attribut)",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Contre-Hampe",
+    "origines": "Arjan",
+    "pitch": "Garde vs Hampe => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme à manche (armes de mêlées basées généralement sur la force, fonctionne sur les armes naturelles utilisant ce même attribut)",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Contre-Distance",
+    "origines": "Arjan",
+    "pitch": "Mêlée vs Distance => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme à distance (armes de tir basées généralement sur la perception, fonctionne sur les armes naturelles utilisant ce même attribut)",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Contre-Poignet",
+    "origines": "Arjan",
+    "pitch": "Flexible vs Poignet => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme à poignet (armes de tir mêlée généralement sur la constitution, le plus souvent des boucliers, fonctionne sur les armes naturelles utilisant ce même attribut)",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Accablement",
+    "origines": "Morr",
+    "pitch": "Arme intermédiaire vs Arme légère => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme légère. Note : Les armes légères sont de catégorie de 0, 1 ou 2.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Conquête",
+    "origines": "Albalion",
+    "pitch": "Arme lourde vs Arme intermédiaire => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme intermédiaire. Note : Les armes légères sont de catégorie de 3 ou 4.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Finesse",
+    "origines": "Sylvengarde",
+    "pitch": "Arme légère vs Arme lourde => Bonus",
+    "rang1": "Bonus de 1 en attaque, défense et tactique contre les adversaires manipulant une arme lourde. Note : Les armes légères sont de catégorie de 5 et +.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Anti-Léger",
+    "origines": "Atlas",
+    "pitch": "vs Armure légère => Perforation",
+    "rang1": "Bonus de perforation de 2 contre les adversaires portant une armure légère (catégorie 0 à 2).",
+    "rang2": "Le bonus passe à 4",
+    "rang3": "Le bonus passe à 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Anti-Intermédiaire",
+    "origines": "Atlas",
+    "pitch": "vs Armure intermédiaire => Perforation",
+    "rang1": "Bonus de perforation de 2 contre les adversaires portant une armure intermédiaire (catégorie 3 et 4).",
+    "rang2": "Le bonus passe à 4",
+    "rang3": "Le bonus passe à 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Anti-Lourd",
+    "origines": "Atlas",
+    "pitch": "vs Armure lourd => Perforation",
+    "rang1": "Bonus de perforation de 2 contre les adversaires portant une armure lourd (catégorie 5 et +).",
+    "rang2": "Le bonus passe à 4",
+    "rang3": "Le bonus passe à 6",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Supériorité-Force",
+    "origines": "Keld",
+    "pitch": "Force > Force de la cible => Bonus",
+    "rang1": "Si la Force du combattant est supérieure d'au moins 4 de plus que celle de son adversaire : Bonus de 1 aux tests de combat. Chaque fois qu'il souhaite appliquer ce bonus le personnage doit dépenser 2 PE ou 1 PF.",
+    "rang2": "Si l'attribut est supérieure de 7 alors le bonus est de 2 à la place",
+    "rang3": "Si l'attribut est supérieure de 10 alors le bonus est de 3 à la place",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Supériorité-Dextérité",
+    "origines": "Keld",
+    "pitch": "Dextérité > Dextérité de la cible => Bonus",
+    "rang1": "Si la Dextérité du combattant est supérieure d'au moins 4 de plus que celle de son adversaire : Bonus de 1 aux tests de combat. Chaque fois qu'il souhaite appliquer ce bonus le personnage doit dépenser 2 PE ou 1 PF.",
+    "rang2": "Si l'attribut est supérieure de 7 alors le bonus est de 2 à la place",
+    "rang3": "Si l'attribut est supérieure de 10 alors le bonus est de 3 à la place",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Supériorité-Agilité",
+    "origines": "Keld",
+    "pitch": "Agilité > Agilité de la cible => Bonus",
+    "rang1": "Si l'Agilité du combattant est supérieure d'au moins 4 de plus que celle de son adversaire : Bonus de 1 aux tests de combat. Chaque fois qu'il souhaite appliquer ce bonus le personnage doit dépenser 2 PE ou 1 PF.",
+    "rang2": "Si l'attribut est supérieure de 7 alors le bonus est de 2 à la place",
+    "rang3": "Si l'attribut est supérieure de 10 alors le bonus est de 3 à la place",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Mobilité",
+    "origines": "EFT",
+    "pitch": "Arme et Armure légère + mobilité => Bonus",
+    "rang1": "Si le combattant s'est déplacé ce tour ci alors ses adversaires subissent une pénalité de 1 à leurs tests d'attaque, défense ou tactique contre le personnage. Le personnage doit avoir parcourus au moins 5m pour être considérés comme ayant était où être en déplacement lors d'un même tour.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Immobilité-Offensive",
+    "origines": "EFT",
+    "pitch": "Immobile => Bonus en Attaque",
+    "rang1": "Si le combattant ne s'est pas déplacé ce tour ci alors il reçoit un bonus de 1 dans à ses attaques. Jusqu'au début du prochain tour il ne peux plus réaliser de déplacement ou qui requière un déplacement.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Immobilité-Défensive",
+    "origines": "Outreterre",
+    "pitch": "Immobile => Bonus en Défense",
+    "rang1": "Si le combattant ne s'est pas déplacé ce tour ci alors il reçoit un bonus de 1 dans à ses défenses. Jusqu'au début du prochain tour il ne peux plus réaliser de déplacement ou qui requière un déplacement.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Immobilité-Tactique",
+    "origines": "Morr",
+    "pitch": "Immobile => Bonus en Tactique",
+    "rang1": "Si le combattant ne s'est pas déplacé ce tour ci alors il reçoit un bonus de 1 dans à ses tactiques. Jusqu'au début du prochain tour il ne peux plus réaliser de déplacement ou qui requière un déplacement.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Mobilité-Offensive",
+    "origines": "EFT",
+    "pitch": "Mobile => Bonus en Attaque",
+    "rang1": "Si le combattant s'est déplacé ce tour ci alors ses attaque reçoivent un bonus aux tests d'attaque. Le personnage doit avoir parcourus au moins 5m pour être considérés comme ayant était où être en déplacement lors d'un même tour.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Mobilité-Défensive",
+    "origines": "Outreterre",
+    "pitch": "Mobile => Bonus en Défense",
+    "rang1": "Si le combattant s'est déplacé ce tour ci alors ses attaque reçoivent un bonus aux tests de défense. Le personnage doit avoir parcourus au moins 5m pour être considérés comme ayant était où être en déplacement lors d'un même tour.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Mobilité-Tactique",
+    "origines": "Morr",
+    "pitch": "Mobile => Bonus en Tactique",
+    "rang1": "Si le combattant s'est déplacé ce tour ci alors ses attaque reçoivent un bonus aux tests de tactique. Le personnage doit avoir parcourus au moins 5m pour être considérés comme ayant était où être en déplacement lors d'un même tour.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Montagne",
+    "origines": "Albalion",
+    "pitch": "Armure Lourde => Absorption ++ mais malus de défenses passives",
+    "rang1": "Tant que le personnage porte une armure lourde (catégorie 5+) son absorption est augmentée de 3 et ses défenses passives sont réduites de 1",
+    "rang2": "Le bonus passe à 6 et la pénalité de 2",
+    "rang3": "Le bonus passe à 9 et la pénalité de 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Hirondelle",
+    "origines": "Morr",
+    "pitch": "Sans armure => Défenses passives +",
+    "rang1": "Tant que le personnage ne porte pas d'armure il reçoit un bonus de 1 à ses défenses passives",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Allégeance",
+    "origines": "EFT",
+    "pitch": "Via objet d'un artisan => Ajustements",
+    "rang1": "Tant que le personnage fait usage d'un objet issus d'un fabriquant/artisan spécifique il reçoit un ajustement de 1 à ses tests, dans le cas d'une arme à feu avec modules tous les modules doivent être du bon fabriquant pour que cet effet puisse être appliqué",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Supériorité-Perception",
+    "origines": "EFT",
+    "pitch": "Perception > Perception de la cible => Bonus",
+    "rang1": "Si la Perception du combattant est supérieure d'au moins 4 de plus que celle de son adversaire : Bonus de 1 aux tests de combat. Chaque fois qu'il souhaite appliquer ce bonus le personnage doit dépenser 2 PE ou 1 PF.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Férocité",
+    "origines": "Keld",
+    "pitch": "Arme Lourd => Jet + sur D8 à forte valeurs",
+    "rang1": "Lorsque les dés d'un jet d'une action de combat du personnage affichent 8 ou plus et qu'il est munis d'une arme lourde alors ce jet gagne +1  par dés correspondants",
+    "rang2": "Fonctionne sur les 7 et +",
+    "rang3": "Fonctionne sur les 6 et +",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Mesure",
+    "origines": "Rosaï",
+    "pitch": "Arme Légère => Jet ++ sur D8 à faible valeurs",
+    "rang1": "Lorsque les dés d'un jet d'une action de combat du personnage affichent 2 ou moins et qu'il est munis d'une arme légère alors ce jet gagne +1  par dés correspondants",
+    "rang2": "Fonctionne sur les 4 et moins",
+    "rang3": "Fonctionne sur les 6 et moins",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Tonnerre",
+    "origines": "Keld",
+    "pitch": "Arme Lourd => Jet + sur D8 <= 2",
+    "rang1": "Lorsque les dés d'un jet d'une attaque du personnage affichent 8 et qu'il est munis d'une arme lourde alors cette attaque gagne 2 en attrition par dés correspondants",
+    "rang2": "Fonctionne sur les 7 et +",
+    "rang3": "Fonctionne sur les 6 et +",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Morsure",
+    "origines": "Rosaï",
+    "pitch": "Arme Légère => Jet + sur D8 <= 2",
+    "rang1": "Lorsque les dés d'un jet d'une attaque du personnage affichent 2 ou moins et qu'il est munis d'une arme légère alors cette attaque ignore 2 d'absorption par dés correspondants",
+    "rang2": "Fonctionne sur les 4 et moins",
+    "rang3": "Fonctionne sur les 6 et moins",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Vivre ou Mourir",
+    "origines": "Atlas",
+    "pitch": "Défenses réduites => Attaques et Gestion +",
+    "rang1": "Tant qu'il est dans cette posture le personnage accuse une pénalité de 1 à ses défenses passives et actives, en contre partie il reçoit un bonus de 1 à ses autres tests et jets de combat, initiative comprise",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Tenir ou Tomber",
+    "origines": "Arjan",
+    "pitch": "Offensive et Gestion réduite => Défenses +",
+    "rang1": "Tant qu'il est dans cette posture le personnage accuse une pénalité de 1 à ses attaques et tactiques, en contre partie il reçoit un bonus de 1 à ses autres tests et jets de défenses, initiative comprise",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Entaille",
+    "origines": "EFT",
+    "pitch": "Arme Tranchante => Saignements",
+    "rang1": "Les attaques du personnages peuvent générer la condition saignement dès lorsqu'au moins 1 PV a été perdu, la condition est contractée avec 2D8 charges, difficulté de la condition -1",
+    "rang2": "Charges de la condition 3D8, difficulté normale",
+    "rang3": "Charges de la condition 4D8, difficulté de la condition -1",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Fracas",
+    "origines": "EFT",
+    "pitch": "Arme Contondante => Etourdi",
+    "rang1": "Les attaques du personnages peuvent générer la condition \"étourdi\" dès lorsqu'au moins 1 PV a été perdu, la condition est contractée avec 2D8 charges, difficulté de la condition -1",
+    "rang2": "Charges de la condition 3D8, difficulté normale",
+    "rang3": "Charges de la condition 4D8, difficulté de la condition -1",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Percée",
+    "origines": "EFT",
+    "pitch": "Arme Perforante => Dégénération",
+    "rang1": "Les attaques du personnages peuvent générer la condition \"Dégénération\" dès lorsqu'au moins 1 PV a été perdu, la condition est contractée avec 2D8 charges, difficulté de la condition -1",
+    "rang2": "Charges de la condition 3D8, difficulté normale",
+    "rang3": "Charges de la condition 4D8, difficulté de la condition -1",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Impérieux",
+    "origines": "Arjan",
+    "pitch": "Bouclier => Garde automatique",
+    "rang1": "Au début de son tour le personnage gagne jusqu'à D8 de garde si il porte un bouclier depuis au moins un cycle",
+    "rang2": "Le gain passe à D8+2",
+    "rang3": "Le gain passe à D8+4",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Tempête",
+    "origines": "Keld",
+    "pitch": "Arme à 2 mains => Rage automatique",
+    "rang1": "Au début de son tour le personnage gagne jusqu'à D8 de rage si il porte une arme à deux mains depuis au moins un cycle",
+    "rang2": "Le gain passe à D8+2",
+    "rang3": "Le gain passe à D8+4",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Audace",
+    "origines": "Rosaï",
+    "pitch": "Arme à 1 main => Adrénaline automatique",
+    "rang1": "Au début de son tour le personnage gagne jusqu'à D8 d'adrénaline si il porte une arme à une main et que son autre main est libre depuis au moins un cycle",
+    "rang2": "Le gain passe à D8+2",
+    "rang3": "Le gain passe à D8+4",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Horizon",
+    "origines": "Rosaï",
+    "pitch": "Prévention à distance",
+    "rang1": "Le personnage gagne un bonus de 1 à ses tests de défenses visant les attaques à distance, il est cependant pénalisé d'un désavantage à ses tests de défense en mêlée",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Vanguard",
+    "origines": "Rosaï",
+    "pitch": "Prévention en mêlée",
+    "rang1": "Le personnage gagne un bonus de 1 à ses tests de défenses visant les attaques de mêlée, il est cependant pénalisé d'un désavantage à ses tests de défense à distance",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Brise-Montagne",
+    "origines": "Keld",
+    "pitch": "Masse => Garde +",
+    "rang1": "Le maximum de garde du personnage augmente de 5",
+    "rang2": "Tant que le personnage a de la Garde ses adversaires reçoivent un désavantage à leurs tests d'attaques contre le personnage",
+    "rang3": "Les jets de garde sont doublement assurés et majoré (minimum des dés 3 et +1 par dés)",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ouragan",
+    "origines": "Keld",
+    "pitch": "Hache => Rage +",
+    "rang1": "Le maximum de rage du personnage augmente de 5",
+    "rang2": "Tant que le personnage a de la Rage ses adversaires reçoivent un désavantage à leurs tests défenses contre le personnage",
+    "rang3": "Les jets de rage sont doublement assurés et majoré (minimum des dés 3 et +1 par dés)",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Foudre",
+    "origines": "Keld",
+    "pitch": "Lance => Adrénaline +",
+    "rang1": "Le maximum d'adrénaline du personnage augmente de 5",
+    "rang2": "Tant que le personnage a de l'adrénaline ses adversaires reçoivent un désavantage à leurs tests tactiques contre le personnage",
+    "rang3": "Les jets d'adrénaline sont doublement assurés et majoré (minimum des dés 3 et +1 par dés)",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Vipère",
+    "origines": "Rosaï",
+    "pitch": "Arme Légère => Expertise physique pour les conditions +",
+    "rang1": "Lorsque le personnage cherche à appliquer une condition physique via ses manœuvres martiales son expertise physique est augmentée de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Dislocation",
+    "origines": "Rosaï",
+    "pitch": "Arme Lourde => Expertise physique pour les interruptions +",
+    "rang1": "S'il ne s'agit pas d'appliquer des conditions physiques l'expertise physique du personnage augmente de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Bête Grondante",
+    "origines": "Férale",
+    "pitch": "Blessé => Pénalités réduites et dégats +",
+    "rang1": "Les blessures récentes voient leurs pénalités réduites de 1. De plus tant que le personnage a une blessure ses attaques ont un jet augmenté de 1 en mêlée, ce bonus est doublé si l'attaque vise l'auteur de la blessure en question",
+    "rang2": "La réduction de pénalité passe à 2, le bonus de jet passe à 2 si la lésion en question inflige une pénalité de 2 ou plus (doublé sur l'auteur)",
+    "rang3": "La réduction de pénalité passe à 3, le bonus de jet passe à 3 si la lésion en question inflige une pénalité de 3 ou plus (doublé sur l'auteur)",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Meute",
+    "origines": "Férale",
+    "pitch": "Alliés blessés => Bonus",
+    "rang1": "Si un allié à proximité est en danger (PV <= 0) le personnage reçoit un bonus de 1 à toutes ses actions de combat visant à aider ce dernier (attaquer ceux qui l'agresse, défendre pour lui, renverser ceux qui l'agresse, etc), de plus le jet du test en question est augmenté de 2",
+    "rang2": "Le bonus passe à 2, le bonus au jets lui passe à 3",
+    "rang3": "Le bonus passe à 3, le bonus au jets lui passe à 4",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Invictus",
+    "origines": "Arjan",
+    "pitch": "Attaque ou Tactique réussie => Moral aux alliés",
+    "rang1": "Lorsque le personnage réussis une attaque, une tactique (défendues ou non) ou une aide lui et ses alliés à proximité voient leur moral soigné de 1, dans le cas d'une aide le soin est doublé",
+    "rang2": "Soin de 2, si les soins dépassent le maximum l'éxcédant est reçu sous forme de moral temporaire (la plus haute valeur du moral temporaire est conservé le cas échéant)",
+    "rang3": "Soin de 3, pas de limites par rounds",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Sanglant",
+    "origines": "Vermine",
+    "pitch": "Cible blessée => Bonus +",
+    "rang1": "Le personnage reçoit un bonus de 1 à ses tests de combat contre un adversaire ayant une lésion",
+    "rang2": "Le bonus passe à 2 si la cible a une lésion de niveau 2 ou +",
+    "rang3": "De même avec 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Impulsion",
+    "origines": "Férale",
+    "pitch": "Premier tour => Bonus ++",
+    "rang1": "Lors du premier tour d'une confrontation le personnage qui endosse ce style a un bonus de 2 à ses actions, cependant pour la suite de la confrontation il reçoit un malus de 1 à la place, ce malus est doublé si ce style n'est plus endossé",
+    "rang2": "Le bonus est de 3, le malus reste de 1",
+    "rang3": "Le bonus est de 4, le malus reste de 1; le personnage peux à la place choisir un bonus de 5 mais recevra un malus de 2 ensuite",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Fantôme",
+    "origines": "EFT",
+    "pitch": "Arme d'Epaule isolé => Précision/Criticité +",
+    "rang1": "Tant que la zone de contrôle du personnage n'est pas envahis ou qu'il n'est pas lui-même dans une telle zone, il reçoit un bonus de 1 en précision et criticité lors de ses attaques.",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Close-Quartier",
+    "origines": "EFT",
+    "pitch": "Arme de Poing en mêlée => Maitrise/Adresse +",
+    "rang1": "Tant que la zone de contrôle du personnage est envahis ou qu'il est lui-même dans une telle zone, il reçoit un bonus de 1 en maitrise et adresse lors de ses attaques",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Gunkata",
+    "origines": "EFT",
+    "pitch": "Deux armes de poing => Défense + sur cible déjà attaqué",
+    "rang1": "Le personnage reçoit un bonus de 1 à ses défenses lorsqu'il est la cible d'un adversaire sur lequel il a tiré récemment (moins d'un cycle)",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Grammaton",
+    "origines": "EFT",
+    "pitch": "Deux armes de poing => Attaques sur deux cibles en simultané",
+    "rang1": "Le personnage peut réaliser une attaque de chaque main sur deux adversaires différents avec la même action. Il reçoit alors un malus de 4 à son action.",
+    "rang2": "Le malus passe à 2",
+    "rang3": "Pas de malus",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Voltige",
+    "origines": "Rosaï",
+    "pitch": "Arme/Armure légère => déplacements",
+    "rang1": "Lorsque le personnage réalise une action de combat il peux réaliser, avant ou après, une action de déplacement gratuite jusqu'à 1 case, une fois par round maximum",
+    "rang2": "Le déplacement est sécurisé",
+    "rang3": "Le déplacement peux monter jusqu'à 2 cases OU n'est pas limité à une fois par round, le personnage peux se faire ce choix à la volée",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Retour",
+    "origines": "Keld",
+    "pitch": "Arme à distance => Contre Attaque",
+    "rang1": "Le personnage est mesure de réaliser une contre attaque lorsqu'il est l'objet d'une attaque à distance via sa propre arme, cette action est désavantagée (et requière l'usage d'une action rapide)",
+    "rang2": "La contre attaque n'est pas désavantagée",
+    "rang3": "La contre attaque est avantagée",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Vengeance",
+    "origines": "Férale",
+    "pitch": "Dégats reçus => Contre Attaque ++",
+    "rang1": "Si le personnage est touché par l'action à laquelle il cherche à contre attaquer, sa contre attaque reçoit un bonus à son test de 1, ce bonus est doublé si l'action en question lui a fait perdre au moins 1 PV",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Célérité",
+    "origines": "Rosaï",
+    "pitch": "Vitesse (active) suffisante => Triple combinaison possible",
+    "rang1": "Si la vitesse active du personnage dépasse la vitesse passive de sa cible du double de l'écart requis pour doubler son action, il est en mesure de tripler son action à la place, comme pour le fait de doubler son action ce choix se fait avant de constater l'écart et constitue donc un paris risqué",
+    "rang2": "Le personnage ne perd pas son action si tripler l'action n'est pas possible mais la doubler oui",
+    "rang3": "Le personnage connait la vitesse de ses adversaires",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ricochet",
+    "origines": "EFT",
+    "pitch": "Manoeuvre ricochet => Meilleures effets",
+    "rang1": "Le personnage peut réaliser 1 ricochet de plus lorsqu'il réalise la manœuvre du tir en ricochet. De plus l'angle les angles peut être plus important de 15°",
+    "rang2": "Nombre de ricochet en plus augmenté de 1 (2) et angle augmenté de 15° (30)",
+    "rang3": "Nombre de ricochet en plus augmenté de 1 (3) et angle augmenté de 15° (45)",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Pulvérisation",
+    "origines": "Vermine",
+    "pitch": "Arme contondante => Détérioration +",
+    "rang1": "La déterioration provoquée par le personnage (que ce soit envers un adversaire ou lui même) est augmentée de 3",
+    "rang2": "Le bonus est de 6",
+    "rang3": "Le bonus est de 9",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Écorchement",
+    "origines": "Vermine",
+    "pitch": "Arme tranchante => DOT +",
+    "rang1": "Les dégats de ruptures provoquées par le personnage sont augmentées de 3",
+    "rang2": "Le bonus est de 6",
+    "rang3": "Le bonus est de 9",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Briser & Bâtir",
+    "origines": "EFT",
+    "pitch": "Arme contondante => Affinités avec Structures",
+    "rang1": "Si le personnage réalise une action sur une structure alors : La déterioration, création ou la restauration (selon le type d'action) est augmentée de 4.",
+    "rang2": "Le bonus est de 8",
+    "rang3": "Le bonus est de 12",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Ire",
+    "origines": "Vermine",
+    "pitch": "PVs perdus => Contre attaque / Riposte jets ++",
+    "rang1": "Les contre attaque et riposte du personnage reçoivent un bonus de jet de 1 pour chaque 3 PV perdus sur l'action à l'origine de la contre attaque, maximum 4",
+    "rang2": "Bonus de 1 tous les 2 PV perdus, maximum 8",
+    "rang3": "Bonus de 1 tous les PV perdus, maximum 12",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Communion",
+    "origines": "Sylvengarde",
+    "pitch": "Compagnon Animal => Bonus",
+    "rang1": "Le personnage reçoit un bonus de 1 à ses tests d'attaques, défenses ou tactiques réalisées sur une cible qui a été la cible de son compagnon animal récemment ou qui a ciblé son compagnon animal récemment (moins d'un cycle).",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Pivot",
+    "origines": "Sylvengarde",
+    "pitch": "Armes légères (distance/mêlée) => Alternance Distance/Mêlée",
+    "rang1": "Lorsque le personnage attaque à distance une cible il génère une marque de mêlée sur celle-ci. Une même cible ne peut avoir plus de une marque similaires en même temps. Lorsque le personnage attaque cette cible à l'aide de marque similaire à son mode d'attaque il reçoit un bonus de 2 par marques et l'une d'elle est alors supprimée.",
+    "rang2": "Le nombre maximum de marques sur la cible passe à 2",
+    "rang3": "Le bonus passe à 3 par marques",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Traque",
+    "origines": "Sylvengarde",
+    "pitch": "Armes légères (mêlée/distance) => Alternance Mêlée/Distance",
+    "rang1": "Lorsque le personnage attaque en mêlée une cible il génère une marque de distance sur celle-ci. Une même cible ne peut avoir plus de une marque similaires en même temps. Lorsque le personnage attaque cette cible à l'aide de marque similaire à son mode d'attaque il reçoit un bonus de 2 par marques et l'une d'elle est alors supprimée.",
+    "rang2": "Le nombre maximum de marques sur la cible passe à 2",
+    "rang3": "Le bonus passe à 3 par marques",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Chasse",
+    "origines": "Sylvengarde",
+    "pitch": "Pièges => Marques",
+    "rang1": "Lorsque le personnage réalise une attaque ou tactique sur une cible qui a été touchée par un de ses pièges le même jour, l'action reçoit un bonus de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Talion",
+    "origines": "Férale",
+    "pitch": "Contre attaque => Met les défenses de la cible à mal",
+    "rang1": "Lorsque le personnage réussis une contre attaque il peux, au lieu de réaliser les effets normaux de cette action, infliger une condition qui désavantage les défenses de l'adversaire (charge = jet de la contre attaque)",
+    "rang2": "La condition en question désavantage également les jets de défense",
+    "rang3": "La condition en question réduit également les défenses passives de 2 contre les attaques",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Brèche",
+    "origines": "Férale",
+    "pitch": "Riposte => Met les tactiques adverses à mal",
+    "rang1": "Lorsque le personnage réussis une riposte il peux, au lieu de réaliser les effets normaux de cette action, infliger une condition qui désavantage les attaques et tactiques de l'adversaire (charge = jet de la riposte)",
+    "rang2": "La condition en question désavantage également les jets d'attaques et tactiques",
+    "rang3": "La condition en question augmente également les défenses passives des adversaires visées par les tactiques et attaques",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Foudroyance",
+    "origines": "Keld",
+    "pitch": "Arc vs Volant => Bonus",
+    "rang1": "Lorsque le personnage attaque une cible volante il reçoit un bonus à son test de 1",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Vrille",
+    "origines": "Arjan",
+    "pitch": "Arbalète vs Armure naturelle => Perforation",
+    "rang1": "Le personnage ignore jusqu'à 1 catégorie d'armure naturelle avec ses attaques",
+    "rang2": "Ignore jusqu'à 2 catégories",
+    "rang3": "Ignore jusqu'à 3 catégories",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Intouchable",
+    "origines": "Asura",
+    "pitch": "PE >= PE max => Bonus",
+    "rang1": "Le personnage reçoit un bonus de 1 à ses défenses passives tant que ses PE + PE temporaire sont supérieurs à ses PE maximum",
+    "rang2": "Le bonus passe à 2",
+    "rang3": "Le bonus passe à 3",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Fissure",
+    "origines": "Rosaï",
+    "pitch": "Contre attaque => Perforation ++",
+    "rang1": "Lorsque le personnage réalise une contre attaque cette dernière profite d'une perforation équivalant à la catégorie de l'armure de sa cible -2",
+    "rang2": "Le bonus est doublé",
+    "rang3": "Le bonus est triplé",
+    "nb_rangs": 3
+  },
+  {
+    "nom": "Tenaille",
+    "origines": "Atlas",
+    "pitch": "Action => Opportunités pour soi et/ou alliés",
+    "rang1": "Si le personnage échoue son action contre un adversaire à l'aide d'une attaque ou tactique cela constitue une opportunité pour un de ses alliés",
+    "rang2": "Si un allié échoue son action contre adversaire cela constitue une opportunité pour le personnage",
+    "rang3": "Les actions réussies sont également valides",
+    "nb_rangs": 3
   }
 ]
