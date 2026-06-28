@@ -1,0 +1,192 @@
+Les combattants rassemblent tous ceux dont la première réponse à l'adversité passe par l'affrontement direct. Soldats, gardes, bretteurs, brutes de taverne ou chasseurs de primes peuvent entrer dans cette caste dès lors que leur savoir-faire principal consiste à survivre, frapper et tenir leur place dans la violence.
+Les aventuriers vivent de situations instables : routes dangereuses, ruines, enquêtes de terrain, travaux mal définis et problèmes que personne d'autre ne veut régler. Ils ne sont pas forcément les meilleurs dans un domaine précis, mais ils savent improviser assez longtemps pour transformer une mauvaise idée en expédition réussie.
+Les connétables regroupent ceux qui gagnent par le verbe, la posture ou l'influence. Avocats, baladins, meneurs, négociateurs, tribuns ou beaux parleurs relèvent de cette caste lorsqu'ils font de la parole une arme aussi décisive qu'une lame.
+Les spécialistes se définissent par une compétence centrale qui structure leur vie. Savants, artisans, occultistes, techniciens ou experts rares appartiennent à cette caste lorsqu'un savoir précis leur permet d'agir là où les autres manquent de méthode, d'outils ou de compréhension.
+Les ascètes cherchent la puissance dans la discipline personnelle, la maîtrise du corps, de l'esprit ou d'un don singulier. Ils peuvent être ermites, prodiges, artistes martiaux, mystiques ou individus obstinés qui préfèrent compter sur ce qu'ils sont plutôt que sur ce qu'ils possèdent.
+Les guerriers sont des combattants formés à lire le champ de bataille et à exploiter l'avantage tactique. Là où d'autres se contentent de frapper fort, eux savent choisir le bon angle, la bonne arme et le bon moment pour imposer leur supériorité.
+Les barbares vouent leur existence à une violence instinctive, rituelle ou viscérale. Leur rage n'est pas seulement une perte de contrôle : c'est une manière de combattre qui accepte la douleur, le risque et l'excès comme prix naturel de la victoire.
+Les gardiens sont des combattants de rempart, habitués à tenir une position et à transformer leur propre corps en obstacle. Ils protègent, encaissent et ralentissent l'ennemi, non par immobilité passive, mais par une présence qui rend chaque pas adverse coûteux.
+Les moines développent une discipline intérieure qui transforme l'effort, la souffrance et la concentration en ressources de combat. Leur pratique n'est pas seulement martiale : elle repose sur une économie du geste, du souffle et de la volonté.
+Les voleurs vivent des failles du monde civilisé : serrures, angles morts, poches mal gardées, habitudes prévisibles et regards distraits. Ils ne sont pas tous criminels, mais tous savent que la discrétion et l'opportunisme valent souvent mieux qu'un duel loyal.
+Les scouts sont des éclaireurs et tireurs capables de faire peser la distance sur un affrontement. Ils observent, se placent, ouvrent les lignes de tir et transforment le terrain en avantage avant que l'ennemi ne comprenne vraiment d'où vient la menace.
+Les magistrats tirent leur force de la légitimité, de la loi, du statut ou de l'expertise reconnue. Ils ne cherchent pas seulement à convaincre : ils imposent un cadre où leur parole devient référence, accusation ou verdict.
+Les rhapsodes manipulent les émotions immédiates, les tensions et les désirs d'un auditoire ou d'un adversaire. Leur art est moins celui du long discours que celui du moment juste, de la pique qui atteint, de l'élan qui emporte ou du trouble qui désarme.
+Les bardes construisent leur influence par le récit, l'exemple et la mémoire partagée. Ils donnent du sens aux événements, inspirent leurs alliés et savent qu'une histoire bien placée peut changer la manière dont une scène entière sera vécue.
+Les paladins sont des combattants investis d'une certitude morale ou sacrée, souvent dressés contre ce qu'ils considèrent comme hérétique ou corrupteur. Leur force vient autant de leur armure et de leur arme que de l'aura d'autorité qu'ils projettent autour d'eux.
+Les ménestrels pratiquent une magie artistique, portée par la voix, le rythme, le geste ou la performance. Contrairement au barde social, ils ne se contentent pas d'émouvoir : ils font de l'art un véritable vecteur d'incantation.
+Les ensorceleurs façonnent la magie par l'élan personnel, la volonté et l'intuition hermétique. Leur pratique accepte l'improvisation et le risque, comme si le sort était moins une formule stable qu'une réponse arrachée à l'instant.
+Les magiciens abordent la magie comme une science patiente, faite d'étude, de mémoire et de compréhension des phénomènes. Leur puissance vient de la préparation intellectuelle : nommer, classer et connaître avant de contraindre le réel.
+Les sorciers pratiquent une magie profane, souvent préparée dans l'ombre, la stase ou l'attente du moment favorable. Ils ne brillent pas par la spontanéité, mais par leur capacité à faire mûrir un sort jusqu'à ce qu'il frappe avec une précision inquiétante.
+Les prêtres canalisent la magie à travers une tradition spirituelle, communautaire ou sacrée. Leur pouvoir ne se limite pas à lancer des sorts : il inscrit leurs actes dans une relation avec des forces, des croyances et des responsabilités qui dépassent leur seule personne.
+Les fines lames sont des combattants de technique, plus attentifs au geste juste qu'à la force brute. Ils lisent les manoeuvres adverses, retiennent les enchaînements et transforment chaque échange en leçon martiale.
+Les maîtres d'arme incarnent la maîtrise patiente d'un arsenal et d'une méthode. Ils apprennent de chaque échec, varient leurs angles et finissent par imposer leur rythme à des adversaires pourtant bien armés.
+Les vétérans sont des survivants de batailles qui ont déjà connu la peur, l'épuisement et la perte. Leur valeur vient de cette endurance dure, capable de tenir quand des combattants plus frais commencent à céder.
+Les légionnaires sont des soldats de pression collective, rompus à l'effort, à la ligne et aux ressources martiales qui montent avec le danger. Ils combattent mieux quand le front se resserre.
+Les gladiateurs transforment le combat en spectacle et savent tirer une force réelle du regard des autres. Leur bravoure est aussi une mise en scène, car perdre la face peut être pire que perdre du sang.
+Les spartiates sont des guerriers de discipline physique extrême, formés à agir sous tension et à convertir l'adrénaline en efficacité. Ils privilégient la dureté, la vitesse et l'obéissance du corps.
+Les samouraïs sont des combattants de code, dont la technique ne se sépare jamais de l'honneur qui la justifie. Leur force dépend autant de leur lame que de la tenue morale qu'ils s'imposent.
+Les ronins suivent une voie d'indépendance farouche, libérés des maîtres mais non de toute exigence. Leur honneur tient moins à l'obéissance qu'à une fidélité personnelle à leur propre ligne.
+Les épéistes se consacrent à la lame droite, à ses distances, ses reprises et ses ouvertures. Ils font de l'épée une discipline complète plutôt qu'un simple outil de guerre.
+Les berruriers sont des maîtres du bouclier, capables d'en faire une arme, un rempart et un point d'ancrage. Leur art repose sur le contact, la garde et l'opportunité créée par la défense.
+Les lanciers dominent l'espace par l'allonge et la menace constante de la pointe. Ils excellent à tenir l'adversaire à la distance exacte où chaque avancée devient dangereuse.
+Les bourreaux manient la hache comme un instrument de rupture. Ils cherchent moins la finesse que la décision brutale : fendre une garde, ouvrir une armure ou briser une résistance.
+Les brutes se spécialisent dans les armes d'impact, masses et outils de choc. Leur combat écrase, déséquilibre et punit les défenses qui se croient trop solides.
+Les archers maîtrisent l'arc léger, mobile et réactif. Ils préfèrent les tirs rapides, la cadence et le placement à la puissance spectaculaire des grands arcs.
+Les francs archers utilisent les grands arcs et les tirs puissants qui exigent force, patience et lignes de vue propres. Ils frappent depuis plus loin, avec plus d'engagement.
+Les arbalétriers font confiance à la mécanique, à la visée et au moment choisi. Leur art est celui du tir préparé, capable de menacer même les cibles lourdement protégées.
+Les malandrins combattent avec des armes inhabituelles, sales ou imprévisibles. Leur danger vient de leur capacité à faire mentir les attentes et à transformer l'étrange en avantage.
+Les javeliniers mêlent mobilité, lecture de distance et violence projetée. Ils savent qu'une arme lancée au bon moment peut ouvrir un affrontement ou en décider l'issue.
+Les tireurs d'élite exploitent les armes d'épaule avec méthode et précision. Ils cherchent le tir propre, la ligne stable et le coup qui compte plus que la cadence.
+Les pistoleros vivent du tir court, nerveux et théâtral. Leur style repose sur la vitesse, l'assurance et la capacité à imposer la menace d'une arme de poing dans un espace tendu.
+Les gunslingers poussent le tir double jusqu'à en faire une signature. Ils misent sur la pression, le rythme et une présence qui sature l'attention adverse.
+Les snipers sont des tireurs d'attente, de position et de patience. Ils acceptent l'immobilité, le silence et la préparation pour obtenir le seul tir qui compte.
+Les tirailleurs exploitent les longues distances, les angles et la mobilité du champ de bataille. Ils harcèlent, déplacent la menace et refusent le combat confortable.
+Les escrimeurs se consacrent au combat à deux armes de mêlée. Leur art repose sur le croisement des lignes, les reprises rapides et l'impossibilité pour l'adversaire de suivre toutes les lames.
+Les ninjas frappent depuis l'absence, le doute et la surprise. Leur art martial cherche moins le duel que l'instant où la cible ne comprend pas encore qu'elle est attaquée.
+Les adeptes du ninjutsu ajoutent à l'infiltration une pratique rusée du mouvement, de l'outil et de la feinte. Ils font de la confusion une arme avant même le premier coup.
+Les tenchu sont des exécuteurs de l'ombre, guidés par l'observation et le moment juste. Ils attendent l'ouverture morale ou tactique où une cible peut être supprimée sans échange inutile.
+Les gardes du corps construisent leur combat autour d'autrui. Ils anticipent les lignes d'attaque, s'interposent et acceptent que leur victoire consiste parfois à empêcher celle de l'ennemi.
+Les maraudeurs sentent la faiblesse et savent l'exploiter sans pitié. Un adversaire blessé devient pour eux une piste, une faille et une promesse de fin rapide.
+Les brigands combattent rarement seuls ou loyalement. Ils excellent dans les coups groupés, les embuscades, les attaques avant l'alerte et les rapports de force truqués.
+Les soldats sont des combattants d'ordre et de discipline, efficaces quand ils s'inscrivent dans un plan clair. Leur force vient de l'exécution rigoureuse plus que de l'initiative flamboyante.
+Les veilleurs défendent un peuple, un quartier, une institution ou une cause locale. Ils sont moins des héros errants que des gardes attachés à ceux qui comptent sur eux.
+Les assassins visent l'ennemi au moment où il ne peut plus vraiment répondre. Ils ne cherchent pas la gloire du combat, mais la suppression froide, rapide et définitive d'une cible.
+Les francs tireurs spécialisent le tir comme une manoeuvre complète. Ils ajustent, corrigent, exploitent la couverture et savent qu'une balle ou une flèche peut aussi être une tactique.
+Les artilleurs dominent la courte portée avec des armes lourdes, explosives ou exigeantes. Ils aiment le fracas, la pression immédiate et les échanges où la distance ne protège plus personne.
+Les rôdeurs alternent l'approche à distance et l'engagement rapproché. Leur force vient de cette transition fluide qui empêche l'adversaire de s'adapter à un seul rythme.
+Les fiers-à-bras combattent avec panache, provocation et gestes éclatants. Leur style attire l'attention pour mieux transformer l'audace en avantage réel.
+Les aigrefins analysent les faiblesses avant de frapper. Ils n'ont pas besoin d'être les plus forts si leur intelligence leur permet de viser exactement là où l'adversaire cède.
+Les chasseurs construisent le combat avant le combat, par la piste, l'attente et la connaissance de la proie. Pour eux, la victoire commence souvent plusieurs jours avant l'affrontement.
+Les shérifs mêlent autorité, menace et sens pratique de la loi. Ils ne se contentent pas d'arrêter les fauteurs de trouble : ils imposent le cadre dans lequel leur résistance devient une faute.
+Les chevaliers incarnent un code d'honneur visible, parfois noble, parfois personnel. Ils combattent et parlent au nom d'une tenue morale qui oblige autant qu'elle protège.
+Les champions sont les figures qui se dressent quand la situation semble perdue. Leur présence donne aux autres une raison de tenir et transforme le désespoir en défi.
+Les archontes sont des juges de foi, des porte-voix dogmatiques ou des guides de conviction. Leur autorité naît de leur capacité à donner une forme morale aux actes d'une scène.
+Les duellistes ramènent le chaos du combat à l'intimité d'un affrontement singulier. Leur art est fait de provocation, d'espace choisi et de domination psychologique.
+Les bretteurs se spécialisent dans la main secondaire, les parades vicieuses et les contre-attaques rapides. Ils punissent l'adversaire qui croit n'avoir qu'une arme à surveiller.
+Les spadassins lisent les styles et s'adaptent à leurs logiques internes. Ils ne battent pas seulement un adversaire : ils cherchent à comprendre puis déformer sa manière de combattre.
+Les phalanges tiennent malgré les blessures et rendent la ligne plus difficile à briser. Leur valeur apparaît quand la défense devient une affaire de hargne collective.
+Les pugilistes combattent sans armure et font de leur corps une arme entière. Leur discipline transforme les poings, les coudes, les genoux et l'encaissement en système martial.
+Les guerriers mages tressent l'incantation et l'assaut physique. Ils ne séparent pas la lame du sort, préférant que chaque geste prépare l'autre.
+Les sorceleurs mêlent signes, concoctions et violence spécialisée. Ils vivent de préparations dangereuses et d'une pratique conçue pour affronter ce que les combattants ordinaires comprennent mal.
+Les cavaliers pensent le combat depuis la selle. Leur art repose sur l'élan, la coordination avec la monture et l'avantage de mobilité qu'offre un corps à deux volontés.
+Les cavaliers célestes portent cette logique dans les airs, où la vitesse, l'altitude et la créature montée redéfinissent entièrement le champ de bataille.
+Les sentinelles sont des experts de la défense active. Elles protègent les angles, lisent les attaques et donnent à leurs alliés le temps de survivre à une mauvaise situation.
+Les courtisans combattent dans les salons, les cours et les assemblées, là où la réputation, la faveur et le regard du public valent des armes.
+Les bâtisseurs pensent en structures, couverts, murs et points d'appui. Ils transforment l'environnement matériel en outil, refuge ou menace.
+Les myrmidons vivent dans l'interruption, la riposte et l'opportunité. Ils excellent à agir dans l'espace bref où l'adversaire croit encore avoir l'initiative.
+Les marchegardes sont des tacticiens de zone, d'ancrage et de contrôle physique. Ils ne se contentent pas d'occuper le terrain : ils le rendent coûteux à traverser.
+Les avocats sont des spécialistes des interruptions sociales, de l'objection et de la parole placée au bon moment. Ils savent qu'une phrase peut arrêter un élan aussi sûrement qu'un bouclier.
+Les artisans maîtrisent la matière, l'outil et la réparation. Leur compétence n'est pas abstraite : elle se voit dans ce qu'ils fabriquent, préservent ou remettent debout sous pression.
+Les patriarches et matriarches organisent l'effort commun. Leur force vient de la famille, du groupe, de la maison ou de toute communauté qu'ils savent faire agir comme un seul corps.
+Les nobles transforment position, rang et présence en moyens d'action. Ils imposent leur place dans l'ordre social et forcent les autres à se définir face à elle.
+Les tacticiens savent nommer une situation, en extraire les informations utiles et les transmettre avant qu'il ne soit trop tard. Leur arme principale est la lecture partagée du réel.
+Les sages accumulent les savoirs et savent les relier. Ils ne dominent pas par l'autorité immédiate, mais par la profondeur de mémoire et la capacité à retrouver le sens caché.
+Les mercenaires combattent pour le contrat, la prime et l'efficacité. Leur loyauté est négociée, mais leur professionnalisme rend cette loyauté dangereusement fiable.
+Les majordomes et maids excellent dans le service actif, l'anticipation et l'exécution impeccable d'une tâche confiée. Leur discrétion cache souvent une compétence redoutable.
+Les pirates vivent de prise, de risque et de liberté violente. Ils ne volent pas seulement des biens : ils contestent l'idée même que l'ordre établi soit propriétaire du monde.
+Les larrons sont des opportunistes de l'illégal, capables de tirer profit d'une situation moralement trouble. Ils préfèrent l'avantage discret à la victoire honorable.
+Les roublards combattent avec des armes courtes, des angles serrés et des coups rapides. Ils excellent là où la proximité devient confuse et dangereuse.
+Les toxicologues font du poison, des huiles et des substances préparées une extension de leur violence. Leur menace continue parfois d'agir après le coup porté.
+Les éclaireurs partent seuls vers le danger pour apprendre ce que le groupe ignore encore. Leur courage est discret : voir sans être vu, revenir avant que l'alerte ne se ferme.
+Les trappeurs comprennent les pièges comme un langage de patience et de terrain. Ils préparent les lieux, lisent les mécanismes et savent que l'ennemi peut se vaincre lui-même.
+Les traqueurs s'attachent à une cible jusqu'à ce qu'elle cesse d'être une inconnue. Ils observent, suivent et attendent que la chasse devienne inévitable.
+Les intriguants font du mensonge une architecture sociale. Ils ne cherchent pas seulement à tromper, mais à créer un monde provisoire où leur version paraît naturelle.
+Les agitateurs savent exploiter la colère, la blessure morale et la peur collective. Leur parole ne calme pas les foules : elle les oriente.
+Les marchands transforment la valeur, la dette et l'échange en pouvoir concret. Ils lisent les besoins des autres et savent faire payer le moment juste.
+Les rhétoriciens étudient les styles de joute comme des systèmes à démonter. Ils répondent à une argumentation en attaquant sa forme, son rythme et ses présupposés.
+Les médiateurs cherchent la voie étroite entre des camps qui ne leur appartiennent pas. Leur art consiste à faire tenir une parole commune là où chacun veut garder la sienne.
+Les répurgateurs se consacrent à identifier, dénoncer et combattre la corruption. Leur pratique oscille entre enquête morale, violence préventive et purification.
+Les artistes font de leur art une manière d'agir sur le monde. Leur création n'est pas décorative : elle peut convaincre, bouleverser, guider ou laisser une trace durable.
+Les explorateurs entrent dans les lieux oubliés, fermés ou inconnus avec une curiosité disciplinée. Ils savent que découvrir, c'est aussi survivre à ce que personne n'avait prévu.
+Les vagabonds avancent malgré l'inconfort, le manque et l'improvisation. Leur talent naît des situations dégradées, quand les plans propres et l'équipement parfait ont disparu.
+Les rangers vivent avec un compagnon naturel et une compréhension active du terrain. Leur efficacité vient autant de leur propre sens que du lien entretenu avec l'animal.
+Les juges recherchent l'équilibre avant le camp. Ils savent suspendre les élans moraux immédiats pour rendre une décision qui prétend dépasser l'intérêt personnel.
+Les justiciers s'engagent lorsque la cause leur paraît droite, même sans mandat officiel. Ils agissent comme une réponse vivante à ce que les institutions laissent impuni.
+Les clercs défendent une doctrine face aux mensonges, trahisons et hérésies. Leur parole cherche moins le compromis que la fidélité à une vérité reconnue.
+Les médecins soignent sans miracle, par observation, gestes précis et connaissance du corps ou de l'esprit. Leur héroïsme est souvent calme, méthodique et nécessaire.
+Les capitaines commandent dans le monde mouvant des équipages, des ports et des tempêtes. Leur autorité doit fonctionner même quand le sol lui-même refuse de rester stable.
+Les apothicaires connaissent les plantes, remèdes, toxines et préparations de terrain. Ils travaillent avec ce que le vivant offre, soigne ou empoisonne.
+Les spagiristes poussent l'herboristerie vers une pratique plus savante et transformante. Ils cherchent dans la matière vivante des principes à extraire, purifier et recomposer.
+Les croisés portent la guerre dans le domaine de la foi, de la magie ou de la technologie jugée impure. Ils attaquent ce qu'ils considèrent comme une menace spirituelle autant que tactique.
+Les templiers canalisent la magie pour soutenir, protéger et renforcer. Leur combat passe par l'imposition de conditions bénéfiques qui transforment leurs alliés en instruments de doctrine.
+Les templiers noirs inversent cette logique et font des altérations négatives une arme de conquête. Ils affaiblissent, maudissent ou marquent pour gagner avant l'échange direct.
+Les paladins noirs défendent des auras sombres, des causes interdites ou des fidélités que d'autres jugeraient impies. Leur présence protège autant qu'elle inquiète.
+Les maléficien.ne.s se spécialisent dans la malédiction et les conséquences invisibles. Leur magie ne frappe pas toujours fort, mais elle laisse une trace qui s'accroche.
+Les illusionnistes manipulent les perceptions, les désirs et les certitudes sensibles. Ils préfèrent changer ce que l'ennemi croit réel plutôt que le réel lui-même.
+Les sylphides pratiquent une magie fine, mobile et souvent insaisissable. Leur art privilégie les courants subtils, les protections, les charmes et les forces qui échappent à la prise directe.
+Les divins canalisent une magie de révélation, de restauration ou d'ordre supérieur. Ils cherchent dans le sacré une manière d'éclairer, réparer ou orienter le monde.
+Les oracles lisent les signes et transforment l'incertitude en direction. Leur magie touche à la bénédiction, à la malédiction et aux chants qui donnent forme au destin.
+Les élémentalistes dialoguent avec les forces premières : feu, froid, foudre, terre, eau et air. Leur pratique donne un visage spectaculaire aux puissances matérielles.
+Les psychistes explorent l'esprit, les visions, les charmes et les illusions mentales. Leur magie agit là où la volonté, la mémoire et la perception deviennent perméables.
+Les diacres incarnent une magie de protection, de soin et de bénédiction militante. Ils soutiennent les corps et les âmes sans séparer la guérison du devoir.
+Les shamanes négocient avec les équilibres du vivant, des ombres et des esprits. Leur magie est moins institutionnelle que relationnelle, ancrée dans les passages entre mondes.
+Les druides défendent une magie de nature, de faune, de flore et de transformation. Leur pouvoir vient d'une fidélité au vivant plutôt qu'aux lois des cités.
+Les nécromanciens étudient la mort, les corps et les esprits négatifs. Ils savent que la fin d'une vie n'est pas toujours la fin d'une utilité, d'une dette ou d'une présence.
+Les mages de sang paient la magie dans la chair, la douleur ou la vitalité. Leur pratique rend chaque sort plus intime, plus coûteux et plus difficile à regarder en face.
+Les démonistes pactisent avec l'ombre et l'impie pour obtenir des forces que d'autres refusent d'approcher. Leur pouvoir est souvent aussi politique que surnaturel.
+Les convocateurs appellent des présences, forces ou entités par une invocation maîtrisée. Ils préparent l'espace afin que quelque chose d'extérieur puisse agir ici.
+Les invocateurs vivent plus directement dans le rapport aux entités appelées. Leur art repose sur le lien, l'ordre donné et le risque qu'une présence étrangère transforme la scène.
+Les machinistes utilisent la mécanique lourde, les engrenages et les dispositifs physiques comme extensions de l'action. Ils pensent en leviers, force transmise et pièces robustes.
+Les nanonistes travaillent avec l'invisible technologique, les microstructures et les transformations fines. Leur science agit à une échelle que peu de gens savent seulement imaginer.
+Les mécaniciens réparent, recyclent, sabotent et démontent ce que la technologie produit. Ils connaissent les machines par leurs failles autant que par leurs plans.
+Les pilotes ne conduisent pas seulement des véhicules : ils sentent leur inertie, leurs limites et leurs réactions. Leur compétence fait d'un engin un corps presque familier.
+Les techniciens emploient la technologie comme un outil polyvalent d'action. Ils ne sont pas forcément inventeurs, mais savent tirer parti d'un dispositif au bon moment.
+Les architectes conçoivent des systèmes mécatroniques où structure, mouvement et commande se répondent. Leur science cherche l'élégance fonctionnelle autant que l'efficacité.
+Les technocrates maîtrisent le steam comme discipline centrale. Ils pensent en pression, énergie, industrie et domination technique du monde matériel.
+Les scientifiques théorisent, observent et déduisent avant d'agir. Leur force vient de la méthode, de l'expérience et de la capacité à transformer l'inconnu en problème étudiable.
+Les ingénieurs appliquent la technologie pour résoudre, construire ou détourner. Ils se tiennent entre théorie et terrain, là où une idée doit vraiment fonctionner.
+Les docteurs technologiques abordent le vivant par la biologie, les instruments et les protocoles. Ils cherchent à comprendre les corps comme des systèmes réparables ou améliorables.
+Les chimistes manipulent réactions, mélanges, solvants et substances instables. Leur science transforme la matière en effets précis, parfois utiles, parfois terriblement dangereux.
+Les alchimistes mêlent magie, matière et procédés expérimentaux. Ils cherchent les correspondances cachées entre substance, pouvoir et transformation.
+Les elchimistes pratiquent l'équivalence, là où la transformation devient une règle presque philosophique. Ils paient, déplacent et recomposent les valeurs du réel.
+Les arcanistes étudient les arcanes comme un langage profond. Leur vocation est de comprendre les structures magiques avant de s'en servir.
+Les flambeurs font du risque, du karma et du pari une manière d'exister. Ils cherchent le moment où l'incertitude devient une force plutôt qu'un danger.
+Les rossignols excellent dans les actions doublées, les gestes successifs et les enchaînements rapides. Leur talent tient à leur capacité à occuper deux temps à la fois.
+Les zélotes transforment la conviction sociale en arme contre ceux qu'ils jugent hérétiques. Leur parole ne débat pas toujours : elle accuse, rallie et tranche.
+Les exorcistes affrontent les esprits, démons, maléfices et présences surnaturelles hostiles. Leur pratique tient autant de la résistance mentale que du rite offensif.
+Les liches poursuivent une magie de mort, d'ombre et d'impie au-delà des limites ordinaires. Leur existence même peut devenir une doctrine de persistance.
+Les fauconniers combattent et voyagent avec un rapace dressé comme partenaire. Leur maîtrise tient dans la coordination entre regard humain et regard du ciel.
+Les maîtres de la meute commandent à des loups ou compagnons similaires par lien, dressage et instinct partagé. Ils pensent en groupe, poursuite et morsure coordonnée.
+Les maîtres des ours s'appuient sur une force animale massive et difficile à ignorer. Leur art consiste à guider la puissance plutôt qu'à la brider.
+Les espions emploient l'improvisation, les couvertures et les armes de circonstance. Leur danger vient de leur capacité à rester utiles même dépouillés de tout signe évident de menace.
+Les valkyries soutiennent l'action martiale par présence, mouvement et exaltation. Elles donnent au combat une dimension presque rituelle, où l'élan compte autant que le coup.
+Les seigneurs savent commander, recevoir du soutien et redistribuer l'effort collectif. Leur autorité fonctionne parce qu'elle organise la puissance des autres.
+Les berserkers combattent depuis la blessure et la fureur. Là où d'autres ralentissent en souffrant, eux trouvent dans la douleur une permission d'aller plus loin.
+Les muses inspirent, relèvent le moral et donnent aux alliés une image plus haute d'eux-mêmes. Leur pouvoir est de faire agir les autres avec plus de certitude.
+Les skalds chantent, racontent et provoquent pour briser la volonté adverse. Leur art célèbre autant qu'il humilie, et la peur devient parfois leur refrain.
+Les infiltrateurs maîtrisent l'entrée non permise, la surprise et l'embuscade. Ils vivent de seuils franchis sans invitation et de présences découvertes trop tard.
+Les artificiers font parler explosifs, grenades et charges préparées. Leur expertise transforme la destruction en outil précis, même quand elle reste bruyante.
+Les hérauts sont des porteurs d'aide, de message et de soutien actif. Ils rendent les autres plus efficaces parce qu'ils savent annoncer, guider et renforcer au bon moment.
+Les sohei mêlent discipline religieuse et interruption martiale. Ils protègent un ordre par la réaction rapide, comme si la vigilance était une forme de prière.
+Les amazones excellent dans le tir et le jet à courte portée, au coeur du mouvement. Leur style refuse la distance confortable et frappe dans l'élan.
+Les juggernauts sont des masses en marche, dangereux après le déplacement. Leur violence naît de l'inertie, de l'impact et de la difficulté à les arrêter.
+Les aristocrates dominent les manoeuvres de joute par l'éducation, le rang et l'habitude des rapports de pouvoir. Leur parole porte le poids d'un monde social codifié.
+Les magisters travaillent l'incantation comme une manoeuvre raffinée. Leur pratique vise à contrôler la forme du sort avec autant de précision que son effet.
+Les enquêteurs rassemblent traces, témoignages et déductions jusqu'à faire émerger une vérité praticable. Leur patience transforme le désordre en piste.
+Les errants vivent dans le mouvement, le voyage et l'adaptation continue. Leur compétence apparaît quand rester en place serait plus dangereux qu'avancer.
+Les trouvères font de la performance un métier de route, de place publique et de mémoire vivante. Leur art circule avec eux et transforme chaque halte en scène possible.
+Les missionnaires cherchent à désamorcer les conflits, calmer les fanatismes et ouvrir une brèche de dialogue. Leur foi ou leur cause avance par persuasion pacificatrice.
+Les mentors vivent pour transmettre, guider et former. Leur talent n'est pas seulement de savoir faire, mais de rendre quelqu'un d'autre capable d'agir mieux.
+Les prophètes portent la divination comme une charge sociale. Ils annoncent, préviennent, interprètent et doivent vivre avec le poids de ce que les autres entendent dans leurs visions.
+Les lutteurs combattent au contact, par prise, pression et supériorité physique. Ils cherchent à réduire l'adversaire à un corps contrôlé.
+Les shugenja organisent leur magie autour de familles d'énergies, de matières ou de forces sacrées. Leur pratique est structurée par le choix d'une voie élémentaire ou spirituelle.
+Les exilés ou damnés survivent dans l'isolement, le désespoir et la perte d'appui. Leur force vient de ce qu'il reste lorsqu'il ne reste presque rien.
+Les stratèges conçoivent la victoire avant l'action. Ils ordonnent les moyens, anticipent les réactions et cherchent à gagner par la disposition des forces.
+Les ritualistes pratiquent une magie lente, préparée et signifiante. Ils ne cherchent pas l'instant du duel, mais la puissance accumulée par forme, lieu et temps.
+Les hiérophantes se consacrent aux invocations avec une relation favorite ou sacrée. Leur art exige une dépense plus lourde, mais donne aux présences appelées une place centrale.
+Les arcmages canalisent la magie dans des armes enchantées ou équivalentes. Ils transforment le tir en acte arcanique et la trajectoire en vecteur de sort.
+Les forgemages conjurent ou façonnent des armes par magie. Leur combat donne au sort une forme tranchante, frappante ou tangible.
+Les virtuoses font du mouvement un art de précision. Danse, esquive, acrobatie et évasion deviennent chez eux une seule grammaire corporelle.
+Les charlatans manipulent les émotions par mensonge, provocation et mise en scène. Leur talent consiste à faire agir la cible contre son propre équilibre.
+Les coryphées dirigent le mouvement comme un chef de choeur physique. Leur grâce n'est pas seulement belle : elle entraîne, détourne et organise l'espace.
+Les chantesorts placent leur magie au centre d'eux-mêmes et la libèrent autour de leur corps. Ils font de leur présence le foyer d'une incantation rayonnante.
+Les cleptomanciens volent, détournent ou annulent la magie d'autrui. Leur art est parasitaire et défensif, fait pour retourner le sort contre son propriétaire.
+Les maîtres des lames incarnent la perfection du double mouvement à l'épée. Ils enchaînent main directrice et main secondaire jusqu'à brouiller la notion d'attaque principale.
+Les envoûteurs travaillent l'emprise subtile, la fascination et l'attachement magique. Ils gagnent rarement par force ouverte, mais par la place qu'ils prennent dans l'esprit d'autrui.
+Les chaomanciens acceptent le hasard comme matière première de la magie. Leur pratique transforme l'accident, la chance et l'imprévisible en puissance exploitable.
+Les thaumaturges savent utiliser les outils magiques, focalisateurs, catalyseurs et matérias comme de véritables instruments de précision. Leur magie passe par l'objet autant que par le geste.
+Les pistomanciens lient arme à feu et munition magique dans une pratique hybride. Leur tir n'est pas seulement balistique : il transporte une intention arcanique.
+Les inquisiteurs traquent corruption, magie suspecte et science dangereuse avec une détermination martiale. Ils représentent l'autorité qui ne veut pas seulement comprendre, mais éliminer.
+Les mages de guerre apprennent à incanter au milieu du choc, de la mêlée et de la menace immédiate. Leur concentration se forge là où les autres perdent leurs mots.
+Les jokers manipulent les émotions qu'ils provoquent pour rendre l'adversaire prévisible. Ils font du désordre affectif un terrain de jeu social.
+Les sourceleurs travaillent directement le mana, ses flux, ses manques et ses rassemblements. Leur pratique vise la ressource magique elle-même plutôt que ses effets visibles.
