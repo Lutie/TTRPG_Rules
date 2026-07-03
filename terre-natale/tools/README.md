@@ -26,7 +26,7 @@ sources (xlsx / txt / csv / md)
 | `parse_traits.py` | `Compendium des Traits.docx.txt` | `traits.json` |
 | `export_traits.py` | `traits.json` | `app-sheet/src/data/traits.json` |
 | `parse_manoeuvres.py` | `Manoeuvres & Prouesses.xlsx` | `manoeuvres.json`, `prouesses.json` |
-| `parse_castes.py` | `Castes.xlsx` | `docs/classes/castes.md`, `app-sheet/src/data/castes.js` |
+| `parse_castes.py` | `Castes.xlsx` | `docs/classes/castes.md`, `app-sheet/src/data/castes.js`, `app-sheet/src/data/castes.json` |
 | `parse_competences.py` | `Terre Natale.docx.txt` | `competences.json`, `app-sheet/src/data/competences.js` |
 | `parse_ethnies.py` | `docs/ethnies/ethnies.md` | `ethnies.json`, `app-sheet/src/data/ethnies.js` |
 | `parse_particularites.py` | `docs/ethnies/ethnies.md` | `app-sheet/src/data/particularites.json` |
@@ -88,7 +88,7 @@ cd tools && python3 parse_manoeuvres.py
 
 ### `parse_castes.py`
 **Source :** `Terre Natale - Aides de jeu _ Castes.xlsx`  
-**Génère :** `docs/classes/castes.md` + `app-sheet/src/data/castes.js`
+**Génère :** `docs/classes/castes.md` + `app-sheet/src/data/castes.js` + `app-sheet/src/data/castes.json`
 
 ---
 

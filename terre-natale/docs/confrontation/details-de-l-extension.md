@@ -13,8 +13,6 @@ Le principe est simple : En combat certaines armes sont plus efficaces pour cont
 De plus ces règles proposent également d’ajouter une couche de profondeur en plus à l’arsenal des combattants : Chaque familles d’armes peut désormais être différentes des autres en jouant autours de notions qui leurs sont propres.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image2.png)
-
     Dans les règles de base seules les boucliers et les armes à distances (arcs, arbalètes, armes à feu) étaient soumises à des règles spécifiques. L’extension des confrontations proposent d’appliquer cela à toutes les familles d’armes !
 
 ## ◈ Les Manœuvres
@@ -74,7 +72,7 @@ Le prix d’une petite pièce d’armure est équivalent à 15% du prix d’une 
 Une pièce d’armure qui occupe plusieurs localisations est associée à une charge augmentée et un prix équivalant à aux nombres de localisations ainsi occupées.
 
 !!! tip "Règles Optionnelles : Limite des Pièces d’Armure"
-    Il est conseillé de limiter l’efficacité des pièces d’armures lorsqu’elles sont ajoutées les unes aux autres.![](images/image8.png)
+    Il est conseillé de limiter l’efficacité des pièces d’armures lorsqu’elles sont ajoutées les unes aux autres.
 
     Une limitation simple serait d’empêcher le bonus d’absorption issus exclusivement des pièces d’armures d’être supérieur à celui de l’armure portée.
 
@@ -91,8 +89,6 @@ Les armes doubles sont des armes disposant de la propriété « double ». Ces a
 Toutes les armes « double » peuvent réaliser un coup multiple, qui fonctionne comme un tir multiple mais avec une attaque de mêlée principale et une autre restreinte. Les conditions de l’action multiple (cout en initiative, pénalité, réduction de la catégorie de l’arme pour ses jets, etc) sont les mêmes, on ignore simplement le concept de cadence maximale, de recule, etc.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image2.png)
-
     Il ne faut pas confondre un tir ou coup multiple et un tir doublé d’une autre action (ce qui constitue une action doublée). D’ailleurs une action multiple ne peux pas être doublé.
 
 ### Le cas des armes hybrides
@@ -104,8 +100,6 @@ Ces armes sont en fait des armes « doubles » dont les différentes zones de fr
 Toutes les armes « hybrides » sont sujettes aux règles suivantes : - L’arme est considérée comme double et peux à se titre réaliser des coups multiples. - La catégorie de l’arme en attaque est réduite de 1, cette réduction n’est pas cumulée si l’arme est utilisée pour un coup multiple, il est simplement appliqué tout le temps. - Le personnage peut choisir l’arme avec laquelle il attaque au moment où il porte son coup, ce qui permet une grande versatilité.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image2.png)
-
     Le personnage peut produire son attaque avec le type d’attaque qui lui convient (parmi les deux disponibles sur son arme) en fonction de ses besoins ou de son adversaire.
 
 ### Le cas des armes exotiques

@@ -10,7 +10,12 @@ Les outils représentent ce qui permet de réaliser un type d’activité ou act
 
 Il est d’abord important de bien comprendre ce qu’est un outil et le cadre dans lequel ses caractéristiques importent. Le sujet est sujet à interprétation cependant et il faudra faire preuve de logique, sans quoi il faudrait verser dans une exhaustivité étouffante.
 
-Mieux que milles mots, des exemples : - Le nécessaire de crochetage est un outil qui permet de crocheter des serrures. - La pelle est un outil qui permet de creuser. - Le nécessaire de couture est un outil qui permet de coudre. - etc…
+Mieux que milles mots, des exemples :
+
+- Le nécessaire de crochetage est un outil qui permet de crocheter des serrures.
+- La pelle est un outil qui permet de creuser.
+- Le nécessaire de couture est un outil qui permet de coudre.
+- etc…
 
 #### Les Qualité d’un Outil
 
@@ -26,7 +31,10 @@ Les livres peuvent être des outils cruciaux quand il s’agit d’obtenir des i
 
 ### Les Conteneurs
 
-Les conteneurs représentent l’équipement servant à en transporter d’autres. Il existe deux types : - Le sac à dos, un aventurier ne peux en porter qu’un seul et l’accès à l’équipement est limité (en combat une action complexe est nécessaire et on ne peut pas s’habituer à cette action) mais ce dernier accroît considérablement la capacité de port du personnage. - Les sacoches et autres conteneurs tel que les fourreaux et autres carquois, bref tout ce qui permet de transporter des éléments. Ces conteneurs sont généralement assez spécifiques mais permettent un accès rapide à un équipement donné (en combat aucune action est nécessaire pour attraper l’objet, ce dernier est à portée de main).
+Les conteneurs représentent l’équipement servant à en transporter d’autres. Il existe deux types :
+
+- Le sac à dos, un aventurier ne peux en porter qu’un seul et l’accès à l’équipement est limité (en combat une action complexe est nécessaire et on ne peut pas s’habituer à cette action) mais ce dernier accroît considérablement la capacité de port du personnage.
+- Les sacoches et autres conteneurs tel que les fourreaux et autres carquois, bref tout ce qui permet de transporter des éléments. Ces conteneurs sont généralement assez spécifiques mais permettent un accès rapide à un équipement donné (en combat aucune action est nécessaire pour attraper l’objet, ce dernier est à portée de main).
 
 ### Les Bracelets
 

@@ -41,7 +41,7 @@ Les batailles sont des confrontations menées à grande échelle. Les règles so
 Les batailles ne sont pas détaillées dans les règles de base.
 
 !!! tip "Règles Optionnelles : A manger et à boire !"
-    Les règles de confrontation de Terre Natale sont assez détaillées et complexes, elles ont été pensées pour être le plus complètes possibles en incluant une couche notable de stratégie et de règles couvrant ces besoins.![](images/image2.png)
+    Les règles de confrontation de Terre Natale sont assez détaillées et complexes, elles ont été pensées pour être le plus complètes possibles en incluant une couche notable de stratégie et de règles couvrant ces besoins.
 
     Aussi, si leur application est un challenge trop imposant ou ennuyeux, il est conseillé, pour des sessions plus légères et moins difficiles à orchestrées, de ne pas s’encombrer de toutes les règles en permanence. Bien que tout ne soit pas présenté comme des règles optionnelles, il y a bien des notions qui peuvent naturellement être écartées pour clarifier les choses si besoin (telles que les notions de vitesse, rapidité, actions doubles, etc).
 
@@ -56,7 +56,7 @@ On peut légitimement se demander si toutes les altercations, physique ou social
 Pour une altercation physique, demandez-vous si les opposants cherchent à s'entre-tuer, voir simplement à se mettre hors d’état ou seulement à régler un différend de façon musclée sans conséquences dramatiques. Dans le premier cas on utilisera les règles de la confrontation (combat). Dans le second un test global d’attaque adapté à la situation peut suffire à exprimer le vainqueur de l’altercation. Selon la situation l’attaque peut faire usage de l’attaque ou d’une tactique et le défenseur d’une attaque, défense ou tactique, c’est au joueur et au MJ de juger. Au pire le perdant subira une augmentation de fatigue (probablement 1D8 réduit par le sang-froid, voir la règle de la fatigue) et ne pourra s’opposer physiquement à la suite de l’événement. Si vous cherchez plus de profondeur/impact sur la scène et que l’échange de test ne suffit pas, ou si la scène présente plusieurs participants, vous pouvez faire usage de la règle de la « baston », une règle détaillée dans le chapitre 9.
 
 !!! info "Rappel"
-    Concrètement si les personnages cherchent à obtenir de l’aide d’un pnj cela devrait passer par un test opposé de persuasion, coercition ou suggestion selon la nature des propos et de la façon dont le sujet est amené. Évidemment le MJ a toute latitude pour renforcer le test de l’attaquant ou du défenseur selon qu’ils ont de bons arguments ou des preuves pour étayer la demande ou le refus. Un pnj qui perd du temps ou des moyens sera plus difficile à convaincre (+2), si il se met en position délicate en coopérant alors ce sera plus difficile encore (+4), si il se met en danger notable (lui ou sa famille) alors ce sera bien pire encore (+6), plus encore si c’est un danger de mort (+8 à +10 selon la menace).![A yellow diamond with a black strip Description automatically generated](images/image1.png)
+    Concrètement si les personnages cherchent à obtenir de l’aide d’un pnj cela devrait passer par un test opposé de persuasion, coercition ou suggestion selon la nature des propos et de la façon dont le sujet est amené. Évidemment le MJ a toute latitude pour renforcer le test de l’attaquant ou du défenseur selon qu’ils ont de bons arguments ou des preuves pour étayer la demande ou le refus. Un pnj qui perd du temps ou des moyens sera plus difficile à convaincre (+2), si il se met en position délicate en coopérant alors ce sera plus difficile encore (+4), si il se met en danger notable (lui ou sa famille) alors ce sera bien pire encore (+6), plus encore si c’est un danger de mort (+8 à +10 selon la menace).
 
     Une joute est préférable lorsque les joueurs cherchent à vaincre l’adversaire sur le plan social et honorable, ou s’ils cherchent à le faire durablement changer d’avis et/ou d’allégeance. En somme les joutes sont des règles lourdes qui ne devraient être utilisées qu’avec parcimonie pour des situations pivots qu’un simple test de compétence n'honore.
 
@@ -77,7 +77,7 @@ L’Initiative La première chose à faire lorsqu’un tour débute c’est dét
 Un personnage peut tirer l’initiative de 3 façon différente : - Sous couvert de la compétence Initiative et de l’Agilité : Il sera alors désavantagé à ses tests relevant des attributs de l'esprit. - Sous couvert de la compétence Initiative et de la Ruse : Il sera alors désavantagé à ses tests relevant des attributs du corps. - Sous couvert de la compétence Initiative de l’attribut le plus bas parmi l’Agilité ou la Ruse : Il ne sera jamais désavantagé.
 
 !!! info "Rappel"
-    L’initiative est la seule compétence qui subit à la fois les pénalités de l’arme ayant la plus haute pénalité et de l’armure. Ces pénalités sont appliquées à l’attribut qui doit servir au test (agilité et/ou ruse selon le cas). Il est donc très possible que le modificateur associé au test (normalement égale à modificateur d’attribut + compétence (initiative) + groupe (intuition)) soit négatif si le personnage n’a pas pris soin de choisir un équipement adapté à ses capacités.![](images/image1.png)
+    L’initiative est la seule compétence qui subit à la fois les pénalités de l’arme ayant la plus haute pénalité et de l’armure. Ces pénalités sont appliquées à l’attribut qui doit servir au test (agilité et/ou ruse selon le cas). Il est donc très possible que le modificateur associé au test (normalement égale à modificateur d’attribut + compétence (initiative) + groupe (intuition)) soit négatif si le personnage n’a pas pris soin de choisir un équipement adapté à ses capacités.
 
     Il existe des traits dont l’intérêt est justement de réduire partiellement les pénalités des équipements. De plus, la qualité de l’équipement peut également affecter le résultat en apportant un ajustement à l’attribut du test.
 
@@ -102,7 +102,7 @@ La passe d’un personnage se joue au moment où le décompte d’initiative att
 Durant sa passe un personnage peut réaliser des actions normales pouvant prendre la forme de deux actions simples ou une action complexe. Durant la passe des autres un personnage peut réaliser des actions rapides (pour des actions d’interruptions).
 
 !!! info "Rappel"
-    La Rapidité est un mot clé désignant les effets altérant l’ordre des passes.![](images/image1.png)
+    La Rapidité est un mot clé désignant les effets altérant l’ordre des passes.
 
     Lorsqu’un personnage profite d’un bonus de rapidité, il peut agir plus tôt sur le décompte de l’initiative. En revanche, si le personnage reçoit un malus de rapidité, il doit attendre plus tard le décompte de l’initiative pour prendre sa passe.
 
@@ -183,7 +183,7 @@ Notons que les actions d’interruptions requièrent un coût en initiative (de 
 Le test d'initiative se réalise à partir de la compétence du même nom : Intuition (Groupe) + Initiative (compétence) + modificateur de Ruse ou d’Agilité.
 
 !!! info "Rappel"
-    L’ensemble des ajustements appliqués aux attributs liés à l’équipement sont imputés à l’initiative ! ![](images/image1.png)
+    L’ensemble des ajustements appliqués aux attributs liés à l’équipement sont imputés à l’initiative !
 
     Il s’agit des ajustements liés à l’arme et à l’armure. Dans le cas où le personnage est équipé de deux armes alors la moins avantageuse est prise en considération.
 
@@ -237,7 +237,7 @@ Pour l’ensemble des éléments de l'équipement, le personnage doit satisfaire
 Le désavantage inhérent à la charge de chaque équipement et au poids total sont cumulatifs.
 
 !!! info "Rappel"
-    Poigne = Force. Capacité de Charge = Force + Stature + 5.![](images/image3.png)
+    Poigne = Force. Capacité de Charge = Force + Stature + 5.
 
     La charge d’un équipement est basée sur : Catégorie de l’équipement x5. On y adjoint cependant des modificateurs (+/-) qui dépendent des caractéristiques de l’arme.
 
@@ -276,7 +276,7 @@ Comme l’argument, le raisonnement est défini par sa catégorie, qui influence
 Les armures dotées d’améliorations d’apparat ou de prestige peuvent également transmettre leurs qualités aux attributs de l’Esprit lors des défenses passives et tirades défensives.
 
 !!! note "Note"
-    Dans une joute, contrairement au combat physique, les rôles sont distincts :![](images/image1.png)
+    Dans une joute, contrairement au combat physique, les rôles sont distincts :
 
     - L’argument sert à attaquer.
     - Le raisonnement sert à se défendre.
@@ -297,7 +297,7 @@ La Prestance du personnage représente sa capacité à assumer et maintenir l’
 La Prestance requise correspond à la somme du Panache requis de tous les éléments du discours (Argument + Raisonnement). Si la Prestance du personnage est inférieure à la Prestance requise, toutes ses actions sociales sont désavantagées. Les désavantages dus au Panache et à la Prestance sont cumulatifs.
 
 !!! info "Rappel"
-    Panache = Charisme. Prestance = Charisme + Ego + 5.![](images/image3.png)
+    Panache = Charisme. Prestance = Charisme + Ego + 5.
 
     Le panache requis d’un élément du discours est basé sur : Catégorie de l’élément x5. Il n’y a pas de modificateurs comme c’est le cas pour l’équipement.
 
@@ -409,7 +409,7 @@ Sauf indication contraire, l’action d’interruption est désavantagée si ell
 Les actions d’interruptions sont : - Les actions d’opportunités. - Les actions d’aides. - Les actions de défenses. - Les actions de contre (contre ou riposte). - Les secondes actions. Enchaîner avec une seconde action est aussi une interruption, cependant celle-ci n'est pas désavantagée et ne peut être préparée.
 
 !!! note "Note"
-    Il existe un trait permettant d’ignorer la préparation d’un certain type d’interruption. Dans ce cas le test est même avantagé si l’action a quand même été préparé !![A yellow diamond with a black strip Description automatically generated](images/image1.png)
+    Il existe un trait permettant d’ignorer la préparation d’un certain type d’interruption. Dans ce cas le test est même avantagé si l’action a quand même été préparé !
 
 ### Les Actions permise lors d’une Passe
 
@@ -436,7 +436,7 @@ Lorsqu’une telle action est réalisée il y a généralement des pénalités d
 Par exemple attaquer à l’aide d’une épée longue (catégorie 3) génère une pénalité de 3 au test. Esquiver en étant équipé d’une armure de cuir (catégorie 2) génère une pénalité de 2 au test. Il existe des traits permettant de réduire ce genre de pénalités (« entraînement à »).
 
 !!! note "Note"
-    Il existe des traits permettant de réduire ce genre pénalités (« entraînement à »). C'est un avantage crucial pour ceux qui souhaitent employer des moyens lourds en confrontation.![](images/image1.png)
+    Il existe des traits permettant de réduire ce genre pénalités (« entraînement à »). C'est un avantage crucial pour ceux qui souhaitent employer des moyens lourds en confrontation.
 
 ### Les Actions d’Attaque
 
@@ -457,8 +457,6 @@ Il y a 5 attributs d’attaque pour les attaques physiques : Tous les attributs 
 Les attaques dites énergétiques, c’est-à-dire sollicitant une énergie, sont des cas à part. Peu importe la source de ces attaques et de l’énergie en question, ces dernières sont considérées comme physiques. L’attribut de défense est cependant fixé par l’énergie en question et non l’attribut employé pour l’attaque par exemple.
 
 !!! info "Rappel"
-    ![](images/image1.png)
-
     La défense passive d’un personnage suit la formule complète définie au chapitre 4 : **15 + Modificateur d’Attribut + 1 (si attribut impair)**, ou **10 + Modificateur d’Attribut + 1 (si attribut impair)** si le personnage est choqué.
 
     / !\ Si un personnage porte une armure le bonus de qualité s’applique dans le calcul (pour rappel le bonus de qualité est un ajustement qui augmente les attributs, pas le modificateur directement).
@@ -608,7 +606,18 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
 Évidemment des dégâts ne peuvent pas être négatifs et ne peuvent donc pas soigner un individu (sauf dans le cas d’une absorption) etc… La logique prévaut sur les règles dans ce genre de cas.
 
 !!! note "Note"
-    Attrition : Ce bonus augmente les dégâts temporaires infligés par le personnage. Résilience : Ce bonus, aussi appelé résistance à l’attrition, réduit les dégâts temporaires reçus par le personnage. Perforation : Ce bonus réduit l’absorption des cibles du personnage. Elle est naturellement octroyée par la perception ou la sagesse, respectivement pour les attaques physiques ou mentales. Pénétration : Si l’attaque n’est pas défendue alors la perforation augmente directement les dégâts permanents. Protection : Ce bonus augmente le seuil de blessure du personnage. Précision : Ce bonus réduit la protection des cibles du personnage. Aggravation : Ce bonus augmente la gravité des blessures infligées par le personnage. Criticité : Ce bonus réduit la marge de réussite nécessaire pour transformer une action en réussite critique. Gestion : Ce bonus augmente la marge de réussite nécessaire pour un adversaire du personnage à transformer une action en réussite critique. Dégâts/Conditions Critiques : Ces bonus s’ajoutent aux dégâts ou aux charges de conditions issues d’une réussite critique. Puissance critique est un bonus qui affecte l’ensemble de ces paramètres. Résistance Critiques : Ces bonus réduits aux dégâts ou aux charges des conditions issus d’une réussite critique. Ne réduit que la part ajoutée par l’aspect critique (cad l’arrondissement à 6 des dés issus du jet).![](images/image1.png)
+    - **Attrition.** Ce bonus augmente les dégâts temporaires infligés par le personnage.
+    - **Résilience.** Ce bonus, aussi appelé résistance à l’attrition, réduit les dégâts temporaires reçus par le personnage.
+    - **Perforation.** Ce bonus réduit l’absorption des cibles du personnage. Elle est naturellement octroyée par la perception ou la sagesse, respectivement pour les attaques physiques ou mentales.
+    - **Pénétration.** Si l’attaque n’est pas défendue alors la perforation augmente directement les dégâts permanents.
+    - **Protection.** Ce bonus augmente le seuil de blessure du personnage.
+    - **Précision.** Ce bonus réduit la protection des cibles du personnage.
+    - **Aggravation.** Ce bonus augmente la gravité des blessures infligées par le personnage.
+    - **Criticité.** Ce bonus réduit la marge de réussite nécessaire pour transformer une action en réussite critique.
+    - **Gestion.** Ce bonus augmente la marge de réussite nécessaire pour un adversaire du personnage à transformer une action en réussite critique.
+    - **Dégâts/Conditions Critiques.** Ces bonus s’ajoutent aux dégâts ou aux charges de conditions issues d’une réussite critique.
+    - **Puissance critique.** Ce bonus affecte l’ensemble de ces paramètres.
+    - **Résistance Critiques.** Ces bonus réduisent les dégâts ou les charges des conditions issus d’une réussite critique. Ne réduit que la part ajoutée par l’aspect critique (cad l’arrondissement à 6 des dés issus du jet).
 
     Expertise : Ajustement au test pour déterminer la réussite d'une condition.
 
@@ -623,7 +632,7 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
     Visée : Réduit les pénalités de couverture/visibilité puis la difficulté de localisation (dans cet ordre).
 
 !!! tip "Règle optionnelle : Bascule des dégâts"
-    Cette règle permet à l’endurance d’être utile dans bien plus de circonstances et pas uniquement lorsqu’on porte une armure et/ou que l’on a de la déviation.![](images/image2.png)
+    Cette règle permet à l’endurance d’être utile dans bien plus de circonstances et pas uniquement lorsqu’on porte une armure et/ou que l’on a de la déviation.
 
     Avec cette règle il est possible, pour un personnage ayant conscience de l’attaque qui le prend pour cible, de transférer 1 point de dégâts permanents en 2 points de dégâts temporaires, et ce tant que son endurance n’est pas inférieure à 0. C’est la victime qui fait le choix ou non de procéder à une bascule une fois les différents dégâts calculés. Le personnage ne peut cependant pas faire passer plus de point permanent en point temporaire que sa valeur de Stature si physique (ou Ego si Spiritualité).
 
@@ -733,7 +742,7 @@ Voici les détails de base de ces calcules :
 - Dégâts Physique = Dégâts de l’Arme + modificateur d’Attribut du personnage (le même que celui du test).
 
 !!! note "Note"
-    Il est rappelé que l’arme employée pour attaquer à une lourde incidence sur le test d’attaque : En effet un ajustement est appliqué à l’attribut sollicité. Cet ajustement est évidemment transmis lors du calcul du jet lui-même pris en compte dans le calcul des dégâts finaux.![](images/image1.png)
+    Il est rappelé que l’arme employée pour attaquer à une lourde incidence sur le test d’attaque : En effet un ajustement est appliqué à l’attribut sollicité. Cet ajustement est évidemment transmis lors du calcul du jet lui-même pris en compte dans le calcul des dégâts finaux.
 
     Illustrons cela d’un exemple avec le cas d’une arme de catégorie 3 et de qualité 2. La catégorie impose un ajustement négatif de -6 à l’attribut lors de l’usage qui est fait de l’arme alors que la qualité octroie un ajustement positif de +2. Finalement, faire usage de cette arme relève d’un ajustement de -4 à l’attribut, ce qui modifie le score des tests ET des jets.
 
@@ -755,7 +764,7 @@ Voici les détails de base de ces calcules :
 La catégorie des dégâts d’une tirade dépend de la méthode. Le modificateur d’apparat est issu de l’arme du personnage.
 
 !!! info "Rappel"
-    Une attaque (physique ou mentale) dispose aussi de caractéristiques qui altèrent le processus de dégâts.![](images/image3.png)
+    Une attaque (physique ou mentale) dispose aussi de caractéristiques qui altèrent le processus de dégâts.
 
     Ces caractéristiques sont à considérer à part des dégâts.
 
@@ -804,7 +813,7 @@ Un test (actif) d’acrobatie peut permettre de réduire la distance de chute ef
 Les dégâts de rupture peuvent avoir de multiples causes et origines mais ce qui les caractérise c’est la façon dont ils sont infligés. En effet ils sont véhiculés par des conditions et sont appliqués (sous forme de dégâts) à chaque début de round d’une cible affectée lors d’une confrontation (ou environs 30s en dehors). Une même cible ne subit jamais plus de deux fois les effets d’une condition (version « avancée » exclus).
 
 !!! info "Rappel"
-    Puisque les dégâts de rupture sont extrêmement liés aux conditions, il est possible d’effectuer des gestes médicaux afin de les atténuer ou les supprimer. ![](images/image3.png)
+    Puisque les dégâts de rupture sont extrêmement liés aux conditions, il est possible d’effectuer des gestes médicaux afin de les atténuer ou les supprimer.
 
     Un personnage peut tenter de se soigner lui-même, mais comme pour tout autre acte médical effectué par soi sur soi cela s’effectue au prix d’un désavantage.
 
@@ -821,8 +830,6 @@ Différentes sources de dégâts de rupture s’ajoutent les unes aux autres pou
 Une condition de rupture peut être « avancée », comme n’importe quelle autre condition.
 
 !!! note "Note"
-    ![](images/image1.png)
-
     Les dégâts de rupture mentaux peuvent provenir de poison spécifique affectant l’esprit… Mais il faut bien admettre que c’est plus rare !
 
 En fonction de ses origines une condition provoquant des dégâts de rupture dispose de particularités. Chacune de ces conditions fonctionnent un peu différemment des autres dus à ces particularités !
@@ -938,8 +945,6 @@ Il existe une action de soin (Soigner) qui permet de tenter de réduire les char
 La charge mesure essentiellement la durée de la condition. Si la gravité d’une condition atteint une valeur inférieure ou égale à 0 celle-ci prend fin immédiatement.
 
 !!! info "Rappel"
-    ![A picture containing light Description automatically generated](images/image1.png)
-
     Si la condition est appliquée des suites d’une attaque alors le jet de l’attaque servira à la fois à mesurer les dégâts de l’attaque ET les charges de la condition. Évidemment des bonus différents peuvent ensuite faire varier ces valeurs différemment.
 
     Parfois les conditions peuvent être véhiculées par des sources précisant la catégorie associée à la charge, dans ce cas c’est cette catégorie qui prime, avec un bonus équivalent au modificateur de Ruse.
@@ -1097,8 +1102,6 @@ Voici les détails de base de ces calcules :
 - Impact Mentale = Catégorie de l’Argument x D8 + 2D8 + catégorie de l’argumentation + modificateur d’attribut.
 
 !!! note "Note"
-    ![](images/image1.png)
-
     Si rien ne vient modifier ces valeurs, et sans parler des attributs propres aux actions, dégâts et impacts d’une arme sont donc équivalents.
 
 ### Les Caractéristiques de Défense
@@ -1147,7 +1150,7 @@ Normalement la déviation est le fruit d’un jet qui est naturellement le test 
 Lorsqu’une attaque profite d’une pénétration alors la déviation est réduite d’autant.
 
 !!! tip "Règles Optionnelles : Jets de Défenses"
-    Cette règle vise à rendre le système de déviation plus vivant.![](images/image2.png)
+    Cette règle vise à rendre le système de déviation plus vivant.
 
     Ainsi les personnages doivent effectuer leurs jets de déviation en suivant les règles normales. La catégorie de la défense dépend évidemment de l’arme ou l'armure employée pour réaliser celle-ci et l’attribut celle qui est employée pour réaliser la défense ! Donc la Force pour le blocage et la Dextérité pour la Parade.
 
@@ -1173,7 +1176,7 @@ L’une des notions clés d’une confrontation est celle de portée et de zones
 Les portées et les zones sont décrites dans la section des caractéristiques du personnage.
 
 !!! note "Note"
-    La portée de mêlée a aussi un effet « négatif » sur les personnages : Elles représentent aussi l’espace nécessaire au personnage pour réaliser correctement ses actions.![](images/image1.png)
+    La portée de mêlée a aussi un effet « négatif » sur les personnages : Elles représentent aussi l’espace nécessaire au personnage pour réaliser correctement ses actions.
 
     Réaliser des actions de mêlée dans un espace dont l’envergure est inférieure à la portée de mêlée du personnage implique un désavantage.
 
@@ -1192,7 +1195,7 @@ Voici un exemple illustrant ces propos : Imaginons qu’un adversaire entre à p
 Notons qu’il existe une action sécurisée de déplacement permettant de ne pas déclencher d’opportunités (ACTS pour demi-déplacement).
 
 !!! note "Note"
-    Un trait permet d’ignorer le besoin de préparer ses interruptions. Si un personnage compte intégrer ce type d’action dans sa stratégie alors il est conseillé de prendre le trait en question.![A yellow diamond with a black strip Description automatically generated](images/image1.png)
+    Un trait permet d’ignorer le besoin de préparer ses interruptions. Si un personnage compte intégrer ce type d’action dans sa stratégie alors il est conseillé de prendre le trait en question.
 
     C’est un trait taillé pour les combattants.
 
@@ -1256,7 +1259,7 @@ Il est possible de viser une sous localisation en augmentant la difficulté de l
 | Vitale | Cœur |
 
 !!! note "Note"
-    En combat, le fait de localiser une attaque peut aussi permettre d’ignorer l’armure de la cible si celle-ci ne le couvre pas sur la zone touchée. Les coups non localisés prennent en compte la résistance, absorption et protection de la pièce du torse (la pièce d’armure principale). Cette pièce est donc sollicitée dans ce cas comme dans le cas d’un coup localisé au torse.![](images/image1.png)
+    En combat, le fait de localiser une attaque peut aussi permettre d’ignorer l’armure de la cible si celle-ci ne le couvre pas sur la zone touchée. Les coups non localisés prennent en compte la résistance, absorption et protection de la pièce du torse (la pièce d’armure principale). Cette pièce est donc sollicitée dans ce cas comme dans le cas d’un coup localisé au torse.
 
 ### Les Localisations de l’Esprit
 
@@ -1297,7 +1300,7 @@ La récupération des autres ressources est beaucoup plus lente et a lieu lors d
 Un repos est ainsi divisé en 3 conditions : Le lieu, la nourriture et le sommeil. Chaque condition peut : ne pas être remplie (-2), être remplie (+0) ou être remplie plus que nécessaire (+1).
 
 !!! note "Note"
-    Une nuit chez soi ou dans une auberge permet généralement un repos optimal. Les nuits en extérieur sont souvent moins clémentes mais ce n’est rien contre l’absence total de repos !![](images/image1.png)
+    Une nuit chez soi ou dans une auberge permet généralement un repos optimal. Les nuits en extérieur sont souvent moins clémentes mais ce n’est rien contre l’absence total de repos !
 
 Une lésion ne profite de sa récupération que si le personnage est stabilisé de façon permanent (nécessite un acte (et test) de médecine approprié). La récupération des lésion s’applique ainsi : Chaque tranche de 5 en récupération permet la réduction d’une lésion d’un pallier, cette réduction se fait en rééquilibrant les lésions (ce qui est le plus efficace pour réduire les pénalités).
 
@@ -1427,7 +1430,7 @@ Les avantages : - Certaines armes requièrent obligatoire l’usage des deux mai
 Les inconvénients : - La seconde main ne peut réaliser la même action que la première, ce qui réduit drastiquement le champ des possibilités. - Le personnage doit faire usage d’une action libre supplémentaire pour attaquer avec une arme à deux mains, il est donc moins libre de ses gestes. Notons qu’un trait permet de s’habituer et donc d’ignorer cela.
 
 !!! note "Note"
-    Un personnage équipé d’une arme à deux mains peut réaliser une action simple spéciale permettant d’armer son bras afin de favoriser la prochaine action du type de son choix (attaque, défense ou tactique).![](images/image1.png)
+    Un personnage équipé d’une arme à deux mains peut réaliser une action simple spéciale permettant d’armer son bras afin de favoriser la prochaine action du type de son choix (attaque, défense ou tactique).
 
     Celle-ci profite alors d’un bonus au jet équivalant à la catégorie de l’arme + 2. Ce bonus peut donc s’appliquer à une attaque, une défense ou une tactique…
 
@@ -1458,7 +1461,7 @@ Les mains gauches sont des armes disposant de la propriété « bouclier ».
 Tous les « boucliers » sont sujets aux règles suivantes : - La catégorie des actions de défense (avec le bouclier) est augmentée de 2. - La catégorie des actions d’attaque (avec le bouclier) est réduite de 2. - Le bouclier n’est pas affecté par les pénalités de répétition. - Le fait d’être équipé d’un bouclier (levé et prêt à l’usage) accorde un bonus de défense passive contre les attaques à distances (peu importe sur quel attribut le test est réalisé/s’attaque) équivalant à la Catégorie du bouclier. Ce bonus ne s’applique pas aux défenses actives. - L’action « monter ses défenses » reçoit un bonus de +2 lorsqu’elle est réalisée à l’aide d’un bouclier.
 
 !!! note "Note"
-    Concernant le bonus de défense passive à distance, on considère que par défaut le personnage se défend des dangers qui lui font face. Ce bonus est donc à considérer dans le cas où une attaque provient de cette direction (considérez une couverture à 180° devant le personnage). Bien entendu, le personnage peut à tout moment orienter son bouclier dans une direction donnée (action libre) afin de couvrir une nouvelle direction.![](images/image1.png)
+    Concernant le bonus de défense passive à distance, on considère que par défaut le personnage se défend des dangers qui lui font face. Ce bonus est donc à considérer dans le cas où une attaque provient de cette direction (considérez une couverture à 180° devant le personnage). Bien entendu, le personnage peut à tout moment orienter son bouclier dans une direction donnée (action libre) afin de couvrir une nouvelle direction.
 
 ### Les Critiques
 
@@ -1536,7 +1539,7 @@ Voici un récapitulatif de l’impact des attributs du corps en combat.
 - Elle affecte l’allure (le déplacement).
 
 !!! note "Note"
-    Certains attributs de l’esprit ont une incidence notable sur les confrontations physiques :![](images/image1.png)
+    Certains attributs de l’esprit ont une incidence notable sur les confrontations physiques :
 
     - Intelligence : Affecte le maximum des pénalités applicables aux manœuvres.
 
@@ -1662,8 +1665,6 @@ Lorsqu’un adversaire est mis au sol, quel qu’en soit la raison, c’est gén
 Lorsqu’un individu est au sol son allure est de 0 (mais il peut cependant toujours réaliser son pas de placement d’une case) et il est désavantagé à ses tests.
 
 !!! info "Rappel"
-    ![](images/image3.png)
-
     Mettre un adversaire au sol est possible via un test tactique de gestion. C’est la méthode la plus « simple » ou disons la plus commune pour ça.
 
 ### Terrain Difficile
@@ -1776,7 +1777,7 @@ Voici un récapitulatif de l’impact des attributs de l’esprit en joute.
 - Elle fixe la réaction initiative des interlocuteurs (et ainsi leur tolérance aux propos).
 
 !!! note "Note"
-    Certains attributs de l’esprit ont une incidence notable sur toutes les formes de confrontations :![](images/image1.png)
+    Certains attributs de l’esprit ont une incidence notable sur toutes les formes de confrontations :
 
     - Intelligence : Affecte le maximum des pénalités applicables aux manœuvres.
 

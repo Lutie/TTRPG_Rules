@@ -12,19 +12,31 @@ Durant la phase de création ainsi que durant ses aventures un personnage reçoi
 
 #### Point d’Attributs (PA)
 
-Les points d’attributs mesurent les dispositions naturelles du personnage. Ils permettent la promotion des attributs. - Durant la création, ces points sont donnés en fonction de la destinée du personnage. - Par la suite seule l’acquisition d'avantages permet d’obtenir des PA.
+Les points d’attributs mesurent les dispositions naturelles du personnage. Ils permettent la promotion des attributs.
+
+- Durant la création, ces points sont donnés en fonction de la destinée du personnage.
+- Par la suite seule l’acquisition d'avantages permet d’obtenir des PA.
 
 #### Points d’Expérience (PX)
 
-Les points d’expérience mesurent le savoir et la pratique acquise durant la vie du personnage. Ils permettent la promotion des groupes et des compétences. - Durant la création, ces points sont donnés en fonction du vécu du personnage. - Par la suite des PX sont reçus à la fin de chaque scénario.
+Les points d’expérience mesurent le savoir et la pratique acquise durant la vie du personnage. Ils permettent la promotion des groupes et des compétences.
+
+- Durant la création, ces points sont donnés en fonction du vécu du personnage.
+- Par la suite des PX sont reçus à la fin de chaque scénario.
 
 #### Points d’Inspiration (PI)
 
-Les points d’inspiration mesurent l’intérêt porté par le personnage à certaines pratiques. Ils permettent de réduire le coût des promotions des groupes et des compétences (mais jamais à moins de la moitié du coût initial). - Durant la création, ces points sont donnés en fonction de l’historique du personnage. - Par la suite des PI sont reçus à la fin de chaque scénario, mais uniquement si le personnage a manifesté un intérêt pour un domaine où s’y est exercé (à la discrétion du MJ).
+Les points d’inspiration mesurent l’intérêt porté par le personnage à certaines pratiques. Ils permettent de réduire le coût des promotions des groupes et des compétences (mais jamais à moins de la moitié du coût initial).
+
+- Durant la création, ces points sont donnés en fonction de l’historique du personnage.
+- Par la suite des PI sont reçus à la fin de chaque scénario, mais uniquement si le personnage a manifesté un intérêt pour un domaine où s’y est exercé (à la discrétion du MJ).
 
 #### Points de Personnage (PP)
 
-Les points de personnages permettent l’acquisition d’avantages. Ces derniers servent à rendre le personnage unique en lui octroyant différentes formes de capacités ou effets. - Durant la création, ces points sont donnés en fonction de la destinée du personnage. - Par la suite, le total des PX reçus définit un gain de PP supplémentaire.
+Les points de personnages permettent l’acquisition d’avantages. Ces derniers servent à rendre le personnage unique en lui octroyant différentes formes de capacités ou effets.
+
+- Durant la création, ces points sont donnés en fonction de la destinée du personnage.
+- Par la suite, le total des PX reçus définit un gain de PP supplémentaire.
 
 ## La Destinée
 
@@ -38,15 +50,21 @@ La différence entre les différentes catégories de destinée est donc liée à
 | PP | 2 | 4 | 6 | 8 | 10 |
 
 !!! note "Note"
-    ★ / Commun des Mortels ★★ / Destin Honorable ★★★ / Marche de la Gloire (recommandé) ★★★★ / Arpenteur Héroïque![](images/image1.png)
+    ★ / Commun des Mortels ★★ / Destin Honorable ★★★ / Marche de la Gloire (recommandé) ★★★★ / Arpenteur Héroïque
 
     ★★★★★ / Dieu parmi les Hommes
 
 ### Commun des Mortels (★)
 
-Un personnage issu du « commun des mortels » fait partis de ces personnes qui ne réalise pas grand-chose dans leur vie et qui n’y aspire d’ailleurs pas forcément. Durant la phase de création : - Un attribut ne peut dépasser 14. - Les avantages ne peuvent dépasser le 1er rang.
+Un personnage issu du « commun des mortels » fait partis de ces personnes qui ne réalise pas grand-chose dans leur vie et qui n’y aspire d’ailleurs pas forcément. Durant la phase de création :
 
-Il dispose de : - 200 PA. - 2 PP.
+- Un attribut ne peut dépasser 14.
+- Les avantages ne peuvent dépasser le 1er rang.
+
+Il dispose de :
+
+- 200 PA.
+- 2 PP.
 
 En termes de jeu il s’agit des pnjs « classique ». Il est conseillé d’associer les PJs à cette destinée pour une partie très difficile.
 
@@ -61,9 +79,15 @@ Répartition d’attribut proposées :
 
 ### Destin Honorable (★★)
 
-Un personnage issu du « destin honorable » fait partie de ces personnes qui ont une place un peu à part dans l’univers. Doués, ils sont toujours un peu plus importants ou un peu plus ambitieux que les autres. Durant la phase de création : - Un attribut ne peut dépasser 15. - Les avantages ne peuvent dépasser le 2er rang.
+Un personnage issu du « destin honorable » fait partie de ces personnes qui ont une place un peu à part dans l’univers. Doués, ils sont toujours un peu plus importants ou un peu plus ambitieux que les autres. Durant la phase de création :
 
-Il dispose de : - 300 PA. - 4 PP.
+- Un attribut ne peut dépasser 15.
+- Les avantages ne peuvent dépasser le 2er rang.
+
+Il dispose de :
+
+- 300 PA.
+- 4 PP.
 
 En termes de jeu il s’agit des pnjs « notables ». Il est conseillé d’associer les PJs à cette destinée pour une partie certainement pas facile mais pas trop difficile non plus.
 
@@ -78,9 +102,15 @@ Répartition d’attribut proposées :
 
 ### Marche de la Gloire (★★★)
 
-Un personnage issu de la « marche de la gloire » fait montre de dispositions excellentes. Particulièrement aptes, ils sont importants et ont de grandes ambitions. Durant la phase de création : - Un attribut ne peut dépasser 16. - Les avantages ne peuvent dépasser le 3er rang.
+Un personnage issu de la « marche de la gloire » fait montre de dispositions excellentes. Particulièrement aptes, ils sont importants et ont de grandes ambitions. Durant la phase de création :
 
-Il dispose de : - 400 PA. - 6 PP.
+- Un attribut ne peut dépasser 16.
+- Les avantages ne peuvent dépasser le 3er rang.
+
+Il dispose de :
+
+- 400 PA.
+- 6 PP.
 
 En termes de jeu il s’agit des pnjs « importants ». Il est conseillé d’associer les PJs à cette destinée pour une partie ni trop facile ni trop difficile.
 
@@ -95,9 +125,15 @@ Répartition d’attribut proposées :
 
 ### Arpenteur Héroïque (★★★★)
 
-Un personnage issu du destin des « arpenteur héroïque » est de ceux qui se forgent une grande réputation et une situation à la force de leurs talents. Durant la phase de création : - Un attribut ne peut dépasser 17. - Les avantages ne peuvent dépasser le 4er rang.
+Un personnage issu du destin des « arpenteur héroïque » est de ceux qui se forgent une grande réputation et une situation à la force de leurs talents. Durant la phase de création :
 
-Il dispose de : - 500 PA. - 8 PP.
+- Un attribut ne peut dépasser 17.
+- Les avantages ne peuvent dépasser le 4er rang.
+
+Il dispose de :
+
+- 500 PA.
+- 8 PP.
 
 En termes de jeu il s’agit des pnjs « cruciaux ». Il est conseillé d’associer les PJs à cette destinée pour une partie héroïque où ces derniers sont des héros avec peu de faiblesses.
 
@@ -112,9 +148,15 @@ Répartition d’attribut proposées :
 
 ### Dieu parmi les Hommes (★★★★★)
 
-Un personnage issu des « dieux parmi les hommes » sont des êtres d’exceptions crains ou révérés. Durant la phase de création : - Un attribut ne peut dépasser 18. - Les avantages n’ont pas de limites de rang.
+Un personnage issu des « dieux parmi les hommes » sont des êtres d’exceptions crains ou révérés. Durant la phase de création :
 
-Il dispose de : - 600 PA. - 10 PP.
+- Un attribut ne peut dépasser 18.
+- Les avantages n’ont pas de limites de rang.
+
+Il dispose de :
+
+- 600 PA.
+- 10 PP.
 
 En termes de jeu il s’agit des pnjs « légendaires ». Il est conseillé d’associer les PJs à cette destinée pour une partie où ces derniers incarnent des avatars hors normes.
 
@@ -138,47 +180,72 @@ La différence entre les différentes catégories de vécu est donc liée à une
 | PX | 200 | 300 | 400 | 500 | 600 |
 
 !!! note "Note"
-    ★ / Aucun Vécu ★★ / Vécu Notable ★★★ / Vécu Admirable ★★★★ / Vécu Spectaculaire![](images/image1.png)
+    ★ / Aucun Vécu ★★ / Vécu Notable ★★★ / Vécu Admirable ★★★★ / Vécu Spectaculaire
 
     ★★★★★ / Vécu Légendaire
 
 ### Aucun Vécu (★)
 
-Un personnage qui n’a « aucun vécu » n’a pas eu le temps d’aiguiser ses compétences. Durant la phase de création : - Ses groupes de compétences ne peuvent dépasser 1. - Ses compétences ne peuvent dépasser 1.
+Un personnage qui n’a « aucun vécu » n’a pas eu le temps d’aiguiser ses compétences. Durant la phase de création :
 
-Il dispose de : - 200 PX.
+- Ses groupes de compétences ne peuvent dépasser 1.
+- Ses compétences ne peuvent dépasser 1.
+
+Il dispose de :
+
+- 200 PX.
 
 En termes de jeu il s’agit des pnjs n’ayant encore rien vécu. Il est conseillé d’associer les PJs à cette destinée s’ils incarnent de personnages inexpérimentés.
 
 ### Vécu Notable (★★)
 
-Un personnage qui a un « vécu notable » à passer un peu de temps à parfaire ses compétences OU a vécu des événements courts mais intenses durant lesquels il a pu progresser. Durant la phase de création : - Ses groupes de compétences ne peuvent dépasser 1. - Ses compétences ne peuvent dépasser 2.
+Un personnage qui a un « vécu notable » à passer un peu de temps à parfaire ses compétences OU a vécu des événements courts mais intenses durant lesquels il a pu progresser. Durant la phase de création :
 
-Il dispose de : - 300 PX.
+- Ses groupes de compétences ne peuvent dépasser 1.
+- Ses compétences ne peuvent dépasser 2.
+
+Il dispose de :
+
+- 300 PX.
 
 En termes de jeu il s’agit des pnjs ayant vécu une vie paisible ou de courtes expéditions. Il est conseillé d’associer les PJs à cette destinée s’ils incarnent de personnages ayant quelques petits faits à leur actif.
 
 ### Vécu Admirable (★★★)
 
-Un personnage qui a un « vécu admirable » a des années de pratique derrière lui ou a déjà vécu quelques aventures/situations. Durant la phase de création : - Ses groupes de compétences ne peuvent dépasser 2. - Ses compétences ne peuvent dépasser 2.
+Un personnage qui a un « vécu admirable » a des années de pratique derrière lui ou a déjà vécu quelques aventures/situations. Durant la phase de création :
 
-Il dispose de : - 400 PX.
+- Ses groupes de compétences ne peuvent dépasser 2.
+- Ses compétences ne peuvent dépasser 2.
+
+Il dispose de :
+
+- 400 PX.
 
 En termes de jeu il s’agit des pnjs d’un certain âge ou qui ont vécu une vie intense. Il est conseillé d’associer les PJs à cette destinée s’ils incarnent de personnages ayant vécu quelques aventures mais qui ne les ont pas fait connaître ou rendus exceptionnels.
 
 ### Vécu Spectaculaire (★★★★)
 
-Un personnage qui a un « vécu spectaculaire » a de longues années de pratique derrière lui et a vécu quelques situations importantes en plus de ça. Durant la phase de création : - Ses groupes de compétences ne peuvent dépasser 2. - Ses compétences ne peuvent dépasser 3.
+Un personnage qui a un « vécu spectaculaire » a de longues années de pratique derrière lui et a vécu quelques situations importantes en plus de ça. Durant la phase de création :
 
-Il dispose de : - 500 PX.
+- Ses groupes de compétences ne peuvent dépasser 2.
+- Ses compétences ne peuvent dépasser 3.
+
+Il dispose de :
+
+- 500 PX.
 
 En termes de jeu il s’agit des pnjs qui sont le fruit d'années d’expérience et de situations importantes et marquantes. Il est conseillé d’associer les PJs à cette destinée s’ils incarnent de personnages ayant vécu de grandes.
 
 ### Vécu Légendaire (★★★★★)
 
-Un personnage qui a un « vécu légendaire » a de longues années de pratique derrière lui et a vécu plusieurs situations importantes en plus de ça. Durant la phase de création : - Ses groupes de compétences ne peuvent dépasser 2. - Ses compétences ne peuvent dépasser 4.
+Un personnage qui a un « vécu légendaire » a de longues années de pratique derrière lui et a vécu plusieurs situations importantes en plus de ça. Durant la phase de création :
 
-Il dispose de : - 600 PX.
+- Ses groupes de compétences ne peuvent dépasser 2.
+- Ses compétences ne peuvent dépasser 4.
+
+Il dispose de :
+
+- 600 PX.
 
 En termes de jeu il s’agit des pnjs qui ont marqué leur génération par des faits historiques et cruciaux. Il est conseillé d’associer les PJs à cette destinée s’ils incarnent de personnages qui n’ont plus grand-chose à apprendre du monde extérieur.
 
@@ -251,7 +318,10 @@ Un défaut est un aspect négatif du personnage. C’est une singularité dans s
 
 Le personnage débute sa phase de création sans aucun avantage ou désavantage.
 
-Puis il est nécessaire de répartir les points de personnage (PP), fixé par le type de destinée, comme suite : - Obtenir un avantage requiert la dépense des points de personnage. - Obtenir un désavantage requiert l’obtention de points de personnage.
+Puis il est nécessaire de répartir les points de personnage (PP), fixé par le type de destinée, comme suite :
+
+- Obtenir un avantage requiert la dépense des points de personnage.
+- Obtenir un désavantage requiert l’obtention de points de personnage.
 
 Les avantages de création ont justement l’intérêt d’agir sur la phase de création, il est donc important de réaliser ces choix avant de continuer. Cependant au-delà de ça le reste des avantages et désavantages peuvent être considéré une fois le personnage façonné, ce qui permet d’avoir une vue d’ensemble et de pouvoir effectuer des choix efficients.
 
@@ -261,9 +331,18 @@ Par défaut, le nombre de points de personnage pouvant être acquis via les dés
 
 Certains avantages sont essentiels à des archétypes tels que le combattant ou le tireur, car de nombreuses pratiques ne peuvent être entièrement maîtrisées par les compétences seules. Là où les compétences traduisent un apprentissage, les avantages correspondent à des affinités naturelles voire innées, c'est ce qui fait la différence entre l'amateur et l'expert.
 
-Voici les avantages qu'il est de bon ton considérer en combat : - Entraînement aux armes/ports d'armures : Le premier rang est crucial pour les combattants souhaitant faire usage d'arme légère avec efficacité, le second rang est crucial pour les combattants souhaitant faire usage d'armes digne de ce nom. - Maîtrise des armes/armures : A moins de disposer d'une force supérieure à la normale ces dons sont nécessaire à l'usage d'arme ou armure plus lourde que la moyenne. - Spécialisation de Posture : Ce trait permet de gagner l'usage d'une action gratuite par tour de confrontation selon, dont la nature dépend de la posture et du type d'armes employées. - Habitué à « Action » : Permet d'accélérer les actions complexes et donc longues à réaliser afin de rendre ces derniers biens plus simples à glisser dans le feu de l'action. Combattre avec une arme dans ses deux mains permet d’armer son bras au prix d’une action dont on peut s’habituer. - « Action » réflexe : Permet d'éviter le temps de préparation de certaines actions d'interruption afin de pouvoir les réaliser sans contraintes. Les actions de défenses gagnent grandement à jouir de cet avantage.
+Voici les avantages qu'il est de bon ton considérer en combat :
 
-Voici les avantages qu'il est de bon ton considérer de manière générale : - Formation : Ce trait permet de réduire les chances de réaliser des maladresses avec un attribut de son choix. - Flèches en main : Pour un archer ce trait permet de réduire drastiquement le défaut des arcs en permettant d’approvisionner plusieurs flèches à la fois au lieu d’une.
+- Entraînement aux armes/ports d'armures : Le premier rang est crucial pour les combattants souhaitant faire usage d'arme légère avec efficacité, le second rang est crucial pour les combattants souhaitant faire usage d'armes digne de ce nom.
+- Maîtrise des armes/armures : A moins de disposer d'une force supérieure à la normale ces dons sont nécessaire à l'usage d'arme ou armure plus lourde que la moyenne.
+- Spécialisation de Posture : Ce trait permet de gagner l'usage d'une action gratuite par tour de confrontation selon, dont la nature dépend de la posture et du type d'armes employées.
+- Habitué à « Action » : Permet d'accélérer les actions complexes et donc longues à réaliser afin de rendre ces derniers biens plus simples à glisser dans le feu de l'action. Combattre avec une arme dans ses deux mains permet d’armer son bras au prix d’une action dont on peut s’habituer.
+- « Action » réflexe : Permet d'éviter le temps de préparation de certaines actions d'interruption afin de pouvoir les réaliser sans contraintes. Les actions de défenses gagnent grandement à jouir de cet avantage.
+
+Voici les avantages qu'il est de bon ton considérer de manière générale :
+
+- Formation : Ce trait permet de réduire les chances de réaliser des maladresses avec un attribut de son choix.
+- Flèches en main : Pour un archer ce trait permet de réduire drastiquement le défaut des arcs en permettant d’approvisionner plusieurs flèches à la fois au lieu d’une.
 
 ## L’Historique
 
@@ -333,7 +412,15 @@ Puisque l’équilibre est calculé à partir des valeurs de base des attributs 
 
 ## La Caste
 
-Le personnage dispose d’une caste. Les castes de base sont : - Combattant (2 attributs de corps) - Aventurier (1 attribut de corps et 1 attribut d’esprit) - Connétable (2 attributs d’esprit) - Spécialiste (dans le cas où des extensions tel que Magie ou Steam sont utilisée) - Hermite (dans le cas où l’extension des héros, et plus particulièrement la règle des prouesses, est utilisée) (n’importe quels attributs) Elles constituent un choix très ouvert pouvant couvrir les grands archétypes de personnages. Le personnage doit avoir au moins 14 dans les attributs qu’il associe à la caste.
+Le personnage dispose d’une caste. Les castes de base sont :
+
+- Combattant (2 attributs de corps)
+- Aventurier (1 attribut de corps et 1 attribut d’esprit)
+- Connétable (2 attributs d’esprit)
+- Spécialiste (dans le cas où des extensions tel que Magie ou Steam sont utilisée)
+- Hermite (dans le cas où l’extension des héros, et plus particulièrement la règle des prouesses, est utilisée) (n’importe quels attributs)
+
+Elles constituent un choix très ouvert pouvant couvrir les grands archétypes de personnages. Le personnage doit avoir au moins 14 dans les attributs qu’il associe à la caste.
 
 Voir le chapitre suivant pour plus d’informations au sujet des castes.
 
@@ -341,7 +428,10 @@ Voir le chapitre suivant pour plus d’informations au sujet des castes.
 
 Le personnage débute sa phase de création avec 0 à tous ses niveaux de groupe et de compétences.
 
-Puis il est nécessaire de répartir les points d’expérience (PX), fixé par le type de vécu, comme suite : - Monter un groupe d’un niveau X à X+1 requiert (X+1) *20 PX. - Monter une compétence d’un niveau X à X+1 requiert (X+1) *10 PX.
+Puis il est nécessaire de répartir les points d’expérience (PX), fixé par le type de vécu, comme suite :
+
+- Monter un groupe d’un niveau X à X+1 requiert (X+1) *20 PX.
+- Monter une compétence d’un niveau X à X+1 requiert (X+1) *10 PX.
 
 Ce qui nous donne, étape par étape :
 
@@ -386,13 +476,13 @@ Les points d’inspiration reçus grâce au choix des historiques à toute son i
 Cependant il n’est pas possible de réduire le coût en PX d’un tel achat de plus de la moitié grâce à l’inspiration.
 
 !!! note "Note"
-    En fonction de l’univers de jeu il est possible que d’autres étapes puissent-être ajoutées à celles qui sont décrites ici. Par exemple, il est possible que les personnages puissent être distingués par leurs ethnies ou d’autres notions du même genre.![](images/image1.png)
+    En fonction de l’univers de jeu il est possible que d’autres étapes puissent-être ajoutées à celles qui sont décrites ici. Par exemple, il est possible que les personnages puissent être distingués par leurs ethnies ou d’autres notions du même genre.
 
 ## Le Pécule de départ
 
 Le personnage débute avec un pécule de départ. La monnaie dépend de l’univers mais nous proposons ici d’octroyer environ la moitié des PX associés au vécu du personnage en pièces (notions employées dans les règles).
 
 !!! note "Note"
-    Lorsqu’il s’agit d’un montant relatif à un prix celui-ci est toujours exprimé en « pièce(s) » dans les règles.![](images/image1.png)
+    Lorsqu’il s’agit d’un montant relatif à un prix celui-ci est toujours exprimé en « pièce(s) » dans les règles.
 
     Dans le cas de Thalifen, l’univers de jeu imaginé pour Terre Natale, les Pjs peuvent recevoir la moitié des PX associés à leur vécu en pièce d’or (PO), la valeur prise pour référence.

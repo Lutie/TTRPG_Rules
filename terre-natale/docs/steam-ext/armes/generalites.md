@@ -7,7 +7,7 @@ Le bloc de base constitue les caractéristiques de base de l’arme à feu. Cert
 Les blocs principaux constituent l’enrobage de l’arme. Si les blocs « classiques » n’apportent rien d’autre qu’un fonctionnement que l’on apprécierait de normal, les blocs « modifiés » eux altèrent les caractéristiques de fonctionnement de l’arme pour en orienter son usage. On compte parmi ces blocs : - Le canon (CA). - Le magasin (MA). - La crosse (CR).
 
 !!! note "Note"
-    Les blocs principaux reposent sur un système qui remplace la matière tel que proposée dans l’extension des confrontations pour les armes classiques.![latest_070](../images/image1.png)
+    Les blocs principaux reposent sur un système qui remplace la matière tel que proposée dans l’extension des confrontations pour les armes classiques.
 
     Les blocs offrent des bonus contre malus et permettent de configurer son arme différemment.
 
@@ -18,7 +18,7 @@ Les blocs principaux constituent l’enrobage de l’arme. Si les blocs « class
 Les blocs secondaires constituent les accessoires de l’arme. On compte parmi ces blocs : - Le bloc supérieur (disposé au-dessus du canon, généralement des viseurs par exemple) (BS). - Le bloc inférieur (disposé au-dessous du canon, généralement des armes secondaires) (BI). - Le bloc arrière (disposé à l’arrière du magasin, généralement divers accessoires pratiques) (BA).
 
 !!! note "Note"
-    Les blocs secondaires ne reposent pas sur un système proposé ailleurs, c’est une subtilité en plus unique aux armes à feu. ![latest_070](../images/image1.png)
+    Les blocs secondaires ne reposent pas sur un système proposé ailleurs, c’est une subtilité en plus unique aux armes à feu.
 
     Les blocs secondaires modifient l’arme et nécessite un slot d’amélioration technologique par blocs.
 
@@ -39,7 +39,7 @@ Ce bloc constitue l’élément caractérisant les armes « de poing ». Ces arm
 Ce bloc constitue l’élément caractérisant les armes « d’épaule ». Ces armes profitent de pénétration ajoutée équivalant à 2x leur catégorie ainsi qu’un bonus de dégâts équivalant à 1x leur catégorie. Ces armes ont un magasin de 2 ou 4 munitions (selon qu’il s’agisse d’une catégorie 3 ou 4) et peuvent être rechargée assez lentement en comparaison des armes de poings (Action étendue (3) + Action Rapide).
 
 !!! note "Note"
-    Les règles de base de Terre Natale expliquent le fonctionnement des armes à feu dites « classiques », c’est-à-dire qui sont constituées de blocs principaux « classiques » et d’aucuns blocs secondaires. ![latest_070](../images/image1.png)
+    Les règles de base de Terre Natale expliquent le fonctionnement des armes à feu dites « classiques », c’est-à-dire qui sont constituées de blocs principaux « classiques » et d’aucuns blocs secondaires.
 
 ### Les Blocs principaux
 

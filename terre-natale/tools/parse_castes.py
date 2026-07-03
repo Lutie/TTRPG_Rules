@@ -2,6 +2,11 @@ import pandas as pd
 import re
 import os
 import json
+import sys
+import unicodedata
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 ressource_mapping = {
     ("martiale", "corps"): ("PV", "PE"),
@@ -119,10 +124,11 @@ SCRIPT_DIR      = os.path.dirname(os.path.abspath(__file__))
 XLSX_PATH       = os.path.join(SCRIPT_DIR, "src", "Terre Natale - Aides de jeu _ Castes.xlsx")
 MARKDOWN_OUTPUT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "docs", "classes", "castes.md"))
 JS_OUTPUT       = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "app-sheet", "src", "data", "castes.js"))
+JSON_OUTPUT     = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "app-sheet", "src", "data", "castes.json"))
 IMAGE_PATH_IN_MD = "../images"
 
 if not os.path.exists(XLSX_PATH):
-    raise FileNotFoundError(f"❌ Fichier Excel introuvable : {XLSX_PATH}")
+    raise FileNotFoundError(f"Fichier Excel introuvable : {XLSX_PATH}")
 
 # ── Lecture ─────────────────────────────────────────────────────────────────
 df = pd.read_excel(XLSX_PATH, header=1)
@@ -140,7 +146,7 @@ df["Type"] = df[df.columns[1]].apply(normaliser_type)
 
 non_reconnues = df[df["Type"].isna()]
 if not non_reconnues.empty:
-    print("⚠️ Castes ignorées (type non reconnu) :")
+    print("Castes ignorees (type non reconnu) :")
     print(non_reconnues[[df.columns[0], df.columns[1]]])
 
 rename_map = {
@@ -170,6 +176,11 @@ df = df.sort_values(["Type", "Nom"])
 
 def slugify(text):
     return re.sub(r'[^a-z0-9\-]', '', text.strip().lower().replace(' ', '-'))
+
+def slugify_id(text):
+    normalized = unicodedata.normalize("NFD", text.strip().lower())
+    without_accents = "".join(ch for ch in normalized if unicodedata.category(ch) != "Mn")
+    return re.sub(r'[^a-z0-9]+', '_', without_accents).strip('_')
 
 # ── Génération Markdown ──────────────────────────────────────────────────────
 markdown_lines = ["# Castes de Thalifen\n"]
@@ -237,7 +248,7 @@ for caste_type in ordre_types:
 os.makedirs(os.path.dirname(MARKDOWN_OUTPUT), exist_ok=True)
 with open(MARKDOWN_OUTPUT, "w", encoding="utf-8") as f:
     f.write("\n".join(markdown_lines))
-print(f"✅ castes.md généré dans : {MARKDOWN_OUTPUT}")
+print(f"castes.md genere dans : {MARKDOWN_OUTPUT}")
 
 # ── Génération JS ────────────────────────────────────────────────────────────
 def js_str(v):
@@ -260,6 +271,7 @@ for _, row in df.iterrows():
     sauv_min = parse_sauvegardes_mineures(row.get("SauvegardesMineures", ""), sauv_maj)
 
     castes_js.append({
+        "id":                 slugify_id(nom),
         "nom":                nom,
         "type":               row["Type"],
         "attribut1":          parse_attributs(row.get("Attribut1", "")),
@@ -304,6 +316,10 @@ js_lines += [
 
 with open(JS_OUTPUT, "w", encoding="utf-8") as f:
     f.write("\n".join(js_lines))
+
+with open(JSON_OUTPUT, "w", encoding="utf-8") as f:
+    json.dump(castes_js, f, ensure_ascii=False, indent=2)
+    f.write("\n")
 
 # Rapport
 types_counts = {t: sum(1 for c in castes_js if c['type'] == t) for t in ordre_types}

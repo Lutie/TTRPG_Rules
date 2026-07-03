@@ -57,8 +57,6 @@ Un style est essentiellement représenté par une aptitude à son nom et peut ê
 Le rang d'apprentis débloque l'effet du 1er rang du Corpus. Le rang de compagnon débloque l'effet du 1er rang du Focus. Le rang d'expert débloque l'effet du 2e rang du Corpus. Le rang de maitre débloque l'effet du 2e rang du Focus. Le rang de grand maitre débloque l'effet du 3e rang du Corpus. Le rang de sommité débloque l'effet du 3e rang du Focus.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image2.png)
-
     Si les règles des styles paraissent complexes c'est surtout qu'elles ont été écrites afin de pouvoir être le cœur (ou presque) de certaines campagnes et/ou univers. Avec ces règles les personnages joueurs doivent chercher et découvrir de nombreux styles avant de trouver celui qui leur convient vraiment, cela devient une quête en soi…
 
 ### Les Qualités d'un Style
@@ -96,17 +94,34 @@ On parle de combo lorsque le personnage enchaîne les manœuvres de son style au
 
 ### La Botte Secrète d'un Style
 
-Lorsque le personnage débloque sa botte secrète (rang 4 du groupe), il dispose d'une jauge de limite. La jauge de limite peut augmenter d'un point de plusieurs façons, à raison d'un point par source et par tour : - Le personnage utilise une manœuvre de son style (combo). - Le personnage remplit une condition liée aux qualités de son style.
+Lorsque le personnage débloque sa botte secrète (rang 4 du groupe), il dispose d'une jauge de limite. La jauge de limite peut augmenter d'un point de plusieurs façons, à raison d'un point par source et par tour :
+
+- Le personnage utilise une manœuvre de son style (combo).
+- Le personnage remplit une condition liée aux qualités de son style.
 
 Lorsque le personnage dispose de 6 points de limite il peut réaliser sa botte secrète. Le personnage peux attendre d'en avoir 8, 10 ou 12 pour accroitre l'effet de celle-ci.
 
 L'action de botte secrète permet d'appliquer les effets d'une, deux ou trois de ses manœuvres (selon son choix et la situation/interaction entre elles) à une action. Les pénalités de chaque manœuvre sont réduites de la moitié des points de limite acquis. Ces pénalités peuvent être totalement réduites à 0 si le personnage a 12 points de limite.
 
-Les conditions de limites d'un style de combat peuvent être : - Constitution : Le personnage est touché et subit une lésion physique. - Force : Le personnage réalise une tactique physique (gestion ou contrôle selon le style) avec succès. - Agilité : Le personnage réalise une défense physique de type esquive avec succès. - Dextérité : Le personnage réalise une contre-attaque ou riposte physique. - Attributs mentaux : Le personnage réalise une action sociale (positive ou négative) et réussit.
+Les conditions de limites d'un style de combat peuvent être :
 
-Les conditions de limites d'un style de joute peuvent être : - Volonté : Le personnage est touché et subit une lésion mentale. - Charisme : Le personnage réalise une tactique mentale avec succès. - Ruse : Le personnage réalise une défense mentale de type ironie (esquive) avec succès. - Intelligence : Le personnage réalise une contre-attaque ou riposte mentale. - Attributs physique (autre que perception) : Le personnage réalise une action de combat (positive ou négative) et réussit.
+- Constitution : Le personnage est touché et subit une lésion physique.
+- Force : Le personnage réalise une tactique physique (gestion ou contrôle selon le style) avec succès.
+- Agilité : Le personnage réalise une défense physique de type esquive avec succès.
+- Dextérité : Le personnage réalise une contre-attaque ou riposte physique.
+- Attributs mentaux : Le personnage réalise une action sociale (positive ou négative) et réussit.
 
-Quel que soit le type de joute : - Perception ou Sagesse : Le personnage réalise une action tactique qui n'est pas une gestion ou un contrôle.
+Les conditions de limites d'un style de joute peuvent être :
+
+- Volonté : Le personnage est touché et subit une lésion mentale.
+- Charisme : Le personnage réalise une tactique mentale avec succès.
+- Ruse : Le personnage réalise une défense mentale de type ironie (esquive) avec succès.
+- Intelligence : Le personnage réalise une contre-attaque ou riposte mentale.
+- Attributs physique (autre que perception) : Le personnage réalise une action de combat (positive ou négative) et réussit.
+
+Quel que soit le type de joute :
+
+- Perception ou Sagesse : Le personnage réalise une action tactique qui n'est pas une gestion ou un contrôle.
 
 ## Règles des Styles
 
@@ -125,7 +140,10 @@ Afin de débloquer et pouvoir progresser dans une aptitude de style il est néce
 
 L'usage des styles sont soumis à quelques points de règles.
 
-Un personnage ne peut employer plusieurs styles à la fois. - De base un personnage connaissant un style peut débuter une confrontation avec ou sans. - S'il en a la possibilité il peut ensuite choisir de changer de style (ou de ne plus en utiliser) au prix d'une action simple.
+Un personnage ne peut employer plusieurs styles à la fois.
+
+- De base un personnage connaissant un style peut débuter une confrontation avec ou sans.
+- S'il en a la possibilité il peut ensuite choisir de changer de style (ou de ne plus en utiliser) au prix d'une action simple.
 
 ## Les Styles de Combat
 

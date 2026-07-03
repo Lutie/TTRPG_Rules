@@ -23,8 +23,6 @@ Lorsqu’un sort provoque des soins ces derniers sont basés sur la puissance du
 Lorsqu’un sort doit générer des soins, le lanceur de sort n’a pas à toucher sa cible si celle-ci est consentante. Dans le cas contraire il est nécessaire de considérer cela comme une attaque magique.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Morts vivants et autres créatures peuvent être blessés ou affectés par des sorts pourtant considérés comme positifs !
 
 ### Les effets d’Enchantements
@@ -75,6 +73,9 @@ Lorsqu’un sort provoque des effets pratiques ces derniers sont basés sur la p
 
 Certains sorts peuvent permettre l’usage ponctuel de compétences dans des conditions et situations qui leurs sont propres. On parle d’un test de compétence « émulé » par magie.
 
-Le test d’une compétence émulée se fait en remplaçant : - L’attribut de compétence par l’attribut de magie du lanceur de sort. Le modificateur de magie ne peut dépasser le niveau du sort. - Le total groupe + compétence par la Puissance du Sort / 5. Le modificateur en question ne peut dépasser le niveau du sort.
+Le test d’une compétence émulée se fait en remplaçant :
+
+- L’attribut de compétence par l’attribut de magie du lanceur de sort. Le modificateur de magie ne peut dépasser le niveau du sort.
+- Le total groupe + compétence par la Puissance du Sort / 5. Le modificateur en question ne peut dépasser le niveau du sort.
 
 L’émulation de compétence ne profite cependant pas des différentes règles de singularités, de l’appel à la chance, etc…

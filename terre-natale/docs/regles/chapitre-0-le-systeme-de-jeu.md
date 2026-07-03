@@ -55,8 +55,6 @@ L’ajustement est une valeur qui s’ajoute ou se soustrait à un attribut dans
 En combat les attaques sont sujettes à des ajustements liés à l'arme employée, les esquives sont sujettes à l'armure portée, etc...
 
 !!! note "Note"
-    ![](images/image1.png)
-
     Les tests d’initiatives sont uniques et font l'objet d'une règle spécifique : Ils reçoivent à la fois les ajustements liés à l’arme la moins avantageuse en main ET celle de l’armure.
 
     De plus, c'est le seul test de compétence qui se fait de façon automatisée et non à la demande. Sans parler du fait que pour déterminer l’initiative du personnage, une ressource typique des confrontations, on observe son résultat directement sans jamais regarder son jet, ce qui est assez rare.
@@ -106,7 +104,7 @@ La Marge d’échec est la différence entre la difficulté et le score obtenu e
 Exemple : Si j’obtiens 13 à un test alors que la difficulté est de 15, ma marge d’échec est de 2. « J’ai échoué car il me manquait 2 ».
 
 !!! tip "Règles Optionnelles : Nuance"
-    Réussites et échecs ne sont pas les seuls cas possibles : il existe des nuances permettant d’interpréter différemment ces cas de figures. On parle plus communément de système à base de « oui mais, oui, oui et, non mais, non, non et ».![](images/image2.png)
+    Réussites et échecs ne sont pas les seuls cas possibles : il existe des nuances permettant d’interpréter différemment ces cas de figures. On parle plus communément de système à base de « oui mais, oui, oui et, non mais, non, non et ».
 
     On fait donc la différence entre une réussite de justesse et une réussite éclatante, tout comme on fait la différence entre un échec de peu et un échec cuisant.
 
@@ -155,8 +153,6 @@ Le chiffre porte bonheur est choisi par le joueur lors de la création du person
 Il existe plusieurs avantages qui modifient ces chances et risques d’exploits et maladresses. La formation à un attribut par exemple permet de ramener les maladresses au double 1 uniquement. La science d’une compétence permet de monter ses exploits aux doubles 5 et 6. Dans le cas où deux sources offrent la science d’une compétence les exploits s’obtiennent sur doubles 4, 5 et 6. Recevoir plus de deux sources de science d’une compétence n'accroît pas les chances d’exploits.
 
 !!! note "Note"
-    ![](images/image1.png)
-
     Si un test affiche un double 6 et que le 6 est le chiffre porte bonheur du personnage alors le test est un exploit ET profite d’un « coup de chance ».
 
     Même chose pour les maladresses évidemment.
@@ -279,7 +275,7 @@ Un jet vaut 2D8 + Catégorie x D8 + modificateur d’attribut.
 Lorsqu’un test se solde par une réussite critique et qu’un jet doit mesurer le produit de cette réussite, il est communément admis que la criticité de l’action (si positive) se traduit par le fait suivant : Tous les dés affichent leur maximum et on ajoute également le modificateur de dextérité ou d’intelligence (selon que l’action est physique ou mentale).
 
 !!! tip "Règles Optionnelles : Jets fixés"
-    Cette règle vise à réduire le nombre de dés à lancer durant une partie en procédant à des calculs automatiques pour ce qui est des jets.![](images/image2.png)
+    Cette règle vise à réduire le nombre de dés à lancer durant une partie en procédant à des calculs automatiques pour ce qui est des jets.
 
     Dans un tel cas, le personnage ne tire jamais ses jets et considère simplement que chaque dé affiche 4.
 

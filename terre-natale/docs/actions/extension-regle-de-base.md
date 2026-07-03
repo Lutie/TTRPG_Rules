@@ -202,8 +202,6 @@ Description : Le personnage fait un retour à une position neutre, relâchant sa
 Règle spéciale : Habitude (Préparation). _____________________________________________________
 
 !!! note "Note"
-    🪙
-
     Notons que les tactiques sont sujettes à la catégorie des armes ou outils (adaptés) employés pour les réaliser. Comme pour une attaque ou défense la catégorie implique une pénalité mais garantit un jet bien plus important également.
 
 ### Renverser [Physical] [Tactical] — ◆
@@ -213,8 +211,6 @@ Description : Le personnage tente de faire chuter son adversaire, par un croc-en
 Test : Dés + Tactique (G) + Domination (C) + modificateur de Force (A) contre Défense Passive (Force). _____________________________________________________
 
 !!! note "Note"
-    🪙
-
     Notons que l’adversaire peut contrer les actions de tactique via une action d’interruption sous couvert d’un test de Vigilance (PER), on considère l’action comme une défense, c’est l’action nommée Maîtrise (voir ci-dessus).
 
 ### Repousser [Physical] [Tactical] — ◆
@@ -252,8 +248,6 @@ Test : Dés + Tactique (G) + Contrôle (C) + modificateur de Dextérité (A) con
 Condition : L’adversaire doit être dans la zone de contrôle du personnage. Variante (⮌) : Le personnage peut réaliser cette action en interruption (par exemple si un adversaire tente d’entrer ou de passer à portée de mêlée via un déplacement). L’action est alors sujette à règles contrevenantes aux interruptions (préparations etc). _____________________________________________________
 
 !!! note "Note"
-    🪙
-
     Clouer sur place permet d’être hors de portée des attaques de ceux dont la portée de mêlée est inférieure à sa propre portée de mêlée !
 
 ### Maintenir la Distance [Physical] [Tactical] — ◆

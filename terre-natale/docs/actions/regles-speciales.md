@@ -49,13 +49,34 @@ Exemple : un test d’Entregent / Commandement / Charisme peut être remplacé p
 
 Certaines actions peuvent être considérées comme inhabituelles. Un personnage peut cependant s’habituer à ce type d’action. Une habitude représente la maîtrise acquise d’un geste ou d’une routine, rendant son exécution plus fluide et instinctive.
 
-Lorsqu’un personnage est habitué à une action inhabituelle, il peut la réaliser sans dépenser l’action libre correspondante. Ainsi: - ◆◇ => ◆ - ◆◆◇ => ◆◆ Une habitude s’applique à un domaine précis et toutes les actions qui la composent sont : - Coordination - Expression - Cognitif - Préparation - Soin - Incantation - Arcanes Les habitudes sont acquises via un trait dédié.
+Lorsqu’un personnage est habitué à une action inhabituelle, il peut la réaliser sans dépenser l’action libre correspondante. Ainsi :
+
+- ◆◇ => ◆
+- ◆◆◇ => ◆◆
+
+Une habitude s’applique à un domaine précis et toutes les actions qui la composent sont :
+
+- Coordination
+- Expression
+- Cognitif
+- Préparation
+- Soin
+- Incantation
+- Arcanes
+
+Les habitudes sont acquises via un trait dédié.
 
 #### Complexe
 
 Certaines actions peuvent être complexes.
 
-Lorsqu’un personnage est habitué à une action complexe, il peut la réaliser en changeant une action simple en une action libre. Ainsi: - ◆ => ◇ - ◆◆ => ◆◇ - ◆◆◆ => ◆◆◇ Pour ce qui est des habitudes vis à vis des actions complexes, elles sont également liées à des domaines, les mêmes que pour les habitudes (voir ci dessus).
+Lorsqu’un personnage est habitué à une action complexe, il peut la réaliser en changeant une action simple en une action libre. Ainsi :
+
+- ◆ => ◇
+- ◆◆ => ◆◇
+- ◆◆◆ => ◆◆◇
+
+Pour ce qui est des habitudes vis à vis des actions complexes, elles sont également liées à des domaines, les mêmes que pour les habitudes (voir ci dessus).
 
 #### Joute
 

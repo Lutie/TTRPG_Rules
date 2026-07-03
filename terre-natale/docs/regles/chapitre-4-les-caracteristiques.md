@@ -33,7 +33,7 @@ L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'
 - Endurance = Équilibre x 2.
 
 !!! info "Rappel"
-    L’endurance permet, en situation de confrontation, de :![](images/image3.png)
+    L’endurance permet, en situation de confrontation, de :
 
     <> Obtenir +1 à un test de confrontation en dépensant 4 d’endurance, maximum équivalant au niveau de compétence, choix à effectuer avant le test.
 
@@ -82,7 +82,7 @@ Il existe également des ressources temporaires associées à des règles spéci
 - Les points de Stratégie sont une ressource temporaire issue des règles “établir un plan”.
 
 !!! info "Rappel"
-    L’initiative est le seul test de compétence qui n’est pas la conséquence d’une action explicitement déclarée par un personnage.![A silhouette of a person's head Description automatically generated](images/image3.png)
+    L’initiative est le seul test de compétence qui n’est pas la conséquence d’une action explicitement déclarée par un personnage.
 
     L’initiative est un test qui est considéré comme du corps ET de l’esprit, ce qui peut avoir plusieurs conséquences, dont la principale est qu’il est affecté par les pénalités issus des blessures ET des traumas, mais aussi qu’être à court de PV *ou* PS provoque un désavantage à ce test.
 
@@ -114,13 +114,21 @@ Si le maximum de lésions incapacitantes physiques est atteint, le personnage me
 
 #### Les Blessures
 
-Les Blessures sont issues des agressions physiques encaissées par le corps du personnage. - On dénote, dans l’ordre de niveau de gravité : Blessure Bénigne (0), Blessure Légère (1), Blessure Important (2), Blessure Grave (3), Blessure Mortelle (4), Blessure Incapacitante (5). La blessure incapacitante met le personnage hors d’état sur le plan physique, il ne peut plus rien faire/rien tenter ou se déplacer. - Les Pénalités de Blessures sont appliquées aux tests. - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine du corps), voir plus haut.
+Les Blessures sont issues des agressions physiques encaissées par le corps du personnage.
+
+- On dénote, dans l’ordre de niveau de gravité : Blessure Bénigne (0), Blessure Légère (1), Blessure Important (2), Blessure Grave (3), Blessure Mortelle (4), Blessure Incapacitante (5). La blessure incapacitante met le personnage hors d’état sur le plan physique, il ne peut plus rien faire/rien tenter ou se déplacer.
+- Les Pénalités de Blessures sont appliquées aux tests.
+- Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine du corps), voir plus haut.
 
 - Seuil de Blessure = 5 + modificateur de Stature + protection de l’armure (catégorie).
 
 #### Les Traumatismes
 
-Les Traumatismes sont issus des agressions mentales encaissées par le personnage. - On dénote, dans l’ordre de gravité : Trauma Bénin (0), Trauma Légère (1), Trauma Important (2), Trauma Grave (3) et Trauma Mortel (4), Trauma Incapacitant (5). - Les Pénalités de Traumas sont appliquées aux tests. - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine de l’esprit).
+Les Traumatismes sont issus des agressions mentales encaissées par le personnage.
+
+- On dénote, dans l’ordre de gravité : Trauma Bénin (0), Trauma Légère (1), Trauma Important (2), Trauma Grave (3) et Trauma Mortel (4), Trauma Incapacitant (5).
+- Les Pénalités de Traumas sont appliquées aux tests.
+- Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine de l’esprit).
 
 - Seuil de Traumatisme = 5 + modificateur d'Ego + protection dû à la résolution (catégorie).
 
@@ -132,7 +140,12 @@ La Fatigue peut avoir plusieurs origines :
 
 - Les montées de stress consécutives à des échecs ou mauvais choix narratifs (voir « Le Prix de l’Échec », chapitre 10).
 - L’usage d’actions particulières associées à un coût en fatigue (voir le compendium des actions).
-- Les soins non naturels (voir chapitre 8). Lorsque la fatigue dépasse le seuil de résilience du personnage, le personnage en subit les conséquences sous forme de désavantages. - Les pénalités de fatigue sont appliquées à tous les tests, qu’il soit de compétences ou de sauvegardes; sous forme de désavantages. - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine douce).
+- Les soins non naturels (voir chapitre 8).
+
+Lorsque la fatigue dépasse le seuil de résilience du personnage, le personnage en subit les conséquences sous forme de désavantages.
+
+- Les pénalités de fatigue sont appliquées à tous les tests, qu’il soit de compétences ou de sauvegardes; sous forme de désavantages.
+- Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine douce).
 
 ## Les Récupérations
 
@@ -153,7 +166,7 @@ Elle fixe la récupération des ressources de Vitalité, Spiritualité, Karma, C
 La récupération est la valeur par défaut, mais il existe de nombreux effets qui peuvent modifier la récupération de certaines ressources, conditions ou autre. Dans ce cas, il faut évidemment considérer la récupération améliorée comme spécifique à son sujet.
 
 !!! tip "Règles Optionnelles : Équilibre"
-    Une règle optionnelle consiste à ajouter le modificateur d’équilibre à la valeur d’attribut (Sagesse) pour en jauger le modificateur permettant de calculer la récupération. ![](images/image2.png)
+    Une règle optionnelle consiste à ajouter le modificateur d’équilibre à la valeur d’attribut (Sagesse) pour en jauger le modificateur permettant de calculer la récupération.
 
     Cette règle n’est pas la plus optimale sur le plan de l’équilibre, mais elle accélère légèrement le rythme des récupérations — ce qui peut être souhaitable pour des parties au rythme soutenu. C’est donc une question de type de partie visé.
 

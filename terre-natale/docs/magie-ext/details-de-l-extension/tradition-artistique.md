@@ -35,8 +35,6 @@ La puissance des sorts est toujours calculée à partir d’un jet dont la caté
 De nombreux éléments extérieurs (tel que les améliorations de focalisateurs) peuvent altérer la puissance des sorts lancés par le lanceur de sort.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Magnitude du sort = (2 + Niveau du sort) x D6 + modificateurs d’attribut (selon type de sort) + Catégorie du focalisateur x Niveau du sort.
 
     La puissance du sort peut être :
@@ -85,8 +83,6 @@ Par exemple les sorts infligeant des dégâts d’énergies doivent toucher leur
 Une attaque magique peut être défendue par la cible via une défense appropriée. Une attaque magique produisant des dégâts peut être défendue via une esquive, un blocage, une parade ; là où une attaque magique produisant des effets tactiques peut être défendue via une défense tactique.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Une attaque de zone est sujette à la règle des actions de zone, sous-entendu les cibles peuvent réaliser un test de réflexes (vs difficulté du sort) pour ignorer la moitié des effets du sort, de plus si le test d’attaque ne passe pas la défense passive alors seulement la moitié des effets est ignoré, par l’ensemble.
 
     Il est important de faire la distinction entre un sort qui vise une cible, un sort qui vise une zone et un sort qui vise une cible puis réalise un effet de zone (dans le dernier cas la cible peut ne pas être touchée mais l’effet de zone lui peux encore l’affecter elle ou des cibles à portée).
@@ -94,8 +90,6 @@ Une attaque magique peut être défendue par la cible via une défense appropri�
 De la même manière un sort infligeant une condition négative ou une malédiction (enchantement négatif) doit affecter sa cible en passant la sauvegarde associée à l’effet (voir la sauvegarde contre les sorts).
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Si un sort doit infliger des dégâts de plusieurs éléments, la cible doit faire appel à sa défense passive la plus basse des deux. Même chose en ce qui concerna sa résistance aux énergies, etc…
 
     Comme il est déjà mentionné dans les règles de base, les dégâts des énergies peuvent être associés à des événements ou des conditions, dans de tels cas le test de l’action doit toujours dépasser la défense passive associée à l’énergie, sans quoi ces dégâts n’ont pas lieu. De même, l’action pouvant initier de tels dégâts peut ne pas réussir mais les dégâts d’énergie sont appliqués car le test a bel et bien dépassé la défense passive associée à celle-ci !
@@ -103,8 +97,6 @@ De la même manière un sort infligeant une condition négative ou une malédict
 Il existe bien plus de forme d’énergie via la magie que sans. Voici sur quels attributs basés les défenses passives en fonction de l’énergie.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Dans le cas où ni une défense passive ni une sauvegarde passive est déterminée pour contrer un sort et qu’aucune règle ne fixe celle-ci au préalable, alors il est nécessaire de se référer à la sauvegarde d’opposition (magique).
 
 | Forme | Défense passive | Type | Sous type |

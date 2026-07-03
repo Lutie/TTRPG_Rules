@@ -70,7 +70,7 @@ Les materias sont des minéraux étranges, fruit de la cristallisation du mana l
 | Les matérias rouges vierges peuvent être travaillées par un mage pour servir au lancement d’une invocation (action d’incantation). Le drain mental d’un sort de matéria est de 4 + 2 x niveau du sort, le niveau étant limité par la qualité. Le port d’une telle matéria génère 2 points de corruption (minimum). Une matéria rouge ne peux être activée qu’une fois par scène. |
 
 !!! note "Note"
-    Activer un sort ou une invocation issue d’une matéria requière un test d’activation de la matéria (Groupe Arcane + Compétence Arme Focale + modificateur de Magie). La difficulté à atteindre dépends de la matéria et de son niveau. Le niveau maximum est de Groupe Arcane + Compétence Arme Focale (comme pour les sorts classiques).![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
+    Activer un sort ou une invocation issue d’une matéria requière un test d’activation de la matéria (Groupe Arcane + Compétence Arme Focale + modificateur de Magie). La difficulté à atteindre dépends de la matéria et de son niveau. Le niveau maximum est de Groupe Arcane + Compétence Arme Focale (comme pour les sorts classiques).
 
     Activer une matéria sans utiliser un orifice provoque un désavantage. Les sorts qui requièrent de toucher la cible se base sur le test d’activation (vs la défense qui dépends du sort), il n’y a pas d’autres tests à faire (contrairement à la magie classique). Même chose pour les sorts qui provoquent des conditions etc…
 

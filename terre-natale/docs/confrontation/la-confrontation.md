@@ -16,7 +16,10 @@ Chaque choix revêt ainsi une importance décuplée.
 
 Les différents triangles tactiques mettent en avant le fait que certains armes ou méthodes donnent un avantage certains face à des opposants adoptant des moyens peu ou pas adaptés.
 
-Lorsqu’un personnage tente une action de confrontation (combat ou joute) sur un individu et que celui-ci tente une défense : - Il reçoit un désavantage si son arme est « faible » contre celle du personnage. - Il reçoit un avantage si son arme est « faible » contre celle du personnage.
+Lorsqu’un personnage tente une action de confrontation (combat ou joute) sur un individu et que celui-ci tente une défense :
+
+- Il reçoit un désavantage si son arme est « faible » contre celle du personnage.
+- Il reçoit un avantage si son arme est « faible » contre celle du personnage.
 
 Ces désavantages affectent toutes les actions visant à se défendre d’une attaque ou d’une tactique, qu’elles emploient effectivement l’arme ou non.
 
@@ -32,7 +35,7 @@ Un individu est rattaché à l’arme qu’il porte en main directrice. A défau
 
 On fait appel à ce triangle lors des tests de combat en mêlée.
 
-| ![](images/image5.png) | ![C:\Users\lutie\Desktop\Icon.2_43.png](images/image11.png) |  |
+| ![](images/image5.png) | ![](images/image11.png) |  |
 | --- | --- | --- |
 | Fort contre | < DEX > Finesse | Fort contre![](images/image1.png) |
 | ![](images/image10.png) |  | ![](images/image12.png) |
@@ -41,7 +44,7 @@ On fait appel à ce triangle lors des tests de combat en mêlée.
 L’appartenance à un groupe est surtout le fruit d’un élément bien précis : Le type de prise. C’est cela qui définit la façon dont une arme est employée, vers où et comment est exercé le point de force, etc… Les armes d’escrime, dont l’usage repose sur une garde et la Dextérité, sont constituées de la grande majorité des lames, etc… On dit que cette façon de combattre tire parti de la finesse. Ces armes ont bien souvent une taille et un calibre équilibrés. Les armes de choc, dont l’usage repose sur un manche et la Force, sont constituées des masses, haches, etc… On dit que cette façon de combattre tire parti de la brutalité. Ces armes sont bien souvent larges ou lourdes. Les armes d’hast, dont l’usage repose sur une hampe et l’Agilité, sont constituées des lances, bâtons, etc… On dit que cette façon de combattre tire parti de la souplesse. Ces armes sont bien souvent longues.
 
 !!! note "Note"
-    Mais, pourriez-vous penser, d’où vient cette logique concernant les armes de mêlée ? Pourquoi épées supérieures aux haches, elles même supérieures aux lances, elles même supérieures aux épées ? Voici la logique derrière ce choix :![latest_070](images/image4.png)
+    Mais, pourriez-vous penser, d’où vient cette logique concernant les armes de mêlée ? Pourquoi épées supérieures aux haches, elles même supérieures aux lances, elles même supérieures aux épées ? Voici la logique derrière ce choix :
 
     Les épées ont un centre de gravité situé près de leur garde ce qui les rends particulièrement maniables et ce qui leur donne un énorme avantage sur les armes d’hampes dont l’équilibre doit se faire à partir de la tête de l’arme à la place. Les épéistes peuvent donc plus aisément feinter les combattants faisant usage d’une arme aussi difficile à manier. Les épées ont cependant une portée inférieure à une arme d’hampe et ont bien du mal à dévier un coup porté sur une certaine distance, la garde étant trop proche de soi pour exercer une force suffisante pour dévier le bout d’une lance emportée dans son élan, un élan qui provient de toute la flexibilité du corps de l’attaquant ! Ce que les armes de manches, maniées en imprimant une certaine inertie en tête d’arme afin de compenser son poids, peuvent faire en revanche, tout en gagnant un certain contrôle du fait de la forme non longiligne de ces extrémités.
 

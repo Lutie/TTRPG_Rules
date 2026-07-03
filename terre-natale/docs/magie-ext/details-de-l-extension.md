@@ -199,8 +199,6 @@ Le drain du sort est strictement identique à la difficulté de l’incantation.
 Si des effets permettent la réduction du drain minimum alors elle n’affecte que la partie associée au niveau du sort, rien (sauf précisions explicites dans les règles) ne permet de réduire le drain minimum de base de 3.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image10.png)
-
     Lancer un sort nécessite d’avoir accès d’une manière ou d’une autre aux mots qui le constituent.
 
     L’accès à une école de magie permet de faire usage de tous les mots inclus dans la liste d’une école et ces derniers peuvent faire usage de n’importe quelles clés, même si ces dernières renvoient à des notions présentes dans les domaines de magie.
@@ -228,8 +226,6 @@ Trois cas de figure se présentent alors. - Si le résultat du test est égal ou
 La brûlure de mana est détaillée plus loin.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](images/image10.png)
-
     Un sort de niveau 0 est dit « Oraison » de son domaine, c’est-à-dire la base de la base. L’effet n’est pas négligeable si le mage est muni d’une focalisateur notable, car ce dernier octroie au sort une puissance non négligeable.
 
 #### Effets d’un Sort
@@ -249,8 +245,6 @@ Il y a quelques contraintes à respecter concernant l’usage des sorts et la pr
 Tout d’abord pratiquer la magie nécessite de canaliser du mana afin de mettre celui-ci en œuvre. Ceci n’est ni aisé ni sans danger si on ne fait pas usage d’un focalisateur. Ces outils typiques des mages, que d’aucuns qualifiés d’armes, peuvent prendre des formes très variées : Bâtons, Sceptres, Grimoire, etc…
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     Un test d’incantation est désavantagé si l’on ne fait pas usage d’un focalisateur. De plus, le drain des sorts est également subi en dégâts temporaires. Par ailleurs la pénalité d’usages issus de la catégorie du focalisateur s’applique évidemment aux tests d’incantations réalisés avec. En contrepartie cependant les sorts reçoivent un avantage réel à la présence du focalisateur qui constitue la base du jet permettant de quantifier la puissance/magnitude. Enfin les focalisateurs ont généralement d’autres avantages qui dépendent de leur nature.
 
 Ensuite pratiquer la magie nécessite des composantes dites gestuelles et vocales. Cela sous entends que le mage doit « parler » et « bouger » pendant une incantation et que cela peut soit le trahir s’il est vu/entendu soit l’empêcher de lancer son sort s’il n’est pas en mesure de le faire (attaché/bâillonné).
@@ -286,8 +280,6 @@ Lancer un sort a des conséquences multiples qui ne se résume pas qu’aux effe
 Chaque fois qu’un sort est lancé une trace est laissée à l’endroit même où s’est arrivé. Cette trace contient toutes les informations utiles à qui sait les déchiffrer : Identité du mage, sort lancés, etc… Si on ne peut apprendre le nom d’un mage de cette manière on peut tout de même apercevoir sa marque et l’identifier de cette manière dans d’autres circonstances. La marque d’un mage ne transparait que si celui-ci fait usage de sa magie, elle n’est pas visiblement autrement.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     - Il est possible de voir la marque laissée par la trace avec un test de Focus (difficulté de base 5, niveau de localisation = degré de réussite). - Il est possible d’identifier les informations laissées par la trace avec un test d’Erudis (difficulté de base 5, niveau de détails = degré de réussite). - Il est possible d’altérer ou effacer les informations laissées par la trace avec un test d’Aldus (alors opposé au test de Focus/Erudis adverse).
 
 #### Le Mana
@@ -295,8 +287,6 @@ Chaque fois qu’un sort est lancé une trace est laissée à l’endroit même 
 Un lanceur de sort est un aimant à Mana. Ce dernier gravite autour de lui en permanence et est donc visible par ceux qui en ont la faculté.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     - Il est possible de voir le Mana des autres avec un test de Focus. - Il est possible de camoufler son Mana avec un test d’Aldus (alors opposé au test de focus adverse).
 
 ## Le Drain de Mana
@@ -421,8 +411,6 @@ La puissance des sorts est toujours calculée à partir d’un jet dont la caté
 De nombreux éléments extérieurs (tel que les améliorations de focalisateurs) peuvent altérer la puissance des sorts lancés par le lanceur de sort.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     Magnitude du sort = (2 + Niveau du sort) x D6 + modificateurs d’attribut (selon type de sort) + Catégorie du focalisateur x Niveau du sort.
 
     La puissance du sort peut être :
@@ -471,8 +459,6 @@ Par exemple les sorts infligeant des dégâts d’énergies doivent toucher leur
 Une attaque magique peut être défendue par la cible via une défense appropriée. Une attaque magique produisant des dégâts peut être défendue via une esquive, un blocage, une parade ; là où une attaque magique produisant des effets tactiques peut être défendue via une défense tactique.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     Une attaque de zone est sujette à la règle des actions de zone, sous-entendu les cibles peuvent réaliser un test de réflexes (vs difficulté du sort) pour ignorer la moitié des effets du sort, de plus si le test d’attaque ne passe pas la défense passive alors seulement la moitié des effets est ignoré, par l’ensemble.
 
     Il est important de faire la distinction entre un sort qui vise une cible, un sort qui vise une zone et un sort qui vise une cible puis réalise un effet de zone (dans le dernier cas la cible peut ne pas être touchée mais l’effet de zone lui peux encore l’affecter elle ou des cibles à portée).
@@ -480,8 +466,6 @@ Une attaque magique peut être défendue par la cible via une défense appropri�
 De la même manière un sort infligeant une condition négative ou une malédiction (enchantement négatif) doit affecter sa cible en passant la sauvegarde associée à l’effet (voir la sauvegarde contre les sorts).
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     Si un sort doit infliger des dégâts de plusieurs éléments, chaque élément est résolu indépendamment contre sa propre défense passive. Les dégâts de chaque élément n'ont lieu que si le test dépasse la défense passive qui lui est associée. Si les dégâts sont produits, les résistances et absorptions propres à chaque énergie s'appliquent séparément avant que les dégâts ne soient combinés.
 
     Si plusieurs éléments partagent la même défense passive, l'élément principal (celui qui inflige le plus de dégâts) est résolu en premier contre cette défense. Chaque élément supplémentaire ciblant cette même défense est alors opposé à cette défense +5. Cette règle est identique à celle des règles de base pour les attaques combinées.
@@ -491,8 +475,6 @@ De la même manière un sort infligeant une condition négative ou une malédict
 Il existe bien plus de forme d’énergie via la magie que sans. Voici sur quels attributs basés les défenses passives en fonction de l’énergie.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     Dans le cas où ni une défense passive ni une sauvegarde passive est déterminée pour contrer un sort et qu’aucune règle ne fixe celle-ci au préalable, alors il est nécessaire de se référer à la sauvegarde d’opposition (magique).
 
 | Forme | Défense passive | Type | Sous type |
@@ -627,8 +609,6 @@ Lorsqu’un sort provoque des soins ces derniers sont basés sur la puissance du
 Lorsqu’un sort doit générer des soins, le lanceur de sort n’a pas à toucher sa cible si celle-ci est consentante. Dans le cas contraire il est nécessaire de considérer cela comme une attaque magique.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
-
     Morts vivants et autres créatures peuvent être blessés ou affectés par des sorts pourtant considérés comme positifs !
 
 ### Les effets d’Enchantements
@@ -1639,8 +1619,6 @@ Domaine de magie fondamentale *description*
 De la même manière qu’il est possible de réaliser des actions de combat ou de joute sous couvert de manœuvre afin d’étendre les possibilités offertes, les incantations peuvent faire l’objet de manœuvres incantatoires.
 
 !!! info "Rappel"
-    ![](images/image1.png)
-
     Ce chapitre traite des manœuvres, une règle spécifique ajoutée par l’extension des confrontations. Ignorez donc celui-ci si vous ne jouez pas avec celles-ci.
 
 La liste des manœuvres incantatoires relève l'ensemble des possibilités offertes via le principe des manœuvres (voir le sujet dans l’extension des confrontations pour plus de détails sur le sujet).
@@ -1718,8 +1696,6 @@ Pénalités : Faibles (-2) Description : Le personnage réalise son incantation 
 Comme pour tout ce qui est de l’ordre des confrontations il existe des styles et donc des écoles pour l’usage de la magie. Il s’agira généralement de se spécialiser dans une école, un domaine ou un focalisateur mais pas quelques styles ne sortent de l’ordinaire en proposant un peu plus que cela.
 
 !!! info "Rappel"
-    ![](images/image1.png)
-
     Ce chapitre traite des styles, une règle spécifique ajoutée par l’extension des confrontations. Ignorez donc celui-ci si vous ne jouez pas avec celles-ci.
 
 La liste des styles incantatoires relève l'ensemble des possibilités offertes via le principe des styles (voir le sujet dans l’extension des confrontations pour plus de détails sur le sujet).
@@ -1861,8 +1837,6 @@ Requis : Pratique des Signes. Effet : a) Le personnage peut lancer un signe à l
 Voici la liste des corpus « de Caste » associés à l’usage de la magie.
 
 !!! info "Rappel"
-    ![](images/image1.png)
-
     Cette section traite des castes, une règle spécifique ajoutée par l’univers de Thalifen. Ignorez donc celui-ci si vous ne jouez pas dans cet univers.
 
 ?
@@ -1961,7 +1935,7 @@ Les materias sont des minéraux étranges, fruit de la cristallisation du mana l
 | Les matérias rouges vierges peuvent être travaillées par un mage pour servir au lancement d’une invocation (action d’incantation). Le drain mental d’un sort de matéria est de 4 + 2 x niveau du sort, le niveau étant limité par la qualité. Le port d’une telle matéria génère 2 points de corruption (minimum). Une matéria rouge ne peux être activée qu’une fois par scène. |
 
 !!! note "Note"
-    Activer un sort ou une invocation issue d’une matéria requière un test d’activation de la matéria (Groupe Arcane + Compétence Arme Focale + modificateur de Magie). La difficulté à atteindre dépends de la matéria et de son niveau. Le niveau maximum est de Groupe Arcane + Compétence Arme Focale (comme pour les sorts classiques).![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](images/image11.png)
+    Activer un sort ou une invocation issue d’une matéria requière un test d’activation de la matéria (Groupe Arcane + Compétence Arme Focale + modificateur de Magie). La difficulté à atteindre dépends de la matéria et de son niveau. Le niveau maximum est de Groupe Arcane + Compétence Arme Focale (comme pour les sorts classiques).
 
     Activer une matéria sans utiliser un orifice provoque un désavantage. Les sorts qui requièrent de toucher la cible se base sur le test d’activation (vs la défense qui dépends du sort), il n’y a pas d’autres tests à faire (contrairement à la magie classique). Même chose pour les sorts qui provoquent des conditions etc…
 

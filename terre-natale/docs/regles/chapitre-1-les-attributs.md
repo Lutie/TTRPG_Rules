@@ -192,8 +192,6 @@ La stature mesure la masse du personnage, peu importe à quoi celle-ci est due. 
 La taille mesure la hauteur du personnage. Un personnage avec une forte valeur de taille est grand vis-à-vis de la norme humaine. Un personnage avec une faible valeur de taille est petit. La Taille est au corps ce que l'apparence est à l’esprit. La Taille est donc rattachée au corps.
 
 !!! note "Note"
-    ![](images/image1.png)
-
     En toute logique un personnage est relativement normal si sa stature et sa taille son identique. Si la stature est inférieure à la taille, ce dernier est marqué d’une forme de maigreur, et inversement.
 
 ### La Chance

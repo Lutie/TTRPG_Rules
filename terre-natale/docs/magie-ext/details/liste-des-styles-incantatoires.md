@@ -3,8 +3,6 @@
 Comme pour tout ce qui est de l’ordre des confrontations il existe des styles et donc des écoles pour l’usage de la magie. Il s’agira généralement de se spécialiser dans une école, un domaine ou un focalisateur mais pas quelques styles ne sortent de l’ordinaire en proposant un peu plus que cela.
 
 !!! info "Rappel"
-    ![](../images/image1.png)
-
     Ce chapitre traite des styles, une règle spécifique ajoutée par l’extension des confrontations. Ignorez donc celui-ci si vous ne jouez pas avec celles-ci.
 
 La liste des styles incantatoires relève l'ensemble des possibilités offertes via le principe des styles (voir le sujet dans l’extension des confrontations pour plus de détails sur le sujet).
@@ -79,7 +77,10 @@ Requis : Usage d’un focalisateur de type « baguette ». Effet : L’utilisate
 
 ### Corpus « Écoles » de Magie
 
-Voici la liste des corpus basés sur l’usage d’écoles de magie et les écoles qui en font usage visent à renforcer ces dernières uniquement. Ces corpus se déclinent donc en autant d’écoles de magie existantes (mais pas en domaine ou pratique). Il existe cependant des variantes sous couverts des concepts suivants : - Inclusif : C’est le corpus normal sans contrepartie. - Exclusif : C’est un corpus qui augmente le bonus associé à l’école du style mais qui implique un malus à toutes les autres. Le style ne peut être changé qu’après un repos.
+Voici la liste des corpus basés sur l’usage d’écoles de magie et les écoles qui en font usage visent à renforcer ces dernières uniquement. Ces corpus se déclinent donc en autant d’écoles de magie existantes (mais pas en domaine ou pratique). Il existe cependant des variantes sous couverts des concepts suivants :
+
+- Inclusif : C’est le corpus normal sans contrepartie.
+- Exclusif : C’est un corpus qui augmente le bonus associé à l’école du style mais qui implique un malus à toutes les autres. Le style ne peut être changé qu’après un repos.
 
 #### Maitrise de « Ecole de Magie »
 
@@ -146,8 +147,6 @@ Requis : Pratique des Signes. Effet : a) Le personnage peut lancer un signe à l
 Voici la liste des corpus « de Caste » associés à l’usage de la magie.
 
 !!! info "Rappel"
-    ![](../images/image1.png)
-
     Cette section traite des castes, une règle spécifique ajoutée par l’univers de Thalifen. Ignorez donc celui-ci si vous ne jouez pas dans cet univers.
 
 ?

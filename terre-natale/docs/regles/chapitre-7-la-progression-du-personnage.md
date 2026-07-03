@@ -37,7 +37,9 @@ L’apprentissage nécessaire est détaillé ci-dessous pour chaque cas, mais vo
 Il est conseillé, afin de respecter correctement cette règle, de noter les temps passer à l’apprentissage d’une notion à côté de celle-ci afin de pouvoir veiller à son avancement et être en mesure de s’affranchir du coût dès que possible.
 
 !!! note "Note"
-    - Un « bon élève » (avantage) augmente le bénéfice d’un enseignement prodigué par un maître. - Le « mauvais élève » (désavantage) augmente tous les temps d’apprentissage. - Un « autodidacte » (avantage) d’ignorer l’impact négatif d’une absence de source « classique ».![](images/image1.png)
+    - Un « bon élève » (avantage) augmente le bénéfice d’un enseignement prodigué par un maître.
+    - Le « mauvais élève » (désavantage) augmente tous les temps d’apprentissage.
+    - Un « autodidacte » (avantage) d’ignorer l’impact négatif d’une absence de source « classique ».
 
 #### Les Maîtres
 
@@ -62,7 +64,7 @@ Le personnage qui souhaite faire progresser un attribut, un groupe ou une compé
 Si le personnage n’a pas accès à une source alors le temps d’apprentissage est doublé. Dans le cas où le personnage passe par les services d’un maître qui n’est pas qualifié comme source le prix n’augmente pas : Il reste calculé sur le temps d’apprentissage de base.
 
 !!! note "Note"
-    Un maître peut ne pas avoir les qualifications requises pour être qualifié de « source ». Dans ce cas, le personnage ne profite que de son enseignement, de sa méthodologie, pour réduire le temps d’apprentissage, et doit disposer d’une autre forme de source pour ne pas voir le temps nécessaire doublé.![A yellow diamond with a black strip Description automatically generated](images/image1.png)
+    Un maître peut ne pas avoir les qualifications requises pour être qualifié de « source ». Dans ce cas, le personnage ne profite que de son enseignement, de sa méthodologie, pour réduire le temps d’apprentissage, et doit disposer d’une autre forme de source pour ne pas voir le temps nécessaire doublé.
 
 ## Augmenter un Attribut
 

@@ -3,8 +3,6 @@
 De la même manière qu’il est possible de réaliser des actions de combat ou de joute sous couvert de manœuvre afin d’étendre les possibilités offertes, les incantations peuvent faire l’objet de manœuvres incantatoires.
 
 !!! info "Rappel"
-    ![](../images/image1.png)
-
     Ce chapitre traite des manœuvres, une règle spécifique ajoutée par l’extension des confrontations. Ignorez donc celui-ci si vous ne jouez pas avec celles-ci.
 
 La liste des manœuvres incantatoires relève l'ensemble des possibilités offertes via le principe des manœuvres (voir le sujet dans l’extension des confrontations pour plus de détails sur le sujet).

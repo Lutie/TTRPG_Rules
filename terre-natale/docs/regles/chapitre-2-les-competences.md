@@ -5,8 +5,6 @@
 Une compétence incarne une maîtrise pouvant être acquise à force d’apprentissage et de pratique. Les compétences servent à réaliser des tests d’aptitude dans lesquelles elles servent de modificateur positif. Elles ne jouent aucun rôle dans les tests d’attributs. Le personnage est « apprentis » dans les compétences de niveau 1. Le personnage est « compagnon » dans les compétences de niveau 2. Le personnage est « expert » dans les compétences de niveau 3. Le personnage est « maître » dans les compétences de niveau 4. Le personnage est « grand maître » dans les compétences de niveau 5. Le personnage est « sommité » dans les compétences de niveau 6.
 
 !!! note "Note"
-    ![](images/image1.png)
-
     Le niveau d’une compétence ou d’un groupe est limité par la destinée du personnage (voir chapitre 5) et son rang de caste. Ces limites peuvent être modifiées par des traits.
 
 Les groupes de compétences servent à regrouper des compétences sous une activité commune. Le groupe agit aussi comme un modificateur, ajouté à celui de la compétence. Une compétence peut faire partie de plusieurs groupes à la fois, mais elle ne profite alors que du modificateur d’un seul groupe (le plus élevé). Le personnage est « novice » dans les groupes de niveau 1. Le personnage est « amateur » dans les groupes de niveau 2. Le personnage est « adepte » dans les groupes de niveau 3. Le personnage est « virtuose » dans les groupes de niveau 4. Les catégories de compétences servent à référencer des compétences sous une notion commune. Elles n’ont pas d'incidences sur le système de compétence à proprement parler mais permet une classification pratique.
@@ -70,8 +68,6 @@ Spéciales
 - Représailles (L) ⇛ Action de contre-attaque directe après une agression, exploitant l’ouverture laissée par l’adversaire.🢟 ᐉ Se base et limite une compétence de combat.🢟
 
 !!! note "Note"
-    ![](images/image1.png)
-
     Mais, pourriez-vous penser, d’où vient cette logique concernant les armes de mêlée ? Pourquoi la dextérité pour les épées, la force pour les haches/ masses et l’agilité pour les lances/bâtons ?
 
     Il y a deux réponses concomitantes à choix :
@@ -373,7 +369,7 @@ Compétences : Investigation (INT), Déduction (INT), Mémoire (INT), Interrogat
 - Extrapolation (INT) ⇛ Reconstituer un passé ou un vécu à partir d’indices matériels, de traces ou de sensations. L’extrapolation relie les faits visibles à des intentions ou des émotions invisibles.🢟 ᐉ Peut se lier à la SAG lorsque la reconstruction repose plus sur la compréhension intuitive ou empathique que sur l’analyse factuelle.🢟
 
 !!! note "Note"
-    Le groupe Enquête occupe une place particulière : selon la manière dont on l’interprète, ses compétences peuvent parfois “mâcher le travail” d’un joueur, en traduisant par un test ce qui relève normalement de la réflexion ou de la déduction à la table.![](images/image1.png)
+    Le groupe Enquête occupe une place particulière : selon la manière dont on l’interprète, ses compétences peuvent parfois “mâcher le travail” d’un joueur, en traduisant par un test ce qui relève normalement de la réflexion ou de la déduction à la table.
 
     Terre Natale propose donc une solution facultative : la défausse d’enquête.
 

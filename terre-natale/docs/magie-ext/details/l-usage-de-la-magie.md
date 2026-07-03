@@ -49,8 +49,6 @@ Le drain du sort est strictement identique à la difficulté de l’incantation.
 Si des effets permettent la réduction du drain minimum alors elle n’affecte que la partie associée au niveau du sort, rien (sauf précisions explicites dans les règles) ne permet de réduire le drain minimum de base de 3.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](../images/image10.png)
-
     Lancer un sort nécessite d’avoir accès d’une manière ou d’une autre aux mots qui le constituent.
 
     L’accès à une école de magie permet de faire usage de tous les mots inclus dans la liste d’une école et ces derniers peuvent faire usage de n’importe quelles clés, même si ces dernières renvoient à des notions présentes dans les domaines de magie.
@@ -73,13 +71,15 @@ Le personnage doit ensuite se soumettre à un test d’incantation. Ce test repo
 
 Le résultat du test définit quelle sera la limite du niveau du sort effectivement lancé en bout de course.
 
-Trois cas de figure se présentent alors. - Si le résultat du test est égal ou supérieur à la difficulté d’incantation, le sort peut être lancé à un niveau égal à celui de l’incantation (voir plus bas mais pas plus haut, notons que le drain a déjà eu lieu donc ce dernier ne changera pas si le sort est lancé à plus bas niveau). - Si le résultat du test est inférieur à la difficulté d’incantation mais supérieur à la difficulté du sort alors le sort est lancé au niveau permis par le score du test. Le personnage subit une brûlure de mana équivalente aux niveaux qui n’ont pas pu être atteints PAR le niveau de l’incantation. Par exemple, si le test permet de lancer un sort de niveau 2 maximum mais que le niveau d’incantation visé était 3, alors je subis une brulure équivalant au niveau 1. - Si le résultat du test est inférieur à la difficulté d’incantation ET à la difficulté du sort alors le sort est un échec. Le personnage subit alors une brûlure de mana équivalant au drain de mana.
+Trois cas de figure se présentent alors.
+
+- Si le résultat du test est égal ou supérieur à la difficulté d’incantation, le sort peut être lancé à un niveau égal à celui de l’incantation (voir plus bas mais pas plus haut, notons que le drain a déjà eu lieu donc ce dernier ne changera pas si le sort est lancé à plus bas niveau).
+- Si le résultat du test est inférieur à la difficulté d’incantation mais supérieur à la difficulté du sort alors le sort est lancé au niveau permis par le score du test. Le personnage subit une brûlure de mana équivalente aux niveaux qui n’ont pas pu être atteints PAR le niveau de l’incantation. Par exemple, si le test permet de lancer un sort de niveau 2 maximum mais que le niveau d’incantation visé était 3, alors je subis une brulure équivalant au niveau 1.
+- Si le résultat du test est inférieur à la difficulté d’incantation ET à la difficulté du sort alors le sort est un échec. Le personnage subit alors une brûlure de mana équivalant au drain de mana.
 
 La brûlure de mana est détaillée plus loin.
 
 !!! info "Rappel"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_014.png](../images/image10.png)
-
     Un sort de niveau 0 est dit « Oraison » de son domaine, c’est-à-dire la base de la base. L’effet n’est pas négligeable si le mage est muni d’une focalisateur notable, car ce dernier octroie au sort une puissance non négligeable.
 
 #### Effets d’un Sort
@@ -99,8 +99,6 @@ Il y a quelques contraintes à respecter concernant l’usage des sorts et la pr
 Tout d’abord pratiquer la magie nécessite de canaliser du mana afin de mettre celui-ci en œuvre. Ceci n’est ni aisé ni sans danger si on ne fait pas usage d’un focalisateur. Ces outils typiques des mages, que d’aucuns qualifiés d’armes, peuvent prendre des formes très variées : Bâtons, Sceptres, Grimoire, etc…
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Un test d’incantation est désavantagé si l’on ne fait pas usage d’un focalisateur. De plus, le drain des sorts est également subi en dégâts temporaires. Par ailleurs la pénalité d’usages issus de la catégorie du focalisateur s’applique évidemment aux tests d’incantations réalisés avec. En contrepartie cependant les sorts reçoivent un avantage réel à la présence du focalisateur qui constitue la base du jet permettant de quantifier la puissance/magnitude. Enfin les focalisateurs ont généralement d’autres avantages qui dépendent de leur nature.
 
 Ensuite pratiquer la magie nécessite des composantes dites gestuelles et vocales. Cela sous entends que le mage doit « parler » et « bouger » pendant une incantation et que cela peut soit le trahir s’il est vu/entendu soit l’empêcher de lancer son sort s’il n’est pas en mesure de le faire (attaché/bâillonné).
@@ -136,15 +134,14 @@ Lancer un sort a des conséquences multiples qui ne se résume pas qu’aux effe
 Chaque fois qu’un sort est lancé une trace est laissée à l’endroit même où s’est arrivé. Cette trace contient toutes les informations utiles à qui sait les déchiffrer : Identité du mage, sort lancés, etc… Si on ne peut apprendre le nom d’un mage de cette manière on peut tout de même apercevoir sa marque et l’identifier de cette manière dans d’autres circonstances. La marque d’un mage ne transparait que si celui-ci fait usage de sa magie, elle n’est pas visiblement autrement.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
-    - Il est possible de voir la marque laissée par la trace avec un test de Focus (difficulté de base 5, niveau de localisation = degré de réussite). - Il est possible d’identifier les informations laissées par la trace avec un test d’Erudis (difficulté de base 5, niveau de détails = degré de réussite). - Il est possible d’altérer ou effacer les informations laissées par la trace avec un test d’Aldus (alors opposé au test de Focus/Erudis adverse).
+    - Il est possible de voir la marque laissée par la trace avec un test de Focus (difficulté de base 5, niveau de localisation = degré de réussite).
+    - Il est possible d’identifier les informations laissées par la trace avec un test d’Erudis (difficulté de base 5, niveau de détails = degré de réussite).
+    - Il est possible d’altérer ou effacer les informations laissées par la trace avec un test d’Aldus (alors opposé au test de Focus/Erudis adverse).
 
 #### Le Mana
 
 Un lanceur de sort est un aimant à Mana. Ce dernier gravite autour de lui en permanence et est donc visible par ceux qui en ont la faculté.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
-    - Il est possible de voir le Mana des autres avec un test de Focus. - Il est possible de camoufler son Mana avec un test d’Aldus (alors opposé au test de focus adverse).
+    - Il est possible de voir le Mana des autres avec un test de Focus.
+    - Il est possible de camoufler son Mana avec un test d’Aldus (alors opposé au test de focus adverse).

@@ -23,8 +23,6 @@ Lorsqu’un sort provoque des soins ces derniers sont basés sur la puissance du
 Lorsqu’un sort doit générer des soins, le lanceur de sort n’a pas à toucher sa cible si celle-ci est consentante. Dans le cas contraire il est nécessaire de considérer cela comme une attaque magique.
 
 !!! note "Note"
-    ![C:\Users\home\Pictures\Icones Dragon Age\DA2 ico\latest_070.png](../images/image11.png)
-
     Morts vivants et autres créatures peuvent être blessés ou affectés par des sorts pourtant considérés comme positifs !
 
 ### Les effets d’Enchantements

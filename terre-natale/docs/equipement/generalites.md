@@ -10,9 +10,7 @@ La variété des objets proposée ici se veut exhaustive pour répondre aux atte
 
 Il peut être crucial de connaître les limites techniques associables au port d'équipement, tant ces derniers sont impactant sur la capacité d'un personnage et au vu de la variété proposée. Évidemment, la première limite au port d'équipement est matérialisée par la capacité de charge d'un personnage, c'est-à-dire sa capacité à gérer la charge que représente l'équipement qui est équipé de nombreuses pièces d'équipement générant naturellement de la charge. Cependant il y a également une limite plus pragmatique qui peut être observée afin d'assurer une bonne tenue du jeu (et dans une certaine mesure de la logique). Voici donc la liste des équipements qui peuvent être équipés (et donc pas simplement placés dans un sac à dos, car ici les règles d'encombrement suffisent).
 
-![A person in armor with text
-
-Description automatically generated](images/image21.jpg)
+![](images/image21.jpg)
 
 Il y a aussi une limite aux promotions mineures : Un personnage ne peut soutenir que 5 + modificateur d'équilibre rangs totaux de promotions mineures, sans quoi il doit faire des choix (lors de ses repos longs) et n'appliquer les effets que de certains d'entre eux.
 
@@ -27,8 +25,6 @@ Main Directrice Peux être occupé par une arme ou un outil. ⚠ Son poids doit 
 Main non directrice Même chose que pour la main directrice. ⚠ Peut être utilisée pour porter le même objet que la main directrice. ⚠ L'arme / outils dont le poids est le plus faible n'est comptabilisé qu'à moitié dans le poids total d'un personnage.
 
 !!! note "Note"
-    ![A yellow diamond with a black strip Description automatically generated](images/image6.png)
-
     L'équipement directement équipées sont associés à une limitation notable : La capacité de poigne du personnage doit être suffisante pour supporter le poids de l'objet.
 
     Dans le cas d'une arme ou outils il est possible de sacrifier sa main non directrice afin que cette dernière apporte un soutien à la main directrice afin de porter un poids plus important (voir règles).
@@ -42,8 +38,6 @@ Torse C'est la pièce d'armure principale. Peut être occupé par un plastron, v
 Tête / Bras / Jambes Tête, bras (gauche et droite) et jambes (gauche et droites) constituent des pièces d'armure qui, si elles ne sont pas intégrées à l'armure, peuvent être équipées indépendamment. Sur la tête peuvent être équipés des casques et autre couvre-chefs. Sur les bras peuvent être équipés des brassards. Sur les jambes peuvent être équipés des cuissardes et autres jambières. ⚠️ Les améliorations et la matière, si différentes de la pièce d'armure principale, n'affecte QUE cette partie du corps, dans le cas d'un coup reçu localisé par exemple. Le seul cas où ces particularités sont prises en considération en plus de l'armure c'est lorsqu'elles affectent la charge ou le poids de l'objet. ⚠️ Joue sur le poids total du matériel équipé. ▶ Catégorie ▶ Qualité ▶ Amélioration(s) (dépendant de la qualité) ▶ Promotion(s) mineure (dépendant de la qualité) ▶ Matière (dépendant de la qualité) ▶ Modification(s) (gabarit, taille, forme)
 
 !!! note "Note"
-    ![A yellow diamond with a black strip Description automatically generated](images/image6.png)
-
     Les règles gérant les pièces d'armures n'ont été introduites que pour gérer des cas spéciaux afin de conserver un certain degré de précision et réaliste en cas de besoin.
 
     Il n'est pas conseillé d'utiliser les pièces d'armures afin de démultiplier les effets, d'ailleurs en cas configuration abusive qui échappe aux règles il est conseillé de rapidement couper court et revenir à des solutions simples : La pièce d'armure principale est la plus importante, ses effets prévalent sur les autres en cas de démultiplications, point.
@@ -79,8 +73,6 @@ Cou Peut être occupé par l'équivalent d'un pendentif. Limite : Un personnage 
 Taille Peut être occupé par l'équivalent d'une ceinture. Limite : Un personnage ne peut faire usage que d'un seul objet de ce type. ▶ Qualité ▶ Amélioration(s) (dépendant de la qualité) ▶ Promotion(s) mineure (dépendant de la qualité)
 
 !!! note "Note"
-    ![A yellow diamond with a black strip Description automatically generated](images/image6.png)
-
     Les bonus issus de l'équipement sont de type **Équipement**. Deux bonus Équipement portant sur le même effet ne se cumulent pas — seul le plus élevé s'applique. Ils se cumulent en revanche avec des bonus d'autres types (Inné, Conditionné, Situationnel). Voir les règles de cumul des bonus (Chapitre 0).
 
 #### Accessoires
@@ -93,7 +85,10 @@ Conteneurs Annexes Correspond aux accessoires permettant de transporter de l'éq
 
 #### Objets magiques
 
-La magie passive issue de l'équipement est un sujet à part entière. De manière globale on distingue deux effets : - Les effets reçues via l'usage des matérias (via orifices), qui génèrent de la corruption et qui doivent donc être supportées par le personnage, formant ainsi une limite naturelle à leur empilement. - Les effets reçues via l'usage des runes, c'est-à-dire des objets disposants de propriétés magiques qui ne passent pas par l'usage d'orifices/matérias (en réalité ils sont bien constitués de matérias, mais là n'est pas le sujet, dans les faits cette matérias n'est par ailleurs par configurable mais statique), qui ne sont limités que par le nombre d'objet pouvant être porté sur telle ou telle partie du corps.
+La magie passive issue de l'équipement est un sujet à part entière. De manière globale on distingue deux effets :
+
+- Les effets reçues via l'usage des matérias (via orifices), qui génèrent de la corruption et qui doivent donc être supportées par le personnage, formant ainsi une limite naturelle à leur empilement.
+- Les effets reçues via l'usage des runes, c'est-à-dire des objets disposants de propriétés magiques qui ne passent pas par l'usage d'orifices/matérias (en réalité ils sont bien constitués de matérias, mais là n'est pas le sujet, dans les faits cette matérias n'est par ailleurs par configurable mais statique), qui ne sont limités que par le nombre d'objet pouvant être porté sur telle ou telle partie du corps.
 
 ### Les bonus d'équipements
 

@@ -61,7 +61,7 @@ Les matières présentent toutes 2 qualités et défauts. Le rang des qualités 
 Les matières disponibles dépendent entièrement de l’univers de jeu. Il est donc nécessaire de se référer aux règles de ces derniers pour obtenir la liste des matières (et de leurs propriétés respectives).
 
 !!! note "Note"
-    A titre de référence/exemple le compendium de l’équipement présente une liste de matières pouvant servir dans le cadre d’une campagne dans l’univers de Thalifen ou tout autre univers similaire.![latest_070](images/image4.png)
+    A titre de référence/exemple le compendium de l’équipement présente une liste de matières pouvant servir dans le cadre d’une campagne dans l’univers de Thalifen ou tout autre univers similaire.
 
 ## Travailler les Matière
 

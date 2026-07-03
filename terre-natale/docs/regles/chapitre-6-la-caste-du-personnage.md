@@ -36,9 +36,15 @@ C’est un point qui doit être nécessairement discuté avec le maître de jeu.
 
 Le troisième attribut n’est utilisé que pour mesurer l’objectif d’aptitude et n’intervient nulle part ailleurs.
 
-Accès et progression Les exigences dépendent de ces facteurs : - Avoir au moins 14 dans les deux attributs associés à la caste en question. - Avoir atteint les qualifications nécessaires au premier rang.
+Accès et progression Les exigences dépendent de ces facteurs :
 
-Il y a deux types de qualifications : - D’expérience : Correspond au totale des expériences acquis par le personnage, on parle ici d’expérience totale acquises donc cela comprend l’expérience de départ/création/inspiration... - D’aptitude : Correspondent à des sommes de groupe et compétences associées aux attributs de la caste (correspond en réalité à 5 + Expérience / 50).
+- Avoir au moins 14 dans les deux attributs associés à la caste en question.
+- Avoir atteint les qualifications nécessaires au premier rang.
+
+Il y a deux types de qualifications :
+
+- D’expérience : Correspond au totale des expériences acquis par le personnage, on parle ici d’expérience totale acquises donc cela comprend l’expérience de départ/création/inspiration...
+- D’aptitude : Correspondent à des sommes de groupe et compétences associées aux attributs de la caste (correspond en réalité à 5 + Expérience / 50).
 
 | Rang | Titre | Expériences | Aptitudes |
 | --- | --- | --- | --- |
@@ -67,7 +73,13 @@ Il y a deux types de qualifications : - D’expérience : Correspond au totale d
 
 Endosser le rôle d’une caste place donc le personnage au 1er rang de celle-ci, c’est-à-dire au rang d’apprenti. Lorsque la qualification est suffisante pour un rang, le personnage atteint le rang en question. Un groupe et une compétence augmente la qualification d’autant que leurs niveaux. Un groupe ne compte qu’une fois et ce même s’il a plusieurs compétences associées qui comptent dans la qualification, le groupe compte à partir du moment où au moins une compétence peut être utilisée avec un des attributs de la caste.
 
-Notons que selon le type de vécu associé à la création de personnage d’une campagne impacte directement le rang maximum qui peut être atteint à la création dans la mesure où ce paramètre définit l’expérience totale disponible, évidemment l’accès à ces rangs dépends alors de la façon dont les compétences et groupes ont été réparties (et de si cette répartie satisfait les qualifications requises). - Aucun Vécu : Rang 2 - Apprenti +. - Vécu Notable : Rang 3 - Compagnon. - Vécu Admirable : Rang 4 - Compagnon +. - Vécu Spectaculaire : Rang 4 - Compagnon +. - Vécu Légendaire : Rang 5 - Expert.
+Notons que selon le type de vécu associé à la création de personnage d’une campagne impacte directement le rang maximum qui peut être atteint à la création dans la mesure où ce paramètre définit l’expérience totale disponible, évidemment l’accès à ces rangs dépends alors de la façon dont les compétences et groupes ont été réparties (et de si cette répartie satisfait les qualifications requises).
+
+- Aucun Vécu : Rang 2 - Apprenti +.
+- Vécu Notable : Rang 3 - Compagnon.
+- Vécu Admirable : Rang 4 - Compagnon +.
+- Vécu Spectaculaire : Rang 4 - Compagnon +.
+- Vécu Légendaire : Rang 5 - Expert.
 
 Notons que les rangs de sommité et supérieurs sont davantage destinés à des personnages non-joueurs importants et/ou emblématiques qu’aux joueurs.
 

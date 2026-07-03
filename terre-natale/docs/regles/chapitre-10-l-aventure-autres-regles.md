@@ -58,7 +58,20 @@ Un personnage subissant suffisamment de pénalités pour atteindre 0 dans un att
 
 Une maladie peut avoir des particularités. Généralement ces particularités augmentent ou réduisent la gravité (en +/- difficulté).
 
-Voici la liste des particularités que peut avoir une maladie : - Pénalités aggravées (Difficulté -2) : La gravité est divisée par 4 au lieu de 5 pour déterminer les pénalités. - Pénalités légères (Difficulté +2) : La gravité est divisée par 6 au lieu de 5 pour déterminer les pénalités. - Difficile à éviter (Difficulté +2) : La gravité de la maladie est réduite de 4. - Allergie (Difficulté -2) : La gravité de la maladie est augmentée de 4. - Contagieuse (Difficulté -2) : Les individus en contact avec le malade peuvent également contracter la maladie. Chaque intermédiaire l’est avec une difficulté réduite de 2. - Rare (Difficulté -2) : Difficulté des soins +4. - Courante (Difficulté +2) : Difficulté des soins -4. - Sans fin (Difficulté -2) : La gravité de la maladie ne chute jamais sans soins. - Rémission Rapide (Difficulté +2) : La récupération des conditions associée à la maladie est augmentée de 2 pour la rémission de celle-ci. - Rémission Lente (Difficulté -2) : La récupération des conditions associée à la maladie est réduite de 2 pour la rémission de celle-ci. - Dangereuse (Difficulté -2) : Les pénalités maximales sont augmentées de 2. - Bénigne (Difficulté -2) : Les pénalités maximales sont réduites de 2.
+Voici la liste des particularités que peut avoir une maladie :
+
+- Pénalités aggravées (Difficulté -2) : La gravité est divisée par 4 au lieu de 5 pour déterminer les pénalités.
+- Pénalités légères (Difficulté +2) : La gravité est divisée par 6 au lieu de 5 pour déterminer les pénalités.
+- Difficile à éviter (Difficulté +2) : La gravité de la maladie est réduite de 4.
+- Allergie (Difficulté -2) : La gravité de la maladie est augmentée de 4.
+- Contagieuse (Difficulté -2) : Les individus en contact avec le malade peuvent également contracter la maladie. Chaque intermédiaire l’est avec une difficulté réduite de 2.
+- Rare (Difficulté -2) : Difficulté des soins +4.
+- Courante (Difficulté +2) : Difficulté des soins -4.
+- Sans fin (Difficulté -2) : La gravité de la maladie ne chute jamais sans soins.
+- Rémission Rapide (Difficulté +2) : La récupération des conditions associée à la maladie est augmentée de 2 pour la rémission de celle-ci.
+- Rémission Lente (Difficulté -2) : La récupération des conditions associée à la maladie est réduite de 2 pour la rémission de celle-ci.
+- Dangereuse (Difficulté -2) : Les pénalités maximales sont augmentées de 2.
+- Bénigne (Difficulté -2) : Les pénalités maximales sont réduites de 2.
 
 ### Autres Maladies
 
@@ -92,7 +105,11 @@ En fonction de l’univers de jeu, la monnaie pourra évidemment varier. Nous pr
 
 ### Le Prix
 
-Les prix d’un article est fixé par des facteurs : - Le prix de base (de l’objet) - Le modificateur de rareté - Le modificateur de qualité
+Les prix d’un article est fixé par des facteurs :
+
+- Le prix de base (de l’objet)
+- Le modificateur de rareté
+- Le modificateur de qualité
 
 Chaque objet a un prix de base indexé sur son utilité. Ce prix est augmenté lorsqu’un tel objet profite d’améliorations mais aussi si sa forme, sa taille, son gabarit ou son équilibre diffère, ajoutant ainsi leurs propres valeurs à celui de l’objet auxquelles tous ces paramètres sont apposés.
 
@@ -163,7 +180,10 @@ Les produits bruts, matériaux naturels ou composants recyclés — plantes, min
 
 Pour identifier la fonction primaire (son usage dans les grandes lignes) et propriétés (améliorations, promotions, qualité, etc) d’un objet, le personnage doit réaliser un test d’identification contre difficulté d'évaluation (10). Le degré de réussite permet d’identifier ce même niveau/rang de qualité, matière, améliorations et promotions. Par exemple avec un résultat de 15 un personnage peut savoir qu’un objet est au moins de qualité 2, identifier les 2 premières améliorations, les 2 premières promotions et la matière si elle est de rang 2 ou moins.
 
-Le test d’identification se fait soit : - Avec un test de connaissance adapté à l’objet, la difficulté est alors réduite de 5. - Avec un test via le groupe commerce et la compétence évaluation.
+Le test d’identification se fait soit :
+
+- Avec un test de connaissance adapté à l’objet, la difficulté est alors réduite de 5.
+- Avec un test via le groupe commerce et la compétence évaluation.
 
 Le coût associé à l’identification d’un objet (sa fonction primaire et ses particularités) est généralement estimé à 5% du prix de l’objet. Si la personne est incapable d’identifier entièrement l’objet un paiement au prorata des propriétés révélées peux être envisagé.
 
@@ -248,7 +268,10 @@ Bien que les règles de base n’en tirent pas profit, il existe ce que l’on p
 
 Les aptitudes se déclinent sous forme de rang et peuvent être améliorées de la même manière que les compétences. Le coût et le temps d’apprentissage sont les mêmes, les conditions et limitations aussi. Cependant les aptitudes ne sont pas nécessairement rangées dans des groupes. De plus, les aptitudes ne sont pas utilisées pour réaliser des tests et ne sont d’ailleurs pas rattachés à un attribut.
 
-Quelques exemples d’aptitudes : - Les styles (extension de confrontation). - Des éléments scénaristiques (qui nécessite/justifie une forme d’investissement de la part du joueur) dont la nature dépend entièrement des campagnes etc…
+Quelques exemples d’aptitudes :
+
+- Les styles (extension de confrontation).
+- Des éléments scénaristiques (qui nécessite/justifie une forme d’investissement de la part du joueur) dont la nature dépend entièrement des campagnes etc…
 
 ## Le Prix de l'Échec
 
@@ -292,7 +315,13 @@ Chaque groupe met alors sur sa ligne de front un nombre de personnages défini p
 
 =>> S’il tente de résoudre le conflit (on peut aussi dire qu’il attaque) alors le personnage doit choisir un protagoniste d'un groupe adverse. Sa valeur de résolution sera opposée à la valeur de contournement de sa cible. Si la résolution est supérieure, la cible reçoit un marqueur "pénalité". Si la résolution est au moins deux fois supérieure, la cible reçoit deux marqueurs "pénalité". Si la résolution est égale ou inférieure c'est le personnage qui a cherché à résoudre le conflit qui subit le marqueur "pénalité". =>> S’il tente de contourner le conflit (on peut aussi dire qu’il défend) alors le personnage choisit de le faire de façon globale ou envers un autre protagoniste de son propre groupe. S’il choisit de le faire de façon globale, la prochaine résolution adverse devra le cibler à lui. S’il le fait de façon ciblée alors la prochaine résolution adverse qui aurait dû cibler le protagoniste qui fait l’objet de l’action ciblera le personnage qui est à l’origine du contournement à la place. =>> S’il tente d'aider dans le conflit (on peut aussi dire qu’il aide) alors le personnage choisit entre supporter, gêner, analyser ou rallier. S’il supporte, il peut augmenter temporairement la résolution ou le contournement d'un protagoniste allié du montant de sa valeur d'aide. Il peut à la place aider deux alliés, mais l'augmentation sera équivalente à la moitié de sa valeur d'aide (cet effet prend fin à la fin du tour adverse). A l’inverse s’il cherche à gêner il peut réduire temporairement la résolution, contournement ou aide d’un protagoniste adverse du montant de sa valeur d’aide (cet effet prend fin à la fin du tour adverse). Si le personnage cherche à analyser, il doit choisir entre résolution, contournement et aide, puis lui et ses alliés prennent connaissances de toutes les valeurs des autres groupes dans la catégorie en question égale ou inférieure à la valeur d'aide du personnage. Si le personnage cherche à rallier, il peut choisir un allié qui dispose d’une marque « pénalité », cet allié peut alors ignorer une de ses marques pour ce qui est d’une mise hors-jeu ou de ses pénalités (mais la marque reste et compte dans la conclusion), cette action n’est possible que si le score d’aide est au moins de 10 + 5 par ralliement déjà reçue par la cible. =>> Le personnage peut échanger sa place avec un allié d’arrière ligne qui n’a pas agi ce tour ci, l’allié en question peut alors agir mais il subit une pénalité de 5 (et leur place est définitivement échangée). =>> Le personnage peut relancer un ou plusieurs de ses tests parmi ceux de la résolution, du contournement et/ou de l’aide. Faire ainsi ne permet pas d’entreprendre d’autre action et le meilleur résultat des deux est conservé.
 
-Quelques subtilités : - Les personnages en ligne arrière peuvent entreprendre des actions du moment qu’elles correspondent à des actions qui peuvent être entreprise dans cette configuration (attaque via une arme à distance, action sociale, aide sur un allié, etc), cependant le score est associé à une pénalité de 5, de plus un échec en résolution n'entraîne pas de pénalité. Une résolution à distance peut atteindre un protagoniste en ligne arrière mais la pénalité passe à 10. - Les personnages en ligne arrière pouvant entreprendre des actions est malgré tout limité au nombre de personnages en ligne avant divisé par deux, arrondis supérieur. Exemple : S’il y a 4 personnages en ligne frontale alors seuls 2 personnages peuvent agir depuis la ligne arrière. - Lorsqu’un personnage de la ligne frontale est vaincu il ne cède pas directement la place à un personnage de la ligne arrière, la place sera comblée à la fin du prochain tour adverse. - Une action d’aide peut forcer un adversaire en ligne arrière à intervertir sa place avec un adversaire en ligne frontal si la valeur d’aide est supérieure au contournement de la cible en question. - Les aides et les gênes ne se cumulent pas, seules les valeurs les plus élevées s’appliquent.
+Quelques subtilités :
+
+- Les personnages en ligne arrière peuvent entreprendre des actions du moment qu’elles correspondent à des actions qui peuvent être entreprise dans cette configuration (attaque via une arme à distance, action sociale, aide sur un allié, etc), cependant le score est associé à une pénalité de 5, de plus un échec en résolution n'entraîne pas de pénalité. Une résolution à distance peut atteindre un protagoniste en ligne arrière mais la pénalité passe à 10.
+- Les personnages en ligne arrière pouvant entreprendre des actions est malgré tout limité au nombre de personnages en ligne avant divisé par deux, arrondis supérieur. Exemple : S’il y a 4 personnages en ligne frontale alors seuls 2 personnages peuvent agir depuis la ligne arrière.
+- Lorsqu’un personnage de la ligne frontale est vaincu il ne cède pas directement la place à un personnage de la ligne arrière, la place sera comblée à la fin du prochain tour adverse.
+- Une action d’aide peut forcer un adversaire en ligne arrière à intervertir sa place avec un adversaire en ligne frontal si la valeur d’aide est supérieure au contournement de la cible en question.
+- Les aides et les gênes ne se cumulent pas, seules les valeurs les plus élevées s’appliquent.
 
 Si un personnage joueur reçoit au moins 3 marqueurs "pénalités" ce dernier est mis hors-jeu et ne peut plus agir ou être ciblé. Si un protagoniste classique (quidam, sbire) reçoit au moins 2 marqueurs "pénalités", ce dernier est mis hors-jeu. Si un protagoniste important (adversaire) reçoit au moins 3 marqueurs, même chose. Si un protagoniste très important (némésis ou pire) reçoit au moins 4 marqueurs, même chose. Notons qu'être mis hors-jeu signifie qu'on ne peut plus participer au conflit et non que l'on a été mis à terre ou autre. C'est l'influence sur le conflit qui cesse mais le personnage peut très bien s'en tirer avec de faibles conséquences, comme nous allons le voir ensuite.
 
@@ -392,7 +421,7 @@ Une demande peut être conditionnée ou altérée par un test de sincérité ou 
 La plupart du temps une demande relève d’un test d’argumentation de type persuasion. Cependant, il est possible que cela relève plutôt de la coercition s’il s’agit là d’une demande forcée qui n’est pas sans conséquences, ou de la suggestion si à l’inverse il est possible d’amener l’interlocuteur à lui-même souhaiter la réaliser de la chose (c’est-à-dire à y voir un avantage personnel réel). Normalement la nature du test dépend de comment les propos sont présentés et non un choix des joueurs, mais le MJ peut tout à fait accepter de laisser les joueurs choisir et simplement raconter quels moyens ils emploient pour convaincre à partir de ce choix.
 
 !!! info "Rappel"
-    Un seul test d’interaction ou d’attitude a lieu pour un groupe de personnage donné. C’est le personnage qui perçoit ou pas des individus comme faisant partie d’un même groupe, il est donc possible de le fourvoyer etc… Les échecs sur de tels tests sont donc considérés comme des échecs pour l’ensemble des personnages considérés comme faisant partie du même groupe. Un personnage cherchera généralement à discuter avec la personne ayant la plus haute apparence d’un groupe, qui fera par ailleurs le test idoine. Il est évidemment possible de s’entraider pour convaincre un personnage, etc…![A picture containing silhouette Description automatically generated](images/image3.png)
+    Un seul test d’interaction ou d’attitude a lieu pour un groupe de personnage donné. C’est le personnage qui perçoit ou pas des individus comme faisant partie d’un même groupe, il est donc possible de le fourvoyer etc… Les échecs sur de tels tests sont donc considérés comme des échecs pour l’ensemble des personnages considérés comme faisant partie du même groupe. Un personnage cherchera généralement à discuter avec la personne ayant la plus haute apparence d’un groupe, qui fera par ailleurs le test idoine. Il est évidemment possible de s’entraider pour convaincre un personnage, etc…
 
 ### L’Attitude
 
@@ -584,7 +613,7 @@ Un test qui en « aide » un autre revient à offrir un bonus équivalant au deg
 Si plusieurs personnages cherchent à réaliser une tâche similaire ensemble alors, et si chaque personnage doit obtenir sa propre réussite, alors les personnages réalisent chacun un test adapté à la situation. Le test le plus élevé, en plus de fixer sa propre réussite, aide les autres tests (le personnage en question faisant office d’expert dans le cas donné et prodigue des conseils aux autres pour qu’ils s’en sortent mieux). Cette règle permet de faire en sorte qu’un groupe d’individus souhaitant être discret ou gravir une surface puisse le faire sans que la personne incompétente ne ruine totalement leurs chances.
 
 !!! note "Note"
-    Un test d’aide peut être le fruit d’un test de connaissance adapté plutôt que de la compétence à l’origine de l’action. ![A yellow diamond with a black strip Description automatically generated](images/image1.png)
+    Un test d’aide peut être le fruit d’un test de connaissance adapté plutôt que de la compétence à l’origine de l’action.
 
     Les résultats ainsi obtenus sont traités de la même façon mais ne peuvent donc pas être utilisés autrement que pour aider.
 
@@ -598,20 +627,30 @@ Un réentraînement d’oublier un rang de trait et d’en récupérer les PP af
 
 Dans certains cas, entraîner un trait ne peut se faire sans circonstances logiques. Par exemple, la noblesse est le fruit d’un trait et on ne peut pas réentraîner sa noblesse, cependant le maître de jeu et les joueurs peuvent s’entendre sur des circonstances qui pourraient amener plus logiquement une telle situation (destitution etc). Dans ce cas la logique prévaut et le MJ a le dernier mot. Et dans tous les cas le MJ doit être prévenir de tels changements afin qu’il puisse, si besoin, refuser ces derniers (pour des raisons motivées ou non, selon le cas).
 
-| Règle alternative : Réentrainement totale |
-| --- |
-| Cette règle permet aux joueurs de réentraîner plus de choses que seulement leurs traits.![](images/image2.png)Ils peuvent alors, lors d’un réentraînement : - Réduire une compétence ou groupe d’un point afin de récupérer les PX associés. - Réduire un attribut de 1 afin d’en récupérer les PA associés. - […]Notons que ces possibilités devraient être bien encadrées. Il faut bien noter que cela peut, dans certains cas, amener à des cas un peu litigieux. Notons aussi que réentraîner des groupes ou compétences peut amener à transformer de l’XP d’inspiration en XP réel, ce qui met à mal le système d’origine et potentiellement l’équilibrage du jeu, c’est pourquoi de telles possibilités devraient à plus forte raison rester des exceptions et non être la règle. Exemple de cas litigieux : Un artisan pourrait créer un matériel légendaire pour ensuite oublier sa pratique au profit d’autres compétences. Ceci s’apparenterait plus à du « min maxing » qu’à une ré-appropriation du concept du personnage ou autre, et ce devrait être évité dans le cadre d’une campagne/partie où le MJ tient à l’équilibre du jeu et de ses personnages. |
+!!! tip "Règle alternative : Réentrainement totale"
+    Cette règle permet aux joueurs de réentraîner plus de choses que seulement leurs traits.
+
+    Ils peuvent alors, lors d’un réentraînement :
+
+    - Réduire une compétence ou groupe d’un point afin de récupérer les PX associés.
+    - Réduire un attribut de 1 afin d’en récupérer les PA associés.
+    - […]
+
+    Notons que ces possibilités devraient être bien encadrées. Il faut bien noter que cela peut, dans certains cas, amener à des cas un peu litigieux. Notons aussi que réentraîner des groupes ou compétences peut amener à transformer de l’XP d’inspiration en XP réel, ce qui met à mal le système d’origine et potentiellement l’équilibrage du jeu, c’est pourquoi de telles possibilités devraient à plus forte raison rester des exceptions et non être la règle.
+
+    Exemple de cas litigieux : Un artisan pourrait créer un matériel légendaire pour ensuite oublier sa pratique au profit d’autres compétences. Ceci s’apparenterait plus à du « min maxing » qu’à une ré-appropriation du concept du personnage ou autre, et ce devrait être évité dans le cadre d’une campagne/partie où le MJ tient à l’équilibre du jeu et de ses personnages.
 
 ### Réaliser une tâche avec outils
 
 Si un personnage réalise une tâche avec un outil alors il est généralement confronté à une situation où la règle de la progression s’applique. La régularité à laquelle le test de progression a lieu dépend entièrement de la situation, on parle d’un temps de travail, allant de l’instantané (pour un crochetage par exemple) à la journée (déchiffrer un texte ancien), c’est au MJ de déterminer cette durée. Chaque temps de travail réalisé sur une tâche permet de réaliser un test adapté à la situation VS la difficulté associée à la tâche (souvent dépends d’une catégorie). - Si le test est une réussite alors la progression augmente d’autant que le résultat du jet issu de ce test (les règles de réussite critique s’appliquent normalement : sur une marge de 10+, les dés sont au maximum). - Si le test est un échec alors la progression est réduite de 20. La tâche est accomplie dès que la progression atteint 2x la difficulté OU, si applicable, l’intégrité (voir les structures) — tout excédent est ignoré. La tâche est un échec lorsqu’un certain nombre d’échecs sont atteints durant la tâche, successifs ou non, ce nombre est de 2.
 
-| Règle alternative : Tâche interactives |
-| --- |
-| Cette règle permet de rendre les tâches bien plus interactives à jouer, mais cela les rend un brin plus difficiles donc c’est à vous de voir. Cette règle peut être appliquée à certaines tâches, tel que le crochetage (pour lequel elle colle très bien) et pas aux autres.![](images/image2.png)Ici il s’agit de modéliser les objectifs avec des verrous à débloquer. Il y a 1 verrou (qu’il s’agisse d’un loquet pour le crochetage ou d’un document à remplir pour une tâche administrative, peu importe à quoi correspond ce verrou) |
+!!! tip "Règle alternative : Tâche interactives"
+    Cette règle permet de rendre les tâches bien plus interactives à jouer, mais cela les rend un brin plus difficiles donc c’est à vous de voir. Cette règle peut être appliquée à certaines tâches, tel que le crochetage (pour lequel elle colle très bien) et pas aux autres.
+
+    Ici il s’agit de modéliser les objectifs avec des verrous à débloquer. Il y a 1 verrou (qu’il s’agisse d’un loquet pour le crochetage ou d’un document à remplir pour une tâche administrative, peu importe à quoi correspond ce verrou)
 
 !!! note "Note"
-    L’artisanat utilise les règles de progression, c’est d’ailleurs une activité qui fait usage d’outils, mais avec quelques différences notables qui peuvent être trouvées dans le paragraphe idoine.![A yellow diamond with a black strip Description automatically generated](images/image1.png)
+    L’artisanat utilise les règles de progression, c’est d’ailleurs une activité qui fait usage d’outils, mais avec quelques différences notables qui peuvent être trouvées dans le paragraphe idoine.
 
 ## FAQ
 
@@ -633,7 +672,12 @@ La difficulté pour soulever une personne peut être fixée par sa stature, tout
 
 ### Le temps des activités
 
-Certaines règles sont articulées autour de la notion au premier abord assez « vague » d’activités. Voici un cadre avec lequel vous pouvez envisager le temps de jeu et les activités des personnages. Le temps dans une journée peut être ainsi découpée : - 6h (matin) une activité longue. - 6h (après-midi) une activité longue. - 3h (soir) une activité courte. - 9h (nuit) une activité de repos.
+Certaines règles sont articulées autour de la notion au premier abord assez « vague » d’activités. Voici un cadre avec lequel vous pouvez envisager le temps de jeu et les activités des personnages. Le temps dans une journée peut être ainsi découpée :
+
+- 6h (matin) une activité longue.
+- 6h (après-midi) une activité longue.
+- 3h (soir) une activité courte.
+- 9h (nuit) une activité de repos.
 
 Une activité longue permet de s'entraîner, effectuer des recherches, mener une tâche notablement longue (ou plusieurs petites, à la discrétion du MJ), etc… Une activité courte permet de réaliser des tâches d’appoints dont le registre devrait être devrait être limité. Le personnage peut pratiquer des loisirs, se payer du bon temps, etc… mais pas réaliser des tâches plus prenantes, SAUF s’il sacrifie une partie de son activité de repos. Une activité de repos permet d’effectuer le temps de repos nécessaire à un repos complet. Si cette activité est réduite alors on parle de repos court.
 
@@ -666,7 +710,7 @@ Une condition très rare augmente de 3x le modificateur. Exemple : Faire face à
 Bien entendu il ne s’agit pas que de genre d’effets ou de conditions mais tout cela doit servir de référence.
 
 !!! note "Note"
-    Pour informations, voici comme sur quoi sont basées certaines fonctionnalités (essentiellement issues d’extensions) de Terre Natale : ![](images/image1.png)
+    Pour informations, voici comme sur quoi sont basées certaines fonctionnalités (essentiellement issues d’extensions) de Terre Natale :
 
     - Amélioration (règles de base) : Chaque niveau d’amélioration apporte un bonus mineur.
 
