@@ -2,10 +2,18 @@
 
 ?
 
-### Pharmacie
+### Chimie
+
+?
+
+### Pyrotechnie
 
 ?
 
 ### Toxicologie
+
+?
+
+### Pharmacie
 
 ?

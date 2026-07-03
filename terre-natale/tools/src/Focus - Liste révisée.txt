@@ -1,0 +1,309 @@
+==============================================================
+FOCUS — LISTE RÉVISÉE
+==============================================================
+Notation des valeurs : X/Y = rang 1 / rang 2
+[NOUVEAU] = ajout par rapport à la version précédente
+==============================================================
+
+
+==============================================================
+I. FOCUS COMBAT
+==============================================================
+
+--------------------------------------------------------------
+Focus Offensifs
+Les focus offensifs s'orientent sur la capacité à rendre ses
+attaques particulièrement efficaces.
+--------------------------------------------------------------
+
+## Dégâts
+
+Dégâts Accrus : Les dégâts causés par les attaques sont augmentés de 1/2.
+Gravité Accrue : La gravité des attaques est augmentée de 2/4.
+Rupture Accrue : La rupture des attaques est augmentée de 2/4.
+Férocité Accrue : La férocité des attaques est augmentée de 2/4.
+Sournois Accru : Les dégâts sournois (appliqués dans le dos) des attaques sont augmentés de 2/3.
+Malice Accrue [NOUVEAU] : La malice des attaques est augmentée de 1/2.
+  (Augmente les charges des conditions négatives imposées aux adversaires.)
+Prestige Accru [NOUVEAU] : Le prestige des actions est augmenté de 1/2.
+  (Augmente les charges des conditions positives appliquées aux alliés.)
+
+## Pénétration et effets spéciaux
+
+Perforation Accrue : La perforation des attaques est augmentée de 2/3.
+Pénétration Accrue : La pénétration des attaques est augmentée de 2/3.
+Attrition Accrue : L'attrition des attaques est augmentée de 2/3.
+Précision Accrue : La précision des attaques est augmentée de 1/2.
+Dégradation Accrue : La dégradation provoquée par les actions est augmentée de 2/3.
+
+## Contrôle de la difficulté
+
+Maîtrise Accrue : La maîtrise des attaques est augmentée de 1/2.
+Expertise Accrue : L'expertise des attaques est augmentée de 1/2.
+Feinte Accrue : Les attaques reçoivent un bonus de 1/2 qui ne compte pas pour la difficulté des défenses adverses.
+Ténacité Accrue [NOUVEAU] : Le seuil de réussite critique adverse est augmenté de 2/3.
+  (Rend plus difficile pour un adversaire d'obtenir une réussite critique sur soi.)
+
+## Vitesse offensive
+
+Vitesse Active Accrue : La vitesse active des attaques est augmentée de 2/3.
+
+## Ajustements offensifs
+
+Attaque Supérieure : Les actions d'attaque normales (hors opportunités, actions restreintes) reçoivent un ajustement de 1/2.
+Opportunité Supérieure : Les actions d'opportunité reçoivent un ajustement de 1/2.
+Contre Supérieure : Les actions de contre (attaque ou tactique) reçoivent un ajustement de 1/2.
+Contre Accrue : Le jet des actions de contre est augmenté de 2/3.
+Opportunité Accrue : Le jet des actions d'opportunité est augmenté de 2/3.
+Qualité en Attaque [NOUVEAU] : Lorsqu'une attaque est une réussite, son score est augmenté de 3/5 pour apprécier le degré de réussite (et ce qui en découle).
+
+
+--------------------------------------------------------------
+Focus Défensifs
+Les focus défensifs s'orientent sur la capacité à encaisser
+ou déjouer les attaques adverses.
+--------------------------------------------------------------
+
+## Réduction des dégâts
+
+Résistance Accrue : La résistance est augmentée de 1/2.
+Absorption Accrue : L'absorption est augmentée de 2/3.
+Déviation Accrue : La déviation des défenses est augmentée de 2/3.
+Protection Accrue : La protection est augmentée de 1/2.
+Protection : Bonus de 1/2 en protection en toutes circonstances.
+Résilience Accrue : La résilience est augmentée de 1/2.
+
+## Résistances spécifiques
+
+Résistance à la Perforation : La perforation adverse est réduite de 2/4.
+Résistance à la Pénétration : La pénétration adverse est réduite de 2/4.
+Résistance à l'Attrition : L'attrition adverse est réduite de 2/4.
+
+## Défenses passives
+
+Défense Accrue : Les défenses passives reçoivent un ajustement de 1/2.
+Défense Faible Accrue : La défense passive la plus faible reçoit un bonus de 1/2.
+Défense « Attribut » Accrue : La défense de l'attribut spécifié est augmentée de 2/3.
+
+## Actions de défense
+
+Défense Supérieure : Les actions de défense armée reçoivent un ajustement de 1/2.
+Souplesse Supérieure : Les actions de défense non armée reçoivent un ajustement de 1/2.
+Expertise en Défense : Les difficultés issues d'une défense s'opposant aux sauvegardes adverses sont augmentées de 2/3.
+Vitesse en Défense : La vitesse est augmentée de 2/4 lorsqu'il s'agit d'actions de défense.
+Vitesse Passive Accrue : La vitesse passive est augmentée de 2/3.
+Qualité en Défense : Lorsqu'une défense est une réussite, son score est augmenté de 3/5 pour apprécier le degré de réussite (et ce qui en découle).
+Protection en Défense : Bonus de 2/4 en protection lorsque le personnage réalise une action de défense.
+
+## Sauvegardes et résistances passives
+
+Robustesse : La sauvegarde physique (robustesse) est augmentée de 1/2.
+Vigilance : La défense face aux interruptions (opportunités, ripostes, etc.) est augmentée de 1/2.
+Méfiance : La durabilité de l'équipement porté est augmentée de 2/3.
+
+
+--------------------------------------------------------------
+Focus Tactiques
+Les focus tactiques s'orientent sur la capacité à maintenir
+sa position et/ou son avantage sur ses adversaires.
+--------------------------------------------------------------
+
+## Jet et qualité des actions tactiques
+
+Impact Accru [NOUVEAU] : L'impact des actions tactiques est augmenté de 1/2.
+  (Augmente le jet des actions tactiques.)
+Expertise en Tactique : Les difficultés issues d'une tactique s'opposant aux sauvegardes adverses sont augmentées de 2/3.
+Vitesse en Tactique : La vitesse est augmentée de 2/4 lorsqu'il s'agit d'actions de tactique.
+Qualité en Tactique : Lorsqu'une tactique est une réussite, son score est augmenté de 3/5 pour apprécier le degré de réussite (et ce qui en découle).
+
+## Initiative et ordre de jeu
+
+Initiative Accrue : L'initiative est augmentée de 1/2.
+Rapidité Accrue [NOUVEAU] : La rapidité est augmentée de 1/2.
+  (Modifie le moment où l'action a lieu sur l'échelle des initiatives, sans modifier l'initiative elle-même.)
+Hâte Accrue [NOUVEAU] : La hâte est augmentée de 1/2.
+  (Affecte simultanément la rapidité et la vitesse globale.)
+
+## Positionnement et zones
+
+Menace : La zone de menace est augmentée de 2/3.
+Contrôle : La zone de contrôle est augmentée de 2/3.
+Allonge/Portée : L'allonge (ou la portée pour les armes à distance) est augmentée de 1/2.
+Mobilité : Les déplacements sans modificateur (×1) sont augmentés de 1/2.
+
+## Plages critiques
+
+Adresse : La maladresse martiale voit son seuil réduit de 2/3.
+Criticité : La criticité martiale voit son seuil augmenté de 2/3.
+Exploit Accru [NOUVEAU] : La plage d'exploit est augmentée de 1/2.
+  (Complémentaire d'Adresse et de Criticité.)
+
+
+==============================================================
+II. FOCUS SOCIAL (JOUTE)
+==============================================================
+
+--------------------------------------------------------------
+Focus Offensifs
+Les focus offensifs s'orientent sur la capacité à rendre ses
+tirades particulièrement efficaces.
+--------------------------------------------------------------
+
+## Dégâts de base
+
+Dégâts Accrus : Les dégâts causés par les tirades sont augmentés de 2/3.
+Perforation Accrue : La perforation des tirades est augmentée de 2/3.
+Précision : La précision des tirades est augmentée de 2/3.
+Violence : La durabilité de l'apparat adverse est réduite de 2/3.
+
+## Dégâts situationnels
+
+Dégâts Perforants : Les dégâts des tirades sont augmentés de 3/4 si elles affectent le mental.
+Dégâts d'Attrition : Les dégâts des tirades sont augmentés de 4/6 si elles affectent l'endurance.
+Dégâts Aggravés : Les dégâts des tirades sont augmentés de 4/6 pour déterminer la gravité d'un traumatisme.
+Dégâts de Rupture : Les dégâts des tirades sont augmentés de 4/6 lorsqu'il s'agit de dégâts dans le temps.
+Dégâts Critiques : Les dégâts des tirades sont augmentés de 4/6 lorsqu'ils sont produits par une tirade critique.
+Dégâts Riposte : Les dégâts des tirades de ripostes, contres, etc. sont augmentés de 4/6.
+Dégâts Opportunistes : Les dégâts des tirades d'opportunité sont augmentés de 4/6.
+
+## Conditions
+
+Malice Accrue [NOUVEAU] : La malice des tirades est augmentée de 1/2.
+  (Augmente les charges des conditions négatives imposées aux adversaires.)
+Prestige Accru [NOUVEAU] : Le prestige des actions est augmenté de 1/2.
+  (Augmente les charges des conditions positives appliquées aux alliés.)
+
+## Contrôle de la difficulté
+
+Expertise en Tirade : Les difficultés issues d'une tirade s'opposant aux sauvegardes adverses sont augmentées de 2/3.
+Maîtrise en Tirade : Les difficultés issues d'une tirade s'opposant aux défenses adverses sont augmentées de 2/3.
+Feinte en Tirade : Le test de tirade reçoit un bonus de 1/2 uniquement pour dépasser la défense passive de la cible.
+Ténacité Accrue [NOUVEAU] : Le seuil de réussite critique adverse est augmenté de 2/3.
+
+## Bonus selon attribut adverse
+
+Tirade contre Charisme : Le test de tirade reçoit un bonus de 1/2 si la cible fait usage de son charisme.
+Tirade contre Intellect : Le test de tirade reçoit un bonus de 1/2 si la cible fait usage de son intelligence.
+Tirade contre Ruse : Le test de tirade reçoit un bonus de 1/2 si la cible fait usage de sa ruse.
+Tirade contre Sagesse : Le test de tirade reçoit un bonus de 1/2 si la cible fait usage de sa sagesse.
+Tirade contre Volonté : Le test de tirade reçoit un bonus de 1/2 si la cible fait usage de sa volonté.
+
+## Vitesse et qualité
+
+Vitesse en Tirade : La vitesse est augmentée de 2/4 lorsqu'il s'agit d'actions de tirade.
+Qualité en Tirade : Lorsqu'une tirade est une réussite, son score est augmenté de 3/5 pour apprécier le degré de réussite (et ce qui en découle).
+
+
+--------------------------------------------------------------
+Focus Défensifs
+Les focus défensifs s'orientent sur la capacité à détourner
+les propos adverses afin d'en être peu ou pas affectés.
+--------------------------------------------------------------
+
+## Réduction des dégâts
+
+Résistance Accrue : La résistance mentale est augmentée de 1/2.
+Absorption Accrue : L'absorption mentale est augmentée de 2/3.
+Résistance à la Perforation : Les dégâts sociaux affectant le mental sont réduits de 2/3.
+Résistance à l'Attrition : Les dégâts sociaux affectant l'endurance sont réduits de 3/4.
+Résistance aux Traumatismes : La gravité des traumatismes subis est réduite de 3/4.
+Déviation Accrue : La déviation est augmentée de 3/4 lorsque le personnage fait usage d'une défense faisant appel à son argument.
+Protection : Bonus de 1/2 en protection (mentale) en toute circonstance.
+
+## Défenses actives
+
+Expertise en Défense : Les difficultés issues d'une défense s'opposant aux sauvegardes adverses sont augmentées de 2/3.
+Vitesse en Défense : La vitesse est augmentée de 2/4 lorsqu'il s'agit d'actions de défense.
+Qualité en Défense : Lorsqu'une défense est une réussite, son score est augmenté de 3/5 pour apprécier le degré de réussite (et ce qui en découle).
+Protection en Défense : Bonus de 2/4 en protection (mentale) lorsque le personnage réalise une action de défense.
+
+## Bonus selon attribut adverse
+
+Défense contre Charisme : Le test de défense reçoit un bonus de 2/3 si l'adversaire fait usage du charisme.
+Défense contre Intelligence : Le test de défense reçoit un bonus de 2/3 si l'adversaire fait usage de l'intelligence.
+Défense contre Ruse : Le test de défense reçoit un bonus de 2/3 si l'adversaire fait usage de la ruse.
+Défense contre Sagesse : Le test de défense reçoit un bonus de 2/3 si l'adversaire fait usage de la sagesse.
+
+## Défenses par attribut propre
+
+Défense via le Charisme : La défense via le charisme est augmentée de 1/2.
+Défense via l'Intelligence : La défense via l'intelligence est augmentée de 1/2.
+Défense via la Ruse : La défense via la ruse est augmentée de 1/2.
+Défense via la Sagesse : La défense via la sagesse est augmentée de 1/2.
+Défense via la Constitution : La défense via la constitution est augmentée de 1/2.
+
+## Sauvegardes et résistances passives
+
+Détermination : La sauvegarde mentale (détermination) est augmentée de 1/2.
+Méfiance : La durabilité de l'apparat porté est augmentée de 2/3.
+
+
+--------------------------------------------------------------
+Focus Tactiques
+Les focus tactiques s'orientent sur la capacité à maintenir
+sa position et/ou son avantage sur ses adversaires.
+--------------------------------------------------------------
+
+## Jet et qualité des actions tactiques
+
+Impact Accru [NOUVEAU] : L'impact des actions tactiques est augmenté de 1/2.
+Expertise en Tactique : Les difficultés issues d'une tactique s'opposant aux sauvegardes adverses sont augmentées de 2/3.
+Vitesse en Tactique : La vitesse est augmentée de 2/4 lorsqu'il s'agit d'actions de tactique.
+Qualité en Tactique : Lorsqu'une tactique est une réussite, son score est augmenté de 3/5 pour apprécier le degré de réussite (et ce qui en découle).
+
+## Initiative et ordre de jeu
+
+Initiative Accrue : L'initiative est augmentée de 1/2.
+Rapidité Accrue [NOUVEAU] : La rapidité est augmentée de 1/2.
+Hâte Accrue [NOUVEAU] : La hâte est augmentée de 1/2.
+  (Affecte simultanément la rapidité et la vitesse globale.)
+
+## Plages critiques
+
+Adresse : La maladresse sociale voit son seuil réduit de 2/3.
+Criticité : La criticité sociale voit son seuil augmenté de 2/3.
+Exploit Accru [NOUVEAU] : La plage d'exploit est augmentée de 1/2.
+Menace : La zone de présence est augmentée de 2/3.
+
+
+==============================================================
+RÉCAP DES AJOUTS [NOUVEAU] — 9 entrées
+==============================================================
+
+Combat :
+  - Malice Accrue (offensif — conditions négatives)
+  - Prestige Accru (offensif — conditions positives)
+  - Ténacité Accrue (offensif — critique adverse)
+  - Qualité en Attaque (offensif — degré de réussite des attaques)
+  - Impact Accru (tactique — jet des actions tactiques)
+  - Rapidité Accrue (tactique — ordre de jeu)
+  - Hâte Accrue (tactique — rapidité + vitesse combinés)
+  - Exploit Accru (tactique — plage d'exploit)
+
+Social :
+  - Malice Accrue (offensif)
+  - Prestige Accru (offensif)
+  - Ténacité Accrue (offensif)
+  - Impact Accru (tactique)
+  - Rapidité Accrue (tactique)
+  - Hâte Accrue (tactique)
+  - Exploit Accru (tactique)
+
+==============================================================
+QUESTIONS OUVERTES
+==============================================================
+
+1. Hâte vs Rapidité + Vitesse séparés : Hâte couvre les deux
+   à la fois — faut-il quand même garder Rapidité et Vitesse
+   comme focus distincts, ou Hâte remplace l'un des deux ?
+
+2. Prestige en combat : Un focus Prestige en combat fait sens
+   pour des styles de soutien (buffs alliés via manœuvres),
+   mais c'est rare. À valider.
+
+3. Qualité en Attaque (combat) : Le symétrique de Qualité en
+   Défense / Qualité en Tactique existe dans les deux sens
+   pour le social, mais le combat n'avait pas d'équivalent
+   pour les attaques normales. À valider.
+
+==============================================================

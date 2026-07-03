@@ -77,11 +77,9 @@ nav:
       - "Comprendre la Technologie": steam-ext/details/comprendre-la-technologie.md
       - "La Pratique de l'Industrie": steam-ext/details/la-pratique-de-l-industrie.md
       - "Les Sciences Biologiques": steam-ext/details/les-sciences-biologiques.md
-      - "Les Sciences Organiques": steam-ext/details/les-sciences-organiques.md
       - "Les Sciences Technologiques": steam-ext/details/les-sciences-technologiques.md
       - "Les Sciences Mécaniques": steam-ext/details/les-sciences-mecaniques.md
       - "Les Sciences Mécatroniques": steam-ext/details/les-sciences-mecatroniques.md
-      - "Les Sciences Générales": steam-ext/details/les-sciences-generales.md
       - "La Pratique du Steam": steam-ext/details/la-pratique-du-steam.md
     - "Les Armes à Feu":
       - "Présentation": steam-ext/armes/presentation.md
@@ -98,7 +96,6 @@ nav:
     - "Les Équipements": equipement/les-equipements.md
     - "Les Améliorations": equipement/les-ameliorations.md
     - "Compendium des Matières": matieres/index.md
-  - Compendium des Styles: styles/index.md
   - Compendium des Manœuvres: manoeuvres/index.md
   - Compendium des Actions:
     - "Règles Spéciales": actions/regles-speciales.md
@@ -108,6 +105,7 @@ nav:
   - Compendium des Conditions: conditions/index.md
   - Listes:
     - "Liste des Achats": listes/liste-des-achats.md
+    - "Liste des Styles": styles/index.md
   - Liste des Sorts:
     - Acier: magies/acier.html
     - Air: magies/air.html
