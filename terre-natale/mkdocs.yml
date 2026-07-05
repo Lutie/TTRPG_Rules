@@ -105,7 +105,8 @@ nav:
   - Compendium des Conditions: conditions/index.md
   - Listes:
     - "Liste des Achats": listes/liste-des-achats.md
-    - "Liste des Styles": styles/index.md
+    - "Liste des Corpus de Style": styles/index.md
+    - "Liste des Focus de Style": focus/index.md
   - Liste des Sorts:
     - Acier: magies/acier.html
     - Air: magies/air.html

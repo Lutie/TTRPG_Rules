@@ -38,12 +38,12 @@ Un focalisateur est réalisé à partir de magicite, une forme malléable du lyr
 
 Voici ce qu’offre les différentes famille de focalisateurs, notons que chaque famille modifie le prix de base du focalisateur, de plus ces capacités n’affectent que les sorts dont le niveau est inférieur ou égal à la qualité du focalisateur : Tatouage : Rapidité +5 au lancement de sort (donc plus tôt dans le round) — Ne peut pas être désarmé, unique focalisateur de Catégorie 0. Prix +10. Bâton : Puissance des sorts +1 par niveau du sort — Imposant, idéal pour les mages offensifs. Prix +25. Sceptre : Désavantage aux défenses adverses — Bon compromis entre attaque et contrôle. Prix +20. Baguette : Désavantage aux sauvegardes adverses — Améliore la précision magique. Prix +30. Orbe : Portée des effets doublée (notamment distance ou zone, pas ceux liés au mots à proprement parler) — Utile pour les mages tactiques ou à distance. Prix +15. Totem : Permet de maintenir un sort sans concentration — Favorise les sorts persistants. Prix +10. Kriss : Arme et focalisateur à la fois — Permet de lancer et de se défendre en mêlée. Prix +20. Grimoire : Peut contenir 2 sorts utilisables — Parfait pour les mages prévoyants. Prix +15. Focus : Stocke un sort à déclencher en action spéciale — Flexible, bon pour l’anticipation. Prix +30. Talisman : Réduit le drain minimal de 2 — Optimise l’endurance magique. Prix +30. Canne : +2 aux tests arcanique et difficultés magiques — Favorise les mages érudits. Prix +10. Abraxas : Réduit la fatigue des soins de 2 points — Idéal pour les soigneurs. Prix +15. Charme : Focalisateur et catalyseur, avec sort fixe rechargeable — Autonome, stable et polyvalent. Prix +40. Medium : Focalisateur et harmoniseur — pour les pratiquants de rituels. Prix +40.
 
-| Focalisateur |
-| --- |
-| Prix | Selon catégorie | Charge | Selon catégorie |
-| Mots clés | Focalisateur |
-| Description |
-| Un focalisateur permet de lancer des sorts sans s’exposer à un désavantage, aussi peu de mages s’en séparent.Les focalisateurs existent sous différentes catégories. La charge du focalisateur est donc, comme pour tout le reste, fixée par sa catégorie.Leurs prix sont indexés est basé sur sa catégorie : Focalisateur de catégorie 0 : 40 PO. Focalisateur de catégorie 1 : 55 PO. Focalisateur de catégorie 2 : 75 PO. Focalisateur de catégorie 3 : 100 PO. Focalisateur de catégorie 4 : 130 PO.La charge requise est la même que pour une arme aussi une force notable est requise, même si porté à deux mains, lorsqu’il s’agit de catégorie 3 et supérieure. |
+!!! info "Focalisateur"
+    - **Prix :** Selon catégorie
+    - **Charge :** Selon catégorie
+    - **Mots clés :** Focalisateur
+
+    Un focalisateur permet de lancer des sorts sans s’exposer à un désavantage, aussi peu de mages s’en séparent.Les focalisateurs existent sous différentes catégories. La charge du focalisateur est donc, comme pour tout le reste, fixée par sa catégorie.Leurs prix sont indexés est basé sur sa catégorie : Focalisateur de catégorie 0 : 40 PO. Focalisateur de catégorie 1 : 55 PO. Focalisateur de catégorie 2 : 75 PO. Focalisateur de catégorie 3 : 100 PO. Focalisateur de catégorie 4 : 130 PO.La charge requise est la même que pour une arme aussi une force notable est requise, même si porté à deux mains, lorsqu’il s’agit de catégorie 3 et supérieure.
 
 ### Les Artefacts
 
@@ -55,19 +55,19 @@ Toujours est-il que ces merveilleux objets ne peuvent pas être classé comme le
 
 Les materias sont des minéraux étranges, fruit de la cristallisation du mana lorsque le rideau du réel cède à celui de l’immatériel. On trouve ces dernières généralement sous terre ou dans des zones rocheuses aux profondes connexions avec l’immatériel. Les matérias cristallisent les esprits des défunts prisonniers dans le monde réel par des fuites du fleuve de la vie et il est possible d’activer mentalement une matéria afin d’utiliser de la magie issue de l’esprit en question. Les materias sont aussi utilisées afin d’y cristalliser des propriétés magiques dont la nature dépend de l’esprit qui y est scellé. Les sorts lancés via une matéria ne peuvent être « maintenue » comme on peut le faire pour un effet classique, les tests ne reçoivent pas de bonus des attributs mentaux selon leur types mais uniquement de l’attribut de magie à la place. Bref, c’est de la magie sans en être, le fait est que les sorts et invocations proviennent de l’esprit et non de l’utilisateur qui ne fait que les activer !
 
-| Matérias Verte |
-| --- |
-| Prix | 15 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias vertes vierges peuvent être travaillées par un mage pour servir au lancement d’un sort (action d’activation de matéria). Le drain mental d’un sort de matéria est de 2 + niveau du sort, le niveau étant limité par la qualité. Le port d’une telle matéria génère 1 point de corruption. Une matéria verte ne peux être activée qu’une fois par tour. |
+!!! info "Matérias Verte"
+    - **Prix :** 15
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
 
-| Matérias Rouge |
-| --- |
-| Prix | 50 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias rouges vierges peuvent être travaillées par un mage pour servir au lancement d’une invocation (action d’incantation). Le drain mental d’un sort de matéria est de 4 + 2 x niveau du sort, le niveau étant limité par la qualité. Le port d’une telle matéria génère 2 points de corruption (minimum). Une matéria rouge ne peux être activée qu’une fois par scène. |
+    Les matérias vertes vierges peuvent être travaillées par un mage pour servir au lancement d’un sort (action d’activation de matéria). Le drain mental d’un sort de matéria est de 2 + niveau du sort, le niveau étant limité par la qualité. Le port d’une telle matéria génère 1 point de corruption. Une matéria verte ne peux être activée qu’une fois par tour.
+
+!!! info "Matérias Rouge"
+    - **Prix :** 50
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
+
+    Les matérias rouges vierges peuvent être travaillées par un mage pour servir au lancement d’une invocation (action d’incantation). Le drain mental d’un sort de matéria est de 4 + 2 x niveau du sort, le niveau étant limité par la qualité. Le port d’une telle matéria génère 2 points de corruption (minimum). Une matéria rouge ne peux être activée qu’une fois par scène.
 
 !!! note "Note"
     Activer un sort ou une invocation issue d’une matéria requière un test d’activation de la matéria (Groupe Arcane + Compétence Arme Focale + modificateur de Magie). La difficulté à atteindre dépends de la matéria et de son niveau. Le niveau maximum est de Groupe Arcane + Compétence Arme Focale (comme pour les sorts classiques).
@@ -78,47 +78,47 @@ Les materias sont des minéraux étranges, fruit de la cristallisation du mana l
 
     Contrairement au fait de lancer un sort, activer une matéria ne nécessite pas de geste ni de parole, cela consomme des points mentaux plutôt que du mana, ne profite pas des attributs mentaux pour le jet mais de la magie, ne requière pas de focalisateur et ne profite pas de ces derniers, il n’y a pas de tradition ou autre en jeu non plus, bref ce sont deux activités très distinctes. Rappel : Un personnage peut faire usage de matérias sans avoir d’attribut de magie au préalable, ils peuvent en effet avoir recours à du lyrium (qui fixe temporairement, le temps d’une scène, l’attribut de magie à 10 + 2 * Qualité).
 
-| Matérias Jaune |
-| --- |
-| Prix | 25 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias jaunes vierges peuvent être travaillées par un mage pour servir au lancement d’une manœuvre (action correspondante à la manœuvre). Une matéria jaune est toujours associée à une manœuvre unique. Lorsque l’utilisateur en fait usage il le fait comme s’il connaissait la manœuvre (donc sans désavantage) et avec un bonus aux tests équivalant à la qualité de la matéria (le cas échéant). Activer ces effets requière une action libre. L’effet peux être déclenché une fois par rounds. Le port d’une telle matéria génère 1 point de corruption. L’usage de ces matérias génère 1 point de fatigue par activation. |
+!!! info "Matérias Jaune"
+    - **Prix :** 25
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
 
-| Matérias Orange |
-| --- |
-| Prix | 25 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias oranges vierges peuvent être travaillées par un mage pour servir au lancement d’une action. Une matéria orange est toujours associée à une action. Lorsque l’utilisateur en fait usage il réalise l’action avec un total de groupe + compétence minimum équivalant au niveau de la matéria et un bonus supplémentaire lui aussi équivalant au niveau de la matéria. Si l’utilisateur a un total groue + compétence supérieure il profite donc malgré tout du bonus supplémentaire. Activer ces effets requière une action libre. L’effet peux être déclenché une fois par rounds. Le port d’une telle matéria génère 1 point de corruption. L’usage de ces matérias génère 1 point de fatigue par activation. |
+    Les matérias jaunes vierges peuvent être travaillées par un mage pour servir au lancement d’une manœuvre (action correspondante à la manœuvre). Une matéria jaune est toujours associée à une manœuvre unique. Lorsque l’utilisateur en fait usage il le fait comme s’il connaissait la manœuvre (donc sans désavantage) et avec un bonus aux tests équivalant à la qualité de la matéria (le cas échéant). Activer ces effets requière une action libre. L’effet peux être déclenché une fois par rounds. Le port d’une telle matéria génère 1 point de corruption. L’usage de ces matérias génère 1 point de fatigue par activation.
 
-| Matérias Rose |
-| --- |
-| Prix | 15 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias bleus roses peuvent être travaillées par un mage afin d’y associer une amélioration passive. Une matéria rose est toujours associée à une amélioration qui peux affecte alors l’utilisateur de façon passive. Ces matérias génèrent de la corruption égale à leur niveau (et parfois même plus selon la nature de l’amélioration). |
+!!! info "Matérias Orange"
+    - **Prix :** 25
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
 
-| Matérias Bleu |
-| --- |
-| Prix | 15 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias bleus vierges peuvent être travaillées par un mage pour servir à améliorer les effets d’une autre matérias de façon passive. Une matéria bleu est toujours associée à une amélioration qui peux affecter une autre matéria nécessairement liée à elle par un lien entre les orifices. Le port d’une telle matéria génère 1 point de corruption. |
+    Les matérias oranges vierges peuvent être travaillées par un mage pour servir au lancement d’une action. Une matéria orange est toujours associée à une action. Lorsque l’utilisateur en fait usage il réalise l’action avec un total de groupe + compétence minimum équivalant au niveau de la matéria et un bonus supplémentaire lui aussi équivalant au niveau de la matéria. Si l’utilisateur a un total groue + compétence supérieure il profite donc malgré tout du bonus supplémentaire. Activer ces effets requière une action libre. L’effet peux être déclenché une fois par rounds. Le port d’une telle matéria génère 1 point de corruption. L’usage de ces matérias génère 1 point de fatigue par activation.
 
-| Matérias Blanche |
-| --- |
-| Prix | 150 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias blanches ne peuvent pas être travaillées mais raffinée pour usage. A l’état raffinée ces matérias absorbent une partie de la corruption induite par l’usage des autres matérias (d’autant que le niveau de qualité). Cet effet est passif. Une seule de ces matérias peut prendre effet à la fois. |
+!!! info "Matérias Rose"
+    - **Prix :** 15
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
 
-| Matérias Noire |
-| --- |
-| Prix | 200 | Quantité | 1 |
-| Mots clés | Matériel |
-| Description |
-| Les matérias noires ne peuvent pas être travaillées mais raffinée pour usage. A l’état raffinée ces matérias augmente la corruption générée par les autres matérias (d’autant que le niveau de qualité, maximum le double de la corruption générée initialement), cependant ces dernières profitent d’un bonus de 1 à leur niveau effectif. Cet effet est passif. Une seule de ces matérias peut prendre effet à la fois. |
+    Les matérias bleus roses peuvent être travaillées par un mage afin d’y associer une amélioration passive. Une matéria rose est toujours associée à une amélioration qui peux affecte alors l’utilisateur de façon passive. Ces matérias génèrent de la corruption égale à leur niveau (et parfois même plus selon la nature de l’amélioration).
+
+!!! info "Matérias Bleu"
+    - **Prix :** 15
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
+
+    Les matérias bleus vierges peuvent être travaillées par un mage pour servir à améliorer les effets d’une autre matérias de façon passive. Une matéria bleu est toujours associée à une amélioration qui peux affecter une autre matéria nécessairement liée à elle par un lien entre les orifices. Le port d’une telle matéria génère 1 point de corruption.
+
+!!! info "Matérias Blanche"
+    - **Prix :** 150
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
+
+    Les matérias blanches ne peuvent pas être travaillées mais raffinée pour usage. A l’état raffinée ces matérias absorbent une partie de la corruption induite par l’usage des autres matérias (d’autant que le niveau de qualité). Cet effet est passif. Une seule de ces matérias peut prendre effet à la fois.
+
+!!! info "Matérias Noire"
+    - **Prix :** 200
+    - **Quantité :** 1
+    - **Mots clés :** Matériel
+
+    Les matérias noires ne peuvent pas être travaillées mais raffinée pour usage. A l’état raffinée ces matérias augmente la corruption générée par les autres matérias (d’autant que le niveau de qualité, maximum le double de la corruption générée initialement), cependant ces dernières profitent d’un bonus de 1 à leur niveau effectif. Cet effet est passif. Une seule de ces matérias peut prendre effet à la fois.
 
 Afin de prendre effet (qu’il soit actif ou passif) les matérias doivent être tenues en main ou logée dans un orifice d’arme ou d’armure équipées.
 

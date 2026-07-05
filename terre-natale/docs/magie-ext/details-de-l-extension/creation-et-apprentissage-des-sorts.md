@@ -68,5 +68,4 @@ Les mots clés servent à renseigner une information qui servira à orienter les
 
 Clé multiple Effet : Les 9 mots clés primordiaux sont : Lumière et Ombre, Vie et Mort, Loi et Chaos, Corps et Esprit.
 
-| ![](../images/image3.gif) |
-| --- |
+![](../images/image3.gif)

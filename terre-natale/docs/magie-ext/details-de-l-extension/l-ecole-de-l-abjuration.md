@@ -6,5 +6,4 @@ Ses pratiquants maîtrisent les sorts de protection, d’interruption et de bann
 
 Les Abjurateurs excellent à détourner, annuler ou empêcher, transformant la défense en une forme de contrôle absolu.
 
-| ![](../images/image6.gif) |
-| --- |
+![](../images/image6.gif)

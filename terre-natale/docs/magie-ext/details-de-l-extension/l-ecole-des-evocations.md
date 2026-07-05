@@ -6,5 +6,4 @@ Les Évocateurs plient l’espace, la matière ou les phénomènes à leur dési
 
 Contrairement à l’Invocation qui appelle des forces extérieures, l’Évocation agit ici et maintenant, en modifiant brièvement les règles naturelles du monde pour provoquer un effet immédiat.
 
-| ![](../images/image9.gif) |
-| --- |
+![](../images/image9.gif)

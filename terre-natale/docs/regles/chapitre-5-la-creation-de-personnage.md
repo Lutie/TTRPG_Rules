@@ -371,7 +371,7 @@ Puis il est nécessaire de répartir les points d’attributs (PA), fixés par l
 | Cout | X-5 PA | X-7 PA |
 | Maximum | 15/16/17/18/20* | 12 |
 | Minimum | 7 | 7 |
-| * Selon destinée du personnage X est la valeur à « atteindre » |
+*Selon destinée du personnage X est la valeur à « atteindre ».*
 
 Ce qui nous donne, étape par étape :
 
@@ -388,7 +388,7 @@ Ce qui nous donne, étape par étape :
 | De 15 à 16 | 11 PA |  |  |
 | De 16 à 17 | 12 PA |  |  |
 | De 17 à 18 | 13 PA |  |  |
-| (*) : Réduire les attributs secondaires doit faire l’objet d’une collaboration (raisons, cohérence, etc) avec le MJ. |
+(*) : Réduire les attributs secondaires doit faire l’objet d’une collaboration (raisons, cohérence, etc) avec le MJ.
 
 Ou encore en partant simplement de 7 et en atteignant une valeur désignée :
 

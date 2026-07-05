@@ -6,5 +6,4 @@ Qu’il s’agisse de douleurs insidieuses, de confusion mentale, de malchances 
 
 Les mages de cette discipline sont souvent appelés Imprécateurs.
 
-| ![](../images/image29.gif) |
-| --- |
+![](../images/image29.gif)

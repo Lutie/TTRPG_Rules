@@ -1,4 +1,4 @@
-# Compendium des Styles
+# Liste des Corpus de Style
 
 <div id="styles-app">
 

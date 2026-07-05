@@ -77,7 +77,7 @@ Les outils ne profitent pas toujours de leurs catégories, celle-ci dépend bien
 
 Le MJ peut toujours décider de donner des valeurs contraires à la réussite d’une action et par voie de conséquence une raison d’être à une catégorie différente de 1. Par exemple, une pioche de mineurs pourrait permettre, par coups, de déblayer une certaine quantité de matière définit par un jet. Mais de base ce n’est pas nécessairement le cas, cela dépend donc du MJ.
 
-|  |  | Encombrement (*) (consos) | Pénalités (*) à l’usage | Jets (*) |
+| Catégorie | Nom | Encombrement (*) (consos) | Pénalités (*) à l’usage | Jets (*) |
 | --- | --- | --- | --- | --- |
 | 0 | Anecdotique | 0 | 0 | 2D8 |
 | 1 | Rudimentaire | 1 (½) | 2 | 3D8 |
@@ -231,21 +231,21 @@ La catégorie d’une arme est déterminée par le degré de menace qu’elle re
 - La Catégorie fixe les pénalités d’usages (égaux à 2 x Catégorie, affecte l’attribut, impactent autant tous les tests réalisés avec l’arme que l’initiative).
 - La Catégorie fixe également en grande partie le poids d’une arme (Catégorie x5).
 
-| Catégorie | Nom | Poids Pénalité | Jets Allonge | Prix de base (Mêlée/distance) |
-| --- | --- | --- | --- | --- |
-| **Armes légères** | | | | |
-| 0 | Sans Arme | 0 ![](images/image11.png) -0 ![](images/image6.png) | 2D8 ![](images/image25.png) 0 ![](images/image32.png) | 20 ![](images/image23.png) | N/A |
-| 1 | Arme Commune | 5 ![](images/image11.png) -2 ![](images/image6.png) | 3D8 ![](images/image25.png) 1 ![](images/image32.png) | 40 ![](images/image23.png) | 30 ![](images/image23.png) |
-| **Armes intermédiaires** | | | | |
-| 2 | Arme Escarmouche | 10 ![](images/image11.png) -4 ![](images/image6.png) | 4D8 ![](images/image25.png) 2 ![](images/image32.png) | 60 ![](images/image23.png) | 50 ![](images/image23.png) |
-| 3 | Arme d’Assaut | 15 ![](images/image11.png) -6 ![](images/image6.png) | 5D8 ![](images/image25.png) 3 ![](images/image32.png) | 80 ![](images/image23.png) | 70 ![](images/image23.png) |
-| **Armes lourdes** | | | | |
-| 4 | Arme de Bataille | 20 ![](images/image11.png) -8 ![](images/image6.png) | 6D8 ![](images/image25.png) 4 ![](images/image32.png) | 100 ![](images/image23.png) | 90 ![](images/image23.png) |
-| 5 | Arme de Guerre | 25 ![](images/image11.png) -10 ![](images/image6.png) | 7D8 ![](images/image25.png)5 ![](images/image32.png) | 120 ![](images/image23.png) | 110 ![](images/image23.png) |
-| **Catégories spéciales (**) | | | | |
-| 6 | Arme de Siège léger | 30 ![](images/image11.png) -12 ![](images/image6.png) | 8D8 ![](images/image25.png) 6 ![](images/image32.png) | 160 ![](images/image23.png) | 150 ![](images/image23.png) |
-| 7 | Arme de Siège | 35 ![](images/image11.png) -14 ![](images/image6.png) | 9D8 ![](images/image25.png) 7 ![](images/image32.png) | N/A | 200 ![](images/image23.png) |
-| 8 | Arme de Siège lourd | 40 ![](images/image11.png) -16 ![](images/image6.png) | 10D8 ![](images/image25.png) 8 ![](images/image32.png) | N/A | 250 ![](images/image23.png) |
+| Catégorie | Nom | Poids / pénalité | Jet / allonge | Prix mêlée | Prix distance |
+| --- | --- | --- | --- | --- | --- |
+| **Armes légères** |  |  |  |  |  |
+| 0 | Sans Arme | 0 -0 | 2D8 0 | 20 | N/A |
+| 1 | Arme Commune | 5 -2 | 3D8 1 | 40 | 30 |
+| **Armes intermédiaires** |  |  |  |  |  |
+| 2 | Arme Escarmouche | 10 -4 | 4D8 2 | 60 | 50 |
+| 3 | Arme d’Assaut | 15 -6 | 5D8 3 | 80 | 70 |
+| **Armes lourdes** |  |  |  |  |  |
+| 4 | Arme de Bataille | 20 -8 | 6D8 4 | 100 | 90 |
+| 5 | Arme de Guerre | 25 -10 | 7D8 5 | 120 | 110 |
+| **Catégories spéciales** (**) |  |  |  |  |  |
+| 6 | Arme de Siège léger | 30 -12 | 8D8 6 | 160 | 150 |
+| 7 | Arme de Siège | 35 -14 | 9D8 7 | N/A | 200 |
+| 8 | Arme de Siège lourd | 40 -16 | 10D8 8 | N/A | 250 |
 
 La catégorie 0 représente l'absence d'arme. Elle correspond généralement à l'utilisation d'une arme naturelle. Dans certains cas, l'arme naturelle est considérée comme appartenant à une catégorie supérieure ; le personnage peut alors l'utiliser en tant que telle mais doit respecter les conditions d'utilisation (poids, pénalités). Une arme naturelle trop importante/massive peut gêner un individu qui n’a pas la carrure nécessaire.
 
@@ -326,15 +326,15 @@ Le prix de l’arme est calculé comme n’importe quel objet. Les armes de mêl
 
 La taille de l’arme désigne son envergure. C’est une information notée de -2 à +2 mais qui est le plus souvent indiquée par leurs termes équivalents.
 
-|  | -2 | -1 | 0 | +1 | +2 |
+| Modificateur | -2 | -1 | 0 | +1 | +2 |
 | --- | --- | --- | --- | --- | --- |
 | Terme | Très Court | Court | Normale | Long | Très Long |
-| Charge | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Pénalités | -2 ![](images/image6.png) | -1 ![](images/image6.png) | - | +1 ![](images/image6.png) | +2 ![](images/image6.png) |
+| Charge | -2 | -1 | - | +1 | +2 |
+| Pénalités | -2 | -1 | - | +1 | +2 |
 | Difficulté | +2 | +1 | - | +1 | +2 |
-| Jet Att | -4 ![](images/image24.png) | -2 ![](images/image24.png) | - | +2 ![](images/image24.png) | +4 ![](images/image24.png) |
-| Allonge* | -2 ![](images/image32.png) | -1 ![](images/image32.png) | - | +1 ![](images/image32.png) | +2 ![](images/image32.png) |
-| Prix** | +6 ![](images/image23.png) | +3 ![](images/image23.png) | - | +3 ![](images/image23.png) | +6 ![](images/image23.png) |
+| Jet Att | -4 | -2 | - | +2 | +4 |
+| Allonge* | -2 | -1 | - | +1 | +2 |
+| Prix** | +6 | +3 | - | +3 | +6 |
 
 *\* : Le modificateur d’allonge devient un modificateur de portée pour les armes de jet ou à distance. \*\* : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.*
 
@@ -353,16 +353,18 @@ Par exemple, deux cimeterres peuvent avoir des tailles différentes. Si la premi
 
 Le gabarit de l’arme est une notion qui est définie par plusieurs paramètres dont sa masse, son épaisseur, sa largeur… C’est une information notée de -2 à +2 mais qui est le plus souvent indiquée par leurs termes équivalents.
 
-|  | -2 | -1 | 0 | +1 | +2 |
+| Modificateur | -2 | -1 | 0 | +1 | +2 |
 | --- | --- | --- | --- | --- | --- |
 | Terme | Très légère | Légère | Normale | Lourde | Très Lourd |
-| Charge | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Pénalités | -2 ![](images/image6.png) | -1 ![](images/image6.png) | - | +1 ![](images/image6.png) | +2 ![](images/image6.png) |
+| Charge | -2 | -1 | - | +1 | +2 |
+| Pénalités | -2 | -1 | - | +1 | +2 |
 | Difficulté | +2 | +1 | - | +1 | +2 |
-| Jet Def | -4 ![](images/image22.png) | -2 ![](images/image22.png) | - | +2 ![](images/image22.png) | +4 ![](images/image22.png) |
-| Solidité | -2 ![](images/image20.png) | -1 ![](images/image20.png) | - | +1 ![](images/image20.png) | +2 ![](images/image20.png) |
-| Prix** | +6 ![](images/image23.png) | +3 ![](images/image23.png) | - | +3 ![](images/image23.png) | +6 ![](images/image23.png) |
-| ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie. |
+| Jet Def | -4 | -2 | - | +2 | +4 |
+| Solidité | -2 | -1 | - | +1 | +2 |
+| Prix** | +6 | +3 | - | +3 | +6 |
+
+** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.
+
 
 Une valeur différente de 0 désigne une différence notable avec les armes « normales » du même genre : On ne compare donc jamais ces valeurs entre des armes totalement différentes.
 
@@ -378,16 +380,18 @@ Par exemple, deux cimeterres peuvent avoir des gabarits différents. Si la premi
 
 L’équilibre de l’arme est une notion qui est définie par plusieurs paramètres dont sa répartition du poids et de ses formes. C’est une information notée de -2 à +2 mais qui est le plus souvent indiquée par leurs termes équivalents.
 
-|  | -2 | -1 | 0 | +1 | +2 |
+| Modificateur | -2 | -1 | 0 | +1 | +2 |
 | --- | --- | --- | --- | --- | --- |
 | Terme | Très Déséquilibré | Déséquilibré | Normale | Equilibré | Très Equilibré |
-| Charge | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Pénalités | -2 ![](images/image6.png) | -1 ![](images/image6.png) | - | +1 ![](images/image6.png) | +2 ![](images/image6.png) |
+| Charge | -2 | -1 | - | +1 | +2 |
+| Pénalités | -2 | -1 | - | +1 | +2 |
 | Difficulté | +2 | +1 | - | +1 | +2 |
-| Jet Tac | -2 ![](images/image4.png) | -2 ![](images/image4.png) | - | +2 ![](images/image4.png) | +4 ![](images/image4.png) |
+| Jet Tac | -2 | -2 | - | +2 | +4 |
 | Hâte | -4 | -2 | - | +2 | +4 |
-| Prix** | +6 ![](images/image23.png) | +3 ![](images/image23.png) | - | +3 ![](images/image23.png) | +6 ![](images/image23.png) |
-| ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie. |
+| Prix** | +6 | +3 | - | +3 | +6 |
+
+** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.
+
 
 Une valeur différente de 0 désigne une différence notable avec les armes « normales » du même genre : On ne compare donc jamais ces valeurs entre des armes totalement différentes.
 
@@ -522,15 +526,15 @@ La catégorie d’une armure est déterminée par la gravité des menaces qu’e
 
 | Catégorie | Nom | Charge | RES Pénalités | ABS | PRO | Prix de base |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Armures légères** | | | | | | |
-| 0 | Sans (Vêtement) | 0 ![](images/image11.png) (2) | 0 ![](images/image35.png) -0 ![](images/image6.png) | 0 ![](images/image33.png) (2) | 0 ![](images/image34.png) (1) | 20 ![](images/image23.png) (40) |
-| 1 | Tissus (Étoffes) | 5 ![](images/image11.png) (7) | 1 ![](images/image35.png) -2 ![](images/image6.png) | 3 ![](images/image33.png) (5) | 1 ![](images/image34.png) (2) | 60 ![](images/image23.png) (80) |
-| **Armures intermédiaires** | | | | | | |
-| 2 | Peau léger (Peau lourd) | 10 ![](images/image11.png) (12) | 2 ![](images/image35.png) -4 ![](images/image6.png) | 6 ![](images/image33.png)(8) | 2 ![](images/image34.png) (3) | 100 ![](images/image23.png) (120) |
-| 3 | Cuir léger (Cuir lourd) | 15 ![](images/image11.png) (17) | 3 ![](images/image35.png) -6 ![](images/image6.png) | 9 ![](images/image33.png)(11) | 3 ![](images/image34.png) (4) | 140 ![](images/image23.png) (160) |
-| **Armures lourdes** | | | | | | |
-| 4 | Mailles (Écailles) | 20 ![](images/image11.png) (22) | 4 ![](images/image35.png) -8 ![](images/image6.png) | 12 ![](images/image33.png)(14) | 4 ![](images/image34.png) (5) | 180 ![](images/image23.png) (200) |
-| 5 | Plaques (Plates) | 25 ![](images/image11.png) (27) | 5 ![](images/image35.png) -10![](images/image6.png) | 15 ![](images/image33.png)(17) | 5 ![](images/image34.png) (6) | 220 ![](images/image23.png) (240) |
+| **Armures légères** |  |  |  |  |  |  |
+| 0 | Sans (Vêtement) | 0 (2) | 0 -0 | 0 (2) | 0 (1) | 20 (40) |
+| 1 | Tissus (Étoffes) | 5 (7) | 1 -2 | 3 (5) | 1 (2) | 60 (80) |
+| **Armures intermédiaires** |  |  |  |  |  |  |
+| 2 | Peau léger (Peau lourd) | 10 (12) | 2 -4 | 6 (8) | 2 (3) | 100 (120) |
+| 3 | Cuir léger (Cuir lourd) | 15 (17) | 3 -6 | 9 (11) | 3 (4) | 140 (160) |
+| **Armures lourdes** |  |  |  |  |  |  |
+| 4 | Mailles (Écailles) | 20 (22) | 4 -8 | 12 (14) | 4 (5) | 180 (200) |
+| 5 | Plaques (Plates) | 25 (27) | 5 -10 | 15 (17) | 5 (6) | 220 (240) |
 
 La catégorie 0 représente le fait de n’utiliser aucunes armures pour combattre, ou bien de simple vêtement. Les vêtements font donc parties de cette catégorie et représente le stade « travaillé ». La catégorie 1 représente les tenues de toiles : Ce sont des armures de tissus. Les modèles travaillés sont en étoffes. La catégorie 2 représente les vestes et protection réalisées à base de bêtes : Ce sont des armures de peaux (dit légères). Les modèles travaillés sont en peaux lourdes (donc de la peau travaillée). La catégorie 3 représente les armures réalisées à base de cuir traité de bêtes : Ce sont des armures de cuirs (dit léger). Les modèles travaillés sont en cuirs lourds. La catégorie 4 représente les armures réalisées à base de pièces de métal finement liées et travaillées : Ce sont des armures de mailles. Les modèles travaillés sont en écailles. La catégorie 5 représente les armures réalisées à base de métaux assemblés : Ce sont des armures de plaques. Les modèles travaillés sont en plates.
 
@@ -562,16 +566,18 @@ Le prix de l’armure est calculé comme n’importe quel objet. Le prix de réf
 
 La taille de l’armure désigne sa longueur. C’est une information notée de -2 à +2 mais qui est le plus souvent indiquée par leurs termes équivalents. Une armure courte ou très courte ne couvrira respectivement pas les bras et/ou les épaules. Une armure longue ou très longue couvrira respectivement les cuisses et/ou les jambes, ou bien disposera de pans tel un manteau par exemple.
 
-|  | -2 | -1 | 0 | +1 | +2 |
+| Modificateur | -2 | -1 | 0 | +1 | +2 |
 | --- | --- | --- | --- | --- | --- |
 | Terme | Très Court | Court | Normale | Long | Très Long |
-| Charge | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Pénalités | -2 ![](images/image6.png) | -1 ![](images/image6.png) | - | +1 ![](images/image6.png) | +2 ![](images/image6.png) |
+| Charge | -2 | -1 | - | +1 | +2 |
+| Pénalités | -2 | -1 | - | +1 | +2 |
 | Difficulté | +2 | +1 | - | +1 | +2 |
-| Absorption | -4 ![](images/image33.png) | -2 ![](images/image33.png) | - | +2 ![](images/image33.png) | +4 ![](images/image33.png) |
-| Protection | -2 ![](images/image34.png) | -1 ![](images/image34.png) | - | +1 ![](images/image34.png) | +2 ![](images/image34.png) |
-| Prix ** | +6 ![](images/image23.png) | +3 ![](images/image23.png) | - | +3 ![](images/image23.png) | +6 ![](images/image23.png) |
-| ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie. |
+| Absorption | -4 | -2 | - | +2 | +4 |
+| Protection | -2 | -1 | - | +1 | +2 |
+| Prix ** | +6 | +3 | - | +3 | +6 |
+
+** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.
+
 
 On peut comparer ces valeurs entre n’importe quel type d’armure afin d’apprécier une différence d’envergure.
 
@@ -581,16 +587,18 @@ De manière globale, mais pas automatique, les armures de catégorie faible ont 
 
 Le gabarit de l’armure est une notion qui est définie par plusieurs paramètres dont sa masse, son épaisseur, sa largeur… C’est une information notée de -2 à +2 mais qui est le plus souvent indiquée par leurs termes équivalents.
 
-|  | -2 | -1 | 0 | +1 | +2 |
+| Modificateur | -2 | -1 | 0 | +1 | +2 |
 | --- | --- | --- | --- | --- | --- |
 | Terme | Très légère | Légère | Normale | Lourde | Très Lourd |
-| Charge | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Pénalités | -2 ![](images/image6.png) | -1 ![](images/image6.png) | - | +1 ![](images/image6.png) | +2 ![](images/image6.png) |
+| Charge | -2 | -1 | - | +1 | +2 |
+| Pénalités | -2 | -1 | - | +1 | +2 |
 | Difficulté | +2 | +1 | - | +1 | +2 |
-| Absorption | -4 ![](images/image33.png) | -2 ![](images/image33.png) | - | +2 ![](images/image33.png) | +4 ![](images/image33.png) |
-| Solidité | -2 ![](images/image20.png) | -1 ![](images/image20.png) | - | +1 ![](images/image20.png) | +2 ![](images/image20.png) |
-| Prix ** | +4 ![](images/image23.png) | +2 ![](images/image23.png) | - | +4 ![](images/image23.png) | +8 ![](images/image23.png) |
-| ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie. |
+| Absorption | -4 | -2 | - | +2 | +4 |
+| Solidité | -2 | -1 | - | +1 | +2 |
+| Prix ** | +4 | +2 | - | +4 | +8 |
+
+** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.
+
 
 On peut comparer ces valeurs entre n’importe quel type d’armure afin d’apprécier une différence.
 
@@ -600,16 +608,18 @@ De manière globale, mais pas automatique, les armures de catégorie faible ont 
 
 L’équilibre de l’armure est une notion qui est définie par plusieurs paramètres dont sa répartition de la masse et de sa forme. C’est une information notée de -2 à +2 mais qui est le plus souvent indiquée par leurs termes équivalents.
 
-|  | -2 | -1 | 0 | +1 | +2 |
+| Modificateur | -2 | -1 | 0 | +1 | +2 |
 | --- | --- | --- | --- | --- | --- |
 | Terme | Très Déséquilibré | Déséquilibré | Normale | Equilibré | Très Equilibré |
-| Charge | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Pénalités | -2 ![](images/image6.png) | -1 ![](images/image6.png) | - | +1 ![](images/image6.png) | +2 ![](images/image6.png) |
+| Charge | -2 | -1 | - | +1 | +2 |
+| Pénalités | -2 | -1 | - | +1 | +2 |
 | Difficulté | +2 | +1 | - | +1 | +2 |
-| Absorption | -4 ![](images/image33.png) | -2 ![](images/image33.png) | - | +2 ![](images/image33.png) | +4 ![](images/image33.png) |
-| Hâte | -2 ![](images/image11.png) | -1 ![](images/image11.png) | - | +1 ![](images/image11.png) | +2 ![](images/image11.png) |
-| Prix ** | +8 ![](images/image23.png) | +4 ![](images/image23.png) | - | +2 ![](images/image23.png) | +4 ![](images/image23.png) |
-| ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie. |
+| Absorption | -4 | -2 | - | +2 | +4 |
+| Hâte | -2 | -1 | - | +1 | +2 |
+| Prix ** | +8 | +4 | - | +2 | +4 |
+
+** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.
+
 
 On peut comparer ces valeurs entre n’importe quel type d’armure afin d’apprécier une différence.
 
@@ -665,11 +675,11 @@ Toutes les sous pièces n’ont pas le même coût, le prix n’étant pas index
 
 | Catégorie | Type | Prix de base | Prix (capes) |
 | --- | --- | --- | --- |
-| 0 | Décoratif | 8 ![](images/image23.png) | 12 ![](images/image23.png) |
-| 1 | Etoffes | 16 ![](images/image23.png) | 24 ![](images/image23.png) |
-| 2 | Cuirs | 24 ![](images/image23.png) | 32 ![](images/image23.png) |
-| 3 | Ecailles | 32 ![](images/image23.png) | 48 ![](images/image23.png) |
-| 4 | Plates | 40 ![](images/image23.png) | - |
+| 0 | Décoratif | 8 | 12 |
+| 1 | Etoffes | 16 | 24 |
+| 2 | Cuirs | 24 | 32 |
+| 3 | Ecailles | 32 | 48 |
+| 4 | Plates | 40 | - |
 
 ## Les autres Règles
 
@@ -981,11 +991,11 @@ Réaliser une promotion à un coût fixe qui ne dépend que de la nature de l’
 
 | Rang de Promotion | Difficulté | Majeur | Mineur |
 | --- | --- | --- | --- |
-| 1er | 22 | 100 ![](images/image23.png) | 50 ![](images/image23.png) |
-| 2e | 24 | 150 ![](images/image23.png) | 75 ![](images/image23.png) |
-| 3e | 26 | 200 ![](images/image23.png) | 100 ![](images/image23.png) |
-| 4e | 28 | 250 ![](images/image23.png) | 125 ![](images/image23.png) |
-| 5e | 30 | 300 ![](images/image23.png) | 150 ![](images/image23.png) |
+| 1er | 22 | 100 | 50 |
+| 2e | 24 | 150 | 75 |
+| 3e | 26 | 200 | 100 |
+| 4e | 28 | 250 | 125 |
+| 5e | 30 | 300 | 150 |
 
 Le personnage doit passer un certain temps à travailler sur chaque promotion. Les promotions doivent être réalisées une à une, étape par étape. Le temps nécessaire à chaque étape est équivalent au temps d’amélioration de l’objet en question. Réaliser l’ensemble des promotions est donc un processus à la fois long et coûteux.
 

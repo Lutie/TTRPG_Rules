@@ -6,5 +6,4 @@ Les sorts de cette école améliorent les capacités, protègent, inspirent ou r
 
 Les mages qui pratiquent cette école sont parfois appelés Enchanteurs.
 
-| ![](../images/image28.gif) |
-| --- |
+![](../images/image28.gif)
