@@ -1419,8 +1419,32 @@
     "difficulty": "2",
     "drain": "2",
     "description": "Produit un soin de [Magnitude/2] pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la [clé] utilisée).",
-    "keys": "",
-    "domains": [],
+    "keys": "🔥 Feu, ❄️ Glace, ⚡ Foudre, 🪨 Terre, 💧 Eau, 🌪️ Air, ☀️ Lumière, 🌑 Ombre, ⚖️ Loi, 🌀 Chaos, 💢 Vide, ❤️ Vie, ☢️ Toxique, ✨ Sacre, 🩸 Impie, ☠️ Mort, 🎭 Illusion, 🌿 Flore, 🐗 Faune, 🛡️ Guerre, ⚔️ Acier, ✡️ Arcane, 🪷 Nature",
+    "domains": [
+      "🔥",
+      "❄️",
+      "⚡",
+      "🪨",
+      "💧",
+      "🌪️",
+      "☀️",
+      "🌑",
+      "⚖️",
+      "🌀",
+      "✨",
+      "🩸",
+      "❤️",
+      "☠️",
+      "🐗",
+      "🌿",
+      "✡️",
+      "🪷",
+      "☢️",
+      "🎭",
+      "⚔️",
+      "🛡️",
+      "💢"
+    ],
     "cell_ref": "'Rest'!C4"
   },
   {
@@ -4512,7 +4536,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les x points ainsi captés (les différentes occurences s'accumulent pour déclancher le gain lorsque le total le permet), x étant de 15 - [Magnitude/5] (minimum 5).",
+    "description": "Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les 3 points ainsi captés, avec un gain de PM temporaire maximum par occurence de [Magnitude/3].",
     "keys": "🔮 Magie: Loksonairn",
     "domains": [
       "🔮"

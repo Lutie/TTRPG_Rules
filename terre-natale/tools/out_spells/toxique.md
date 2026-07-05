@@ -3,9 +3,14 @@
 > 17 sorts pour Toxique
 
 ## Epidémie
-***Difficulté :*** 12, ***Drain :*** 14
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École d'Évocation
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
+**Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
+***Modificateurs de Magnitude :*** PWR -2
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
 
 ***Description :*** Déclenche une maladie surnaturelle qui se propage et affaiblit progressivement les victimes.
 
@@ -14,8 +19,12 @@
 ---
 
 ## Flèche Acide de Melf
-***Difficulté :*** 10, ***Drain :*** 10
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Destruction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Projectile</span> : Portée : Portée magique x2, Vecteur : Vue.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Long</span> : La distance de diffusion du sort est doublée.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Destruction ✸</span> (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kinruptex
 
 ***Description :*** Projette un trait d’acide corrosif qui ronge violemment la chair et les protections.
 
@@ -24,7 +33,11 @@
 ---
 
 ## Eclat de Ruine
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Destruction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Ruine ✸</span> (Ruina (Chute) / Keluina (Kel + ruina)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> de dégats mixtes choquants (condition mixte de choc, en état de choc si charge > PV ou PS actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2). ***Clé :*** ☢️ Toxique: Keluinaex
 
 ***Description :*** Inflige un choc toxique brutal qui mêle dégâts et état de choc paralysant.
 
@@ -33,9 +46,14 @@
 ---
 
 ## Vapeurs Pestilencielles
-***Difficulté :*** 12, ***Drain :*** 14
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Destruction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
+**Mot de structure :** <span style="color:#228B22; font-weight:bold;">Echos</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.
+***Modificateurs de Magnitude :*** PWR -1/-2/-3 (6)
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Attrition ✸</span> (Tero (Frotter, user) / Kratrit (Kra + trit)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique temporaires (PE puis PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kratritex
 
 ***Description :*** Remplit une zone de vapeurs toxiques persistantes qui épuisent lentement ceux qui les respirent.
 
@@ -44,7 +62,11 @@
 ---
 
 ## Du Sang au Poison
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Destruction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Perdition ✸</span> (Perdo (Je perds) / Kraperd (Kra + perd)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats physique continues (PE puis PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kraperdex
 
 ***Description :*** Plonge l’esprit de la cible dans un labyrinthe mental toxique qui la rend incapable d’agir.
 
@@ -53,8 +75,11 @@
 ---
 
 ## Doigt de la Socière
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Corruption ✸</span> (Rumpo (Briser) / Korrupt (Kor + rupt)) : Génère un effet infligeant une condition de rupture (DOT), la cible peux réaliser un test de sauvegarde (qui dépend de la condition). ***Clé :*** ☢️ Toxique: Korruptex
 
 ***Description :*** Corrompt une bénédiction de la cible pour la transformer en un poison affaiblissant.
 
@@ -63,7 +88,15 @@
 ---
 
 ## Souffle d'Acide
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Cône</span> : Touche une cible, 3 cases de largeur et 2 cases de profondeur derrières elles (AOE spéciale).
+**Mot de structure :** <span style="color:#228B22; font-weight:bold;">Souffle</span> : Le sort s'applique normalement mais une version diminuée du sort affecte également les cibles adjacentes (en AOE la portée de ce souffle est équivalant à la distance d'AOE).
+***Modificateurs de Magnitude :*** PWR +0/-2
+**Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
+
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Destruction ✸</span> (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kinruptex
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
 
 ***Description :*** Exhale un cône d’acide destructeur qui brûle et altère toutes les cibles touchées.
 
@@ -72,51 +105,79 @@
 ---
 
 ## Vapeurs Toxiques du Morbol
-***Difficulté :*** 12, ***Drain :*** 14
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Malédiction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
+
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Dissipation ⧖</span> (Disipo (Disperser) / Mundisi (Mun + disi)) : Produit un enchantement négatif qui réduit les charges de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> des conditions positives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. ***Clé :*** ☢️ Toxique: Mundisiex
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Exacerbation ⧖</span> (Acerbus (Acre, amer) / Malacerb (Mal + acerb)) : Produit un enchantement négatif qui double les charges, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, les effets des conditions négatives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. ***Clé :*** ☢️ Toxique: Malacerbex
 
 ***Description :*** Crée un nuage toxique qui protège la zone tout en aggravant violemment les afflictions.
 
 ---
 
 ## Terrible Infection
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ⧖</span> (Tinguo (Teindre, imprégner) / Mortingo (Mor + tingo)) : Génère un enchantement négatif, à chaque fois que la cible reçoit des dégats mettez un marqueur avant la résolution des dégats, puis augmentez les dégats reçus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> par marqueurs acquis, maximum 5 marqueurs. ***Clé :*** ☢️ Toxique: Mortingoex
 
 ***Description :*** Infecte la cible avec une maladie grave qui la ronge jour après jour.
 
 ---
 
 ## Rupture Inexorable
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Désagrégation ⧖</span> (Cresco (Croître) / Morcres (Mor + cres)) : Génère un enchantement négatif qui provoque une double décharge des conditions de rupture de la cible, chaque occurence provoquant une décharge de cet enchantement ci. ***Clé :*** ☢️ Toxique: Morcresex
 
 ***Description :*** Accélère et amplifie les effets des ruptures et dégradations subies par la cible.
 
 ---
 
 ## Corrosion du Coeur
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Drainement ⧖</span> (Haurio (Puiser) / Mughaur (Mug + haur)) : Génère un enchantement négatif qui réduit toutes les ressources (actuelles) de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> à chaque début de tour. ***Clé :*** ☢️ Toxique: Mughaurex
 
 ***Description :*** Ronge toutes les ressources de la cible, les faisant diminuer inexorablement à chaque instant.
 
 ---
 
 ## Soins Corrompus
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Assèchement ⧖</span> (Aridus (Sec) / Munaris (Mun + aris)) : Génère un enchantement négatif qui réduit les regains (via soins ou actions, etc) d'une ressource au choix parmi PV, PS, PE, PM, PK ou PC de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ☢️ Toxique: Munarisex
 
 ***Description :*** Corrompt les soins reçus par la cible, les rendant largement inefficaces.
 
 ---
 
 ## Marque d'épuisement
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Épuisement ⧖</span> (Consumo (Consumer) / Malconsu (Mal + consu)) : Génère un enchantement négatif qui réduit la récupération de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ☢️ Toxique: Malconsuex
 
 ***Description :*** Marque la cible d’un épuisement profond qui réduit fortement sa récupération.
 
 ---
 
 ## Vision du Toxique
-***Difficulté :*** 8, ***Drain :*** 8
+***Difficulté :*** 14, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Divination
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
+**Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Détection ⊙</span> (Tego (Couvrir) / Dartego (Dar + tego)) : Génère un enchantement qui permet à la cible de localiser exactement où se situe les éléments correspondant à la clé utilisée sur une distance de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, ce sort ne permet pas l'infravision (et donc ne permet pas de voir dans quel environnement exact se situe l'élément), mais la conjonction des deux sorts est possible, le domaine de la vision permet de voir tous les éléments notables mais sur une distance divisée par 2. ***Clé :*** ☢️ Toxique: Dartegoex
 
 ***Description :*** Permet de percevoir poisons, toxines et substances dangereuses à distance.
 
@@ -125,8 +186,13 @@
 ---
 
 ## Miasmes Infâme
-***Difficulté :*** 12, ***Drain :*** 12
+***Difficulté :*** 20, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Conjuration
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
+**Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
+***Modificateurs de Magnitude :*** PWR -2
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Miasmes ⧗</span> (Miasma (SouiLure, grec) / Colmias (Col + mias)) : Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un individus est dans la zone d'effet il subit des pénalités à tout ses attributs pour les tests actifs équivalants à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>, un test de sauvegarde (vs robustesse) permet de diminuer la magnitude appliquée, cet effet ne fait pas de différence entre alliés et ennemis. ***Clé :*** ☢️ Toxique: Colmiasex
 
 ***Description :*** Inonde une zone de miasmes pestilentiels qui affaiblissent tous ceux qui s’y trouvent.
 
@@ -135,9 +201,15 @@
 ---
 
 ## Nuages Toxiques
-***Difficulté :*** 12+X, ***Drain :*** 12+X
+***Difficulté :*** 20, ***Drain :*** 22, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
+**Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
+***Modificateurs de Magnitude :*** PWR -2
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
+
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Destruction ✸</span> (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kinruptex
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
 
 ***Description :*** Inonde une zone d'un nuage toxique qui brûlent la peau et les poumons de ceux qui s'y trouve plongés.
 
@@ -146,8 +218,13 @@
 ---
 
 ## Nuages Infectieux
-***Difficulté :*** 12, ***Drain :*** 12
+***Difficulté :*** 18, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École d'Évocation
+**Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
+**Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
+***Modificateurs de Magnitude :*** PWR -2
+
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
 
 ***Description :*** Inonde une zone d'un nuage toxique qui aggrave les plaies ouvertes de façon dramatique à mesure que le temps passe.
 

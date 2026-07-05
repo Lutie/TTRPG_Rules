@@ -1,6 +1,6 @@
 # Domaine Toxique ☢️
 
-> 43 mots pour ce domaine
+> 44 mots pour ce domaine
 
 #### 1. Destruction
 ***École :*** École de Destruction
@@ -112,7 +112,17 @@ Génère un effet infligeant une condition de rupture (DOT), la cible peux réal
 
 ---
 
-#### 12. Mitigation
+#### 12. Vivification
+***École :*** École de Restauration
+***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🔥 Feu, ❄️ Glace, ⚡ Foudre, 🪨 Terre, 💧 Eau, 🌪️ Air, ☀️ Lumière, 🌑 Ombre, ⚖️ Loi, 🌀 Chaos, 💢 Vide, ❤️ Vie, ☢️ Toxique, ✨ Sacre, 🩸 Impie, ☠️ Mort, 🎭 Illusion, 🌿 Flore, 🐗 Faune, 🛡️ Guerre, ⚔️ Acier, ✡️ Arcane, 🪷 Nature
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée).
+
+---
+
+#### 13. Mitigation
 ***École :*** École de Bénédiction
 ***Latin :*** Mitis (Doux), ***Arcanique :*** Luxmitis (Lux + mitis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +132,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 13. Consécration
+#### 14. Consécration
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +142,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 14. Irradiation
+#### 15. Irradiation
 ***École :*** École de Bénédiction
 ***Latin :*** Radius (Rayon), ***Arcanique :*** Luxradiu (Lux + radiu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +152,7 @@ Produit un effet d'enchantement positif génèrant à chaque cases dans laquelle
 
 ---
 
-#### 15. Dissipation
+#### 16. Dissipation
 ***École :*** École de Malédiction
 ***Latin :*** Disipo (Disperser), ***Arcanique :*** Mundisi (Mun + disi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +162,7 @@ Produit un enchantement négatif qui réduit les charges de <span style="color:#
 
 ---
 
-#### 16. Exacerbation
+#### 17. Exacerbation
 ***École :*** École de Malédiction
 ***Latin :*** Acerbus (Acre, amer), ***Arcanique :*** Malacerb (Mal + acerb)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -162,7 +172,7 @@ Produit un enchantement négatif qui double les charges, maximum <span style="co
 
 ---
 
-#### 17. Mutilation
+#### 18. Mutilation
 ***École :*** École de Malédiction
 ***Latin :*** Mutilo (Mutiler), ***Arcanique :*** Mormuti (Mor + muti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -172,7 +182,7 @@ Produit un effet d'enchantement négatif provoquant à chaque tour les effets d'
 
 ---
 
-#### 18. Infection
+#### 19. Infection
 ***École :*** École de Malédiction
 ***Latin :*** Tinguo (Teindre, imprégner), ***Arcanique :*** Mortingo (Mor + tingo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -182,7 +192,7 @@ Génère un enchantement négatif, à chaque fois que la cible reçoit des déga
 
 ---
 
-#### 19. Vulnérable
+#### 20. Vulnérable
 ***École :*** École de Malédiction
 ***Latin :*** Laedo (Blesser), ***Arcanique :*** Munlaedo (Mun + laedo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -192,7 +202,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 20. Désagrégation
+#### 21. Désagrégation
 ***École :*** École de Malédiction
 ***Latin :*** Cresco (Croître), ***Arcanique :*** Morcres (Mor + cres)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -202,7 +212,7 @@ Génère un enchantement négatif qui provoque une double décharge des conditio
 
 ---
 
-#### 21. Fragilisation
+#### 22. Fragilisation
 ***École :*** École de Malédiction
 ***Latin :*** Frangere (Briser), ***Arcanique :*** Munfreg (Mun + freg)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -212,7 +222,7 @@ Génère un enchantement négatif qui réduit toutes les sauvegardes de <span st
 
 ---
 
-#### 22. Drainement
+#### 23. Drainement
 ***École :*** École de Malédiction
 ***Latin :*** Haurio (Puiser), ***Arcanique :*** Mughaur (Mug + haur)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -222,7 +232,7 @@ Génère un enchantement négatif qui réduit toutes les ressources (actuelles) 
 
 ---
 
-#### 23. Déprécation
+#### 24. Déprécation
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -232,7 +242,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 24. Extinction
+#### 25. Extinction
 ***École :*** École de Malédiction
 ***Latin :*** ???, ***Arcanique :*** ???
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +252,7 @@ Génère un enchantement négatif qui réduit de <span style="color:#ff1493; fon
 
 ---
 
-#### 25. Epuisement
+#### 26. Epuisement
 ***École :*** École de Malédiction
 ***Latin :*** Labor (Peine, effort), ***Arcanique :*** Muglabor (Mug + labor)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +262,7 @@ Génère un enchantement qui provoque une perte de PE équivalant à <span style
 
 ---
 
-#### 26. Exténuation
+#### 27. Exténuation
 ***École :*** École de Malédiction
 ***Latin :*** Fatisco (S'épuiser), ***Arcanique :*** Munfatis (Mun + fatis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +272,7 @@ Génère un enchantement négatif qui double la fatigue reçues par la cible ave
 
 ---
 
-#### 27. Assèchement
+#### 28. Assèchement
 ***École :*** École de Malédiction
 ***Latin :*** Aridus (Sec), ***Arcanique :*** Munaris (Mun + aris)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +282,7 @@ Génère un enchantement négatif qui réduit les regains (via soins ou actions,
 
 ---
 
-#### 28. Épuisement
+#### 29. Épuisement
 ***École :*** École de Malédiction
 ***Latin :*** Consumo (Consumer), ***Arcanique :*** Malconsu (Mal + consu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -282,7 +292,7 @@ Génère un enchantement négatif qui réduit la récupération de la cible de <
 
 ---
 
-#### 29. Tarissement
+#### 30. Tarissement
 ***École :*** École de Malédiction
 ***Latin :*** Siccus (Sec), ***Arcanique :*** Morsicus (Mor + sicus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -292,7 +302,7 @@ Génère un enchantement négatif qui réduit les gains de ressources temporaire
 
 ---
 
-#### 30. Lassitude
+#### 31. Lassitude
 ***École :*** École de Malédiction
 ***Latin :*** Lassus (Fatigué), ***Arcanique :*** Mallassu (Mal + lassu)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -302,7 +312,7 @@ Génère un enchantement négatif qui double la fatigue pour le calcule des pén
 
 ---
 
-#### 31. Elémentaire
+#### 32. Elémentaire
 ***École :*** École d'Invocation
 ***Latin :*** Elementum (Élément), ***Arcanique :*** Voele (Vo + ele)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -312,7 +322,7 @@ Génère un enchantement qui invoque une créature de type élémentaire au choi
 
 ---
 
-#### 32. Corruption
+#### 33. Corruption
 ***École :*** École d'Abjuration
 ***Latin :*** Vitio (Corrompre), ***Arcanique :*** Borviti (Bor + viti)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -322,7 +332,7 @@ Génère un effet qui retire jusqu'à <span style="color:#ff1493; font-weight:bo
 
 ---
 
-#### 33. Obstruction
+#### 34. Obstruction
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -332,7 +342,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 34. Protestation
+#### 35. Protestation
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -342,7 +352,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 35. Neutralisation
+#### 36. Neutralisation
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -352,7 +362,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 36. Interrogation
+#### 37. Interrogation
 ***École :*** École de Divination
 ***Latin :*** Rogo (Questionner), ***Arcanique :*** Diroga (Di + roga)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -362,7 +372,7 @@ Génère un effet permettant au lanceur de sort de discuter sommairement avec un
 
 ---
 
-#### 37. Détection
+#### 38. Détection
 ***École :*** École de Divination
 ***Latin :*** Tego (Couvrir), ***Arcanique :*** Dartego (Dar + tego)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -372,7 +382,7 @@ Génère un enchantement qui permet à la cible de localiser exactement où se s
 
 ---
 
-#### 38. Signalement
+#### 39. Signalement
 ***École :*** École de Divination
 ***Latin :*** Signum (Signe), ***Arcanique :*** Disigno (Di + signo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -382,7 +392,7 @@ Génère un enchantement qui octroie à la cible les mêmes propriétés que le 
 
 ---
 
-#### 39. Epidémie
+#### 40. Epidémie
 ***École :*** École d'Évocation
 ***Latin :*** Demus (Peuple), ***Arcanique :*** Elodemus (Elo + demus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -392,7 +402,7 @@ Génère un effet qui transmet les conditions de la cible aux créatures à son 
 
 ---
 
-#### 40. Miasmes
+#### 41. Miasmes
 ***École :*** École de Conjuration
 ***Latin :*** Miasma (SouiLure, grec), ***Arcanique :*** Colmias (Col + mias)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -402,7 +412,7 @@ Génère un enchantement de lieu qui prend la forme de miasmes, tant qu'un indiv
 
 ---
 
-#### 41. Intoxication
+#### 42. Intoxication
 ***École :*** École d'Altération
 ***Latin :*** Toxum (Poison, grec), ***Arcanique :*** Altox (Al + tox)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -412,7 +422,7 @@ Génère un effet qui force un changement de condition à la cible pour lui appl
 
 ---
 
-#### 42. Canalisation
+#### 43. Canalisation
 ***École :*** École d'Altération
 ***Latin :*** Canalis (Conduit), ***Arcanique :*** Aencanali (Aen + canali)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu
@@ -422,7 +432,7 @@ Génère un effet qui redirige jusqu'à un maximum total de <span style="color:#
 
 ---
 
-#### 43. Décharge
+#### 44. Décharge
 ***École :*** École d'Altération
 ***Latin :*** Cargo (Charge), ***Arcanique :*** Ascargo (As + cargo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu

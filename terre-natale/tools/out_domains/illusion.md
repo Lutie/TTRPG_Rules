@@ -1,6 +1,6 @@
 # Domaine de l'Illusion 🎭
 
-> 28 mots pour ce domaine
+> 29 mots pour ce domaine
 
 #### 1. Mystification
 ***École :*** École de Destruction
@@ -32,7 +32,17 @@ Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magn
 
 ---
 
-#### 4. Grandiloquence
+#### 4. Vivification
+***École :*** École de Restauration
+***Latin :*** Vita (Vie), ***Arcanique :*** Renvita (Ren + vita)
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🔥 Feu, ❄️ Glace, ⚡ Foudre, 🪨 Terre, 💧 Eau, 🌪️ Air, ☀️ Lumière, 🌑 Ombre, ⚖️ Loi, 🌀 Chaos, 💢 Vide, ❤️ Vie, ☢️ Toxique, ✨ Sacre, 🩸 Impie, ☠️ Mort, 🎭 Illusion, 🌿 Flore, 🐗 Faune, 🛡️ Guerre, ⚔️ Acier, ✡️ Arcane, 🪷 Nature
+Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée).
+
+---
+
+#### 5. Grandiloquence
 ***École :*** École de Restauration
 ***Latin :*** Magnus (Grand), ***Arcanique :*** Relmagnus (Rel + magnus)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -42,7 +52,7 @@ Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</s
 
 ---
 
-#### 5. Kaléidoscope
+#### 6. Kaléidoscope
 ***École :*** École de Bénédiction
 ***Latin :*** Forma (Forme), ***Arcanique :*** Luxform (Lux + form)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -52,7 +62,7 @@ Génère un enchantement positif qui génère <span style="color:#ff1493; font-w
 
 ---
 
-#### 6. Réfraction
+#### 7. Réfraction
 ***École :*** École de Bénédiction
 ***Latin :*** Frango (Briser), ***Arcanique :*** Lemfran (Lem + fran)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -62,7 +72,7 @@ Génère un enchantement positif qui génère <span style="color:#ff1493; font-w
 
 ---
 
-#### 7. Transcandence
+#### 8. Transcandence
 ***École :*** École de Bénédiction
 ***Latin :*** Scando (Grader, monter), ***Arcanique :*** Luscand (Lu + scand)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -72,7 +82,7 @@ Génère un enchantement positif qui inverse l'utilisation des attributs du corp
 
 ---
 
-#### 8. Mitigation
+#### 9. Mitigation
 ***École :*** École de Bénédiction
 ***Latin :*** Mitis (Doux), ***Arcanique :*** Luxmitis (Lux + mitis)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -82,7 +92,7 @@ Génère un enchantement positif qui réduit de <span style="color:#ff1493; font
 
 ---
 
-#### 9. Consécration
+#### 10. Consécration
 ***École :*** École de Bénédiction
 ***Latin :*** Sacro (Rendre sacré), ***Arcanique :*** Lemsacro (Lem + sacro)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -92,7 +102,7 @@ Génère un enchantement positif qui octroie à la cible une résistance très m
 
 ---
 
-#### 10. Mascarade
+#### 11. Mascarade
 ***École :*** École de Malédiction
 ***Latin :*** Masca (Fantôme), ***Arcanique :*** Munmasca (Mun + masca)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -102,7 +112,7 @@ Génère un enchantement négatif qui inverse l'utilisation des attributs du cor
 
 ---
 
-#### 11. Vulnérable
+#### 12. Vulnérable
 ***École :*** École de Malédiction
 ***Latin :*** Laedo (Blesser), ***Arcanique :*** Munlaedo (Mun + laedo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -112,7 +122,7 @@ Génère un enchantement négatif qui augmente de <span style="color:#ff1493; fo
 
 ---
 
-#### 12. Obsession
+#### 13. Obsession
 ***École :*** École de Malédiction
 ***Latin :*** Sedeo (Être assis), ***Arcanique :*** Morobsid (Mor + obsid)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -122,7 +132,7 @@ Produit un enchantement négatif qui pousse la cible à imaginer des menaces qui
 
 ---
 
-#### 13. Déprécation
+#### 14. Déprécation
 ***École :*** École de Malédiction
 ***Latin :*** Precor (Prier), ***Arcanique :*** Munprec (Mun + prec)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -132,7 +142,7 @@ Génère un enchantement négatif qui octroie à la cible des pénalités très 
 
 ---
 
-#### 14. Désorientation
+#### 15. Désorientation
 ***École :*** École de Malédiction
 ***Latin :*** Oriens (Est, Levant), ***Arcanique :*** Mugorien (Mug + orien)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -142,7 +152,7 @@ Génère un enchantement négatif qui plonge la cible dans un labyrinth mental, 
 
 ---
 
-#### 15. Perdition
+#### 16. Perdition
 ***École :*** École de Malédiction
 ***Latin :*** Perdo (Perdre), ***Arcanique :*** Munperdo (Mun + perdo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -152,7 +162,7 @@ Génère un enchantement négatif qui plonge la cible dans un labyrinth mental, 
 
 ---
 
-#### 16. Illusion
+#### 17. Illusion
 ***École :*** École d'Invocation
 ***Latin :*** Illusio (Moquerie), ***Arcanique :*** Vasilusi (Vas + ilusi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (lieu)
@@ -162,7 +172,7 @@ Génère un enchantement qui invoque une créature de type iLusoire au choix par
 
 ---
 
-#### 17. Obstruction
+#### 18. Obstruction
 ***École :*** École d'Abjuration
 ***Latin :*** Obstruo (Boucher), ***Arcanique :*** Basobstru (Bas + obstru)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -172,7 +182,7 @@ Génère un effet qui octroie à la cible une résistance très marquée contre 
 
 ---
 
-#### 18. Protestation
+#### 19. Protestation
 ***École :*** École d'Abjuration
 ***Latin :*** Testor (Témoigner), ***Arcanique :*** Barenteste (Bren + teste)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -182,7 +192,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui opposé à
 
 ---
 
-#### 19. Neutralisation
+#### 20. Neutralisation
 ***École :*** École d'Abjuration
 ***Latin :*** Neuter (Ni l'un ni l'autre), ***Arcanique :*** Barneute (Bar + neute)
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
@@ -192,7 +202,7 @@ Contrecarre le sort ciblé, dont le domaine est nécessairement celui de la clé
 
 ---
 
-#### 20. Simulation
+#### 21. Simulation
 ***École :*** École d'Évocation
 ***Latin :*** Simulo (Imiter), ***Arcanique :*** Evsimul (Ev + simul)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -202,7 +212,7 @@ Génère un son, une image ou une odeur portant sur <span style="color:#ff1493; 
 
 ---
 
-#### 21. Edification
+#### 22. Edification
 ***École :*** École de Conjuration
 ***Latin :*** Aedifico (Édifier), ***Arcanique :*** Conedi (Con + edi)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -212,7 +222,7 @@ Génère un enchantement sous la forme d'un mur tangible ou intangible (selon la
 
 ---
 
-#### 22. Revêtement
+#### 23. Revêtement
 ***École :*** École de Conjuration
 ***Latin :*** Vestis (Vêtement), ***Arcanique :*** Cenvest (Cen + vest)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -222,7 +232,7 @@ Génère un enchantement sous la forme d'un revêtement au sol tangible ou intan
 
 ---
 
-#### 23. Simulacre
+#### 24. Simulacre
 ***École :*** École de Conjuration
 ***Latin :*** Simulo (Imiter), ***Arcanique :*** Consim (Con + sim)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -232,7 +242,7 @@ Génère un enchantement qui prend les traits de la cible, ce clone agit et parl
 
 ---
 
-#### 24. Armement élémentaire
+#### 25. Armement élémentaire
 ***École :*** École de Conjuration
 ***Latin :*** Arma (Arme), ***Arcanique :*** Cararma (Car + arma)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -242,7 +252,7 @@ Conjure une arme sous la forme d'un enchantement (neutre) dont une partie des pr
 
 ---
 
-#### 25. Armure élémentaire
+#### 26. Armure élémentaire
 ***École :*** École de Conjuration
 ***Latin :*** Loric (Cuirasse), ***Arcanique :*** Conloric (Con + loric)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -252,7 +262,7 @@ Conjure une armure sous la forme d'un enchantement (neutre) dont une partie des 
 
 ---
 
-#### 26. Mimétisation
+#### 27. Mimétisation
 ***École :*** École de Conjuration
 ***Latin :*** Mimicus (Mime), ***Arcanique :*** Cenmimic (Cen + mimic)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -262,7 +272,7 @@ Génère un enchantement donne à sa cible les traits (visuel, sonore, odeurs) d
 
 ---
 
-#### 27. Invisibilité
+#### 28. Invisibilité
 ***École :*** École de Conjuration
 ***Latin :*** Celo (Cacher), ***Arcanique :*** Cencelo (Cen + celo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
@@ -272,7 +282,7 @@ Génère un enchantement sur cible qui tord la lumière et rend le sujet invisib
 
 ---
 
-#### 28. Silence
+#### 29. Silence
 ***École :*** École de Conjuration
 ***Latin :*** Silentium (Silence), ***Arcanique :*** Colsil (Col + sil)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
