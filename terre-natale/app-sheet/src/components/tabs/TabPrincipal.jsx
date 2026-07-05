@@ -402,7 +402,7 @@ function TabPrincipal() {
           <CaracBox name="Allure" value={calc.allure} help="10 + mTAI + mAGI" />
           <CaracBox name="Déplacement" value={`${calc.deplacement} m/c`} help="Allure / 2" />
           <CaracBox name="Saut Hauteur" value={`${calc.sautHauteur} m/c`} help="Allure / 8" />
-          <CaracBox name="Saut Largeur" value={`${calc.sautLargeur} m/c`} help="Allure / 4" />
+            <CaracBox name="Saut Longueur" value={`${calc.sautLongueur} m/c`} help="Allure / 4" />
           <CaracBox
             name="Résilience"
             value={calc.resilience}

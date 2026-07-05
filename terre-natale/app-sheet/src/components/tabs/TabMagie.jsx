@@ -14,6 +14,9 @@ function TabMagie() {
   const [expandedSorts, setExpandedSorts] = useState({});
 
   const sorts = character.sorts || [];
+  const sortedSorts = [...sorts].sort((a, b) =>
+    (a.nom || '').localeCompare(b.nom || '', 'fr', { sensitivity: 'base' })
+  );
 
   const handleAddSort = (sort) => {
     updateCharacter(prev => ({
@@ -134,14 +137,16 @@ function TabMagie() {
           {sorts.length === 0 ? (
             <div className="memoire-empty">Aucun sort</div>
           ) : (
-            sorts.map(sort => {
+            sortedSorts.map(sort => {
               const isExpanded = expandedSorts[sort.id] || false;
+              const domainesLabel = getDomaineLabels(sort.domaines);
+              const sortMeta = [sort.ecole, domainesLabel].filter(Boolean).join(' · ');
               return (
                 <div key={sort.id} className={`memoire-item ${isExpanded ? 'expanded' : ''}`}>
                   <div className="memoire-item-header" style={{ cursor: 'pointer' }} onClick={() => toggleSort(sort.id)}>
                     <span className="memoire-nom">
                       {sort.nom}
-                      {sort.ecole && <span className="sort-meta-inline"> — {sort.ecole}</span>}
+                      {sortMeta && <span className="sort-meta-inline"> — {sortMeta}</span>}
                     </span>
                     <div className="memoire-item-controls">
                       {sort.difficulte && <span className="sort-badge">Diff {sort.difficulte}</span>}
@@ -166,7 +171,7 @@ function TabMagie() {
                   </div>
                   {isExpanded && (
                     <div className="memoire-item-desc">
-                      {sort.domaines && <p className="sort-detail-line">Domaines : {sort.domaines}</p>}
+                      {domainesLabel && <p className="sort-detail-line">Domaines : {domainesLabel}</p>}
                       {sort.description && (
                         <p className="memoire-desc-readonly">{sort.description}</p>
                       )}
@@ -230,6 +235,18 @@ const DOMAINES = [
   { emoji: '☢️', nom: 'Toxique' }, { emoji: '💢', nom: 'Vide' },
   { emoji: '❤️', nom: 'Vie' },     { emoji: '👁️', nom: 'Vision' },
 ];
+
+function getDomaineLabels(domaines) {
+  if (!domaines) return '';
+  const values = Array.isArray(domaines)
+    ? domaines
+    : domaines.split(',').map(value => value.trim()).filter(Boolean);
+
+  return values.map(value => {
+    const domaine = DOMAINES.find(d => d.emoji === value || d.nom === value);
+    return domaine ? `${domaine.emoji} ${domaine.nom}` : value;
+  }).join(', ');
+}
 
 function SortModal({ initialValues, onSave, onClose }) {
   const isEdit = !!initialValues;

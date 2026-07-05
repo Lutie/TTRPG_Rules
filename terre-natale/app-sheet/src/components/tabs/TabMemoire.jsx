@@ -140,6 +140,9 @@ function TabMemoire() {
 
   const memoireEntries = character.memoire || [];
   const sorts = character.sorts || [];
+  const sortedSorts = [...sorts].sort((a, b) =>
+    (a.nom || '').localeCompare(b.nom || '', 'fr', { sensitivity: 'base' })
+  );
   const memoireMax = calc.memoire;
   const memoireDesSorts = calc.memoireDesSorts || 0;
   const sortsComptabilises = Math.max(0, sorts.length - memoireDesSorts);
@@ -256,7 +259,7 @@ function TabMemoire() {
                     {sorts.length === 0 ? (
                       <div className="memoire-empty">Aucun sort — gérez-les depuis l'onglet Magie</div>
                     ) : (
-                      sorts.map(sort => {
+                      sortedSorts.map(sort => {
                         const isExpanded = expandedDescs[`sort_${sort.id}`] || false;
                         const hasDesc = sort.description && sort.description.trim() !== '';
                         return (

@@ -211,7 +211,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const allure = 10 + getMod('TAI') + getMod('AGI') + (bonus.allure || 0);
     const deplacement = Math.floor(allure / 2);
     const sautHauteur = Math.floor(allure / 8);
-    const sautLargeur = Math.floor(allure / 4);
+  const sautLongueur = Math.floor(allure / 4);
 
     // Résilience et récupération
     const resilience = 10 + getMod('VOL') + getMod('EQU') + (bonus.resilience || 0);
@@ -430,7 +430,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       allure,
       deplacement,
       sautHauteur,
-      sautLargeur,
+    sautLongueur,
 
       // Résistances
       resilience,
