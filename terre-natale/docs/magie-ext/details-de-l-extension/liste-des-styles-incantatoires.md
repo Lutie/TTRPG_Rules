@@ -77,7 +77,10 @@ Requis : Usage d’un focalisateur de type « baguette ». Effet : L’utilisate
 
 ### Corpus « Écoles » de Magie
 
-Voici la liste des corpus basés sur l’usage d’écoles de magie et les écoles qui en font usage visent à renforcer ces dernières uniquement. Ces corpus se déclinent donc en autant d’écoles de magie existantes (mais pas en domaine ou pratique). Il existe cependant des variantes sous couverts des concepts suivants : - Inclusif : C’est le corpus normal sans contrepartie. - Exclusif : C’est un corpus qui augmente le bonus associé à l’école du style mais qui implique un malus à toutes les autres. Le style ne peut être changé qu’après un repos.
+Voici la liste des corpus basés sur l’usage d’écoles de magie et les écoles qui en font usage visent à renforcer ces dernières uniquement. Ces corpus se déclinent donc en autant d’écoles de magie existantes (mais pas en domaine ou pratique). Il existe cependant des variantes sous couverts des concepts suivants :
+
+- Inclusif : C’est le corpus normal sans contrepartie.
+- Exclusif : C’est un corpus qui augmente le bonus associé à l’école du style mais qui implique un malus à toutes les autres. Le style ne peut être changé qu’après un repos.
 
 #### Maitrise de « Ecole de Magie »
 

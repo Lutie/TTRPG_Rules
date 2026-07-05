@@ -28,31 +28,72 @@ Chaque groupe est constitué d’une liste spécifique de compétence qui repré
 
 #### Sciences Biologiques
 
-Compétences (Domaines) : Pharmacie, Toxicologie, Chimie. Description : Les sciences biologiques se concentrent sur les corps vivants. Pharmacie : Couvre la création des produits thérapeutiques pouvant ralentir, guérir ou prémunir des afflictions subits par le corps ou l’esprit. Toxicologie : Couvre la création des drogues, qui peuvent avoir des effets positifs ou négatifs sur le corps ou l’esprit.
+Compétences (Domaines) : Pharmacie, Toxicologie, Chimie.
+
+Description : Les sciences biologiques se concentrent sur les corps vivants.
+
+- Pharmacie : Couvre la création des produits thérapeutiques pouvant ralentir, guérir ou prémunir des afflictions subits par le corps ou l’esprit.
+- Toxicologie : Couvre la création des drogues, qui peuvent avoir des effets positifs ou négatifs sur le corps ou l’esprit.
 
 #### Sciences Organiques
 
-Compétences (Domaines) : Pyrotechnie, Chimie. Description : Les sciences organiques se concentrent sur les réactions ayant lieu entre des corps inertes. Pyrotechnie : Couvre la création d’explosifs et autres produits volatiles en tout genre. Chimie : Couvre la création des acides et gaz, qui peuvent avoir des effets corrosifs pour les uns et très variés pour les autres.
+Compétences (Domaines) : Pyrotechnie, Chimie.
+
+Description : Les sciences organiques se concentrent sur les réactions ayant lieu entre des corps inertes.
+
+- Pyrotechnie : Couvre la création d’explosifs et autres produits volatiles en tout genre.
+- Chimie : Couvre la création des acides et gaz, qui peuvent avoir des effets corrosifs pour les uns et très variés pour les autres.
 
 #### Sciences Technologiques
 
-Compétences (Domaines) : Armurerie (Offensive), Armurerie (Défensive). Description : Les sciences technologiques est un nom qui ne retranscrit que très peu la dangerosité de ses domaines. C’est en effet celui de l’armement. Armurerie (Offensive) : Couvre la création d’armes à feu ou blanche. Ces dernières sont plus évoluées que l’arme blanche antiques car bien souvent multifonctionnelle. Armurerie (Défensive) : Couvre la création d’armures. Armurerie (Pratique) : Couvre la création d’outils pratique (qu’on nomme parfois aussi gadget).
+Compétences (Domaines) : Armurerie (Offensive), Armurerie (Défensive).
+
+Description : Les sciences technologiques est un nom qui ne retranscrit que très peu la dangerosité de ses domaines. C’est en effet celui de l’armement.
+
+- Armurerie (Offensive) : Couvre la création d’armes à feu ou blanche. Ces dernières sont plus évoluées que l’arme blanche antiques car bien souvent multifonctionnelle.
+- Armurerie (Défensive) : Couvre la création d’armures.
+- Armurerie (Pratique) : Couvre la création d’outils pratique (qu’on nomme parfois aussi gadget).
 
 #### Sciences Mécaniques
 
-Compétences (Domaines) : Machinerie (terrestre), Machinerie (aquatique), Machinerie (aérienne). Description : Les sciences mécaniques s’évertues à mettre en place différents véhicules. Chaque domaine s’occupe d’un type de véhicule en fonction d’où et comment il doit évoluer. Machinerie (terrestre) : Couvre la création des véhicules terrestres tels que les chars et les trains. Machinerie (aquatique) : Couvre la création des véhicules aquatiques tels que les navires et les sous-marins. Machinerie (aérienne) : Couvre la création des véhicules aériens tels que les aéronefs.
+Compétences (Domaines) : Machinerie (terrestre), Machinerie (aquatique), Machinerie (aérienne).
+
+Description : Les sciences mécaniques s’évertues à mettre en place différents véhicules. Chaque domaine s’occupe d’un type de véhicule en fonction d’où et comment il doit évoluer.
+
+- Machinerie (terrestre) : Couvre la création des véhicules terrestres tels que les chars et les trains.
+- Machinerie (aquatique) : Couvre la création des véhicules aquatiques tels que les navires et les sous-marins.
+- Machinerie (aérienne) : Couvre la création des véhicules aériens tels que les aéronefs.
 
 #### Sciences Mécatroniques
 
-Compétences (Domaines) : Biomécatronie, Macromécatronie, Micromécatronie. Description : Les sciences mécatroniques se concentrent toutes sur une mécanique à échelle humaine. Biomécatronie : Couvre la création d’automails et autres prothèses mécaniques visant à remplacer un membre (jambes ou bras, le reste n’est pas possible puisqu’il y a des centres vitaux) chez un être vivant. Macromécatronie : Couvre la création d’automates de grande taille. On parle aussi de travailleurs mécaniques (ou robots). Nécessite l’usage de l’ingénierie car sans le steam les automates ne peuvent être autonomes. Micromécatronie : Couvre la création d’automates de petite taille. On parle aussi de drône. Nécessite l’usage de l’ingénierie car sans le steam les automates ne peuvent être autonomes.
+Compétences (Domaines) : Biomécatronie, Macromécatronie, Micromécatronie.
+
+Description : Les sciences mécatroniques se concentrent toutes sur une mécanique à échelle humaine.
+
+- Biomécatronie : Couvre la création d’automails et autres prothèses mécaniques visant à remplacer un membre (jambes ou bras, le reste n’est pas possible puisqu’il y a des centres vitaux) chez un être vivant.
+- Macromécatronie : Couvre la création d’automates de grande taille. On parle aussi de travailleurs mécaniques (ou robots). Nécessite l’usage de l’ingénierie car sans le steam les automates ne peuvent être autonomes.
+- Micromécatronie : Couvre la création d’automates de petite taille. On parle aussi de drône. Nécessite l’usage de l’ingénierie car sans le steam les automates ne peuvent être autonomes.
 
 #### Sciences Génériques
 
-Compétences : Ingénierie Steam, Métallurgie. Description : Les sciences génériques regroupent des sciences qui peuvent s’imbriquer dans d’autres pour dévoiler de nouvelles facettes ou possibilités. L’ingénierie Steam permet aux autres sciences de renforcer leurs créations à l’aide du steam. Certains domaines ne peuvent PAS fonctionner sans (macro et micromécatronie), le reste oui. La métallurgie permet de fusionner des métaux et créer ainsi celui que l’on souhaite.
+Compétences : Ingénierie Steam, Métallurgie.
+
+Description : Les sciences génériques regroupent des sciences qui peuvent s’imbriquer dans d’autres pour dévoiler de nouvelles facettes ou possibilités.
+
+- Ingénierie Steam : permet aux autres sciences de renforcer leurs créations à l’aide du steam. Certains domaines ne peuvent PAS fonctionner sans (macro et micromécatronie), le reste oui.
+- Métallurgie : permet de fusionner des métaux et créer ainsi celui que l’on souhaite.
 
 #### Steam
 
-Compétences : Percevoir (LOG), Voir (INT), Aider (SAG), Agir (VOL), Fuir (RUS), ??? (CHA). Description : Le steam est accessible à ceux qui en ont la connaissance et la maitrise. Accéder au steam c’est être capable de manipuler l’aether afin de le configurer, etc… C’est aussi important pour l’utilisateur que pour ceux qui veulent nuire à l’usage des constructions qui tournent à l’aide de cette technologie. Percevoir le steam est une première étape obligatoire afin de pouvoir être en mesure de voir le circuit steam d’une machine. Voir le steam permet d’obtenir des informations sur les différents nœuds d’un circuit steam. Aider le steam permet de réparer ou renforcer un nœud steam. Agir sur le steam permet d’attaquer ou affaibilir un nœud steam. Fuir le steam permet à l’utilisateur d’éviter les attaques directes ou à sortir du circuit.
+Compétences : Percevoir (LOG), Voir (INT), Aider (SAG), Agir (VOL), Fuir (RUS), ??? (CHA).
+
+Description : Le steam est accessible à ceux qui en ont la connaissance et la maitrise. Accéder au steam c’est être capable de manipuler l’aether afin de le configurer, etc… C’est aussi important pour l’utilisateur que pour ceux qui veulent nuire à l’usage des constructions qui tournent à l’aide de cette technologie.
+
+- Percevoir le steam est une première étape obligatoire afin de pouvoir être en mesure de voir le circuit steam d’une machine.
+- Voir le steam permet d’obtenir des informations sur les différents nœuds d’un circuit steam.
+- Aider le steam permet de réparer ou renforcer un nœud steam.
+- Agir sur le steam permet d’attaquer ou affaibilir un nœud steam.
+- Fuir le steam permet à l’utilisateur d’éviter les attaques directes ou à sortir du circuit.
 
 ## Traits de l’Extension
 

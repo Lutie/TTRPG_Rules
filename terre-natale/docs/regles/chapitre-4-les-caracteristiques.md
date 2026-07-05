@@ -12,13 +12,25 @@ Les ressources primordiales sont des valeurs représentant les différents seuil
 
 #### La Vitalité
 
-La Vitalité représente la vigueur physique d’un personnage. La Vitalité est réduite lorsque des dégâts physiques permanents sont enregistrés. Subir une perte de vitalité peut entraîner des lésions physiques dites Blessures. À tout moment si la Vitalité du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « mis hors d’état physique » (même si dans les faits il peut toujours combattre) : Il est désavantagé à tous ses tests physiques. La Vitalité peut être négative. Si la Vitalité atteint sa propre valeur dans le négatif, le personnage meurt. La vitalité peut être consommée afin d’obtenir un ajustement à un test de sauvegarde physique tel que robustesse ou réflexes (voir la règle sur les sauvegardes). La Vitalité dépend de la Constitution.
+La Vitalité représente la vigueur physique d’un personnage.
+
+- La Vitalité est réduite lorsque des dégâts physiques permanents sont enregistrés.
+- Subir une perte de vitalité peut entraîner des lésions physiques dites Blessures.
+- À tout moment si la Vitalité du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « mis hors d’état physique » (même si dans les faits il peut toujours combattre) : Il est désavantagé à tous ses tests physiques.
+- La Vitalité peut être négative. Si la Vitalité atteint sa propre valeur dans le négatif, le personnage meurt.
+- La vitalité peut être consommée afin d’obtenir un ajustement à un test de sauvegarde physique tel que robustesse ou réflexes (voir la règle sur les sauvegardes).
 
 - Vitalité = Constitution x2.
 
 #### La Spiritualité
 
-La Spiritualité mesure la vigueur mentale d’un personnage. La spiritualité est réduite lorsque des dégâts mentaux permanents sont enregistrés. Subir une perte de spiritualité peut entraîner des lésions mentales dites Traumatismes. À tout moment si la Spiritualité du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « mis hors d’état mental » (même si dans les faits il peut toujours participer à celle-ci) : Il est désavantagé à tous ses tests mentaux. La spiritualité peut être négative. Si le Spiritualité atteint sa propre valeur dans le négatif, le personnage est résigné. La spiritualité peut être consommée afin d’obtenir un ajustement à un test de sauvegarde mentales tel que détermination, sang-froid ou intuition (voir la règle sur les sauvegardes). La Spiritualité dépend de la Volonté.
+La Spiritualité mesure la vigueur mentale d’un personnage.
+
+- La spiritualité est réduite lorsque des dégâts mentaux permanents sont enregistrés.
+- Subir une perte de spiritualité peut entraîner des lésions mentales dites Traumatismes.
+- À tout moment si la Spiritualité du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « mis hors d’état mental » (même si dans les faits il peut toujours participer à celle-ci) : Il est désavantagé à tous ses tests mentaux.
+- La spiritualité peut être négative. Si le Spiritualité atteint sa propre valeur dans le négatif, le personnage est résigné.
+- La spiritualité peut être consommée afin d’obtenir un ajustement à un test de sauvegarde mentales tel que détermination, sang-froid ou intuition (voir la règle sur les sauvegardes).
 
 - Spiritualité = Volonté x2.
 
@@ -28,28 +40,41 @@ Les ressources fondamentales sont certes moins cruciales que les primordiales ma
 
 #### L’Endurance
 
-L’Endurance mesure la hargne et la ténacité générale d’un personnage. L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés. À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT). L'endurance peut être négative. Si l’endurance atteint dans le négatif sa valeur maximale actuelle, le personnage est KO. L'endurance dépend de l’équilibre. L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
+L’Endurance mesure la hargne et la ténacité générale d’un personnage.
+
+- L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés.
+- À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT).
+- L'endurance peut être négative. Si l’endurance atteint dans le négatif sa valeur maximale actuelle, le personnage est KO. L'endurance dépend de l’équilibre.
+- L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
 
 - Endurance = Équilibre x 2.
 
 !!! info "Rappel"
     L’endurance permet, en situation de confrontation, de :
 
-    <> Obtenir +1 à un test de confrontation en dépensant 4 d’endurance, maximum équivalant au niveau de compétence, choix à effectuer avant le test.
+    - Obtenir +1 à un test de confrontation en dépensant 4 d’endurance, maximum équivalant au niveau de compétence, choix à effectuer avant le test.
 
-    L’endurance permet d’encaisser les dégâts temporaires à hauteur maximale équivalant à l’absorption du personnage (au moins sur la zone touchée). S’il reste de l’absorption après la conversion des dégâts en dégâts temporaires alors l’excédent réduit ces derniers.
+    - Encaisser les dégâts temporaires à hauteur maximale équivalant à l’absorption du personnage (au moins sur la zone touchée). S’il reste de l’absorption après la conversion des dégâts en dégâts temporaires alors l’excédent réduit ces derniers.
 
-    Dépenser de l’endurance pour encaisser les dégâts n’est possible que si le personnage n’est pas choqué et qu’il peut deviner d’où l’attaque vient (il n’est pas pris au dépourvu etc). Par exemple : Un piège qui a été repéré peux être encaissé de la sorte mais ce n’est donc pas le cas s’il n’a pas été repéré au préalable. Une attaque de dos menée par un adversaire dont la position est connue peut être encaissée mais ce n’est donc pas le cas si la présence ou la position de l’attaquant n'est pas connue.
+    - Dépenser de l’endurance pour encaisser les dégâts n’est possible que si le personnage n’est pas choqué et qu’il peut deviner d’où l’attaque vient (il n’est pas pris au dépourvu etc). Par exemple : Un piège qui a été repéré peux être encaissé de la sorte mais ce n’est donc pas le cas s’il n’a pas été repéré au préalable. Une attaque de dos menée par un adversaire dont la position est connue peut être encaissée mais ce n’est donc pas le cas si la présence ou la position de l’attaquant n'est pas connue.
 
 #### Le Karma
 
-Le Karma représente la force du destin permettant à certains d’accomplir de véritables miracles. Il donne l’espoir que même une situation désespérée puisse se retourner et permet de s’offrir les faveurs d’un coup de chance dans un moment important. Si le Karma chute à 0 il est simplement impossible de faire appel à un coup de chance. Le Karma ne peut pas être négatif. Le Karma dépend de la chance.
+Le Karma représente la force du destin permettant à certains d’accomplir de véritables miracles. Il donne l’espoir que même une situation désespérée puisse se retourner et permet de s’offrir les faveurs d’un coup de chance dans un moment important.
+
+- Si le Karma chute à 0 il est simplement impossible de faire appel à un coup de chance.
+- Le Karma ne peut pas être négatif.
+- Le Karma dépend de la chance.
 
 - Karma = Chance x2.
 
 #### Le Chi
 
-Le Chi représente la capacité du personnage à réaliser des prouesses physiques et mentales. Si le Chi chute à 0 il est simplement impossible d’y faire appel. Le Chi ne peut pas être négatif. Le Chi dépend des attributs de la caste choisie.
+Le Chi représente la capacité du personnage à réaliser des prouesses physiques et mentales.
+
+- Si le Chi chute à 0 il est simplement impossible d’y faire appel.
+- Le Chi ne peut pas être négatif.
+- Le Chi dépend des attributs de la caste choisie.
 
 - Chi = 1er Attribut de Caste 1 + 2eme Attribut de Caste.
 - Récupération du Chi = Récupération.
@@ -62,7 +87,11 @@ Les ressources spéciales sont extrêmement éphémères et n’ont de substance
 
 L’Initiative représente la capacité du personnage à entreprendre des actions et à agir durant une confrontation, quel soit martial ou autre. L’initiative est renouvelée à chaque tour d’une confrontation via un test de compétence.
 
-On distingue cependant 3 initiatives différentes : L’Initiative physique, l’initiative mentale et l’initiative globale. Cependant ces 3 termes renvoient à la notion d’initiative de la même façon. L’Initiative physique dépend d’un test d’Initiative via l’attribut d’agilité. Le personnage voit ses tests mentaux désavantagés s’il opte pour cette initiative. L’Initiative mentale dépend d’un test d’Initiative via l’attribut de ruse. Le personnage voit ses tests physiques désavantagés s’il opte pour cette initiative. L’Initiative globale dépend d’un test d’Initiative via l’attribut le plus bas parmi l’agilité et la ruse. Il n’y a pas de tests désavantagés si le personnage opte pour cette initiative.
+On distingue cependant 3 initiatives différentes : l’Initiative physique, l’initiative mentale et l’initiative globale. Ces 3 termes renvoient à la notion d’initiative de la même façon.
+
+- L’Initiative physique dépend d’un test d’Initiative via l’attribut d’agilité. Le personnage voit ses tests mentaux désavantagés s’il opte pour cette initiative.
+- L’Initiative mentale dépend d’un test d’Initiative via l’attribut de ruse. Le personnage voit ses tests physiques désavantagés s’il opte pour cette initiative.
+- L’Initiative globale dépend d’un test d’Initiative via l’attribut le plus bas parmi l’agilité et la ruse. Il n’y a pas de tests désavantagés si le personnage opte pour cette initiative.
 
 ### Les Ressources Temporaires
 
@@ -90,13 +119,34 @@ Il existe également des ressources temporaires associées à des règles spéci
 
 Il peut y avoir d’autres types de ressources encore. Ces derniers font alors l’objet de systèmes spécifiques et ne sont donc pas détaillés ici mais dans les extensions pouvant se greffer au système de base de Terre Natale.
 
-Exemples : Le Mana est une ressource fondamentale issue de l’extension de la magie. La Créativité est une ressource fondamentale issue de l’extension de l’artisanat et de la technologie.
+Exemples :
+
+- Le Mana est une ressource fondamentale issue de l’extension de la magie.
+- La Créativité est une ressource fondamentale issue de l’extension de l’artisanat et de la technologie.
 
 ## Les Tensions
 
 ### Les Lésions
 
-Lorsqu’un personnage subit une attaque dont il ne se défend pas ou qui lui inflige des dégâts dont la conséquence est une perte de ressource primordiale (Vitalité, Mentale) cela provoque des lésions. Ces dernières peuvent pénaliser le personnage durablement et son particulièrement difficile à rétablir. Il existe deux grandes formes de lésion : Les Blessures (pour ce qui est du corps) et les Traumatismes (pour ce qui est de l’esprit). Le Niveau de gravité d’une lésion dépend de la partie enregistrée et d’un Seuil de Lésion (la formule étant Dégâts / Seuil). Le seuil est différent pour les blessures ou les traumatismes, l’un basé sur la Stature et l’autre l’Ego. Le niveau de gravité (qui peut être de 0) mesure les pénalités encourues. On note plusieurs niveaux de gravité : 0 pour lésions bénignes, 1 pour lésions légères, 2 pour lésions importantes, 3 pour lésions graves, 4 pour les lésions mortelles et 5 pour les lésions incapacitantes. Toutes les lésions sont indépendantes les unes des autres et doivent être considérées/soignées une à une. À tout moment le personnage subit les pénalités de blessures et les pénalités de traumatismes les plus élevés des deux types.
+Lorsqu’un personnage subit une attaque dont il ne se défend pas ou qui lui inflige des dégâts dont la conséquence est une perte de ressource primordiale (Vitalité, Mentale) cela provoque des lésions. Ces dernières peuvent pénaliser le personnage durablement et son particulièrement difficile à rétablir.
+
+Il existe deux grandes formes de lésion :
+
+- Les Blessures, pour ce qui est du corps.
+- Les Traumatismes, pour ce qui est de l’esprit.
+
+Le Niveau de gravité d’une lésion dépend de la partie enregistrée et d’un Seuil de Lésion (la formule étant Dégâts / Seuil). Le seuil est différent pour les blessures ou les traumatismes, l’un basé sur la Stature et l’autre l’Ego. Le niveau de gravité (qui peut être de 0) mesure les pénalités encourues.
+
+On note plusieurs niveaux de gravité :
+
+- 0 pour les lésions bénignes.
+- 1 pour les lésions légères.
+- 2 pour les lésions importantes.
+- 3 pour les lésions graves.
+- 4 pour les lésions mortelles.
+- 5 pour les lésions incapacitantes.
+
+Toutes les lésions sont indépendantes les unes des autres et doivent être considérées/soignées une à une. À tout moment le personnage subit les pénalités de blessures et les pénalités de traumatismes les plus élevés des deux types.
 
 Un personnage ne peut recevoir qu’un certain nombre de lésions d’un même niveau, si ce nombre est déjà atteint alors la lésion voit son niveau augmenté.
 
@@ -106,9 +156,24 @@ Un personnage peut être stabilisé temporairement via un test de premiers soins
 
 Un personnage peut être stabilisé de façon permanente via un test de médecine, cette stabilité permet au personnage de récupérer de ses lésions et éviter que son état empire.
 
-A chaque récupération (repos long) le personnage voit ses lésions réduite de un palier par tranche de 5 (s’il est stabilisé), cette récupération se fait en équilibrant les lésions (donc en s’appliquant à mesure et toujours sur la plus élevées). Si le personnage fait l’objet de soins d’une lésion alors les soins suivent ce même principe (attention car la difficulté de l’acte dépend de la gravité de la lésion la plus élevée). Un même praticien peut tenter un geste de soin par patient et par jour, il peut réaliser son test et choisir la lésion à soigner selon le résultat obtenu. S’il n’arrive pas à soigner de lésion alors il devra retenter le lendemain mais ne pourra faire guère plus le jour même.
+A chaque récupération (repos long) le personnage voit ses lésions réduite de un palier par tranche de 5 (s’il est stabilisé), cette récupération se fait en équilibrant les lésions (donc en s’appliquant à mesure et toujours sur la plus élevées).
 
-Lésion bénigne (0) : Difficulté 10. □ □ □ + □ x mATT. Lésion légère (1) : Difficulté 12. □ □. Lésion importante (2) : Difficulté 14. □ □. Lésion grave (3) : Difficulté 16. □ □. Lésion mortelle (4) : Difficulté 18. □ □. Lésion incapacitante (5) : Difficulté 20. □ □. La difficulté de stabilisation/soin augmente de 1 par lésions, aussi soigner une lésion grave en ayant une bénigne et une légère en plus revêt d’une difficulté 18. Il peut donc, selon la maîtrise du soigneur, plus intéressant de commencer par soigner les lésions les plus basses. mATT ci-dessus correspond à mSTA (modificateur stature) pour les blessures (lésions physiques) et à mEGO (modificateur d’égo) pour les traumatismes (lésions mentales).
+Si le personnage fait l’objet de soins d’une lésion alors les soins suivent ce même principe (attention car la difficulté de l’acte dépend de la gravité de la lésion la plus élevée). Un même praticien peut tenter un geste de soin par patient et par jour, il peut réaliser son test et choisir la lésion à soigner selon le résultat obtenu.
+
+S’il n’arrive pas à soigner de lésion alors il devra retenter le lendemain mais ne pourra faire guère plus le jour même.
+
+| Lésion | Difficulté | Cases |
+| --- | --- | --- |
+| Lésion bénigne (0) | 10 | □ □ □ + □ x mATT |
+| Lésion légère (1) | 12 | □ □ |
+| Lésion importante (2) | 14 | □ □ |
+| Lésion grave (3) | 16 | □ □ |
+| Lésion mortelle (4) | 18 | □ □ |
+| Lésion incapacitante (5) | 20 | □ □ |
+
+La difficulté de stabilisation/soin augmente de 1 par lésions, aussi soigner une lésion grave en ayant une bénigne et une légère en plus revêt d’une difficulté 18. Il peut donc, selon la maîtrise du soigneur, plus intéressant de commencer par soigner les lésions les plus basses.
+
+mATT ci-dessus correspond à mSTA (modificateur stature) pour les blessures (lésions physiques) et à mEGO (modificateur d’égo) pour les traumatismes (lésions mentales).
 
 Si le maximum de lésions incapacitantes physiques est atteint, le personnage meurt. Si le maximum de lésions incapacitantes mentales est atteint, le personnage est vaincu : résigné ou abattu, il est incapable d'agir activement sur un conflit ou une situation.
 
@@ -116,7 +181,8 @@ Si le maximum de lésions incapacitantes physiques est atteint, le personnage me
 
 Les Blessures sont issues des agressions physiques encaissées par le corps du personnage.
 
-- On dénote, dans l’ordre de niveau de gravité : Blessure Bénigne (0), Blessure Légère (1), Blessure Important (2), Blessure Grave (3), Blessure Mortelle (4), Blessure Incapacitante (5). La blessure incapacitante met le personnage hors d’état sur le plan physique, il ne peut plus rien faire/rien tenter ou se déplacer.
+- On dénote, dans l’ordre de niveau de gravité : Blessure Bénigne (0), Blessure Légère (1), Blessure Important (2), Blessure Grave (3), Blessure Mortelle (4), Blessure Incapacitante (5).
+- La blessure incapacitante met le personnage hors d’état sur le plan physique, il ne peut plus rien faire/rien tenter ou se déplacer.
 - Les Pénalités de Blessures sont appliquées aux tests.
 - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine du corps), voir plus haut.
 
@@ -223,8 +289,7 @@ La portée de jet représente la distance pour toucher via une arme de jet (ou u
 La portée de tir représente la distance pour toucher une arme à distance. Le coefficient est de 1m par unité. Elle se décline en plusieurs portées : courte, idéale, longue, extrême. La portée de tir extrême correspond à des tirs en cloche ou autre méthode permettant de toucher à grande distance mais via une précision très sommaire.
 
 - Allonge de tir de l’arme = Catégorie de l’Arme + bonus/malus d’allonge.
-
-Portée de tir (1m/c) = Allonge de tir de l’arme x 4.
+- Portée de tir (1m/c) = Allonge de tir de l’arme x 4.
 
 La portée des mots représente la distance pour toucher via une tirade (ou tout autre action misant sur la parole). Le coefficient est de 1m par unité. Elle se décline en plusieurs portées : courte, idéale, longue.
 
@@ -313,7 +378,21 @@ Notons que la Constitution et la Volonté sont rarement employés comme des déf
 
 Il existe plusieurs valeurs de sauvegarde différentes. Ce sont des tests d’attributs effectués afin de vérifier si certaines choses (conditions, dégâts de zones ou déclenchés, événements favorables, etc) se produisent ou non. Si un avantage ou désavantage doit affecter la sauvegarde est généralement précisé.
 
-La robustesse est une sauvegarde physique qui permet de se prémunir des conditions physiques. La détermination est une sauvegarde physique qui permet de se prémunir des conditions mentales. Les réflexes sont une sauvegarde mentale qui permet de se prémunir de certaines situations où la réactivité joue un rôle majeur. Cette sauvegarde permet de réduire les dégâts (physique) de zones ou conditionnés. Le sang-froid est une sauvegarde mentale permettant de se soustraire à des effets mentaux négatifs jouant sur la logique ou l’émotif. Cette sauvegarde permet de réduire les dégâts (mentaux) de zones. Elle permet également de gérer les cas de stress (gains de fatigue liés à l’échec par exemple). L’Intuition représente les racines dont le personnage dispose dans l’univers qui l’entoure. C’est une sauvegarde fortement narrative. Un de ses usages est de vérifier si le personnage a pensé à des éléments de contexte qui auraient pu lui échapper (à lui ou au joueur qui l’interprète), ce qui est d’autant plus pertinent pour un personnage joueur que lesdits joueurs ne vivent pas dans l’univers du personnage et peuvent manquer de faire des choix qui pourrait sinon couler de source. Par exemple, le personnage arrive devant l’entrée d’une ruine qu’il souhaite explorer mais il se rend compte qu’il n’a pas pensé à prendre de torche… Vraiment ? Le personnage a de bonne chance d’avoir eu l’idée de prendre un moyen de s’éclairer dans un lieu qui a toutes les chances d’être obscure, ici donc un test de sang-froid peut permettre de trancher et, à rebours donc, affecter la narration si besoin. Un autre usage est de vérifier si le personnage a le sentiment que quelque chose cloche, qu’un danger rôde, qu’il oublie quelque chose d’important, etc… Aussi en situation de confrontation l’intuition est testée afin de mesurer à quel point le personnage a conscience de ce qui l’entoure/de la situation dans laquelle il se trouve (10 permettant de se localiser, 15 de voir quelles sont les menaces en présence, 20 de sentir les éléments (pas précisément mais en substance) qui peuvent survenir ou qui menace de se révéler). L’intuition est considérée comme une sauvegarde mentale. La fortune représente la probation qu’à l’univers à aller dans le sens de ce que cherche le personnage. C’est une sauvegarde fortement narrative. Cette sauvegarde permet de mesurer si des événements positifs arrivent ou non aux personnages (un personnage que l’on a connu dans un lieu s’y trouve-t-il aujourd’hui ? test de fortune. Ai-je la chance de croiser un allié dans cette ville que je connais ? test de fortune. Y a-t-il des trésors ici ? test de fortune). Dans le cas où la chance doit jouer sur des événements en confrontation, la fortune est prise en considération. Si un événement extérieur doit arriver alors toutes les cibles éligibles devraient réaliser un test de fortune et le résultat le plus bas serait la cible de l’événement si négatif et le plus haut serait la cible de l’événement si positif. La fortune est considérée comme une sauvegarde ni physique ni mentale.
+Les sauvegardes principales sont les suivantes :
+
+- La robustesse est une sauvegarde physique qui permet de se prémunir des conditions physiques.
+- La détermination est une sauvegarde physique qui permet de se prémunir des conditions mentales.
+- Les réflexes sont une sauvegarde mentale qui permet de se prémunir de certaines situations où la réactivité joue un rôle majeur. Cette sauvegarde permet de réduire les dégâts (physique) de zones ou conditionnés.
+- Le sang-froid est une sauvegarde mentale permettant de se soustraire à des effets mentaux négatifs jouant sur la logique ou l’émotif. Cette sauvegarde permet de réduire les dégâts (mentaux) de zones. Elle permet également de gérer les cas de stress (gains de fatigue liés à l’échec par exemple).
+- L’Intuition représente les racines dont le personnage dispose dans l’univers qui l’entoure. C’est une sauvegarde fortement narrative. Un de ses usages est de vérifier si le personnage a pensé à des éléments de contexte qui auraient pu lui échapper (à lui ou au joueur qui l’interprète), ce qui est d’autant plus pertinent pour un personnage joueur que lesdits joueurs ne vivent pas dans l’univers du personnage et peuvent manquer de faire des choix qui pourrait sinon couler de source.
+
+Par exemple, le personnage arrive devant l’entrée d’une ruine qu’il souhaite explorer mais il se rend compte qu’il n’a pas pensé à prendre de torche… Vraiment ? Le personnage a de bonne chance d’avoir eu l’idée de prendre un moyen de s’éclairer dans un lieu qui a toutes les chances d’être obscure, ici donc un test de sang-froid peut permettre de trancher et, à rebours donc, affecter la narration si besoin.
+
+Un autre usage est de vérifier si le personnage a le sentiment que quelque chose cloche, qu’un danger rôde, qu’il oublie quelque chose d’important, etc… Aussi en situation de confrontation l’intuition est testée afin de mesurer à quel point le personnage a conscience de ce qui l’entoure/de la situation dans laquelle il se trouve (10 permettant de se localiser, 15 de voir quelles sont les menaces en présence, 20 de sentir les éléments (pas précisément mais en substance) qui peuvent survenir ou qui menace de se révéler). L’intuition est considérée comme une sauvegarde mentale.
+
+La fortune représente la probation qu’à l’univers à aller dans le sens de ce que cherche le personnage. C’est une sauvegarde fortement narrative. Cette sauvegarde permet de mesurer si des événements positifs arrivent ou non aux personnages (un personnage que l’on a connu dans un lieu s’y trouve-t-il aujourd’hui ? test de fortune. Ai-je la chance de croiser un allié dans cette ville que je connais ? test de fortune. Y a-t-il des trésors ici ? test de fortune).
+
+Dans le cas où la chance doit jouer sur des événements en confrontation, la fortune est prise en considération. Si un événement extérieur doit arriver alors toutes les cibles éligibles devraient réaliser un test de fortune et le résultat le plus bas serait la cible de l’événement si négatif et le plus haut serait la cible de l’événement si positif. La fortune est considérée comme une sauvegarde ni physique ni mentale.
 
 - Robustesse = modificateur de Constitution.
 - Détermination = modificateur de Volonté.
@@ -323,7 +402,12 @@ La robustesse est une sauvegarde physique qui permet de se prémunir des conditi
 - Fortune = modificateur de Chance.
 - Intuition = modificateur de Sagesse.
 
-Lorsque l’origine d’un test de sauvegarde peut se quantifier numériquement alors : Sur un échec critique la valeur est augmentée de 50%. Sur un échec, la valeur est normale. Sur une réussite la valeur est divisée par deux. Sur une réussite critique la valeur est réduite à 0.
+Lorsque l’origine d’un test de sauvegarde peut se quantifier numériquement alors :
+
+- Sur un échec critique la valeur est augmentée de 50%.
+- Sur un échec, la valeur est normale.
+- Sur une réussite la valeur est divisée par deux.
+- Sur une réussite critique la valeur est réduite à 0.
 
 Lorsque l’origine d’un test de sauvegarde ne peut être ainsi quantifié alors le type de réussite peut avoir un impact sur les conséquences, mais ce n’est pas une obligation.
 
@@ -331,7 +415,10 @@ A tout moment un personnage peut dépenser des PV (vitalité) afin d’obtenir u
 
 #### Les Seuils de Lésions
 
-Les Seuils de Lésions mesurent la capacité du personnage à supporter les contre coups d’une agression. Le Seuil de Blessure permet ainsi de définir la tolérance face aux dégâts physiques afin d’éviter les blessures (lésions physiques). Elle est définie par la Stature. Le Seuil de Traumatisme permet ainsi de définir la tolérance face aux dégâts mentaux afin d’éviter les traumatismes (lésions physiques). Elle est définie par l'apparence.
+Les Seuils de Lésions mesurent la capacité du personnage à supporter les contre coups d’une agression.
+
+- Le Seuil de Blessure permet ainsi de définir la tolérance face aux dégâts physiques afin d’éviter les blessures (lésions physiques). Elle est définie par la Stature.
+- Le Seuil de Traumatisme permet ainsi de définir la tolérance face aux dégâts mentaux afin d’éviter les traumatismes (lésions physiques). Elle est définie par l'apparence.
 
 - Seuil de Blessure = 5 + modificateur de Stature.
 - Seuil de Traumatisme = 5 + modificateur d’Ego.
@@ -362,6 +449,14 @@ Un entraînement est sur 2 niveaux, « expert » et « maître ». Un entraînem
 
 L'entraînement provient essentiellement des traits, dont certains peuvent être acquis via les traits automatiques de la caste.
 
-Voici les entraînements de base : ![](images/image26.png) Entraînement aux armes de mêlée ![](images/image27.png) Entraînement aux armes à distance ![](images/image28.png) Entraînement aux armures ![](images/image29.png) Entrainement aux outils ![](images/image30.png) Entrainement aux joutes ![](images/image31.png) Entrainement aux arcanes [extension] ![](images/image21.png) Entrainement aux technologies [extension]
+Voici les entraînements de base :
+
+- ![](images/image26.png) Entraînement aux armes de mêlée
+- ![](images/image27.png) Entraînement aux armes à distance
+- ![](images/image28.png) Entraînement aux armures
+- ![](images/image29.png) Entrainement aux outils
+- ![](images/image30.png) Entrainement aux joutes
+- ![](images/image31.png) Entrainement aux arcanes [extension]
+- ![](images/image21.png) Entrainement aux technologies [extension]
 
 Évidemment cette liste n’est pas exhaustive : Tout objet doté d’une catégorie et ne figurant pas dans cette liste peut faire l’objet d’un entraînement. Dans certaines extensions il y a des entraînements spécifiques qui permettent l’usage de ce qu’apporte ces supports (notés [extension] dans la liste ci-dessus).

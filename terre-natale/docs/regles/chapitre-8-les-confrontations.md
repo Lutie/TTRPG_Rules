@@ -62,7 +62,14 @@ Pour une altercation physique, demandez-vous si les opposants cherchent à s'ent
 
 ## Le Déroulement
 
-L’affrontement se déroule en suivant les étapes suivantes : 1) Situation 2) Début de Tour 3) Initiative 4) Rounds & Passes 5) Fin de Tour 6) Retour à 2)
+L’affrontement se déroule en suivant les étapes suivantes :
+
+1. Situation
+2. Début de Tour
+3. Initiative
+4. Rounds & Passes
+5. Fin de Tour
+6. Retour à 2
 
 ### La Situation
 
@@ -74,7 +81,11 @@ Un tour englobe plusieurs rounds et plusieurs passes. La confrontation s’ouvre
 
 L’Initiative La première chose à faire lorsqu’un tour débute c’est déterminer l’initiative des participants. Tous doivent alors réaliser un test d’initiative et noter le résultat comme valeur.
 
-Un personnage peut tirer l’initiative de 3 façon différente : - Sous couvert de la compétence Initiative et de l’Agilité : Il sera alors désavantagé à ses tests relevant des attributs de l'esprit. - Sous couvert de la compétence Initiative et de la Ruse : Il sera alors désavantagé à ses tests relevant des attributs du corps. - Sous couvert de la compétence Initiative de l’attribut le plus bas parmi l’Agilité ou la Ruse : Il ne sera jamais désavantagé.
+Un personnage peut tirer l’initiative de 3 façon différente :
+
+- Sous couvert de la compétence Initiative et de l’Agilité : il sera alors désavantagé à ses tests relevant des attributs de l'esprit.
+- Sous couvert de la compétence Initiative et de la Ruse : il sera alors désavantagé à ses tests relevant des attributs du corps.
+- Sous couvert de la compétence Initiative de l’attribut le plus bas parmi l’Agilité ou la Ruse : il ne sera jamais désavantagé.
 
 !!! info "Rappel"
     L’initiative est la seule compétence qui subit à la fois les pénalités de l’arme ayant la plus haute pénalité et de l’armure. Ces pénalités sont appliquées à l’attribut qui doit servir au test (agilité et/ou ruse selon le cas). Il est donc très possible que le modificateur associé au test (normalement égale à modificateur d’attribut + compétence (initiative) + groupe (intuition)) soit négatif si le personnage n’a pas pris soin de choisir un équipement adapté à ses capacités.
@@ -189,7 +200,10 @@ Le test d'initiative se réalise à partir de la compétence du même nom : Intu
 
     Ajustements appliqués à l’initiative = Qualité de l’Arme + Qualité de l’Armure – Catégorie de l’Arme x 2 – Catégorie de l’Armure x 2 + […].
 
-L’initiative peut être associée à deux types d’indicateurs : La rapidité et la vitesse. - La rapidité permet de modifier l’ordre de jeu en ajustant l’initiative dans le cadre du décompte de l’initiative. - La vitesse permet de modifier l’initiative dans le cadre d’une comparaison visant à déterminer s' il est possible d'enchaîner une seconde action après une première.
+L’initiative peut être associée à deux types d’indicateurs : la rapidité et la vitesse.
+
+- La rapidité permet de modifier l’ordre de jeu en ajustant l’initiative dans le cadre du décompte de l’initiative.
+- La vitesse permet de modifier l’initiative dans le cadre d’une comparaison visant à déterminer s' il est possible d'enchaîner une seconde action après une première.
 
 ### Quand ?
 
@@ -230,7 +244,10 @@ L’armure du personnage est l’outil qui lui sert à résister aux coups de se
 
 L’équipement de catégorie élevé est certes efficace mais il a pour contrepartie une charge qui doit être supportée par le personnage s’il ne veut pas voir ses mouvements pénalisés.
 
-Pour chaque élément de l’équipement (arme main gauche, arme main droite, armure) le personnage doit satisfaire la condition de poigne. La poigne du personnage est définie par sa force. Si la poigne du personnage n’est pas au moins égale à la charge de l’équipement alors soit : - Les actions menées à l’aide de l’arme en question sont désavantagées. - Les actions menées avec le reste du corps sont désavantagées s’il s’agit de l’armure.
+Pour chaque élément de l’équipement (arme main gauche, arme main droite, armure) le personnage doit satisfaire la condition de poigne. La poigne du personnage est définie par sa force. Si la poigne du personnage n’est pas au moins égale à la charge de l’équipement alors soit :
+
+- Les actions menées à l’aide de l’arme en question sont désavantagées.
+- Les actions menées avec le reste du corps sont désavantagées s’il s’agit de l’armure.
 
 Pour l’ensemble des éléments de l'équipement, le personnage doit satisfaire la condition de capacité de charge (sous-entendu la charge totale équipée). La capacité de charge du personnage est définie par sa force + stature + 5. La capacité de charge requise pour l’ensemble des équipements est le total des poids de ces derniers (armes + armure, l’arme ayant le plus petit poids étant divisée par 2). Si la capacité de charge du personnage n’est pas au moins égale à la somme des charges de l’équipement tel que décrit ci-dessus alors toutes les actions physiques du personnage sont désavantagées.
 
@@ -366,7 +383,11 @@ Une Action de Déplacement (ACTD) sont des actions permettant le déplacement su
 
 #### Les Actions Restreintes
 
-Une Action Restreinte peut être de n’importe quel autre type mais a pour particularité d’être limitée : - Elle ne peut profiter de manœuvre. - La catégorie effective ne peut pas être supérieure à 2. - Une attaque ne peut pas être localisée.
+Une Action Restreinte peut être de n’importe quel autre type mais a pour particularité d’être limitée :
+
+- Elle ne peut profiter de manœuvre.
+- La catégorie effective ne peut pas être supérieure à 2.
+- Une attaque ne peut pas être localisée.
 
 Il existe au moins deux façons de produire des actions restreintes : Lorsqu’on est équipé d’une seconde arme ou lorsqu’on réalise une action doublée (voir détails dans les sections idoines).
 
@@ -378,7 +399,15 @@ Une Action doublée (ACTD) est une action simple immédiatement suivie d’une a
 
 #### Fonctionnement
 
-- Une action de combat ou de joute peut être enchaînée par une seconde action. - Le personnage peut choisir de doubler une action que la première ait réussi ou échoué. - Réaliser une seconde action nécessite de dépenser une action rapide. - La seconde action n’a lieu que si la vitesse du personnage (son initiative effective) est supérieure à celle de la cible. - Si ce n’est pas le cas, l’action échoue et les coûts engagés (actions, ressources) sont perdus. - La vitesse correspond à la valeur d’initiative actuelle, modifiée le cas échéant par des effets divers (armes, traits, sorts…). - On parle de vitesse active pour celle de l’initiateur. - On parle de vitesse passive pour celle de la cible. - La seconde action est dite restreinte : elle ne peut bénéficier de manœuvres et sa catégorie d’action est limitée (voir Actions Restreintes pour les détails).
+- Une action de combat ou de joute peut être enchaînée par une seconde action.
+- Le personnage peut choisir de doubler une action que la première ait réussi ou échoué.
+- Réaliser une seconde action nécessite de dépenser une action rapide.
+- La seconde action n’a lieu que si la vitesse du personnage (son initiative effective) est supérieure à celle de la cible.
+- Si ce n’est pas le cas, l’action échoue et les coûts engagés (actions, ressources) sont perdus.
+- La vitesse correspond à la valeur d’initiative actuelle, modifiée le cas échéant par des effets divers (armes, traits, sorts…).
+- On parle de vitesse active pour celle de l’initiateur.
+- On parle de vitesse passive pour celle de la cible.
+- La seconde action est dite restreinte : elle ne peut bénéficier de manœuvres et sa catégorie d’action est limitée (voir Actions Restreintes pour les détails).
 
 Sauf mention contraire, les initiatives ne sont pas connues des protagonistes. Déclarer une action doublée relève donc d’un pari tactique : le personnage agit sans certitude d’avoir la vitesse nécessaire.
 
@@ -406,7 +435,15 @@ Une Action d’Interruption est une action qui s’intercale après une autre ac
 
 Sauf indication contraire, l’action d’interruption est désavantagée si elle est réalisée sans avoir été préparée au préalable et elle requiert l’usage d’une action rapide ou simple. Si l’action a été préparée (via une action simple) elle n’est ni désavantagée ni ne requiert l’usage d’action (vu que la préparation est elle-même une action simple). Une seule action peut être préparée/en attente et elle ne l’est plus si le personnage réalise une autre action entre temps.
 
-Les actions d’interruptions sont : - Les actions d’opportunités. - Les actions d’aides. - Les actions de défenses. - Les actions de contre (contre ou riposte). - Les secondes actions. Enchaîner avec une seconde action est aussi une interruption, cependant celle-ci n'est pas désavantagée et ne peut être préparée.
+Les actions d’interruptions sont :
+
+- Les actions d’opportunités.
+- Les actions d’aides.
+- Les actions de défenses.
+- Les actions de contre (contre ou riposte).
+- Les secondes actions.
+
+Enchaîner avec une seconde action est aussi une interruption, cependant celle-ci n'est pas désavantagée et ne peut être préparée.
 
 !!! note "Note"
     Il existe un trait permettant d’ignorer la préparation d’un certain type d’interruption. Dans ce cas le test est même avantagé si l’action a quand même été préparé !
@@ -415,17 +452,26 @@ Les actions d’interruptions sont : - Les actions d’opportunités. - Les acti
 
 Un personnage qui a une initiative positive peut agir durant un round lors de sa passe.
 
-Les actions d’une passe contiennent : - 2 Actions Simples OU 1 Action Complexe & - 1 Action Libre
+Les actions d’une passe contiennent :
+
+- 2 Actions Simples OU 1 Action Complexe.
+- 1 Action Libre.
 
 Ces actions ne coûtent rien de plus. Le personnage peut, s’il le désire, conserver l’une ou les deux de ses actions simples afin de réaliser des factions d’interruptions. Le personnage peut également faire usage de ses actions simples AVANT sa passe afin de réaliser des actions d’interruptions. Si les actions de la passe ne sont pas réalisées avant la fin du round, elles sont perdues.
 
 #### Les Actions en +
 
-En plus des actions de sa passe le personnage peut réaliser : - 1 Action Rapide, contre une réduction de 5 en initiative. - 1 Action Gratuite, si quelque chose le lui permet.
+En plus des actions de sa passe le personnage peut réaliser :
+
+- 1 Action Rapide, contre une réduction de 5 en initiative.
+- 1 Action Gratuite, si quelque chose le lui permet.
 
 #### Les Restrictions
 
-Il y a quelques restrictions concernant l’usage des actions simples d’une passe. - Les actions doivent être d’un type différent (sauf dans le cas où le personnage fait usage de deux armes). Quand on parle de type il s’agit d’attaque, défense, tactique, déplacement, etc… - Une seule de ces actions simples peut être une action doublée.
+Il y a quelques restrictions concernant l’usage des actions simples d’une passe.
+
+- Les actions doivent être d’un type différent (sauf dans le cas où le personnage fait usage de deux armes). Quand on parle de type il s’agit d’attaque, défense, tactique, déplacement, etc…
+- Une seule de ces actions simples peut être une action doublée.
 
 ### La Catégorie d’une Action
 
@@ -640,7 +686,15 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
 
 #### Dégâts Anormaux
 
-Les dégâts anormaux sont ceux qui ne respectent pas la règle de base. On dénote parmi ces deniers les cas suivants : - Les dégâts perçant ignorent la moitié de l’absorption (*). - Les dégâts transperçant ignorent totalement l’absorption (*). - Les dégâts pénétrant ignorent la résistance (*). - Les dégâts perforants ignorent la protection (*). - Les dégâts directs ignorent la résistance ET absorption (*). - Les dégâts choquants n’infligent que des dégâts temporaires (**). - Les dégâts mutilants n’infligent jamais de dégâts temporaires (**).
+Les dégâts anormaux sont ceux qui ne respectent pas la règle de base. On dénote parmi ces deniers les cas suivants :
+
+- Les dégâts perçant ignorent la moitié de l’absorption (*).
+- Les dégâts transperçant ignorent totalement l’absorption (*).
+- Les dégâts pénétrant ignorent la résistance (*).
+- Les dégâts perforants ignorent la protection (*).
+- Les dégâts directs ignorent la résistance ET absorption (*).
+- Les dégâts choquants n’infligent que des dégâts temporaires (**).
+- Les dégâts mutilants n’infligent jamais de dégâts temporaires (**).
 
 (*) : Lors de la résolution des dégâts les valeurs en question sont simplement ignorées et considérées comme à 0.
 
@@ -656,7 +710,16 @@ Une lésion est créée avec un niveau équivalent aux dégâts subis divisés p
 
 Il est techniquement possible de subir une lésion de niveau 0 et même si ces dernières ne provoquent pas de pénalités elles ont leur importance car elles peuvent finir par entraîner des lésions pire par la suite, elles ne sont donc pas à négliger.
 
-Lésion bénigne (0) : □ x 3 + mStature / mEgo (selon type). Lésion légère (1) : □ □. Lésion importante (2) : □ □. Lésion grave (3) : □ □. Lésion mortelle (4) : □ □. Lésion incapacitante (5) : □. Si une lésion doit être contractée mais que le personnage a déjà le maximum de lésion de ce niveau alors c'est une lésion de niveau supérieure qui prend sa place.
+| Lésion | Cases |
+| --- | --- |
+| Lésion bénigne (0) | □ x 3 + mStature / mEgo (selon type) |
+| Lésion légère (1) | □ □ |
+| Lésion importante (2) | □ □ |
+| Lésion grave (3) | □ □ |
+| Lésion mortelle (4) | □ □ |
+| Lésion incapacitante (5) | □ |
+
+Si une lésion doit être contractée mais que le personnage a déjà le maximum de lésion de ce niveau alors c'est une lésion de niveau supérieure qui prend sa place.
 
 #### Aggravation d’une Lésion
 
@@ -850,7 +913,12 @@ Les dégâts issus des énergies sont à considérer avec précaution.
 
 Une action générant des dégâts d’énergie (tel que : chaleur (feu), froid (glace), électricité…) alors celle-ci doit dépasser la défense passive qui lui est associée pour les produire. Sinon, comme pour une attaque normale, les dégâts n’ont pas lieu.
 
-Il faut bien considérer les dégâts d’énergies comme complémentaires si d’autres types de dégâts sont associés à la même source. Chaque type de dégâts est associés à une défense passive qui lui est spécifique : - Si le test ayant généré ces dégâts dépasse la défense passive associée à l’énergie alors les dégâts d’énergies sont infligés. - Si le test ayant généré ces dégâts dépasse la défense passive associée à la partie physique alors les dégâts physiques sont infligés. - Si la partie physique rate alors les dégâts complémentaires ne peuvent pas survenir. - Si l’un et l’autre des tests réussissent les dégâts sont combinés (après multiplicateurs appliqués séparément le cas échéant) avant de passer à l’attribution de ces derniers.
+Il faut bien considérer les dégâts d’énergies comme complémentaires si d’autres types de dégâts sont associés à la même source. Chaque type de dégâts est associés à une défense passive qui lui est spécifique :
+
+- Si le test ayant généré ces dégâts dépasse la défense passive associée à l’énergie alors les dégâts d’énergies sont infligés.
+- Si le test ayant généré ces dégâts dépasse la défense passive associée à la partie physique alors les dégâts physiques sont infligés.
+- Si la partie physique rate alors les dégâts complémentaires ne peuvent pas survenir.
+- Si l’un et l’autre des tests réussissent les dégâts sont combinés (après multiplicateurs appliqués séparément le cas échéant) avant de passer à l’attribution de ces derniers.
 
 Exemple : Une flèche enflammée produit à la fois ses dégâts physiques (lié à la catégorie de son arme) et des dégâts d’énergie (issus du feu).
 
@@ -1184,7 +1252,12 @@ Les portées et les zones sont décrites dans la section des caractéristiques d
 
 Lors des combats les actions d’un individu peuvent provoquer des actions d’opportunités de la part des autres protagonistes. Tout ce qui suit n’affecte ainsi que ce qui touche sur le plan physique.
 
-Les actions d’opportunité en combat ont lieu : - lorsqu’une action complexe a lieu à portée de mêlée d’un adversaire. Les actions complexes incluent les actions étendues nécessitant au moins deux actions simples. Une action complexe qui requiert moins d’action parce que le personnage est habitué à les réaliser est toujours sujette aux opportunités, c’est le prérequis en action initial qui compte. - lorsqu’une action de déplacement (autre qu’une action réputée sécurisée) se déroule (même partiellement) à portée de mêlée d’un adversaire. Notons que dans tous les cas la zone de contrôle active du personnage qui souhaite réaliser une opportunité doit être supérieure à la zone de contrôle passive de celui qui tente de passer, sans quoi son action d’opportunité sera désavantagée.
+Les actions d’opportunité en combat ont lieu :
+
+- Lorsqu’une action complexe a lieu à portée de mêlée d’un adversaire. Les actions complexes incluent les actions étendues nécessitant au moins deux actions simples. Une action complexe qui requiert moins d’action parce que le personnage est habitué à les réaliser est toujours sujette aux opportunités, c’est le prérequis en action initial qui compte.
+- Lorsqu’une action de déplacement (autre qu’une action réputée sécurisée) se déroule (même partiellement) à portée de mêlée d’un adversaire.
+
+Notons que dans tous les cas la zone de contrôle active du personnage qui souhaite réaliser une opportunité doit être supérieure à la zone de contrôle passive de celui qui tente de passer, sans quoi son action d’opportunité sera désavantagée.
 
 Les actions d’opportunité sont des actions d’interruptions, généralement des attaques ou des tactiques. Elles sont désavantagées si elles ne sont pas préparées et ne sont pas gratuites non plus (bien que certains traits puissent le permettre) nécessitant une action rapide (-5 à l’initiative). L’intérêt des opportunités est de pouvoir justement interrompre l’adversaire en réalisant une action dont il ne pourra se défendre car on ne peut réagir à une interruption via une interruption. En fonction du résultat de celle-ci , ce dernier pourrait bien perdre l’usufruit de son action !
 
@@ -1224,7 +1297,12 @@ En confrontation il est une autre notion très importante (décidément il y en 
 
 Il existe ainsi deux types de localisations : Les localisations du corps et les localisations de l’esprit.
 
-Lorsqu’un coup est porté, il peut être localisé ou non. N’importe quelle attaque qui n’est pas de zone peut être localisée. La décision s’effectue avant de porter le coup (et donc avant le test d’attaque). - Une attaque qui n’est pas localisée est gérée de manière conventionnelle. Les lésions, le cas échéant, sont générales et affectent l’ensemble des actions. - Une attaque qui est localisée se gère un peu différemment : En plus de la défense passive l’attaque (désavantagée) peut également dépasser une difficulté supplémentaire, dites difficulté de visée, afin de doubler la gravité associée à la lésion (associant par la même occasion cette lésion et ses pénalités à une localisation précise). Si la difficulté de visée n’est pas atteinte mais que la défense passive adverse est dépassée alors le coup est porté normalement. La difficulté de visée est basée sur la défense d’un attribut qui dépend de la zone visée +5.
+Lorsqu’un coup est porté, il peut être localisé ou non. N’importe quelle attaque qui n’est pas de zone peut être localisée. La décision s’effectue avant de porter le coup (et donc avant le test d’attaque).
+
+- Une attaque qui n’est pas localisée est gérée de manière conventionnelle. Les lésions, le cas échéant, sont générales et affectent l’ensemble des actions.
+- Une attaque qui est localisée se gère un peu différemment : En plus de la défense passive l’attaque (désavantagée) peut également dépasser une difficulté supplémentaire, dites difficulté de visée, afin de doubler la gravité associée à la lésion (associant par la même occasion cette lésion et ses pénalités à une localisation précise).
+
+Si la difficulté de visée n’est pas atteinte mais que la défense passive adverse est dépassée alors le coup est porté normalement. La difficulté de visée est basée sur la défense d’un attribut qui dépend de la zone visée +5.
 
 Il est bien important de noter qu’une attaque localisée voit effectivement la gravité de ses lésions doublée cependant celles-ci (et les pénalités qu’elles entraînent) n’affectent alors QUE la zone touchée (et les actions réalisées avec l’attribut qui en dépendent). De même, il est important de noter qu’il est possible de priver une cible de son membre (via une lésion incapacitante) voir de le tuer (si la localisation est la tête) car de fait le niveau de lésion est toujours bien plus grave (le double). Enfin il est possible de réaliser une action de visée afin de se préparer, épargnant ainsi le désavantage au test d’attaque (voir le compendium des actions).
 
@@ -1297,7 +1375,11 @@ La récupération de l’endurance est extrêmement rapide. Toute l’endurance 
 
 La récupération des autres ressources est beaucoup plus lente et a lieu lors des repos. Le repos correspond à une période où le personnage se repose. Une récupération de base est de 5 + modificateur de sagesse.
 
-Un repos est ainsi divisé en 3 conditions : Le lieu, la nourriture et le sommeil. Chaque condition peut : ne pas être remplie (-2), être remplie (+0) ou être remplie plus que nécessaire (+1).
+Un repos est ainsi divisé en 3 conditions : le lieu, la nourriture et le sommeil. Chaque condition peut :
+
+- Ne pas être remplie (-2).
+- Être remplie (+0).
+- Être remplie plus que nécessaire (+1).
 
 !!! note "Note"
     Une nuit chez soi ou dans une auberge permet généralement un repos optimal. Les nuits en extérieur sont souvent moins clémentes mais ce n’est rien contre l’absence total de repos !
@@ -1417,17 +1499,26 @@ Les compétences affectées sont notées d’un (*) dans la liste des compétenc
 
 ### Le Combat à une main
 
-Les avantages : - Le fait d’employer uniquement sa main principale a l’avantage de libérer la seconde pour tout un tas d’autres actions qui ne nécessite alors pas de lâcher ce que l’on tient (boire un truc, allé chercher quelque chose à sa ceinture, etc).
+Les avantages :
 
-Les inconvénients : - Aucuns sinon que la seconde main ne porte rien d’utile.
+- Le fait d’employer uniquement sa main principale a l’avantage de libérer la seconde pour tout un tas d’autres actions qui ne nécessite alors pas de lâcher ce que l’on tient (boire un truc, allé chercher quelque chose à sa ceinture, etc).
+
+Les inconvénients :
+
+- Aucuns sinon que la seconde main ne porte rien d’utile.
 
 ### Le Combat à deux mains
 
-Les avantages : - Certaines armes requièrent obligatoire l’usage des deux mains (arc, etc). C’est la logique qui prime.
+Les avantages :
+
+- Certaines armes requièrent obligatoire l’usage des deux mains (arc, etc). C’est la logique qui prime.
 
 - Pour les armes de mêlée, le fait d’employer sa seconde main sur une même arme a pour effet d’augmenter la poigne de 5, ce qui permet d’utiliser des armes bien plus lourdes que la normale sans désavantage.
 
-Les inconvénients : - La seconde main ne peut réaliser la même action que la première, ce qui réduit drastiquement le champ des possibilités. - Le personnage doit faire usage d’une action libre supplémentaire pour attaquer avec une arme à deux mains, il est donc moins libre de ses gestes. Notons qu’un trait permet de s’habituer et donc d’ignorer cela.
+Les inconvénients :
+
+- La seconde main ne peut réaliser la même action que la première, ce qui réduit drastiquement le champ des possibilités.
+- Le personnage doit faire usage d’une action libre supplémentaire pour attaquer avec une arme à deux mains, il est donc moins libre de ses gestes. Notons qu’un trait permet de s’habituer et donc d’ignorer cela.
 
 !!! note "Note"
     Un personnage équipé d’une arme à deux mains peut réaliser une action simple spéciale permettant d’armer son bras afin de favoriser la prochaine action du type de son choix (attaque, défense ou tactique).
@@ -1458,7 +1549,13 @@ Les armes à distances sont sujettes aux règles de portée et des obstacles, ce
 
 Les mains gauches sont des armes disposant de la propriété « bouclier ».
 
-Tous les « boucliers » sont sujets aux règles suivantes : - La catégorie des actions de défense (avec le bouclier) est augmentée de 2. - La catégorie des actions d’attaque (avec le bouclier) est réduite de 2. - Le bouclier n’est pas affecté par les pénalités de répétition. - Le fait d’être équipé d’un bouclier (levé et prêt à l’usage) accorde un bonus de défense passive contre les attaques à distances (peu importe sur quel attribut le test est réalisé/s’attaque) équivalant à la Catégorie du bouclier. Ce bonus ne s’applique pas aux défenses actives. - L’action « monter ses défenses » reçoit un bonus de +2 lorsqu’elle est réalisée à l’aide d’un bouclier.
+Tous les « boucliers » sont sujets aux règles suivantes :
+
+- La catégorie des actions de défense (avec le bouclier) est augmentée de 2.
+- La catégorie des actions d’attaque (avec le bouclier) est réduite de 2.
+- Le bouclier n’est pas affecté par les pénalités de répétition.
+- Le fait d’être équipé d’un bouclier (levé et prêt à l’usage) accorde un bonus de défense passive contre les attaques à distances (peu importe sur quel attribut le test est réalisé/s’attaque) équivalant à la Catégorie du bouclier. Ce bonus ne s’applique pas aux défenses actives.
+- L’action « monter ses défenses » reçoit un bonus de +2 lorsqu’elle est réalisée à l’aide d’un bouclier.
 
 !!! note "Note"
     Concernant le bonus de défense passive à distance, on considère que par défaut le personnage se défend des dangers qui lui font face. Ce bonus est donc à considérer dans le cas où une attaque provient de cette direction (considérez une couverture à 180° devant le personnage). Bien entendu, le personnage peut à tout moment orienter son bouclier dans une direction donnée (action libre) afin de couvrir une nouvelle direction.
@@ -1481,7 +1578,10 @@ En combat il y a des difficultés qui ont pour vocation d’être confrontés à
 
 L’Expertise Physique mesure donc la difficulté associée aux conditions et autres effets physique (tel que la difficulté opposée aux réflexes pour les actions de zone ou encore la difficulté à surmonter pour ne pas être déconcentré), elle est généralement confrontée à la sauvegarde de robustesse pour ce qui est des conditions et de la concentration ou aux réflexes pour ce qui est des effets zones, déclenchés etc…
 
-Quelques situations : - Le personnage a enduit du poison sur arme. Lorsqu’il touche un adversaire et le blesse, ce dernier doit effectuer un test de robustesse contre l’expertise physique du personnage pour déterminer s’il subit l’entièreté des charges du poison ou moins. - Le personnage touche en mêlée un adversaire qui est en train de réaliser une action maintenue, ce dernier doit réussir un test de détermination contre l’expertise physique du personnage pour ne pas perdre sa progression (ou autre selon la situation).
+Quelques situations :
+
+- Le personnage a enduit du poison sur arme. Lorsqu’il touche un adversaire et le blesse, ce dernier doit effectuer un test de robustesse contre l’expertise physique du personnage pour déterminer s’il subit l’entièreté des charges du poison ou moins.
+- Le personnage touche en mêlée un adversaire qui est en train de réaliser une action maintenue, ce dernier doit réussir un test de détermination contre l’expertise physique du personnage pour ne pas perdre sa progression (ou autre selon la situation).
 
 ### Les Attributs en Combat
 
@@ -1648,7 +1748,19 @@ Un objet improvisé doit réaliser un test de solidité contre lui-même après 
 
 ### Les Armes Improvisées
 
-En combat il est possible de faire usage d’éléments du décors afin d’en faire des armes improvisées. Dans ce cas c’est le MJ qui détermine quel est la catégorie qui colle le mieux à l’élément en question, mais voici un petit ordre d’idée : - Une bouteille : Catégorie 1. - Une chaise : Catégorie 2. - Une table : Catégorie 3. A chaque fois qu’une arme improvisée est utilisée pour réaliser des actions de combat (attaque, défense ou tactique) elle doit effectuer un test de solidité tel que le prévoit la règle sur les objets improvisés. Notons que dans certains cas des armes peuvent être considérées comme improvisées car utilisées dans un cadre qui n’est pas le leur. Par exemple : - Une arme de mêlée lancée sur un adversaire est une arme improvisée. - Une arme de jet est utilisée sur un adversaire en mêlée. - Une arme à distance est utilisée pour parer ou bloquer une attaque.
+En combat il est possible de faire usage d’éléments du décors afin d’en faire des armes improvisées. Dans ce cas c’est le MJ qui détermine quel est la catégorie qui colle le mieux à l’élément en question, mais voici un petit ordre d’idée :
+
+- Une bouteille : Catégorie 1.
+- Une chaise : Catégorie 2.
+- Une table : Catégorie 3.
+
+A chaque fois qu’une arme improvisée est utilisée pour réaliser des actions de combat (attaque, défense ou tactique) elle doit effectuer un test de solidité tel que le prévoit la règle sur les objets improvisés.
+
+Notons que dans certains cas des armes peuvent être considérées comme improvisées car utilisées dans un cadre qui n’est pas le leur. Par exemple :
+
+- Une arme de mêlée lancée sur un adversaire est une arme improvisée.
+- Une arme de jet est utilisée sur un adversaire en mêlée.
+- Une arme à distance est utilisée pour parer ou bloquer une attaque.
 
 ### Particularités d’un équipement
 
@@ -1704,9 +1816,15 @@ Si la prestance du personnage ne satisfait pas à la charge totale que représen
 
 ### La Diatribe
 
-Les avantages : - Le fait d’employer une diatribe augmente de 50% le panache. - Cela permet également d’ajouter un bonus aux jets équivalant à la catégorie de l’argument ou du discours. Ce bonus affecte respectivement les actions d’attaques ou de défenses.
+Les avantages :
 
-Les inconvénients : - Faire usage d’une diatribe si le panache requis est inférieur au panache du personnage provoque un désavantage. - Agir (attaque, défense, etc) à l’aide d’une diatribe nécessite une action complexe (sauf si l’on est « habitué à » via un trait).
+- Le fait d’employer une diatribe augmente de 50% le panache.
+- Cela permet également d’ajouter un bonus aux jets équivalant à la catégorie de l’argument ou du discours. Ce bonus affecte respectivement les actions d’attaques ou de défenses.
+
+Les inconvénients :
+
+- Faire usage d’une diatribe si le panache requis est inférieur au panache du personnage provoque un désavantage.
+- Agir (attaque, défense, etc) à l’aide d’une diatribe nécessite une action complexe (sauf si l’on est « habitué à » via un trait).
 
 ### L’Expertise (mentale) en Joute
 
@@ -1722,7 +1840,10 @@ Dans certains cas des effets peuvent mentionner l'expertise sociale. Elle n'est 
 
 - Expertise Sociale : 10 + modificateur de Charisme.
 
-Quelques situations : - Un personnage réalise une action d'intimidation déclenchant un test de moral adverse : la difficulté du test de Détermination est l'expertise sociale de l'instigateur plutôt que la valeur standard. - Un personnage utilisant l'archétype Inspiration avec le style Malus force ses cibles à résister via un jet de Détermination contre son expertise sociale.
+Quelques situations :
+
+- Un personnage réalise une action d'intimidation déclenchant un test de moral adverse : la difficulté du test de Détermination est l'expertise sociale de l'instigateur plutôt que la valeur standard.
+- Un personnage utilisant l'archétype Inspiration avec le style Malus force ses cibles à résister via un jet de Détermination contre son expertise sociale.
 
 ### Les Attributs en Joute
 
@@ -1900,7 +2021,8 @@ Une cible disposant de points de moral peut les dépenser pour compléter son te
 
 Durant une confrontation il peut être nécessaire de déterminer aléatoirement les individus pris pour cibles. Ceci est particulièrement vrai si rien de logique ne vient désigner une cible par défaut. Il est important de noter qu’il n’est pas conseillé d’utiliser la notion de menace en permanence mais plutôt avec parcimonie et lorsqu’elle revêt un intérêt réel. Dans un tel cas, chaque individu se voit octroyer un niveau de menace équivalant à la somme des catégories de son arme la plus lourde et de son armure (ou de son argument et de sa résolution en joute). Puis un 🎲 🎲 🎲 sont tirés :
 
-- Si aucune cible n’a de menace plus haute que le résultat, la cible prioritaire sera la plus proche/la plus simple d’accès. - Si un individu à une menace équivalente ou plus basse elle sera prise pour cible.
+- Si aucune cible n’a de menace plus haute que le résultat, la cible prioritaire sera la plus proche/la plus simple d’accès.
+- Si un individu à une menace équivalente ou plus basse elle sera prise pour cible.
 - Si plusieurs individus ont une menace équivalente ou plus basse c’est la plus basse d’entre elles qui sera prise pour cible.
 
 Les circonstances particulières peuvent réduire ou augmenter la menace d’un individu de 5. Selon l’univers ce peut être les pratiquants de magie par exemple, etc…

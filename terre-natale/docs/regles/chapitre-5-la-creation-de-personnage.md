@@ -264,35 +264,85 @@ Les tendances sont des notions qui regroupent les caractéristiques du caractèr
 | Exclusif | A/D | B/D | D/D | L/D |
 | Passif | A/L | B/L | D/L | L/L |
 
-Alpha, Bêta et Oméga sont des tendances marquées. Les personnalités les plus influentes sont généralement associées à ce type de tendance qui permet plus aisément l’accès à la réussite. Lambda est une tendance neutre. Elle est la plus répandue et la moins marquante. Souvent les gens du peuple suivent grandement cette tendance. Le Comportement Le comportement désigne la façon dont le personnage perçoit ses droits et ceux des autres. De cette vision des choses naît l’attitude du personnage envers les eux.
+Alpha, Bêta et Oméga sont des tendances marquées. Les personnalités les plus influentes sont généralement associées à ce type de tendance qui permet plus aisément l’accès à la réussite.
+
+Lambda est une tendance neutre. Elle est la plus répandue et la moins marquante. Souvent les gens du peuple suivent grandement cette tendance.
+
+### Le Comportement
+
+Le comportement désigne la façon dont le personnage perçoit ses droits et ceux des autres. De cette vision des choses naît l’attitude du personnage envers les eux.
 
 #### Agressif
 
-Tendance : Alpha. Description : Le personnage cherche à imposer ses désidératas en prouvant leurs bienfaits cout que cout. Il se remet peu en question et ne se préoccupe pas de déclencher un conflit pour en venir à ses fins. Souvent les agressifs atteignent leur but mais non sans détériorer la relation à court terme. - Il défend ses droits aux dépens de ceux des autres. - Il choisit pour les autres. - Il critique directement. - Il cherche à provoquer le sentiment de peur, de soumission ou d’impuissance.
+Tendance : Alpha.
 
-Assertif Tendance : Bêta. Description : Le personnage fait montre d’un comportement consistant à exprimer ses besoins et sentiments tout en tenant compte des droits et avis des autres. Le personnage manifeste une communication claire afin de permettre l’entente. Il cherche à préserver une relation autant que faire se peut. - Il défend ses droits tout en respectant ceux des autres. - Il choisit pour lui-même. - Il critique les comportements mais pas les personnes. - Il favorise la communication et n’évite pas le conflit si c’est nécessaire.
+Le personnage cherche à imposer ses désidératas en prouvant leurs bienfaits cout que cout. Il se remet peu en question et ne se préoccupe pas de déclencher un conflit pour en venir à ses fins. Souvent les agressifs atteignent leur but mais non sans détériorer la relation à court terme.
+
+- Il défend ses droits aux dépens de ceux des autres.
+- Il choisit pour les autres.
+- Il critique directement.
+- Il cherche à provoquer le sentiment de peur, de soumission ou d’impuissance.
+
+#### Assertif
+
+Tendance : Bêta.
+
+Le personnage fait montre d’un comportement consistant à exprimer ses besoins et sentiments tout en tenant compte des droits et avis des autres. Le personnage manifeste une communication claire afin de permettre l’entente. Il cherche à préserver une relation autant que faire se peut.
+
+- Il défend ses droits tout en respectant ceux des autres.
+- Il choisit pour lui-même.
+- Il critique les comportements mais pas les personnes.
+- Il favorise la communication et n’évite pas le conflit si c’est nécessaire.
 
 #### Exclusif
 
-Tendance : Delta. Description : Le personnage ne manifeste que peu de respect pour l’avis des autres et ne répond généralement qu’à ses propres besoins. Il évite les conflits ouverts pour tisser une toile moins visible mais plus solide. - Il défend ses droits aux dépens de ceux des autres. - Il choisit pour les autres. - Il critique indirectement. - Il cherche à provoquer le sentiment de culpabilité, de pitié, de peur, de surprise ou de fascination.
+Tendance : Delta.
 
-Passif Tendance : Lambda. Description : Le personnage se caractérise par le fait qu’il ne respecte pas ses propres besoins ou sentiments. Il les oublie complètement au profit de ceux des autres. Il va tout accepter pour eux sans se préoccuper des conséquences pour lui-même. Inutile de préciser que ce comportement permet d’éviter toute forme de conflit… - Il ne défend pas ses droits mais ceux des autres. - Il laisse les autres choisir pour lui. - Il ne critique pas, voire craint celle-ci. - Il ne cherche pas à provoquer de sentiment spécifique mais plutôt à éviter de perturber ceux des autres. Le Caractère La personnalité définit la façon dont le personnage réagit face à des situations données. De cette mentalité nait les forces et faiblesses du personnage envers les autres comportements.
+Le personnage ne manifeste que peu de respect pour l’avis des autres et ne répond généralement qu’à ses propres besoins. Il évite les conflits ouverts pour tisser une toile moins visible mais plus solide.
+
+- Il défend ses droits aux dépens de ceux des autres.
+- Il choisit pour les autres.
+- Il critique indirectement.
+- Il cherche à provoquer le sentiment de culpabilité, de pitié, de peur, de surprise ou de fascination.
+
+#### Passif
+
+Tendance : Lambda.
+
+Le personnage se caractérise par le fait qu’il ne respecte pas ses propres besoins ou sentiments. Il les oublie complètement au profit de ceux des autres. Il va tout accepter pour eux sans se préoccuper des conséquences pour lui-même. Inutile de préciser que ce comportement permet d’éviter toute forme de conflit…
+
+- Il ne défend pas ses droits mais ceux des autres.
+- Il laisse les autres choisir pour lui.
+- Il ne critique pas, voire craint celle-ci.
+- Il ne cherche pas à provoquer de sentiment spécifique mais plutôt à éviter de perturber ceux des autres.
+
+### Le Caractère
+
+La personnalité définit la façon dont le personnage réagit face à des situations données. De cette mentalité nait les forces et faiblesses du personnage envers les autres comportements.
 
 #### Dominateur
 
-Tendance : Alpha. Description : Le personnage a tendance à penser que son avis prévaut sur celui des autres car il a la conviction que ses certitudes sont des faits acquis. De fait, il cherche généralement à pousser les autres à le suivre, sûr de les mener vers le bon chemin. Ce n’est en aucun cas une personnalité négative : Dans la société les dominateurs sont des moteurs d’avancements importants et des leaders efficaces.
+Tendance : Alpha.
+
+Le personnage a tendance à penser que son avis prévaut sur celui des autres car il a la conviction que ses certitudes sont des faits acquis. De fait, il cherche généralement à pousser les autres à le suivre, sûr de les mener vers le bon chemin. Ce n’est en aucun cas une personnalité négative : Dans la société les dominateurs sont des moteurs d’avancements importants et des leaders efficaces.
 
 #### Introvertie
 
-Tendance : Bêta. Description : Le personnage a tendance à accueillir une situation avec recul et considération. Il pèse le pour et le contre avant de décider d’une marche à suivre. Ce sont des personnes tout à fait capables de revoir leur jugement à la lueur d’éléments nouveaux ou d’autres perspectives. Ce n’est bien entendu pas une personnalité entièrement positive : Ces personnes sont certes pleines de considérations mais elles manquent de fermeté et d’impulsivité.
+Tendance : Bêta.
+
+Le personnage a tendance à accueillir une situation avec recul et considération. Il pèse le pour et le contre avant de décider d’une marche à suivre. Ce sont des personnes tout à fait capables de revoir leur jugement à la lueur d’éléments nouveaux ou d’autres perspectives. Ce n’est bien entendu pas une personnalité entièrement positive : Ces personnes sont certes pleines de considérations mais elles manquent de fermeté et d’impulsivité.
 
 #### Extravertie
 
-Tendance : Delta. Description : Cette personnalité est la plus complexe car elle recueille une multitude de nuances. Toutes ont pour dénominateur commun la nécessité de se démarquer des autres, de ne pas suivre aveuglément des règles, de ne pas se faire imposer d’avis, de penser par soi-même. Les personnes manipulatrices sont à la fois celles qui rejettent l’idée qu’on leurs imposent quoi que ce soit ou celles qui s’amusent à tourner autour du pot afin de perdre leurs interlocuteurs dans le non-sens.
+Tendance : Delta.
+
+Cette personnalité est la plus complexe car elle recueille une multitude de nuances. Toutes ont pour dénominateur commun la nécessité de se démarquer des autres, de ne pas suivre aveuglément des règles, de ne pas se faire imposer d’avis, de penser par soi-même. Les personnes manipulatrices sont à la fois celles qui rejettent l’idée qu’on leurs imposent quoi que ce soit ou celles qui s’amusent à tourner autour du pot afin de perdre leurs interlocuteurs dans le non-sens.
 
 #### Conciliateur
 
-Tendance : Lambda. Description : Cette personnalité est particulière puisqu’elle désigne l’absence des 3 autres.
+Tendance : Lambda.
+
+Cette personnalité est particulière puisqu’elle désigne l’absence des 3 autres.
 
 ### Le Chiffre porte bonheur
 

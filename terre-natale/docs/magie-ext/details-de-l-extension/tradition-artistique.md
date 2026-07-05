@@ -4,9 +4,18 @@ Pour la tradition artistique, la magie est une esthétique : elle se chante, s�
 
 #### Structure & Limitations
 
-Un sort doit contenir: - Un mot de pouvoir. - Un mot de forme. - Un mot d’ancrage. - Un ou des mots clés si d’autres mots l’exigent.
+Un sort doit contenir:
 
-Un sort peut contenir: - Un mot de structure. - Un ou des mots de liaison. - Un mot supérieur.
+- Un mot de pouvoir.
+- Un mot de forme.
+- Un mot d’ancrage.
+- Un ou des mots clés si d’autres mots l’exigent.
+
+Un sort peut contenir:
+
+- Un mot de structure.
+- Un ou des mots de liaison.
+- Un mot supérieur.
 
 ### Les Propriétés d’un Sort
 
@@ -56,7 +65,10 @@ L’intelligence affecte la puissance des sorts « pratiques » (ceux basés sur
 
 ### Les Cibles d’un Sort
 
-Un sort peut affecter différentes sortes et formes de cibles. Ce qui définit qui et quoi peut être affecté par un sort est définit par : - Les effets du sort. - La logique (en cas de litige le MJ tranche).
+Un sort peut affecter différentes sortes et formes de cibles. Ce qui définit qui et quoi peut être affecté par un sort est définit par :
+
+- Les effets du sort.
+- La logique (en cas de litige le MJ tranche).
 
 Une cible peut être : Une personne, un objet, un lieu. Un lieu est un environnement qui est limité en superficie par la zone d’effet du sort.
 

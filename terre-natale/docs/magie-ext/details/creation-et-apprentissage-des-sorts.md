@@ -44,7 +44,11 @@ Voici la liste des mots de formes. Certains mots de formes sont spécifiques à 
 
 #### Distance
 
-Description : Le sort peut toucher à distance en se manifestant sous forme d’une sphère énergétique véhiculant la mana. L’aspect, essentiellement les couleurs et effets de lumières, de cette sphère varie en fonction du domaine du sort en question. Difficulté Supplémentaire : +1. Effet : Le ciblage du sort ne se fait plus au contact mais à l’impact, donc à distance. La portée d’un sort devient 5 + modificateur de Perception. Note : Le mot de liaison « long » permet d’accroitre la portée.
+Description : Le sort peut toucher à distance en se manifestant sous forme d’une sphère énergétique véhiculant la mana. L’aspect, essentiellement les couleurs et effets de lumières, de cette sphère varie en fonction du domaine du sort en question. Difficulté Supplémentaire : +1.
+
+Effet : Le ciblage du sort ne se fait plus au contact mais à l’impact, donc à distance. La portée d’un sort devient 5 + modificateur de Perception.
+
+Note : Le mot de liaison « long » permet d’accroitre la portée.
 
 ![](../images/image2.png)
 
@@ -54,7 +58,11 @@ Voici la liste des mots de liaison. Certains mots de liaisons sont spécifiques 
 
 #### Long
 
-Description : La portée du sort est accrue, ce qui permet bien entendu d’affecter des cibles bien plus lointaines. Difficulté Supplémentaire : +1. Condition : Le sort doit avoir une portée supérieure à 0. Effet : La portée du sort est décuplée en fonction du nombre de fois que ce mot est ajouté. 1x : x2. 2x : x5. 3x : x10. 4x : x25. 5x : x50.
+Description : La portée du sort est accrue, ce qui permet bien entendu d’affecter des cibles bien plus lointaines. Difficulté Supplémentaire : +1.
+
+Condition : Le sort doit avoir une portée supérieure à 0.
+
+Effet : La portée du sort est décuplée en fonction du nombre de fois que ce mot est ajouté. 1x : x2. 2x : x5. 3x : x10. 4x : x25. 5x : x50.
 
 ![](../images/image2.png)
 
@@ -66,6 +74,8 @@ Les mots clés servent à renseigner une information qui servira à orienter les
 
 #### « Primordiale »
 
-Clé multiple Effet : Les 9 mots clés primordiaux sont : Lumière et Ombre, Vie et Mort, Loi et Chaos, Corps et Esprit.
+Clé multiple
+
+Effet : Les 9 mots clés primordiaux sont : Lumière et Ombre, Vie et Mort, Loi et Chaos, Corps et Esprit.
 
 ![](../images/image3.gif)

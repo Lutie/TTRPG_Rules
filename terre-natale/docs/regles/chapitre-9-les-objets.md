@@ -456,7 +456,15 @@ Voici les particularités des arcs :
 
     Cela n’est possible que pour les frondes, les arcs et les armes de lancé.
 
-Voici les particularités des arbalètes : - Dispose d’un magasin d’un trait unique. - Utilise des traits comme munitions. - Conteneur d’accès rapide : Carquois. - Déclinaisons : Arbalète de poing (catégorie 1), Arbalète légère (catégorie 2), Arbalète à poignet (catégorie 3), Arbalète lourde (catégorie 4), Arbalète à pompes (catégorie 5), Baliste légère (mobile) (catégorie 5), Baliste (catégorie 6), Baliste lourde (catégorie 7). - L’arbalète de poing s’utilise à une main (mais les deux mains sont nécessaires pour recharger quoi qu’il arrive), toutes les autres s'utilisent à deux mains. - Les arbalètes sont des armes mécaniques (voir ci-dessous pour ce que cela implique). - Rechargement : Action Simple.
+Voici les particularités des arbalètes :
+
+- Dispose d’un magasin d’un trait unique.
+- Utilise des traits comme munitions.
+- Conteneur d’accès rapide : Carquois.
+- Déclinaisons : Arbalète de poing (catégorie 1), Arbalète légère (catégorie 2), Arbalète à poignet (catégorie 3), Arbalète lourde (catégorie 4), Arbalète à pompes (catégorie 5), Baliste légère (mobile) (catégorie 5), Baliste (catégorie 6), Baliste lourde (catégorie 7).
+- L’arbalète de poing s’utilise à une main (mais les deux mains sont nécessaires pour recharger quoi qu’il arrive), toutes les autres s'utilisent à deux mains.
+- Les arbalètes sont des armes mécaniques (voir ci-dessous pour ce que cela implique).
+- Rechargement : Action Simple.
 
 !!! info "Rappel"
     La Baliste (mobile) est une arbalète massive mais toujours mobile et difficile à utiliser, elle doit être plantée au sol etc… En termes de règle, en faire usage requiert une action simple ET une action rapide.
@@ -465,9 +473,30 @@ Voici les particularités des arbalètes : - Dispose d’un magasin d’un trait
 
 Les armes à feu comptent les armes de poings (revolvers et canon à main) et les armes d’épaules (fusils et canon).
 
-Voici les particularités des armes de poing : - Dispose d’un magasin d’une capacité de 8 munitions (catégorie 2), 6 munitions (catégorie 3) ou 4 munitions (catégorie 4). - Utilise des balles comme munitions. - Conteneur d’accès rapide : Sacoche. - Déclinaisons : Pistolet léger (catégorie 2), Pistolet lourd (catégorie 3), Revolver (catégorie 4). - Pistolet et Revolvers s'utilisent à une main. Il est cependant possible de les utiliser à deux mains afin de réduire le recul de 5. - Lors d’un tir l’utilisateur est sujet au recule. - Les armes de poing sont des armes mécaniques (voir ci-dessous pour ce que cela implique). - Les armes de poing sont des armes à feu (voir ci-dessous pour ce que cela implique). - Rechargement : Action Simple x2.
+Voici les particularités des armes de poing :
 
-Voici les particularités des armes d’épaule : - Dispose d’un magasin d’une capacité de 4 munitions (catégorie 2) ou 2 munitions pour les autres, sauf les canons qui n’ont qu’une munition. - Utilise des cartouches comme munitions. - Conteneur d’accès rapide : Cartouchière. - Déclinaisons : Arquebuse (catégorie 2), Carabine (catégorie 3), Mousquet (catégorie 4), Fusil (catégorie 5), Canon léger (mobile) (catégorie 6). - S’utilise à deux mains. - Lors d’un tir l’utilisateur est sujet au recule. - Les armes d’épaule sont des armes mécaniques (voir ci-dessous pour ce que cela implique). - Les armes d’épaule sont des armes à feu (voir ci-dessous pour ce que cela implique). - Les armes d’épaule sont des armes dangereuses (voir ci-dessous pour ce que cela implique). - Rechargement : Action Simple x3.
+- Dispose d’un magasin d’une capacité de 8 munitions (catégorie 2), 6 munitions (catégorie 3) ou 4 munitions (catégorie 4).
+- Utilise des balles comme munitions.
+- Conteneur d’accès rapide : Sacoche.
+- Déclinaisons : Pistolet léger (catégorie 2), Pistolet lourd (catégorie 3), Revolver (catégorie 4).
+- Pistolet et Revolvers s'utilisent à une main. Il est cependant possible de les utiliser à deux mains afin de réduire le recul de 5.
+- Lors d’un tir l’utilisateur est sujet au recule.
+- Les armes de poing sont des armes mécaniques (voir ci-dessous pour ce que cela implique).
+- Les armes de poing sont des armes à feu (voir ci-dessous pour ce que cela implique).
+- Rechargement : Action Simple x2.
+
+Voici les particularités des armes d’épaule :
+
+- Dispose d’un magasin d’une capacité de 4 munitions (catégorie 2) ou 2 munitions pour les autres, sauf les canons qui n’ont qu’une munition.
+- Utilise des cartouches comme munitions.
+- Conteneur d’accès rapide : Cartouchière.
+- Déclinaisons : Arquebuse (catégorie 2), Carabine (catégorie 3), Mousquet (catégorie 4), Fusil (catégorie 5), Canon léger (mobile) (catégorie 6).
+- S’utilise à deux mains.
+- Lors d’un tir l’utilisateur est sujet au recule.
+- Les armes d’épaule sont des armes mécaniques (voir ci-dessous pour ce que cela implique).
+- Les armes d’épaule sont des armes à feu (voir ci-dessous pour ce que cela implique).
+- Les armes d’épaule sont des armes dangereuses (voir ci-dessous pour ce que cela implique).
+- Rechargement : Action Simple x3.
 
 !!! info "Rappel"
     La Canon (mobile) est une arme d’épaule massive mais toujours mobile et difficile à utiliser, afin de faire feu il est obligatoire d’assurer sa position… En termes de règle, en faire usage requiert une action simple ET une action rapide.
@@ -550,7 +579,11 @@ Par exemple, une armure de cuir est une armure de peaux travaillée. Elles sont 
 
 #### La Forme
 
-On distingue 3 formes différentes possibles pour les armures : - Les armures allégées : Ces armures ont été privées de parties métalliques et gênantes pour être moins contraignantes. Elles sont fragiles. Les armures de catégorie 3 et au-dessus ne peuvent pas être allégées (puisqu’en métal). La charge de ces armures est réduite de 2 (modificateur de forme) et le prix de référence est réduit de 7 ![](images/image23.png). - Les armures normales : Elles sont normales. Elles disposent de parties en tissus/cuirs et des parties en métal pour protéger l’utilisateur. Elles ne sont ni fragiles ni solides. Toutes les armures peuvent être équilibrées. La charge de ces armures est normale. - Les armures renforcées : L’armure est renforcée et n’est constituée que de métal (et du cuir pour les articulations mais à ce stade c’est anecdotique). Elles sont « solides ». Les armures de catégorie 2 et en dessous ne peuvent pas être renforcées (puisqu’en grande partie en tissus ou en cuirs). La charge de ces armures est réduite de 2 (modificateur de forme) et le prix de référence est augmenté de 7 ![](images/image23.png).
+On distingue 3 formes différentes possibles pour les armures :
+
+- Les armures allégées : Ces armures ont été privées de parties métalliques et gênantes pour être moins contraignantes. Elles sont fragiles. Les armures de catégorie 3 et au-dessus ne peuvent pas être allégées (puisqu’en métal). La charge de ces armures est réduite de 2 (modificateur de forme) et le prix de référence est réduit de 7 ![](images/image23.png).
+- Les armures normales : Elles sont normales. Elles disposent de parties en tissus/cuirs et des parties en métal pour protéger l’utilisateur. Elles ne sont ni fragiles ni solides. Toutes les armures peuvent être équilibrées. La charge de ces armures est normale.
+- Les armures renforcées : L’armure est renforcée et n’est constituée que de métal (et du cuir pour les articulations mais à ce stade c’est anecdotique). Elles sont « solides ». Les armures de catégorie 2 et en dessous ne peuvent pas être renforcées (puisqu’en grande partie en tissus ou en cuirs). La charge de ces armures est réduite de 2 (modificateur de forme) et le prix de référence est augmenté de 7 ![](images/image23.png).
 
 #### La Charge
 
@@ -638,7 +671,10 @@ Les armures sont décrites ici en version "complète" et couvre l’ensemble du 
 
     Notons cependant qu’un prédateur ou un combattant n’hésitera jamais à frapper une zone particulièrement découverte si cela lui permet de passer outre les défenses de sa cible !
 
-Le prix total d’une armure se répartie comme suit : - 60% pour le torse, soit un prix de référence de 21 ![](images/image23.png). - 8% pour chaque autres pièces (jambières, brassards, casque), soit un prix de référence de 3 ![](images/image23.png) (ou 2,8 pour être précis).
+Le prix total d’une armure se répartie comme suit :
+
+- 60% pour le torse, soit un prix de référence de 21 ![](images/image23.png).
+- 8% pour chaque autres pièces (jambières, brassards, casque), soit un prix de référence de 3 ![](images/image23.png) (ou 2,8 pour être précis).
 
 !!! tip "Règles Optionnelles : Prix des bouts d’armures"
     La répartition du prix des bouts d’armure proposé ci-dessus est le fruit d’une réflexion simple afin d’être simple à pratiquer.
@@ -691,7 +727,9 @@ En plus de la notion d'encombrement, il est nécessaire de considérer la logist
 
 Défiant un peu les lois de la logique pour une interprétation plus simple, les personnages peuvent certes porter un équipement assez conséquent. On estime cependant que ces objets se trouvent bien rangés dans un sac à dos, sans quoi le personnage ne peut en fait rien porter de la sorte sauf ce qui tient dans ses mains…
 
-Les sacs à dos sont donc autant de moyens de justifier la possibilité de porter une telle quantité de matériel. Mais de fait l’accès à ce dernier est plus complexe et cela nous amène au point de règle que voici : - Tous objets ou matériels qui doit être récupéré depuis l’inventaire du personnage nécessite une action complexe. Cela correspond au temps nécessaire pour fouiller et prendre l’objet.
+Les sacs à dos sont donc autant de moyens de justifier la possibilité de porter une telle quantité de matériel. Mais de fait l’accès à ce dernier est plus complexe et cela nous amène au point de règle que voici :
+
+- Tous objets ou matériels qui doit être récupéré depuis l’inventaire du personnage nécessite une action complexe. Cela correspond au temps nécessaire pour fouiller et prendre l’objet.
 
 Il existe tout un tas d'alternatives appréciables à cela. Les sacoches portées à la ceinture permettent l’accès à des onguents ou grenades plus aisément, les fourreaux permettent de transporter des armes plus facilement, etc… Dans un tel cas on estime qu’un conteneur spécifique permet d’accéder à un équipement donné en action simple à la place !
 
@@ -717,9 +755,14 @@ Note: Le gabarit de l’objet intervient naturellement dans l’intégrité puis
 
 Le test d’action est confronté à une difficulté d’évaluation qui dépend des circonstances :
 
-- Objet équipé (ou transporté) : Défense passive du porteur. - Objet animé : Défense passive de la cible. - Objet inerte : 10.
+- Objet équipé (ou transporté) : Défense passive du porteur.
+- Objet animé : Défense passive de la cible.
+- Objet inerte : 10.
 
-Si la difficulté est atteinte alors l’objet ciblé effectue un test de sauvegarde dit de solidité, qui va affecter la dégradation effective que subira l’objet. Le test de l’action étant un soumis à un test d’évaluation l’action ne peut être critique mais le degré de réussite est pris en considération comme suite : - Augmente la difficulté du test de solidité de l’objet ciblé. - Réduit la difficulté du test de solidité de l’objet qui provoque la destruction le cas échéant.
+Si la difficulté est atteinte alors l’objet ciblé effectue un test de sauvegarde dit de solidité, qui va affecter la dégradation effective que subira l’objet. Le test de l’action étant un soumis à un test d’évaluation l’action ne peut être critique mais le degré de réussite est pris en considération comme suite :
+
+- Augmente la difficulté du test de solidité de l’objet ciblé.
+- Réduit la difficulté du test de solidité de l’objet qui provoque la destruction le cas échéant.
 
 C’est le jet du test de destruction qui va déterminer la dégradation qu’encours l’objet ciblé. Mais ce jet est d’abord soumis au résultat du test de sauvegarde de solidité.
 
@@ -731,7 +774,13 @@ Le résultat est le même que pour un test de sauvegarde classique : La réussit
 
 Dans certains cas un objet doit effectuer un test de solidité sans qu’aucun objet ne lui soit opposé (utilisation d’un objet improvisé, échec critique, etc) l’objet qui est employé doit alors effectuer un test de solidité contre lui-même. Comme la difficulté dépend de l’intégrité et le bonus au test également sauf quelques cas spécifiques (matières améliorant la solidité en cas de sauvegarde OU pour fixer la difficulté d’un test de solidité) cela revient à effectuer un test avec +0 contre une difficulté de 10 (les bonus annulent la difficulté au-delà de 10 comme la formule est la même). Dans le cas où l’objet effectue un test de solidité contre lui-même , la détérioration en jeu est équivalente à son intégrité, aussi un test de solidité réussie réduit cela de moitié, une réussite critique à 0, etc…
 
-En résumé un test de solidité peut avoir lieu dans les cas suivants : - Echec critique en faisant usage d’un objet (arme ou outils) (DD = Intégrité de l’objet utilisé, Bonus au test = Intégrité – 10 de l’objet utilisé, ce qui revient à +0 vs DD 10). Détérioration = Intégrité de l’objet utilisé (modulo le test de solidité). - Réussite critique d’une action de combat d’un adversaire (DD = Intégrité de l’objet utilisé pour l’action). Détérioration = Jet de l’action critique (modulo le test de solidité). - Usage d’un objet improvisé (comme arme ou outils) (DD = Intégrité de l’objet utilisé, Bonus au test = Intégrité – 10 de l’objet utilisé, ce qui revient à +0 vs DD 10). Détérioration = Intégrité de l’objet utilisé (modulo le test de solidité). - Un personnage tente une action de savoir-faire de destruction (DD = Intégrité de l’objet touché, Bonus au test = Intégrité – 10 de l’objet utilisé) (Savoir-faire + Destruction) en utilisant autre chose qu’un outil adapté. Détérioration = Jet de l’action de destruction (modulo le test de solidité). - Attaque sur un cible (objet ou autre) disposant d’une intégrité (comme arme ou outils) (DD = Intégrité de l’objet attaquée, Bonus au test = Intégrité – 10 de l’objet utilisé). Détérioration = Intégrité de l’objet ciblé (modulo le test de solidité).
+En résumé un test de solidité peut avoir lieu dans les cas suivants :
+
+- Echec critique en faisant usage d’un objet (arme ou outils) (DD = Intégrité de l’objet utilisé, Bonus au test = Intégrité – 10 de l’objet utilisé, ce qui revient à +0 vs DD 10). Détérioration = Intégrité de l’objet utilisé (modulo le test de solidité).
+- Réussite critique d’une action de combat d’un adversaire (DD = Intégrité de l’objet utilisé pour l’action). Détérioration = Jet de l’action critique (modulo le test de solidité).
+- Usage d’un objet improvisé (comme arme ou outils) (DD = Intégrité de l’objet utilisé, Bonus au test = Intégrité – 10 de l’objet utilisé, ce qui revient à +0 vs DD 10). Détérioration = Intégrité de l’objet utilisé (modulo le test de solidité).
+- Un personnage tente une action de savoir-faire de destruction (DD = Intégrité de l’objet touché, Bonus au test = Intégrité – 10 de l’objet utilisé) (Savoir-faire + Destruction) en utilisant autre chose qu’un outil adapté. Détérioration = Jet de l’action de destruction (modulo le test de solidité).
+- Attaque sur un cible (objet ou autre) disposant d’une intégrité (comme arme ou outils) (DD = Intégrité de l’objet attaquée, Bonus au test = Intégrité – 10 de l’objet utilisé). Détérioration = Intégrité de l’objet ciblé (modulo le test de solidité).
 
 Il reste un dernier cas à couvrir : La destruction à main nues ! La dégradation encourue dans ce cas est simplement remplacée par de l’attrition.
 
@@ -812,9 +861,20 @@ Les outils sont des instruments qui peuvent prendre beaucoup de formes différen
 
 ## Les Consommables
 
-Les consommables regroupent l’ensemble des produits pouvant faire l’objet d’une forme de consommation ou d’une autre, dans tous les cas leur usage étant limité (en durée ou utilisations, selon leur nature). On parle donc de ce qui se boit, se mange, s’utilise… en disparaissant à l’issus ! Quelques généralités : - Quand cela est applicable : La qualité d’un consommable fixe le niveau des effets de l’objet. - Quand cela est applicable : Lorsqu’une difficulté est associée à un objet de ce type alors elle est de 10 + 2 x Qualité. - Le prix des objets consommables n’est pas indexé de la même manière que celui des équipements.
+Les consommables regroupent l’ensemble des produits pouvant faire l’objet d’une forme de consommation ou d’une autre, dans tous les cas leur usage étant limité (en durée ou utilisations, selon leur nature). On parle donc de ce qui se boit, se mange, s’utilise… en disparaissant à l’issus !
 
-Liste non exhaustive d’exemples d’objets dits consommables : - Nécessaires (de soins par exemple) - Bombes - Pièges - Huiles et Poisons
+Quelques généralités :
+
+- Quand cela est applicable : La qualité d’un consommable fixe le niveau des effets de l’objet.
+- Quand cela est applicable : Lorsqu’une difficulté est associée à un objet de ce type alors elle est de 10 + 2 x Qualité.
+- Le prix des objets consommables n’est pas indexé de la même manière que celui des équipements.
+
+Liste non exhaustive d’exemples d’objets dits consommables :
+
+- Nécessaires (de soins par exemple)
+- Bombes
+- Pièges
+- Huiles et Poisons
 
 ## La Pratique de l’Artisanat
 
@@ -858,7 +918,12 @@ Une journée de travail est matérialisée par un minimum de 10h consécutives s
 
 Reprendre une création qui n’a pas été débutée par soi-même requiert un test d’adaptation d’artisanat réalisé via l’attribut de Ruse.
 
-On estime que le prix de base d’un objet tel qu’il peut être acheté chez un marchand inclus : - 50% pour la matière première - 50% pour la main d’œuvre Donc un joueur qui décide d’être artisan permet l’accès à du matériel à prix cassé et sans avoir à se soucier des recherches préalables.
+On estime que le prix de base d’un objet tel qu’il peut être acheté chez un marchand inclus :
+
+- 50% pour la matière première.
+- 50% pour la main d’œuvre.
+
+Donc un joueur qui décide d’être artisan permet l’accès à du matériel à prix cassé et sans avoir à se soucier des recherches préalables.
 
 !!! info "Rappel"
     La qualité d’un outil permet d’en profiter dans le cadre de ses tests et jets. La catégorie d’outils conditionne aussi bien ses pénalités d’usage (égale à 2 x la catégorie et applicable à l’attribut lors d’un test) et le jet effectué lors d’une réussite (2D8 + 1D8 par catégorie + modificateur d’attribut).
@@ -1010,7 +1075,12 @@ Les particularités peuvent être décidées entre MJ et PJ afin qu’elles refl
 
 Une particularité n’est pas adaptée à un utilisateur unique, mais les utilisateurs ne peuvent être liés qu’à un nombre limité d'objets dotés de particularités.
 
-Un personnage peut profiter, en même temps, des particularités de : - Armes, Armures ou Outils (la limite étant ce qui peut être porté, tout simplement) - Un accessoire (Anneaux, Amulettes, etc… même une pièce d’armure spécifique peut être considéré comme tel) Il est possible pour un artisan de réaliser une modification (difficulté basée sur la dernière promotion de l’objet) après coup pour changer une particularité.
+Un personnage peut profiter, en même temps, des particularités de :
+
+- Armes, Armures ou Outils (la limite étant ce qui peut être porté, tout simplement).
+- Un accessoire (Anneaux, Amulettes, etc… même une pièce d’armure spécifique peut être considéré comme tel).
+
+Il est possible pour un artisan de réaliser une modification (difficulté basée sur la dernière promotion de l’objet) après coup pour changer une particularité.
 
 !!! note "Note"
     Que vous jouiez ou non avec l’extension des confrontations et le système de style qui y est proposé, vous pouvez vous servir de ces derniers comme référence pour imaginer les effets d’une particularité d’objet.

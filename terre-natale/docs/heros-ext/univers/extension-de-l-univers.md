@@ -1,6 +1,9 @@
 ## Généralités
 
-L’extension des héros est prévue pour le système de jeu Terre Natale. Il y ajoute : - les mécanismes et fonctionnements des dons. - les mécanismes et fonctionnements des voies.
+L’extension des héros est prévue pour le système de jeu Terre Natale. Il y ajoute :
+
+- les mécanismes et fonctionnements des dons.
+- les mécanismes et fonctionnements des voies.
 
 ## Traits de l’Extension
 

@@ -22,7 +22,13 @@ Chaque point permet d’acquérir un trait dans une voie. Mais un trait ne peut 
 
 ### Types de Voies
 
-Il existe plusieurs types de voies. La plupart d’entre elles servent un rôle majeur dans l’univers de Thalifen, mais peuvent être malgré tout exporté dans d’autres univers sans difficultés : - Voies Héroïques : Conviens aux personnages héroïques. - Voies des Dragons : Conviens aux personnages ayant l’étincelle des dragons. - Voies Vampiriques : Conviens aux personnages affectés par le sang noir. - Voies Démoniaques : Conviens aux personnages affectés par les péchés. - Voies Zodiacales : Conviens aux personnages rattachés à une constellation.
+Il existe plusieurs types de voies. La plupart d’entre elles servent un rôle majeur dans l’univers de Thalifen, mais peuvent être malgré tout exporté dans d’autres univers sans difficultés :
+
+- Voies Héroïques : Conviens aux personnages héroïques.
+- Voies des Dragons : Conviens aux personnages ayant l’étincelle des dragons.
+- Voies Vampiriques : Conviens aux personnages affectés par le sang noir.
+- Voies Démoniaques : Conviens aux personnages affectés par les péchés.
+- Voies Zodiacales : Conviens aux personnages rattachés à une constellation.
 
 ### Voies Héroïques
 
@@ -30,7 +36,24 @@ Correspondent à des voies plus ou moins classiques des tropes de fantaisie, ren
 
 Notons que la liste actuelle est liée à des personnages ayant déjà été joués ou planifiés, c’est la raison pour laquelle celle-ci n’est pas exhaustive et ne couvre pas toutes les possibilités qu’on souhaiterait retrouver dans un tel système. A charge pour chaque MJ de créer ses propres voies en s’inspirant des existantes.
 
-Liste actuelle : - Prouesse : Permet d’améliorer l’accès aux dons. - Chi : Permet d’améliorer l’accès à la ressource du Chi. - Noblesse : Permet d’améliorer les aptitudes sociales tout en leur offrant plus de versatilité. - Duel : Permet d’ajouter la notion (avantageuse) de duel au personnage. - Dragon : Permet de débloquer l’usage des cris des dragons, une discipline à part entière. - Pléthora : Permet de jouer sur de multiple personnalité (avec un personnage schizophrène). - Ombre : Permet d’améliorer l’aptitude à la discrétion. - Magie : Permet d’améliorer l’aptitude à la magie. - Âme : Permet au personnage de devenir un pilier pour ses alliés en utilisant sa psyché comme soutiens. - Empathie : Permet au personnage d’améliorer la vie de ses compagnons et de leurs octroyés des avantages par sa présence et ses préparations. - Création : Permet d’améliorer l’aptitude à la création. - Immortel : Permet au personnage de renforcer drastiquement sa survie. - Muraille : Permet au personnage de devenir le gardien de ses compagnons. - Science : Permet d’améliorer l’aptitude à la technologie. - Tireur : Permet d’améliorer la capacité de tir. - Savoir : Permet d’améliorer l’usage qui peut être fait du savoir et de la connaissance.
+Liste actuelle :
+
+- Prouesse : Permet d’améliorer l’accès aux dons.
+- Chi : Permet d’améliorer l’accès à la ressource du Chi.
+- Noblesse : Permet d’améliorer les aptitudes sociales tout en leur offrant plus de versatilité.
+- Duel : Permet d’ajouter la notion (avantageuse) de duel au personnage.
+- Dragon : Permet de débloquer l’usage des cris des dragons, une discipline à part entière.
+- Pléthora : Permet de jouer sur de multiple personnalité (avec un personnage schizophrène).
+- Ombre : Permet d’améliorer l’aptitude à la discrétion.
+- Magie : Permet d’améliorer l’aptitude à la magie.
+- Âme : Permet au personnage de devenir un pilier pour ses alliés en utilisant sa psyché comme soutiens.
+- Empathie : Permet au personnage d’améliorer la vie de ses compagnons et de leurs octroyés des avantages par sa présence et ses préparations.
+- Création : Permet d’améliorer l’aptitude à la création.
+- Immortel : Permet au personnage de renforcer drastiquement sa survie.
+- Muraille : Permet au personnage de devenir le gardien de ses compagnons.
+- Science : Permet d’améliorer l’aptitude à la technologie.
+- Tireur : Permet d’améliorer la capacité de tir.
+- Savoir : Permet d’améliorer l’usage qui peut être fait du savoir et de la connaissance.
 
 #### Prouesse
 
@@ -254,16 +277,45 @@ Personne ne tombe !!! (T4) La première fois qu'un allié du personnage doit mou
 
 Correspondent à des voies plus ou moins classiques des tropes de fantaisie, renforce un style de personnage ou de façon de jouer (le gardien, le duelliste, etc). Un personnage peut choisir ces voies OU le MJ peut octroyer les voies qui lui semblent les plus appropriés/proches de ce dernier et ses valeurs (ou attitudes, si acquis après une période de jeu initiale ayant permis de constater cela).
 
-Liste actuelle : - Tiamat, le dragon rouge : […]. - Prometheus, le dragon vert : […]. - Leviathan, le dragon bleu : […]. - Aquilon, le dragon jaune : […]. - Bahamut, le dragon noir : […]. - Chromium, le dragon blanc : […]. - Arcanum, le dragon mauve : […].
+Liste actuelle :
+
+- Tiamat, le dragon rouge : […].
+- Prometheus, le dragon vert : […].
+- Leviathan, le dragon bleu : […].
+- Aquilon, le dragon jaune : […].
+- Bahamut, le dragon noir : […].
+- Chromium, le dragon blanc : […].
+- Arcanum, le dragon mauve : […].
 
 ### Voies Vampiriques
 
 Correspondent aux voies associées aux différentes familles de vampires.
 
-Liste actuelle : - Tempusfera, clan du temps : […]. - Bellatoris, clan de la guerre : […]. - Verdanblut, clan sauvage : […]. - Luxaeternus, clan de la lumière : […]. - Arcanis, clan des arcanes : […]. - Ombrescent, clan des ombres : […]. - Pensombre, clan de l’esprit : […]. - Elementra, clan des éléments : […]. - Transcendus, clan dimensionnel : […]. - Crypticlus, clan du savoir : […].
+Liste actuelle :
+
+- Tempusfera, clan du temps : […].
+- Bellatoris, clan de la guerre : […].
+- Verdanblut, clan sauvage : […].
+- Luxaeternus, clan de la lumière : […].
+- Arcanis, clan des arcanes : […].
+- Ombrescent, clan des ombres : […].
+- Pensombre, clan de l’esprit : […].
+- Elementra, clan des éléments : […].
+- Transcendus, clan dimensionnel : […].
+- Crypticlus, clan du savoir : […].
 
 ### Voies Démoniaques
 
 Correspondent aux voies associées aux différents péchés capitaux, généralement marque des démons. Notons qu’il existe en Thalifen 9 pêchés.
 
-Liste actuelle : - Pride. - Lust. - Sloth. - Greed. - Gluttony. - Wrath. - Envy. - Deception. - Despont.
+Liste actuelle :
+
+- Pride.
+- Lust.
+- Sloth.
+- Greed.
+- Gluttony.
+- Wrath.
+- Envy.
+- Deception.
+- Despont.

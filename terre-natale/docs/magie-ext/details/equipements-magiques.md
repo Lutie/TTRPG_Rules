@@ -36,14 +36,41 @@ Les focalisateurs permettent une connexion rapide et facilité au mana, il perme
 
 Un focalisateur est réalisé à partir de magicite, une forme malléable du lyrium.
 
-Voici ce qu’offre les différentes famille de focalisateurs, notons que chaque famille modifie le prix de base du focalisateur, de plus ces capacités n’affectent que les sorts dont le niveau est inférieur ou égal à la qualité du focalisateur : Tatouage : Rapidité +5 au lancement de sort (donc plus tôt dans le round) — Ne peut pas être désarmé, unique focalisateur de Catégorie 0. Prix +10. Bâton : Puissance des sorts +1 par niveau du sort — Imposant, idéal pour les mages offensifs. Prix +25. Sceptre : Désavantage aux défenses adverses — Bon compromis entre attaque et contrôle. Prix +20. Baguette : Désavantage aux sauvegardes adverses — Améliore la précision magique. Prix +30. Orbe : Portée des effets doublée (notamment distance ou zone, pas ceux liés au mots à proprement parler) — Utile pour les mages tactiques ou à distance. Prix +15. Totem : Permet de maintenir un sort sans concentration — Favorise les sorts persistants. Prix +10. Kriss : Arme et focalisateur à la fois — Permet de lancer et de se défendre en mêlée. Prix +20. Grimoire : Peut contenir 2 sorts utilisables — Parfait pour les mages prévoyants. Prix +15. Focus : Stocke un sort à déclencher en action spéciale — Flexible, bon pour l’anticipation. Prix +30. Talisman : Réduit le drain minimal de 2 — Optimise l’endurance magique. Prix +30. Canne : +2 aux tests arcanique et difficultés magiques — Favorise les mages érudits. Prix +10. Abraxas : Réduit la fatigue des soins de 2 points — Idéal pour les soigneurs. Prix +15. Charme : Focalisateur et catalyseur, avec sort fixe rechargeable — Autonome, stable et polyvalent. Prix +40. Medium : Focalisateur et harmoniseur — pour les pratiquants de rituels. Prix +40.
+Voici ce qu’offre les différentes famille de focalisateurs, notons que chaque famille modifie le prix de base du focalisateur, de plus ces capacités n’affectent que les sorts dont le niveau est inférieur ou égal à la qualité du focalisateur :
+
+- Tatouage : Rapidité +5 au lancement de sort (donc plus tôt dans le round) — Ne peut pas être désarmé, unique focalisateur de Catégorie 0. Prix +10.
+- Bâton : Puissance des sorts +1 par niveau du sort — Imposant, idéal pour les mages offensifs. Prix +25.
+- Sceptre : Désavantage aux défenses adverses — Bon compromis entre attaque et contrôle. Prix +20.
+- Baguette : Désavantage aux sauvegardes adverses — Améliore la précision magique. Prix +30.
+- Orbe : Portée des effets doublée (notamment distance ou zone, pas ceux liés au mots à proprement parler) — Utile pour les mages tactiques ou à distance. Prix +15.
+- Totem : Permet de maintenir un sort sans concentration — Favorise les sorts persistants. Prix +10.
+- Kriss : Arme et focalisateur à la fois — Permet de lancer et de se défendre en mêlée. Prix +20.
+- Grimoire : Peut contenir 2 sorts utilisables — Parfait pour les mages prévoyants. Prix +15.
+- Focus : Stocke un sort à déclencher en action spéciale — Flexible, bon pour l’anticipation. Prix +30.
+- Talisman : Réduit le drain minimal de 2 — Optimise l’endurance magique. Prix +30.
+- Canne : +2 aux tests arcanique et difficultés magiques — Favorise les mages érudits. Prix +10.
+- Abraxas : Réduit la fatigue des soins de 2 points — Idéal pour les soigneurs. Prix +15.
+- Charme : Focalisateur et catalyseur, avec sort fixe rechargeable — Autonome, stable et polyvalent. Prix +40.
+- Medium : Focalisateur et harmoniseur — pour les pratiquants de rituels. Prix +40.
 
 !!! info "Focalisateur"
     - **Prix :** Selon catégorie
     - **Charge :** Selon catégorie
     - **Mots clés :** Focalisateur
 
-    Un focalisateur permet de lancer des sorts sans s’exposer à un désavantage, aussi peu de mages s’en séparent.Les focalisateurs existent sous différentes catégories. La charge du focalisateur est donc, comme pour tout le reste, fixée par sa catégorie.Leurs prix sont indexés est basé sur sa catégorie : Focalisateur de catégorie 0 : 40 PO. Focalisateur de catégorie 1 : 55 PO. Focalisateur de catégorie 2 : 75 PO. Focalisateur de catégorie 3 : 100 PO. Focalisateur de catégorie 4 : 130 PO.La charge requise est la même que pour une arme aussi une force notable est requise, même si porté à deux mains, lorsqu’il s’agit de catégorie 3 et supérieure.
+    Un focalisateur permet de lancer des sorts sans s’exposer à un désavantage, aussi peu de mages s’en séparent.
+
+    Les focalisateurs existent sous différentes catégories. La charge du focalisateur est donc, comme pour tout le reste, fixée par sa catégorie.
+
+    Leurs prix sont indexés est basé sur sa catégorie :
+
+    - Focalisateur de catégorie 0 : 40 PO.
+    - Focalisateur de catégorie 1 : 55 PO.
+    - Focalisateur de catégorie 2 : 75 PO.
+    - Focalisateur de catégorie 3 : 100 PO.
+    - Focalisateur de catégorie 4 : 130 PO.
+
+    La charge requise est la même que pour une arme aussi une force notable est requise, même si porté à deux mains, lorsqu’il s’agit de catégorie 3 et supérieure.
 
 ### Les Artefacts
 

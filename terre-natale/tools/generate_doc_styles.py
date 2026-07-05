@@ -62,6 +62,9 @@ html = f"""# Compendium des Styles
 
 <div class="sty-filters">
   <input type="text" id="sty-search" placeholder="Rechercher…" />
+  <select id="sty-origin" aria-label="Filtrer par origine">
+    <option value="">Toutes les origines</option>
+  </select>
   <span id="sty-count"></span>
 </div>
 
@@ -158,10 +161,20 @@ html = f"""# Compendium des Styles
 
   const tbody  = document.getElementById('sty-tbody');
   const search = document.getElementById('sty-search');
+  const origin = document.getElementById('sty-origin');
   const counter= document.getElementById('sty-count');
 
   let sortCol = 'nom';
   let sortAsc = true;
+
+  function fillSelect(select, values) {{
+    values.forEach(value => {{
+      const option = document.createElement('option');
+      option.value = value;
+      option.textContent = value;
+      select.appendChild(option);
+    }});
+  }}
 
   function render(list) {{
     tbody.innerHTML = '';
@@ -184,9 +197,11 @@ html = f"""# Compendium des Styles
 
   function filter() {{
     const q = search.value.toLowerCase();
+    const selectedOrigin = origin.value;
 
     let list = DATA.filter(s => {{
-      if (q && ![s.nom, s.pitch, s.rang1, s.rang2, s.rang3]
+      if (selectedOrigin && s.origines !== selectedOrigin) return false;
+      if (q && ![s.nom, s.origines, s.pitch, s.rang1, s.rang2, s.rang3]
                 .some(t => (t || '').toLowerCase().includes(q))) return false;
       return true;
     }});
@@ -200,7 +215,10 @@ html = f"""# Compendium des Styles
     render(list);
   }}
 
+  fillSelect(origin, [...new Set(DATA.map(s => s.origines).filter(Boolean))].sort());
+
   search.addEventListener('input', filter);
+  origin.addEventListener('change', filter);
 
   document.querySelectorAll('#sty-table th[data-col]').forEach(th => {{
     th.addEventListener('click', () => {{

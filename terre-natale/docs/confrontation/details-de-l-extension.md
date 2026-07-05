@@ -41,7 +41,10 @@ L’extension des confrontations ajoutent un certains nombres de règles et mots
 
 Les mains gauches sont des armes de défense dont l’usage et le but est différent des boucliers.
 
-Toutes les « mains gauches » sont sujettes aux règles suivantes : - La catégorie de l’arme en attaque est réduite de 1, sauf en contre-attaque où elle est augmentée de 1. - La catégorie de l’arme en défense est augmentée de 1.
+Toutes les « mains gauches » sont sujettes aux règles suivantes :
+
+- La catégorie de l’arme en attaque est réduite de 1, sauf en contre-attaque où elle est augmentée de 1.
+- La catégorie de l’arme en défense est augmentée de 1.
 
 ### Les pièces d’Armure
 
@@ -49,7 +52,11 @@ Avec cette règle il est possible de dissocier une partie de l’équipement : l
 
 Une pièce d’armure a une catégorie, une qualité et une localisation. Cette localisation peut être l’une de celles qui existe déjà : torse, bras, jambe ou tête.
 
-Lorsqu’une pièce d’armure est portée : - Elle augmente la charge totale de +1 si petite ou +2 si grosse. - Un bonus d’absorption de +1 si petite ou +2 si grosse SI la catégorie + qualité de la pièce d’armure est équivalente ou supérieure à celle de l’armure (ou bout d’armure) associé à la même localisation. Si une pièce d’armure affecte plusieurs localisations il faut considérer ce bonus PAR localisations différentes. - Un bonus de résistance équivalant à la catégorie (uniquement dans le cadre d’une attaque localisée, si elle ne l’est pas et bien que cela soit considéré comme un coup au torse la résistance ne s’applique pas). Non cumulable entre les différentes pièces de même localisation.
+Lorsqu’une pièce d’armure est portée :
+
+- Elle augmente la charge totale de +1 si petite ou +2 si grosse.
+- Un bonus d’absorption de +1 si petite ou +2 si grosse SI la catégorie + qualité de la pièce d’armure est équivalente ou supérieure à celle de l’armure (ou bout d’armure) associé à la même localisation. Si une pièce d’armure affecte plusieurs localisations il faut considérer ce bonus PAR localisations différentes.
+- Un bonus de résistance équivalant à la catégorie (uniquement dans le cadre d’une attaque localisée, si elle ne l’est pas et bien que cela soit considéré comme un coup au torse la résistance ne s’applique pas). Non cumulable entre les différentes pièces de même localisation.
 
 Le prix d’une petite pièce d’armure est équivalent à 15% du prix d’une armure de même catégorie / qualité. Le prix d’une grosse pièce d’armure est équivalent à 30% du prix d’une armure de même catégorie / qualité. Le prix est doublé si la pièce d’armure est associée à 2 localisations. Le prix est triplé si la pièce d’armure est associée à 3 localisations.
 
@@ -80,7 +87,19 @@ Une pièce d’armure qui occupe plusieurs localisations est associée à une ch
 
 Les armes de tirs sont toutes dotées d’une cadence, mais dans certains cas celle-ci est de 1 et ne présente donc pas d’intérêt notable. La cadence de base d’une arme est de 5 moins sa catégorie, des améliorations et autres ajustements peuvent évidemment modifier cela. Une arme dotée d’une cadence supérieure à 1 peut effectuer plusieurs tirs à la fois afin de maximiser les dégâts potentiels : On parle d’un tir multiple.
 
-Lorsqu’un personnage réalise plusieurs tirs : - Les munitions en plus doivent être décomptées (logique). - Une arme ne peut effectuer plus de tirs en une attaque que sa valeur de cadence. - L’arme doit avoir suffisamment de munition dans son magasin afin de pouvoir effectuer ses tirs, sans quoi la limite est celle du magasin. Pour rappel le magasin des arcs c’est la main du tireur qui peux tenir plusieurs flèches à la fois (voir règles de base pour savoir combien). - Un test d’attaque par tir est nécessaire. - Lors d’un tir multiple la catégorie de l’arme employée est réduite de 1 en ce qui concerne ses jets. - Les tirs au-delà du premier requière une dépense de 2 points d’initiative pour être effectués. - Les tirs au-delà du premier constitue des actions (d’attaque) restreintes (voir les règles à ce sujet dans le livre de base), ce qui limite grandement leur impact. - Les tirs au-delà du premier reçoivent une pénalité fixe de 5. - Le recule à considérer pour l’attaque est augmenté de 2 par tirs au-delà du premier, être déstabilisé ne met pas fin aux tir multiple mais être renversé par le recule oui. Les armes à feu profitent tout naturellement de multiples tirs car elles ignorent plus facilement l’armure adverse, assurant des dégâts conséquents aux tirs supplémentaires.
+Lorsqu’un personnage réalise plusieurs tirs :
+
+- Les munitions en plus doivent être décomptées (logique).
+- Une arme ne peut effectuer plus de tirs en une attaque que sa valeur de cadence.
+- L’arme doit avoir suffisamment de munition dans son magasin afin de pouvoir effectuer ses tirs, sans quoi la limite est celle du magasin. Pour rappel le magasin des arcs c’est la main du tireur qui peux tenir plusieurs flèches à la fois (voir règles de base pour savoir combien).
+- Un test d’attaque par tir est nécessaire.
+- Lors d’un tir multiple la catégorie de l’arme employée est réduite de 1 en ce qui concerne ses jets.
+- Les tirs au-delà du premier requière une dépense de 2 points d’initiative pour être effectués.
+- Les tirs au-delà du premier constitue des actions (d’attaque) restreintes (voir les règles à ce sujet dans le livre de base), ce qui limite grandement leur impact.
+- Les tirs au-delà du premier reçoivent une pénalité fixe de 5.
+- Le recule à considérer pour l’attaque est augmenté de 2 par tirs au-delà du premier, être déstabilisé ne met pas fin aux tir multiple mais être renversé par le recule oui.
+
+Les armes à feu profitent tout naturellement de multiples tirs car elles ignorent plus facilement l’armure adverse, assurant des dégâts conséquents aux tirs supplémentaires.
 
 ### Le cas des armes doubles
 
@@ -97,7 +116,11 @@ Les armes doubles sont des armes disposant de la propriété « hybride ».
 
 Ces armes sont en fait des armes « doubles » dont les différentes zones de frappes ne sont pas du même type et qui n’utilise pas forcément les mêmes compétences ! Ces armes ne permettent pas d’attaquer plusieurs fois mais de profiter de différents types d’attaques.
 
-Toutes les armes « hybrides » sont sujettes aux règles suivantes : - L’arme est considérée comme double et peux à se titre réaliser des coups multiples. - La catégorie de l’arme en attaque est réduite de 1, cette réduction n’est pas cumulée si l’arme est utilisée pour un coup multiple, il est simplement appliqué tout le temps. - Le personnage peut choisir l’arme avec laquelle il attaque au moment où il porte son coup, ce qui permet une grande versatilité.
+Toutes les armes « hybrides » sont sujettes aux règles suivantes :
+
+- L’arme est considérée comme double et peux à se titre réaliser des coups multiples.
+- La catégorie de l’arme en attaque est réduite de 1, cette réduction n’est pas cumulée si l’arme est utilisée pour un coup multiple, il est simplement appliqué tout le temps.
+- Le personnage peut choisir l’arme avec laquelle il attaque au moment où il porte son coup, ce qui permet une grande versatilité.
 
 !!! info "Rappel"
     Le personnage peut produire son attaque avec le type d’attaque qui lui convient (parmi les deux disponibles sur son arme) en fonction de ses besoins ou de son adversaire.
@@ -110,12 +133,30 @@ Les armes exotiques sont des armes atypiques qu’il est difficile de classer co
 
 Il existe 5 ressources temporaires en plus élaborée dans cette extension : La rage, la garde, l’adrénaline, l’audace et l’aplomb. Notons qu’il n’est pas possible de disposer de plusieurs de ces ressources à la fois, lorsque l’une d’elle doit être acquise et si une autre est déjà présente alors le personnage doit choisir celle qu’il conserve.
 
-Rage : Cette ressource temporaire permet de générer de l’attrition lors des attaques. Lorsqu’une attaque touche sa cible la rage peux être employée à générer de l’attrition (1 pour 1) ou perforation (1 pour 1). L’attrition ou perforation ainsi générée ne peux dépasser les dégâts de l’attaque. La limite cumulable de cette ressource est équivalente à l’attribut de Constitution. Tant que le personnage a de la rage ses défenses sont désavantagées. Les effets sont divisés par deux si utilisé pour des attaques de jets et ne peuvent être utilisés pour des attaques à distance si réalisés à partir d’armes mécaniques (en somme l’arc est le seul type d’arme qui permet l’usage de la rage, toujours à cout augmenté).
+#### Rage
 
-Garde : Cette ressource temporaire permet d’encaisser les dégâts physiques reçus. Lorsqu’une attaque est subite la garde peut être employée à augmenter l’absorption (1 pour 1). La garde peut servir à réduire les dégâts d’attrition (1 pour 1). La limite cumulable de cette ressource est équivalente à l’attribut de Constitution. Tant que le personnage a de la garde ses attaques sont désavantagées.
+Cette ressource temporaire permet de générer de l’attrition lors des attaques. Lorsqu’une attaque touche sa cible la rage peux être employée à générer de l’attrition (1 pour 1) ou perforation (1 pour 1). L’attrition ou perforation ainsi générée ne peux dépasser les dégâts de l’attaque.
 
-Adrénaline : Cette ressource temporaire permet de réaliser des actions d’interruption d’ordre physique à venir sans dépenser d’initiative mais de l’adrénaline à la place, à raison de 1 points d’adrénaline pour 1 point d’initiative. Le personnage peut réduire le cout d’une action à 0 de cette manière. La limite cumulable de cette ressource est équivalente à l’attribut de Volonté ou Constitution, le plus haut des deux. Les actions qui profitent des effets de l’adrénaline sont désavantagées.
+La limite cumulable de cette ressource est équivalente à l’attribut de Constitution. Tant que le personnage a de la rage ses défenses sont désavantagées.
 
-Audace : Variante de l’esprit de la Rage, dispose des mêmes avantages et inconvénients mais s’applique uniquement en cas d’attaque sociale/mentale. La limite cumulable de cette ressource est équivalente à l’attribut de Volonté.
+Les effets sont divisés par deux si utilisé pour des attaques de jets et ne peuvent être utilisés pour des attaques à distance si réalisés à partir d’armes mécaniques (en somme l’arc est le seul type d’arme qui permet l’usage de la rage, toujours à cout augmenté).
 
-Aplomb : Variante de l’esprit de la Garde, dispose des mêmes avantages et inconvénients mais s’applique uniquement en cas d’attaque sociale/mentale. La limite cumulable de cette ressource est équivalente à l’attribut de Volonté.
+#### Garde
+
+Cette ressource temporaire permet d’encaisser les dégâts physiques reçus. Lorsqu’une attaque est subite la garde peut être employée à augmenter l’absorption (1 pour 1). La garde peut servir à réduire les dégâts d’attrition (1 pour 1).
+
+La limite cumulable de cette ressource est équivalente à l’attribut de Constitution. Tant que le personnage a de la garde ses attaques sont désavantagées.
+
+#### Adrénaline
+
+Cette ressource temporaire permet de réaliser des actions d’interruption d’ordre physique à venir sans dépenser d’initiative mais de l’adrénaline à la place, à raison de 1 points d’adrénaline pour 1 point d’initiative. Le personnage peut réduire le cout d’une action à 0 de cette manière.
+
+La limite cumulable de cette ressource est équivalente à l’attribut de Volonté ou Constitution, le plus haut des deux. Les actions qui profitent des effets de l’adrénaline sont désavantagées.
+
+#### Audace
+
+Variante de l’esprit de la Rage, dispose des mêmes avantages et inconvénients mais s’applique uniquement en cas d’attaque sociale/mentale. La limite cumulable de cette ressource est équivalente à l’attribut de Volonté.
+
+#### Aplomb
+
+Variante de l’esprit de la Garde, dispose des mêmes avantages et inconvénients mais s’applique uniquement en cas d’attaque sociale/mentale. La limite cumulable de cette ressource est équivalente à l’attribut de Volonté.

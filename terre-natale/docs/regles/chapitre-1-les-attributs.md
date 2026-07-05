@@ -29,7 +29,12 @@ La valeur de base d’un attribut correspond à la valeur sans les ajustements l
 
 ### Valeur fixe
 
-La valeur fixe d’un attribut correspond à la valeur de base auquel on ajoute les ajustements « fixes », c’est-à-dire qui n’évoluent pas dans le temps. Il y a notamment : - Les ajustements dû à l’ethnie (univers thalifen). - Les ajustements dû au milieu de vie (univers thalifen). - Les ajustements dû à l’allégeance (univers thalifen). - Les ajustements dû à la caste (extension confrontation).
+La valeur fixe d’un attribut correspond à la valeur de base auquel on ajoute les ajustements « fixes », c’est-à-dire qui n’évoluent pas dans le temps. Il y a notamment :
+
+- Les ajustements dû à l’ethnie (univers thalifen).
+- Les ajustements dû au milieu de vie (univers thalifen).
+- Les ajustements dû à l’allégeance (univers thalifen).
+- Les ajustements dû à la caste (extension confrontation).
 
 C’est sur cette valeur que se base vraiment le personnage lorsqu’il s’agit de calculer ses caractéristiques (ressources, défenses, etc).
 
@@ -102,85 +107,143 @@ Il y a 10 attributs principaux caractérisant un personnage. Ces attributs peuve
 | RUS | Ruse |
 | SAG | Sagesse |
 
+<style>
+.attr-card {
+  display: grid;
+  grid-template-columns: 176px minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: start;
+  margin: 0.6rem 0 1.2rem;
+}
+.attr-icon {
+  width: 144px;
+  max-width: 144px;
+  height: auto;
+}
+.attr-meta {
+  margin: 0 0 0.35rem;
+  color: var(--md-default-fg-color--light, #666);
+  font-style: italic;
+}
+.attr-aspect {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+}
+.attr-card p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 640px) {
+  .attr-card {
+    grid-template-columns: 112px minmax(0, 1fr);
+    gap: 0.7rem;
+  }
+  .attr-icon {
+    width: 96px;
+    max-width: 96px;
+  }
+}
+</style>
+
 ### La Force
 
-![](images/image38.png)
-
-*Attribut du corps Aspect du Feu ![heat, flame, fire, energy, glow, blaze, spell ](images/image17.png)*
-
-La force représente la puissance physique brute d’un personnage, même si elle n’indique pas directement la masse musculaire. Un personnage peut être fort sans une stature imposante ; La stature reflète mieux la masse corporelle. La force est cruciale pour manier des armes à impact, telles que des marteaux et des haches, où un coup puissant fait toute la différence. Il prend également en charge des tâches physiques exigeantes telles que soulever des objets lourds, briser des barrières et gravir des surfaces abruptes. Au-delà de la force brute, la Force améliore les compétences physiques et les interactions comme la forge et l'intimidation, où un physique solide devient un atout clé.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image38.png" alt="Force">
+  <div>
+    <p class="attr-meta">Attribut du corps - Aspect du Feu <img class="attr-aspect" src="../images/image17.png" alt="Feu"></p>
+    <p>La force représente la puissance physique brute d’un personnage, même si elle n’indique pas directement la masse musculaire. Un personnage peut être fort sans une stature imposante ; La stature reflète mieux la masse corporelle. La force est cruciale pour manier des armes à impact, telles que des marteaux et des haches, où un coup puissant fait toute la différence. Il prend également en charge des tâches physiques exigeantes telles que soulever des objets lourds, briser des barrières et gravir des surfaces abruptes. Au-delà de la force brute, la Force améliore les compétences physiques et les interactions comme la forge et l'intimidation, où un physique solide devient un atout clé.</p>
+  </div>
+</div>
 
 ### La Constitution
 
-![](images/image39.png)
-
-*Attribut du corps Aspect de la Terre ![element, stone, earth, soil, rpg, skill, ability ](images/image19.png)*
-
-La Constitution représente la santé, la vitalité et la résilience d'un personnage, cruciales pour supporter à la fois l'effort physique et la douleur. Il joue un rôle clé dans l’utilisation d’équipements défensifs comme les boucliers, où une endurance soutenue est essentielle. La constitution mesure l'endurance et la force d'un personnage, lui permettant de résister à la maladie, de se remettre de blessures et de supporter un effort prolongé.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image39.png" alt="Constitution">
+  <div>
+    <p class="attr-meta">Attribut du corps - Aspect de la Terre <img class="attr-aspect" src="../images/image19.png" alt="Terre"></p>
+    <p>La Constitution représente la santé, la vitalité et la résilience d'un personnage, cruciales pour supporter à la fois l'effort physique et la douleur. Il joue un rôle clé dans l’utilisation d’équipements défensifs comme les boucliers, où une endurance soutenue est essentielle. La constitution mesure l'endurance et la force d'un personnage, lui permettant de résister à la maladie, de se remettre de blessures et de supporter un effort prolongé.</p>
+  </div>
+</div>
 
 ### La Dextérité
 
-![](images/image13.png)
-
-*Attribut du corps Aspect de l’Eau ![liquid, drop, water, droplet, wet, aqua, purity ](images/image7.png)*
-
-La dextérité mesure la coordination œil-main et la précision d’un personnage, essentielles pour manier des armes protégées comme les épées, où le contrôle et la finesse sont essentiels. Cet attribut est vital pour les manipulations fines, permettant des compétences telles que le crochetage, le recyclage, la jonglerie et le sabotage. La dextérité définit la capacité d'un personnage à effectuer des tâches délicates avec précision, ce qui la rend inestimable dans les situations qui nécessitent de la précision et une main ferme.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image13.png" alt="Dextérité">
+  <div>
+    <p class="attr-meta">Attribut du corps - Aspect de l’Eau <img class="attr-aspect" src="../images/image7.png" alt="Eau"></p>
+    <p>La dextérité mesure la coordination œil-main et la précision d’un personnage, essentielles pour manier des armes protégées comme les épées, où le contrôle et la finesse sont essentiels. Cet attribut est vital pour les manipulations fines, permettant des compétences telles que le crochetage, le recyclage, la jonglerie et le sabotage. La dextérité définit la capacité d'un personnage à effectuer des tâches délicates avec précision, ce qui la rend inestimable dans les situations qui nécessitent de la précision et une main ferme.</p>
+  </div>
+</div>
 
 ### L’Agilité
 
-![](images/image14.png)
-
-*Attribut du corps Aspect de l’Air ![light, spiral, swirl, sparkle, curve, vortex, illusion ](images/image9.png)*
-
-L'agilité reflète la vitesse, la flexibilité et le contrôle du corps d'un personnage, lui permettant de manœuvrer avec grâce et fluidité. Cet attribut est essentiel lors du maniement des armes d'hast, telles que les lances ou les hallebardes, où l'agilité et la précision du jeu de jambes sont essentielles pour une manipulation efficace. L'agilité permet des actions nécessitant de la flexibilité et de la dextérité des jambes, ce qui la rend inestimable pour éviter les obstacles, maintenir l'équilibre et effectuer des mouvements qui exigent une réponse rapide et contrôlée de la part du corps.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image14.png" alt="Agilité">
+  <div>
+    <p class="attr-meta">Attribut du corps - Aspect de l’Air <img class="attr-aspect" src="../images/image9.png" alt="Air"></p>
+    <p>L'agilité reflète la vitesse, la flexibilité et le contrôle du corps d'un personnage, lui permettant de manœuvrer avec grâce et fluidité. Cet attribut est essentiel lors du maniement des armes d'hast, telles que les lances ou les hallebardes, où l'agilité et la précision du jeu de jambes sont essentielles pour une manipulation efficace. L'agilité permet des actions nécessitant de la flexibilité et de la dextérité des jambes, ce qui la rend inestimable pour éviter les obstacles, maintenir l'équilibre et effectuer des mouvements qui exigent une réponse rapide et contrôlée de la part du corps.</p>
+  </div>
+</div>
 
 ### La Perception
 
-![](images/image15.png)
-
-*Attribut du corps Aspect du Vide ![magic, oracle, occult, mystic, mystery, eye, moon ](images/image12.png)*
-
-La perception mesure la conscience sensorielle et l’attention d’un personnage aux détails subtils de son environnement. C’est également l’attribut principal des attaques à distance, car une perception fine est essentielle pour la précision à distance. De plus, Perception améliore la réactivité d'un personnage, le rendant plus sensible aux rythmes du combat et mieux capable de réagir rapidement aux changements et aux ouvertures.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image15.png" alt="Perception">
+  <div>
+    <p class="attr-meta">Attribut du corps - Aspect du Vide <img class="attr-aspect" src="../images/image12.png" alt="Vide"></p>
+    <p>La perception mesure la conscience sensorielle et l’attention d’un personnage aux détails subtils de son environnement. C’est également l’attribut principal des attaques à distance, car une perception fine est essentielle pour la précision à distance. De plus, Perception améliore la réactivité d'un personnage, le rendant plus sensible aux rythmes du combat et mieux capable de réagir rapidement aux changements et aux ouvertures.</p>
+  </div>
+</div>
 
 ### Le Charisme
 
-![](images/image16.png)
-
-*Attribut de l’esprit Aspect du Feu ![heat, flame, fire, energy, glow, blaze, spell ](images/image17.png)*
-
-Le charisme décrit la force de la personnalité d’un personnage et sa capacité à avoir un impact sur les autres. C’est l’attribut clé de la persuasion, permettant à un personnage d’influencer, de motiver ou de démoraliser positivement ou négativement ceux qui l’entourent. Le charisme permet à un personnage d'inspirer confiance ou de susciter le doute, ce qui le rend essentiel pour les interactions sociales où l'influence est primordiale.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image16.png" alt="Charisme">
+  <div>
+    <p class="attr-meta">Attribut de l’esprit - Aspect du Feu <img class="attr-aspect" src="../images/image17.png" alt="Feu"></p>
+    <p>Le charisme décrit la force de la personnalité d’un personnage et sa capacité à avoir un impact sur les autres. C’est l’attribut clé de la persuasion, permettant à un personnage d’influencer, de motiver ou de démoraliser positivement ou négativement ceux qui l’entourent. Le charisme permet à un personnage d'inspirer confiance ou de susciter le doute, ce qui le rend essentiel pour les interactions sociales où l'influence est primordiale.</p>
+  </div>
+</div>
 
 ### La Volonté
 
-![](images/image18.png)
-
-*Attribut de l’esprit Aspect de la Terre ![element, stone, earth, soil, rpg, skill, ability ](images/image19.png)*
-
-La volonté mesure la détermination et la force mentale d'un personnage, lui permettant de résister à la manipulation et à la fatigue. C’est également crucial pour puiser dans sa détermination intérieure d’accomplir des exploits remarquables qui défient les attentes.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image18.png" alt="Volonté">
+  <div>
+    <p class="attr-meta">Attribut de l’esprit - Aspect de la Terre <img class="attr-aspect" src="../images/image19.png" alt="Terre"></p>
+    <p>La volonté mesure la détermination et la force mentale d'un personnage, lui permettant de résister à la manipulation et à la fatigue. C’est également crucial pour puiser dans sa détermination intérieure d’accomplir des exploits remarquables qui défient les attentes.</p>
+  </div>
+</div>
 
 ### L’Intelligence
 
-![](images/image5.png)
-
-*Attribut de l’esprit Aspect de l’Eau ![liquid, drop, water, droplet, wet, aqua, purity ](images/image7.png)*
-
-L'intelligence indique la capacité d'un personnage à raisonner, à apprendre et à résoudre des problèmes complexes. Il est indispensable pour lire entre les lignes d'un document, rédiger efficacement en restituant parfaitement les informations et en insérant des messages cachés, ainsi que relier les éléments lors d'une enquête. L’intelligence joue également un rôle crucial dans la capacité à se souvenir des choses, facilitant ainsi la mémorisation et le rappel des informations importantes.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image5.png" alt="Intelligence">
+  <div>
+    <p class="attr-meta">Attribut de l’esprit - Aspect de l’Eau <img class="attr-aspect" src="../images/image7.png" alt="Eau"></p>
+    <p>L'intelligence indique la capacité d'un personnage à raisonner, à apprendre et à résoudre des problèmes complexes. Il est indispensable pour lire entre les lignes d'un document, rédiger efficacement en restituant parfaitement les informations et en insérant des messages cachés, ainsi que relier les éléments lors d'une enquête. L’intelligence joue également un rôle crucial dans la capacité à se souvenir des choses, facilitant ainsi la mémorisation et le rappel des informations importantes.</p>
+  </div>
+</div>
 
 ### La Ruse
 
-![](images/image8.png)
-
-*Attribut de l’esprit Aspect de l’Air ![light, spiral, swirl, sparkle, curve, vortex, illusion ](images/image9.png)*
-
-La ruse représente l'ingéniosité et la réactivité d'un personnage, sa capacité à réfléchir rapidement et à s'adapter à de nouvelles situations. La ruse est particulièrement utile pour naviguer dans des environnements urbains complexes et interagir avec les animaux domestiques, permettant de manipuler facilement les éléments sociaux et les environnements construits par l'homme.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image8.png" alt="Ruse">
+  <div>
+    <p class="attr-meta">Attribut de l’esprit - Aspect de l’Air <img class="attr-aspect" src="../images/image9.png" alt="Air"></p>
+    <p>La ruse représente l'ingéniosité et la réactivité d'un personnage, sa capacité à réfléchir rapidement et à s'adapter à de nouvelles situations. La ruse est particulièrement utile pour naviguer dans des environnements urbains complexes et interagir avec les animaux domestiques, permettant de manipuler facilement les éléments sociaux et les environnements construits par l'homme.</p>
+  </div>
+</div>
 
 ### La Sagesse
 
-![](images/image10.png)
-
-*Attribut de l’esprit Aspect du Vide ![magic, oracle, occult, mystic, mystery, eye, moon ](images/image12.png)*
-
-La sagesse reflète l'expérience et le jugement d'un personnage, sa capacité à prendre des décisions réfléchies basées sur ses expériences. Il joue un rôle essentiel dans la guérison, la navigation en milieu rural et l'interaction avec les animaux sauvages, permettant l'harmonie avec le milieu naturel.
+<div class="attr-card">
+  <img class="attr-icon" src="../images/image10.png" alt="Sagesse">
+  <div>
+    <p class="attr-meta">Attribut de l’esprit - Aspect du Vide <img class="attr-aspect" src="../images/image12.png" alt="Vide"></p>
+    <p>La sagesse reflète l'expérience et le jugement d'un personnage, sa capacité à prendre des décisions réfléchies basées sur ses expériences. Il joue un rôle essentiel dans la guérison, la navigation en milieu rural et l'interaction avec les animaux sauvages, permettant l'harmonie avec le milieu naturel.</p>
+  </div>
+</div>
 
 ## Les Attributs Secondaires
 

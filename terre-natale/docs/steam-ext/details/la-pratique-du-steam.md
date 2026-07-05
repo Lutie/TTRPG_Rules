@@ -56,7 +56,13 @@ Les éléments sont les points importants d’un circuit. Il en existe de plusie
 
 Tous les éléments présentés ci-dessous sont des éléments du circuit.
 
-Les actions et les « éléments » Action(s) possibles(s) : ![](../images/image14.png) Voir, ![](../images/image5.png) Supprimer, ![](../images/image8.png) Restaurer, ![](../images/image11.png) Affaiblir, ![](../images/image6.png) Renforcer.
+Les actions et les « éléments » Action(s) possibles(s) :
+
+- ![](../images/image14.png) Voir.
+- ![](../images/image5.png) Supprimer.
+- ![](../images/image8.png) Restaurer.
+- ![](../images/image11.png) Affaiblir.
+- ![](../images/image6.png) Renforcer.
 
 « ![](../images/image14.png) Voir » un élément permet d’obtenir les informations de bases sur celui-ci, pas son contenu à proprement parler mais son état etc… Est-ce une porte fermée, ouverte, etc… « ![](../images/image8.png) Restaurer » un élément permet de le réactivé si il a été supprimé. La sauvegarde effectue cette action automatiquement lorsqu’un élément est supprimé. « ![](../images/image5.png) Supprimer » un élément permet de le désactiver. « ![](../images/image6.png) Renforcer » un élément permet de le prémunir d’une suppression en lui octroyant un bonus. Non cumulable. « ![](../images/image11.png) Affaiblir » un élément permet de le rendre plus sensible à une suppression en lui octroyant un malus. Non cumulable.
 

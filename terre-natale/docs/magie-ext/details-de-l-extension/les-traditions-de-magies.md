@@ -4,15 +4,21 @@ Les traditions représentent la méthode employée pour faire appel au mana. De 
 
 ### Tradition Académique
 
-Attribut de tradition : INT. Domaines associés à la tradition : Air, Arcane, Eau, Feu, Foudre, Glace, Magie, Mort, Savoir, Terre, Vide, Vision. Ecoles associée à la tradition : Destruction, Abjuration, Évocation, Altération. Philosophie : C’est la voie de la raison et de la méthode, celle qui considère la magie comme une science exacte. Les mages académiques analysent, calculent et modélisent le mana comme une équation du monde. Pour eux, tout phénomène magique obéit à une logique mesurable : comprendre, c’est dominer. Leur art repose sur la rigueur, les formules, la structure — autant d’outils qui garantissent la maîtrise d’un pouvoir qu’ils refusent de laisser au hasard. L’arithmétique et la géométrie sont leurs incantations ; la théorie, leur foi. C'est donc la plus répandue parmi les mages.
+Attribut de tradition : INT. Domaines associés à la tradition : Air, Arcane, Eau, Feu, Foudre, Glace, Magie, Mort, Savoir, Terre, Vide, Vision. Ecoles associée à la tradition : Destruction, Abjuration, Évocation, Altération.
+
+Philosophie : C’est la voie de la raison et de la méthode, celle qui considère la magie comme une science exacte. Les mages académiques analysent, calculent et modélisent le mana comme une équation du monde. Pour eux, tout phénomène magique obéit à une logique mesurable : comprendre, c’est dominer. Leur art repose sur la rigueur, les formules, la structure — autant d’outils qui garantissent la maîtrise d’un pouvoir qu’ils refusent de laisser au hasard. L’arithmétique et la géométrie sont leurs incantations ; la théorie, leur foi. C'est donc la plus répandue parmi les mages.
 
 ### Tradition Shamanique
 
-Attribut de tradition : SAG. Domaines associés à la tradition : Guerre, Air, Corps, Eau, Esprit, Faune, Flore, Loi, Lumière, Nature, Sacre, Terre, Vie. Ecoles associée à la tradition : Restauration, Divination, Malédiction, Bénédiction. Philosophie : La magie n’y est ni étudiée ni conquise, mais écoutée. Les shamans perçoivent le mana comme un souffle vivant qui circule dans toutes choses : une respiration du monde à laquelle il faut se joindre, non la forcer. Leur pratique mêle intuition, empathie et respect des cycles naturels. Chaque sort est une offrande, une négociation ou une harmonisation entre la volonté du mage et celle des esprits. Là où l’académicien dissèque la magie, le shaman l’invite à danser avec lui. C'est la plus répandue parmi les acolytes.
+Attribut de tradition : SAG. Domaines associés à la tradition : Guerre, Air, Corps, Eau, Esprit, Faune, Flore, Loi, Lumière, Nature, Sacre, Terre, Vie. Ecoles associée à la tradition : Restauration, Divination, Malédiction, Bénédiction.
+
+Philosophie : La magie n’y est ni étudiée ni conquise, mais écoutée. Les shamans perçoivent le mana comme un souffle vivant qui circule dans toutes choses : une respiration du monde à laquelle il faut se joindre, non la forcer. Leur pratique mêle intuition, empathie et respect des cycles naturels. Chaque sort est une offrande, une négociation ou une harmonisation entre la volonté du mage et celle des esprits. Là où l’académicien dissèque la magie, le shaman l’invite à danser avec lui. C'est la plus répandue parmi les acolytes.
 
 ### Tradition Hermétique
 
-Attribut de tradition : VOL. Domaines associés à la tradition : Guerre, Acier, Faune, Feu, Flore, Foudre, Glace, Impie, Magie, Nature, Sacre, Vide, Vie. Ecoles associée à la tradition : Destruction, Invocation, Altération, Conjuration. Philosophie : L'hermétisme ne prie ni ne raisonne : il affirme. Pour lui, la magie est le prolongement de la Volonté — une force intérieure capable d’imposer sa propre loi à la réalité. Chaque symbole, chaque verbe prononcé est une déclaration d’existence : que cela soit, car je le décide. Ces mages ne cherchent pas à comprendre la magie, mais à se comprendre eux-mêmes, persuadés que la maîtrise du monde passe d’abord par la maîtrise de soi. Là où d’autres canalisent le mana, l’hermétique le façonne à son image. C'est la plus répandue parmi les initiés.
+Attribut de tradition : VOL. Domaines associés à la tradition : Guerre, Acier, Faune, Feu, Flore, Foudre, Glace, Impie, Magie, Nature, Sacre, Vide, Vie. Ecoles associée à la tradition : Destruction, Invocation, Altération, Conjuration.
+
+Philosophie : L'hermétisme ne prie ni ne raisonne : il affirme. Pour lui, la magie est le prolongement de la Volonté — une force intérieure capable d’imposer sa propre loi à la réalité. Chaque symbole, chaque verbe prononcé est une déclaration d’existence : que cela soit, car je le décide. Ces mages ne cherchent pas à comprendre la magie, mais à se comprendre eux-mêmes, persuadés que la maîtrise du monde passe d’abord par la maîtrise de soi. Là où d’autres canalisent le mana, l’hermétique le façonne à son image. C'est la plus répandue parmi les initiés.
 
 ### Tradition Profane
 

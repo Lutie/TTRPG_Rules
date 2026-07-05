@@ -73,6 +73,9 @@ Lorsqu’un sort provoque des effets pratiques ces derniers sont basés sur la p
 
 Certains sorts peuvent permettre l’usage ponctuel de compétences dans des conditions et situations qui leurs sont propres. On parle d’un test de compétence « émulé » par magie.
 
-Le test d’une compétence émulée se fait en remplaçant : - L’attribut de compétence par l’attribut de magie du lanceur de sort. Le modificateur de magie ne peut dépasser le niveau du sort. - Le total groupe + compétence par la Puissance du Sort / 5. Le modificateur en question ne peut dépasser le niveau du sort.
+Le test d’une compétence émulée se fait en remplaçant :
+
+- L’attribut de compétence par l’attribut de magie du lanceur de sort. Le modificateur de magie ne peut dépasser le niveau du sort.
+- Le total groupe + compétence par la Puissance du Sort / 5. Le modificateur en question ne peut dépasser le niveau du sort.
 
 L’émulation de compétence ne profite cependant pas des différentes règles de singularités, de l’appel à la chance, etc…

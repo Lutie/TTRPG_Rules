@@ -65,7 +65,10 @@ Les matières disponibles dépendent entièrement de l’univers de jeu. Il est 
 
 ## Travailler les Matière
 
-Les matières peuvent être travaillées de 3 façons : - Soit en améliorant le niveau de qualité (jusqu’à +2). - Soit en générant un alliage.
+Les matières peuvent être travaillées de 3 façons :
+
+- Soit en améliorant le niveau de qualité (jusqu’à +2).
+- Soit en générant un alliage.
 
 ### Améliorer le niveau de qualité
 

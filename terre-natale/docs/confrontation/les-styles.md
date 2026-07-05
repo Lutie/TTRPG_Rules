@@ -72,7 +72,7 @@ Le défaut d'un style octroie un malus d'ajustement de -6 à un attribut dépré
 
 Le corpus d'un style désigne l'avantage le plus important et unique qu'offre le style. C'est le principale avantage d'un style et par extension son centre.
 
-La liste des corpus disponibles est consultable ici : [Liste des Corpus de Style](../styles/).
+La liste des corpus disponibles est consultable ici : [Liste des Corpus de Style](/styles/).
 
 ### Les Focus d'un Style
 
@@ -80,7 +80,7 @@ Les focus sont des particularités importantes d'un style qui lui confère des b
 
 Bien que les focus soient l'adjoint du corpus, c'est-à-dire qu'ils peuvent être liés, il est possible de créer/imaginer des styles qui ne respecte pas ces affiliations et qui empruntent donc à d'autres corpus leurs focus.
 
-La liste des focus disponibles est consultable ici : [Liste des Focus de Style](../focus/).
+La liste des focus disponibles est consultable ici : [Liste des Focus de Style](/focus/).
 
 ### L'Amorce d'un Style
 

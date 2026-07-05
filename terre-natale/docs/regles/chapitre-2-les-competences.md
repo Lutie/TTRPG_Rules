@@ -2,16 +2,37 @@
 
 ## Généralités
 
-Une compétence incarne une maîtrise pouvant être acquise à force d’apprentissage et de pratique. Les compétences servent à réaliser des tests d’aptitude dans lesquelles elles servent de modificateur positif. Elles ne jouent aucun rôle dans les tests d’attributs. Le personnage est « apprentis » dans les compétences de niveau 1. Le personnage est « compagnon » dans les compétences de niveau 2. Le personnage est « expert » dans les compétences de niveau 3. Le personnage est « maître » dans les compétences de niveau 4. Le personnage est « grand maître » dans les compétences de niveau 5. Le personnage est « sommité » dans les compétences de niveau 6.
+Une compétence incarne une maîtrise pouvant être acquise à force d’apprentissage et de pratique. Les compétences servent à réaliser des tests d’aptitude dans lesquelles elles servent de modificateur positif. Elles ne jouent aucun rôle dans les tests d’attributs.
+
+Les niveaux de compétences sont :
+
+- Niveau 1 : « apprentis ».
+- Niveau 2 : « compagnon ».
+- Niveau 3 : « expert ».
+- Niveau 4 : « maître ».
+- Niveau 5 : « grand maître ».
+- Niveau 6 : « sommité ».
 
 !!! note "Note"
     Le niveau d’une compétence ou d’un groupe est limité par la destinée du personnage (voir chapitre 5) et son rang de caste. Ces limites peuvent être modifiées par des traits.
 
-Les groupes de compétences servent à regrouper des compétences sous une activité commune. Le groupe agit aussi comme un modificateur, ajouté à celui de la compétence. Une compétence peut faire partie de plusieurs groupes à la fois, mais elle ne profite alors que du modificateur d’un seul groupe (le plus élevé). Le personnage est « novice » dans les groupes de niveau 1. Le personnage est « amateur » dans les groupes de niveau 2. Le personnage est « adepte » dans les groupes de niveau 3. Le personnage est « virtuose » dans les groupes de niveau 4. Les catégories de compétences servent à référencer des compétences sous une notion commune. Elles n’ont pas d'incidences sur le système de compétence à proprement parler mais permet une classification pratique.
+Les groupes de compétences servent à regrouper des compétences sous une activité commune. Le groupe agit aussi comme un modificateur, ajouté à celui de la compétence. Une compétence peut faire partie de plusieurs groupes à la fois, mais elle ne profite alors que du modificateur d’un seul groupe (le plus élevé).
+
+Les niveaux de groupes sont :
+
+- Niveau 1 : « novice ».
+- Niveau 2 : « amateur ».
+- Niveau 3 : « adepte ».
+- Niveau 4 : « virtuose ».
+
+Les catégories de compétences servent à référencer des compétences sous une notion commune. Elles n’ont pas d'incidences sur le système de compétence à proprement parler mais permet une classification pratique.
 
 ### Même compétence, Groupe différent
 
-Certaines compétences peuvent faire partie de plusieurs groupes à la fois. Voici quelques généralités à retenir pour ces cas de figure : - Lorsqu’un test de compétence est demandé, c’est le personnage qui décide quel groupe est employé. Cela peut indiquer la façon dont il réalise l’action, comme briser une serrure par la force ou par manipulation, évidemment l'interprétation en cas de réussite ou échec sera potentiellement très différente. - Le niveau d’une compétence est le même peu importe le groupe où elle se trouve, par exemple développer course en athlétisme ou en gymnastique revient au même : c’est la compétence course qui est augmentée.
+Certaines compétences peuvent faire partie de plusieurs groupes à la fois. Voici quelques généralités à retenir pour ces cas de figure :
+
+- Lorsqu’un test de compétence est demandé, c’est le personnage qui décide quel groupe est employé. Cela peut indiquer la façon dont il réalise l’action, comme briser une serrure par la force ou par manipulation, évidemment l'interprétation en cas de réussite ou échec sera potentiellement très différente.
+- Le niveau d’une compétence est le même peu importe le groupe où elle se trouve, par exemple développer course en athlétisme ou en gymnastique revient au même : c’est la compétence course qui est augmentée.
 
 ### Quand demander un test de compétence
 

@@ -4,7 +4,11 @@ Une arme à feu est constituée d’un bloc de base et de 3 blocs principaux. El
 
 Le bloc de base constitue les caractéristiques de base de l’arme à feu. Certains constructeurs réalisent des armes au fonctionnement très différent : C’est alors le bloc de base qui diffère grandement des autres. C’est aussi le bloc de base qui définit si l’arme est une arme de poing ou une arme d’épaule !
 
-Les blocs principaux constituent l’enrobage de l’arme. Si les blocs « classiques » n’apportent rien d’autre qu’un fonctionnement que l’on apprécierait de normal, les blocs « modifiés » eux altèrent les caractéristiques de fonctionnement de l’arme pour en orienter son usage. On compte parmi ces blocs : - Le canon (CA). - Le magasin (MA). - La crosse (CR).
+Les blocs principaux constituent l’enrobage de l’arme. Si les blocs « classiques » n’apportent rien d’autre qu’un fonctionnement que l’on apprécierait de normal, les blocs « modifiés » eux altèrent les caractéristiques de fonctionnement de l’arme pour en orienter son usage. On compte parmi ces blocs :
+
+- Le canon (CA).
+- Le magasin (MA).
+- La crosse (CR).
 
 !!! note "Note"
     Les blocs principaux reposent sur un système qui remplace la matière tel que proposée dans l’extension des confrontations pour les armes classiques.
@@ -15,7 +19,11 @@ Les blocs principaux constituent l’enrobage de l’arme. Si les blocs « class
 
     Les blocs principaux « modifiés » modifient l’arme et nécessite un slot d’amélioration technologique par blocs.
 
-Les blocs secondaires constituent les accessoires de l’arme. On compte parmi ces blocs : - Le bloc supérieur (disposé au-dessus du canon, généralement des viseurs par exemple) (BS). - Le bloc inférieur (disposé au-dessous du canon, généralement des armes secondaires) (BI). - Le bloc arrière (disposé à l’arrière du magasin, généralement divers accessoires pratiques) (BA).
+Les blocs secondaires constituent les accessoires de l’arme. On compte parmi ces blocs :
+
+- Le bloc supérieur (disposé au-dessus du canon, généralement des viseurs par exemple) (BS).
+- Le bloc inférieur (disposé au-dessous du canon, généralement des armes secondaires) (BI).
+- Le bloc arrière (disposé à l’arrière du magasin, généralement divers accessoires pratiques) (BA).
 
 !!! note "Note"
     Les blocs secondaires ne reposent pas sur un système proposé ailleurs, c’est une subtilité en plus unique aux armes à feu.

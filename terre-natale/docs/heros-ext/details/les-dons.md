@@ -4,7 +4,10 @@
 
 Les dons représentent l’usage qui peut être fait d’une force intérieure appelée le « Chi », qui peut influencer aussi bien les actes que les pensées. Quand certains parlent de Chi, d’autres parlent plus volontiers de prana ou autre concepts. Toujours est-il qu’il s’agit là d’une de ressources cachées dans le for intérieur de chacun, bien que nombreux sont ceux qui ne cherchent jamais à en faire usage, souvent à défaut d’avoir les connaissances et/ou la maîtrise adéquate.
 
-On classe les dons en deux catégories : Les dons et les prouesses. - Il y a un don pour chaque attribut et ce sont un peu les fondations de cette discipline. Les dons permettent de faire usage du Chi afin d’améliorer les performances relatives à l’attribut qu’ils incarnent. - Il y a une prouesse par don et ils correspondent à une maîtrise avancée de la discipline. Les dons permettent de réaliser des actions exceptionnelles qui sortent de l’ordinaire. Évidemment la nature de ces actions dépend de la prouesse et de son don d’origine.
+On classe les dons en deux catégories : les dons et les prouesses.
+
+- Il y a un don pour chaque attribut et ce sont un peu les fondations de cette discipline. Les dons permettent de faire usage du Chi afin d’améliorer les performances relatives à l’attribut qu’ils incarnent.
+- Il y a une prouesse par don et ils correspondent à une maîtrise avancée de la discipline. Les dons permettent de réaliser des actions exceptionnelles qui sortent de l’ordinaire. Évidemment la nature de ces actions dépend de la prouesse et de son don d’origine.
 
 ### L’Usage des Dons
 
@@ -100,7 +103,11 @@ Pour 2 points de chi le personnage peut réaliser gratuitement une tactique rest
 
 #### Danse de l’Arme Volante
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage récupère l'arme qu'il vient de jeter, utilisable uniquement en cas d'échec du jet. 2e stade : Le personnage récupère l'arme qu'il vient de jeter, peu importe que l'action soit un échec ou pas. 3e stade : L'effet est actif pour un cycle complet.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage récupère l'arme qu'il vient de jeter, utilisable uniquement en cas d'échec du jet.
+- 2e stade : Le personnage récupère l'arme qu'il vient de jeter, peu importe que l'action soit un échec ou pas.
+- 3e stade : L'effet est actif pour un cycle complet.
 
 #### ???
 
@@ -188,7 +195,11 @@ Pour un usage unique, chaque Chi réduit les charge d'une condition de poison, v
 
 #### Corps en Autorcie
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut se passer de manger ou boire pour un repas. 2e stade : Le personnage peut se passer de manger et boire pour un repas. 3e stade : Le personnage peut se passer de manger et boire pour la journée.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut se passer de manger ou boire pour un repas.
+- 2e stade : Le personnage peut se passer de manger et boire pour un repas.
+- 3e stade : Le personnage peut se passer de manger et boire pour la journée.
 
 #### Peau d’Acier
 
@@ -260,11 +271,19 @@ Pour un usage unique, chaque Chi dépensés augmente l’attrition des actions m
 
 #### Symphonie des Pensées Partagées
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage envoyer un message d’une phrase à un individus à proximité/dans son entourage. 2e stade : L’individus peut répondre par une réponse courte (un mot) et le message peut atteindre plusieurs cibles à la fois, mais les réponses restent individuelles et seul le personnage les entends. 3e stade : L’échange n’est plus limité, tout le monde s’entends, peut se parler, répondre plusieurs fois avec des réponses de la longueur qu’ils souhaitent.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage envoyer un message d’une phrase à un individus à proximité/dans son entourage.
+- 2e stade : L’individus peut répondre par une réponse courte (un mot) et le message peut atteindre plusieurs cibles à la fois, mais les réponses restent individuelles et seul le personnage les entends.
+- 3e stade : L’échange n’est plus limité, tout le monde s’entends, peut se parler, répondre plusieurs fois avec des réponses de la longueur qu’ils souhaitent.
 
 #### Fer des Mémoires
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut, à la fin d'une scène, s'assurer de ne pas être oublié par la créature avec laquelle il a engagé un contact. 2e stade : L'effet peut affecter un être n'ayant pas engagé un contact avec le personnage (autre que visuel en tout cas). 3e stade : L'effet peut affecter plusieurs créatures à la fois.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut, à la fin d'une scène, s'assurer de ne pas être oublié par la créature avec laquelle il a engagé un contact.
+- 2e stade : L'effet peut affecter un être n'ayant pas engagé un contact avec le personnage (autre que visuel en tout cas).
+- 3e stade : L'effet peut affecter plusieurs créatures à la fois.
 
 #### Fusion des Essences
 
@@ -308,11 +327,19 @@ Pour 2 points de chi le personnage peut forcer un individu à acheter un objet q
 
 #### Vif-Esprit du Savoir
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut réaliser une tâche de lecture ou recherches similaires en un temps plus court (voir encadré), limité à un document/sujet. 2e stade : L'effet peut désormais être lié à un ensemble de documents ou sujets. 3e stade : La durée est désormais d'une scène tout au plus.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut réaliser une tâche de lecture ou recherches similaires en un temps plus court (voir encadré), limité à un document/sujet.
+- 2e stade : L'effet peut désormais être lié à un ensemble de documents ou sujets.
+- 3e stade : La durée est désormais d'une scène tout au plus.
 
 #### Main du Génie
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut réaliser une tâche de création en un temps plus court (voir encadré), limité à un document/sujet. 2e stade : L'effet peut désormais être lié à un ensemble de documents ou sujets. 3e stade : La durée est désormais d'une scène tout au plus.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut réaliser une tâche de création en un temps plus court (voir encadré), limité à un document/sujet.
+- 2e stade : L'effet peut désormais être lié à un ensemble de documents ou sujets.
+- 3e stade : La durée est désormais d'une scène tout au plus.
 
 #### Perception des Fragments
 
@@ -348,7 +375,11 @@ Pour un usage unique chaque 2 points de Chi dépensé réduit la perte de fatigu
 
 #### Silence des Souvenirs
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut, à la fin d'une scène, se faire oublier d'une créature qui l'a aperçu (sans engager de contact) durant la scène en question. 2e stade : L'effet peut affecter un être ayant engagé un contact avec le personnage durant la scène. 3e stade : L'effet peut affecter plusieurs créatures à la fois.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut, à la fin d'une scène, se faire oublier d'une créature qui l'a aperçu (sans engager de contact) durant la scène en question.
+- 2e stade : L'effet peut affecter un être ayant engagé un contact avec le personnage durant la scène.
+- 3e stade : L'effet peut affecter plusieurs créatures à la fois.
 
 #### Voile de Tromperie
 
@@ -396,7 +427,11 @@ Chaque Chi dépensé réduisent le jet critique d’un adversaire de 3, cet effe
 
 #### Ascète du Roc
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut se passer de manger ou boire pour un repas. 2e stade : Le personnage peut se passer de manger et boire pour un repas. 3e stade : Le personnage peut se passer de manger et boire pour la journée.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut se passer de manger ou boire pour un repas.
+- 2e stade : Le personnage peut se passer de manger et boire pour un repas.
+- 3e stade : Le personnage peut se passer de manger et boire pour la journée.
 
 #### Force Contre le Tourment
 
@@ -420,7 +455,11 @@ Pour un usage unique et de l'ordre du mental, chaque Chi dépensé réduit les m
 
 #### Œil de l’Empathie
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut tenter de percevoir les sentiments qui occupent un individus qu’il perçoit d’une façon ou d’une autre (visuel ou sonore), quel que soit la distance, le temps ou que la cible ne fasse rien de particulier pour trahir ses sentiments. Le MJ peut répondre en évoquant un des sentiments bien connus tel que « tristesse », « colère », « confusion », etc... 2e stade : Le MJ indique succinctement les origines des sentiments. 3e stade : Même vaguement, le MJ évoque comment pourrait être apaisés ces sentiments.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut tenter de percevoir les sentiments qui occupent un individus qu’il perçoit d’une façon ou d’une autre (visuel ou sonore), quel que soit la distance, le temps ou que la cible ne fasse rien de particulier pour trahir ses sentiments. Le MJ peut répondre en évoquant un des sentiments bien connus tel que « tristesse », « colère », « confusion », etc...
+- 2e stade : Le MJ indique succinctement les origines des sentiments.
+- 3e stade : Même vaguement, le MJ évoque comment pourrait être apaisés ces sentiments.
 
 #### Sérénité du Lotus
 
@@ -428,7 +467,11 @@ Pour un repos unique, chaque Chi dépensé augmente la récupération d’une re
 
 #### Clarté du Flambeau
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut tenter de percevoir le bon sens qui se cache derrière un choix et ce même s’il dispose de peu d’informations à ce sujet. Le MJ peut répondre par « oui » si c’est une bonne idée sans complication, « oui mais », si c’est une bonne idée avec complications à la clé, « non mais », si c’est un idée qui pourrait fonctionner mais non sans mal ou « non », si l’idée ne fonctionnait pas quoi qu’il arrive. 2e stade : Le MJ peut indiquer brièvement les raisons derrière sa réponse. 3e stade : Le MJ peut indiquer comment contourner les points de frictions du choix ainsi pesé.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut tenter de percevoir le bon sens qui se cache derrière un choix et ce même s’il dispose de peu d’informations à ce sujet. Le MJ peut répondre par « oui » si c’est une bonne idée sans complication, « oui mais », si c’est une bonne idée avec complications à la clé, « non mais », si c’est un idée qui pourrait fonctionner mais non sans mal ou « non », si l’idée ne fonctionnait pas quoi qu’il arrive.
+- 2e stade : Le MJ peut indiquer brièvement les raisons derrière sa réponse.
+- 3e stade : Le MJ peut indiquer comment contourner les points de frictions du choix ainsi pesé.
 
 #### Lecture des Mouvements
 
@@ -436,15 +479,27 @@ Le personnage peut profiter de son action libre afin de prédire les actions d'u
 
 #### Révélation des Désirs
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut tenter de percevoir les intentions à court termes (dans les prochaines minutes) qui occupent un individus qu’il perçoit d’une façon ou d’une autre (visuel ou sonore), quel que soit la distance, le temps ou que la cible ne fasse rien de particulier pour trahir ses intentions. Les intentions peuvent évidemment changer avec le temps, en fonction de ce que la cible fait de sa vie, rien n’est marqué dans le marbre. Le MJ peut répondre via une courte phrase. 2e stade : Le personnage peut percevoir les intentions à moyen termes (dans la journée). 3e stade : Le personnage peut percevoir les intentions à long termes (dans les semaines et mois à venir).
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut tenter de percevoir les intentions à court termes (dans les prochaines minutes) qui occupent un individus qu’il perçoit d’une façon ou d’une autre (visuel ou sonore), quel que soit la distance, le temps ou que la cible ne fasse rien de particulier pour trahir ses intentions. Les intentions peuvent évidemment changer avec le temps, en fonction de ce que la cible fait de sa vie, rien n’est marqué dans le marbre. Le MJ peut répondre via une courte phrase.
+- 2e stade : Le personnage peut percevoir les intentions à moyen termes (dans la journée).
+- 3e stade : Le personnage peut percevoir les intentions à long termes (dans les semaines et mois à venir).
 
 #### Chant des Secrets
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage peut déclencher cet effet et s'assurer que ses propos ne trahissent jamais un sujet spécifique, l'effet est proactif et doit être déclenché avant une discussion. 2e stade : L'effet est rétroactif et peut donc être déclenché immédiatement (ou presque) après que les propos ont été mentionnés, on considère que le personnage arrive à détourner la conversation afin que l'interlocuteur ne soit pas en mesure de retenir l'information qui a malencontreusement filtré. 3e stade : Le personnage peut déclencher cet effet après avoir pu constater l'impact sur son/ses interlocuteurs.
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage peut déclencher cet effet et s'assurer que ses propos ne trahissent jamais un sujet spécifique, l'effet est proactif et doit être déclenché avant une discussion.
+- 2e stade : L'effet est rétroactif et peut donc être déclenché immédiatement (ou presque) après que les propos ont été mentionnés, on considère que le personnage arrive à détourner la conversation afin que l'interlocuteur ne soit pas en mesure de retenir l'information qui a malencontreusement filtré.
+- 3e stade : Le personnage peut déclencher cet effet après avoir pu constater l'impact sur son/ses interlocuteurs.
 
 #### Présence Attendue
 
-Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage. 1er stade : Le personnage effectue un appel sans employés de moyens physiques afin qu'un ou ses alliés naturels (monture, familier, etc) le retrouve et accours vers lui, et ce même dans des conditions qui devrait normalement empêcher le contact. La portée est limitée à une zone (quartier d'une ville). 2e stade : La portée est désormais celle d'une région (ville entière), de plus le déplacement de la créature est doublé. 3e stade : La portée est désormais celle d'une région (région), de plus le déplacement de la créature est instantané, en réalité elle était là, elle attendait...
+Il y a trois stade à cette prouesse, nécessitant respectivement 2, 4 et 6 points de Chi à l’usage.
+
+- 1er stade : Le personnage effectue un appel sans employés de moyens physiques afin qu'un ou ses alliés naturels (monture, familier, etc) le retrouve et accours vers lui, et ce même dans des conditions qui devrait normalement empêcher le contact. La portée est limitée à une zone (quartier d'une ville).
+- 2e stade : La portée est désormais celle d'une région (ville entière), de plus le déplacement de la créature est doublé.
+- 3e stade : La portée est désormais celle d'une région (région), de plus le déplacement de la créature est instantané, en réalité elle était là, elle attendait...
 
 #### Emphase de la Meute
 

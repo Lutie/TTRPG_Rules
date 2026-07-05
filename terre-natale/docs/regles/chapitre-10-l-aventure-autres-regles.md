@@ -412,7 +412,19 @@ Les chroniques ne sont pas essence par là pour bloquer la progression des joueu
 
 Lorsqu’un joueur cherche à tirer avantage d’un personnage non joueur, cela peut prendre la tournure d’une joute mais ce n’est pas le dénouement le plus récurrent. Les joutes sont un véritable débat ouvert, elles doivent avoir lieu lorsque l’enjeu est grand, lorsque la différence d’opinions est flagrante, etc…
 
-La plupart du temps les personnages pourront formuler leurs demandes aux autres personnages par le biais d’interactions plus simples. Une demande effectuée à un personnage a pour difficulté par défaut 15. Cependant la situation et les tenants et aboutissants peuvent évidemment drastiquement changer la donne, apportant leurs lots de modificateurs : Quelques exemples de modificateurs : - La demande ne présente aucun désavantages pour l’interlocuteur (pas de perte de temps, d’argent, de crédibilité, etc) (-5). - La demande va contre les convictions/volontés de l'interlocuteur (+5). - La demande met l'interlocuteur en danger (+5). - La demande prend du temps et requiert à l'interlocuteur de laisser tomber ce qu'il fait (+5). - La demande est faite à un interlocuteur qui n'apprécie PAS le personnage (+5). - La demande des joueurs a déjà échoué une première fois (+5). - La demande est effectuée sous contrainte (-5), cependant c’est illégal et l’interlocuteur peut choisir de trahir, saisir les autorités, ou autre… Bref ce n’est pas sans conséquences. Etc… A la discrétion du MJ.
+La plupart du temps les personnages pourront formuler leurs demandes aux autres personnages par le biais d’interactions plus simples. Une demande effectuée à un personnage a pour difficulté par défaut 15. Cependant la situation et les tenants et aboutissants peuvent évidemment drastiquement changer la donne, apportant leurs lots de modificateurs.
+
+Quelques exemples de modificateurs :
+
+- La demande ne présente aucun désavantages pour l’interlocuteur (pas de perte de temps, d’argent, de crédibilité, etc) (-5).
+- La demande va contre les convictions/volontés de l'interlocuteur (+5).
+- La demande met l'interlocuteur en danger (+5).
+- La demande prend du temps et requiert à l'interlocuteur de laisser tomber ce qu'il fait (+5).
+- La demande est faite à un interlocuteur qui n'apprécie PAS le personnage (+5).
+- La demande des joueurs a déjà échoué une première fois (+5).
+- La demande est effectuée sous contrainte (-5), cependant c’est illégal et l’interlocuteur peut choisir de trahir, saisir les autorités, ou autre… Bref ce n’est pas sans conséquences.
+
+Etc… A la discrétion du MJ.
 
 Une demande qui échoue peut fermer le dialogue selon les prédisposition du personnage face aux joueurs (voir l’attitude, ci-dessous).
 

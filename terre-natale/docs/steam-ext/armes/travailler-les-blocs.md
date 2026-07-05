@@ -1,6 +1,10 @@
 ## Travailler les Blocs
 
-Les blocs peuvent être travaillés de 2 façons différentes : - Créer un bloc. - Générer un bloc. - Modifier un bloc.
+Les blocs peuvent être travaillés de 2 façons différentes :
+
+- Créer un bloc.
+- Générer un bloc.
+- Modifier un bloc.
 
 Dans tous les cas les tests sont réalisés à partir du groupe Science Technologiques et la compétence Armurerie (offensive).
 
