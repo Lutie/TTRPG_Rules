@@ -1,0 +1,1510 @@
+[
+  {
+    "nom": "Dégâts Accrus",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": false,
+    "effet": "Les dégâts causés par les attaques sont augmentés de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Gravité Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": false,
+    "effet": "La gravité des attaques est augmentée de 2/4/6.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Rupture Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": false,
+    "effet": "La rupture des attaques est augmentée de 2/4/6.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Férocité Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": false,
+    "effet": "La férocité des attaques est augmentée de 2/4/6.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Sournois Accru",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": false,
+    "effet": "Les dégâts sournois (appliqués dans le dos) des attaques sont augmentés de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Malice Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": true,
+    "effet": "La malice des attaques est augmentée de 1/2/3. (Augmente les charges des conditions négatives imposées aux adversaires.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Prestige Accru",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Dégâts",
+    "nouveau": true,
+    "effet": "Le prestige des actions est augmenté de 1/2/3. (Augmente les charges des conditions positives appliquées aux alliés.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Perforation Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Pénétration et effets spéciaux",
+    "nouveau": false,
+    "effet": "La perforation des attaques est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Pénétration Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Pénétration et effets spéciaux",
+    "nouveau": false,
+    "effet": "La pénétration des attaques est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Attrition Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Pénétration et effets spéciaux",
+    "nouveau": false,
+    "effet": "L'attrition des attaques est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Précision Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Pénétration et effets spéciaux",
+    "nouveau": false,
+    "effet": "La précision des attaques est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Dégradation Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Pénétration et effets spéciaux",
+    "nouveau": false,
+    "effet": "La dégradation provoquée par les actions est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Maîtrise Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": false,
+    "effet": "La maîtrise des attaques est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Expertise Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": false,
+    "effet": "L'expertise des attaques est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Feinte Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": false,
+    "effet": "Les attaques reçoivent un bonus de 1/2/3 qui ne compte pas pour la difficulté des défenses adverses.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Ténacité Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": true,
+    "effet": "Le seuil de réussite critique adverse est augmenté de 2/3/4. (Rend plus difficile pour un adversaire d'obtenir une réussite critique sur soi.)",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Vitesse Active Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Vitesse offensive",
+    "nouveau": false,
+    "effet": "La vitesse active des attaques est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Attaque Supérieure",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Ajustements offensifs",
+    "nouveau": false,
+    "effet": "Les actions d'attaque normales (hors opportunités, actions restreintes) reçoivent un ajustement de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Opportunité Supérieure",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Ajustements offensifs",
+    "nouveau": false,
+    "effet": "Les actions d'opportunité reçoivent un ajustement de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Contre Supérieure",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Ajustements offensifs",
+    "nouveau": false,
+    "effet": "Les actions de contre (attaque ou tactique) reçoivent un ajustement de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Contre Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Ajustements offensifs",
+    "nouveau": false,
+    "effet": "Le jet des actions de contre est augmenté de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Opportunité Accrue",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Ajustements offensifs",
+    "nouveau": false,
+    "effet": "Le jet des actions d'opportunité est augmenté de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Qualité en Attaque",
+    "domaine": "Combat",
+    "famille": "Offensif",
+    "sous_section": "Ajustements offensifs",
+    "nouveau": true,
+    "effet": "Lorsqu'une attaque est une réussite, son score est augmenté de 3/5/7 pour apprécier le degré de réussite (et ce qui en découle).",
+    "valeurs": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "nom": "Résistance Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La résistance est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Absorption Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "L'absorption est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Déviation Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La déviation des défenses est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Protection Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La protection est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Protection",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "Bonus de 1/2/3 en protection en toutes circonstances.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Résilience Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La résilience est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Résistance à la Perforation",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Résistances spécifiques",
+    "nouveau": false,
+    "effet": "La perforation adverse est réduite de 2/4/6.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Résistance à la Pénétration",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Résistances spécifiques",
+    "nouveau": false,
+    "effet": "La pénétration adverse est réduite de 2/4/6.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Résistance à l'Attrition",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Résistances spécifiques",
+    "nouveau": false,
+    "effet": "L'attrition adverse est réduite de 2/4/6.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Défense Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Défenses passives",
+    "nouveau": false,
+    "effet": "Les défenses passives reçoivent un ajustement de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Défense Faible Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Défenses passives",
+    "nouveau": false,
+    "effet": "La défense passive la plus faible reçoit un bonus de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Défense « Attribut » Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Défenses passives",
+    "nouveau": false,
+    "effet": "La défense de l'attribut spécifié est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Défense Supérieure",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "Les actions de défense armée reçoivent un ajustement de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Souplesse Supérieure",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "Les actions de défense non armée reçoivent un ajustement de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Expertise en Défense",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "Les difficultés issues d'une défense s'opposant aux sauvegardes adverses sont augmentées de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Vitesse en Défense",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "La vitesse est augmentée de 2/4/6 lorsqu'il s'agit d'actions de défense.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Vitesse Passive Accrue",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "La vitesse passive est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Qualité en Défense",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "Lorsqu'une défense est une réussite, son score est augmenté de 3/5/7 pour apprécier le degré de réussite (et ce qui en découle).",
+    "valeurs": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "nom": "Protection en Défense",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Actions de défense",
+    "nouveau": false,
+    "effet": "Bonus de 2/4/6 en protection lorsque le personnage réalise une action de défense.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Robustesse",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Sauvegardes et résistances passives",
+    "nouveau": false,
+    "effet": "La sauvegarde physique (robustesse) est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Vigilance",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Sauvegardes et résistances passives",
+    "nouveau": false,
+    "effet": "La défense face aux interruptions (opportunités, ripostes, etc.) est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Méfiance",
+    "domaine": "Combat",
+    "famille": "Défensif",
+    "sous_section": "Sauvegardes et résistances passives",
+    "nouveau": false,
+    "effet": "La durabilité de l'équipement porté est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Impact Accru",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": true,
+    "effet": "L'impact des actions tactiques est augmenté de 1/2/3. (Augmente le jet des actions tactiques.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Expertise en Tactique",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": false,
+    "effet": "Les difficultés issues d'une tactique s'opposant aux sauvegardes adverses sont augmentées de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Vitesse en Tactique",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": false,
+    "effet": "La vitesse est augmentée de 2/4/6 lorsqu'il s'agit d'actions de tactique.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Qualité en Tactique",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": false,
+    "effet": "Lorsqu'une tactique est une réussite, son score est augmenté de 3/5/7 pour apprécier le degré de réussite (et ce qui en découle).",
+    "valeurs": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "nom": "Initiative Accrue",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Initiative et ordre de jeu",
+    "nouveau": false,
+    "effet": "L'initiative est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Rapidité Accrue",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Initiative et ordre de jeu",
+    "nouveau": true,
+    "effet": "La rapidité est augmentée de 1/2/3. (Modifie le moment où l'action a lieu sur l'échelle des initiatives, sans modifier l'initiative elle-même.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Hâte Accrue",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Initiative et ordre de jeu",
+    "nouveau": true,
+    "effet": "La hâte est augmentée de 1/2/3. (Affecte simultanément la rapidité et la vitesse globale.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Menace",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Positionnement et zones",
+    "nouveau": false,
+    "effet": "La zone de menace est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Contrôle",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Positionnement et zones",
+    "nouveau": false,
+    "effet": "La zone de contrôle est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Allonge/Portée",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Positionnement et zones",
+    "nouveau": false,
+    "effet": "L'allonge (ou la portée pour les armes à distance) est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Mobilité",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Positionnement et zones",
+    "nouveau": false,
+    "effet": "Les déplacements sans modificateur (×1) sont augmentés de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Adresse",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": false,
+    "effet": "La maladresse martiale voit son seuil réduit de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Criticité",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": false,
+    "effet": "La criticité martiale voit son seuil augmenté de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Exploit Accru",
+    "domaine": "Combat",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": true,
+    "effet": "La plage d'exploit est augmentée de 1/2/3. (Complémentaire d'Adresse et de Criticité.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Dégâts Accrus",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts de base",
+    "nouveau": false,
+    "effet": "Les dégâts causés par les tirades sont augmentés de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Perforation Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts de base",
+    "nouveau": false,
+    "effet": "La perforation des tirades est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Précision",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts de base",
+    "nouveau": false,
+    "effet": "La précision des tirades est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Violence",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts de base",
+    "nouveau": false,
+    "effet": "La durabilité de l'apparat adverse est réduite de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Dégâts Perforants",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades sont augmentés de 3/4/5 si elles affectent le mental.",
+    "valeurs": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "nom": "Dégâts d'Attrition",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades sont augmentés de 4/6/8 si elles affectent l'endurance.",
+    "valeurs": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "nom": "Dégâts Aggravés",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades sont augmentés de 4/6/8 pour déterminer la gravité d'un traumatisme.",
+    "valeurs": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "nom": "Dégâts de Rupture",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades sont augmentés de 4/6/8 lorsqu'il s'agit de dégâts dans le temps.",
+    "valeurs": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "nom": "Dégâts Critiques",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades sont augmentés de 4/6/8 lorsqu'ils sont produits par une tirade critique.",
+    "valeurs": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "nom": "Dégâts Riposte",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades de ripostes, contres, etc. sont augmentés de 4/6/8.",
+    "valeurs": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "nom": "Dégâts Opportunistes",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Dégâts situationnels",
+    "nouveau": false,
+    "effet": "Les dégâts des tirades d'opportunité sont augmentés de 4/6/8.",
+    "valeurs": [
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "nom": "Malice Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Conditions",
+    "nouveau": true,
+    "effet": "La malice des tirades est augmentée de 1/2/3. (Augmente les charges des conditions négatives imposées aux adversaires.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Prestige Accru",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Conditions",
+    "nouveau": true,
+    "effet": "Le prestige des actions est augmenté de 1/2/3. (Augmente les charges des conditions positives appliquées aux alliés.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Expertise en Tirade",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": false,
+    "effet": "Les difficultés issues d'une tirade s'opposant aux sauvegardes adverses sont augmentées de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Maîtrise en Tirade",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": false,
+    "effet": "Les difficultés issues d'une tirade s'opposant aux défenses adverses sont augmentées de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Feinte en Tirade",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": false,
+    "effet": "Le test de tirade reçoit un bonus de 1/2/3 uniquement pour dépasser la défense passive de la cible.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Ténacité Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Contrôle de la difficulté",
+    "nouveau": true,
+    "effet": "Le seuil de réussite critique adverse est augmenté de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Tirade contre Charisme",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de tirade reçoit un bonus de 1/2/3 si la cible fait usage de son charisme.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Tirade contre Intellect",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de tirade reçoit un bonus de 1/2/3 si la cible fait usage de son intelligence.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Tirade contre Ruse",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de tirade reçoit un bonus de 1/2/3 si la cible fait usage de sa ruse.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Tirade contre Sagesse",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de tirade reçoit un bonus de 1/2/3 si la cible fait usage de sa sagesse.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Tirade contre Volonté",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de tirade reçoit un bonus de 1/2/3 si la cible fait usage de sa volonté.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Vitesse en Tirade",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Vitesse et qualité",
+    "nouveau": false,
+    "effet": "La vitesse est augmentée de 2/4/6 lorsqu'il s'agit d'actions de tirade.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Qualité en Tirade",
+    "domaine": "Social (Joute)",
+    "famille": "Offensif",
+    "sous_section": "Vitesse et qualité",
+    "nouveau": false,
+    "effet": "Lorsqu'une tirade est une réussite, son score est augmenté de 3/5/7 pour apprécier le degré de réussite (et ce qui en découle).",
+    "valeurs": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "nom": "Résistance Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La résistance mentale est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Absorption Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "L'absorption mentale est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Résistance à la Perforation",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "Les dégâts sociaux affectant le mental sont réduits de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Résistance à l'Attrition",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "Les dégâts sociaux affectant l'endurance sont réduits de 3/4/5.",
+    "valeurs": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "nom": "Résistance aux Traumatismes",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La gravité des traumatismes subis est réduite de 3/4/5.",
+    "valeurs": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "nom": "Déviation Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "La déviation est augmentée de 3/4/5 lorsque le personnage fait usage d'une défense faisant appel à son argument.",
+    "valeurs": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "nom": "Protection",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Réduction des dégâts",
+    "nouveau": false,
+    "effet": "Bonus de 1/2/3 en protection (mentale) en toute circonstance.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Expertise en Défense",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses actives",
+    "nouveau": false,
+    "effet": "Les difficultés issues d'une défense s'opposant aux sauvegardes adverses sont augmentées de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Vitesse en Défense",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses actives",
+    "nouveau": false,
+    "effet": "La vitesse est augmentée de 2/4/6 lorsqu'il s'agit d'actions de défense.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Qualité en Défense",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses actives",
+    "nouveau": false,
+    "effet": "Lorsqu'une défense est une réussite, son score est augmenté de 3/5/7 pour apprécier le degré de réussite (et ce qui en découle).",
+    "valeurs": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "nom": "Protection en Défense",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses actives",
+    "nouveau": false,
+    "effet": "Bonus de 2/4/6 en protection (mentale) lorsque le personnage réalise une action de défense.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Défense contre Charisme",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de défense reçoit un bonus de 2/3/4 si l'adversaire fait usage du charisme.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Défense contre Intelligence",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de défense reçoit un bonus de 2/3/4 si l'adversaire fait usage de l'intelligence.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Défense contre Ruse",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de défense reçoit un bonus de 2/3/4 si l'adversaire fait usage de la ruse.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Défense contre Sagesse",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Bonus selon attribut adverse",
+    "nouveau": false,
+    "effet": "Le test de défense reçoit un bonus de 2/3/4 si l'adversaire fait usage de la sagesse.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Défense via le Charisme",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses par attribut propre",
+    "nouveau": false,
+    "effet": "La défense via le charisme est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Défense via l'Intelligence",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses par attribut propre",
+    "nouveau": false,
+    "effet": "La défense via l'intelligence est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Défense via la Ruse",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses par attribut propre",
+    "nouveau": false,
+    "effet": "La défense via la ruse est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Défense via la Sagesse",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses par attribut propre",
+    "nouveau": false,
+    "effet": "La défense via la sagesse est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Défense via la Constitution",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Défenses par attribut propre",
+    "nouveau": false,
+    "effet": "La défense via la constitution est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Détermination",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Sauvegardes et résistances passives",
+    "nouveau": false,
+    "effet": "La sauvegarde mentale (détermination) est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Méfiance",
+    "domaine": "Social (Joute)",
+    "famille": "Défensif",
+    "sous_section": "Sauvegardes et résistances passives",
+    "nouveau": false,
+    "effet": "La durabilité de l'apparat porté est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Impact Accru",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": true,
+    "effet": "L'impact des actions tactiques est augmenté de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Expertise en Tactique",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": false,
+    "effet": "Les difficultés issues d'une tactique s'opposant aux sauvegardes adverses sont augmentées de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Vitesse en Tactique",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": false,
+    "effet": "La vitesse est augmentée de 2/4/6 lorsqu'il s'agit d'actions de tactique.",
+    "valeurs": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "nom": "Qualité en Tactique",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Jet et qualité des actions tactiques",
+    "nouveau": false,
+    "effet": "Lorsqu'une tactique est une réussite, son score est augmenté de 3/5/7 pour apprécier le degré de réussite (et ce qui en découle).",
+    "valeurs": [
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "nom": "Initiative Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Initiative et ordre de jeu",
+    "nouveau": false,
+    "effet": "L'initiative est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Rapidité Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Initiative et ordre de jeu",
+    "nouveau": true,
+    "effet": "La rapidité est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Hâte Accrue",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Initiative et ordre de jeu",
+    "nouveau": true,
+    "effet": "La hâte est augmentée de 1/2/3. (Affecte simultanément la rapidité et la vitesse globale.)",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Adresse",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": false,
+    "effet": "La maladresse sociale voit son seuil réduit de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Criticité",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": false,
+    "effet": "La criticité sociale voit son seuil augmenté de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "nom": "Exploit Accru",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": true,
+    "effet": "La plage d'exploit est augmentée de 1/2/3.",
+    "valeurs": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "nom": "Menace",
+    "domaine": "Social (Joute)",
+    "famille": "Tactique",
+    "sous_section": "Plages critiques",
+    "nouveau": false,
+    "effet": "La zone de présence est augmentée de 2/3/4.",
+    "valeurs": [
+      2,
+      3,
+      4
+    ]
+  }
+]
