@@ -6,6 +6,13 @@
   max-width: none;
 }
 
+/* Icônes inline dans le texte (paragraphes et listes) */
+p img, li img {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
+
 /* Débloque les images dans les tables */
 table img {
     display: block;
