@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useMemo } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
 import { useCharacterCalculations, calculerModificateur, getValeurTotale } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
-const { competencesMagie, categoriesMagie } = DATA;
+const { competencesMagie, categoriesMagie, competencesScience, categoriesScience } = DATA;
 import Section from '../common/Section';
 
 // Groupes libres sans sous-groupes (Ambidextrie) : entête seule, pas collapsible
@@ -11,6 +11,9 @@ const BASE_GROUP_IDS = DATA.categoriesCompetences.flatMap(c =>
   c.groupes.filter(g => !isHeaderOnly(g)).map(g => g.id)
 );
 const MAGIC_GROUP_IDS = categoriesMagie.flatMap(c =>
+  c.groupes.filter(g => !isHeaderOnly(g)).map(g => g.id)
+);
+const SCIENCE_GROUP_IDS = categoriesScience.flatMap(c =>
   c.groupes.filter(g => !isHeaderOnly(g)).map(g => g.id)
 );
 
@@ -51,15 +54,22 @@ function TabCompetences() {
   const calc = useCharacterCalculations(character);
 
   const magieActive = character.options?.magieActive;
-  const activeCategories = magieActive
-    ? [...DATA.categoriesCompetences, ...categoriesMagie]
-    : DATA.categoriesCompetences;
-  const activeCompetences = magieActive
-    ? [...DATA.competences, ...competencesMagie]
-    : DATA.competences;
-  const ALL_GROUP_IDS = magieActive
-    ? [...BASE_GROUP_IDS, ...MAGIC_GROUP_IDS]
-    : BASE_GROUP_IDS;
+  const scienceActive = character.options?.scienceActive;
+  const activeCategories = [
+    ...DATA.categoriesCompetences,
+    ...(magieActive ? categoriesMagie : []),
+    ...(scienceActive ? categoriesScience : []),
+  ];
+  const activeCompetences = [
+    ...DATA.competences,
+    ...(magieActive ? competencesMagie : []),
+    ...(scienceActive ? competencesScience : []),
+  ];
+  const ALL_GROUP_IDS = [
+    ...BASE_GROUP_IDS,
+    ...(magieActive ? MAGIC_GROUP_IDS : []),
+    ...(scienceActive ? SCIENCE_GROUP_IDS : []),
+  ];
 
   const stored = character.competences || { groupes: {}, competences: {}, attributsChoisis: {} };
 

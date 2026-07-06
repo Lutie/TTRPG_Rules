@@ -85,7 +85,7 @@ Description : Les sciences génériques regroupent des sciences qui peuvent s’
 
 #### Steam
 
-Compétences : Percevoir (LOG), Voir (INT), Aider (SAG), Agir (VOL), Fuir (RUS), ??? (CHA).
+Compétences : Percevoir (LOG), Voir (INT), Aider (SAG), Agir (VOL), Fuir (RUS), Imposer (CHA).
 
 Description : Le steam est accessible à ceux qui en ont la connaissance et la maitrise. Accéder au steam c’est être capable de manipuler l’aether afin de le configurer, etc… C’est aussi important pour l’utilisateur que pour ceux qui veulent nuire à l’usage des constructions qui tournent à l’aide de cette technologie.
 
@@ -103,23 +103,23 @@ Cette extension ajoute un certain nombre d’avantages et désavantages. Retrouv
 
 Cette extension ajoute un certain nombre de caractéristiques.
 
-#### Le Steam
+#### L’Aether
 
-Le steam est une ressource fondamentale. Le Steam représente la capacité du personnage à agir dans le steam. Si le Steam chute à 0 rien de néfaste n’a lieu mais agir dans le steam est alors impossible. Le Steam dépend de la Logique. Elle est nulle si le personnage n’a pas la capacité d’agir sur le steam (matérialisé par le groupe de compétence du même nom).
+L’aether est une ressource fondamentale. Il représente la capacité du personnage à agir dans le steam — c’est sa signature personnelle, ce qui lui permet d’émettre une impulsion et d’interagir avec les circuits. Si l’Aether chute à 0 rien de néfaste n’a lieu mais agir dans le steam est alors impossible. L’Aether dépend de la Logique. Il est nul si le personnage n’a pas la capacité d’agir sur le steam (matérialisé par le groupe de compétence du même nom).
 
-- Steam = Logique x2.
+- Aether = Logique x2.
 
 #### La Créativité
 
-La créativité est une ressource unique. La Créativité représente la capacité du personnage à produire un travail hors norme, qui ne peut être réalisé par n’importe qui, n’importe quand ou autant de fois qu’on le souhaite. La Créativité permet ainsi de donner des propriétés uniques à des objets que l’on créé. Si la Créativité chute à 0 rien de néfaste n’a lieu mais il n’est alors plus possible de produire de telles créations. Si le personnage n’a pas de domaine technologique alors sa créativité est de 0 puisqu’il ne peut en faire usage. La Créativité dépend de la Logique.
+La créativité est une ressource unique. La Créativité représente la capacité du personnage à produire un travail hors norme, qui ne peut être réalisé par n’importe qui, n’importe quand ou autant de fois qu’on le souhaite. Elle s’applique principalement aux **Promotions**, une règle spécifique aux artisanats qui permet d’apporter des bonus majeurs à une création. La Créativité permet ainsi de donner des propriétés uniques à des objets que l’on créé. Si la Créativité chute à 0 rien de néfaste n’a lieu mais il n’est alors plus possible de produire de telles créations. Si le personnage n’a pas de domaine technologique alors sa créativité est de 0 puisqu’il ne peut en faire usage. La Créativité dépend de la Logique.
 
 - Créativité = Logique x2.
 
-#### La Récupération du Steam
+#### La Récupération de l'Aether
 
-Elle fixe la récupération du Steam.
+Elle fixe la récupération de l'Aether.
 
-- Récupération du Steam = Récupération.
+- Récupération de l'Aether = Récupération.
 
 ## Actions de l’Extension
 

@@ -1,0 +1,26 @@
+[
+  { "id": "sci-pharmacie",           "nom": "Pharmacie",             "categorie": "science", "groupe": "sci-biologique",    "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-toxicologie",         "nom": "Toxicologie",           "categorie": "science", "groupe": "sci-biologique",    "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-chimie",              "nom": "Chimie",                "categorie": "science", "groupe": "sci-biologique",    "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-pyrotechnie",         "nom": "Pyrotechnie",           "categorie": "science", "groupe": "sci-biologique",    "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+
+  { "id": "sci-armurerie-arme",      "nom": "Armurerie (Arme)",      "categorie": "science", "groupe": "sci-technologique", "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-armurerie-armure",    "nom": "Armurerie (Armure)",    "categorie": "science", "groupe": "sci-technologique", "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-ingenierie",          "nom": "Ingénierie",            "categorie": "science", "groupe": "sci-technologique", "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-metallurgie",         "nom": "Métallurgie",           "categorie": "science", "groupe": "sci-technologique", "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+
+  { "id": "sci-machinerie-terrestre","nom": "Machinerie Terrestre",  "categorie": "science", "groupe": "sci-mecanique",     "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-machinerie-aerienne", "nom": "Machinerie Aérienne",   "categorie": "science", "groupe": "sci-mecanique",     "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-machinerie-aquatique","nom": "Machinerie Aquatique",  "categorie": "science", "groupe": "sci-mecanique",     "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+
+  { "id": "sci-biomecantronie",      "nom": "Biomécatronie",         "categorie": "science", "groupe": "sci-mecatronique",  "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-macromecantronie",    "nom": "Macromécatronie",       "categorie": "science", "groupe": "sci-mecatronique",  "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-micromecantronie",    "nom": "Micromécatronie",       "categorie": "science", "groupe": "sci-mecatronique",  "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+
+  { "id": "sci-percevoir",           "nom": "Percevoir",             "categorie": "science", "groupe": "sci-steam",         "sousGroupe": null, "attributs": ["LOG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-voir",                "nom": "Voir",                  "categorie": "science", "groupe": "sci-steam",         "sousGroupe": null, "attributs": ["INT"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-aider",               "nom": "Aider",                 "categorie": "science", "groupe": "sci-steam",         "sousGroupe": null, "attributs": ["SAG"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-agir",                "nom": "Agir",                  "categorie": "science", "groupe": "sci-steam",         "sousGroupe": null, "attributs": ["VOL"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-fuir",                "nom": "Fuir",                  "categorie": "science", "groupe": "sci-steam",         "sousGroupe": null, "attributs": ["RUS"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false },
+  { "id": "sci-imposer",             "nom": "Imposer",               "categorie": "science", "groupe": "sci-steam",         "sousGroupe": null, "attributs": ["CHA"], "secondaires": [], "attrVariable": false, "libre": false, "limitant": false }
+]

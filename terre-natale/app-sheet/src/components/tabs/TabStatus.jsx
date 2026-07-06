@@ -543,8 +543,13 @@ function TabStatus() {
         return lesion.actuel > 0;
       });
 
+      // Récupération de fatigue et corruption
+      const tensions = { ...prev.tensions };
+      tensions.fatigue = Math.max(0, (tensions.fatigue || 0) - calc.recuperation);
+      tensions.corruption = Math.max(0, (tensions.corruption || 0) - calc.recuperation);
+
       // Supprime toutes les autres ressources
-      return applyDefaultSocial({ ...prev, ressources, lesions: newLesions, autresRessources: [] });
+      return applyDefaultSocial({ ...prev, ressources, lesions: newLesions, autresRessources: [], tensions });
     });
   };
 

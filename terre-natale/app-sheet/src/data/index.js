@@ -10,6 +10,8 @@ import _manoeuvresJson from './manoeuvres.json';
 import _prouessesJson from './prouesses.json';
 import competencesMagie from './competences_magie.json';
 import categoriesMagie from './categories_magie.json';
+import competencesScience from './competences_science.json';
+import categoriesScience from './categories_science.json';
 import _conditionsJson from './conditions.json';
 
 export const attributsCorps = [
@@ -82,7 +84,7 @@ export const ressources = [
   { id: 'PC', nom: 'Chi', type: 'caste', icone: '💠' },
   { id: 'PK', nom: 'Karma', attribut: 'CHN', multiplicateur: 2, icone: '⭐' },
   { id: 'PM', nom: 'Mana', type: 'tradition', multiplicateur: 2, icone: '🔮' },
-  { id: 'PR', nom: 'Steam', type: 'science', attribut: 'LOG', multiplicateur: 2, icone: '⚙️' }
+  { id: 'PR', nom: 'Aether', type: 'science', attribut: 'LOG', multiplicateur: 2, icone: '⚙️' }
 ];
 
 export const traditions = [
@@ -193,6 +195,9 @@ export { competences, categoriesCompetences };
 
 // Compétences de Magie — importées depuis ./competences_magie.json et ./categories_magie.json
 export { competencesMagie, categoriesMagie };
+
+// Compétences de Science — importées depuis ./competences_science.json et ./categories_science.json
+export { competencesScience, categoriesScience };
 
 // Traits — importés depuis ./traits.json (AUTO-GÉNÉRÉ via tools/generate_traits_js.py → maintenant generate_traits_json.py)
 export const traits = [..._traitsRaw].sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
@@ -488,6 +493,8 @@ const DATA = {
   categoriesCompetences,
   competencesMagie,
   categoriesMagie,
+  competencesScience,
+  categoriesScience,
   traits,
   origines,
   ethnies,

@@ -18,9 +18,9 @@ function TabScience() {
     <div id="tab-science" className="tab-content active">
 
       {/* ── Résumé Steam ── */}
-      <Section title="Steam (PR)">
+      <Section title="Aether (PR)">
         <div className="xp-summary-box">
-          <div className="xp-summary-title">Réserve de Steam</div>
+          <div className="xp-summary-title">Réserve d'Aether</div>
           <div className="xp-summary-content">
             <div className="xp-summary-row">
               <span className="xp-label">Logique × 2</span>

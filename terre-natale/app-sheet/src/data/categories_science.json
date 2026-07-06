@@ -1,0 +1,43 @@
+[
+  {
+    "id": "science",
+    "nom": "Les Compétences Technologiques",
+    "groupes": [
+      {
+        "id": "sci-biologique",
+        "nom": "Sciences Biologiques",
+        "limitant": false,
+        "libre": false,
+        "competences": ["sci-pharmacie", "sci-toxicologie", "sci-chimie", "sci-pyrotechnie"]
+      },
+      {
+        "id": "sci-technologique",
+        "nom": "Sciences Technologiques",
+        "limitant": false,
+        "libre": false,
+        "competences": ["sci-armurerie-arme", "sci-armurerie-armure", "sci-ingenierie", "sci-metallurgie"]
+      },
+      {
+        "id": "sci-mecanique",
+        "nom": "Sciences Mécaniques",
+        "limitant": false,
+        "libre": false,
+        "competences": ["sci-machinerie-terrestre", "sci-machinerie-aerienne", "sci-machinerie-aquatique"]
+      },
+      {
+        "id": "sci-mecatronique",
+        "nom": "Sciences Mécatroniques",
+        "limitant": false,
+        "libre": false,
+        "competences": ["sci-biomecantronie", "sci-macromecantronie", "sci-micromecantronie"]
+      },
+      {
+        "id": "sci-steam",
+        "nom": "Steam",
+        "limitant": false,
+        "libre": false,
+        "competences": ["sci-percevoir", "sci-voir", "sci-aider", "sci-agir", "sci-fuir", "sci-imposer"]
+      }
+    ]
+  }
+]

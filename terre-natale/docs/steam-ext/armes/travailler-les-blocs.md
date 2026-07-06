@@ -36,29 +36,14 @@ Modifier un bloc ne nécessite pas d’élaboration préalable ou l’usage d’
 
 Voici une liste non exhaustive des blocs secondaires pouvant être ajouté à une arme.
 
-#### Silencieux
-
-Bloc inférieur (sous le canon) ?
-
-#### Lame
-
-Bloc inférieur (sous le canon) ?
-
-#### Lunette de visée
-
-Bloc supérieur (sur le canon) ?
-
-#### Diffuseur
-
-Bloc inférieur (sous le canon) ?
-
-#### Percuteur
-
-Bloc inférieur (sous le canon) ?
-
-#### Propagateur
-
-Bloc inférieur (sous le canon) ?
+| Bloc | Position | Effet |
+|------|----------|-------|
+| **Silencieux** | Inférieur | Augmente la difficulté pour entendre un tir de Q. |
+| **Lame** | Inférieur | Permet des attaques d'arme tranchante via l'arme (compétence appropriée + DEX). La lame est de qualité Q et de catégorie 1 ou 2. |
+| **Lunette de visée** | Supérieur | Le personnage profite d'un avantage à ses tirs visés en dépensant une ACTR. Le coût de l'action rapide est réduit de 1 par Q. Une fois par tour maximum. |
+| **Diffuseur** | Inférieur | Tir limité à la portée classique. L'attaque devient une attaque de zone : 45° à portée classique, 90° à portée courte. DD +Q. Le jet de dégâts est réduit de 1D8 mais l'attaque peut être poursuivie (même attaque le tour suivant), les dégâts augmentant de 1D8 par tour par cible (max ×2 les D8 de catégorie). N'affecte que les armes à énergie. |
+| **Percuteur** | Inférieur | Avantage aux jets de dégâts à courte portée. Recule +5−Q. |
+| **Propagateur** | Inférieur | Tir limité à la portée classique. L'attaque devient une attaque de zone : 45° à portée classique, 90° à portée courte. Le DD du test de réflexe de zone est augmenté de 1 par Q. |
 
 #### Chargeur Automatique
 
