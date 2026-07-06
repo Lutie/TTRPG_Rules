@@ -28,31 +28,25 @@ Chaque groupe est constitué d’une liste spécifique de compétence qui repré
 
 #### Sciences Biologiques
 
-Compétences (Domaines) : Pharmacie, Toxicologie, Chimie.
+Compétences (Domaines) : Chimie, Pyrotechnie, Toxicologie, Pharmacie.
 
-Description : Les sciences biologiques se concentrent sur les corps vivants.
+Description : Les sciences biologiques se concentrent sur les corps vivants, les substances qui les affectent et les réactions exploitables par l'industrie. Elles regroupent les savoirs médicaux, toxiques et chimiques.
 
-- Pharmacie : Couvre la création des produits thérapeutiques pouvant ralentir, guérir ou prémunir des afflictions subits par le corps ou l’esprit.
-- Toxicologie : Couvre la création des drogues, qui peuvent avoir des effets positifs ou négatifs sur le corps ou l’esprit.
-
-#### Sciences Organiques
-
-Compétences (Domaines) : Pyrotechnie, Chimie.
-
-Description : Les sciences organiques se concentrent sur les réactions ayant lieu entre des corps inertes.
-
-- Pyrotechnie : Couvre la création d’explosifs et autres produits volatiles en tout genre.
-- Chimie : Couvre la création des acides et gaz, qui peuvent avoir des effets corrosifs pour les uns et très variés pour les autres.
+- Chimie : Couvre la création, l'analyse et la manipulation des substances chimiques, réactifs, acides, gaz, solvants, colles, encres, poudres traitées et produits industriels issus de réactions contrôlées.
+- Pyrotechnie : Couvre la création, l'entretien et la mise en sécurité des explosifs, bombes, mines, grenades, charges, mèches, détonateurs, fumigènes, feux alchimiques et autres produits volatiles.
+- Pharmacie : Couvre la création des produits thérapeutiques, injections, boosters, vaccins, médicaments, remèdes, stimulants médicaux, antiseptiques, baumes et préparations capables de ralentir, guérir ou prémunir des afflictions subies par le corps ou l'esprit.
+- Toxicologie : Couvre la création des drogues, poisons, narcotiques, sédatifs, venins préparés et substances altérant le corps ou l'esprit de manière bénéfique ou nuisible.
 
 #### Sciences Technologiques
 
-Compétences (Domaines) : Armurerie (Offensive), Armurerie (Défensive).
+Compétences (Domaines) : Arsenal, Armurerie, Ingénierie, Métallurgie.
 
-Description : Les sciences technologiques est un nom qui ne retranscrit que très peu la dangerosité de ses domaines. C’est en effet celui de l’armement.
+Description : Les sciences technologiques regroupent les domaines les plus directement associés aux machines, à l'armement, aux outils complexes et aux matériaux avancés. Elles couvrent autant la fabrication d'objets technologiques que les procédés permettant de les renforcer ou de les rendre compatibles avec le steam.
 
-- Armurerie (Offensive) : Couvre la création d’armes à feu ou blanche. Ces dernières sont plus évoluées que l’arme blanche antiques car bien souvent multifonctionnelle.
-- Armurerie (Défensive) : Couvre la création d’armures.
-- Armurerie (Pratique) : Couvre la création d’outils pratique (qu’on nomme parfois aussi gadget).
+- Arsenal : Couvre la création, la réparation et la modification des armes technologiques : armes à feu, armes blanches mécanisées, armes de siège, blocs d'armes, munitions et accessoires offensifs.
+- Armurerie : Couvre la création, la réparation et la modification des armures technologiques : cuirasses, protections renforcées, sous-pièces d'armure, casques, visières, gantelets, blindages personnels, boucliers d'énergie et protections spécialisées.
+- Ingénierie : Couvre la création, la réparation et la modification des outils, kits, auto-kits, appareils et gadgets : instruments de mesure, optiques, serrures, alarmes, horloges, régulateurs, accumulateurs, interfaces steam et dispositifs pratiques.
+- Métallurgie : Couvre la fusion, l'alliage, le traitement et la préparation des métaux, minerais et matériaux techniques nécessaires aux armes, armures, machines et pièces de précision.
 
 #### Sciences Mécaniques
 
@@ -60,9 +54,9 @@ Compétences (Domaines) : Machinerie (terrestre), Machinerie (aquatique), Machin
 
 Description : Les sciences mécaniques s’évertues à mettre en place différents véhicules. Chaque domaine s’occupe d’un type de véhicule en fonction d’où et comment il doit évoluer.
 
-- Machinerie (terrestre) : Couvre la création des véhicules terrestres tels que les chars et les trains.
-- Machinerie (aquatique) : Couvre la création des véhicules aquatiques tels que les navires et les sous-marins.
-- Machinerie (aérienne) : Couvre la création des véhicules aériens tels que les aéronefs.
+- Machinerie (terrestre) : Couvre la création, la réparation et la modification des véhicules terrestres tels que les chars, locomotives, trains, chariots motorisés et plateformes roulantes.
+- Machinerie (aquatique) : Couvre la création, la réparation et la modification des véhicules aquatiques tels que les navires, sous-marins, barges techniques et systèmes de propulsion maritime.
+- Machinerie (aérienne) : Couvre la création, la réparation et la modification des véhicules aériens tels que les aéronefs, dirigeables, planeurs assistés et systèmes de sustentation.
 
 #### Sciences Mécatroniques
 
@@ -70,18 +64,9 @@ Compétences (Domaines) : Biomécatronie, Macromécatronie, Micromécatronie.
 
 Description : Les sciences mécatroniques se concentrent toutes sur une mécanique à échelle humaine.
 
-- Biomécatronie : Couvre la création d’automails et autres prothèses mécaniques visant à remplacer un membre (jambes ou bras, le reste n’est pas possible puisqu’il y a des centres vitaux) chez un être vivant.
-- Macromécatronie : Couvre la création d’automates de grande taille. On parle aussi de travailleurs mécaniques (ou robots). Nécessite l’usage de l’ingénierie car sans le steam les automates ne peuvent être autonomes.
-- Micromécatronie : Couvre la création d’automates de petite taille. On parle aussi de drône. Nécessite l’usage de l’ingénierie car sans le steam les automates ne peuvent être autonomes.
-
-#### Sciences Génériques
-
-Compétences : Ingénierie Steam, Métallurgie.
-
-Description : Les sciences génériques regroupent des sciences qui peuvent s’imbriquer dans d’autres pour dévoiler de nouvelles facettes ou possibilités.
-
-- Ingénierie Steam : permet aux autres sciences de renforcer leurs créations à l’aide du steam. Certains domaines ne peuvent PAS fonctionner sans (macro et micromécatronie), le reste oui.
-- Métallurgie : permet de fusionner des métaux et créer ainsi celui que l’on souhaite.
+- Biomécatronie : Couvre la création, l'ajustement et la réparation des automails, prothèses mécaniques, attelles actives et interfaces destinées à remplacer ou assister un membre chez un être vivant.
+- Macromécatronie : Couvre la création, la réparation et la modification des automates de grande taille, méca-armures, travailleurs mécaniques et machines autonomes capables d'intervenir à l'échelle humaine ou supérieure.
+- Micromécatronie : Couvre la création, la réparation et la modification des automates de petite taille, drônes, tourelles, cores, familiers mécaniques, modules autonomes et dispositifs mobiles miniaturisés.
 
 #### Steam
 

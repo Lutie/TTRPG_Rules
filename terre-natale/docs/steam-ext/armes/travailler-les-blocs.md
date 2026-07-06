@@ -6,7 +6,7 @@ Les blocs peuvent être travaillés de 2 façons différentes :
 - Générer un bloc.
 - Modifier un bloc.
 
-Dans tous les cas les tests sont réalisés à partir du groupe Science Technologiques et la compétence Armurerie (offensive).
+Dans tous les cas les tests sont réalisés à partir du groupe Science Technologiques et la compétence Arsenal.
 
 ### Créer un bloc
 
@@ -148,5 +148,5 @@ Augmente ou réduit la solidité de l’arme.
 | Steamcore | Steam | Vitesse +1/2/3 | Rafale +1/2/3 | Recule -1/2/3 | Dégâts -1/2/3 | Difficulté +1/2/3 | Adresse -1/2/3 |
 | Anshin | Classique | Expertise +1/2/3 | Criticité +1/2/3 | Maitrise +1/2/3 | Dégâts -1/2/3 | Adresse -1/2/3 | Attrition -2/3/4 |
 | Tobine | Classique | Magasin +1/2/3 | Recharge -2/3/4 | Précision +1/2/3 | Vitesse -1/2/3 | Rafale -1/2/3 | Maitrise -1/2/3 |
-| ? | Classique | Solidité +1/2/3 | Recule -1/2/3 | Visée +1/2/3 | Tir +1/2/3 | Maitrise -1/2/3 | Précision -1/2/3 |
-| ? | Classique | Rafale +1/2/3 | Aggravation +2/3/4 | Portée +1/2/3 | Visée -1/2/3 | Dégâts -1/2/3 | Pénétration -2/3/4 |
+| Brant & Fils | Classique | Solidité +1/2/3 | Recule -1/2/3 | Visée +1/2/3 | Tir +1/2/3 | Maitrise -1/2/3 | Précision -1/2/3 |
+| Valombre | Classique | Rafale +1/2/3 | Aggravation +2/3/4 | Portée +1/2/3 | Visée -1/2/3 | Dégâts -1/2/3 | Pénétration -2/3/4 |
