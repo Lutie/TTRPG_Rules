@@ -1,5 +1,7 @@
 ## Généralités
 
+Dans les règles de base de Terre Natale les armes à feu sont un sujet fort peu détaillé. Cette injustice est ici réparée puisque les armes à feu s'ouvrent à de nouvelles possibilités grâce à une présentation de règles avancées permettant de les gérer et de les configurer en détails.
+
 Une arme à feu est constituée d’un bloc de base et de 3 blocs principaux. Elle peut également avoir jusqu’à 3 blocs secondaires.
 
 Le bloc de base constitue les caractéristiques de base de l’arme à feu. Certains constructeurs réalisent des armes au fonctionnement très différent : C’est alors le bloc de base qui diffère grandement des autres. C’est aussi le bloc de base qui définit si l’arme est une arme de poing ou une arme d’épaule !
