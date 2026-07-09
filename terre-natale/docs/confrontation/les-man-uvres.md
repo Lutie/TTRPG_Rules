@@ -1189,6 +1189,8 @@ Ces manœuvres sont spécifiques à la pratique du tir.
 
 Certaines manœuvres de cette catégorie nécessitent de tirer plusieurs fois en une seule action. Il s’agira ainsi de lancer plusieurs couteaux au lieu d’un ou de tirer plusieurs flèches (il faut donc pouvoir en porter plusieurs en mains). Dans le cas d’arme munie de chargeur il s’agira alors de tirer plusieurs « munitions » à la fois. Cependant les armes sont alors limitées par leur cadence de tir.
 
+Lorsqu’une telle manœuvre est employée avec une arme à cadence, chaque attaque supplémentaire effectuée est décomptée de la cadence disponible. Le reliquat de cadence peut toujours être utilisé pour tirer des munitions supplémentaires et ainsi profiter du bonus décrit par la règle de la cadence (voir l’extension des confrontations). En tout état de cause, le total des attaques supplémentaires et des munitions supplémentaires tirées ne peut dépasser la valeur de cadence de l’arme.
+
 #### Tir Transperçant
 
 - **Type.** Technique d’Arme
@@ -1249,12 +1251,11 @@ Certaines manœuvres de cette catégorie nécessitent de tirer plusieurs fois en
 - **Type.** Technique d’Arme
 - **Pénalités.** Faibles (-2)
 - **Catégorie.** Finesse
-- **Description.** Le personnage fait fit de la précision et des limitations naturelles de son arme pour tenter des tirs supplémentaires.
-- **Effet.** Pour l’attaque en question la cadence de l’arme est augmentée de 1.
+- **Description.** Le personnage exploite sa cadence pour multiplier les impacts plutôt que d’améliorer sa précision.
+- **Effet.** En dépensant une munition supplémentaire au-delà de celles éventuellement utilisées pour le bonus de cadence, le tir provoque une instance de dégâts indépendante de 1D8 + la catégorie de l’arme (réductions, absorptions et autres modificateurs s’appliquent normalement à chaque instance). Les munitions dépensées pour satisfaire cette manœuvre ne procurent pas de bonus au test d’attaque. Le total des munitions dépensées pour le bonus de cadence et des munitions consacrées à cette manœuvre ne peut dépasser la valeur de cadence du personnage.
 - **Restrictions.** Cette manœuvre s’applique aux actions d’attaques (tir) en combat.
-- **Conditions.** Arme à distance (dont le magasin permet des tirs supplémentaires).
-- **Conditions.** Tir multiple.
-- **Modularité.** Augmenter les pénalités permet d’accroitre les effets (pour plus de tirs, mais attention les tirs supplémentaires ont eu même des pénalités croissantes).
+- **Conditions.** Arme à distance disposant d’un magasin et d’une cadence supérieure à 0.
+- **Modularité.** Augmenter les pénalités de 2 permet d’ajouter une nouvelle instance de dégâts de 1D8 + la catégorie de l’arme (en dépensant une munition supplémentaire supplémentaire).
 
 #### Tir Groupé
 

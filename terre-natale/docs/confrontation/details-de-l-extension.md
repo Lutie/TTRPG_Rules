@@ -85,21 +85,14 @@ Une pièce d’armure qui occupe plusieurs localisations est associée à une ch
 
 ### Le cas des armes à cadence
 
-Les armes de tirs sont toutes dotées d’une cadence, mais dans certains cas celle-ci est de 1 et ne présente donc pas d’intérêt notable. La cadence de base d’une arme est de 5 moins sa catégorie, des améliorations et autres ajustements peuvent évidemment modifier cela. Une arme dotée d’une cadence supérieure à 1 peut effectuer plusieurs tirs à la fois afin de maximiser les dégâts potentiels : On parle d’un tir multiple.
+Toutes les armes à distance disposant d’un magasin sont dotées d’une valeur de cadence égale au modificateur de DEX du porteur moins la catégorie de l’arme. La cadence se lit ainsi : l’arme peut tirer x munitions supplémentaires lors d’une attaque afin de profiter d’un bonus au test de x. On parle alors d’un tir multiple.
 
 Lorsqu’un personnage réalise plusieurs tirs :
 
-- Les munitions en plus doivent être décomptées (logique).
-- Une arme ne peut effectuer plus de tirs en une attaque que sa valeur de cadence.
+- Les munitions supplémentaires doivent être décomptées (logique).
+- Une arme ne peut tirer plus de munitions supplémentaires en une attaque que sa valeur de cadence.
 - L’arme doit avoir suffisamment de munition dans son magasin afin de pouvoir effectuer ses tirs, sans quoi la limite est celle du magasin. Pour rappel le magasin des arcs c’est la main du tireur qui peux tenir plusieurs flèches à la fois (voir règles de base pour savoir combien).
-- Un test d’attaque par tir est nécessaire.
-- Lors d’un tir multiple la catégorie de l’arme employée est réduite de 1 en ce qui concerne ses jets.
-- Les tirs au-delà du premier requière une dépense de 2 points d’initiative pour être effectués.
-- Les tirs au-delà du premier constitue des actions (d’attaque) restreintes (voir les règles à ce sujet dans le livre de base), ce qui limite grandement leur impact.
-- Les tirs au-delà du premier reçoivent une pénalité fixe de 5.
-- Le recule à considérer pour l’attaque est augmenté de 2 par tirs au-delà du premier, être déstabilisé ne met pas fin aux tir multiple mais être renversé par le recule oui.
-
-Les armes à feu profitent tout naturellement de multiples tirs car elles ignorent plus facilement l’armure adverse, assurant des dégâts conséquents aux tirs supplémentaires.
+- Le recule à considérer pour l’attaque est augmenté de 2 par munition supplémentaire tirée, être déstabilisé ne met pas fin au tir multiple mais être renversé par le recule oui.
 
 ### Le cas des armes doubles
 

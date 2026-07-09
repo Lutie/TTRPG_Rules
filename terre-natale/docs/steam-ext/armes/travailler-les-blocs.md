@@ -44,18 +44,9 @@ Voici une liste non exhaustive des blocs secondaires pouvant être ajouté à un
 | **Diffuseur** | Inférieur | Tir limité à la portée classique. L'attaque devient une attaque de zone : 45° à portée classique, 90° à portée courte. DD +Q. Le jet de dégâts est réduit de 1D8 mais l'attaque peut être poursuivie (même attaque le tour suivant), les dégâts augmentant de 1D8 par tour par cible (max ×2 les D8 de catégorie). N'affecte que les armes à énergie. |
 | **Percuteur** | Inférieur | Avantage aux jets de dégâts à courte portée. Recule +5−Q. |
 | **Propagateur** | Inférieur | Tir limité à la portée classique. L'attaque devient une attaque de zone : 45° à portée classique, 90° à portée courte. Le DD du test de réflexe de zone est augmenté de 1 par Q. |
-
-#### Chargeur Automatique
-
-Bloc arrière (sur le manche) ?
-
-#### Magasin Alternatif
-
-Bloc arrière (sur le manche) ?
-
-#### Rembourrage
-
-Bloc arrière (sur le manche) ?
+| **Chargeur Automatique** | Arrière | Recharge −Q (coût en initiative des actions de rechargement ; n'affecte que l'ACTR requise). |
+| **Magasin Alternatif** | Arrière | Magasin +Q. |
+| **Rembourrage** | Arrière | Recule −Q. |
 
 ### Les effets des blocs
 
@@ -125,9 +116,9 @@ Augmente ou réduit la criticité via l’arme. Permet ainsi de réaliser des r�
 
 Augmente ou réduit l’adresse via l’arme. Permet ainsi de réaliser des échecs critiques avec des marges d’échec plus ou moins basses (De base la marge d’échecs des échecs critiques est de 10).
 
-#### Rafale
+#### Cadence
 
-Augmente ou réduit la valeur de cadence de l’arme. La cadence permet de mesurer la quantité de tirs pouvant être réalisée lors d’une attaque d’attaque à distance. De base une arme à une cadence de 4 – sa catégorie, ainsi une arme à feu est dotée d’une rafale de 1 pour les armes d’épaule et 2 pour les armes de poings. Voir l’extension des confrontations pour la règle des armes à cadence.
+Augmente ou réduit la valeur de cadence de l’arme. Voir l’extension des confrontations pour la règle des armes à cadence.
 
 #### Tir
 
@@ -142,11 +133,11 @@ Augmente ou réduit la solidité de l’arme.
 | Vorgue | Explosif | Cadence +1/2/3 | Attrition +2/3/4 | Pénétration +2/3/4 | Recharge +2/3/4 | Recule +1/2/3 | Charge +1/2/3 |
 | Crime | Classique | Pénétration +2/3/4 | Difficulté -1/2/3 | Aggravation +2/3/4 | Recharge +2/3/4 | Magasin -1/2/3 | Solidité -1/2/3 |
 | Melchior | Energie | Attrition +2/3/4 | Maitrise +1/2/3 | Dégâts Elém +2/3/4 | Tir +1/2/3 | Visée -1/2/3 | Précision -1/2/3 |
-| Stalh | Classique | Portée +1/2/3 | Précision +1/2/3 | Visée +1/2/3 | Vitesse -1/2/3 | Rafale -1/2/3 | Criticité -1/2/3 |
+| Stalh | Classique | Portée +1/2/3 | Précision +1/2/3 | Visée +1/2/3 | Vitesse -1/2/3 | Cadence -1/2/3 | Criticité -1/2/3 |
 | Robertson | Classique | Adresse +1/2/3 | Magasin +1/2/3 | Dégâts +1/2/3 | Pénétration -2/3/4 | Criticité -1/2/3 | Charge +1/2/3 |
 | Geldiore | Répétition | Recharge -2/3/4 | Expertise +1/2/3 | Vitesse +1/2/3 | Adresse -1/2/3 | Criticité -1/2/3 | Attrition -2/3/4 |
-| Steamcore | Steam | Vitesse +1/2/3 | Rafale +1/2/3 | Recule -1/2/3 | Dégâts -1/2/3 | Difficulté +1/2/3 | Adresse -1/2/3 |
+| Steamcore | Steam | Vitesse +1/2/3 | Cadence +1/2/3 | Recule -1/2/3 | Dégâts -1/2/3 | Difficulté +1/2/3 | Adresse -1/2/3 |
 | Anshin | Classique | Expertise +1/2/3 | Criticité +1/2/3 | Maitrise +1/2/3 | Dégâts -1/2/3 | Adresse -1/2/3 | Attrition -2/3/4 |
-| Tobine | Classique | Magasin +1/2/3 | Recharge -2/3/4 | Précision +1/2/3 | Vitesse -1/2/3 | Rafale -1/2/3 | Maitrise -1/2/3 |
+| Tobine | Classique | Magasin +1/2/3 | Recharge -2/3/4 | Précision +1/2/3 | Vitesse -1/2/3 | Cadence -1/2/3 | Maitrise -1/2/3 |
 | Brant & Fils | Classique | Solidité +1/2/3 | Recule -1/2/3 | Visée +1/2/3 | Tir +1/2/3 | Maitrise -1/2/3 | Précision -1/2/3 |
-| Valombre | Classique | Rafale +1/2/3 | Aggravation +2/3/4 | Portée +1/2/3 | Visée -1/2/3 | Dégâts -1/2/3 | Pénétration -2/3/4 |
+| Valombre | Classique | Cadence +1/2/3 | Aggravation +2/3/4 | Portée +1/2/3 | Visée -1/2/3 | Dégâts -1/2/3 | Pénétration -2/3/4 |
