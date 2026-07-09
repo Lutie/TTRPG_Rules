@@ -7,7 +7,7 @@
 }
 
 /* Icônes inline dans le texte (paragraphes et listes) */
-p img, li img {
+.md-typeset p img, .md-typeset li img {
     height: 1em;
     width: auto;
     vertical-align: middle;
