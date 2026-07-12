@@ -1330,6 +1330,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#degats-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dégâts "Simples"
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1780,6 +1789,15 @@
   <a href="#les-conditions-de-rupture" class="md-nav__link">
     <span class="md-ellipsis">
       Les Conditions de Rupture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-degats-de-taxe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Dégâts de Taxe
     </span>
   </a>
   
@@ -6617,6 +6635,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#degats-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dégâts "Simples"
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7067,6 +7094,15 @@
   <a href="#les-conditions-de-rupture" class="md-nav__link">
     <span class="md-ellipsis">
       Les Conditions de Rupture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-degats-de-taxe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les Dégâts de Taxe
     </span>
   </a>
   
@@ -8540,6 +8576,8 @@
 <p>Les dégâts continus sont reçus sans être appliqués sur le champ mais sont mis en suspens. A la fin de chaque tour les dégâts continus sont réduits d’un tiers de leur valeur et ce montant est subi sous forme de dégâts de rupture.</p>
 <p>Les dégâts de rupture affectent d’abord l’endurance, peu importe leur nature. Cependant ces dégâts ne peuvent pas faire passer l’endurance dans le négatif. Notons qu’une endurance nulle suffit à être considéré comme choqué. Les dégâts continus affectent la vitalité (si physique) ou la spiritualité (si mentale) lorsque l’endurance est nulle ou inférieure à 0. Si des dégâts de rupture sont supérieurs à l’endurance restante de la cible alors l’excédent est subi sur la vitalité ou spiritualité.</p>
 <p>Les dégâts continus sont issus de manœuvres ou de magies, deux éléments qui ne sont pas présentés dans ce documents mais dans des extensions.</p>
+<h4 id="degats-simples">Dégâts "Simples"</h4>
+<p>Les dégâts « simples » désignent des dégâts qui ne déclenchent aucun effet annexe : aucun bonus, condition ou effet secondaire n'est appliqué lors de leur encaissement. Seul le montant indiqué est traité, selon le mode d'encaissement précisé. Par défaut, l'encaissement normal s'applique (résistance, absorption, endurance, etc.).</p>
 <h3 id="le-calcul-des-degats">Le calcul des dégâts</h3>
 <p>Lorsque des dégâts doivent être encaissé par un personnage il existe deux façon de traiter la chose selon qu’il s’agisse de dégâts normaux ou anormaux.</p>
 <h4 id="degats-normaux">Dégâts Normaux</h4>
@@ -8549,10 +8587,10 @@
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul>
-<li><strong>Attrition.</strong> Ce bonus augmente les dégâts temporaires infligés par le personnage.</li>
+<li><strong>Attrition.</strong> Ce bonus augmente les dégâts temporaires infligés par le personnage. L’attrition naturelle physique est octroyée par la force (mêlée et jet uniquement) ; l’attrition naturelle mentale est octroyée par le charisme.</li>
 <li><strong>Résilience.</strong> Ce bonus, aussi appelé résistance à l’attrition, réduit les dégâts temporaires reçus par le personnage.</li>
-<li><strong>Perforation.</strong> Ce bonus réduit l’absorption des cibles du personnage. Elle est naturellement octroyée par la perception ou la sagesse, respectivement pour les attaques physiques ou mentales.</li>
-<li><strong>Pénétration.</strong> Si l’attaque n’est pas défendue alors la perforation augmente directement les dégâts permanents.</li>
+<li><strong>Perforation.</strong> Ce bonus réduit l’absorption des cibles du personnage. La perforation naturelle est octroyée par la perception ou la sagesse, respectivement pour les attaques physiques ou mentales.</li>
+<li><strong>Pénétration.</strong> Si l’attaque n’est pas défendue alors la pénétration augmente directement les dégâts permanents.</li>
 <li><strong>Protection.</strong> Ce bonus augmente le seuil de blessure du personnage.</li>
 <li><strong>Précision.</strong> Ce bonus réduit la protection des cibles du personnage.</li>
 <li><strong>Aggravation.</strong> Ce bonus augmente la gravité des blessures infligées par le personnage.</li>
@@ -9024,12 +9062,18 @@
 <h3 id="les-conditions-avancees">Les Conditions Avancées</h3>
 <p>Une condition avancée applique deux fois ses effets, si possible (sinon cela ne change rien).</p>
 <h3 id="les-conditions-de-choc">Les Conditions de Choc</h3>
-<p>Les dégâts de chocs entraînent la création d’une condition de choc de charge équivalente.</p>
-<p>La particularité de cette condition c’est qu’elle peut être physique, mentale ou mixte, selon l’origine des dégâts. À tout moment si les charges sont supérieures aux PV (si physique), aux PS (si mental) ou à l’un des deux (si mixte) alors la cible est en état de choc (elle est choquée ET souffre d’une pénalité de 2 à tous ses tests actifs).</p>
+<p>Les dégâts de choc entraînent la création d’une condition de choc de charge équivalente. La nature de la condition (physique ou mentale) correspond à celle des dégâts qui l’ont provoquée.</p>
+<p>La cible peut effectuer un jet de sauvegarde pour réduire les charges effectivement subies : Robustesse si les dégâts sont physiques, Détermination s’ils sont mentaux. La difficulté est l’expertise de l’auteur, le cas échéant. Le degré de réussite du jet est soustrait aux charges subies.</p>
+<p>La condition peut être physique, mentale ou mixte selon l’origine des dégâts. À tout moment si les charges sont supérieures à l’endurance actuelle du personnage alors la cible est en état de choc (elle est choquée ET souffre d’une pénalité de 2 à tous ses tests actifs).</p>
 <p>Puisqu’il s’agit d’une condition, il est évidemment possible de soigner celle-ci, via des actes médicaux, des objets adaptés ou bien la récupération elle-même.</p>
 <h3 id="les-conditions-de-rupture">Les Conditions de Rupture</h3>
-<p>Les conditions de rupture délivrent des dégâts dans le temps, à chaque début de tour. Ces dégâts ne font jamais l’objet de résistance ou autre.</p>
+<p>Les conditions de rupture délivrent des dégâts dans le temps, à chaque début de tour, à hauteur de la moitié de leur charge. Ces dégâts ne font jamais l’objet de résistance ou autre. La nature de la condition (physique ou mentale) correspond à celle des dégâts qui l’ont provoquée.</p>
+<p>La cible peut effectuer un jet de sauvegarde pour réduire les charges effectivement subies : Robustesse si les dégâts sont physiques, Détermination s’ils sont mentaux. La difficulté est l’expertise de l’auteur, le cas échéant. Le degré de réussite du jet est soustrait aux charges subies.</p>
 <p>Si un effet augmente les dégâts de rupture alors c’est la charge de la condition qui est augmentée.</p>
+<h3 id="les-degats-de-taxe">Les Dégâts de Taxe</h3>
+<p>Les dégâts de taxe appliquent la condition de taxe de charge équivalente. La nature de la condition (physique ou mentale) correspond à celle des dégâts qui l’ont provoquée.</p>
+<p>La cible peut effectuer un jet de sauvegarde pour réduire les charges effectivement subies : Robustesse si les dégâts sont physiques, Détermination s’ils sont mentaux. La difficulté est l’expertise de l’auteur, le cas échéant. Le degré de réussite du jet est soustrait aux charges subies.</p>
+<p>Seule la taxe la plus élevée est conservée si plusieurs s’accumulent sur une même cible.</p>
 <h2 id="caracteristiques-de-confrontation">Caractéristiques de Confrontation</h2>
 <p>En confrontation de multiples caractéristiques viennent épaissir le système de jeu et octroient aux différents attributs du personnage ou à son arme des rôles spécifiques.</p>
 <p>Les caractéristiques sont des notions associées aux actions, généralement les attaques, défenses et (plus rarement) les tactiques.</p>
@@ -9057,13 +9101,14 @@
 <p>La puissance altère les paramètres définis par les jets offensifs. Elle permet donc par exemple d’augmenter les dégâts, l’impact et les charges (des conditions).</p>
 <p>Les armes mécaniques possèdent une puissance (en attaque) équivalente à leur catégorie.</p>
 <h4 id="la-perforation">La Perforation</h4>
-<p>La perforation est la faculté permettant d'ignorer une partie de l’absorption adverse.</p>
+<p>La perforation est la faculté permettant d’ignorer une partie de l’absorption adverse.</p>
 <p>Les armes à feu possèdent une pénétration équivalente à leur catégorie.</p>
-<p>Le modificateur de perception augmente la perforation physique. Le modificateur de sagesse augmente la perforation mentale.</p>
+<p>Chaque personnage dispose d’une <strong>perforation naturelle</strong> qui s’applique à toutes ses attaques, selon que l’attaque affecte le corps ou l’esprit : le modificateur de perception constitue la perforation naturelle physique, le modificateur de sagesse la perforation naturelle mentale. Cela couvre donc également les attaques magiques, sans distinction. Si la perforation naturelle est négative, les attaques ne subissent aucun malus direct ; en revanche, toute perforation issue d’une autre source (manœuvre, amélioration, etc.) est réduite du montant de cette valeur négative.</p>
 <h4 id="lattrition">L’Attrition</h4>
-<p>L’attrition est un mot clé désignant la faculté à accroître les dégâts temporaires d’une attaque. L’attrition c’est le fait d’user les défenses, d’affaiblir ou d’affaiblissement. Lorsqu'une attaque profite d’attrition et qu’elle touche la cible, la cible perd autant d’endurance, qui peut tout à fait passer dans le négatif de cette manière. Pour qu’une cible soit considérée comme touche il suffit que l’attaque dépasse la défense passive ET que la cible n’est pas réussie une action d’esquive (tout autre action de défense ne comptant pas, puisqu’elles reviennent à encaisser le coup et non à l’éviter).</p>
+<p>L’attrition est un mot clé désignant la faculté à accroître les dégâts temporaires d’une attaque. L’attrition c’est le fait d’user les défenses, d’affaiblir ou d’affaiblissement. Lorsqu’une attaque profite d’attrition et qu’elle touche la cible, la cible perd autant d’endurance, qui peut tout à fait passer dans le négatif de cette manière. Pour qu’une cible soit considérée comme touche il suffit que l’attaque dépasse la défense passive ET que la cible n’est pas réussie une action d’esquive (tout autre action de défense ne comptant pas, puisqu’elles reviennent à encaisser le coup et non à l’éviter).</p>
+<p>Le modificateur de force constitue l’<strong>attrition naturelle</strong> physique d’un personnage ; le modificateur de charisme constitue l’attrition naturelle mentale. L’attrition naturelle physique ne s’applique qu’aux armes de mêlée et aux armes de jet. Si l’attrition naturelle est négative, les attaques concernées ne subissent aucun malus direct ; en revanche, toute attrition issue d’une autre source (manœuvre, amélioration, etc.) est réduite du montant de cette valeur négative.</p>
 <h4 id="la-penetration">La Pénétration</h4>
-<p>La pénétration est un mot clé désignant la faculté à accroître les dégâts permanents d’une attaque. La perforation ne produit ces dégâts que si l’attaque n’a pas fait l’objet d’une défense, qu’elle soit réussie ou non.</p>
+<p>La pénétration est un mot clé désignant la faculté à accroître les dégâts permanents d’une attaque. La pénétration ne produit ces dégâts que si l’attaque n’a pas fait l’objet d’une défense, qu’elle soit réussie ou non.</p>
 <h4 id="lacceleration">L’accélération</h4>
 <p>L’accélération est un mot clé désignant la faculté à accroître la vitesse de ses attaques. L’accélération augmente la vitesse associée aux attaques.</p>
 <h4 id="laggravation">L’aggravation</h4>
@@ -9102,9 +9147,12 @@
 <p>Lorsque l’absorption permet de changer tous les dégâts permanents en dégâts temporaires il convient de mesurer d'excédents : Ce dernier sera déduit des dégâts temporaires ! Dans le cas d’une attaque défendue alors les dégâts peuvent ainsi être réduits à néant. Cependant si l’attaque n’a pas été défendue alors les dégâts ne peuvent pas être réduits de plus de la moitié de cette façon.</p>
 <p>Voici les détails de base de ces calcules :</p>
 <ul>
-<li>Absorption Physique = Catégorie de l’Armure x 3 + modificateur de Constitution.</li>
-<li>Absorption Mentale = Catégorie de la Résolution x 3 + modificateur de Volonté.</li>
+<li>Absorption naturelle physique = modificateur de Constitution.</li>
+<li>Absorption naturelle mentale = modificateur de Volonté.</li>
+<li>Absorption Physique totale = Catégorie de l’Armure × 3 + absorption naturelle physique.</li>
+<li>Absorption Mentale totale = Catégorie de la Résolution × 3 + absorption naturelle mentale.</li>
 </ul>
+<p>La qualité de l’armure ajuste l’attribut de Constitution (et donc l’absorption naturelle physique) dans le cadre de son usage, ce qui explique son impact sur l’absorption totale.</p>
 <p>Lorsqu’une attaque profite d’une pénétration alors l’absorption est réduite d’autant.</p>
 <h4 id="la-deviation">La Déviation</h4>
 <p>La déviation physique représente la défense physique offerte par certaines défenses en combat. La déviation mentale représente la défense mentale offerte par certaines défenses en joute.</p>
@@ -9126,9 +9174,12 @@
 <p>La protection s’ajoute au seuil de lésion adéquat lorsqu’il s’agit de déterminer le niveau de gravité de celle-ci.</p>
 <p>Voici les détails de base de ces calcules :</p>
 <ul>
-<li>Protection Physique = Catégorie de l’Armure x 1.</li>
-<li>Protection Mentale = Catégorie de la Raison x 1.</li>
+<li>Protection naturelle physique = 5 + modificateur de Stature.</li>
+<li>Protection naturelle mentale = 5 + modificateur d’Ego.</li>
+<li>Protection Physique totale = Catégorie de l’Armure + protection naturelle physique.</li>
+<li>Protection Mentale totale = Catégorie de la Raison + protection naturelle mentale.</li>
 </ul>
+<p>La qualité de l’armure ajuste l’attribut de Stature (et donc la protection naturelle physique) dans le cadre de son usage, ce qui explique son impact sur la protection totale.</p>
 <p>Lorsqu’une attaque profite d’un bonus de précision alors la protection est réduite d’autant (minimum 10).</p>
 <h2 id="la-portee-et-les-zone">La Portée et les Zone</h2>
 <p>L’une des notions clés d’une confrontation est celle de portée et de zones. Les portées représentent la distance qu’un personnage peut atteindre via ses actions. Évidemment une arme permet d’atteindre une cible plus loin qu’à main nue, etc… Les zones représentent des espaces qu’un personnage contrôlé, physiquement ou moralement, est capable d’appliquer une pression qui lui permet de punir un faux geste adverse avec plus d’aisance, ce qui le rend plus menaçant et dangereux.</p>
@@ -9440,6 +9491,7 @@
 <li>Elle permet de supporter la charge des équipements (Arme(s) et armure).</li>
 <li>Elle permet d’attaquer via les armes à manche.</li>
 <li>Elle fixe la défense contre les attaques basées sur la force.</li>
+<li>Elle octroie de l’attrition naturelle aux attaques de mêlée et aux attaques de jet.</li>
 </ul>
 <h4 id="la-dexterite">La Dextérité</h4>
 <ul>
@@ -9466,12 +9518,12 @@
 <li>Elle détermine le facteur de portée des armes à distance.</li>
 <li>Elle permet d’attaquer via les armes à distance.</li>
 <li>Elle fixe la défense contre les attaques basées sur la perception.</li>
-<li>Elle octroie de la perforation aux attaques physiques.</li>
+<li>Elle octroie de la perforation naturelle aux attaques physiques.</li>
 </ul>
 <h4 id="la-constitution">La Constitution</h4>
 <ul>
 <li>Elle permet de réaliser des défenses tactiques (blocages).</li>
-<li>Elle améliore l’absorption physique.</li>
+<li>Elle octroie de l’absorption naturelle physique.</li>
 <li>Elle détermine la vitalité.</li>
 <li>Elle fixe la défense contre les attaques basées sur la constitution (via bouclier).</li>
 </ul>
@@ -9479,6 +9531,7 @@
 <ul>
 <li>Elle permet de supporter la charge des équipements (totale).</li>
 <li>Elle détermine la zone de contrôle.</li>
+<li>Elle octroie de la protection naturelle physique.</li>
 <li>Elle permet de déterminer la gravité des lésions physiques, dites blessures.</li>
 </ul>
 <h4 id="la-taille">La Taille</h4>
@@ -9791,6 +9844,7 @@
 <li>Elle permet de supporter la charge du discours (argument et raison).</li>
 <li>Elle permet de réaliser des tirades via la Persuasion.</li>
 <li>Elle fixe la défense contre les tirades basées sur le charisme.</li>
+<li>Elle octroie de l'attrition naturelle aux attaques mentales.</li>
 </ul>
 <h4 id="lintelligence">L’Intelligence</h4>
 <ul>
@@ -9814,11 +9868,11 @@
 <ul>
 <li>Elle permet de réaliser des tirades via la Compréhension.</li>
 <li>Elle fixe la défense contre les attaques basées sur la sagesse.</li>
-<li>Elle octroie de la perforation aux attaques mentales.</li>
+<li>Elle octroie de la perforation naturelle aux attaques mentales.</li>
 </ul>
 <h4 id="la-volonte">La Volonté</h4>
 <ul>
-<li>Elle améliore l’absorption aux dégâts mentaux.</li>
+<li>Elle octroie de l’absorption naturelle mentale.</li>
 <li>Elle détermine le mental.</li>
 <li>Elle fixe la défense contre les attaques basées sur la volonté (ça n’existe probablement pas).</li>
 <li>Elle contribue à la sauvegarde mentale, dite Détermination.</li>
@@ -9827,6 +9881,7 @@
 <ul>
 <li>Elle permet de fixer la Prestance.</li>
 <li>Elle affecte l’aura, et par voie de fait la zone de présence.</li>
+<li>Elle octroie de la protection naturelle mentale.</li>
 <li>Elle permet de déterminer la gravité des lésions mentales, dites traumatismes.</li>
 </ul>
 <h4 id="lapparence">L’Apparence</h4>
