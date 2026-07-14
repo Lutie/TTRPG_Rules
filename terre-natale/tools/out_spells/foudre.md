@@ -64,11 +64,11 @@
 ---
 
 ## Paralysie
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). ***Clé :*** ⚡ Foudre
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚡ Foudre
 
 ***Notes :*** Condition : Paralysie.
 
@@ -145,7 +145,7 @@
 ---
 
 ## Vermillion
-***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École de Destruction
+***Difficulté :*** 16+X, ***Drain :*** 16+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Puit</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.

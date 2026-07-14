@@ -3,7 +3,7 @@
 > 14 sorts pour Guerre
 
 ## Héroïsme
-***Difficulté :*** 18, ***Drain :*** 22, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡🛡, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 18+X, ***Drain :*** 20+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡🛡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -101,11 +101,11 @@
 ---
 
 ## Présence du Mentor
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡, ***École du sort :*** École de Restauration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Harmonisation ✧</span> (Harmonia (Harmonie) / Lirharmo (Lir + harmo)) : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> les pénalités des manoeuvres physiques (clé guerre), mentales (clé mental) ou incantatoires (clé magie) de la cible. ***Clé :*** 🛡️ Guerre: Lirharmoor
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Harmonisation ⌖</span> (Harmonia (Harmonie) / Reharmo (Re + harmo)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant un trauma (lésion mentale), génère la moitié en fatigue. ***Clé :*** 🛡️ Guerre: Lirharmoor
 
 ***Description :*** Crée une zone “mentor” qui facilite les manœuvres et réduit la difficulté des sorts dans l’aire.
 

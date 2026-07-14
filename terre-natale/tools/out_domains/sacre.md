@@ -18,7 +18,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✨ Sacre: Krucomoviel (vs SAG), 🩸 Impie: Krucomovun (vs RUS)
-Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats physique choquants (condition physique de choc, en état de choc si charge > PV actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2).
+Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats physique choquants (dégats reçus sous la forme de la condition physique "choc" avec sauvegarde robustesse) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 ---
 

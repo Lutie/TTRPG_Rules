@@ -1195,7 +1195,7 @@ Génère un enchantement positif qui octroie aux compétences associées au grou
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🔮 Magie: Loksonairn
-Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les 3 points ainsi captés, avec un gain de PM temporaire maximum par occurence de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>.
+Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les x points ainsi captés (les différentes occurences s'accumulent pour déclancher le gain lorsque le total le permet), x étant de 15 - <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (minimum 5).
 
 ---
 

@@ -36,22 +36,22 @@
 ---
 
 ## Edit de Souffrance
-***Difficulté :*** 14, ***Drain :*** 12
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Coagluation  ⧖</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** 🩸 Impie: Malcogoun
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Coagluation ⧖</span> (Cogo (Assembler) / Malcogo (Mal + cogo)) : Génère un enchantement négatif qui provoque à la fin du tour une perte de PV à la cible équivalant à 1/3 des PV qu'elle a déjà perdues jusqu'ici, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** 🩸 Impie: Malcogoun
 
 ***Description :*** Fait empirer les blessures de la cible en lui infligeant des dégâts croissants.
 
 ---
 
 ## Edit Implaccable
-***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Malédiction
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Interruption, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Implaccable ⧖</span> (Reciproco (Réciproque) / Mugrecip (Mug + recip)) : Génère un enchantement qui provoque une perte de PE équivalant à 1/2 de la perte de PV ou PS que la cible inflige, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/8]</span>. ***Clé :*** 🩸 Impie
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Implaccable ✸</span> (??? / ???) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le sort ne peux être lancé qu'après avoir perdu des PVs suite à une attaque, la cible doit être l'auteur et unique. ***Clé :*** 🩸 Impie
 
 ***Description :*** Punit la cible en lui faisant perdre de l’énergie chaque fois qu’elle blesse autrui.
 
@@ -69,11 +69,11 @@
 ---
 
 ## Messe Noire
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École d'Évocation
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Scarification ⧉</span> (Scarifico / Asscarif) : Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de mana temporaire à la cible qui doit en contre partie perdre <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> PV, la cible peux refuser cette perte et le sort n'a alors aucun effet, de plus la cible peux décider de ne perdre que X PV de la sorte limitants les effets du sort à 4X. ***Clé :*** 🩸 Impie
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Scarification ✸</span> (Scara (Coupure) / Kascar (Ka + scar)) : Génère un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lésions de type blessure ou traumatisme (selon clé), ces lésions sont des égratinures (mais elles peuvent être enregistrées comme des lésions bien pire si la cible a trop de lésions de ce type, tel que le prévoit les règles). ***Clé :*** 🩸 Impie
 
 ***Description :*** Sacrifie de la vitalité pour obtenir une réserve temporaire de mana (si la cible accepte).
 
@@ -126,7 +126,7 @@
 ---
 
 ## Chemin des Enfers
-***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸🩸, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 10+X, ***Drain :*** 10+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸🩸, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -152,11 +152,11 @@
 ---
 
 ## Zone d'Aggravation
-***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Malédiction
+***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Intensification ⧖</span> (Vehemens (Violent) / Munvehe (Mun + vehe)) : Génère un enchantement négatif augmentant les effets des conditions négatives dont les charges sont inférieures à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> sur la cible (les conditions normales ont les effets de conditions améliorées et les conditions améliorées ont des effets encore améliorés d'un cran, si numériquement applicable). ***Clé :*** 🩸 Impie: Munveheun
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Intensification ✧</span> (Ardeo (Brûler, être ardent) / Lirardeo (Lir + ardeo)) : Génère un enchantement positif augmentant les effets des conditions positives dont les charges sont inférieures à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> sur la cible (les conditions normales ont les effets de conditions améliorées et les conditions améliorées ont des effets encore améliorés d'un cran, si numériquement applicable). ***Clé :*** 🩸 Impie: Munveheun
 
 ***Description :*** Intensifie toutes les afflictions déjà présentes sur les ennemis dans la zone.
 
@@ -174,11 +174,11 @@
 ---
 
 ## Véhémence Exaltée
-***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Malédiction
+***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Exaltation ⧖</span> (Altius (Plus haut) / Mugalt (Mug + alt)) : Génère un enchantement négatif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> le cout des relances en karma d'un même test d'action visant à nuire à la cible. ***Clé :*** 🩸 Impie: Mugaltun
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Exaltation ✧</span> (Laudo (Louer) / Lirlaudo (Lir + laudo)) : Génère un enchantement positif qui maintient les conditions positives sur la cible, cet enchantement ne peux pas être maintenu. ***Clé :*** 🩸 Impie: Mugaltun
 
 ***Description :*** Exalte l’esprit des cibles en leur offrant une réserve mentale temporaire.
 
@@ -276,11 +276,11 @@
 ---
 
 ## Scarification Impie
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Conjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Damnation ⧗</span> (??? / ???) : Génère un enchantement qui permet à la cible de puiser 1 PV pour augmenter de 2 la puissance des sorts lancés, avec un maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> en puissance ajoutée. ***Clé :*** 🩸 Impie
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Damnation ✸</span> (Damno (Condamner) / Krudamn (Kru + damn)) : Génère un effet infligeant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> en corruption, la sauvegarde d'opposition modifie cette perte. ***Clé :*** 🩸 Impie
 
 ***Description :*** Permet d’échanger sa propre vie contre une augmentation de puissance magique.
 
@@ -298,7 +298,7 @@
 ---
 
 ## Pacte avec le Diable
-***Difficulté :*** 12, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Destruction
+***Difficulté :*** 12+X, ***Drain :*** 12+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🩸, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.

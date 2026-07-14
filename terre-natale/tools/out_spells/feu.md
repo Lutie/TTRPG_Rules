@@ -61,7 +61,7 @@
 ---
 
 ## Pluie de Météore
-***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Destruction
+***Difficulté :*** 16+X, ***Drain :*** 16+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Pluie</span> : Le sort s'applique au moment où il est lancé puis aux cinq rounds d'après, même cible, la cible doit être un lieu.
@@ -101,11 +101,11 @@
 ---
 
 ## Flambeau
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Conjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Restauration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Illumination ⧗</span> (Lumen (Lumière) / Carlumen (Car + lumen)) : Génère un enchantement qui réduit la faculté à se cacher ou à dissimuler, la difficulté visant à percevoir un élément caché étant réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** 🔥 Feu: Carlumenar
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Illumination ⌖</span> (Lumen (Lumière) / Relumen (Rel + lumen)) : Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/5 points d'un attribut secondaire associé à <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** 🔥 Feu: Carlumenar
 
 ---
 
@@ -141,11 +141,11 @@
 ---
 
 ## Immolation
-***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥🔥, ***École du sort :*** École d'Altération et École d'Évocation
+***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥🔥, ***École du sort :*** École de Malédiction et École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). ***Clé :*** 🔥 Feu
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** 🔥 Feu
 > **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** 🔥 Feu
 
 ***Notes :*** 1ere condition : Brûlure, 2e condition : Enflammé.
@@ -162,14 +162,14 @@
 ---
 
 ## Terres Brûlées
-***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École d'Altération
+***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Sol</span> : Le sort ne s'applique pas au moment où il est lancé, la cible/zone devient un enchantement qui déclanche les effets si une cible viable la touche ou débute son round à son contact.
 ***Modificateurs de Magnitude :*** PWR -3
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). ***Clé :*** 🔥 Feu
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** 🔥 Feu
 
 ***Notes :*** Condition : Brûlure.
 
@@ -189,7 +189,7 @@
 ---
 
 ## Conflagration Fatale
-***Difficulté :*** 12, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Destruction
+***Difficulté :*** 12+X, ***Drain :*** 12+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.
@@ -199,7 +199,7 @@
 ---
 
 ## Holocauste
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥🔥, ***École du sort :*** École de Destruction
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥🔥, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.

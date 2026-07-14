@@ -14,12 +14,12 @@
 ---
 
 ## Echos de Bravoure
-***Difficulté :*** 14, ***Drain :*** 16
+***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Restauration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Moralisation  ⌖</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** ⚜️ Charme: Rengenynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Moralisation ⌖</span> (Moralis (Moral) / Remoral (Re + moral)) : Génère un effet qui restaure <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points de moral à la cible, le soin de moral est dispensé des règles des soins naturels et de la fatigue. ***Clé :*** ⚜️ Charme: Rengenynh
 
 ***Description :*** Restaure des points de moral à la cible en zone large.
 
@@ -197,11 +197,11 @@
 ---
 
 ## Souffle de Crédulité
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Malédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Suggestion ⧖</span> (Subgero (Porter) / Munsubger (Mun + subger)) : Génère un enchantement négatif qui rend la cible moins difficulté à persuader/convaincre, la difficulté est réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚜️ Charme: Munsubgerynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Suggestion ✸</span> (Gero (Porter) / Krusuger (Kru + suger)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le jet est assuré (minimum des dés 4) et majoré (+1 par dés). ***Clé :*** ⚜️ Charme: Munsubgerynh
 
 ***Description :*** Inflige des dégâts mentaux temporaires assurés et majorés.
 
@@ -230,11 +230,11 @@
 ---
 
 ## Eclat d'Adoration
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Malédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Adoration ⧖</span> (Oro (Prier) / Mororo (Mor + oro)) : Génère un enchantement négatif qui force la cible à aider une autre cible au choix du lanceur de sort (ce peut être lui même), la seconde cible peux être à portée de vue, à chaque fois qu'elle souhaite contrevenir à cet la cible peux réaliser un test de sauvegarde (vs détermination) pour tenter d'échapper à la contrainte, elle n'a pas conscience d'être ainsi manipulée sauf si elle réussit à se dégager de la contrainte et réussit à un test de concentration, la cible peux être contrainte pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> actions si la cible n'est pas une cible naturelle pour elle (il s'agit d'un allié ou autre). ***Clé :*** ⚜️ Charme: Mororo ynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Adoration ✧</span> (Oro (Prier) / Liroro (Lir + oro)) : Génère un enchantement positif qui se décharge de 1 pour chaque dégats que devrait subir la cible et qui devrait lui faire baisser les PV ou PS en deça de 0, ne fonctionne que si un allié est à proximité. ***Clé :*** ⚜️ Charme: Mororo ynh
 
 ***Description :*** Absorbe les dégâts fatals si un allié est à proximité.
 
@@ -266,11 +266,11 @@
 ---
 
 ## Eclat de Suspicion
-***Difficulté :*** 10, ***Drain :*** 10
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Distraction  ⧖</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** ⚜️ Charme: Mugdistraynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Distraction ⧖</span> (Traho (Tirer) / Mugdistra (Mug + distra)) : Génère un enchantement négatif qui rend la cible plus marquante, les autres sont prompt à s'interroger sur sa présence quel que soit l'environnement (chargé ou pas), octroyant un malus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> aux tests visant à échapper à l'attention des autres, voir à la menace. ***Clé :*** ⚜️ Charme: Mugdistraynh
 
 ***Description :*** Rend la cible plus marquante et suspecte.
 
@@ -311,11 +311,11 @@
 ---
 
 ## Doute
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Interruption, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Dissuasion ⛊</span> (Suadeo (Conseiller) / Barvias (Bar + vias)) : Génère un effet qui augmente la difficulté d'une action qui vise le lanceur de sort de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** ⚜️ Charme: Barviasynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Dissuasion ✧</span> (Suadeo (Conseiller) / Lemsuad (Lem + suad)) : Génère un enchantement positif qui impose une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> aux actions visant à agresser la cible (attaque ou tactique, mais pas uniquement, c'est au MD de trancher si une action constitue une agression ou non), une action qui touche la cible est affectée même si elle ne vise pas directement celle ci, si la cible entreprend une action d'agression l'enchantement se dissipe sur le champs. ***Clé :*** ⚜️ Charme: Barviasynh
 
 ***Description :*** Impose une pénalité aux actions d'agression envers la cible.
 
@@ -333,44 +333,44 @@
 ---
 
 ## Paroles de Persuasion
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
+***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Invocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Manifestation ⧉</span> (Manes (Esprits, apparences) / Enmani (En + mani)) : Génère un effet qui permet au lanceur de sort une action caractérisée par une compétence (dont la nature est associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) en réalisant le test avec, au choix : Un total de Compétence/Groupe de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> ou le total de Compétence/Groupe du lanceur de sort plus un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, le tout plus le modificateur de magie du lanceur de sort (ici aucun bonus, sauf magique, ne peuvent intervenir, encore moins les bonus de qualité issus d'objets ou autre). Dans le cas d'une action avec progression le lanceur du sort peux reproduire un test avec les avantages de ce sort en dépensant 2 PS à chaque fois. L'action peux profiter de manoeuvres normalement. ***Clé :*** ⚜️ Charme: Enmaniynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Manifestation ✪</span> (Appareo (Apparaître) / Vasapar (Vas + apar)) : Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚜️ Charme: Enmaniynh
 
 ***Description :*** Invoque une manifestation de type Charme.
 
 ---
 
 ## Paroles de Manipulation
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
+***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Invocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Manifestation ⧉</span> (Manes (Esprits, apparences) / Enmani (En + mani)) : Génère un effet qui permet au lanceur de sort une action caractérisée par une compétence (dont la nature est associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) en réalisant le test avec, au choix : Un total de Compétence/Groupe de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> ou le total de Compétence/Groupe du lanceur de sort plus un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, le tout plus le modificateur de magie du lanceur de sort (ici aucun bonus, sauf magique, ne peuvent intervenir, encore moins les bonus de qualité issus d'objets ou autre). Dans le cas d'une action avec progression le lanceur du sort peux reproduire un test avec les avantages de ce sort en dépensant 2 PS à chaque fois. L'action peux profiter de manoeuvres normalement. ***Clé :*** ⚜️ Charme: Enmaniynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Manifestation ✪</span> (Appareo (Apparaître) / Vasapar (Vas + apar)) : Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚜️ Charme: Enmaniynh
 
 ***Description :*** Invoque une manifestation de type Charme.
 
 ---
 
 ## Vague de Manipulation
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Fascination ⧉</span> (Fascinum (Charme) / Erufasci (Eru + fasci)) : Génère un effet qui charme une personne, le sort remplace un test de prestige qui prend automatiquement comme valeurs 5 + <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> + modificateur de magie, si la personne a des raisons de ne pas apprécier le personnage la difficulté peux être ajustée comme le prévoit les règles de prestige (généralement +5), chaque bonnes raisons d'inimitié peuvent accroitre la difficulté, le résultat est similaire à ceux d'un test de prestige effectuée dans le cadre d'une rencontre avec un individu (voir les règles), ce sort écrase un résultat précédent (naturel ou magique), la cible peux effectuer un test de sang froid qui lui permet de résister à cet effet (dans les proportions prévues par la règle des sauvegardes). ***Clé :*** ⚜️ Charme: Erufasciynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Fascination ⧖</span> (Fascinum (Charme) / Malfasci (Mal + fasci)) : Génère un enchantement négatif qui octroie à une cible A un bonus à son apparence dans le cadre d'un test de prestige (première réaction) équivalant à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> envers une cible B, si la cible A avait déjà une opinion sur la cible B alors un nouveau test peux être effectué (avec le bonus) et le meilleur résultat est conservé, la cible B peux faire valoir sa sauvegarde afin de diminuer ou ignorer les effets. ***Clé :*** ⚜️ Charme: Erufasciynh
 
 ***Description :*** Octroie un bonus d'apparence de fascination.
 
 ---
 
 ## Suggestion
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Suggestion ⧉</span> (Gero (Porter) / Ensubger (En + subger)) : Génère une suggestion qui implente un objectif ou désir nouveau chez la cible, à raison de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> mots pour formuler la suggestion, affecté par la sauvegarde de détermination, un test d'intuition peux permettre de savoir si ces idées sont légitimes ou suspicieuses (et donc en douter). ***Clé :*** ⚜️ Charme: Ensubgerynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Suggestion ✸</span> (Gero (Porter) / Krusuger (Kru + suger)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le jet est assuré (minimum des dés 4) et majoré (+1 par dés). ***Clé :*** ⚜️ Charme: Ensubgerynh
 
 ***Description :*** Inflige des dégâts mentaux temporaires assurés et majorés.
 
@@ -466,11 +466,11 @@
 ---
 
 ## Mots d'Euphorie
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚜️ Charme
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ⚜️ Charme
 
 ***Description :*** Stocke un effet qui se déclenche sous condition d'Euphorie.
 
@@ -479,11 +479,11 @@
 ---
 
 ## Mots de Fureur
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚜️ Charme
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ⚜️ Charme
 
 ***Description :*** Stocke un effet qui se déclenche sous condition de Fureur.
 
@@ -492,11 +492,11 @@
 ---
 
 ## Mots de Cérénité
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚜️ Charme
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ⚜️ Charme
 
 ***Description :*** Stocke un effet qui se déclenche sous condition de Sérénité.
 
@@ -505,11 +505,11 @@
 ---
 
 ## Mots de Joie
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚜️ Charme
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ⚜️ Charme
 
 ***Description :*** Stocke un effet qui se déclenche sous condition de Joie.
 

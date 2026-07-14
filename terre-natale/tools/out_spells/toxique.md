@@ -37,7 +37,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Ruine ✸</span> (Ruina (Chute) / Keluina (Kel + ruina)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> de dégats mixtes choquants (condition mixte de choc, en état de choc si charge > PV ou PS actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2). ***Clé :*** ☢️ Toxique: Keluinaex
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Ruine ✸</span> (Ruina (Chute) / Keluina (Kel + ruina)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> de dégats mixtes choquants (dégats reçus sous la forme de la condition physique ET mentale "choc" avec sauvegarde détermination ou robustesse, le plus bas des deux) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Keluinaex
 
 ***Description :*** Inflige un choc toxique brutal qui mêle dégâts et état de choc paralysant.
 
@@ -88,7 +88,7 @@
 ---
 
 ## Souffle d'Acide
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Cône</span> : Touche une cible, 3 cases de largeur et 2 cases de profondeur derrières elles (AOE spéciale).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Souffle</span> : Le sort s'applique normalement mais une version diminuée du sort affecte également les cibles adjacentes (en AOE la portée de ce souffle est équivalant à la distance d'AOE).
@@ -105,24 +105,24 @@
 ---
 
 ## Vapeurs Toxiques du Morbol
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Malédiction
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Dissipation ⧖</span> (Disipo (Disperser) / Mundisi (Mun + disi)) : Produit un enchantement négatif qui réduit les charges de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> des conditions positives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. ***Clé :*** ☢️ Toxique: Mundisiex
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Exacerbation ⧖</span> (Acerbus (Acre, amer) / Malacerb (Mal + acerb)) : Produit un enchantement négatif qui double les charges, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, les effets des conditions négatives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. ***Clé :*** ☢️ Toxique: Malacerbex
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Dissipation ✸</span> (Dissipo (Je disperse) / Kadisipo (Ka + disipo)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Mundisiex
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Exacerbation ✧</span> (Acerbus (Acre, amer) / Lemacerb (Lem + acerb)) : Génère un enchantement positif qui augmente les dégats des actions d'attaque par menées la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** ☢️ Toxique: Malacerbex
 
 ***Description :*** Crée un nuage toxique qui protège la zone tout en aggravant violemment les afflictions.
 
 ---
 
 ## Terrible Infection
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ⧖</span> (Tinguo (Teindre, imprégner) / Mortingo (Mor + tingo)) : Génère un enchantement négatif, à chaque fois que la cible reçoit des dégats mettez un marqueur avant la résolution des dégats, puis augmentez les dégats reçus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> par marqueurs acquis, maximum 5 marqueurs. ***Clé :*** ☢️ Toxique: Mortingoex
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ✧</span> (Inficio (Souiller) / Lynfect (Lyn + infect)) : Génère un enchantement positif qui augmente les soins reçus de (au choix au lancement du sort) <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> , s'applique un maximum de 3 / 4 / 5 fois. ***Clé :*** ☢️ Toxique: Mortingoex
 
 ***Description :*** Infecte la cible avec une maladie grave qui la ronge jour après jour.
 
@@ -201,7 +201,7 @@
 ---
 
 ## Nuages Toxiques
-***Difficulté :*** 20, ***Drain :*** 22, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 20+X, ***Drain :*** 20+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.

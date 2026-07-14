@@ -13,11 +13,11 @@
 ---
 
 ## Barrière Physique
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Barrière, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Protection ⛊</span> (Tego (Protéger, couvrir) / Brentu (Bren + tu)) : Génère un enchantement neutre de type barrière physique pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). ***Clé :*** ✡️ Arcane: Brentuys
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Protection ✧</span> (??? / ???) : Génère un enchantement positif qui augmente tous les attributs du corps de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> mais réduit ceux de l'esprit d'autant. ***Clé :*** ✡️ Arcane: Brentuys
 
 ---
 
@@ -49,20 +49,20 @@
 ---
 
 ## Mot de Paresse
-***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Interruption, ***Domaine du sort :*** 💢, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Retardement ⛊</span> (Tardo (Retarder) / Bortardo (Bor + tardo)) : Génère un effet qui réduit le test d'initiative d'une cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. ***Clé :*** 💢 Vide: Bortardoarh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Retardement ⧖</span> (Tardus (Lent) / Muntardo (Mun + tardo)) : Génère un enchantement négatif qui réduit l'initiative de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** 💢 Vide: Bortardoarh
 
 ---
 
 ## Barrière Globale
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Barrière, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Entravation ⛊</span> (Impedio (Empêcher) / Baspedio (Bas + pedio)) : Génère un enchantement neutre de type barrière mixte pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> dégats ou impact (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). ***Clé :*** ✡️ Arcane: Baspedioys
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Entravation ⧖</span> (Impedio (Empêcher) / Morimped (Mor + imped)) : Génère un enchantement négatif qui augmente de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> les pénalités des manoeuvres physiques (clé acier), mentales (clé mental) ou incantatoires (clé magie) de la cible, au mieux double les pénalités mais guère plus. ***Clé :*** ✡️ Arcane: Baspedioys
 
 ---
 
@@ -85,20 +85,20 @@
 ---
 
 ## Es-tu sûr ?
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Interruption, ***Domaine du sort :*** ⚜, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚜, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Dissuasion ⛊</span> (Suadeo (Conseiller) / Barvias (Bar + vias)) : Génère un effet qui augmente la difficulté d'une action qui vise le lanceur de sort de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** ⚜️ Charme: Barviasynh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Dissuasion ✧</span> (Suadeo (Conseiller) / Lemsuad (Lem + suad)) : Génère un enchantement positif qui impose une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> aux actions visant à agresser la cible (attaque ou tactique, mais pas uniquement, c'est au MD de trancher si une action constitue une agression ou non), une action qui touche la cible est affectée même si elle ne vise pas directement celle ci, si la cible entreprend une action d'agression l'enchantement se dissipe sur le champs. ***Clé :*** ⚜️ Charme: Barviasynh
 
 ---
 
 ## Intervention de Bogardan
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Interruption, ***Domaine du sort :*** 🔥, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔥, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Fragilisation ⛊</span> (Frango (Briser) / Belfragi (Bel + fragi)) : Génère un effet qui réduit la défense passive contre les attaques ou défenses physiques de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> de la cible, elle peux réaliser un test de détermination afin de réduire les effets du sort. ***Clé :*** 🔥 Feu: Belfragiar
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Fragilisation ✧</span> (Fregit (Brisé) / Luxfreg (Lux + freg)) : Génère un enchantement positif qui augmente les dégats et l'impact (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) reçus par la cible d'autant que le triple de ses pénalités de lésions (dont la nature dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) pour un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>, cet effet ne peux pas augmenter les dégats de plus de leur moitié. ***Clé :*** 🔥 Feu: Belfragiar
 
 ---
 

@@ -25,7 +25,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Armure imprégnée ⧗</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** Au choix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Armure imprégnée</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** Au choix
 
 ---
 
@@ -48,11 +48,11 @@
 ---
 
 ## Prison de Verre
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☀, ***École du sort :*** École de Conjuration
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☀, ***École du sort :*** École de Restauration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Illumination ⧗</span> (Lumen (Lumière) / Carlumen (Car + lumen)) : Génère un enchantement qui réduit la faculté à se cacher ou à dissimuler, la difficulté visant à percevoir un élément caché étant réduite de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ☀️ Lumière: Carlumenion
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Illumination ⌖</span> (Lumen (Lumière) / Relumen (Rel + lumen)) : Produit un effet soignant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/5 points d'un attribut secondaire associé à <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☀️ Lumière: Carlumenion
 
 ---
 

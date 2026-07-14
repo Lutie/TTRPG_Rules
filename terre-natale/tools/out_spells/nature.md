@@ -3,11 +3,11 @@
 > 3 sorts pour Nature
 
 ## Serment des Druides
-***Difficulté :*** 18, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🪷, ***École du sort :*** École de Conjuration
+***Difficulté :*** 18, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🪷, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Lieu</span> : Le sort affecte le lieu entier de la scène, le sort doit avoir pour cible un lieu.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Perturbation ⧗</span> (Turbo (Troubler) / Centurb (Cen + turb)) : Génère un enchantement de lieu qui augmente la difficulté de sorts lancés dans la zone de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, la sauvegarde de détermination permettant de réduire cet effet. ***Clé :*** 🪷 Nature: Centurbeiln
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Perturbation ✸</span> (Turbo (Troubler) / Kraturb (Kra + turb)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats mentaux choquants (dégats reçus sous la forme de la condition mentale "choc" avec sauvegarde détermination) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** 🪷 Nature: Centurbeiln
 
 ---
 

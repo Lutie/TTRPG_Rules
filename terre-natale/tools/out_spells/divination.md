@@ -12,11 +12,11 @@
 ---
 
 ## Vision du Futur
-***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 👁, ***École du sort :*** École de Divination
+***Difficulté :*** 10, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 👁, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Précognition ⊙</span> (Prae (Avant) + Nosco (Connaître) / Dornosc (Dor + nosc)) : Génère un effet permettant au lanceur de sort de consulter le futur de la cible, jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>² minutes dans l'avenir, cette vision ne se fait pas pars le prisme des sens ou de la perception de la cible mais d'une façon plus extérieur et neutre, ce futur peux changer si quelque chose le préviens mais la nature du monde cherchera à contourner tout changement trop important, le changement doit donc être drastique pour forcer la main du destin. ***Clé :*** 👁️ Vision: Dornosceth
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Précognition ✧</span> (Scio (Savoir) / Luxscio (Lux + scio)) : Génère un enchantement positif qui permet de voir une fraction de temps en avance, lorsque le personnage réalise un test contre une cible il peux voir le résultat de son action et il peux donc s'adapter un minimum pour maximiser sa réussite, imposant à ses adversaires une pénalité à ses défenses passives et sauvegarde de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>, de plus la défense et sauvegarde du lanceur de sort est augmenté d'autant. ***Clé :*** 👁️ Vision: Dornosceth
 
 ---
 

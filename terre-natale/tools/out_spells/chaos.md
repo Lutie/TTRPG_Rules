@@ -3,36 +3,36 @@
 > 20 sorts pour Chaos
 
 ## Chaudron de Sorcière
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Altération ≈</span> (Alter (Autre) / Alalter (Al + alter)) : Génère un effet qui inflige deux conditions négatives aléatoire avec <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la condition est choisit aléatoire à chaque occurence parmi la totalité des conditions de ce type possibles, le lanceur de sort peux relancer une des conditions à condition de baisser la Magnitude du sort de 5 à chaque fois. ***Clé :*** 🌀 Chaos: Alalterix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Altération ⧖</span> (Alter (Autre) / Moralter (Mor + alter)) : Génère un enchantement négatif qui augmente la gravité des traumas à venir de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, s'applique un maximum de 3 / 2 / 1 fois. ***Clé :*** 🌀 Chaos: Alalterix
 
 ***Description :*** Inflige à la cible des altérations imprévisibles sous forme de malédictions aléatoires.
 
 ---
 
 ## Chaudron d'Hadès
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀🌀, ***École du sort :*** École d'Altération
+***Difficulté :*** 14+X, ***Drain :*** 14+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀🌀, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Altération ≈</span> (Alter (Autre) / Alalter (Al + alter)) : Génère un effet qui inflige deux conditions négatives aléatoire avec <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la condition est choisit aléatoire à chaque occurence parmi la totalité des conditions de ce type possibles, le lanceur de sort peux relancer une des conditions à condition de baisser la Magnitude du sort de 5 à chaque fois. ***Clé :*** 🌀 Chaos: Alalterix
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Altération ≈</span> (Alter (Autre) / Alalter (Al + alter)) : Génère un effet qui inflige deux conditions négatives aléatoire avec <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la condition est choisit aléatoire à chaque occurence parmi la totalité des conditions de ce type possibles, le lanceur de sort peux relancer une des conditions à condition de baisser la Magnitude du sort de 5 à chaque fois. ***Clé :*** 🌀 Chaos: Alalterix
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Altération ⧖</span> (Alter (Autre) / Moralter (Mor + alter)) : Génère un enchantement négatif qui augmente la gravité des traumas à venir de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, s'applique un maximum de 3 / 2 / 1 fois. ***Clé :*** 🌀 Chaos: Alalterix
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Altération ⧖</span> (Alter (Autre) / Moralter (Mor + alter)) : Génère un enchantement négatif qui augmente la gravité des traumas à venir de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, s'applique un maximum de 3 / 2 / 1 fois. ***Clé :*** 🌀 Chaos: Alalterix
 
 ***Description :*** Submerge la cible sous une cascade chaotique de malédictions multiples et incontrôlées.
 
 ---
 
 ## Cantique de Salem
-***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀🌀, ***École du sort :*** École d'Altération
+***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀🌀, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Bénédiction ≈</span> (Benedico (Dire du bien) / Arbene (Ar + bene)) : Génère un effet qui inflige deux conditions positif aléatoire avec <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la condition est choisit aléatoire à chaque occurence parmi la totalité des conditions de ce type possibles, le lanceur de sort peux relancer une des conditions à condition de baisser la Magnitude du sort de 5 à chaque fois. ***Clé :*** 🌀 Chaos: Arbeneix
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Bénédiction ≈</span> (Benedico (Dire du bien) / Arbene (Ar + bene)) : Génère un effet qui inflige deux conditions positif aléatoire avec <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> charges, la condition est choisit aléatoire à chaque occurence parmi la totalité des conditions de ce type possibles, le lanceur de sort peux relancer une des conditions à condition de baisser la Magnitude du sort de 5 à chaque fois. ***Clé :*** 🌀 Chaos: Arbeneix
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Bénédiction ✧</span> (Benedico (Dire du bien) / Lembene (Lem + bene)) : Génère un enchantement positif qui augmente de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> la plage des singularités positives (exploits). ***Clé :*** 🌀 Chaos: Arbeneix
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Bénédiction ✧</span> (Benedico (Dire du bien) / Lembene (Lem + bene)) : Génère un enchantement positif qui augmente de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> la plage des singularités positives (exploits). ***Clé :*** 🌀 Chaos: Arbeneix
 
 ***Description :*** Accorde à la cible une série de bénédictions aléatoires issues du Chaos.
 
@@ -52,12 +52,12 @@
 ---
 
 ## Souffle de Liberté
-***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École d'Évocation
+***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Restauration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Long</span> : La distance de diffusion du sort est doublée.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Libération ⧉</span> (Libero (Libérer) / Aliber (Al + liber)) : Génère un effet qui déclanche chez la cible un test visant à recouvrir la liberté (en fonction de comment cette notion de liberté est menacée) avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>, ce sort peux être lancé en interruption lorsqu'un allié subit une perte/privation de liberté. ***Clé :*** 🌀 Chaos
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Libération ⌖</span> (Libero (Je délivre) / Reliber (Re + liber)) : Génère un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> visant toutes les conditions négative affectant les sens. ***Clé :*** 🌀 Chaos
 
 ***Description :*** Fait apparaître un organisme chaotique explosif, dangereux à approcher ou à provoquer.
 
@@ -123,7 +123,7 @@
 ---
 
 ## Plier la Destinée
-***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀🌀, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 10+X, ***Drain :*** 10+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀🌀, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -149,7 +149,7 @@
 ---
 
 ## Chaosium
-***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Destruction
+***Difficulté :*** 16+X, ***Drain :*** 16+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.
@@ -163,22 +163,22 @@
 ---
 
 ## Malédiction des Faibles
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Malédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Amplification ⧖</span> (Augeo (Augmenter) / Morauge (Mor + auge)) : Génère un enchantement négatif qui réduit l'attribut le plus bas de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🌀 Chaos: Moraugeix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Amplification ✧</span> (Amplus (Vaste) / Liramplo (Lir + amplo)) : Génère un enchantement positif qui augmente la plage singularité de la cible de 1 / 2, à chaque fois que cet effet permet une singularité l'enchantement subit une décharge / double décharge. ***Clé :*** 🌀 Chaos: Moraugeix
 
 ***Description :*** Amplifie un sort ennemi en cours, retournant sa puissance contre son lanceur indirectement.
 
 ---
 
 ## Mirroir Métaphysique
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 8, ***Drain :*** 10, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Réfraction ⛊</span> (Frango (Briser) / Brifrang (Bri + frang)) : Génère un enchantement qui renvoie les sorts conditions reçus à l'auteur de ces dernières, la magnitude des conditions renvoyées est limité à <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, chaque fois qu'une condition est renvoyé cet enchantement subit une décharge, fonctionne sur les conditions de zone mais n'annule que celle de la cible. ***Clé :*** 🌀 Chaos: Brifrangix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Réfraction ✧</span> (Frango (Briser) / Lemfran (Lem + fran)) : Génère un enchantement positif qui génère <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> image légèrement décalée de la cible, une attaque (nécessairement mono cible) qu'un adversaire cherche à défendre via une action de défense à une chance sur "nombre d'image restantes" d'échouée en ciblant la mauvaise image, chaque fois qu'une défense échoue de cette manière le nombre d'image restante diminue de 1. ***Clé :*** 🌀 Chaos: Brifrangix
 
 ***Description :*** Crée un miroir métaphysique qui renvoie les malédictions à leur expéditeur.
 
@@ -218,11 +218,11 @@
 ---
 
 ## Zone d'Inversion
-***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École d'Altération
+***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌀, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Corruption ≈</span> (Rumpo (Briser) / Aenrump (Aen + rump)) : Génère un effet qui convertis un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> charge d'une condition positive au choix en charge de la condition négative opposée avec le double des charges ainsi converties, la cible peux réaliser un test de sauvegarde appropriée pour ce type de condition (ou opposition si supérieure), variante : Ce mot peux affecter toutes les conditions de la cible avec une difficulté augmentée de 4. ***Clé :*** 🌀 Chaos: Aenrumpix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Corruption ✸</span> (Rumpo (Briser) / Korrupt (Kor + rupt)) : Génère un effet infligeant une condition de rupture (DOT), la cible peux réaliser un test de sauvegarde (qui dépend de la condition). ***Clé :*** 🌀 Chaos: Aenrumpix
 
 ***Description :*** Inverse les bénédictions en malédictions au sein d’une zone chaotique.
 

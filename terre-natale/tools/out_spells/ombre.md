@@ -33,7 +33,7 @@
 ---
 
 ## Puit de Faiblesse
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Puit</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.
@@ -114,7 +114,7 @@
 ---
 
 ## Voile d'Obscurité
-***Difficulté :*** 12, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑🌑, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 12+X, ***Drain :*** 12+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑🌑, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -163,7 +163,7 @@
 ---
 
 ## Abysses Hurlantes
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑🌑, ***École du sort :*** École de Malédiction
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑🌑, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -189,11 +189,11 @@
 ---
 
 ## Voyage dans les Ombres
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École d'Évocation
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École de Divination
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Projection ⧉</span> (??? / ???) : Génère un effet qui déplace le lanceur de sort à une distance maximale équivalante à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la moitié durant une confrontation, la destination doit partager la même zone d'ombre que le point de départ, le déplacement étant instantané ce dernier ne provoque pas d'opportunité etc. ***Clé :*** 🌑 Ombre: Erulocusoth
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Projection ⊙</span> (Iacio (Jeter) / Dariacto (Dar + iacto)) : Génère un enchantement positif qui permet à la cible de mieux lire le champs de bataille et de voir légérement en avance le résultat de ses actions, dans le cadre de ses actions ou des actions qui le vise la défense de ses adversaires et sa propre défense sont modifiés (dans le sens de la cible) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>. ***Clé :*** 🌑 Ombre: Erulocusoth
 
 ***Description :*** Intervertit instantanément la position de deux cibles visibles à courte distance, comme un pas dans les ombres.
 

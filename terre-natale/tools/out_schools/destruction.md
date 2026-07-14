@@ -1,6 +1,6 @@
 # École de Destruction
 
-> 74 mots pour cette école
+> 78 mots pour cette école
 
 #### 1. Destruction
 ***Latin :*** Ruptura (Rupture), ***Arcanique :*** Kinrupt (Kin + rupt)
@@ -97,7 +97,7 @@ Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="c
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✨ Sacre: Krucomoviel (vs SAG), 🩸 Impie: Krucomovun (vs RUS)
-Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats physique choquants (condition physique de choc, en état de choc si charge > PV actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2).
+Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats physique choquants (dégats reçus sous la forme de la condition physique "choc" avec sauvegarde robustesse) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 ---
 
@@ -106,7 +106,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🎭 Illusion: Kraturbin (vs VOL)
-Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats mentaux choquants (condition mentale de choc, en état de choc si charge > PS actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2).
+Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats mentaux choquants (dégats reçus sous la forme de la condition mentale "choc" avec sauvegarde détermination) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 ---
 
@@ -115,7 +115,7 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ☢️ Toxique: Keluinaex (vs EQU)
-Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> de dégats mixtes choquants (condition mixte de choc, en état de choc si charge > PV ou PS actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2).
+Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1]</span> de dégats mixtes choquants (dégats reçus sous la forme de la condition physique ET mentale "choc" avec sauvegarde détermination ou robustesse, le plus bas des deux) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 ---
 
@@ -665,3 +665,39 @@ Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ⚖️ Loi
 Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats temporaires (PE) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>, le sort ne peux être lancé que si une créature dans la zone a perdu des PV ou des PS suite à une attaque, la cible doit être l'auteur et unique.
+
+---
+
+#### 75. Rupture
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🔥 Feu
+Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats de rupture (PV) (dégats reçus sous la forme de la condition physique "rupture" avec sauvegarde robustesse) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+---
+
+#### 76. Flagellation
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🧩 Mental
+Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats de rupture (PS) (dégats reçus sous la forme de la condition mentale "rupture" avec sauvegarde détermination) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+---
+
+#### 77. Cauchemard
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** 🩸 Impie
+Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> de dégats de rupture (PV/PS) (dégats reçus sous la forme de la condition physique ET mentale "rupture" avec sauvegarde détermination ou robustesse, le plus bas des deux) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
+
+---
+
+#### 78. Tourmente
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ☢️ Toxique
+Produit un effet d'attaque mixte (armure ET résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats de rupture (PV/PS) (dégats reçus sous la forme de la condition physique ET mentale "rupture" avec sauvegarde détermination ou robustesse, le plus haut des deux) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.

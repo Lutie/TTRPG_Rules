@@ -12,11 +12,11 @@
 ---
 
 ## Transmutation de la matière
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** A, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** A, ***École du sort :*** École de Conjuration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Transmutation ≈</span> (Muto (Changer) / Almutat (Al + mutat)) : L'effet du sort convertis jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> unités (définit par l'encombrement si on parle d'équipement) d'un type qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> vers une autre du même type (example : acier vers bronze), le niveau de qualité du minerai doit être le même ou inférieur, le résultat sera forcément du niveau de la matière initiale, si le prix des deux produits diffèrent alors il est obligatoire de compenser via la quantité (en somme le sort ne peux produire de la richesse). ***Clé :*** Au choix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Transmutation ⧗</span> (Muto (Changer) / Carmuta (Car + muta)) : Génère un enchantement qui prend la forme de membres ou d'une particularité physiologique issus d'un animal au choix, ce gain entraine l'amélioration d'une compétence qui dépends logiquement du membre (examples : nagoire de requin pour natation, peau de croco pour armure, griffe d'ours pour attaquer, etc), dans le cas où la logique pourrait entrainer l'amélioration de plusieurs compétences une seule est affectée (au choix du lanceur de sort), l'utilisation de la compétence se fait alors avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> ou avec un minimum (Groupe+Compétence) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** Au choix
 
 ---
 
@@ -30,11 +30,11 @@
 ---
 
 ## Mots d'Conditionnements
-***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** A, ***École du sort :*** École d'Altération
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** A, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). ***Clé :*** Au choix
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** Au choix
 
 ---
 
@@ -48,11 +48,11 @@
 ---
 
 ## Mots Infectieux
-***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☠, ***École du sort :*** École d'Altération
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☠, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ≈</span> (Inficio (Souiller) / Arinfic (Ar + infic)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative, nécessairement temporaire (une décharge par jour) de type maladie grave avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). ***Clé :*** ☠️ Mort: Arinficus
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ✧</span> (Inficio (Souiller) / Lynfect (Lyn + infect)) : Génère un enchantement positif qui augmente les soins reçus de (au choix au lancement du sort) <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> , s'applique un maximum de 3 / 4 / 5 fois. ***Clé :*** ☠️ Mort: Arinficus
 
 ---
 
@@ -75,17 +75,17 @@
 ---
 
 ## Aiguiser l'Acier
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Renforcement ≈</span> (Roboro (Fortifier) / Aenrobor (Aen + robor)) : Génère un enchantement positive qui augmente les dégats de l'arme (actions d'attaque) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** ⚔️ Acier: Aenroboran
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Renforcement ✧</span> (Roboro (Fortifier) / Lurobor (Lu + robor)) : Génère un enchantement positif qui protège l'objet ciblé, ce dernier réalisant ses test de solidité avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. ***Clé :*** ⚔️ Acier: Aenroboran
 
 ---
 
 ## Destin de Statufication
-***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🪨, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🪨, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Pétrification ≈</span> (Petra (Roche) / Aspetra (As + petra)) : Génère un enchantement négatif qui change la chaire de la cible en pierre à mesure que le temps passe, l'enchantement reçoit <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> marqueurs à la fin de chaque tour de la cible, la cible doit alors réaliser un test de robustesse avec une pénalité équivalante à Marqueurs/10, en cas de réussite critique le sort cesse, en cas de réussite normale il peux agir normalement, en cas d'échec il perd une ACTS, en cas d'échec critique il est totalement pétrifié/mort. Ce sort n'affecte que les cibles de rang inférieur à celui du lanceur de sort. Si cet enchantement prend fin avant la pétrification totale de la cible alors la chaire de ce dernier reprend consistance normale, sinon non. ***Clé :*** 🪨 Terre: Aspetraum
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Pétrification ⧖</span> (Petra (Roche) / Morpetra (Mor + petra)) : Génère un enchantement négatif qui emprisonne un membre de la cible, la <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> permet d'en mesurer l'intégrité, la cible peux réaliser une évaluation (diff 10) de musculation ou évasion (on considère que le jet endommage l'enchantement). ***Clé :*** 🪨 Terre: Aspetraum

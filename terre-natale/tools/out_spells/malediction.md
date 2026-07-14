@@ -39,11 +39,11 @@
 ---
 
 ## Zone de Privation Sensoriel
-***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 👁, ***École du sort :*** École de Malédiction
+***Difficulté :*** 18, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 👁, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Privation ⧖</span> (Privo (Enlever) / Munprivo (Mun + privo)) : Génère un enchantement négatif qui bloque un ou tous les sens de la cible (au choix au lancement du sort) sur une distance supérieur à <span style="color:#ff1493; font-weight:bold;">[Perception de la cible x 2]</span> moins <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, si l'effet n'affecte qu'un seul sens la cible est désavantagé à son test de sauvegarde, si l'effet affecte tous les sens la magnitude est divisée par 2. ***Clé :*** 👁️ Vision
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Privation ✸</span> (Privo (Enlever) / Kaprivo (Ka + privo)) : Produit un effet infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>/2 de perte en ressource de type <span style="color:#ff1493; font-weight:bold;">[clé]</span>, les ressources temporaires (pas l'initiative) sont perdus au rythme de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> à la place. ***Clé :*** 👁️ Vision
 
 ---
 

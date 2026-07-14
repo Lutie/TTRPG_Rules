@@ -39,7 +39,7 @@
 ---
 
 ## Remède Universel
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕🧠, ***École du sort :*** École de Restauration
+***Difficulté :*** 14+X, ***Drain :*** 14+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚕🧠, ***École du sort :*** École de Restauration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.

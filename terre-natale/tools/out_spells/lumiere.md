@@ -3,11 +3,11 @@
 > 4 sorts pour Lumière
 
 ## Lueur du Guide
-***Difficulté :*** 6, ***Drain :*** 6
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☀, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Visualisation ⧗</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** ☀️ Lumière: Carvidiion
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Visualisation ⧉</span> (Video (Voir) / Eruvidi (Eru + vidi)) : Génère un effet qui permet de voir ce que contient un espace interdimentionnel dont la distance ne dépasse pas <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ☀️ Lumière: Carvidiion
 
 ---
 

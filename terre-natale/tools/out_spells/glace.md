@@ -30,7 +30,7 @@
 ---
 
 ## Orbe de Glace
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ❄, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ❄, ***École du sort :*** École de Destruction et École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Souffle</span> : Le sort s'applique normalement mais une version diminuée du sort affecte également les cibles adjacentes (en AOE la portée de ce souffle est équivalant à la distance d'AOE).
@@ -54,7 +54,7 @@
 ---
 
 ## Souffle de Givre
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ❄, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ❄, ***École du sort :*** École de Destruction et École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Cône</span> : Touche une cible, 3 cases de largeur et 2 cases de profondeur derrières elles (AOE spéciale).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Souffle</span> : Le sort s'applique normalement mais une version diminuée du sort affecte également les cibles adjacentes (en AOE la portée de ce souffle est équivalant à la distance d'AOE).
@@ -96,7 +96,7 @@
 ---
 
 ## Blizzard
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ❄, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ❄, ***École du sort :*** École de Destruction et École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Pluie</span> : Le sort s'applique au moment où il est lancé puis aux cinq rounds d'après, même cible, la cible doit être un lieu.

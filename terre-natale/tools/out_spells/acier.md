@@ -14,7 +14,7 @@
 ---
 
 ## Lacérations Sanglantes
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Destruction
+***Difficulté :*** 14+X, ***Drain :*** 14+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -29,7 +29,7 @@
 ---
 
 ## indestructibilité
-***Difficulté :*** 12, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 12+X, ***Drain :*** 12+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Annexe</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, cet effet subit PWR-2, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -42,7 +42,7 @@
 ---
 
 ## Faille Totale
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Malédiction
+***Difficulté :*** 14+X, ***Drain :*** 14+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -66,7 +66,7 @@
 ---
 
 ## De l'acier à la poussière
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Malédiction
+***Difficulté :*** 14+X, ***Drain :*** 14+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
@@ -199,11 +199,11 @@
 ---
 
 ## Transmutation des Métaux
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔, ***École du sort :*** École d'Altération
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔, ***École du sort :*** École de Conjuration
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Transmutation ≈</span> (Muto (Changer) / Almutat (Al + mutat)) : L'effet du sort convertis jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> unités (définit par l'encombrement si on parle d'équipement) d'un type qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span> vers une autre du même type (example : acier vers bronze), le niveau de qualité du minerai doit être le même ou inférieur, le résultat sera forcément du niveau de la matière initiale, si le prix des deux produits diffèrent alors il est obligatoire de compenser via la quantité (en somme le sort ne peux produire de la richesse). ***Clé :*** ⚔️ Acier: Almutatan
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Transmutation ⧗</span> (Muto (Changer) / Carmuta (Car + muta)) : Génère un enchantement qui prend la forme de membres ou d'une particularité physiologique issus d'un animal au choix, ce gain entraine l'amélioration d'une compétence qui dépends logiquement du membre (examples : nagoire de requin pour natation, peau de croco pour armure, griffe d'ours pour attaquer, etc), dans le cas où la logique pourrait entrainer l'amélioration de plusieurs compétences une seule est affectée (au choix du lanceur de sort), l'utilisation de la compétence se fait alors avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> ou avec un minimum (Groupe+Compétence) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚔️ Acier: Almutatan
 
 ***Description :*** Transforme une quantité limitée de métal en un autre métal équivalent, sans créer de richesse.
 
@@ -225,12 +225,12 @@
 ---
 
 ## Arme du Destructeur
-***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École d'Altération
+***Difficulté :*** 10+X, ***Drain :*** 10+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École de Bénédiction et École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Renforcement ≈</span> (Roboro (Fortifier) / Aenrobor (Aen + robor)) : Génère un enchantement positive qui augmente les dégats de l'arme (actions d'attaque) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** ⚔️ Acier: Aenroboran
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Renforcement ✧</span> (Roboro (Fortifier) / Lurobor (Lu + robor)) : Génère un enchantement positif qui protège l'objet ciblé, ce dernier réalisant ses test de solidité avec un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. ***Clé :*** ⚔️ Acier: Aenroboran
 > **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Amélioration ≈</span> (Potius (Mieux) / Aenpoti (Aen + poti)) : Génère un enchantement positive qui augmente une caractéristique de l'arme (perforation, attrition, pénétration, malice) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** ⚔️ Acier: Aenpotian
 
 ***Description :*** Enchante une arme pour frapper plus fort et percer davantage, taillée pour briser les défenses.
@@ -240,12 +240,12 @@
 ---
 
 ## Arme du Protecteur
-***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École d'Altération
+***Difficulté :*** 10+X, ***Drain :*** 10+X, ***Type de sort :*** Interruption, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École d'Abjuration et École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Déviation ≈</span> (Devius (Détourné) / Ardevi (Ar + devi)) : Génère un enchantement positive qui augmente la déviation de l'arme (actions de défense) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** ⚔️ Acier: Ardevian
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Déviation ⛊</span> (Deverto (Détourner) / Brivert (Bri + vert)) : Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de la déviation physique ou mentale chez la cible lorsqu'elle est la cible d'une attaque ou tactique physique ou mentale (selon la clé), la clé de magie permet donc de générer de la déviation à l'égard de toute forme de magie. ***Clé :*** ⚔️ Acier: Ardevian
 > **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Amélioration ≈</span> (Potius (Mieux) / Aenpoti (Aen + poti)) : Génère un enchantement positive qui augmente une caractéristique de l'arme (perforation, attrition, pénétration, malice) enchantée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** ⚔️ Acier: Aenpotian
 
 ***Description :*** Enchante une arme pour mieux parer et dévier, idéale pour la garde et la protection.
@@ -255,7 +255,7 @@
 ---
 
 ## Arme du Juggernaut
-***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École d'Altération
+***Difficulté :*** 10+X, ***Drain :*** 10+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚔⚔, ***École du sort :*** École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.

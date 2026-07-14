@@ -40,6 +40,22 @@ Les conteneurs représentent l’équipement servant à en transporter d’autre
 
 Les bracelets sont une pièce d’équipement qui peuvent recevoir des orifices afin de les lier à des matérias, c’est-à-dire des améliorations (amovibles) magiques. A l’instar d’une arme ou bracelet, elles peuvent recevoir une matéria et produire des effets offensifs ou défensifs, selon la nature du bracelet. Quelle que soit la matière du bracelet (qui peut avoir un impact sur ce dernier, voir la liste des pierres et les effets de base d’un bracelet) la qualité de ce dernier permet de leur adjoindre les orifices via des améliorations. Prix de base : 36 🪙
 
-Bracelets simples (sans liaisons) : Bracelet Mono (O) : 150 🪙. Bracelet Double (O + O) : 384 🪙. Bracelet Triple (O + O + O) : 936 🪙. Bracelet Quadruple (O + O + O + O) : 2300 🪙. Bracelet Quintuple (O + O + O + O + O) : 5300 🪙. Bracelet Sextuple (O + O + O + O + O + O) : 12000 🪙.
+Bracelets simples (sans liaisons) :
 
-Bracelets complexes (avec liaisons) : Bracelet d’Acier (O-O) : 456 🪙. Bracelet d’Argent (O-O + O) : 1080 🪙. Bracelet d’Or (O-O + O + O) : 2600 🪙. Bracelet de Titane (O-O + O-O) : 2900 🪙. Bracelet de Diamant (O-O + O + O + O) : 5900 🪙. Bracelet de Platine (O-O + O-O + O) : 6500 🪙. Bracelet Adamantine (O-O + O + O + O + O) : 13200 🪙. Bracelet d’Orichalque (O-O + O-O + O-O) : 15600 🪙.
+- Bracelet Mono (O) : 150 🪙
+- Bracelet Double (O + O) : 384 🪙
+- Bracelet Triple (O + O + O) : 936 🪙
+- Bracelet Quadruple (O + O + O + O) : 2300 🪙
+- Bracelet Quintuple (O + O + O + O + O) : 5300 🪙
+- Bracelet Sextuple (O + O + O + O + O + O) : 12000 🪙
+
+Bracelets complexes (avec liaisons) :
+
+- Bracelet d’Acier (O-O) : 456 🪙
+- Bracelet d’Argent (O-O + O) : 1080 🪙
+- Bracelet d’Or (O-O + O + O) : 2600 🪙
+- Bracelet de Titane (O-O + O-O) : 2900 🪙
+- Bracelet de Diamant (O-O + O + O + O) : 5900 🪙
+- Bracelet de Platine (O-O + O-O + O) : 6500 🪙
+- Bracelet Adamantine (O-O + O + O + O + O) : 13200 🪙
+- Bracelet d’Orichalque (O-O + O-O + O-O) : 15600 🪙

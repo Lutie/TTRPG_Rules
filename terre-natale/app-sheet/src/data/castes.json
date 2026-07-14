@@ -785,7 +785,7 @@
     "amelioration": "En ACTL à la place OU le test de craft se fait avec un avantage",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus, Outils, Science"
+    "description": "Les alchimistes mêlent magie, matière et procédés expérimentaux. Ils cherchent les correspondances cachées entre substance, pouvoir et transformation."
   },
   {
     "id": "amazone",
@@ -817,7 +817,7 @@
     "amelioration": "En ACTL pour un bonus de 50% à la place OU bonus de 150%",
     "entrainements": "Arme de mêlée, Naturel",
     "notes": null,
-    "description": "Arme à distance, Arme de jet, Naturel"
+    "description": "Les amazones excellent dans le tir et le jet à courte portée, au coeur du mouvement. Leur style refuse la distance confortable et frappe dans l'élan."
   },
   {
     "id": "aphoticaire",
@@ -915,7 +915,7 @@
     "amelioration": "En ACTL à la place",
     "entrainements": "Outils, Naturel",
     "notes": null,
-    "description": "Focus, Science"
+    "description": "Les arcanistes étudient les arcanes comme un langage profond. Leur vocation est de comprendre les structures magiques avant de s'en servir."
   },
   {
     "id": "archer",
@@ -979,7 +979,7 @@
     "amelioration": "En ACTL OU le compagnon peux réaliser l'ordre sans avantage mais surtout sans avoir à consommer d'actions pour ça",
     "entrainements": "Focus, Science",
     "notes": null,
-    "description": "Science, Outils, Social"
+    "description": "Les architectes conçoivent des systèmes mécatroniques où structure, mouvement et commande se répondent. Leur science cherche l'élégance fonctionnelle autant que l'efficacité."
   },
   {
     "id": "archonte",
@@ -1043,7 +1043,7 @@
     "amelioration": "En ACTL",
     "entrainements": "Arme à distance, Focus",
     "notes": null,
-    "description": "Arme à distance, Focus"
+    "description": "Les arcmages canalisent la magie dans des armes enchantées ou équivalentes. Ils transforment le tir en acte arcanique et la trajectoire en vecteur de sort."
   },
   {
     "id": "aristocrate",
@@ -1077,7 +1077,7 @@
     "amelioration": "Désavantage à la place OU affecte les adversaires à porté de mot à la place OU DD +2",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Social"
+    "description": "Les aristocrates dominent les manoeuvres de joute par l'éducation, le rang et l'habitude des rapports de pouvoir. Leur parole porte le poids d'un monde social codifié."
   },
   {
     "id": "artificier",
@@ -1109,7 +1109,7 @@
     "amelioration": "En ACTL OU peux choisir deux atouts à la place OU bonus de 3",
     "entrainements": "Social",
     "notes": null,
-    "description": "Arme de jet, Outils, Science"
+    "description": "Les artificiers font parler explosifs, grenades et charges préparées. Leur expertise transforme la destruction en outil précis, même quand elle reste bruyante."
   },
   {
     "id": "artilleur",
@@ -1367,7 +1367,7 @@
     "amelioration": "En ACTL OU l'attaque reçoit également un bonus de jet équivalant à 3x les pénalités de la blessure la plus élevée",
     "entrainements": "Social",
     "notes": null,
-    "description": "Arme de mêlée, Armure, Naturel"
+    "description": "Les berserkers combattent depuis la blessure et la fureur. Là où d'autres ralentissent en souffrant, eux trouvent dans la douleur une permission d'aller plus loin."
   },
   {
     "id": "bourreau",
@@ -1663,7 +1663,7 @@
     "amelioration": "Pas de réduction de niveau OU en ACTS",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus"
+    "description": "Les chantesorts placent leur magie au centre d'eux-mêmes et la libèrent autour de leur corps. Ils font de leur présence le foyer d'une incantation rayonnante."
   },
   {
     "id": "chaomancien",
@@ -1695,7 +1695,7 @@
     "amelioration": "Le sort ainsi choisit voit sa puissance de sort augmentée d'autant que le DR du test de jeu",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus"
+    "description": "Les chaomanciens acceptent le hasard comme matière première de la magie. Leur pratique transforme l'accident, la chance et l'imprévisible en puissance exploitable."
   },
   {
     "id": "charlatan",
@@ -1727,7 +1727,7 @@
     "amelioration": "En ACTL OU le personnage réalise son action sur tous les adversaires de la zone à la place, de plus un marqueur \"mystification\" peux être utilisé afin d'obtenir un avantage sur un test de bluff",
     "entrainements": "Social",
     "notes": null,
-    "description": "Social"
+    "description": "Les charlatans manipulent les émotions par mensonge, provocation et mise en scène. Leur talent consiste à faire agir la cible contre son propre équilibre."
   },
   {
     "id": "chasseur",
@@ -1823,7 +1823,7 @@
     "amelioration": "En ACTL à la place OU le test de craft se fait avec un avantage",
     "entrainements": "Focus, Social",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les chimistes manipulent réactions, mélanges, solvants et substances instables. Leur science transforme la matière en effets précis, parfois utiles, parfois terriblement dangereux."
   },
   {
     "id": "cleptomancien",
@@ -1855,7 +1855,7 @@
     "amelioration": "Pas de réduction de niveau OU en ACTS",
     "entrainements": "Focus, Outils",
     "notes": null,
-    "description": "Focus, Outils"
+    "description": "Les cleptomanciens volent, détournent ou annulent la magie d'autrui. Leur art est parasitaire et défensif, fait pour retourner le sort contre son propriétaire."
   },
   {
     "id": "clerc",
@@ -1919,7 +1919,7 @@
     "amelioration": "En ACTL à la place OU regain augmenté de 2",
     "entrainements": "Science, Outils, Social",
     "notes": null,
-    "description": "Focus"
+    "description": "Les convocateurs appellent des présences, forces ou entités par une invocation maîtrisée. Ils préparent l'espace afin que quelque chose d'extérieur puisse agir ici."
   },
   {
     "id": "coryphee",
@@ -1951,7 +1951,7 @@
     "amelioration": "Là où le personnage termine sa course les alliés à proximité profite d'un pas de placement sécurisé. De plus jusqu'à son prochain round le personnage reçoit un bonus de 1 par DR à sa défense passive physique, bonus qui réduit de 1 à chaque attaque reçues.",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Naturel"
+    "description": "Les coryphées dirigent le mouvement comme un chef de choeur physique. Leur grâce n'est pas seulement belle : elle entraîne, détourne et organise l'espace."
   },
   {
     "id": "courtisan",
@@ -2018,6 +2018,38 @@
     "description": "Les croisés portent la guerre dans le domaine de la foi, de la magie ou de la technologie jugée impure. Ils attaquent ce qu'ils considèrent comme une menace spirituelle autant que tactique."
   },
   {
+    "id": "desperado",
+    "nom": "Desperado",
+    "type": "expert",
+    "attribut1": [
+      "DEX"
+    ],
+    "attribut2": [
+      "PER"
+    ],
+    "style": "Corps",
+    "domaine": "Martiale",
+    "ressources": [
+      "PV",
+      "PE"
+    ],
+    "sauvegardesMajeures": [
+      "Réflexes"
+    ],
+    "sauvegardesMineures": [
+      "Fortune",
+      "Sang-Froid"
+    ],
+    "privilege": "Concerne les tirs utilisant plus d'une munition à la fois (et profitant donc d'une cadence supérieure à 0)",
+    "trait1": "Cadence des armes +1",
+    "trait2": "Lorsque le personnage tir plusieurs munitions à la fois grâce à la cadence de son arme jusqu'à 1 munition toutes les 3 munitions sont sauvegardées (le tir produit les effets comme si la munition était tiré mais elle ne l'est pas vraiment, le maximum de munitions en plus lié à la cadence tiens compte de cette munition sauvegardé)",
+    "actionSpeciale": "ACTS & 3 PC – Desperado : La prochaine attaque du personnage, qui doit être réalisé lors du même tour, profite du bonus lié aux munitions tirées en plus sous la forme d'un bonus de maitrise",
+    "amelioration": "En ACTL",
+    "entrainements": "Arme à distance",
+    "notes": null,
+    "description": "<TODO>"
+  },
+  {
     "id": "diacre",
     "nom": "Diacre",
     "type": "expert",
@@ -2047,7 +2079,7 @@
     "amelioration": "Renforcement supérieur",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus"
+    "description": "Les diacres incarnent une magie de protection, de soin et de bénédiction militante. Ils soutiennent les corps et les âmes sans séparer la guérison du devoir."
   },
   {
     "id": "divin",
@@ -2111,7 +2143,7 @@
     "amelioration": "En ACTL à la place OU les 3 premiers D8",
     "entrainements": "Social",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les docteurs technologiques abordent le vivant par la biologie, les instruments et les protocoles. Ils cherchent à comprendre les corps comme des systèmes réparables ou améliorables."
   },
   {
     "id": "druide",
@@ -2143,7 +2175,7 @@
     "amelioration": "Renforcement supérieur",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Focus, Naturel"
+    "description": "Les druides défendent une magie de nature, de faune, de flore et de transformation. Leur pouvoir vient d'une fidélité au vivant plutôt qu'aux lois des cités."
   },
   {
     "id": "duelliste",
@@ -2207,7 +2239,7 @@
     "amelioration": "Renforcement supérieur, dans le cas d'une relance de pact le personnage profite toujours d'un renforcement un cran supérieur",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Focus, Social"
+    "description": "Les démonistes pactisent avec l'ombre et l'impie pour obtenir des forces que d'autres refusent d'approcher. Leur pouvoir est souvent aussi politique que surnaturel."
   },
   {
     "id": "eclaireur",
@@ -2271,7 +2303,7 @@
     "amelioration": "En ACTS à la place OU le test est avantagé",
     "entrainements": "Outils, Naturel",
     "notes": null,
-    "description": "Focus, Outils, Science"
+    "description": "Les elchimistes pratiquent l'équivalence, là où la transformation devient une règle presque philosophique. Ils paient, déplacent et recomposent les valeurs du réel."
   },
   {
     "id": "enqueteur",
@@ -2303,7 +2335,7 @@
     "amelioration": "En ACTL OU Ajoute 1D8",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Outils, Science"
+    "description": "Les enquêteurs rassemblent traces, témoignages et déductions jusqu'à faire émerger une vérité praticable. Leur patience transforme le désordre en piste."
   },
   {
     "id": "envouteur",
@@ -2335,7 +2367,7 @@
     "amelioration": "En ACTS à la place OU le cout en PS est de 3 à la place",
     "entrainements": "Focus, Social",
     "notes": null,
-    "description": "Focus, Social"
+    "description": "Les envoûteurs travaillent l'emprise subtile, la fascination et l'attachement magique. Ils gagnent rarement par force ouverte, mais par la place qu'ils prennent dans l'esprit d'autrui."
   },
   {
     "id": "epeiste",
@@ -2399,7 +2431,7 @@
     "amelioration": "En ACTL ou affecte tous les alliés à proximité, l'action peux être réalisée sur le champs dans ce cas",
     "entrainements": "Focus, Social",
     "notes": null,
-    "description": "Naturel"
+    "description": "Les errants vivent dans le mouvement, le voyage et l'adaptation continue. Leur compétence apparaît quand rester en place serait plus dangereux qu'avancer."
   },
   {
     "id": "escrimeur",
@@ -2463,7 +2495,7 @@
     "amelioration": "Fonctionne même si quelqu'un se focalise sur lui.",
     "entrainements": "Arme de mêlée, Armure",
     "notes": null,
-    "description": "Outils, Social"
+    "description": "Les espions emploient l'improvisation, les couvertures et les armes de circonstance. Leur danger vient de leur capacité à rester utiles même dépouillés de tout signe évident de menace."
   },
   {
     "id": "exile_damne",
@@ -2495,7 +2527,7 @@
     "amelioration": "La perte est de maximum 3 OU le bonus passe à +4",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Naturel"
+    "description": "Les exilés ou damnés survivent dans l'isolement, le désespoir et la perte d'appui. Leur force vient de ce qu'il reste lorsqu'il ne reste presque rien."
   },
   {
     "id": "exorciste",
@@ -2527,7 +2559,7 @@
     "amelioration": "En ACTL OU sur deux cibles OU DD +2",
     "entrainements": "Arme de mêlée, Armure, Social",
     "notes": null,
-    "description": "Focus, Social"
+    "description": "Les exorcistes affrontent les esprits, démons, maléfices et présences surnaturelles hostiles. Leur pratique tient autant de la résistance mentale que du rite offensif."
   },
   {
     "id": "explorateur",
@@ -2591,7 +2623,7 @@
     "amelioration": "En ACTL OU le bonus est de +3 OU le bonus s'applique jusqu'à 2 fois avant que la marque ne disparaisse",
     "entrainements": "Social",
     "notes": null,
-    "description": "Outils, Naturel"
+    "description": "Les fauconniers combattent et voyagent avec un rapace dressé comme partenaire. Leur maîtrise tient dans la coordination entre regard humain et regard du ciel."
   },
   {
     "id": "fier_a_bras",
@@ -2689,7 +2721,7 @@
     "amelioration": "En ACTL à la place, le personnage peux placer dans son deck de carte des cartes à l'effigie de certains de ses alliés, si ces derniers se retrouvent dans les 3 cartes finales alors ils sont considérés comme un joker mais la cible est forcément cet allié, les effets négatifs ciblent l'ennemi qui lui a porté le plus préjudice ou le plus près de lui à défaut",
     "entrainements": "Outils, Naturel",
     "notes": null,
-    "description": "Social"
+    "description": "Les flambeurs font du risque, du karma et du pari une manière d'exister. Ils cherchent le moment où l'incertitude devient une force plutôt qu'un danger."
   },
   {
     "id": "forgemage",
@@ -2724,7 +2756,7 @@
     "amelioration": "En ACTL",
     "entrainements": "Arme de mêlée, Focus",
     "notes": null,
-    "description": "Arme de mêlée, Focus"
+    "description": "Les forgemages conjurent ou façonnent des armes par magie. Leur combat donne au sort une forme tranchante, frappante ou tangible."
   },
   {
     "id": "franc_archer",
@@ -2948,7 +2980,7 @@
     "amelioration": "Lors d'une symbiose l'invocation profite de tous les traits de l'invocateur, de plus l'invocation peux utiliser les compétences/groupes de son invocateur à la place des siennes si supérieurs, évidemment l'invocation peux alors faire appel aux magies et prouesses de son invocateur comme si c'était les siens, etc, le bonus aux attributs passe à 4",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus, Social"
+    "description": "Les hiérophantes se consacrent aux invocations avec une relation favorite ou sacrée. Leur art exige une dépense plus lourde, mais donne aux présences appelées une place centrale."
   },
   {
     "id": "heraut",
@@ -2980,7 +3012,7 @@
     "amelioration": "Via son action le héraut \"aide\" tous ses alliés à la fois, il réalise un test d'aide de la nature souhaité et tous ses alliés dans la zone en profite (une fois) (pour un test de même nature) OU l'action d'aide se fait en ACTL OU la cible de l'aide en profite jusqu'à deux fois OU l'action de caste se fait en ACTR à la place afin de pouvoir être placée en interruption juste avant l'action alliée à soutenir",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Social"
+    "description": "Les hérauts sont des porteurs d'aide, de message et de soutien actif. Ils rendent les autres plus efficaces parce qu'ils savent annoncer, guider et renforcer au bon moment."
   },
   {
     "id": "illusioniste",
@@ -3044,7 +3076,7 @@
     "amelioration": "En ACTL OU le test est avantagé",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Outils, Naturel"
+    "description": "Les infiltrateurs maîtrisent l'entrée non permise, la surprise et l'embuscade. Ils vivent de seuils franchis sans invitation et de présences découvertes trop tard."
   },
   {
     "id": "ingenieur",
@@ -3077,7 +3109,7 @@
     "amelioration": "En ACTL à la place OU <optimisé> et <surchargé> OU la surcharge ajoute 2D8 ou 2 niveaux (selon ce qui est applicable) OU l'optimisation ajoute +1 au test (en plus de l'avantage)",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les ingénieurs appliquent la technologie pour résoudre, construire ou détourner. Ils se tiennent entre théorie et terrain, là où une idée doit vraiment fonctionner."
   },
   {
     "id": "inquisiteur",
@@ -3109,7 +3141,7 @@
     "amelioration": "Le bonus augmente de 1 OU le personnage peux octroyer le bonus à lui même et à tous ses alliés proches",
     "entrainements": "Arme de mêlée, Armure, Social",
     "notes": null,
-    "description": "Arme de mêlée, Armure, Social"
+    "description": "Les inquisiteurs traquent corruption, magie suspecte et science dangereuse avec une détermination martiale. Ils représentent l'autorité qui ne veut pas seulement comprendre, mais éliminer."
   },
   {
     "id": "intriguant",
@@ -3173,7 +3205,7 @@
     "amelioration": "En ACTL à la place OU l'action sera avantagé",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Focus"
+    "description": "Les invocateurs vivent plus directement dans le rapport aux entités appelées. Leur art repose sur le lien, l'ordre donné et le risque qu'une présence étrangère transforme la scène."
   },
   {
     "id": "javelinier",
@@ -3237,7 +3269,7 @@
     "amelioration": "En ACTL à la place OU 2D8 d'augmentation OU la propagation change sa restriction \"à proximité\" pour \"dans la même zone\"",
     "entrainements": "Social",
     "notes": null,
-    "description": "Social"
+    "description": "Les jokers manipulent les émotions qu'ils provoquent pour rendre l'adversaire prévisible. Ils font du désordre affectif un terrain de jeu social."
   },
   {
     "id": "juge",
@@ -3301,7 +3333,7 @@
     "amelioration": "En ACTL OU jusqu'à la fin du tour OU repousse de 2 cases",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Arme de mêlée, Armure, Naturel"
+    "description": "Les juggernauts sont des masses en marche, dangereux après le déplacement. Leur violence naît de l'inertie, de l'impact et de la difficulté à les arrêter."
   },
   {
     "id": "justicier",
@@ -3429,7 +3461,7 @@
     "amelioration": "En ACTL OU augmente la ponction de 1D8 et de 2 supplémentaires à proximité",
     "entrainements": "Arme de mêlée, Armure, Naturel",
     "notes": null,
-    "description": "Focus"
+    "description": "Les liches poursuivent une magie de mort, d'ombre et d'impie au-delà des limites ordinaires. Leur existence même peut devenir une doctrine de persistance."
   },
   {
     "id": "lutteurs",
@@ -3461,7 +3493,7 @@
     "amelioration": "Ajoute 1D8",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Arme de mêlée, Naturel"
+    "description": "Les lutteurs combattent au contact, par prise, pression et supériorité physique. Ils cherchent à réduire l'adversaire à un corps contrôlé."
   },
   {
     "id": "legionnaire",
@@ -3529,7 +3561,7 @@
     "amelioration": "En ACTL à la place OU <assure> et <renforce> OU l'assurance assure que les dés d'un test ne peuvent valoir moins de 3 (cela ne compte pas pour les singularités car la face du dé ne change pas) OU le renforcement offre un bonus de +1 supplémentaire",
     "entrainements": "Science",
     "notes": null,
-    "description": "Science, Outils, Armure"
+    "description": "Les machinistes utilisent la mécanique lourde, les engrenages et les dispositifs physiques comme extensions de l'action. Ils pensent en leviers, force transmise et pièces robustes."
   },
   {
     "id": "mage_de_guerre",
@@ -3564,7 +3596,7 @@
     "amelioration": "En ACTL ou l'incantation ne génère plus d'opportunité",
     "entrainements": "Arme de mêlée, Focus, Armure",
     "notes": "Il existe des variantes pour d'autres types d'armes dans des cultures différentes (Masses: Naines, Haches: Kjeldoriens, Lances: Morriens...)",
-    "description": "Arme de mêlée, Focus, Armure"
+    "description": "Les mages de guerre apprennent à incanter au milieu du choc, de la mêlée et de la menace immédiate. Leur concentration se forge là où les autres perdent leurs mots."
   },
   {
     "id": "mage_de_sang",
@@ -3597,7 +3629,7 @@
     "amelioration": "Renforcement supérieur",
     "entrainements": "Science",
     "notes": null,
-    "description": "Focus, Naturel"
+    "description": "Les mages de sang paient la magie dans la chair, la douleur ou la vitalité. Leur pratique rend chaque sort plus intime, plus coûteux et plus difficile à regarder en face."
   },
   {
     "id": "magister",
@@ -3631,7 +3663,7 @@
     "amelioration": "En ACTL OU les 3 premiers D8 à la place",
     "entrainements": "Science, Social",
     "notes": null,
-    "description": "Focus"
+    "description": "Les magisters travaillent l'incantation comme une manoeuvre raffinée. Leur pratique vise à contrôler la forme du sort avec autant de précision que son effet."
   },
   {
     "id": "maitre_d_arme",
@@ -3699,7 +3731,7 @@
     "amelioration": "En ACTL OU le compagnon gagne 1 ACTS en plus pour attaquer ou réaliser une tactique",
     "entrainements": "Social",
     "notes": null,
-    "description": "Outils, Naturel"
+    "description": "Les maîtres de la meute commandent à des loups ou compagnons similaires par lien, dressage et instinct partagé. Ils pensent en groupe, poursuite et morsure coordonnée."
   },
   {
     "id": "maitre_des_lames",
@@ -3731,7 +3763,7 @@
     "amelioration": "En ACTL à la place",
     "entrainements": "Arme de mêlée",
     "notes": "Il existe des variantes pour d'autres types d'armes dans des cultures différentes (Masses: Naines, Haches: Kjeldoriens, Lances: Morriens...)",
-    "description": "Arme de mêlée"
+    "description": "Les maîtres des lames incarnent la perfection du double mouvement à l'épée. Ils enchaînent main directrice et main secondaire jusqu'à brouiller la notion d'attaque principale."
   },
   {
     "id": "maitre_des_ours",
@@ -3763,7 +3795,7 @@
     "amelioration": "En ACTL OU le gain est de 4 OU jusqu'à la fin du tour",
     "entrainements": "Outils, Naturel",
     "notes": null,
-    "description": "Outils, Naturel"
+    "description": "Les maîtres des ours s'appuient sur une force animale massive et difficile à ignorer. Leur art consiste à guider la puissance plutôt qu'à la brider."
   },
   {
     "id": "majordome_maid",
@@ -3992,7 +4024,7 @@
     "amelioration": "En ACTL à la place",
     "entrainements": "Arme à distance, Focus",
     "notes": null,
-    "description": "Social, Science"
+    "description": "Les mentors vivent pour transmettre, guider et former. Leur talent n'est pas seulement de savoir faire, mais de rendre quelqu'un d'autre capable d'agir mieux."
   },
   {
     "id": "mercenaire",
@@ -4059,7 +4091,7 @@
     "amelioration": "Pas de division ou DD +2",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Social"
+    "description": "Les missionnaires cherchent à désamorcer les conflits, calmer les fanatismes et ouvrir une brèche de dialogue. Leur foi ou leur cause avance par persuasion pacificatrice."
   },
   {
     "id": "muse",
@@ -4091,7 +4123,7 @@
     "amelioration": "En ACTL OU la capacité peux cibler deux alliés à la place OU la cible reçoit deux inspirations à la place",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Social"
+    "description": "Les muses inspirent, relèvent le moral et donnent aux alliés une image plus haute d'eux-mêmes. Leur pouvoir est de faire agir les autres avec plus de certitude."
   },
   {
     "id": "myrmidon",
@@ -4157,7 +4189,7 @@
     "amelioration": "En ACTL OU le test est avantagé OU dure jusqu'à la fin du jour",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les mécaniciens réparent, recyclent, sabotent et démontent ce que la technologie produit. Ils connaissent les machines par leurs failles autant que par leurs plans."
   },
   {
     "id": "medecin",
@@ -4253,7 +4285,7 @@
     "amelioration": "En ACTL à la place",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les nanonistes travaillent avec l'invisible technologique, les microstructures et les transformations fines. Leur science agit à une échelle que peu de gens savent seulement imaginer."
   },
   {
     "id": "ninja",
@@ -4381,7 +4413,7 @@
     "amelioration": "Renforcement supérieur",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Focus"
+    "description": "Les nécromanciens étudient la mort, les corps et les esprits négatifs. Ils savent que la fin d'une vie n'est pas toujours la fin d'une utilité, d'une dette ou d'une présence."
   },
   {
     "id": "oracle",
@@ -4541,7 +4573,7 @@
     "amelioration": "En ACTL à la place OU jusqu'à la fin du tour",
     "entrainements": "Science, Outils",
     "notes": null,
-    "description": "Science"
+    "description": "Les pilotes ne conduisent pas seulement des véhicules : ils sentent leur inertie, leurs limites et leurs réactions. Leur compétence fait d'un engin un corps presque familier."
   },
   {
     "id": "pirate",
@@ -4637,7 +4669,7 @@
     "amelioration": "En ACTL ou peux placer jusqu'à 3 munitions ou sans désavantage",
     "entrainements": "Arme à distance, Focus, Science",
     "notes": null,
-    "description": "Arme à distance, Focus, Science"
+    "description": "Les pistomanciens lient arme à feu et munition magique dans une pratique hybride. Leur tir n'est pas seulement balistique : il transporte une intention arcanique."
   },
   {
     "id": "prophete",
@@ -4669,7 +4701,7 @@
     "amelioration": "En ACTL à la place",
     "entrainements": "Arme de mêlée, Focus",
     "notes": null,
-    "description": "Focus"
+    "description": "Les prophètes portent la divination comme une charge sociale. Ils annoncent, préviennent, interprètent et doivent vivre avec le poids de ce que les autres entendent dans leurs visions."
   },
   {
     "id": "psychiste",
@@ -4831,7 +4863,7 @@
     "amelioration": "En ACTS ou le test n'est pas désavantagé",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus"
+    "description": "Les ritualistes pratiquent une magie lente, préparée et signifiante. Ils ne cherchent pas l'instant du duel, mais la puissance accumulée par forme, lieu et temps."
   },
   {
     "id": "ronin",
@@ -4895,7 +4927,7 @@
     "amelioration": "En ACTL à la place OU maximum +3",
     "entrainements": "Outils, Social",
     "notes": null,
-    "description": "Naturel"
+    "description": "Les rossignols excellent dans les actions doublées, les gestes successifs et les enchaînements rapides. Leur talent tient à leur capacité à occuper deux temps à la fois."
   },
   {
     "id": "roublard",
@@ -5088,7 +5120,7 @@
     "amelioration": "L'ACTR requière 2 PI (initiative) de moins OU l'action peux à la place être en réaction d'une action visant la défense de la cible et augmenter la défense passive de celle ci du même montant que l'aide aurait apportée (uniquement pour l'action en question) OU l'aide peux s'ajouter à une autre",
     "entrainements": "Social",
     "notes": null,
-    "description": "Science"
+    "description": "Les scientifiques théorisent, observent et déduisent avant d'agir. Leur force vient de la méthode, de l'expérience et de la capacité à transformer l'inconnu en problème étudiable."
   },
   {
     "id": "seigneur",
@@ -5120,7 +5152,7 @@
     "amelioration": "Cet effet s'applique aux deux prochaines défenses",
     "entrainements": "Arme de mêlée, Armure, Naturel",
     "notes": null,
-    "description": "Arme de mêlée, Armure, Social"
+    "description": "Les seigneurs savent commander, recevoir du soutien et redistribuer l'effort collectif. Leur autorité fonctionne parce qu'elle organise la puissance des autres."
   },
   {
     "id": "sentinelle",
@@ -5184,7 +5216,7 @@
     "amelioration": "Renforcement supérieur",
     "entrainements": "Science, Outils, Armure",
     "notes": null,
-    "description": "Focus, Naturel"
+    "description": "Les shamanes négocient avec les équilibres du vivant, des ombres et des esprits. Leur magie est moins institutionnelle que relationnelle, ancrée dans les passages entre mondes."
   },
   {
     "id": "shugenja",
@@ -5219,7 +5251,7 @@
     "amelioration": "Le bonus est de +4 à la place, le Shugenja peux avoir jusqu'à 2 sphères par énergies/matières",
     "entrainements": "Social",
     "notes": null,
-    "description": "Focus, Naturel"
+    "description": "Les shugenja organisent leur magie autour de familles d'énergies, de matières ou de forces sacrées. Leur pratique est structurée par le choix d'une voie élémentaire ou spirituelle."
   },
   {
     "id": "sherif",
@@ -5283,7 +5315,7 @@
     "amelioration": "En ACTL OU la capacité peux cibler deux adversaire à la place OU la cible reçoit deux désinspirations à la place",
     "entrainements": "Outils, Science",
     "notes": null,
-    "description": "Social"
+    "description": "Les skalds chantent, racontent et provoquent pour briser la volonté adverse. Leur art célèbre autant qu'il humilie, et la peur devient parfois leur refrain."
   },
   {
     "id": "sniper",
@@ -5347,7 +5379,7 @@
     "amelioration": "La nouvelle tentative est avantagée OU le Chi maximum est doublé à la place",
     "entrainements": "Social",
     "notes": null,
-    "description": "Arme de mêlée, Armure"
+    "description": "Les sohei mêlent discipline religieuse et interruption martiale. Ils protègent un ordre par la réaction rapide, comme si la vigilance était une forme de prière."
   },
   {
     "id": "soldat",
@@ -5447,7 +5479,7 @@
     "amelioration": "En ACTL OU la distribution peux se faire avec des cibles dans la même zone OU la distribution peux puiser dans une réserve supplémentaire égale à la moitié de la réunion (elle ne peux être allouer au personnage lui même donc)",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Focus"
+    "description": "Les sourceleurs travaillent directement le mana, ses flux, ses manques et ses rassemblements. Leur pratique vise la ressource magique elle-même plutôt que ses effets visibles."
   },
   {
     "id": "spadassin",
@@ -5577,7 +5609,7 @@
     "amelioration": "En ACTS ou le test est avantagé",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Science, Social"
+    "description": "Les stratèges conçoivent la victoire avant l'action. Ils ordonnent les moyens, anticipent les réactions et cherchent à gagner par la disposition des forces."
   },
   {
     "id": "sylphide",
@@ -5673,7 +5705,7 @@
     "amelioration": "En ACTL OU le personnage peux \"overload\" le système et le déclanchement de l'amélioration mécanique se fera deux fois, l'une des deux ne consommant pas de charges",
     "entrainements": "Focus, Outils, Science",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les techniciens emploient la technologie comme un outil polyvalent d'action. Ils ne sont pas forcément inventeurs, mais savent tirer parti d'un dispositif au bon moment."
   },
   {
     "id": "technocrate",
@@ -5705,7 +5737,7 @@
     "amelioration": "En ACTL OU le gain est de 3 points de steam temporaire OU la moitié des dégats infligés au steam adverse est acquis sous forme de steam temporaire",
     "entrainements": "Focus, Science",
     "notes": null,
-    "description": "Science, Outils"
+    "description": "Les technocrates maîtrisent le steam comme discipline centrale. Ils pensent en pression, énergie, industrie et domination technique du monde matériel."
   },
   {
     "id": "templier",
@@ -5837,7 +5869,7 @@
     "amelioration": "En ACTL à la place OU un tier de la corruption OU antropie épuisée pour le tour uniquement mais un cinquième à la place OU peux puiser dans l'antropie d'une cible à proximité (alliée ou non)",
     "entrainements": "Focus, Outils",
     "notes": null,
-    "description": "Focus, Outils"
+    "description": "Les thaumaturges savent utiliser les outils magiques, focalisateurs, catalyseurs et matérias comme de véritables instruments de précision. Leur magie passe par l'objet autant que par le geste."
   },
   {
     "id": "tirailleur",
@@ -6029,7 +6061,7 @@
     "amelioration": "En ACTS ou le test de performance est avantagé",
     "entrainements": "Focus",
     "notes": null,
-    "description": "Social"
+    "description": "Les trouvères font de la performance un métier de route, de place publique et de mémoire vivante. Leur art circule avec eux et transforme chaque halte en scène possible."
   },
   {
     "id": "vagabond",
@@ -6093,7 +6125,7 @@
     "amelioration": "En ACTL OU le bonus est de 6 OU s'applique à soi et à tous les alliés à proximité à la place",
     "entrainements": "Arme à distance, Arme de jet, Naturel",
     "notes": null,
-    "description": "Arme de mêlée, Arme de jet, Armure, Naturel"
+    "description": "Les valkyries soutiennent l'action martiale par présence, mouvement et exaltation. Elles donnent au combat une dimension presque rituelle, où l'élan compte autant que le coup."
   },
   {
     "id": "veilleur",
@@ -6157,7 +6189,7 @@
     "amelioration": "Le maximum augmente de 3",
     "entrainements": "Naturel",
     "notes": null,
-    "description": "Naturel"
+    "description": "Les virtuoses font du mouvement un art de précision. Danse, esquive, acrobatie et évasion deviennent chez eux une seule grammaire corporelle."
   },
   {
     "id": "veteran",
@@ -6221,7 +6253,7 @@
     "amelioration": "En ACTL OU peux forcer la cible à s'en prendre à ses alliés OU DD +2",
     "entrainements": "Arme de mêlée, Arme de jet, Armure, Naturel",
     "notes": null,
-    "description": "Social"
+    "description": "Les zélotes transforment la conviction sociale en arme contre ceux qu'ils jugent hérétiques. Leur parole ne débat pas toujours : elle accuse, rallie et tranche."
   },
   {
     "id": "elementaliste",

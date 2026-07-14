@@ -17,11 +17,11 @@
 ---
 
 ## Contre Sort
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Interruption, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Contradiction ⛊</span> (Contra (Contre) / Bricontra (Bri + contra)) : Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues. ***Clé :*** ✡️ Arcane: Bricontrays
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Contradiction ⧖</span> (Contra (Contre) / Mugcontra (Mug + contra)) : Génère un enchantement négatif qui force la cible à relancer tous les dés d'un test si le total de ces derniers est supérieur à <span style="color:#ff1493; font-weight:bold;">[18 - Magnitude/4]</span> puis il conserve le moins bon des deux, cet effet peux avoir lieu jusqu'à 3 fois. ***Clé :*** ✡️ Arcane: Bricontrays
 
 ***Description :*** Interrompt et annule un sort en cours si son niveau n’est pas trop élevé.
 
@@ -39,12 +39,12 @@
 ---
 
 ## Dénis des Arcanes
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Interruption, ***Domaine du sort :*** ✡✡, ***École du sort :*** École d'Abjuration et École de Destruction
+***Difficulté :*** 16+X, ***Drain :*** 16+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡✡, ***École du sort :*** École de Malédiction et École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Annexe</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, cet effet subit PWR-2, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Contradiction ⛊</span> (Contra (Contre) / Bricontra (Bri + contra)) : Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues. ***Clé :*** ✡️ Arcane: Bricontrays
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Contradiction ⧖</span> (Contra (Contre) / Mugcontra (Mug + contra)) : Génère un enchantement négatif qui force la cible à relancer tous les dés d'un test si le total de ces derniers est supérieur à <span style="color:#ff1493; font-weight:bold;">[18 - Magnitude/4]</span> puis il conserve le moins bon des deux, cet effet peux avoir lieu jusqu'à 3 fois. ***Clé :*** ✡️ Arcane: Bricontrays
 > **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Distorsion ✸</span> (Torsio (Torsion) / Keltor (Kel + tor)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats arcanique (PM) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ✡️ Arcane: Keltorys
 
 ***Description :*** Contre un sort tout en infligeant une violente distorsion qui brûle la mana de l’adversaire.
@@ -54,11 +54,11 @@
 ---
 
 ## Chiquenaude de Force
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Destruction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Extinction ⛊</span> (Tingo (Éteindre) / Beltinto (Bel + tinto)) : Génère un effet neutralisant jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude x2]</span> charge de toutes les formes de barrières affectant la cible. ***Clé :*** ✡️ Arcane: Beltintoys
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Extinction ✸</span> (Tingo (Éteindre) / Katingo (Ka + tingo)) : Produit un effet qui met les PV et PS de la cible à 0, chaque perte est lié à un test de sauvegarde adapté (robustesse pour les PV et détermination pour les PS), les deux tests reçoivent un bonus de 5 mais aussi un malus équivalant <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, un test réussis permet de diviser la perte par deux, un test critique réussis permet d'ignorer cette partie de l'effet, un test échoué provoque donc la perte de tous les PV ou PS restants (amenant ces derniers à 0), un test qui échoue de façon critique amène les PV ou PS à leurs maximum dans le négatif, ce sort n'affecte pas les cibles dont le rang est supérieur ou égale à celui du lanceur de sort. ***Clé :*** ✡️ Arcane: Beltintoys
 
 ***Description :*** Dissipe brutalement une grande partie des barrières actives sur la cible.
 
@@ -100,33 +100,33 @@
 ---
 
 ## Barrière Physique
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Barrière, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Protection ⛊</span> (Tego (Protéger, couvrir) / Brentu (Bren + tu)) : Génère un enchantement neutre de type barrière physique pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). ***Clé :*** ✡️ Arcane: Brentuys
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Protection ✧</span> (??? / ???) : Génère un enchantement positif qui augmente tous les attributs du corps de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> mais réduit ceux de l'esprit d'autant. ***Clé :*** ✡️ Arcane: Brentuys
 
 ***Description :*** Crée une barrière physique qui absorbe les dégâts reçus.
 
 ---
 
 ## Barrière Mentale
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Barrière, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Préservation ⛊</span> (Servo (Sauver, garder) / Borserv (Bor + serv)) : Génère un enchantement neutre de type barrière mentale pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> dégats (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). ***Clé :*** ✡️ Arcane: Borservys
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Préservation ✧</span> (Servatus (Sauvé) / Luxserv (Lux + serv)) : Génère un enchantement positif qui permet à la cible d'ignorer jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> points de fatigue. ***Clé :*** ✡️ Arcane: Borservys
 
 ***Description :*** Crée une barrière mentale qui absorbe les attaques psychiques et la pression mentale.
 
 ---
 
 ## Barrière Arcanique
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Barrière, ***Domaine du sort :*** ✡, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ✡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Absorption ⛊</span> (Sorbeo (Boire, aspirer) / Belsorb (Bel + sorb)) : Génère un enchantement neutre de type barrière magique pouvant absorber jusqu'à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats (attention car les barrières s'appliquent avant la réduction de dégats et autre ressors défensif des cibles). ***Clé :*** ✡️ Arcane: Belsorbys
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Absorption ✧</span> (Sorbeo (Boire) / Lemsorb (Lem + sorb)) : Génère un enchantement positif qui réduit de moitié les dégats d'un type (selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée) avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>. ***Clé :*** ✡️ Arcane: Belsorbys
 
 ***Description :*** Crée une barrière magique qui absorbe les dégâts d’origine magique.
 

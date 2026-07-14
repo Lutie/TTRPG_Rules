@@ -3,11 +3,11 @@
 > 18 sorts pour Magie
 
 ## Conflux de Mana
-***Difficulté :*** 6, ***Drain :*** 6
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔮, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Résonance ⧗</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** 🔮 Magie: Carsonairn
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Résonance ✧</span> (Sono (Ressonnance) / Loksona (Lok + sona)) : Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les x points ainsi captés (les différentes occurences s'accumulent pour déclancher le gain lorsque le total le permet), x étant de 15 - <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> (minimum 5). ***Clé :*** 🔮 Magie: Carsonairn
 
 ***Description :*** Déclenche une résonance magique qui applique un effet magique à chaque fois que la cible est attaquée.
 
@@ -51,11 +51,11 @@
 ---
 
 ## Rituel Magique
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔮, ***École du sort :*** École d'Évocation
+***Difficulté :*** 10, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔮, ***École du sort :*** École d'Invocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Manifestation ⧉</span> (Manes (Esprits, apparences) / Enmani (En + mani)) : Génère un effet qui permet au lanceur de sort une action caractérisée par une compétence (dont la nature est associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) en réalisant le test avec, au choix : Un total de Compétence/Groupe de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> ou le total de Compétence/Groupe du lanceur de sort plus un bonus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, le tout plus le modificateur de magie du lanceur de sort (ici aucun bonus, sauf magique, ne peuvent intervenir, encore moins les bonus de qualité issus d'objets ou autre). Dans le cas d'une action avec progression le lanceur du sort peux reproduire un test avec les avantages de ce sort en dépensant 2 PS à chaque fois. L'action peux profiter de manoeuvres normalement. ***Clé :*** 🔮 Magie: Enmaniirn
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Manifestation ✪</span> (Appareo (Apparaître) / Vasapar (Vas + apar)) : Génère un enchantement qui invoque une créature de type manifestation au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** 🔮 Magie: Enmaniirn
 
 ***Description :*** Permet d’accomplir un rituel ou une action “de magie” en utilisant la puissance du sort à la place des bonus habituels.
 
@@ -97,11 +97,11 @@
 ---
 
 ## Eclair de Génie
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔮, ***École du sort :*** École d'Évocation
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🔮, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Galvanisation ⧉</span> (Vibro (Agiter, secouer) / Evvibro (Ev + vibro)) : Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> points temporaires d'une ressource qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** 🔮 Magie: Evvibroirn
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Galvanisation ✧</span> (Vibro (Agiter) / Lirvibr (Lir + vibr)) : Génère un enchantement positif qui augmente de moitié la génération de ressources temporaires tel que rage, garde et adrénaline, avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, augmente également le maximum de ces ressources de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🔮 Magie: Evvibroirn
 
 ***Description :*** Accorde un éclair d’inspiration en regagnant une réserve temporaire de mana (PM).
 

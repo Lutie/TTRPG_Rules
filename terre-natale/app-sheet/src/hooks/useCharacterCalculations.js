@@ -244,6 +244,8 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const moral = getMod('CHA') + (bonus.moral || 0);
     const perfPhys = getMod('PER') + (bonus.perfPhysique || 0);
     const perfMent = getMod('SAG') + (bonus.perfMentale || 0);
+    const attrNatPhys = getMod('FOR') + (bonus.attritionPhysique || 0);
+    const attrNatMent = getMod('CHA') + (bonus.attritionMentale || 0);
     const ctrlActif = getMod('DEX') + (bonus.controleActif || 0);
     const ctrlPassif = getMod('AGI') + (bonus.controlePassif || 0);
     const techMax = getMod('INT') + (bonus.techniqueMax || 0);
@@ -457,6 +459,8 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       moral,
       perfPhys,
       perfMent,
+      attrNatPhys,
+      attrNatMent,
       ctrlActif,
       ctrlPassif,
       techMax,

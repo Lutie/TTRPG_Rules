@@ -1544,7 +1544,7 @@
     "effet": "Chaque fois que le personnage est la cible d'une agression (attaque, tactique, ...) il gagne 1D6 (+2) PE temporaires"
   },
   {
-    "nom": "Choc",
+    "nom": "Crispation",
     "polarite": "negative",
     "categorie": "Spécial",
     "cat_key": "Spécial",
@@ -2342,6 +2342,36 @@
     "domaine_b": "⚔️ Acier",
     "sauvegarde": "Robustesse",
     "effet": "Le personnage subit, au début de chaque tours, des dégats de rupture équivalants à D8+2 (+4) directement sous forme de dégradation de l'armure."
+  },
+  {
+    "nom": "Choc",
+    "polarite": "negative",
+    "categorie": "Spécial",
+    "cat_key": "Spécial",
+    "domaine_a": "⚔️ Acier",
+    "domaine_b": "⚕️ Corps",
+    "sauvegarde": "Robustesse",
+    "effet": "La condition accumule des charges selon la nature des dégâts de choc reçus (physique, mental ou mixte). Si ces charges dépassent l'endurance actuelle du personnage, il entre en état de choc : il est choqué et subit -2 à tous ses tests actifs. (Version avancée : récupération réduite de 3)"
+  },
+  {
+    "nom": "Rupture",
+    "polarite": "negative",
+    "categorie": "Spécial",
+    "cat_key": "Spécial",
+    "domaine_a": "⚔️ Acier",
+    "domaine_b": "☠️ Mort",
+    "sauvegarde": "Robustesse",
+    "effet": "À chaque début de round, le personnage subit des dégâts directs équivalents à la moitié de la charge de la condition, sans résistance ni armure. (Version avancée : récupération réduite de 3)"
+  },
+  {
+    "nom": "Taxe",
+    "polarite": "negative",
+    "categorie": "Spécial",
+    "cat_key": "Spécial",
+    "domaine_a": "⚔️ Acier",
+    "domaine_b": "🪨 Terre",
+    "sauvegarde": "Robustesse",
+    "effet": "Lors de la prochaine récupération d'armure, celle-ci est réduite de la charge de cette condition. La condition est annulée une fois appliquée. Seule la taxe la plus élevée est conservée si plusieurs s'accumulent. (Version avancée : s'applique deux fois avant de s'annuler)"
   }
 ];
 

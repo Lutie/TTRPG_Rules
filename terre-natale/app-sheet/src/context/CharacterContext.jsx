@@ -150,7 +150,7 @@ const createEmptyCharacter = () => {
       recuperation: 0, recuperationPV: 0, recuperationPS: 0,
       recuperationPE: 0, recuperationPM: 0, recuperationPK: 0, recuperationPC: 0,
       memoire: 0, chargeMax: 0, poigne: 0, prouessesInnees: 0, moral: 0,
-      perfPhysique: 0, perfMentale: 0, controleActif: 0, controlePassif: 0, techniqueMax: 0,
+      perfPhysique: 0, perfMentale: 0, attritionPhysique: 0, attritionMentale: 0, controleActif: 0, controlePassif: 0, techniqueMax: 0,
       expertisePhysique: 0, expertiseMentale: 0, precisionPhysique: 0, precisionMentale: 0,
       maxPV: 0, maxPS: 0, maxPE: 0, maxPM: 0, maxPK: 0, maxPC: 0,
       porteeMagique: 0, tempsIncantation: 0, expertiseMagique: 0, resistanceDrain: 0,

@@ -18,7 +18,7 @@ Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff14
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🎭 Illusion: Kraturbin (vs VOL)
-Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats mentaux choquants (condition mentale de choc, en état de choc si charge > PS actuelles) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span> (état de choc = épuisé, actions -2).
+Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span> de dégats mentaux choquants (dégats reçus sous la forme de la condition mentale "choc" avec sauvegarde détermination) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>.
 
 ---
 

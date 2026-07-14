@@ -77,8 +77,10 @@ function TabStatus() {
   const resistanceArmure = armureCat;
   const resistanceTotale = resistanceArmure + (bonus.resiliencePhysique || 0);
 
-  // Protection physique = carac protection (5 + mSTA) + protection armure (cat) + bonus
-  const protectionBase = 5 + calc.getMod('STA') + (bonus.protectionPhysique || 0);
+  // Protection physique = carac protection (5 + mSTA(STA + qualité armure)) + protection armure (cat) + bonus
+  const staBase = getValeurTotale(character, 'STA');
+  const mStaEffective = calculerModificateur(staBase + armureQualite);
+  const protectionBase = 5 + mStaEffective + (bonus.protectionPhysique || 0);
   const protectionArmure = armureCat;
   const protectionTotale = protectionBase + protectionArmure;
 
@@ -101,9 +103,13 @@ function TabStatus() {
     const attrBase = getValeurTotale(character, attrId);
     const mod = calculerModificateur(attrBase + qual);
     const nbDes = 2 + cat;
-    // Perforation = m(PER + qualité arme) + bonus
+    // Perforation naturelle = m(PER + qualité arme) + bonus
     const perBase = getValeurTotale(character, 'PER');
     const perforation = calculerModificateur(perBase + qual) + (bonus.perfPhysique || 0);
+    // Attrition naturelle = m(FOR + qualité arme) + bonus — mêlée et jet uniquement
+    const isDistance = arme.forme === 'distance';
+    const forBase = getValeurTotale(character, 'FOR');
+    const attritionNat = isDistance ? null : calculerModificateur(forBase + qual) + (bonus.attritionPhysique || 0);
     // Précision = m(DEX + qualité arme) + bonus
     const dexBase = getValeurTotale(character, 'DEX');
     const precision = calculerModificateur(dexBase + qual) + (bonus.precisionPhysique || 0);
@@ -124,7 +130,7 @@ function TabStatus() {
     const modAtt = baseModJet + taille - gabarit - equilibre;
     const modDef = baseModJet - taille + gabarit - equilibre;
     const modTac = baseModJet - taille - gabarit + equilibre;
-    return { nom: arme.nom, nbDes, mod, attrId, qual, cat, perforation, precision, zoneActive, zonePassive, expertise, hate, modAtt, modDef, modTac };
+    return { nom: arme.nom, nbDes, mod, attrId, qual, cat, perforation, attritionNat, isDistance, precision, zoneActive, zonePassive, expertise, hate, modAtt, modDef, modTac };
   };
   const armeMainDir = inventaire.find(o => o.type === 'arme' && o.slot === 'mainDirectrice')
     || inventaire.find(o => o.type === 'arme' && o.slot === 'deuxMains');
@@ -146,7 +152,9 @@ function TabStatus() {
   const mVolEffective = calculerModificateur(volBase + resQual);
   const absorptionMentale = resCat * 3 + mVolEffective + (bonus.absorptionMentale || 0);
   const resistanceMentale = resCat + (bonus.resilienceMentale || 0);
-  const protectionMentale = 5 + calc.getMod('EGO') + resCat + (bonus.protectionMentale || 0);
+  const egoBase = getValeurTotale(character, 'EGO');
+  const mEgoEffective = calculerModificateur(egoBase + resQual);
+  const protectionMentale = 5 + mEgoEffective + resCat + (bonus.protectionMentale || 0);
   const penaliteResolution = -2 * resCat + 2 * (entrainements.social ?? 0) + resQual;
   const ATTRS_MENTAUX = ['CHA', 'INT', 'RUS', 'VOL', 'SAG'];
   const defensesPassivesMentales = ATTRS_MENTAUX.map(id => {
@@ -164,6 +172,7 @@ function TabStatus() {
   const argNbDes = 2 + argCat;
   const expertiseArgumentation = 10 + calculerModificateur(getValeurTotale(character, 'INT') + argQual) + (bonus.expertiseMentale || 0);
   const perforationMentale = calc.getMod('SAG') + (bonus.perfMentale || 0);
+  const attritionNatMentale = calc.getMod('CHA') + (bonus.attritionMentale || 0);
   const precisionMentale = calc.getMod('INT') + (bonus.precisionMentale || 0);
   const penaliteArgumentation = -2 * argCat + 2 * (entrainements.social ?? 0) + argQual;
 
@@ -667,12 +676,21 @@ function TabStatus() {
                     </span>
                   </div>
                   <div className="status-recap-combat-item">
-                    <span className="status-recap-combat-label">Perforation</span>
+                    <span className="status-recap-combat-label">Perf. nat.</span>
                     <span className="status-recap-combat-value">{degatsMainDir.perforation}</span>
                     <span className="status-recap-combat-detail">
                       (PER{degatsMainDir.qual !== 0 ? ` Q${degatsMainDir.qual}` : ''}{bonus.perfPhysique ? ` + bonus ${bonus.perfPhysique}` : ''})
                     </span>
                   </div>
+                  {!degatsMainDir.isDistance && (
+                    <div className="status-recap-combat-item">
+                      <span className="status-recap-combat-label">Attrition nat.</span>
+                      <span className="status-recap-combat-value">{degatsMainDir.attritionNat}</span>
+                      <span className="status-recap-combat-detail">
+                        (FOR{degatsMainDir.qual !== 0 ? ` Q${degatsMainDir.qual}` : ''}{bonus.attritionPhysique ? ` + bonus ${bonus.attritionPhysique}` : ''})
+                      </span>
+                    </div>
+                  )}
                   <div className="status-recap-combat-item">
                     <span className="status-recap-combat-label">Précision</span>
                     <span className="status-recap-combat-value">{degatsMainDir.precision}</span>
@@ -710,12 +728,21 @@ function TabStatus() {
                     </span>
                   </div>
                   <div className="status-recap-combat-item">
-                    <span className="status-recap-combat-label">Perforation</span>
+                    <span className="status-recap-combat-label">Perf. nat.</span>
                     <span className="status-recap-combat-value">{degatsMainNonDir.perforation}</span>
                     <span className="status-recap-combat-detail">
                       (PER{degatsMainNonDir.qual !== 0 ? ` Q${degatsMainNonDir.qual}` : ''}{bonus.perfPhysique ? ` + bonus ${bonus.perfPhysique}` : ''})
                     </span>
                   </div>
+                  {!degatsMainNonDir.isDistance && (
+                    <div className="status-recap-combat-item">
+                      <span className="status-recap-combat-label">Attrition nat.</span>
+                      <span className="status-recap-combat-value">{degatsMainNonDir.attritionNat}</span>
+                      <span className="status-recap-combat-detail">
+                        (FOR{degatsMainNonDir.qual !== 0 ? ` Q${degatsMainNonDir.qual}` : ''}{bonus.attritionPhysique ? ` + bonus ${bonus.attritionPhysique}` : ''})
+                      </span>
+                    </div>
+                  )}
                   <div className="status-recap-combat-item">
                     <span className="status-recap-combat-label">Précision</span>
                     <span className="status-recap-combat-value">{degatsMainNonDir.precision}</span>
@@ -848,10 +875,17 @@ function TabStatus() {
                   </span>
                 </div>
                 <div className="status-recap-combat-item">
-                  <span className="status-recap-combat-label">Perforation</span>
+                  <span className="status-recap-combat-label">Perf. nat.</span>
                   <span className="status-recap-combat-value">{perforationMentale}</span>
                   <span className="status-recap-combat-detail">
                     (mSAG{bonus.perfMentale ? ` + bonus ${bonus.perfMentale}` : ''})
+                  </span>
+                </div>
+                <div className="status-recap-combat-item">
+                  <span className="status-recap-combat-label">Attrition nat.</span>
+                  <span className="status-recap-combat-value">{attritionNatMentale}</span>
+                  <span className="status-recap-combat-detail">
+                    (mCHA{bonus.attritionMentale ? ` + bonus ${bonus.attritionMentale}` : ''})
                   </span>
                 </div>
                 <div className="status-recap-combat-item">

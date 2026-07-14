@@ -39,11 +39,11 @@
 ---
 
 ## Hâte Arcanique
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École d'Évocation
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Accélération ⧉</span> (Velox (Rapide) / Eloveloc (Elo + veloc)) : Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> points d'initiative. ***Clé :*** 💢 Vide: Elovelocarh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Accélération ✧</span> (Velox (Rapide) / Lirvelo (Lir + velo)) : Génère un enchantement positif qui octroie à la cible un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> action libre par tours, hydraté équitablement sur les 3 premiers rounds. ***Clé :*** 💢 Vide: Elovelocarh
 
 ---
 
@@ -75,11 +75,11 @@
 ---
 
 ## Vigueur Éphémère
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🪷, ***École du sort :*** École d'Évocation
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🪷, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Énergisation ⧉</span> (Energia (Force) / Eloenrgi (Elo + enrgi)) : Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> points d'endurance (PE) temporaires. ***Clé :*** 🪷 Nature: Eloenrgieiln
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Énergisation ✧</span> (??? / ???) : Génère un enchantement positif qui accorde un bonus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests d'attaque via arme non naturelle (clé guerre) ou arme naturelle (clé faune) ou joute (clé mental) de la cible. ***Clé :*** 🪷 Nature: Eloenrgieiln
 
 ---
 

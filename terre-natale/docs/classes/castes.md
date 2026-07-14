@@ -577,7 +577,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Outils, Science</em></blockquote>
+<blockquote><em>Les alchimistes mêlent magie, matière et procédés expérimentaux. Ils cherchent les correspondances cachées entre substance, pouvoir et transformation.</em></blockquote>
 
 <hr/>
 
@@ -602,7 +602,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Arme à distance, Arme de jet, Naturel</em></blockquote>
+<blockquote><em>Les amazones excellent dans le tir et le jet à courte portée, au coeur du mouvement. Leur style refuse la distance confortable et frappe dans l'élan.</em></blockquote>
 
 <hr/>
 
@@ -677,7 +677,7 @@
 <strong>Entraînements</strong> : Outils, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Science</em></blockquote>
+<blockquote><em>Les arcanistes étudient les arcanes comme un langage profond. Leur vocation est de comprendre les structures magiques avant de s'en servir.</em></blockquote>
 
 <hr/>
 
@@ -727,7 +727,7 @@
 <strong>Entraînements</strong> : Focus, Science</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils, Social</em></blockquote>
+<blockquote><em>Les architectes conçoivent des systèmes mécatroniques où structure, mouvement et commande se répondent. Leur science cherche l'élégance fonctionnelle autant que l'efficacité.</em></blockquote>
 
 <hr/>
 
@@ -777,7 +777,7 @@
 <strong>Entraînements</strong> : Arme à distance, Focus</p>
 </td></tr></table>
 
-<blockquote><em>Arme à distance, Focus</em></blockquote>
+<blockquote><em>Les arcmages canalisent la magie dans des armes enchantées ou équivalentes. Ils transforment le tir en acte arcanique et la trajectoire en vecteur de sort.</em></blockquote>
 
 <hr/>
 
@@ -802,7 +802,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les aristocrates dominent les manoeuvres de joute par l'éducation, le rang et l'habitude des rapports de pouvoir. Leur parole porte le poids d'un monde social codifié.</em></blockquote>
 
 <hr/>
 
@@ -827,7 +827,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Arme de jet, Outils, Science</em></blockquote>
+<blockquote><em>Les artificiers font parler explosifs, grenades et charges préparées. Leur expertise transforme la destruction en outil précis, même quand elle reste bruyante.</em></blockquote>
 
 <hr/>
 
@@ -1027,7 +1027,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Armure, Naturel</em></blockquote>
+<blockquote><em>Les berserkers combattent depuis la blessure et la fureur. Là où d'autres ralentissent en souffrant, eux trouvent dans la douleur une permission d'aller plus loin.</em></blockquote>
 
 <hr/>
 
@@ -1255,7 +1255,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les chantesorts placent leur magie au centre d'eux-mêmes et la libèrent autour de leur corps. Ils font de leur présence le foyer d'une incantation rayonnante.</em></blockquote>
 
 <hr/>
 
@@ -1280,7 +1280,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les chaomanciens acceptent le hasard comme matière première de la magie. Leur pratique transforme l'accident, la chance et l'imprévisible en puissance exploitable.</em></blockquote>
 
 <hr/>
 
@@ -1305,7 +1305,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les charlatans manipulent les émotions par mensonge, provocation et mise en scène. Leur talent consiste à faire agir la cible contre son propre équilibre.</em></blockquote>
 
 <hr/>
 
@@ -1380,7 +1380,7 @@
 <strong>Entraînements</strong> : Focus, Social</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les chimistes manipulent réactions, mélanges, solvants et substances instables. Leur science transforme la matière en effets précis, parfois utiles, parfois terriblement dangereux.</em></blockquote>
 
 <hr/>
 
@@ -1405,7 +1405,7 @@
 <strong>Entraînements</strong> : Focus, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Outils</em></blockquote>
+<blockquote><em>Les cleptomanciens volent, détournent ou annulent la magie d'autrui. Leur art est parasitaire et défensif, fait pour retourner le sort contre son propriétaire.</em></blockquote>
 
 <hr/>
 
@@ -1455,7 +1455,7 @@
 <strong>Entraînements</strong> : Science, Outils, Social</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les convocateurs appellent des présences, forces ou entités par une invocation maîtrisée. Ils préparent l'espace afin que quelque chose d'extérieur puisse agir ici.</em></blockquote>
 
 <hr/>
 
@@ -1480,7 +1480,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Naturel</em></blockquote>
+<blockquote><em>Les coryphées dirigent le mouvement comme un chef de choeur physique. Leur grâce n'est pas seulement belle : elle entraîne, détourne et organise l'espace.</em></blockquote>
 
 <hr/>
 
@@ -1534,6 +1534,31 @@
 
 <hr/>
 
+### Desperado
+
+<table><tr>
+<td style="width: 300px; vertical-align: top;"><img src="../images/desperado.png" alt="Desperado" style="max-width: 100%; height: auto;"></td>
+<td style='vertical-align: top;'>
+<p><strong>Attributs 1</strong> : DEX<br>
+<strong>Attributs 2</strong> : PER<br>
+<strong>Type</strong> : Corps<br>
+<strong>Domaine</strong> : Martiale<br>
+<strong>Ressource 1</strong> : PV (vitalité)<br>
+<strong>Ressource 2</strong> : PE (endurance)<br>
+<strong>Sauvegardes majeures</strong> : Réflexes<br>
+<strong>Sauvegardes mineures</strong> : Fortune & Sang-Froid<br>
+<strong>Privilège</strong> : Concerne les tirs utilisant plus d'une munition à la fois (et profitant donc d'une cadence supérieure à 0)<br>
+<strong>Trait 1</strong> : Cadence des armes +1<br>
+<strong>Trait 2</strong> : Lorsque le personnage tir plusieurs munitions à la fois grâce à la cadence de son arme jusqu'à 1 munition toutes les 3 munitions sont sauvegardées (le tir produit les effets comme si la munition était tiré mais elle ne l'est pas vraiment, le maximum de munitions en plus lié à la cadence tiens compte de cette munition sauvegardé)<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Desperado : La prochaine attaque du personnage, qui doit être réalisé lors du même tour, profite du bonus lié aux munitions tirées en plus sous la forme d'un bonus de maitrise<br>
+<strong>Amélioration</strong> : En ACTL<br>
+<strong>Entraînements</strong> : Arme à distance</p>
+</td></tr></table>
+
+<blockquote><em><TODO></em></blockquote>
+
+<hr/>
+
 ### Diacre
 
 <table><tr>
@@ -1555,7 +1580,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les diacres incarnent une magie de protection, de soin et de bénédiction militante. Ils soutiennent les corps et les âmes sans séparer la guérison du devoir.</em></blockquote>
 
 <hr/>
 
@@ -1605,7 +1630,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les docteurs technologiques abordent le vivant par la biologie, les instruments et les protocoles. Ils cherchent à comprendre les corps comme des systèmes réparables ou améliorables.</em></blockquote>
 
 <hr/>
 
@@ -1630,7 +1655,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Naturel</em></blockquote>
+<blockquote><em>Les druides défendent une magie de nature, de faune, de flore et de transformation. Leur pouvoir vient d'une fidélité au vivant plutôt qu'aux lois des cités.</em></blockquote>
 
 <hr/>
 
@@ -1680,7 +1705,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Social</em></blockquote>
+<blockquote><em>Les démonistes pactisent avec l'ombre et l'impie pour obtenir des forces que d'autres refusent d'approcher. Leur pouvoir est souvent aussi politique que surnaturel.</em></blockquote>
 
 <hr/>
 
@@ -1730,7 +1755,7 @@
 <strong>Entraînements</strong> : Outils, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Outils, Science</em></blockquote>
+<blockquote><em>Les elchimistes pratiquent l'équivalence, là où la transformation devient une règle presque philosophique. Ils paient, déplacent et recomposent les valeurs du réel.</em></blockquote>
 
 <hr/>
 
@@ -1755,7 +1780,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Outils, Science</em></blockquote>
+<blockquote><em>Les enquêteurs rassemblent traces, témoignages et déductions jusqu'à faire émerger une vérité praticable. Leur patience transforme le désordre en piste.</em></blockquote>
 
 <hr/>
 
@@ -1780,7 +1805,7 @@
 <strong>Entraînements</strong> : Focus, Social</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Social</em></blockquote>
+<blockquote><em>Les envoûteurs travaillent l'emprise subtile, la fascination et l'attachement magique. Ils gagnent rarement par force ouverte, mais par la place qu'ils prennent dans l'esprit d'autrui.</em></blockquote>
 
 <hr/>
 
@@ -1830,7 +1855,7 @@
 <strong>Entraînements</strong> : Focus, Social</p>
 </td></tr></table>
 
-<blockquote><em>Naturel</em></blockquote>
+<blockquote><em>Les errants vivent dans le mouvement, le voyage et l'adaptation continue. Leur compétence apparaît quand rester en place serait plus dangereux qu'avancer.</em></blockquote>
 
 <hr/>
 
@@ -1880,7 +1905,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Armure</p>
 </td></tr></table>
 
-<blockquote><em>Outils, Social</em></blockquote>
+<blockquote><em>Les espions emploient l'improvisation, les couvertures et les armes de circonstance. Leur danger vient de leur capacité à rester utiles même dépouillés de tout signe évident de menace.</em></blockquote>
 
 <hr/>
 
@@ -1905,7 +1930,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Naturel</em></blockquote>
+<blockquote><em>Les exilés ou damnés survivent dans l'isolement, le désespoir et la perte d'appui. Leur force vient de ce qu'il reste lorsqu'il ne reste presque rien.</em></blockquote>
 
 <hr/>
 
@@ -1930,7 +1955,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Armure, Social</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Social</em></blockquote>
+<blockquote><em>Les exorcistes affrontent les esprits, démons, maléfices et présences surnaturelles hostiles. Leur pratique tient autant de la résistance mentale que du rite offensif.</em></blockquote>
 
 <hr/>
 
@@ -1980,7 +2005,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Outils, Naturel</em></blockquote>
+<blockquote><em>Les fauconniers combattent et voyagent avec un rapace dressé comme partenaire. Leur maîtrise tient dans la coordination entre regard humain et regard du ciel.</em></blockquote>
 
 <hr/>
 
@@ -2055,7 +2080,7 @@
 <strong>Entraînements</strong> : Outils, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les flambeurs font du risque, du karma et du pari une manière d'exister. Ils cherchent le moment où l'incertitude devient une force plutôt qu'un danger.</em></blockquote>
 
 <hr/>
 
@@ -2080,7 +2105,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Focus</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Focus</em></blockquote>
+<blockquote><em>Les forgemages conjurent ou façonnent des armes par magie. Leur combat donne au sort une forme tranchante, frappante ou tangible.</em></blockquote>
 
 <hr/>
 
@@ -2255,7 +2280,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Social</em></blockquote>
+<blockquote><em>Les hiérophantes se consacrent aux invocations avec une relation favorite ou sacrée. Leur art exige une dépense plus lourde, mais donne aux présences appelées une place centrale.</em></blockquote>
 
 <hr/>
 
@@ -2280,7 +2305,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les hérauts sont des porteurs d'aide, de message et de soutien actif. Ils rendent les autres plus efficaces parce qu'ils savent annoncer, guider et renforcer au bon moment.</em></blockquote>
 
 <hr/>
 
@@ -2330,7 +2355,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Outils, Naturel</em></blockquote>
+<blockquote><em>Les infiltrateurs maîtrisent l'entrée non permise, la surprise et l'embuscade. Ils vivent de seuils franchis sans invitation et de présences découvertes trop tard.</em></blockquote>
 
 <hr/>
 
@@ -2355,7 +2380,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les ingénieurs appliquent la technologie pour résoudre, construire ou détourner. Ils se tiennent entre théorie et terrain, là où une idée doit vraiment fonctionner.</em></blockquote>
 
 <hr/>
 
@@ -2380,7 +2405,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Armure, Social</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Armure, Social</em></blockquote>
+<blockquote><em>Les inquisiteurs traquent corruption, magie suspecte et science dangereuse avec une détermination martiale. Ils représentent l'autorité qui ne veut pas seulement comprendre, mais éliminer.</em></blockquote>
 
 <hr/>
 
@@ -2430,7 +2455,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les invocateurs vivent plus directement dans le rapport aux entités appelées. Leur art repose sur le lien, l'ordre donné et le risque qu'une présence étrangère transforme la scène.</em></blockquote>
 
 <hr/>
 
@@ -2480,7 +2505,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les jokers manipulent les émotions qu'ils provoquent pour rendre l'adversaire prévisible. Ils font du désordre affectif un terrain de jeu social.</em></blockquote>
 
 <hr/>
 
@@ -2530,7 +2555,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Armure, Naturel</em></blockquote>
+<blockquote><em>Les juggernauts sont des masses en marche, dangereux après le déplacement. Leur violence naît de l'inertie, de l'impact et de la difficulté à les arrêter.</em></blockquote>
 
 <hr/>
 
@@ -2630,7 +2655,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Armure, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les liches poursuivent une magie de mort, d'ombre et d'impie au-delà des limites ordinaires. Leur existence même peut devenir une doctrine de persistance.</em></blockquote>
 
 <hr/>
 
@@ -2655,7 +2680,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Naturel</em></blockquote>
+<blockquote><em>Les lutteurs combattent au contact, par prise, pression et supériorité physique. Ils cherchent à réduire l'adversaire à un corps contrôlé.</em></blockquote>
 
 <hr/>
 
@@ -2705,7 +2730,7 @@
 <strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils, Armure</em></blockquote>
+<blockquote><em>Les machinistes utilisent la mécanique lourde, les engrenages et les dispositifs physiques comme extensions de l'action. Ils pensent en leviers, force transmise et pièces robustes.</em></blockquote>
 
 <hr/>
 
@@ -2730,7 +2755,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Focus, Armure</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Focus, Armure</em></blockquote>
+<blockquote><em>Les mages de guerre apprennent à incanter au milieu du choc, de la mêlée et de la menace immédiate. Leur concentration se forge là où les autres perdent leurs mots.</em></blockquote>
 
 !!! note ""
     Il existe des variantes pour d'autres types d'armes dans des cultures différentes (Masses: Naines, Haches: Kjeldoriens, Lances: Morriens...)
@@ -2758,7 +2783,7 @@
 <strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Naturel</em></blockquote>
+<blockquote><em>Les mages de sang paient la magie dans la chair, la douleur ou la vitalité. Leur pratique rend chaque sort plus intime, plus coûteux et plus difficile à regarder en face.</em></blockquote>
 
 <hr/>
 
@@ -2783,7 +2808,7 @@
 <strong>Entraînements</strong> : Science, Social</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les magisters travaillent l'incantation comme une manoeuvre raffinée. Leur pratique vise à contrôler la forme du sort avec autant de précision que son effet.</em></blockquote>
 
 <hr/>
 
@@ -2833,7 +2858,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Outils, Naturel</em></blockquote>
+<blockquote><em>Les maîtres de la meute commandent à des loups ou compagnons similaires par lien, dressage et instinct partagé. Ils pensent en groupe, poursuite et morsure coordonnée.</em></blockquote>
 
 <hr/>
 
@@ -2858,7 +2883,7 @@
 <strong>Entraînements</strong> : Arme de mêlée</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée</em></blockquote>
+<blockquote><em>Les maîtres des lames incarnent la perfection du double mouvement à l'épée. Ils enchaînent main directrice et main secondaire jusqu'à brouiller la notion d'attaque principale.</em></blockquote>
 
 !!! note ""
     Il existe des variantes pour d'autres types d'armes dans des cultures différentes (Masses: Naines, Haches: Kjeldoriens, Lances: Morriens...)
@@ -2886,7 +2911,7 @@
 <strong>Entraînements</strong> : Outils, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Outils, Naturel</em></blockquote>
+<blockquote><em>Les maîtres des ours s'appuient sur une force animale massive et difficile à ignorer. Leur art consiste à guider la puissance plutôt qu'à la brider.</em></blockquote>
 
 <hr/>
 
@@ -3061,7 +3086,7 @@
 <strong>Entraînements</strong> : Arme à distance, Focus</p>
 </td></tr></table>
 
-<blockquote><em>Social, Science</em></blockquote>
+<blockquote><em>Les mentors vivent pour transmettre, guider et former. Leur talent n'est pas seulement de savoir faire, mais de rendre quelqu'un d'autre capable d'agir mieux.</em></blockquote>
 
 <hr/>
 
@@ -3111,7 +3136,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les missionnaires cherchent à désamorcer les conflits, calmer les fanatismes et ouvrir une brèche de dialogue. Leur foi ou leur cause avance par persuasion pacificatrice.</em></blockquote>
 
 <hr/>
 
@@ -3136,7 +3161,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les muses inspirent, relèvent le moral et donnent aux alliés une image plus haute d'eux-mêmes. Leur pouvoir est de faire agir les autres avec plus de certitude.</em></blockquote>
 
 <hr/>
 
@@ -3186,7 +3211,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les mécaniciens réparent, recyclent, sabotent et démontent ce que la technologie produit. Ils connaissent les machines par leurs failles autant que par leurs plans.</em></blockquote>
 
 <hr/>
 
@@ -3261,7 +3286,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les nanonistes travaillent avec l'invisible technologique, les microstructures et les transformations fines. Leur science agit à une échelle que peu de gens savent seulement imaginer.</em></blockquote>
 
 <hr/>
 
@@ -3361,7 +3386,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les nécromanciens étudient la mort, les corps et les esprits négatifs. Ils savent que la fin d'une vie n'est pas toujours la fin d'une utilité, d'une dette ou d'une présence.</em></blockquote>
 
 <hr/>
 
@@ -3486,7 +3511,7 @@
 <strong>Entraînements</strong> : Science, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Science</em></blockquote>
+<blockquote><em>Les pilotes ne conduisent pas seulement des véhicules : ils sentent leur inertie, leurs limites et leurs réactions. Leur compétence fait d'un engin un corps presque familier.</em></blockquote>
 
 <hr/>
 
@@ -3561,7 +3586,7 @@
 <strong>Entraînements</strong> : Arme à distance, Focus, Science</p>
 </td></tr></table>
 
-<blockquote><em>Arme à distance, Focus, Science</em></blockquote>
+<blockquote><em>Les pistomanciens lient arme à feu et munition magique dans une pratique hybride. Leur tir n'est pas seulement balistique : il transporte une intention arcanique.</em></blockquote>
 
 <hr/>
 
@@ -3586,7 +3611,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les prophètes portent la divination comme une charge sociale. Ils annoncent, préviennent, interprètent et doivent vivre avec le poids de ce que les autres entendent dans leurs visions.</em></blockquote>
 
 <hr/>
 
@@ -3711,7 +3736,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les ritualistes pratiquent une magie lente, préparée et signifiante. Ils ne cherchent pas l'instant du duel, mais la puissance accumulée par forme, lieu et temps.</em></blockquote>
 
 <hr/>
 
@@ -3764,7 +3789,7 @@
 <strong>Entraînements</strong> : Outils, Social</p>
 </td></tr></table>
 
-<blockquote><em>Naturel</em></blockquote>
+<blockquote><em>Les rossignols excellent dans les actions doublées, les gestes successifs et les enchaînements rapides. Leur talent tient à leur capacité à occuper deux temps à la fois.</em></blockquote>
 
 <hr/>
 
@@ -3917,7 +3942,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Science</em></blockquote>
+<blockquote><em>Les scientifiques théorisent, observent et déduisent avant d'agir. Leur force vient de la méthode, de l'expérience et de la capacité à transformer l'inconnu en problème étudiable.</em></blockquote>
 
 <hr/>
 
@@ -3942,7 +3967,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Armure, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Armure, Social</em></blockquote>
+<blockquote><em>Les seigneurs savent commander, recevoir du soutien et redistribuer l'effort collectif. Leur autorité fonctionne parce qu'elle organise la puissance des autres.</em></blockquote>
 
 <hr/>
 
@@ -3992,7 +4017,7 @@
 <strong>Entraînements</strong> : Science, Outils, Armure</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Naturel</em></blockquote>
+<blockquote><em>Les shamanes négocient avec les équilibres du vivant, des ombres et des esprits. Leur magie est moins institutionnelle que relationnelle, ancrée dans les passages entre mondes.</em></blockquote>
 
 <hr/>
 
@@ -4017,7 +4042,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Naturel</em></blockquote>
+<blockquote><em>Les shugenja organisent leur magie autour de familles d'énergies, de matières ou de forces sacrées. Leur pratique est structurée par le choix d'une voie élémentaire ou spirituelle.</em></blockquote>
 
 <hr/>
 
@@ -4067,7 +4092,7 @@
 <strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les skalds chantent, racontent et provoquent pour briser la volonté adverse. Leur art célèbre autant qu'il humilie, et la peur devient parfois leur refrain.</em></blockquote>
 
 <hr/>
 
@@ -4117,7 +4142,7 @@
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Armure</em></blockquote>
+<blockquote><em>Les sohei mêlent discipline religieuse et interruption martiale. Ils protègent un ordre par la réaction rapide, comme si la vigilance était une forme de prière.</em></blockquote>
 
 <hr/>
 
@@ -4192,7 +4217,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Focus</em></blockquote>
+<blockquote><em>Les sourceleurs travaillent directement le mana, ses flux, ses manques et ses rassemblements. Leur pratique vise la ressource magique elle-même plutôt que ses effets visibles.</em></blockquote>
 
 <hr/>
 
@@ -4292,7 +4317,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Science, Social</em></blockquote>
+<blockquote><em>Les stratèges conçoivent la victoire avant l'action. Ils ordonnent les moyens, anticipent les réactions et cherchent à gagner par la disposition des forces.</em></blockquote>
 
 <hr/>
 
@@ -4367,7 +4392,7 @@
 <strong>Entraînements</strong> : Focus, Outils, Science</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les techniciens emploient la technologie comme un outil polyvalent d'action. Ils ne sont pas forcément inventeurs, mais savent tirer parti d'un dispositif au bon moment.</em></blockquote>
 
 <hr/>
 
@@ -4392,7 +4417,7 @@
 <strong>Entraînements</strong> : Focus, Science</p>
 </td></tr></table>
 
-<blockquote><em>Science, Outils</em></blockquote>
+<blockquote><em>Les technocrates maîtrisent le steam comme discipline centrale. Ils pensent en pression, énergie, industrie et domination technique du monde matériel.</em></blockquote>
 
 <hr/>
 
@@ -4492,7 +4517,7 @@
 <strong>Entraînements</strong> : Focus, Outils</p>
 </td></tr></table>
 
-<blockquote><em>Focus, Outils</em></blockquote>
+<blockquote><em>Les thaumaturges savent utiliser les outils magiques, focalisateurs, catalyseurs et matérias comme de véritables instruments de précision. Leur magie passe par l'objet autant que par le geste.</em></blockquote>
 
 <hr/>
 
@@ -4642,7 +4667,7 @@
 <strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les trouvères font de la performance un métier de route, de place publique et de mémoire vivante. Leur art circule avec eux et transforme chaque halte en scène possible.</em></blockquote>
 
 <hr/>
 
@@ -4692,7 +4717,7 @@
 <strong>Entraînements</strong> : Arme à distance, Arme de jet, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Arme de mêlée, Arme de jet, Armure, Naturel</em></blockquote>
+<blockquote><em>Les valkyries soutiennent l'action martiale par présence, mouvement et exaltation. Elles donnent au combat une dimension presque rituelle, où l'élan compte autant que le coup.</em></blockquote>
 
 <hr/>
 
@@ -4742,7 +4767,7 @@
 <strong>Entraînements</strong> : Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Naturel</em></blockquote>
+<blockquote><em>Les virtuoses font du mouvement un art de précision. Danse, esquive, acrobatie et évasion deviennent chez eux une seule grammaire corporelle.</em></blockquote>
 
 <hr/>
 
@@ -4792,7 +4817,7 @@
 <strong>Entraînements</strong> : Arme de mêlée, Arme de jet, Armure, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Social</em></blockquote>
+<blockquote><em>Les zélotes transforment la conviction sociale en arme contre ceux qu'ils jugent hérétiques. Leur parole ne débat pas toujours : elle accuse, rallie et tranche.</em></blockquote>
 
 <hr/>
 

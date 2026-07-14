@@ -5,46 +5,46 @@
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
 | Sans arme | 20 🪙 | Catégorie 0, arme légère Jet = 2D8, sans pénalité d’usage, Charge 0 Example : Bandages de pugiliste (selon style corps à corps) | 0 📦 |
-| Arme de mêlée commune | 40 🪙 | Catégorie 1, arme légère Jet = 3D8+1, pénalité d’usage 2, Charge 5, allonge 1 Example : Cestus (selon style corps à corps), Dague (DEX vs DEX), Poignard (AGI vs AGI), Hachoir (FOR vs DEX), Lance de chasse (AGI vs AGI), Matraque (FOR vs FOR), Serpe (DEX vs AGI) | 1 📦 |
-| Arme de mêlée escarmouche | 60 🪙 | Catégorie 2, arme intermédiaire Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge 2 Example : Epée courte (DEX vs DEX), Hachette (FOR vs DEX), Lance courte (AGI vs AGI), Casse-tête (FOR vs FOR) | 2 📦 |
-| Arme de mêlée d’assaut | 80 🪙 | Catégorie 3, arme intermédiaire Jet = 5D8+3, pénalité d’usage 6, Charge 15, allonge 3 Example : Epée longue (DEX vs DEX), Hache (FOR vs DEX), Lance (AGI vs AGI), Masse d’arme (FOR vs FOR), Epieu de Combat (FOR vs AGI), Hallebarde (AGI vs DEX) | 3 📦 |
-| Arme de mêlée de bataille | 100 🪙 | Catégorie 4, arme lourde Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge 4 Example : Epée bâtarde (DEX vs DEX), Hache de bataille (FOR vs DEX), Hast (AGI vs AGI), Marteau de bataille (FOR vs FOR), Epieu de Bataille (FOR vs AGI) | 4 📦 |
-| Arme de mêlée de guerre | 120 🪙 | Catégorie 5, arme lourde Jet = 7D8+5, pénalité d’usage 10, Charge 25, allonge 5 Example : Claymore (DEX vs DEX), Hache de guerre (FOR vs DEX), Sarisse (AGI vs AGI), Marteau de guerre (FOR vs FOR), Epieu de Guerre (FOR vs AGI), Hache-pôle (AGI vs DEX) | 5 📦 |
+| Arme de mêlée commune | 40 🪙 | Catégorie 1, arme légère Jet = 3D8, pénalité d’usage 2, Charge 5, allonge 1 Example : Cestus (selon style corps à corps), Dague (DEX vs DEX), Poignard (AGI vs AGI), Hachoir (FOR vs DEX), Lance de chasse (AGI vs AGI), Matraque (FOR vs FOR), Serpe (DEX vs AGI) | 1 📦 |
+| Arme de mêlée escarmouche | 60 🪙 | Catégorie 2, arme intermédiaire Jet = 4D8, pénalité d’usage 4, Charge 10, allonge 2 Example : Epée courte (DEX vs DEX), Hachette (FOR vs DEX), Lance courte (AGI vs AGI), Casse-tête (FOR vs FOR) | 2 📦 |
+| Arme de mêlée d’assaut | 80 🪙 | Catégorie 3, arme intermédiaire Jet = 5D8, pénalité d’usage 6, Charge 15, allonge 3 Example : Epée longue (DEX vs DEX), Hache (FOR vs DEX), Lance (AGI vs AGI), Masse d’arme (FOR vs FOR), Epieu de Combat (FOR vs AGI), Hallebarde (AGI vs DEX) | 3 📦 |
+| Arme de mêlée de bataille | 100 🪙 | Catégorie 4, arme lourde Jet = 6D8, pénalité d’usage 8, Charge 20, allonge 4 Example : Epée bâtarde (DEX vs DEX), Hache de bataille (FOR vs DEX), Hast (AGI vs AGI), Marteau de bataille (FOR vs FOR), Epieu de Bataille (FOR vs AGI) | 4 📦 |
+| Arme de mêlée de guerre | 120 🪙 | Catégorie 5, arme lourde Jet = 7D8, pénalité d’usage 10, Charge 25, allonge 5 Example : Claymore (DEX vs DEX), Hache de guerre (FOR vs DEX), Sarisse (AGI vs AGI), Marteau de guerre (FOR vs FOR), Epieu de Guerre (FOR vs AGI), Hache-pôle (AGI vs DEX) | 5 📦 |
 
-Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directement. (**) : L’allonge des armes à distance se traduit par une augmentation de la distance de tir, voir le calcule dans les règles.
+Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directement. (\*\*) : L’allonge des armes à distance se traduit par une augmentation de la distance de tir, voir le calcule dans les règles.
 
 
 ### Les Armes de tir (équipements)
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Fronde | 30 🪙 | Catégorie 1, arme légère Jet = 3D8+1, pénalité d’usage 2, Charge 5, allonge (****) 1 | 1 📦 |
-| Arc de Chasse | 30 🪙 | Catégorie 1, arme légère Jet = 3D8+1, pénalité d’usage 2, Charge 5, allonge (****) 1 | 1 📦 |
-| Fustibale | 50 🪙 | Catégorie 2, arme intermédiaire Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (****) 2 | 2 📦 |
-| Arc Court | 50 🪙 | Catégorie 2, arme intermédiaire Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (****) 2 | 2 📦 |
-| Arc Long | 70 🪙 | Catégorie 3, arme intermédiaire Jet = 5D+3, pénalité d’usage 6, Charge 15, allonge (****) 3 | 3 📦 |
-| Arc de Bataille | 90 🪙 | Catégorie 4, arme lourde Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge (****) 4 | 4 📦 |
-| Arc à Poulies | 110 🪙 | Catégorie 5, arme lourde Jet = 7D8+5, pénalité d’usage 10, Charge 25, allonge (****) 5 | 5 📦 |
-| Arbalète à poing | 30 🪙 | Catégorie 1, arme légère, mécanique (*) Jet = 3D8+1, pénalité d’usage 2, Charge 5, allonge (****) 1, pénétration 1 Enraiement 6% Munitions 1, Rechargement : ATCS | 1 📦 |
-| Arbalète légère | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (*) Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (****) 2, pénétration 2 Enrayement 7% Munitions 1, Rechargement : ATCS | 2 📦 |
-| Arbalète à poignet | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (*) Jet = 5D+3, pénalité d’usage 6, Charge 15, allonge (****) 3, pénétration 3 Enrayement 8% Munitions 1, Rechargement : ATCS | 3 📦 |
-| Arbalète lourde | 90 🪙 | Catégorie 4, arme lourde, mécanique (*) Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge (****) 4, pénétration 4 Enraiement 9% Munitions 1, Rechargement : ATCS | 4 📦 |
-| Arbalète à pompes | 110 🪙 | Catégorie 5, arme lourde, mécanique (*) Jet = 7D8+5, pénalité d’usage 10, Charge 25, allonge (****) 5, pénétration 5 Enrayement 10% Munitions 1, Rechargement : ATCS | 5 📦 |
-| Baliste légère | 150 🪙 | Catégorie 6, arme hors classe (siège léger), mécanique (*) Jet = 8D8+6, pénalité d’usage 12, Charge 30, allonge (****) 6, pénétration 6 Enrayement 11% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
-| Baliste | 200 🪙 | Catégorie 7, arme hors classe (siège), mécanique (*) Jet = 9D8+9, pénalité d’usage 14, Charge 35, allonge (****) 7, pénétration 7 Enrayement 12% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
-| Baliste lourde | 250 🪙 | Catégorie 8, arme hors classe (siège lourd), mécanique (*) Jet = 1D8+10, pénalité d’usage 16, Charge 40, allonge (****) 8, pénétration 8 Enrayement 13% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
-| Pistolet léger | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (*), arme à feu (**) Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (****) 2, pénétration 4 Enrayement 9% Munitions 8, Rechargement : ACTS + ACTR | 2 📦 |
-| Pistolet lourd | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (*), arme à feu (**) Jet = 5D+3, pénalité d’usage 6, Charge 15, allonge (****) 3, pénétration 6 Enrayement 11% Munitions 6, Rechargement : ATCS x2 | 3 📦 |
-| Revolver | 90 🪙 | Catégorie 4, arme lourde, mécanique (*), arme à feu (**) Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge (****) 4, pénétration 8 Enrayement 13% Munitions 4, Rechargement : ATCS x2 | 4 📦 |
-| Arquebuse | 50 🪙 | Catégorie 2, arme intermédiaire mécanique (*), arme à feu (**), dangereux (***) Jet = 4D8+4, pénalité d’usage 4, Charge 10, allonge (****) 2, pénétration 4 Enrayement 11% Munitions 4, Rechargement : ATCS x2 | 2 📦 |
-| Carabine | 70 🪙 | Catégorie 3, arme intermédiaire mécanique (*), arme à feu (**), dangereux (***) Jet = 5D+6, pénalité d’usage 6, Charge 15, allonge (****) 3, pénétration 6 Enrayement 14% Munitions 2, Rechargement : ATCS x3 | 3 📦 |
-| Mousquet | 90 🪙 | Catégorie 4, arme lourde mécanique (*), arme à feu (**), dangereux (***) Jet = 6D8+8, pénalité d’usage 8, Charge 20, allonge (****) 4, pénétration 8 Enrayement 17% Munitions 2, Rechargement : ATCS x3 | 4 📦 |
-| Fusil | 110 🪙 | Catégorie 5, arme lourde mécanique (*), arme à feu (**), dangereux (***) Jet = 7D8+10, pénalité d’usage 10, Charge 25, allonge (****) 5, pénétration 10 Enrayement 20% Munitions 2, Rechargement : ATCS x3 | 5 📦 |
-| Canon léger | 150 🪙 | Catégorie 6, arme hors classe (siège léger) mécanique (*), arme à feu (**), dangereux (***) Jet = 8D8+12, pénalité d’usage 12, Charge 30, allonge (****) 6, pénétration 12 Enrayement 23% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
-| Canon | 200 🪙 | Catégorie 7, arme hors classe (siège) mécanique (*), arme à feu (**), dangereux (***) Jet = 9D8+16, pénalité d’usage 14, Charge 35, allonge (****) 7, pénétration 14 Enrayement 26% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
-| Canon lourd | 200 🪙 | Catégorie 8, arme hors classe (siège) mécanique (*), arme à feu (**), dangereux (***) Jet = 10D8+18, pénalité d’usage 16, Charge 40, allonge (****) 8, pénétration 16, Enrayement 29% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Fronde | 30 🪙 | Catégorie 1, arme légère Jet = 3D8, pénalité d’usage 2, Charge 5, allonge (\*\*\*\*) 1 | 1 📦 |
+| Arc de Chasse | 30 🪙 | Catégorie 1, arme légère Jet = 3D8, pénalité d’usage 2, Charge 5, allonge (\*\*\*\*) 1 | 1 📦 |
+| Fustibale | 50 🪙 | Catégorie 2, arme intermédiaire Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2 | 2 📦 |
+| Arc Court | 50 🪙 | Catégorie 2, arme intermédiaire Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2 | 2 📦 |
+| Arc Long | 70 🪙 | Catégorie 3, arme intermédiaire Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3 | 3 📦 |
+| Arc de Bataille | 90 🪙 | Catégorie 4, arme lourde Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4 | 4 📦 |
+| Arc à Poulies | 110 🪙 | Catégorie 5, arme lourde Jet = 7D8, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5 | 5 📦 |
+| Arbalète à poing | 30 🪙 | Catégorie 1, arme légère, mécanique (\*) Jet = 3D8, pénalité d’usage 2, Charge 5, allonge (\*\*\*\*) 1, pénétration 1 Enraiement 6% Munitions 1, Rechargement : ATCS | 1 📦 |
+| Arbalète légère | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (\*) Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, pénétration 2 Enrayement 7% Munitions 1, Rechargement : ATCS | 2 📦 |
+| Arbalète à poignet | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (\*) Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, pénétration 3 Enrayement 8% Munitions 1, Rechargement : ATCS | 3 📦 |
+| Arbalète lourde | 90 🪙 | Catégorie 4, arme lourde, mécanique (\*) Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, pénétration 4 Enraiement 9% Munitions 1, Rechargement : ATCS | 4 📦 |
+| Arbalète à pompes | 110 🪙 | Catégorie 5, arme lourde, mécanique (\*) Jet = 7D8, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5, pénétration 5 Enrayement 10% Munitions 1, Rechargement : ATCS | 5 📦 |
+| Baliste légère | 150 🪙 | Catégorie 6, arme hors classe (siège léger), mécanique (\*) Jet = 8D8, pénalité d’usage 12, Charge 30, allonge (\*\*\*\*) 6, pénétration 6 Enrayement 11% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
+| Baliste | 200 🪙 | Catégorie 7, arme hors classe (siège), mécanique (\*) Jet = 9D8, pénalité d’usage 14, Charge 35, allonge (\*\*\*\*) 7, pénétration 7 Enrayement 12% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Baliste lourde | 250 🪙 | Catégorie 8, arme hors classe (siège lourd), mécanique (\*) Jet = 10D8, pénalité d’usage 16, Charge 40, allonge (\*\*\*\*) 8, pénétration 8 Enrayement 13% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Pistolet léger | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (\*), arme à feu (\*\*) Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, pénétration 4 Enrayement 9% Munitions 8, Rechargement : ACTS + ACTR | 2 📦 |
+| Pistolet lourd | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (\*), arme à feu (\*\*) Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, pénétration 6 Enrayement 11% Munitions 6, Rechargement : ATCS x2 | 3 📦 |
+| Revolver | 90 🪙 | Catégorie 4, arme lourde, mécanique (\*), arme à feu (\*\*) Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, pénétration 8 Enrayement 13% Munitions 4, Rechargement : ATCS x2 | 4 📦 |
+| Arquebuse | 50 🪙 | Catégorie 2, arme intermédiaire mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, pénétration 4 Enrayement 11% Munitions 4, Rechargement : ATCS x2 | 2 📦 |
+| Carabine | 70 🪙 | Catégorie 3, arme intermédiaire mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 5D8+3, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, pénétration 6 Enrayement 14% Munitions 2, Rechargement : ATCS x3 | 3 📦 |
+| Mousquet | 90 🪙 | Catégorie 4, arme lourde mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, pénétration 8 Enrayement 17% Munitions 2, Rechargement : ATCS x3 | 4 📦 |
+| Fusil | 110 🪙 | Catégorie 5, arme lourde mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 7D8+5, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5, pénétration 10 Enrayement 20% Munitions 2, Rechargement : ATCS x3 | 5 📦 |
+| Canon léger | 150 🪙 | Catégorie 6, arme hors classe (siège léger) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 8D8+6, pénalité d’usage 12, Charge 30, allonge (\*\*\*\*) 6, pénétration 12 Enrayement 23% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
+| Canon | 200 🪙 | Catégorie 7, arme hors classe (siège) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 9D8+7, pénalité d’usage 14, Charge 35, allonge (\*\*\*\*) 7, pénétration 14 Enrayement 26% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Canon lourd | 200 🪙 | Catégorie 8, arme hors classe (siège) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 10D8+8, pénalité d’usage 16, Charge 40, allonge (\*\*\*\*) 8, pénétration 16, Enrayement 29% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
 
-(*) : Les armes mécaniques ont une perforation égale à leur catégorie (prix +20), peut s’enrayer (**) : Les armes à feu ont une double perforation (prix +30), plus de chance de s’enrayer, recule (***) : Les armes dangereuses ont un bonus de dégâts égal à leur catégorie (prix +50), plus de chance de s’enrayer, recule accrue (****) : L’allonge des armes de tir augmente leur portée, voir les règles à ce sujet pour plus de détails L'enrayement est réduit de 1% par niveau de qualité Approvisionner (toute) : 1 Action simple ou complexe selon localisation des munitions, peux être habitué à Rechargement (mécanique) : 1 à 3 Actions simples selon type d’arme , peut être habitué à
+(\*) : Les armes mécaniques ont une perforation égale à leur catégorie (prix +20), peut s’enrayer (\*\*) : Les armes à feu ont une double perforation (prix +30), plus de chance de s’enrayer, recule (\*\*\*) : Les armes dangereuses ont un bonus de dégâts égal à leur catégorie (prix +50), plus de chance de s’enrayer, recule accrue (\*\*\*\*) : L’allonge des armes de tir augmente leur portée, voir les règles à ce sujet pour plus de détails L'enrayement est réduit de 1% par niveau de qualité Approvisionner (toute) : 1 Action simple ou complexe selon localisation des munitions, peux être habitué à Rechargement (mécanique) : 1 à 3 Actions simples selon type d’arme , peut être habitué à
 
 
 ### Les Armures (équipements)
@@ -143,20 +143,20 @@ Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directem
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
 | Catalyseur (classique) | C0 : 40 🪙. C1 : 55 🪙. C2 : 75 🪙. C3 : 100 🪙. C4 : 130 🪙. | Sans capacités spéciales. Référence en matière de catalyseur. Matière possibles : Magicite, métal ou bois. La catégorie 0 n’existe pas, le prix est indiqué comme référence. | C 📦 |
-| Tatouage | +10 🪙 | Osmose (*) : Lancer un sort peut se faire avec une rapidité augmentée de 5. Par nature ne peut pas être désarmée etc… Seul focalisateur de catégorie 0. Matière possibles : Sans. Catégorie 0 uniquement. | 0 |
-| Bâton | +25 🪙 | Puissance (*) : La puissance des sorts est augmentée de 1 par niveau du sort. Matière possibles : Magicite, métal ou bois. Catégorie 2, 3 ou 4. | C 📦 |
-| Sceptre | +20 🪙 | Maîtrise (*) : Désavantages aux défenses adverses. Matière possibles : Magicite, métal ou bois. Catégorie 2 ou 3. | C 📦 |
-| Baguette | +30 🪙 | Malice (*) : Désavantages aux sauvegardes adverses. Matière possibles : Magicite, métal ou bois. Catégorie 1 ou 2. | C 📦 |
-| Orbe | +15 🪙 | Tactique (*) : Notions de distance (non déterminés par la magnitude) doublée. Matière possibles : Magicite ou minéral. Catégorie 1, 2 ou 3. | C 📦 |
-| Totem | +10 🪙 | Lien (*) : Peut maintenir un sort sans focus. Matière possibles : Magicite ou métal ou bois. Catégorie 1, 2 ou 3. | C 📦 |
-| Kriss | +20 🪙 | Versatile (*) : Considéré comme un focalisateur ET une arme de mêlée. Le kriss peut prendre la forme de n’importe quelle arme de mêlée (épée, hache, etc). Matière possibles : Métal. Catégorie 1, 2 ou 3. | C 📦 |
-| Grimoire | +15 🪙 | Catalogue (*) : Peut contenir (pour usage) jusqu'à 2 sorts. Matière possibles : Magicite ou bois. Catégorie 1, 2 ou 3. | C 📦 |
-| Focus | +30 🪙 | Stockage (*) : Peut stocker (pour lancer en ACTS) un sort. Matière possibles : Magicite ou métal ou bois. Catégorie 1, 2 ou 3. | C 📦 |
-| Talisman | +30 🪙 | Optimisation (*) : Réduit de 2 le drain minimum des sorts. Matière possibles : Magicite ou métal ou bois. Catégorie 1 ou 2. | C 📦 |
-| Canne | +10 🪙 | Arcane (*) : Difficultés & Tests Arcanique +2. Matière possibles : Magicite ou métal ou bois. Catégorie 2, 3 ou 4. | C 📦 |
-| Abraxas | +15 🪙 | Symbiose (*) : Les soins produisent 2 points de fatigue de moins. Matière possibles : Magicite ou métal ou bois. Example : Caducée. Catégorie 1, 2 ou 3. | C 📦 |
-| Charme | +40 🪙 | Catalyseur (*) : Considéré comme un focalisateur ET un catalyseur. Matière possibles : Magicite ou métal ou bois. La différence entre un charme et un focus c’est que le sort contenu dans le charme est fixe et se recharge là où celui du focus doit être stocké manuellement à chaque fois. Catégorie 1, 2 ou 3. Peut recevoir des améliorations de catalyseur, ne font effet que pour cet usage. | C 📦 |
-| Medium | +40 🪙 | Synthétiseur (*) : Considéré comme un focalisateur ET un synthétiseur. Catégorie 1, 2 ou 3. Peut recevoir des améliorations de synthétiseur, ne font effet que pour cet usage. | C 📦 |
+| Tatouage | +10 🪙 | Osmose (\*) : Lancer un sort peut se faire avec une rapidité augmentée de 5. Par nature ne peut pas être désarmée etc… Seul focalisateur de catégorie 0. Matière possibles : Sans. Catégorie 0 uniquement. | 0 |
+| Bâton | +25 🪙 | Puissance (\*) : La puissance des sorts est augmentée de 1 par niveau du sort. Matière possibles : Magicite, métal ou bois. Catégorie 2, 3 ou 4. | C 📦 |
+| Sceptre | +20 🪙 | Maîtrise (\*) : Désavantages aux défenses adverses. Matière possibles : Magicite, métal ou bois. Catégorie 2 ou 3. | C 📦 |
+| Baguette | +30 🪙 | Malice (\*) : Désavantages aux sauvegardes adverses. Matière possibles : Magicite, métal ou bois. Catégorie 1 ou 2. | C 📦 |
+| Orbe | +15 🪙 | Tactique (\*) : Notions de distance (non déterminés par la magnitude) doublée. Matière possibles : Magicite ou minéral. Catégorie 1, 2 ou 3. | C 📦 |
+| Totem | +10 🪙 | Lien (\*) : Peut maintenir un sort sans focus. Matière possibles : Magicite ou métal ou bois. Catégorie 1, 2 ou 3. | C 📦 |
+| Kriss | +20 🪙 | Versatile (\*) : Considéré comme un focalisateur ET une arme de mêlée. Le kriss peut prendre la forme de n’importe quelle arme de mêlée (épée, hache, etc). Matière possibles : Métal. Catégorie 1, 2 ou 3. | C 📦 |
+| Grimoire | +15 🪙 | Catalogue (\*) : Peut contenir (pour usage) jusqu'à 2 sorts. Matière possibles : Magicite ou bois. Catégorie 1, 2 ou 3. | C 📦 |
+| Focus | +30 🪙 | Stockage (\*) : Peut stocker (pour lancer en ACTS) un sort. Matière possibles : Magicite ou métal ou bois. Catégorie 1, 2 ou 3. | C 📦 |
+| Talisman | +30 🪙 | Optimisation (\*) : Réduit de 2 le drain minimum des sorts. Matière possibles : Magicite ou métal ou bois. Catégorie 1 ou 2. | C 📦 |
+| Canne | +10 🪙 | Arcane (\*) : Difficultés & Tests Arcanique +2. Matière possibles : Magicite ou métal ou bois. Catégorie 2, 3 ou 4. | C 📦 |
+| Abraxas | +15 🪙 | Symbiose (\*) : Les soins produisent 2 points de fatigue de moins. Matière possibles : Magicite ou métal ou bois. Example : Caducée. Catégorie 1, 2 ou 3. | C 📦 |
+| Charme | +40 🪙 | Catalyseur (\*) : Considéré comme un focalisateur ET un catalyseur. Matière possibles : Magicite ou métal ou bois. La différence entre un charme et un focus c’est que le sort contenu dans le charme est fixe et se recharge là où celui du focus doit être stocké manuellement à chaque fois. Catégorie 1, 2 ou 3. Peut recevoir des améliorations de catalyseur, ne font effet que pour cet usage. | C 📦 |
+| Medium | +40 🪙 | Synthétiseur (\*) : Considéré comme un focalisateur ET un synthétiseur. Catégorie 1, 2 ou 3. Peut recevoir des améliorations de synthétiseur, ne font effet que pour cet usage. | C 📦 |
 | + Purification | +15 🪙 | Le sort maintenu n’impose pas de corruption supplémentaire à la cible le cas échéant. | Totem |
 | + Pages | +10 🪙 | Peut stocker 2 sorts de plus. | Grimoire |
 | + Capacité | +20 🪙 | Peut stocker 1 sort de plus. Maximum une fois. | Focus |
@@ -175,7 +175,7 @@ Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directem
 | + Focale de barrière | +20 🪙 | Le focalisateur est désormais capable de produire une action de barrière focale. Voir les règles associées à cette action. |  |
 | + Focale de force | +20 🪙 | Le focalisateur est désormais capable de produire une action de force focale. Voir les règles associées à cette action. |  |
 
-(*) : Cet effet n’affecte que les sorts dont le niveau est égal ou inférieur à la qualité du focalisateur.
+(\*) : Cet effet n’affecte que les sorts dont le niveau est égal ou inférieur à la qualité du focalisateur.
 
 
 ### Les Harmoniseurs (équipements)
@@ -388,8 +388,8 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Huile nécrophages | 5 🪙 | Fonctionne contre les morts vivants (sous catégories : squelettes, zombies, ghouls, momies, etc) | ? |
-| Huile ogroïdes | 5 🪙 | Fonctionne contre les ogroïdes (sous-catégories : titans, colosses, géants, ogres, cyclopes, etc) | ? |
+| Huile nécrophages | 5 🪙 | Fonctionne contre les morts vivants (sous catégories : squelettes, zombies, ghouls, momies, etc) | ½ 📦 |
+| Huile ogroïdes | 5 🪙 | Fonctionne contre les ogroïdes (sous-catégories : titans, colosses, géants, ogres, cyclopes, etc) | ½ 📦 |
 | Huile bestiale | 5 🪙 | Fonctionne contre le reigne animal (sous-catégories : félins, ursidé, arachnides, etc) |  |
 | Huile draconoïde | 5 🪙 | Fonctionne contre les draconoïdes (sous-catégories : drakkon, wyverne, guivre (wyrm), dragon, salamandre, hydre, basilique, drake, etc) |  |
 | Huile bénite | 5 🪙 | Fonctionne contre les maudits (sous-catégories : garous, vampires, etc) |  |
@@ -434,36 +434,36 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | Piège de Chasse | 12 🪙 | Piège lent (impossible en confrontation) Catégorie 4 | 4 📦 |
 | Piège de Traque | 14 🪙 | Piège lent (impossible en confrontation) Catégorie 5 | 5 📦 |
 | Piège de Guerre | 16 🪙 | Piège lent (impossible en confrontation) Catégorie 6 | 6 📦 |
-| + pointes | +6 🪙 | Ralentit la cible (Robustesse vs DD (*)) C’est une condition physique |  |
-| + mâchoires | +10 🪙 | Bloque la cible (Robustesse vs DD (*)) C’est une condition physique |  |
-| + silencieux | +5 🪙 | Se déclenche en silence (Perception Auditive vs DD (*)) |  |
-| + discret | +5 🪙 | Discret sans camouflage (Perception Visuelle vs DD (*)) |  |
+| + pointes | +6 🪙 | Ralentit la cible (Robustesse vs DD (\*)) C’est une condition physique |  |
+| + mâchoires | +10 🪙 | Bloque la cible (Robustesse vs DD (\*)) C’est une condition physique |  |
+| + silencieux | +5 🪙 | Se déclenche en silence (Perception Auditive vs DD (\*)) |  |
+| + discret | +5 🪙 | Discret sans camouflage (Perception Visuelle vs DD (\*)) |  |
 | + réarme | +4 🪙 | Se réarme après activation (une fois par occurrence de cette amélioration) |  |
 | + efficace | +3 🪙 | Difficulté associée au piège augmenté de 1 |  |
 | + sensible | +6 🪙 | La zone d’activation est augmentée de 1c dans chaque direction |  |
 
-(*) Difficulté des objets : 10 + 2 x Qualité
+(\*) Difficulté des objets : 10 + 2 x Qualité
 
 
 ### Les Drogues ()
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Suicidaire | 5 🪙 | FOR/DEX/AGI +2. CON/VOL -4. Addiction: physique et mentale. | ? |
-| Extasia |  | CHA/INT/RUS +2. CON/VOL -4. Addiction : physique et mentale. |  |
-| Ouragan |  | AGI +2. FOR/DEX -2. Addiction : physique. |  |
-| Colosse |  | FOR +2. DEX/AGI -2. Addiction : physique. |  |
-| Doigts de fée |  | DEX +2. FOR/AGI -2. Addiction : physique. |  |
-| Juggernaut |  | CON +2. PER -2. Addiction : physique. |  |
-| Œil de chat |  | PER +2. CON -2. Addiction : physique. |  |
-| Exubérance |  | CHA +2. INT/RUS -2. Addiction : mentale. |  |
-| Genius |  | INT +2. CHA/RUS -2. Addiction : mentale. |  |
-| Malice |  | RUS +2. INT/CHA -2. Addiction : mentale. |  |
-| Banshee |  | VOL +2. SAG -2. Addiction : mentale. |  |
-| 3e Oeil |  | SAG +2. VOL -2. Addiction : mentale. |  |
-| Lyria |  | MAG +2. CON/VOL -2. Addiction: mentale. |  |
-| Eureka |  | LOG +2. CON/VOL -2. Addiction: mentale. |  |
-| Titan |  | CON/VOL +2. Le reste -2. Addiction : physique et mentale. |  |
+| Suicidaire | 5 🪙 | FOR/DEX/AGI +2. CON/VOL -4. Addiction: physique et mentale. | ½ 📦 |
+| Extasia | 5 🪙 | CHA/INT/RUS +2. CON/VOL -4. Addiction : physique et mentale. | ½ 📦 |
+| Ouragan | 4 🪙 | AGI +2. FOR/DEX -2. Addiction : physique. | ½ 📦 |
+| Colosse | 4 🪙 | FOR +2. DEX/AGI -2. Addiction : physique. | ½ 📦 |
+| Doigts de fée | 4 🪙 | DEX +2. FOR/AGI -2. Addiction : physique. | ½ 📦 |
+| Juggernaut | 4 🪙 | CON +2. PER -2. Addiction : physique. | ½ 📦 |
+| Œil de chat | 4 🪙 | PER +2. CON -2. Addiction : physique. | ½ 📦 |
+| Exubérance | 4 🪙 | CHA +2. INT/RUS -2. Addiction : mentale. | ½ 📦 |
+| Genius | 4 🪙 | INT +2. CHA/RUS -2. Addiction : mentale. | ½ 📦 |
+| Malice | 4 🪙 | RUS +2. INT/CHA -2. Addiction : mentale. | ½ 📦 |
+| Banshee | 4 🪙 | VOL +2. SAG -2. Addiction : mentale. | ½ 📦 |
+| 3e Oeil | 4 🪙 | SAG +2. VOL -2. Addiction : mentale. | ½ 📦 |
+| Lyria | 5 🪙 | MAG +2. CON/VOL -2. Addiction: mentale. | ½ 📦 |
+| Eureka | 5 🪙 | LOG +2. CON/VOL -2. Addiction: mentale. | ½ 📦 |
+| Titan | 7 🪙 | CON/VOL +2. Le reste -2. Addiction : physique et mentale. | ½ 📦 |
 | + supérieure | X2 | Effets (positifs et négatifs) +1. Ce modificateur peut être pris jusqu’à 2 fois. |  |
 | + raffinée | X2 | Effets positifs et risque d’addiction doublés. |  |
 
@@ -472,22 +472,22 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
 | Thé noir | 5 🪙 | Variété originaire de Tetsu : AGI. Variété originaire de Rhein : RUS. | Base |
-| Thé vert |  | Variété originaire de Briska : CON. Variété originaire de Domos : VOL. | Base |
-| Thé blanc |  | Variété originaire de Kishi : DEX. Variété originaire de Centra : INT. | Base |
-| Thé rouge |  | Variété originaire de Huelda : FOR. Variété originaire de Inir : CHA. | Base |
-| Thé jaune |  | Variété originaire de Haluin : PER. Variété originaire de Orelen : SAG. | Base |
-| Thé bleu |  | Variété originaire de Rhanon : MAG. Variété originaire de Eoste : LOG. Variété originaire de Thiria : CHN. Variété originaire de Io : EQI. | Base |
-| Café delicarium |  | Octrois 2 PV temporaires. Originaire de Levantine. | Base |
-| Café terra |  | Octrois 2 PC temporaires. Originaire de Vallon. | Base |
-| Café caeruleum |  | Octrois 2 PM temporaires. Originaire de Nacre. | Base |
-| Café centrum |  | Octrois 2 PE temporaires. Originaire de Thesos. | Base |
-| Café occidentis |  | Octrois 2 PK temporaires. Originaire de Kishi. | Base |
-| Monts Rouges |  | Qualité 3. FOR/DEX/AGI. | Mélange |
-| Fleurs d’Alma |  | Qualité 3. CHA/INT/RUS. | Mélange |
-| Chat Noir |  | Qualité 3. AGI/PER/RUS. | Mélange |
-| Crépuscule |  | Qualité 5. Tous les attributs physiques. | Mélange |
-| Soleil Levant |  | Qualité 5. Tous les attributs mentaux. | Mélange |
-| Cœur d’Almicia |  | Qualité 4. CHN. | Sup |
+| Thé vert | 5 🪙 | Variété originaire de Briska : CON. Variété originaire de Domos : VOL. | Base |
+| Thé blanc | 5 🪙 | Variété originaire de Kishi : DEX. Variété originaire de Centra : INT. | Base |
+| Thé rouge | 5 🪙 | Variété originaire de Huelda : FOR. Variété originaire de Inir : CHA. | Base |
+| Thé jaune | 5 🪙 | Variété originaire de Haluin : PER. Variété originaire de Orelen : SAG. | Base |
+| Thé bleu | 5 🪙 | Variété originaire de Rhanon : MAG. Variété originaire de Eoste : LOG. Variété originaire de Thiria : CHN. Variété originaire de Io : EQI. | Base |
+| Café delicarium | 5 🪙 | Octrois 2 PV temporaires. Originaire de Levantine. | Base |
+| Café terra | 5 🪙 | Octrois 2 PC temporaires. Originaire de Vallon. | Base |
+| Café caeruleum | 5 🪙 | Octrois 2 PM temporaires. Originaire de Nacre. | Base |
+| Café centrum | 5 🪙 | Octrois 2 PE temporaires. Originaire de Thesos. | Base |
+| Café occidentis | 5 🪙 | Octrois 2 PK temporaires. Originaire de Kishi. | Base |
+| Monts Rouges | 12 🪙 | Qualité 3. FOR/DEX/AGI. | Mélange |
+| Fleurs d’Alma | 12 🪙 | Qualité 3. CHA/INT/RUS. | Mélange |
+| Chat Noir | 12 🪙 | Qualité 3. AGI/PER/RUS. | Mélange |
+| Crépuscule | 25 🪙 | Qualité 5. Tous les attributs physiques. | Mélange |
+| Soleil Levant | 25 🪙 | Qualité 5. Tous les attributs mentaux. | Mélange |
+| Cœur d’Almicia | 18 🪙 | Qualité 4. CHN. | Sup |
 
 ### Les Injections ()
 
@@ -495,50 +495,50 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Booster vital | 5 🪙 | Génère 3 PV temporaires + 3 par niveau de qualité. | ? |
-| Booster mental |  | Génère 3 PS temporaires + 3 par niveau de qualité. | ? |
-| Booster vigueur |  | Génère 3 PE temporaires + 3 par niveau de qualité. | ? |
-| Booster concentration |  | Génère 3 PC temporaires + 3 par niveau de qualité. | ? |
-| Booster adrénaline |  | Génère 3 points d’adrénaline + 3 par niveau de qualité. |  |
-| Booster vigilance |  | Génère 3 points de garde + 3 par niveau de qualité. |  |
-| Booster rage |  | Génère 3 points de rage + 3 par niveau de qualité. |  |
+| Booster vital | 5 🪙 | Génère 3 PV temporaires + 3 par niveau de qualité. | ½ 📦 |
+| Booster mental | 5 🪙 | Génère 3 PS temporaires + 3 par niveau de qualité. | ½ 📦 |
+| Booster vigueur | 5 🪙 | Génère 3 PE temporaires + 3 par niveau de qualité. | ½ 📦 |
+| Booster concentration | 5 🪙 | Génère 3 PC temporaires + 3 par niveau de qualité. | ½ 📦 |
+| Booster adrénaline | 5 🪙 | Génère 3 points d’adrénaline + 3 par niveau de qualité. | ½ 📦 |
+| Booster vigilance | 5 🪙 | Génère 3 points de garde + 3 par niveau de qualité. | ½ 📦 |
+| Booster rage | 5 🪙 | Génère 3 points de rage + 3 par niveau de qualité. | ½ 📦 |
 
 ### Les Médicaments ()
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Antibiotiques | 5 🪙 | Permet de relancer un test de sauvegarde contre les maladies en cours avec un bonus équivalent au niveau de qualité. Une fois par jour maximum. | ? |
-| Vaccins |  | Octroie un avantage aux tests de sauvegarde contre un type de maladie. Qualité minimum 2 (1 an). Qualité 3 (3 ans), Qualité 4 (10 ans), Qualité 5 (à vie). |  |
-| Remèdes |  | Réduit les charges d’une condition permanente spécifique (qui dépends donc du remède en question) de 1 par niveau de qualité. Une fois par jour maximum. |  |
-| Analgésiques |  | Réduit les charges des conditions physiques éphémères de 5 par niveau de qualité. La réduction est de 2 pour une condition temporaire. Une fois par jour maximum. |  |
-| Antidépresseurs |  | Ignore 2 points de gravité des traumatismes par niveau de qualité. Dure 24h. Une fois par jour maximum. |  |
-| Antipsychotiques |  | Réduit les charges des conditions (éphémères) mentales de 5 par niveau de qualité. La réduction est de 2 pour une condition temporaire. Une fois par jour maximum. |  |
-| Relaxants |  | Au prochain repos la récupération physique est augmentée de 1 par niveau de qualité. |  |
-| Sédatifs |  | Au prochain repos la récupération mentale est augmentée de 1 par niveau de qualité. |  |
-| Antidouleurs |  | Ignore 2 points de gravité des blessures par niveau de qualité. Dure 24h. Une fois par jour maximum. |  |
-| Anesthésiant |  | Ignore temporairement (1h) 4 points de gravité des blessures par niveau de qualité. L’utilisateur est désavantagé à ses tests pendant ce temps. Peux sauver une cible de la mort par lésion si inoculé rapidement. |  |
+| Antibiotiques | 5 🪙 | Permet de relancer un test de sauvegarde contre les maladies en cours avec un bonus équivalent au niveau de qualité. Une fois par jour maximum. | ½ 📦 |
+| Vaccins | 8 🪙 | Octroie un avantage aux tests de sauvegarde contre un type de maladie. Qualité minimum 2 (1 an). Qualité 3 (3 ans), Qualité 4 (10 ans), Qualité 5 (à vie). | ½ 📦 |
+| Remèdes | 7 🪙 | Réduit les charges d’une condition permanente spécifique (qui dépends donc du remède en question) de 1 par niveau de qualité. Une fois par jour maximum. | ½ 📦 |
+| Analgésiques | 4 🪙 | Réduit les charges des conditions physiques éphémères de 5 par niveau de qualité. La réduction est de 2 pour une condition temporaire. Une fois par jour maximum. | ½ 📦 |
+| Antidépresseurs | 5 🪙 | Ignore 2 points de gravité des traumatismes par niveau de qualité. Dure 24h. Une fois par jour maximum. | ½ 📦 |
+| Antipsychotiques | 4 🪙 | Réduit les charges des conditions (éphémères) mentales de 5 par niveau de qualité. La réduction est de 2 pour une condition temporaire. Une fois par jour maximum. | ½ 📦 |
+| Relaxants | 4 🪙 | Au prochain repos la récupération physique est augmentée de 1 par niveau de qualité. | ½ 📦 |
+| Sédatifs | 4 🪙 | Au prochain repos la récupération mentale est augmentée de 1 par niveau de qualité. | ½ 📦 |
+| Antidouleurs | 5 🪙 | Ignore 2 points de gravité des blessures par niveau de qualité. Dure 24h. Une fois par jour maximum. | ½ 📦 |
+| Anesthésiant | 8 🪙 | Ignore temporairement (1h) 4 points de gravité des blessures par niveau de qualité. L’utilisateur est désavantagé à ses tests pendant ce temps. Peux sauver une cible de la mort par lésion si inoculé rapidement. | ½ 📦 |
 
 ### Les Substance chimiques ()
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Acide | 5 🪙 | Condition négative d’Acide (DOT/rupture) (Robustesse vs DD 8 + 2 * niveau de qualité, inutile pour les objets/obstacles) | ? |
-| Fumigènes |  | Génère une zone (3x3) de visibilité réduite. Tous les occupants de la zone profitent d’une couverture de 15% + 15% par niveau de qualité. Cette couverture ne peut pas être ignorée. |  |
-| Répulsif |  | Fonctionne sur une sous-catégorie (selon le répulsif) d’un type de créature.La créature cherche à fuir la zone (3x3) imprégnée. (Volonté vs DD 8 + 2 * niveau de qualité) |  |
-| Attractif |  | Fonctionne sur une sous-catégorie (selon l’attractif) d’un type de créature.La créature cherche à se rendre dans la zone (3x3) imprégnée. (Volonté vs DD 8 + 2 * niveau de qualité) |  |
-| Glue |  | Permet de coller deux éléments ensemble. (Séparation : DD 8 + 2 * niveau de qualité) |  |
-| Paralysant |  | Prive la cible de l’usage du membre inoculé. (Robustesse ou Volonté vs DD 8 + 2 * niveau de qualité) |  |
-| Hallucinogène |  | La cible est prise de visions étranges. Elle est désavantagée à ses tests. (Volonté vs DD 8 + 2 * niveau de qualité) |  |
-| Gel Rigidifiant |  | Boost temporairement (1h) les résistances d’une armure. Absorption +2 par niveau de qualité. |  |
-| Gel de réparation |  | Répare temporairement (1h) un objet.Affecte des objets dont la qualité est inférieure ou égale. |  |
-| Gel de solidification |  | Renforce temporairement (1h) la solidité d’un objet. Solidité +2 par niveau de qualité. |  |
-| Feu d’artifice |  | C’est joli et ça peut faire plaisir. Voilà. |  |
-| Tube luminescent |  | Permet d’y voir temporairement (1h) dans le noir. Portée (1 + Niveau de qualité) ² mètres. |  |
-| Fusée de détresse |  | Permet de se signaler à un endroit. Portée 100 x (1 + Niveau de qualité) ² mètres. |  |
-| Allergène |  | Fonctionne sur une sous-catégorie (selon l’allergène) d’un type de créature.La créature subit des pénalités de 2 à ses tests et défenses. (Robustesse vs DD 8 + 2 * niveau de qualité) |  |
-| Feu statique |  | La surface temporairement (1h) imprégnée prend feu. Ne s’étends pas. (Réflexes vs DD 8 + 2 * niveau de qualité) |  |
-| Poudre de disparition |  | Rend une zone difficile à observer. Permet de se soustraire à la vue, etc. (Test de Perception Visuelle vs DD 8 + 2 * niveau de qualité) |  |
-| Poudre odorante |  | Rend une zone difficile à sentir. Permet de se soustraire à l’odorat, etc. (Test de Perception Odogout vs DD 8 + 2 * niveau de qualité) |  |
+| Acide | 5 🪙 | Condition négative d’Acide (DOT/rupture) (Robustesse vs DD 8 + 2 * niveau de qualité, inutile pour les objets/obstacles) | ½ 📦 |
+| Fumigènes | 5 🪙 | Génère une zone (3x3) de visibilité réduite. Tous les occupants de la zone profitent d’une couverture de 15% + 15% par niveau de qualité. Cette couverture ne peut pas être ignorée. | ½ 📦 |
+| Répulsif | 4 🪙 | Fonctionne sur une sous-catégorie (selon le répulsif) d’un type de créature.La créature cherche à fuir la zone (3x3) imprégnée. (Volonté vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Attractif | 4 🪙 | Fonctionne sur une sous-catégorie (selon l’attractif) d’un type de créature.La créature cherche à se rendre dans la zone (3x3) imprégnée. (Volonté vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Glue | 3 🪙 | Permet de coller deux éléments ensemble. (Séparation : DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Paralysant | 8 🪙 | Prive la cible de l’usage du membre inoculé. (Robustesse ou Volonté vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Hallucinogène | 6 🪙 | La cible est prise de visions étranges. Elle est désavantagée à ses tests. (Volonté vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Gel Rigidifiant | 5 🪙 | Boost temporairement (1h) les résistances d’une armure. Absorption +2 par niveau de qualité. | ½ 📦 |
+| Gel de réparation | 4 🪙 | Répare temporairement (1h) un objet.Affecte des objets dont la qualité est inférieure ou égale. | ½ 📦 |
+| Gel de solidification | 4 🪙 | Renforce temporairement (1h) la solidité d’un objet. Solidité +2 par niveau de qualité. | ½ 📦 |
+| Feu d’artifice | 1 🪙 | C’est joli et ça peut faire plaisir. Voilà. | ½ 📦 |
+| Tube luminescent | 3 🪙 | Permet d’y voir temporairement (1h) dans le noir. Portée (1 + Niveau de qualité) ² mètres. | ½ 📦 |
+| Fusée de détresse | 3 🪙 | Permet de se signaler à un endroit. Portée 100 x (1 + Niveau de qualité) ² mètres. | ½ 📦 |
+| Allergène | 6 🪙 | Fonctionne sur une sous-catégorie (selon l’allergène) d’un type de créature.La créature subit des pénalités de 2 à ses tests et défenses. (Robustesse vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Feu statique | 6 🪙 | La surface temporairement (1h) imprégnée prend feu. Ne s’étends pas. (Réflexes vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Poudre de disparition | 5 🪙 | Rend une zone difficile à observer. Permet de se soustraire à la vue, etc. (Test de Perception Visuelle vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
+| Poudre odorante | 4 🪙 | Rend une zone difficile à sentir. Permet de se soustraire à l’odorat, etc. (Test de Perception Odogout vs DD 8 + 2 * niveau de qualité) | ½ 📦 |
 | + longue durée | X2 | Les effets temporaires augmentent en durée et passent à 6h. Cet effet peut être repris une seconde fois (prix x4 donc) pour 24h. |  |
 | + grande zone | X2 | Les zones sont doublées. Cet effet peut être repris plusieurs fois et cela double à chaque fois. |  |
 
@@ -550,20 +550,20 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | Bombe | 6 🪙 | Explose/se déclenche là où elle est jetée. Inflige des dégâts explosifs (tests de jet vs défense à distance). Zone d’effet 3x3. |  |
 | Grenade | 12 🪙 | Explose/se déclenche un round après avoir été lancé. Inflige des dégâts explosifs (tests de jet vs défense à distance). Zone d’effet 5x5. |  |
 | Cocktail | 4 🪙 | Explose/se déclenche là où elle est jetée. Inflige des dégâts explosifs (tests de jet vs défense à distance). Les adversaires sont désavantagés à leurs tests de défenses contre un cocktail, cependant la zone d’effet n’est que d’une cible. |  |
-| + Fragmentation |  | Perforation +4 |  |
-| + Incendiaire |  | Les dégâts sont désormais basés sur l’énergie du feu. |  |
-| + Electrique |  | Les dégâts sont désormais basés sur l’énergie électrique. |  |
-| + Flash |  | Les dégâts sont désormais non létaux et peuvent provoquer la condition « aveuglé » (vs Robustesse) |  |
-| + Démolition |  | Détérioration causée aux objets doublés. |  |
-| + Fumigène |  | Ne fait pas de dégâts mais comble une pièce d’un gaz jusqu’à la fin de la scène en cours. Occuper ou passer dans un tel espace déclenche un test de sauvegarde de robustesse, en cas d’échec la cible est affectée par une condition temporaire dont la charge dépend du jet associé à la bombe, la charge est divisée par deux en cas de réussite du test. Chaque 10 points de charge de la condition inflige une pénalité de 1 aux attributs de la cible. Chaque test de robustesse réussie augmente le prochain de 2 (maximum = 2 x qualité). |  |
-| + Assourdissante |  | Les dégâts sont désormais non létaux et peuvent provoquer la condition « aveuglé » (vs Robustesse) |  |
-| + Chimique |  | Contient une des substances chimiques, propageant ses effets sur une zone. |  |
-| + EMP |  | Provoque un test de panne de tous les appareils technologiques utilisant le steam dans la zone d’effet. |  |
+| + Fragmentation | +2 🪙 | Perforation +4 |  |
+| + Incendiaire | +2 🪙 | Les dégâts sont désormais basés sur l’énergie du feu. |  |
+| + Electrique | +2 🪙 | Les dégâts sont désormais basés sur l’énergie électrique. |  |
+| + Flash | +3 🪙 | Les dégâts sont désormais non létaux et peuvent provoquer la condition « aveuglé » (vs Robustesse) |  |
+| + Démolition | +2 🪙 | Détérioration causée aux objets doublés. |  |
+| + Fumigène | +4 🪙 | Ne fait pas de dégâts mais comble une pièce d’un gaz jusqu’à la fin de la scène en cours. Occuper ou passer dans un tel espace déclenche un test de sauvegarde de robustesse, en cas d’échec la cible est affectée par une condition temporaire dont la charge dépend du jet associé à la bombe, la charge est divisée par deux en cas de réussite du test. Chaque 10 points de charge de la condition inflige une pénalité de 1 aux attributs de la cible. Chaque test de robustesse réussie augmente le prochain de 2 (maximum = 2 x qualité). |  |
+| + Assourdissante | +3 🪙 | Les dégâts sont désormais non létaux et peuvent provoquer la condition « aveuglé » (vs Robustesse) |  |
+| + Chimique | +5 🪙 | Contient une des substances chimiques, propageant ses effets sur une zone. |  |
+| + EMP | +5 🪙 | Provoque un test de panne de tous les appareils technologiques utilisant le steam dans la zone d’effet. |  |
 | + Gomme | X0.75 | Les dégâts sont désormais non létaux. |  |
-| + Cryo |  | Les dégâts sont désormais basés sur l’énergie du froid. |  |
-| + Acide |  | Les dégâts sont désormais basés sur l’énergie d’acide. |  |
-| + Assommante |  | Ne fait pas de dégâts mais provoque la condition « assommée » à la place (vs Robustesse) |  |
-| + Fatiguant |  | La cible subit 1 point de fatigue |  |
+| + Cryo | +2 🪙 | Les dégâts sont désormais basés sur l’énergie du froid. |  |
+| + Acide | +2 🪙 | Les dégâts sont désormais basés sur l’énergie d’acide. |  |
+| + Assommante | +3 🪙 | Ne fait pas de dégâts mais provoque la condition « assommée » à la place (vs Robustesse) |  |
+| + Fatiguant | +1 🪙 | La cible subit 1 point de fatigue |  |
 | + Déclencheur | X2 | Explosion manuelle |  |
 | + étendu | X2 | Double la zone d’effet |  |
 
@@ -571,35 +571,35 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Kit de crochetage | 5 🪙 | Permet de réaliser une action de crochetage automatisé. Considéré comme un outil de catégorie 1. Le test est réalisé avec un bonus de 2 par niveau de qualité. | ? |
-| Kit de réparation |  | Permet de réaliser une action de réparation d’objets antiques automatisés. |  |
-| + évolué |  | Le kit de réparation fonctionne sur un objet technologique. |  |
-| + magique |  | Le kit de réparation fonctionne sur un objet magique. |  |
-| Kit de suture |  | Permet de réaliser une action de chirurgie automatisée. |  |
-| Kit de premiers soins |  | Permet de réaliser une action de premier soins automatisé. |  |
-| Kit de désamorçage |  | Permet de réaliser une action de désamorçage automatisé. |  |
-| + complexe |  | Catégorie de l'outil augmenté de 1. Encombrement +1. Ceci peut être appliqué plusieurs fois. |  |
-| + fiable |  | L'outil peut rater une fois son test avant d’échouer. Ceci peut être appliqué plusieurs fois. |  |
+| Kit de crochetage | 5 🪙 | Permet de réaliser une action de crochetage automatisé. Considéré comme un outil de catégorie 1. Le test est réalisé avec un bonus de 2 par niveau de qualité. | 1 📦 |
+| Kit de réparation | 6 🪙 | Permet de réaliser une action de réparation d’objets antiques automatisés. | 1 📦 |
+| + évolué | +3 🪙 | Le kit de réparation fonctionne sur un objet technologique. |  |
+| + magique | +5 🪙 | Le kit de réparation fonctionne sur un objet magique. |  |
+| Kit de suture | 8 🪙 | Permet de réaliser une action de chirurgie automatisée. | 1 📦 |
+| Kit de premiers soins | 5 🪙 | Permet de réaliser une action de premier soins automatisé. | 1 📦 |
+| Kit de désamorçage | 8 🪙 | Permet de réaliser une action de désamorçage automatisé. | 1 📦 |
+| + complexe | +4 🪙 | Catégorie de l’outil augmenté de 1. Encombrement +1. Ceci peut être appliqué plusieurs fois. |  |
+| + fiable | +2 🪙 | L’outil peut rater une fois son test avant d’échouer. Ceci peut être appliqué plusieurs fois. |  |
 | + silencieux | X2 | N’est pas forcément audible (DD 8 + 2 * niveau de qualité) |  |
 
 ### Les Gadgets ()
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Lunettes | 5 🪙 | Bnleh ? | ? |
-| + Steam |  | Permet de contrôler le steam. 1 Charge par heure. Le bonus d’ajustement est ajouté aux tests comme s’il s’agit d’un outil. Peut être pris plusieurs fois, doublant ainsi la portée à chaque fois, qui est de 5+mLOG mètres au départ. |  |
-| + Longue vue |  | Réduit malus pour percevoir les détails de loin de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
-| + Thermique |  | Réduit malus pour percevoir les êtes vivants dans le noir de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
-| + Vision |  | Bonus aux tests de perception visuelle de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
-| Charge Steam |  | Recharge pour les améliorations et gadgets technologiques. |  |
-| Lampe Steam |  | Permet de voir dans le noir en réduisant les pénalités de 2 par niveau de qualité. 1 Charge par heure. |  |
-| Gantelet Steam |  | Peut contenir 1 + niveau de qualité charges steams, utilisable pour n’importe quel équipement sans délai. |  |
-| Bottes Steam |  | Customisables. |  |
-| Masque Steam |  | Préserve des gaz en octroyant un bonus de sauvegarde contre ce type de menace de 2 par niveau de qualité. 1 Charge par heure. |  |
-| Clé Steam |  | Bonus aux tests de crochetage de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
-| Capteur Steam |  | Prévient lorsqu’un mouvement se produit dans une zone. Difficultés (à berner) 8 + 2 par niveau de qualité. |  |
-| Senseur Steam |  | Prévient lorsqu’un mouvement se produit dans une zone. Difficultés (à berner) 8 + 2 par niveau de qualité. Ne s’applique qu’à un type de cible : Magie, Vivant, etc… |  |
-| Communicateur Steam |  | Permet de communiquer sur une courte distance. La portée maximale est de (5+Q*3)² mètre de rayon. |  |
+| Lunettes | 5 🪙 | Bnleh ? | ¼ 📦 |
+| + Steam | +10 🪙 | Permet de contrôler le steam. 1 Charge par heure. Le bonus d’ajustement est ajouté aux tests comme s’il s’agit d’un outil. Peut être pris plusieurs fois, doublant ainsi la portée à chaque fois, qui est de 5+mLOG mètres au départ. |  |
+| + Longue vue | +5 🪙 | Réduit malus pour percevoir les détails de loin de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
+| + Thermique | +8 🪙 | Réduit malus pour percevoir les êtes vivants dans le noir de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
+| + Vision | +6 🪙 | Bonus aux tests de perception visuelle de 2 par niveau de qualité. 1 Charge par scène/usage. |  |
+| Charge Steam | 3 🪙 | Recharge pour les améliorations et gadgets technologiques. | ¼ 📦 |
+| Lampe Steam | 8 🪙 | Permet de voir dans le noir en réduisant les pénalités de 2 par niveau de qualité. 1 Charge par heure. | ½ 📦 |
+| Gantelet Steam | 15 🪙 | Peut contenir 1 + niveau de qualité charges steams, utilisable pour n’importe quel équipement sans délai. | 1 📦 |
+| Bottes Steam | 20 🪙 | Customisables. | 2 📦 |
+| Masque Steam | 10 🪙 | Préserve des gaz en octroyant un bonus de sauvegarde contre ce type de menace de 2 par niveau de qualité. 1 Charge par heure. | ½ 📦 |
+| Clé Steam | 8 🪙 | Bonus aux tests de crochetage de 2 par niveau de qualité. 1 Charge par scène/usage. | ¼ 📦 |
+| Capteur Steam | 12 🪙 | Prévient lorsqu’un mouvement se produit dans une zone. Difficultés (à berner) 8 + 2 par niveau de qualité. | ½ 📦 |
+| Senseur Steam | 10 🪙 | Prévient lorsqu’un mouvement se produit dans une zone. Difficultés (à berner) 8 + 2 par niveau de qualité. Ne s’applique qu’à un type de cible : Magie, Vivant, etc… | ½ 📦 |
+| Communicateur Steam | 15 🪙 | Permet de communiquer sur une courte distance. La portée maximale est de (5+Q*3)² mètre de rayon. | ½ 📦 |
 | + Déployable | X2 | L’objet peut être déployé (et inversement) à volonté, c’est instantané. Non déployé, l'objet a un encombrement divisé par deux. |  |
 | + Dématérialisable | X3 | L’objet peut être miniaturisé (et inversement) à volonté, c’est instantané mais cela ne peut se produire qu’une fois par scène. Miniaturisé l’objet a un encombrement de ½. |  |
 
@@ -607,13 +607,13 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Bouclier | 5 🪙 | Caractéristiques principales = 1 + Niveau de qualité. Délai de base 4 rounds. | ? |
-| + caractéristique améliorée |  | Une caractéristique +1 |  |
-| + caractéristique extrême |  | Une caractéristique +2 Deux autres caractéristiques -1 |  |
-| + catégorie inhérente |  | Catégorie d’armure +1 tant que le bouclier n’est pas déchargé |  |
-| + défense inhérente |  | Choix d’un attribut physique. La défense passive de cet attribut +2 tant que le bouclier n’est pas déchargé. |  |
-| + isolation inhérente |  | Choix d’une énergie (feu, froid, électrique). La réduction de dégâts offerte par le bouclier est doublée contre ce type d’énergie. |  |
-| + spécialisé |  | Choix d’un type d’attaque : Mêlée, tir et énergie. Réduction de dégâts x1.5, ne fonctionne que sur le type en question. |  |
+| Bouclier | 80 🪙 | Caractéristiques principales = 1 + Niveau de qualité. Délai de base 4 rounds. | 1 📦 |
+| + caractéristique améliorée | 15 🪙 | Une caractéristique +1 |  |
+| + caractéristique extrême | 25 🪙 | Une caractéristique +2 Deux autres caractéristiques -1 |  |
+| + catégorie inhérente | 30 🪙 | Catégorie d’armure +1 tant que le bouclier n’est pas déchargé |  |
+| + défense inhérente | 20 🪙 | Choix d’un attribut physique. La défense passive de cet attribut +2 tant que le bouclier n’est pas déchargé. |  |
+| + isolation inhérente | 15 🪙 | Choix d’une énergie (feu, froid, électrique). La réduction de dégâts offerte par le bouclier est doublée contre ce type d’énergie. |  |
+| + spécialisé | 20 🪙 | Choix d’un type d’attaque : Mêlée, tir et énergie. Réduction de dégâts x1.5, ne fonctionne que sur le type en question. |  |
 
 Un bouclier d’énergie est caractérisé par 5 caractéristiques : Autonomie, Capacité, Recharge, Efficacité, Délai, Fiabilité. Lorsque des dégâts sont reçues le bouclier d’énergie voit sa capacité actuelle réduite d’un montant pouvant aller jusqu’à son niveau de résistance et réduit les dégâts d’autant. L’autonomie maximale est égale à la caractéristique d’autonomie x8. La capacité maximale est égale à la caractéristique de capacité x4. Le niveau de résistance est égal à la caractéristique d’efficacité x2. Lorsqu’un certain délai est passé depuis la dernière recharge, le bouclier puise dans son autonomie pour se recharger d’autant que sa caractéristique de recharge. Le délai de base s’exprime en rounds (minimum 1). La difficulté à surmonter pour mettre hors d’état un bouclier est de 10 + 2 x la caractéristique de fiabilité. Si le bouclier fait l’objet d’un test de solidité/panne alors on ajoute au test 2 x la caractéristique de fiabilité. Le bouclier est déchargé si la capacité actuelle est de 0.
 
@@ -622,10 +622,10 @@ Un bouclier d’énergie est caractérisé par 5 caractéristiques : Autonomie, 
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Petit Châssis | 100 🪙 | Châssis de base d’un automate de petite taille. Catégorie 1. Attributs -4. Autonomie 24. | ? |
-| Châssis Moyen | X2 🪙 | Châssis de base d’un automate de taille standard. Catégorie 2. Attributs +0. Autonomie 20. | ? |
-| Grand Châssis | X3 🪙 | Châssis de base d’un automate de grande taille. Catégorie 3. Attributs +4. Autonomie 16. | ? |
-| Châssis Colossale | X4.5 🪙 | Châssis de base d’un automate de très grande taille. Catégorie 4. Attributs +8. Autonomie 12. |  |
+| Petit Châssis | 100 🪙 | Châssis de base d’un automate de petite taille. Catégorie 1. Attributs -4. Autonomie 24. | Spécial |
+| Châssis Moyen | 200 🪙 | Châssis de base d’un automate de taille standard. Catégorie 2. Attributs +0. Autonomie 20. | Spécial |
+| Grand Châssis | 300 🪙 | Châssis de base d’un automate de grande taille. Catégorie 3. Attributs +4. Autonomie 16. | Spécial |
+| Châssis Colossale | 450 🪙 | Châssis de base d’un automate de très grande taille. Catégorie 4. Attributs +8. Autonomie 12. | Spécial |
 | + Fiable | 20 🪙 | Solidité de l’automate renforcé de 2. Difficulté pour la réparation réduite de 2. |  |
 | + Polyvalent | 50 🪙 | Un attribut élevé devient fort. OU un attribut modéré devient fort. OU un attribut faible devient modéré. |  |
 | + Autonome | 20 🪙 | Autonomie +4. |  |
@@ -647,34 +647,34 @@ Dispose de 1 attribut fort, 2 élevés, 2 modérés et 1 faible parmi les attrib
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Core | 5 🪙 | Nécessaire au fonctionnement. Permet le contrôle de la machine via le steam. La machine dispose de 4 compétences ayant un niveau de groupe de 1 et de compétence équivalent à la qualité du core. | ? |
-| + Autonome |  | Prend les décisions seul et n’a plus besoin d’être manipulé/coordonné à distance via le steam.Octroie des attributs mentaux de 4 à la machine par niveau de qualité. |  |
-| + Compétent |  | Ajoute 2 compétences à la liste. |  |
-| + Polyvalent |  | Tous les groupes de compétence de la liste du core augmente de 1. |  |
+| Core | 40 🪙 | Nécessaire au fonctionnement. Permet le contrôle de la machine via le steam. La machine dispose de 4 compétences ayant un niveau de groupe de 1 et de compétence équivalent à la qualité du core. | 1 📦 |
+| + Autonome | 30 🪙 | Prend les décisions seul et n’a plus besoin d’être manipulé/coordonné à distance via le steam.Octroie des attributs mentaux de 4 à la machine par niveau de qualité. |  |
+| + Compétent | 20 🪙 | Ajoute 2 compétences à la liste. |  |
+| + Polyvalent | 15 🪙 | Tous les groupes de compétence de la liste du core augmente de 1. |  |
 
 ### Les Drônes
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Araignée Mécanique | 5 🪙 | Attributs physiques de base : 6 FOR, 2 CON, 6 DEX, 8 PER, 6 AGI Arme naturelle : Pattes (AGI vs AGI). Compétences : Discrétion. | ? |
-| Oiseau Mécanique |  | Attributs physiques de base : 2 FOR, 2 CON, 6 DEX, 6 PER, 6 AGI Arme naturelle : Bec (AGI vs AGI). Compétences : Vol. |  |
-| Chien Mécanique |  | Attributs physiques de base : 10 FOR, 6 CON, 4 DEX, 8 PER, 2 AGI Arme naturelle : Morsure (FOR vs AGI). Compétences : Mêlée, Défense, Athlétisme. |  |
-| Chat Mécanique |  | Attributs physiques de base : 4 FOR, 2 CON, 6 DEX, 4 PER, 10 AGI Arme naturelle : Griffe (DEX vs AGI). Compétences : Acrobatie, Perceptions. |  |
-| Sanglier Mécanique |  | Attributs physiques de base : 8 FOR, 10 CON, 4 DEX, 2 PER, 6 AGI Arme naturelle : Défense (CON vs CON). Compétences : Mêlée, Tactique. |  |
-| Tourelle Mécanique |  | Attributs physiques de base : 0 FOR, 10 CON, 0 DEX, 10 PER, 0 AGI Arme naturelle : Arme à feu (PER vs PER). Statique. Compétences : Tir. |  |
-| + Déployable | X2 | L’objet peut être déployé (et inversement) à volonté, c’est instantané. Non déployé, l'objet a un encombrement divisé par deux. |  |
+| Araignée Mécanique | 50 🪙 | Attributs physiques de base : 6 FOR, 2 CON, 6 DEX, 8 PER, 6 AGI Arme naturelle : Pattes (AGI vs AGI). Compétences : Discrétion. | 1 📦 |
+| Oiseau Mécanique | 50 🪙 | Attributs physiques de base : 2 FOR, 2 CON, 6 DEX, 6 PER, 6 AGI Arme naturelle : Bec (AGI vs AGI). Compétences : Vol. | ½ 📦 |
+| Chien Mécanique | 80 🪙 | Attributs physiques de base : 10 FOR, 6 CON, 4 DEX, 8 PER, 2 AGI Arme naturelle : Morsure (FOR vs AGI). Compétences : Mêlée, Défense, Athlétisme. | 3 📦 |
+| Chat Mécanique | 60 🪙 | Attributs physiques de base : 4 FOR, 2 CON, 6 DEX, 4 PER, 10 AGI Arme naturelle : Griffe (DEX vs AGI). Compétences : Acrobatie, Perceptions. | 2 📦 |
+| Sanglier Mécanique | 80 🪙 | Attributs physiques de base : 8 FOR, 10 CON, 4 DEX, 2 PER, 6 AGI Arme naturelle : Défense (CON vs CON). Compétences : Mêlée, Tactique. | 4 📦 |
+| Tourelle Mécanique | 90 🪙 | Attributs physiques de base : 0 FOR, 10 CON, 0 DEX, 10 PER, 0 AGI Arme naturelle : Arme à feu (PER vs PER). Statique. Compétences : Tir. | 4 📦 |
+| + Déployable | X2 | L’objet peut être déployé (et inversement) à volonté, c’est instantané. Non déployé, l’objet a un encombrement divisé par deux. |  |
 | + Dématérialisable | X3 | L’objet peut être miniaturisé (et inversement) à volonté, c’est instantané mais cela ne peut se produire qu’une fois par scène. Miniaturisé l’objet a un encombrement de ½. |  |
-| + Compétent |  | Ajoute 1 compétence à la liste. |  |
-| + Intelligent |  | Attributs mentaux de base 2 par niveau de qualité. |  |
-| + Solide |  | Solidité de l’automate renforcé de 1. |  |
-| + Renfort |  | Attribut physique au choix de l’automate renforcé de 2. |  |
-| + Autonome |  | Nécessite une charge steam de moins par jour. (Note : De base c’est 4 s’il a été actif, 2 sinon) |  |
+| + Compétent | 15 🪙 | Ajoute 1 compétence à la liste. |  |
+| + Intelligent | 20 🪙 | Attributs mentaux de base 2 par niveau de qualité. |  |
+| + Solide | 10 🪙 | Solidité de l’automate renforcé de 1. |  |
+| + Renfort | 15 🪙 | Attribut physique au choix de l’automate renforcé de 2. |  |
+| + Autonome | 8 🪙 | Nécessite une charge steam de moins par jour. (Note : De base c’est 4 s’il a été actif, 2 sinon) |  |
 
 ### Les Automails (prothèses)
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Prothèse (bras / jambe) | 100 🪙 | Via l’usage du membre en question le personnage profite d’attributs fixes. Un attribut primaire a pour valeurs 14 + Qualité x 2. Deux attributs secondaires ont pour valeur 12 + Qualité. Les autres attributs ont 10. Pour couvrir les membres il faut deux prothèses. | ? |
+| Prothèse (bras / jambe) | 100 🪙 | Via l’usage du membre en question le personnage profite d’attributs fixes. Un attribut primaire a pour valeurs 14 + Qualité x 2. Deux attributs secondaires ont pour valeur 12 + Qualité. Les autres attributs ont 10. Pour couvrir les membres il faut deux prothèses. | 0 📦 |
 | + Absorption renforcée | 10 🪙 | Augmente l’absorption (si attaqué sur le membre) de 2. Ceci peut être appliqué plusieurs fois. | J / B |
 | + Protection renforcée | 10 🪙 | Augmente la protection (si attaqué sur le membre) de 2. Ceci peut être appliqué plusieurs fois. | J / B |
 | + Renforcement | 10 🪙 | Stature (globale) +1.Deux fois maximum. | B |
@@ -701,18 +701,18 @@ Dispose de 1 attribut fort, 2 élevés, 2 modérés et 1 faible parmi les attrib
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Véhicule Motocycle | 5 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x12, Réserve 100, terrestre | ? |
-| Véhicule Automobile | 5 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x10, Réserve 200, terrestre | ? |
-| Véhicule Autocar | 5 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x8, Réserve 250, terrestre | ? |
-| Véhicule Aéronef | 5 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x10, Réserve 150, volant | ? |
-| Véhicule Zeppelin | 5 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x8, Réserve 300, volant | ? |
-| Véhicule Aéronef |  | Attributs = 8 + Qualité Capacité 12 places, Vitesse x6, Réserve 375, volant |  |
-| Véhicule Scooter |  | Attributs = 12 + Qualité Capacité 1 place, Vitesse x8, Réserve 200, marin |  |
-| Véhicule Navire |  | Attributs = 10 + Qualité Capacité 4 places, Vitesse x6, Réserve 400, marin |  |
-| Véhicule Steamer |  | Attributs = 8 + Qualité Capacité 12 places, Vitesse x4, Réserve 500, marin |  |
-| + Attribut renforcé |  | Renforce un attribut au choix parmi ceux du véhicule de 2. Maximum 2 par attributs. |  |
-| + Attribut boosté |  | Renforce un attribut au choix parmi ceux du véhicule de 4 mais les autres reçoivent une pénalité de 2. Maximum 1 par attributs. |  |
-| + de place |  | Augmente le nombre de place de 1 pour les véhicules légers, de 2 pour les véhicules intermédiaires, de 4 pour les véhicules lourds. |  |
-| + de réserve |  | Augmente le nombre de places de 25 pour les véhicules légers, de 50 pour les véhicules intermédiaires, de 75 pour les véhicules lourds. |  |
+| Véhicule Motocycle | 300 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x12, Réserve 100, terrestre | Spécial |
+| Véhicule Automobile | 600 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x10, Réserve 200, terrestre | Spécial |
+| Véhicule Autocar | 1 200 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x8, Réserve 250, terrestre | Spécial |
+| Véhicule Aéronef | 1 000 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x10, Réserve 150, volant | Spécial |
+| Véhicule Zeppelin | 2 500 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x8, Réserve 300, volant | Spécial |
+| Véhicule Aéronef | 5 000 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x6, Réserve 375, volant | Spécial |
+| Véhicule Scooter | 500 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x8, Réserve 200, marin | Spécial |
+| Véhicule Navire | 1 500 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x6, Réserve 400, marin | Spécial |
+| Véhicule Steamer | 3 000 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x4, Réserve 500, marin | Spécial |
+| + Attribut renforcé | 50 🪙 | Renforce un attribut au choix parmi ceux du véhicule de 2. Maximum 2 par attributs. |  |
+| + Attribut boosté | 80 🪙 | Renforce un attribut au choix parmi ceux du véhicule de 4 mais les autres reçoivent une pénalité de 2. Maximum 1 par attributs. |  |
+| + de place | 100 🪙 | Augmente le nombre de place de 1 pour les véhicules légers, de 2 pour les véhicules intermédiaires, de 4 pour les véhicules lourds. |  |
+| + de réserve | 30 🪙 | Augmente le nombre de places de 25 pour les véhicules légers, de 50 pour les véhicules intermédiaires, de 75 pour les véhicules lourds. |  |
 
 Les attributs d’un véhicule sont : Armement (tests d’attaque), Manœuvrabilité (test de défense), Vitesse (test tactique), Réactivité (test d’initiative). Fiabilité (sauvegardes et défenses passives), Autonomie (steam), Solidité (structure), Allure (chance). Les caractéristiques d’un véhicule sont : Capacité (places), Vitesse (multiplicateur pour déplacements), Autonomie (carburant). Arme (équipée/utilisables), Armure (blindage).

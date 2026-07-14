@@ -244,7 +244,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "✨ Sacre: Krucomoviel (vs SAG), 🩸 Impie: Krucomovun (vs RUS)",
-    "description": "Produit un effet d'attaque physique (armure) infligeant [Magnitude x1.5] de dégats physique choquants (condition physique de choc, en état de choc si charge > PV actuelles) basés sur l'élément [clé] (état de choc = épuisé, actions -2)."
+    "description": "Produit un effet d'attaque physique (armure) infligeant [Magnitude x1.5] de dégats physique choquants (dégats reçus sous la forme de la condition physique \"choc\" avec sauvegarde robustesse) basés sur l'élément [clé]."
   },
   {
     "num": 12,
@@ -256,7 +256,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "🎭 Illusion: Kraturbin (vs VOL)",
-    "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude x1.5] de dégats mentaux choquants (condition mentale de choc, en état de choc si charge > PS actuelles) basés sur l'élément [clé] (état de choc = épuisé, actions -2)."
+    "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude x1.5] de dégats mentaux choquants (dégats reçus sous la forme de la condition mentale \"choc\" avec sauvegarde détermination) basés sur l'élément [clé]."
   },
   {
     "num": 13,
@@ -268,7 +268,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "☢️ Toxique: Keluinaex (vs EQU)",
-    "description": "Produit un effet d'attaque (ni armure, ni résolution) infligeant [Magnitude x1] de dégats mixtes choquants (condition mixte de choc, en état de choc si charge > PV ou PS actuelles) basés sur l'élément [clé] (état de choc = épuisé, actions -2)."
+    "description": "Produit un effet d'attaque (ni armure, ni résolution) infligeant [Magnitude x1] de dégats mixtes choquants (dégats reçus sous la forme de la condition physique ET mentale \"choc\" avec sauvegarde détermination ou robustesse, le plus bas des deux) basés sur l'élément [clé]."
   },
   {
     "num": 14,
@@ -1001,6 +1001,54 @@
     "drain": "2",
     "keys": "⚖️ Loi",
     "description": "Produit un effet d'attaque (ni armure, ni résolution) infligeant [Magnitude] de dégats temporaires (PE) basés sur l'élément [clé], le sort ne peux être lancé que si une créature dans la zone a perdu des PV ou des PS suite à une attaque, la cible doit être l'auteur et unique."
+  },
+  {
+    "num": 75,
+    "vulgar": "Rupture",
+    "latin": "???",
+    "arcane": "???",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "keys": "🔥 Feu",
+    "description": "Produit un effet d'attaque physique (armure) infligeant [Magnitude] de dégats de rupture (PV) (dégats reçus sous la forme de la condition physique \"rupture\" avec sauvegarde robustesse) basés sur l'élément [clé]."
+  },
+  {
+    "num": 76,
+    "vulgar": "Flagellation",
+    "latin": "???",
+    "arcane": "???",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "keys": "🧩 Mental",
+    "description": "Produit un effet d'attaque mentale (résolution) infligeant [Magnitude] de dégats de rupture (PS) (dégats reçus sous la forme de la condition mentale \"rupture\" avec sauvegarde détermination) basés sur l'élément [clé]."
+  },
+  {
+    "num": 77,
+    "vulgar": "Cauchemard",
+    "latin": "???",
+    "arcane": "???",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "keys": "🩸 Impie",
+    "description": "Produit un effet d'attaque (ni armure, ni résolution) infligeant [Magnitude/2] de dégats de rupture (PV/PS) (dégats reçus sous la forme de la condition physique ET mentale \"rupture\" avec sauvegarde détermination ou robustesse, le plus bas des deux) basés sur l'élément [clé]."
+  },
+  {
+    "num": 78,
+    "vulgar": "Tourmente",
+    "latin": "???",
+    "arcane": "???",
+    "word_type": "Pouvoir",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "keys": "☢️ Toxique",
+    "description": "Produit un effet d'attaque mixte (armure ET résolution) infligeant [Magnitude x1.5] de dégats de rupture (PV/PS) (dégats reçus sous la forme de la condition physique ET mentale \"rupture\" avec sauvegarde détermination ou robustesse, le plus haut des deux) basés sur l'élément [clé]."
   }
 ];
 

@@ -14,11 +14,11 @@
 ---
 
 ## Geyser Mental
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École d'Évocation
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Galvanisation ⧉</span> (Vibro (Agiter, secouer) / Evvibro (Ev + vibro)) : Génère un effet octroyant <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> points temporaires d'une ressource qui dépends de la <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** 🧩 Mental: Evvibroend
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Galvanisation ✧</span> (Vibro (Agiter) / Lirvibr (Lir + vibr)) : Génère un enchantement positif qui augmente de moitié la génération de ressources temporaires tel que rage, garde et adrénaline, avec un maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span>, augmente également le maximum de ces ressources de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 🧩 Mental: Evvibroend
 
 ***Description :*** Augmente la génération et le maximum de ressources temporaires (rage, garde, adrénaline, PS).
 
@@ -167,11 +167,11 @@
 ---
 
 ## Dissimulation des Pensés
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École d'Abjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Occultation ⛊</span> (Occulto (Cacher) / Basoccult (Bas + occult)) : Génère un enchantement positif qui permet de cacher ses pensés/son esprit/ses émotions à la vue des autres, fonctionne aussi sur la magie et les sorts qui touche à ces sujets, les adversaires peuvent réaliser un test adapté afin de percer ce voile (difficulté arcanique). ***Clé :*** 🧩 Mental: Basoccultend
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Occultation ✧</span> (Occulto (Cacher) / Luccult (Lu + ccult)) : Génère un enchantement positif qui rend la perception de la cible plus difficile pour les créatures d'une famille particulières selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span> employée, la difficulté étant augmentée de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. ***Clé :*** 🧩 Mental: Basoccultend
 
 ***Description :*** Cache ses pensées et rend la cible moins perceptible.
 
@@ -200,11 +200,11 @@
 ---
 
 ## Création de Souvenirs
-***Difficulté :*** 16, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École d'Évocation
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Falsification ⧉</span> (Fallo (Tromper) / Evfall (Ev + fall)) : Génère des faux souvenirs chez la cible, à raison de <span style="color:#ff1493; font-weight:bold;">[Magnitude²]</span> secondes, affecté par la sauvegarde de détermination, un test d'intuition peux permettre de savoir si ces idées sont légitimes ou suspicieuses (et donc en douter). ***Clé :*** 🧩 Mental: Evfallend
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Falsification ⧖</span> (Fallo (Tromper) / Malfallo (Mal + fallo)) : Génère un enchantement qui inflige une pénalité aux tests de sincérité de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span>. ***Clé :*** 🧩 Mental: Evfallend
 
 ***Description :*** Inflige une pénalité aux tests de sincérité de la cible.
 
@@ -222,11 +222,11 @@
 ---
 
 ## L'Esprit dépasse la Magie
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Conjuration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Divination
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Omnipotence ⧗</span> (??? / ???) : Génère un enchantement qui permet à la cible de puiser 1 PS pour augmenter de 2 la puissance des sorts lancés, avec un maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> en puissance ajoutée. ***Clé :*** 🧩 Mental
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Omnipotence ⊙</span> (Omnis (Tout) / Doromnis (Dor + omnis)) : Génère un enchantement positif qui permet à la cible d'imaginer et de lancer n'importe quel sort à la volée, pour un total maximum de drain (avant réductions etc) de <span style="color:#ff1493; font-weight:bold;">[Magnitude x2]</span> (après quoi l'enchantement expire), le niveau du sort est limité par le niveau de sort qui peux être lancé dans le domaine du savoir. ***Clé :*** 🧩 Mental
 
 ***Description :*** Permet d'imaginer et lancer n'importe quel sort à la volée jusqu'à une limite de drain.
 
@@ -255,12 +255,12 @@
 ---
 
 ## Domination Totale
-***Difficulté :*** 16, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Conjuration
+***Difficulté :*** 12+X, ***Drain :*** 12+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Supérieur</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est reçoit PWR +1.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Domination ⧗</span> (Dominus (Maître) / Cendomin (Cen + domin)) : Génère un enchantement qui permet au lanceur de sort de contrôler totalement les faits et geste d'une cible, pour le prix d'une action rapide le lanceur du sort peux ainsi choisir les actions pour sa cible lorsque viens le moment pour elle de jouer, cependant si la cible réussis un test de sauvegarde (vs Détermination) elle échappe à ce contrôle (même si cela ne met pas fin à l'enchantement lui même) et peux agir normalement ce round ci, l'enchantement prend fin après que la cible est réalisée ou refusée <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> actions forcées. ***Clé :*** 🧩 Mental: Cendominend
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Domination ✧</span> (Dominus (Maître) / Lirdomin (Lir + domin)) : Génère un enchantement positif qui augmente l'impact des actions tactique menées par la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** 🧩 Mental: Cendominend
 
 ***Description :*** Augmente l'impact des actions tactiques de la cible.
 
@@ -320,13 +320,13 @@
 ---
 
 ## Don d'Excelsior
-***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩🧩, ***École du sort :*** École d'Altération
+***Difficulté :*** 14+X, ***Drain :*** 14+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩🧩, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** 🧩 Mental
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** 🧩 Mental
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** 🧩 Mental
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** 🧩 Mental
 
 ***Description :*** Permet de stocker deux effets conditionnels (Assurance & Excellence).
 
@@ -335,11 +335,11 @@
 ---
 
 ## Omniscience
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École d'Altération
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🧩, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** 🧩 Mental
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** 🧩 Mental
 
 ***Description :*** Stocke un effet qui se déclenche sous une condition précise (Omniscience).
 
