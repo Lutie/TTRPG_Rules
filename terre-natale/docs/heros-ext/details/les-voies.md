@@ -109,9 +109,9 @@ Expertise du duel (T2.1) En duel les dés affichants moins de 4 sur les jets con
 
 Duel Enivrant (T2.2) En duel la criticité est augmentée de 5.
 
-Duel selon mes règles (*) (T3.1) Les alliés peuvent attaquer ou intervenir sur la cible en duel avec le personnage sans que cela ne brise le duel en question, mais cela doit se faire à distance, dans ces cas-là ils reçoivent même un bonus de 1 à leur test par niveau de lien que le personnage a avec eux.
+Duel selon mes règles (\*) (T3.1) Les alliés peuvent attaquer ou intervenir sur la cible en duel avec le personnage sans que cela ne brise le duel en question, mais cela doit se faire à distance, dans ces cas-là ils reçoivent même un bonus de 1 à leur test par niveau de lien que le personnage a avec eux.
 
-Duel étendu (*) (T3.2) Si un adversaire ne s'en est pris qu'au personnage jusqu'ici alors ce dernier est en duel avec lui, le personnage ne peut avoir qu'une seule cible de duel à la fois et peut choisir parmi toutes les cibles éligibles (il peut changer à chaque round).
+Duel étendu (\*) (T3.2) Si un adversaire ne s'en est pris qu'au personnage jusqu'ici alors ce dernier est en duel avec lui, le personnage ne peut avoir qu'une seule cible de duel à la fois et peut choisir parmi toutes les cibles éligibles (il peut changer à chaque round).
 
 Maitre Corbeau (T3.3) Au prix d'une ACTR le personnage est en mesure de voler un test adverse s’il est en duel avec lui, une fois par scène et par tour, en volant le test le personnage peut le réutiliser ultérieurement contre ce même adversaire ET l'adversaire est forcé de relancer son test (tous les points de karma qu'il aurait dépensés pour façonner ses dés étends perdus évidemment).
 

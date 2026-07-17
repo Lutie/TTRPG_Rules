@@ -685,7 +685,7 @@ Also called Karazdawis.
 - [Hardness](#birth-hardness)
 - [Financial Acumen](#birth-financial-acumen)
 - [Infra Vision](#birth-infra-vision)
-- [Favored Save](#birth-favored-save-opposition) : Opposition (*)
+- [Favored Save](#birth-favored-save-opposition) : Opposition (\*)
 
 **Cultural particularities:**
 - [Subterranean Affinity](#cult-affinity)
@@ -784,7 +784,7 @@ Ungordan Society:
 - [Hardness](#birth-hardness)
 - [Financial Acumen](#birth-financial-acumen)
 - [Infra Vision](#birth-infra-vision)
-- [Favored Save](#birth-favored-save-opposition) : Opposition (*)
+- [Favored Save](#birth-favored-save-opposition) : Opposition (\*)
 
 **Cultural particularities:**
 - [Subterranean Affinity](#cult-affinity)

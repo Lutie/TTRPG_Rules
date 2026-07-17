@@ -257,10 +257,11 @@ function switchTab(name) {
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
 
-let mState       = null;
-let mCompSearch  = "";
-let mPartSearch  = "";
-let mActionSearch = "";
+let mState         = null;
+let mCompSearch    = "";
+let mPartSearch    = "";
+let mPartTypeFilter = "tous";
+let mActionSearch  = "";
 
 function openModal(type, existingId) {
   let entry = null;
@@ -276,6 +277,7 @@ function openModal(type, existingId) {
       type,
       id: existingId || null,
       nom: entry?.nom || "",
+      type_part: entry?.type_part || "passif",
       sous_effets: JSON.parse(JSON.stringify(entry?.sous_effets || [{ nom: "", description: "" }]))
     };
   } else if (type === "action") {
@@ -303,7 +305,7 @@ function openModal(type, existingId) {
       sauvegardes:   { ...(entry?.sauvegardes   || {}) }
     };
   }
-  mCompSearch = ""; mPartSearch = ""; mActionSearch = "";
+  mCompSearch = ""; mPartSearch = ""; mPartTypeFilter = "tous"; mActionSearch = "";
   document.getElementById("modal-title").textContent =
     (existingId ? "Modifier" : "Nouveau") + " — " + TYPE_LABEL[type];
   renderModalBody();
@@ -436,7 +438,11 @@ function buildLibraryPicker(field, label, prefix, libType) {
     <div id="${prefix}-new-form" class="m-new-action-form" style="display:none">
       <input type="text" class="m-input" id="${prefix}-new-nom" placeholder="Nom…">
       ${libType === "particularite"
-        ? `<div id="${prefix}-new-se-list"></div><button class="m-add-se-btn" id="${prefix}-new-se-add">+ Effet</button>`
+        ? `<div class="m-type-row">
+            <label class="m-radio-label"><input type="radio" name="${prefix}-new-type" value="passif" checked> Passif</label>
+            <label class="m-radio-label"><input type="radio" name="${prefix}-new-type" value="actif"> Actif</label>
+          </div>
+          <div id="${prefix}-new-se-list"></div><button class="m-add-se-btn" id="${prefix}-new-se-add">+ Effet</button>`
         : `<input type="text" class="m-input" id="${prefix}-new-desc" placeholder="Description…">`}
       <div class="m-action-form-btns">
         <button class="tool-btn save-btn" id="${prefix}-new-ok">Ajouter</button>
@@ -444,6 +450,11 @@ function buildLibraryPicker(field, label, prefix, libType) {
       </div>
     </div>
     <div id="${prefix}-tags" class="m-tags-row"></div>
+    ${libType === "particularite" ? `<div class="m-part-type-filter" id="${prefix}-type-filter">
+      <button class="m-type-btn active" data-type="tous">Tous</button>
+      <button class="m-type-btn" data-type="passif">Passif</button>
+      <button class="m-type-btn" data-type="actif">Actif</button>
+    </div>` : ""}
     <input type="text" class="m-input" id="${prefix}-search" placeholder="Rechercher…">
     <div class="m-action-list" id="${prefix}-list"></div>
   </div>`;
@@ -455,6 +466,13 @@ function buildModalPart() {
   return `<div class="mfield">
     <label>Nom</label>
     <input type="text" id="m-nom" class="m-input" value="${esc(mState.nom)}" placeholder="Nom de la particularité…">
+  </div>
+  <div class="mfield">
+    <label>Type</label>
+    <div class="m-type-row">
+      <label class="m-radio-label"><input type="radio" name="m-part-type" value="passif"${mState.type_part !== "actif" ? " checked" : ""}> Passif</label>
+      <label class="m-radio-label"><input type="radio" name="m-part-type" value="actif"${mState.type_part === "actif" ? " checked" : ""}> Actif</label>
+    </div>
   </div>
   <div class="mfield m-section">
     <label>Effets <button class="m-add-part-btn" id="m-add-se">+ Effet</button></label>
@@ -470,13 +488,16 @@ function renderSeRow(se, i) {
       <input type="text" class="m-input m-se-nom-i" data-i="${i}" value="${esc(se.nom)}" placeholder="Nom de l'effet…">
       <button class="m-icon-btn m-se-del-i" data-i="${i}">✕</button>
     </div>
-    <input type="text" class="m-input m-se-desc-i" data-i="${i}" value="${esc(se.description || "")}" placeholder="Description — {x} → 1~5 selon le niveau">
+    <input type="text" class="m-input m-se-desc-i" data-i="${i}" value="${esc(se.description || "")}" placeholder="Description — {x}, {x+1}, {x*2}… selon le niveau">
   </div>`;
 }
 
 function attachModalPartEvents() {
   const el = document.getElementById("modal-body");
   el.querySelector("#m-nom")?.addEventListener("input", e => { mState.nom = e.target.value; });
+  el.querySelectorAll('input[name="m-part-type"]').forEach(r => {
+    r.addEventListener("change", e => { if (e.target.checked) mState.type_part = e.target.value; });
+  });
   el.querySelector("#m-add-se")?.addEventListener("click", () => {
     mState.sous_effets.push({ nom: "", description: "" });
     refreshSeList();
@@ -604,13 +625,17 @@ function renderModalLibTags(prefix, selectedIds, getByIdFn) {
 function renderModalLibList(prefix, selectedIds, loadFn, query) {
   const el = document.getElementById(`m-${prefix}-list`);
   if (!el) return;
-  const q     = query.toLowerCase();
-  const items = loadFn().filter(a => !q || a.nom.toLowerCase().includes(q));
+  const q = query.toLowerCase();
+  let items = loadFn().filter(a => !q || a.nom.toLowerCase().includes(q));
+  if (prefix === "part" && mPartTypeFilter !== "tous") {
+    items = items.filter(a => (a.type_part || "passif") === mPartTypeFilter);
+  }
   if (!items.length) { el.innerHTML = '<p class="muted">Bibliothèque vide.</p>'; return; }
   const field = prefix === "part" ? "particularites" : "actions";
   el.innerHTML = items.map(item => `
     <div class="comp-item${selectedIds.includes(item.id) ? " comp-active" : ""}" data-id="${item.id}">
       <span class="comp-nom">${esc(item.nom)}</span>
+      ${prefix === "part" && item.type_part ? `<span class="comp-other type-label-${item.type_part}">${item.type_part}</span>` : ""}
       ${item.description ? `<span class="comp-other">${esc(item.description)}</span>` : ""}
       ${item.sous_effets?.length ? `<span class="comp-other">${item.sous_effets.length} effet(s)</span>` : ""}
     </div>`).join("");
@@ -713,6 +738,16 @@ function attachLibraryHandlers(prefix, libType, field) {
     renderModalLibList(prefix, mState[field], loadFn, query);
   });
 
+  if (libType === "particularite") {
+    el.querySelectorAll(`#m-${prefix}-type-filter .m-type-btn`).forEach(btn => {
+      btn.addEventListener("click", () => {
+        mPartTypeFilter = btn.dataset.type;
+        el.querySelectorAll(`#m-${prefix}-type-filter .m-type-btn`).forEach(b => b.classList.toggle("active", b === btn));
+        renderModalLibList(prefix, mState[field], loadParts, mPartSearch);
+      });
+    });
+  }
+
   el.querySelector(`#m-${prefix}-new-btn`)?.addEventListener("click", () => {
     const form = document.getElementById(`m-${prefix}-new-form`);
     if (form) form.style.display = form.style.display === "none" ? "flex" : "none";
@@ -749,7 +784,8 @@ function attachLibraryHandlers(prefix, libType, field) {
         nom:         row.querySelector(".m-se-inline-nom")?.value || "",
         description: row.querySelector(".m-se-inline-desc")?.value || ""
       }));
-      newItem = savePart({ id: crypto.randomUUID(), nom, sous_effets: souEffets });
+      const typeEl  = document.querySelector(`input[name="${prefix}-new-type"]:checked`);
+      newItem = savePart({ id: crypto.randomUUID(), nom, type_part: typeEl?.value || "passif", sous_effets: souEffets });
     } else {
       const desc = document.getElementById(`m-${prefix}-new-desc`)?.value.trim() || "";
       newItem = saveAction({ id: crypto.randomUUID(), nom, description: desc });
@@ -774,7 +810,7 @@ function renderInlineSeRow(i) {
       <input type="text" class="m-input m-se-inline-nom" placeholder="Nom de l'effet…">
       <button class="m-icon-btn m-se-inline-del" data-i="${i}">✕</button>
     </div>
-    <input type="text" class="m-input m-se-inline-desc" placeholder="Description — {x} → 1~5 selon le niveau">
+    <input type="text" class="m-input m-se-inline-desc" placeholder="Description — {x}, {x+1}, {x*2}… selon le niveau">
   </div>`;
 }
 
@@ -816,7 +852,7 @@ function saveModalEntry() {
 
   // Types bibliothèque
   if (mState.type === "particularite") {
-    savePart({ id: mState.id || crypto.randomUUID(), nom, sous_effets: JSON.parse(JSON.stringify(mState.sous_effets || [])) });
+    savePart({ id: mState.id || crypto.randomUUID(), nom, type_part: mState.type_part || "passif", sous_effets: JSON.parse(JSON.stringify(mState.sous_effets || [])) });
     closeModal(); renderDonneesTab(); return;
   }
   if (mState.type === "action") {
@@ -913,6 +949,7 @@ function renderLibTab(loadFn, type) {
     <div class="d-entry">
       <div class="d-entry-main">
         <span class="d-nom">${esc(item.nom)}</span>
+        ${type === "particularite" && item.type_part ? `<span class="d-chip d-chip-${item.type_part}">${item.type_part}</span>` : ""}
         ${item.description ? `<span class="d-meta">${esc(item.description)}</span>` : ""}
         ${item.sous_effets?.length ? `<span class="d-chip">${item.sous_effets.length} effet(s)</span>` : ""}
       </div>
@@ -1328,13 +1365,17 @@ function renderParticularites() {
       <p class="muted">Non disponible à ce rang.</p></div>`;
     const x      = LEVEL_X[String(level)];
     const effets = (part.sous_effets || []).map(e => {
-      const desc = (e.description || "").replace(/\{x\}/g, `<strong class="val-x">${x}</strong>`);
+      const desc = (e.description || "").replace(/\{([^}]+)\}/g, (_, expr) => {
+        const val = resolveFormula(expr, x);
+        return `<strong class="val-x">${val}</strong>`;
+      });
       return `<li><strong>${esc(e.nom)}</strong>${desc ? ` — ${desc}` : ""}</li>`;
     }).join("");
     return `<div class="part">
       <div class="part-head">
         <span class="part-nom">${esc(part.nom)}</span>
         <span class="tag">${part.source}</span>
+        ${part.type_part ? `<span class="tag tag-${part.type_part}">${part.type_part === "actif" ? "Actif" : "Passif"}</span>` : ""}
         <span class="level-badge">${lvlName} (×${x})</span>
       </div>
       <ul class="effets">${effets}</ul>
@@ -1594,6 +1635,16 @@ function attachModalHandlers() {
 }
 
 // ── Utilitaires ───────────────────────────────────────────────────────────────
+
+function resolveFormula(expr, x) {
+  const substituted = expr.replace(/(\d)x/g, '$1*x').replace(/x/g, String(x));
+  if (!/^[\d+\-*\/().\s]+$/.test(substituted)) return substituted;
+  try {
+    const result = Function('return (' + substituted + ')')();
+    if (!Number.isFinite(result)) return substituted;
+    return result % 1 === 0 ? result : Math.round(result * 10) / 10;
+  } catch { return substituted; }
+}
 
 function esc(s) {
   return String(s || "")

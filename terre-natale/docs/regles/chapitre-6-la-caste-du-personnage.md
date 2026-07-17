@@ -136,14 +136,14 @@ Les différentes ressources : PV : Point de vitalité. PS : Point de Spiritualit
 | Expert | Corps | PC / PV |
 | Expert | Mixte | PC / PE |
 | Joker | / | PK / PC |
-| Mage | Esprit (*) | PM / PS |
-| Mage | Mixte (*) | PM / PC |
-| Science | Esprit (**) | PR / PS |
-| Science | Mixte (**) | PR / PC |
+| Mage | Esprit (\*) | PM / PS |
+| Mage | Mixte (\*) | PM / PC |
+| Science | Esprit (\*\*) | PR / PS |
+| Science | Mixte (\*\*) | PR / PC |
 
-*(*) : L’un des attributs est nécessairement la Magie, qui compte pour un attribut de l’esprit*
+*(\*) : L’un des attributs est nécessairement la Magie, qui compte pour un attribut de l’esprit*
 
-*(**) : L’un des attributs est nécessairement la Logique, qui compte pour un attribut de l’esprit*
+*(\*\*) : L’un des attributs est nécessairement la Logique, qui compte pour un attribut de l’esprit*
 
 #### Privilège Max
 

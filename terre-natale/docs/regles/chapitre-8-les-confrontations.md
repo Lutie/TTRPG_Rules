@@ -656,9 +656,9 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
 Évidemment des dégâts ne peuvent pas être négatifs et ne peuvent donc pas soigner un individu (sauf dans le cas d’une absorption) etc… La logique prévaut sur les règles dans ce genre de cas.
 
 !!! note "Note"
-    - **Attrition.** Ce bonus augmente les dégâts temporaires infligés par le personnage. L’attrition naturelle physique est octroyée par la force (mêlée et jet uniquement) ; l’attrition naturelle mentale est octroyée par le charisme.
+    - **Attrition.** Ce bonus augmente les dégâts temporaires infligés par le personnage.
     - **Résilience.** Ce bonus, aussi appelé résistance à l’attrition, réduit les dégâts temporaires reçus par le personnage.
-    - **Perforation.** Ce bonus réduit l’absorption des cibles du personnage. La perforation naturelle est octroyée par la perception ou la sagesse, respectivement pour les attaques physiques ou mentales.
+    - **Perforation.** Ce bonus réduit l’absorption des cibles du personnage.
     - **Pénétration.** Si l’attaque n’est pas défendue alors la pénétration augmente directement les dégâts permanents.
     - **Protection.** Ce bonus augmente le seuil de blessure du personnage.
     - **Précision.** Ce bonus réduit la protection des cibles du personnage.
@@ -692,15 +692,15 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
 
 Les dégâts anormaux sont ceux qui ne respectent pas la règle de base. On dénote parmi ces deniers les cas suivants :
 
-- Les dégâts perçant ignorent la moitié de l’absorption (*).
-- Les dégâts transperçant ignorent totalement l’absorption (*).
-- Les dégâts pénétrant ignorent la résistance (*).
-- Les dégâts perforants ignorent la protection (*).
-- Les dégâts directs ignorent la résistance ET absorption (*).
-- Les dégâts choquants n’infligent que des dégâts temporaires (**).
-- Les dégâts mutilants n’infligent jamais de dégâts temporaires (**).
+- Les dégâts perçant ignorent la moitié de l’absorption (\*).
+- Les dégâts transperçant ignorent totalement l’absorption (\*).
+- Les dégâts pénétrant ignorent la résistance (\*).
+- Les dégâts perforants ignorent la protection (\*).
+- Les dégâts directs ignorent la résistance ET absorption (\*).
+- Les dégâts choquants n’infligent que des dégâts temporaires (\*\*).
+- Les dégâts mutilants n’infligent jamais de dégâts temporaires (\*\*).
 
-(*) : Lors de la résolution des dégâts les valeurs en question sont simplement ignorées et considérées comme à 0.
+(\*) : Lors de la résolution des dégâts les valeurs en question sont simplement ignorées et considérées comme à 0.
 
 ### Les Lésions
 
@@ -1146,13 +1146,11 @@ La perforation est la faculté permettant d’ignorer une partie de l’absorpti
 
 Les armes à feu possèdent une pénétration équivalente à leur catégorie.
 
-Chaque personnage dispose d’une **perforation naturelle** qui s’applique à toutes ses attaques, selon que l’attaque affecte le corps ou l’esprit : le modificateur de perception constitue la perforation naturelle physique, le modificateur de sagesse la perforation naturelle mentale. Cela couvre donc également les attaques magiques, sans distinction. Si la perforation naturelle est négative, les attaques ne subissent aucun malus direct ; en revanche, toute perforation issue d’une autre source (manœuvre, amélioration, etc.) est réduite du montant de cette valeur négative.
 
 #### L’Attrition
 
 L’attrition est un mot clé désignant la faculté à accroître les dégâts temporaires d’une attaque. L’attrition c’est le fait d’user les défenses, d’affaiblir ou d’affaiblissement. Lorsqu’une attaque profite d’attrition et qu’elle touche la cible, la cible perd autant d’endurance, qui peut tout à fait passer dans le négatif de cette manière. Pour qu’une cible soit considérée comme touche il suffit que l’attaque dépasse la défense passive ET que la cible n’est pas réussie une action d’esquive (tout autre action de défense ne comptant pas, puisqu’elles reviennent à encaisser le coup et non à l’éviter).
 
-Le modificateur de force constitue l’**attrition naturelle** physique d’un personnage ; le modificateur de charisme constitue l’attrition naturelle mentale. L’attrition naturelle physique ne s’applique qu’aux armes de mêlée et aux armes de jet. Si l’attrition naturelle est négative, les attaques concernées ne subissent aucun malus direct ; en revanche, toute attrition issue d’une autre source (manœuvre, amélioration, etc.) est réduite du montant de cette valeur négative.
 
 #### La Pénétration
 
@@ -1521,7 +1519,7 @@ Si la charge du personnage ne satisfait pas à la charge totale que représente 
 
 À tout moment l’encombrement des armes et des armures pénalisent les tests nécessitant de l’adresse ou de l’aisance.
 
-Les compétences affectées sont notées d’un (*) dans la liste des compétences. Cela s’applique donc : Aux tests sollicitant l’arme, tel que les attaques, parade, blocage, etc… mais aussi aux tests de « mouvements » sollicitant l’armure tel que les déplacements, l’acrobatie, la natation, l’esquive, l’incantation des sorts (si vous jouez avec l’extension de la magie), l’usage du steam (si vous jouez avec l’extension de la technologie), etc… Il s’agit globalement de tout ce qui nécessite une poigne pour ne pas être gêné.
+Les compétences affectées sont notées d’un (\*) dans la liste des compétences. Cela s’applique donc : Aux tests sollicitant l’arme, tel que les attaques, parade, blocage, etc… mais aussi aux tests de « mouvements » sollicitant l’armure tel que les déplacements, l’acrobatie, la natation, l’esquive, l’incantation des sorts (si vous jouez avec l’extension de la magie), l’usage du steam (si vous jouez avec l’extension de la technologie), etc… Il s’agit globalement de tout ce qui nécessite une poigne pour ne pas être gêné.
 
 ### Le Combat à une main
 
@@ -1618,7 +1616,6 @@ Voici un récapitulatif de l’impact des attributs du corps en combat.
 - Elle permet de supporter la charge des équipements (Arme(s) et armure).
 - Elle permet d’attaquer via les armes à manche.
 - Elle fixe la défense contre les attaques basées sur la force.
-- Elle octroie de l’attrition naturelle aux attaques de mêlée et aux attaques de jet.
 
 #### La Dextérité
 
@@ -1645,7 +1642,6 @@ Voici un récapitulatif de l’impact des attributs du corps en combat.
 - Elle détermine le facteur de portée des armes à distance.
 - Elle permet d’attaquer via les armes à distance.
 - Elle fixe la défense contre les attaques basées sur la perception.
-- Elle octroie de la perforation naturelle aux attaques physiques.
 
 #### La Constitution
 
@@ -1687,13 +1683,13 @@ Il existe, en plus des actions mentionnées dans le tableau ci-dessous, plusieur
 | --- | --- | --- |
 | Pas de Placement | Action Libre | 1 |
 | Marcher | Action Simple | 1 x Déplacement |
-| Courir (*) | Action Complexe | 2 x Déplacement |
-| Sprinter (*) | Action Complexe | 2 x Déplacement |
-| Grimper (*) | Action Complexe | 0,5 x Déplacement |
-| Nager (*) | Action Complexe | 0,5 x Déplacement |
-| Désengager (*) | Action Complexe | 0,5 x Déplacement |
+| Courir (\*) | Action Complexe | 2 x Déplacement |
+| Sprinter (\*) | Action Complexe | 2 x Déplacement |
+| Grimper (\*) | Action Complexe | 0,5 x Déplacement |
+| Nager (\*) | Action Complexe | 0,5 x Déplacement |
+| Désengager (\*) | Action Complexe | 0,5 x Déplacement |
 
-*(*) : Ces actions sont sujettes à des règles spécifiques. Voir le compendium des actions pour celles-ci.*
+*(\*) : Ces actions sont sujettes à des règles spécifiques. Voir le compendium des actions pour celles-ci.*
 
 ### Les Modificateurs de Test
 
@@ -1882,7 +1878,6 @@ Voici un récapitulatif de l’impact des attributs de l’esprit en joute.
 - Elle permet de supporter la charge du discours (argument et raison).
 - Elle permet de réaliser des tirades via la Persuasion.
 - Elle fixe la défense contre les tirades basées sur le charisme.
-- Elle octroie de l'attrition naturelle aux attaques mentales.
 
 #### L’Intelligence
 
@@ -1906,7 +1901,6 @@ Voici un récapitulatif de l’impact des attributs de l’esprit en joute.
 
 - Elle permet de réaliser des tirades via la Compréhension.
 - Elle fixe la défense contre les attaques basées sur la sagesse.
-- Elle octroie de la perforation naturelle aux attaques mentales.
 
 #### La Volonté
 

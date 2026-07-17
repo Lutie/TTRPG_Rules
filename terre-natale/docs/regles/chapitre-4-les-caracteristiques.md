@@ -223,9 +223,9 @@ A chaque fois qu’un personnage bénéficie d’un repos « complet » ses ress
 
 Elle fixe la récupération des ressources de Vitalité, Spiritualité, Karma, Chi lors des repos. Elle fixe également la récupération des lésions et des conditions. Elle fixe la réduction des tensions lors des repos tel que la Fatigue.
 
-- Récupération = 5 + modificateur de Sagesse (*).
+- Récupération = 5 + modificateur de Sagesse (\*).
 
-(*) : La sagesse est ici modifiée par l’équilibre. Par exemple 15 de Sagesse (modificateur +2) et 12 d’équilibre (modificateur +1) correspondent à une Sagesse effective de 16 (modificateur +3) pour ce qui est de la récupération.
+(\*) : La sagesse est ici modifiée par l’équilibre. Par exemple 15 de Sagesse (modificateur +2) et 12 d’équilibre (modificateur +1) correspondent à une Sagesse effective de 16 (modificateur +3) pour ce qui est de la récupération.
 
 #### Les autres Récupérations
 

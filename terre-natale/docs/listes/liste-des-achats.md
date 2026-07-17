@@ -132,19 +132,19 @@ Catégorie 0, Poids 0 (* +2), Encombrement 0, Charge 0 (* +2), Pénalité (attri
 
 | Qualité | Type | Désignation | Particularités | Cout en PO | Version (+) |
 | --- | --- | --- | --- | --- | --- |
-| 0 | Vêtements | Standard | Solidité = 10, Amélioration 0 (**) Absorption d’énergie 8 | 3,5 | 4,5 |
-| 1 | Vêtements | Bon | Solidité = 11, Amélioration 1 (**) Absorption d’énergie 9 | 10,5 | 13,5 |
-| 2 | Vêtements | Très bon | Solidité = 12, Amélioration 2 (**) Absorption d’énergie 10 | 21 | 27 |
-| 3 | Vêtements | Excellent | Solidité = 13, Amélioration 3 (**) Absorption d’énergie 11 | 42 | 54 |
-| 4 | Vêtements | Superbe | Solidité = 14, Amélioration 4 (**) Absorption d’énergie 12 | 87,5 | 112,5 |
-| 5 | Vêtements | Merveilleux | Solidité = 15, Amélioration 5 (**) Absorption d’énergie 13 | 175 | 225 |
-| 6 | Vêtements | Légendaire | Solidité = 16, Amélioration 6 (**) Absorption d’énergie 14 | 350 | 450 |
+| 0 | Vêtements | Standard | Solidité = 10, Amélioration 0 (\*\*) Absorption d’énergie 8 | 3,5 | 4,5 |
+| 1 | Vêtements | Bon | Solidité = 11, Amélioration 1 (\*\*) Absorption d’énergie 9 | 10,5 | 13,5 |
+| 2 | Vêtements | Très bon | Solidité = 12, Amélioration 2 (\*\*) Absorption d’énergie 10 | 21 | 27 |
+| 3 | Vêtements | Excellent | Solidité = 13, Amélioration 3 (\*\*) Absorption d’énergie 11 | 42 | 54 |
+| 4 | Vêtements | Superbe | Solidité = 14, Amélioration 4 (\*\*) Absorption d’énergie 12 | 87,5 | 112,5 |
+| 5 | Vêtements | Merveilleux | Solidité = 15, Amélioration 5 (\*\*) Absorption d’énergie 13 | 175 | 225 |
+| 6 | Vêtements | Légendaire | Solidité = 16, Amélioration 6 (\*\*) Absorption d’énergie 14 | 350 | 450 |
 
 ## Equipement : Armure
 
 ### Armures complètes
 
-Catégorie 0, Poids 0 (* +2), Encombrement 0, Charge 0 (* +2), Pénalité (attribut) 0. Résistance 0, Protection 0 (* +1), Absorption 0 (* +2). Solidité 10 + Catégorie + Qualité. (*) Version travaillée (+) (étoffes), (**) Version infusée (+100 PO)
+Catégorie 0, Poids 0 (* +2), Encombrement 0, Charge 0 (* +2), Pénalité (attribut) 0. Résistance 0, Protection 0 (* +1), Absorption 0 (* +2). Solidité 10 + Catégorie + Qualité. (\*) Version travaillée (+) (étoffes), (\*\*) Version infusée (+100 PO)
 
 | Q | 0 Tissu | 0 Etoffe | 1 Tissu | 1 Etoffe | 2 Peaux | 2 Cuir | 3 Maille | 3 Ecaille | 4 Plaque | 4 Plate | 5 Cavalerie | 5 ? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

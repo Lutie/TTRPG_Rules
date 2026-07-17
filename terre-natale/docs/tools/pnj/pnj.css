@@ -358,7 +358,13 @@ h3 { font-size: 0.55rem; margin: 0.6rem 0 0.35rem; color: #aaa; }
   color: #ccc;
 }
 .effets li:first-child { border-top: none; }
-.val-x { color: #92cc41; }
+.val-x {
+  color: #92cc41;
+  background: rgba(146, 204, 65, 0.12);
+  border: 1px solid rgba(146, 204, 65, 0.35);
+  padding: 0 0.25rem;
+  text-shadow: 0 0 5px rgba(146, 204, 65, 0.55);
+}
 
 /* ── Tabs ──────────────────────────────────────────────────────── */
 .tab-bar {
@@ -948,3 +954,51 @@ h3 { font-size: 0.55rem; margin: 0.6rem 0 0.35rem; color: #aaa; }
 .acc    { color: #a78bfa; }
 .pos    { color: #92cc41; }
 .neg    { color: #e76e55; }
+
+/* ── Type passif/actif ─────────────────────────────────────────── */
+
+.tag-passif { background: #0f3460; border-color: #4a6fa5 !important; color: #7eb8f7 !important; }
+.tag-actif  { background: #3a1500; border-color: #a05a00 !important; color: #f5a623 !important; }
+
+.type-label-passif { color: #7eb8f7; }
+.type-label-actif  { color: #f5a623; }
+
+.d-chip-passif { color: #7eb8f7; border-color: #1e3a60; background: #0a1f3a; }
+.d-chip-actif  { color: #f5a623; border-color: #60300a; background: #2a1200; }
+
+/* Filtre type dans picker de bibliothèque */
+.m-part-type-filter {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.m-type-btn {
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.38rem;
+  padding: 0.2rem 0.4rem;
+  background: #0d1b2a;
+  border: 2px solid #333;
+  color: #555;
+  cursor: pointer;
+  user-select: none;
+}
+.m-type-btn.active                    { background: #0f3460; border-color: #4a6fa5; color: #7eb8f7; }
+.m-type-btn[data-type="actif"].active { background: #2a1200; border-color: #a05a00; color: #f5a623; }
+
+/* Sélecteur passif/actif dans formulaire */
+.m-type-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.15rem;
+}
+
+.m-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.42rem;
+  color: #ccc;
+  cursor: pointer;
+}

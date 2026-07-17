@@ -64,7 +64,7 @@ Les compétences dites martiales sont celles qui jouent un rôle majeur sur le p
 
 #### Combat
 
-Compétences : Par Genre : Arme à Garde (DEX), Arme à Hampe (AGI), Arme à Manche (FOR), Arme de Défense (CON). Par Type : Arme Tranchante (*), Arme Contondante (*), Arme Perforante (*). Spéciales : Arme Courte (*), Arme Lourde (*), Arme Exotique (*), Arme Flexibles (*), Arme Tactiques (*), Représailles (L). Description : Ce groupe réunit les compétences liées à l’utilisation offensive des armes. Ces compétences mesurent la capacité à frapper, blesser et tirer parti du type ou du maniement d’une arme dans un contexte de confrontation. Elles définissent le style de combat du personnage, qu’il soit précis, puissant, rapide ou défensif.🢟
+Compétences : Par Genre : Arme à Garde (DEX), Arme à Hampe (AGI), Arme à Manche (FOR), Arme de Défense (CON). Par Type : Arme Tranchante (\*), Arme Contondante (\*), Arme Perforante (\*). Spéciales : Arme Courte (\*), Arme Lourde (\*), Arme Exotique (\*), Arme Flexibles (\*), Arme Tactiques (\*), Représailles (L). Description : Ce groupe réunit les compétences liées à l’utilisation offensive des armes. Ces compétences mesurent la capacité à frapper, blesser et tirer parti du type ou du maniement d’une arme dans un contexte de confrontation. Elles définissent le style de combat du personnage, qu’il soit précis, puissant, rapide ou défensif.🢟
 
 Par Genre
 
@@ -75,17 +75,17 @@ Par Genre
 
 Par Type
 
-- Arme Tranchante (*) ⇛ Armes conçues pour couper ou sectionner, efficaces contre les défenses basées sur la mobilité et la précision.🢟
-- Arme Contondante (*) ⇛ Armes qui écrasent et brisent, redoutables contre les défenses fondées sur la force ou l’endurance.🢟
-- Arme Perforante (*) ⇛ Armes qui percent ou transpercent, destinées à exploiter les failles d’une protection ou d’une armure.🢟
+- Arme Tranchante (\*) ⇛ Armes conçues pour couper ou sectionner, efficaces contre les défenses basées sur la mobilité et la précision.🢟
+- Arme Contondante (\*) ⇛ Armes qui écrasent et brisent, redoutables contre les défenses fondées sur la force ou l’endurance.🢟
+- Arme Perforante (\*) ⇛ Armes qui percent ou transpercent, destinées à exploiter les failles d’une protection ou d’une armure.🢟
 
 Spéciales
 
-- Arme Courte (*) ⇛ Armes de faible allonge (catégories 0 à 1), privilégiant la vitesse et la proximité — dagues, poignards, couteaux.🢟
-- Arme Lourde (*) ⇛ Armes de grande taille ou de forte inertie (catégories 4 et plus), exigeant de la puissance et du contrôle.🢟
-- Arme Exotique (*) ⇛ Armes au design ou maniement inhabituel, propres à certaines cultures ou écoles — katar, faux, kusarigama.🢟 ᐉ L’attribut dépend de la forme et du maniement de l’arme (ex. : katar DEX, faux AGI).🢟
-- Arme Flexibles (*) ⇛ Armes à mouvement libre, difficiles à anticiper — fouets, chaînes, nunchakus.🢟
-- Arme Tactique (*) ⇛ Armes utilitaires ou de neutralisation — bolas, filets, crochets, grappins.🢟
+- Arme Courte (\*) ⇛ Armes de faible allonge (catégories 0 à 1), privilégiant la vitesse et la proximité — dagues, poignards, couteaux.🢟
+- Arme Lourde (\*) ⇛ Armes de grande taille ou de forte inertie (catégories 4 et plus), exigeant de la puissance et du contrôle.🢟
+- Arme Exotique (\*) ⇛ Armes au design ou maniement inhabituel, propres à certaines cultures ou écoles — katar, faux, kusarigama.🢟 ᐉ L’attribut dépend de la forme et du maniement de l’arme (ex. : katar DEX, faux AGI).🢟
+- Arme Flexibles (\*) ⇛ Armes à mouvement libre, difficiles à anticiper — fouets, chaînes, nunchakus.🢟
+- Arme Tactique (\*) ⇛ Armes utilitaires ou de neutralisation — bolas, filets, crochets, grappins.🢟
 - Représailles (L) ⇛ Action de contre-attaque directe après une agression, exploitant l’ouverture laissée par l’adversaire.🢟 ᐉ Se base et limite une compétence de combat.🢟
 
 !!! note "Note"
@@ -192,7 +192,7 @@ Compétences : Manipulation (CHA, VOL, INT, RUS, SAG), Influence (CHA/VOL/INT/RU
 - INT — Conditions basées sur la “patiente” (ex: ???).).
 - RUS — Conditions basées sur la “finesse” (ex: ???).🢟
 
-- Représailles (*) ⇛ Réagir immédiatement à une attaque de joute pour contre-attaquer ou riposter. Cette dernière exploite le moment d’ouverture laissé par l’adversaire. Se base et limite une compétence d’inspiration.🢟
+- Représailles (\*) ⇛ Réagir immédiatement à une attaque de joute pour contre-attaquer ou riposter. Cette dernière exploite le moment d’ouverture laissé par l’adversaire. Se base et limite une compétence d’inspiration.🢟
 
 ### Les Compétences de Tir
 

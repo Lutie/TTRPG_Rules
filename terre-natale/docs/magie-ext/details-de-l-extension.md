@@ -734,7 +734,7 @@ Voici la liste des éléments :
 
 ![](images/image63.png)
 
-**Interactions :** ⟰ Fort contre le froid ⟰ Fort contre le bois ⟰ Fort contre le cuir (*) ⟱ Faible contre l’eau ⟱ Faible contre la terre ⟱ Faible contre le métal (*)
+**Interactions :** ⟰ Fort contre le froid ⟰ Fort contre le bois ⟰ Fort contre le cuir (\*) ⟱ Faible contre l’eau ⟱ Faible contre la terre ⟱ Faible contre le métal (\*)
 
 - Domaine : 🔥 Feu Type : Énergie
 - Défense : FOR Forme : Intangible
@@ -747,7 +747,7 @@ Déchaîne des flammes brûlantes qui carbonisent la chair, enflamment les objet
 
 ![](images/image64.png)
 
-**Interactions :** ⟰ Fort contre l’eau ⟰ Fort contre le bois ⟰ Fort contre le tissu (*) ⟱ Faible contre le feu ⟱ Faible contre la terre ⟱ Faible contre le cuir (*)
+**Interactions :** ⟰ Fort contre l’eau ⟰ Fort contre le bois ⟰ Fort contre le tissu (\*) ⟱ Faible contre le feu ⟱ Faible contre la terre ⟱ Faible contre le cuir (\*)
 
 - Domaine : ❄️ Glace Type : Énergie
 - Défense : DEX Forme : Intangible
@@ -760,7 +760,7 @@ Gèle la chair et les liquides, durcit les matériaux et fragilise les structure
 
 ![](images/image65.png)
 
-**Interactions :** ⟰ Fort contre le métal (*) ⟰ Fort contre l’eau ⟰ Fort contre l’air ⟱ Faible contre la terre ⟱ Faible contre le bois ⟱ Faible contre le tissu (*)
+**Interactions :** ⟰ Fort contre le métal (\*) ⟰ Fort contre l’eau ⟰ Fort contre l’air ⟱ Faible contre la terre ⟱ Faible contre le bois ⟱ Faible contre le tissu (\*)
 
 - Domaine : ⚡ Foudre Type : Énergie
 - Défense : AGI Forme : Intangible
@@ -812,7 +812,7 @@ Frappe en bourrasques tranchantes, projette les ennemis et perturbe les attaques
 
 ![](images/image69.png)
 
-**Interactions :** ⟰ Fort contre les énergies (**) ⟱ Faible contre les matières (**)
+**Interactions :** ⟰ Fort contre les énergies (\*\*) ⟱ Faible contre les matières (\*\*)
 
 - Domaine : ☀️ Lumière Type : Primordial Sous type : Divin
 - Défense : PER Forme : Intangible
@@ -825,7 +825,7 @@ Libère une énergie pure qui brûle et dissipe les ténèbres, frappant directe
 
 ![](images/image70.png)
 
-**Interactions :** ⟰ Fort contre les énergies (**) ⟱ Faible contre les matières (**)
+**Interactions :** ⟰ Fort contre les énergies (\*\*) ⟱ Faible contre les matières (\*\*)
 
 - Domaine : 🌑 Ombre Type : Primordial Sous type : Occulte
 - Défense : PER Forme : Intangible
@@ -875,7 +875,7 @@ Une énergie transcendante qui consume et purifie les entités occultes. ➤ Par
 
 ![](images/image55.png)
 
-**Interactions :** ⟰ Fort contre les forces divines (**) ⟱ Faible contre ce qui n’est pas vivant
+**Interactions :** ⟰ Fort contre les forces divines (\*\*) ⟱ Faible contre ce qui n’est pas vivant
 
 - Domaine : 🩸 Impie Type : Fondamental Sous type : Occulte
 - Défense : RUS Forme : Intangible
@@ -964,7 +964,7 @@ Une force intangible qui infiltre l’esprit, sème la confusion et brise la vol
 
 ![](images/image12.png)
 
-**Interactions :** ⟰ Fort contre la science (*) ⟱ Faible contre la nature (*)
+**Interactions :** ⟰ Fort contre la science (\*) ⟱ Faible contre la nature (\*)
 
 - Domaine : ✡️ Arcane Type : Magie
 - Défense : MAG Forme : Intangible

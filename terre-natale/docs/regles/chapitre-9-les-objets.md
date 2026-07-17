@@ -77,7 +77,7 @@ Les outils ne profitent pas toujours de leurs catégories, celle-ci dépend bien
 
 Le MJ peut toujours décider de donner des valeurs contraires à la réussite d'une action et par voie de conséquence une raison d'être à une catégorie différente de 1. Par exemple, une pioche de mineurs pourrait permettre, par coups, de déblayer une certaine quantité de matière définit par un jet. Mais de base ce n'est pas nécessairement le cas, cela dépend donc du MJ.
 
-| Catégorie | Nom | Encombrement (*) (consos) | Pénalités (*) à l'usage | Jets (*) |
+| Catégorie | Nom | Encombrement (\*) (consos) | Pénalités (\*) à l'usage | Jets (\*) |
 | --- | --- | --- | --- | --- |
 | 0 | Anecdotique | 0 | 0 | 2D8 |
 | 1 | Rudimentaire | 1 (½) | 2 | 3D8 |
@@ -149,8 +149,8 @@ Les équipements ne sont pas tous de qualité identique. S'il n'y a parfois pas 
 Les effets d'une qualité dépendent de l'objet dont il est question :
 
 - La qualité d'un objet s'ajoute comme ajustement à l'attribut pour tous les usages relevant de sa fonction première. Cela couvre concrètement :
-    - *Arme de mêlée* : tests d'attaque, de défense (utilisant l'arme) et de tactique ; jets de dégâts ; calcul de l'expertise physique ; calcul de perforation et attrition naturelles.
-    - *Arme à distance* : tests d'attaque ; jets de dégâts ; calcul de l'expertise physique ; calcul de perforation et attrition (arme de jet uniquement) naturelles.
+    - *Arme de mêlée* : tests d'attaque, de défense (utilisant l'arme) et de tactique ; jets de dégâts ; calcul de l'expertise physique.
+    - *Arme à distance* : tests d'attaque ; jets de dégâts ; calcul de l'expertise physique.
     - *Armure* : absorption, protection, défenses passives, actions de défense (n'utilisant pas l'arme telles que l'esquive), sauvegardes contre une expertise physique.
     - *Outil* : tests et jets liés à l'usage de l'outil.
 - La qualité permet de fixer la capacité d'améliorations dont pourra profiter n'importe quel type d'objets (arme, armure, accessoires, outils, et cetera), c'est-à-dire sa capacité d'amélioration.
@@ -245,7 +245,7 @@ La catégorie d'une arme est déterminée par le degré de menace qu'elle repré
 | **Armes lourdes** |  |  |  |  |  |
 | 4 | Arme de Bataille | 20 -8 | 6D8 4 | 100 | 90 |
 | 5 | Arme de Guerre | 25 -10 | 7D8 5 | 120 | 110 |
-| **Catégories spéciales** (**) |  |  |  |  |  |
+| **Catégories spéciales** (\*\*) |  |  |  |  |  |
 | 6 | Arme de Siège léger | 30 -12 | 8D8 6 | 160 | 150 |
 | 7 | Arme de Siège | 35 -14 | 9D8 7 | N/A | 200 |
 | 8 | Arme de Siège lourd | 40 -16 | 10D8 8 | N/A | 250 |
@@ -889,9 +889,9 @@ Avant de créer un objet, un artisan peut élaborer ou acheter un patron qu'il p
 
 Tous les objets, et une majorité des actions d'artisanats pouvant être réalisées, dépendent d'une difficulté de base commune :
 
-- Difficulté de création d'un objet = 10 + 2*qualité + catégorie (*) + niveau d'améliorations (**).
+- Difficulté de création d'un objet = 10 + 2*qualité + catégorie (\*) + niveau d'améliorations (\*\*).
 
-(*) Dans le cas où l'objet à créer n'est pas sujet à une catégorie alors celle-ci ne doit évidemment pas être prise en compte. (**) Dans le cas où l'objet ne présente pas d'amélioration alors évidemment ce paramètre peut être ignoré.
+(\*) Dans le cas où l'objet à créer n'est pas sujet à une catégorie alors celle-ci ne doit évidemment pas être prise en compte. (\*\*) Dans le cas où l'objet ne présente pas d'amélioration alors évidemment ce paramètre peut être ignoré.
 
 Il existe 5 grandes étapes :
 

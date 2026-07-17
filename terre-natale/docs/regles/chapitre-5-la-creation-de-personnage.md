@@ -438,11 +438,11 @@ Ce qui nous donne, étape par étape :
 | De 15 à 16 | 11 PA |  |  |
 | De 16 à 17 | 12 PA |  |  |
 | De 17 à 18 | 13 PA |  |  |
-(*) : Réduire les attributs secondaires doit faire l’objet d’une collaboration (raisons, cohérence, etc) avec le MJ.
+(\*) : Réduire les attributs secondaires doit faire l’objet d’une collaboration (raisons, cohérence, etc) avec le MJ.
 
 Ou encore en partant simplement de 7 et en atteignant une valeur désignée :
 
-|  | Attributs Principaux | (*) | Attributs Secondaires |
+|  | Attributs Principaux | (\*) | Attributs Secondaires |
 | --- | --- | --- | --- |
 | De 7 à 8 | 3 PA | De 10 à 7 | +6 PA |
 | De 7 à 9 | 7 PA | De 10 à 8 | +5 PA |
