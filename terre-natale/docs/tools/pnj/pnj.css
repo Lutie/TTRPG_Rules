@@ -946,6 +946,12 @@ h3 { font-size: 0.55rem; margin: 0.6rem 0 0.35rem; color: #aaa; }
   min-height: 80px;
   resize: vertical;
 }
+.m-param-row { display:flex; align-items:center; gap:.45rem; margin-top:.3rem; color:#aaa; font-size:.4rem; }
+.m-param-row .m-input { flex:1; }
+.m-effect-params { margin-top:.35rem; }
+.m-rule-list { display:flex; flex-direction:column; gap:.35rem; }
+.m-rule-choice { display:grid; grid-template-columns:auto 1fr; gap:.2rem .4rem; padding:.4rem; background:#091521; border:1px solid #1e2a3a; font-size:.42rem; }
+.m-rule-choice span { grid-column:2; color:#777; line-height:1.5; }
 
 /* ── Shared utils ──────────────────────────────────────────────── */
 .muted  { color: #555; font-size: 0.42rem; }

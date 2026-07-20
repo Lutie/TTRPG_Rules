@@ -603,19 +603,82 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | + Déployable | X2 | L’objet peut être déployé (et inversement) à volonté, c’est instantané. Non déployé, l'objet a un encombrement divisé par deux. |  |
 | + Dématérialisable | X3 | L’objet peut être miniaturisé (et inversement) à volonté, c’est instantané mais cela ne peut se produire qu’une fois par scène. Miniaturisé l’objet a un encombrement de ½. |  |
 
-### Les Boucliers d’énergies ()
+### Les Boucliers d'Énergie
+
+Les boucliers d'énergie sont des [objets technologiques complexes](../steam-ext/details/les-objets-technologiques-complexes.md). Lorsqu'il est alimenté et équipé, un bouclier déploie une barrière qui intercepte les attaques physiques avant qu'elles n'atteignent réellement son porteur.
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Bouclier | 80 🪙 | Caractéristiques principales = 1 + Niveau de qualité. Délai de base 4 rounds. | 1 📦 |
-| + caractéristique améliorée | 15 🪙 | Une caractéristique +1 |  |
-| + caractéristique extrême | 25 🪙 | Une caractéristique +2 Deux autres caractéristiques -1 |  |
-| + catégorie inhérente | 30 🪙 | Catégorie d’armure +1 tant que le bouclier n’est pas déchargé |  |
-| + défense inhérente | 20 🪙 | Choix d’un attribut physique. La défense passive de cet attribut +2 tant que le bouclier n’est pas déchargé. |  |
-| + isolation inhérente | 15 🪙 | Choix d’une énergie (feu, froid, électrique). La réduction de dégâts offerte par le bouclier est doublée contre ce type d’énergie. |  |
-| + spécialisé | 20 🪙 | Choix d’un type d’attaque : Mêlée, tir et énergie. Réduction de dégâts x1.5, ne fonctionne que sur le type en question. |  |
+| Bouclier d'énergie | 80 🪙 | Efficacité 2, Fiabilité 2, Maniabilité 2 et Rapidité 2. | 1 📦 |
+| + Efficacité accrue | 15 🪙 | Efficacité +1. Peut être installée jusqu'à trois fois. |  |
+| + Fiabilité accrue | 15 🪙 | Fiabilité +1. Peut être installée jusqu'à trois fois. |  |
+| + Maniabilité accrue | 15 🪙 | Maniabilité +1. Peut être installée jusqu'à trois fois. |  |
+| + Rapidité accrue | 15 🪙 | Rapidité +1. Peut être installée jusqu'à trois fois. |  |
 
-Un bouclier d’énergie est caractérisé par 5 caractéristiques : Autonomie, Capacité, Recharge, Efficacité, Délai, Fiabilité. Lorsque des dégâts sont reçues le bouclier d’énergie voit sa capacité actuelle réduite d’un montant pouvant aller jusqu’à son niveau de résistance et réduit les dégâts d’autant. L’autonomie maximale est égale à la caractéristique d’autonomie x8. La capacité maximale est égale à la caractéristique de capacité x4. Le niveau de résistance est égal à la caractéristique d’efficacité x2. Lorsqu’un certain délai est passé depuis la dernière recharge, le bouclier puise dans son autonomie pour se recharger d’autant que sa caractéristique de recharge. Le délai de base s’exprime en rounds (minimum 1). La difficulté à surmonter pour mettre hors d’état un bouclier est de 10 + 2 x la caractéristique de fiabilité. Si le bouclier fait l’objet d’un test de solidité/panne alors on ajoute au test 2 x la caractéristique de fiabilité. Le bouclier est déchargé si la capacité actuelle est de 0.
+Les améliorations occupent les emplacements de la capacité d'amélioration du bouclier selon les règles ordinaires de l'équipement. Les améliorations spéciales propres aux boucliers, notamment les signatures exclusives des fabricants, ne peuvent être installées qu'une seule fois chacune.
+
+#### Signatures des Fabricants
+
+Les principales [maisons manufacturières](../steam-ext/armes/les-fabricants.md) proposent chacune une amélioration spéciale qui transpose leur doctrine aux boucliers d'énergie. Un bouclier ne peut posséder qu'**une seule signature de fabricant**, quel que soit le nombre d'emplacements dont il dispose.
+
+| Fabricant et signature | Prix | Effet |
+| --- | ---: | --- |
+| **Vorgue — Rupture explosive** | 30 🪙 | Lorsque la Magnitude actuelle tombe à 0, le bouclier produit une déflagration. Toutes les autres cibles à portée de mêlée du porteur subissent des dégâts physiques égaux à l'Efficacité + la Qualité du bouclier. Cet effet ne peut se produire qu'une fois par round. |
+| **Crime — Retour sauvage** | 25 🪙 | Chaque fois que le bouclier intercepte les dégâts physiques d'une attaque de mêlée, l'attaquant subit des dégâts physiques égaux à l'Efficacité du bouclier. |
+| **Melchior — Isolation harmonique** | 25 🪙 | À l'installation, choisir le feu, le froid, la foudre ou l'acide. Le bouclier peut aussi intercepter les dégâts de cette énergie et chaque point de Magnitude dépensé en prévient 2. |
+| **Stalh — Écran spécialisé** | 20 🪙 | À l'installation, choisir les attaques de mêlée ou les attaques de tir. La Magnitude actuelle et maximale du bouclier sont multipliées par 1,5, arrondies à l'inférieur, mais le bouclier n'intercepte plus que les dégâts physiques causés par le type d'attaque choisi. |
+| **Robertson — Cycle imperturbable** | 25 🪙 | Une fois le délai de récupération commencé, les nouvelles pertes de Magnitude ne le font plus recommencer depuis le début. |
+| **Geldiore — Récupération séquentielle** | 30 🪙 | Lorsque le délai s'achève, le bouclier effectue deux récupérations consécutives au lieu d'une. Chacune consomme normalement le Stock et l'ensemble ne déclenche ensuite qu'un seul nouveau délai. |
+| **Steamcore — Circuit régénératif** | 30 🪙 | À la fin de chaque scène, le bouclier récupère 1D8 points de Stock sans nécessiter le remplacement de sa source d'énergie. Cette récupération naturelle ne peut pas amener le Stock actuel au-delà de la Magnitude maximale du bouclier, ni au-delà de son Stock maximal. |
+| **Anshin — Garde inhérente** | 25 🪙 | À l'installation, choisir un attribut physique. Tant que la Magnitude actuelle est supérieure à 0, la défense passive associée à cet attribut augmente de 2. |
+| **Tobine — Alimentation extractible** | 20 🪙 | Remplacer la batterie ou la source d'énergie du bouclier nécessite une action simple au lieu d'une action complexe. |
+| **Brant & Fils — Blindage inhérent** | 30 🪙 | Tant que la Magnitude actuelle est supérieure à 0, la catégorie d'armure du porteur augmente de 1. |
+| **Valombre — Couverture projetée** | 30 🪙 | Le bouclier peut intercepter les dégâts physiques destinés aux alliés situés à portée de mêlée du porteur. Ces interceptions utilisent normalement sa Magnitude actuelle et redémarrent son délai. |
+
+#### Attributs et Caractéristiques du Bouclier
+
+Les quatre attributs techniques d'un bouclier déterminent ses caractéristiques de la manière suivante :
+
+| Attribut technique | Caractéristique | Calcul ou effet |
+| --- | --- | --- |
+| **Efficacité** | **Magnitude maximale** | Efficacité × 2 + Qualité × 2. |
+| **Fiabilité** | **Stock maximal** | Fiabilité × 5 + Qualité × 5. |
+| **Maniabilité** | **Récupération** | Maniabilité + Qualité. |
+| **Rapidité** | **Délai** | Le niveau de Rapidité indique le délai de récupération dans la table ci-dessous. |
+
+La **Magnitude actuelle** représente la quantité de dégâts que le bouclier peut encore intercepter immédiatement. Elle ne peut jamais dépasser sa Magnitude maximale.
+
+Le **Stock actuel** représente l'énergie disponible pour restaurer la Magnitude. Il ne comprend pas la Magnitude actuelle : un bouclier ayant une Magnitude actuelle et maximale de 10 ainsi qu'un Stock actuel et maximal de 20 peut encore intercepter un total de 30 dégâts avant le remplacement de sa source d'énergie.
+
+#### Intercepter une Attaque
+
+Lorsqu'une attaque devrait infliger des dégâts physiques au porteur, le bouclier en réduit automatiquement les dégâts à hauteur de sa Magnitude actuelle. La Magnitude actuelle diminue d'autant que les dégâts ainsi empêchés.
+
+Cette réduction intervient **avant toute autre forme de réduction des dégâts**. Si les dégâts dépassent la Magnitude actuelle, le reliquat atteint normalement le porteur et les autres formes de réduction s'appliquent alors à ce reliquat.
+
+Après chaque perte de Magnitude, le délai de récupération du bouclier débute. Si le bouclier subit une nouvelle perte de Magnitude avant la fin de ce délai, le délai recommence depuis le début. Plusieurs attaques ne créent jamais plusieurs délais simultanés.
+
+#### Récupérer de la Magnitude
+
+Lorsque le délai s'achève, le bouclier restaure une quantité de Magnitude égale à sa Récupération, sans pouvoir dépasser sa Magnitude maximale. Chaque point de Magnitude ainsi restauré consomme un point du Stock actuel. Si le Stock contient moins de points que la Récupération, tous les points restants sont consommés et autant de points de Magnitude sont restaurés.
+
+Tant que la Magnitude n'a pas atteint son maximum et que le Stock n'est pas vide, un nouveau délai débute après chaque récupération. Une perte de Magnitude subie pendant ce nouveau délai le fait, elle aussi, recommencer depuis le début.
+
+| Rapidité | Délai de récupération |
+| ---: | --- |
+| 0 | Fin de la journée. |
+| 1 | Fin de la scène. |
+| 2 | Fin du tour. |
+| 3 | Fin du round. |
+| 4 | Fin de la passe. |
+| 5 | Fin de l'action. |
+| 6 | Immédiat. La récupération a lieu après chaque attaque, y compris entre plusieurs attaques appartenant à une même action. |
+
+#### Remplacer la Source d'Énergie
+
+Un bouclier dont le Stock est vide conserve sa Magnitude actuelle, mais ne peut plus en récupérer. Remplacer sa batterie ou sa source d'énergie steam nécessite une **action complexe (ACTC)**.
+
+Une fois le bouclier de nouveau alimenté, son Stock actuel et sa Magnitude actuelle sont entièrement restaurés.
 
 
 ### Les Automates
@@ -699,20 +762,24 @@ Dispose de 1 attribut fort, 2 élevés, 2 modérés et 1 faible parmi les attrib
 
 ### Les Véhicules
 
-| Nom | Prix | Description / effet | Encombrement / notes |
-| --- | --- | --- | --- |
-| Véhicule Motocycle | 300 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x12, Réserve 100, terrestre | Spécial |
-| Véhicule Automobile | 600 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x10, Réserve 200, terrestre | Spécial |
-| Véhicule Autocar | 1 200 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x8, Réserve 250, terrestre | Spécial |
-| Véhicule Aéronef | 1 000 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x10, Réserve 150, volant | Spécial |
-| Véhicule Zeppelin | 2 500 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x8, Réserve 300, volant | Spécial |
-| Véhicule Aéronef | 5 000 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x6, Réserve 375, volant | Spécial |
-| Véhicule Scooter | 500 🪙 | Attributs = 12 + Qualité Capacité 1 place, Vitesse x8, Réserve 200, marin | Spécial |
-| Véhicule Navire | 1 500 🪙 | Attributs = 10 + Qualité Capacité 4 places, Vitesse x6, Réserve 400, marin | Spécial |
-| Véhicule Steamer | 3 000 🪙 | Attributs = 8 + Qualité Capacité 12 places, Vitesse x4, Réserve 500, marin | Spécial |
-| + Attribut renforcé | 50 🪙 | Renforce un attribut au choix parmi ceux du véhicule de 2. Maximum 2 par attributs. |  |
-| + Attribut boosté | 80 🪙 | Renforce un attribut au choix parmi ceux du véhicule de 4 mais les autres reçoivent une pénalité de 2. Maximum 1 par attributs. |  |
-| + de place | 100 🪙 | Augmente le nombre de place de 1 pour les véhicules légers, de 2 pour les véhicules intermédiaires, de 4 pour les véhicules lourds. |  |
-| + de réserve | 30 🪙 | Augmente le nombre de places de 25 pour les véhicules légers, de 50 pour les véhicules intermédiaires, de 75 pour les véhicules lourds. |  |
+Les véhicules technologiques sont des [objets technologiques complexes](../steam-ext/details/les-objets-technologiques-complexes.md) destinés au déplacement de personnes, de marchandises ou d'équipements. Ils peuvent évoluer sur terre, dans les airs ou sur l'eau selon leur conception.
 
-Les attributs d’un véhicule sont : Armement (tests d’attaque), Manœuvrabilité (test de défense), Vitesse (test tactique), Réactivité (test d’initiative). Fiabilité (sauvegardes et défenses passives), Autonomie (steam), Solidité (structure), Allure (chance). Les caractéristiques d’un véhicule sont : Capacité (places), Vitesse (multiplicateur pour déplacements), Autonomie (carburant). Arme (équipée/utilisables), Armure (blindage).
+On distingue trois grands types de châssis :
+
+- les **châssis légers**, généralement plus rapides mais moins pratiques et moins spacieux ;
+- les **châssis intermédiaires**, qui constituent un juste milieu entre vitesse et capacité ;
+- les **châssis lourds**, généralement plus lents mais plus pratiques et plus spacieux.
+
+| Véhicule | Prix | Milieu | Châssis |
+| --- | ---: | --- | --- |
+| Motocycle | 300 🪙 | Terrestre | Léger |
+| Automobile | 600 🪙 | Terrestre | Intermédiaire |
+| Autocar | 1 200 🪙 | Terrestre | Lourd |
+| Aéronef léger | 1 000 🪙 | Aérien | Léger |
+| Zeppelin | 2 500 🪙 | Aérien | Intermédiaire |
+| Aéronef lourd | 5 000 🪙 | Aérien | Lourd |
+| Scooter aquatique | 500 🪙 | Aquatique | Léger |
+| Navire | 1 500 🪙 | Aquatique | Intermédiaire |
+| Steamer | 3 000 🪙 | Aquatique | Lourd |
+
+Ces exemples décrivent seulement les grandes familles de véhicules disponibles. Les caractéristiques précises des châssis, leur vitesse, leur autonomie, leur capacité et leurs règles de pilotage feront l'objet d'un système dédié.

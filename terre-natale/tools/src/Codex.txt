@@ -1,0 +1,1203 @@
+CODEX D'INSPIRATIONS — NATIONS ET PROVINCES
+===========================================
+
+MODE D'EMPLOI
+-------------
+Compléter librement les champs sous chaque territoire. Quelques mots ou références suffisent.
+Les exemples peuvent venir de jeux vidéo, films, séries, livres, cultures historiques ou œuvres visuelles.
+Laisser vide ce qui n'est pas encore défini.
+
+Format futur des valeurs de caste : Arjan (Eddonie), EFT (Brehtnorr), Rosaï (Ten Chu), etc.
+
+GéNéRALITé
+==========
+
+Pour infos:
+Dans cet univers la magie altère la réalité et la technologie "fine" ne surviens pas.
+Ainsi une division importante se fait entre ces deux "choix" d'évolution.
+Il n'y a qu'une nation qui s'approche d'une alliance de ces deux domaines mais ça se fait par des choix de modération assumé (de gros écrous ont moins de chance de casser si la réalité shift quelques instants, alors que de petits écrous ça péte dessuite).
+Notons que la religion c'est un sujet mais la foi est tanto orienté vers des entités invisibles, tanto des personnes importantes du passé, tanto des entités puissantes du présent (dragon ancestraux etc).
+
+ARJAN
+=====
+
+Identité générale d'Arjan
+Actuellement : confédération de quatre principautés ; densément peuplé ; climat tempéré ; sécurité et stabilité ; reliefs modérés ; infrastructures ; première puissance culturelle ; culture empérienne ; ouverture d’esprit ; flexibilité ; cosmopolitisme pragmatique ; intégration utile des cultures étrangères ; compromis magie–technologie ; Cercles relativement ouverts ; ellendisme majoritaire mais pluralisme religieux ; méfiance envers Drakkans et Orkkans ; chevalerie ; Lyrium ; Alexandrie ; imprimerie
+Inspirations / médias : 
+Mots-clés : Honneur, Courage, Inclusivité, Noblesse, Connaissances, Savoir
+Esthétique / ambiance :
+Magie, science et religion : Magie et science 3/5, religion 5/5 (très attaché à l'histoire de l'ellendrisme)
+Ce qui ne correspond PAS à Arjan :
+Notes libres : classique de low fantasy avec l'ambivalence et pseudo cohésion magie/technologie steam que promeut le thème principale du jdr, la nation la plus influente, à peu près cosmopolite (dépends des lieux) et histoire dense
+
+Arjan (Eddonie)
+Actuellement : Alexandrie ; république ; centre politique et historique ; cosmopolitisme ; diplomatie ; érudition ; Chevaliers d’Argent ; magie–technologie
+Inspirations / médias : Guild wars 2 (ville du promontoire notament, pour son immensité, ses batiments, etc)
+Mots-clés : Alliance techno magie, diplomates, érudits, chevalerie
+Identité particulière : C'est LA nation ou la fusion des deux domaines se fait le mieux, c'est la nation la plus cosmolpolite au monde, sa capitale Alexandrie est aussi la ville la plus connue et riche en histoire (guerre etc)
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom : Mélante + Celtic Breton
+Gentilé : Eddonien 
+Régions : Nord - Realm "Côte des Rois" (Reine); Centre - Centra "Massif Central" (Norcia); Ouest - Taelis (Saïgon), Est - Irendice "Croisées des chemins" (Avarica); Nord Thiria (Corinth)
+Autres villes : Prontera
+Lieux : Monté doré (pélerinage)
+Capitale : Alexandrie
+
+Arjan (Aldanie / Erasia)
+Actuellement : monarchie constitutionnelle ; Chevaliers Dragons ; magie élevée ; Aldebaran ; Plaine des Éclairs ; monolithes ; ruines anciennes
+Inspirations / médias :
+Mots-clés :
+Identité particulière : Angleterre anglosaxxonne, renaissance
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom : Anglosaxon, anglais renaissance
+Gentilé : Aldanien
+Régions : Nord - Theocia (Aldebaran); Centre Ouest - Roseiron (Basilden); Centre Est - Boecia (Alberta); Sud Ouest - Imir "plaine des éclairs" (Aurora); Sud Est - Valeron (Carlon)
+Autres villes :
+Lieux :
+Capitale : Lendon
+
+Arjan (Hildie)
+Actuellement : oligarchie aristocratique ; Chevaliers Pégase ; terres dracosires ; frontière militarisée ; Almindor ; artefacts célestes ; marbre
+Inspirations / médias : Fire Emblem (pour les dragonniers)
+Mots-clés : 
+Identité particulière : La moitié du territoire d'Hildie est constituée de l'épine dorsale d'Hildemarne, une chaine de montagne qui sépare le continent en deux
+Ce qui ne lui correspond PAS :
+Notes libres : ville Aldebaran de Ragnarok : écroues, horloge immense etc; C'est ici aussi qu'on retrouve quelques pleuplades naines dans les montagnes où les hommes ne se sont pas installés
+Langue : Thévenan Sud
+Inspiration langue/nom : Royal / Posh? (genre polish ?)
+Gentilé : Hildan / Hildonien
+Régions : Nord Est - Salamandre (Kaen); Nord Centre - Basse Marches (Aronea); Nord Ouest - Undra (Irun); Sud Ouest - Massif Oriental (Elda); Sud Centre - Thesos (Arlean)
+Autres villes : Valmare
+Cités naines : Martelgarde; Martelgrim; Foracier
+Lieux : Epine Dorsale d'Hildemarne
+Capitale : Belleroche
+
+Arjan (Brétonie)
+Actuellement : indépendance ; Mousquetaires ; berceau industriel ; armes à feu ; mécanique lourde ; défiance envers la magie ; origine des EFT
+Inspirations / médias : Raisonance of Fate
+Mots-clés : Armes à feu, mécanique lourde (et donc résistante à la magie)
+Identité particulière : Colonialiste, amateurs de café, 
+Ce qui ne lui correspond PAS : La magie
+Notes libres : Une nation qui embrasse la technologique et dénigre la magie, mais son niveau de techno est différent des EFT, c'est plus modéré : de grosses machines, des armes à feu (les fabriquants des EFTs sont parfois originaires d'ici), en fait c'est le berceau de la technologie et les EFTs ont été fondés par une majorité de colon Brétoniens
+Langue : Thévenan Sud
+Inspiration langue/nom : Hispanic, Brazilian, Galician, Spanish renaissance
+Gentilé : Brétonien
+Régions : Nord - Almédia (Valentine); Centre Nord - Haut Vallon "plaine courronnées", "plaines du soleil" (Laon); Centre Ouest - Vallon "plaine du soleil" (Terragon); Centre est - Baldas (Carthana); Centre Sud - Bas vallon (Qviado); Sud - Huelda (Cartadella)
+Autres villes :
+Lieux : Foret des princes, foret étrange
+Capitale : Castelion
+
+
+ASURA
+=====
+
+Identité générale d'Asura
+Actuellement : territoire compact et dense ; climat tempéré ; réseau côtier et fluvial ; dangers ; fortes tensions politiques ; elfes blancs ; suprématie magique ; magie libre ; magie comme outil, arme, culture et source d’autorité ; quatre provinces autonomes ; Magistère ; hiérarchie sociale ; cités façonnées par magie ; pierre lacrymale
+Inspirations / médias :
+Mots-clés : Magie, ordre, elfes (blancs)La magie au dessus de tout
+Esthétique / ambiance : Des tours de nacre forgée par la magie, des mages dans toutes les strats de la société, la magie sert à tout et est omniprésente, ceux qui ne la pratique pas ont une vie de servitude calme et résignée
+Magie, science et religion : Magie 5/5, Science 0, Religion 3 (révèrent les esprits et eidolons vivant les plans élémentaires, mais la religion n'est pas aussi prégnante qu'ailleurs, là bas on ne parle même pas de religion)
+Ce qui ne correspond PAS à Asura : Technologie
+Notes libres : Nation des elfes blancs, d'autres ethnies (comme des humains) vivent ici mais ce sont les elfes qui gouvernent tout en haut, avec d'ailleurs un certain intéret pour les classes sociales "fonctionelles" et une grosse mise en avant de la magie
+C'est LA nation où la magie est la plus utilisée, elle sert à tout : forger, construire, etc... tout le monde n'est pas en mesure de le faire, mais l'élite fait tout avec et se rendent ainsi indispensables, c'est le royaume à l'origine de la magie 
+
+Asura (Lussante)
+Actuellement : province asurienne ; magie institutionnelle ; identité locale encore peu explicitée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres :
+Langue : Azuran (par les elfes sélunéens dit blancs), Thévenan Ouest (les autres)
+Inspiration langue/nom : Danish, old high german (old family), German renaissance
+Gentilé : Lussantins / Lussantines
+Régions : Nord Ouest - Ostia (Ortius); Nord Centre - Rhanon (Halden); Nord Est - Marche de midi "Odéon" (Lerhon); Sud Ouest - Aveline "Haut Jardin" (Viassa); Sud Est - Nacre "Foret de Nacre" (Erith)
+Autres villes : Val Florence
+Lieux :
+Capitale : Geffenia
+
+Asura (Redante)
+Actuellement : suprématie magique ; autoritarisme ; esclavage ; anti-ellendisme ; Ecclésia impériale ; Nobleterre
+Inspirations / médias : Dragon Age (Tevinter)
+Mots-clés : Suprémaciste magie
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres : C'est une nation de fachiste elfs qui dénigre les non mages et les traitent en esclavage, ils sont également contre le courant religieux Ellendriste et on fondait une version alternative (masculiniste) de cette dernière
+Langue : Thévenan Ouest
+Inspiration langue/nom : Dutch
+Gentilé : Redanien
+Régions : N - Solstein "plaines du terminus" (Alm); Centre Ouest - Sorla (Iona); Centre - Eïsenor (Lumen); Center Est - Essen (luden); Sud - Rhein (Ibben)
+Autres villes : Bronn, Katelwande
+Lieux : 
+Capitale : Nobleterre
+
+Asura (Bellante)
+Actuellement : province la plus humaine ; noblesse ; intrigues de cour ; apparences ; alliances ; magie asurienne
+Inspirations / médias : Dragon Age (Orlaïs)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres : C'est la nation la plus humaine d'Asura, avec sa noblesse très inspirée de Orlaïs de Dragon Age (masques, faux semblants, alliances, etc), même le visuel des lieux correspondent à la capitale d'Orlaïs
+Langue : Thévenan Ouest
+Inspiration langue/nom : Français (french renaissance)
+Gentilé : Bellantin
+Régions : Nord - Alverne (Arres); Centre - Daume (Val Daume); Sud - Marches de minuits (eve); Est - Theo "Val Libre", "Héraut" (Armadea)
+Autres villes : Arly
+Lieux : Mont Creux (mène à l'académie de Tolaria, Creux de Gallesier), Emprise du loup (foret entre 3 nations)
+Capitale :  Rocheneuve
+
+Asura (Corante)
+Actuellement : Compagnie Glorieuse ; mercenariat ; magie asurienne ; identité locale encore partiellement documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Victorian (+ old high german)
+Gentilé : Corantin
+Régions : Nord - Rhune (rhune, oui la grande ville porte le nom de la région); Centre ouest - Aura, "côte d'aure" (Aura); Centre Est - Comté (?); Sud - Grand Ouest, "Landes émeraudes" (Granide)
+Autres villes :
+Lieux :
+Capitale : Bellegarde
+
+
+SYLVENGARDE
+===========
+
+Identité générale de Sylvengarde
+Actuellement : faible densité ; côtes ; forêts ; reliefs extrêmes ; dangers naturels ; communautés autonomes ; royaume elfique forestier ; liberté ; Nature Profonde ; noshinisme ; Grand Chêne ; magie employée avec parcimonie ; respect des équilibres naturels ; diversité elfes–férales–démies–humains ; grande richesse culturelle mais cohésion fragile ; commerce surtout humain ; défiance envers la technologie ; quatre provinces
+Inspirations / médias :
+Mots-clés : Nature, traditions, elfes, communion
+Valeurs et mentalité : Vive dans des cités façonnées dans les arbres, à l'aide de technique naturelle qui prenne un temps fou à être mis en place; les cités ont généralement deux zones : la zone au sol généralement définit par l'emplacement des troncs; la zone suspendue, où les batissent sont rejointes par des ponts suspendues etc
+Esthétique / ambiance :
+Magie, science et religion : Nature 5/5 (communion); Magie 3/5 (petit usage, mais avec encadrement etc); Technologie 0/5 (aborré, il y a eu des guerres meurtrière entre Sylvengarde et les EFTs pour des raisons d'opposition nature <> technologie); Religion 5/5 (très pieux envers le Grand Chêne et la Nature Profonde, courant dit Noshiniste, Noshi étant une prophète ayant dans un passé lointain parlé pour la nature profonde)
+Ce qui ne correspond PAS à Sylvengarde : Technologie
+Notes libres : Nation des elfes, d'autres races y vivent mais ce sont les elfs qui la gourverne
+Inspiration langue/nom : Elfique Terre du Milieu : Sindarin
+
+Sylvengarde (Aelven)
+Actuellement : cœur politique ; culture elfique ; forêt ; tradition ; identité locale encore légère
+Inspirations / médias : Elfe, la BD, avec ici la structure de la société elfes bruns (des bois)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres : 
+Langue : Thévenan Est
+Inspiration langue/nom : Voir Sylvengarde
+Gentilé : Aelvin
+Régions : Nord Ouest - Halwin "Rivages bleus" (CANUIN, ville bleu); Nord Centre - Norëndo "Pays du chêne" (OSTORN, cité grand arbre); Nord Est - Edherin "Dame couronnée" (ARHOBAS, port royal); Sud - Dorinn "pays de chansons" (ARGARTH, ville art)
+Autres villes : CARMAENAS (forteresse royale)
+Lieux :
+
+Sylvengarde (Sodden)
+Actuellement : culture elfique et forestière ; identité locale encore peu explicitée
+Inspirations / médias : Elden Ring
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres : Ici la civilisation humaine avait un peu pris sur les côtes etc... c'était assez éloigné, sur une partie du continent de l'époque peu connu/exploré, mais des événements ont provoqués la chute de ces cités et le peu qui reste sous contrôle humain sont sur les rives du Sodden, pas dans les terres; désormais des cités et batiments en ruines se cachent ci et là comme dans Elden ring, la présence du grand Chêne dans la région voisine étant majuestueuse et instillant un calme notable; désormais les elfes ont repris les lieux, vivant dans des bosquets et laissant le reste à la nature, depuis des guerre scontre les EFT du nord ont ravagés les rives du nord et c'est d'autant plus un "champs de guerre" sauvage et couvert de végétal qu'avant.
+Langue : Thévenan Est
+Inspiration langue/nom : Voir Sylvengarde
+Gentilé : Soddien
+Régions :
+    Grand ouest : Annorë "ouest pays" 
+    Ouest Nord : Injéna "veille bordure" (MANDGAER, "bord de rivière)
+    Ouest Sud EREBRANN "division isolé du royaume" (OSTADEL "cité arrière")
+    Ouest Centre : ERYNÛN "foret coeur" (NADESGAR "vallée de la rive" ou "bord de la rivière")
+    Centre  : ORELEN "monts étoilés" (ANFAROW "pour chasseur)
+    Est Nord : Garrod "royaume du nord" (EREBFÔR "isolé nord")
+    Est Sud : DOLRÛN "?" (GOVANNHARN, HARN = "austral", ,GOVANN = ???)
+Autres villes (elfiques) : InJéNa, ANNORË, ERYNÛN; ORELEN; DOLRÛN; GARROD; HALUIN; NORËNDO; ELDERIN; DORRIN
+Lieux :
+capitale : AMATHSANT "muraille, jardin"
+
+Sylvengarde (Eldden)
+Actuellement : culture elfique et forestière ; identité locale encore peu explicitée
+Inspirations / médias :
+Mots-clés : Grand Chêne
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres :
+Langue : Thévenan Est
+Inspiration langue/nom : Voir Sylvengarde
+Gentilé : Elddien
+Régions :
+    Centre : ORDORON "vieux chêne"
+Autres villes :
+    Capitale : FENNAS "entrée"
+    S/s Capitale : GLAMOR "echos"
+    Solstice, etc... : Ce sont les noms "thévenan sud" de ces cités
+Lieux : Grand Chêne
+
+Sylvengarde (Syldavie)
+Actuellement : ancienne province d’Arjan ; racines arjantiennes ; ellendisme ; coexistence humains–elfes ; féodalité humaine ; Payon
+Inspirations / médias : Italie
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS : Technologie
+Notes libres : C'est la nation où l'entente entre elfs bruns/des bois et humaines est  la plus forte, d'ailleurs ici le pouvoir féodale est laissé aux hommes, les elfes ne servant que de garde fous (qui gèrent cependant eux même leurs cité état etc)
+Langue : Thévenan Est
+Inspiration langue/nom : Italien
+Gentilé : Syldavien
+Régions :
+    Ouest Nord : Remo (Drenza)
+    Ouest Sud : Eoste (Rhael)
+    Centre : Venacci (Aquile)
+    Est : Ambardie (Undine)
+Autres villes :
+Lieux :
+
+
+ATLAS
+=====
+
+Identité générale d'Atlas
+Actuellement : vaste territoire chaud ; faible densité ; déserts ; volcans ; dangers ; enclaves agricoles productives ; contrastes territoriaux ; fragmentation ; instabilité ; esclavage ; opportunisme ; faible cohésion ; faible foi ; faible développement magique et technologique
+Inspirations / médias :
+Mots-clés : Esclavagisme, Opportunisme
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion : Tout est à 1/5, ici les gens ont ni la foi aux autres, ni à l'évolution, ni rien, c'est chacun pour soi, évidemment on peux retrouver des mages ou des techniciens ici, mais ça ne fait pas partis de la culture ou des infrastructures classiques qu'on retrouve dans les villes de ces nations
+Ce qui ne correspond PAS à Atlas :
+Notes libres : 
+
+Atlas (Aldricia)
+Actuellement : province d’Atlas ; identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : 
+Langue : Tévenan Sud
+Inspiration langue/nom : Arabie Muslim
+Gentilé : Aldricien
+Régions :
+    Nord Cntre : RAHBIA (ancienne LEVANTINE, ex colonnie Eddonie)
+    Nord Est : JORDANIA (ex colonire Brétonienne)
+    Ouest : RAHAT "repos du voyageur"
+    Centrer : ALBALA "coeur du pays
+    Sud : ALSAHRA "désert du sud"
+Autres villes : Baïda, Médéa, Ambas, Constantine (dans le nord centre), Eron, Idriss, Thabe, Lut Salein, Valentine
+Lieux : Cité d'airain (ancienne cité abandonnée/maudite), Montagne de Nesses
+Capitale : SOLMEIN (port)
+
+Atlas (Lantria)
+Actuellement : province d’Atlas ; identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :  Thévenan sud
+Inspiration langue/nom : Albanian (+ marrocan)
+Gentilé :
+Régions :
+    Nord - Fiorë (VORA)
+    Centre Haut - Albasen (MERRIK)
+    Centre bas - Durras (Sdorica)
+    Sud - Lizhë (Kevoja)
+Autres villes : Korsa
+Lieux : Cité naine de MartelSang
+Capitale : Elbeh
+
+Atlas (Centria)
+Actuellement : province d’Atlas ; identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom : Bosnian, ancien Ishulda, Palestine, Bosnie
+Gentilé : Centrien
+Régions :
+    Ouest - Forsa (Grandia)
+    Centre Ouest - Zenica (Visaka)
+    Centre Est - Domos (Lavno)
+    Est - Unah (Mest)
+Autres villes : 
+Lieux : Tulla (ville de mages dans le désert)
+Capitale : Lut Gottir
+
+Atlas (Ildorne)
+Actuellement : province d’Atlas ; identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom : Algerian, Afghan
+Gentilé : Ildornien
+Régions :
+    Nord - Iris (Bassouda)
+    Centre Ouest - Silas (Mijal)
+    Centre Est - Medeo (Seïdou)
+    Haut Sud - Briska (Rejaïa)
+    Bas Sud - Iilazi (Alja)
+Autres villes : Rishadan (port)
+Lieux : Brisants de Shivan
+Capitale : Morroc
+
+
+KELD
+====
+
+Identité générale de Keld
+Actuellement : royaume continental ; très faible densité ; habitat dispersé ; froid extrême ; dangers ; ressources naturelles ; agriculture locale malgré le climat ; clans ; traditions guerrières ; barbarie vue de l’extérieur ; endurance ; autonomie ; survie ; épreuves personnelles ; justice par la chasse ; force, ruse et usage du terrain ; Guivres historiques ou mythiques divinisées ; faible technologie ; culture distincte du modèle viking de Skellehn et Nierd
+Inspirations / médias : 
+Mots-clés : Barbares
+Valeurs et mentalité : Clans
+Esthétique / ambiance : Des tribus éparpillées sur des terres froides et inhospitalières ; rudesse continentale, mais pas viking
+Magie, science et religion : Magie 2/5, Religion 4/5 (culte des Guivres), Science 0, Nature 4/5 (respect de la nature qui est perçue comme dure mais juste si respectée, défiance envers la nature mais dans le sens d'une défiance "positive")
+Ce qui ne correspond PAS à Keld :
+Notes libres : La religion de Keld repose sur les Guivres. Le panthéon nordique appartient à Skellehn et Nierd ; les noms nordiques de certaines Hautes Guivres ne doivent pas entraîner de fusion entre les deux religions
+
+Keld (Almindor)
+Actuellement : autocratie ; Val’Dome ; expansionnisme ; incursions en Hildie ; reliefs ; Vastebois ; Ravin Sans Fond
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom : Bulgarian
+Gentilé : Almindoren
+Régions :
+    Nord - Sinistra (safira)
+    Nord Est - Vindun (Russo)
+    Sud Ouest - Plaven (Bargo)
+    Sud Centre - Somnia (Orya)
+    Sud Est (haut) - Verna (Garnova)
+    Sud Est (bas) - Feduncia (Brovo)
+Autres villes : Denerim
+Capitale : Valdome
+Lieux : Confrefort de Crêtepin
+
+Keld (Kjeldor)
+Actuellement : culture keldane continentale ; culture martiale ; javeliniers ; Kjeldora, « perle du nord » ; identité locale encore légère ; pas de coutumes vikings attribuées par défaut
+Inspirations / médias : Magic The Gathering (Kjeldor)
+Mots-clés : 
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom :
+Gentilé : Kjeldorien
+Régions :
+    Nord - Kosnia (Birka)
+    Centre Est - Ostana (Riba)
+    Centre Ouest - Eshia (Heddei)
+    Sud Est - Ustar (Navigra)
+    Sud Ouest - Akadia (Rurik)
+    îles - Feroa (Oskilde)
+Autres villes : Morthal
+Lieux :
+2 capitales : Benalia ET Kjeldora
+
+Keld (Albastor)
+Actuellement : conflits avec Almindor ; identité culturelle encore peu documentée
+Inspirations / médias : Bordeciel (Skyrim)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom :
+Gentilé :
+Régions :
+    Nord Ouest - Efreim (Skara)
+    Nord Est - Uthar (Kirkwall)
+    Sud - Theice (Skelig)
+Autres villes : Val Dome; Balduvia; Vendome
+Lieux : Académie de Fordhiver (mages)
+
+Keld (Endor)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue : Thévenan Sud
+Inspiration langue/nom :
+Gentilé : Endoran
+Régions :
+    Nord Ouest - Eshea (Roza)
+    Centre Haut - Edros (Oslo)
+    Centre Bas - Eshen (Osgarden)
+    Est - Lesnia (Munsö)
+    Sud - Boria (Lodose)
+Autres villes : Azgarde
+Capitale : Belleragonde
+Lieux :
+
+
+ÉTATS FÉDÉRÉS TECHNOCRATES — EFT
+================================
+
+Identité générale des EFT
+Actuellement : territoire immense ; longues distances ; faible densité ; forte population totale ; climats rudes ; territoires dangereux ; agriculture productive ; infrastructures vitales ; fédération technocratique ; société urbaine et analytique ; intelligence ; ruse ; expertise ; utilité ; invention ; rendement ; technologie comme allégeance culturelle ; vapeur ; industrie ; barrages ; armes à feu ; aéronefs ; locomotives ; Olutium ; magie interdite ; Hautes Terres ; expansionnisme
+Inspirations / médias :
+Mots-clés :
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion :
+Ce qui ne correspond PAS aux EFT :
+Notes libres :
+
+EFT (Brehtnorr)
+Actuellement : Ravengard ; cité des machines ; origine brétonienne ; cœur industriel ; mécanique ; armes à feu ; fondation de la fédération
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : La nation la plus technologique qui soit, très "Midgard" de FF7 mais en steampunk en réalité
+Langue : Thévenan Nord
+Inspiration langue/nom : Portuguese
+Gentilé :
+Régions :
+    Nord - Orion (Leiria)
+    Nord Est - Almaderia (Almadia)
+    Sud - Etna (Cacem)
+    Ouest - Sierra (Elvas)
+Autres villes : Torres, Guardia, Rainha
+Capitale : Insomnia
+Lieux : Razzengan
+
+EFT (Tantrirr)
+Actuellement : industrie ; infrastructures ; Hautes Terres ; identité locale encore peu explicitée
+Inspirations / médias : Arcanum (Tarante)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : On est sur de l'industrialisation massive, les chemins de fer, la mécanique lourde qui tâche mais qui fonctionne, inspiration Arcanum avec la ville de Tarante notament, qui correspond bien au mood
+Langue : Thévenan Nord
+Inspiration langue/nom : Mélange des nations "colonialiste" du sud (français, espagnol, italien... enfin surtout hispanique)
+Gentilé :
+Régions :
+    Nord - Vendigroth (Einbech)
+    Ouest - Duma (Caladon)
+    Sud Est - Amaranth (einbroch)
+    Centre - Morbihan (Tarante)
+    Nord Ouest - Cumbria (junon, ravagée par une catastrophe industrielle)
+    Nord Est - Sandor (Frontierra)  
+Autres villes :
+Lieux :
+Pas de "capitale" : La ville importante de chaque région font office de sous capitale
+
+EFT (Corthnirr)
+Actuellement : industrie ; infrastructures ; Hautes Terres ; identité locale encore peu explicitée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : Nation dans une zone plutôt désertique, elle utilise beaucoup le steam et le flux comme des formes d'énergies sous forme liquide, etc... La technologie y est d'aspect quasi mysthique avec ses réservoires bleus lumineux, ses mécanismes en quasi fil de fer, un visuel qu'on retrouve sur des cartes magiques notament (je crois dans l'extension qui reviens sur les origines de Shandra ?)
+Langue : Thévenan Nord
+Inspiration langue/nom : Shekpearian
+Gentilé :
+Régions :
+    Nord - Moortime (Dragnier)
+    Sud - Phyrexia (Elm)
+    Archipels - Tyrrell (Avonlea)
+    Est - Damocles (Emporia)
+    Ouest - Aegis (Alondite)
+    îles - Sentinelle (ancienne colonie)
+Autres villes :
+Lieux :
+
+EFT (Valdorr)
+Actuellement : industrie ; Hautes Terres ; territoire dangereux ; identité locale encore partiellement documentée
+Inspirations / médias : Borderlands
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : Inspiré de borderlands pour ce qui est du coté "dangereux", des rivalités, des armes à feu, un vrai far ouest technologique, des zones de non droits, etc évidemment la technologie n'a pas le niveau de celle de Borderlands, mais c'est aussi crasseux et bourré d'automate plus ou moins terminé/safe
+Langue : Thévenan Nord
+Inspiration langue/nom : Elizabethan (ancienne colonie aldanienne)
+Gentilé :
+Régions :
+    Nord - Solomon (Solmir)
+    Ouest - Vesuvea (Irone)
+    Sud - Rives (Navigen)
+    Est - Aldara (Elda)
+Autres villes :
+Lieux :
+Capitale : Aluvia
+
+EFT (Lythmirr)
+Actuellement : nord-est ; côte pandysséenne ; climat extrême ; territoire dangereux ; Penumbra, Umbra et Rahj ; Magguns
+Inspirations / médias : Dishonnored (Dunwall)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : Ici on est dans une ambience tout à fait Dishonnoredsque, avec notament l'abbey du Quidam, la chasse aux sorcières et entités qui dérègle la technologie, une forme de peste et de terres bousillées pr des dérives technologiques, une nation sanns espoirs, crasseuse, triste
+Langue : Thévenan Nord
+Inspiration langue/nom : Moorish, Peruvian, Phoenician
+Gentilé :
+Régions :
+    Centre - CALAMDOOR (sandopolis)
+    Haut Centre - Rajh (Eiplios)
+    Nord Est - Umbra (Thran)
+    Grand Nord - Penumbra (?)
+    Sud Est - Mtenda (?)
+    Sud Ouest - Zhelfir (?)
+Autres villes :
+Lieux :
+
+
+MORR
+====
+
+Identité générale de Morr
+Actuellement : territoire étendu ; faible densité ; côtes ; agriculture et ressources correctes ; dangers variables ; terres arides ; steppes ; nomadisme ; mobilité ; vigilance ; perception ; lecture du terrain ; pisteurs ; communautés mobiles ; adaptation aux milieux désertiques ; temples ; trois provinces ; culture religieuse et caravanière à préciser
+Inspirations / médias :
+Mots-clés : Aride, steppes, temples, nomades
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion :
+Ce qui ne correspond PAS à Morr :
+Notes libres :
+
+Morr (Musabri)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Morr (Travincah)
+Actuellement : jungle ; ruines ; temples ; territoire dangereux ; inspiration Kurast à préciser
+Inspirations / médias : Diablo 2 (Acte 3, jungle de kurast)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Morr (Talaran)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+
+ALBALION
+========
+
+Identité générale d'Albalion
+Actuellement : environ 92 millions d’habitants ; forte densité ; huit provinces sur un territoire compact ; maillage féodal et institutionnel ; « Conquérants » ; ténacité ; volonté ; culture de guerre ; conflits permanents contre les vermines ; Régalias ; Tour du Trophaïon ; Chapitre des Mages ; quatre académies ; formation et affectation des mages ; conseillers seigneuriaux ; Légion arcanique ; Sorceleurs ; saints patrons ; ruines anciennes ; devoir ; lignées ; protection contre le surnaturel
+Inspirations / médias : Legacy of Kain (pour le délire autour des pilliers, ici des arbres), Witcher (pour tout ce qui est witcher, et en réalité aussi pour l'esthétique crasseuse/médiévale), Vampire la Mascarade (pour le délire autour des vampires, ici aussi il y a plusieurs famille)
+Mots-clés : Guerre, féodalité, éternel conflits (contre les vermines)
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion :
+Ce qui ne correspond PAS à Albalion : Technologie
+Notes libres :
+
+Albalion (Esgaroth)
+Actuellement : rempart du Nord ; militarisme ; discipline ; devoir ; honneur ; égalité militaire ; service au Mur ; rites de passage ; soldats ; stratèges ; ingénieurs militaires ; forgerons ; magie utilitaire ; austérité
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Gravehn)
+Actuellement : miroir du lac ; secrets ; alchimie ; astrologie ; histoire ancienne ; érudition ; archéologues ; superstitions ; rituels aquatiques ; musique mélancolique ; artistes mystiques ; savoirs oubliés
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Vensihd)
+Actuellement : ports ; commerce maritime ; cosmopolitisme ; guildes ; richesse ; innovation ; négociation ; navigation ; artisans ; influences étrangères ; rivalité marchands–nobles ; esprits marins ; opportunisme
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Kaaldhen)
+Actuellement : cavalerie ; chevaux légendaires ; familles équestres ; honneur ; liberté ; héritage nomade ; Tournoi des Vents ; joutes montées ; chamanes équestres ; esprits des plaines ; raids rapides
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Tolvihn)
+Actuellement : grenier du royaume ; agriculture ; vignobles ; fromages ; élevage ; artisanat rural ; prospérité ; fêtes des moissons ; gastronomie ; Esprit de la Baie ; travail ; abondance
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Ninvehd)
+Actuellement : île brumeuse ; vents ; mer ; pêche ; navigation ; astrologie ; mysticisme ; superstitions ; Varndell ; magie profane ; ombres, âmes et illusions ; lanternes flottantes ; savoirs interdits ; isolement
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Nassgoth)
+Actuellement : capitale royale ; unité du royaume ; cour ; administration ; diplomatie ; intrigues ; stratégie ; prestige ; chasse aristocratique ; grandes routes ; magie défensive ; Tour du Trophaïon ; Griffon
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Albalion (Mirrdehn)
+Actuellement : cœur spirituel ; Église Royale ; foi ; contemplation ; pèlerinages ; sanctuaires montagneux ; reliques ; moines guerriers ; prêtres ; guérisseurs ; Yselgard ; magie spirituelle ; Skellehn ; austérité ; Neufs Arbres Sacrés
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+
+AUBE
+====
+
+Identité générale d'Aube
+Actuellement : sud-est ; Mer Noire ; population et densité intermédiaires ; reliefs ; tensions politiques ; fragmentation ; crise ; Ravendorf et Valdenfel plus instables et dangereux ; quatre provinces ; identité générale encore partiellement documentée
+Inspirations / médias :
+Mots-clés :
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion :
+Ce qui ne correspond PAS à Aube :
+Notes libres : Alors techniquement dans le présent aube a été décimé par la "morvivance", donc les descriptions des nations ne veulent que pour le passé, et de fait je ne m'y attarde pas trop car les documents de castes etc font plutôt référence au présent
+
+Aube (Iardolf)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Aube (Castelfel)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Aube (Valdenfel)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Aube (Ravendorf)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+
+ROSAÏ
+=====
+
+Identité générale de Rosaï
+Actuellement : plus de 100 millions d’habitants ; nation la plus peuplée ; forte densité ; grandes capitales provinciales ; contraste intérieur–littoral ; Han Tarra très maritime ; Chine alternative des Royaumes combattants ; sept anciennes nations recomposées ; Tarra, Sao et Ten ; traditionalisme ; politesse codifiée ; réserve ; calme ; maîtrise de soi ; égalité hommes–femmes avec domaines de prestige différenciés ; culture guerrière ; arts martiaux chinois ; animisme ; cinq éléments ; Kamis ; Shugenja ; Mikos adoptées par mélange culturel ; culte draconique très antérieur à l’unification ; mont Chromium ; dragon protecteur de l’humanité ; guerres avec Shiddo ; samouraïs et ninjas étrangers à Rosaï
+Inspirations / médias :
+Mots-clés :
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion :
+Ce qui ne correspond PAS à Rosaï :
+Notes libres : Basé sur les "royaumes" combattants, notament tel que décrits dans le jdr "Qin", avec le Han qui deviens Han Tarra, etc
+En fait cette nation part du principe qu'elle est la suite alternative de Qin, une campagne de JDR qui suis les joueurs dans les événements importants de l'unification des royaymes combattant (époque historique de la chine)
+Ici les nations ont été recomposés après une fin différente de la réalité 
+De mémoire dans Qin les différents pays ont déjà des thèmes fort, avec une province/nation portée sur le mystiscisme, une autre sur la neutralité, une autre sur les étendues sauvages, etc...
+Et de fait d'ailleursl a nation juste au dessus de Rosaï est associé aux mongoles, dans l'histoire de ce monde les guerres contre ces peuples (les Morrs en réalité) ont été menés contre eux
+
+Rosaï (Qin Tarra)
+Actuellement : héritage de Qin ; acier ; discipline ; conquête ; austérité ; lois sévères ; ordre ; efficacité ; sacrifice individuel pour l’unité ; armées méthodiques ; bureaucratie centralisée ; grands travaux ; Rasanto capitale ; ambition impériale ; anciens champs de bataille contre Shiddo
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Rosaï (Han Tarra)
+Actuellement : héritage de Han ; élégance ; diplomatie ; survie ; petit territoire ; cours raffinées ; alliances ; intrigues ; négociation ; médiateurs ; juristes ; prudence ; résilience ; influence maritime
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Rosaï (Zhao Sao)
+Actuellement : héritage de Zhao ; cavaliers ; honneur ; grandes plaines ; noblesse guerrière ; courage martial ; cavalerie prestigieuse ; officiers de terrain ; duels ; mobilité ; initiative ; autonomie
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Rosaï (Yao Sao)
+Actuellement : héritage de Yan ; vent du nord ; frontières sauvages ; marches reculées ; vigilance ; peuples extérieurs ; gardes-frontières ; éclaireurs ; chasseurs ; guerriers endurcis ; austérité ; résistance ; méfiance
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Rosaï (Qi Sao)
+Actuellement : héritage de Qi ; savoir ; commerce ; invention ; érudits ; stratèges ; artisans ; philosophes ; académies ; ateliers ; marchés savants ; étude des esprits ; richesse ; raffinement ; progrès
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Rosaï (Ten Chu)
+Actuellement : héritage de Chu ; brumes ; esprits ; passions ; sud luxuriant ; chamanisme ; magie ancienne ; poésie ; mystiques ; exorcistes ; ritualistes ; traditions locales ; émotions ; présages ; exubérance ; imprévisibilité ; ni ninjas ni samouraïs
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Rosaï (Ten Wei)
+Actuellement : héritage de Wei ; stratégie ; forteresses ; ambition ; pragmatisme militaire ; ingénieurs ; administrateurs ; généraux ; citadelles ; intendance ; fortification ; logistique ; mérite par les résultats ; rivalités de pouvoir
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+
+ROYAUME CÉLESTE
+===============
+
+Identité générale du Royaume Céleste
+Actuellement : quatre territoires ; culture céleste, aérienne et spirituelle à préciser ; identité encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Valeurs et mentalité :
+Esthétique / ambiance :
+Magie, science et religion :
+Ce qui ne correspond PAS au Royaume Céleste :
+Notes libres :
+
+Royaume Céleste (Cardinall)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Royaume Céleste (Narfell)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Royaume Céleste (Rhendill)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Royaume Céleste (Sharill)
+Actuellement : identité culturelle encore peu documentée
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+
+AUTRES NATIONS ET TERRITOIRES
+=============================
+
+Skellehn
+Actuellement : archipel proche d'Albalion ; culture viking maritime partagée avec Nierd ; drakkars ; navigation ; pêche ; exploration ; raids ; comptoirs ; traells, baendrs et jarls ; Thing ; panthéon nordique ; sacrifices ; Ragnarök ; Valkyries ; Arras et poésie héroïque ; réputation ; versant prédateur et aventureux ; Mirrdehn comme intermédiaire continental
+Inspirations / médias :
+Mots-clés : Viking ; drakkars ; raids ; jarls ; Thing ; scaldes ; mer
+Identité particulière : Le versant le plus maritime, aventureux et prédateur du socle culturel partagé avec Nierd
+Ce qui ne lui correspond PAS : Culture keldane continentale ; réduire toute son identité à la brutalité
+Notes libres : Les dieux nordiques ont réellement existé : autrefois humains, ils ont atteint un pouvoir incommensurable par des moyens qui ont provoqué leur perte. Cette vérité est largement ignorée ; il n'est resté que leurs cendres, leurs histoires et leurs cultes
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Nierd
+Actuellement : archipel au large des Basses Terres ; culture viking maritime partagée avec Skellehn ; drakkars ; navigation ; pêche ; commerce ; exploration ; raids et colonies ; traells, baendrs et jarls ; Thing ; panthéon nordique ; Ragnarök ; Valkyries ; Arras ; forte valorisation du mérite ; gouvernement méritocratique ; lions blancs ; Atoll de Chorail
+Inspirations / médias :
+Mots-clés : Viking ; mérite ; communauté ; Thing ; navigation ; lions blancs
+Identité particulière : Le versant le plus civique, communautaire et méritocratique du socle culturel partagé avec Skellehn
+Ce qui ne lui correspond PAS : Culture keldane continentale ; simple copie de Skellehn
+Notes libres : Les dieux nordiques ont réellement existé : autrefois humains, ils ont atteint un pouvoir incommensurable par des moyens qui ont provoqué leur perte. Cette vérité est largement ignorée ; il n'est resté que leurs cendres, leurs histoires et leurs cultes
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Pandyssia
+Actuellement : archipel des Hautes Terres ; Océan Pandysséen ; identité encore très peu documentée
+Inspirations / médias : Dishonnored (Pandyssia, un continent hostile où aucune expédition ne survit)
+Mots-clés : Monde inconnus, hostile, ancien
+Identité particulière : Jungle indomptée, peuplée de créature violente et impitoyable ou venimeuse et carnacière
+Ce qui ne lui correspond PAS : Civilisation, présence humaine
+Notes libres : Toutes les tentatives d'explorations ont échouées jusqu'ici, on y trouve même l'équivalent des dinosaures sur place, vraiment une sorte de "monde perdu" (qui est d'ailleurs un petit continent au large du monde)
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Domaine Sacré
+Actuellement : Karakass ; ellendisme ; siège de l’Ecclésia et de l’Inquisition ; Inquisition institution propre au Domaine Sacré mais active au-delà de ses frontières ; Cercles de mages ; Templiers ; contrôle religieux de la magie ; traque des mages hors Cercles ; chasse aux hérétiques, possédés et technocrates ; pèlerinage ; Basilique de l’Aria ; pierre lacustre ; esclaves libérés
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Millenstorn
+Actuellement : triumvirat ; forte agriculture ; forte tension politique ; identité culturelle encore légère
+Inspirations / médias : Assassin Creed Black Flag (j'imagine)
+Mots-clés : Liberté, Chaos
+Identité particulière :
+Ce qui ne lui correspond PAS : Loi, Ordre, Sécurité
+Notes libres : Piraterie
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Taig de Drinekar — Basse Terre
+Actuellement : territoire taig ; gouvernement et identité à définir
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Taig — Haute Terre
+Actuellement : territoire taig ; gouvernement et identité à définir
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Taig — Malterre Est
+Actuellement : territoire taig ; gouvernement et identité à définir
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Taig — Malterre Ouest
+Actuellement : territoire taig ; gouvernement et identité à définir
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Mercadia
+Actuellement : ploutocratie ; commerce ; Bazar de Mercadia ; agriculture ; richesse marchande
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Athalantar
+Actuellement : elfes des mers ; Atlantica ; cité de corail ; océans ; Serment des Abysses ; Svyelunisme ; profondeurs
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Pendel
+Actuellement : côtes ; Pendelhaven ; agriculture difficile ; vergers exotiques ; identité culturelle encore légère
+Inspirations / médias : Witcher 3 (Toussaint)
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : Totalement inspiré de Toussaint, tant coté visuel que sur le fond, on retrouve leurs vins dans toutes les basses terres, cher
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Shiddo
+Actuellement : petite nation indépendante ; inspiration japonaise ; samouraïs ; ninjas ; ninjutsu ; écoles martiales ; traditions guerrières japonisantes ; forêt des Kamis ; emprunts religieux réciproques avec Rosaï ; guerres contre Rosaï ; Plaines de Qin Tarra ; reliefs
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres : Japon médiévale fantastique donc
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Domaine Sombre
+Actuellement : Baie des Ombres ; Malterre ; lave ; terres brûlées ; Cabale de Zerom ; engeances ; Éden Noir ; sorcellerie
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :
+
+Tellas — Nains des Profondeurs
+Actuellement : monde souterrain ; nains façonnés dans la roche ; Parangons ; runes ; golems ; crise de succession ; Forge Perdue
+Inspirations / médias :
+Mots-clés :
+Identité particulière :
+Ce qui ne lui correspond PAS :
+Notes libres :
+Langue :
+Inspiration langue/nom :
+Gentilé :
+Régions :
+Autres villes :
+Lieux :

@@ -1,3 +1,14 @@
+## Statut du chantier — 18 juillet 2026
+
+Ce fichier est un brouillon historique et ne constitue plus la source canonique des règles déjà intégrées.
+
+- **Règles générales des objets technologiques complexes : intégrées.** Voir [Les Objets Technologiques Complexes](../docs/steam-ext/details/les-objets-technologiques-complexes.md).
+- **Boucliers d'énergie : intégrés.** Leur fonctionnement, leurs améliorations génériques et les signatures uniques des fabricants sont présentés dans [Les Équipements — Les Boucliers d'Énergie](../docs/equipement/les-equipements.md#les-boucliers-denergie).
+- **Véhicules : refonte volontairement reportée.** La documentation publique conserve uniquement les familles, les châssis et les prix provisoires. L'état de l'ancien système, les réflexions et les axes de reprise sont consignés dans [Audit et pistes de refonte des véhicules](vehicle_rules_audit.md).
+- **Autres familles d'objets complexes : à traiter ultérieurement.** Les idées restantes de ce brouillon peuvent encore servir de base, mais devront être adaptées au système désormais canonique.
+
+---
+
 Les objets technologiques complexes (associés à l'extension des sciences donc) sont associés à des attributs.
 
 # Attributs principaux
