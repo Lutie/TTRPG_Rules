@@ -5,7 +5,7 @@ const ATTRS_SEC   = ["STA", "TAI", "EGO", "APP", "CHN"]; // EQU est calculé sé
 const SAUVEGARDES = ["robustesse", "détermination", "réflexes", "sang-froid", "intuition", "opposition", "fortune"];
 const SOURCES     = ["race", "ethnie", "lignee", "regne"];
 const SRC_LABEL   = { race: "Race", ethnie: "Ethnie", lignee: "Lignée", regne: "Règne" };
-const TYPE_LABEL  = { regne: "Règne", race: "Race", ethnie: "Ethnie", lignee: "Lignée", particularite: "Particularité", action: "Action" };
+const TYPE_LABEL  = { regne: "Règne", race: "Race", ethnie: "Ethnie", lignee: "Lignée", particularite: "Particularité", declencheur: "Déclencheur", effet: "Effet", regle: "Règle structurelle", action: "Action" };
 const LEVEL_NAMES = { "-1": "Minimal", "0": "Défaut", "1": "Avancé", "2": "Optimisé", "3": "Paroxysme" };
 const LEVEL_X     = { "-1": 1, "0": 2, "1": 3, "2": 4, "3": 5 };
 const SAVE_COLORS = { haut: "ok", moyen: "acc", bas: "" };
@@ -14,6 +14,9 @@ const STORAGE_KEY = "tn_pnj_profiles";
 const DATA_KEY    = "tn_data";
 const PARTS_KEY   = "tn_particularites";
 const ACTIONS_KEY = "tn_actions";
+const TRIGGERS_KEY = "tn_declencheurs";
+const EFFECTS_KEY  = "tn_effets";
+const RULES_KEY    = "tn_regles_structurelles";
 
 let DATA        = null;
 let COMPETENCES = [];
@@ -60,6 +63,20 @@ function savePart(part) {
   persistParts(parts);
   return part;
 }
+
+function loadTriggers() { try { return JSON.parse(localStorage.getItem(TRIGGERS_KEY) || "[]"); } catch { return []; } }
+function persistTriggers(items) { localStorage.setItem(TRIGGERS_KEY, JSON.stringify(items)); }
+function getTriggerById(id) { return loadTriggers().find(x => x.id === id) || null; }
+function saveTrigger(item) { const items = loadTriggers(); const i = items.findIndex(x => x.id === item.id); if (i >= 0) items[i] = item; else items.push(item); persistTriggers(items); return item; }
+
+function loadEffects() { try { return JSON.parse(localStorage.getItem(EFFECTS_KEY) || "[]"); } catch { return []; } }
+function persistEffects(items) { localStorage.setItem(EFFECTS_KEY, JSON.stringify(items)); }
+function getEffectById(id) { return loadEffects().find(x => x.id === id) || null; }
+function saveEffect(item) { const items = loadEffects(); const i = items.findIndex(x => x.id === item.id); if (i >= 0) items[i] = item; else items.push(item); persistEffects(items); return item; }
+function loadRules() { try { return JSON.parse(localStorage.getItem(RULES_KEY) || "[]"); } catch { return []; } }
+function persistRules(items) { localStorage.setItem(RULES_KEY, JSON.stringify(items)); }
+function getRuleById(id) { return loadRules().find(x => x.id === id) || null; }
+function saveRule(item) { const items = loadRules(); const i = items.findIndex(x => x.id === item.id); if (i >= 0) items[i] = item; else items.push(item); persistRules(items); return item; }
 
 // ── Bibliothèque actions ──────────────────────────────────────────────────────
 
@@ -197,7 +214,10 @@ function resetState() {
 
 function exportJSON()      { return JSON.stringify(loadProfiles(), null, 2); }
 function downloadJSON()    { triggerDownload(exportJSON(), "tn_profils_pnj.json"); }
-function downloadDataJSON(){ triggerDownload(JSON.stringify(loadTnData(), null, 2), "tn_data.json"); }
+function exportDataBundle() {
+  return { version: 2, ...loadTnData(), particularites: loadParts(), declencheurs: loadTriggers(), effets: loadEffects(), regles: loadRules(), actions: loadActions() };
+}
+function downloadDataJSON(){ triggerDownload(JSON.stringify(exportDataBundle(), null, 2), "tn_donnees_pnj.json"); }
 
 function importJSON(json) {
   try {
@@ -229,6 +249,16 @@ function importDataJSON(json) {
         if (!entry.id) entry.id = crypto.randomUUID();
         if (!ids.has(entry.id)) { current[col].push(entry); ids.add(entry.id); added++; }
       });
+    });
+    const libraries = [
+      ["particularites", loadParts, persistParts], ["declencheurs", loadTriggers, persistTriggers],
+      ["effets", loadEffects, persistEffects], ["regles", loadRules, persistRules], ["actions", loadActions, persistActions]
+    ];
+    libraries.forEach(([col, load, persist]) => {
+      if (!Array.isArray(imported[col])) return;
+      const items = load(); const ids = new Set(items.map(x => x.id));
+      imported[col].forEach(entry => { if (!entry.id) entry.id = crypto.randomUUID(); if (!ids.has(entry.id)) { items.push(entry); ids.add(entry.id); added++; } });
+      persist(items);
     });
     persistTnData(current);
     return { ok: true, added };
@@ -267,6 +297,9 @@ function openModal(type, existingId) {
   let entry = null;
   if (existingId) {
     if (type === "particularite") entry = getPartById(existingId);
+    else if (type === "declencheur") entry = getTriggerById(existingId);
+    else if (type === "effet") entry = getEffectById(existingId);
+    else if (type === "regle") entry = getRuleById(existingId);
     else if (type === "action")   entry = getActionById(existingId);
     else                          entry = getEntryById(type, existingId);
   }
@@ -278,8 +311,15 @@ function openModal(type, existingId) {
       id: existingId || null,
       nom: entry?.nom || "",
       type_part: entry?.type_part || "passif",
+      mode: entry?.mode || "texte",
+      declencheur_id: entry?.declencheur_id || "",
+      effets: JSON.parse(JSON.stringify(entry?.effets || [])),
       sous_effets: JSON.parse(JSON.stringify(entry?.sous_effets || [{ nom: "", description: "" }]))
     };
+  } else if (type === "declencheur" || type === "regle") {
+    mState = { type, id: existingId || null, nom: entry?.nom || "", description: entry?.description || "" };
+  } else if (type === "effet") {
+    mState = { type, id: existingId || null, nom: entry?.nom || "", description: entry?.description || "", parametres: JSON.parse(JSON.stringify(entry?.parametres || [])) };
   } else if (type === "action") {
     mState = {
       type,
@@ -302,6 +342,7 @@ function openModal(type, existingId) {
       competences:   [...(entry?.competences   || [])],
       particularites:[...(entry?.particularites || [])],
       actions:       [...(entry?.actions        || [])],
+      regles:        [...(entry?.regles         || [])],
       sauvegardes:   { ...(entry?.sauvegardes   || {}) }
     };
   }
@@ -324,6 +365,7 @@ function renderModalBody() {
   const type = mState.type;
 
   if (type === "particularite") { el.innerHTML = buildModalPart(); attachModalPartEvents(); return; }
+  if (type === "declencheur" || type === "effet" || type === "regle") { el.innerHTML = buildModalBrick(); attachModalBrickEvents(); return; }
   if (type === "action")        { el.innerHTML = buildModalAction(); attachModalActionEvents(); return; }
 
   // Types taxonomy
@@ -364,6 +406,13 @@ function renderModalBody() {
     </div>
     <div class="m-bd-counts" id="m-bd-counts"></div>
   </div>`;
+
+  if (type === "regne") {
+    const rules = loadRules();
+    html += `<div class="mfield m-section"><label>Règles structurelles <small>(informatives pour le moment)</small></label><div class="m-rule-list">
+      ${rules.length ? rules.map(rule => `<label class="m-rule-choice"><input type="checkbox" class="m-rule-check" value="${rule.id}"${mState.regles.includes(rule.id) ? " checked" : ""}> <strong>${esc(rule.nom)}</strong><span>${esc(rule.description || "")}</span></label>`).join("") : '<span class="muted">Bibliothèque vide.</span>'}
+    </div></div>`;
+  }
 
   // Race : arme/armure nat + attrs sec
   if (type === "race") {
@@ -474,12 +523,39 @@ function buildModalPart() {
       <label class="m-radio-label"><input type="radio" name="m-part-type" value="actif"${mState.type_part === "actif" ? " checked" : ""}> Actif</label>
     </div>
   </div>
+  <div class="mfield">
+    <label>Construction</label>
+    <select id="m-part-mode" class="m-select">
+      <option value="texte"${mState.mode !== "composee" ? " selected" : ""}>Textuelle — texte paramétré par x</option>
+      <option value="composee"${mState.mode === "composee" ? " selected" : ""}>Composée — déclencheur + effets référencés</option>
+    </select>
+  </div>
+  ${mState.mode === "composee" ? buildComposedPartFields() : `
   <div class="mfield m-section">
     <label>Effets <button class="m-add-part-btn" id="m-add-se">+ Effet</button></label>
     <div id="m-se-list">
       ${(mState.sous_effets || []).map((se, i) => renderSeRow(se, i)).join("")}
     </div>
+  </div>`}`;
+}
+
+function buildComposedPartFields() {
+  const triggers = loadTriggers(); const effects = loadEffects();
+  return `<div class="mfield m-section"><label>Déclencheur</label><select id="m-part-trigger" class="m-select">
+    <option value="">— Aucun / permanent —</option>${triggers.map(t => `<option value="${t.id}"${mState.declencheur_id === t.id ? " selected" : ""}>${esc(t.nom)}</option>`).join("")}
+  </select></div>
+  <div class="mfield m-section"><label>Effets <button class="m-add-part-btn" id="m-add-composed-effect">+ Effet</button></label>
+    <div id="m-composed-effects">${(mState.effets || []).map((item, i) => renderComposedEffect(item, i, effects)).join("")}</div>
   </div>`;
+}
+
+function renderComposedEffect(item, i, effects = loadEffects()) {
+  const def = effects.find(x => x.id === item.effet_id);
+  const params = def?.parametres || [];
+  return `<div class="m-se-item" data-i="${i}"><div class="m-se-top"><select class="m-select m-effect-def" data-i="${i}">
+    <option value="">— Choisir un effet —</option>${effects.map(e => `<option value="${e.id}"${item.effet_id === e.id ? " selected" : ""}>${esc(e.nom)}</option>`).join("")}
+  </select><button class="m-icon-btn m-composed-del" data-i="${i}">✕</button></div>
+  <div class="m-effect-params">${params.map(p => `<label class="m-param-row">${esc(p.label || p.id)}<input class="m-input m-effect-param" data-i="${i}" data-param="${p.id}" value="${esc(item.parametres?.[p.id] ?? p.defaut ?? "")}"></label>`).join("")}</div></div>`;
 }
 
 function renderSeRow(se, i) {
@@ -498,11 +574,31 @@ function attachModalPartEvents() {
   el.querySelectorAll('input[name="m-part-type"]').forEach(r => {
     r.addEventListener("change", e => { if (e.target.checked) mState.type_part = e.target.value; });
   });
+  el.querySelector("#m-part-mode")?.addEventListener("change", e => { mState.mode = e.target.value; renderModalBody(); });
+  el.querySelector("#m-part-trigger")?.addEventListener("change", e => { mState.declencheur_id = e.target.value; });
+  el.querySelector("#m-add-composed-effect")?.addEventListener("click", () => { mState.effets.push({ effet_id: "", parametres: {} }); renderModalBody(); });
+  el.querySelectorAll(".m-effect-def").forEach(sel => sel.addEventListener("change", e => { const item = mState.effets[+e.target.dataset.i]; item.effet_id = e.target.value; const def = getEffectById(item.effet_id); item.parametres = Object.fromEntries((def?.parametres || []).map(p => [p.id, p.defaut || ""])); renderModalBody(); }));
+  el.querySelectorAll(".m-effect-param").forEach(inp => inp.addEventListener("input", e => { const item = mState.effets[+e.target.dataset.i]; item.parametres[e.target.dataset.param] = e.target.value; }));
+  el.querySelectorAll(".m-composed-del").forEach(btn => btn.addEventListener("click", () => { mState.effets.splice(+btn.dataset.i, 1); renderModalBody(); }));
   el.querySelector("#m-add-se")?.addEventListener("click", () => {
     mState.sous_effets.push({ nom: "", description: "" });
     refreshSeList();
   });
   attachSeListEvents();
+}
+
+function buildModalBrick() {
+  const isEffect = mState.type === "effet";
+  return `<div class="mfield"><label>Nom</label><input type="text" id="m-nom" class="m-input" value="${esc(mState.nom)}"></div>
+  <div class="mfield"><label>${isEffect ? "Modèle de texte" : "Description"}</label><textarea id="m-brick-desc" class="m-input m-textarea" placeholder="${isEffect ? "Utiliser {x} et {parametre}" : "Quand cet événement se produit…"}">${esc(mState.description)}</textarea></div>
+  ${isEffect ? `<div class="mfield"><label>Paramètres <small>(un par ligne : id|libellé|valeur par défaut)</small></label><textarea id="m-effect-params-def" class="m-input m-textarea">${esc((mState.parametres || []).map(p => `${p.id}|${p.label || p.id}|${p.defaut || ""}`).join("\n"))}</textarea></div>` : ""}`;
+}
+
+function attachModalBrickEvents() {
+  const el = document.getElementById("modal-body");
+  el.querySelector("#m-nom")?.addEventListener("input", e => { mState.nom = e.target.value; });
+  el.querySelector("#m-brick-desc")?.addEventListener("input", e => { mState.description = e.target.value; });
+  el.querySelector("#m-effect-params-def")?.addEventListener("input", e => { mState.parametres = e.target.value.split(/\r?\n/).filter(Boolean).map(line => { const [id,label,defaut] = line.split("|"); return { id: (id || "").trim(), label: (label || id || "").trim(), defaut: (defaut || "").trim() }; }).filter(p => p.id); });
 }
 
 function attachSeListEvents() {
@@ -658,6 +754,9 @@ function attachModalEvents() {
   const el = document.getElementById("modal-body");
   el.querySelector("#m-nom")?.addEventListener("input", e => { mState.nom = e.target.value; });
   el.querySelector("#m-parent")?.addEventListener("change", e => { mState.parent = e.target.value || null; });
+  el.querySelectorAll(".m-rule-check").forEach(input => input.addEventListener("change", e => {
+    mState.regles = e.target.checked ? [...new Set([...mState.regles, e.target.value])] : mState.regles.filter(id => id !== e.target.value);
+  }));
 
   // Boost chips
   el.querySelectorAll(".m-bd-chip").forEach(chip => {
@@ -852,9 +951,12 @@ function saveModalEntry() {
 
   // Types bibliothèque
   if (mState.type === "particularite") {
-    savePart({ id: mState.id || crypto.randomUUID(), nom, type_part: mState.type_part || "passif", sous_effets: JSON.parse(JSON.stringify(mState.sous_effets || [])) });
+    savePart({ id: mState.id || crypto.randomUUID(), nom, type_part: mState.type_part || "passif", mode: mState.mode || "texte", declencheur_id: mState.declencheur_id || "", effets: JSON.parse(JSON.stringify(mState.effets || [])), sous_effets: JSON.parse(JSON.stringify(mState.sous_effets || [])) });
     closeModal(); renderDonneesTab(); return;
   }
+  if (mState.type === "declencheur") { saveTrigger({ id: mState.id || crypto.randomUUID(), nom, description: mState.description || "" }); closeModal(); renderDonneesTab(); return; }
+  if (mState.type === "effet") { saveEffect({ id: mState.id || crypto.randomUUID(), nom, description: mState.description || "", parametres: JSON.parse(JSON.stringify(mState.parametres || [])) }); closeModal(); renderDonneesTab(); return; }
+  if (mState.type === "regle") { saveRule({ id: mState.id || crypto.randomUUID(), nom, description: mState.description || "" }); closeModal(); renderDonneesTab(); return; }
   if (mState.type === "action") {
     saveAction({ id: mState.id || crypto.randomUUID(), nom, description: document.getElementById("m-action-desc-ta")?.value.trim() || "" });
     closeModal(); renderDonneesTab(); return;
@@ -882,6 +984,7 @@ function buildTaxoEntry() {
     particularites:[...mState.particularites],
     actions:       [...mState.actions]
   };
+  if (mState.type === "regne") base.regles = [...mState.regles];
   if (mState.type === "race") {
     base.regne      = mState.parent || null;
     base.arme_nat   = mState.arme_nat;
@@ -901,6 +1004,9 @@ function buildTaxoEntry() {
 function renderDonneesTab() {
   // Types bibliothèque
   if (donneesType === "particularite") { renderLibTab(loadParts, "particularite"); return; }
+  if (donneesType === "declencheur")   { renderLibTab(loadTriggers, "declencheur"); return; }
+  if (donneesType === "effet")         { renderLibTab(loadEffects, "effet"); return; }
+  if (donneesType === "regle")         { renderLibTab(loadRules, "regle"); return; }
   if (donneesType === "action")        { renderLibTab(loadActions, "action"); return; }
 
   const entries = getCollection(donneesType);
@@ -950,7 +1056,9 @@ function renderLibTab(loadFn, type) {
       <div class="d-entry-main">
         <span class="d-nom">${esc(item.nom)}</span>
         ${type === "particularite" && item.type_part ? `<span class="d-chip d-chip-${item.type_part}">${item.type_part}</span>` : ""}
+        ${type === "particularite" && item.mode === "composee" ? `<span class="d-chip acc">composée</span>` : ""}
         ${item.description ? `<span class="d-meta">${esc(item.description)}</span>` : ""}
+        ${type === "effet" && item.parametres?.length ? `<span class="d-chip">${item.parametres.length} param.</span>` : ""}
         ${item.sous_effets?.length ? `<span class="d-chip">${item.sous_effets.length} effet(s)</span>` : ""}
       </div>
       <div class="d-actions">
@@ -970,10 +1078,16 @@ function attachDonneesListEvents(type) {
     btn.addEventListener("click", () => {
       let nom = btn.dataset.id;
       if (type === "particularite") { nom = getPartById(btn.dataset.id)?.nom || nom; }
+      else if (type === "declencheur") { nom = getTriggerById(btn.dataset.id)?.nom || nom; }
+      else if (type === "effet") { nom = getEffectById(btn.dataset.id)?.nom || nom; }
+      else if (type === "regle") { nom = getRuleById(btn.dataset.id)?.nom || nom; }
       else if (type === "action")   { nom = getActionById(btn.dataset.id)?.nom || nom; }
       else { nom = getEntryById(type, btn.dataset.id)?.nom || nom; }
       if (!confirm(`Supprimer "${nom}" ?`)) return;
       if (type === "particularite") { persistParts(loadParts().filter(x => x.id !== btn.dataset.id)); }
+      else if (type === "declencheur") { persistTriggers(loadTriggers().filter(x => x.id !== btn.dataset.id)); }
+      else if (type === "effet") { persistEffects(loadEffects().filter(x => x.id !== btn.dataset.id)); }
+      else if (type === "regle") { persistRules(loadRules().filter(x => x.id !== btn.dataset.id)); }
       else if (type === "action")   { persistActions(loadActions().filter(x => x.id !== btn.dataset.id)); }
       else {
         const data = loadTnData(); const col = type + "s";
@@ -1176,6 +1290,14 @@ function render() {
   renderNat();
   renderInheritedRight();
   renderParticularites();
+  renderStructuralRules();
+}
+
+function renderStructuralRules() {
+  const el = document.getElementById("result-rules"); if (!el) return;
+  const regne = getEntryById("regne", state.regne);
+  const rules = (regne?.regles || []).map(getRuleById).filter(Boolean);
+  el.innerHTML = rules.length ? rules.map(rule => `<div class="recap-action"><span class="recap-action-nom">${esc(rule.nom)}</span>${rule.description ? `<span class="recap-action-desc">${esc(rule.description)}</span>` : ""}</div>`).join("") : '<p class="muted">—</p>';
 }
 
 function renderRangInfo() {
@@ -1364,7 +1486,7 @@ function renderParticularites() {
       <div class="part-head"><span class="part-nom">${esc(part.nom)}</span><span class="tag">${part.source}</span></div>
       <p class="muted">Non disponible à ce rang.</p></div>`;
     const x      = LEVEL_X[String(level)];
-    const effets = (part.sous_effets || []).map(e => {
+    const effets = part.mode === "composee" ? renderComposedPartEffects(part, x) : (part.sous_effets || []).map(e => {
       const desc = (e.description || "").replace(/\{([^}]+)\}/g, (_, expr) => {
         const val = resolveFormula(expr, x);
         return `<strong class="val-x">${val}</strong>`;
@@ -1381,6 +1503,19 @@ function renderParticularites() {
       <ul class="effets">${effets}</ul>
     </div>`;
   }).join("");
+}
+
+function renderComposedPartEffects(part, x) {
+  const trigger = getTriggerById(part.declencheur_id);
+  const triggerHtml = trigger ? `<li><strong>${esc(trigger.nom)}</strong>${trigger.description ? ` — ${esc(trigger.description)}` : ""}</li>` : "";
+  const effectsHtml = (part.effets || []).map(instance => {
+    const def = getEffectById(instance.effet_id); if (!def) return "";
+    let text = def.description || "";
+    Object.entries(instance.parametres || {}).forEach(([key, value]) => { text = text.replaceAll(`{${key}}`, esc(value)); });
+    text = text.replace(/\{([^}]+)\}/g, (_, expr) => `<strong class="val-x">${resolveFormula(expr, x)}</strong>`);
+    return `<li><strong>${esc(def.nom)}</strong>${text ? ` — ${text}` : ""}</li>`;
+  }).join("");
+  return triggerHtml + effectsHtml;
 }
 
 // ── Bibliothèque profils ──────────────────────────────────────────────────────
@@ -1637,7 +1772,7 @@ function attachModalHandlers() {
 // ── Utilitaires ───────────────────────────────────────────────────────────────
 
 function resolveFormula(expr, x) {
-  const substituted = expr.replace(/x/g, String(x));
+  const substituted = expr.replace(/(\d)x/g, '$1*x').replace(/x/g, String(x));
   if (!/^[\d+\-*\/().\s]+$/.test(substituted)) return substituted;
   try {
     const result = Function('return (' + substituted + ')')();
