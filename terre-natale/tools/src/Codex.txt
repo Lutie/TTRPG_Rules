@@ -451,7 +451,7 @@ Magie, science et religion :
 Ce qui ne correspond PAS aux EFT :
 Notes libres :
 
-EFT (Brehtnorr)
+EFT (Brethnorr)
 Actuellement : Ravengard ; cité des machines ; origine brétonienne ; cœur industriel ; mécanique ; armes à feu ; fondation de la fédération
 Inspirations / médias :
 Mots-clés :
@@ -459,7 +459,7 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres : La nation la plus technologique qui soit, très "Midgard" de FF7 mais en steampunk en réalité
 Langue : Thévenan Nord
-Inspiration langue/nom : Portuguese
+Inspiration langue/nom : Elizabethan (colonie Aldanienne)
 Gentilé :
 Régions :
     Nord - Orion (Leiria)
@@ -499,7 +499,7 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres : Nation dans une zone plutôt désertique, elle utilise beaucoup le steam et le flux comme des formes d'énergies sous forme liquide, etc... La technologie y est d'aspect quasi mysthique avec ses réservoires bleus lumineux, ses mécanismes en quasi fil de fer, un visuel qu'on retrouve sur des cartes magiques notament (je crois dans l'extension qui reviens sur les origines de Shandra ?)
 Langue : Thévenan Nord
-Inspiration langue/nom : Shekpearian
+Inspiration langue/nom : Shekspearian
 Gentilé :
 Régions :
     Nord - Moortime (Dragnier)
@@ -519,7 +519,7 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres : Inspiré de borderlands pour ce qui est du coté "dangereux", des rivalités, des armes à feu, un vrai far ouest technologique, des zones de non droits, etc évidemment la technologie n'a pas le niveau de celle de Borderlands, mais c'est aussi crasseux et bourré d'automate plus ou moins terminé/safe
 Langue : Thévenan Nord
-Inspiration langue/nom : Elizabethan (ancienne colonie aldanienne)
+Inspiration langue/nom : Portugese (ancienne colonie brétonienne)
 Gentilé :
 Régions :
     Nord - Solomon (Solmir)
@@ -572,11 +572,17 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Mongolian, old sarmation
 Gentilé :
 Régions :
+    Nord - ORHAN (Erden)
+    Centre - Avör (ONDOR)
+    Sud - Zevhan (ulia)
+    Sud Extrême - BEYHAN (ÖLGI)
+    Nord Extrême - DEVHAN (MERÖN)
 Autres villes :
 Lieux :
+Capitale : DARHAN
 
 Morr (Travincah)
 Actuellement : jungle ; ruines ; temples ; territoire dangereux ; inspiration Kurast à préciser
@@ -586,11 +592,17 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Akkadian
 Gentilé :
 Régions :
+    Nord - SEÏGON (Leïlan)
+    Centre Nord - RAÏMUH (Uruk)
+    Centre Sud - NERHIM (Dûr)
+    Sud - KAELI (Akkao)
+    Est - DENDÛ (Ishtar)
 Autres villes :
 Lieux :
+Capitale : JAMUNDA
 
 Morr (Talaran)
 Actuellement : identité culturelle encore peu documentée
@@ -600,11 +612,17 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Korean
 Gentilé :
 Régions :
+    Nord Est - HOSEO (Gongong)
+    Nord Ouest - WANJU (Wanju)
+    Centre - KWANSEO (Yang)
+    Sud ESt - GIDEON (Seong)
+    Sud - ANJU (Wa Gong)
 Autres villes :
 Lieux :
+Capitale : Wa GONG
 
 
 ALBALION
@@ -627,12 +645,16 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Valyrien (game of thrones)
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Nord Est - MORAG (Balfest)
+    Nord Ouest - VISERA (Dalbryn, capitale) (forteresse au pieds des plus hautes montagnes, protège ce qu'il ya  derrière les montagnes en cloisonant l'accés principale pour une armée)
+    Sud Est - PAVIS (Greshal)
+    Sud Ouest - KAVIR (Kyorn)
+Autres villes : Netharn (minière), Havenfel, Grymself
+Lieux : Montagnes bleus, Montagnes du Zefyr, Montagnes d'Amell; Académie d'Havrock (magie profane, volonté) (sur un lac mitoyen)
 
 Albalion (Gravehn)
 Actuellement : miroir du lac ; secrets ; alchimie ; astrologie ; histoire ancienne ; érudition ; archéologues ; superstitions ; rituels aquatiques ; musique mélancolique ; artistes mystiques ; savoirs oubliés
@@ -641,12 +663,16 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Old German
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Nord Est - ESMERIE (DANLUCE)
+    Sud - KALDEN (OREMN)
+    Nord Ouest - TARVIS (AIRIA)
+Autres villes : Airia (minière)
+Lieux : Clan de l'Ours (sorceleurs, dans les montagnes entre Gravehn et Esgaroth); Académie d'Havrock (magie profane, volonté) (sur un lac mitoyen)
+Capitale : OXENCE (ville immense style venise avec courts d'eaux etc mais sous une caverne, des quartiers sur les bords de la cavernes, etc)
 
 Albalion (Vensihd)
 Actuellement : ports ; commerce maritime ; cosmopolitisme ; guildes ; richesse ; innovation ; négociation ; navigation ; artisans ; influences étrangères ; rivalité marchands–nobles ; esprits marins ; opportunisme
@@ -655,12 +681,17 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Viderian
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Nord - Rivia (Arlésia)
+    Centre Nord - Iberia (Mascovia)
+    Centre Sud - Arlaïs (ancienne colonie aube) (Ark)
+    Sud - Orma (Beruath)
+Autres villes : Barren, Selen, Valrith, Khaldur, Darnath, Bervath, Kiorven, Dolgrim
+Lieux : Clan du chat (sorceleur) (dans Navigrad)
+Capitale : Navigrad
 
 Albalion (Kaaldhen)
 Actuellement : cavalerie ; chevaux légendaires ; familles équestres ; honneur ; liberté ; héritage nomade ; Tournoi des Vents ; joutes montées ; chamanes équestres ; esprits des plaines ; raids rapides
@@ -669,12 +700,17 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Old Belgium
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Nord - Aedorn (Erith)
+    Centre Est - Micaris (Dameroth)
+    Centre Ouest - Isthar (Onafren)
+    Sud - Lomoss (Rhelm)
+Autres villes : Elirth, Talrune, Thalnoris, Thraorn, Vorthal, Krevnor
+Lieux : Clan de la vipère (dans un temple au coeur d'une forêt dense); Académie d'Havrock (magie profane, volonté) (sur un lac mitoyen)
+Capitale : Dorlaïs
 
 Albalion (Tolvihn)
 Actuellement : grenier du royaume ; agriculture ; vignobles ; fromages ; élevage ; artisanat rural ; prospérité ; fêtes des moissons ; gastronomie ; Esprit de la Baie ; travail ; abondance
@@ -683,26 +719,33 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Old Netherlands
 Gentilé :
 Régions :
-Autres villes :
+    Nord - Miria (Miradys)
+    Centre Ouest - Devon (Ballantine, capitale)
+    Sud - Serra (Arthoris)
+Autres villes : Arithal, Haute/Basse Kalaris, Kalnara, Egorin, Laerwyn (très grande cité, la plus grande en réalité, de la région, profite d'une forte activité autour de la baie du couchant etc)
 Lieux :
 
 Albalion (Ninvehd)
 Actuellement : île brumeuse ; vents ; mer ; pêche ; navigation ; astrologie ; mysticisme ; superstitions ; Varndell ; magie profane ; ombres, âmes et illusions ; lanternes flottantes ; savoirs interdits ; isolement
-Inspirations / médias :
+Inspirations / médias : Les Ombres d'Esteren (jdr) (pour son coté dark fantasy poussé)
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
+Langue : Thévenan Ouest
 Inspiration langue/nom :
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Nord - Balor (Egorn, port)
+    Centre - Uria (Kataluna, port)
+    Sud - Elios (Northon)
+Autres villes : Calreth (port), Mornela, Bralnor, Dalvaris (sur la presque île), Calreth (sur la presque île), Nevinyrral
+Lieux : Académie de Varndell; Clan du Faucon
+Capitale : Eryndor
 
 Albalion (Nassgoth)
 Actuellement : capitale royale ; unité du royaume ; cour ; administration ; diplomatie ; intrigues ; stratégie ; prestige ; chasse aristocratique ; grandes routes ; magie défensive ; Tour du Trophaïon ; Griffon
@@ -710,13 +753,18 @@ Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
-Notes libres :
-Langue :
+Notes libres : Coeur de la "société" vampire, là où se joue leurs réseaux d'influences en marge des affaires de sécurité nationale, selon les familles de vampires ce jeu se fait avec plus ou moins de subtilité
+Langue : Thévenan Ouest
 Inspiration langue/nom :
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Nord - ARLAN (Caladon)
+    Centre - VALION (Alastoor, capitale d'ALBALION)
+    Sud - TERRAFEN (Theragon)
+    Est - CIRINEA (Rhaenor)
+    Ouest - ARGOS (Evarnus, la ville arbore la plus grande cathédrale au monde, un peu comme avernus dans legacy of kane, une cathédrale et infra en réalité rongée par les vampires)
+Autres villes : Belfor, Lunvarn, Osgrath, Orravin, Calreth, Ylthar, Terragon
+Lieux : Clan du Griffon (sur le lac du lion)
 
 Albalion (Mirrdehn)
 Actuellement : cœur spirituel ; Église Royale ; foi ; contemplation ; pèlerinages ; sanctuaires montagneux ; reliques ; moines guerriers ; prêtres ; guérisseurs ; Yselgard ; magie spirituelle ; Skellehn ; austérité ; Neufs Arbres Sacrés
@@ -725,12 +773,16 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Ouest
+Inspiration langue/nom : Norvegian
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+    Ouest - Ashan (Shavarnis)
+    Nord - Elrune (Iserath)
+    Sud - Tyrone (Askanor)
+Autres villes : Althira, Myrvann, Danthir, Dalven
+Lieux : Cercle des neufs (comme dans legacy of kain sauf qu'ici point de pilliers mais des arbres immenses aux allures diverses et variés), Académie d'Yselgard (magie shamanique/divine)
+Capitale : Lunvarith
 
 
 AUBE
@@ -752,13 +804,18 @@ Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
-Notes libres :
+Notes libres : Les elfes ayant fondé le royaume sont originaires de Bellante (donc consonnance FR)
 Langue :
 Inspiration langue/nom :
 Gentilé :
 Régions :
+    Nord - Aladore (Troy)
+    Est - Armon (Clara)
+    Ouest - Orme (Tarascon)
+    Sud - Rhan (Orlean)
 Autres villes :
 Lieux :
+Capitale : Obevan
 
 Aube (Castelfel)
 Actuellement : identité culturelle encore peu documentée
@@ -766,12 +823,16 @@ Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
-Notes libres :
+Notes libres : A l'origine une colonie Brétonienne
 Langue :
 Inspiration langue/nom :
 Gentilé :
 Régions :
-Autres villes :
+    Nord - Miloran (Askanov)
+    Est - Oriel (Sorin)
+    Ouest - Séhéron (Samanlaca)
+    Sud - Saône (Laguna)
+Autres villes : Narskov
 Lieux :
 
 Aube (Valdenfel)
@@ -782,11 +843,16 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Sud danemark / Féréo?
 Gentilé :
 Régions :
+    Nord - NAÜJA (Fenris) (féral)
+    Est - UNGOR (Nydog)
+    Ouest - JAMUDA (Reskilde)
+    Sud - FEROA (Arhus)
 Autres villes :
 Lieux :
+Capitale : Grenna
 
 Aube (Ravendorf)
 Actuellement : identité culturelle encore peu documentée
@@ -796,9 +862,12 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Danemark
 Gentilé :
 Régions :
+    Est - NYDOR (aero et Sora) (Damacia)
+    Ouest - VIDAR (Elborq)
+    Centre - FYN (Skagen)
 Autres villes :
 Lieux :
 
@@ -827,10 +896,16 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    GUOWANG DI HAI'AN "rives du roi" (XianYang, capitale)
+    BEIBU SHANQU "monts du nord" (Jihan)
+    SHEGU "vallée des serpents" (Shanzu)
+    LUDI "contrée verdoyantes" (Lufu)
+    FU LANG "conflants" (Lufu)
+    TAIYANG LE "cotes du soleil" (Liha)
 Autres villes :
 Lieux :
 
@@ -841,24 +916,30 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    Est - SHEN SHAN "mont sacré" (Xinzheng, capitale)
+    Ouest - LONG LU "chemin/voie du dragon" (Dendeï)
 Autres villes :
-Lieux :
+Lieux : Les 5 pics (globalement la région de l'est)
 
 Rosaï (Zhao Sao)
-Actuellement : héritage de Zhao ; cavaliers ; honneur ; grandes plaines ; noblesse guerrière ; courage martial ; cavalerie prestigieuse ; officiers de terrain ; duels ; mobilité ; initiative ; autonomie
+Actuellement : héritage de Zhao ; cavaliers ; honneur ; grandes plaines ; noblesse guerrière ; courage martial ; cavalerie prestigieuse ; officiers de terrain ; duels ; mobilité ; initiative ; autonomie ; commerce
 Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    Centre Sud - DI SAN GAOFENG "le 3e pic" (Handan, capitale)
+    Centre Nord - WANGGUO DE JIAO "pieds du royaume" (Daï)
+    Est - MA GUO "contrée du cheval" (MA)
+    Ouest - WANQU DE YIANHANG "les rives sinueuses" (YUAN)
 Autres villes :
 Lieux :
 
@@ -868,11 +949,15 @@ Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
-Notes libres :
-Langue :
-Inspiration langue/nom :
+Notes libres : Armée adaptée aux barbares du nord
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    Nord - WANGGUO DE BIANJIE "bordure du royaume" (JI, capitale)
+    Centre - ??? (YUDIN)
+    Sud - SHENMI FENG "le pic isolé" (GUO)
+    Est - YAOYUAN SANJIAOZHOU "delta éloigné" (YAO)
 Autres villes :
 Lieux :
 
@@ -882,11 +967,15 @@ Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
-Notes libres :
-Langue :
-Inspiration langue/nom :
+Notes libres : Tactiques miliaires avancées
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    Nord - BEIBU LUXIAN "route du nord" (Linzi)
+    Centre - LEIGU "côtes excaltées" (Leï)
+    Sud - NANBU LUXIAN "route du sud" (Nan)
+    Ouest - ZUIHOU YIGE GAOFENG "le dernier pic" (Zui)
 Autres villes :
 Lieux :
 
@@ -896,11 +985,15 @@ Inspirations / médias :
 Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
-Notes libres :
-Langue :
-Inspiration langue/nom :
+Notes libres : Fort artisanat du métal, étendue sauvages
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    Centre - KUANG YE DE XIN "coeur sauvage" (Shouchan, capitale)
+    Nord Ouest - DI YI GAOFENG "le premier pic" (Juyang)
+    Sud - BEIJING "horizons" (Qufu)
+    Est - LING YIBIAN "de l'autre coté du monde" (BIAN)
 Autres villes :
 Lieux :
 
@@ -911,10 +1004,14 @@ Mots-clés :
 Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres :
-Langue :
-Inspiration langue/nom :
+Langue : Thévenan Est
+Inspiration langue/nom : Chinois
 Gentilé :
 Régions :
+    Ouest - ??? (Daliang, capitale)
+    Sud Ouest - Xi Qiang "muraille ouest" (Huo)
+    Sud Est - DONG QIANG "muraille Est" (Xan)
+    Centre - MO SHAN "les chaines dernières" (MO)
 Autres villes :
 Lieux :
 
@@ -1003,6 +1100,12 @@ Langue :
 Inspiration langue/nom :
 Gentilé :
 Régions :
+    Yudra - Midgar (hommes)
+    Uhor - Vanaheim (tribus)
+    Ildan (alfheim) (elfs)
+    MEDEA (Muspel) (monstres)
+    NIDAVELLIR (nains)
+    NIFLHEIM (glace)
 Autres villes :
 Lieux :
 
@@ -1028,7 +1131,7 @@ Identité particulière : Jungle indomptée, peuplée de créature violente et i
 Ce qui ne lui correspond PAS : Civilisation, présence humaine
 Notes libres : Toutes les tentatives d'explorations ont échouées jusqu'ici, on y trouve même l'équivalent des dinosaures sur place, vraiment une sorte de "monde perdu" (qui est d'ailleurs un petit continent au large du monde)
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Yowba
 Gentilé :
 Régions :
 Autres villes :
@@ -1045,8 +1148,8 @@ Langue :
 Inspiration langue/nom :
 Gentilé :
 Régions :
-Autres villes :
-Lieux :
+Autres villes : Karakass (capitale), Ellen (port)
+Lieux : Forts de l'inquisition positionné sur le continent des Basses Terres : Minerva (Redante); Colomba (Sodden); Ethnica (EFT, brethnorr)
 
 Millenstorn
 Actuellement : triumvirat ; forte agriculture ; forte tension politique ; identité culturelle encore légère
@@ -1150,13 +1253,15 @@ Pendel
 Actuellement : côtes ; Pendelhaven ; agriculture difficile ; vergers exotiques ; identité culturelle encore légère
 Inspirations / médias : Witcher 3 (Toussaint)
 Mots-clés :
-Identité particulière :
+Identité particulière : 
 Ce qui ne lui correspond PAS :
 Notes libres : Totalement inspiré de Toussaint, tant coté visuel que sur le fond, on retrouve leurs vins dans toutes les basses terres, cher
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Catalan
 Gentilé :
 Régions :
+    DANDELION
+    DOLCIA
 Autres villes :
 Lieux :
 
@@ -1168,11 +1273,19 @@ Identité particulière :
 Ce qui ne lui correspond PAS :
 Notes libres : Japon médiévale fantastique donc
 Langue :
-Inspiration langue/nom :
+Inspiration langue/nom : Edo Era Japanese
 Gentilé :
 Régions :
-Autres villes :
+    Centre - OÎ "trones, couronnes"
+    Nord Centre - Ryoshu (no niwa) "jardin des seigneurs"
+    Nord ESt - Teikoku "bordures de l'empire"
+    Nord Ouest - Tesu (no kaigan) "rives de fer"
+    Sud Est - Kishi : kaï (no kayan) "rivages insoumis"
+    Sud Ouest - Ja-Dô "route de jade"
+    Archipels - Ryuga "fleurs"
+Autres villes : Endo, Ataï
 Lieux :
+Capitel : Payon
 
 Domaine Sombre
 Actuellement : Baie des Ombres ; Malterre ; lave ; terres brûlées ; Cabale de Zerom ; engeances ; Éden Noir ; sorcellerie
@@ -1201,3 +1314,147 @@ Gentilé :
 Régions :
 Autres villes :
 Lieux :
+
+OLD CIVILISATIONS
+=================
+
+Volacien : Ancienne civilisation d'aube => ?
+? : Ancienne civilisation Est des hautes terres => Egyptian (ancient)
+Arkhadien (-21000) => Ghotic
+Ikkarien => Latin 
+Rivain => Subebi (racines germaniques) 
+Aledaïd => Irish (Gaeilge)
+Almécie (-8800) => Celtic (Gaul)
+Rozen (-8350)
+Nargoth (-9500) : Ancienne civilisation d'Albalion => Frankish (germant, celtic, latin)
+Dragnirr (-6700) : Etrucan
+Sevahana : ancienne civilisation d'Atlas => Hause
+
+Quelques langues encore non adressée: 
+Babylonia, Argentinian (latina), Asturian (latina), Percian, Sarmation
+
+AUTRES NOTES
+============
+
+Celestia (royaume des célestes) => Byzantine
+
+Géographie
+==========
+
+Plaine Centrale (Gaïa II, p21)
+Steppes Centrale (Gaïa II, p30) (keld)
+Vallée aux Griffons (petites montagnes) (Gaïa II, p121) (albalion)
+Haute côtes (accidentée) (Gaïa II, p21)
+Côte Brisée (impraticable, dangereux) (Gaïa II, p48)
+Fleuve Algan (Asura) (Gaïa II, p40)
+Fleuve Ogan (Asura)
+Cataractes de ? (réseau de casacades et fleuves) (Gaïa II, p40)
+Fleuve ? (Gaïa II, p70)
+Désert Mouvants (Centria)
+Désert de la veuve (Centria)
+Désert aux milles visages (Lythmirr)
+Désert de Maugham (?)
+Désert (froid) de ? (Gaïa II, p121) (Endor)
+Île de l'envie (Corante) (3 nation se la dispute)
+Île de Tefeïri (Aldricia)
+Île Souillée (Valdor)
+Lac ? (entre Eddonie et Aldanie, cache des restes de cités)
+Lac de verre (Corrante)
+Lac du reflet - Aeleven (non loin de Songe, enfin de la capitale donc, car Songe c'est sa traduction en Thévenan Sud)
+Lac des hautes terre - Almindor <= BOF, les haute terre c'est déjà un continent, on s'y tromperait...
+Les 9 Lacs (Gaïa II, p31) (Keld)
+Mer intérieure d'Albâtre (Gaïa II, p40) (plutôt en basse terre, quelque part)
+La Fontaine Mgique (Aube) (Gaïa II, p53)
+Bois de Sel (Gaïa II, p21)
+Foret de jade
+Bois d'Arah (Gaïa II, p40) (habité d'entité géantes)
+Bois de ? (Gaïa II, p48) (maudit)
+Bois de ? (Gaïa II, p50) (ensorcellant)
+Jungle Noire (Gaïa II, 70)
+Bois Vlades (Gaïa II, p70) (vampires)
+Jungle ? (Gaïa II, p90) (sombre et inexplorée et vaste)
+Marais ? (Gaïa II, p89) (présence démoniaque)
+Montagne de feu (volcan) (volcan en permanence en activité)
+Monts dorées (Eddonie) (pélerinage)
+Monts Creux (Bellante) (Mène à Tolaria, creusée de galleries)
+Montagne de Nesser (Aldricia)
+Brisants Shivan (Ildorne) (dragons)
+Contreforts de Crêtepin (Almindor)
+Cordillères Escogriffes (Kjeldor)
+Monts de verre (Albastor)
+Cordilères de Koïlos (Lythmirr)
+Grande Dune de ? (Lythmirr)
+Cordillères d'Umbra (Keld) (Gaïa II, p30) (p40)
+Cordillères de Niddogur (Keld) (Gaïa II, p79) (or et passages oubliés)
+Cordillère ?? (Keld) (très neigeux et dangereux)
+Foret ? (Eddonie) (pour son papier)
+Foret des princes (Brétonia) (chasse)
+Foret étrange (Brétonia)
+Foret de Nacre (Lussante)
+Foret de l'oublie (Aelven)
+Foret des mirroirs (Sodden)
+Foret profonde (Sodden)
+Bosquet des fractales (Sodden)
+Bosquet de Linciel (Sodden)
+Foret éphémère (Eldden) (arbres poussent/meurent rapidement, larybinth vivant)
+Foret des murmures (Eldden)
+Foret de Shanod (Eldden)
+Foret ? (Syldavie)
+Foret de Cendre (Lantria) (foret mystique de sève chaude)
+Bosquet de Brûlesaule (Centria)
+Vastebois (Almindor)
+Foret de Freyja (Kjeldor)
+Foret du loup (Kjeldor)
+Foretde Karpluse (Albastor)
+Vallée forestière (Qin Tarra)
+
+MERVEILLES
+==========
+
+Colisée (Aldricia)
+Grande Muraille (Rosaï, frontière avec ex Aube)
+Pyramides
+Jardins (pas suspendus, mais autre chose)
+Statue de ?
+Temple ?
+Collosse ?
+Phare ? 
+Bilbiothèque d'Alexandrie (Eddonie)
+Tour ?
+?
+
+MERVEILLES naturels
+===================
+
+* Nom (inspiration)
+
+* Oeil du Nord (oeil d'afrique)
+* (la) Fissure (au sud des basses terres, d'autre la nomme la cicatrice, techniquement elle divise une nation en deux, avec à l'est les terres arides d'Atlas qui débutent et à l'ouest les terres gelées du Keld, l'origine de cette fissure remonte à l'époque des dragons ancestraux, un catalysme a contribué à chambouler le climat à cet endroit et continue d'opérer depuis) (Gaïa II, p32)
+* Mer de Sel (mer morte)
+* Côtes des Pics (Reynisffara) (Dragon Age côte tonnerre)
+* Grands Canyon
+* Plage Bioluminescente (maldives)
+* Grotte de Marbre (chili)
+* Chute d'Iguazu (argentine, bresil)
+* Triangle des Bermudes
+* Arches naturelles 
+* Grande Barrière de Corail 
+* Montagnes les plus hautes 
+* Pamkkule (sorte de lacs suspendus)
+
+LORE
+====
+
+* Diversité des montures dans certains pays (Gaïa II, p18)
+* Pélerinage dans les basses terres (elledrisme)
+* Les tribus Einjard (Gaïa II, p31) (tribus vivant dans la gloire passée de leurs ancêtres)
+* Révolte (nation d'Asura ?) (Gaïa II, p38)
+* Les x maisons nobles (naton central du sud guerrière, Almindorr ?) (Gaïa II, p58)
+* Regalia, la cité de légende (Gaïa II, p63) (attention que les régalias actuellement c'est aussi des artefacts d'Albalion, pas lié donc)
+* Leputta, la cité dans l'oeuvre du chateau dans le ciel 
+* Titan (équivalants des armes de FF7, aspects des collosses de Shadow of Collossus) [une nation ou région pourrait correspondre aux terres qu'on trouve dans Shadow of Collossus, des terres reculés mises de coté qui sont en fait des sortes de tombes ou repose des titans éteints]
+* Example de Corporation (Gaïa II, p68)
+* La Mascarade (Bellante) (Gaïa II, p72) (voir aussi Orlaïs de Dragon Age ?)
+* La société des explorateurs (Gaïa II, p91) (on a déjà un groupe du genre, des détails dans Roll20)
+* Divinité de l'Obscurité (3) (Gaïa II, p148)
+
