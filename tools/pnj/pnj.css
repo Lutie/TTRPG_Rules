@@ -432,6 +432,9 @@ h3 { font-size: 0.55rem; margin: 0.6rem 0 0.35rem; color: #aaa; }
 .save-btn { background: #1a4a1a; border-color: #92cc41; color: #92cc41; }
 .save-btn:hover { background: #2a6a2a; }
 
+.tool-btn-danger { border-color: #c0392b; color: #e74c3c; }
+.tool-btn-danger:hover { background: #4a0f0f; border-color: #e74c3c; }
+
 .save-status {
   font-size: 0.42rem;
   color: #92cc41;

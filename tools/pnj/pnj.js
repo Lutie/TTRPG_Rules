@@ -1755,6 +1755,27 @@ function attachDonneesTab() {
     };
     reader.readAsText(file);
   });
+
+  document.getElementById("btn-clear-data").addEventListener("click", () => {
+    if (!confirm("Vider toute la base de données ?\n(règnes, races, ethnies, lignées, particularités, actions, déclencheurs, effets, règles, profils)\n\nCette action est irréversible.")) return;
+    [DATA_KEY, PARTS_KEY, ACTIONS_KEY, TRIGGERS_KEY, EFFECTS_KEY, RULES_KEY, STORAGE_KEY].forEach(k => localStorage.removeItem(k));
+    resetState();
+    renderDonneesTab();
+    populateRegnes(); populateRaces(null); populateEthnies(null); populateLignees(null);
+    renderBiblio();
+    flashStatus("save-status", "✓ Base vidée");
+  });
+
+  document.getElementById("btn-load-initial").addEventListener("click", () => {
+    fetch("bestiaire_initial.json")
+      .then(r => { if (!r.ok) throw new Error(r.statusText); return r.json(); })
+      .then(json => {
+        const result = importDataJSON(JSON.stringify(json));
+        alert(result.ok ? `✓ ${result.added} entrée(s) chargée(s) depuis les données initiales.` : `✗ ${result.error}`);
+        if (result.ok) { renderDonneesTab(); populateRegnes(); populateRaces(state.regne); populateEthnies(state.race); populateLignees(state.regne); }
+      })
+      .catch(err => alert(`✗ Impossible de charger bestiaire_initial.json : ${err.message}`));
+  });
 }
 
 function attachModalHandlers() {
