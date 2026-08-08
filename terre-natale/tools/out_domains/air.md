@@ -278,7 +278,7 @@ Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[M
 ***Type de mot :*** Interruption, ***Type de cible :*** Soi
 ***Difficulté :*** 6, ***Drain :*** 6
 **Clés :** 🌪️ Air: Brendirigoel
-Génère un effet qui renvoie un projectile (peu importe sa forme) à son celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+Génère un effet qui renvoie un projectile (peu importe sa forme) à celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 ---
 

@@ -485,7 +485,7 @@
   },
   {
     "num": 32,
-    "vulgar": "Purification",
+    "vulgar": "Pureté",
     "latin": "Purgo (Purifier)",
     "arcane": "Mugpurgo (Mug + purgo)",
     "word_type": "Pouvoir",

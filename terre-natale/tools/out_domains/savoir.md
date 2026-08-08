@@ -32,7 +32,7 @@ Restaure l'indice, la piste ou autre information ciblé, qui a été rendue bien
 
 ---
 
-#### 4. Purification
+#### 4. Pureté
 ***École :*** École de Restauration
 ***Latin :*** Purgo (Purifier), ***Arcanique :*** Mugpurgo (Mug + purgo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible

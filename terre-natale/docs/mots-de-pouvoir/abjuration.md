@@ -336,12 +336,12 @@
     "vulgar": "Restriction",
     "latin": "Stringo (ResseRer)",
     "arcane": "Basstrin (Bas + strin)",
-    "word_type": "Pouvoir",
-    "target_type": "Lieu/Cible",
+    "word_type": "Interruption",
+    "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
     "keys": "✡️ Arcane: Basstrinys",
-    "description": "Génère un effet qui génère une pénalité de [Magnitude/5] à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible (lieu ou cible)."
+    "description": "Génère un effet qui génère une pénalité de [Magnitude/5] à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible."
   },
   {
     "num": 20,
@@ -497,7 +497,7 @@
     "difficulty": "6",
     "drain": "6",
     "keys": "🌪️ Air: Brendirigoel",
-    "description": "Génère un effet qui renvoie un projectile (peu importe sa forme) à son celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à [Magnitude]."
+    "description": "Génère un effet qui renvoie un projectile (peu importe sa forme) à celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à [Magnitude]."
   },
   {
     "num": 33,

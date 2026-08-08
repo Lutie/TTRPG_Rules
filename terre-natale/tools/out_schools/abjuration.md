@@ -166,10 +166,10 @@ Génère un effet neutralisant jusqu'à <span style="color:#ff1493; font-weight:
 
 #### 19. Restriction
 ***Latin :*** Stringo (ResseRer), ***Arcanique :*** Basstrin (Bas + strin)
-***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu/Cible
+***Type de mot :*** Interruption, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✡️ Arcane: Basstrinys
-Génère un effet qui génère une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible (lieu ou cible).
+Génère un effet qui génère une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible.
 
 ---
 
@@ -286,7 +286,7 @@ Génère un effet qui génère <span style="color:#ff1493; font-weight:bold;">[M
 ***Type de mot :*** Interruption, ***Type de cible :*** Soi
 ***Difficulté :*** 6, ***Drain :*** 6
 **Clés :** 🌪️ Air: Brendirigoel
-Génère un effet qui renvoie un projectile (peu importe sa forme) à son celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
+Génère un effet qui renvoie un projectile (peu importe sa forme) à celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 ---
 

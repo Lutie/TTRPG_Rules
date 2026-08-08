@@ -204,16 +204,28 @@ const saveAllCharacters = (chars) => {
 
 const saveCharacterToStore = (character) => {
   const chars = loadAllCharacters();
+  // Preserve existing dateModification — only a real edit should update it.
+  // Generating new Date() here causes stale local data to appear newer than
+  // the server's version after a mere app reload, bypassing the 409 guard.
+  const existingDate = chars[character.uuid]?._meta?.dateModification;
   chars[character.uuid] = {
     ...character,
     _meta: {
       uuid: character.uuid,
       nom: character.infos?.nom || 'Sans nom',
-      dateModification: new Date().toISOString()
+      dateModification: existingDate || new Date().toISOString()
     }
   };
   saveAllCharacters(chars);
   localStorage.setItem(STORAGE_LAST_ID, character.uuid);
+};
+
+// Stamps the current time as dateModification — called only on actual user edits.
+const touchCharacterStore = (uuid) => {
+  const chars = loadAllCharacters();
+  if (!chars[uuid]) return;
+  chars[uuid]._meta = { ...chars[uuid]._meta, dateModification: new Date().toISOString() };
+  saveAllCharacters(chars);
 };
 
 // Migration depuis l'ancien format
@@ -287,10 +299,9 @@ export function CharacterProvider({ children }) {
   const updateCharacter = useCallback((updates) => {
     setCharacter(prev => {
       if (!prev) return prev;
-      if (typeof updates === 'function') {
-        return updates(prev);
-      }
-      return { ...prev, ...updates };
+      const next = typeof updates === 'function' ? updates(prev) : { ...prev, ...updates };
+      touchCharacterStore(prev.uuid); // mark as modified before auto-save re-runs
+      return next;
     });
   }, []);
 
@@ -469,6 +480,15 @@ export function CharacterProvider({ children }) {
     }
   }, [syncEnabled, dashboardUrl, character, playerToken]);
 
+  const refreshCurrentCharacter = useCallback(() => {
+    if (!currentCharacterId) return;
+    const chars = loadAllCharacters();
+    if (chars[currentCharacterId]) {
+      const { _meta, ...charData } = chars[currentCharacterId];
+      setCharacter(migrateCharacterFields(charData));
+    }
+  }, [currentCharacterId]);
+
   const pullFromDashboard = useCallback(async () => {
     if (!dashboardUrl || !playerToken) return { ok: false, error: 'Token ou URL manquant' };
     try {
@@ -480,6 +500,8 @@ export function CharacterProvider({ children }) {
       const localChars = loadAllCharacters();
       let added = 0;
       let updated = 0;
+
+      const addedUuids = [];
 
       for (const remote of remoteChars) {
         const { _sync, ...charData } = remote;
@@ -496,6 +518,7 @@ export function CharacterProvider({ children }) {
               dateModification: remoteDate || new Date().toISOString()
             }
           };
+          addedUuids.push(charData.uuid);
           added++;
         } else if (remoteDate && localDate && remoteDate > localDate) {
           localChars[charData.uuid] = {
@@ -511,7 +534,7 @@ export function CharacterProvider({ children }) {
       }
 
       saveAllCharacters(localChars);
-      return { ok: true, added, updated };
+      return { ok: true, added, updated, addedUuids };
     } catch (err) {
       console.error('Pull dashboard échoué:', err);
       return { ok: false, error: 'Erreur réseau' };
@@ -536,7 +559,8 @@ export function CharacterProvider({ children }) {
     playerToken,
     setPlayerToken,
     syncToDashboard,
-    pullFromDashboard
+    pullFromDashboard,
+    refreshCurrentCharacter
   };
 
   return (

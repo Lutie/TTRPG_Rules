@@ -141,7 +141,7 @@ function AppContent() {
   const [activeTab, setActiveTab] = useState('principal');
   const [showCharSelect, setShowCharSelect] = useState(false);
   const [syncStatus, setSyncStatus] = useState(null); // null | 'ok' | 'error' | 'conflict'
-  const { character, currentCharacterId, exportCharacter, createNewCharacter, dashboardUrl, syncEnabled, syncToDashboard } = useCharacter();
+  const { character, currentCharacterId, exportCharacter, createNewCharacter, dashboardUrl, syncEnabled, syncToDashboard, pullFromDashboard, refreshCurrentCharacter } = useCharacter();
   const calc = useCharacterCalculations(character || {});
 
   const visibleTabs = ALL_TABS.filter(tab =>
@@ -158,19 +158,27 @@ function AppContent() {
   const handleSync = useCallback(async () => {
     const result = await syncToDashboard();
     if (result === 'conflict') {
-      setSyncStatus('conflict');
+      setSyncStatus('conflict'); // persistant jusqu'à résolution
     } else {
       setSyncStatus(result ? 'ok' : 'error');
+      setTimeout(() => setSyncStatus(null), 4000);
     }
-    setTimeout(() => setSyncStatus(null), 4000);
   }, [syncToDashboard]);
 
-  // Sync auto toutes les 30s (seulement si le perso a un nom)
+  // Résolution de conflit : récupère la version serveur
+  const handlePullOnConflict = useCallback(async () => {
+    const result = await pullFromDashboard();
+    if (result.ok) refreshCurrentCharacter();
+    setSyncStatus(null);
+  }, [pullFromDashboard, refreshCurrentCharacter]);
+
+  // Sync auto toutes les 30s — surface les conflits dans l'UI
   useEffect(() => {
     if (!syncEnabled || !dashboardUrl || !character) return;
     if (!character.infos?.nom?.trim()) return;
-    const interval = setInterval(() => {
-      syncToDashboard();
+    const interval = setInterval(async () => {
+      const result = await syncToDashboard();
+      if (result === 'conflict') setSyncStatus('conflict'); // persistant
     }, 30000);
     return () => clearInterval(interval);
   }, [syncEnabled, dashboardUrl, character, syncToDashboard]);
@@ -214,13 +222,32 @@ function AppContent() {
           {character && <button onClick={() => printCharacter(character, calc)} title="Exporter en PDF">PDF</button>}
           <button onClick={() => { createNewCharacter(); }} title="Créer un nouveau personnage">Nouveau</button>
           {syncEnabled && dashboardUrl && (
-            <button
-              className={`btn-sync ${syncStatus === 'ok' ? 'sync-ok' : syncStatus === 'error' ? 'sync-error' : syncStatus === 'conflict' ? 'sync-conflict' : ''}`}
-              onClick={handleSync}
-              title={syncStatus === 'conflict' ? 'Conflit : le dashboard a une version plus récente — récupérez-la depuis Config' : `Synchroniser avec le dashboard (${dashboardUrl})`}
-            >
-              {syncStatus === 'conflict' ? '⚠' : '↻'}
-            </button>
+            syncStatus === 'conflict' ? (
+              <>
+                <button
+                  className="btn-sync sync-conflict"
+                  onClick={handlePullOnConflict}
+                  title="Le serveur a une version plus récente — cliquer pour la récupérer (écrase le local)"
+                >
+                  ↓ Récupérer
+                </button>
+                <button
+                  className="btn-sync sync-conflict"
+                  onClick={handleSync}
+                  title="Forcer l'envoi de la version locale (écrase le serveur)"
+                >
+                  ⚠ ↻
+                </button>
+              </>
+            ) : (
+              <button
+                className={`btn-sync ${syncStatus === 'ok' ? 'sync-ok' : syncStatus === 'error' ? 'sync-error' : ''}`}
+                onClick={handleSync}
+                title={`Synchroniser avec le dashboard (${dashboardUrl})`}
+              >
+                ↻
+              </button>
+            )
           )}
         </div>
       </header>

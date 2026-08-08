@@ -4451,6 +4451,62 @@ header h1 {
   background: color-mix(in srgb, var(--accent) 15%, var(--surface));
 }
 
+/* === Système preset sorts === */
+
+.sort-field-label-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.sort-field-label-row label {
+  margin-bottom: 0;
+}
+
+.sort-preset-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--accent) 20%, var(--surface));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.btn-field-reset {
+  font-size: 0.8rem;
+  padding: 1px 5px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.btn-field-reset:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.sort-field-preset {
+  opacity: 0.75;
+  font-style: italic;
+}
+
+.domaines-picker-preset .domaine-btn--selected {
+  opacity: 0.75;
+}
+
+.sort-badge-preset {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
 .memoire-add {
   display: flex;
   flex-direction: column;

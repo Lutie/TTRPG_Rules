@@ -52,3 +52,32 @@ Une même amélioration spéciale ne peut être installée qu'**une seule fois**
 
 !!! note "Armes technologiques"
     Les armes technologiques et leurs blocs obéissent à leur propre système. Ils ne sont pas remplacés par les présentes règles, sauf mention explicite dans leurs règles particulières.
+
+---
+
+## Les Lunettes Steam
+
+Les lunettes steam sont les opérateurs permettant de percevoir et d'interagir avec les circuits aethériques. Elles se déclinent en trois catégories, chacune élargissant les possibilités de l'opérateur.
+
+### Modèles
+
+| Catégorie | Nom | Capacités |
+|---|---|---|
+| 1 | Lunettes Basiques | Accès aux actions steam de catégorie 1. |
+| 2 | Lunettes Avancées | Accès aux actions steam de catégories 1 et 2. |
+| 3 | Lunettes de Maître | Accès complet aux actions steam (Désactiver limité à catégorie 2). |
+
+### Attributs Techniques
+
+Les lunettes steam utilisent les attributs techniques standard (valeur de départ : 2). Ils correspondent aux caractéristiques suivantes :
+
+| Attribut | Caractéristique |
+|---|---|
+| Efficacité | Bonus au test d'actions steam offensives |
+| Fiabilité | Résistance et durabilité de l'appareil |
+| Maniabilité | Facilité d'accès aux circuits |
+| Rapidité | Initiative en confrontation steam |
+
+### Améliorations
+
+Les lunettes steam ont accès aux améliorations génériques. Elles ne disposent pas d'améliorations spéciales propres à ce stade.

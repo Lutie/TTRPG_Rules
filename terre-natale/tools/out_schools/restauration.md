@@ -281,7 +281,7 @@ Génère un effet qui octroie une condition de soin dans le temps (HOT).
 
 ---
 
-#### 32. Purification
+#### 32. Pureté
 ***Latin :*** Purgo (Purifier), ***Arcanique :*** Mugpurgo (Mug + purgo)
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2

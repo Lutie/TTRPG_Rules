@@ -90,22 +90,22 @@
 ---
 
 ## Ire de l'Espoir
-***Difficulté :*** 10, ***Drain :*** 10
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">#REF!</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** 🛡️ Guerre: Lemperforr
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Optimal ✧</span> (Perficio (Achever) / Lemperf (Lem + perf)) : Génère un enchantement positif qui accorde un bonus d'attribut de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> lors des tests tactiques via arme non naturelle (clé guerre) ou arme naturelle (clé faune) ou joute (clé mental) de la cible. ***Clé :*** 🛡️ Guerre: Lemperforr
 
 ***Description :*** Renforce instantanément la défense passive contre les tactiques physiques (interruption).
 
 ---
 
 ## Présence du Mentor
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡, ***École du sort :*** École de Restauration
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🛡, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Harmonisation ⌖</span> (Harmonia (Harmonie) / Reharmo (Re + harmo)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> visant un trauma (lésion mentale), génère la moitié en fatigue. ***Clé :*** 🛡️ Guerre: Lirharmoor
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Harmonisation ✧</span> (Harmonia (Harmonie) / Lirharmo (Lir + harmo)) : Génère un enchantement positif qui réduit de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> les pénalités des manoeuvres physiques (clé guerre), mentales (clé mental) ou incantatoires (clé magie) de la cible. ***Clé :*** 🛡️ Guerre: Lirharmoor
 
 ***Description :*** Crée une zone “mentor” qui facilite les manœuvres et réduit la difficulté des sorts dans l’aire.
 

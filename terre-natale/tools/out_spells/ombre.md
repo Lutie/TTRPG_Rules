@@ -33,7 +33,7 @@
 ---
 
 ## Puit de Faiblesse
-***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École d'Évocation et École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Puit</span> : Le sort s'applique au moment où il est lancé puis aux deux rounds d'après, même cible, la cible doit être un lieu.
@@ -41,7 +41,7 @@
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
 > **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Imposition ⧉</span> (Pono (Placer) / Evponi (Ev + poni)) : Génère un effet agissant comme l'action tactique provoquant une condition nécessairement négative (dont la nature est associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec un jet de <span style="color:#ff1493; font-weight:bold;">[Magnitude x1.5]</span>, la cible peux donc se défendre de l'action et aussi réaliser un test de sauvegarde adapté à la condition (ou opposition si supérieure). ***Clé :*** 🌑 Ombre
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne).
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>.
 
 ***Description :*** Crée un puits qui impose faiblesse et apathie, brisant l’élan et la volonté dans la zone.
 
@@ -189,11 +189,11 @@
 ---
 
 ## Voyage dans les Ombres
-***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École de Divination
+***Difficulté :*** 8, ***Drain :*** 8, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 🌑, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Soi</span> : Portée : Sans, Vecteur : Sans, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Projection ⊙</span> (Iacio (Jeter) / Dariacto (Dar + iacto)) : Génère un enchantement positif qui permet à la cible de mieux lire le champs de bataille et de voir légérement en avance le résultat de ses actions, dans le cadre de ses actions ou des actions qui le vise la défense de ses adversaires et sa propre défense sont modifiés (dans le sens de la cible) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>. ***Clé :*** 🌑 Ombre: Erulocusoth
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Projection ⧉</span> (??? / ???) : Génère un effet qui déplace le lanceur de sort à une distance maximale équivalante à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la moitié durant une confrontation, la destination doit partager la même zone d'ombre que le point de départ, le déplacement étant instantané ce dernier ne provoque pas d'opportunité etc. ***Clé :*** 🌑 Ombre: Erulocusoth
 
 ***Description :*** Intervertit instantanément la position de deux cibles visibles à courte distance, comme un pas dans les ombres.
 

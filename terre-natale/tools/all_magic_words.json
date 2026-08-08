@@ -2054,7 +2054,7 @@
     "school_label": "École de Restauration",
     "latin": "Purgo (Purifier)",
     "arcane": "Mugpurgo (Mug + purgo)",
-    "vulgar": "Purification ⌖",
+    "vulgar": "Pureté ⌖",
     "word_type": "Pouvoir",
     "target_type": "Cible",
     "difficulty": "2",
@@ -4608,7 +4608,7 @@
     "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les x points ainsi captés (les différentes occurences s'accumulent pour déclancher le gain lorsque le total le permet), x étant de 15 - [Magnitude/5] (minimum 5).",
+    "description": "Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme, le gain est de 1 par niveau de sort lancé, maximum [Magnitude/7] par sorts et un total de [Magnitude/2].",
     "keys": "🔮 Magie: Loksonairn",
     "domains": [
       "🔮"
@@ -9602,11 +9602,11 @@
     "latin": "Stringo (ResseRer)",
     "arcane": "Basstrin (Bas + strin)",
     "vulgar": "Restriction ⛊",
-    "word_type": "Pouvoir",
-    "target_type": "Lieu/Cible",
+    "word_type": "Interruption",
+    "target_type": "Cible",
     "difficulty": "2",
     "drain": "2",
-    "description": "Génère un effet qui génère une pénalité de [Magnitude/5] à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible (lieu ou cible).",
+    "description": "Génère un effet qui génère une pénalité de [Magnitude/5] à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible.",
     "keys": "✡️ Arcane: Basstrinys",
     "domains": [
       "✡️"
@@ -9927,7 +9927,7 @@
     "target_type": "Soi",
     "difficulty": "6",
     "drain": "6",
-    "description": "Génère un effet qui renvoie un projectile (peu importe sa forme) à son celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à [Magnitude].",
+    "description": "Génère un effet qui renvoie un projectile (peu importe sa forme) à celui qui l'a lancé ou sur une autre cible (à distance égale avec son origine), ceci n'est possible que si le jet du projectile est inférieur à [Magnitude].",
     "keys": "🌪️ Air: Brendirigoel",
     "domains": [
       "🌪️"

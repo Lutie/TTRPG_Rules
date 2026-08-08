@@ -14,11 +14,11 @@
 ---
 
 ## Mot de Vitesse
-***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École de Restauration
+***Difficulté :*** 16, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Mot</span> : Portée : Portée magique x3, Vecteur : Voix.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Vivification ⌖</span> (Vita (Vie) / Renvita (Ren + vita)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée). ***Clé :*** 💢 Vide: Lokvitaarh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Vivification ✧</span> (Vita (Vie) / Lokvita (Lok + vita)) : Génère un enchantement positif qui augmente la vitesse de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 💢 Vide: Lokvitaarh
 
 ***Description :*** Augmente la vitesse de déplacement de la cible de façon surnaturelle.
 
@@ -141,11 +141,11 @@
 ---
 
 ## Accélération Temporelle
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢, ***École du sort :*** École d'Évocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Accélération ✧</span> (Velox (Rapide) / Lirvelo (Lir + velo)) : Génère un enchantement positif qui octroie à la cible un total de <span style="color:#ff1493; font-weight:bold;">[Magnitude/7]</span> action libre par tours, hydraté équitablement sur les 3 premiers rounds. ***Clé :*** 💢 Vide: Elovelocarh
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Accélération ⧉</span> (Velox (Rapide) / Eloveloc (Elo + veloc)) : Génère un effet provoquant un gain de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> points d'initiative. ***Clé :*** 💢 Vide: Elovelocarh
 
 ***Description :*** Accélère temporairement le flux temporel autour de la cible pour lui donner un avantage d’initiative.
 
@@ -213,12 +213,12 @@
 ---
 
 ## ???
-***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢💢, ***École du sort :*** École de Bénédiction et École de Restauration
+***Difficulté :*** 14, ***Drain :*** 14, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** 💢💢, ***École du sort :*** École de Bénédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
 > **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Promptification ✧</span> (Promptus (Prompt) / Luxpromp (Lux + promp)) : Génère un enchantement positif qui augmente la rapidité de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 💢 Vide: Luxpromparh
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Vivification ⌖</span> (Vita (Vie) / Renvita (Ren + vita)) : Produit un soin de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> pour les PV & PS ainsi qu'une recharge d'autant de charges de l'invocation ciblée (dont le type correspond à la <span style="color:#ff1493; font-weight:bold;">[clé]</span> utilisée). ***Clé :*** 💢 Vide: Lokvitaarh
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Vivification ✧</span> (Vita (Vie) / Lokvita (Lok + vita)) : Génère un enchantement positif qui augmente la vitesse de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span>. ***Clé :*** 💢 Vide: Lokvitaarh
 
 ***Description :*** Combine accélération et vitesse pour transformer la cible en véritable éclair vivant.
 

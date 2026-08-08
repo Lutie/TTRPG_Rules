@@ -88,23 +88,11 @@ Cette extension ajoute un certain nombre d’avantages et désavantages. Retrouv
 
 Cette extension ajoute un certain nombre de caractéristiques.
 
-#### L’Aether
-
-L’aether est une ressource fondamentale. Il représente la capacité du personnage à agir dans le steam — c’est sa signature personnelle, ce qui lui permet d’émettre une impulsion et d’interagir avec les circuits. Si l’Aether chute à 0 rien de néfaste n’a lieu mais agir dans le steam est alors impossible. L’Aether dépend de la Logique. Il est nul si le personnage n’a pas la capacité d’agir sur le steam (matérialisé par le groupe de compétence du même nom).
-
-- Aether = Logique x2.
-
 #### La Créativité
 
 La créativité est une ressource unique. La Créativité représente la capacité du personnage à produire un travail hors norme, qui ne peut être réalisé par n’importe qui, n’importe quand ou autant de fois qu’on le souhaite. Elle s’applique principalement aux **Promotions**, une règle spécifique aux artisanats qui permet d’apporter des bonus majeurs à une création. La Créativité permet ainsi de donner des propriétés uniques à des objets que l’on créé. Si la Créativité chute à 0 rien de néfaste n’a lieu mais il n’est alors plus possible de produire de telles créations. Si le personnage n’a pas de domaine technologique alors sa créativité est de 0 puisqu’il ne peut en faire usage. La Créativité dépend de la Logique.
 
 - Créativité = Logique x2.
-
-#### La Récupération de l'Aether
-
-Elle fixe la récupération de l'Aether.
-
-- Récupération de l'Aether = Récupération.
 
 ## Actions de l’Extension
 

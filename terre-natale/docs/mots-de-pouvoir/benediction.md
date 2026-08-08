@@ -1707,7 +1707,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "🔮 Magie: Loksonairn",
-    "description": "Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme (si ce ne sont pas des PM temporaires), le gain est de 1 tous les x points ainsi captés (les différentes occurences s'accumulent pour déclancher le gain lorsque le total le permet), x étant de 15 - [Magnitude/5] (minimum 5)."
+    "description": "Génère un enchantement positif qui génère des PM temporaires lorsqu'une créature dans la même zone que la cible en consomme, le gain est de 1 par niveau de sort lancé, maximum [Magnitude/7] par sorts et un total de [Magnitude/2]."
   },
   {
     "num": 134,

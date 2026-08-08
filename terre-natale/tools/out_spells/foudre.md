@@ -64,11 +64,11 @@
 ---
 
 ## Paralysie
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École de Malédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ⧖</span> (Fligo (Frapper) / Munfligo (Mun + fligo)) : Génère un enchantement négatif qui réduit un attribut (au choix selon la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>. ***Clé :*** ⚡ Foudre
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Affliction ≈</span> (Fligo (Frapper) / Aenfligo (Aen + fligo)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition négative (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, la cible peux réaliser un test de sauvegarde contre la condition en question (ou opposition si supérieure). ***Clé :*** ⚡ Foudre
 
 ***Notes :*** Condition : Paralysie.
 
@@ -135,12 +135,12 @@
 ---
 
 ## Boule Fulgurante
-***Difficulté :*** 10, ***Drain :*** 10
+***Difficulté :*** 14, ***Drain :*** 16, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ⚡, ***École du sort :*** École d'Invocation
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Ephémère</span> : Le sort d'invocation ne dure qu'un cycle unique, l'invocation est avantagé a ses tests & jets.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Titan</span> *(mot introuvable dans les dictionnaires)* ***Clé :*** ⚡ Foudre
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Elémentaire ✪</span> (Elementum (Élément) / Voele (Vo + ele)) : Génère un enchantement qui invoque une créature de type élémentaire au choix parmis les archétypes existants via une <span style="color:#ff1493; font-weight:bold;">[clé]</span>, la charge est de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ⚡ Foudre
 
 ---
 

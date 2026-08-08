@@ -355,10 +355,10 @@ Génère un effet neutralisant jusqu'à <span style="color:#ff1493; font-weight:
 #### 36. Restriction
 ***École :*** École d'Abjuration
 ***Latin :*** Stringo (ResseRer), ***Arcanique :*** Basstrin (Bas + strin)
-***Type de mot :*** Pouvoir, ***Type de cible :*** Lieu/Cible
+***Type de mot :*** Interruption, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✡️ Arcane: Basstrinys
-Génère un effet qui génère une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible (lieu ou cible).
+Génère un effet qui génère une pénalité de <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span> à toutes les actions d'un type (choisit au lancement du sort) qui vise la cible.
 
 ---
 

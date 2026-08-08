@@ -10,8 +10,6 @@ L'industrie désigne l'ensemble du cycle de vie d'un objet technologique : de la
 
 L'aether est le nom scientifique de l'Ether. Dans la discipline dite de l'**équivalence** — une pratique à cheval entre magie et sciences — il désigne la partie d'une âme qui définit son identité propre, ce « qui je suis ». C'est cette composante unique et personnelle qui permet à un opérateur de manipuler le steam : l'aether agit comme une signature, une clé d'accès aux circuits.
 
-En termes de jeu, l'aether est une caractéristique dérivée de la **Logique** (attribut dont la valeur de départ est 7, comme la Magie). Un personnage dispose ainsi de **14 points d'aether** par défaut.
-
 ### Le Steam
 
 Le steam est une énergie raffinée tirée du flux. Sa nature évoluée le distingue des énergies brutes : il est malléable et peut être manipulé à distance par un opérateur via des **lunettes steam**, des appareils permettant de percevoir les signaux aethériques et d'agir sur eux à distance.

@@ -35,6 +35,7 @@ function ConfrontationView({ confrontation, onBack, onUpdate, isAdmin }) {
   const [showPresets, setShowPresets] = useState(false);
   const [form, setForm] = useState(defaultForm());
   const [presets, setPresets] = useState([]);
+  const [expandedPresetId, setExpandedPresetId] = useState(null);
   const [showInitModal, setShowInitModal] = useState(false);
   const [initRolls, setInitRolls] = useState({});
 
@@ -236,21 +237,49 @@ function ConfrontationView({ confrontation, onBack, onUpdate, isAdmin }) {
             <p className="empty-message" style={{ padding: '10px' }}>Aucun preset enregistré.</p>
           ) : (
             <ul className="presets-list">
-              {presets.map(p => (
-                <li key={p.id} className="preset-item">
-                  <span className="preset-item-nom">{p.nom}</span>
-                  <span className="preset-item-meta">
-                    PV {p.ressources?.PV?.max || 0} · PE {p.ressources?.PE?.max || 0} · Adj.Init {p.ajustement_initiative || 0} · Moral⚙ {p.moral_perso || 0}
-                  </span>
-                  {isAdmin && (
-                    <button
-                      className="btn-confirm-yes"
-                      onClick={() => handleDeletePreset(p.id)}
-                      title="Supprimer ce preset"
-                    >✕</button>
-                  )}
-                </li>
-              ))}
+              {presets.map(p => {
+                const isExpanded = expandedPresetId === p.id;
+                const activeRes = RESSOURCES.filter(r => (p.ressources?.[r.id]?.max || 0) > 0);
+                const activeStats = STATS_FORM.filter(s => p[s.id]);
+                return (
+                  <li key={p.id} className="preset-item">
+                    <div
+                      className="preset-item-header"
+                      onClick={() => setExpandedPresetId(prev => prev === p.id ? null : p.id)}
+                    >
+                      <span className="preset-item-chevron">{isExpanded ? '▼' : '▶'}</span>
+                      <span className="preset-item-nom">{p.nom}</span>
+                      <span className="preset-item-meta">
+                        PV {p.ressources?.PV?.max || 0} · PE {p.ressources?.PE?.max || 0} · Adj.Init {p.ajustement_initiative || 0} · Moral⚙ {p.moral_perso || 0}
+                      </span>
+                      {isAdmin && (
+                        <button
+                          className="btn-confirm-yes"
+                          onClick={e => { e.stopPropagation(); handleDeletePreset(p.id); }}
+                          title="Supprimer ce preset"
+                        >✕</button>
+                      )}
+                    </div>
+                    {isExpanded && (
+                      <div className="preset-item-detail">
+                        {activeRes.map(r => (
+                          <span key={r.id} className="preset-detail-chip">
+                            {r.icone} {r.id} <strong>{p.ressources[r.id].max}</strong>
+                          </span>
+                        ))}
+                        {activeStats.map(s => (
+                          <span key={s.id} className="preset-detail-chip">
+                            {s.icone} {s.label} <strong>{p[s.id]}</strong>
+                          </span>
+                        ))}
+                        {activeRes.length === 0 && activeStats.length === 0 && (
+                          <span className="preset-detail-empty">Aucune valeur configurée</span>
+                        )}
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           )}
         </div>

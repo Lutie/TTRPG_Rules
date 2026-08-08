@@ -140,7 +140,7 @@ function TabConfig() {
     dashboardUrl, setDashboardUrl,
     syncEnabled, setSyncEnabled,
     playerToken, setPlayerToken,
-    pullFromDashboard
+    pullFromDashboard, loadCharacter
   } = useCharacter();
 
   const [urlInput, setUrlInput]       = useState(dashboardUrl);
@@ -222,9 +222,16 @@ function TabConfig() {
   const handlePull = useCallback(async () => {
     setPullStatus(null);
     const result = await pullFromDashboard();
+    if (result.ok && result.addedUuids?.length === 1) {
+      loadCharacter(result.addedUuids[0]);
+    }
     setPullStatus(result);
-    setTimeout(() => setPullStatus(null), 5000);
-  }, [pullFromDashboard]);
+    // Errors and "nothing found" stay persistent — user must act.
+    // Successful adds/updates auto-dismiss.
+    const nothingFound = result.ok && result.added === 0 && result.updated === 0;
+    if (!result.ok || nothingFound) return;
+    setTimeout(() => setPullStatus(null), 6000);
+  }, [pullFromDashboard, loadCharacter]);
 
   // ─────────────────────────────────────────────────────────────────────────────
 
@@ -408,6 +415,7 @@ function TabConfig() {
               <p className="config-option-desc">
                 Token fourni par le MJ. Permet de récupérer vos personnages depuis n'importe quel navigateur.
                 {!syncEnabled && <span className="config-option-desc-warn"> La synchronisation doit être activée ci-dessus pour envoyer vos personnages au dashboard.</span>}
+                {syncEnabled && <span className="config-option-desc-warn"> Ce token doit être configuré avant la synchronisation pour que le pull fonctionne depuis un autre PC.</span>}
               </p>
               <div className="config-token-row">
                 <input
@@ -432,10 +440,19 @@ function TabConfig() {
                     ↓ Récupérer depuis le dashboard
                   </button>
                   {pullStatus && (
-                    <span className={`config-token-status ${pullStatus.ok ? 'token-ok' : 'token-error'}`}>
-                      {pullStatus.ok
-                        ? `${pullStatus.added} ajouté(s), ${pullStatus.updated} mis à jour`
-                        : pullStatus.error}
+                    <span className={`config-token-status ${
+                      !pullStatus.ok ? 'token-error'
+                      : pullStatus.added === 0 && pullStatus.updated === 0 ? 'token-error'
+                      : 'token-ok'
+                    }`}>
+                      {!pullStatus.ok
+                        ? pullStatus.error
+                        : pullStatus.added === 0 && pullStatus.updated === 0
+                          ? 'Aucun personnage trouvé. Vérifiez que vous avez bien synchronisé depuis votre autre PC avec ce token.'
+                          : pullStatus.added > 0
+                            ? `${pullStatus.added} personnage(s) récupéré(s)${pullStatus.addedUuids?.length === 1 ? ' et chargé automatiquement.' : '. Ouvrez « Personnages » pour en choisir un.'}`
+                            : `${pullStatus.updated} personnage(s) mis à jour.`
+                      }
                     </span>
                   )}
                 </div>

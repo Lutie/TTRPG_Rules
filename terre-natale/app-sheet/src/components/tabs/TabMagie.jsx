@@ -51,8 +51,6 @@ function TabMagie() {
 
   const formatMod = (val) => val >= 0 ? `+${val}` : `${val}`;
 
-  const tradition = DATA.traditions.find(t => t.id === character.tradition);
-
   return (
     <div id="tab-magie" className="tab-content active">
       {/* Tradition Magique */}
@@ -76,36 +74,13 @@ function TabMagie() {
       {/* Caractéristiques Magiques */}
       <Section title="Caractéristiques Magiques">
         <div className="magie-carac-section">
-          {/* Puissances */}
           <div className="magie-carac-row magie-puissances">
-            <CaracBoxSmall
-              name="Puissance Invocatrice"
-              value={formatMod(calc.puissanceInvocatrice)}
-              desc="Effets d'invocation"
-            />
-            <CaracBoxSmall
-              name="Puissance Soins/Dégâts"
-              value={formatMod(calc.puissanceSoinsDegats)}
-              desc="Effets de soins/dégâts"
-            />
-            <CaracBoxSmall
-              name="Puissance Positive"
-              value={formatMod(calc.puissancePositive)}
-              desc="Enchantements positifs"
-            />
-            <CaracBoxSmall
-              name="Puissance Négative"
-              value={formatMod(calc.puissanceNegative)}
-              desc="Enchantements négatifs"
-            />
-            <CaracBoxSmall
-              name="Puissance Générique"
-              value={formatMod(calc.puissanceGenerique)}
-              desc="Tous les autres effets"
-            />
+            <CaracBoxSmall name="Puissance Invocatrice" value={formatMod(calc.puissanceInvocatrice)} desc="Effets d'invocation" />
+            <CaracBoxSmall name="Puissance Soins/Dégâts" value={formatMod(calc.puissanceSoinsDegats)} desc="Effets de soins/dégâts" />
+            <CaracBoxSmall name="Puissance Positive" value={formatMod(calc.puissancePositive)} desc="Enchantements positifs" />
+            <CaracBoxSmall name="Puissance Négative" value={formatMod(calc.puissanceNegative)} desc="Enchantements négatifs" />
+            <CaracBoxSmall name="Puissance Générique" value={formatMod(calc.puissanceGenerique)} desc="Tous les autres effets" />
           </div>
-
-          {/* Autres caractéristiques */}
           <div className="caracteristiques-grid">
             <div className="carac-box">
               <span className="carac-name">Portée Magique</span>
@@ -139,8 +114,14 @@ function TabMagie() {
           ) : (
             sortedSorts.map(sort => {
               const isExpanded = expandedSorts[sort.id] || false;
-              const domainesLabel = getDomaineLabels(sort.domaines);
-              const sortMeta = [sort.ecole, domainesLabel].filter(Boolean).join(' · ');
+              const difficulte = getEffectiveSortValue(sort, 'difficulte');
+              const drain = getEffectiveSortValue(sort, 'drain');
+              const ecole = getEffectiveSortValue(sort, 'ecole');
+              const domaines = getEffectiveSortValue(sort, 'domaines');
+              const description = getEffectiveSortValue(sort, 'description');
+              const effets = getEffectiveSortValue(sort, 'effets');
+              const domainesLabel = getDomaineLabels(domaines);
+              const sortMeta = [ecole, domainesLabel].filter(Boolean).join(' · ');
               return (
                 <div key={sort.id} className={`memoire-item ${isExpanded ? 'expanded' : ''}`}>
                   <div className="memoire-item-header" style={{ cursor: 'pointer' }} onClick={() => toggleSort(sort.id)}>
@@ -149,37 +130,24 @@ function TabMagie() {
                       {sortMeta && <span className="sort-meta-inline"> — {sortMeta}</span>}
                     </span>
                     <div className="memoire-item-controls">
-                      {sort.difficulte && <span className="sort-badge">Diff {sort.difficulte}</span>}
-                      {sort.drain && <span className="sort-badge">Drain {sort.drain}</span>}
+                      {difficulte && <span className="sort-badge">Diff {difficulte}</span>}
+                      {drain && <span className="sort-badge">Drain {drain}</span>}
+                      {sort.presetId && <span className="sort-badge sort-badge-preset" title="Lié au compendium">⚡</span>}
                       <span className="memoire-toggle-hint">{isExpanded ? '▲' : '▼'}</span>
-                      <button
-                        className="btn-sort-cast"
-                        onClick={(e) => { e.stopPropagation(); setCastingSort(sort); }}
-                        title="Lancer le sort"
-                      >✦</button>
-                      <button
-                        className="btn-memoire-desc"
-                        onClick={(e) => { e.stopPropagation(); setEditingSort(sort); }}
-                        title="Modifier"
-                      >✎</button>
-                      <button
-                        className="btn-memoire-delete"
-                        onClick={(e) => { e.stopPropagation(); handleRemoveSort(sort.id); }}
-                        title="Supprimer"
-                      >✕</button>
+                      <button className="btn-sort-cast" onClick={(e) => { e.stopPropagation(); setCastingSort(sort); }} title="Lancer le sort">✦</button>
+                      <button className="btn-memoire-desc" onClick={(e) => { e.stopPropagation(); setEditingSort(sort); }} title="Modifier">✎</button>
+                      <button className="btn-memoire-delete" onClick={(e) => { e.stopPropagation(); handleRemoveSort(sort.id); }} title="Supprimer">✕</button>
                     </div>
                   </div>
                   {isExpanded && (
                     <div className="memoire-item-desc">
                       {domainesLabel && <p className="sort-detail-line">Domaines : {domainesLabel}</p>}
-                      {sort.description && (
-                        <p className="memoire-desc-readonly">{sort.description}</p>
-                      )}
-                      {sort.effets && sort.effets.trim() && (
+                      {description && <p className="memoire-desc-readonly">{description}</p>}
+                      {effets && effets.trim() && (
                         <div className="sort-effets">
                           <span className="sort-effets-title">Effets</span>
                           <ul className="sort-effets-list">
-                            {sort.effets.split('\n').filter(l => l.trim()).map((ligne, i) => (
+                            {effets.split('\n').filter(l => l.trim()).map((ligne, i) => (
                               <li key={i}>{ligne}</li>
                             ))}
                           </ul>
@@ -197,7 +165,6 @@ function TabMagie() {
         </div>
       </Section>
 
-      {/* Modales */}
       {showSortModal && (
         <SortModal onSave={handleAddSort} onClose={() => setShowSortModal(false)} />
       )}
@@ -210,6 +177,8 @@ function TabMagie() {
     </div>
   );
 }
+
+// ─── Données ────────────────────────────────────────────────────────────────
 
 const ECOLES = [
   "École d'Abjuration", "École d'Altération", "École de Bénédiction",
@@ -236,68 +205,152 @@ const DOMAINES = [
   { emoji: '❤️', nom: 'Vie' },     { emoji: '👁️', nom: 'Vision' },
 ];
 
+// ─── Helpers emoji ───────────────────────────────────────────────────────────
+
+// Normalise un emoji vers la version avec variation-selector (U+FE0F) du composant.
+// Nécessaire car all_spells.json stocke les emojis sans variation-selector.
+function normalizeEmoji(emoji) {
+  const stripped = emoji.replace(/️/g, '');
+  const found = DOMAINES.find(d => d.emoji.replace(/️/g, '') === stripped);
+  return found ? found.emoji : emoji;
+}
+
 function getDomaineLabels(domaines) {
   if (!domaines) return '';
   const values = Array.isArray(domaines)
     ? domaines
-    : domaines.split(',').map(value => value.trim()).filter(Boolean);
+    : domaines.split(',').map(v => v.trim()).filter(Boolean);
 
   return values.map(value => {
-    const domaine = DOMAINES.find(d => d.emoji === value || d.nom === value);
-    return domaine ? `${domaine.emoji} ${domaine.nom}` : value;
-  }).join(', ');
+    const stripped = value.replace(/️/g, '');
+    const domaine = DOMAINES.find(d =>
+      d.emoji === value ||
+      d.emoji.replace(/️/g, '') === stripped ||
+      d.nom === value
+    );
+    return domaine ? `${domaine.emoji} ${domaine.nom}` : null;
+  }).filter(Boolean).join(', ');
 }
+
+// ─── Helpers preset ──────────────────────────────────────────────────────────
+
+// Calcule la valeur d'un champ à partir d'un sort du compendium (toujours une string).
+function computePresetStr(preset, field) {
+  switch (field) {
+    case 'difficulte': return preset.difficulty || '';
+    case 'drain':      return preset.drain || '';
+    case 'ecole':      return (preset.schools || [])[0] || '';
+    case 'domaines':   return (preset.domains || []).map(normalizeEmoji).join(', ');
+    case 'description': return preset.description || '';
+    case 'effets': {
+      const lines = (preset.words || [])
+        .filter(w => w.description)
+        .map(w => {
+          const label = w.word_type ? `${w.name} (${w.word_type})` : w.name;
+          const modif = w.magnitude_modifiers ? ` (${w.magnitude_modifiers})` : '';
+          return `${label} : ${w.description}${modif}`;
+        });
+      if (preset.notes?.trim()) lines.push(preset.notes.trim());
+      return lines.join('\n');
+    }
+    default: return '';
+  }
+}
+
+// Valeur effective d'un champ : override manuel > preset live > valeur stockée (compat).
+function getEffectiveSortValue(sort, field) {
+  if (sort.overrides?.[field] !== undefined) return sort.overrides[field];
+  if (sort.presetId) {
+    const preset = ALL_SPELLS.find(s => s.id === sort.presetId);
+    if (preset) return computePresetStr(preset, field);
+  }
+  return sort[field] ?? '';
+}
+
+// ─── SortModal ───────────────────────────────────────────────────────────────
 
 function SortModal({ initialValues, onSave, onClose }) {
   const isEdit = !!initialValues;
+
   const [nom, setNom] = useState(initialValues?.nom || '');
-  const [difficulte, setDifficulte] = useState(initialValues?.difficulte || '');
-  const [drain, setDrain] = useState(initialValues?.drain || '');
-  const [ecole, setEcole] = useState(initialValues?.ecole || '');
-  const [domaines, setDomaines] = useState(() => {
-    if (!initialValues?.domaines) return [];
-    return initialValues.domaines.split(',').map(s => s.trim()).filter(Boolean);
-  });
-  const [description, setDescription] = useState(initialValues?.description || '');
-  const [effets, setEffets] = useState(initialValues?.effets || '');
+  const [presetId, setPresetId] = useState(initialValues?.presetId ?? null);
+  // overrides : champs modifiés manuellement (absent = suit le preset ou valeur initiale)
+  const [overrides, setOverrides] = useState(initialValues?.overrides || {});
+
+  const preset = presetId ? ALL_SPELLS.find(s => s.id === presetId) : null;
+
+  // Valeur effective d'un champ dans le contexte modal
+  const getField = (field) => {
+    if (overrides[field] !== undefined) return overrides[field];
+    if (preset) return computePresetStr(preset, field);
+    return initialValues?.[field] ?? '';
+  };
+
+  // Version array pour le picker domaines
+  const getDomainesArray = () => {
+    const raw = overrides.domaines !== undefined
+      ? overrides.domaines
+      : preset
+        ? (preset.domains || []).map(normalizeEmoji).join(', ')
+        : initialValues?.domaines || '';
+    return raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+  };
+
+  const setField = (field, value) =>
+    setOverrides(prev => ({ ...prev, [field]: value }));
+
+  const clearField = (field) =>
+    setOverrides(prev => { const o = { ...prev }; delete o[field]; return o; });
+
+  const isOverridden = (field) => overrides[field] !== undefined;
+  // Champ affiché depuis le preset (non overridé et preset actif)
+  const fromPreset = (field) => !!preset && !isOverridden(field);
+  // Peut-on reset vers le preset ?
+  const canReset = (field) => !!preset && isOverridden(field);
+
+  const handlePresetChange = (e) => {
+    const id = parseInt(e.target.value) || null;
+    const newPreset = id ? ALL_SPELLS.find(s => s.id === id) : null;
+    setPresetId(id);
+    setOverrides({});
+    if (newPreset) setNom(newPreset.title || '');
+  };
 
   const toggleDomaine = (emoji) => {
-    setDomaines(prev => prev.includes(emoji) ? prev.filter(x => x !== emoji) : [...prev, emoji]);
+    const current = getDomainesArray();
+    const next = current.includes(emoji)
+      ? current.filter(x => x !== emoji)
+      : [...current, emoji];
+    setField('domaines', next.join(', '));
   };
 
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) onClose();
   };
 
-  const handlePickSpell = (e) => {
-    const id = parseInt(e.target.value);
-    if (!id) return;
-    const spell = ALL_SPELLS.find(s => s.id === id);
-    if (!spell) return;
-    setNom(spell.title || '');
-    setDifficulte(spell.difficulty || '');
-    setDrain(spell.drain || '');
-    setEcole((spell.schools || [])[0] || '');
-    setDomaines(spell.domains || []);
-    setDescription(spell.description || '');
-
-    // Effets : une ligne par mot, puis les notes
-    const lignesEffets = (spell.words || [])
-      .filter(w => w.description)
-      .map(w => {
-        const label = w.word_type ? `${w.name} (${w.word_type})` : w.name;
-        const modif = w.magnitude_modifiers ? ` (${w.magnitude_modifiers})` : '';
-        return `${label} : ${w.description}${modif}`;
-      });
-    if (spell.notes && spell.notes.trim()) lignesEffets.push(spell.notes.trim());
-    setEffets(lignesEffets.join('\n'));
-  };
-
   const handleSubmit = () => {
     if (!nom.trim()) return;
-    const data = { nom: nom.trim(), difficulte, drain, ecole, domaines: domaines.join(', '), description, effets };
+    let data;
+    if (presetId) {
+      // Sort lié au compendium : on ne stocke que les overrides
+      data = { nom: nom.trim(), presetId, overrides };
+    } else {
+      // Sort manuel : format classique (compatible avec les fiches existantes)
+      const domainesArr = getDomainesArray();
+      data = {
+        nom: nom.trim(),
+        difficulte: getField('difficulte'),
+        drain: getField('drain'),
+        ecole: getField('ecole'),
+        domaines: domainesArr.join(', '),
+        description: getField('description'),
+        effets: getField('effets'),
+      };
+    }
     onSave(isEdit ? { ...initialValues, ...data } : data);
   };
+
+  const currentDomaines = getDomainesArray();
 
   return (
     <div className="modal-overlay" onClick={handleBackdropClick}>
@@ -307,16 +360,19 @@ function SortModal({ initialValues, onSave, onClose }) {
           <button className="modal-close" onClick={onClose}>×</button>
         </div>
         <div className="modal-body">
-          {!isEdit && <div className="info-field">
-            <label>Importer depuis le compendium</label>
-            <select className="info-input" defaultValue="" onChange={handlePickSpell}>
-              <option value="">— choisir un sort —</option>
+          {/* Sélecteur de preset — toujours visible */}
+          <div className="info-field">
+            <label>Modèle (compendium)</label>
+            <select className="info-input" value={presetId || ''} onChange={handlePresetChange}>
+              <option value="">— Sort manuel —</option>
               {[...ALL_SPELLS].sort((a, b) => (a.title || '').localeCompare(b.title || '', 'fr')).map(spell => (
                 <option key={spell.id} value={spell.id}>{spell.title}</option>
               ))}
             </select>
-          </div>}
+          </div>
+
           <div className="sort-modal-grid">
+            {/* Nom — toujours manuel */}
             <div className="info-field">
               <label>Nom</label>
               <input
@@ -327,43 +383,54 @@ function SortModal({ initialValues, onSave, onClose }) {
                 autoFocus
               />
             </div>
-            <div className="info-field">
-              <label>École</label>
+
+            {/* École */}
+            <SortField label="École" fromPreset={fromPreset('ecole')} canReset={canReset('ecole')} onReset={() => clearField('ecole')}>
               <select
-                className="info-input"
-                value={ecole}
-                onChange={(e) => setEcole(e.target.value)}
+                className={`info-input${fromPreset('ecole') ? ' sort-field-preset' : ''}`}
+                value={getField('ecole')}
+                onChange={(e) => setField('ecole', e.target.value)}
               >
                 <option value="">— Aucune —</option>
                 {ECOLES.map(e => <option key={e} value={e}>{e}</option>)}
               </select>
-            </div>
-            <div className="info-field">
-              <label>Difficulté</label>
+            </SortField>
+
+            {/* Difficulté */}
+            <SortField label="Difficulté" fromPreset={fromPreset('difficulte')} canReset={canReset('difficulte')} onReset={() => clearField('difficulte')}>
               <input
                 type="text"
-                className="info-input"
-                value={difficulte}
-                onChange={(e) => setDifficulte(e.target.value)}
+                className={`info-input${fromPreset('difficulte') ? ' sort-field-preset' : ''}`}
+                value={getField('difficulte')}
+                onChange={(e) => setField('difficulte', e.target.value)}
               />
-            </div>
-            <div className="info-field">
-              <label>Drain</label>
+            </SortField>
+
+            {/* Drain */}
+            <SortField label="Drain" fromPreset={fromPreset('drain')} canReset={canReset('drain')} onReset={() => clearField('drain')}>
               <input
                 type="text"
-                className="info-input"
-                value={drain}
-                onChange={(e) => setDrain(e.target.value)}
+                className={`info-input${fromPreset('drain') ? ' sort-field-preset' : ''}`}
+                value={getField('drain')}
+                onChange={(e) => setField('drain', e.target.value)}
               />
-            </div>
+            </SortField>
+
+            {/* Domaines */}
             <div className="info-field sort-modal-full">
-              <label>Domaines</label>
-              <div className="domaines-picker">
+              <div className="sort-field-label-row">
+                <label>Domaines</label>
+                {fromPreset('domaines') && <span className="sort-preset-badge">preset</span>}
+                {canReset('domaines') && (
+                  <button className="btn-field-reset" onClick={() => clearField('domaines')} title="Revenir au preset">↺</button>
+                )}
+              </div>
+              <div className={`domaines-picker${fromPreset('domaines') ? ' domaines-picker-preset' : ''}`}>
                 {DOMAINES.map(d => (
                   <button
                     key={d.emoji}
                     type="button"
-                    className={`domaine-btn${domaines.includes(d.emoji) ? ' domaine-btn--selected' : ''}`}
+                    className={`domaine-btn${currentDomaines.includes(d.emoji) ? ' domaine-btn--selected' : ''}`}
                     onClick={() => toggleDomaine(d.emoji)}
                     title={d.nom}
                   >
@@ -372,36 +439,66 @@ function SortModal({ initialValues, onSave, onClose }) {
                 ))}
               </div>
             </div>
-            <div className="info-field sort-modal-full">
-              <label>Description</label>
+
+            {/* Description */}
+            <SortField label="Description" className="sort-modal-full" fromPreset={fromPreset('description')} canReset={canReset('description')} onReset={() => clearField('description')}>
               <textarea
-                className="memoire-desc-input"
+                className={`memoire-desc-input${fromPreset('description') ? ' sort-field-preset' : ''}`}
                 placeholder="Description générale du sort..."
-                value={description}
-                onChange={(e) => setDescription(e.target.value)}
+                value={getField('description')}
+                onChange={(e) => setField('description', e.target.value)}
                 rows={3}
               />
-            </div>
-            <div className="info-field sort-modal-full">
-              <label>Effets <span className="sort-modal-hint">(une ligne par effet)</span></label>
+            </SortField>
+
+            {/* Effets */}
+            <SortField
+              label={<>Effets <span className="sort-modal-hint">(une ligne par effet)</span></>}
+              className="sort-modal-full"
+              fromPreset={fromPreset('effets')}
+              canReset={canReset('effets')}
+              onReset={() => clearField('effets')}
+            >
               <textarea
-                className="memoire-desc-input"
+                className={`memoire-desc-input${fromPreset('effets') ? ' sort-field-preset' : ''}`}
                 placeholder="Un effet par ligne..."
-                value={effets}
-                onChange={(e) => setEffets(e.target.value)}
+                value={getField('effets')}
+                onChange={(e) => setField('effets', e.target.value)}
                 rows={5}
               />
-            </div>
+            </SortField>
           </div>
         </div>
         <div className="modal-footer">
           <button className="btn-secondary" onClick={onClose}>Annuler</button>
-          <button className="btn-primary" onClick={handleSubmit} disabled={!nom.trim()}>{isEdit ? 'Modifier' : 'Ajouter'}</button>
+          <button className="btn-primary" onClick={handleSubmit} disabled={!nom.trim()}>
+            {isEdit ? 'Modifier' : 'Ajouter'}
+          </button>
         </div>
       </div>
     </div>
   );
 }
+
+// Wrapper de champ avec badge "preset" et bouton reset
+function SortField({ label, children, fromPreset, canReset, onReset, className }) {
+  return (
+    <div className={`info-field${className ? ' ' + className : ''}`}>
+      {(fromPreset || canReset) ? (
+        <div className="sort-field-label-row">
+          <label>{label}</label>
+          {fromPreset && <span className="sort-preset-badge">preset</span>}
+          {canReset && <button className="btn-field-reset" onClick={onReset} title="Revenir au preset">↺</button>}
+        </div>
+      ) : (
+        <label>{label}</label>
+      )}
+      {children}
+    </div>
+  );
+}
+
+// ─── CastModal ───────────────────────────────────────────────────────────────
 
 function CastModal({ sort, expertiseMagique, modTradition, onClose }) {
   const { character, updateCharacter } = useCharacter();
@@ -411,8 +508,8 @@ function CastModal({ sort, expertiseMagique, modTradition, onClose }) {
     if (e.target === e.currentTarget) onClose();
   };
 
-  const baseDiff = parseInt(sort.difficulte) || 0;
-  const baseDrain = parseInt(sort.drain) || 0;
+  const baseDiff = parseInt(getEffectiveSortValue(sort, 'difficulte')) || 0;
+  const baseDrain = parseInt(getEffectiveSortValue(sort, 'drain')) || 0;
 
   const difficulte = baseDiff + 2 * niveau;
   const drain = baseDrain + 2 * niveau - modTradition;
@@ -420,14 +517,13 @@ function CastModal({ sort, expertiseMagique, modTradition, onClose }) {
   const difficulteArcanique = 10 + 2 * niveau;
   const expertise = 10 + expertiseMagique + niveau;
 
-  // Preview du drain optimisé
   const pmActuelCurrent = character.ressources?.PM?.actuel || 0;
   const pmTempCurrent = character.ressources?.PM?.temporaire || 0;
   const drainExtra = Math.max(0, drain - drainMin);
 
   let previewPmActuel = pmActuelCurrent - drainMin;
   let previewPmTemp = pmTempCurrent;
-  let previewSurDrainTemp = 0; // ce qui est pris sur le temp
+  let previewSurDrainTemp = 0;
 
   if (previewPmTemp >= drainExtra) {
     previewPmTemp -= drainExtra;
@@ -476,6 +572,8 @@ function CastModal({ sort, expertiseMagique, modTradition, onClose }) {
     onClose();
   };
 
+  const formatMod = (val) => val >= 0 ? `+${val}` : `${val}`;
+
   return (
     <div className="modal-overlay" onClick={handleBackdropClick}>
       <div className="modal-content cast-modal">
@@ -517,7 +615,6 @@ function CastModal({ sort, expertiseMagique, modTradition, onClose }) {
               <span className="cast-stat-detail">10 + {expertiseMagique >= 0 ? `+${expertiseMagique}` : expertiseMagique} + {niveau}</span>
             </div>
           </div>
-
           <div className="cast-drain-preview">
             <div className="cast-drain-preview-title">Drain optimisé</div>
             <div className="cast-drain-preview-rows">
@@ -545,9 +642,7 @@ function CastModal({ sort, expertiseMagique, modTradition, onClose }) {
         </div>
         <div className="modal-footer">
           <button className="btn-secondary" onClick={onClose}>Fermer</button>
-          <button className="btn-primary" onClick={handleApplyDrain}>
-            Appliquer le drain
-          </button>
+          <button className="btn-primary" onClick={handleApplyDrain}>Appliquer le drain</button>
         </div>
       </div>
     </div>

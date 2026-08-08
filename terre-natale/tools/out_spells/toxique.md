@@ -3,14 +3,14 @@
 > 17 sorts pour Toxique
 
 ## Epidémie
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École d'Évocation
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
 ***Modificateurs de Magnitude :*** PWR -2
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ☢️ Toxique
 
 ***Description :*** Déclenche une maladie surnaturelle qui se propage et affaiblit progressivement les victimes.
 
@@ -88,7 +88,7 @@
 ---
 
 ## Souffle d'Acide
-***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 18+X, ***Drain :*** 18+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Contact</span> : Portée : Mêlée, Vecteur : Touché, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Cône</span> : Touche une cible, 3 cases de largeur et 2 cases de profondeur derrières elles (AOE spéciale).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Souffle</span> : Le sort s'applique normalement mais une version diminuée du sort affecte également les cibles adjacentes (en AOE la portée de ce souffle est équivalant à la distance d'AOE).
@@ -96,7 +96,7 @@
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
 > **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Destruction ✸</span> (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kinruptex
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ☢️ Toxique
 
 ***Description :*** Exhale un cône d’acide destructeur qui brûle et altère toutes les cibles touchées.
 
@@ -105,24 +105,24 @@
 ---
 
 ## Vapeurs Toxiques du Morbol
-***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École de Bénédiction
+***Difficulté :*** 18, ***Drain :*** 20, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de liaison :** <span style="color:#228B22; font-weight:bold;">Large</span> : La zone de propagation du sort est doublée.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Dissipation ✸</span> (Dissipo (Je disperse) / Kadisipo (Ka + disipo)) : Produit un effet d'attaque (ni armure, ni résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats mentaux temporaires (PE puis PS) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Mundisiex
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Exacerbation ✧</span> (Acerbus (Acre, amer) / Lemacerb (Lem + acerb)) : Génère un enchantement positif qui augmente les dégats des actions d'attaque par menées la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/6]</span>. ***Clé :*** ☢️ Toxique: Malacerbex
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Dissipation ⧖</span> (Disipo (Disperser) / Mundisi (Mun + disi)) : Produit un enchantement négatif qui réduit les charges de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> des conditions positives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. ***Clé :*** ☢️ Toxique: Mundisiex
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Exacerbation ⧖</span> (Acerbus (Acre, amer) / Malacerb (Mal + acerb)) : Produit un enchantement négatif qui double les charges, maximum <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, les effets des conditions négatives, il est possible de concentrer l'effet sur un domaine de magie unique pour lequel l'effet sera doublé (via <span style="color:#ff1493; font-weight:bold;">[clé]</span>) (les autres domaines n'en profitent alors plus. ***Clé :*** ☢️ Toxique: Malacerbex
 
 ***Description :*** Crée un nuage toxique qui protège la zone tout en aggravant violemment les afflictions.
 
 ---
 
 ## Terrible Infection
-***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Bénédiction
+***Difficulté :*** 12, ***Drain :*** 12, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École de Malédiction
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ✧</span> (Inficio (Souiller) / Lynfect (Lyn + infect)) : Génère un enchantement positif qui augmente les soins reçus de (au choix au lancement du sort) <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/3]</span> / <span style="color:#ff1493; font-weight:bold;">[Magnitude/4]</span> , s'applique un maximum de 3 / 4 / 5 fois. ***Clé :*** ☢️ Toxique: Mortingoex
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Infection ⧖</span> (Tinguo (Teindre, imprégner) / Mortingo (Mor + tingo)) : Génère un enchantement négatif, à chaque fois que la cible reçoit des dégats mettez un marqueur avant la résolution des dégats, puis augmentez les dégats reçus de <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span> par marqueurs acquis, maximum 5 marqueurs. ***Clé :*** ☢️ Toxique: Mortingoex
 
 ***Description :*** Infecte la cible avec une maladie grave qui la ronge jour après jour.
 
@@ -201,7 +201,7 @@
 ---
 
 ## Nuages Toxiques
-***Difficulté :*** 20+X, ***Drain :*** 20+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Évocation
+***Difficulté :*** 20+X, ***Drain :*** 20+X, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢☢, ***École du sort :*** École de Destruction et École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
@@ -209,7 +209,7 @@
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Duo</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, les deux effets subissent PWR-1, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
 > **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Destruction ✸</span> (Ruptura (Rupture) / Kinrupt (Kin + rupt)) : Produit un effet d'attaque physique (armure) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats physique (PV) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ☢️ Toxique: Kinruptex
-> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
+> **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ☢️ Toxique
 
 ***Description :*** Inonde une zone d'un nuage toxique qui brûlent la peau et les poumons de ceux qui s'y trouve plongés.
 
@@ -218,13 +218,13 @@
 ---
 
 ## Nuages Infectieux
-***Difficulté :*** 18, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École d'Évocation
+***Difficulté :*** 18, ***Drain :*** 18, ***Type de sort :*** Pouvoir, ***Domaine du sort :*** ☢, ***École du sort :*** École d'Altération
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Zone</span> : Touche une cible et 3 cases à proximité (AOE 7).
 **Mot de structure :** <span style="color:#228B22; font-weight:bold;">Orbe</span> : Comme statique mais peux être déplacé via une ACTL du lanceur de sort, AOE maximum 5.
 ***Modificateurs de Magnitude :*** PWR -2
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ⧉</span> (Condicio (Condition) / Elocondi (Elo + condi)) : Génère un enchantement qui contient les effets d'un autre <span style="color:#ff1493; font-weight:bold;">[Mot de pouvoir]</span> d'alignement positif ou négatif, ce mot de pouvoir sera relâché avec la même <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mais sous conditions stipulées dans un contrat, ce contrat peux prendre la forme d'une action à réaliser mais doit être suffisament précis (généralement une action envers une cible tel que : si tu attaque cette personne, si tu défends contre cette personne). ***Clé :*** ☢️ Toxique
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Conditionnement ≈</span> (Condicio (Condition) / Ascondi (As + condi)) : Génère un effet qui force un changement de condition à la cible pour lui appliquer une condition positive (qui correspond à l'une des conditions associable à la <span style="color:#ff1493; font-weight:bold;">[clé]</span>) avec une charge de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>. ***Clé :*** ☢️ Toxique
 
 ***Description :*** Inonde une zone d'un nuage toxique qui aggrave les plaies ouvertes de façon dramatique à mesure que le temps passe.
 
