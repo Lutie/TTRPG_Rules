@@ -104,6 +104,13 @@ const BONUS_GROUPS = [
     ]
   },
   {
+    groupe: 'Résistances',
+    types: [
+      { id: 'resistancePhysique', nom: 'Résist. Physique' },
+      { id: 'resistanceMentale', nom: 'Résist. Mentale' },
+    ]
+  },
+  {
     groupe: 'Résiliences',
     types: [
       { id: 'resiliencePhysique', nom: 'Résil. Physique' },

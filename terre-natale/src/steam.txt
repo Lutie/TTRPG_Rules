@@ -1,0 +1,76 @@
+Un automate représente une création capable de se mouvoir et agir.
+Un distingue les drônes, automates les plus légers, des travailleurs mécaniques, automates plus lourds.
+
+Tous les automates partagent un même système : un châssis + un core, tout deux étant deux pièces technologiques à part entière gérant le corps pour l’un et l’’esprit pour l’autre.
+
+Le drône a 3 types de chassi : léger, intermédiaire, lourd.
+Le drône léger est une version légère du drône, création miniaturisée (taille), catégorie 0, de la taille d’un papillon.
+Le drône intermédiaire est une version classique, catégorie 1, de la taille d’une souris.
+Le drône lourd est une version plus massive, catégorie 2, de la taille d’un chat.
+
+Un opérateur peut avoir jusqu’à mLOG catégorie d’automates en contrôle simultané.
+
+L’automate lui a 3 types de châssis : léger, intermédiaire, lourd.
+Le châssis léger correspond à une corpulence d’animaux tel que chien etc. Catégorie 1.
+Le châssis intermédiaire correspond à des anatomies humanoïdes. Catégorie 2.
+Le châssis lourd correspond à des anatomies monstrueuses. Catégorie 3.
+
+Plus un châssis à une catégorie élevé et moins il est autonome : Autonomie 30 - 5 x Catégorie. La catégorie définie à la fois la solidité, l’arme et l'armure naturelle de l’automate.
+Tous les jours si un drônes ou automates est activé au moins une fois alors son autonomie baisse de 2.
+
+
+Un drône a des attributs moyens de 6 (avec des attributs forts à 8, attributs faible à 4).
+Un automate a des attributs moyens de 10 (avec des attributs forts à 12, attributs faibles à 8).
+
+Les châssis d’automate leur confèrent 6 attributs du corps : les 5 classiques (FOR, DEX, AGI, CON, PER) plus l’énergie (ENE) qui remplace sa chance.
+Les automates ont 5 attributs d’esprit, bien qu’on parle plutôt de logique ici : les classiques (CHA, INT, RUS, SAG). Certains automates peuvent avoir un attribut de VOL mais on parle alors d’automate sentients.
+Les automates n’ont pas de PV, ce sont des objets qui se dégradent et il faut donc appliquer la règle idoine lorsqu’ils sont attaqués ou qu’un individu cherche à la détruire.
+Les automates n’ont pas de PS car il n’ont pas de psyché, on ne peux pas les convaincre, on ne peux pas leurs infliger de condition mentale ou d’effets/dégâts mentaux. Leur allégeance est dictée par leur configuration.
+
+Recharger un automate requiert une charge steam par catégorie.
+Chaque action (matérialisé par des tests notamment) de l’automate lui coûte 1 d’autonomie.
+Se déplacer, etc… ne requiert pas d’autonomie (autre que les 2 points perdus en fin de journée lorsque actif).
+
+Un automate est donc associé à un core.
+Un core de drône lui confère une base d’attribut d’esprit de 4. Il accorde à l’automate une compétence.
+Un core de travailleur lui confère une base d’attribut d’esprit de 6. Il accorde à l’automate 4 compétences.
+
+Une compétence accordée par le core permet à l’automate de profiter d’une valeur de 1 dans le groupe de ladite compétence (non stackable si plusieurs compétences du même groupe) et de compétences dont la valeur de range est équivalente à la qualité du core.
+
+Les attributs du châssis sont associés à la notion d’attribut élevé (augmente de 3 par Q), intermédiaire (2 par Q) et faible (1 par Q).
+Les attributs du core sont associés à aucunes de ces notions (augmente de 1 par Q).
+Les châssis et core partagent une pool d’amélioration identique : Augmenter un attribut que gouverne la pièce de 1 est la base de ces améliorations.
+
+Un chassis peux également avoir comment amélioration : les améliorations antique sadaptée (solidité, etc); une amélioration d’autonomie de 4, un système de recharge de l’autonomie de 2 par jour (maximum égal à ce qui a été consommé ce jour), un système de recharge de l’autonomie de 1 par jour (sans maximum).
+
+Un automate est non autonome au départ.
+Non autonome : L’opérateur doit dépenser une action pour que son automate joue durant un round. Cela requière une lunette steam.
+Semi autonome : L’opérateur doit dépenser une action pour que son automate joue jusqu’à la réalisation d’un objectif concret (débarrasse moi de ce type, défends mon allié, etc).
+Autonome : L’opérateur n’a plus besoin de donner d’ordres. Techniquement le joueur peut contrôler l’automate directement comme si c’était un personnage comme un autre. consomme 2 d’autonomie par jour en plus (4 en tout).
+
+Un core peux également avoir des améliorations : Peux être commandé à la voie (inutile si entièrement autonome) via ACTL (au lieu de ACTS via lunette); deviens semi autonome; deviens autonome (ceci requière 3 améliorations); deviens sentient (acquière une VOL mais deviens également sensible à tout ce qui est mental, très dangereux et peu pratique, évité par beaucoup de technomencien, apprécié par les plus sensibles d’entre eux qui y voit une forme de vie nouvelle); acquisition d’une nouvelle compétence en plus du reste.
+
+=> à quoi sert d’être crafter de ces objets ?
+=> etc et autres idées pour peaufiner les règles, voir avec iA pour compléter aussi
+
+Ce qui suit remplace ce qui est au dessus si contredit :
+
+Il faut adapter au système des objects complexes. Donc les cores, qui vont constituées l’objet complexe, vont avoir 4 valeurs : Efficacité, Stabilité, Rapidité, Manoeuvrabilité.
+Efficacité : L’efficacité, 2 par défaut comme tout objet complexe, définit le niveau des compétences associées. En gros la formule n’est plus 1 par qualité mais 1 par efficacité.
+Manoeuvrabilité : C’est ça qui va définir comment on contrôle l’automate. On va donc distinguer 6 modes, du plus nul au meilleurs : 0 chaques actions de l’automate requière une ACTS de l’opérateur, 1  une action simple de l’opérateur permet de donner une passe d’arme à l’automate mais ce dernier ne peux pas réaliser d’action rapides, 2 une action simple de l’opérateur permet de donner une passe d’arme à l’automate et lui permet de réaliser une action rapide (bref ACTS => donne un vrai tour à l’automate), 3 cette fois l’action simple permet à l’opérateur de définir un ordre et l’automate agit seul tant que l’ordre simple (attaque lui, défends ici, attends, etc) n’a pas été accomplie ou révoqué (on entre alors dans un mode de gestion plus complexe : de base l’automate suit son propriétaire, si il suit un ordre simple ça override la base, dans son mode de base l’automate se contente de se défendre), 4 l’ordre intermédiaires (aide cette personne dans le combat), 5 l’automate peut recevoir des ordre complexes, 6 l’automate est désormais autonome et peut agir sans que l’opérateur n’y consacre des actions, il peux de plus se mouvoire sans son opérateur et réaliser des actions/opérations loins de lui etc.
+Ordre simple : Simple, se résume à une phrase, ne permet pas de changer de dynamique (ex : attaque telle ou telle cible, défends tel ou tel allié <= l’automate ne fera qeu le type d’action demandé, parfois plusieurs types si ça va bien dans le sens de l’ordre)
+Ordre intermédiaire : ni simple ni complexe. A définit correctement..
+Ordre complexe : Complexe, détaillés, nécessite plusieurs phrases pour être expliqué, permet une dynamique changeante (ex : empêche l’ennemi de détruire le pont <= l’automate peux réaliser toutes les actions qui semblent utiles à cet objectif).
+Point iA : il faudra penser à bien détailler, trouver des moyens de bien identifier les types d’ordres.
+
+Le chassis d’automate inclus une amélioration pour qu’ils soient humanoïdes : ça leur permet d’équiper des armes. Une autre amélioration permet de passer inaperçu parmi les hommes.
+D’ailleurs le chassis doit définir Stature/taille par défaut des automates : 4+Cx2 me semble bien.
+
+Dans les attributs du corps on devrait avoir l’énergie => on va dire que c’est désormais ça qui permet de gérer l’autonomie. même valeur par défaut que les autres attributs de corps. L’autonome c’est énergie x2. Un automate peut l’utiliser pour les prouesses innées si sa ruse est suffisante. Bref ça deviens ses PC mais au lieu de vouloir dire points de chi c’est point de capacité et ça définit donc sa durée et prouesses.
+Puis dans les attributs de l’esprit on aura le steam => on va dire que c’est l’équivalant de sa chance, donc ça remplace le karma et il peux l’utiliser pour relancer des jets. pareil sa valeur par défaut est basée sur les règles des attributs de corps selon le type d’autonate.
+
+Rapidité : Affecte l’initiative. Un automate réagit après avoir eu un ordre SI son initiative est suffisante. La rapidité c’est en gros l’équivalant de l’efficacité mais uniquement pour ce qui est de l’initiative ou de tout test visant à vérifier si l’automate fait l’action rapidement/assez vite.
+
+Stabilité : Modificateur aux tests de solidité et bonus à la valeur d’autonomie (x2).
+
+Et là on a tout :) ?

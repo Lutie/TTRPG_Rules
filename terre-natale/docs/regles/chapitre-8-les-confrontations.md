@@ -627,9 +627,9 @@ La guérison naturelle de la vitalité ou de la spiritualité se fait au rythme 
 
 Les dégâts temporaires affectent d’abord l’endurance, peu importe leur nature.
 
-Les dégâts temporaires peuvent faire passer la valeur d’endurance dans le négatif, ce qui fait chuter la défense passive de base 15 à 10 (on dit que le personnage est « choqué » dans ce cas). Si les dégâts temporaires font chuter l’endurance à sa valeur maximale dans négative, le personnage est KO.
+L’endurance ne peut devenir négative que par l’**attrition** — les dégâts temporaires normaux ne font jamais passer l’endurance sous 0. Lorsque l’endurance atteint 0 le personnage est « choqué » (défense passive : 10 + mATT). Si l’endurance atteint sa valeur maximale dans le négatif (uniquement par attrition), le personnage est KO.
 
-Les dégâts temporaires sont plus faciles et rapides à soigner que les dégâts permanents. La guérison naturelle de l’endurance se fait à chaque fin de scène et à raison de l’ensemble des points.
+La guérison naturelle de l’endurance se fait à chaque fin de scène et à raison de l’ensemble des points.
 
 #### Dégâts Continues
 
@@ -651,7 +651,7 @@ Lorsque des dégâts doivent être encaissé par un personnage il existe deux fa
 
 Les dégâts normaux représentent le mode d’attribution par défaut : Sauf contre-indication c’est ainsi que devrons être distribué les dégâts.
 
-⇨ Les dégâts sont réduits par la résistance. ⇨ Si le personnage n’est pas pris au dépourvus et vois l’attaque venir le personnage peut dépenser 2 points d’endurance pour réduire les dégâts de 1. ⇨ Dans tous les cas le personnage peut dépenser 1 point d’endurance et monopoliser 1 point d’absorption pour réduire les dégâts de 1. ⇨ Si le personnage peut ensuite monopoliser le reste de son absorption pour réduire les dégâts de 1. ⇨ Les dégâts sont infligés sous forme de dégâts permanents (aux points de vie si physique ou spirituels si mental). ⇨ Le personnage subit une lésion qui dépends des dégâts permanents subis ou si une défense n’a pas été utilisée, qu'elle soit réussie ou non (blessure si physique ou trauma si mental). La déviation d’une défense s’ajoute à l’absorption.
+⇨ Les dégâts sont réduits par la **résistance**. ⇨ Les dégâts restants sont absorbés par les **PA** (Points d’Armure) au prorata de 1 pour 1 ; les PA ne peuvent jamais devenir négatifs. ⇨ Les dégâts restants sont absorbés par l’**endurance** au prorata de 1 pour 1 ; l’endurance ne peut devenir négative que par l’attrition. ⇨ Les dégâts restants sont infligés sous forme de dégâts **permanents** (Vitalité si physique, Spiritualité si mental). ⇨ Le personnage subit une **lésion** dont la gravité est égale aux dégâts permanents subis + Précision de l’attaquant (blessure si physique, trauma si mental).
 
 Évidemment des dégâts ne peuvent pas être négatifs et ne peuvent donc pas soigner un individu (sauf dans le cas d’une absorption) etc… La logique prévaut sur les règles dans ce genre de cas.
 
@@ -660,8 +660,8 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
     - **Résilience.** Ce bonus, aussi appelé résistance à l’attrition, réduit les dégâts temporaires reçus par le personnage.
     - **Perforation.** Ce bonus réduit l’absorption des cibles du personnage.
     - **Pénétration.** Si l’attaque n’est pas défendue alors la pénétration augmente directement les dégâts permanents.
-    - **Protection.** Ce bonus augmente le seuil de blessure du personnage.
-    - **Précision.** Ce bonus réduit la protection des cibles du personnage.
+    - **Protection.** Ce bonus augmente l'absorption physique ou mentale du personnage, et donc ses PA disponibles.
+    - **Précision.** Ce bonus s'ajoute directement à la gravité des lésions infligées à la cible.
     - **Aggravation.** Ce bonus augmente la gravité des blessures infligées par le personnage.
     - **Criticité.** Ce bonus réduit la marge de réussite nécessaire pour transformer une action en réussite critique.
     - **Gestion.** Ce bonus augmente la marge de réussite nécessaire pour un adversaire du personnage à transformer une action en réussite critique.
@@ -710,28 +710,19 @@ Si l’attaque n’est pas localisée alors les dégâts permanents entraînent 
 
 #### Création d’une Lésion
 
-Une lésion est créée avec un niveau équivalent aux dégâts subis divisés par la protection de la cible (à ce type de dégâts). Notons que des dégâts nuls provoquent une lésion bénigne. La précision d’une attaque réduit la protection offerte par l’armure. Les bonus de gravité s’appliquent dans le calcul en augmentant les dégâts pris en considération.
+La gravité d’une lésion est calculée ainsi :
 
-Il est techniquement possible de subir une lésion de niveau 0 et même si ces dernières ne provoquent pas de pénalités elles ont leur importance car elles peuvent finir par entraîner des lésions pire par la suite, elles ne sont donc pas à négliger.
+**Gravité = dégâts permanents subis + Précision de l’attaquant (mDEX)**
 
-| Lésion | Cases |
-| --- | --- |
-| Lésion bénigne (0) | □ x 3 + mStature / mEgo (selon type) |
-| Lésion légère (1) | □ □ |
-| Lésion importante (2) | □ □ |
-| Lésion grave (3) | □ □ |
-| Lésion mortelle (4) | □ □ |
-| Lésion incapacitante (5) | □ |
-
-Si une lésion doit être contractée mais que le personnage a déjà le maximum de lésion de ce niveau alors c'est une lésion de niveau supérieure qui prend sa place.
+Des dégâts permanents nuls provoquent une lésion de gravité 0. Les bonus d’aggravation s’ajoutent directement à la gravité calculée. Pour les lésions mentales, la Précision correspond à l’attribut mental analogue de l’attaquant.
 
 #### Aggravation d’une Lésion
 
-Une lésion peut être aggravée si l’attaque est ciblée et vise cette lésion spécifiquement. Dans ce cas, le niveau de la lésion augmente d’autant que le niveau de la lésion qui aurait dû être enregistrée à la place.
+Une lésion peut être aggravée si l’attaque est ciblée et vise cette lésion spécifiquement. Dans ce cas, la gravité de la lésion augmente d’autant que la gravité de la lésion qui aurait dû être enregistrée à la place.
 
 #### Pénalité des Lésions
 
-Le personnage subit à tout moment les pénalités équivalentes à X divisé par Y, arrondis supérieurs, aux tests. Seules les lésions physique (blessure) et mentale (traumas) les plus élevées sont prises en considération.
+La gravité d’une lésion constitue directement sa pénalité aux tests correspondants. Seule la lésion physique (blessure) de gravité la plus élevée et la lésion mentale (trauma) de gravité la plus élevée sont prises en compte. Les pénalités physiques, mentales, de fatigue et de corruption se cumulent entre elles.
 
 ### Les Attaques défendues
 
@@ -741,55 +732,68 @@ Toutes les actions de défense n’ont pas pour but de réduire à néant les ef
 
 ### Les Défenses physiques
 
-Les actions de défense physiques sont et se déclinent en de multiples effets dont l’intérêt dépend de ce que le personnage cherche à produire : Celui-ci va-t-il profiter de l’occasion pour contre attaquer ou riposter ? Va-t-il chercher à éviter de subir une blessure cout que cout ? etc…
+Les actions de défense physiques se déclinent en plusieurs effets selon ce que le personnage cherche à produire. Toutes s’effectuent en interruption lorsqu’une attaque touche.
 
-**Défenses Majeures**
+**Défenses Physiques**
 
-| Action | Comp. | Utilisé pour |
-| --- | --- | --- |
-| Parer | Parade (DEX) | - Ajouter la Déviation à l’absorption - Permettre une Contre-attaque - Si échec : DR (vs diff 5) en déviation x2 |
-| Bloquer | Blocage (CON) | - Ajouter la Déviation à l’absorption - Permettre une Riposte - Si échec : DR (vs diff 5) en déviation x2 |
-| Esquiver | Esquive (AGI) | - Ignorer tous les Dégâts - Provoque des Opportunités - Si échec : DR (vs diff 5) en défense passive x1 |
-| Feinter | Feinte (AGI) | - Difficulté de l’action +5 - Les dégâts sont infligés à l’attaquant à la place - En cas d’échec le personnage encourt un critique automatique - Chaque nouvelle tentative : Désavantage (cumulatif) |
-| Protéger | Protection (PER) | - Subit l’attaque à la place d’un allié (obligatoire) - Si échec : DR (vs diff 5) en déviation x2 |
-| Se Couvrir | Couverture (PER) | - Ignorer tous les Dégâts - Si échec : DR (vs diff 5) en pénalité de couverture x1 - Nécessite de profiter d’un bonus de couverture initial via un obstacle (qui encaisse les dégâts à la place et peut être détruit) - Provoque des Opportunités (si déplacement) |
-| Subir | Armure (CON) | - Ignore la blessure - Si échec : DR (vs diff 5) en protection x2 |
+| Action | Compétence | Réussite Critique | Réussite | Échec | Échec Critique |
+| --- | --- | --- | --- | --- | --- |
+| Parade | Parade (DEX) | 50 % dév. / dégâts + jet critique | 50 % dév. / dégâts | 25 % déviation | Aucun effet |
+| Blocage | Blocage (CON) | 100 % déviation + jet critique | 100 % déviation | 50 % déviation | Aucun effet |
+| Représailles | Parade (FOR) | Déviation + 100 % dégâts + jet critique | Déviation + 100 % dégâts | 25 % déviation | Aucun effet |
+| Esquive | Esquive (AGI) | Au choix¹ | Esquive normale | Défense passive +2 | Aucun effet |
+| Feinte | Feinte (RUS) | Au choix² | L’attaquant subit sa propre attaque | Le personnage subit les dégâts | Critique automatique |
+| Protéger | Protection (PER) | Subit l’attaque à la place d’un allié | (idem) | (idem) | (idem) |
+| Se Couvrir | Couverture (PER) | Ignore tous les dégâts | Ignore tous les dégâts | Pénalité de couverture | — |
 
-**Défenses Mineures**
+¹ Réussite critique d’Esquive : au choix — ne pas se déplacer / esquive sécurisée / 2 pas de placement supplémentaires.
 
-| Action | Comp. | Utilisé pour |
-| --- | --- | --- |
-| Dévier | Armure (DEX) | - Diviser par 2 les Dégâts Permanents et Temporaires - Si échec : DR (vs diff 5) en réduction de dégâts permanents de 1 et temporaire de 2 |
-| Eviter | Armure (AGI) | - Ignorer les Dégâts Permanents - Si échec : DR (vs diff 5) en réduction de dégâts permanents de 2 |
-| Encaisser | Armure (FOR) | - Ignorer les Dégâts Temporaires - Si échec : DR (vs diff 5) en réduction de temporaire de 4 |
+² Réussite critique de Feinte : au choix — ne pas compter dans la limite / la cible est touchée quoi qu’il arrive / critique automatique sur l’attaquant.
+
+!!! note "Déviation et Dégâts"
+    - **Déviation** : le jet de défense, à hauteur du pourcentage indiqué, réduit les dégâts reçus (agit comme une absorption temporaire pour cette attaque).
+    - **Dégâts** : le jet de défense, à hauteur du pourcentage indiqué, est infligé en dégâts à l’attaquant.
+    - Pour **Représailles** : la déviation de l’armure s’applique normalement, et l’intégralité du jet de défense est également infligée en dégâts à l’attaquant. Les bonus d’attaque ne s’appliquent pas à ce test (c’est une défense).
+
+!!! note "Contre-attaque et Riposte"
+    Une réussite (ou mieux) à une défense armée (Parade, Blocage, Représailles) permet immédiatement une contre-attaque ou une riposte. Il s’agit d’une action restreinte de mêlée.
 
 **Défenses Spéciales**
 
-| Action | Comp. | Utilisé pour |
+| Action | Compétence | Effet |
 | --- | --- | --- |
-| Se Prémunir | Endurance (CON) | Groupe : Discipline - Permet d’ignorer les conditions physiques - Si échec : DR (vs diff 5) en réduction de charge de la condition de 4 |
+| Se Prémunir | Endurance (CON) | Groupe : Discipline — Permet d’ignorer les conditions physiques. Si échec : réduction de charge de la condition de 4. |
+
+**Action d’Armure**
+
+L’Action d’Armure remplace les défenses mineures et permet de récupérer des PA en situation de combat.
+
+| Action | Compétence | Effet |
+| --- | --- | --- |
+| Action d’Armure | Armure (CON) | Test contre la difficulté de la dernière attaque ayant touché ce tour. **Réussite** : récupération de 100 % du jet en PA. **Échec** : récupération de 50 % du jet en PA. Plafonné par l’absorption totale. N’inflige aucune fatigue. |
 
 ### Les Défenses mentales
 
-Les actions de défense mentale sont très similaires aux défenses physiques en ce qui concerne les effets, elles emploient simplement les attributs correspondants et ne s'appliquent bien entendu qu’aux tirades.
+Les actions de défense mentale suivent la même logique que les défenses physiques et emploient les attributs mentaux correspondants.
 
-| Action | Equivalant | Comp. |
+| Action | Équivalent | Compétence | Réussite Critique | Réussite | Échec | Échec Critique |
+| --- | --- | --- | --- | --- | --- | --- |
+| Répartir | Parade | Répartie (INT) | 50 % dév. / dégâts + jet critique | 50 % dév. / dégâts | 25 % déviation | Aucun effet |
+| Critique | Blocage | Critique (VOL) | 100 % déviation + jet critique | 100 % déviation | 50 % déviation | Aucun effet |
+| Rétorquer | Représailles | Rétorsion (INT) | Déviation + 100 % dégâts + jet critique | Déviation + 100 % dégâts | 25 % déviation | Aucun effet |
+| Ironiser | Esquive | Ironie (RUS) | Au choix¹ | Esquive normale | Défense passive +2 | Aucun effet |
+| Railler | Feinte | Raillerie (RUS/CHA) | Au choix² | L’attaquant subit sa propre tirade | Le personnage subit les dégâts | Critique automatique |
+| Plaidoyer | Protéger | Plaidoirie (SAG) | Subit la tirade à la place d’un allié | (idem) | (idem) | (idem) |
+
+**Défenses Spéciales Mentales**
+
+| Action | Compétence | Effet |
 | --- | --- | --- |
-| Répartir | Parer | Répartie (INT) |
-| Critique | Bloquer | Critique (VOL) |
-| Ironiser | Esquiver | Ironie (RUS) |
-| Railler | Feinter | Raillerie (RUS/CHA) |
-| Plaidoyer | Protéger | Plaidoirie (SAG) |
-| Moquer | ? | Comédie (CHA) |
-| Subir | Subir | Emphase (VOL) |
-| Dévier | Dévier | Emphase (INT) |
-| Éviter | Éviter | Emphase (RUS) |
-| Encaisser | Encaisser | Emphase (CHA) |
-| Se Prémunir | Se prémunir | Concentration (VOL) |
+| Concentration | Concentration (VOL) | Groupe : Discipline — Permet d’ignorer les conditions mentales. Si échec : réduction de charge de la condition de 4. |
 
 #### Le cas des Défenses doubles
 
-Les défenses peuvent être doublées / combinées entre elles. Dans de tels cas l’attaque adverse est résolue en tenant compte des effets cumulés des deux défenses (sans oublier que la seconde action ne peut prétendre à une catégorie supérieure à 2, donc celle de l’armure ou de l’arme selon le cas). On ne peut cependant pas cumuler blocage et parade, ni deux actions identiques entre elles. De plus, cumuler l’esquive à autre chose ne fait pas sens puisque cette dernière défense à l’avantage d’ignorer entièrement les dégâts (au pris d’une exposition lors du mouvement). Le test en question est bien sûr affecté par les règles d’actions doublées.
+Les défenses peuvent être doublées / combinées entre elles. Dans de tels cas l’attaque adverse est résolue en tenant compte des effets cumulés des deux défenses (sans oublier que la seconde action ne peut prétendre à une catégorie supérieure à 2, donc celle de l’armure ou de l’arme selon le cas). On ne peut cependant pas cumuler Blocage et Parade, ni deux actions identiques entre elles. De plus, cumuler l’Esquive à autre chose ne fait pas sens puisque cette dernière ignore entièrement les dégâts. Le test en question est bien sûr affecté par les règles d’actions doublées.
 
 ### Les Dégâts non Naturels
 
@@ -1209,9 +1213,7 @@ On peut considérer la résistance comme l’inverse de la puissance.
 
 L’absorption physique représente la capacité à endurer les affres subies par le corps. L’absorption mentale représente la capacité à endurer les affres subies par l’esprit.
 
-L’absorption permet de changer une partie ou la totalité des dégâts permanents en dégâts temporaires : Le coup reçu est moins grave mais il fatigue tout de même le personnage.
-
-Lorsque l’absorption permet de changer tous les dégâts permanents en dégâts temporaires il convient de mesurer d'excédents : Ce dernier sera déduit des dégâts temporaires ! Dans le cas d’une attaque défendue alors les dégâts peuvent ainsi être réduits à néant. Cependant si l’attaque n’a pas été défendue alors les dégâts ne peuvent pas être réduits de plus de la moitié de cette façon.
+L’absorption génère les **Points d’Armure (PA)** du personnage. Ces PA absorbent les dégâts au prorata de 1 pour 1 avant l’endurance et ne peuvent jamais devenir négatifs. Ils sont régénérés intégralement au début de chaque tour (lors du tirage d’initiative).
 
 Voici les détails de base de ces calcules :
 
@@ -1222,44 +1224,32 @@ Voici les détails de base de ces calcules :
 
 La qualité de l’armure ajuste l’attribut de Constitution (et donc l’absorption naturelle physique) dans le cadre de son usage, ce qui explique son impact sur l’absorption totale.
 
-Lorsqu’une attaque profite d’une pénétration alors l’absorption est réduite d’autant.
+Lorsqu’une attaque profite d’une **pénétration** alors l’absorption est réduite d’autant, réduisant ainsi les PA disponibles pour ce coup.
 
 #### La Déviation
 
-La déviation physique représente la défense physique offerte par certaines défenses en combat. La déviation mentale représente la défense mentale offerte par certaines défenses en joute.
+La déviation représente la réduction de dégâts offerte par une défense active. Elle est déterminée par le **jet de défense lui-même**, à hauteur du pourcentage indiqué dans le tableau des défenses.
 
-La déviation s’ajoute à l’absorption lorsque les dégâts sont parés ou bloqués.
+- **Parade** : 50 % du jet de défense réduit les dégâts reçus ; 50 % est infligé en dégâts à l’attaquant.
+- **Blocage** : 100 % du jet de défense réduit les dégâts reçus.
+- **Représailles** : la déviation de l’armure s’applique normalement ; le jet de défense est en plus infligé en totalité en dégâts à l’attaquant.
 
-Normalement la déviation est le fruit d’un jet qui est naturellement le test de défense qui l’a généré. Il est toutefois possible, comme pour les autres jets, de déterminer automatiquement une valeur « moyenne ». Voici les détails de base de ces calcules :
-
-- Déviation d’une Arme = 3 x Catégorie + modificateur d’attribut employé pour la défense.
-- Déviation d’une Méthode = 3 x Catégorie de l’Argument + modificateur d’attribut employé pour la défense.
-
-Lorsqu’une attaque profite d’une pénétration alors la déviation est réduite d’autant.
-
-!!! tip "Règles Optionnelles : Jets de Défenses"
-    Cette règle vise à rendre le système de déviation plus vivant.
-
-    Ainsi les personnages doivent effectuer leurs jets de déviation en suivant les règles normales. La catégorie de la défense dépend évidemment de l’arme ou l'armure employée pour réaliser celle-ci et l’attribut celle qui est employée pour réaliser la défense ! Donc la Force pour le blocage et la Dextérité pour la Parade.
-
-    Il est conseillé d’envisager cette règle optionnelle avec celle qui permet de conserver les dés d’un test, sans quoi cela devrait notablement ralentir le rythme des confrontations.
+Lorsqu’une attaque profite d’une **pénétration**, la déviation est réduite d’autant.
 
 #### La Protection
 
-La protection physique permet de se prémunir de blessures plus graves. La protection mentale permet de se prémunir de traumatismes plus graves.
+La protection physique représente la résistance naturelle du personnage face aux lésions. La protection mentale représente sa résistance naturelle face aux traumatismes.
 
-La protection s’ajoute au seuil de lésion adéquat lorsqu’il s’agit de déterminer le niveau de gravité de celle-ci.
+La protection s’ajoute à l’absorption du personnage, augmentant ainsi ses PA disponibles chaque tour.
 
 Voici les détails de base de ces calcules :
 
-- Protection naturelle physique = 5 + modificateur de Stature.
-- Protection naturelle mentale = 5 + modificateur d’Ego.
+- Protection naturelle physique = modificateur de Stature.
+- Protection naturelle mentale = modificateur d’Ego.
 - Protection Physique totale = Catégorie de l’Armure + protection naturelle physique.
 - Protection Mentale totale = Catégorie de la Raison + protection naturelle mentale.
 
-La qualité de l’armure ajuste l’attribut de Stature (et donc la protection naturelle physique) dans le cadre de son usage, ce qui explique son impact sur la protection totale.
-
-Lorsqu’une attaque profite d’un bonus de précision alors la protection est réduite d’autant (minimum 10).
+La qualité de l’armure ajuste l’attribut de Stature (et donc la protection naturelle physique) dans le cadre de son usage.
 
 ## La Portée et les Zone
 
@@ -1395,7 +1385,7 @@ Enfin on parle aussi des soins naturels et de soins non naturels. Les soins natu
 
 La récupération correspond à une guérison naturelle qui a lieu au fil du temps qui passe et du repos.
 
-La récupération de l’endurance est extrêmement rapide. Toute l’endurance est récupérée à la fin d’une scène (sauf si le personnage n’est pas stabilisé à la suite de la contraction d’une lésion).
+La récupération de l’endurance est extrêmement rapide. Toute l’endurance est récupérée à la fin d’une scène, ou lors d’un repos court.
 
 La récupération des autres ressources est beaucoup plus lente et a lieu lors des repos. Le repos correspond à une période où le personnage se repose. Une récupération de base est de 5 + modificateur de sagesse.
 
@@ -1408,7 +1398,7 @@ Un repos est ainsi divisé en 3 conditions : le lieu, la nourriture et le sommei
 !!! note "Note"
     Une nuit chez soi ou dans une auberge permet généralement un repos optimal. Les nuits en extérieur sont souvent moins clémentes mais ce n’est rien contre l’absence total de repos !
 
-Une lésion ne profite de sa récupération que si le personnage est stabilisé de façon permanent (nécessite un acte (et test) de médecine approprié). La récupération des lésion s’applique ainsi : Chaque tranche de 5 en récupération permet la réduction d’une lésion d’un pallier, cette réduction se fait en rééquilibrant les lésions (ce qui est le plus efficace pour réduire les pénalités).
+Les lésions se récupèrent lors d’un repos long, en commençant par les plus sévères. Chaque tranche de 5 en récupération réduit la gravité totale de 1, répartie en priorité sur la lésion la plus élevée. Des soins médicaux préalables (acte de médecine approprié) permettent d’accélérer ce processus.
 
 ### Soins Naturels : La Médecine
 
@@ -1428,11 +1418,11 @@ Les premiers soins peuvent être réalisés durant le feu de l’action (au prix
 
 #### Les Soins Médicaux
 
-Les soins médicaux nécessitent une certaine attention et un cadre totalement incompatible avec les situations de dangers imminents, etc… Comptez environ 20 minutes pour un soin médical. Ils peuvent permettre de : stabiliser définitivement l’état d’un personnage, réduire/stopper une condition temporaire, soigner des ressources perdues.
+Les soins médicaux nécessitent une certaine attention et un cadre totalement incompatible avec les situations de dangers imminents, etc… Comptez environ 20 minutes pour un soin médical. Ils peuvent permettre de : préparer la récupération des lésions du patient, réduire/stopper une condition temporaire, soigner des ressources perdues.
 
 Il faut bien considérer chaque type de soins avec ce qu’ils peuvent soigner : La médecine du corps peut soigner la vitalité, la médecine de l’esprit peut soigner la Spiritualité, la médecine douce peut soigner la fatigue, etc…
 
-⬄ Stabiliser l’état définitivement d’un personnage nécessite un test de médecine adapté (corps ou esprit) contre une difficulté de soin des lésions (10 + niveau de gravité x2). En cas de réussite, l'état du patient est stabilisé.
+⬄ Préparer la récupération des lésions d’un personnage nécessite un test de médecine adapté (corps ou esprit) contre une difficulté de soin (10 + gravité de la lésion la plus élevée). En cas de réussite, les lésions du patient peuvent se récupérer lors du prochain repos long.
 
 ⬄ Réduire ou stopper une condition temporaire nécessite un test de médecine adapté (corps ou esprit) à une évaluation de soin (pénalités au test équivalant à 2 fois le niveau de la lésion de même nature la plus élevée). En cas de réussite les charges sont réduites d’autant que le résultat du jet de soin (catégorie 0 + degré de réussite).
 
@@ -1444,7 +1434,7 @@ Les soins cliniques nécessitent toute l’attention du praticien et de son pati
 
 Il faut bien considérer chaque type de soins avec ce qu’ils peuvent soigner : La chirurgie peut soigner les conditions physiques et les blessures, la psychothérapie peut soigner les conditions mentales et les traumatismes, la kinésithérapie peut soigner la fatigue.
 
-⬄ Soigner une lésion (et une seule à la fois) nécessite un test adapté (chirurgie pour le corps, psychologie pour l’esprit) pour une évaluation de soin (pénalités au test équivalant à 2 fois le niveau de la lésion de même nature la plus élevée). En cas de réussite la moitié (arrondis inférieur) du résultat du jet de soin (catégorie 0 + degré de réussite) est appliqué à la prochaine récupération des lésions (à raison d' un palier de lésion par tranche de 5).
+⬄ Soigner une lésion (et une seule à la fois) nécessite un test adapté (chirurgie pour le corps, psychologie pour l’esprit) pour une évaluation de soin (pénalités au test équivalant à la gravité de la lésion de même nature la plus élevée). En cas de réussite, la moitié (arrondis inférieur) du résultat du jet de soin est directement déduite de la gravité de la lésion ciblée.
 
 #### Les Cas spécifiques
 
@@ -1823,6 +1813,72 @@ Une zone dangereuse est une zone dont les conditions infligent des dégâts à q
 Un test de sauvegarde de **Réflexes** permet de modifier la valeur des dégâts conformément aux règles de sauvegarde. La difficulté est **15 par défaut**, mais le MJ peut l'ajuster selon la nature de la zone. Si la zone est générée par l'action d'un personnage (sort, huile enflammée, etc.), c'est **l'expertise de ce personnage** qui sert de seuil à la place.
 
 Les dégâts d'une zone dangereuse sont de l'élément correspondant à sa nature (feu, acide…) et suivent les règles normales de résistance et de défense passive associées.
+
+### Les Pièges
+
+#### Poser un piège
+
+Poser un piège nécessite un test de **Piégeage (RUS)**. Ce résultat est conservé : c'est lui qui sert de jet d'attaque lorsque le piège se déclenche. Le piégeur peut donc soigner la qualité de sa pose en amont — y compris recommencer, à condition de d'abord **désamorcer** son propre piège pour le reprendre, ce qui le **consomme** (il est perdu).
+
+Le piège doit être **à portée de main** au moment de la pose. Un sac dédié permet un accès rapide en confrontation ; sans cela, l'accès à l'équipement suit les règles habituelles et peut s'avérer impossible en plein combat. Selon son type, un piège peut être posé en confrontation (ACTC) ou uniquement hors confrontation — voir la description de chaque objet.
+
+!!! note "Reprendre un piège sans le désamorcer"
+    Si un effet permet à un personnage de reprendre ou déplacer un piège posé sans le désamorcer, il **ne peut pas relancer son test de Piégeage** : le résultat conservé reste celui de la pose d'origine. Autoriser un nouveau test constituerait une optimisation gratuite sans contrepartie.
+
+#### Camoufler un piège
+
+Après la pose, le piégeur peut camoufler son piège via un second test de **Piégeage (RUS)**. Le résultat devient la **difficulté** pour le repérer activement. Un piège non camouflé est repéré automatiquement dès qu'un personnage le cherche activement.
+
+#### Repérer un piège
+
+La présence d'un piège peut être détectée de deux façons :
+
+- Un personnage **demande explicitement** s'il y a un piège — le MJ fait effectuer un test de détection si le piège est camouflé (contre la difficulté fixée par le test de camouflage), ou le confirme directement s'il ne l'est pas.
+- À défaut, le MJ peut faire effectuer un test d'**Intuition** — en cas de réussite, le personnage *pressent* qu'un piège est peut-être présent dans les environs, sans connaître sa localisation exacte. Un test de détection est ensuite nécessaire pour le localiser précisément si le piège est camouflé.
+
+#### Désamorcer un piège
+
+Désamorcer oppose un test de **Désamorçage (DEX)** au test de Piégeage original :
+
+- **Réussite critique** : le piège est neutralisé et **récupéré intact**, prêt à être reposé.
+- **Réussi** : le piège est neutralisé et **consommé** (perdu).
+- **Raté** : le personnage ne parvient pas à le désamorcer.
+- **Échec critique** : le piège se déclenche immédiatement sur le désamorceur.
+
+Un piège bien posé est résilient aux tentatives grossières de neutralisation à distance (caillou lancé, etc.) : la pose intègre des précautions contre ce type de contournement.
+
+#### Déclenchement
+
+Lorsqu'un piège se déclenche, le **test de Piégeage** conservé à la pose sert de jet d'attaque, auquel s'ajoute le **modificateur de RUS** du piégeur. La défense opposée dépend de la nature du piège, selon la même logique que les armes :
+
+| Nature du piège | Défense opposée |
+| --- | --- |
+| Projectile | PER |
+| Lames / tranchant | DEX |
+| Contondant | FOR |
+| Énergie (feu, foudre, acide…) | Règles de l'énergie concernée |
+
+Les dégâts sont calculés selon la **catégorie du piège**, conformément aux règles générales des consommables.
+
+#### Réarmer
+
+Le mot-clé **Réarmer** indique qu'un piège peut être activé à nouveau après s'être déclenché. Un piège réarmé ne peut cependant plus être déplacé, ni réarmé une seconde fois, et ne vaut plus rien en l'état.
+
+### Les Explosifs
+
+Lancer un explosif est une **action simple (ACTS)**. Le test d'attaque utilise la compétence **Armes Explosives (PER)**, dans le groupe **Arme de Jet** — l'entrainement à ce groupe s'applique normalement.
+
+#### Résolution
+
+Les explosifs sont des **attaques de zone déclenchées** et suivent les règles correspondantes : le test d'attaque est réalisé une seule fois et chaque cible présente dans la zone d'impact le compare à sa propre défense passive (PER). Chaque cible touchée effectue ensuite une sauvegarde de **Réflexes** contre l'expertise physique du lanceur. La proportion des dégâts appliquée dépend de la combinaison réussite/échec de l'attaque et de la sauvegarde, conformément aux règles générales des actions de zone.
+
+Les dégâts sont de type **physique** et basés sur la catégorie de l'explosif. Si l'explosif est modifié par une énergie (feu, électricité, acide…), les règles de cette énergie s'appliquent à la place ou en complément selon la nature de l'amélioration.
+
+Si l'explosif ne cause pas de dégâts directs mais provoque une condition, la **charge de la condition** est égale au résultat du test d'attaque.
+
+#### Grenade (variante temporisée)
+
+Une grenade ne se déclenche pas immédiatement : elle explose au **début du round suivant** celui où elle a été lancée. Cela laisse une fenêtre d'opportunité pour fuir la zone ou tenter de la renvoyer — à l'appréciation du MJ.
 
 ## Les Règles de Joutes
 

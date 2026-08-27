@@ -425,6 +425,8 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 ### Les Pièges (consommables)
 
+Poser et utiliser un piège relève de la compétence **Piégeage (RUS)**, groupe **Outils**. Voir les [règles des pièges](../regles/chapitre-8-les-confrontations.md) pour la résolution complète.
+
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
 | Piège Simple | 8 🪙 | Piège rapide (ACTC en confrontation, peux être habitué) Catégorie 1 | ½ 📦 |
@@ -466,6 +468,31 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | Titan | 7 🪙 | CON/VOL +2. Le reste -2. Addiction : physique et mentale. | ½ 📦 |
 | + supérieure | X2 | Effets (positifs et négatifs) +1. Ce modificateur peut être pris jusqu’à 2 fois. |  |
 | + raffinée | X2 | Effets positifs et risque d’addiction doublés. |  |
+
+#### Règles d’Addiction
+
+**Effets simultanés.** Chaque drogue est gérée séparément. Si plusieurs drogues sont actives lors d’une même scène, seul le bonus le plus élevé s’applique pour un même attribut — un bonus peut ainsi annuler un malus provenant d’une autre drogue.
+
+**Corruption.** Chaque prise génère **6 − Q** points de corruption (Q = qualité de la drogue).
+
+**Test d’addiction.** À chaque prise, effectuer un test de sauvegarde de difficulté **15 − Q** :
+
+- Addiction **physique** → **Robustesse**
+- Addiction **mentale** → **Détermination**
+- Addiction **physique et mentale** → les deux tests ; retenir le pire résultat
+
+| Résultat du test | Points d’addiction gagnés |
+| --- | ---: |
+| Réussite critique | 0 |
+| Réussite | 1 |
+| Échec | 2 |
+| Échec critique | 3 |
+
+**Addiction préexistante.** Si le personnage est déjà addict à la substance, il gagne **+1 point d’addiction supplémentaire** si le résultat du test (points gagnés) est identique ou supérieur au résultat de la prise précédente. Sinon, rien de plus.
+
+**Pénalités.** Le test de sauvegarde est effectué avec un **désavantage par addiction active** du personnage (toutes substances confondues). La **résilience maximale** est réduite de **1 par addiction**.
+
+**Sevrage.** L’addiction à une substance diminue de 1 après **X jours sans consommer** cette substance, X étant le niveau d’addiction actuel au carré. Les addictions à des substances différentes sont indépendantes et se cumulent.
 
 ### Les Infusions ()
 
@@ -544,28 +571,29 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 ### Les Explosifs ()
 
-| Nom | Prix | Description / effet | Encombrement / notes |
-| --- | --- | --- | --- |
-| Mine | 10 🪙 | Fonctionne comme un piège. | ? |
-| Bombe | 6 🪙 | Explose/se déclenche là où elle est jetée. Inflige des dégâts explosifs (tests de jet vs défense à distance). Zone d’effet 3x3. |  |
-| Grenade | 12 🪙 | Explose/se déclenche un round après avoir été lancé. Inflige des dégâts explosifs (tests de jet vs défense à distance). Zone d’effet 5x5. |  |
-| Cocktail | 4 🪙 | Explose/se déclenche là où elle est jetée. Inflige des dégâts explosifs (tests de jet vs défense à distance). Les adversaires sont désavantagés à leurs tests de défenses contre un cocktail, cependant la zone d’effet n’est que d’une cible. |  |
-| + Fragmentation | +2 🪙 | Perforation +4 |  |
-| + Incendiaire | +2 🪙 | Les dégâts sont désormais basés sur l’énergie du feu. |  |
-| + Electrique | +2 🪙 | Les dégâts sont désormais basés sur l’énergie électrique. |  |
-| + Flash | +3 🪙 | Les dégâts sont désormais non létaux et peuvent provoquer la condition « aveuglé » (vs Robustesse) |  |
-| + Démolition | +2 🪙 | Détérioration causée aux objets doublés. |  |
-| + Fumigène | +4 🪙 | Ne fait pas de dégâts mais comble une pièce d’un gaz jusqu’à la fin de la scène en cours. Occuper ou passer dans un tel espace déclenche un test de sauvegarde de robustesse, en cas d’échec la cible est affectée par une condition temporaire dont la charge dépend du jet associé à la bombe, la charge est divisée par deux en cas de réussite du test. Chaque 10 points de charge de la condition inflige une pénalité de 1 aux attributs de la cible. Chaque test de robustesse réussie augmente le prochain de 2 (maximum = 2 x qualité). |  |
-| + Assourdissante | +3 🪙 | Les dégâts sont désormais non létaux et peuvent provoquer la condition « aveuglé » (vs Robustesse) |  |
-| + Chimique | +5 🪙 | Contient une des substances chimiques, propageant ses effets sur une zone. |  |
-| + EMP | +5 🪙 | Provoque un test de panne de tous les appareils technologiques utilisant le steam dans la zone d’effet. |  |
-| + Gomme | X0.75 | Les dégâts sont désormais non létaux. |  |
-| + Cryo | +2 🪙 | Les dégâts sont désormais basés sur l’énergie du froid. |  |
-| + Acide | +2 🪙 | Les dégâts sont désormais basés sur l’énergie d’acide. |  |
-| + Assommante | +3 🪙 | Ne fait pas de dégâts mais provoque la condition « assommée » à la place (vs Robustesse) |  |
-| + Fatiguant | +1 🪙 | La cible subit 1 point de fatigue |  |
-| + Déclencheur | X2 | Explosion manuelle |  |
-| + étendu | X2 | Double la zone d’effet |  |
+Lancer un explosif utilise la compétence **Armes Explosives (PER)**, groupe **Arme de Jet**. Voir les [règles des explosifs](../regles/chapitre-8-les-confrontations.md) pour la résolution complète.
+
+| Nom | Prix | Catégorie | Description / effet | Encombrement |
+| --- | --- | ---: | --- | --- |
+| Mine | 10 🪙 | 2 | Fonctionne comme un piège (voir règles des pièges). | 1 📦 |
+| Bombe | 6 🪙 | 1 | Se déclenche là où elle est jetée. Dégâts physiques. Zone d’effet 3×3. | ½ 📦 |
+| Grenade | 12 🪙 | 2 | Se déclenche au début du round suivant. Dégâts physiques. Zone d’effet 5×5. | 1 📦 |
+| Cocktail | 4 🪙 | 1 | Se déclenche là où il est jeté. Dégâts physiques. Les défenseurs sont désavantagés à leur test de défense, mais la zone d’effet est limitée à une seule cible. | ½ 📦 |
+| + Fragmentation | +2 🪙 |  | Perforation +4. |  |
+| + Incendiaire | +2 🪙 |  | Les dégâts sont basés sur l’énergie du feu. |  |
+| + Électrique | +2 🪙 |  | Les dégâts sont basés sur l’énergie électrique. |  |
+| + Cryo | +2 🪙 |  | Les dégâts sont basés sur l’énergie du froid. |  |
+| + Acide | +2 🪙 |  | Les dégâts sont basés sur l’énergie acide. |  |
+| + Flash | +3 🪙 |  | Ne cause pas de dégâts directs. Peut provoquer la condition **Aveuglé** (vs Robustesse). |  |
+| + Assourdissante | +3 🪙 |  | Ne cause pas de dégâts directs. Peut provoquer la condition **Assourdi** (vs Robustesse). |  |
+| + Assommante | +3 🪙 |  | Ne cause pas de dégâts directs. Peut provoquer la condition **Assommé** (vs Robustesse). |  |
+| + Fumigène | +4 🪙 |  | Ne cause pas de dégâts directs. Comble une zone d’un gaz jusqu’à la fin de la scène. Y entrer ou s’y arrêter déclenche un test de Robustesse : échec → condition temporaire (charge = jet d’attaque, divisée par 2 en cas de réussite). Chaque 10 points de charge infligent −1 à tous les attributs. Chaque test de Robustesse réussi augmente le DD du suivant de 2 (max = 2 × qualité). |  |
+| + Chimique | +5 🪙 |  | Contient une substance chimique, propageant ses effets sur la zone d’impact. |  |
+| + EMP | +5 🪙 |  | Provoque un test de panne sur tous les appareils steam dans la zone d’effet. |  |
+| + Démolition | +2 🪙 |  | Détérioration causée aux objets doublée. |  |
+| + Gomme | ×0.75 |  | Les dégâts deviennent non létaux. |  |
+| + Déclencheur | ×2 |  | L’explosion est déclenchée manuellement. |  |
+| + Étendu | ×2 |  | Double la zone d’effet. |  |
 
 ### Les Auto-Kits ()
 
@@ -605,7 +633,7 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 
 ### Les Boucliers d'Énergie
 
-Les boucliers d'énergie sont des [objets technologiques complexes](../steam-ext/details/les-objets-technologiques-complexes.md). Lorsqu'il est alimenté et équipé, un bouclier déploie une barrière qui intercepte les attaques physiques avant qu'elles n'atteignent réellement son porteur.
+Les boucliers d'énergie sont des [objets technologiques complexes](../steam-ext/details/les-objets-technologiques-complexes.md). Le fonctionnement détaillé — interception des attaques, récupération de Magnitude, gestion du Stock et signatures des fabricants — est présenté dans cette page.
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
@@ -615,123 +643,98 @@ Les boucliers d'énergie sont des [objets technologiques complexes](../steam-ext
 | + Maniabilité accrue | 15 🪙 | Maniabilité +1. Peut être installée jusqu'à trois fois. |  |
 | + Rapidité accrue | 15 🪙 | Rapidité +1. Peut être installée jusqu'à trois fois. |  |
 
-Les améliorations occupent les emplacements de la capacité d'amélioration du bouclier selon les règles ordinaires de l'équipement. Les améliorations spéciales propres aux boucliers, notamment les signatures exclusives des fabricants, ne peuvent être installées qu'une seule fois chacune.
-
-#### Signatures des Fabricants
-
-Les principales [maisons manufacturières](../steam-ext/armes/les-fabricants.md) proposent chacune une amélioration spéciale qui transpose leur doctrine aux boucliers d'énergie. Un bouclier ne peut posséder qu'**une seule signature de fabricant**, quel que soit le nombre d'emplacements dont il dispose.
-
-| Fabricant et signature | Prix | Effet |
-| --- | ---: | --- |
-| **Vorgue — Rupture explosive** | 30 🪙 | Lorsque la Magnitude actuelle tombe à 0, le bouclier produit une déflagration. Toutes les autres cibles à portée de mêlée du porteur subissent des dégâts physiques égaux à l'Efficacité + la Qualité du bouclier. Cet effet ne peut se produire qu'une fois par round. |
-| **Crime — Retour sauvage** | 25 🪙 | Chaque fois que le bouclier intercepte les dégâts physiques d'une attaque de mêlée, l'attaquant subit des dégâts physiques égaux à l'Efficacité du bouclier. |
-| **Melchior — Isolation harmonique** | 25 🪙 | À l'installation, choisir le feu, le froid, la foudre ou l'acide. Le bouclier peut aussi intercepter les dégâts de cette énergie et chaque point de Magnitude dépensé en prévient 2. |
-| **Stalh — Écran spécialisé** | 20 🪙 | À l'installation, choisir les attaques de mêlée ou les attaques de tir. La Magnitude actuelle et maximale du bouclier sont multipliées par 1,5, arrondies à l'inférieur, mais le bouclier n'intercepte plus que les dégâts physiques causés par le type d'attaque choisi. |
-| **Robertson — Cycle imperturbable** | 25 🪙 | Une fois le délai de récupération commencé, les nouvelles pertes de Magnitude ne le font plus recommencer depuis le début. |
-| **Geldiore — Récupération séquentielle** | 30 🪙 | Lorsque le délai s'achève, le bouclier effectue deux récupérations consécutives au lieu d'une. Chacune consomme normalement le Stock et l'ensemble ne déclenche ensuite qu'un seul nouveau délai. |
-| **Steamcore — Circuit régénératif** | 30 🪙 | À la fin de chaque scène, le bouclier récupère 1D8 points de Stock sans nécessiter le remplacement de sa source d'énergie. Cette récupération naturelle ne peut pas amener le Stock actuel au-delà de la Magnitude maximale du bouclier, ni au-delà de son Stock maximal. |
-| **Anshin — Garde inhérente** | 25 🪙 | À l'installation, choisir un attribut physique. Tant que la Magnitude actuelle est supérieure à 0, la défense passive associée à cet attribut augmente de 2. |
-| **Tobine — Alimentation extractible** | 20 🪙 | Remplacer la batterie ou la source d'énergie du bouclier nécessite une action simple au lieu d'une action complexe. |
-| **Brant & Fils — Blindage inhérent** | 30 🪙 | Tant que la Magnitude actuelle est supérieure à 0, la catégorie d'armure du porteur augmente de 1. |
-| **Valombre — Couverture projetée** | 30 🪙 | Le bouclier peut intercepter les dégâts physiques destinés aux alliés situés à portée de mêlée du porteur. Ces interceptions utilisent normalement sa Magnitude actuelle et redémarrent son délai. |
-
-#### Attributs et Caractéristiques du Bouclier
-
-Les quatre attributs techniques d'un bouclier déterminent ses caractéristiques de la manière suivante :
-
-| Attribut technique | Caractéristique | Calcul ou effet |
-| --- | --- | --- |
-| **Efficacité** | **Magnitude maximale** | Efficacité × 2 + Qualité × 2. |
-| **Fiabilité** | **Stock maximal** | Fiabilité × 5 + Qualité × 5. |
-| **Maniabilité** | **Récupération** | Maniabilité + Qualité. |
-| **Rapidité** | **Délai** | Le niveau de Rapidité indique le délai de récupération dans la table ci-dessous. |
-
-La **Magnitude actuelle** représente la quantité de dégâts que le bouclier peut encore intercepter immédiatement. Elle ne peut jamais dépasser sa Magnitude maximale.
-
-Le **Stock actuel** représente l'énergie disponible pour restaurer la Magnitude. Il ne comprend pas la Magnitude actuelle : un bouclier ayant une Magnitude actuelle et maximale de 10 ainsi qu'un Stock actuel et maximal de 20 peut encore intercepter un total de 30 dégâts avant le remplacement de sa source d'énergie.
-
-#### Intercepter une Attaque
-
-Lorsqu'une attaque devrait infliger des dégâts physiques au porteur, le bouclier en réduit automatiquement les dégâts à hauteur de sa Magnitude actuelle. La Magnitude actuelle diminue d'autant que les dégâts ainsi empêchés.
-
-Cette réduction intervient **avant toute autre forme de réduction des dégâts**. Si les dégâts dépassent la Magnitude actuelle, le reliquat atteint normalement le porteur et les autres formes de réduction s'appliquent alors à ce reliquat.
-
-Après chaque perte de Magnitude, le délai de récupération du bouclier débute. Si le bouclier subit une nouvelle perte de Magnitude avant la fin de ce délai, le délai recommence depuis le début. Plusieurs attaques ne créent jamais plusieurs délais simultanés.
-
-#### Récupérer de la Magnitude
-
-Lorsque le délai s'achève, le bouclier restaure une quantité de Magnitude égale à sa Récupération, sans pouvoir dépasser sa Magnitude maximale. Chaque point de Magnitude ainsi restauré consomme un point du Stock actuel. Si le Stock contient moins de points que la Récupération, tous les points restants sont consommés et autant de points de Magnitude sont restaurés.
-
-Tant que la Magnitude n'a pas atteint son maximum et que le Stock n'est pas vide, un nouveau délai débute après chaque récupération. Une perte de Magnitude subie pendant ce nouveau délai le fait, elle aussi, recommencer depuis le début.
-
-| Rapidité | Délai de récupération |
-| ---: | --- |
-| 0 | Fin de la journée. |
-| 1 | Fin de la scène. |
-| 2 | Fin du tour. |
-| 3 | Fin du round. |
-| 4 | Fin de la passe. |
-| 5 | Fin de l'action. |
-| 6 | Immédiat. La récupération a lieu après chaque attaque, y compris entre plusieurs attaques appartenant à une même action. |
-
-#### Remplacer la Source d'Énergie
-
-Un bouclier dont le Stock est vide conserve sa Magnitude actuelle, mais ne peut plus en récupérer. Remplacer sa batterie ou sa source d'énergie steam nécessite une **action complexe (ACTC)**.
-
-Une fois le bouclier de nouveau alimenté, son Stock actuel et sa Magnitude actuelle sont entièrement restaurés.
-
-
-### Les Automates
-
-| Nom | Prix | Description / effet | Encombrement / notes |
-| --- | --- | --- | --- |
-| Petit Châssis | 100 🪙 | Châssis de base d’un automate de petite taille. Catégorie 1. Attributs -4. Autonomie 24. | Spécial |
-| Châssis Moyen | 200 🪙 | Châssis de base d’un automate de taille standard. Catégorie 2. Attributs +0. Autonomie 20. | Spécial |
-| Grand Châssis | 300 🪙 | Châssis de base d’un automate de grande taille. Catégorie 3. Attributs +4. Autonomie 16. | Spécial |
-| Châssis Colossale | 450 🪙 | Châssis de base d’un automate de très grande taille. Catégorie 4. Attributs +8. Autonomie 12. | Spécial |
-| + Fiable | 20 🪙 | Solidité de l’automate renforcé de 2. Difficulté pour la réparation réduite de 2. |  |
-| + Polyvalent | 50 🪙 | Un attribut élevé devient fort. OU un attribut modéré devient fort. OU un attribut faible devient modéré. |  |
-| + Autonome | 20 🪙 | Autonomie +4. |  |
-| + Compatibilité | 20 🪙 | L’overdrive (quand l’utilisateur prend le contrôle directement) renforce l’initiative de 2 par niveau de qualité. |  |
-| + Absorption renforcée | 20 🪙 | Augmente l’absorption de l’automate de 2. Ceci peut être appliqué plusieurs fois. |  |
-| + Protection renforcée | 20 🪙 | Augmente la protection de l’automate de 2. Ceci peut être appliqué plusieurs fois. |  |
-| + Renforcement | 20 🪙 | Stature +2. Peut être pris une fois. |  |
-| + Agrandit | 20 🪙 | Taille +2. Peut être pris une fois. |  |
-| + Arme naturelle | 20 🪙 | Catégorie de l’arme naturelle augmentée de 1 (avec les pénalités qui vont avec). |  |
-| + Armure naturelle | 30 🪙 | Catégorie de l’armure naturelle augmentée de 1 (avec les pénalités qui vont avec). |  |
-| + Renfort d’Attribut | 40 🪙 | Un attribut est augmenté de 2. Deux fois maximum pour un même attribut. |  |
-| + Avancée | 80 🪙 | Les tests d’un attribut physique d’un attribut au choix dont l’usage met en avant la prothèse voit la plage d’exploit augmentée de 1. |  |
-| + Pratique | 40 🪙 | Les tests d’un attribut physique d’un attribut au choix dont l’usage met en avant la prothèse voit la plage de maladresse réduite de 1. |  |
-
-Dispose de 1 attribut fort, 2 élevés, 2 modérés et 1 faible parmi les attributs du corps ET l’attribut d’énergie (qui définit la pool de steam). Stature et Taille sont de 10 et modifiés comme les autres attributs en fonction des ajustements. Attribut fort : 13 + Qualité x3. Attribut élevé : 12 + Qualité x2. Attribut modéré : 11 + Qualité. Attribut faible : 10. Une fois l’autonomie dépassée, l’automate est en mode économie et ses attributs sont divisés par 2. Recharger un automate nécessaire 2 charge steam. Un core est nécessaire pour fonctionner.
-
-
-### Les Cores (d’Automates ou Drônes)
-
-| Nom | Prix | Description / effet | Encombrement / notes |
-| --- | --- | --- | --- |
-| Core | 40 🪙 | Nécessaire au fonctionnement. Permet le contrôle de la machine via le steam. La machine dispose de 4 compétences ayant un niveau de groupe de 1 et de compétence équivalent à la qualité du core. | 1 📦 |
-| + Autonome | 30 🪙 | Prend les décisions seul et n’a plus besoin d’être manipulé/coordonné à distance via le steam.Octroie des attributs mentaux de 4 à la machine par niveau de qualité. |  |
-| + Compétent | 20 🪙 | Ajoute 2 compétences à la liste. |  |
-| + Polyvalent | 15 🪙 | Tous les groupes de compétence de la liste du core augmente de 1. |  |
 
 ### Les Drônes
 
-| Nom | Prix | Description / effet | Encombrement / notes |
-| --- | --- | --- | --- |
-| Araignée Mécanique | 50 🪙 | Attributs physiques de base : 6 FOR, 2 CON, 6 DEX, 8 PER, 6 AGI Arme naturelle : Pattes (AGI vs AGI). Compétences : Discrétion. | 1 📦 |
-| Oiseau Mécanique | 50 🪙 | Attributs physiques de base : 2 FOR, 2 CON, 6 DEX, 6 PER, 6 AGI Arme naturelle : Bec (AGI vs AGI). Compétences : Vol. | ½ 📦 |
-| Chien Mécanique | 80 🪙 | Attributs physiques de base : 10 FOR, 6 CON, 4 DEX, 8 PER, 2 AGI Arme naturelle : Morsure (FOR vs AGI). Compétences : Mêlée, Défense, Athlétisme. | 3 📦 |
-| Chat Mécanique | 60 🪙 | Attributs physiques de base : 4 FOR, 2 CON, 6 DEX, 4 PER, 10 AGI Arme naturelle : Griffe (DEX vs AGI). Compétences : Acrobatie, Perceptions. | 2 📦 |
-| Sanglier Mécanique | 80 🪙 | Attributs physiques de base : 8 FOR, 10 CON, 4 DEX, 2 PER, 6 AGI Arme naturelle : Défense (CON vs CON). Compétences : Mêlée, Tactique. | 4 📦 |
-| Tourelle Mécanique | 90 🪙 | Attributs physiques de base : 0 FOR, 10 CON, 0 DEX, 10 PER, 0 AGI Arme naturelle : Arme à feu (PER vs PER). Statique. Compétences : Tir. | 4 📦 |
-| + Déployable | X2 | L’objet peut être déployé (et inversement) à volonté, c’est instantané. Non déployé, l’objet a un encombrement divisé par deux. |  |
-| + Dématérialisable | X3 | L’objet peut être miniaturisé (et inversement) à volonté, c’est instantané mais cela ne peut se produire qu’une fois par scène. Miniaturisé l’objet a un encombrement de ½. |  |
-| + Compétent | 15 🪙 | Ajoute 1 compétence à la liste. |  |
-| + Intelligent | 20 🪙 | Attributs mentaux de base 2 par niveau de qualité. |  |
-| + Solide | 10 🪙 | Solidité de l’automate renforcé de 1. |  |
-| + Renfort | 15 🪙 | Attribut physique au choix de l’automate renforcé de 2. |  |
-| + Autonome | 8 🪙 | Nécessite une charge steam de moins par jour. (Note : De base c’est 4 s’il a été actif, 2 sinon) |  |
+Les drônes sont la forme légère des automates : miniaturisés et discrets, conçus pour la surveillance et la mobilité. Leur core est **intégré** (non remplaçable). Les attributs du corps ont une valeur de base de **8** (élevé, +3/Q), **6** (moyen, +2/Q) ou **4** (faible, +1/Q) selon la configuration du modèle — la distribution entre ces tiers est choisie à la construction. Stature et Taille de base = 4 + Catégorie × 2.
+
+| Châssis | Prix | Catégorie | Stature / Taille | Énergie (base) | Autonomie (base) | Gabarit |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Drône Léger | 30 🪙 | 0 | 4 / 4 | 6 | 16 | Papillon |
+| Drône Intermédiaire | 50 🪙 | 1 | 6 / 6 | 6 | 16 | Souris |
+| Drône Lourd | 80 🪙 | 2 | 8 / 8 | 6 | 16 | Chat |
+
+*Autonomie base = Énergie (6) × 2 + Stabilité core (2) × 2 = 16. La qualité et les améliorations augmentent cette valeur.*
+
+| Amélioration | Prix | Description |
+| --- | ---: | --- |
+| + Attribut (corps) | 15 🪙 | Un attribut du corps augmenté de 1. Deux fois maximum pour un même attribut. |
+| + Autonomie | 20 🪙 | Autonomie +4. |
+| + Économique | 20 🪙 | La consommation passive d’autonomie en fin de journée est réduite à 0. |
+| + Capteur ambiant | 20 🪙 | En fin de journée, récupère 2 points d’autonomie parmi ceux consommés. Ne peut pas dépasser l’autonomie de début de journée. |
+| + Veille active | 20 🪙 | Si aucune autonomie n’a été consommée dans la journée, gagne 1 point d’autonomie. Peut dépasser le maximum. Maximum une fois par drône. |
+| + Fiable | 20 🪙 | Solidité +2. Difficulté de réparation réduite de 2. |
+| + Absorption renforcée | 20 🪙 | Absorption +2. Peut être pris plusieurs fois. |
+| + Protection renforcée | 20 🪙 | Protection +2. Peut être pris plusieurs fois. |
+| + Arme naturelle | 20 🪙 | Catégorie de l’arme naturelle +1 (avec les pénalités associées). |
+| + Armure naturelle | 30 🪙 | Catégorie de l’armure naturelle +1 (avec les pénalités associées). |
+| + Stature | 15 🪙 | Stature +1. Maximum une fois. |
+| + Taille | 15 🪙 | Taille +1. Maximum une fois. |
+| + Déployable | ×2 | Peut être déployé ou rétracté à volonté, instantanément. Non déployé, encombrement ÷ 2. |
+| + Dématérialisable | ×3 | Peut être miniaturisé ou restauré à volonté, instantanément, une fois par scène. Miniaturisé, encombrement ½. |
+| + Efficacité (core) | 15 🪙 | Efficacité du core intégré +1. Maximum trois fois. |
+| + Stabilité (core) | 15 🪙 | Stabilité du core intégré +1. Maximum trois fois. Ajoute +2 à l’Autonomie. |
+| + Rapidité (core) | 15 🪙 | Rapidité du core intégré +1. Maximum trois fois. |
+| + Manoeuvrabilité (core) | 20 🪙 | Manoeuvrabilité du core intégré +1. Maximum trois fois. |
+| + Attribut (esprit) | 15 🪙 | Un attribut d’esprit augmenté de 1. Deux fois maximum pour un même attribut. |
+| + Compétent | 20 🪙 | Ajoute 1 compétence à la liste du core intégré. Peut être pris plusieurs fois pour des compétences différentes. |
+| + Maîtrise | 15 🪙 | Le test d’une compétence de la liste du core intégré est augmenté de 1. Peut être pris plusieurs fois pour des compétences différentes. |
+| + Polyvalent | 15 🪙 | Toutes les compétences hors liste du core intégré bénéficient d’un niveau de groupe de 1. |
+| + Commande vocale | 20 🪙 | L’opérateur peut donner ses ordres à voix haute (ACTL) au lieu de via lunettes steam (ACTS). Sans effet si Manoeuvrabilité 6. |
+| + Sentient | 60 🪙 | Le drône acquiert un attribut de Volonté (VOL) et devient sensible aux conditions et effets mentaux. |
+
+### Les Travailleurs
+
+Les travailleurs sont la forme lourde des automates : robustes, destinés au travail, à la protection ou au combat. Leur châssis ne contient pas de core intégré — le core est acheté et installé séparément. Les attributs du corps ont une valeur de base de **12** (élevé, +3/Q), **10** (moyen, +2/Q) ou **8** (faible, +1/Q) selon la configuration du modèle. Stature et Taille de base = 4 + Catégorie × 2.
+
+| Châssis | Prix | Catégorie | Stature / Taille | Énergie (base) | Autonomie (base) | Gabarit |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Travailleur Léger | 100 🪙 | 1 | 6 / 6 | 10 | 24 | Chien |
+| Travailleur Intermédiaire | 200 🪙 | 2 | 8 / 8 | 10 | 24 | Humanoïde |
+| Travailleur Lourd | 350 🪙 | 3 | 10 / 10 | 10 | 24 | Monstrueux |
+
+*Autonomie base = Énergie (10) × 2 + Stabilité core (2) × 2 = 24. Nécessite un core de travailleur pour fonctionner.*
+
+| Amélioration | Prix | Description |
+| --- | ---: | --- |
+| + Attribut (corps) | 25 🪙 | Un attribut du corps augmenté de 1. Deux fois maximum pour un même attribut. |
+| + Autonomie | 20 🪙 | Autonomie +4. |
+| + Économique | 20 🪙 | La consommation passive d’autonomie en fin de journée est réduite à 0. |
+| + Capteur ambiant | 20 🪙 | En fin de journée, récupère 2 points d’autonomie parmi ceux consommés. Ne peut pas dépasser l’autonomie de début de journée. |
+| + Veille active | 20 🪙 | Si aucune autonomie n’a été consommée dans la journée, gagne 1 point d’autonomie. Peut dépasser le maximum. Maximum une fois par automate. |
+| + Fiable | 20 🪙 | Solidité +2. Difficulté de réparation réduite de 2. |
+| + Absorption renforcée | 20 🪙 | Absorption +2. Peut être pris plusieurs fois. |
+| + Protection renforcée | 20 🪙 | Protection +2. Peut être pris plusieurs fois. |
+| + Arme naturelle | 20 🪙 | Catégorie de l’arme naturelle +1 (avec les pénalités associées). |
+| + Armure naturelle | 30 🪙 | Catégorie de l’armure naturelle +1 (avec les pénalités associées). |
+| + Stature | 20 🪙 | Stature +1. Maximum deux fois. |
+| + Taille | 20 🪙 | Taille +1. Maximum deux fois. |
+| + Humanoïde | 40 🪙 | Le châssis dispose de membres adaptés : l’automate peut équiper des armes comme un personnage. |
+| + Discret | 50 🪙 | L’automate peut passer inaperçu parmi les humanoïdes dans des conditions normales. |
+
+### Les Cores d’Automates
+
+Le core est l’objet technologique complexe qui constitue l’esprit d’un automate. Ses quatre attributs techniques — **Efficacité, Stabilité, Manoeuvrabilité, Rapidité** — démarrent à **2**. Voir [les règles complètes des cores](../steam-ext/details/les-objets-technologiques-complexes.md) pour le fonctionnement de l’autonomie, du contrôle et des compétences.
+
+| Nom | Prix | Attributs d’esprit (base) | Compétences | Encombrement |
+| --- | ---: | --- | ---: | ---: |
+| Core de Drône | 40 🪙 | 4 (CHA, INT, RUS, SAG, Steam) | 1 | 1 📦 |
+| Core de Travailleur | 60 🪙 | 6 (CHA, INT, RUS, SAG, Steam) | 4 | 1 📦 |
+
+*Le core de drône est intégré au châssis (non remplaçable) — ses améliorations figurent dans la section drône ci-dessus. Le core de travailleur est une pièce distincte.*
+
+| Amélioration | Prix | Description |
+| --- | ---: | --- |
+| + Efficacité | 15 🪙 | Efficacité +1. Maximum trois fois. |
+| + Stabilité | 15 🪙 | Stabilité +1. Maximum trois fois. Ajoute +2 à l’Autonomie. |
+| + Rapidité | 15 🪙 | Rapidité +1. Maximum trois fois. |
+| + Manoeuvrabilité | 20 🪙 | Manoeuvrabilité +1. Maximum trois fois. |
+| + Attribut (esprit) | 15 🪙 | Un attribut d’esprit augmenté de 1. Deux fois maximum pour un même attribut. |
+| + Compétent | 20 🪙 | Ajoute 1 compétence à la liste du core. Peut être pris plusieurs fois pour des compétences différentes. |
+| + Maîtrise | 15 🪙 | Le test d’une compétence de la liste du core est augmenté de 1. Peut être pris plusieurs fois pour des compétences différentes. |
+| + Polyvalent | 15 🪙 | Toutes les compétences hors liste du core bénéficient d’un niveau de groupe de 1. |
+| + Commande vocale | 20 🪙 | L’opérateur peut donner ses ordres à voix haute (ACTL) au lieu de via lunettes steam (ACTS). Sans effet si Manoeuvrabilité 6. |
+| + Sentient | 60 🪙 | L’automate acquiert un attribut de Volonté (VOL) et devient sensible aux conditions et effets mentaux. |
 
 ### Les Automails (prothèses)
 
@@ -752,6 +755,27 @@ Dispose de 1 attribut fort, 2 élevés, 2 modérés et 1 faible parmi les attrib
 | + Fiable | 15 🪙 | Test de solidité de la prothèse augmenté de 2. De plus, le test de difficulté pour réparer la prothèse est réduit de 2. | J / B |
 | + Décoratif | 10 🪙 | Apparence (globale) +1.Deux fois maximum. | B |
 | + Booster | 10 🪙 | Peut consommer une charge steam stockée au préalable pour augmenter l’attribut principal de 4 et secondaire de 2 jusqu’à la fin du tour. Restocker ne peut se faire en combat. Peut être pris plusieurs fois pour augmenter la capacité de stock de 1. | J / B |
+
+#### Résilience et Automails
+
+Porter des automails réduit la **résilience maximale** de **Q** points, Q étant la qualité du seul automail de plus haute qualité parmi tous ceux portés — les autres ne comptent pas.
+
+Si un automail couvre un membre manquant en raison d’un désavantage, sa qualité est **déduite en plus** du total (en sus du calcul ci-dessus). Plusieurs automails couvrant des membres manquants se cumulent chacun indépendamment.
+
+!!! example "Exemple"
+    Un personnage porte un automail Q2 (bras) et un automail Q3 (jambe). Il possède par ailleurs un désavantage « bras manquant » (2 PP). La réduction de résilience maximale est de **−3** (l’automail le plus haut) **+ −2** (bras Q2, membre manquant dû à un désavantage), soit **−5** au total.
+
+#### Automail comme Objet
+
+Un automail est géré comme un **objet porté** et est à ce titre sujet à la dégradation, à la solidité et à la destruction selon les règles ordinaires de l’équipement.
+
+Sa **catégorie** est **0** par défaut, ou égale à la catégorie la plus élevée parmi les améliorations d’arme naturelle ou d’armure naturelle qui lui sont appliquées, le cas échéant. C’est cette catégorie qui détermine sa solidité de base et les difficultés de réparation.
+
+Un automail peut être ciblé et endommagé dans les mêmes conditions que tout objet porté, notamment :
+
+- lors d’une **attaque localisée sur le membre** qu’il couvre ;
+- lors d’un **échec critique au corps à corps** effectué avec cet automail comme arme naturelle ;
+- dans tout autre cas où les règles des objets portés s’appliqueraient logiquement.
 
 ### Les Méca-Armures
 

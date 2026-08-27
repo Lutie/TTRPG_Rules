@@ -75,7 +75,7 @@ function TabStatus() {
 
   // Résistance = résistance armure (cat) + bonus
   const resistanceArmure = armureCat;
-  const resistanceTotale = resistanceArmure + (bonus.resiliencePhysique || 0);
+  const resistanceTotale = resistanceArmure + (bonus.resistancePhysique || 0);
 
   // Protection physique = carac protection (5 + mSTA(STA + qualité armure)) + protection armure (cat) + bonus
   const staBase = getValeurTotale(character, 'STA');
@@ -144,7 +144,7 @@ function TabStatus() {
   const volBase = getValeurTotale(character, 'VOL');
   const mVolEffective = calculerModificateur(volBase + resQual);
   const absorptionMentale = resCat * 3 + mVolEffective + (bonus.absorptionMentale || 0);
-  const resistanceMentale = resCat + (bonus.resilienceMentale || 0);
+  const resistanceMentale = resCat + (bonus.resistanceMentale || 0);
   const egoBase = getValeurTotale(character, 'EGO');
   const mEgoEffective = calculerModificateur(egoBase + resQual);
   const protectionMentale = 5 + mEgoEffective + resCat + (bonus.protectionMentale || 0);
@@ -631,7 +631,7 @@ function TabStatus() {
                   <span className="status-recap-combat-label">Résistance</span>
                   <span className="status-recap-combat-value">{resistanceTotale}</span>
                   <span className="status-recap-combat-detail">
-                    ({resistanceArmure}{bonus.resiliencePhysique ? ` + bonus ${bonus.resiliencePhysique}` : ''})
+                    ({resistanceArmure}{bonus.resistancePhysique ? ` + bonus ${bonus.resistancePhysique}` : ''})
                   </span>
                 </div>
                 <div className="status-recap-combat-item">
@@ -772,7 +772,7 @@ function TabStatus() {
                   <span className="status-recap-combat-label">Résistance</span>
                   <span className="status-recap-combat-value">{resistanceMentale}</span>
                   <span className="status-recap-combat-detail">
-                    ({resCat}{bonus.resilienceMentale ? ` + bonus ${bonus.resilienceMentale}` : ''})
+                    ({resCat}{bonus.resistanceMentale ? ` + bonus ${bonus.resistanceMentale}` : ''})
                   </span>
                 </div>
                 <div className="status-recap-combat-item">
@@ -1204,7 +1204,9 @@ function TabStatus() {
       {showSubirDegatsModal && createPortal(
         <SubirDegatsModal
           resistanceTotale={resistanceTotale}
-          resistanceMentale={calc.resilMent}
+          resistanceMentale={resistanceMentale}
+          resiliencePhys={bonus.resiliencePhysique || 0}
+          resilienceMent={bonus.resilienceMentale || 0}
           equilibre={calc.getAttr('EQU')}
           protPhys={calc.protPhys}
           protMent={calc.protMent}
@@ -1615,7 +1617,7 @@ const TYPES_DEGATS = [
   { id: 'direct',       nom: 'Direct (ignore armure)' },
 ];
 
-function SubirDegatsModal({ resistanceTotale, resistanceMentale, equilibre, protPhys, protMent, onClose }) {
+function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys = 0, resilienceMent = 0, equilibre, protPhys, protMent, onClose }) {
   const { character, updateCharacter } = useCharacter();
   const [domaine, setDomaine]         = useState('physique');
   const [type, setType]               = useState('combat');
@@ -1629,6 +1631,7 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, equilibre, prot
   const handleBackdropClick = (e) => { if (e.target === e.currentTarget) onClose(); };
 
   const isMental = domaine === 'mental';
+  const resilienceBonus = isMental ? resilienceMent : resiliencePhys;
   const isDirect = type === 'direct';
   const degats   = parseInt(montant) || 0;
 
@@ -1669,7 +1672,7 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, equilibre, prot
 
   // --- Pertes directes (indépendantes du flux) ---
   const paDirecte = perforation;
-  const peDirecte = attrition;
+  const peDirecte = Math.max(0, attrition - resilienceBonus);
   const hpDirecte = penetration;
 
   // --- Totaux ---
@@ -1727,7 +1730,7 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, equilibre, prot
     { label: 'PE',          absorbe: peAbsorbe,        detail: `actuel ${peActuel}, max EQU ${equilibre}`, skip: isDirect },
   ].filter(r => !r.skip);
 
-  const hasDirectes = paDirecte > 0 || peDirecte > 0 || hpDirecte > 0;
+  const hasDirectes = paDirecte > 0 || attrition > 0 || hpDirecte > 0;
 
   return (
     <div className="modal-overlay" onClick={handleBackdropClick}>
@@ -1825,11 +1828,13 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, equilibre, prot
                         <span className="cast-drain-detail">perforation</span>
                       </div>
                     )}
-                    {peDirecte > 0 && (
-                      <div className="cast-drain-row cast-drain-surcharge">
+                    {attrition > 0 && (
+                      <div className={`cast-drain-row${peDirecte > 0 ? ' cast-drain-surcharge' : ' degats-row-zero'}`}>
                         <span>PE</span>
                         <span className="cast-drain-val">−{peDirecte}</span>
-                        <span className="cast-drain-detail">attrition</span>
+                        <span className="cast-drain-detail">
+                          attrition{resilienceBonus > 0 ? ` − rés. ${resilienceBonus} = ${peDirecte}` : ''}
+                        </span>
                       </div>
                     )}
                     {hpDirecte > 0 && (

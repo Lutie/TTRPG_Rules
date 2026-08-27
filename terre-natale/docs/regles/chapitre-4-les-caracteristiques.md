@@ -42,21 +42,26 @@ Les ressources fondamentales sont certes moins cruciales que les primordiales ma
 
 L’Endurance mesure la hargne et la ténacité générale d’un personnage.
 
-- L'endurance est réduite lorsque des dégâts temporaires physiques ou mentaux sont subis, ou lorsqu’elle est utilisée pour d’autres propriétés.
-- À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » : Ses défenses passives chutes (elles passent de 15 + mATT à 10 + mATT).
-- L'endurance peut être négative. Si l’endurance atteint dans le négatif sa valeur maximale actuelle, le personnage est KO. L'endurance dépend de l’équilibre.
-- L’endurance n’existe pas en dehors des confrontations, même si ces lors de ces dernières que son usage brille, et dure le temps d’une scène. C’est à la discrétion du MJ. Ainsi un repos court (c’est-à-dire un temps durant lequel aucun stress ni aucune activité dangereuse n’interviens), suffit à récupérer l’ensemble de son endurance.
+- L’endurance absorbe tous les types de dégâts au prorata de **1 pour 1**.
+- L’endurance ne peut devenir négative que par l’**attrition** d’une attaque — les dégâts normaux ne font jamais passer l’endurance sous 0.
+- À tout moment si l’Endurance du personnage atteint une valeur égale ou inférieure à 0 ce dernier est « choqué » : Ses défenses passives chutent (elles passent de 15 + mATT à 10 + mATT).
+- Si l’endurance atteint dans le négatif sa propre valeur maximale actuelle, le personnage est KO.
+- L’endurance n’existe qu’en confrontation et dure le temps d’une scène. Un repos court suffit à la récupérer intégralement.
 
-- Endurance = Équilibre x 2.
+- Endurance = Équilibre × 2.
+
+**Les Points d’Armure (PA)**
+
+Les Points d’Armure représentent la protection offerte par l’armure et la garde du personnage. Ils absorbent les dégâts du type correspondant au prorata de **1 pour 1** et ne peuvent jamais devenir négatifs.
+
+- Les **PA physiques** sont issus de l’absorption physique (armure portée).
+- Les **PA mentaux** sont issus de l’absorption mentale (résolution, détermination).
+- Au **début de chaque tour** (au moment du tirage d’initiative), tous les protagonistes récupèrent intégralement leurs PA à hauteur de leur absorption totale.
 
 !!! info "Rappel"
     L’endurance permet, en situation de confrontation, de :
 
     - Obtenir +1 à un test de confrontation en dépensant 4 d’endurance, maximum équivalant au niveau de compétence, choix à effectuer avant le test.
-
-    - Encaisser les dégâts temporaires à hauteur maximale équivalant à l’absorption du personnage (au moins sur la zone touchée). S’il reste de l’absorption après la conversion des dégâts en dégâts temporaires alors l’excédent réduit ces derniers.
-
-    - Dépenser de l’endurance pour encaisser les dégâts n’est possible que si le personnage n’est pas choqué et qu’il peut deviner d’où l’attaque vient (il n’est pas pris au dépourvu etc). Par exemple : Un piège qui a été repéré peux être encaissé de la sorte mais ce n’est donc pas le cas s’il n’a pas été repéré au préalable. Une attaque de dos menée par un adversaire dont la position est connue peut être encaissée mais ce n’est donc pas le cas si la présence ou la position de l’attaquant n'est pas connue.
 
 #### Le Karma
 
@@ -102,6 +107,7 @@ Toutes les ressources fondamentales peuvent être acquises sous forme temporaire
 Il existe également des ressources temporaires associées à des actions spéciales (voir les règles associées dans les annexes idoines) :
 
 - Le Moral est une ressource temporaire acquise en début de confrontation (voir chapitre 8 pour sa définition et son calcul).
+- Les Points d’Armure (PA) physiques et mentaux sont des ressources temporaires générées par l’absorption, régénérées intégralement à chaque début de tour.
 - La Garde est une ressource temporaire issue de l’extension des confrontations.
 - La Rage est une ressource temporaire issue de l’extension des confrontations.
 - L’Adrénaline est une ressource temporaire issue de l’extension des confrontations.
@@ -128,75 +134,55 @@ Exemples :
 
 ### Les Lésions
 
-Lorsqu’un personnage subit une attaque dont il ne se défend pas ou qui lui inflige des dégâts dont la conséquence est une perte de ressource primordiale (Vitalité, Mentale) cela provoque des lésions. Ces dernières peuvent pénaliser le personnage durablement et son particulièrement difficile à rétablir.
+Lorsqu’un personnage subit des dégâts permanents (Vitalité ou Spiritualité) cela provoque une lésion. Ces dernières pénalisent le personnage durablement et sont particulièrement difficiles à rétablir.
 
 Il existe deux grandes formes de lésion :
 
-- Les Blessures, pour ce qui est du corps.
-- Les Traumatismes, pour ce qui est de l’esprit.
+- Les **Blessures**, pour ce qui est du corps.
+- Les **Traumatismes**, pour ce qui est de l’esprit.
 
-Le Niveau de gravité d’une lésion dépend de la partie enregistrée et d’un Seuil de Lésion (la formule étant Dégâts / Seuil). Le seuil est différent pour les blessures ou les traumatismes, l’un basé sur la Stature et l’autre l’Ego. Le niveau de gravité (qui peut être de 0) mesure les pénalités encourues.
+#### Gravité d’une Lésion
 
-On note plusieurs niveaux de gravité :
+La gravité d’une lésion est calculée ainsi :
 
-- 0 pour les lésions bénignes.
-- 1 pour les lésions légères.
-- 2 pour les lésions importantes.
-- 3 pour les lésions graves.
-- 4 pour les lésions mortelles.
-- 5 pour les lésions incapacitantes.
+**Gravité = dégâts permanents subis + Précision de l’attaquant**
 
-Toutes les lésions sont indépendantes les unes des autres et doivent être considérées/soignées une à une. À tout moment le personnage subit les pénalités de blessures et les pénalités de traumatismes les plus élevés des deux types.
+La Précision correspond au modificateur de DEX de l’attaquant pour les blessures, et à son attribut mental analogue pour les traumatismes. Les bonus d’aggravation s’ajoutent directement à cette valeur. Des dégâts permanents nuls provoquent une lésion de gravité 0.
 
-Un personnage ne peut recevoir qu’un certain nombre de lésions d’un même niveau, si ce nombre est déjà atteint alors la lésion voit son niveau augmenté.
+La gravité d’une lésion constitue sa **pénalité** aux tests du type correspondant.
 
-Une personne qui subit une lésion devient instable : À chaque tour de combat, ou à chaque scènes en dehors des confrontations, son état empire et il reçoit une lésion de niveau le plus bas qu’il peut encore encaisser. Tant qu’il n’est pas stable, le personnage ne récupère pas son endurance, même à la fin d’une scène.
+#### Accumulation et Pénalités
 
-Un personnage peut être stabilisé temporairement via un test de premiers soins, cette stabilité évite seulement à l’état du personnage d’empirer avec le temps et permet à l’endurance d’être récupérée. Si un personnage reçoit un choc ou ne se ménage pas alors cette stabilisation temporaire peut prendre fin, à la discrétion du MJ (qui peut se reposer sur un test de sauvegarde ou autre pour trancher).
+Un personnage peut accumuler un nombre illimité de lésions. La pénalité active est la suivante :
 
-Un personnage peut être stabilisé de façon permanente via un test de médecine, cette stabilité permet au personnage de récupérer de ses lésions et éviter que son état empire.
+- Pour les **blessures** : seule la lésion de gravité la plus élevée s’applique aux tests physiques.
+- Pour les **traumatismes** : seule la lésion de gravité la plus élevée s’applique aux tests mentaux.
+- Les pénalités **physiques, mentales, de fatigue et de corruption** se cumulent entre elles.
 
-A chaque récupération (repos long) le personnage voit ses lésions réduite de un palier par tranche de 5 (s’il est stabilisé), cette récupération se fait en équilibrant les lésions (donc en s’appliquant à mesure et toujours sur la plus élevées).
+#### Récupération
 
-Si le personnage fait l’objet de soins d’une lésion alors les soins suivent ce même principe (attention car la difficulté de l’acte dépend de la gravité de la lésion la plus élevée). Un même praticien peut tenter un geste de soin par patient et par jour, il peut réaliser son test et choisir la lésion à soigner selon le résultat obtenu.
+Les lésions se récupèrent lors d’un **repos long**, en commençant par les plus sévères, de façon proportionnelle et uniforme :
 
-S’il n’arrive pas à soigner de lésion alors il devra retenter le lendemain mais ne pourra faire guère plus le jour même.
+- **Blessures** : récupération liée au regain de PV.
+- **Traumatismes** : récupération liée au regain de PS.
 
-| Lésion | Difficulté | Cases |
-| --- | --- | --- |
-| Lésion bénigne (0) | 10 | □ □ □ + □ x mATT |
-| Lésion légère (1) | 12 | □ □ |
-| Lésion importante (2) | 14 | □ □ |
-| Lésion grave (3) | 16 | □ □ |
-| Lésion mortelle (4) | 18 | □ □ |
-| Lésion incapacitante (5) | 20 | □ □ |
-
-La difficulté de stabilisation/soin augmente de 1 par lésions, aussi soigner une lésion grave en ayant une bénigne et une légère en plus revêt d’une difficulté 18. Il peut donc, selon la maîtrise du soigneur, plus intéressant de commencer par soigner les lésions les plus basses.
-
-mATT ci-dessus correspond à mSTA (modificateur stature) pour les blessures (lésions physiques) et à mEGO (modificateur d’égo) pour les traumatismes (lésions mentales).
-
-Si le maximum de lésions incapacitantes physiques est atteint, le personnage meurt. Si le maximum de lésions incapacitantes mentales est atteint, le personnage est vaincu : résigné ou abattu, il est incapable d'agir activement sur un conflit ou une situation.
+Un même praticien peut tenter un geste de soin par patient et par jour. La difficulté dépend de la gravité de la lésion la plus sévère, augmentée de 1 par lésion supplémentaire.
 
 #### Les Blessures
 
 Les Blessures sont issues des agressions physiques encaissées par le corps du personnage.
 
-- On dénote, dans l’ordre de niveau de gravité : Blessure Bénigne (0), Blessure Légère (1), Blessure Important (2), Blessure Grave (3), Blessure Mortelle (4), Blessure Incapacitante (5).
 - La blessure incapacitante met le personnage hors d’état sur le plan physique, il ne peut plus rien faire/rien tenter ou se déplacer.
-- Les Pénalités de Blessures sont appliquées aux tests.
-- Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine du corps), voir plus haut.
-
-- Seuil de Blessure = 5 + modificateur de Stature + protection de l’armure (catégorie).
+- Les pénalités de blessures sont appliquées aux tests physiques.
+- Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine du corps).
 
 #### Les Traumatismes
 
 Les Traumatismes sont issus des agressions mentales encaissées par le personnage.
 
-- On dénote, dans l’ordre de gravité : Trauma Bénin (0), Trauma Légère (1), Trauma Important (2), Trauma Grave (3) et Trauma Mortel (4), Trauma Incapacitant (5).
-- Les Pénalités de Traumas sont appliquées aux tests.
+- Le traumatisme incapacitant met le personnage hors d’état sur le plan mental : résigné ou abattu, il est incapable d’agir activement sur un conflit ou une situation.
+- Les pénalités de traumatismes sont appliquées aux tests mentaux.
 - Afin de grandement accélérer le processus de soin, ces lésions peuvent recevoir des soins (médecine de l’esprit).
-
-- Seuil de Traumatisme = 5 + modificateur d'Ego + protection dû à la résolution (catégorie).
 
 ### Les autres forme de tension
 
@@ -415,15 +401,9 @@ A tout moment un personnage peut dépenser des PV (vitalité) afin d’obtenir u
 
 #### Les Seuils de Lésions
 
-Les Seuils de Lésions mesurent la capacité du personnage à supporter les contre coups d’une agression.
+Les seuils de lésions ne sont plus utilisés pour le calcul de la gravité. Celle-ci est désormais déterminée directement à partir des dégâts permanents subis et de la Précision de l’attaquant (voir la section Les Lésions ci-avant).
 
-- Le Seuil de Blessure permet ainsi de définir la tolérance face aux dégâts physiques afin d’éviter les blessures (lésions physiques). Elle est définie par la Stature.
-- Le Seuil de Traumatisme permet ainsi de définir la tolérance face aux dégâts mentaux afin d’éviter les traumatismes (lésions physiques). Elle est définie par l'apparence.
-
-- Seuil de Blessure = 5 + modificateur de Stature.
-- Seuil de Traumatisme = 5 + modificateur d’Ego.
-
-Le seuil de blessure est modifié par la protection du personnage (issus de l’armure notamment) et la précision de son adversaire (qui ne peut réduire que la partie associée à la protection). Même chose pour les traumatismes mais la protection (issus de la résolution) et la précision sont d’ordre mental.
+La protection naturelle (Stature pour les blessures, Ego pour les traumatismes) contribue désormais à l’absorption physique ou mentale du personnage, réduisant ainsi les dégâts avant que la lésion ne soit calculée.
 
 #### La Résilience
 

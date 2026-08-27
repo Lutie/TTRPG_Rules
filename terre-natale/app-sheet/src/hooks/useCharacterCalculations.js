@@ -88,9 +88,10 @@ export const calculerAptitude = (character) => {
     if (groupe.id === 'ambidextrie') {
       groupeAttrs = ['DEX'];
     } else {
-      // Attrs fixes des compétences du groupe
+      // Attrs fixes des compétences du groupe (attributs primaires + secondaires "peut se lier à")
       const fixed = [...new Set(
-        sourceComps.filter(c => c.groupe === groupe.id && !c.attrVariable).flatMap(c => c.attributs)
+        sourceComps.filter(c => c.groupe === groupe.id && !c.attrVariable)
+          .flatMap(c => [...(c.attributs || []), ...(c.secondaires || [])])
       )];
       // Pour les comps attrVariable, l'attribut est choisi par le joueur (défaut : 'FOR')
       const variable = sourceComps
@@ -119,7 +120,7 @@ export const calculerAptitude = (character) => {
             // attrVariable ou limitant sans attr fixe : utilise l'attribut choisi stocké
             const compAttrs = ((comp.attrVariable || comp.limitant) && comp.attributs.length === 0)
               ? [charCompetences.attributsChoisis?.[_compKey(comp)] ?? (comp.attrVariable ? 'FOR' : null)].filter(Boolean)
-              : comp.attributs;
+              : [...(comp.attributs || []), ...(comp.secondaires || [])];
             if (compAttrs.some(a => attrsCaste.includes(a))) {
               aptitude += charCompetences.competences?.[_compKey(comp)] || 0;
             }

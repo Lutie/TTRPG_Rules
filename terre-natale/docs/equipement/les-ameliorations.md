@@ -7,6 +7,7 @@
 | Léger | 1 / - | 5 🪙 | Réduit le Poids de l’objet de 1. | Tout |
 | Encombrement | 1 / max 2 | 3 🪙 | Réduit l’Encombrement de l’objet de 1. Minimum ½. Maximum 2 fois. | Tout |
 | Solidité | 1 / - | 5 🪙 | Augmente la Solidité de l’objet de 1. | Tout |
+| Entretenu | 1 / - | 8 🪙 | La difficulté des tests de réparation sur cet objet est réduite de 2. Le coût des réparations est réduit de 10%. | Tout |
 | Fiabilité | 1 / - | 4 🪙 | Augmente l’Adresse (réduction de la marge d’échec pour échec critique) via l’équipement de 2 lors de l’usage de l’objet. | Tout |
 | Perfection | 1 / - | 6 🪙 | Augmente la Criticité (marge de réussite pour réussite critique) de 1 lors de l’usage de l’objet. | Tout |
 | Raffiné | 1 / - | 10% 🪙 | Augmente la Valeurs de l’objet de 25%. | Tout |
