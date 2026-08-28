@@ -251,7 +251,6 @@ function computePresetStr(preset, field) {
           return `${label} : ${w.description}${modif}`;
         });
       if (preset.notes?.trim()) lines.push(preset.notes.trim());
-      console.log('[DEBUG effets]', preset.title, 'words:', preset.words?.length, 'lines:', lines.length, lines[0]?.slice(0,40));
       return lines.join('\n');
     }
     default: return '';
@@ -340,7 +339,6 @@ function SortModal({ initialValues, onSave, onClose }) {
   const handlePresetChange = (e) => {
     const id = parseInt(e.target.value) || null;
     const newPreset = id ? ALL_SPELLS.find(s => s.id === id) : null;
-    console.log('[DEBUG preset]', 'id:', id, 'found:', !!newPreset, 'total spells:', ALL_SPELLS.length, 'words:', newPreset?.words?.length);
     setPresetId(id);
     setOverrides({});
     if (newPreset) setNom(newPreset.title || '');
