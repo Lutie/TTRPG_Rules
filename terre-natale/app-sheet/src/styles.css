@@ -487,6 +487,18 @@ header h1 {
   border-color: var(--color-accent);
 }
 
+.attr-computed {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  font-size: 0.9rem;
+  font-family: var(--font-body);
+  text-align: center;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
 .compact-bonus {
   font-size: 0.8rem;
   color: var(--color-text-light);

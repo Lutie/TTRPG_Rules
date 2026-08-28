@@ -12,6 +12,8 @@
 
 **Ténacité** *(mixte)* : Modifie le seuil de réussite critique adverse (de base celui-ci est de 10). Un bonus augmente le seuil, de sorte qu’il soit plus difficile pour un adversaire d’obtenir une réussite critique sur soi.
 
+**Résistance** *(modificateur générique)* : Terme qui s’emploie toujours accompagné d’un complément précisant soit le **scope** (physique, mentale, magique, nerf, corruption, fatigue…), soit le **sujet** (attrition, perforation, pénétration…). Une résistance réduit la valeur correspondante subie par le personnage. Exemples : *résistance physique* réduit les dégâts physiques reçus ; *résistance à l’attrition* réduit l’attrition subie ; *résistance à la perforation* réduit la perforation adverse.
+
 **Visée** *(physique ou mentale)* : Réduit les pénalités lors des tentatives de localisation (règle avancée de confrontation, voir chapitre 8) — en priorité les pénalités de couverture et malus de visibilité, puis la difficulté accrue liée à la localisation. Ces deux effets ne s'appliquent pas simultanément.
 
 **Précision** *(physique ou mentale)* : Permet d’ignorer une partie de la protection de la cible. La précision ne peut cependant pas réduire la protection en deçà de 10.

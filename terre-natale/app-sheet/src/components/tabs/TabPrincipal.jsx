@@ -355,8 +355,9 @@ function TabPrincipal() {
       <Section title="Ressources">
         <div className="ressources-grid">
           {DATA.ressources.filter(res => {
-            if (res.type === 'tradition') return !!character.options?.magieActive;
-            if (res.type === 'science')   return !!character.options?.scienceActive;
+            const inCaste = calc.caste?.ressources?.includes(res.id);
+            if (res.type === 'tradition') return !!character.options?.magieActive || inCaste;
+            if (res.type === 'science')   return !!character.options?.scienceActive || inCaste;
             return true;
           }).map(res => {
             const max = calc.ressourcesMax[res.id] || 0;

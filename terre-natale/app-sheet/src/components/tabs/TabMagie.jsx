@@ -260,8 +260,10 @@ function computePresetStr(preset, field) {
 // Valeur effective d'un champ : override manuel > preset live > valeur stockée (compat).
 function getEffectiveSortValue(sort, field) {
   if (sort.overrides?.[field] !== undefined) return sort.overrides[field];
-  if (sort.presetId) {
-    const preset = ALL_SPELLS.find(s => s.id === sort.presetId);
+  if (sort.presetId || sort.nom) {
+    // Cherche par presetId d'abord, puis par titre si l'ID est périmé (pipeline re-run)
+    const preset = (sort.presetId && ALL_SPELLS.find(s => s.id === sort.presetId))
+      || (sort.nom && ALL_SPELLS.find(s => s.title.toLowerCase() === sort.nom.toLowerCase()));
     if (preset) return computePresetStr(preset, field);
   }
   return sort[field] ?? '';
@@ -272,10 +274,36 @@ function getEffectiveSortValue(sort, field) {
 function SortModal({ initialValues, onSave, onClose }) {
   const isEdit = !!initialValues;
 
+  // Pour les anciens sorts sans presetId, on tente de retrouver le preset par titre
+  const detectedPresetId = (() => {
+    if (initialValues?.presetId) return initialValues.presetId;
+    if (!initialValues?.nom) return null;
+    const found = ALL_SPELLS.find(s => s.title.toLowerCase() === initialValues.nom.toLowerCase());
+    return found?.id ?? null;
+  })();
+
   const [nom, setNom] = useState(initialValues?.nom || '');
-  const [presetId, setPresetId] = useState(initialValues?.presetId ?? null);
-  // overrides : champs modifiés manuellement (absent = suit le preset ou valeur initiale)
-  const [overrides, setOverrides] = useState(initialValues?.overrides || {});
+  const [presetId, setPresetId] = useState(detectedPresetId);
+
+  // Pour les anciens sorts (format direct sans overrides), migrer les valeurs
+  // qui diffèrent du preset en overrides, pour préserver les éventuelles customisations.
+  const [overrides, setOverrides] = useState(() => {
+    if (initialValues?.overrides) return initialValues.overrides;
+    if (!initialValues?.presetId && detectedPresetId && initialValues) {
+      const detectedPreset = ALL_SPELLS.find(s => s.id === detectedPresetId);
+      if (!detectedPreset) return {};
+      const o = {};
+      for (const field of ['description', 'effets', 'difficulte', 'drain', 'ecole', 'domaines']) {
+        const stored = initialValues[field];
+        const fromPreset = computePresetStr(detectedPreset, field);
+        if (stored !== undefined && stored !== '' && stored !== fromPreset) {
+          o[field] = stored;
+        }
+      }
+      return o;
+    }
+    return {};
+  });
 
   const preset = presetId ? ALL_SPELLS.find(s => s.id === presetId) : null;
 

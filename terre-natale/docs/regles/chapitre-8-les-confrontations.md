@@ -657,7 +657,7 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
 
 !!! note "Note"
     - **Attrition.** Ce bonus augmente les dégâts temporaires infligés par le personnage.
-    - **Résilience.** Ce bonus, aussi appelé résistance à l’attrition, réduit les dégâts temporaires reçus par le personnage.
+    - **Résistance à l’attrition.** Réduit les dégâts temporaires (attrition) reçus par le personnage.
     - **Perforation.** Ce bonus réduit l’absorption des cibles du personnage.
     - **Pénétration.** Si l’attaque n’est pas défendue alors la pénétration augmente directement les dégâts permanents.
     - **Protection.** Ce bonus augmente l'absorption physique ou mentale du personnage, et donc ses PA disponibles.

@@ -81,23 +81,42 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
   const formatBonus = (val) => val > 0 ? `+${val}` : (val < 0 ? `${val}` : '0');
   const bonusClass = (val) => val > 0 ? 'positive' : (val < 0 ? 'negative' : '');
 
+  const isComputedBase = attr.id === 'EQU';
+  const displayBase = isComputedBase ? getBaseEquilibre(character) : attrData.base;
+
   // Compact mode for secondary attributes
   if (compact) {
     return (
       <div className="attr-compact" title={attr.description}>
         <span className="compact-name">{attr.nom}</span>
-        <input
-          type="number"
-          className="attr-input-compact"
-          value={attrData.base}
-          onChange={e => handleChange(e.target.value)}
-          onBlur={e => handleBlur(e.target.value)}
-          min={min}
-          max={max}
-        />
+        {isComputedBase ? (
+          <span className="attr-input-compact attr-computed" title="Calculé depuis les attributs principaux">
+            {displayBase}
+          </span>
+        ) : (
+          <input
+            type="number"
+            className="attr-input-compact"
+            value={attrData.base}
+            onChange={e => handleChange(e.target.value)}
+            onBlur={e => handleBlur(e.target.value)}
+            min={min}
+            max={max}
+          />
+        )}
+        {totalOrigine !== 0 && (
+          <span className={`compact-naissance ${bonusClass(totalOrigine)}`} title="Ethnie + Origines">
+            {formatBonus(totalOrigine)}
+          </span>
+        )}
         {hasNaissance && bonusNaissance !== 0 && (
           <span className={`compact-naissance ${bonusClass(bonusNaissance)}`} title="Naissance">
             {formatBonus(bonusNaissance)}
+          </span>
+        )}
+        {bonusCaste !== 0 && (
+          <span className={`compact-naissance ${bonusClass(bonusCaste)}`} title="Caste">
+            {formatBonus(bonusCaste)}
           </span>
         )}
         {bonusConfig !== 0 && (

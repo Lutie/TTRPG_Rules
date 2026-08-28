@@ -111,14 +111,14 @@ const BONUS_GROUPS = [
     ]
   },
   {
-    groupe: 'Résiliences',
+    groupe: 'Rés. à l\'Attrition',
     types: [
-      { id: 'resiliencePhysique', nom: 'Résil. Physique' },
-      { id: 'resilienceMentale', nom: 'Résil. Mentale' },
-      { id: 'resilienceMagique', nom: 'Résil. Magique' },
-      { id: 'resilienceNerf', nom: 'Résil. Nerf' },
-      { id: 'resilienceCorruption', nom: 'Résil. Corruption' },
-      { id: 'resilienceFatigue', nom: 'Résil. Fatigue' },
+      { id: 'resistanceAttritionPhys', nom: 'Physique' },
+      { id: 'resistanceAttritionMent', nom: 'Mentale' },
+      { id: 'resistanceAttritionMag',  nom: 'Magique' },
+      { id: 'resistanceAttritionNerf', nom: 'Nerf' },
+      { id: 'resistanceAttritionCorr', nom: 'Corruption' },
+      { id: 'resistanceAttritionFat',  nom: 'Fatigue' },
     ]
   },
   {

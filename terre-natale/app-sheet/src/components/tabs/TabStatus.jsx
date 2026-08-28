@@ -900,8 +900,10 @@ function TabStatus() {
         </p>
         <div className="status-ressources-grid">
           {DATA.ressources.filter(res => {
-            if (res.type === 'tradition') return !!character.options?.magieActive;
-            if (res.type === 'science')   return !!character.options?.scienceActive;
+            const casteData = DATA.castes.find(c => c.id === character.caste?.id);
+            const inCaste = casteData?.ressources?.includes(res.id);
+            if (res.type === 'tradition') return !!character.options?.magieActive || inCaste;
+            if (res.type === 'science')   return !!character.options?.scienceActive || inCaste;
             return true;
           }).map(res => {
             const ressource = character.ressources[res.id] || { actuel: 0, max: 0, temporaire: 0 };
@@ -1205,8 +1207,8 @@ function TabStatus() {
         <SubirDegatsModal
           resistanceTotale={resistanceTotale}
           resistanceMentale={resistanceMentale}
-          resiliencePhys={bonus.resiliencePhysique || 0}
-          resilienceMent={bonus.resilienceMentale || 0}
+          resiliencePhys={bonus.resistanceAttritionPhys || 0}
+          resilienceMent={bonus.resistanceAttritionMent || 0}
           equilibre={calc.getAttr('EQU')}
           protPhys={calc.protPhys}
           protMent={calc.protMent}
