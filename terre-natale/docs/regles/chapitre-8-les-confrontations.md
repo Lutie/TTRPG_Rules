@@ -710,19 +710,7 @@ Si l’attaque n’est pas localisée alors les dégâts permanents entraînent 
 
 #### Création d’une Lésion
 
-Une lésion est infligée dès que la cible perd au moins 1 PV (ou 1 PS pour les traumatismes) suite à une attaque.
-
-La **gravité** brute de la lésion est calculée ainsi :
-
-**Gravité = PV perdus + Aggravation + Catégorie de l’arme**
-
-L’Aggravation correspond au modificateur de DEX de l’attaquant (pour les blessures) ou à l’attribut mental analogue (pour les traumatismes).
-
-Le **niveau de gravité** effectif, qui constitue la pénalité de la lésion, est ensuite obtenu ainsi :
-
-**Niveau de gravité = Gravité / Protection** *(arrondi vers le bas, minimum 0)*
-
-La **Précision** réduit la protection effective de la cible du montant de sa valeur, sans jamais la faire descendre en deçà de 5. Les armes de mêlée confèrent une précision égale au modificateur de PER de l’attaquant. Une gravité brute de 0 provoque une lésion de niveau 0.
+Les règles complètes de calcul des lésions (gravité, niveau de gravité, protection, précision) sont définies dans le chapitre 4 — Les Caractéristiques, section *Les Lésions*.
 
 #### Aggravation d’une Lésion
 
