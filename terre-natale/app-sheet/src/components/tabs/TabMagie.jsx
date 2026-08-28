@@ -340,6 +340,7 @@ function SortModal({ initialValues, onSave, onClose }) {
   const handlePresetChange = (e) => {
     const id = parseInt(e.target.value) || null;
     const newPreset = id ? ALL_SPELLS.find(s => s.id === id) : null;
+    console.log('[DEBUG preset]', 'id:', id, 'found:', !!newPreset, 'total spells:', ALL_SPELLS.length, 'words:', newPreset?.words?.length);
     setPresetId(id);
     setOverrides({});
     if (newPreset) setNom(newPreset.title || '');
