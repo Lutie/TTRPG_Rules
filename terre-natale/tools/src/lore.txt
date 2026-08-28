@@ -1,0 +1,192 @@
+Les combattants se retrouvent partout où la violence doit être contenue, employée ou simplement anticipée : milices, armées, escortes, arènes, bandes armées et protections privées.
+Les aventuriers occupent souvent les marges utiles de la société, là où les communautés ont besoin de gens capables de partir, négocier avec l'imprévu et revenir avec une solution.
+Les connétables vivent dans les tribunaux, marchés, salons, tavernes, assemblées et scènes publiques, partout où la parole peut déplacer plus de choses qu'une lame.
+Les spécialistes sont recherchés par les ateliers, académies, guildes, temples, mécènes ou autorités locales qui ont besoin d'un savoir rare sans toujours comprendre comment il fonctionne.
+Les ascètes se tiennent souvent à distance des structures ordinaires, dans des monastères, écoles, ermitages ou traditions personnelles, avant de revenir vers le monde pour éprouver leur discipline.
+Les guerriers forment l'ossature des forces armées sérieuses, des compagnies d'élite et des maisons capables d'entretenir une vraie culture martiale.
+Les barbares vivent souvent aux frontières du monde policé, dans des clans, bandes, cultes martiaux ou traditions guerrières où la force et l'épreuve tiennent lieu de langage social.
+Les gardiens servent dans les lieux qu'il faut tenir coûte que coûte : portes de cité, sanctuaires, caravanes, maisons nobles, prisons, murs de boucliers et derniers refuges.
+Les moines vivent généralement de longues années dans un ordre, un dojo, un cloître ou une tradition recluse, puis s'ouvrent au monde par quête spirituelle, mission sacrée ou recherche de compréhension.
+Les voleurs prospèrent dans les interstices de la société : bas-fonds, routes marchandes, cours corrompues, guildes discrètes et lieux où les biens changent de main plus vite que les lois ne suivent.
+Les scouts sont employés comme éclaireurs, pisteurs, patrouilleurs, guides ou francs-tireurs, surtout là où voir venir le danger compte autant que savoir le combattre.
+Les magistrats appartiennent aux institutions qui donnent forme à l'autorité : tribunaux, chancelleries, ordres savants, administrations, cours seigneuriales ou conseils de cité.
+Les rhapsodes passent souvent d'un milieu à l'autre pour s'y faire une place, y exercer leur influence, puis repartir satisfaits de l'impact laissé et des liens tissés.
+Les bardes circulent entre cours, tavernes, compagnies, temples et champs de bataille, conservant la mémoire des groupes et donnant aux événements une forme que les autres peuvent reprendre.
+Les paladins sont liés à des ordres, serments, temples ou causes militantes, et servent souvent de bras armé à une morale qui prétend dépasser les intérêts ordinaires.
+Les ménestrels trouvent leur place auprès des troupes, cours, cercles ésotériques ou mécènes qui reconnaissent dans l'art un moyen réel d'altérer le monde.
+Les ensorceleurs vivent souvent à la périphérie des institutions magiques, tolérés pour leur efficacité, recherchés pour leur audace et surveillés pour leur manière personnelle de plier les règles.
+Les magiciens œuvrent pour une cour, une académie, une haute instance ou une communauté qui les paie pour résoudre des problèmes que seul un savoir méthodique peut traiter.
+Les sorciers occupent une place plus ambiguë, entre pactes privés, lignées discrètes, pratiques interdites ou services occultes que les puissants réclament sans toujours vouloir les assumer.
+Les prêtres sont ancrés dans les temples, cultes, sanctuaires et communautés de foi, où ils servent d'intermédiaires entre les besoins ordinaires des fidèles et les exigences du sacré.
+Les fines lames gravitent autour des écoles d'escrime, duellistes, compagnies nobles et cercles où la technique martiale est une marque de distinction.
+Les maîtres d'arme servent comme instructeurs, champions de maison, gardes d'élite ou références martiales auprès de ceux qui peuvent payer une vraie formation.
+Les vétérans occupent souvent les garnisons, compagnies franches et conseils militaires, où leur expérience vaut autant que leur bras.
+Les légionnaires appartiennent aux armées structurées, phalanges urbaines ou compagnies disciplinées qui attendent d'eux cohésion et endurance.
+Les gladiateurs vivent des arènes, fosses, fêtes publiques et combats de prestige, là où le peuple transforme la violence en réputation.
+Les spartiates émergent de sociétés ou ordres militaires austères qui valorisent l'épreuve physique, la discipline et la honte de céder.
+Les samouraïs servent des seigneurs, clans ou traditions d'honneur où la place sociale dépend autant du code que de la compétence.
+Les ronins vivent sur les routes, dans les marges des clans ou au service temporaire de causes qui respectent leur indépendance.
+Les épéistes fréquentent académies, gardes privées et milieux urbains où l'épée demeure un signe de statut autant qu'une arme.
+Les berruriers sont prisés dans les gardes, formations défensives et escortes qui ont besoin de tenir plutôt que de briller.
+Les lanciers servent dans les milices, chasses dangereuses, rangs militaires et postes où contrôler l'approche est essentiel.
+Les bourreaux sont recherchés par les troupes de choc, exécuteurs, briseurs de ligne et métiers où la force doit être visible.
+Les brutes se retrouvent dans les bandes, milices rudes et corps de métier violents où l'impact vaut parfois mieux que la finesse.
+Les archers servent les patrouilles, chasseurs, milices rurales et éclaireurs qui doivent rester mobiles et peu coûteux.
+Les francs archers sont associés aux armées, compagnies spécialisées et communautés capables d'entretenir des tireurs puissants.
+Les arbalétriers défendent remparts, caravanes, navires et formations où un tir préparé peut arrêter un adversaire supérieur.
+Les malandrins circulent dans les bas-fonds, troupes irrégulières et foires d'armes où l'étrangeté attire autant qu'elle inquiète.
+Les javeliniers appartiennent aux groupes mobiles, chasseurs de monstres et escarmoucheurs qui frappent avant le contact.
+Les tireurs d'élite servent les armées modernes, gardes spécialisées et commanditaires qui veulent une cible supprimée proprement.
+Les pistoleros hantent les rues tendues, frontières, salles de jeu et milieux où la vitesse d'une main peut imposer le respect.
+Les gunslingers sont des figures de frontière, d'arène ou de duel spectaculaire, souvent admirées autant que jugées imprudentes.
+Les snipers vivent dans les unités spécialisées, guerres de position et contrats où l'anonymat du tir vaut plus que la gloire.
+Les tirailleurs accompagnent armées, bandes rapides et éclaireurs en harcelant l'ennemi loin des lignes confortables.
+Les escrimeurs fréquentent écoles de style, compagnies flamboyantes et milieux où le duel à deux armes marque l'audace.
+Les ninjas appartiennent aux clans secrets, services clandestins et traditions d'espionnage où l'absence vaut identité.
+Les adeptes du ninjutsu servent souvent de saboteurs, éclaireurs occultes ou agents d'infiltration pour des maîtres discrets.
+Les tenchu sont liés aux justices secrètes, ordres d'exécution et causes qui préfèrent la disparition au procès.
+Les gardes du corps vivent auprès des puissants, caravanes riches, diplomates, artistes ou figures que leur mort rendrait trop coûteuse.
+Les maraudeurs se retrouvent dans les bandes de guerre, pillards et chasseurs de primes qui prospèrent après le premier sang.
+Les brigands occupent routes, faubourgs et zones mal contrôlées où le nombre et l'initiative remplacent la loi.
+Les soldats forment la base fiable des armées, compagnies mercenaires et garnisons qui valorisent l'ordre exécuté.
+Les veilleurs défendent quartiers, villages, guildes ou communautés populaires qui n'ont pas toujours accès aux protections nobles.
+Les assassins travaillent pour guildes, cours, factions et rancunes privées qui préfèrent payer une fin plutôt que mener une guerre.
+Les francs tireurs sont recrutés par compagnies spécialisées, résistances locales ou armées qui ont besoin d'un tireur autonome.
+Les artilleurs servent les unités de choc, navires, défenses urbaines et troupes équipées d'armes lourdes ou explosives.
+Les rôdeurs vivent entre villages, forêts, routes et frontières, souvent employés pour régler les problèmes qui changent de distance.
+Les fiers-à-bras occupent tavernes, troupes, scènes de rue et milieux d'aventuriers où le panache peut ouvrir autant de portes qu'une recommandation.
+Les aigrefins prospèrent dans les cours, bandes, salles de jeu et conflits où comprendre la faiblesse d'autrui devient une monnaie.
+Les chasseurs servent villages, nobles, temples ou guildes dès qu'une proie précise menace l'ordre ou la réputation.
+Les shérifs sont des représentants locaux de la loi, attachés aux villes, frontières ou communautés qui ont besoin d'autorité visible.
+Les chevaliers tiennent leur place dans la noblesse, les ordres, les cours et les armées où l'honneur sert de langage politique.
+Les champions apparaissent auprès des peuples menacés, causes perdues et chefs qui ont besoin d'une figure capable de rallier.
+Les archontes occupent les hiérarchies religieuses, ordres dogmatiques et conseils moraux où juger fait partie du pouvoir.
+Les duellistes vivent de défis, querelles nobles, écoles d'honneur et conflits où une affaire collective peut se réduire à deux personnes.
+Les bretteurs fréquentent les cours, compagnies urbaines et écoles de lame qui aiment les styles élégants et dangereux.
+Les spadassins accompagnent les milieux de duel, styles de combat et rivalités d'école où comprendre la forme adverse donne du prestige.
+Les phalanges servent remparts, gardes de cité et troupes défensives dont la valeur apparaît quand personne ne doit reculer.
+Les pugilistes viennent des arènes, monastères martiaux, rues dures et traditions où le corps reste l'arme la plus disponible.
+Les guerriers mages sont recherchés par ordres militaires occultes, compagnies d'élite et nobles qui veulent une force hybride rare.
+Les sorceleurs vivent souvent en marge, tolérés quand les monstres rôdent et rejetés dès que leur utilité cesse d'être évidente.
+Les cavaliers appartiennent aux maisons militaires, relais, tribus montées et armées capables d'entretenir des montures de guerre.
+Les cavaliers célestes servent des ordres prestigieux, nations aériennes ou lignées capables de lier pouvoir et créatures volantes.
+Les sentinelles gardent postes, sanctuaires, frontières, prisons et personnes vulnérables dont la survie dépend de leur vigilance.
+Les courtisans habitent salons, cours, ambassades et fêtes politiques où une faveur gagnée peut déplacer des armées.
+Les bâtisseurs travaillent auprès des cités, armées, chantiers, sièges et communautés qui savent qu'une structure décide parfois d'une crise.
+Les myrmidons servent là où la réaction rapide prime : gardes rapprochées, arènes, ordres martiaux et troupes d'élite.
+Les marchegardes tiennent les passages, fronts et espaces disputés où contrôler une zone vaut parfois mieux que tuer.
+Les avocats occupent tribunaux, conseils, assemblées et conflits administratifs où l'interruption bien placée peut renverser un procès.
+Les artisans structurent les guildes, ateliers, villages et compagnies qui dépendent d'objets fiables plus que de promesses.
+Les patriarches et matriarches règnent sur familles, clans, maisons, équipages ou communautés où l'autorité se tisse dans la durée.
+Les nobles siègent dans les cours, domaines, conseils et réseaux d'alliance qui transforment la naissance ou le titre en levier.
+Les tacticiens servent états-majors, compagnies, académies militaires et groupes d'aventuriers assez sages pour écouter avant d'agir.
+Les sages vivent dans bibliothèques, temples, académies ou retraites où leur mémoire devient une ressource publique ou sacrée.
+Les mercenaires suivent les guerres, primes et contrats, appréciés pour leur efficacité mais rarement pour leur loyauté morale.
+Les majordomes et maids appartiennent aux grandes maisons, auberges nobles, services secrets domestiques et cours où tout se voit sans se dire.
+Les pirates vivent de navires, criques, ports corrompus et communautés flottantes qui préfèrent leur propre loi.
+Les larrons fréquentent marchés, bas-fonds, foires et routes commerciales où la légalité se négocie au jour le jour.
+Les roublards prospèrent dans les ruelles, tavernes, gangs et expéditions où une lame courte cachée peut tout changer.
+Les toxicologues travaillent pour apothicaires, assassins, cours paranoïaques ou guildes qui comprennent la valeur d'une goutte.
+Les éclaireurs servent caravanes, armées, villages isolés et groupes d'exploration qui ont besoin d'yeux en avant.
+Les trappeurs vivent près des forêts, montagnes, frontières et domaines sauvages où préparer le terrain sauve des vies.
+Les traqueurs sont employés par chasseurs de primes, autorités, familles vengeresses ou communautés menacées par une cible précise.
+Les intriguants habitent cours, réseaux criminels, ambassades et salons où un mensonge crédible peut devenir carrière.
+Les agitateurs circulent entre foules, révoltes, tavernes et factions qui ont besoin d'enflammer une situation.
+Les marchands tiennent foires, ports, caravanes et maisons de négoce où l'argent crée des routes autant que des dépendances.
+Les rhétoriciens fréquentent académies, assemblées et cercles de débat où la forme du discours vaut presque autant que la vérité.
+Les médiateurs sont appelés par villages, guildes, familles et diplomates quand le conflit coûte plus cher que l'accord.
+Les répurgateurs servent ordres religieux, autorités inquiètes ou foules effrayées qui veulent nommer puis purger la corruption.
+Les artistes vivent de mécènes, places publiques, ateliers et cours où leur oeuvre devient prestige, mémoire ou contestation.
+Les explorateurs travaillent pour académies, royaumes, guildes et mécènes avides de cartes, reliques ou routes nouvelles.
+Les vagabonds occupent routes, campements, ports et marges sociales où survivre sans attache devient une compétence reconnue.
+Les rangers protègent forêts, réserves, frontières naturelles et communautés qui dépendent d'un lien durable avec le vivant.
+Les juges siègent dans les cours, conseils, ordres neutres ou traditions où l'autorité vient de l'équilibre affiché.
+Les justiciers naissent souvent là où la loi échoue, dans les quartiers oubliés, routes dangereuses ou causes trahies.
+Les clercs servent temples, tribunaux religieux, chancelleries sacrées et communautés qui demandent une parole doctrinale ferme.
+Les médecins sont indispensables dans les villes, armées, hospices, expéditions et maisons capables de reconnaître la valeur du soin.
+Les capitaines commandent navires, flottilles, ports francs ou équipages marchands, là où autorité et navigation se confondent.
+Les apothicaires tiennent échoppes, jardins, infirmeries et laboratoires modestes où remède et poison partagent souvent l'étagère.
+Les spagiristes vivent entre herboristerie savante, ateliers d'extraction et cercles qui cherchent la vertu cachée des substances.
+Les croisés appartiennent aux ordres militants, croisades locales et conflits idéologiques où la pureté justifie l'offensive.
+Les templiers défendent temples, pèlerinages, sanctuaires et batailles sacrées en renforçant ceux qui portent leur cause.
+Les templiers noirs servent cultes sombres, ordres interdits ou pouvoirs qui préfèrent vaincre par l'affaiblissement.
+Les paladins noirs gardent des causes condamnées, cultes rejetés ou seigneurs terribles qui ont besoin d'une loyauté sacrée.
+Les maléficien.ne.s vivent dans les marges occultes, cours inquiètes et rancunes privées où une malédiction paraît plus utile qu'une armée.
+Les illusionnistes travaillent dans spectacles, espionnage, magie de cour et escroqueries raffinées où l'apparence gouverne l'action.
+Les sylphides se trouvent dans les cercles magiques subtils, écoles aériennes ou traditions qui valorisent l'élégance arcanique.
+Les divins servent temples, cours pieuses et missions de restauration où la magie doit porter une marque de grâce ou d'ordre.
+Les oracles sont consultés par chefs, familles, pèlerins et armées qui veulent croire que l'avenir peut être interrogé.
+Les élémentalistes oeuvrent pour académies, armées, chantiers et lieux dangereux où les forces naturelles doivent être canalisées.
+Les psychistes vivent parmi les conseillers, mystiques, espions et guérisseurs de l'esprit dont le pouvoir effraie souvent.
+Les diacres servent paroisses, ordres hospitaliers et compagnies pieuses où la protection magique reste un devoir quotidien.
+Les shamanes appartiennent aux tribus, villages, sanctuaires naturels et traditions qui dialoguent avec les forces invisibles du lieu.
+Les druides protègent bois, cercles naturels, communautés rurales et équilibres que les villes comprennent rarement.
+Les nécromanciens travaillent dans les cryptes, académies interdites, champs de bataille ou cours prêtes à tolérer l'intolérable.
+Les mages de sang sont chassés, craints ou employés en secret par ceux qui préfèrent l'efficacité au confort moral.
+Les démonistes gravitent autour de pactes, sectes, nobles corrompus et savoirs interdits dont personne ne veut parler publiquement.
+Les convocateurs servent académies, temples, armées et cercles rituels qui veulent faire venir une force extérieure sous contrôle.
+Les invocateurs vivent au contact de cultes, écoles ou lignées où la relation aux entités appelées devient une identité.
+Les machinistes sont employés par ateliers lourds, manufactures, armées industrielles et guildes qui bâtissent en métal.
+Les nanonistes appartiennent aux laboratoires avancés, ordres secrets et industries de pointe où l'invisible devient outil.
+Les mécaniciens sont partout où les machines cassent : ateliers, routes, navires, usines, champs de bataille et garages improvisés.
+Les pilotes servent compagnies de transport, armées, nobles voyageurs et expéditions dont la réussite dépend d'un véhicule.
+Les techniciens circulent entre ateliers, chantiers, laboratoires et équipes de terrain qui ont besoin d'un opérateur fiable.
+Les architectes travaillent pour cités, complexes industriels et mécènes capables de financer des systèmes ambitieux.
+Les technocrates peuplent administrations industrielles, manufactures steam et cercles politiques convaincus que la technique doit gouverner.
+Les scientifiques vivent dans académies, laboratoires, observatoires et sociétés savantes où la preuve donne du pouvoir.
+Les ingénieurs sont recrutés par armées, villes, guildes et expéditions pour transformer une contrainte en dispositif fonctionnel.
+Les docteurs technologiques servent hôpitaux modernes, laboratoires biologiques et pouvoirs qui veulent comprendre ou modifier le vivant.
+Les chimistes travaillent dans ateliers, mines, laboratoires, armées et manufactures où la réaction juste change tout.
+Les alchimistes se tiennent entre laboratoire, atelier occulte et mécénat savant, là où la transformation promet plus que la science ordinaire.
+Les elchimistes appartiennent à des cercles rares, presque philosophiques, où l'équivalence justifie des expériences que peu comprennent.
+Les arcanistes servent bibliothèques magiques, académies, tours et expéditions qui cherchent à comprendre les lois occultes.
+Les flambeurs habitent casinos, tavernes, cours décadentes et champs de bataille où le pari devient une réputation.
+Les rossignols se trouvent parmi acrobates, voleurs, danseurs martiaux et agents rapides qui vivent de gestes enchaînés.
+Les zélotes vivent dans les cultes militants, foules chauffées et ordres dogmatiques qui veulent des voix offensives.
+Les exorcistes sont appelés par villages, temples, familles nobles et autorités lorsque le surnaturel devient trop proche.
+Les liches occupent cryptes, tours interdites et mythes politiques où la survie après la mort devient pouvoir.
+Les fauconniers servent chasseurs nobles, éclaireurs, messagers et domaines où le ciel fournit des yeux précieux.
+Les maîtres de la meute vivent avec chasseurs, clans, gardes forestiers ou bandes qui se déplacent comme un groupe animal.
+Les maîtres des ours appartiennent aux traditions de force sauvage, foires, armées brutales ou peuples proches des grandes bêtes.
+Les espions servent cours, guildes, armées et factions qui ont besoin de savoir sans être vues en train de chercher.
+Les valkyries accompagnent armées, ordres guerriers et cultes héroïques où soutenir le combat devient une vocation sacrée ou spectaculaire.
+Les seigneurs dominent maisons, compagnies, domaines et entourages où l'autorité personnelle organise la réussite collective.
+Les berserkers surgissent des clans, cultes de guerre, arènes et troupes de choc qui acceptent la rage comme outil.
+Les muses gravitent autour des artistes, héros, cours et communautés qui ont besoin d'une présence inspirante.
+Les skalds accompagnent troupes, clans et halls guerriers où l'honneur se chante autant qu'il se gagne.
+Les infiltrateurs travaillent pour guildes, armées, rebelles ou maisons nobles dès qu'une porte doit s'ouvrir sans bruit.
+Les artificiers servent sièges, mines, armées modernes et expéditions où l'explosion contrôlée devient solution.
+Les hérauts appartiennent aux cours, armées, temples et compagnies où transmettre et soutenir au bon moment fait tenir l'ensemble.
+Les sohei vivent dans des temples fortifiés, monastères guerriers et ordres où la défense du sacré exige des réflexes.
+Les amazones sont liées aux troupes mobiles, tribus guerrières et unités de harcèlement qui frappent au plus près.
+Les juggernauts sont utilisés comme briseurs de ligne, champions de siège et figures de terreur physique.
+Les aristocrates évoluent dans les cours, familles titrées et jeux de pouvoir où la joute sociale est une éducation.
+Les magisters dirigent écoles magiques, cercles d'incantateurs et institutions où la forme du sort est un art noble.
+Les enquêteurs travaillent pour autorités, familles, guildes ou eux-mêmes lorsque la vérité doit être reconstituée.
+Les errants occupent routes, pèlerinages, caravanes et frontières où le mouvement constant devient un mode de vie.
+Les trouvères circulent de ville en ville, porteurs de chansons, nouvelles et performances adaptées à chaque public.
+Les missionnaires vivent sur les routes, aux frontières des conflits et dans les lieux où une parole calme peut éviter le pire.
+Les mentors se trouvent dans écoles, ateliers, familles, compagnies et ordres où former la relève compte plus que briller seul.
+Les prophètes sont protégés, consultés ou enfermés par ceux qui craignent autant leurs visions qu'ils les désirent.
+Les lutteurs vivent dans arènes, tavernes, milices et traditions physiques où la force se prouve au contact.
+Les shugenja appartiennent aux traditions mystiques structurées, souvent liées à un ordre, une école ou une lecture cosmique du monde.
+Les exilés ou damnés survivent aux marges, dans les routes froides, communautés méfiantes et causes perdues qui leur ressemblent.
+Les stratèges siègent auprès des chefs, conseils de guerre et factions qui comprennent que gagner commence avant la bataille.
+Les ritualistes travaillent dans temples, cercles occultes, académies et lieux consacrés où le temps long donne sa puissance à la magie.
+Les hiérophantes appartiennent aux cultes d'invocation, sanctuaires et ordres qui traitent les entités appelées comme des partenaires sacrés.
+Les arcmages servent armées magiques, écoles de tir arcanique et compagnies d'élite où l'enchantement devient projectile.
+Les forgemages vivent auprès des forges mystiques, ordres guerriers et ateliers où l'arme est pensée comme un sort matérialisé.
+Les virtuoses fréquentent scènes, écoles de danse, compagnies d'élite et milieux où le mouvement parfait devient prestige.
+Les charlatans prospèrent dans foires, cours naïves, rues commerçantes et groupes où l'audace verbale peut masquer le vide.
+Les coryphées occupent scènes, choeurs, rituels publics et compagnies où guider le mouvement des autres devient pouvoir.
+Les chantesorts servent cercles artistiques, cultes chantés et traditions magiques où la voix place le lanceur au centre.
+Les cleptomanciens sont recherchés par contre-mages, voleurs arcaniques et autorités qui veulent neutraliser la magie ennemie.
+Les maîtres des lames appartiennent aux écoles d'épée les plus exigeantes, où la double lame devient une signature de prestige.
+Les envoûteurs se glissent dans cours, sectes, salons et intrigues où contrôler l'attachement vaut plus qu'un ordre direct.
+Les chaomanciens vivent dans les marges des académies et des cultes, tolérés quand le hasard réussit et blâmés quand il dévore.
+Les thaumaturges travaillent dans ateliers magiques, académies et expéditions où le bon outil arcanique fait toute la différence.
+Les pistomanciens accompagnent armées modernes, chasseurs de monstres et technomages qui veulent unir poudre et sort.
+Les inquisiteurs servent tribunaux sacrés, polices doctrinales et ordres militants qui se donnent le droit de juger l'impur.
+Les mages de guerre sont formés par armées, académies militaires et ordres combattants qui attendent d'eux des sorts sous pression.
+Les jokers gravitent autour des scènes sociales instables, cours dangereuses et bandes où l'émotion manipulée ouvre les portes.
+Les sourceleurs travaillent dans cercles de mages, lieux de pouvoir et expéditions arcanes où le mana lui-même est la ressource disputée.
