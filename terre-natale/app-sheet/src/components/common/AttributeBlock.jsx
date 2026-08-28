@@ -2,6 +2,7 @@ import { useCharacter } from '../../context/CharacterContext';
 import {
   getValeurTotale, calculerModificateur, getValeurDefaut, computeBonusConfig,
   getProgressionInfo, calculerRangCasteParXP, calculerRangCasteParAptitude,
+  getBaseEquilibre,
 } from '../../hooks/useCharacterCalculations';
 import DATA from '../../data';
 
