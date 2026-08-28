@@ -1170,7 +1170,7 @@ L’aggravation est un mot clé désignant la faculté à accroître la gravité
 
 #### La Précision
 
-La précision est la faculté permettant d'ignorer une partie de la protection adverse.
+La précision est la faculté permettant d'aggraver les lésions infligées à la cible. Elle s'ajoute directement à la gravité de la lésion résultant d'une attaque.
 
 #### La Visée
 

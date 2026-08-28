@@ -16,7 +16,7 @@
 
 **Visée** *(physique ou mentale)* : Réduit les pénalités lors des tentatives de localisation (règle avancée de confrontation, voir chapitre 8) — en priorité les pénalités de couverture et malus de visibilité, puis la difficulté accrue liée à la localisation. Ces deux effets ne s'appliquent pas simultanément.
 
-**Précision** *(physique ou mentale)* : Permet d’ignorer une partie de la protection de la cible. La précision ne peut cependant pas réduire la protection en deçà de 10.
+**Précision** *(physique ou mentale)* : S’ajoute directement à la gravité des lésions infligées à la cible. La précision de base correspond au modificateur de DEX de l’attaquant (physique) ou à l’attribut mental analogue (mental).
 
 **Bonus de dégâts** *(physique ou mentale)* : Augmente les dégâts produits par les actions qui en génèrent (attaques, tirades, sorts…).
 
