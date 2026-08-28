@@ -660,9 +660,9 @@ Les dégâts normaux représentent le mode d’attribution par défaut : Sauf co
     - **Résistance à l’attrition.** Réduit les dégâts temporaires (attrition) reçus par le personnage.
     - **Perforation.** Ce bonus réduit l’absorption des cibles du personnage.
     - **Pénétration.** Si l’attaque n’est pas défendue alors la pénétration augmente directement les dégâts permanents.
-    - **Protection.** Ce bonus augmente l'absorption physique ou mentale du personnage, et donc ses PA disponibles.
-    - **Précision.** Ce bonus s'ajoute directement à la gravité des lésions infligées à la cible.
-    - **Aggravation.** Ce bonus augmente la gravité des blessures infligées par le personnage.
+    - **Protection.** Ce bonus augmente l'absorption physique ou mentale du personnage (ses PA disponibles) et divise la gravité brute pour obtenir le niveau de gravité des lésions subies.
+    - **Aggravation.** Ce bonus augmente la gravité brute des lésions infligées par le personnage. L'Aggravation de base correspond au modificateur de DEX de l'attaquant.
+    - **Précision.** Ce bonus réduit la protection effective de la cible lors du calcul du niveau de gravité, sans jamais la faire descendre en deçà de 5. Les armes de mêlée confèrent une précision égale au modificateur de PER de l'attaquant.
     - **Criticité.** Ce bonus réduit la marge de réussite nécessaire pour transformer une action en réussite critique.
     - **Gestion.** Ce bonus augmente la marge de réussite nécessaire pour un adversaire du personnage à transformer une action en réussite critique.
     - **Dégâts/Conditions Critiques.** Ces bonus s’ajoutent aux dégâts ou aux charges de conditions issues d’une réussite critique.
@@ -710,11 +710,19 @@ Si l’attaque n’est pas localisée alors les dégâts permanents entraînent 
 
 #### Création d’une Lésion
 
-La gravité d’une lésion est calculée ainsi :
+Une lésion est infligée dès que la cible perd au moins 1 PV (ou 1 PS pour les traumatismes) suite à une attaque.
 
-**Gravité = dégâts permanents subis + Précision de l’attaquant (mDEX)**
+La **gravité** brute de la lésion est calculée ainsi :
 
-Des dégâts permanents nuls provoquent une lésion de gravité 0. Les bonus d’aggravation s’ajoutent directement à la gravité calculée. Pour les lésions mentales, la Précision correspond à l’attribut mental analogue de l’attaquant.
+**Gravité = PV perdus + Aggravation + Catégorie de l’arme**
+
+L’Aggravation correspond au modificateur de DEX de l’attaquant (pour les blessures) ou à l’attribut mental analogue (pour les traumatismes).
+
+Le **niveau de gravité** effectif, qui constitue la pénalité de la lésion, est ensuite obtenu ainsi :
+
+**Niveau de gravité = Gravité / Protection** *(arrondi vers le bas, minimum 0)*
+
+La **Précision** réduit la protection effective de la cible du montant de sa valeur, sans jamais la faire descendre en deçà de 5. Les armes de mêlée confèrent une précision égale au modificateur de PER de l’attaquant. Une gravité brute de 0 provoque une lésion de niveau 0.
 
 #### Aggravation d’une Lésion
 
@@ -1136,7 +1144,7 @@ L’affliction est un mot clé désignant la faculté à accroître les charges 
 
 #### La Gravité
 
-On parle de gravité lorsqu’on mesure les dégâts permanents qui sont pris en considération lorsqu’une lésion doit être contractée. Certains bonus ou effets peuvent modifier la gravité d’une attaque : Afin de calculer le niveau de gravité de la lésion qui résulterait de l’attaque en question les dégâts en question sont donc majorés ou minorés selon le cas du montant de cet ajustement de gravité.
+La gravité brute d’une lésion est égale aux PV perdus + Aggravation de l’attaquant + Catégorie de l’arme. Le **niveau de gravité** effectif (pénalité de la lésion) s’obtient en divisant cette gravité brute par la Protection de la cible (arrondi vers le bas, min 0). Des effets ou bonus peuvent modifier la gravité brute avant cette division.
 
 #### La Puissance
 
@@ -1148,9 +1156,6 @@ Les armes mécaniques possèdent une puissance (en attaque) équivalente à leur
 
 La perforation est la faculté permettant d’ignorer une partie de l’absorption adverse.
 
-Les armes à feu possèdent une pénétration équivalente à leur catégorie.
-
-
 #### L’Attrition
 
 L’attrition est un mot clé désignant la faculté à accroître les dégâts temporaires d’une attaque. L’attrition c’est le fait d’user les défenses, d’affaiblir ou d’affaiblissement. Lorsqu’une attaque profite d’attrition et qu’elle touche la cible, la cible perd autant d’endurance, qui peut tout à fait passer dans le négatif de cette manière. Pour qu’une cible soit considérée comme touche il suffit que l’attaque dépasse la défense passive ET que la cible n’est pas réussie une action d’esquive (tout autre action de défense ne comptant pas, puisqu’elles reviennent à encaisser le coup et non à l’éviter).
@@ -1158,7 +1163,7 @@ L’attrition est un mot clé désignant la faculté à accroître les dégâts 
 
 #### La Pénétration
 
-La pénétration est un mot clé désignant la faculté à accroître les dégâts permanents d’une attaque. La pénétration ne produit ces dégâts que si l’attaque n’a pas fait l’objet d’une défense, qu’elle soit réussie ou non.
+La pénétration est un mot clé désignant la faculté à accroître les dégâts permanents d’une attaque. La pénétration ne produit ces dégâts que si l’attaque n’a pas fait l’objet d’une défense, qu’elle soit réussie ou non. Les armes à feu possèdent une pénétration équivalente à leur catégorie.
 
 #### L’accélération
 
@@ -1166,11 +1171,11 @@ L’accélération est un mot clé désignant la faculté à accroître la vites
 
 #### L’aggravation
 
-L’aggravation est un mot clé désignant la faculté à accroître la gravité d’une attaque. L’aggravation affecte donc le montant associé à la gravité des blessures véhiculées par une attaque.
+L’aggravation est un mot clé désignant la faculté à accroître la gravité brute des lésions infligées. De base, l’aggravation d’un attaquant est égale à son modificateur de DEX (physique) ou à l’attribut mental analogue (mental).
 
 #### La Précision
 
-La précision est la faculté permettant d'aggraver les lésions infligées à la cible. Elle s'ajoute directement à la gravité de la lésion résultant d'une attaque.
+La précision est la faculté permettant de réduire la protection effective d’une cible lors du calcul du niveau de gravité d’une lésion. Elle ne peut jamais réduire la protection en deçà de 5. Les armes de mêlée confèrent à l’attaquant une précision égale à son modificateur de PER.
 
 #### La Visée
 
@@ -1238,18 +1243,13 @@ Lorsqu’une attaque profite d’une **pénétration**, la déviation est rédui
 
 #### La Protection
 
-La protection physique représente la résistance naturelle du personnage face aux lésions. La protection mentale représente sa résistance naturelle face aux traumatismes.
+La protection joue un double rôle : elle s’ajoute à l’absorption du personnage (augmentant ses PA disponibles) et divise la gravité brute des lésions pour en déterminer le niveau effectif.
 
-La protection s’ajoute à l’absorption du personnage, augmentant ainsi ses PA disponibles chaque tour.
+**Protection physique totale = 5 + modificateur de Stature + Catégorie de l’Armure portée**
 
-Voici les détails de base de ces calcules :
+**Protection mentale totale = 5 + modificateur d’Ego + Catégorie de la Raison portée**
 
-- Protection naturelle physique = modificateur de Stature.
-- Protection naturelle mentale = modificateur d’Ego.
-- Protection Physique totale = Catégorie de l’Armure + protection naturelle physique.
-- Protection Mentale totale = Catégorie de la Raison + protection naturelle mentale.
-
-La qualité de l’armure ajuste l’attribut de Stature (et donc la protection naturelle physique) dans le cadre de son usage.
+La qualité de l’armure ajuste l’attribut de Stature (et donc la protection naturelle physique) dans le cadre de son usage. La **Précision** de l’attaquant réduit la protection effective sans jamais la faire descendre en deçà de 5.
 
 ## La Portée et les Zone
 

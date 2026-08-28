@@ -143,13 +143,21 @@ Il existe deux grandes formes de lésion :
 
 #### Gravité d’une Lésion
 
-La gravité d’une lésion est calculée ainsi :
+Une lésion est infligée dès qu’une attaque fait perdre au moins 1 PV à la cible (ou 1 PS pour les traumatismes).
 
-**Gravité = dégâts permanents subis + Précision de l’attaquant**
+La **gravité** brute de la lésion est calculée ainsi :
 
-La Précision correspond au modificateur de DEX de l’attaquant pour les blessures, et à son attribut mental analogue pour les traumatismes. Les bonus d’aggravation s’ajoutent directement à cette valeur. Des dégâts permanents nuls provoquent une lésion de gravité 0.
+**Gravité = PV perdus + Aggravation + Catégorie de l’arme**
 
-La gravité d’une lésion constitue sa **pénalité** aux tests du type correspondant.
+L’Aggravation correspond au modificateur de DEX de l’attaquant pour les blessures, et à l’attribut mental analogue pour les traumatismes.
+
+Le **niveau de gravité** (qui constitue la pénalité effective de la lésion) est ensuite obtenu en divisant la gravité par la protection de la cible :
+
+**Niveau de gravité = Gravité / Protection** *(arrondi vers le bas, minimum 0)*
+
+La **Précision** réduit la protection effective de la cible du montant de sa valeur, sans jamais la faire descendre en deçà de 5. Les armes de mêlée confèrent une précision égale au modificateur de PER de l’attaquant.
+
+Une gravité brute de 0 provoque une lésion de niveau 0.
 
 #### Accumulation et Pénalités
 
