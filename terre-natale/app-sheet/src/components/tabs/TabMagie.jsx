@@ -251,6 +251,7 @@ function computePresetStr(preset, field) {
           return `${label} : ${w.description}${modif}`;
         });
       if (preset.notes?.trim()) lines.push(preset.notes.trim());
+      console.log('[DEBUG effets]', preset.title, 'words:', preset.words?.length, 'lines:', lines.length, lines[0]?.slice(0,40));
       return lines.join('\n');
     }
     default: return '';
