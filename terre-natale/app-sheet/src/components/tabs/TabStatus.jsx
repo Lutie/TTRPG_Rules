@@ -37,10 +37,10 @@ function TabStatus() {
   const blessures = lesions.filter(l => l.type === 'blessure');
   const traumas = lesions.filter(l => l.type === 'traumatisme');
   const maxNivBlessure = blessures.length > 0
-    ? Math.max(...blessures.map(l => l.max > 0 ? Math.ceil(l.actuel / l.max) : 0))
+    ? Math.max(...blessures.map(l => l.max > 0 ? Math.floor(l.actuel / l.max) : 0))
     : 0;
   const maxNivTrauma = traumas.length > 0
-    ? Math.max(...traumas.map(l => l.max > 0 ? Math.ceil(l.actuel / l.max) : 0))
+    ? Math.max(...traumas.map(l => l.max > 0 ? Math.floor(l.actuel / l.max) : 0))
     : 0;
 
   // Calcul niveaux tensions (pour affichage TensionCard)
@@ -103,9 +103,9 @@ function TabStatus() {
     const attrBase = getValeurTotale(character, attrId);
     const mod = calculerModificateur(attrBase + qual);
     const nbDes = 2 + cat;
-    // Précision = m(DEX + qualité arme) + bonus
-    const dexBase = getValeurTotale(character, 'DEX');
-    const precision = calculerModificateur(dexBase + qual) + (bonus.precisionPhysique || 0);
+    // Précision mêlée = m(PER + qualité arme) + bonus
+    const perBase = getValeurTotale(character, 'PER');
+    const precision = calculerModificateur(perBase + qual) + (bonus.precisionPhysique || 0);
     // Zone de contrôle active = m(DEX + qualité arme) + catégorie + bonus
     const zoneActive = calculerModificateur(dexBase + qual) + cat + (bonus.controleActif || 0);
     // Zone de contrôle passive = 5 + m(AGI + qualité arme) - catégorie + bonus
@@ -288,7 +288,7 @@ function TabStatus() {
     const lesionData = DATA.typesLesions.find(l => l.id === type);
     if (!lesionData) return;
 
-    const protection = lesionData.protection === 'physique' ? calc.protPhys : calc.protMent;
+    const protection = lesionData.protection === 'physique' ? protectionTotale : protectionMentale;
 
     updateCharacter(prev => ({
       ...prev,
@@ -1062,7 +1062,7 @@ function TabStatus() {
             if (!lesionData) return null;
 
             const pct = lesion.max > 0 ? Math.min(100, (lesion.actuel / lesion.max) * 100) : 0;
-            const niveauGravite = lesion.max > 0 ? Math.ceil(lesion.actuel / lesion.max) : 0;
+            const niveauGravite = lesion.max > 0 ? Math.floor(lesion.actuel / lesion.max) : 0;
             const gravite = DATA.gravites.find(g => g.niveau === Math.min(niveauGravite, 5)) || DATA.gravites[0];
 
             return (
@@ -1098,7 +1098,7 @@ function TabStatus() {
           })}
 
           {/* Carte d'ajout */}
-          <LesionAddCard protPhys={calc.protPhys} protMent={calc.protMent} onAdd={handleAddLesion} />
+          <LesionAddCard protPhys={protectionTotale} protMent={protectionMentale} onAdd={handleAddLesion} />
         </div>
       </Section>
 
@@ -1210,8 +1210,8 @@ function TabStatus() {
           resiliencePhys={bonus.resistanceAttritionPhys || 0}
           resilienceMent={bonus.resistanceAttritionMent || 0}
           equilibre={calc.getAttr('EQU')}
-          protPhys={calc.protPhys}
-          protMent={calc.protMent}
+          protPhys={protectionTotale}
+          protMent={protectionMentale}
           onClose={() => setShowSubirDegatsModal(false)}
         />,
         document.body
@@ -1627,8 +1627,10 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys 
   const [perforation, setPerforation] = useState(0);
   const [penetration, setPenetration] = useState(0);
   const [attrition, setAttrition]     = useState(0);
-  const [deviation, setDeviation]     = useState(0);
-  const [gravite, setGravite]         = useState(0);
+  const [deviation, setDeviation]         = useState(0);
+  const [aggravation, setAggravation]     = useState(0);
+  const [categorieArme, setCategorieArme] = useState(0);
+  const [precisionAtt, setPrecisionAtt]   = useState(0);
 
   const handleBackdropClick = (e) => { if (e.target === e.currentTarget) onClose(); };
 
@@ -1683,7 +1685,9 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys 
   const peTotalPerdu = peAbsorbe + peDirecte;
 
   // --- Lésion si hp > 0 ---
-  const lesionValeur = hpTotalPerdu > 0 ? hpTotalPerdu + gravite : 0;
+  const effectiveProt = Math.max(5, prot - precisionAtt);
+  const lesionGravite = hpTotalPerdu + aggravation + categorieArme;
+  const lesionValeur = hpTotalPerdu > 0 ? lesionGravite : 0;
 
   // --- Application ---
   const handleApply = () => {
@@ -1715,7 +1719,7 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys 
       // Lésion
       let lesions = prev.lesions || [];
       if (lesionValeur > 0) {
-        lesions = [...lesions, { type: lesionType, actuel: lesionValeur, max: prot }];
+        lesions = [...lesions, { type: lesionType, actuel: lesionValeur, max: effectiveProt }];
       }
 
       return { ...next, ressources, lesions };
@@ -1779,9 +1783,19 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys 
                     onChange={e => setAttrition(parseInt(e.target.value) || 0)} />
                 </div>
                 <div className="info-field">
-                  <label>Gravité adverse</label>
-                  <input type="number" className="info-input" min="0" value={gravite}
-                    onChange={e => setGravite(parseInt(e.target.value) || 0)} />
+                  <label>Aggravation</label>
+                  <input type="number" className="info-input" min="0" value={aggravation}
+                    onChange={e => setAggravation(parseInt(e.target.value) || 0)} />
+                </div>
+                <div className="info-field">
+                  <label>Cat. arme</label>
+                  <input type="number" className="info-input" min="0" value={categorieArme}
+                    onChange={e => setCategorieArme(parseInt(e.target.value) || 0)} />
+                </div>
+                <div className="info-field">
+                  <label>Précision att.</label>
+                  <input type="number" className="info-input" min="0" value={precisionAtt}
+                    onChange={e => setPrecisionAtt(parseInt(e.target.value) || 0)} />
                 </div>
               </div>
             </div>
@@ -1873,7 +1887,9 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys 
                     <div className="cast-drain-row cast-drain-surcharge">
                       <span>{isMental ? '🧠 Traumatisme' : '🩸 Blessure'}</span>
                       <span className="cast-drain-val">{lesionValeur}</span>
-                      <span className="cast-drain-detail">{hpLabel} perdus {hpTotalPerdu}{gravite > 0 ? ` + grav. ${gravite}` : ''}, max {prot}</span>
+                      <span className="cast-drain-detail">
+                        {hpLabel} perdus {hpTotalPerdu}{aggravation > 0 ? ` + aggrv. ${aggravation}` : ''}{categorieArme > 0 ? ` + cat. ${categorieArme}` : ''} = {lesionGravite} / prot. {effectiveProt}{precisionAtt > 0 ? ` (−prec. ${precisionAtt})` : ''} = nv {Math.floor(lesionGravite / effectiveProt)}
+                      </span>
                     </div>
                   )}
                 </div>

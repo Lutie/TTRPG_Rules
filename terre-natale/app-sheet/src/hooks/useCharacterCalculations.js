@@ -252,8 +252,10 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const techMax = getMod('INT') + (bonus.techniqueMax || 0);
     const expPhys = getMod('DEX') + (bonus.expertisePhysique || 0);
     const expMent = getMod('INT') + (bonus.expertiseMentale || 0);
-    const precPhys = getMod('DEX') + (bonus.precisionPhysique || 0);
+    const precPhys = getMod('PER') + (bonus.precisionPhysique || 0);
     const precMent = getMod('INT') + (bonus.precisionMentale || 0);
+    const aggravPhys = getMod('DEX') + (bonus.aggravationPhysique || 0);
+    const aggravMent = getMod('INT') + (bonus.aggravationMentale || 0);
 
     // Magie
     const tradition = DATA.traditions.find(t => t.id === character.tradition);
@@ -469,6 +471,8 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       expMent,
       precPhys,
       precMent,
+      aggravPhys,
+      aggravMent,
 
       // Magie
       porteeMagique,

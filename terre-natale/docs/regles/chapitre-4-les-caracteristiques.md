@@ -52,16 +52,27 @@ L’Endurance mesure la hargne et la ténacité générale d’un personnage.
 
 **Les Points d’Armure (PA)**
 
-Les Points d’Armure représentent la protection offerte par l’armure et la garde du personnage. Ils absorbent les dégâts du type correspondant au prorata de **1 pour 1** et ne peuvent jamais devenir négatifs.
+Les Points d’Armure représentent la capacité d’absorption de l’armure et de la garde du personnage. Ils absorbent les dégâts du type correspondant au prorata de **1 pour 1** et ne peuvent jamais devenir négatifs.
 
 - Les **PA physiques** sont issus de l’absorption physique (armure portée).
 - Les **PA mentaux** sont issus de l’absorption mentale (résolution, détermination).
 - Au **début de chaque tour** (au moment du tirage d’initiative), tous les protagonistes récupèrent intégralement leurs PA à hauteur de leur absorption totale.
 
+Une armure (ou raison) de catégorie N confère par catégorie : **3 d’absorption**, **1 de résistance** et **1 de protection**. Ces trois valeurs sont indépendantes l’une de l’autre.
+
 !!! info "Rappel"
     L’endurance permet, en situation de confrontation, de :
 
     - Obtenir +1 à un test de confrontation en dépensant 4 d’endurance, maximum équivalant au niveau de compétence, choix à effectuer avant le test.
+
+**La Protection**
+
+La protection réduit le niveau de gravité des lésions subies (voir Les Lésions). Elle est distincte de l’absorption (qui génère les PA) et de la résistance (qui réduit les dégâts reçus avant tout autre calcul).
+
+- **Protection physique** = 5 + modificateur de Stature + Catégorie de l’Armure portée
+- **Protection mentale** = 5 + modificateur d’Ego + Catégorie de la Raison portée
+
+La qualité de l’armure ajuste l’attribut de Stature (et donc la protection naturelle physique) dans le cadre de son usage. La **Précision** d’un attaquant réduit la protection effective de sa cible sans jamais la faire descendre en deçà de 5.
 
 #### Le Karma
 
@@ -134,7 +145,7 @@ Exemples :
 
 ### Les Lésions
 
-Lorsqu’un personnage subit des dégâts permanents (Vitalité ou Spiritualité) cela provoque une lésion. Ces dernières pénalisent le personnage durablement et sont particulièrement difficiles à rétablir.
+Lorsqu’une attaque fait perdre au moins 1 PV (ou 1 PS) à un personnage, elle provoque une lésion. Ces dernières pénalisent le personnage durablement et sont particulièrement difficiles à rétablir.
 
 Il existe deux grandes formes de lésion :
 
@@ -411,7 +422,7 @@ A tout moment un personnage peut dépenser des PV (vitalité) afin d’obtenir u
 
 Les seuils de lésions ne sont plus utilisés pour le calcul de la gravité. Celle-ci est désormais déterminée directement à partir des dégâts permanents subis et de la Précision de l’attaquant (voir la section Les Lésions ci-avant).
 
-La protection naturelle (Stature pour les blessures, Ego pour les traumatismes) contribue désormais à l’absorption physique ou mentale du personnage, réduisant ainsi les dégâts avant que la lésion ne soit calculée.
+La Stature contribue à la protection physique naturelle du personnage (et l’Ego à la protection mentale), réduisant ainsi le niveau de gravité des lésions physiques (respectivement mentales) qu’il subit.
 
 #### La Résilience
 

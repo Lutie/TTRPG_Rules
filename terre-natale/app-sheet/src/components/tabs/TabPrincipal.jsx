@@ -421,23 +421,26 @@ function TabPrincipal() {
           <CaracBox name="Poigne" value={calc.poigne} help="FOR" />
           <CaracBox name="Panache" value={calc.panache} help="CHA" />
           <CaracBox name="Prestance" value={calc.prestance} help="5 + CHA + EGO" />
-          <CaracBox name="Prot. Nat. Physique" value={calc.protPhys} help="5 + mSTA" />
-          <CaracBox name="Prot. Nat. Mentale" value={calc.protMent} help="5 + mEGO" />
-          <CaracBox name="Abs. Nat. Physique" value={calc.absPhys} help="mCON" />
-          <CaracBox name="Abs. Nat. Mentale" value={calc.absMent} help="mVOL" />
+          <CaracBox name="Protection Physique" value={calc.protPhys} help="5 + mSTA" />
+          <CaracBox name="Protection Mentale" value={calc.protMent} help="5 + mEGO" />
+          <CaracBox name="Absorption Physique" value={calc.absPhys} help="mCON" />
+          <CaracBox name="Absorption Mentale" value={calc.absMent} help="mVOL" />
           <CaracBox name="Prouesses Innées" value={formatMod(calc.prouesses)} help="mRUS" />
           <CaracBox name="Moral" value={formatMod(calc.moral)} help="mCHA" />
-          <CaracBox name="Perf. Nat. Physique" value={formatMod(calc.perfPhys)} help="mPER" />
-          <CaracBox name="Perf. Nat. Mentale" value={formatMod(calc.perfMent)} help="mSAG" />
-          <CaracBox name="Attrition Nat. Phys." value={formatMod(calc.attrNatPhys)} help="mFOR" />
-          <CaracBox name="Attrition Nat. Ment." value={formatMod(calc.attrNatMent)} help="mCHA" />
+          <CaracBox name="Perforation Physique" value={formatMod(calc.perfPhys)} help="mPER" />
+          <CaracBox name="Perforation Mentale" value={formatMod(calc.perfMent)} help="mSAG" />
+          <CaracBox name="Attrition Physique" value={formatMod(calc.attrNatPhys)} help="mFOR" />
+          <CaracBox name="Attrition Mentale" value={formatMod(calc.attrNatMent)} help="mCHA" />
+          <CaracBox name="Aggravation Physique" value={formatMod(calc.aggravPhys)} help="mDEX" />
+          <CaracBox name="Aggravation Mentale" value={formatMod(calc.aggravMent)} help="mINT" />
+          <CaracBox name="Précision Physique" value={formatMod(calc.precPhys)} help="mPER (mêlée)" />
+          <CaracBox name="Précision Mentale" value={formatMod(calc.precMent)} help="mINT" />
           <CaracBox name="Contrôle Actif" value={formatMod(calc.ctrlActif)} help="mDEX" />
           <CaracBox name="Contrôle Passif" value={formatMod(calc.ctrlPassif)} help="mAGI" />
           <CaracBox name="Technique Max" value={calc.techMax} help="mINT" />
           <CaracBox name="Expertise Physique" value={formatMod(calc.expPhys)} help="mDEX" />
           <CaracBox name="Expertise Mentale" value={formatMod(calc.expMent)} help="mINT" />
-          <CaracBox name="Précision Physique" value={formatMod(calc.precPhys)} help="mDEX" />
-          <CaracBox name="Précision Mentale" value={formatMod(calc.precMent)} help="mINT" />
+          <p className="carac-note">Ces valeurs représentent les caractéristiques naturelles du personnage et n'incluent pas l'impact des équipements.</p>
         </div>
       </Section>
 
