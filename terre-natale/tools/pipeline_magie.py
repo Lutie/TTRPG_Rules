@@ -1203,7 +1203,8 @@ if __name__ == "__main__":
     DEBUG_MODE = args.debug
     
     generate_markdown()             # écoles + domaines + all_magic_words.json
-    generate_extra_words_json()     # L/A/F -> other_magic_words.json
+    # L/A/F -> other_magic_words.json est géré par parse_mots_pouvoir.py
+    # (exécuter parse_mots_pouvoir.py avant ce pipeline)
     generate_spells_from_sorts()    # Sorts -> out_spells/*.md
     check_duplicate_words()         # vérifie les doublons et affiche des warnings
 

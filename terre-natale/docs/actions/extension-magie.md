@@ -14,8 +14,9 @@ Test : Dés + Arcanes (G) + Focus (C) + modificateur de Magie (A) contre une dif
 
 Mana temporaire : Cette ressource permet de réduire un drain en puisant dans celle-ci à la place afin de couvrir au mieux la moitié du drain en question. Le Mana Temporaire pouvant être réuni est limité. Dépasser ce montant provoque une brûlure de mana équivalente au montant du dépassement (et l’excédent n’est pas conservé). La limite cumulable de cette ressource est équivalente à l’attribut de la tradition.
 
-Règle spéciale : Complexe (arcanes). _____________________________________________________
+Règle spéciale : Complexe (arcanes).
 
+---
 ### Identifier la Magie [Magic] [Arcane] — ◆◇
 
 Description : Le personnage tente de découvrir la vraie nature d’une magie. Pas de réussite à obtenir le personnage reçoit des détails concernant la nature de la magie en fonction du degré de réussite de l’évaluation. DR1 (10) : Niveau et difficultés. DR2 (15) : Ecole et signature magique du lanceur de sort. DR3 (20) : Domaine, La/les cibles. DR4 (25) : Clé d’effet (une seule si plusieurs). DR5 (30) : Tout. Notons que la signature magique peut être reconnue si elle est vue à nouveau mais elle ne permet pas d’identifier le lanceur de sort directement. De plus si le test est supérieur ou égale à la difficulté arcanique du sort (10 + 2 x niveau du sort) alors le personnage est avantagé à tous ses futurs test arcanique le concernant.
@@ -28,8 +29,9 @@ Test : Dés + Arcanes (G) + Erudis (C) + modificateur d’Intelligence (A) pour 
 
 Variante : Cette action peut être utilisée en interruption via une action rapide + libre afin d’identifier le sort qu’un adversaire est en train de lancer (et aviser selon le résultat).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Déplacer la Magie [Magic] [Arcane] — ◆◆
 
 Description : Le personnage tente de déplacer un sort d’une cible ou d’une zone à l’autre. La cible ou la zone doit rester valide. En cas de réussite le sort est déplacé. Si la cible change alors c’est la nouvelle cible qui profite de ses effets mais attention, le sort n’appartient pas au personnage qui l’a déplacé pour autant, l’auteur peut donc cesser de le maintenir ou même décider de dissiper sa propre magie si le souhaite (ce qui requiert tout de même de se consacrer à l’action du même nom). S’il a obtenu des degré de réussite, le personnage peut réduire le Coût additionnel en PS d’autant.
@@ -40,8 +42,9 @@ Coût additionnel (si réussite) : 1 points de Spiritualité par niveau du sort 
 
 Test : Dés + Arcanes (G) + Aldus (C) + modificateur Ruse (A) contre la difficulté arcanique (10 + 2 x niveau du sort).
 
-Règle spéciale : Complexe (arcanes). _____________________________________________________
+Règle spéciale : Complexe (arcanes).
 
+---
 ### Amplifier la Magie [Magic] [Arcane] — ◆◇
 
 Description : Le personnage tente d’augmenter le niveau effectif d’un sort. En cas de réussite le sort voit alors son niveau effectif augmenté de 1 si, et seulement si, le nouveau niveau du sort ne dépasse pas Arcanes + Aldus du personnage. Les charges du sort ne sont pas affectées. Si l’action dispose d’un degré de réussite alors le personnage peut augmenter le Coût additionnel jusqu’à autant de fois que le degré de réussite afin d’augmenter les effets de l’action. Si le sort a déjà été augmenté, le personnage peut tenter d’augmenter plus encore le niveau du sort mais la difficulté arcanique s’adapte au niveau effectif. L’augmentation des effets d’un sort dure au mieux jusqu’à la fin de la scène en cours.
@@ -52,8 +55,9 @@ Coût additionnel (si réussite) : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Aldus (C) + modificateur de Ruse + contre la difficulté arcanique (10 + niveau du sort x 2).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 #### Diminuer la Magie
 
 (Action Simple + Action Libre) (Arcane) [Physical]
@@ -66,8 +70,9 @@ Coût additionnel (si réussite) : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Aldus (C) + modificateur de Ruse + contre la difficulté arcanique (10 + niveau du sort).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Recharger la Magie [Magic] [Arcane] — ◆◇
 
 Description : Le personnage tente de recharger un sort. En cas de réussite le sort (enchantement) voit alors ses charges augmenter de 2D8. Si l’action dispose d’un degré de réussite alors le personnage peut augmenter le Coût additionnel jusqu’à autant de fois que le degré de réussite afin d’augmenter les effets de 2D8.
@@ -78,8 +83,9 @@ Coût additionnel (si réussite) : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Modus (C) + modificateur de Magie + contre la difficulté arcanique (10 + 2 x niveau du sort).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Dissiper la Magie [Magic] [Arcane] [Reaction] — ◆◇
 
 Description : Le personnage tente de décharger un sort. En cas de réussite le voit alors ses charges réduites de 2D8. Si l’action dispose d’un degré de réussite alors le personnage peut augmenter le Coût additionnel jusqu’à autant de fois que le degré de réussite afin d’augmenter les effets de 2D8.
@@ -90,8 +96,9 @@ Coût additionnel (si réussite) : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Denis (C) + modificateur de Volonté (A) contre la difficulté arcanique (10 + niveau du sort x 2).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Détourner la Magie [Magic] [Arcane] [Reaction] — ⮌◇
 
 Description : Le personnage tente de détourner la cible d’un sort afin d’en choisir une autre qui l’arrange plus. En cas de réussite le sort est lancé sur une cible de son choix à la place. La nouvelle cible doit être valide au regard des effets du sort. S’il a obtenu des degré de réussite le personnage peut réduire le Coût additionnel en PS d’autant.
@@ -102,8 +109,9 @@ Coût additionnel (si réussite) : 2 points de Spiritualité par niveau du sort 
 
 Test : Dés + Arcanes (G) + Aldus (C) + modificateur de Ruse + contre le test d’incantation adverse + 5.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Localiser la Magie [Magic] [Arcane] — ◆◇
 
 Description : Le personnage tente de localiser les magies actives à proximité. Pas de réussite à obtenir le personnage perçoit la magie avec une précision et/ou une distance qui dépend du degré de réussite de l’évaluation. Une fois le résultat obtenu, le personnage décide de comment il souhaite employer ses DR. La perception de la magie peut être précise ou imprécise, dans le premier cas le personnage n’a connaissance que du nombre de magie opérant dans la zone contrôlée, dans le second il peut pointer du doigt les objets ou zones qui sont affectées par un sort. De base la portée de la perception se limite au touché (distance 0), est imprécise et s’applique sous la forme d'un cône de 45°. Evidemment, puisqu’il s’agit du toucher une perception imprécise est suffisante pour dire qu’un objet tenu est bien celui qui émet de la magie… Le personnage peut utiliser autant de DR qu’il souhaite pour accroître la portée de la perception imprécise d’une catégorie (Touché > Proximité > Lieu > Endroit > Lieu > Région). Le personnage peut utiliser autant de DR qu’il souhaite, avec pour maximum le nombre de DR utilisé pour la portée imprécise, afin de changer la portée imprécise en portée précise. Le personnage peut utiliser autant de DR qu’il souhaite pour augmenter le rayon d’action de sa perception (45° > 90° > 180° > 360°). Il n’est donc pas possible de réaliser une perception parfaite sur des distances trop importantes, le personnage doit bien jauger en fonction de ses besoins.
@@ -114,8 +122,9 @@ Coût additionnel (si réussite) : n/a.
 
 Test : Dés + Arcanes (G) + Focus (C) + modificateur de Sagesse (A) contre une évaluation.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Renforcer la Magie [Magic] [Arcane] — ◆◇
 
 Description : Le personnage tente de renforcer le sort qu’il s’apprête à lancer afin de le rendre plus résistant aux manipulations arcaniques. En cas de réussite, le personnage renforce la difficulté arcanique de son prochain sort (à venir dans la scène) de 2. S’il obtient des degré de réussite, il peut dépenser autant de PS pour augmenter la difficulté arcanique de 1 supplémentaire.
@@ -128,8 +137,9 @@ Test : Dés + Arcanes (G) + Modus (C) + modificateur Magie (A) contre la difficu
 
 Variante : Cette action peut être utilisée en interruption via une action rapide + libre (ou seulement rapide si habituée) afin de renforcer le sort que l’on s’apprête à lancer.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Contrer la Magie [Magic] [Arcane] [Reaction] — ⮌◇
 
 Description : Le personnage tente d’annuler le sort qu’un adversaire est en train d’incanter. En cas de réussite le sort adverse est annulé, mais le lanceur de sort n’en subit pas le drain. S’il a obtenu des degré de réussite le personnage peut réduire le Coût additionnel en PS d’autant.
@@ -142,8 +152,9 @@ Test : Dés + Arcanes (G) + Denis (C) + modificateur de Volonté (A) contre le t
 
 Variante : Si le personnage le souhaite il peut payer 2 points de spiritualités à la place de 2 pour le Coût additionnel, s’il le fait alors la cible subira bel et bien une perte de drain.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Résister la Magie [Magic] [Arcane] [Reaction] — ⮌◇
 
 Description : Le personnage tente de résister aux effets d’un sort qui va l’affecter. Ce n’affecte pas comment le sort affecte les autres cibles le cas échéant. En cas de réussite, le niveau du sort qui doit l’affecter est réduit de 1. Si l’action dispose d’un degré de réussite alors le personnage peut augmenter le Coût additionnel jusqu’à autant de fois que le degré de réussite afin d’augmenter les effets de 1. Le personnage peut décider de doubler le Coût additionnel pour affecter tous les individus à proximité de lui (dans le cas d’un sort à effet de zone par exemple).
@@ -154,8 +165,9 @@ Coût additionnel (si réussite) : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Denis (C) + modificateur de Volonté (A) pour une évaluation.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Contrôler la Magie [Magic] [Arcane] [Unusual] — ◆◇
 
 Description : Le personnage tente de devenir le maître d’un enchantement (qui n’est pas une invocation). La notion d’alliés/adversaires s’adapte le cas échéant, mais la cible ou la zone de l’effet ne change pas pour autant.
@@ -170,8 +182,9 @@ Test : Dés + Arcanes (G) + Imperis (C) + modificateur Charisme (A) contre la di
 
 Règle spéciale : Habitude (arcanes).
 
-Variante (◆◆◇) : Le personnage peut récupérer le contrôle d’une invocation. Il est alors capable d’en changer les ordres. Le coût additionnel est augmenté de par niveau du sort visé. _____________________________________________________
+Variante (◆◆◇) : Le personnage peut récupérer le contrôle d’une invocation. Il est alors capable d’en changer les ordres. Le coût additionnel est augmenté de par niveau du sort visé.
 
+---
 ### Maîtriser la Magie [Magic] [Arcane] [Unusual] — ◆◇
 
 Description : Le personnage tente de maîtriser une magie afin de la maintenir. Cela fait sens si le personnage a perdu le contrôle d’un sort qu’il maintenait ou s’il cherche à maintenir le sort d’un autre. En cas de réussite, le personnage arrive à maintenir le sort. Ce dernier compte dans ses limites. S’il a obtenu des degré de réussite le personnage peut réduire le Coût additionnel en PS d’autant.
@@ -182,8 +195,9 @@ Coût additionnel (si réussite) : 1 points de Spiritualité par niveau du sort 
 
 Test : Dés + Arcanes (G) + Focus (C) + modificateur de Sagesse (A) contre une difficulté arcanique (10 + niveau du sort).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Camoufler la Magie [Magic] [Arcane] [Unusual] — ◆◇
 
 Description : Le personnage tente de camoufler une magie afin de la rendre plus difficile à percevoir ou à analyser. Pas de réussite à obtenir le personnage modifie la difficulté associée à l’évaluation requise pour percevoir ou analyser un sort.
@@ -194,8 +208,11 @@ Coût additionnel (si réussite) : 1 points de Spiritualité par niveau du sort 
 
 Test : Dés + Arcanes (G) + Aldus (C) + modificateur de Ruse (A) afin de déterminer une difficulté.
 
-Variante : Cette action peut être utilisée en interruption via une action rapide + libre (ou seulement rapide si habituée) afin de camoufler le sort que l’on s’apprête à lancer. Dans ce cas-ci le personnage dépense le Coût additionnel lorsque le sort est lancé, en fonction du niveau réel du sort. Règle spéciale : Habitude (arcanes). _____________________________________________________
+Variante : Cette action peut être utilisée en interruption via une action rapide + libre (ou seulement rapide si habituée) afin de camoufler le sort que l’on s’apprête à lancer. Dans ce cas-ci le personnage dépense le Coût additionnel lorsque le sort est lancé, en fonction du niveau réel du sort.
 
+Règle spéciale : Habitude (arcanes).
+
+---
 ### Incanter un sort [Magic] [Arcane] [Unusual] — ◆◆◇
 
 Description : Le personnage procède à l’incantation d’un sort. Chaque action composant l’action étendue concerne une phase différente du lancement de sort. 1ere action : Choix du sort. Visualisation de ses intrications avec le monde réel etc… Se connecter au mana et se synchroniser à lui (mental, gestuelle et orale). 3eme action : Orienter / Manipuler (le sort). En cas de réussite le personnage lance le sort au niveau choisi.
@@ -204,8 +221,9 @@ Coût : Des points de mana équivalant au drain du sort.
 
 Test : Dés + Tradition (G) + Domaine (C) + modificateur de Magie (A) contre Difficulté d’incantation (selon le niveau du sort).
 
-Règle spéciale : Habitude (incantation). _____________________________________________________
+Règle spéciale : Habitude (incantation).
 
+---
 ### Attaque Focale [Magic] [Arcane] [Attack] [Unusual] — ◆◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit un rayon de magie pure. Lorsqu’une attaque focale est portée le test d’attaque s’oppose à la défense passive adverse dont la nature dépend de l’élément employé (l’élément étant défini par le focalisateur).
@@ -218,8 +236,9 @@ Coût : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Apertus (C) + modificateur de Magie contre Défense Passive (selon l’élément).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Défense Focale [Magic] [Arcane] [Defense] [Unusual] [Reaction] — ⮌◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit un rayon de magie pure.
@@ -230,8 +249,9 @@ Coût : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Apertus (C) + modificateur de Magie contre une difficulté fixée par l’attaque adverse.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Soin Focale [Magic] [Arcane] [Soin] [Unusual] — ◆◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit un rayon d’énergie qui revigore un être vivant.
@@ -244,8 +264,9 @@ Coût : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Apertus (C) + modificateur de Magie contre une difficulté focale (10).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Barrière Focale [Magic] [Arcane] [Unusual] — ◆◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit une barrière d’énergie qui le protège du prochain choc à venir. Lorsqu’un soutien focal est porté le test d’attaque s’oppose à l’équilibre de la cible.
@@ -256,8 +277,9 @@ Coût : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Apertus (C) + modificateur de Magie contre une difficulté focale (10).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Force Focale [Magic] [Arcane] [Tactical] [Unusual] — ◆◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit une onde télékinétique qui repousse ses adversaires ou les mets à terre. Lorsqu’un soutien focal est porté le test d’attaque s’oppose à la sauvegarde d’opposition de la cible.
@@ -268,8 +290,9 @@ Coût : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Apertus (C) + modificateur de Magie contre la défense passive de Force.
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
 
+---
 ### Apparition Focale [Magic] [Arcane] [Unusual] — ◆◆◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit une apparition focale qui agit sous ses ordres.
@@ -280,4 +303,6 @@ Coût : 2 points de Spiritualité.
 
 Test : Dés + Arcanes (G) + Apertus (C) + modificateur de Charisme contre une difficulté focale (10).
 
-Règle spéciale : Habitude (arcanes). _____________________________________________________
+Règle spéciale : Habitude (arcanes).
+
+---

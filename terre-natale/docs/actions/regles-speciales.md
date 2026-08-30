@@ -6,7 +6,7 @@ Certaines actions sont associées à des mentions qui correspondent à des règl
 
 Les actions sont associées à des étiquettes. Ces dernières n’ont pas d’impacts directs sur les règles entourant l’action mais catégorise ces dernières.
 
-Note: Le texte est en anglais car les mots sont plus courts et déforment moins la mise en page.
+Note : Le texte est en anglais car les mots sont plus courts et déforment moins la mise en page.
 
 - [Attack] : Actions offensives.
 - [Defense] : Actions défensives.

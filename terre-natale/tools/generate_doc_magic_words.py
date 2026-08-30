@@ -478,10 +478,9 @@ def main() -> None:
         else:
             print(f"[WARN] Aucun mot pour {meta['label']}")
 
-    with OTHER_WORDS_JSON.open(encoding="utf-8") as f:
-        extra_words = json.load(f)
-
-    generate_liaisons_page(extra_words)
+    # Pages Liaisons / Annexes / Formes → gérées par generate_mots_pouvoir_md
+    import generate_mots_pouvoir_md
+    generate_mots_pouvoir_md.main()
     print(f"\n✓ Pages mots de pouvoir générées dans {DOCS_DIR}")
 
 

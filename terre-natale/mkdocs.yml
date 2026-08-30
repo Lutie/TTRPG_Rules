@@ -82,6 +82,7 @@ nav:
       - "Règles Avancées": magie-ext/details-de-l-extension/les-regles-avancees.md
       - "Effets de Zone Élémentaires": magie-ext/details-de-l-extension/les-effets-de-zone.md
       - "Enchantements Élémentaires": magie-ext/details-de-l-extension/les-enchantements-elementaires.md
+      - "Annexe : Langue Magique": magie-ext/details-de-l-extension/annexe-linguistique.md
       - "Équipements Magiques":
         - "La Matière Première": magie-ext/details-de-l-extension/la-matiere-premiere.md
         - "Le Matériel": magie-ext/details-de-l-extension/le-materiel.md
@@ -102,7 +103,9 @@ nav:
       - "École d'Évocation": mots-de-pouvoir/evocation.md
       - "École de Conjuration": mots-de-pouvoir/conjuration.md
       - "École d'Altération": mots-de-pouvoir/alteration.md
-      - "Liaisons, Annexes & Formes": mots-de-pouvoir/liaisons.md
+      - "Liaisons": mots-de-pouvoir/liaisons.md
+      - "Mots Avancés": mots-de-pouvoir/annexes.md
+      - "Formes": mots-de-pouvoir/formes.md
   - Extension Héros:
     - "Extension de l'Univers": heros-ext/univers/extension-de-l-univers.md
     - "Détails de l'Extension":

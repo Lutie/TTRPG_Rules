@@ -364,18 +364,6 @@
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
-    "name": "*",
-    "word_type": "*",
-    "difficulty": "*",
-    "drain": "*",
-    "description": "*.",
-    "magnitude_modifiers": ""
-  },
-  {
-    "id": 32,
-    "sheet_code": "F",
-    "category": "Forme",
-    "group_type": "forme",
     "name": "Unique",
     "word_type": "Forme",
     "difficulty": "0",
@@ -384,7 +372,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 33,
+    "id": 32,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -396,7 +384,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 34,
+    "id": 33,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -408,7 +396,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 35,
+    "id": 34,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -420,7 +408,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 36,
+    "id": 35,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -432,7 +420,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 37,
+    "id": 36,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -444,7 +432,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 38,
+    "id": 37,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -456,7 +444,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 39,
+    "id": 38,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -468,7 +456,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 40,
+    "id": 39,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -480,7 +468,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 41,
+    "id": 40,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -492,7 +480,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 42,
+    "id": 41,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -504,7 +492,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 43,
+    "id": 42,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -516,19 +504,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 44,
-    "sheet_code": "F",
-    "category": "Forme",
-    "group_type": "forme",
-    "name": "*",
-    "word_type": "*",
-    "difficulty": "*",
-    "drain": "*",
-    "description": "*.",
-    "magnitude_modifiers": ""
-  },
-  {
-    "id": 45,
+    "id": 43,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -540,7 +516,7 @@
     "magnitude_modifiers": "PWR -2/-2/-2 (6)"
   },
   {
-    "id": 46,
+    "id": 44,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -552,7 +528,7 @@
     "magnitude_modifiers": "PWR -1/-2/-3 (6)"
   },
   {
-    "id": 47,
+    "id": 45,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -564,7 +540,7 @@
     "magnitude_modifiers": "PWR +0/-1/-2/... (9)"
   },
   {
-    "id": 48,
+    "id": 46,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -576,7 +552,7 @@
     "magnitude_modifiers": "PWR +0/-2"
   },
   {
-    "id": 49,
+    "id": 47,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -588,7 +564,7 @@
     "magnitude_modifiers": "PWR +X"
   },
   {
-    "id": 50,
+    "id": 48,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -600,7 +576,7 @@
     "magnitude_modifiers": "PWR -3/-2/-1"
   },
   {
-    "id": 51,
+    "id": 49,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -612,7 +588,7 @@
     "magnitude_modifiers": "PWR -1"
   },
   {
-    "id": 52,
+    "id": 50,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -624,7 +600,7 @@
     "magnitude_modifiers": "PWR -1"
   },
   {
-    "id": 53,
+    "id": 51,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -636,7 +612,7 @@
     "magnitude_modifiers": "PWR +2"
   },
   {
-    "id": 54,
+    "id": 52,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -648,7 +624,7 @@
     "magnitude_modifiers": "PWR -1"
   },
   {
-    "id": 55,
+    "id": 53,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -660,7 +636,7 @@
     "magnitude_modifiers": "PWR +Y-X (max 3)"
   },
   {
-    "id": 56,
+    "id": 54,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -672,7 +648,7 @@
     "magnitude_modifiers": "PWR +1"
   },
   {
-    "id": 57,
+    "id": 55,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -684,7 +660,7 @@
     "magnitude_modifiers": "PWR -2"
   },
   {
-    "id": 58,
+    "id": 56,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -696,7 +672,7 @@
     "magnitude_modifiers": "PWR -3"
   },
   {
-    "id": 59,
+    "id": 57,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -708,7 +684,7 @@
     "magnitude_modifiers": "PWR -3/-3/-3/-3/-3/-3 (6)"
   },
   {
-    "id": 60,
+    "id": 58,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -720,7 +696,7 @@
     "magnitude_modifiers": "PWR -3"
   },
   {
-    "id": 61,
+    "id": 59,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -732,7 +708,7 @@
     "magnitude_modifiers": "PWR +0/-1/-2/... (9)"
   },
   {
-    "id": 62,
+    "id": 60,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
@@ -744,19 +720,7 @@
     "magnitude_modifiers": ""
   },
   {
-    "id": 63,
-    "sheet_code": "F",
-    "category": "Forme",
-    "group_type": "forme",
-    "name": "*",
-    "word_type": "*",
-    "difficulty": "*",
-    "drain": "*",
-    "description": "*.",
-    "magnitude_modifiers": ""
-  },
-  {
-    "id": 64,
+    "id": 61,
     "sheet_code": "F",
     "category": "Forme",
     "group_type": "forme",
