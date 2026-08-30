@@ -1,5 +1,16 @@
 ## Le Domaine de l’Esprit
 
+**Propriétés du domaine**
+
+| | |
+|---|---|
+| **Attributs d'accès** | SAG · CHA |
+| **Attributs affectés** | Les 5 Esprits, Ego, Apparence |
+| **Ressource (+)** | Psyché (PS) |
+| **Ressource (−)** | Psyché (PS) |
+| **Caractéristiques** | Récupération Mentale ×1, Détermination, Sang-Froid |
+
+
 Domaine de magie Royaume des pensées, des masques et des vertiges intérieurs, l'Esprit façonne volonté, mémoire et désir, brise les certitudes, exalte l'ego ou le flétrit d'un simple murmure, invisible, silencieux, implacable, toujours.
 
 L’Esprit gouverne tout ce qui touche à la psyché consciente : attributs mentaux, ego, apparence, sang-froid, ainsi que les ressources et blessures intérieures (PC, PS, états mentaux, conditions psychiques) et les compétences de savoir, de caractère et de maîtrise.

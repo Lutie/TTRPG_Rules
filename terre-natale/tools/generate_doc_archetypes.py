@@ -3,9 +3,11 @@ tools/archetypes.json → docs/archetypes/index.md
 Compendium des archétypes : cartes accordéon avec mécaniques + rangs + améliorations.
 """
 import json, os
+from pathlib import Path
 
-json_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/tools/archetypes.json"
-out_path  = "/home/lutie/Projects/TTRPG_Rules/terre-natale/docs/archetypes/index.md"
+TOOLS = Path(__file__).parent
+json_path = TOOLS / "archetypes.json"
+out_path  = TOOLS.parent / "docs" / "archetypes" / "index.md"
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
 with open(json_path, encoding="utf-8") as f:

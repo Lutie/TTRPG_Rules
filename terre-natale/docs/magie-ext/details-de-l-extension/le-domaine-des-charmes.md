@@ -1,5 +1,14 @@
 ## Le Domaine des Charmes
 
+**Propriétés du domaine**
+
+| | |
+|---|---|
+| **Attributs d'accès** | RUS · CHA |
+| **Ressource (−)** | Psyché (PS) |
+| **Caractéristiques** | Malice S, Prestige |
+
+
 Domaine de magie Miroir des cœurs, des regards et des promesses murmurées, le Charme ourdit liens, séductions, peurs et fidélités ; il attise désirs, calme les fureurs, brise les volontés, dérègle les foules, enjôle les esprits, offert, calculé, cruel ou miraculeux, pliant tout théâtre social autour d’un seul sourire, inoubliable et dangereux.
 
 Le Charme ne façonne pas l’intérieur de l’esprit, mais l’interface entre les gens : il touche au prestige, aux émotions visibles, aux réactions sociales, à l’adhésion ou au rejet, et surtout à la manipulation du comportement des autres (influence, contrainte douce ou contrôle brutal).

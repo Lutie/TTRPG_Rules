@@ -123,5 +123,126 @@
         "description": "Le personnage peux mémoriser un rituel qu'il vient de conclure, ce qui occupe un espace de la mémoire. La prochaine fois qu'un rituel fait appel exactement aux mêmes paramètres, le test du rituel sera avantagé."
       }
     ]
+  },
+  {
+    "nom": "Piégeage",
+    "concept": "Maîtrise de la pose et de l'exploitation des pièges",
+    "description": "L'archétype du piégeage permet au personnage de poser et d'exploiter des pièges avec une efficacité redoutable, en affinant chaque aspect de leur usage : pose, dissimulation, déclenchement et récupération.",
+    "mecaniques": [],
+    "rangs": [
+      { "rang": 1, "description": null, "choix": "ameliorations" },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Pièges sélectifs",
+        "description": "Les pièges posés par le personnage ne se déclenchent pas sur ses alliés."
+      },
+      {
+        "nom": "Prise au dépourvu",
+        "description": "Si un piège n'a pas été repéré, les cibles qu'il affecte sont désavantagées à leur test de réflexe."
+      },
+      {
+        "nom": "Récupération",
+        "description": "Lorsque le personnage désamorce un piège, ce dernier n'est pas consommé et peut être réutilisé. Si cela se reproduit sur le même piège, il est alors détruit normalement."
+      },
+      {
+        "nom": "Pose assurée",
+        "description": "Le jet des pièges est doublement assuré (valeur minimum des dés : 3)."
+      },
+      {
+        "nom": "Pose à distance",
+        "description": "Les pièges simples peuvent être posés à distance (5 + modificateur de Perception) au lieu de devoir être placés sur place."
+      },
+      {
+        "nom": "Zone étendue",
+        "description": "La zone de déclenchement des pièges du personnage est d'un cran plus large."
+      },
+      {
+        "nom": "Main d'artisan",
+        "description": "Si le personnage est le créateur du piège qu'il utilise, il reçoit un bonus d'ajustement de +2."
+      }
+    ]
+  },
+  {
+    "nom": "Pyrotechnie",
+    "concept": "Maîtrise de la fabrication et de l'usage des explosifs",
+    "description": "L'archétype de la pyrotechnie permet au personnage de manier les explosifs avec une maîtrise exceptionnelle, en optimisant leur portée, leur zone d'effet et leur fiabilité.",
+    "mecaniques": [],
+    "rangs": [
+      { "rang": 1, "description": null, "choix": "ameliorations" },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Explosions maîtrisées",
+        "description": "Les alliés pris dans une zone d'explosion issue d'un explosif du personnage sont avantagés à leurs tests de sauvegarde."
+      },
+      {
+        "nom": "Explosion directionnelle",
+        "description": "Lors de l'usage d'un explosif, le personnage peut modifier sa zone de propagation : au lieu de la zone normale, l'explosion prend la forme d'un cône dans une direction choisie avec une portée doublée."
+      },
+      {
+        "nom": "Longue portée",
+        "description": "La portée de lancer des explosifs du personnage est doublée."
+      },
+      {
+        "nom": "Amorce assurée",
+        "description": "Le jet des explosifs est doublement assuré (valeur minimum des dés : 3)."
+      },
+      {
+        "nom": "Réaction en chaîne",
+        "description": "Si un explosif explose dans la zone d'un autre explosif, ce dernier s'active également."
+      },
+      {
+        "nom": "Zone étendue",
+        "description": "La zone d'effet des explosifs du personnage est d'un cran plus large."
+      },
+      {
+        "nom": "Main d'artisan",
+        "description": "Si le personnage est le créateur de l'explosif qu'il utilise, il reçoit un bonus d'ajustement de +2."
+      }
+    ]
+  },
+  {
+    "nom": "Pharmacopée",
+    "concept": "Maîtrise de l'usage des consommables de soin",
+    "description": "L'archétype de la pharmacopée permet au personnage de tirer le meilleur parti des consommables de soin, en augmentant leur portée, leur fiabilité et leurs effets sur les cibles.",
+    "mecaniques": [],
+    "rangs": [
+      { "rang": 1, "description": null, "choix": "ameliorations" },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Satisfaction du soignant",
+        "description": "Lorsque le personnage utilise un consommable de soin, il reçoit 1 PK temporaire — 2 si le consommable est utilisé sur un allié plutôt que sur lui-même."
+      },
+      {
+        "nom": "Geste assuré",
+        "description": "Le jet lié aux consommables de soin est doublement assuré (valeur minimum des dés : 3)."
+      },
+      {
+        "nom": "Soin à distance",
+        "description": "Les consommables de soin peuvent être utilisés à distance (5 + modificateur de Perception) au lieu de devoir l'être à proximité."
+      },
+      {
+        "nom": "Recette optimisée",
+        "description": "Si le personnage est le créateur du consommable qu'il utilise, ce dernier génère un point de fatigue et/ou de corruption en moins."
+      },
+      {
+        "nom": "Soins débordants",
+        "description": "Lorsque les soins d'un consommable dépassent le maximum des ressources de la cible, l'excédent est converti en ressource temporaire (maximum 5 + modificateur de Sagesse)."
+      }
+    ]
   }
 ]

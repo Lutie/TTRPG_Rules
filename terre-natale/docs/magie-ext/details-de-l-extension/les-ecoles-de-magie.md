@@ -1,28 +1,36 @@
 ## Les Écoles de Magie
 
-Les écoles de magie sont une classification des sorts basés sur la fonction de ces derniers. Ainsi une même école de magie est constituée de sort de plusieurs domaines (élémentaires, fondamentaux ou primordiaux). La magie peut être étudiée sous couvert d’écoles : Le lanceur de sort se spécialise donc dans une fonction dans laquelle il s’offre un plus large panel de possibilités.
+Les écoles de magie sont une classification des sorts basés sur la fonction de ces derniers. Ainsi une même école de magie est constituée de sort de plusieurs domaines (élémentaires, fondamentaux ou primordiaux). La magie peut être étudiée sous couvert d'écoles : Le lanceur de sort se spécialise donc dans une fonction dans laquelle il s'offre un plus large panel de possibilités.
+
+Chaque école est gouvernée par deux **attributs d'accès** — ce sont ceux que le lanceur de sort doit développer pour progresser dans cette école. Un **verbe** résume également l'intention fondamentale de l'école.
 
 On distingue ainsi plusieurs grandes écoles de magies :
 
-Destruction
+### Destruction
+
+*Verbe : Détruire — Attributs : INT · VOL*
 
 Détruire ce qui est matériel ou immatériel, vivant ou non. Opposée à : Restauration
 
 - Dégâts directs ou progressifs (feu, glace, acide, force brute, etc.)
-- Dissolution d’énergie, d’objets ou d’enchantements
+- Dissolution d'énergie, d'objets ou d'enchantements
 - Démolition de structures
-- Sorts de flétrissement ou d’annihilation
+- Sorts de flétrissement ou d'annihilation
 
 ### Restauration
 
-Rétablir l’intégrité physique ou mentale des êtres vivants. Opposée à : Destruction
+*Verbe : Soigner — Attributs : SAG · CHA*
+
+Rétablir l'intégrité physique ou mentale des êtres vivants. Opposée à : Destruction
 
 - Soins de blessures, maladies, empoisonnements
 - Régénération ou purification
-- Annulation d’altérations affectant des êtres vivants
-- Reconstitution de l’équilibre vital
+- Annulation d'altérations affectant des êtres vivants
+- Reconstitution de l'équilibre vital
 
 ### Abjuration
+
+*Verbe : Refuser — Attributs : INT · CHA*
 
 Annuler, stopper ou se protéger contre des effets hostiles. Opposée à : n/a
 
@@ -33,42 +41,52 @@ Annuler, stopper ou se protéger contre des effets hostiles. Opposée à : n/a
 
 ### Divination
 
+*Verbe : Connaître — Attributs : SAG · RUS*
+
 Percevoir, découvrir, révéler ce qui est caché ou inconnu. Opposée à : n/a
 
 - Lecture des pensées, visions à distance, détection magique
 - Prédictions, augures, accès à des savoirs oubliés
-- Analyse d’objets, d’êtres ou de lieux
+- Analyse d'objets, d'êtres ou de lieux
 - Clairvoyance, clairsentience, précognition
 
 ### Invocation
 
+*Verbe : Appeler — Attributs : VOL · RUS*
+
 Appeler des entités autonomes à soi pour obtenir leur aide. Opposée à : n/a
 
 - Invocation de familiers, esprits, créatures ou entités
-- Contrats ou pactes d’appel
-- Portails, transpositions d’êtres
-- Sorts d’appel conditionnel ou réactif
+- Contrats ou pactes d'appel
+- Portails, transpositions d'êtres
+- Sorts d'appel conditionnel ou réactif
 
 ### Évocation
 
+*Verbe : Agir — Attributs : INT · CHA*
+
 Agir directement sur la réalité de façon ponctuelle. Opposée à : n/a
 
-- Télékinésie, lévitation, propulsion, manipulation d’objets
-- Création temporaire de matière ou d’éléments
+- Télékinésie, lévitation, propulsion, manipulation d'objets
+- Création temporaire de matière ou d'éléments
 - Génération de sons, lumières, odeurs, impulsions
 - Activation ou manipulation de mécanismes
-- Sorts d’effet immédiat, sans enchantement
+- Sorts d'effet immédiat, sans enchantement
 
 ### Malédiction
+
+*Verbe : Diminuer — Attributs : SAG · RUS*
 
 Appliquer des enchantements maintenus nuisibles. Opposée à : Bénédiction
 
 - Enchantements affaiblissants, gênants, négatifs
 - Zones de maléfices, auras handicapantes
-- Marquages magiques, infections d’origine magique
+- Marquages magiques, infections d'origine magique
 - Malchances, peurs, handicaps persistants
 
 ### Bénédiction
+
+*Verbe : Augmenter — Attributs : SAG · CHA*
 
 Appliquer des enchantements maintenus bénéfiques. Opposée à : Malédiction
 
@@ -79,19 +97,23 @@ Appliquer des enchantements maintenus bénéfiques. Opposée à : Malédiction
 
 ### Conjuration
 
+*Verbe : Conjurer — Attributs : VOL · RUS*
+
 Conjurer la magie pure pour créer des formes utiles via des enchantements. Opposée à : Altération
 
-- Création d’armes, murs, structures magiques temporaires
+- Création d'armes, murs, structures magiques temporaires
 - Zones magiques (silence, obscurité, anti-magie)
 - Enchantements utilitaires, sans but offensif ou défensif direct
 - Créations maintenues par la volonté du mage
 
 ### Altération
 
-Modifier l’état ou la structure des objets, de la matière ou de la magie elle-même. Opposée à : Conjuration
+*Verbe : Altérer — Attributs : INT · VOL*
 
-- Transformation de matériaux ou d’objets
-- Réparation, détérioration ou amélioration d’objets
+Modifier l'état ou la structure des objets, de la matière ou de la magie elle-même. Opposée à : Conjuration
+
+- Transformation de matériaux ou d'objets
+- Réparation, détérioration ou amélioration d'objets
 - Effets conditionnels (étourdissement, confusion, immobilisation…)
-- Changements d’apparence, d’état physique ou mental
+- Changements d'apparence, d'état physique ou mental
 - Soins structurels aux objets, modifications durables.

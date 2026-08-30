@@ -1,5 +1,17 @@
 ## Le Domaine du Mental
 
+**Propriétés du domaine**
+
+| | |
+|---|---|
+| **Élément** | Mental — psychique |
+| **Défense** | vs CON |
+| **Attributs d'accès** | RUS · CHA |
+| **Attributs affectés** | Les 5 Esprits |
+| **Ressource (+)** | Psyché (PS) |
+| **Caractéristiques** | Mémoire ×2, Puissance S, Résistance S, Perforation S, Absorption S |
+
+
 Domaine de magie fondamentale Dans les corridors intérieurs où se gravent les peurs, le Mental veille : c’est la chair des souvenirs, le poids des traumas, la trame des rêves et des obsessions. Il saigne en PS, vacille en fatigue, se brise en cicatrices invisibles. Là se mènent les joutes psychiques, les duels de volonté nue, où une simple idée peut tuer plus sûrement qu’une lame.
 
 Les mots du Mental transforment le psychisme en véritable champ de bataille. Côté Destruction, ils infligent des dégâts mentaux directs (Profanation, Suggestion, Obsession), épuisent PE et PS, posent des traumas (Traumatisation, Scarification, Corruption), dupliquent ou aggravent les lésions mentales (Déperdition), et achèvent les esprits déjà fissurés avec des effets de seuil (Suppression, Exsanguination, Termination). Ils peuvent aussi effacer ou falsifier la mémoire (Amnésiation, Falsification), altérer durablement la manière dont l’esprit se souvient du monde.

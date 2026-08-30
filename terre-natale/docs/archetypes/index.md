@@ -119,6 +119,165 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
 </details>
   </div>
 </div>
+
+<div class="arch-card" id="arch-2">
+  <div class="arch-header" onclick="toggleArch('arch-2')">
+    <span class="arch-nom">Piégeage</span>
+    <span class="arch-concept">Maîtrise de la pose et de l'exploitation des pièges</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype du piégeage permet au personnage de poser et d'exploiter des pièges avec une efficacité redoutable, en affinant chaque aspect de leur usage : pose, dissimulation, déclenchement et récupération.</p>
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Pièges sélectifs</strong> — Les pièges posés par le personnage ne se déclenchent pas sur ses alliés.</li><li><strong>Prise au dépourvu</strong> — Si un piège n'a pas été repéré, les cibles qu'il affecte sont désavantagées à leur test de réflexe.</li><li><strong>Récupération</strong> — Lorsque le personnage désamorce un piège, ce dernier n'est pas consommé et peut être réutilisé. Si cela se reproduit sur le même piège, il est alors détruit normalement.</li><li><strong>Pose assurée</strong> — Le jet des pièges est doublement assuré (valeur minimum des dés : 3).</li><li><strong>Pose à distance</strong> — Les pièges simples peuvent être posés à distance (5 + modificateur de Perception) au lieu de devoir être placés sur place.</li><li><strong>Zone étendue</strong> — La zone de déclenchement des pièges du personnage est d'un cran plus large.</li><li><strong>Main d'artisan</strong> — Si le personnage est le créateur du piège qu'il utilise, il reçoit un bonus d'ajustement de +2.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-3">
+  <div class="arch-header" onclick="toggleArch('arch-3')">
+    <span class="arch-nom">Pyrotechnie</span>
+    <span class="arch-concept">Maîtrise de la fabrication et de l'usage des explosifs</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de la pyrotechnie permet au personnage de manier les explosifs avec une maîtrise exceptionnelle, en optimisant leur portée, leur zone d'effet et leur fiabilité.</p>
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Explosions maîtrisées</strong> — Les alliés pris dans une zone d'explosion issue d'un explosif du personnage sont avantagés à leurs tests de sauvegarde.</li><li><strong>Explosion directionnelle</strong> — Lors de l'usage d'un explosif, le personnage peut modifier sa zone de propagation : au lieu de la zone normale, l'explosion prend la forme d'un cône dans une direction choisie avec une portée doublée.</li><li><strong>Longue portée</strong> — La portée de lancer des explosifs du personnage est doublée.</li><li><strong>Amorce assurée</strong> — Le jet des explosifs est doublement assuré (valeur minimum des dés : 3).</li><li><strong>Réaction en chaîne</strong> — Si un explosif explose dans la zone d'un autre explosif, ce dernier s'active également.</li><li><strong>Zone étendue</strong> — La zone d'effet des explosifs du personnage est d'un cran plus large.</li><li><strong>Main d'artisan</strong> — Si le personnage est le créateur de l'explosif qu'il utilise, il reçoit un bonus d'ajustement de +2.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-4">
+  <div class="arch-header" onclick="toggleArch('arch-4')">
+    <span class="arch-nom">Pharmacopée</span>
+    <span class="arch-concept">Maîtrise de l'usage des consommables de soin</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de la pharmacopée permet au personnage de tirer le meilleur parti des consommables de soin, en augmentant leur portée, leur fiabilité et leurs effets sur les cibles.</p>
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (5)</summary>
+  <ul><li><strong>Satisfaction du soignant</strong> — Lorsque le personnage utilise un consommable de soin, il reçoit 1 PK temporaire — 2 si le consommable est utilisé sur un allié plutôt que sur lui-même.</li><li><strong>Geste assuré</strong> — Le jet lié aux consommables de soin est doublement assuré (valeur minimum des dés : 3).</li><li><strong>Soin à distance</strong> — Les consommables de soin peuvent être utilisés à distance (5 + modificateur de Perception) au lieu de devoir l'être à proximité.</li><li><strong>Recette optimisée</strong> — Si le personnage est le créateur du consommable qu'il utilise, ce dernier génère un point de fatigue et/ou de corruption en moins.</li><li><strong>Soins débordants</strong> — Lorsque les soins d'un consommable dépassent le maximum des ressources de la cible, l'excédent est converti en ressource temporaire (maximum 5 + modificateur de Sagesse).</li></ul>
+</details>
+  </div>
+</div>
 </div>
 
 </div>

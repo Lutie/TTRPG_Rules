@@ -30,25 +30,67 @@ nav:
   - Extension Magie:
     - "Extension de l'Univers": magie-ext/univers/extension-de-l-univers.md
     - "Détails de l'Extension":
-      - "Généralités": magie-ext/details/generalites.md
-      - "Les Traditions de Magies": magie-ext/details/les-traditions-de-magies.md
-      - "Domaines de Magie": magie-ext/details/domaines-de-magie.md
-      - "Écoles de Magie": magie-ext/details/ecoles-de-magie.md
-      - "Les Différents Sorts": magie-ext/details/les-differents-sorts.md
-      - "L'Usage de la Magie": magie-ext/details/l-usage-de-la-magie.md
-      - "Le Drain de Mana": magie-ext/details/le-drain-de-mana.md
-      - "La Brûlure de Mana": magie-ext/details/la-brulure-de-mana.md
-      - "La Magie lors d'une Confrontation": magie-ext/details/la-magie-lors-d-une-confrontation.md
-      - "Les Sorts": magie-ext/details/les-sorts.md
-      - "Traditions de Magie": magie-ext/details/traditions-de-magie.md
-      - "Les Effets d'un Sort": magie-ext/details/les-effets-d-un-sort.md
-      - "Les Eléments": magie-ext/details/les-elements.md
-      - "Les Particularités d'un Sort": magie-ext/details/les-particularites-d-un-sort.md
-      - "Les Rituels": magie-ext/details/les-rituels.md
-      - "Création et apprentissage des Sorts": magie-ext/details/creation-et-apprentissage-des-sorts.md
-      - "Liste des Manœuvres Incantatoires": magie-ext/details/liste-des-man-uvres-incantatoires.md
-      - "Liste des Styles Incantatoires": magie-ext/details/liste-des-styles-incantatoires.md
-      - "Équipements Magiques": magie-ext/details/equipements-magiques.md
+      - "Généralités": magie-ext/details-de-l-extension/generalites.md
+      - "Les Traditions de Magie":
+        - "Tradition Académique": magie-ext/details-de-l-extension/tradition-academique.md
+        - "Tradition Hermétique": magie-ext/details-de-l-extension/tradition-hermetique.md
+        - "Tradition Profane": magie-ext/details-de-l-extension/tradition-profane.md
+        - "Tradition Shamanique": magie-ext/details-de-l-extension/tradition-shamanique.md
+        - "Tradition Artistique": magie-ext/details-de-l-extension/tradition-artistique.md
+      - "Les Domaines de Magie":
+        - "Vue d'ensemble": magie-ext/details-de-l-extension/les-domaines-de-magie.md
+        - "Les Éléments": magie-ext/details-de-l-extension/les-elements.md
+        - "🔥 Feu": magie-ext/details-de-l-extension/le-domaine-du-feu.md
+        - "❄️ Froid": magie-ext/details-de-l-extension/le-domaine-du-froid.md
+        - "⚡ Foudre": magie-ext/details-de-l-extension/le-domaine-de-la-foudre.md
+        - "🪨 Terre": magie-ext/details-de-l-extension/le-domaine-de-la-terre.md
+        - "💧 Eau": magie-ext/details-de-l-extension/le-domaine-de-l-eau.md
+        - "🌪️ Air": magie-ext/details-de-l-extension/le-domaine-de-l-air.md
+        - "☀️ Lumière": magie-ext/details-de-l-extension/le-domaine-de-la-lumiere.md
+        - "🌑 Ombre": magie-ext/details-de-l-extension/le-domaine-de-l-ombre.md
+        - "⚖️ Loi": magie-ext/details-de-l-extension/le-domaine-de-la-loi.md
+        - "🌀 Chaos": magie-ext/details-de-l-extension/le-domaine-du-chaos.md
+        - "✨ Sacré": magie-ext/details-de-l-extension/le-domaine-sacre.md
+        - "🩸 Impie": magie-ext/details-de-l-extension/le-domaine-impie.md
+        - "❤️ Vie": magie-ext/details-de-l-extension/le-domaine-de-la-vie.md
+        - "☠️ Mort": magie-ext/details-de-l-extension/le-domaine-de-la-mort.md
+        - "⚕️ Corps": magie-ext/details-de-l-extension/le-domaine-du-corps.md
+        - "🧠 Esprit": magie-ext/details-de-l-extension/le-domaine-de-l-esprit.md
+        - "🐗 Faune": magie-ext/details-de-l-extension/le-domaine-de-la-faune.md
+        - "🌿 Flore": magie-ext/details-de-l-extension/le-domaine-de-la-flore.md
+        - "🧩 Mental": magie-ext/details-de-l-extension/le-domaine-du-mental.md
+        - "⚜️ Charme": magie-ext/details-de-l-extension/le-domaine-des-charmes.md
+        - "✡️ Arcane": magie-ext/details-de-l-extension/le-domaine-des-arcanes.md
+        - "🔮 Magie": magie-ext/details-de-l-extension/le-domaine-de-la-magie.md
+        - "🪷 Nature": magie-ext/details-de-l-extension/le-domaine-de-la-nature.md
+        - "☢️ Toxique": magie-ext/details-de-l-extension/le-domaine-toxique.md
+        - "🎭 Illusion": magie-ext/details-de-l-extension/le-domaine-des-illusions.md
+        - "📚 Savoir": magie-ext/details-de-l-extension/le-domaine-du-savoir.md
+        - "👁️ Vision": magie-ext/details-de-l-extension/le-domaine-des-visions.md
+        - "⚔️ Acier": magie-ext/details-de-l-extension/le-domaine-de-l-acier.md
+        - "🛡️ Guerre": magie-ext/details-de-l-extension/le-domaine-de-la-guerre.md
+        - "💢 Vide": magie-ext/details-de-l-extension/le-domaine-du-vide.md
+      - "Les Écoles de Magie": magie-ext/details-de-l-extension/les-ecoles-de-magie.md
+      - "Les Différents Sorts": magie-ext/details-de-l-extension/les-differents-sorts.md
+      - "Les Particularités d'un Sort": magie-ext/details-de-l-extension/les-particularites-d-un-sort.md
+      - "L'Usage de la Magie": magie-ext/details-de-l-extension/l-usage-de-la-magie.md
+      - "Le Drain de Mana": magie-ext/details-de-l-extension/le-drain-de-mana.md
+      - "La Brûlure de Mana": magie-ext/details-de-l-extension/la-brulure-de-mana.md
+      - "La Magie lors d'une Confrontation": magie-ext/details-de-l-extension/la-magie-lors-d-une-confrontation.md
+      - "Les Rituels": magie-ext/details-de-l-extension/les-rituels.md
+      - "Création et apprentissage des Sorts": magie-ext/details-de-l-extension/creation-et-apprentissage-des-sorts.md
+      - "Règles Avancées": magie-ext/details-de-l-extension/les-regles-avancees.md
+      - "Effets de Zone Élémentaires": magie-ext/details-de-l-extension/les-effets-de-zone.md
+      - "Enchantements Élémentaires": magie-ext/details-de-l-extension/les-enchantements-elementaires.md
+      - "Équipements Magiques":
+        - "La Matière Première": magie-ext/details-de-l-extension/la-matiere-premiere.md
+        - "Le Matériel": magie-ext/details-de-l-extension/le-materiel.md
+        - "Les Accessoires": magie-ext/details-de-l-extension/les-accessoires.md
+        - "Les Artefacts": magie-ext/details-de-l-extension/les-artefacts.md
+        - "Les Colifichets": magie-ext/details-de-l-extension/les-colifichets.md
+        - "Les Consommables": magie-ext/details-de-l-extension/les-consommables.md
+        - "Les Instruments": magie-ext/details-de-l-extension/les-instruments.md
+        - "Les Outils": magie-ext/details-de-l-extension/les-outils.md
     - "Mots de Pouvoir":
       - "École de Destruction": mots-de-pouvoir/destruction.md
       - "École de Restauration": mots-de-pouvoir/restauration.md

@@ -1,5 +1,16 @@
 ## Le Domaine du Corps
 
+**Propriétés du domaine**
+
+| | |
+|---|---|
+| **Attributs d'accès** | SAG · CHA |
+| **Attributs affectés** | Les 5 Corps, Stature, Taille |
+| **Ressource (+)** | Vitalité (PV) |
+| **Ressource (−)** | Vitalité (PV) |
+| **Caractéristiques** | Récupération Physique ×1, Robustesse, Réflexes |
+
+
 Domaine de magie Royaume des muscles, des os et du sang vibrant, le Corps mortel sculpte effort, douleur et vigueur, ploie, se brise, se régénère, porte les coups du monde et rend chaque geste réel.
 
 Le Corps gouverne tout ce qui est physique : les attributs du corps (FOR, CON, DEX, AGI, PER), la vitalité et l’endurance (PV, PC, PE), la stature, la taille, la charge supportable, ainsi que les conditions et compétences physiques (blessures, efforts, athlétisme, discipline, etc.), et la manière dont le monde matériel marque ou protège la chair.

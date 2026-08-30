@@ -25,3 +25,50 @@ Améliorations:
 • Sauvegarde adversaire désavantagés (pour les debuffs)
 • Portée supérieure (proximité => zone)
 
+
+Archétype des Pièges
+Pas de méthode (donc pas d'action spécifique)
+Rang 1 : Un avantage parmis la liste
+Rang 2 : Un avantage parmis la liste
+Rang 3 : Un avantage parmis la liste
+Rang 4 : Un avantage parmis la liste
+Rang 5 : Un avantage parmis la liste
+Avantages:
+* Les pièges posés par le personnage ne sont pas déclanchés par ses alliés
+* Si les pièges posés par le personnage ne sont pas repéré les cibles affectées sont désavantagé à leurs tests de réflexe 
+* Lorsque le personnage désamorçe un piège ce dernier n'est pas consommé et peut être réutilisé, si cela se reproduit il sera alors détruit normalement
+* Le jet des pièges est doublement assuré (minimum des dés 3)
+* Les pièges simples peuvent être placé à une distance de 5 + modificateur de Perception à la place de devoir être placé sur place
+* La zone de déclanchemenes pièges du personnes est désormais un cran plus large (s'il s'agit d'une case cela deviens 3x3, s'il s'agissait déjà de 3x3 cela deviens 5x5, etc)
+* Si le personnage est le créateur du piège qu'il utilise il reçoit un bonus d'ajustement de 2 à l'usage
+
+Archétypes des Bombes
+Pas de méthode (donc pas d'action spécifique)
+Rang 1 : Un avantage parmis la liste
+Rang 2 : Un avantage parmis la liste
+Rang 3 : Un avantage parmis la liste
+Rang 4 : Un avantage parmis la liste
+Rang 5 : Un avantage parmis la liste
+Avantages:
+* Les alliés pris dans une zone d'explosion issus d'un explosif utilisé par le personnage obtiennent un avantage leurs tests de sauvegarde
+* Lorsque le personnage fait usage d'un explosif il est en mesure de modifier la zone de propagation de l'explosion, au lieu de 3x3 ou 5x5 (selon type d'explosif) ce dernier peux devenir une cône allant dans un sens unique en doublant la portée (dédidé au moment du lancé de l'explosif ou à l'installation le cas échéant)
+* Le personnage voit sa portée de lancer doublée lorsqu'il s'agit d'explosif
+* Le jet des explosifs est doublement assuré (minimum des dés 3)
+* Si l'explosif employé par le personnage explose dans la zone d'un autre explosif alors ce dernier s'active également
+* La portée des explosifs augmente d'un cran plus large (s'il s'agit d'une case cela deviens 3x3, s'il s'agissait déjà de 3x3 cela deviens 5x5, etc)
+* Si le personnage est le créateur de l'explosif qu'il utilise il reçoit un bonus d'ajustement de 2 à l'usage
+
+Archétypes du Soigneur
+Pas de méthode (donc pas d'action spécifique)
+Rang 1 : Un avantage parmis la liste
+Rang 2 : Un avantage parmis la liste
+Rang 3 : Un avantage parmis la liste
+Rang 4 : Un avantage parmis la liste
+Rang 5 : Un avantage parmis la liste
+Avantages:
+* Lorsque le personnage fait usage d'un objet consommable de soin il reçoit 1 PK temporaire, 2 si l'objet est utilisé une allié plutôt que lui même 
+* Le jet lié à des objets consommables de soin est doublement assuré (minimum des dés 3)
+* Les objets consommables de soin peuvent être placé à une distance de 5 + modificateur de Perception à la place de devoir être utilisé à proximité
+* Si le personnage est le créateur de l'objet consommable qu'il utilise alors ce dernier génère un point de fatigue et/ou corruption en moins
+* Lorsque le personnage fait usage d'un objet consommable de soin et qu'une partie des soins en question dépasse le maximum des ressoures de la cible, cette dernière reçoit l'exédant sous forme de ressource temporaire (maximum 5+mSAG)
+

@@ -2883,12 +2883,12 @@
     "avantage_mineur_bonus": false
   },
   {
-    "id": "habitue-e-a-une-competence",
-    "nom": "Habitué.e à « une Compétence »",
+    "id": "habitudes",
+    "nom": "Habitudes",
     "type": "avantage_majeur",
     "coutPP": 1,
     "rangMax": 2,
-    "description": "Le personnage a développé une habitude si marquée dans l’usage d’une compétence qu’il en accomplit les actions associées avec une aisance déconcertante. Lorsqu’une action requiert une Action Simple et une Action Libre, il peut désormais effectuer celle-ci plus simplement et/ou rapidement : l’action libre n’est plus nécessaire. Les actions complexes ne sont pas affectées. Le choix de l’habitude se fait via une compétence précise. Par exemple, être habitué à la compétence Commandement permet de supprimer l’action libre nécessaire pour les actions Commander et Ordonner.\nChoix possibles : Une compétence, idéalement associée à des actions de confrontation requérant une Action Simple + Libre.",
+    "description": "Le personnage a développé une maîtrise instinctive d’un type d’action, au point de ne plus avoir besoin du temps supplémentaire que cela requiert habituellement. Selon la règle spéciale Habitude (voir le compendium des actions), cela supprime l’action libre requise par certaines actions (◆◇ → ◆) ou réduit d’un cran les actions complexes (◆ → ◇).\nLes habitudes s’appliquent à un domaine précis, pas à une compétence.\nChoix possibles : Coordination, Expression, Cognitif, Préparation, Soin, Incantation, Arcanes.",
     "categories": [
       "Habitude",
       "Général"
@@ -2896,7 +2896,7 @@
     "sous_section": "Confrontations",
     "prerequis": null,
     "conditions": [],
-    "multiples_instances": "Chaque instance concerne un choix différent",
+    "multiples_instances": "Chaque instance concerne un domaine différent",
     "limitation": null,
     "avantage_mineur_bonus": false
   },
@@ -7462,74 +7462,6 @@
     "conditions": [],
     "multiples_instances": null,
     "limitation": null
-  },
-  {
-    "id": "bon-ne-maitre-sse",
-    "nom": "Bon.ne Maître.sse",
-    "type": "avantage_majeur",
-    "coutPP": 1,
-    "rangMax": 1,
-    "description": "Le personnage sait s’occuper de son/ses compagnon.s.\nCes derniers ont une récupération naturelle augmentée de 2.\nDe plus, le personnage est avantagé à ses tests d’apprentissage visant son ou ses compagnons animaux.",
-    "categories": [],
-    "sous_section": null,
-    "prerequis": null,
-    "conditions": [
-      "Archétype du Compagnon animal ou Archétype du Compagnon"
-    ],
-    "multiples_instances": null,
-    "limitation": null,
-    "avantage_mineur_bonus": false
-  },
-  {
-    "id": "presence-envahissante",
-    "nom": "Présence Envahissante",
-    "type": "avantage_majeur",
-    "coutPP": 1,
-    "rangMax": 1,
-    "description": "Lorsque le personnage provoque l’inspiration ou l’exhortation négative il le fait avec une catégorie de plus.",
-    "categories": [],
-    "sous_section": null,
-    "prerequis": null,
-    "conditions": [
-      "Archétype de l’Inspiration ou Archétype de l’Exhortation"
-    ],
-    "multiples_instances": null,
-    "limitation": null,
-    "avantage_mineur_bonus": false
-  },
-  {
-    "id": "presence-exaltante",
-    "nom": "Présence Exaltante",
-    "type": "avantage_majeur",
-    "coutPP": 1,
-    "rangMax": 1,
-    "description": "Lorsque le personnage provoque l’inspiration ou l’exhortation positive il le fait avec une catégorie de plus.",
-    "categories": [],
-    "sous_section": null,
-    "prerequis": null,
-    "conditions": [
-      "Archétype de l’Inspiration ou Archétype de l’Exhortation"
-    ],
-    "multiples_instances": null,
-    "limitation": null,
-    "avantage_mineur_bonus": false
-  },
-  {
-    "id": "sens-de-la-performance",
-    "nom": "Sens de la Performance",
-    "type": "avantage_majeur",
-    "coutPP": 1,
-    "rangMax": 1,
-    "description": "Le personnage est capable de réaliser des performances notables et développe des aptitudes très particulières dans ce domaine.\nA chaque rangs le personnage peux choisir un des effets suivants :\n- Les actions de Chanter/Danser/Jouer une performance peut inclure 1 attributs de plus (peux être pris jusqu’à 2 fois pour un total de 3 attributs).\n- Les actions  de Chanter/Danser/Jouer durent jusqu’à la fin de la scène.\n- L’action Inspirer peut affecter toutes les cibles présentes dans la scène, cependant le test est alors désavantage.",
-    "categories": [],
-    "sous_section": null,
-    "prerequis": null,
-    "conditions": [
-      "Archétype de l’Inspiration ???"
-    ],
-    "multiples_instances": null,
-    "limitation": null,
-    "avantage_mineur_bonus": false
   },
   {
     "id": "ressource-accrue",
