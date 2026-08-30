@@ -755,7 +755,3 @@ Certaines règles font référence à des niveaux de distance plutôt qu’à de
 | 7 | Continent | Masse terrestre majeure. |
 | 8 | Monde | Planète ou réalité principale. |
 | 9 | Transcendant | Au-delà des limites du monde, ignore les frontières physiques ou planaires. |
-
-### Limitations
-
-Certaines règles utilisent des mentions simplifiées pour les distances lorsqu’il

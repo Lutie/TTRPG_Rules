@@ -155,7 +155,7 @@ La valeur associée à cet avantage représente le gain en point d’attribut (P
 
 #### Bonus d’ajustement de Sauvegardes
 
-Une caste dispose d’une sauvegarde majeure et deux sauvegardes mineures, le reste étant des sauvegardes hors caste. Le bonus d’ajustement de sauvegarde est exprimé sous la forme +X/+Y/+Z où X est le bonus (à l’attribut) lorsqu’il s’agit de calculer les sauvegardes majeures, Y pour les sauvegardes mineures et Z les sauvegardes hors caste. Le bonus augmente directement l’attribut pour ces tests, ce qui peut permettre un meilleur modificateur.
+Une caste dispose d’une sauvegarde majeure et d’une ou plusieurs sauvegardes mineures, le reste étant des sauvegardes hors caste. Les castes de base ont une majeure et une mineure ; d’autres castes peuvent avoir des dispositions différentes (plusieurs mineures, par exemple). Le bonus d’ajustement de sauvegarde est exprimé sous la forme +X/+Y/+Z où X est le bonus (à l’attribut) lorsqu’il s’agit de calculer les sauvegardes majeures, Y pour les sauvegardes mineures et Z les sauvegardes hors caste. Le bonus augmente directement l’attribut pour ces tests, ce qui peut permettre un meilleur modificateur.
 
 #### Max Attribut de Caste
 

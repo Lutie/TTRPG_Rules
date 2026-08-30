@@ -6,7 +6,7 @@
 Score = Arme + Armure + Σ(Spéciaux) + (Sta + Tai + Ego + App) / 2
 ```
 
-**Cible : 4 à 5 points.** Les modificateurs Sta/Tai/Ego/App/Chance/Équilibre (colonnes étendues) sont une soupape : si une créature a besoin de valeurs élevées dans ces attributs sans contrepartie en Arme/Armure/Spéciaux, ils s'appliquent en bonus de modificateur en jeu (hors formule).
+**Cible : 4 à 5 points.** Les modificateurs Sta/Tai/Ego/App/Chance/Équilibre (colonnes étendues) sont une soupape : si une créature a besoin de valeurs élevées dans ces attributs sans contrepartie possible en Arme/Armure/Spéciaux, ils s'appliquent en bonus de modificateur en jeu (hors formule).
 
 Pour les stats (+/-) : viser **3 à 4 bonus** et **3 à 4 malus** par profil.
 
@@ -16,13 +16,13 @@ Pour les stats (+/-) : viser **3 à 4 bonus** et **3 à 4 malus** par profil.
 
 | Colonne | Description |
 |---|---|
-| Arme | Valeur d'arme (0 = inerme, 5 = armement lourd) |
-| Armure | Valeur de protection (0 = nue, 5 = plein acier) |
-| Sta / Tai / Ego / App | Stature / Taille / Ego / Apparence — modificateurs physiques et sociaux |
-| Spécial | Capacités d'orientation du gameplay (1–3, jamais plus) |
+| Arme | Valeur d'arme (0 = inerme, 5 = armement lourd, pour des monstres évidemment on parle pas de type d'équipement mais de létalité des armes naturelles avec un minimum de 0 pour un lapin et 6 pour la plus terrible créature en matière d'arme naturelle (mais qui doit avoir un coté massif pour expliquer l'impact négatif d'avoir une catégorie élevée intrinsèque aux règles)) |
+| Armure | Valeur de protection (0 = nue, 5 = plein acier, pour les monstres évidemment on parle pas de type d'équipement mais de peau, minimum pour une peau qui ne protège pas genre lapin, peau souple 0, cuir souple à dure 1~2, écailles simples à lourde 3~4, roche ou autre minéral ou autre forme de peau très solide 5~6) |
+| Sta / Tai / Ego / App | Stature / Taille / Ego / Apparence — modificateurs physiques et sociaux, globalement donc ça vaux deux fois moins que d'avoir une catégorie haute quelque part |
+| Spécial | Capacités d'orientation du gameplay (1–3, jamais plus), le nombre vaux autant qu'une catégorie à quelque chose d'ailleurs parfois ça fix la catégorie d'armes alternatives |
 | Capacités | Deux capacités passives : une de Type, une d'Archétype |
 | Compétences P | Groupe de compétence principal |
-| Compétences S | Groupe de compétence secondaire |
+| Compétences S | Groupe de compétence secondaire, probablement en mettre deux pour permettre plus de variété |
 | FO DX AG CO PE CA IN RU VL SG CH EQ MG | Bonus (+) ou malus (-) aux attributs du personnage invoquant |
 
 ---
@@ -60,7 +60,7 @@ Les invocations héritent des propriétés de règne du bestiaire. Le niveau {x}
 
 | Type invoc | Règne bestiaire | Attributs | Particularité 1 | Particularité 2 |
 |---|---|---|---|---|
-| **Élémentaire** | Élémentaire | Boost/deboost selon élément + force/faiblesse | Mana surnaturelle {N} | Magie élémentaires/énergies {N} |
+| **Élémentaire** | Élémentaire | Boost/deboost selon élément (+2 aux attributs de son élément et -2 aux attributs de son élément, pour ça il faut un peu consulter les chartes élémentaires et concocter un tableau récap ici) + résistances/faiblesses | Mana surnaturelle {N} | Magie élémentaires/énergies {N} |
 | **Empyréen** | Primordial | Boost tout, Équilibre /= 2 | Karma surnaturelle {N} | Magie divin/occulte {N} |
 | **Hypogéen** | Primordial | Boost tout, Équilibre /= 2 | Karma surnaturelle {N} | Magie divin/occulte {N} |
 | **Esprit** | Sylvestre | Deboost tous attributs, double boost Chance/Équilibre | Opposition +{N} | — |
@@ -83,28 +83,58 @@ Chaque type a une capacité passive propre qui s'ajoute par-dessus les propriét
 | Type | Capacité de Type | Déclencheur |
 |---|---|---|
 | **Élémentaire** | *Corps Élémentaire* — résistance +2N contre son élément fort, faiblesse +2N contre son élément faible ; dégâts de corps à corps full élémentaires +N ; Endurance +2N | Passif permanent |
-| **Empyréen** | *Aura de Vertu* — octroie un statut positif propre à la vertu (catégorie N = 2+N dés 8) à tous les alliés dans la zone | Entrée dans la zone (alliés) |
-| **Hypogéen** | *Aura de Vice* — inflige un statut négatif propre au vice (catégorie N, sauvegarde selon le statut) à tous les ennemis dans la zone | Entrée dans la zone (ennemis) |
+| **Empyréen** | *Aura de Vertu* — octroie une condition positive propre à la vertu (catégorie N = 2+N dés 8) à tous les alliés dans la zone, une fois par allié et déclanché seulement s'il le souhaite | Entrée dans la zone (alliés) |
+| **Hypogéen** | *Aura de Vice* — inflige une condition négative propre au vice (catégorie N = 2+N dés 8), sauvegarde selon le statut (expertise capacité 10+mVOL) à tous les ennemis dans la zone, une fois par allié et déclanché seulement s'il le souhaite | Entrée dans la zone (ennemis) |
 | **Esprit** | *Fuyant* — une fois par tour, gagne un bonus de 2N en défenses contre une action de combat (attaque ou tactique) ciblant l'esprit | Réaction à une attaque/tactique |
-| **Zodiaque** | *Influence Astrologique* — bonus de N aux jets liés aux deux domaines du signe (voir liste par archétype) ; leurs attaques affectent le mental plutôt que le physique (Maladie mentale {N} via Spectral) | Passif permanent |
-| **Guerrier** | *Bouclier vivant* — les défenses passives du guerrier sont augmentées de N (flat), car son rôle est d'encaisser à la place de l'invocateur | Passif permanent |
-| **Bête** | *Instinct Animal* — Perception +N, Initiative +N ; ne peut jamais être surprise | Passif permanent |
-| **Flore** | *Racines* — peut s'ancrer pour immobiliser une cible adjacente (force = N) | Déclenchement sur contact adjacent |
+| **Zodiaque** | *Influence Astrologique* — bonus de N aux jets liés aux deux domaines du signe (voir liste par archétype), bonus d'ajustement de 2N à une sauvegarde lié au signe puis de N à deux autres sauvegardes | Passif permanent |
+| **Guerrier** | *Bouclier vivant* — les défenses passives (physiques) du guerrier sont augmentées de N (flat), car son rôle est d'encaisser à la place de l'invocateur | Passif permanent |
+| **Bête** | *Instinct Animal* — Perception +N, Initiative +N | Passif permanent |
+| **Flore** | *Racines* — absorption +2N (annulé par le feu) | Déclenchement sur contact adjacent |
 | **Arcane** | *Immanence* — sa présence altère la réalité selon sa carte (Immunité {N} + Implacable {N} du règne Maudit ; condition spécifique à chaque arcane) | Passif permanent |
-| **Objet** | *Inanimé* — insensible à la douleur, à la peur et aux effets mentaux ; ne peut pas être soigné mais peut être réparé | Passif permanent |
-| **Chimère** | *Nature Composite* — cumule deux capacités de Type issues de ses natures mélangées | Passif permanent |
+| **Objet** | *Inanimé* — solidité +N | Passif permanent |
+| **Chimère** | *Nature Composite* — selon le type de chimère dispose de plusieurs points vitaux, chacuns disposant d'une fraction des PE et PV de la créature | Passif permanent |
 
 ---
 
 ## Inspirations par Archétype
 
-### ÉLÉMENTAIRE *(complet)*
-Profils déjà définis dans la feuille.
+### ÉLÉMENTAIRE — Serviteurs élémentaires
+
+Profils chiffrés déjà dans la feuille (Arme, Armure, Sta/Tai/Ego/App, Spécial, Compétences, +/-). **Manque : la Capacité d'Archétype.** Chaque mot-clé est un *rôle* ; l'élément est choisi à l'invocation et géré par la Capacité de Type (*Corps Élémentaire*). La capacité d'archétype encode donc le rôle. `N` = niveau du sort d'invocation.
+
+| Archétype | Rôle | Compétences (P · S) | Spécial | Capacité d'Archétype (proposition) |
+|---|---|---|---|---|
+| Élémentaire | Polyvalent, sans spécialité (tous attributs +2) | — | — | *Affinité Modelée* — à l'invocation, l'invocateur choisit un groupe de compétence : l'élémentaire gagne +N à ce groupe pour toute sa durée. |
+| Titan | Attaque brute | Attaque · Tactique | — | *Écrasement* — ses attaques infligent une **attrition** de N (dégâts d'endurance appliqués même sur défense adverse réussie) ; +N aux jets de dégâts. |
+| Golem | Défense / encaissement | Défense · Tactique | — | *Inertie Minérale* — **absorption** physique +2N ; ne peut être déplacé de force si la marge de réussite du test tactique adverse est < 2N. |
+| Juggernaut | Contrôle tactique | Tactique · Défense | — | *Élan Irrésistible* — +N à l'**impact** de ses actions tactiques ; une cible qu'il déplace ou renverse subit N dégâts de son élément. |
+| Sentinelle | Tireur d'élite | Archerie · Acuité | Tir 3 | *Ligne de Mire* — ignore le désavantage de portée longue ; +N aux jets contre une cible qui n'a pas encore agi ce round. |
+| Messager | Duelliste verbal | Éloquence · Entregent | — | *Passe d'Armes Verbale* — sa **zone d'influence active** est augmentée de N (opportunités en joute) ; +N aux jets de tirade offensive. |
+| Diplomate | Vecteur social | Arguments · Résolution | — | *Sceau de Confiance* — tant qu'il est présent et non réduit au silence, l'invocateur et les alliés dans la zone gagnent +N aux tests d'éloquence / entregent. |
+| Destrier | Mobilité / monture | Athlétisme · Discipline | Monture 2 | *Foulée Élémentaire* — +N cases à l'allure ; ignore les terrains difficiles de son élément ; si le Destrier parcourt ≥ N cases, son cavalier ne déclenche pas d'opportunité en rompant le contact. |
+| Brute | Pugilat / lutte | Mêlée · Jet | — | *Cogneur* — ses attaques à mains nues comptent comme catégorie +2 pour l'allonge et les actions tactiques ; +N aux jets de saisie et de lutte. |
+| Assistant | Aide intellectuelle | Érudition · Enquête | — | *Second Regard* — le bonus d'aide de l'Assistant est majoré de N ; une fois par test, l'invocateur relance un dé raté d'un test mental fait à portée de mots. |
+| Expert | Aide manuelle fine | Savoir-Faire · Larcin | — | *Mains Guidées* — bonus d'ajustement de N aux tests de DX / savoir-faire de l'invocateur à portée de contact ; **adresse** +N sur ces tests. |
+| Espion | Ombres / contre-embuscade | Discrétion · Subterfuge | — | *Œil dans le Dos* — l'invocateur et les alliés dans la zone ne peuvent être pris en embuscade ni attaqués en traître ; révèle passivement toute créature dissimulée de discrétion ≤ (rang de l'Espion + N). |
+| Molosse | Poursuite / traque | Athlétisme · Mêlée | — | *Traque Tenace* — une cible qu'il a blessée est « marquée » pour la scène ; +N aux jets d'attaque et de déplacement contre une cible marquée, dont il ignore les couverts pour la pister. |
+| Éclaireur | Exploration / vigie | Acuité · Survies | Tir 2 | *Reconnaissance* — partage ses sens avec l'invocateur sur 10 × N² m ; +N aux tests d'orientation et de survie du groupe tant qu'il est déployé. |
+| Totem | Conditions à distance | Tactique · Tir | Statique, Tir 2 | *Ancrage Rayonnant* — tant qu'il ne s'est pas déplacé : portée de tir doublée, et ses tirs qui touchent appliquent une condition de son élément de catégorie N (sauvegarde contre son expertise, pas de jet de dégâts). |
+| Sylphide | Relais magique | Domaine (magie) · Arcanes | Focus 3 | *Canalisation* — réduit de N le **Drain** des sorts du domaine de la Sylphide lancés par l'invocateur à portée de mots ; absorbe une fois par round N charges d'un enchantement hostile visant l'invocateur. |
+
+> Golem *Inertie Minérale* et Guerrier *Bouclier vivant* ne se recouvrent pas : l'un joue sur l'absorption, l'autre sur la défense passive flat.
 
 ---
 
-### ESPRIT *(complet)*
-Pixies des quatre saisons, focus magique sur leur domaine élémentaire saisonnier.
+### ESPRIT — Pixies des quatre saisons
+
+Profils chiffrés déjà dans la feuille (Arme 0 / Armure 0, Sta -3 / Tai -3 / Ego 3 / App 3, Focus 2, Vol). Capacité de Type = *Fuyant*. **Manque : la Compétence secondaire (`?` dans la feuille) et la Capacité d'Archétype.** `N` = niveau du sort d'invocation.
+
+| Archétype | Saison | Domaines | Capacité d'Archétype (proposition) |
+|---|---|---|---|
+| Pixie (été) | Été | Feu · Terre | *Braise Estivale* — les sorts de Feu ou de Terre lancés à portée de mots infligent +N dégâts ; les alliés dans la zone ont résistance N au Froid. |
+| Pixie (automne) | Automne | Foudre · Poison | *Décomposition* — les sorts de Foudre ou de Poison lancés à portée de mots appliquent +N charges à leurs conditions ; un ennemi qui entre dans la zone subit N dégâts de poison (sauvegarde Réflexes vs expertise de la pixie). |
+| Pixie (hiver) | Hiver | Froid · Air | *Morsure Blanche* — les sorts de Froid ou d'Air lancés à portée de mots réduisent de N l'allure et la hâte des cibles touchées ; la pixie et les alliés adjacents gagnent +N en défense passive contre les attaques à distance. |
+| Pixie (printemps) | Printemps | Flore · Eau | *Renouveau* — au début de chaque round, un allié blessé dans la zone récupère N PV ; les sorts de Flore ou d'Eau lancés à portée de mots voient leur niveau augmenté de N. |
 
 ---
 
@@ -114,15 +144,15 @@ Créatures de soutien et de bénédiction. Faible en combat direct, puissantes e
 
 | Archétype | Inspiration | Domaines | Note Lutie |
 |---|---|---|---|
-| Chasteté | Pureté de l'esprit, résistance aux corruptions mentales ; bouclier contre la manipulation | Défense · Discipline | - |
-| Tempérance | Modération, équilibre des extrêmes ; atténue à la fois les pics de dégâts et les déficits | Représentation · Analyse | - |
-| Charité | Don sans retour, soin, compassion ; transfère ses propres ressources aux alliés | Guérison · Inspiration | - |
-| Diligence | Travail acharné, persistance ; augmente l'endurance et la capacité d'action des alliés | Discipline · Athlétisme | - |
-| Patience | Tolérance face à l'adversité ; absorbe les effets négatifs destinés aux alliés | Défense · Représentation | - |
-| Bonté | Générosité inconditionnelle ; partage ses bonus avec tous les alliés dans la zone | Inspiration · Éloquence | - |
-| Humilité | Reconnait ses limites et celles des autres ; réduit les bonus excessifs des ennemis | Analyse · Connaissances | - |
-| Droiture | Justice et vérité ; révèle les tromperies et les invisibles dans la zone | Enquête · Connaissances | - |
-| Courage | Bravoure face au danger ; immunise les alliés proches à la peur et booste l'offensive | Communication · Combat | - |
+| Chasteté | Pureté de l'esprit, résistance aux corruptions mentales ; bouclier contre la manipulation | Défense · Discipline | En gros l'effet devrait être un bonus aux alliés à proximité de N aux défenses (phy ou mentale) |
+| Tempérance | Modération, équilibre des extrêmes ; atténue à la fois les pics de dégâts et les déficits | Représentation · Analyse | Réduit de 2N la cricité des adversaires (ils ont besoin de 3N de marge de réussite en plus pour réussir un critique) pour les alliés dans la zone |
+| Charité | Don sans retour, soin, compassion ; transfère ses propres ressources aux alliés | Guérison · Inspiration | A tout moment un allié à proximité peux puiser jusqu'à N de ses ressources non temporaires |
+| Diligence | Travail acharné, persistance ; augmente l'endurance et la capacité d'action des alliés | Discipline · Athlétisme | Les alliés à proximité ont une hâte de +N |
+| Patience | Tolérance face à l'adversité ; absorbe les effets négatifs destinés aux alliés | Défense · Représentation | Les alliés voient les charges des conditions et enchantements réduits de 2N  |
+| Bonté | Générosité inconditionnelle ; partage ses bonus avec tous les alliés dans la zone | Inspiration · Éloquence | Une fois par tour la créature aide un allié dans la zone en réaction et le fait avec un bonus de N à ton test d'aide |
+| Humilité | Reconnait ses limites et celles des autres ; réduit les bonus excessifs des ennemis | Analyse · Connaissances |  Une fois par tour la créature permet à un allié dans la zone en réaction à ce que son rang de compétence + groupe égal celui d'un autre individus dans la zone |
+| Droiture | Justice et vérité ; révèle les tromperies et les invisibles dans la zone | Enquête · Connaissances | Dégats de dégats reçus des alliés à proximité réduits de N |
+| Courage | Bravoure face au danger ; immunise les alliés proches à la peur et booste l'offensive | Communication · Combat | Jets de dégats des alliés à proximité augmentés de N |
 
 ---
 
@@ -270,6 +300,11 @@ Pas de corps, juste l'arme. Statique ou mobile selon l'objet. Insensibles aux ef
 
 - [ ] Valider les inspirations ci-dessus
 - [ ] Définir les Capacités d'Archétype pour chaque entrée
+  - [ ] Élémentaire, Esprit — propositions faites, à valider
+  - [ ] Empyréen — cadrées par les notes Lutie, à formaliser
+  - [ ] Hypogéen, Zodiaque, Arcane, Guerrier, Bête, Flore, Chimère, Objet — à faire
+- [ ] Trancher la Compétence secondaire des Pixies (`?` dans la feuille)
 - [ ] Remplir les stats (Arme, Armure, Spéciaux, Sta/Tai/Ego/App, +/-, Compétences)
 - [ ] Compléter la liste Chimère
+- [ ] Reporter les Capacités de Type + d'Archétype validées dans la colonne `Capacités` du XLSX (vide sur toutes les lignes actuellement)
 - [ ] Reporter les profils validés dans le fichier XLSX
