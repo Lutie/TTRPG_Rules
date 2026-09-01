@@ -7742,6 +7742,40 @@ header h1 {
   color: var(--color-positive);
 }
 
+.ethnie-extra-particularites {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.ethnie-extra-particularite {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ethnie-extra-pill--nom {
+  font-weight: 600;
+  background: color-mix(in srgb, var(--color-accent) 8%, var(--color-bg-dark));
+  border-color: color-mix(in srgb, var(--color-accent) 25%, var(--color-border));
+  color: var(--color-text);
+}
+
+.ethnie-extra-pill--nom.has-desc {
+  cursor: help;
+  border-style: dashed;
+}
+
+.ethnie-extra-pills--details {
+  padding-left: 8px;
+}
+
+.ethnie-extra-pill--detail {
+  font-style: italic;
+  opacity: 0.85;
+}
+
 .picker-no-results {
   padding: 16px;
   text-align: center;

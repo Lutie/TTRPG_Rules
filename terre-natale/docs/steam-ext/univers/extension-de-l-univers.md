@@ -88,11 +88,14 @@ Cette extension ajoute un certain nombre d’avantages et désavantages. Retrouv
 
 Cette extension ajoute un certain nombre de caractéristiques.
 
-#### La Créativité
+#### Les Points d’Ingéniosité (PI)
 
-La créativité est une ressource unique. La Créativité représente la capacité du personnage à produire un travail hors norme, qui ne peut être réalisé par n’importe qui, n’importe quand ou autant de fois qu’on le souhaite. Elle s’applique principalement aux **Promotions**, une règle spécifique aux artisanats qui permet d’apporter des bonus majeurs à une création. La Créativité permet ainsi de donner des propriétés uniques à des objets que l’on créé. Si la Créativité chute à 0 rien de néfaste n’a lieu mais il n’est alors plus possible de produire de telles créations. Si le personnage n’a pas de domaine technologique alors sa créativité est de 0 puisqu’il ne peut en faire usage. La Créativité dépend de la Logique.
+Les Points d’Ingéniosité sont une ressource propre aux personnages maîtrisant les sciences et la technologie. Ils représentent la capacité du personnage à tirer parti de ce qu’il a sous la main : pièces récupérées, matériaux de récupération, composants bricolés. En termes de jeu, les PI forment un **budget matériel** exprimé en pièces (pc) : un personnage à 40/40 PI peut dépenser jusqu’à 40 pc de matière première à tout moment, que ce soit pour crafter quelque chose sur le vif ou pour proposer des pièces détachées en échange d’un service à un interlocuteur qui accepte ce type de valeur (les PI ne sont pas de l’argent, mais peuvent en tenir lieu dans certaines situations).
 
-- Créativité = Logique x2.
+Si le personnage n’a pas de groupe de compétences technologiques débloqué, ses PI sont à 0. Les PI se régénèrent lors des repos, selon la valeur de Récupération du personnage.
+
+- Points d’Ingéniosité = Logique × 2.
+- Récupération des PI = Récupération.
 
 ## Actions de l’Extension
 

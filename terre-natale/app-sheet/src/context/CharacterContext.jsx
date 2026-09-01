@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import DATA from '../data';
-import { getValeurTotale, calculerRangCaste } from '../hooks/useCharacterCalculations';
+import { getValeurTotale, calculerRangCaste, computeBonusConfig } from '../hooks/useCharacterCalculations';
 
 // Helper: slugify a string (mirrors tools/add_caste_ids.py logic)
 const _slugify = (str) => {
@@ -436,7 +436,7 @@ export function CharacterProvider({ children }) {
 
       // Calculer les max des ressources pour le dashboard
       const getAttr = (id) => getValeurTotale(character, id);
-      const bonus = character.bonusConfig || {};
+      const bonus = computeBonusConfig(character);
       const caste = DATA.castes.find(c => c.id === character.caste?.id);
       const rang = calculerRangCaste(character);
       const tradition = DATA.traditions.find(t => t.id === character.tradition);

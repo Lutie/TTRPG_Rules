@@ -1216,5 +1216,12 @@ if __name__ == "__main__":
 
     generate_html_docs()            # out_domains/*.md -> docs/magies/*.html
 
+    # Synchronise out_spells/*.md vers docs/sorts/
+    docs_sorts = Path(__file__).parent.parent / "docs" / "sorts"
+    docs_sorts.mkdir(parents=True, exist_ok=True)
+    for md_path in OUTPUT_SPELLS_DIR.glob("*.md"):
+        shutil.copy(md_path, docs_sorts / md_path.name)
+    print(f"\n✓ {len(list(OUTPUT_SPELLS_DIR.glob('*.md')))} fichiers de sorts copiés vers {docs_sorts}")
+
     import generate_doc_magic_words
     generate_doc_magic_words.main()  # -> docs/mots-de-pouvoir/*.md

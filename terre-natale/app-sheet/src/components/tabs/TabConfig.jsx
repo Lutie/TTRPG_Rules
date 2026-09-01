@@ -48,6 +48,7 @@ const BONUS_GROUPS = [
       { id: 'maxPS', nom: 'Max PS' },
       { id: 'maxPE', nom: 'Max PE' },
       { id: 'maxPM', nom: 'Max PM' },
+      { id: 'maxPI', nom: 'Max PI' },
       { id: 'maxPK', nom: 'Max PK' },
       { id: 'maxPC', nom: 'Max PC' },
     ]
@@ -56,7 +57,7 @@ const BONUS_GROUPS = [
     groupe: 'Général',
     types: [
       { id: 'pa',      nom: 'Budget PA' },
-      { id: 'paMax',   nom: 'Max Attribut (PA)' },
+      { id: 'pp',      nom: 'Budget PP' },
       { id: 'xp',      nom: 'Budget XP' },
       { id: 'allure', nom: 'Allure' },
       { id: 'resilience', nom: 'Résilience' },
@@ -108,19 +109,13 @@ const BONUS_GROUPS = [
   {
     groupe: 'Résistances',
     types: [
-      { id: 'resistancePhysique', nom: 'Résist. Physique' },
-      { id: 'resistanceMentale', nom: 'Résist. Mentale' },
-    ]
-  },
-  {
-    groupe: 'Rés. à l\'Attrition',
-    types: [
-      { id: 'resistanceAttritionPhys', nom: 'Physique' },
-      { id: 'resistanceAttritionMent', nom: 'Mentale' },
-      { id: 'resistanceAttritionMag',  nom: 'Magique' },
-      { id: 'resistanceAttritionNerf', nom: 'Nerf' },
-      { id: 'resistanceAttritionCorr', nom: 'Corruption' },
-      { id: 'resistanceAttritionFat',  nom: 'Fatigue' },
+      { id: 'resistancePhysique',  nom: 'Résist. Physique' },
+      { id: 'resistanceMentale',   nom: 'Résist. Mentale' },
+      { id: 'resistanceMagique',   nom: 'Résist. Magique' },
+      { id: 'resistanceStress',    nom: 'Résist. Stress' },
+      { id: 'resistanceCorruption',nom: 'Résist. Corruption' },
+      { id: 'resistanceFatigue',   nom: 'Résist. Fatigue' },
+      { id: 'resistanceAttrition', nom: 'Résist. Attrition' },
     ]
   },
   {

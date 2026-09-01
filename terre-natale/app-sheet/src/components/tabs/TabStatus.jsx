@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { useCharacter } from '../../context/CharacterContext';
-import { useCharacterCalculations, calculerModificateur, getValeurTotale } from '../../hooks/useCharacterCalculations';
+import { useCharacterCalculations, calculerModificateur, getValeurTotale, computeBonusConfig } from '../../hooks/useCharacterCalculations';
 import CharacterAvatar from '../common/CharacterAvatar';
 
 const ATTRS_PHYSIQUES = ['FOR', 'DEX', 'AGI', 'CON', 'PER'];
@@ -64,7 +64,7 @@ function TabStatus() {
   const armureEquipee = inventaire.find(o => o.type === 'armure' && o.slot === 'armure');
   const armureCat = armureEquipee ? (armureEquipee.categorie ?? 1) : 0;
   const armureQualite = armureEquipee ? (armureEquipee.qualite ?? 0) : 0;
-  const bonus = character.bonusConfig || {};
+  const bonus = computeBonusConfig(character);
 
   // Absorption = absorption armure (cat×3) + mCON (CON finale = CON + qualité armure)
   const conBase = getValeurTotale(character, 'CON');
@@ -107,6 +107,7 @@ function TabStatus() {
     const perBase = getValeurTotale(character, 'PER');
     const precision = calculerModificateur(perBase + qual) + (bonus.precisionPhysique || 0);
     // Zone de contrôle active = m(DEX + qualité arme) + catégorie + bonus
+    const dexBase = getValeurTotale(character, 'DEX');
     const zoneActive = calculerModificateur(dexBase + qual) + cat + (bonus.controleActif || 0);
     // Zone de contrôle passive = 5 + m(AGI + qualité arme) - catégorie + bonus
     const agiBase = getValeurTotale(character, 'AGI');
@@ -903,7 +904,7 @@ function TabStatus() {
             const casteData = DATA.castes.find(c => c.id === character.caste?.id);
             const inCaste = casteData?.ressources?.includes(res.id);
             if (res.type === 'tradition') return !!character.options?.magieActive || inCaste;
-            if (res.type === 'science')   return !!character.options?.scienceActive || inCaste;
+            if (res.type === 'science')   return false; // affiché dans TabScience
             return true;
           }).map(res => {
             const ressource = character.ressources[res.id] || { actuel: 0, max: 0, temporaire: 0 };
@@ -1207,8 +1208,7 @@ function TabStatus() {
         <SubirDegatsModal
           resistanceTotale={resistanceTotale}
           resistanceMentale={resistanceMentale}
-          resiliencePhys={bonus.resistanceAttritionPhys || 0}
-          resilienceMent={bonus.resistanceAttritionMent || 0}
+          resilience={bonus.resistanceAttrition || 0}
           equilibre={calc.getAttr('EQU')}
           protPhys={protectionTotale}
           protMent={protectionMentale}
@@ -1619,7 +1619,7 @@ const TYPES_DEGATS = [
   { id: 'direct',       nom: 'Direct (ignore armure)' },
 ];
 
-function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys = 0, resilienceMent = 0, equilibre, protPhys, protMent, onClose }) {
+function SubirDegatsModal({ resistanceTotale, resistanceMentale, resilience = 0, equilibre, protPhys, protMent, onClose }) {
   const { character, updateCharacter } = useCharacter();
   const [domaine, setDomaine]         = useState('physique');
   const [type, setType]               = useState('combat');
@@ -1635,7 +1635,7 @@ function SubirDegatsModal({ resistanceTotale, resistanceMentale, resiliencePhys 
   const handleBackdropClick = (e) => { if (e.target === e.currentTarget) onClose(); };
 
   const isMental = domaine === 'mental';
-  const resilienceBonus = isMental ? resilienceMent : resiliencePhys;
+  const resilienceBonus = resilience;
   const isDirect = type === 'direct';
   const degats   = parseInt(montant) || 0;
 

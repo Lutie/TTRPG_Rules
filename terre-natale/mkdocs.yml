@@ -106,6 +106,37 @@ nav:
       - "Liaisons": mots-de-pouvoir/liaisons.md
       - "Mots Avancés": mots-de-pouvoir/annexes.md
       - "Formes": mots-de-pouvoir/formes.md
+      - "Mots d'Effet":
+        - "⚔️ Acier": magies/acier.html
+        - "🌪️ Air": magies/air.html
+        - "✡️ Arcane": magies/arcane.html
+        - "🌀 Chaos": magies/chaos.html
+        - "⚜️ Charme": magies/charme.html
+        - "⚕️ Corps": magies/corps.html
+        - "💧 Eau": magies/eau.html
+        - "🧠 Esprit": magies/esprit.html
+        - "🐗 Faune": magies/faune.html
+        - "🔥 Feu": magies/feu.html
+        - "🌿 Flore": magies/flore.html
+        - "⚡ Foudre": magies/foudre.html
+        - "❄️ Glace": magies/glace.html
+        - "🛡️ Guerre": magies/guerre.html
+        - "🎭 Illusion": magies/illusion.html
+        - "🩸 Impie": magies/impie.html
+        - "⚖️ Loi": magies/loi.html
+        - "☀️ Lumière": magies/lumiere.html
+        - "🔮 Magie": magies/magie.html
+        - "🧩 Mental": magies/mental.html
+        - "☠️ Mort": magies/mort.html
+        - "🪷 Nature": magies/nature.html
+        - "🌑 Ombre": magies/ombre.html
+        - "✨ Sacré": magies/sacre.html
+        - "📚 Savoir": magies/savoir.html
+        - "🪨 Terre": magies/terre.html
+        - "☢️ Toxique": magies/toxique.html
+        - "💢 Vide": magies/vide.html
+        - "❤️ Vie": magies/vie.html
+        - "👁️ Vision": magies/vision.html
   - Extension Héros:
     - "Extension de l'Univers": heros-ext/univers/extension-de-l-univers.md
     - "Détails de l'Extension":
@@ -147,37 +178,50 @@ nav:
     - "Liste des Achats": listes/liste-des-achats.md
     - "Liste des Corpus de Style": styles/index.md
     - "Liste des Focus de Style": focus/index.md
-  - Liste des Sorts:
-    - Acier: magies/acier.html
-    - Air: magies/air.html
-    - Arcane: magies/arcane.html
-    - Chaos: magies/chaos.html
-    - Charme: magies/charme.html
-    - Corps: magies/corps.html
-    - Eau: magies/eau.html
-    - Esprit: magies/esprit.html
-    - Faune: magies/faune.html
-    - Feu: magies/feu.html
-    - Flore: magies/flore.html
-    - Foudre: magies/foudre.html
-    - Glace: magies/glace.html
-    - Guerre: magies/guerre.html
-    - Illusion: magies/illusion.html
-    - Impie: magies/impie.html
-    - Loi: magies/loi.html
-    - Lumière: magies/lumiere.html
-    - Magie: magies/magie.html
-    - Mental: magies/mental.html
-    - Mort: magies/mort.html
-    - Nature: magies/nature.html
-    - Ombre: magies/ombre.html
-    - Sacré: magies/sacre.html
-    - Savoir: magies/savoir.html
-    - Terre: magies/terre.html
-    - Toxique: magies/toxique.html
-    - Vide: magies/vide.html
-    - Vie: magies/vie.html
-    - Vision: magies/vision.html
+    - "Liste de Sorts":
+      - "Par École":
+        - "Abjuration": sorts/abjuration.md
+        - "Altération": sorts/alteration.md
+        - "Bénédiction": sorts/benediction.md
+        - "Conjuration": sorts/conjuration.md
+        - "Destruction": sorts/destruction.md
+        - "Divination": sorts/divination.md
+        - "Évocation": sorts/evocation.md
+        - "Invocation": sorts/invocation.md
+        - "Malédiction": sorts/malediction.md
+        - "Mixte": sorts/mixte.md
+        - "Restauration": sorts/restauration.md
+      - "Par Domaine":
+        - "⚔️ Acier": sorts/acier.md
+        - "🌪️ Air": sorts/air.md
+        - "✡️ Arcane": sorts/arcane.md
+        - "🌀 Chaos": sorts/chaos.md
+        - "⚜️ Charme": sorts/charme.md
+        - "⚕️ Corps": sorts/corps.md
+        - "💧 Eau": sorts/eau.md
+        - "🧠 Esprit": sorts/esprit.md
+        - "🐗 Faune": sorts/faune.md
+        - "🔥 Feu": sorts/feu.md
+        - "🌿 Flore": sorts/flore.md
+        - "⚡ Foudre": sorts/foudre.md
+        - "❄️ Glace": sorts/glace.md
+        - "🛡️ Guerre": sorts/guerre.md
+        - "🎭 Illusion": sorts/illusion.md
+        - "🩸 Impie": sorts/impie.md
+        - "⚖️ Loi": sorts/loi.md
+        - "☀️ Lumière": sorts/lumiere.md
+        - "🔮 Magie": sorts/magie.md
+        - "🧩 Mental": sorts/mental.md
+        - "☠️ Mort": sorts/mort.md
+        - "🪷 Nature": sorts/nature.md
+        - "🌑 Ombre": sorts/ombre.md
+        - "✨ Sacré": sorts/sacre.md
+        - "📚 Savoir": sorts/savoir.md
+        - "🪨 Terre": sorts/terre.md
+        - "☢️ Toxique": sorts/toxique.md
+        - "💢 Vide": sorts/vide.md
+        - "❤️ Vie": sorts/vie.md
+        - "👁️ Vision": sorts/vision.md
   - Création en Thalifen: creation/creation/index.html
   - Castes de Thalifen: castes/castes/index.html
   - Ethnies de Thalifen: ethnies/ethnies/index.html

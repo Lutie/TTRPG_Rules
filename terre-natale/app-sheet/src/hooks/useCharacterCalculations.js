@@ -15,7 +15,7 @@ export const computeBonusConfig = (character) => {
 
 // Retourne la valeur par défaut d'un attribut selon son type
 export const getValeurDefaut = (attrId) => {
-  const secondaires = ['STA', 'TAI', 'EGO', 'APP', 'CHN', 'EQU'];
+  const secondaires = ['STA', 'TAI', 'EGO', 'APP', 'EQU'];
   return secondaires.includes(attrId) ? DATA.valeurDefautSecondaire : DATA.valeurDefautPrincipal;
 };
 
@@ -117,12 +117,22 @@ export const calculerAptitude = (character) => {
               }
             });
           } else {
-            // attrVariable ou limitant sans attr fixe : utilise l'attribut choisi stocké
-            const compAttrs = ((comp.attrVariable || comp.limitant) && comp.attributs.length === 0)
-              ? [charCompetences.attributsChoisis?.[_compKey(comp)] ?? (comp.attrVariable ? 'FOR' : null)].filter(Boolean)
-              : [...(comp.attributs || []), ...(comp.secondaires || [])];
+            // Détermine le(s) attr(s) effectifs pour le check caste :
+            // - attrVariable ou limitant sans attr fixe → l'attr choisi par le joueur (défaut FOR)
+            // - plusieurs attrs fixes → seul l'attr choisi compte (défaut = premier de la liste)
+            // - un seul attr fixe → on utilise cet attr
+            const key = _compKey(comp);
+            let compAttrs;
+            if ((comp.attrVariable || comp.limitant) && comp.attributs.length === 0) {
+              compAttrs = [charCompetences.attributsChoisis?.[key] ?? (comp.attrVariable ? 'FOR' : null)].filter(Boolean);
+            } else if (comp.attributs.length > 1) {
+              const chosen = charCompetences.attributsChoisis?.[key] ?? comp.attributs[0];
+              compAttrs = [chosen];
+            } else {
+              compAttrs = [...(comp.attributs || []), ...(comp.secondaires || [])];
+            }
             if (compAttrs.some(a => attrsCaste.includes(a))) {
-              aptitude += charCompetences.competences?.[_compKey(comp)] || 0;
+              aptitude += charCompetences.competences?.[key] || 0;
             }
           }
         });
@@ -286,6 +296,10 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
         if (attrTradition) {
           max = getAttr(attrTradition) * res.multiplicateur;
         }
+      } else if (res.type === 'science') {
+        if (character.options?.scienceActive) {
+          max = getAttr(res.attribut) * (res.multiplicateur || 1);
+        }
       } else if (res.attribut) {
         max = getAttr(res.attribut) * res.multiplicateur;
       }
@@ -366,7 +380,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const paliersPP = [5, 7, 9, 11, 13, 15, 17, 19];
     let ppCaste = 0;
     paliersPP.forEach(p => { if (rangCaste >= p) ppCaste += 1; });
-    const ppTotal = ppDepart + ppDesavantages + ppCaste;
+    const ppTotal = ppDepart + ppDesavantages + ppCaste + (bonus.pp || 0);
     // PP utilisés = coût des avantages (majeurs et archétypes, pas mineurs)
     const TYPES_PP = ['avantage_majeur', 'avantage_archetype', 'avantage'];
     let ppUtilises = 0;
@@ -404,8 +418,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       return cost;
     };
     const PA_SECONDARY_COSTS = { 8: -5, 9: -3, 10: 0, 11: 4, 12: 9 };
-    const PA_CHANCE_COSTS    = { 8: -9, 9: -5, 10: 0, 11: 6, 12: 13 };
-    const PRIMARY_ATTR_IDS   = ['FOR','DEX','AGI','CON','PER','CHA','INT','RUS','VOL','SAG','MAG','LOG'];
+    const PRIMARY_ATTR_IDS   = ['FOR','DEX','AGI','CON','PER','CHA','INT','RUS','VOL','SAG','MAG','LOG','CHN'];
     const SECONDARY_ATTR_IDS = ['STA','TAI','EGO','APP'];
 
     let paDepenses = 0;
@@ -417,9 +430,6 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       const base = character.attributs?.[id]?.base ?? 10;
       paDepenses += PA_SECONDARY_COSTS[base] ?? 0;
     });
-    // CHN (Chance) — coût double des secondaires
-    const chnBase = character.attributs?.['CHN']?.base ?? 10;
-    paDepenses += PA_CHANCE_COSTS[chnBase] ?? 0;
 
     const paCaste = DATA.casteProgression.reduce((sum, level) => level.rang <= rangCaste ? sum + (level.pa || 0) : sum, 0);
     const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + paCaste + (bonus.pa || 0);

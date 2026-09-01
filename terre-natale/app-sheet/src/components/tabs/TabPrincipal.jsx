@@ -7,6 +7,7 @@ import AttributeBlock from '../common/AttributeBlock';
 import Section from '../common/Section';
 import PickerModal from '../common/PickerModal';
 import CharacterAvatar from '../common/CharacterAvatar';
+import PART_DESCS from '../../data/particularites_descriptions.json';
 
 // Attributs disponibles pour les origines
 const ORIGINES_ATTRS = [
@@ -378,9 +379,10 @@ function TabPrincipal() {
       <Section title="Sauvegardes">
         <div className="sauvegardes-grid">
           {DATA.sauvegardes.map(sauv => {
-            const attrId = Array.isArray(sauv.attribut) ? sauv.attribut[0] : sauv.attribut;
             const attrDisplay = Array.isArray(sauv.attribut) ? sauv.attribut.join('/') : sauv.attribut;
-            const mod = calc.getMod(attrId);
+            const mod = Array.isArray(sauv.attribut)
+              ? Math.max(...sauv.attribut.map(a => calc.getMod(a)))
+              : calc.getMod(sauv.attribut);
             const estMajeure = calc.caste?.sauvegardesMajeures?.includes(sauv.nom);
             const estMineure = calc.caste?.sauvegardesMineures?.includes(sauv.nom);
             let typeClass = '';
@@ -938,6 +940,7 @@ function EntrainementsSection({ character, updateCharacter }) {
 function OriginesModal({ character, updateCharacter, onClose }) {
   // État local pour les choix temporaires
   const [choices, setChoices] = useState(() => character.originesChoix || {});
+  const [auraChoisie, setAuraChoisie] = useState(() => character.infos?.auraChoisie || '');
   const [naissanceChoix, setNaissanceChoix] = useState(() => {
     const nb = character.naissanceBonus || {};
     const eth = DATA.ethnies.find(e => e.id === character.infos?.ethnicity);
@@ -950,6 +953,10 @@ function OriginesModal({ character, updateCharacter, onClose }) {
 
   // Récupère les données actuelles
   const ethnie = DATA.ethnies.find(e => e.id === character.infos?.ethnicity);
+  const auraOptions = [
+    ...(ethnie?.particularites_naissance  || []),
+    ...(ethnie?.particularites_culturelles || []),
+  ].find(p => p.anchor === 'cult-auras')?.details || [];
   const allegeance = DATA.allegeances.find(a => a.id === character.infos?.allegiance);
   const milieu = DATA.milieux.find(m => m.id === character.infos?.environment);
   const persona = DATA.personas.find(p => p.id === character.infos?.persona);
@@ -1048,6 +1055,7 @@ function OriginesModal({ character, updateCharacter, onClose }) {
       originesChoix: choices,
       originesBonus: adjustments,
       naissanceBonus: newNaissanceBonus,
+      infos: { ...prev.infos, auraChoisie },
     }));
     onClose();
   };
@@ -1055,6 +1063,7 @@ function OriginesModal({ character, updateCharacter, onClose }) {
   // Réinitialise
   const handleReset = () => {
     setChoices({});
+    setAuraChoisie('');
     const resetNaissance = {};
     Object.entries(ethnie?.attributs_naissance || {}).forEach(([id, def]) => {
       resetNaissance[id] = def.val ?? def.min;
@@ -1170,6 +1179,29 @@ function OriginesModal({ character, updateCharacter, onClose }) {
               </div>
             </div>
           </div>
+
+          {/* Aura culturelle */}
+          {auraOptions.length > 0 && (
+            <div className="origin-section">
+              <h3>Aura Culturelle</h3>
+              <p className="origin-desc">Choisissez une aura parmi celles proposées par votre ethnie.</p>
+              <div className="origin-selects">
+                <div className="origin-field">
+                  <label>Aura</label>
+                  <select
+                    className="origin-select"
+                    value={auraChoisie}
+                    onChange={e => setAuraChoisie(e.target.value)}
+                  >
+                    <option value="">— Aucune —</option>
+                    {auraOptions.map(a => (
+                      <option key={a} value={a}>{a}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Allégeance */}
           <div className="origin-section">
@@ -1442,6 +1474,14 @@ function formatNaissance(attrs) {
   ).join(' · ');
 }
 
+function getParticulaireDesc(p) {
+  const entry = PART_DESCS[p.anchor];
+  if (!entry) return null;
+  if (typeof entry === 'string') return entry;
+  // Objet (ex: cult-affinity) : chercher le nom exact d'abord, sinon la base
+  return entry[p.nom] || entry['_base'] || null;
+}
+
 function EthnieExtra({ item }) {
   const attrsForts   = formatAttrsRawParts(item.attributs_forts);
   const attrsFaibles = formatAttrsRawParts(item.attributs_faibles);
@@ -1500,12 +1540,27 @@ function EthnieExtra({ item }) {
       {particularites.length > 0 && (
         <div className="ethnie-extra-row ethnie-extra-row--block">
           <span className="ethnie-extra-key">Particularités</span>
-          <div className="ethnie-extra-pills">
-            {particularites.map((p, i) => (
-              <span key={i} className="ethnie-extra-pill">
-                {p.nom}{p.details?.length ? ` (${p.details.join(', ')})` : ''}
-              </span>
-            ))}
+          <div className="ethnie-extra-particularites">
+            {particularites.map((p, i) => {
+              const desc = getParticulaireDesc(p);
+              return (
+                <div key={i} className="ethnie-extra-particularite">
+                  <span
+                    className={`ethnie-extra-pill ethnie-extra-pill--nom${desc ? ' has-desc' : ''}`}
+                    title={desc || undefined}
+                  >
+                    {p.nom}{desc ? ' ⓘ' : ''}
+                  </span>
+                  {p.details?.length > 0 && (
+                    <div className="ethnie-extra-pills ethnie-extra-pills--details">
+                      {p.details.map((d, j) => (
+                        <span key={j} className="ethnie-extra-pill ethnie-extra-pill--detail">{d}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
