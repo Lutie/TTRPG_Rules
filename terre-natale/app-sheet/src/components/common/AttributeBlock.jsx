@@ -148,15 +148,21 @@ function AttributeBlock({ attr, showDefenses = true, compact = false }) {
         <div className="attr-details">
           <div className="attr-row">
             <label>Base</label>
-            <input
-              type="number"
-              className="attr-input"
-              value={attrData.base}
-              onChange={e => handleChange(e.target.value)}
-              onBlur={e => handleBlur(e.target.value)}
-              min={min}
-              max={max}
-            />
+            {isComputedBase ? (
+              <span className="attr-bonus" title="Calculé depuis les attributs principaux">
+                {displayBase}
+              </span>
+            ) : (
+              <input
+                type="number"
+                className="attr-input"
+                value={attrData.base}
+                onChange={e => handleChange(e.target.value)}
+                onBlur={e => handleBlur(e.target.value)}
+                min={min}
+                max={max}
+              />
+            )}
           </div>
           <div className="attr-row">
             <label>Origine</label>

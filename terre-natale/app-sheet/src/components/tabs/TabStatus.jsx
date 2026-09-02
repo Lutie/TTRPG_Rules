@@ -534,8 +534,9 @@ function TabStatus() {
       });
 
       // Récupération des lésions
-      const recupPV = calc.recuperationRessource.PV || calc.recuperation;
-      const recupPS = calc.recuperationRessource.PS || calc.recuperation;
+      const bonusLesions = computeBonusConfig(character).recupLesions || 0;
+      const recupPV = (calc.recuperationRessource.PV || calc.recuperation) + bonusLesions;
+      const recupPS = (calc.recuperationRessource.PS || calc.recuperation) + bonusLesions;
       const newLesions = (prev.lesions || []).filter(lesion => {
         const lesionData = DATA.typesLesions.find(l => l.id === lesion.type);
         if (!lesionData) return false;

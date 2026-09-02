@@ -122,10 +122,12 @@ const BONUS_GROUPS = [
     groupe: 'Récupération',
     types: [
       { id: 'recuperation', nom: 'Récupération (base)' },
+      { id: 'recupLesions', nom: 'Récup. Lésions' },
       { id: 'recuperationPV', nom: 'Récup. PV' },
       { id: 'recuperationPS', nom: 'Récup. PS' },
       { id: 'recuperationPE', nom: 'Récup. PE' },
       { id: 'recuperationPM', nom: 'Récup. PM' },
+      { id: 'recuperationPI', nom: 'Récup. PI' },
       { id: 'recuperationPK', nom: 'Récup. PK' },
       { id: 'recuperationPC', nom: 'Récup. PC' },
     ]

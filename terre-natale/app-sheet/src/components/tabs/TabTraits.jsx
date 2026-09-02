@@ -173,7 +173,7 @@ function TabTraits() {
       traits: (prev.traits || []).map((t, i) => {
         if (i !== index) return t;
         const info = DATA.traits.find(ti => ti.id === t.id);
-        const max = info?.rangMax || 1;
+        const max = t.rangMax || info?.rangMax || 1;
         return { ...t, rang: Math.max(1, Math.min(max, newRang)) };
       })
     }));

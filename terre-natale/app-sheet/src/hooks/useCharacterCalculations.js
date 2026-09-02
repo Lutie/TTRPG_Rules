@@ -145,6 +145,9 @@ export const calculerAptitude = (character) => {
   DATA.categoriesMagie.forEach(cat =>
     cat.groupes.forEach(groupe => processGroupe(groupe, DATA.competencesMagie))
   );
+  DATA.categoriesScience.forEach(cat =>
+    cat.groupes.forEach(groupe => processGroupe(groupe, DATA.competencesScience))
+  );
 
   return aptitude;
 };
