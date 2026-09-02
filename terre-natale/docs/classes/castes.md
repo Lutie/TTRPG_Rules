@@ -574,7 +574,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Alchimie +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Craft sur le champs une solution à usage unique qui expire à la fin du tour, le test n'est pas un test de craft classique mais doit simplement atteindre la difficulté de création une fois<br>
 <strong>Amélioration</strong> : En ACTL à la place OU le test de craft se fait avec un avantage<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les alchimistes mêlent magie, matière et procédés expérimentaux. Ils cherchent les correspondances cachées entre substance, pouvoir et transformation.</em></blockquote>
@@ -599,7 +599,7 @@
 <strong>Trait 2</strong> : La distance de saut est doublé quelque soit la direction<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Double la portée de l'arme à distance ou de jet jusqu'au prochain tir ou jusqu'à la fin du tour<br>
 <strong>Amélioration</strong> : En ACTL pour un bonus de 50% à la place OU bonus de 150%<br>
-<strong>Entraînements</strong> : Arme de mêlée, Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les amazones excellent dans le tir et le jet à courte portée, au coeur du mouvement. Leur style refuse la distance confortable et frappe dans l'élan.</em></blockquote>
@@ -674,7 +674,7 @@
 <strong>Trait 2</strong> : Science et Formation des actions d'arcane<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le prochain sort voit sa difficulté arcanique augmentée de 2; ou la prochaine action arcanique profite d'un bonus de 2<br>
 <strong>Amélioration</strong> : En ACTL à la place<br>
-<strong>Entraînements</strong> : Outils, Naturel</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les arcanistes étudient les arcanes comme un langage profond. Leur vocation est de comprendre les structures magiques avant de s'en servir.</em></blockquote>
@@ -724,7 +724,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Mécatronie +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le personnage donne un ordre prioritaire à son compagnon mécanique. Celui-ci gagne un avantage sur sa prochaine action et agit immédiatement si il en a les moyens (actions disponibles, etc)<br>
 <strong>Amélioration</strong> : En ACTL OU le compagnon peux réaliser l'ordre sans avantage mais surtout sans avoir à consommer d'actions pour ça<br>
-<strong>Entraînements</strong> : Focus, Science</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les architectes conçoivent des systèmes mécatroniques où structure, mouvement et commande se répondent. Leur science cherche l'élégance fonctionnelle autant que l'efficacité.</em></blockquote>
@@ -799,7 +799,7 @@
 <strong>Trait 2</strong> : Maximum PS +10 (mental)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : La cible doit réussir un Détermination contre un DD d'effet mental (10+mINT), sans quoi il est discrédité et ses actions sociales sont réduites de 2 (modulo la réussite du test de sauvegarde) jusqu'à la fin du tour<br>
 <strong>Amélioration</strong> : Désavantage à la place OU affecte les adversaires à porté de mot à la place OU DD +2<br>
-<strong>Entraînements</strong> : Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les aristocrates dominent les manoeuvres de joute par l'éducation, le rang et l'habitude des rapports de pouvoir. Leur parole porte le poids d'un monde social codifié.</em></blockquote>
@@ -821,10 +821,10 @@
 <strong>Sauvegardes mineures</strong> : Intuition & Réflexes<br>
 <strong>Privilège</strong> : Concerne les situations martiales ou d'aventure incluant l'usage d'explosif et autres grenades, lancé ou non.<br>
 <strong>Trait 1</strong> : Formation et Science via les explosifs<br>
-<strong>Trait 2</strong> : Les explosifs de l'artificier sont moitiés moins efficaces sur les alliés de l'artificier (ou sur lui même), de plus la zone d'effet des explosifs est augmentée de 1<br>
-<strong>Action spéciale</strong> : ACTS & 3 PC : Le prochain explosif lancé/préparé/activé par le personnage dispose d'un atout au choix parmis : Zone +2 (si et seulement si l'explosif était déjà doté d'une zone), Portée courte +2 (si et seulement si l'explosif se lance), Difficultés (sauvegardes, désamorçages si pertinent, etc) +2, Jets +2<br>
+<strong>Trait 2</strong> : ACTS & 3 PC : Le prochain explosif lancé/préparé/activé par le personnage dispose d'un atout parmis : Zone +2 (si et seulement si l'explosif était déjà doté d'une zone), Portée courte +2, Difficultés (sauvegardes, désamorçages si pertinent, etc) +2, Jets +2<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC : Le prochain explosif lancé/préparé/activé par le personnage dispose d'un atout parmis : Zone +2 (si et seulement si l'explosif était déjà doté d'une zone), Portée courte +2, Difficultés (sauvegardes, désamorçages si pertinent, etc) +2, Jets +2<br>
 <strong>Amélioration</strong> : En ACTL OU peux choisir deux atouts à la place OU bonus de 3<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les artificiers font parler explosifs, grenades et charges préparées. Leur expertise transforme la destruction en outil précis, même quand elle reste bruyante.</em></blockquote>
@@ -845,7 +845,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Robustesse & Fortune<br>
 <strong>Privilège</strong> : Concerne les situations martiales où le tir est effectué à une distance courte.<br>
-<strong>Trait 1</strong> : Ignore un désavantage dû à la portée longue ou extrême<br>
+<strong>Trait 1</strong> : Pénalité des armes à distance réduite de 1<br>
 <strong>Trait 2</strong> : Les opportunités peuvent s'effectuer avec l'arme à distance<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Marque un adversaire, jusqu'à son prochain round le personnage peux réaliser une opportunité (considérée comme préparée, nécessite l'action) sur cet adversaire via son arme à distance (même conditions que pour une armée de mêlée, notament concernant la distance)<br>
 <strong>Amélioration</strong> : L'opportunité est caractérisée si le personnage marqué se déplace dans ou depuis la zone de menace du personnage OU l'action rapide requière seulement 3 PI OU l'opportunité est avantagée<br>
@@ -1024,7 +1024,7 @@
 <strong>Trait 2</strong> : Le degré de gravité théorique de vos lésions augmentent vos jets d'autant<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : La prochaine attaque de melée reçoit un double avantage mais toutes les attaques qui vous visent serons avantagée jusqu'à votre prochain round<br>
 <strong>Amélioration</strong> : En ACTL OU l'attaque reçoit également un bonus de jet équivalant à 3x les pénalités de la blessure la plus élevée<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les berserkers combattent depuis la blessure et la fureur. Là où d'autres ralentissent en souffrant, eux trouvent dans la douleur une permission d'aller plus loin.</em></blockquote>
@@ -1377,7 +1377,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Chimie +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Craft sur le champs une solution à usage unique qui expire à la fin du tour, le test n'est pas un test de craft classique mais doit simplement atteindre la difficulté de création une fois<br>
 <strong>Amélioration</strong> : En ACTL à la place OU le test de craft se fait avec un avantage<br>
-<strong>Entraînements</strong> : Focus, Social</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les chimistes manipulent réactions, mélanges, solvants et substances instables. Leur science transforme la matière en effets précis, parfois utiles, parfois terriblement dangereux.</em></blockquote>
@@ -1452,7 +1452,7 @@
 <strong>Trait 2</strong> : Total de niveau d'invocation +3<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : L'invocation ciblée dans la zone récupère 1D8 charges, cela ne peux les amener à dépasser la charge initiale<br>
 <strong>Amélioration</strong> : En ACTL à la place OU regain augmenté de 2<br>
-<strong>Entraînements</strong> : Science, Outils, Social</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les convocateurs appellent des présences, forces ou entités par une invocation maîtrisée. Ils préparent l'espace afin que quelque chose d'extérieur puisse agir ici.</em></blockquote>
@@ -1627,7 +1627,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Biologie +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Octroie à la cible à proximité un consommable pharamacologique (qui doit être accessible) en maximisant les 2 premiers D8<br>
 <strong>Amélioration</strong> : En ACTL à la place OU les 3 premiers D8<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les docteurs technologiques abordent le vivant par la biologie, les instruments et les protocoles. Ils cherchent à comprendre les corps comme des systèmes réparables ou améliorables.</em></blockquote>
@@ -1652,7 +1652,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de sorts du domaine de prédilection +1<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Si la raison du lancement du prochain sort vise à corriger des tords réalisés à la nature ce dernier est renforcé. Le personnage peux à la place sacrifier un objet religieux (0.4 PO prix de base Q0, consommable).<br>
 <strong>Amélioration</strong> : Renforcement supérieur<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les druides défendent une magie de nature, de faune, de flore et de transformation. Leur pouvoir vient d'une fidélité au vivant plutôt qu'aux lois des cités.</em></blockquote>
@@ -1702,7 +1702,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de sorts du domaine de prédilection +1<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Le personnage peux pactiser et son prochain sort est renforcé. La nature du pact demande est aléatoire et dépends du résultat d'un D10, le personnage peux accepter le pact ou le refuser, voici les pactes possibles (les valeurs sont tirés une fois le choix réalisé) : Perte de 1D8 PV, 1D8 PS, 1D8 PC, 1D8 PK, 1D8 PE, 1D8 PM, 1D8 PO, 1D8 fatigue, 1D8 corruption, relance 2 pacts à la place et le renforcement est doublé (peux survenir plusieurs fois).<br>
 <strong>Amélioration</strong> : Renforcement supérieur, dans le cas d'une relance de pact le personnage profite toujours d'un renforcement un cran supérieur<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les démonistes pactisent avec l'ombre et l'impie pour obtenir des forces que d'autres refusent d'approcher. Leur pouvoir est souvent aussi politique que surnaturel.</em></blockquote>
@@ -1752,7 +1752,7 @@
 <strong>Trait 2</strong> : Catégorie maximale de l'équivalence +1<br>
 <strong>Action spéciale</strong> : ACTC & 3 PC : Fait usage de l'équivalence<br>
 <strong>Amélioration</strong> : En ACTS à la place OU le test est avantagé<br>
-<strong>Entraînements</strong> : Outils, Naturel</p>
+<strong>Entraînements</strong> : Science, Focus, Naturel</p>
 </td></tr></table>
 
 <blockquote><em>Les elchimistes pratiquent l'équivalence, là où la transformation devient une règle presque philosophique. Ils paient, déplacent et recomposent les valeurs du réel.</em></blockquote>
@@ -1777,7 +1777,7 @@
 <strong>Trait 2</strong> : Se souviens de tous les détails sur une période d'une semaine (ensuite un test de mémoire est requis comme d'habitude), peux meme se rejouer une scène et "fouiller" des lieux dans sa propre mémoire (dans la limite de ce qui a été perçu)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC – Révélations : Le personnage révèle à sa cible des secrets ou des informations qu'il a appris au cours de ses investigations, la ou les cibles doivent réaliser un test de sang-froid (vs expertise mentale), elles subissent une perte d'initiative et gagne une fatigue équivalant à 2D8+mINT (montant affecté par le résultat de la sauvegarde), de plus le double de ce montant est perdu en endurance, évidemment le personnage doit réellement avoir des informations troublantes à révéler (information qui ne devrait pas être connu mais qui a peu d'importance : test normal, information compromettante avec des enjeux forts : désavantage à la sauvegarde, simple rumeur avantage); le personnage peux à la place faire des révélations à l'attention de ses alliés (cette bête est celle qui a tué Bobby) ce qui leur permet de recevoir 1D8+mINT points d'initiative et le double en PE à la place<br>
 <strong>Amélioration</strong> : En ACTL OU Ajoute 1D8<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les enquêteurs rassemblent traces, témoignages et déductions jusqu'à faire émerger une vérité praticable. Leur patience transforme le désordre en piste.</em></blockquote>
@@ -1852,7 +1852,7 @@
 <strong>Trait 2</strong> : Lors d'un déplacement le personnage voit tous ses tests augmentés de 1 (qu'il s'agisse d'action de combat "pendant" un déplacement ou d'aventure lors des déplacements à moyenne/grande échelle)<br>
 <strong>Action spéciale</strong> : ACTI & 3 PC : Gagne une action de déplacement simple, une fois par tour<br>
 <strong>Amélioration</strong> : En ACTL ou affecte tous les alliés à proximité, l'action peux être réalisée sur le champs dans ce cas<br>
-<strong>Entraînements</strong> : Focus, Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les errants vivent dans le mouvement, le voyage et l'adaptation continue. Leur compétence apparaît quand rester en place serait plus dangereux qu'avancer.</em></blockquote>
@@ -1902,7 +1902,7 @@
 <strong>Trait 2</strong> : S'il ne fait rien qui le distingue (dans ses gestes ou son verbe) le personnage n'attire pas l'attention et ne peux etre reconnu automatiquement, seul un individu le cherchant déjà activement le peux encore<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Peux tenter de se rendre à nouveau discret si personne n'a son attention focalisé sur lui.<br>
 <strong>Amélioration</strong> : Fonctionne même si quelqu'un se focalise sur lui.<br>
-<strong>Entraînements</strong> : Arme de mêlée, Armure</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les espions emploient l'improvisation, les couvertures et les armes de circonstance. Leur danger vient de leur capacité à rester utiles même dépouillés de tout signe évident de menace.</em></blockquote>
@@ -1952,7 +1952,7 @@
 <strong>Trait 2</strong> : Sauvegardes avantagées contre les esprits, démons, ou les cibles faisant l'objet d'une malédiction<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC – Injonction sacrée : La cible effectue un test de détermination (vs 10+mVOL), en cas d'échec elle subit une pénalité de 2 à ses actions d'agressions et à son allure jusqu'au prochain round de l'exorciste, en cas de réussite la pénalité est de 1 à la place, ces pénalités sont doublées sur une entité surnaturels<br>
 <strong>Amélioration</strong> : En ACTL OU sur deux cibles OU DD +2<br>
-<strong>Entraînements</strong> : Arme de mêlée, Armure, Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les exorcistes affrontent les esprits, démons, maléfices et présences surnaturelles hostiles. Leur pratique tient autant de la résistance mentale que du rite offensif.</em></blockquote>
@@ -2002,7 +2002,7 @@
 <strong>Trait 2</strong> : Le personnage reçoit un bonus de 1 à ses tests de combat lorsque sa cible est en mêlée avec le faucon<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le compagnon faucon marque sa cible à proximité jusqu'à la fin du tour, la prochaine action du maitre ou d'un allié se fera avec un bonus de +3 et la marque prend fin<br>
 <strong>Amélioration</strong> : En ACTL OU le bonus est de +3 OU le bonus s'applique jusqu'à 2 fois avant que la marque ne disparaisse<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les fauconniers combattent et voyagent avec un rapace dressé comme partenaire. Leur maîtrise tient dans la coordination entre regard humain et regard du ciel.</em></blockquote>
@@ -2077,7 +2077,7 @@
 <strong>Trait 2</strong> : Maximum PK +10<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC – Baraka (pouvoir surnaturel) : Test de jeu pour évaluation difficulté 10 : Le personnage tire, depuis un paquet constitué de cartes dont la valeurs la plus basse est 5 et la plus haute 14 (as), une carte plus une par DR et conserve l'une d'elle. Lorsqu'il a tiré 3 cartes différentes il peux en résoudre les effets sur-le-champs : Coeur octroie des PS (si l'autre carte est trègle) ou PV (si l'autre carte est carreau) ou PC (si l'autre carte est pique) temporaires (en cas de brelan de coeur le flambeur choisit la ressource à la place), Carreau octroie des PK temporaires, Pique inflige des dégats choquants (ignorant toutes les défenses) à une cible dans la zone, trèfle réduit l'initiative à une cible dans la zone. La valeurs est la plus basse des deux si c'est une paire d'une même figure ou la plus haute si c'est un brelan d'une même figure. Paire de valets : Barrière de 22. Brelan de valets : Barrière de 33. Paire de dames : Gain de 24 d'initiative. Brelan de dames : 36 d'initiative. Paire de Roi : Inflige "étourdissement" avec 26 charges à une cible dans la zone (elle peux réaliser un test de détermination, difficulté 10+mCHA). Brelan de Roi : 39 de charges. Paire d'As : Deux cibles. Brelan d'As : Trois cibles.<br>
 <strong>Amélioration</strong> : En ACTL à la place, le personnage peux placer dans son deck de carte des cartes à l'effigie de certains de ses alliés, si ces derniers se retrouvent dans les 3 cartes finales alors ils sont considérés comme un joker mais la cible est forcément cet allié, les effets négatifs ciblent l'ennemi qui lui a porté le plus préjudice ou le plus près de lui à défaut<br>
-<strong>Entraînements</strong> : Outils, Naturel</p>
+<strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
 <blockquote><em>Les flambeurs font du risque, du karma et du pari une manière d'exister. Ils cherchent le moment où l'incertitude devient une force plutôt qu'un danger.</em></blockquote>
@@ -2302,7 +2302,7 @@
 <strong>Trait 2</strong> : Lorsque le héraut aide une cible cette dernière peux choisir d'inverser son test avec celui du héraut (seuls les dés sont inversés, par le reste), avant manipulations via karma etc<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le héraut "aide" un allié dans la zone (quelque soit l'action)<br>
 <strong>Amélioration</strong> : Via son action le héraut "aide" tous ses alliés à la fois, il réalise un test d'aide de la nature souhaité et tous ses alliés dans la zone en profite (une fois) (pour un test de même nature) OU l'action d'aide se fait en ACTL OU la cible de l'aide en profite jusqu'à deux fois OU l'action de caste se fait en ACTR à la place afin de pouvoir être placée en interruption juste avant l'action alliée à soutenir<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les hérauts sont des porteurs d'aide, de message et de soutien actif. Ils rendent les autres plus efficaces parce qu'ils savent annoncer, guider et renforcer au bon moment.</em></blockquote>
@@ -2352,7 +2352,7 @@
 <strong>Trait 2</strong> : Vos actions de combat sont avantagées sur un adversaire qui est pris par surprise<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Se cache à nouveau dans le décors (test de discrétion requis) OU se fait passer pour un autre personnage (test de représentation requis) (considéré comme une condition de confusion)<br>
 <strong>Amélioration</strong> : En ACTL OU le test est avantagé<br>
-<strong>Entraînements</strong> : Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les infiltrateurs maîtrisent l'entrée non permise, la surprise et l'embuscade. Ils vivent de seuils franchis sans invitation et de présences découvertes trop tard.</em></blockquote>
@@ -2377,7 +2377,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Technologie +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le personnage <optimise> ou <surcharge> temporairement un appareil technologique à proximité. La prochaine action faite avec une machine optimisée bénéficie d’un avantage. La prochaine action faite avec une machine surchargée bénéficie d'un bonus à ses jets de 1D8 ou d'un bonus de 1 niveau d'effet (si applicable).<br>
 <strong>Amélioration</strong> : En ACTL à la place OU <optimisé> et <surchargé> OU la surcharge ajoute 2D8 ou 2 niveaux (selon ce qui est applicable) OU l'optimisation ajoute +1 au test (en plus de l'avantage)<br>
-<strong>Entraînements</strong> : Naturel</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les ingénieurs appliquent la technologie pour résoudre, construire ou détourner. Ils se tiennent entre théorie et terrain, là où une idée doit vraiment fonctionner.</em></blockquote>
@@ -2452,7 +2452,7 @@
 <strong>Trait 2</strong> : Maximum du niveau des invocations +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : L'invocateur prépare une action d'interruption pour le compte de son invocation, cette dernière pourra l'utiliser pour elle ou son invocateur si à proximité (qu'il s'agisse de défense ou opportunité)<br>
 <strong>Amélioration</strong> : En ACTL à la place OU l'action sera avantagé<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les invocateurs vivent plus directement dans le rapport aux entités appelées. Leur art repose sur le lien, l'ordre donné et le risque qu'une présence étrangère transforme la scène.</em></blockquote>
@@ -2473,7 +2473,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Robustesse & Intuition<br>
 <strong>Privilège</strong> : Concerne l’usage des armes de jet de type javeline etc. Un usage par round maximum.<br>
-<strong>Trait 1</strong> : Maitre des armes de jets – Avec l'arme de la caste : Dégats maximum +2 et Portée courte +2, une attaque affichant au moins un degré de réussite inflige la condition paralysie avec une charge équivalante à la moitié du jet, technicité +1 (maximum de pénalités pour les manoeuvres)<br>
+<strong>Trait 1</strong> : Maitre des armes de jets – Avec l'arme de la caste : Dégats maximum +2 et Portée courte +2, sur un critique via l'arme (attaque, tactique ou défense) ajoute une condition (?), technicité +1<br>
 <strong>Trait 2</strong> : Avec l'arme de la caste : Formation et Science<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : La prochaine technique du round voit ses pénalités de manoeuvres réduites de 2 via l'arme de la caste; OU bien la prochaine attaque du round qui touche la cible via l'arme de caste appose une marque sur celle ci, la marque dure 1 round et les actions pertinentes visant la cible bénéficies des bonus liés au Trait 1 de la caste (quelque soit l'auteur de l'action en question); OU bien le personnage profite d'un avantage à sa prochaine attaque/tactique du round via l'arme de caste si l'attribut d'usage de l'arme du personnage est supérieur à l'attribut de défense de l'adversaire<br>
 <strong>Amélioration</strong> : La réduction de pénalité passe à 3 OU la durée de la marque est de 1 tour à la place OU cet avantage s'applique à toutes les actions à venir jusqu'au prochain round (défenses comprises)<br>
@@ -2552,7 +2552,7 @@
 <strong>Trait 2</strong> : Maximum PV +10 (vitalité)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Jusqu'au prochain round les actions de combat réussie provoquent un recule de 1 case<br>
 <strong>Amélioration</strong> : En ACTL OU jusqu'à la fin du tour OU repousse de 2 cases<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les juggernauts sont des masses en marche, dangereux après le déplacement. Leur violence naît de l'inertie, de l'impact et de la difficulté à les arrêter.</em></blockquote>
@@ -2652,7 +2652,7 @@
 <strong>Trait 2</strong> : Liche (2eme étape) : Avantages (Attributs de l'esprit +2, Magie +2, Sauvegardes +2, PM maximum +1 par rangs de caste, Ego +8, ne peux plus être fatigué, ne peux plus être détruit/vaincu car la "mort" deviens une phase de stase durant laquelle la liche régénère ses PV et PS à taux réduits (divisés par deux) seul des processus particulier peuvent définitivement vaincre la liche) et inconvéniants (considéré comme mort vivant, avec les défauts que cela comprend lié à l'élément, les dégats d'élément morts restaurent les PVs, Attributs physiques -2, apparence réduite de 8, ne peux plus avoir de réactions sociales positives, corruption permanente +6, bonus de moral au groupe réduit de 10 (peut être négatif)) finaux de cet état<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Peux réaliser un test d'arcane Modus pour ponctionner une cible dans la zone de la liche, si le test dépasse la défense de constitution la liche préleve 1D8 PV qu'elle récupéré sur le champs, même chose avec la défense de volonté et les PS ou la défense de magie et les PM, si la cible n'a pas ou plus cette ressource évidemment la ponction est affectée, corruption temporaire de la liche +1 (nettoyé au prochain repos long), la ponction est augmentée de 2 si effectuée à proximité<br>
 <strong>Amélioration</strong> : En ACTL OU augmente la ponction de 1D8 et de 2 supplémentaires à proximité<br>
-<strong>Entraînements</strong> : Arme de mêlée, Armure, Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les liches poursuivent une magie de mort, d'ombre et d'impie au-delà des limites ordinaires. Leur existence même peut devenir une doctrine de persistance.</em></blockquote>
@@ -2727,7 +2727,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Mécanique +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le personnage <assure> ou <renforce> temporairement un appareil technologique à proximité. La prochaine action faite avec une machine assurée ne peux pas déraillée ni provoquer d'échec critique ni de provoquer de maladresse. Un objet renforcé reçoit un bonus de 2 à sa solidité.<br>
 <strong>Amélioration</strong> : En ACTL à la place OU <assure> et <renforce> OU l'assurance assure que les dés d'un test ne peuvent valoir moins de 3 (cela ne compte pas pour les singularités car la face du dé ne change pas) OU le renforcement offre un bonus de +1 supplémentaire<br>
-<strong>Entraînements</strong> : Science</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les machinistes utilisent la mécanique lourde, les engrenages et les dispositifs physiques comme extensions de l'action. Ils pensent en leviers, force transmise et pièces robustes.</em></blockquote>
@@ -2780,7 +2780,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de sorts du domaine de prédilection +1<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Le personnage sacrifie 1D8 PV et son prochain sort est renforcé.<br>
 <strong>Amélioration</strong> : Renforcement supérieur<br>
-<strong>Entraînements</strong> : Science</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les mages de sang paient la magie dans la chair, la douleur ou la vitalité. Leur pratique rend chaque sort plus intime, plus coûteux et plus difficile à regarder en face.</em></blockquote>
@@ -2805,7 +2805,7 @@
 <strong>Trait 2</strong> : Maximum PM +10 (mana)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le prochain sort lancé aura ses 2 premiers D8 maximisés<br>
 <strong>Amélioration</strong> : En ACTL OU les 3 premiers D8 à la place<br>
-<strong>Entraînements</strong> : Science, Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les magisters travaillent l'incantation comme une manoeuvre raffinée. Leur pratique vise à contrôler la forme du sort avec autant de précision que son effet.</em></blockquote>
@@ -2855,7 +2855,7 @@
 <strong>Trait 2</strong> : Le personnage peux avoir un compagnon animal supplémentaire sur le champs de bataille<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le compagnon loups ciblé peux immédiatement réalisé 1 ACTS de déplacement, une fois par tour par cible<br>
 <strong>Amélioration</strong> : En ACTL OU le compagnon gagne 1 ACTS en plus pour attaquer ou réaliser une tactique<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les maîtres de la meute commandent à des loups ou compagnons similaires par lien, dressage et instinct partagé. Ils pensent en groupe, poursuite et morsure coordonnée.</em></blockquote>
@@ -2908,7 +2908,7 @@
 <strong>Trait 2</strong> : Le compagnon ours est en mesure de tenter une intimidation ou provocation gratuitement par tour<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le compagnon ours ciblé voit sa catégorie d'armure augmentée de 2 jusqu'à la fin du round<br>
 <strong>Amélioration</strong> : En ACTL OU le gain est de 4 OU jusqu'à la fin du tour<br>
-<strong>Entraînements</strong> : Outils, Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les maîtres des ours s'appuient sur une force animale massive et difficile à ignorer. Leur art consiste à guider la puissance plutôt qu'à la brider.</em></blockquote>
@@ -3083,7 +3083,7 @@
 <strong>Trait 2</strong> : Les alliés en présence du mentor peuvent dépenser 2 points de chi supplémentaires dans le cadre des prouesses, mentor inclus<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC – Instruction immédiate : L'allié ciblé dans la même zone peux, jusqu'à la fin du tour, faire usage d'une manoeuvre au choix du mentor (et que le mentor connait), comme s'il l'avait. Si la cible connait déjà la manoeuvre alors les pénalités sont réduites de 1 tous les 2 de pénalités théoriques. Une fois la manoeuvre employée cet effet prend fin.<br>
 <strong>Amélioration</strong> : En ACTL à la place<br>
-<strong>Entraînements</strong> : Arme à distance, Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les mentors vivent pour transmettre, guider et former. Leur talent n'est pas seulement de savoir faire, mais de rendre quelqu'un d'autre capable d'agir mieux.</em></blockquote>
@@ -3133,7 +3133,7 @@
 <strong>Trait 2</strong> : Tant qu'il n'a pas nuit à une cible cette dernière est désavantagée pour toutes les actions visant à nuire qui ciblerait le personnage<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Test de détermination (vs expertise mentale) : La cible perd autant de Rage, Garde ou Adrénaline que la valeur actuel de ces ressoyrces divisé par 2, une fois par tour maximum sur la même cible<br>
 <strong>Amélioration</strong> : Pas de division ou DD +2<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les missionnaires cherchent à désamorcer les conflits, calmer les fanatismes et ouvrir une brèche de dialogue. Leur foi ou leur cause avance par persuasion pacificatrice.</em></blockquote>
@@ -3158,7 +3158,7 @@
 <strong>Trait 2</strong> : L'exhortation positive dure 1 tour de plus<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Soutiens l'allié ciblé via son mode artistique, qui sera inspiré, il pourra dépensé l'inspiration pour avoir un avantage à un test à venir, ce qui met fin à l'effet<br>
 <strong>Amélioration</strong> : En ACTL OU la capacité peux cibler deux alliés à la place OU la cible reçoit deux inspirations à la place<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les muses inspirent, relèvent le moral et donnent aux alliés une image plus haute d'eux-mêmes. Leur pouvoir est de faire agir les autres avec plus de certitude.</em></blockquote>
@@ -3208,7 +3208,7 @@
 <strong>Trait 2</strong> : Peux désormais réparer des objets (qu'importe le domaine) "détruits" pour un cout et temps de réparation x3; peux à défaut réparer pour un cout et temps de réparation divisé par 2<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le personnage effectue une action de réparation, sabotage ou recyclage instantanée (normalement ACTC ou plus), le résultat de l'action est temporaire et dure jusqu'à la fin de la scène<br>
 <strong>Amélioration</strong> : En ACTL OU le test est avantagé OU dure jusqu'à la fin du jour<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
 <blockquote><em>Les mécaniciens réparent, recyclent, sabotent et démontent ce que la technologie produit. Ils connaissent les machines par leurs failles autant que par leurs plans.</em></blockquote>
@@ -3283,7 +3283,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de l'artisanat Nanomachine +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Réorganise les capacités de nanomachines à proximités dont il a le contrôle, par défaut cela requière une ACTC<br>
 <strong>Amélioration</strong> : En ACTL à la place<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Outils, Science</p>
 </td></tr></table>
 
 <blockquote><em>Les nanonistes travaillent avec l'invisible technologique, les microstructures et les transformations fines. Leur science agit à une échelle que peu de gens savent seulement imaginer.</em></blockquote>
@@ -3383,7 +3383,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de sorts du domaine de prédilection +1<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Si il y a un corps non profané à proximité du lieu de lancement d'un sort (dont le personnage a connaissance de la position, sous un monticule de terre c'est valide si le personnage sait qu'il est ici) alors ce dernier est "profané" et le sort est renforcé. Le personnage peux à la place sacrifier un objet mortuaire (0.4 PO prix de base Q0, consommable).<br>
 <strong>Amélioration</strong> : Renforcement supérieur<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les nécromanciens étudient la mort, les corps et les esprits négatifs. Ils savent que la fin d'une vie n'est pas toujours la fin d'une utilité, d'une dette ou d'une présence.</em></blockquote>
@@ -3508,7 +3508,7 @@
 <strong>Trait 2</strong> : "A l'aise" en pilotant un véhicule<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le personnage "pilote" son véhicule (au lieu d'avoir besoin d'une ACTC) jusqu'à la fin du round<br>
 <strong>Amélioration</strong> : En ACTL à la place OU jusqu'à la fin du tour<br>
-<strong>Entraînements</strong> : Science, Outils</p>
+<strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
 <blockquote><em>Les pilotes ne conduisent pas seulement des véhicules : ils sentent leur inertie, leurs limites et leurs réactions. Leur compétence fait d'un engin un corps presque familier.</em></blockquote>
@@ -3608,7 +3608,7 @@
 <strong>Trait 2</strong> : Après une activité de méditation le prophète reçoit une courte vision de ce qui peux arriver prochainement, à la discrétion du MJ qui peux décider de s'en remettre à un test d'intuition (moins de 10 : une information inutile, 10 à 14 une information un peu utile, 15 à 19 une information utile, 20 et + une information très utile)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le prophète récite une (courte) prophétie court termiste relative à une cible, s'il s'agit d'une prophétie bénéfique pour une cible elle réalise un test de fortune et bénéficie d'un bonus de +1 sur un 10 ou +2 sur un 15 pour aller dans le sens la prophétie, s'il s'agit d'une prophétie néfaste la cible réalise un test de fortune difficulté 10 et sur un échec elle subit un malus de 2 pour aller dans le sens de la prophétie, ces bonus ou malus peuvent prendre n'importe quelle forme (bonus au test, à la défense passive, à une sauvegarde...) tant qu'elle convient, une fois par tour maximum<br>
 <strong>Amélioration</strong> : En ACTL à la place<br>
-<strong>Entraînements</strong> : Arme de mêlée, Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les prophètes portent la divination comme une charge sociale. Ils annoncent, préviennent, interprètent et doivent vivre avec le poids de ce que les autres entendent dans leurs visions.</em></blockquote>
@@ -3786,7 +3786,7 @@
 <strong>Trait 2</strong> : Vitesse en combat +4<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : La défense passive au choix du personnage est augmentée jusqu'à atteindre la valeur d'une autre défense passive au choix du personnage, cet effet dure jusqu'à la fin du tour, maximum +2, multiples instances de cet effet possibles<br>
 <strong>Amélioration</strong> : En ACTL à la place OU maximum +3<br>
-<strong>Entraînements</strong> : Outils, Social</p>
+<strong>Entraînements</strong> : Arme de mêlée, Arme de jet</p>
 </td></tr></table>
 
 <blockquote><em>Les rossignols excellent dans les actions doublées, les gestes successifs et les enchaînements rapides. Leur talent tient à leur capacité à occuper deux temps à la fois.</em></blockquote>
@@ -3939,7 +3939,7 @@
 <strong>Trait 2</strong> : Analyste de l'infinie – Le personnage est toujours au courant de la marge d'échec ou de réussite des actions dont il est le témoin<br>
 <strong>Action spéciale</strong> : ACTR & 3 PC : Le personnage peux réaliser une aide pour un test qui n'a pas déjà fait l'objet d'une aide via une de ses connaissances (scientifique ou non), cette action peux se faire en réaction au résultat d'un test effectué par un allié ou soi même<br>
 <strong>Amélioration</strong> : L'ACTR requière 2 PI (initiative) de moins OU l'action peux à la place être en réaction d'une action visant la défense de la cible et augmenter la défense passive de celle ci du même montant que l'aide aurait apportée (uniquement pour l'action en question) OU l'aide peux s'ajouter à une autre<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
 <blockquote><em>Les scientifiques théorisent, observent et déduisent avant d'agir. Leur force vient de la méthode, de l'expérience et de la capacité à transformer l'inconnu en problème étudiable.</em></blockquote>
@@ -3964,7 +3964,7 @@
 <strong>Trait 2</strong> : Etre aidé ou aider applique le bonus d'aide au jet associé au test (le cas échéant)<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : La prochaine défense pour lequel le personnage a l'usufruit, donc qu'il en soit l'origine ou non, est avantagée, possible en ACTS et l'action en question sera doublement avantagé à la place<br>
 <strong>Amélioration</strong> : Cet effet s'applique aux deux prochaines défenses<br>
-<strong>Entraînements</strong> : Arme de mêlée, Armure, Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les seigneurs savent commander, recevoir du soutien et redistribuer l'effort collectif. Leur autorité fonctionne parce qu'elle organise la puissance des autres.</em></blockquote>
@@ -4014,7 +4014,7 @@
 <strong>Trait 2</strong> : Maximum du niveau de sorts du domaine de prédilection +1<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Si la raison du lancement du prochain sort vise à corriger des tords réalisés à des esprits alors ce dernier est renforcé. Le personnage peux à la place sacrifier un objet religieux (0.4 PO prix de base Q0, consommable).<br>
 <strong>Amélioration</strong> : Renforcement supérieur<br>
-<strong>Entraînements</strong> : Science, Outils, Armure</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les shamanes négocient avec les équilibres du vivant, des ombres et des esprits. Leur magie est moins institutionnelle que relationnelle, ancrée dans les passages entre mondes.</em></blockquote>
@@ -4039,7 +4039,7 @@
 <strong>Trait 2</strong> : Chaque sphère d'énergie/matière au delà de la première majore tous les sorts (+1 au jet par niveau)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Le Shugenja invoque une nouvelle sphère d'énergie/matière supplémentaire OU consomme une sphère d'énergie/matière pour en obtenir les avantages suivants: Bonus au prochain test et jet de magie associé à la sphère +3<br>
 <strong>Amélioration</strong> : Le bonus est de +4 à la place, le Shugenja peux avoir jusqu'à 2 sphères par énergies/matières<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : Focus</p>
 </td></tr></table>
 
 <blockquote><em>Les shugenja organisent leur magie autour de familles d'énergies, de matières ou de forces sacrées. Leur pratique est structurée par le choix d'une voie élémentaire ou spirituelle.</em></blockquote>
@@ -4089,7 +4089,7 @@
 <strong>Trait 2</strong> : L'exhortation négative dure 1 tour de plus<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Démoralise l'ennemi ciblé via son mode artistique, qui sera désinspiré, lorsque l'auteur le souhaite le test de la cible est alors désavantagé, ce qui met fin à l'effet<br>
 <strong>Amélioration</strong> : En ACTL OU la capacité peux cibler deux adversaire à la place OU la cible reçoit deux désinspirations à la place<br>
-<strong>Entraînements</strong> : Outils, Science</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les skalds chantent, racontent et provoquent pour briser la volonté adverse. Leur art célèbre autant qu'il humilie, et la peur devient parfois leur refrain.</em></blockquote>
@@ -4111,7 +4111,7 @@
 <strong>Sauvegardes mineures</strong> : Intuition & Détermination<br>
 <strong>Privilège</strong> : Concerne les tirs effectués depuis une position accroupie ou coucher via arme d'épaules, concerne aussi les tirs localisés/visés.<br>
 <strong>Trait 1</strong> : Toutes les tentatives de localiser le personnage lors d'un tir ou d'une position sont désavantagés<br>
-<strong>Trait 2</strong> : Les tirs à portée longue ou extrême ignorent un désavantage dû à la portée<br>
+<strong>Trait 2</strong> : Les tirs à distance longue ou extrême reçoivent moitié moins de pénalités<br>
 <strong>Action spéciale</strong> : ACTC & 3 PC – Préparation du sniper : Le prochain tir voit la perforation des armes mécaniques OU à la perception (le plus élevé des deux) doublée, triplé si le tireur est couché au sol, quadruplé si le tireur est en porté longue ou supérieure<br>
 <strong>Amélioration</strong> : En ACTS OU applique le bonus sur les deux sources au lieu d'une seule (mécanique ET perception)<br>
 <strong>Entraînements</strong> : Arme à distance, Science</p>
@@ -4139,7 +4139,7 @@
 <strong>Trait 2</strong> : Opportunité avantagée si la zone de contrôle active du personnage est supérieure à celle de son adversaire d'au moins 5<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Peux retenter une action ayant échouée ce round ci, elle ne subit pas la pénalité lié aux actions similaires lors d'un même round (-5), OU la prochaine dépense de Chi a un maximum augmenté de moitié<br>
 <strong>Amélioration</strong> : La nouvelle tentative est avantagée OU le Chi maximum est doublé à la place<br>
-<strong>Entraînements</strong> : Social</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les sohei mêlent discipline religieuse et interruption martiale. Ils protègent un ordre par la réaction rapide, comme si la vigilance était une forme de prière.</em></blockquote>
@@ -4314,7 +4314,7 @@
 <strong>Trait 2</strong> : Un allié peux également dépenser ses points de stratégie acquis comme il le ferait pour du karma (mais toujours dans le cadre précis de la stratégie définit)<br>
 <strong>Action spéciale</strong> : ACTC & 3 PC – In media res : Le personnage peux mettre en place une stratégie, alors qu'il est nécessaire d'avoir un temps relativement long (et incompatible avec une confrontation) sans cela, une seule stratégie pour une même scène<br>
 <strong>Amélioration</strong> : En ACTS ou le test est avantagé<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
 <blockquote><em>Les stratèges conçoivent la victoire avant l'action. Ils ordonnent les moyens, anticipent les réactions et cherchent à gagner par la disposition des forces.</em></blockquote>
@@ -4389,7 +4389,7 @@
 <strong>Trait 2</strong> : Le personnage peux activer plusieurs améliorations mécaniques lors d'une même action<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Jusqu'à la fin de la scène le prochain usage de l'amélioration mécanique visée ne consommera pas de charges<br>
 <strong>Amélioration</strong> : En ACTL OU le personnage peux "overload" le système et le déclanchement de l'amélioration mécanique se fera deux fois, l'une des deux ne consommant pas de charges<br>
-<strong>Entraînements</strong> : Focus, Outils, Science</p>
+<strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
 <blockquote><em>Les techniciens emploient la technologie comme un outil polyvalent d'action. Ils ne sont pas forcément inventeurs, mais savent tirer parti d'un dispositif au bon moment.</em></blockquote>
@@ -4411,10 +4411,10 @@
 <strong>Sauvegardes mineures</strong> : Détermination & Intuition<br>
 <strong>Privilège</strong> : Concerne la pratique du steam.<br>
 <strong>Trait 1</strong> : Science et Formation des actions ayant un rapport avec la manipulation du steam<br>
-<strong>Trait 2</strong> : Lorsque le personnage fait usage de charge steam il le fait par pas de 0.5 au lieu de 1, une demi charge ne vaux plus rien et ne peux être retirée/stockée, c'est un état temporaire<br>
-<strong>Action spéciale</strong> : ACTS & 3 PC : Le personnage tente une action de steam (via ses lunettes steam, attribute de Logique) directement contre un adversaire en vue (vs défense de Logique), si l'action réussie il inflige des dégats directs de catégorie 0 à la ressource de steam adverse; à la place le personnage peux décider de gagner 2 points de steam temporaire<br>
-<strong>Amélioration</strong> : En ACTL OU le gain est de 3 points de steam temporaire OU la moitié des dégats infligés au steam adverse est acquis sous forme de steam temporaire<br>
-<strong>Entraînements</strong> : Focus, Science</p>
+<strong>Trait 2</strong> : Le personnage peux apprendre jusqu'à 5 programmes sans consommer de mémoire<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Dual : Le personnage peux réaliser un total de deux actions de steam sur deux cibles distinctes, ces actions requièrent chacunes leurs dépenses de PS<br>
+<strong>Amélioration</strong> : En ACTL OU jusqu'à 3 cibles OU le cout en PS est réduit de 1 OU les deux actions sur le même objet<br>
+<strong>Entraînements</strong> : Science</p>
 </td></tr></table>
 
 <blockquote><em>Les technocrates maîtrisent le steam comme discipline centrale. Ils pensent en pression, énergie, industrie et domination technique du monde matériel.</em></blockquote>
@@ -4535,7 +4535,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Intuition & Sang-Froid<br>
 <strong>Privilège</strong> : Concerne les situations martiales où le tir est effectué à une distance longue ou extrême.<br>
-<strong>Trait 1</strong> : Ignore un désavantage dû à la portée longue ou extrême<br>
+<strong>Trait 1</strong> : Pénalité des armes à distance réduite de 1<br>
 <strong>Trait 2</strong> : En dehors de la zone de combat initiative +3<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC – Le prochain c'est toi : Marque un adversaire, si ce dernier ne se déplace pas ce round ci (et ou ne s'est pas déplacé) le personnage peux, à la fin du round, réaliser une opportunité (considérée comme préparée) sur cet adversaire via son arme à distance, requière l'action d'opportunité<br>
 <strong>Amélioration</strong> : Ne requière plus l'action d'opportunité<br>
@@ -4560,7 +4560,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Intuition & Sang-Froid<br>
 <strong>Privilège</strong> : Concerne l’usage des armes d’épaules. Un usage par round maximum.<br>
-<strong>Trait 1</strong> : Maitre des fusils – Avec l'arme de la caste : Recule -2 et Portée courte +2, une attaque affichant au moins un degré de réussite inflige la condition hémorragie avec une charge équivalante à la moitié du jet, technicité +1 (maximum de pénalités pour les manoeuvres)<br>
+<strong>Trait 1</strong> : Maitre des fusils – Avec l'arme de la caste : Recule -2 et Portée courte +2, sur un critique via l'arme (attaque, tactique ou défense) ajoute une condition (?), technicité +1<br>
 <strong>Trait 2</strong> : Avec l'arme de la caste : Formation et Science<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : La prochaine technique du round voit ses pénalités de manoeuvres réduites de 2 via l'arme de la caste; OU bien la prochaine attaque du round qui touche la cible via l'arme de caste appose une marque sur celle ci, la marque dure 1 round et les actions pertinentes visant la cible bénéficies des bonus liés au Trait 1 de la caste (quelque soit l'auteur de l'action en question); OU bien le personnage profite d'un avantage à sa prochaine attaque/tactique du round via l'arme de caste si l'attribut d'usage de l'arme du personnage est supérieur à l'attribut de défense de l'adversaire<br>
 <strong>Amélioration</strong> : La réduction de pénalité passe à 3 OU la durée de la marque est de 1 tour à la place OU cet avantage s'applique à toutes les actions à venir jusqu'au prochain round (défenses comprises)<br>
@@ -4664,7 +4664,7 @@
 <strong>Trait 2</strong> : Les rimes octroient un bonus de 1 aux tests sociaux, de même une histoire racontait octroit un bonus de 1 aux tests sociaux, le tout étant cumulable<br>
 <strong>Action spéciale</strong> : ACTC & 3 PC – Histoire vivante : Test de performance vs évaluation difficulté 5 : L'allié ciblé dans la zone peux retenter son action précédente ayant nécessité une ACTS contre une ACTR, à la place d'une ACTR l'allié peux décider de dépenser uniquement 2 points d'initiative et il reçoit alors un malus de 5, dans tous les cas l'action reçoit un bonus équivalant à la DR du test de performance.<br>
 <strong>Amélioration</strong> : En ACTS ou le test de performance est avantagé<br>
-<strong>Entraînements</strong> : Focus</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les trouvères font de la performance un métier de route, de place publique et de mémoire vivante. Leur art circule avec eux et transforme chaque halte en scène possible.</em></blockquote>
@@ -4714,7 +4714,7 @@
 <strong>Trait 2</strong> : Ignorés les pénalités d'usage des armures pour toutes vos actions (n'affecte donc pas l'initiative par example, qui n'est pas une action)<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : L'allure de la cible, soi ou allié à proximité, augmente de 4 jusqu'à la fin du round, OU en ACTL & 3 PC : La prochaine action de combat à venir profite d'un bonus au jet équivalant à la distance qui a été parcourus via une charge jusqu'à la cible (à partir de l'activation de cette capacité) ce round ci<br>
 <strong>Amélioration</strong> : En ACTL OU le bonus est de 6 OU s'applique à soi et à tous les alliés à proximité à la place<br>
-<strong>Entraînements</strong> : Arme à distance, Arme de jet, Naturel</p>
+<strong>Entraînements</strong> : <TODO></p>
 </td></tr></table>
 
 <blockquote><em>Les valkyries soutiennent l'action martiale par présence, mouvement et exaltation. Elles donnent au combat une dimension presque rituelle, où l'élan compte autant que le coup.</em></blockquote>
@@ -4814,7 +4814,7 @@
 <strong>Trait 2</strong> : Sauvegardes +1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : Jusqu'au prochain tour du personnage une cible doit réaliser sa prochaine attaque sur une cible au choix du Zélote à la place, seulement si c'est possible sur sa prochaine action (la cible doit être à porté etc), la cible peux choisir d'ignorer cette incitation mais subira un désavantage à ses actions à la place, si la cible fait l'objet d'une manipulation au préalable qui devrait déjà renforcer le choix de la même cible alors la cible ne peux pas s'y soustraire, la cible ignore ces effets si l'incitation vise un de ses alliés, la cible a le droit à un test de sang-froid et en cas de réussite elle ignore l'incitation, en cas de réussite critique elle ne peux plus être incité de la scène, en cas d'échec critique elle est désavantagée à son attaque incité si la cible est un allié (et plus tard, une fois l'action améliorée et possible sur un allié de la cible, avantagée sur l'allié en question)<br>
 <strong>Amélioration</strong> : En ACTL OU peux forcer la cible à s'en prendre à ses alliés OU DD +2<br>
-<strong>Entraînements</strong> : Arme de mêlée, Arme de jet, Armure, Naturel</p>
+<strong>Entraînements</strong> : Arme de mêlée, Social</p>
 </td></tr></table>
 
 <blockquote><em>Les zélotes transforment la conviction sociale en arme contre ceux qu'ils jugent hérétiques. Leur parole ne débat pas toujours : elle accuse, rallie et tranche.</em></blockquote>
