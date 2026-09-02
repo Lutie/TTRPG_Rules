@@ -118,7 +118,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Ballistification ✧</span> (Ballo (Lancer, grec) / Lirballo (Lir + ballo)) : Génère un enchantement positif qui augmente la distance de tir et de jet de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/20]</span> fois (soit 5% par magnitude). ***Clé :*** 🛡️ Guerre: Lirballoorr
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Ballistification ✧</span> (Ballo (Lancer, grec) / Lirballo (Lir + ballo)) : Génère un enchantement positif qui augmente la portée courte de tir et de jet de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/20]</span> fois (soit 5% par magnitude) ; les portées longue et extrême éventuelles sont recalculées à partir de cette nouvelle valeur. ***Clé :*** 🛡️ Guerre: Lirballoorr
 
 ***Description :*** Augmente nettement la portée de tir et de lancer d’une cible.
 

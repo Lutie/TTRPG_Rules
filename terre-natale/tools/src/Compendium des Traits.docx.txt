@@ -1629,9 +1629,10 @@ Catégorie : Confrontation.
 Extension : Confrontation. 
 ■
 ★ Projectiles en Mains [1]
-Description : Le personnage est capable de tenir plus de projectiles dans ses mains (tout en pouvant tirer avec), tel que des flèches ou des couteaux de lancer par exemple.
-Il double ainsi le nombre de projectiles qu’il peut tenir dans ses mains de la sorte.
-Cela permet au personnage de ne pas avoir à « recharger » à chaque flèche tirée ou projectile lancé par exemple.
+Description : Le personnage est capable de tenir davantage de projectiles en main tout en les gardant prêts à l’emploi.
+S’il s’agit de munitions ou d’armes de lancer maniables individuellement (flèches, carreaux, billes, couteaux de lancer, etc.), la capacité normale obtenue lors d’un approvisionnement — 1 + niveau de groupe + niveau de compétence de l’arme associée — est doublée.
+S’il s’agit de projectiles encombrants ou délicats (bombes, grenades, fioles et autres consommables comparables), le personnage peut en tenir un supplémentaire prêt à l’emploi : sa capacité passe de 1 à 2.
+Ce trait ne supprime pas l’action nécessaire pour approvisionner ces projectiles depuis leur contenant.
 Catégorie : Combat.
 Extension : Confrontation. 
 ■
@@ -2003,7 +2004,7 @@ Prérequis : Constitution 13.
 Extension : 10e anniversaire.
 ★ Tirs Adroits [1]
 Description : Le personnage sait exploiter sa précision musculaire autant que son œil.
-Lorsqu’il effectue un tir, il peut utiliser sa Dextérité plutôt que sa Perception pour calculer le facteur de portée de son arme ou son jet de dégâts.
+Lorsqu’il effectue un tir, il peut utiliser son modificateur de Dextérité plutôt que son modificateur de Perception pour calculer la portée courte de son arme ou son jet de dégâts.
 Le test reste toutefois gouverné par la Perception.
 Catégorie : Combat.
 Prérequis : Volonté 13.
@@ -2011,7 +2012,7 @@ Extension : 10e anniversaire.
 ■
 ★ Jets Violents [1]
 Description : Le personnage mise sur la puissance brute plus que sur la visée.
-Lorsqu’il effectue un jet, il peut utiliser sa Force plutôt que sa Perception pour calculer le facteur de portée de son arme ou son jet de dégâts.
+Lorsqu’il effectue un jet, il peut utiliser sa Force plutôt que sa Perception pour calculer son jet de dégâts.
 Le test reste toutefois gouverné par la Perception.
 Catégorie : Combat.
 Prérequis : Volonté 13.
@@ -2060,8 +2061,8 @@ Catégorie : Spécialisation, Confrontation.
 Extension : 10e anniversaire.
 ■
 ★ Tireur de Proximité [1]
-Description : Le personnage sait tirer même dans la mêlée sans perdre en précision.
-Il ne subit aucun désavantage lorsqu’il effectue une attaque à distance en courte portée.
+Description : Le personnage sait employer une arme de tir même dans la mêlée sans perdre en précision.
+Il ne subit aucun désavantage dû à une cible trop proche lorsqu’il effectue une attaque avec une arme de tir à une distance inférieure ou égale à sa portée minimale confortable.
 Catégorie : Combat.
 Prérequis : Dextérité 13.
 Extension : 10e anniversaire.

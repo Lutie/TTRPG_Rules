@@ -2178,7 +2178,7 @@
       "autre": false
     },
     "description": "Le personnage ajuste son tir pour en augmenté la portée, très utile pour les armes dont la porté est très faible",
-    "effets": "L'attaque profite d'une portée de tir augmentée de 50% ou de 5, le plus haut des deux",
+    "effets": "La portée courte du tir est augmentée de 50% ou de 5, le plus haut des deux ; les portées longue et extrême sont recalculées à partir de cette nouvelle valeur",
     "modularite": "Augmenter les pénalités de 1 augmente ce bonus de 25% ou de +2, on conserve le plus haut bonus des deux modalités",
     "notes": "",
     "conditions": "Arme à distance.",

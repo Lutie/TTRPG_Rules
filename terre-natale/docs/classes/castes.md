@@ -445,7 +445,7 @@
 <strong>Privilège</strong> : Concerne l’usage du Tir. Un usage par tour maximum.<br>
 <strong>Trait 1</strong> : Une cible en mouvement ne provoque pas de pénalité pour les tirs<br>
 <strong>Trait 2</strong> : Les alliés ou autre cible devant la ligne de mire ne provoque pas de pénalités de tir<br>
-<strong>Action spéciale</strong> : ACTS & 3 PC : Jusqu'à la fin de la scène (une fois) : Le prochain rechargement d'arme est réduit d'une ACTS, ou la porté du prochain tir est augmentée de 50%, ou le prochain tir ignore 2 points de couverture<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC : Jusqu'à la fin de la scène (une fois) : Le prochain rechargement d'arme est réduit d'une ACTS, ou la portée courte du prochain tir est augmentée de 50%, ou le prochain tir ignore 2 points de couverture<br>
 <strong>Amélioration</strong> : En ACTL ou jusqu'à 2 fois<br>
 <strong>Entraînements</strong> : Arme à distance, Arme de jet, Arme de mêlée, Naturel</p>
 </td></tr></table>
@@ -822,7 +822,7 @@
 <strong>Privilège</strong> : Concerne les situations martiales ou d'aventure incluant l'usage d'explosif et autres grenades, lancé ou non.<br>
 <strong>Trait 1</strong> : Formation et Science via les explosifs<br>
 <strong>Trait 2</strong> : Les explosifs de l'artificier sont moitiés moins efficaces sur les alliés de l'artificier (ou sur lui même), de plus la zone d'effet des explosifs est augmentée de 1<br>
-<strong>Action spéciale</strong> : ACTS & 3 PC : Le prochain explosif lancé/préparé/activé par le personnage dispose d'un atout au choix parmis : Zone +2 (si et seulement si l'explosif était déjà doté d'une zone), Portée +2 (si et seulement si l'explosif se lance), Difficultés (sauvegardes, désamorçages si pertinent, etc) +2, Jets +2<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC : Le prochain explosif lancé/préparé/activé par le personnage dispose d'un atout au choix parmis : Zone +2 (si et seulement si l'explosif était déjà doté d'une zone), Portée courte +2 (si et seulement si l'explosif se lance), Difficultés (sauvegardes, désamorçages si pertinent, etc) +2, Jets +2<br>
 <strong>Amélioration</strong> : En ACTL OU peux choisir deux atouts à la place OU bonus de 3<br>
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
@@ -845,7 +845,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Robustesse & Fortune<br>
 <strong>Privilège</strong> : Concerne les situations martiales où le tir est effectué à une distance courte.<br>
-<strong>Trait 1</strong> : Pénalité des armes à distance réduite de 1<br>
+<strong>Trait 1</strong> : Ignore un désavantage dû à la portée longue ou extrême<br>
 <strong>Trait 2</strong> : Les opportunités peuvent s'effectuer avec l'arme à distance<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : Marque un adversaire, jusqu'à son prochain round le personnage peux réaliser une opportunité (considérée comme préparée, nécessite l'action) sur cet adversaire via son arme à distance (même conditions que pour une armée de mêlée, notament concernant la distance)<br>
 <strong>Amélioration</strong> : L'opportunité est caractérisée si le personnage marqué se déplace dans ou depuis la zone de menace du personnage OU l'action rapide requière seulement 3 PI OU l'opportunité est avantagée<br>
@@ -2473,7 +2473,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Robustesse & Intuition<br>
 <strong>Privilège</strong> : Concerne l’usage des armes de jet de type javeline etc. Un usage par round maximum.<br>
-<strong>Trait 1</strong> : Maitre des armes de jets – Avec l'arme de la caste : Dégats maximum +2 et Portée +2, une attaque affichant au moins un degré de réussite inflige la condition paralysie avec une charge équivalante à la moitié du jet, technicité +1 (maximum de pénalités pour les manoeuvres)<br>
+<strong>Trait 1</strong> : Maitre des armes de jets – Avec l'arme de la caste : Dégats maximum +2 et Portée courte +2, une attaque affichant au moins un degré de réussite inflige la condition paralysie avec une charge équivalante à la moitié du jet, technicité +1 (maximum de pénalités pour les manoeuvres)<br>
 <strong>Trait 2</strong> : Avec l'arme de la caste : Formation et Science<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : La prochaine technique du round voit ses pénalités de manoeuvres réduites de 2 via l'arme de la caste; OU bien la prochaine attaque du round qui touche la cible via l'arme de caste appose une marque sur celle ci, la marque dure 1 round et les actions pertinentes visant la cible bénéficies des bonus liés au Trait 1 de la caste (quelque soit l'auteur de l'action en question); OU bien le personnage profite d'un avantage à sa prochaine attaque/tactique du round via l'arme de caste si l'attribut d'usage de l'arme du personnage est supérieur à l'attribut de défense de l'adversaire<br>
 <strong>Amélioration</strong> : La réduction de pénalité passe à 3 OU la durée de la marque est de 1 tour à la place OU cet avantage s'applique à toutes les actions à venir jusqu'au prochain round (défenses comprises)<br>
@@ -3859,7 +3859,7 @@
 <strong>Privilège</strong> : Concerne les situations martiales lorsque le personnage réalise une attaque de melée après avoir attaque sa cible à distance, et vise versa. Les armes de jet compte pour de la distance.<br>
 <strong>Trait 1</strong> : Allure +2 OU ignore les terrains difficile (selon le cas), un terrain très difficile deviens un terrain difficile à la place<br>
 <strong>Trait 2</strong> : Science et Formation des tests de réactivité (dont l'initiative)<br>
-<strong>Action spéciale</strong> : ACTL & 3 PC : Annule les pénalités de tir à courte portée<br>
+<strong>Action spéciale</strong> : ACTL & 3 PC : Ignore le désavantage dû à une cible trop proche lors du prochain tir<br>
 <strong>Amélioration</strong> : Octroie un bonus de +3 en maitrise en plus d'ignorer les pénalités<br>
 <strong>Entraînements</strong> : Arme de mêlée, Arme à distance, Arme de jet, Naturel</p>
 </td></tr></table>
@@ -4111,7 +4111,7 @@
 <strong>Sauvegardes mineures</strong> : Intuition & Détermination<br>
 <strong>Privilège</strong> : Concerne les tirs effectués depuis une position accroupie ou coucher via arme d'épaules, concerne aussi les tirs localisés/visés.<br>
 <strong>Trait 1</strong> : Toutes les tentatives de localiser le personnage lors d'un tir ou d'une position sont désavantagés<br>
-<strong>Trait 2</strong> : Les tirs à distance longue ou extrême reçoivent moitié moins de pénalités<br>
+<strong>Trait 2</strong> : Les tirs à portée longue ou extrême ignorent un désavantage dû à la portée<br>
 <strong>Action spéciale</strong> : ACTC & 3 PC – Préparation du sniper : Le prochain tir voit la perforation des armes mécaniques OU à la perception (le plus élevé des deux) doublée, triplé si le tireur est couché au sol, quadruplé si le tireur est en porté longue ou supérieure<br>
 <strong>Amélioration</strong> : En ACTS OU applique le bonus sur les deux sources au lieu d'une seule (mécanique ET perception)<br>
 <strong>Entraînements</strong> : Arme à distance, Science</p>
@@ -4486,7 +4486,7 @@
 <strong>Sauvegardes mineures</strong> : Intuition & Sang-Froid<br>
 <strong>Privilège</strong> : Concerne les situations martiales d'attaque où le personnage agit sur une cible qui ne sait où se trouve l'attaque.<br>
 <strong>Trait 1</strong> : Les esquives peuvent mener à une contre attaque via des armes de jet<br>
-<strong>Trait 2</strong> : Pas de désavantage sur les jets à porté courte<br>
+<strong>Trait 2</strong> : Ignore le désavantage dû à une cible trop proche lors d'une attaque avec une arme de jet<br>
 <strong>Action spéciale</strong> : ACTR & 3 PC : Cette action peux être utilisée lorsqu'un adversaire entre en portée courte des jets, vous pouvez réaliser une attaque simple de jet sur ce dernier<br>
 <strong>Amélioration</strong> : L'attaque de jet en question est avantagée OU l'ACTR requière 2 PI (initiative) de moins<br>
 <strong>Entraînements</strong> : Arme de mêlée, Arme de jet, Naturel</p>
@@ -4535,7 +4535,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Intuition & Sang-Froid<br>
 <strong>Privilège</strong> : Concerne les situations martiales où le tir est effectué à une distance longue ou extrême.<br>
-<strong>Trait 1</strong> : Pénalité des armes à distance réduite de 1<br>
+<strong>Trait 1</strong> : Ignore un désavantage dû à la portée longue ou extrême<br>
 <strong>Trait 2</strong> : En dehors de la zone de combat initiative +3<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC – Le prochain c'est toi : Marque un adversaire, si ce dernier ne se déplace pas ce round ci (et ou ne s'est pas déplacé) le personnage peux, à la fin du round, réaliser une opportunité (considérée comme préparée) sur cet adversaire via son arme à distance, requière l'action d'opportunité<br>
 <strong>Amélioration</strong> : Ne requière plus l'action d'opportunité<br>
@@ -4560,7 +4560,7 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Intuition & Sang-Froid<br>
 <strong>Privilège</strong> : Concerne l’usage des armes d’épaules. Un usage par round maximum.<br>
-<strong>Trait 1</strong> : Maitre des fusils – Avec l'arme de la caste : Recule -2 et Portée +2, une attaque affichant au moins un degré de réussite inflige la condition hémorragie avec une charge équivalante à la moitié du jet, technicité +1 (maximum de pénalités pour les manoeuvres)<br>
+<strong>Trait 1</strong> : Maitre des fusils – Avec l'arme de la caste : Recule -2 et Portée courte +2, une attaque affichant au moins un degré de réussite inflige la condition hémorragie avec une charge équivalante à la moitié du jet, technicité +1 (maximum de pénalités pour les manoeuvres)<br>
 <strong>Trait 2</strong> : Avec l'arme de la caste : Formation et Science<br>
 <strong>Action spéciale</strong> : ACTL & 3 PC : La prochaine technique du round voit ses pénalités de manoeuvres réduites de 2 via l'arme de la caste; OU bien la prochaine attaque du round qui touche la cible via l'arme de caste appose une marque sur celle ci, la marque dure 1 round et les actions pertinentes visant la cible bénéficies des bonus liés au Trait 1 de la caste (quelque soit l'auteur de l'action en question); OU bien le personnage profite d'un avantage à sa prochaine attaque/tactique du round via l'arme de caste si l'attribut d'usage de l'arme du personnage est supérieur à l'attribut de défense de l'adversaire<br>
 <strong>Amélioration</strong> : La réduction de pénalité passe à 3 OU la durée de la marque est de 1 tour à la place OU cet avantage s'applique à toutes les actions à venir jusqu'au prochain round (défenses comprises)<br>

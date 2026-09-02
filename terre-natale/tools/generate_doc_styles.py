@@ -5,9 +5,10 @@ Self-contained filterable HTML+JS styles compendium.
 import json, os
 import pandas as pd
 
-xlsx_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/tools/src/Styles - Corpus.xlsx"
-json_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/tools/styles.json"
-out_path  = "/home/lutie/Projects/TTRPG_Rules/terre-natale/docs/styles/index.md"
+base_path = os.path.dirname(os.path.abspath(__file__))
+xlsx_path = os.path.join(base_path, "src", "Styles - Corpus.xlsx")
+json_path = os.path.join(base_path, "styles.json")
+out_path  = os.path.join(os.path.dirname(base_path), "docs", "styles", "index.md")
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
 # ---------------------------------------------------------------------------

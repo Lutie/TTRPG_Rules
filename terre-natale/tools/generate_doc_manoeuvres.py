@@ -4,8 +4,9 @@ Parse tools/manoeuvres.json and generate docs/manoeuvres/index.md
 """
 import json, os
 
-json_path = "/home/lutie/Projects/TTRPG_Rules/terre-natale/tools/manoeuvres.json"
-out_path  = "/home/lutie/Projects/TTRPG_Rules/terre-natale/docs/manoeuvres/index.md"
+base_path = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(base_path, "manoeuvres.json")
+out_path  = os.path.join(os.path.dirname(base_path), "docs", "manoeuvres", "index.md")
 os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
 with open(json_path, encoding="utf-8") as f:

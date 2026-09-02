@@ -1402,7 +1402,7 @@ Génère un enchantement positif qui octroie à la cible non humanoïde les bén
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🛡️ Guerre: Lirballoorr
-Génère un enchantement positif qui augmente la distance de tir et de jet de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/20]</span> fois (soit 5% par magnitude).
+Génère un enchantement positif qui augmente la portée courte de tir et de jet de la cible de <span style="color:#ff1493; font-weight:bold;">[Magnitude/20]</span> fois (soit 5% par magnitude) ; les portées longue et extrême éventuelles sont recalculées à partir de cette nouvelle valeur.
 
 ---
 

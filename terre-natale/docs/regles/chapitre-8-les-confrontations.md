@@ -1547,6 +1547,12 @@ Réaliser une attaque à distance en étant dans la zone de contrôle d’un ind
 
 Les armes à distances sont sujettes aux règles de portée et des obstacles, ce qui joue grandement en leur défaveur, compensant la position avantageuse qui est offerte par la portée de leurs attaques.
 
+### Le Cas des armes de jet
+
+Les armes de jet suivent les mêmes bandes générales que les armes de tir : elles sont désavantagées lorsque la cible est trop proche et à portée longue. Elles ne disposent cependant pas de portée extrême. Une attaque de jet demeure une attaque à distance et peut notamment déclencher une opportunité lorsqu’elle est réalisée dans la zone de contrôle d’un adversaire.
+
+Une arme de jet est un outil adapté aux actions tactiques à distance lorsque sa forme permet logiquement de produire l’effet recherché. Elle n’est alors pas considérée comme une arme improvisée. Une bolas peut ainsi servir à renverser ou entraver, un filet à contrôler et un projectile tranchant à désarmer ou couper un élément accessible. Le MJ reste juge de la compatibilité entre l’arme et la tactique entreprise.
+
 ### Le Cas des boucliers
 
 Les mains gauches sont des armes disposant de la propriété « bouclier ».
@@ -1617,7 +1623,7 @@ Voici un récapitulatif de l’impact des attributs du corps en combat.
 #### La Perception
 
 - Elle permet de réaliser des défenses qui profitent des obstacles (couverture).
-- Elle détermine le facteur de portée des armes à distance.
+- Elle détermine la portée courte des armes de tir.
 - Elle permet d’attaquer via les armes à distance.
 - Elle fixe la défense contre les attaques basées sur la perception.
 

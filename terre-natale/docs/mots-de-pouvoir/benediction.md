@@ -1983,7 +1983,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "🛡️ Guerre: Lirballoorr",
-    "description": "Génère un enchantement positif qui augmente la distance de tir et de jet de la cible de [Magnitude/20] fois (soit 5% par magnitude)."
+    "description": "Génère un enchantement positif qui augmente la portée courte de tir et de jet de la cible de [Magnitude/20] fois (soit 5% par magnitude) ; les portées longue et extrême éventuelles sont recalculées à partir de cette nouvelle valeur."
   },
   {
     "num": 157,

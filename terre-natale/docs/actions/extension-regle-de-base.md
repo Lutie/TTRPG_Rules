@@ -53,7 +53,7 @@ Condition : La cible est à une distance inférieure à la portée extrême de l
 
 Test : Dés + Combat (G) + Selon Arme (C) + modificateur de Perception (quelque soit l’Arme) contre Défense Passive (Perception).
 
-Note : Un tir est sujet à la règle des couvertures, la cible disposant d’un bonus de 0 à 5 selon le degré de couverture que lui offre le décors présent entre elle et le tireur. De plus, un tir est sujet à la distance entre l’attaquant et la cible. En courte ou longue portée, le tireur subit un désavantage. En extrême portée, le tireur subit un double désavantage. Voir les règles associées dans les règles de base.
+Note : Une attaque à distance est sujette à la règle des couvertures, la cible disposant d’un bonus de 0 à 5 selon le degré de couverture que lui offre le décor présent entre elle et l’attaquant. Une arme de tir comme une arme de jet subit un désavantage si la cible est trop proche, c’est-à-dire située à une distance inférieure ou égale à sa portée minimale confortable. Une attaque à portée longue subit un désavantage et une attaque à portée extrême — accessible aux seules armes de tir — un double désavantage. Voir les règles de portée associées dans les règles de base.
 
 ---
 ### Argumenter [Joust] [Attack] [Unsecure] [Speak] — ◆
@@ -310,7 +310,7 @@ Variante (⮌) : Le personnage peut réaliser cette action en interruption (par 
 
 ### Maintenir la Distance [Physical] [Tactical] — ◆
 
-Description : Le personnage tente de garder ses adversaires à portée idéale, alternant feintes et menaces pour les empêcher d’approcher sans risque. En cas de réussite l’adversaire est « mis à distance » : Il peut stopper son déplacement ou le continuer, S’il réalise un déplacement après avoir été mis à distance, le personnage peut déclencher une attaque d’opportunité « gratuite » avantagée qui s’avère en plus de cela « critique » si elle touche, que le déplacement en question soit risqué ou non. Le personnage peut mettre plusieurs cibles à distance, mais lorsqu’il réalise une attaque d’opportunité ainsi toutes ses cibles mises à distance ne le sont plus.
+Description : Le personnage tente de garder ses adversaires à bonne distance, alternant feintes et menaces pour les empêcher d’approcher sans risque. En cas de réussite l’adversaire est « mis à distance » : Il peut stopper son déplacement ou le continuer, S’il réalise un déplacement après avoir été mis à distance, le personnage peut déclencher une attaque d’opportunité « gratuite » avantagée qui s’avère en plus de cela « critique » si elle touche, que le déplacement en question soit risqué ou non. Le personnage peut mettre plusieurs cibles à distance, mais lorsqu’il réalise une attaque d’opportunité ainsi toutes ses cibles mises à distance ne le sont plus.
 
 Test : Dés + Tactique (G) + Contrôle (C) + modificateur de Dextérité (A) contre Défense Passive (Dextérité).
 
@@ -396,7 +396,9 @@ Règle spéciale : Complexe (Coordination).
 ---
 ### Approvisionner [Physical] — ◆
 
-Description : Le personnage prend en main des munitions en vue de recharger son arme ou de tirer directement, selon son arme. Pas de réussite à obtenir, le personnage récupère un maximum de munitions équivalant à 1 + niveau de groupe + niveau de compétence de l’arme associée à la munition en question. Ces munitions peuvent être gardées en main pour un usage via l’arc ou une fronde. Si les munitions sont stockées dans un “chargeur” il n’y a pas besoin de tenir l’ensemble dans ses mains, le chargeur lui-même suffit. Un chargeur est généralement vendu avec les armes qui en ont l’usage (ce qui n’est pas le cas des arcs et frondes).
+Description : Le personnage prend en main des projectiles en vue de recharger son arme ou de les employer directement. Pas de réussite à obtenir. S’il s’agit de munitions ou d’armes de lancer maniables individuellement (flèches, carreaux, billes, couteaux de lancer, etc.), le personnage en récupère au maximum **1 + niveau de groupe + niveau de compétence** de l’arme associée. Ces projectiles peuvent être conservés en main et employés successivement. S’ils sont stockés dans un chargeur, tenir le chargeur suffit : il n’est pas nécessaire de tenir séparément son contenu. Un chargeur est généralement vendu avec les armes qui en ont l’usage, contrairement aux arcs et aux frondes.
+
+Les projectiles encombrants ou délicats — notamment les bombes, grenades, fioles et autres consommables comparables — ne bénéficient pas de cette capacité : un personnage ne peut normalement en tenir qu’un seul prêt à l’emploi. Le trait « Projectiles en Mains » augmente ces deux capacités. La nature d’un projectile est déterminée par sa description et, en cas de doute, par le MJ.
 
 ---
 ### Recharger [Physical] — ◆~◆◆◆

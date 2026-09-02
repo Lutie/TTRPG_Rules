@@ -65,3 +65,5 @@ drwxr-xr-x    1 root     root            76 Aug 28 13:30 ..
 -rwxr-xr-x    1 root     root       1737242 Aug 28 13:30 index-CAY_0sMj.js
 -rwxr-xr-x    1 root     root        119832 Aug 28 13:30 index-DNrSaE2L.css
 ```
+
+cd /volume1/TTRPG_Rules/terre-natale && sudo docker compose pull && sudo docker compose up -d --build

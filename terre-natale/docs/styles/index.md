@@ -1,4 +1,4 @@
-# Liste des Corpus de Style
+# Compendium des Styles
 
 <div id="styles-app">
 
@@ -1049,7 +1049,7 @@
     "nom": "Souffle",
     "origines": "EFT",
     "pitch": "Arme de jet explosif => Portée et Zone +",
-    "rang1": "Si le personnage fait usage d'arme de jet explosive ses attaques ont une portée augmentée de 2",
+    "rang1": "Si le personnage fait usage d'arme de jet explosive, la portée courte de ses attaques est augmentée de 2",
     "rang2": "La zone d'impact d'une telle attaque est augmentée de 1",
     "rang3": "Le personnage à le choix entre : Les bonus sont doublés, Les alliés dans la zone d'impact subissent mi dégats (réussir une esquive ou sa sauvegarde suffit à réduire les dégats à 0)",
     "nb_rangs": 3
@@ -1067,7 +1067,7 @@
     "nom": "Versatilité",
     "origines": "Férale",
     "pitch": "Arme légère => Alternance distance/mêlée bonus",
-    "rang1": "Si le personnage touche une cible à l'aide d'une arme légère il marque celle ci, sa prochaine attaque avec un type d'attaque différent (distance ou mêlée) reçoit un bonus de 2, les attaques à distance ne sont compte comme tel que si elles sont effectuées à une distance de tir supérieure à courte (pas de désavantages), la marque dure pour un cycle",
+    "rang1": "Si le personnage touche une cible à l'aide d'une arme légère il marque celle ci, sa prochaine attaque avec un type d'attaque différent (distance ou mêlée) reçoit un bonus de 2, les attaques à distance ne comptent comme telles que si la cible n'est pas trop proche (distance supérieure à la portée minimale confortable), la marque dure pour un cycle",
     "rang2": "Le bonus passe à 4",
     "rang3": "Le bonus passe à 6",
     "nb_rangs": 3
@@ -1688,7 +1688,7 @@
     "nom": "Précision",
     "origines": "Sylvengarde",
     "pitch": "Tirs avec pénalités dû aux distances => Jet",
-    "rang1": "Les tirs réalisés par le personnage qui souffre de désavantage dû à la distance (trop près ou trop long), alors le jet est avantagé, si le personnage n'est pas affecté par les désavantages il ne peux profiter de cet effet",
+    "rang1": "Lorsque les tirs réalisés par le personnage souffrent d'un désavantage dû à la distance (cible trop proche, portée longue ou portée extrême), leur jet est avantagé ; si le personnage n'est pas affecté par un tel désavantage il ne peut profiter de cet effet",
     "rang2": "Le jet reçoit autant d'avantage que de désavantage au test le cas échéant, de plus si le test est à minima désavantagé le jet est assuré (minimum +1, soit 2)",
     "rang3": "Si le test est à minima désavantagé le jet est très très assuré (minimum +3, soit 4)",
     "nb_rangs": 3
@@ -1759,8 +1759,8 @@
   {
     "nom": "Portée",
     "origines": "Albalion",
-    "pitch": "Tir réalisé à portée idéale => Ajustement",
-    "rang1": "Tant que le personnage réalise un tir à portée idéale (ni courte, ni longue) son attaque reçoit un bonus d'ajustement de 1",
+    "pitch": "Tir réalisé à portée courte => Ajustement",
+    "rang1": "Tant que le personnage réalise un tir à portée courte son attaque reçoit un bonus d'ajustement de 1",
     "rang2": "Le bonus passe à 2",
     "rang3": "Le bonus passe à 3",
     "nb_rangs": 3
@@ -1768,8 +1768,8 @@
   {
     "nom": "Proximité",
     "origines": "Albalion",
-    "pitch": "Tir réalisé à portée courte => Perforation & Attrition",
-    "rang1": "Tant que le personnage réalise un tir à portée courte son attaque reçoit un bonus de perforation et d'attrition de 1, notons qu'une telle portée implique généralement des pénalités",
+    "pitch": "Tir sur une cible trop proche => Perforation & Attrition",
+    "rang1": "Tant que le personnage réalise un tir sur une cible trop proche (distance inférieure ou égale à la portée minimale confortable) son attaque reçoit un bonus de perforation et d'attrition de 1 ; une telle distance implique normalement un désavantage",
     "rang2": "Le bonus passe à 2",
     "rang3": "Le bonus passe à 3",
     "nb_rangs": 3

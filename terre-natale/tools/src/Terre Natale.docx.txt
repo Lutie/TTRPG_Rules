@@ -2565,51 +2565,59 @@ Elle est déterminée par le Charisme et l’Ego.
 La Portée
 La portée représente la distance à laquelle une action peut être réalisée.
 Il y a de fait plusieurs formes de portée qui dépendent du moyen employé pour atteindre la cible et/ou selon l’action.
-L’unité exprimée ici est arbitraire et il est nécessaire de multiplier la valeur de chaque portée par un coefficient (mètres par unités) afin de connaître la distance réelle.
+Les portées de mêlée et des mots utilisent leur coefficient propre ; les portées des armes de tir et de jet sont exprimées directement en mètres/cases.
 Pour rappel sur une carte quadrillée chaque case fait 1m de hauteur/largeur.
 La portée de mêlée représente la distance pour toucher via une arme de mêlée (ou une arme à distance utilisée comme arme improvisée en mêlée).
 Le coefficient est de 0.25m par unité.
 En termes de cases la portée est d’une case toutes les 4 unités. Ainsi en dessous de 4 le personnage doit être adjacent à sa cible, entre 5 et 7 il peut y avoir une case entre eux, etc…
                                                                                                                                           * Allonge de mêlée de l’arme = Catégorie de l’Arme + bonus/malus d’allonge (dû à la taille de l’arme notamment).
                                                                                                                                           * Portée de mêlée (0.25m/c) = Allonge de mêlée de l’arme + modificateur de Taille.
-La portée de jet représente la distance pour toucher via une arme de jet (ou une arme de mêlée utilisée comme arme improvisée en jet).
-Le coefficient est de 1m par unité.
-Elle se décline en plusieurs portées : courte, idéale, longue.
-                                                                                                                                          * Allonge de jet de l’arme = 5 - Catégorie de l’Arme + bonus/malus d’allonge.
-                                                                                                                                          * Portée de jet (1m/c) = Allonge de jet de l’arme x 1.
-La portée de tir représente la distance pour toucher une arme à distance. 
-Le coefficient est de 1m par unité. 
-Elle se décline en plusieurs portées : courte, idéale, longue, extrême.
-La portée de tir extrême correspond à des tirs en cloche ou autre méthode permettant de toucher à grande distance mais via une précision très sommaire.
-                                                                                                                                          * Allonge de tir de l’arme = Catégorie de l’Arme + bonus/malus d’allonge.
-Portée de tir (1m/c) = Allonge de tir de l’arme x 4.
+La portée d’une attaque à distance se calcule à partir de sa portée courte, exprimée directement en mètres/cases. La catégorie de l’arme intervient différemment selon que le projectile est propulsé par une arme de tir ou directement par le personnage. Le bonus ou malus d’allonge (*) de l’arme s’ajoute ensuite à cette portée courte ; une valeur négative la réduit donc naturellement.
+La portée minimale confortable
+Une arme de tir ou de jet nécessite un minimum d’espace pour être correctement employée.
+                                                                                                                                          * Portée minimale confortable (Cmin) = 2 + catégorie de l’arme.
+Si la cible se trouve à une distance inférieure ou égale à cette valeur, elle est trop proche et l’attaque subit un désavantage. Cette vérification est effectuée avant de déterminer toute autre bande de portée.
+La portée des armes de tir
+                                                                                                                                          * Portée courte = 10 + modificateur de Perception + catégorie de l’arme + (allonge*).
+                                                                                                                                          * Portée longue maximale = portée courte x 2.
+                                                                                                                                          * Portée extrême maximale = portée courte x 4.
+La catégorie représente ici une arme généralement plus encombrante à proximité, mais aussi capable de propulser une munition plus puissante ou mieux adaptée aux longues distances.
+La portée des armes de jet
+                                                                                                                                          * Portée courte = 10 + modificateur de Force - catégorie de l’arme + (allonge*).
+                                                                                                                                          * Portée longue maximale = portée courte x 2.
+Une arme de jet ne dispose pas de portée extrême. Sa catégorie représente ici un objet plus lourd ou encombrant, donc plus difficile à projeter loin à la seule force du personnage.
+* L’allonge est une propriété avancée de certaines armes. Tant qu’une arme ou l’un de ses effets ne précise pas de modificateur d’allonge, ce terme est ignoré et compte simplement comme 0 dans la formule.
 La portée des mots représente la distance pour toucher via une tirade (ou tout autre action misant sur la parole).
 Le coefficient est de 1m par unité. 
 Elle se décline en plusieurs portées : courte, idéale, longue.
                                                                                                                                           * Portée des mots (1m/c) = 5.
 Portée
-	Plage
+	Armes de jet
+	Armes de tir
 	Désavantages
-	Courte
-	x0 ~x1
+Trop proche
+	Distance inférieure ou égale à Cmin
+	Distance inférieure ou égale à Cmin
 	X1
-	Idéale
-	x1 ~ x3
+Courte
+	Cmin < distance inférieure ou égale à portée courte
+	Cmin < distance inférieure ou égale à portée courte
 	/
-	Longue
-	x3 ~ x5
+Longue
+	Portée courte < distance inférieure ou égale à portée courte x 2
+	Portée courte < distance inférieure ou égale à portée courte x 2
 	X1
-	Extrême
-	x5 ~ x10
+Extrême
+	Hors de portée
+	Portée courte x 2 < distance inférieure ou égale à portée courte x 4
 	X2
-	
-
-Exemple : Un arc court (catégorie 3, taille 1) a une distance de tir de l’arme de 2 (3 - 1), portée de tir 8.
-La portée de tir courte est 0 à 8m, la portée de tir idéale est de 8 à 24m, la portée de tir longue est de 24 à 40m, la portée de tir extrême est de 40 à 80m.
-Exemple : Un arc long (catégorie 3, taille 3) à une distance de tir de l’arme de 4 (3 + 1), portée de tir 16.
-La portée de tir courte est 0 à 16m, la portée de tir idéale est de 16 à 48m, la portée de tir longue est de à 80m, la portée de tir extrême est de 80 à 160m.
-Exemple : Une hachette (catégorie 2, taille 2) à une distance de jet de l’arme de 3 (5 - 2), portée de jet 3.
-La portée de jet court est 0 à 3m, la portée de jet idéale est de 3 à 9m, la portée de jet long est de 9 à 27m.
+Hors de portée
+	Distance supérieure à portée courte x 2
+	Distance supérieure à portée courte x 4
+	Action impossible
+Les bornes inférieures sont toujours strictes et les bornes supérieures inclusives. Une distance exacte n’appartient donc jamais à deux bandes différentes. La bande « trop proche » est déterminée en premier.
+Exemple : Une arme de tir de catégorie 3 ne disposant d’aucune propriété avancée de portée, employée avec un modificateur de Perception de +2, possède une Cmin de 5m et une portée courte de 15m. La cible est trop proche de 0 à 5m inclus ; elle est à portée courte au-delà de 5m et jusqu’à 15m ; à portée longue au-delà de 15m et jusqu’à 30m ; à portée extrême au-delà de 30m et jusqu’à 60m. Elle est hors de portée au-delà de 60m.
+Exemple : Une hachette de catégorie 2 ne disposant d’aucune propriété avancée de portée, lancée avec un modificateur de Force de +2, possède une Cmin de 4m et une portée courte de 10m. La cible est trop proche de 0 à 4m inclus ; elle est à portée courte au-delà de 4m et jusqu’à 10m ; à portée longue au-delà de 10m et jusqu’à 20m. Elle est hors de portée au-delà de 20m.
 Les Zones
 Les zones mesurent la capacité d’un personnage à maintenir une pression constante dans son entourage immédiat — qu’il s’agisse d’une pression physique ou mentale.
 Elles représentent l’espace d’action et d’influence qu’un personnage peut exercer ou subir au cours d’un affrontement.
@@ -5734,7 +5742,7 @@ L’Agilité
                                                                                                                                                          * Elle fixe la zone de menace passive (pour se défendre des opportunités).
 La Perception
                                                                                                                                                          * Elle permet de réaliser des défenses qui profitent des obstacles (couverture).
-                                                                                                                                                         * Elle détermine le facteur de portée des armes à distance.
+                                                                                                                                                         * Elle détermine la portée courte des armes de tir.
                                                                                                                                                          * Elle permet d’attaquer via les armes à distance.
                                                                                                                                                          * Elle fixe la défense contre les attaques basées sur la perception.
                                                                                                                                                          * Elle octroie de la perforation aux attaques physiques.
@@ -6623,7 +6631,7 @@ C’est une information notée de -2 à +2 mais qui est le plus souvent indiqué
 	-
 	+3   
 	+6   
-	* : Le modificateur d’allonge devient un modificateur de portée pour les armes de jet ou à distance.
+	* : Le modificateur d’allonge est une propriété avancée. Lorsqu’il existe, il devient un modificateur de portée courte pour les armes de tir ou de jet ; sinon, il n’y a pas lieu de s’en préoccuper.
 ** : Appliqué au prix de référence de l’objet et donc affecté par la catégorie.
 	
 Une valeur différente de 0 désigne une différence notable avec les armes « normales » de même genre : On ne compare donc jamais ces valeurs entre des armes totalement différentes.
@@ -7910,6 +7918,7 @@ Liaison (Arme)
 L’arme et le personnage sont connectés et partagent une liaison toute particulière.
 1e Rang : Le personnage a toujours connaissance de l’endroit et de la distance à laquelle se trouve son arme.
 2e Rang : L’arme est désormais considérée comme une arme de jet ET de mêlée, quelque soit son type d’origine.
+Son usage n’est donc improvisé dans aucune de ces deux configurations.
 3e Rang : Si l’arme est jetée sur un adversaire, elle revient dans les mains de son propriétaire le tour suivant. Si l’arme est utilisée en mêlée contre un adversaire elle pourra par la suite, une fois, être lancée et toucher la cible même si celle-ci n’est pas en ligne de mire. Le personnage ignore alors toutes les pénalités liées à son tir le cas échéant.
 4E Rang : Le retour est immédiat.
 5e Rang : Lorsque l’arme est jetée et touche un adversaire la prochaine attaque de mêlée contre cette cible est avantagée. Et vise versa.

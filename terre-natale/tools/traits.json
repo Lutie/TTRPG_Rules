@@ -776,7 +776,7 @@
       "rang": null
     },
     {
-      "nom": "Obsessionnel",
+      "nom": "Maniaque",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Règle de Base",
@@ -830,7 +830,7 @@
       "rang": null
     },
     {
-      "nom": "Minutieux",
+      "nom": "Méticuleux.se",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Règle de Base",
@@ -904,7 +904,7 @@
       "rang": null
     },
     {
-      "nom": "Éclectisme",
+      "nom": "Polyvalent.e",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Règle de Base",
@@ -966,12 +966,30 @@
       "sous_section": "Règle de Base",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage est particulièrement précis, et lorsqu'il réalise une action spectaculaire cette dernière l'est plus qu'elle ne devrait l'être encore.\nLes actions critiques du personnage ont un score augmenté de 2.\nCet effet n'est pas utile qu'en combat ou en joute, comme cela peut s'appliquer à des actions d'aventures etc…",
+      "description": "Le personnage est particulièrement précis, et lorsqu’il réalise une action physique spectaculaire cette dernière l’est plus qu’elle ne devrait l’être encore.\nLes actions critiques du personnage ont un score augmenté de 2 si elles sont associées au domaine du corps.\nCet effet n’est pas utile qu’en combat, comme cela peut s’appliquer à des actions d’aventures etc…",
       "categories": [
         "Général"
       ],
       "extension": "Base",
       "prerequis": "Perception 13",
+      "conditions": [],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null
+    },
+    {
+      "nom": "Précision Critique",
+      "type": "avantage_majeur",
+      "section": "avantages_majeurs",
+      "sous_section": "Règle de Base",
+      "cout": 1,
+      "avantage_mineur_bonus": false,
+      "description": "Le personnage est particulièrement précis et lorsqu’il réalise une action mentale spectaculaire cette dernière l’est plus qu’elle ne devrait l’être encore.\nLes actions critiques du personnage ont un jet augmenté de 2 si elles sont associées au domaine de l’esprit.\nCet effet n’est pas utile qu’en joute, comme cela peut s’appliquer à des actions d’aventures etc…",
+      "categories": [
+        "Général"
+      ],
+      "extension": "Base",
+      "prerequis": "Sagesse 13",
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
@@ -2011,7 +2029,7 @@
       "rang": null
     },
     {
-      "nom": "Affairiste",
+      "nom": "Négociant",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Compendium",
@@ -2213,7 +2231,7 @@
       "rang": null
     },
     {
-      "nom": "Flegme",
+      "nom": "Patience",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Compendium",
@@ -2225,6 +2243,24 @@
       ],
       "extension": "Compendium",
       "prerequis": "Sagesse 13",
+      "conditions": [],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null
+    },
+    {
+      "nom": "Pieds Rapides",
+      "type": "avantage_majeur",
+      "section": "avantages_majeurs",
+      "sous_section": "Compendium",
+      "cout": 1,
+      "avantage_mineur_bonus": false,
+      "description": "Le personnage est particulièrement agile et se déplace rapidement.\nLe déplacement du personnage est augmenté de 1.",
+      "categories": [
+        "Boost"
+      ],
+      "extension": "Compendium",
+      "prerequis": "Agilité 13",
       "conditions": [],
       "multiples_instances": null,
       "limitation": null,
@@ -3013,13 +3049,13 @@
       "rang": null
     },
     {
-      "nom": "Habitudes",
+      "nom": "Habitué.e à « une Compétence »",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Confrontations",
       "cout": 2,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage a développé une maîtrise instinctive d’un type d’action, au point de ne plus avoir besoin du temps supplémentaire que cela requiert habituellement. Selon la règle spéciale Habitude (voir le compendium des actions), cela supprime l’action libre requise par certaines actions (◆◇ → ◆) ou réduit d’un cran les actions complexes (◆ → ◇).\nLes habitudes s’appliquent à un domaine précis, pas à une compétence.\nChoix possibles : Coordination, Expression, Cognitif, Préparation, Soin, Incantation, Arcanes.",
+      "description": "Le personnage a développé une habitude si marquée dans l’usage d’une compétence qu’il en accomplit les actions associées avec une aisance déconcertante. Lorsqu’une action requiert une Action Simple et une Action Libre, il peut désormais effectuer celle-ci plus simplement et/ou rapidement : l’action libre n’est plus nécessaire. Les actions complexes ne sont pas affectées. Le choix de l’habitude se fait via une compétence précise. Par exemple, être habitué à la compétence Commandement permet de supprimer l’action libre nécessaire pour les actions Commander et Ordonner.\nChoix possibles : Une compétence, idéalement associée à des actions de confrontation requérant une Action Simple + Libre.",
       "categories": [
         "Habitude",
         "Général"
@@ -3027,7 +3063,7 @@
       "extension": "Confrontation",
       "prerequis": null,
       "conditions": [],
-      "multiples_instances": "Chaque instance concerne un domaine différent",
+      "multiples_instances": "Chaque instance concerne un choix différent",
       "limitation": null,
       "rang": null
     },
@@ -3818,7 +3854,7 @@
       "sous_section": "Confrontations",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage est capable de tenir plus de projectiles dans ses mains tout en pouvant les utiliser.\n\nS'il s'agit de munitions ou d'armes de lancer (flèches, carreaux, couteaux de lancer, etc.), il double le nombre qu'il peut tenir en main, lui évitant ainsi de devoir « recharger » entre chaque tir ou lancer.\n\nS'il s'agit d'autres types de projectiles (bombes, grenades, fioles…), il peut en tenir 1 supplémentaire en main, pour un maximum de 2.",
+      "description": "Le personnage est capable de tenir davantage de projectiles en main tout en les gardant prêts à l’emploi.\nS’il s’agit de munitions ou d’armes de lancer maniables individuellement (flèches, carreaux, billes, couteaux de lancer, etc.), la capacité normale obtenue lors d’un approvisionnement — 1 + niveau de groupe + niveau de compétence de l’arme associée — est doublée.\nS’il s’agit de projectiles encombrants ou délicats (bombes, grenades, fioles et autres consommables comparables), le personnage peut en tenir un supplémentaire prêt à l’emploi : sa capacité passe de 1 à 2.\nCe trait ne supprime pas l’action nécessaire pour approvisionner ces projectiles depuis leur contenant.",
       "categories": [
         "Combat"
       ],
@@ -3936,7 +3972,7 @@
       "sous_section": "Confrontations",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage a développé une récupération impressionnante dans un type de ressource spécifique.\nLa récupération de la ressource en question est augmentée de 3.\nChoix possibles : Selon les extensions en vigueur : Vitalité, Mentale, Chi, Endurance, Mana, Karma, Ingéniosité (PI).",
+      "description": "Le personnage a développé une récupération impressionnante dans un type de ressource spécifique.\nLa récupération de la ressource en question est augmentée de 3.\nChoix possibles : Selon les extensions en vigueur : Vitalité, Mentale, Chi, Endurance, Mana, Karma.",
       "categories": [
         "Général"
       ],
@@ -4310,7 +4346,7 @@
       "rang": null
     },
     {
-      "nom": "Promptitude",
+      "nom": "Vivacité",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",
       "sous_section": "Confrontations",
@@ -4406,7 +4442,7 @@
       "sous_section": "10e anniversaire",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage jouit d'un organisme robuste, particulièrement résistant aux affections.\nLorsqu'il applique sa récupération sur une condition liée à une maladie ou un poison, elle s'effectue avec un bonus de +5.",
+      "description": "Le personnage jouit d’un organisme robuste et récupère plus vite que la moyenne.\nSa récupération est augmentée de 1.",
       "categories": [
         "Boost"
       ],
@@ -4755,7 +4791,7 @@
       "sous_section": "10e anniversaire",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage sait exploiter sa précision musculaire autant que son œil.\nLorsqu’il effectue un tir, il peut utiliser sa Dextérité plutôt que sa Perception pour calculer le facteur de portée de son arme ou son jet de dégâts.\nLe test reste toutefois gouverné par la Perception.",
+      "description": "Le personnage sait exploiter sa précision musculaire autant que son œil.\nLorsqu’il effectue un tir, il peut utiliser son modificateur de Dextérité plutôt que son modificateur de Perception pour calculer la portée courte de son arme ou son jet de dégâts.\nLe test reste toutefois gouverné par la Perception.",
       "categories": [
         "Combat"
       ],
@@ -4773,7 +4809,7 @@
       "sous_section": "10e anniversaire",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage mise sur la puissance brute plus que sur la visée.\nLorsqu’il effectue un jet, il peut utiliser sa Force plutôt que sa Perception pour calculer le facteur de portée de son arme ou son jet de dégâts.\nLe test reste toutefois gouverné par la Perception.",
+      "description": "Le personnage mise sur la puissance brute plus que sur la visée.\nLorsqu’il effectue un jet, il peut utiliser sa Force plutôt que sa Perception pour calculer son jet de dégâts.\nLe test reste toutefois gouverné par la Perception.",
       "categories": [
         "Combat"
       ],
@@ -4900,7 +4936,7 @@
       "sous_section": "10e anniversaire",
       "cout": 1,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage sait tirer même dans la mêlée sans perdre en précision.\nIl ne subit aucun désavantage lorsqu’il effectue une attaque à distance en courte portée.",
+      "description": "Le personnage sait employer une arme de tir même dans la mêlée sans perdre en précision.\nIl ne subit aucun désavantage dû à une cible trop proche lorsqu’il effectue une attaque avec une arme de tir à une distance inférieure ou égale à sa portée minimale confortable.",
       "categories": [
         "Combat"
       ],
@@ -5673,6 +5709,24 @@
       "description": "Permet la définition d'une propriété apportant, sans nécessité de gestion excessive, un certain avantage tactique comme social.\nLe rang débloque un type de locaux différent : Locaux, Appartements, Villa, Manoir, Castel.",
       "categories": [
         "Aventure"
+      ],
+      "extension": "Contacts",
+      "prerequis": null,
+      "conditions": [],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null
+    },
+    {
+      "nom": "Renommée",
+      "type": "avantage_majeur",
+      "section": "avantages_majeurs",
+      "sous_section": "Contacts",
+      "cout": 2,
+      "avantage_mineur_bonus": false,
+      "description": "Le personnage a développé l’une de ses caractéristiques sociales à un stade supérieur.\nChaque rang de cet avantage augmente l’une de celle-ci de 2.\nChoix possibles : Gloire, Influence, Prestige, Droiture ou Connexion.",
+      "categories": [
+        "Général"
       ],
       "extension": "Contacts",
       "prerequis": null,
@@ -6503,7 +6557,7 @@
       "sous_section": "Technologie",
       "cout": 4,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage est capable de pratiquer les sciences avancées.\nAu rang 1, il choisit un domaine technologique de son choix : il peut alors apprendre et augmenter les compétences du groupe associé, lui permettant de réaliser des créations dans ce domaine.\nLes domaines disponibles sont :\n* Sciences biologiques : Chimie, Pyrotechnie, Toxicologie, Pharmacie\n* Sciences technologiques : Arsenal, Armurerie, Ingénierie, Métallurgie\n* Sciences mécaniques : Machinerie (terrestre), Machinerie (aquatique), Machinerie (aérienne)\n* Sciences mécatroniques : Biomécatronie, Macromécatronie, Micromécatronie\nChaque rang supplémentaire (au-delà du premier) permet de débloquer un domaine différent.\nLe personnage débloque également les PI (Points d'Ingéniosité), ressource propre aux praticiens des sciences.",
+      "description": "Le personnage est capable de pratiquer les sciences avancées.\nAu rang 1, il choisit une compétence technologique de son choix : il peut alors apprendre et augmenter cette compétence ainsi que le groupe associé, lui permettant de réaliser des créations dans ce domaine.\nLes domaines disponibles sont :\n* Sciences biologiques : Pharmacie, Toxicologie\n* Sciences organiques : Pyrotechnie, Chimie\n* Sciences technologiques : Armurerie offensive, défensive, tactique\n* Sciences mécaniques : Terrestre, Aquatique, Aérienne\n* Sciences mécatroniques : Biomécatronie, Macromécatronie, Micromécatronie\nChaque rang supplémentaire (au-delà du premier) permet de débloquer et d’apprendre une compétence différente.\nLe personnage débloque également le groupe des sciences génériques et ses compétences associées.",
       "categories": [
         "Général",
         "Technologie"
@@ -6917,7 +6971,7 @@
       "sous_section": "Artisanat",
       "cout": 2,
       "avantage_mineur_bonus": false,
-      "description": "Le personnage est particulièrement créatif.\nIl choisit une compétence d'artisanat et dispose d'une pool de créativité équivalant à Groupe + Compétence, qui ne peut être utilisée que pour réaliser des Promotions dans l'artisanat en question. Les Promotions sont une activité propre à l'artisanat permettant de conférer des propriétés uniques à une création.\nChaque rang de ce trait peut affecter un nouvel artisanat.",
+      "description": "Le personnage est particulièrement créatif.\nIl choisit une compétence d’artisanat et dispose d’une pool de créativité équivalant à Groupe + Compétence, qui ne peut être utilisé que pour l’artisanat en question.\nChaque rang de ce trait peut affecter un nouvel artisanat.",
       "categories": [
         "Artisanat"
       ],
@@ -6945,27 +6999,6 @@
       "prerequis": null,
       "conditions": [
         "Volonté 13"
-      ],
-      "multiples_instances": null,
-      "limitation": null,
-      "rang": null
-    },
-    {
-      "nom": "Ingéniosité sans Limites",
-      "type": "avantage_majeur",
-      "section": "avantages_majeurs",
-      "sous_section": "Technologie",
-      "cout": 1,
-      "avantage_mineur_bonus": false,
-      "description": "Le personnage accumule et gère les matériaux avec une efficacité hors du commun.\nSes Points d'Ingéniosité (PI) maximum augmentent de 5.",
-      "categories": [
-        "Boost",
-        "Technologie"
-      ],
-      "extension": "Technologie",
-      "prerequis": null,
-      "conditions": [
-        "Un seul avantage majeur augmentant le maximum d'une même ressource"
       ],
       "multiples_instances": null,
       "limitation": null,
@@ -7349,7 +7382,7 @@
       "rang": null
     },
     {
-      "nom": "Pessimiste",
+      "nom": "Maladroit.e",
       "type": "desavantage",
       "section": "desavantages",
       "sous_section": "Règle de Base",
@@ -7705,7 +7738,7 @@
       "section": "desavantages",
       "sous_section": "Compendium",
       "cout": 1,
-      "description": "Le personnage pousse ses limites au-delà de ce que son parcours lui aurait naturellement permis.\nEn dépensant 50 PX, il peut acquérir un trait supplémentaire qu'il n'aurait pas pu obtenir autrement.",
+      "description": "Le personnage échange de l’expérience contre l’acquisition d’un trait.",
       "categories": [],
       "extension": "Compendium",
       "prerequis": null,
@@ -7799,7 +7832,7 @@
       "section": "desavantages",
       "sous_section": "Confrontations",
       "cout": 1,
-      "description": "Le personnage est naturellement lent à réagir.\nSa Hâte est réduite de 5, ce qui affecte sa Vitesse et sa Rapidité. La Vitesse détermine la capacité à réaliser ou à résister aux actions doublées ; la Rapidité détermine l'ordre de jeu en confrontation.",
+      "description": "Le personnage est naturellement lent à réagir.\nSa Hâte est réduite de 5, ce qui affecte à la fois sa vitesse de déplacement et sa rapidité d’action (capacité à réaliser ou prévenir des doubles actions, ainsi que son rang d’Initiative en confrontation).",
       "categories": [],
       "extension": "Confrontation",
       "prerequis": null,
@@ -7867,6 +7900,81 @@
       "multiples_instances": null,
       "limitation": null,
       "rang": null
+    }
+  ],
+  "avantages_archetypes": [
+    {
+      "nom": "Bon.ne Maître.sse",
+      "type": "avantage_majeur",
+      "section": "avantages_archetypes",
+      "sous_section": null,
+      "cout": 1,
+      "avantage_mineur_bonus": false,
+      "description": "Le personnage sait s’occuper de son/ses compagnon.s.\nCes derniers ont une récupération naturelle augmentée de 2.\nDe plus, le personnage est avantagé à ses tests d’apprentissage visant son ou ses compagnons animaux.",
+      "categories": [],
+      "extension": "Archétype",
+      "prerequis": null,
+      "conditions": [
+        "Archétype du Compagnon animal ou Archétype du Compagnon"
+      ],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null
+    },
+    {
+      "nom": "Présence Envahissante",
+      "type": "avantage_majeur",
+      "section": "avantages_archetypes",
+      "sous_section": null,
+      "cout": 1,
+      "avantage_mineur_bonus": false,
+      "description": "Lorsque le personnage provoque l’inspiration ou l’exhortation négative il le fait avec une catégorie de plus.",
+      "categories": [],
+      "extension": "Archétype",
+      "prerequis": null,
+      "conditions": [
+        "Archétype de l’Inspiration ou Archétype de l’Exhortation"
+      ],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null
+    },
+    {
+      "nom": "Présence Exaltante",
+      "type": "avantage_majeur",
+      "section": "avantages_archetypes",
+      "sous_section": null,
+      "cout": 1,
+      "avantage_mineur_bonus": false,
+      "description": "Lorsque le personnage provoque l’inspiration ou l’exhortation positive il le fait avec une catégorie de plus.",
+      "categories": [],
+      "extension": "Archétype",
+      "prerequis": null,
+      "conditions": [
+        "Archétype de l’Inspiration ou Archétype de l’Exhortation"
+      ],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null
+    },
+    {
+      "nom": "Sens de la Performance",
+      "type": "avantage_majeur",
+      "section": "avantages_archetypes",
+      "sous_section": null,
+      "cout": 1,
+      "avantage_mineur_bonus": false,
+      "description": "Le personnage est capable de réaliser des performances notables et développe des aptitudes très particulières dans ce domaine.\nA chaque rangs le personnage peux choisir un des effets suivants :\n- Les actions de Chanter/Danser/Jouer une performance peut inclure 1 attributs de plus (peux être pris jusqu’à 2 fois pour un total de 3 attributs).\n- Les actions  de Chanter/Danser/Jouer durent jusqu’à la fin de la scène.\n- L’action Inspirer peut affecter toutes les cibles présentes dans la scène, cependant le test est alors désavantage.",
+      "categories": [],
+      "extension": "Compendium",
+      "prerequis": null,
+      "conditions": [
+        "Archétype de l’Inspiration ???"
+      ],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": null,
+      "rangs": 4
     }
   ],
   "avantages_mineurs": [

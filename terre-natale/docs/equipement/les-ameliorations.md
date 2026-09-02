@@ -56,7 +56,7 @@
 | Offensif | 1 / max 1 | 40 🪙 | Augmente le score des tests d’attaque réalisés via l’objet de 1. | Arme |
 | Défensif | 1 / max 1 | 30 🪙 | Augmente le score des tests de défense réalisés via l’objet de 1. | Arme |
 | Tactique | 1 / max 1 | 30 🪙 | Augmente le score des tests tactiques réalisés via l’objet de 1. | Arme |
-| Portée | 1 / - | 5 🪙 | Augmente le facteur de portée d’une arme à distance de 1. | A |
+| Portée | 1 / - | 5 🪙 | Augmente la portée courte d’une arme de tir ou de jet de 1. Les portées longue et extrême éventuelles sont recalculées à partir de cette nouvelle valeur. | A |
 | Polyvalente | 1 / - | 5 🪙 | L’arme est considérée comme « de jet » et « de mêlée » à la fois, elle peut être utilisée sans être considérée comme une arme improvisée dans ces cas de figures. | A |
 | Cavalerie | 2 / max 1 | 40 🪙 | L’arme ou l’armure est conçue pour dites de cavalerie. Sa catégorie effective est augmentée de 1, cependant cela n'accroît pas sa charge ou ses pénalités d’usage. Cependant réaliser des actions associées (attaque/défense armée pour une arme, déplacement/esquive/etc pour une armure) sans être sur une monture implique un désavantage au test. | Arme Armure |
 

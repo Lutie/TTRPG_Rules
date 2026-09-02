@@ -21373,7 +21373,7 @@
         "word_type": "Pouvoir",
         "difficulty": "2",
         "drain": "2",
-        "description": "Génère un enchantement positif qui augmente la distance de tir et de jet de la cible de [Magnitude/20] fois (soit 5% par magnitude).",
+        "description": "Génère un enchantement positif qui augmente la portée courte de tir et de jet de la cible de [Magnitude/20] fois (soit 5% par magnitude) ; les portées longue et extrême éventuelles sont recalculées à partir de cette nouvelle valeur.",
         "latin": "Ballo (Lancer, grec)",
         "arcane": "Lirballo (Lir + ballo)",
         "school_code": "Béné",

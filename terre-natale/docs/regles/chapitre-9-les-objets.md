@@ -339,7 +339,7 @@ La taille de l'arme désigne son envergure. C'est une information notée de -2 �
 | Allonge* | -2 | -1 | - | +1 | +2 |
 | Prix** | +6 | +3 | - | +3 | +6 |
 
-*\* : Le modificateur d'allonge devient un modificateur de portée pour les armes de jet ou à distance. \*\* : Appliqué au prix de référence de l'objet et donc affecté par la catégorie.*
+*\* : Le modificateur d’allonge est une propriété avancée. Lorsqu’il existe, il devient un modificateur de portée courte pour les armes de tir ou de jet ; sinon, il n’y a pas lieu de s’en préoccuper. \*\* : Appliqué au prix de référence de l'objet et donc affecté par la catégorie.*
 
 Une valeur différente de 0 désigne une différence notable avec les armes « normales » de même genre : On ne compare donc jamais ces valeurs entre des armes totalement différentes.
 
@@ -455,7 +455,7 @@ Voici les particularités des arcs :
 - Il s'utilise à deux mains.
 
 !!! info "Rappel"
-    Un trait (projectiles en main) permet de se servir de sa main comme d'un magasin, stockant ainsi des munitions (autant que le niveau de compétence) afin d'éviter d'avoir à approvisionner à chaque tir.
+    Par une action d’approvisionnement, un personnage peut conserver en main jusqu’à 1 + niveau de groupe + niveau de compétence munitions ou armes de lancer maniables. Le trait « Projectiles en Mains » double cette capacité afin d’éviter d’avoir à approvisionner trop fréquemment.
 
     Cela n'est possible que pour les frondes, les arcs et les armes de lancé.
 
@@ -1114,7 +1114,7 @@ Gardien (Bracelet) Le bracelet est connecté à un « gardien » qui reçoit des
 
 Ire (Bouclier) Le bouclier projette des visions qui agace les autres et provoque leur ire. 1e Rang : Au début de chaque tour le personnage peut désigner un adversaire qui est en mesure de le voir, ce dernier doit effectuer un test de sauvegarde de détermination contre une difficulté équivalant à 10 et reçoit la condition « provocation ». Le jet est équivalent à un jet de blocage du bouclier en question dont les dés afficheraient 3. 2e Rang : Le personnage peut désigner une cible de plus mais le jet est réduit de 8 OU la difficulté augmente de 5. 3e Rang : Le personnage peut désormais choisir jusqu'à 2 effets, potentiellement les mêmes, du 2e rang. 4e Rang : Le personnage peut désormais choisir jusqu'à 3 effets, potentiellement les mêmes, du 2e rang. De plus, parmi ces effets s'ajoute : La condition est « avancée » (double les effets). 5e Rang : Lorsqu'il attaquait par un adversaire provoqué le personnage est avantagé à ses tests de défenses.
 
-Liaison (Arme) L'arme et le personnage sont connectés et partagent une liaison toute particulière. 1e Rang : Le personnage a toujours connaissance de l'endroit et de la distance à laquelle se trouve son arme. 2e Rang : L'arme est désormais considérée comme une arme de jet ET de mêlée, quelque soit son type d'origine. 3e Rang : Si l'arme est jetée sur un adversaire, elle revient dans les mains de son propriétaire le tour suivant. Si l'arme est utilisée en mêlée contre un adversaire elle pourra par la suite, une fois, être lancée et toucher la cible même si celle-ci n'est pas en ligne de mire. Le personnage ignore alors toutes les pénalités liées à son tir le cas échéant. 4E Rang : Le retour est immédiat. 5e Rang : Lorsque l'arme est jetée et touche un adversaire la prochaine attaque de mêlée contre cette cible est avantagée. Et vise versa.
+Liaison (Arme) L'arme et le personnage sont connectés et partagent une liaison toute particulière. 1e Rang : Le personnage a toujours connaissance de l'endroit et de la distance à laquelle se trouve son arme. 2e Rang : L'arme est désormais considérée à la fois comme une arme de jet et de mêlée, quel que soit son type d'origine. Son usage n'est donc improvisé dans aucune de ces deux configurations. 3e Rang : Si l'arme est jetée sur un adversaire, elle revient dans les mains de son propriétaire le tour suivant. Si l'arme est utilisée en mêlée contre un adversaire elle pourra par la suite, une fois, être lancée et toucher la cible même si celle-ci n'est pas en ligne de mire. Le personnage ignore alors toutes les pénalités liées à son tir le cas échéant. 4E Rang : Le retour est immédiat. 5e Rang : Lorsque l'arme est jetée et touche un adversaire la prochaine attaque de mêlée contre cette cible est avantagée. Et vise versa.
 
 ### Artefacts
 
