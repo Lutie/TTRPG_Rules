@@ -152,6 +152,86 @@ export const calculerAptitude = (character) => {
   return aptitude;
 };
 
+// Retourne le détail des compétences comptant pour l'aptitude
+export const getAptitudeDetails = (character) => {
+  const charCompetences = character.competences || { groupes: {}, competences: {} };
+  const attrCaste1 = character.caste?.attribut1;
+  const attrCaste2 = character.caste?.attribut2;
+  if (!attrCaste1 && !attrCaste2) return { items: [], total: 0 };
+
+  const attrsCaste = [attrCaste1, attrCaste2].filter(Boolean);
+  const items = [];
+
+  const processGroupe = (groupe, sourceComps) => {
+    let groupeAttrs;
+    if (groupe.id === 'ambidextrie') {
+      groupeAttrs = ['DEX'];
+    } else {
+      const fixed = [...new Set(
+        sourceComps.filter(c => c.groupe === groupe.id && !c.attrVariable)
+          .flatMap(c => [...(c.attributs || []), ...(c.secondaires || [])])
+      )];
+      const variable = sourceComps
+        .filter(c => c.groupe === groupe.id && c.attrVariable)
+        .map(c => charCompetences.attributsChoisis?.[_compKey(c)] ?? 'FOR');
+      groupeAttrs = [...new Set([...fixed, ...variable])];
+    }
+
+    if (!groupeAttrs.some(a => attrsCaste.includes(a))) return;
+
+    const rangGroupe = charCompetences.groupes?.[groupe.id] || 0;
+    if (rangGroupe > 0) {
+      items.push({ nom: groupe.nom, rang: rangGroupe, type: 'groupe', attribut: null });
+    }
+
+    if (!groupe.libre) {
+      sourceComps
+        .filter(c => c.groupe === groupe.id)
+        .forEach(comp => {
+          if (comp.libre) {
+            const entries = charCompetences.libres?.[_compKey(comp)] || [];
+            entries.forEach(entry => {
+              if (entry.attr && attrsCaste.includes(entry.attr) && (entry.rang || 0) > 0) {
+                items.push({ nom: entry.nom || comp.nom, rang: entry.rang, type: 'competence', attribut: entry.attr });
+              }
+            });
+          } else {
+            const key = _compKey(comp);
+            let compAttrs;
+            if ((comp.attrVariable || comp.limitant) && comp.attributs.length === 0) {
+              compAttrs = [charCompetences.attributsChoisis?.[key] ?? (comp.attrVariable ? 'FOR' : null)].filter(Boolean);
+            } else if (comp.attributs.length > 1) {
+              const chosen = charCompetences.attributsChoisis?.[key] ?? comp.attributs[0];
+              compAttrs = [chosen];
+            } else {
+              compAttrs = [...(comp.attributs || []), ...(comp.secondaires || [])];
+            }
+            if (compAttrs.some(a => attrsCaste.includes(a))) {
+              const rang = charCompetences.competences?.[key] || 0;
+              if (rang > 0) {
+                const attribut = compAttrs.find(a => attrsCaste.includes(a)) || compAttrs[0] || null;
+                items.push({ nom: comp.nom, rang, type: 'competence', attribut });
+              }
+            }
+          }
+        });
+    }
+  };
+
+  DATA.categoriesCompetences.forEach(cat =>
+    cat.groupes.forEach(groupe => processGroupe(groupe, DATA.competences))
+  );
+  DATA.categoriesMagie.forEach(cat =>
+    cat.groupes.forEach(groupe => processGroupe(groupe, DATA.competencesMagie))
+  );
+  DATA.categoriesScience.forEach(cat =>
+    cat.groupes.forEach(groupe => processGroupe(groupe, DATA.competencesScience))
+  );
+
+  const total = items.reduce((sum, item) => sum + item.rang, 0);
+  return { items, total };
+};
+
 // Calcule le rang permis par l'XP
 export const calculerRangCasteParXP = (character) => {
   const xpTotal = getXPTotal(character);
@@ -207,6 +287,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
     const caste = castes.find(c => c.id === character.caste?.id);
     const xpTotal = getXPTotal(character);
     const aptitude = calculerAptitude(character);
+    const aptitudeDetails = getAptitudeDetails(character);
     const rangXP = calculerRangCasteParXP(character);
     const rangAptitudeCalc = calculerRangCasteParAptitude(character);
     const aptitudeOverride = character.caste?.rangAptitudeOverride ?? null;
@@ -526,6 +607,7 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       aptitudeOverride,
       xpTotal,
       aptitude,
+      aptitudeDetails,
       progressionInfo,
       nextProgression,
 
