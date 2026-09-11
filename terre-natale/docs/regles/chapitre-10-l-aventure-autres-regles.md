@@ -511,17 +511,23 @@ Le Ratio appliqué à la récolte est généralement fixé à 5, reflétant la v
 
 #### Recyclage
 
-Un personnage peut choisir de recycler les restes d’une créature vaincue ou le matériel d’un dispositif détruit afin d’en extraire des composants utiles ou vendables. Pour cela, il commence par effectuer un test de Connaissance approprié, destiné à déterminer ce qui peut être récupéré ou non. Ce test permet d’identifier les matériaux exploitables et la manière de procéder.
+Un personnage peut choisir de recycler les restes d’une créature vaincue, le matériel d’un dispositif détruit ou tout objet dont il souhaite récupérer les composants. Le recyclage se déroule en deux temps.
 
-Le MJ détermine à l’avance la catégorie des ressources récupérables, généralement en fonction de la nature de la créature ou de la machine. Cette catégorie reflète à la fois la complexité de l’opération de recyclage et la valeur potentielle des matériaux extraits. Sauf cas particulier, la difficulté du test de Connaissance correspond donc à celle de la tâche elle-même.
+**Étape 1 — Identification.** Le personnage effectue un test de Connaissance approprié pour déterminer ce qui peut être récupéré : matériaux exploitables, leur nature, leur valeur, et la méthode d’extraction. Le MJ fixe la catégorie des ressources récupérables selon la source (créature, machine, objet) ; la difficulté du test de Connaissance correspond à celle de la tâche. En cas d’échec, l’extraction peut être tentée à l’aveugle, mais sans garantie sur la qualité ou la quantité obtenue.
 
-Un personnage peut recycler plusieurs créatures tant que leur taille et leur nature restent cohérentes : démonter un monstre imposant peut équivaloir, en temps et en effort, à traiter plusieurs petites créatures. Le MJ reste libre d’apprécier la cohérence de la situation.
+**Étape 2 — Extraction.** Une fois la source identifiée, le personnage réalise un test de Recyclage (DEX) pour procéder à l’extraction effective. **Un outil de recyclage adapté à la famille de matière concernée est nécessaire** (voir la section Outils de recyclage dans l’équipement) ; sans outil approprié, le test subit un désavantage et le résultat est réduit de moitié. Le recyclage demande un temps court (3h) pour une première passe, et un second temps court pour une seconde passe éventuelle. Une même source ne peut être recyclée plus de deux fois.
 
-Le recyclage demande ensuite un temps court (3h) pour effectuer une première extraction, suivi d’un second temps court pour une seconde passe éventuelle. Par souci de praticité, une même source ne peut normalement pas être recyclée plus de deux fois, mais cette limite peut être modifiée par le MJ selon les besoins de la scène ou du scénario.
+Un personnage peut recycler plusieurs créatures tant que leur taille et leur nature restent cohérentes : un monstre imposant peut équivaloir en effort à plusieurs petites créatures. Le MJ apprécie la situation.
 
-Le Ratio appliqué dépend de la source : pour les créatures, il est généralement proportionnel à la valeur carré de leur rang. Pour les machines ou dispositifs mécaniques, le Ratio est en général fixé à la qualité au carré. Lorsqu’il s’agit de recycler un objet manufacturé, une limite peut s’appliquer : les gains obtenus ne devraient pas excéder 50 % de la valeur de l’objet d’origine, afin de représenter les pertes et les pièces irrécupérables.
+**Ratio selon la source :**
 
-Comme pour les récoltes, la somme obtenue correspond au montant brut des matériaux récupérés. Un personnage qui les utilise lui-même y trouvera un avantage certain, mais leur revente est bien moins profitable, conformément à la règle de revente détaillée dans la section dédiée.
+- **Créatures** : Ratio = rang d’adversité² (le rang d’adversité d’une créature est analogue au rang de caste d’un joueur, voir les règles de création de créatures).
+- **Machines et dispositifs mécaniques** : Ratio = qualité².
+- **Objets manufacturés et consommables** : le gain ne peut excéder 50 % de la valeur de l’objet d’origine. Pour un objet intact, le gain est d’environ 30 % de sa valeur base ; pour un objet endommagé ou partiellement consumé, de 15 à 25 % selon l’état.
+
+**Valeur des matériaux récupérés.** Les matériaux issus du recyclage ont une valeur chiffrée en 🪙 (correspondant à la rémunération calculée). Cette valeur peut être directement déduite du coût de fabrication d’un objet utilisant ces matériaux comme intrants, réduisant ainsi le coût en matières premières d’autant. Les ingrédients organiques issus de créatures sont notamment utilisables pour la fabrication de essences (voir la section dédiée dans l’équipement).
+
+Comme pour les récoltes, la somme obtenue correspond à la valeur brute des matériaux récupérés. Leur revente reste bien moins profitable que leur usage direct en fabrication, conformément à la règle de revente détaillée dans la section dédiée.
 
 #### Contrats de Missions
 

@@ -25,6 +25,18 @@ Comme pour tout le reste un outil profite de sa qualité lorsqu’on en fait l�
 
 Comme pour tout le reste un outil profite de sa catégorie lorsqu’il s’agit de déterminer le score associé au test qui est réalisé avec son aide, mais la catégorie implique également des malus aux tests. Pour rappel la catégorie matérialise la place que prend l’objet et/ou la complexité de celui-ci. Le jet d’un outil est à ne surtout pas négliger puisque la résolution d’une action se mesure à l’aune d’un objectif à remplir et cette objectif se remplit à chaque test réussie d’un montant égal au jet réalisé via l’outil.
 
+#### Outils de Recyclage
+
+Les outils de recyclage permettent d'extraire des matériaux utilisables à partir de restes de créatures, de dispositifs détruits ou d'objets mis au rebut. Chaque outil est adapté à une famille de matière ; utiliser un outil inadapté (ou aucun outil) impose un désavantage au test de Recyclage et réduit le résultat de moitié.
+
+| Outil | Famille | Prix |
+| --- | --- | --- |
+| Trousse de dépeçage | Cuirs, tissus | 15 🪙 |
+| Outils de bûcheronnage | Bois | 12 🪙 |
+| Outils de démantèlement | Métaux | 40 🪙 |
+| Outils de taille lapidaire | Pierres | 25 🪙 |
+| Kit d'extraction magique | Magicites | 80 🪙 |
+
 ### Les Livres
 
 Les livres peuvent être des outils cruciaux quand il s’agit d’obtenir des informations sur un sujet spécifique.

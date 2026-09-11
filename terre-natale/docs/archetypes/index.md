@@ -425,6 +425,271 @@ Cris de guerre disponibles :
 </details>
   </div>
 </div>
+
+<div class="arch-card" id="arch-7">
+  <div class="arch-header" onclick="toggleArch('arch-7')">
+    <span class="arch-nom">Apothiquaire</span>
+    <span class="arch-concept">Artisanat de teintures à partir de matériaux porteurs de conditions</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de l'Apothiquaire permet au personnage de pratiquer un artisanat unique : la création de <strong>Teintures</strong>, des consommables qui octroient une condition éphémère à leur cible. La particularité de cet artisanat réside dans les matériaux utilisés : chaque matériau acquis — par recyclage ou achat — est associé à deux conditions, déterminées au moment de l'acquisition (aléatoirement ou par le MJ) et fixées pour toute la campagne. L'Apothiquaire extrait l'essence de ces conditions pour les condenser en teintures applicables.</p>
+    <table class="arch-mec"><tr><th>Compétence : Alchimie</th><td>L'Apothiquaire utilise la compétence <strong>Alchimie</strong> (groupe Artisanat, basée sur l'<strong>INT</strong>) pour toutes ses créations. La limite de qualité et les règles de difficulté suivent les mêmes bases que pour l'artisanat de consommables classique.</td></tr><tr><th>Matériaux et conditions</th><td>Tout matériau acquis pour cette pratique — par recyclage ou achat — est associé à <strong>deux conditions</strong> au moment de son acquisition. Ces conditions sont déterminées aléatoirement par défaut, ou fixées par le MJ. Une fois associées, elles restent liées au matériau pour toute la campagne. Certains matériaux peuvent être recyclés grâce à cet archétype alors qu'ils ne l'auraient pas été autrement (os, restes organiques, etc.).</td></tr><tr><th>Analyse</th><td>Pour connaître les conditions associées à un matériau, le personnage doit consacrer un <strong>temps long</strong> à son analyse. Le test a une <strong>difficulté de 10 + 2 × qualité du matériau</strong>. Sans analyse réussie, les conditions d'un matériau sont inconnues.</td></tr><tr><th>Craft de teintures</th><td>Le craft d'une teinture suit les <strong>mêmes règles que l'artisanat de consommables</strong> (temps, difficulté basée sur la qualité visée, coût en matériaux). La <strong>qualité du matériau</strong> détermine le <strong>niveau maximum de craft</strong> réalisable avec celui-ci. Les matériaux sont consommés selon leur valeur disponible et le coût du craft est retranché du stock.</td></tr><tr><th>Teintures : règles d'usage</th><td>Une teinture octroie à sa cible une <strong>condition éphémère</strong> (décharge en fin de tour) et applique <strong>2 de corruption</strong>. Une seule teinture peut être active à la fois sur une cible : une nouvelle teinture remplace toute teinture précédente, qu'elle soit positive ou négative. Pour appliquer une teinture négative à une cible non consentante, un <strong>test de jet</strong> est requis, comme pour les autres consommables de ce type.</td></tr></table>
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la pratique des Teintures. Il apprend la compétence <strong>Alchimie</strong> et peut désormais analyser des matériaux pour en découvrir les conditions, puis crafter des Teintures à partir de ces matériaux.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (8)</summary>
+  <ul><li><strong>Maîtrise supérieure</strong> — Le niveau de craft maximum du personnage pour les Teintures est augmenté de <strong>1</strong>.</li><li><strong>Récolte abondante</strong> — Les matériaux utilisables pour la pratique des Teintures sont obtenus en quantité augmentée de <strong>50%</strong> lors d'un recyclage ou d'un achat.</li><li><strong>Fixation prolongée</strong> — Les Teintures créées par le personnage octroient une condition <strong>temporaire</strong> (décharge en fin de journée) plutôt qu'éphémère. La corruption de 2 est appliquée chaque matin tant que l'effet est actif.</li><li><strong>Matériau complexe</strong> — Le personnage peut mener une analyse à <strong>difficulté +5</strong> pour révéler <strong>deux conditions supplémentaires</strong> associées à un matériau, portant le total à quatre conditions connues pour ce matériau.</li><li><strong>Instinct alchimique</strong> — Une fois par matériau analysé, le personnage peut relancer aléatoirement l'une des conditions associées et conserver celle qu'il préfère entre l'ancienne et la nouvelle.</li><li><strong>Analyse rapide</strong> — L'analyse d'un matériau ne requiert plus qu'un <strong>temps court</strong> au lieu d'un temps long.</li><li><strong>Teinture concentrée</strong> — Le personnage peut créer une teinture qui cumule <strong>deux conditions</strong> du même matériau. La difficulté de création est augmentée de 4 et la corruption infligée est augmentée de 2.</li><li><strong>Recyclage étendu</strong> — Le personnage peut recycler des matériaux qui ne seraient normalement pas recyclables (ossements, restes organiques, matières inertes), ouvrant de nouvelles sources de matériaux pour sa pratique.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-8">
+  <div class="arch-header" onclick="toggleArch('arch-8')">
+    <span class="arch-nom">Préparations</span>
+    <span class="arch-concept">Création de consommables sur-le-champ sans coût matériel</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Préparations permet au personnage de créer des consommables directement sur le terrain, sans matériaux ni coût. Ces objets — appelés <strong>Préparations</strong> en plus de leur type habituel — sont fonctionnels mais sans valeur marchande et perdent leurs effets à la fin de la scène. Leur utilité est immédiate : ce que l'on prépare, on l'utilise.</p>
+    <table class="arch-mec"><tr><th>Action : Préparer</th><td><strong>ACTC &amp; 2 PS</strong> : Le personnage réalise une séance de craft sur-le-champ et crée un consommable en utilisant sa compétence et son groupe d'artisanat appropriés. Le consommable créé est une <strong>Préparation</strong> (en plus de son type habituel), ne possède aucune valeur marchande, et perd ses effets à la <strong>fin de la scène</strong>.</td></tr></table>
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque l'action <strong>Préparer</strong> et peut créer des consommables sur-le-champ sans coût matériel.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Ingéniosité appliquée</strong> — L'ingéniosité (PI) est <strong>deux fois plus efficace</strong> lorsqu'elle est dépensée pour des Préparations.</li><li><strong>Préparation express</strong> — L'action Préparer peut être réalisée via une <strong>ACTS &amp; 3 PS</strong> à la place d'une ACTC.</li><li><strong>Atelier de campagne</strong> — Le personnage peut réaliser ses Préparations lors d'une <strong>séance classique d'artisanat</strong>, pour une dépense de <strong>2 PS</strong>. Les consommables créés de la sorte durent jusqu'à la <strong>fin de la journée</strong> plutôt que de la scène (sans valeur marchande).</li><li><strong>Recyclage optimisé</strong> — Lors d'un recyclage, le personnage peut dépenser <strong>1 PS</strong> autant de fois qu'il le souhaite pour augmenter le gain réel de <strong>1 pc</strong> par PS dépensé. Le gain ne peut pas être plus que <strong>doublé</strong> par ce biais.</li><li><strong>Formulation précise</strong> — Lorsqu'une Préparation est utilisée via un test, l'utilisateur peut remplacer sa propre compétence et son groupe par ceux de la <strong>compétence et du groupe d'artisanat du créateur</strong>, si ces derniers sont plus élevés.</li><li><strong>Maîtrise innée</strong> — Le personnage peut réaliser une Préparation <strong>sans test</strong> pour un consommable dont la compétence et le groupe répondent aux exigences de niveau de qualité visé, et dont son <strong>modificateur d'attribut d'artisanat</strong> est supérieur ou égal au niveau visé.</li><li><strong>Utilisation immédiate</strong> — Lorsque le personnage réalise l'action Préparer, il peut immédiatement utiliser le consommable créé via une <strong>ACTL</strong> dans la foulée.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-9">
+  <div class="arch-header" onclick="toggleArch('arch-9')">
+    <span class="arch-nom">Mutagènes</span>
+    <span class="arch-concept">Artisanat de décoctions à partir de matériaux porteurs des gènes d'une créature</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Mutagènes permet au personnage de pratiquer un artisanat unique : la création de <strong>Décoctions</strong>, des consommables qui répliquent les capacités passives d'une créature à leur cible. Là où les Teintures exploitent des conditions, les Décoctions s'appuient sur les propriétés biologiques des créatures elles-mêmes. Plus puissantes à haute qualité, elles permettent de reproduire les aptitudes du bestiaire — au prix d'une corruption significative.</p>
+    <table class="arch-mec"><tr><th>Compétence : Mutagénèse</th><td>Le Mutagéniste utilise la compétence <strong>Mutagénèse</strong> (groupe Artisanat, basée sur l'<strong>INT</strong>) pour toutes ses créations. La limite de qualité et les règles de difficulté suivent les mêmes bases que pour l'artisanat de consommables classique.</td></tr><tr><th>Matériaux et gènes</th><td>Tout matériau acquis pour cette pratique — par recyclage ou achat — porte les <strong>gènes d'une créature</strong> spécifique, déterminée au moment de l'acquisition. Ces gènes restent associés au matériau pour toute la campagne. Certains matériaux peuvent être recyclés grâce à cet archétype alors qu'ils ne l'auraient pas été autrement.</td></tr><tr><th>Analyse</th><td>Pour connaître les propriétés d'un matériau, le personnage doit consacrer un <strong>temps long</strong> à son analyse. Le test a une <strong>difficulté de 10 + 2 × qualité du matériau</strong>. Sans analyse réussie, la créature source et ses capacités associées sont inconnues.</td></tr><tr><th>Craft de décoctions</th><td>Le craft d'une décoction suit les <strong>mêmes règles que l'artisanat de consommables</strong> (temps, difficulté basée sur la qualité visée, coût en matériaux). La <strong>qualité du matériau</strong> détermine le <strong>niveau maximum de craft</strong> réalisable avec celui-ci. La <strong>qualité de la décoction</strong> détermine le <strong>niveau de la capacité passive</strong> reproduite (voir bestiaire).</td></tr><tr><th>Décoctions : règles d'usage</th><td>Une décoction octroie à sa cible une capacité passive de la créature source et applique <strong>4 de corruption</strong> au personnage qui possède l'archétype, ou <strong>6 de corruption</strong> à tout autre utilisateur. Une seule décoction peut être active à la fois sur une cible : une nouvelle décoction remplace toute décoction précédente.</td></tr></table>
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la pratique des Décoctions. Il peut désormais analyser des matériaux organiques pour en identifier la créature source, puis crafter des Décoctions à partir de ces matériaux.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Maîtrise supérieure</strong> — Le niveau de craft maximum du personnage pour les Décoctions est augmenté de <strong>1</strong>.</li><li><strong>Récolte abondante</strong> — Les matériaux utilisables pour la pratique des Décoctions sont obtenus en quantité augmentée de <strong>50%</strong> lors d'un recyclage ou d'un achat.</li><li><strong>Fixation prolongée</strong> — Les Décoctions créées par le personnage octroient une condition <strong>temporaire</strong> (décharge en fin de journée) plutôt qu'éphémère. La corruption est appliquée chaque matin tant que l'effet est actif.</li><li><strong>Tolérance mutagène</strong> — La corruption générée par les Décoctions est réduite de <strong>2</strong> : elle passe à <strong>2</strong> pour le personnage possédant l'archétype, et à <strong>4</strong> pour tout autre utilisateur.</li><li><strong>Double assimilation</strong> — Le personnage peut avoir jusqu'à <strong>deux Décoctions actives</strong> simultanément.</li><li><strong>Hybridation</strong> — Le personnage peut augmenter la <strong>difficulté du craft de 5</strong> pour intégrer un second effet issu d'une créature différente dans la même Décoction.</li><li><strong>Décoction concentrée</strong> — Le personnage peut créer une Décoction concentrée dont l'effet est augmenté de <strong>1 rang</strong>. La corruption infligée est augmentée de <strong>2</strong>.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-10">
+  <div class="arch-header" onclick="toggleArch('arch-10')">
+    <span class="arch-nom">Signes</span>
+    <span class="arch-concept">Pratique de signes magiques rapides alimentés par l'adrénaline</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Signes permet au personnage de manier des formules magiques condensées — les <strong>Signes</strong> — des effets brefs et puissants qui puisent dans l'adrénaline plutôt que dans les ressources magiques classiques. Proches des sorts dans leur calcul mais distincts dans leur coût, les Signes sont conçus pour l'action immédiate : sans focalisateur, sans effet longue durée, mais avec une efficacité redoutable au bon moment.</p>
+    <table class="arch-mec"><tr><th>Action : Lancer un Signe</th><td><strong>ACTS + ACTL, coût : 2 PS et (2 + X) PA</strong>, où X est le niveau du signe. L'action est limitée à <strong>une fois tous les deux tours</strong> maximum. Les signes sont basés sur l'attribut de <strong>Magie (MAG)</strong> ; le jet suit la même formule que pour les sorts (<strong>catégorie 2 + niveau du signe</strong>). Aucun focalisateur n'est utilisable.</td></tr><tr><th>Domaine, compétence et mémoire</th><td>Au rang 1, le personnage choisit un <strong>domaine</strong> et apprend la <strong>compétence associée</strong>, comme pour la magie classique. Le niveau des signes est calculé de la même façon que pour un sort. Le personnage peut s'<strong>habituer</strong> à un signe (comme pour une incantation). Chaque signe mémorisé occupe <strong>un emplacement de mémoire</strong> ; le personnage dispose de <strong>3 emplacements</strong> par défaut.</td></tr><tr><th>Signes élémentaires</th><td>Ces trois signes projettent un <strong>cône</strong> (1 case devant soi, puis 3, puis 5). Les dégâts de zone s'appliquent : la moitié basée sur la défense constitue les <strong>dégâts normaux</strong>, l'autre moitié se base sur la <strong>sauvegarde</strong>. <strong>Voltio</strong> : dégâts foudre — moitié normaux, moitié perforants. <strong>Igni</strong> : dégâts feu — moitié normaux, moitié rupture. <strong>Frigu</strong> : dégâts froid — moitié normaux, moitié attrition. <strong>Version avancée (commun aux trois)</strong> : avant tout déplacement en guise de première action, le signe peut être <strong>maintenu au tour suivant</strong> via une ACTS. La cible est informée de ce maintien et sait qu'elle subira à nouveau les effets si elle reste sur place. Le personnage utilise une ACTL pour réorienter son cône.</td></tr><tr><th>Signes de barrière</th><td>Ces signes forment des <strong>enchantements neutres</strong> de charge M qui absorbent les effets en puisant dans leurs charges, à portée strictement personnelle par défaut. <strong>Version avancée (commun)</strong> : protège une <strong>zone de 5×5</strong> autour du personnage à la place. <strong>Wullen</strong> : barrière anti-sorts — réduit la puissance des sorts reçus de M. <strong>Quen</strong> : barrière physique — réduit les dégâts physiques reçus de M. <strong>Blen</strong> : barrière mentale — réduit les dégâts mentaux reçus de M.</td></tr><tr><th>Signes de contrôle</th><td>Signes à effet tactique ou de zone. <strong>Exen</strong> : empêche les défenses de la cible ce round-ci. <strong>Yrden</strong> : forme un enchantement neutre localisé sur une case ; toute créature qui y entre subit une malédiction divisant son allure par deux. Le piège dispose d'un camouflage naturel égal à l'expertise. Avancé : la cible est complètement immobilisée. <strong>Aard</strong> : repoussement de magnitude M (voir tactiques). Avancé : affecte jusqu'à deux cibles distantes de moins de 2 cases. <strong>Gravu</strong> : désarmement/télékinèse de magnitude M. Avancé : affecte jusqu'à deux cibles distantes de moins de 2 cases. <strong>Eerd</strong> : renversement de magnitude M. Avancé : affecte jusqu'à deux cibles distantes de moins de 2 cases.</td></tr><tr><th>Signes utilitaires</th><td><strong>Sanctia</strong> : retire M charges de conditions négatives ou d'enchantements négatifs (malédictions) d'une cible. Si plusieurs effets sont présents, ils doivent être identifiés pour être ciblés précisément — sinon l'effet touché est aléatoire. Avancé : retire tous les effets en question simultanément. <strong>Axii</strong> : impose une malédiction forçant la cible à considérer le personnage comme un allié (elle ne lui fera pas de mal et l'évitera). Avancé : en divisant M par deux, la cible devient un véritable allié qui attaque ses anciens alliés ; l'enchantement subit une décharge immédiate à sa contraction et sa décharge est doublée. <strong>Velox</strong> : déplacement instantané de M/2 cases — le personnage passe par les cases intermédiaires, soumis aux obstacles. Avancé : traverse les obstacles. <strong>Miren</strong> : projectile ciblant une cible unique, dégâts normaux contre l'attribut de défense standard. Avancé : les défenses sont désavantagées et le personnage peut choisir la forme du projectile (perforant, contondant ou tranchant), modifiant l'attribut de défense applicable. <strong>Umbra</strong> : enchantement positif augmentant la discrétion du personnage de M/5. Avancé : protège une zone de 5×5 autour du personnage à la place.</td></tr></table>
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la pratique des Signes. Il choisit un <strong>domaine</strong> et apprend la <strong>compétence associée</strong> (comme pour la magie). Il peut mémoriser jusqu'à <strong>3 signes</strong> et accéder à l'action <strong>Lancer un Signe</strong>.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Maîtrise des signes</strong> — Le niveau maximum des signes du personnage est augmenté de <strong>1</strong>.</li><li><strong>Répertoire étendu</strong> — Ajoute <strong>5 emplacements de mémoire</strong> dédiés exclusivement aux signes.</li><li><strong>Cadence accrue</strong> — La limitation est assouplie : le personnage peut désormais lancer un signe <strong>une fois par tour</strong> au lieu d'une fois tous les deux tours.</li><li><strong>Signe amplifié</strong> — Lors du lancer d'un signe, le personnage peut dépenser <strong>1 PA supplémentaire</strong> pour augmenter son expertise, son test ou son jet de <strong>+1</strong>. Maximum <strong>5 PA</strong> dépensés de cette façon par signe.</li><li><strong>Bibliothèque des signes</strong> — Le nombre maximum de signes que le personnage peut apprendre est <strong>doublé</strong>.</li><li><strong>Signe réflexe</strong> — Les signes peuvent être lancés via une <strong>ACTR</strong> (action de réaction) plutôt qu'une ACTS, permettant leur usage en interruption.</li><li><strong>Maîtrise avancée</strong> — Le personnage peut lancer ses signes en <strong>version avancée</strong> (voir les descriptions de chaque signe). Le jet est <strong>minoré de 1 par dé</strong> et le coût est augmenté de <strong>1 PS</strong>.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-11">
+  <div class="arch-header" onclick="toggleArch('arch-11')">
+    <span class="arch-nom">Conflit</span>
+    <span class="arch-concept">Exploitation intensive de l'adrénaline en confrontation</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype du Conflit forge le personnage en un combattant dont l'adrénaline n'est plus un simple effet de bord mais un moteur tactique. Là où un guerrier ordinaire accumule de l'adrénaline passivement, le Conflictuel la génère, la recycle et l'amplifie — enchaînant les rounds supplémentaires, relançant ses échecs et synchronisant son élan avec sa garde ou sa rage.</p>
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Troisième round</strong> — Une fois par tour, le personnage peut dépenser des PA pour participer au <strong>troisième round</strong> : <strong>5 PA</strong> pour une action, ou <strong>10 PA</strong> pour ses deux actions habituelles. Le personnage peut (et doit si nécessaire) compléter son initiative pour atteindre au moins <strong>1 point</strong>, la participation au troisième round requérant d'en avoir au moins 1 (sachant qu'un round à l'autre on perd 10 points d'initiative).</li><li><strong>Cycle de combat</strong> — À la fin de chaque tour, le personnage récupère <strong>1 PA</strong> par tranche de <strong>3 PA</strong> consommés durant ce tour.</li><li><strong>Réservoir étendu</strong> — La résilience du personnage concernant l'adrénaline est augmentée de <strong>5</strong> (augmente le maximum de la ressource d'autant).</li><li><strong>Synergie de combat</strong> — L'adrénaline du personnage peut se <strong>cumuler avec la garde ou la rage</strong> (mais pas les deux simultanément), qui conservent leurs défauts habituels. Un point d'adrénaline peut être dépensé conjointement à un point de garde ou de rage pour <strong>doubler les effets</strong> de ce point.</li><li><strong>Montée d'adrénaline</strong> — La première fois par round que le personnage <strong>inflige</strong> une attaque réussie, il gagne <strong>1 PA</strong>. La première fois par round qu'il <strong>subit</strong> une attaque réussie, il gagne également <strong>1 PA</strong>. Les deux cas sont indépendants et se cumulent.</li><li><strong>Décharge d'adrénaline</strong> — Lors d'un test opposé, d'une attaque ou d'une défense en confrontation, le personnage peut dépenser des PA pour renforcer son action : <strong>2 PA</strong> pour <strong>+1 en expertise ou test</strong>, ou <strong>+1 au jet</strong>. Maximum <strong>5 PA</strong> dépensés de cette façon par action.</li><li><strong>Acharnement</strong> — Après avoir échoué à une action de confrontation, le personnage peut dépenser <strong>5 PA</strong> pour transformer immédiatement l'échec en <strong>nouvelle opportunité</strong> : il retente l'action en question, sans défauts.</li></ul>
+</details>
+  </div>
+</div>
 </div>
 
 </div>

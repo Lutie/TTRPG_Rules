@@ -83,7 +83,7 @@ Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directem
 | Nécessaire d’herboristerie | 7 🪙 | Une sacoche avec couteau courbe, sachets de conservation et carnet d’identification des plantes, utilisé pour la cueillette et le traitement des herbes. | 2 📦 |
 | Nécessaire de cuisine | 5 🪙 | Un ensemble compact d’ustensiles de base : couteau, spatule, écuelle et épices essentielles pour préparer des repas en voyage. | 3 📦 |
 | Nécessaire de bivouaque | 6 🪙 | Contient du silex à feu, cordelette, mini-lanterne et une couverture légère, indispensable pour survivre en extérieur. | 3 📦 |
-| Nécessaire de concoctions | 8 🪙 | Un coffret modeste avec fioles, filtres et mesures de précision, utilisé pour créer remèdes, poisons et toniques artisanaux. | 3 📦 |
+| Nécessaire d'essences | 8 🪙 | Un coffret modeste avec fioles, filtres et mesures de précision, utilisé pour créer remèdes, poisons et toniques artisanaux. | 3 📦 |
 | Nécessaire de forge | 14 🪙 | Un set mobile comprenant marteau, pinces, lime et pierre à aiguiser, essentiel pour l’entretien et le façonnage d’objets métalliques. | 4 📦 |
 | Pierre à aiguiser | 4 🪙 | Bloc de pierre abrasive utilisé pour affûter les lames. | 1 📦 |
 | Nécessaire de couture | 7 🪙 | Une boîte contenant aiguilles, fils, ciseaux et pièces de tissu, utilisée pour réparer ou ajuster vêtements et armures légères. | 2 📦 |
@@ -267,92 +267,92 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | --- | --- | --- | --- |
 | Patch de réparation | 5 🪙 | Permet de réaliser une réparation sommaire (ACTC auquel on peut s’habituer). Un seul patch à la fois. Ce dernier expire après un nombre d’usage équivalent à 2 + 2 x niveau de qualité. Test d’artisanat ou savoir-faire bricolage DD 10. L’objet voit son niveau de dégradation effectif réduit de 1 + degré de réussite. Le degré de réussite retenu ne peut pas être supérieur à la qualité du patch. Un patch a une catégorie et peut s’appliquer à un objet de catégorie équivalente ou inférieure. L’encombrement dépend de cette catégorie. | X 📦 |
 
-### Les Concoctions ()
+### Les Essences ()
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Concoction de Golem | 10 🪙 2 ☠ | Soigne jusqu’à ramener l’endurance (PE) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Ver Géant | 10 🪙 2 ☠ | Soigne jusqu’à ramener la vitalité (PV) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Sirène | 10 🪙 2 ☠ | Soigne jusqu’à ramener la spiritualité (PS) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Manticore | 10 🪙 2 ☠ | Soigne jusqu’à ramener le chi (PC) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Sylphide | 10 🪙 2 ☠ | Soigne jusqu’à ramener le mana (PM) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Pixie | 10 🪙 2 ☠ | Soigne jusqu’à ramener le karma (PK) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Troll | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la vitalité (PV) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Spectre | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la spiritualité (PS) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Kirin | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le chi (PC) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Banshee | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le mana (PM) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Leprechaun | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le karma (PK) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Phénix | 10 🪙 2 ☠ | Soigne 2 points de corruption (☠) par niveau de qualité. Une fois par jour maximum. | ½ 📦 |
-| Concoction de Minotaure | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la vitalité (PV) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Chimère | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la spiritualité (PS) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Manticore | 10 🪙 2 ☠ | Chaque fois que le personnage perd du chi (PC) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Djinn | 10 🪙 2 ☠ | Chaque fois que le personnage perd du mana (PM) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Doppelganger | 10 🪙 2 ☠ | Chaque fois que le personnage perd du karma (PK) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Ogre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de vitalité (PV) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Poltergeist | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de spiritualité (PS) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Salamandre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de chi (PC) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Guenaude | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de mana (PM) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Lamia | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de karma (PK) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Alicorne | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point d’adrénaline temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Harpie | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de rage temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Tortoise | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de garde temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Géant | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de vitalité (PV) temporaires par niveau de qualité. | ½ 📦 E |
-| Concoction de Cocatrix | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de spiritualité (PS) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Griffon | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de chi (PC) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Feu Follet | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de mana (PM) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Licorne | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de karma (PK) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Garous | 10 🪙 2 ☠ | Génère immédiatement 1D8 points points d’adrénaline par niveau de qualité. | ½ 📦 E |
-| Concoction de Wendigo | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de rage par niveau de qualité. | ½ 📦 E |
-| Concoction de ??? | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de garde par niveau de qualité. | ½ 📦 E |
-| Concoction d’Aracnide | 10 🪙 2 ☠ | Bloque les effets de n’importe quel effet de rupture (poison, saignement, etc) pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
-| Concoction de Hydre | 10 🪙 2 ☠ | Augmente la puissance des attaques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Liche | 10 🪙 2 ☠ | Augmente la puissance des sorts de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Scorpion Géante | 10 🪙 2 ☠ | Renvoie jusqu’à 1 point de dégâts de mêlée reçus à l’envoyeur. Dure 5 tours. | ½ 📦 |
-| Concoction de Wyverne | 10 🪙 2 ☠ | Criticité de toutes les actions augmentées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction d’Hibours | 10 🪙 2 ☠ | Réduit les pénalités de vision (obscurité, etc) de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Cyclope | 10 🪙 2 ☠ | Augmente la puissance des tactiques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la puissance des défenses effectuées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction d’élémentaire | 10 🪙 2 ☠ | Augmente l’absorption contre la forme d’énergie incarnée par l’élémentaire de 3 par niveau de qualité. Augmente la puissance des sorts associé à l’élément en question de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Guivre | 10 🪙 2 ☠ | Augmente la sauvegarde de robustesse de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de réflexes de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de détermination de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction d’Esprit | 10 🪙 2 ☠ | Augmente la sauvegarde de sang-froid de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’intuition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de fortune de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’opposition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de Vampire | 10 🪙 2 ☠ | Augmente la sauvegarde de prestige de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de Naga | 10 🪙 2 ☠ | Pour le calcul des défenses passives physiques les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Sphinx | 10 🪙 2 ☠ | Pour le calcul des défenses passives mentales les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Dragon | 10 🪙 2 ☠ | Les attributs physique sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction d’Ombre | 10 🪙 2 ☠ | Les attributs mentaux sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Titan | 10 🪙 2 ☠ | La défense passive de Force (FOR) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Stryge | 10 🪙 2 ☠ | La défense passive de Dextérité (DEX) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive d’Agilité (AGI) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Perception (PER) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Ghoul | 10 🪙 2 ☠ | La défense passive de Constitution (CON) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Satyre | 10 🪙 2 ☠ | La défense passive de Charisme (CHA) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive d’Intelligence (INT) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Ruse (RUS) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Sagesse (SAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Volonté (VOL) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Trent | 10 🪙 2 ☠ | La défense passive de Magie (MAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Basilic | 10 🪙 2 ☠ | Augmentation de la récupération physique de 2 par niveau. Dure 5 tours. | ½ 📦 H |
-| Concoction de Gorgone | 10 🪙 2 ☠ | Augmentation de la récupération mentale de 2 par niveau. Dure 5 tours. | ½ 📦 H |
-| Concoction de Momie | 10 🪙 2 ☠ | Augmentation de la récupération magique de 2 par niveau, la décharge des enchantements négatifs vous affectant unique vous est donc augmenter d’autant. Dure 5 tours. | ½ 📦 H |
-| Concoction de Gargouille | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type tranchant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de Zombie | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type contondant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de Squelette | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type perforant de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type flexible de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de Béhémoth | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
-| Concoction de Drake | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts magiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
-| Concoction de Flagelleur | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts mentaux (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la capacité d’encombrement maximum de 4 par niveau de qualité. Dure jusqu’à la prochaine récupération. | ½ 📦 |
-| Concoction de Noyeur | 10 🪙 2 ☠ | Immunise aux effets de la noyade ou suffocation pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
-| Concoction de Cerbère | 10 🪙 2 ☠ | Augmente la vitesse de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
-| Concoction de Hippogriffe | 10 🪙 2 ☠ | Augmente la rapidité de 2 par niveau de qualité. Dure 5 tours. | ½ 📦K |
-| Concoction de Pégase | 10 🪙 2 ☠ | Augmente l’allure de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
-| Concoction de Rocks | 10 🪙 2 ☠ | Réduit la gravité effective des lésions physiques (blessure) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Dryades | 10 🪙 2 ☠ | Réduit la gravité effective des lésions mentales (trauma) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Golem | 10 🪙 2 ☠ | Soigne jusqu’à ramener l’endurance (PE) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Ver Géant | 10 🪙 2 ☠ | Soigne jusqu’à ramener la vitalité (PV) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Sirène | 10 🪙 2 ☠ | Soigne jusqu’à ramener la spiritualité (PS) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Manticore | 10 🪙 2 ☠ | Soigne jusqu’à ramener le chi (PC) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Sylphide | 10 🪙 2 ☠ | Soigne jusqu’à ramener le mana (PM) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Pixie | 10 🪙 2 ☠ | Soigne jusqu’à ramener le karma (PK) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Troll | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la vitalité (PV) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Spectre | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la spiritualité (PS) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Kirin | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le chi (PC) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Banshee | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le mana (PM) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Leprechaun | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le karma (PK) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Phénix | 10 🪙 2 ☠ | Soigne 2 points de corruption (☠) par niveau de qualité. Une fois par jour maximum. | ½ 📦 |
+| Essence de Minotaure | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la vitalité (PV) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Chimère | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la spiritualité (PS) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Manticore | 10 🪙 2 ☠ | Chaque fois que le personnage perd du chi (PC) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Djinn | 10 🪙 2 ☠ | Chaque fois que le personnage perd du mana (PM) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Doppelganger | 10 🪙 2 ☠ | Chaque fois que le personnage perd du karma (PK) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Ogre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de vitalité (PV) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Poltergeist | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de spiritualité (PS) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Salamandre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de chi (PC) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Guenaude | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de mana (PM) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Lamia | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de karma (PK) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Alicorne | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point d’adrénaline temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Harpie | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de rage temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Tortoise | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de garde temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Géant | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de vitalité (PV) temporaires par niveau de qualité. | ½ 📦 E |
+| Essence de Cocatrix | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de spiritualité (PS) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Griffon | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de chi (PC) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Feu Follet | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de mana (PM) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Licorne | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de karma (PK) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Garous | 10 🪙 2 ☠ | Génère immédiatement 1D8 points points d’adrénaline par niveau de qualité. | ½ 📦 E |
+| Essence de Wendigo | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de rage par niveau de qualité. | ½ 📦 E |
+| Essence de ??? | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de garde par niveau de qualité. | ½ 📦 E |
+| Essence d’Aracnide | 10 🪙 2 ☠ | Bloque les effets de n’importe quel effet de rupture (poison, saignement, etc) pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
+| Essence de Hydre | 10 🪙 2 ☠ | Augmente la puissance des attaques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Liche | 10 🪙 2 ☠ | Augmente la puissance des sorts de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Scorpion Géante | 10 🪙 2 ☠ | Renvoie jusqu’à 1 point de dégâts de mêlée reçus à l’envoyeur. Dure 5 tours. | ½ 📦 |
+| Essence de Wyverne | 10 🪙 2 ☠ | Criticité de toutes les actions augmentées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence d’Hibours | 10 🪙 2 ☠ | Réduit les pénalités de vision (obscurité, etc) de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Cyclope | 10 🪙 2 ☠ | Augmente la puissance des tactiques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la puissance des défenses effectuées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence d’élémentaire | 10 🪙 2 ☠ | Augmente l’absorption contre la forme d’énergie incarnée par l’élémentaire de 3 par niveau de qualité. Augmente la puissance des sorts associé à l’élément en question de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Guivre | 10 🪙 2 ☠ | Augmente la sauvegarde de robustesse de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de réflexes de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de détermination de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence d’Esprit | 10 🪙 2 ☠ | Augmente la sauvegarde de sang-froid de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’intuition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de fortune de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’opposition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de Vampire | 10 🪙 2 ☠ | Augmente la sauvegarde de prestige de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de Naga | 10 🪙 2 ☠ | Pour le calcul des défenses passives physiques les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Sphinx | 10 🪙 2 ☠ | Pour le calcul des défenses passives mentales les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Dragon | 10 🪙 2 ☠ | Les attributs physique sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence d’Ombre | 10 🪙 2 ☠ | Les attributs mentaux sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Titan | 10 🪙 2 ☠ | La défense passive de Force (FOR) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Stryge | 10 🪙 2 ☠ | La défense passive de Dextérité (DEX) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive d’Agilité (AGI) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Perception (PER) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Ghoul | 10 🪙 2 ☠ | La défense passive de Constitution (CON) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Satyre | 10 🪙 2 ☠ | La défense passive de Charisme (CHA) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive d’Intelligence (INT) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Ruse (RUS) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Sagesse (SAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Volonté (VOL) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Trent | 10 🪙 2 ☠ | La défense passive de Magie (MAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Basilic | 10 🪙 2 ☠ | Augmentation de la récupération physique de 2 par niveau. Dure 5 tours. | ½ 📦 H |
+| Essence de Gorgone | 10 🪙 2 ☠ | Augmentation de la récupération mentale de 2 par niveau. Dure 5 tours. | ½ 📦 H |
+| Essence de Momie | 10 🪙 2 ☠ | Augmentation de la récupération magique de 2 par niveau, la décharge des enchantements négatifs vous affectant unique vous est donc augmenter d’autant. Dure 5 tours. | ½ 📦 H |
+| Essence de Gargouille | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type tranchant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de Zombie | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type contondant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de Squelette | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type perforant de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type flexible de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de Béhémoth | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
+| Essence de Drake | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts magiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
+| Essence de Flagelleur | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts mentaux (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la capacité d’encombrement maximum de 4 par niveau de qualité. Dure jusqu’à la prochaine récupération. | ½ 📦 |
+| Essence de Noyeur | 10 🪙 2 ☠ | Immunise aux effets de la noyade ou suffocation pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
+| Essence de Cerbère | 10 🪙 2 ☠ | Augmente la vitesse de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
+| Essence de Hippogriffe | 10 🪙 2 ☠ | Augmente la rapidité de 2 par niveau de qualité. Dure 5 tours. | ½ 📦K |
+| Essence de Pégase | 10 🪙 2 ☠ | Augmente l’allure de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
+| Essence de Rocks | 10 🪙 2 ☠ | Réduit la gravité effective des lésions physiques (blessure) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Dryades | 10 🪙 2 ☠ | Réduit la gravité effective des lésions mentales (trauma) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
 
 ### Les Poison (consommables)
 
