@@ -162,8 +162,8 @@
         "description": "La zone de déclenchement des pièges du personnage est d'un cran plus large."
       },
       {
-        "nom": "Main d'artisan",
-        "description": "Si le personnage est le créateur du piège qu'il utilise, il reçoit un bonus d'ajustement de +2."
+        "nom": "Ingénierie perfectionnée",
+        "description": "Les pièges posés par le personnage voient leur difficulté de repérage augmentée de 2. De plus, le personnage ne risque jamais de déclencher accidentellement ses propres pièges lors de leur désarmage."
       }
     ]
   },
@@ -205,8 +205,8 @@
         "description": "La zone d'effet des explosifs du personnage est d'un cran plus large."
       },
       {
-        "nom": "Main d'artisan",
-        "description": "Si le personnage est le créateur de l'explosif qu'il utilise, il reçoit un bonus d'ajustement de +2."
+        "nom": "Charge anti-structure",
+        "description": "Les explosifs créés par le personnage sont optimisés contre les structures : ils infligent +2 de détérioration lorsqu'ils ciblent des structures (murs, portes, fortifications, véhicules, etc.)."
       }
     ]
   },
@@ -242,6 +242,176 @@
       {
         "nom": "Soins débordants",
         "description": "Lorsque les soins d'un consommable dépassent le maximum des ressources de la cible, l'excédent est converti en ressource temporaire (maximum 5 + modificateur de Sagesse)."
+      }
+    ]
+  },
+  {
+    "nom": "Gambiste",
+    "concept": "Manipulation d'un jeu de cartes personnel pour déclencher des effets tactiques sur les ressources et les conditions de combat",
+    "description": "L'archétype du Gambiste confère au personnage la maîtrise d'un jeu de cartes unique qu'il exploite comme un véritable outil tactique. Loin d'un simple coup du sort, le Gambiste construit et entretient sa main au fil des scènes, combinant les enseignes et les valeurs pour produire des effets ciblés sur les ressources, les conditions et les positionnements de ses alliés comme de ses adversaires. Chaque carte défaussée est une décision stratégique : quand jouer, quelle combinaison assembler, quelle enseigne forcer, quelle cible désigner. Le Gambiste excelle à l'intersection du calcul et du risque, là où une bonne main peut renverser le cours d'un affrontement.",
+    "mecaniques": [
+      {
+        "titre": "Le Deck",
+        "texte": "Le personnage possède un **deck personnel** composé à la base de **40 cartes** : les 4 enseignes (♥ ♦ ♠ ♣), chacune couvrant les valeurs de **5 à 10** ainsi que les figures (Valet, Dame, Roi, As). Les cartes retirées ou ajoutées au deck modifient ce total. Le deck est mélangé au début de chaque scène — ou au début de chaque journée si l'amélioration correspondante est acquise. Les cartes défaussées lors des déclenchements ne reviennent dans le deck qu'au prochain mélange."
+      },
+      {
+        "titre": "Les Enseignes",
+        "texte": "Chaque enseigne est liée à un type de ressource ou à l'initiative : **♥ Cœur** = PE (Points d'Endurance) ; **♦ Carreau** = PK (Points de Karma) ; **♠ Pique** = PC (Points de Concentration) ; **♣ Trèfle** = Initiative. L'enseigne déterminée lors du déclenchement fixe la nature de l'effet produit."
+      },
+      {
+        "titre": "Action : Gambit",
+        "texte": "**Requiert une ACTS et 2 PS** : Le personnage réalise un **test de Jeu** contre une **difficulté de 5**. Chaque DR obtenu lui permet de piocher et de conserver autant de cartes, dans la limite de son **maximum en main** (7 par défaut). Si le nombre de cartes dépasse ce maximum après le tirage, le personnage doit se défausser de l'excédent avant la fin de l'action. La main constituée est conservée jusqu'à la fin de la scène."
+      },
+      {
+        "titre": "Action : Déclencher",
+        "texte": "**ACTL, sans coût supplémentaire** : Le personnage déclenche un effet en défaussant une **combinaison de base** (paire, brelan ou carré) augmentée d'**une carte supplémentaire**. La **valeur** de l'effet est déterminée par la valeur des cartes de la combinaison. L'**enseigne** est déterminée par l'enseigne **majoritaire** parmi toutes les cartes défaussées (combinaison + carte supplémentaire) ; en cas d'égalité, l'enseigne de la carte supplémentaire est prioritaire. La carte supplémentaire permet donc de forcer ou d'infléchir l'enseigne active."
+      },
+      {
+        "titre": "Effets des combinaisons de base",
+        "texte": "Le personnage choisit entre infliger une perte ou octroyer des ressources temporaires selon l'enseigne active : **Infliger** — la cible subit une perte de X points de ressources correspondant à l'enseigne active ; **Octroyer** — une cible à portée reçoit X points de ressources temporaires correspondant à l'enseigne active. X est égal à la **valeur des cartes** constituant la combinaison. Le **nombre de cibles** dépend du type de combinaison : **Paire** = 1 cible ; **Brelan** = jusqu'à 2 cibles ; **Carré** = jusqu'à 3 cibles ; **Quinte** (nécessite un Joker) = n'importe quel nombre de cibles."
+      },
+      {
+        "titre": "Figures spéciales",
+        "texte": "Les Valets (valeur **11**), Dames (valeur **12**), Rois (valeur **13**) et As (valeur **14**) ont des effets supplémentaires lorsqu'ils forment une combinaison entre figures de même rang. **Valet** : La combinaison peut provoquer une **condition** selon l'enseigne active (♥ saignement ; ♦ étourdissement ; ♠ vulnérable ; ♣ faiblesse), X définissant la charge associée ; jouée positivement, elle soigne la cible d'une de ses conditions existantes quelle qu'en soit la nature. **Dame** : La combinaison peut produire simultanément un **effet positif et un effet négatif**, le nombre maximum de cibles s'appliquant à chaque type indépendamment. **Roi** : La combinaison déclenche une **tactique** selon l'enseigne active (♥ désarmement ; ♦ renversement ; ♠ repoussement ; ♣ déplacement), X définissant l'amplitude de l'effet ; les rois produisent nécessairement des effets négatifs, mais jouée positivement la combinaison octroie X **points d'armure temporaires** à la place. **As** : valeur de base augmentée (14), sans propriété supplémentaire propre."
+      },
+      {
+        "titre": "Tests de sauvegarde",
+        "texte": "Les effets infligeant une perte de ressources, une condition ou une tactique à une cible adverse sont sujets à un **test de sauvegarde de Fortune**. Le résultat modifie la valeur de l'effet selon les règles standard des sauvegardes. L'**expertise** associée à ce test est basée sur **10 + mCHN** (modificateur de Chance du personnage déclenchant l'effet). La **portée** de base des effets est de **5 + mCHA** (modificateur de Charisme)."
+      },
+      {
+        "titre": "Combinaisons avancées",
+        "texte": "Ces combinaisons sont débloquées via l'amélioration **Combinaisons avancées**. **Deux paires** : une paire détermine l'effet et son enseigne, l'autre détermine la valeur de l'effet. **Full** (brelan + paire) : au choix, l'effet du brelan est augmenté de la moitié de la valeur de la paire, ou la valeur de la paire est augmentée de la totalité de la valeur du brelan. **Couleur** (min. 3 cartes de même enseigne) : le personnage pioche 2 cartes par carte dans la couleur, permettant le recyclage d'une main peu favorable. **Suite** (min. 3 cartes consécutives en valeur) : déclenche un effet passif de puissance X (X = cartes au-delà de la 2e) selon l'enseigne — ♥ : chaque tirage se fait avec X cartes supplémentaires et la taille maximum de la main augmente de X ; ♠ : chaque combinaison voit sa valeur augmentée de 2×X ; ♣ : lors du déclenchement, jusqu'à X cartes de la combinaison peuvent être conservées en main (X diminue de 1 à chaque usage) ; ♦ : lors du déclenchement, l'enseigne d'une carte peut être modifiée (X diminue de 1 à chaque usage). **Quinte flush** (suite de même enseigne) : le personnage pioche jusqu'à son maximum + 7 cartes, peut immédiatement déclencher tous les effets qu'il souhaite, puis se défausse de l'excédent."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "titre": "Base",
+        "description": "Le personnage acquiert son **deck de base** (40 cartes : 4 enseignes de 5 à 10, Valets, Dames, Rois, As) et accède aux actions **Gambit** et **Déclencher**. Il maîtrise les **combinaisons de base** (paire, brelan, carré). Sa main peut contenir jusqu'à 7 cartes et est conservée jusqu'à la fin de la scène.",
+        "choix": null
+      },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Grande main",
+        "description": "La taille maximum de la main est portée à **10 cartes**. De plus, au début de chaque scène, le personnage pioche automatiquement **1 carte de départ** sans avoir à réaliser de Gambit."
+      },
+      {
+        "nom": "Jokers",
+        "description": "Deux cartes **Joker** sont ajoutées au deck. Un Joker peut remplacer n'importe quelle valeur ou n'importe quelle enseigne, au choix du personnage au moment du déclenchement. Il permet notamment de former une **Quinte** (cinq d'une même valeur), impossible à obtenir autrement."
+      },
+      {
+        "nom": "Enchaînement",
+        "description": "Lorsque le personnage réalise l'action **Gambit**, il peut immédiatement enchaîner sur un déclenchement d'effet sans ACTL séparée, à condition que sa main le permette après le tirage."
+      },
+      {
+        "nom": "Combinaisons avancées",
+        "description": "Le personnage débloque les **combinaisons avancées** : Deux paires, Full, Couleur, Suite et Quinte flush (voir la section Combinaisons avancées des mécaniques)."
+      },
+      {
+        "nom": "Tirage alternatif",
+        "description": "Lors d'un Gambit, le personnage peut choisir de piocher **2×DR cartes** mais n'en conserve alors que **DR−1** (minimum 1). Ce mode de tirage offre un meilleur contrôle sur la composition de la main au prix d'un rendement brut plus faible."
+      },
+      {
+        "nom": "Deck affiné",
+        "description": "Le personnage peut retirer définitivement jusqu'à **8 cartes** de son deck. Les cartes retirées n'y reviennent jamais. Cela réduit la taille totale du deck mais améliore la probabilité de piocher les cartes souhaitées."
+      },
+      {
+        "nom": "Carte en manche",
+        "description": "Le personnage garde toujours **1 carte** de son deck dans sa manche, hors deck. Il peut l'utiliser à n'importe quel moment lors d'un déclenchement en réalisant un **test de Subterfuge** (difficulté : 10 + 2 × nombre de cartes dans la combinaison finale, carte truquée incluse). En cas d'échec, la carte est révélée mais inutilisable. La carte en manche est choisie lors du mélange du deck et n'y retourne qu'au prochain mélange."
+      },
+      {
+        "nom": "Préparation",
+        "description": "Le personnage conserve sa main d'une scène à l'autre tout au long d'une **même journée**. Il peut effectuer des Gambits hors combat ou de tension pour préparer sa main sans risque particulier. La main n'est perdue qu'en fin de journée ou lors d'un repos long."
+      },
+      {
+        "nom": "Longue portée",
+        "description": "La portée de base des effets du personnage est **doublée** (10 + 2×mCHA au lieu de 5 + mCHA)."
+      },
+      {
+        "nom": "Main pesante",
+        "description": "La valeur de toutes les cartes jouées est augmentée du **modificateur de CHN** (Chance) du personnage. Ce bonus s'applique aux effets positifs comme aux effets négatifs."
+      }
+    ]
+  },
+  {
+    "nom": "Commandement",
+    "concept": "Chef de guerre inspirant ses alliés ou terrorisant ses adversaires par des cris tactiques mémorisés",
+    "description": "L'archétype du Commandement forge le personnage en un meneur dont la voix seule peut changer le cours d'une confrontation. Par des cris soigneusement appris et maîtrisés, il coordonne ses alliés, leur accordant actions supplémentaires ou conditions avantageuses, ou il brise le moral de ses ennemis en leur imposant des conditions débilitantes. Chaque cri est une œuvre tactique en soi : mémorisé, catégorisé, et déclenché au moment précis où il peut peser le plus. Le Commandant n'agit pas seul — il démultiplie les capacités de ceux qui l'entourent.",
+    "mecaniques": [
+      {
+        "titre": "Action : Lancer un Cri",
+        "texte": "**Requiert une ACTS et une ACTL, ainsi que 2 PS** : Le personnage lance un cri mémorisé en réalisant un **test de Commandement** contre une **difficulté de 5**. X vaut le nombre de DR obtenus (le personnage lui-même comptant parmi les éventuelles cibles alliées). Cette action est limitée à **une fois par tour**. Chaque cri connu occupe **un emplacement de mémoire**. La **portée** est une zone centrée sur le personnage de rayon **5 + mCHA** (PBAOE). La **catégorie** du cri est déterminée par l'argumentation sociale (C2 par défaut — voir les règles sociales)."
+      },
+      {
+        "titre": "Styles de Commandement",
+        "texte": "Le personnage choisit un style au rang 1 et ne peut apprendre de cris que dans ce style, sauf s'il acquiert l'amélioration **Maîtrise tous azimuts**. Les trois styles sont :\n— **Tactique** : Les cris accordent à des alliés la possibilité de réaliser immédiatement une action gratuite spécifique.\n— **Commandement** : Les cris octroient des conditions positives à des alliés.\n— **Guerre** : Les cris infligent des conditions négatives à des adversaires, soumis à un test de **Détermination** (vs **expertise mentale** du personnage)."
+      },
+      {
+        "titre": "Cris Tactiques",
+        "texte": "Chaque cri tactique permet à des alliés à portée de réaliser **sur-le-champ une action gratuite spécifique**. Rappel : les actions gratuites sont limitées à une par round. L'action ainsi accordée est **restreinte et désavantagée**, et requiert **3 points d'initiative** (ou d'adrénaline) de la part de l'allié. Le cri affecte jusqu'à **DR alliés** à portée (au choix). Le coût en initiative requis par les alliés est réduit de **1 par DR au-delà du nombre de cibles** (les DR excédentaires réduisent le coût pour tous les alliés ciblés).\n\nCris tactiques disponibles :\n— **« Pour la justice ! »** : Action d'attaque (sur le champ).\n— **« Couvrez-vous ! »** : Action de défense (préparée).\n— **« En mouvement ! »** : Action tactique (sur le champ).\n— **« Guet-apens ! »** : Action d'opportunité (préparée).\n— **« Repli coordonné ! »** : Action de déplacement (sur le champ).\n— **« Fortifiez ! »** : Action de montée des défenses (sur le champ).\n— **« À l'aide ! »** : Action d'aide (sur le champ).\n— **« En avant, ensemble ! »** : Action de soutien (sur le champ)."
+      },
+      {
+        "titre": "Cris de Ralliement",
+        "texte": "Chaque cri de ralliement octroie une **condition positive** à des alliés à portée. Le cri affecte jusqu'à **DR alliés** (au choix). La **catégorie** du jet est égale à **DR − nombre de cibles affectées** (les DR non utilisés pour des cibles supplémentaires renforcent l'effet).\n\nCris de ralliement disponibles :\n— **« Soyez agiles ! »** : Les cibles reçoivent la condition **aisance** (+1 à leurs tests).\n— **« Soyez implacables ! »** : Les cibles reçoivent la condition **implacable** (avantage tactique).\n— **« Tenez bon ! »** : Les cibles reçoivent la condition **renfort** (avantage en défense).\n— **« Rage de vaincre ! »** : Les cibles reçoivent la condition **ire** (avantage en attaque).\n— **« Restez en alerte ! »** : Les cibles reçoivent la condition **réactif** (avantage en initiative).\n— **« Résistez ! »** : Les cibles reçoivent la condition **résilience** (−1D8 aux jets reçus).\n— **« Gloire et honneur ! »** : Les cibles reçoivent la condition **héroïsme** (+1D8 aux jets infligés).\n— **« Relevez-vous ! »** : Les cibles reçoivent des **soins de morale**.\n— **« Surmontez ! »** : Les cibles sont soignées d'une de leurs **conditions négatives**.\n— **« Rage au ventre ! »** : Les cibles reçoivent des points de **Rage**.\n— **« Tenez votre garde ! »** : Les cibles reçoivent des points de **Garde**.\n— **« En avant ! »** : Les cibles reçoivent des points d'**Adrénaline**."
+      },
+      {
+        "titre": "Cris de Guerre",
+        "texte": "Chaque cri de guerre impose une **condition négative** à des adversaires à portée, soumis à un test de **Détermination** contre l'**expertise mentale** du personnage. Le cri affecte jusqu'à **DR adversaires** (au choix). La **catégorie** du jet est égale à **DR − nombre de cibles affectées**.\n\nCris de guerre disponibles :\n— **« Fuyez nous ! »** : Les cibles fuient le combat si elles sont **démoralisées**, sinon elles perdent du moral.\n— **« Tremblez ! »** : Les cibles reçoivent la condition **faiblesse** (−1 à leurs tests).\n— **« Lâchez vos armes ! »** : Les cibles reçoivent la condition **léthargie** (−1D8 aux jets infligés).\n— **« Vous êtes perdus ! »** : Les cibles reçoivent la condition **vulnérabilité** (+1D8 aux jets reçus).\n— **« Rendez-vous ! »** : Les cibles reçoivent la condition **infirmité**.\n— **« Votre heure est venue ! »** : Les cibles subissent des **dégâts de moral**.\n— **« Il n'y a plus d'espoir ! »** : Les cibles perdent leur **préparation** en cours.\n— **« Exposés ! »** : Les cibles reçoivent la condition **exposé** (désavantage tactique).\n— **« Brisez leurs rangs ! »** : Les cibles reçoivent la condition **fracture** (désavantage en défense).\n— **« Accablez-les ! »** : Les cibles reçoivent la condition **accablé** (désavantage en attaque).\n— **« Paralysés ! »** : Les cibles reçoivent la condition **inactif** (désavantage en initiative).\n— **« Tremblez misérables ! »** : Les cibles perdent leurs **ressources temporaires** (tous types confondus)."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "titre": "Base",
+        "description": "Le personnage acquiert l'action **Lancer un Cri** et choisit un **style** parmi les trois disponibles (Tactique, Commandement ou Guerre). Il peut apprendre des cris correspondant à ce style, chacun occupant un emplacement de mémoire.",
+        "choix": null
+      },
+      { "rang": 2, "description": null, "choix": "ameliorations" },
+      { "rang": 3, "description": null, "choix": "ameliorations" },
+      { "rang": 4, "description": null, "choix": "ameliorations" },
+      { "rang": 5, "description": null, "choix": "ameliorations" }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Voix assurée",
+        "description": "La difficulté du test de Commandement est réduite à **0** (soit un DR supplémentaire par rapport à la difficulté standard de 5)."
+      },
+      {
+        "nom": "Maîtrise tous azimuts",
+        "description": "Le personnage peut apprendre et utiliser des cris issus des **trois styles** sans restriction."
+      },
+      {
+        "nom": "Grand Répertoire",
+        "description": "Ajoute **5 emplacements de mémoire** dédiés exclusivement aux cris."
+      },
+      {
+        "nom": "Voix brisante",
+        "description": "Les **tests de sauvegarde de Détermination** réalisés par les adversaires contre les cris de guerre du personnage sont **désavantagés**."
+      },
+      {
+        "nom": "Commandement incessant",
+        "description": "La limitation d'**un cri par tour** est levée. Le personnage peut lancer autant de cris par tour que ses actions le lui permettent."
+      },
+      {
+        "nom": "Voix portante",
+        "description": "La portée des cris du personnage est **doublée** (10 + 2×mCHA)."
+      },
+      {
+        "nom": "Cri de maître",
+        "description": "La **catégorie** de tous les cris du personnage est augmentée de **1**."
+      },
+      {
+        "nom": "Réflexe de commandement",
+        "description": "L'action Lancer un Cri peut être réalisée en **ACTR** (action de réaction), au lieu de requérir une ACTS et une ACTL."
+      },
+      {
+        "nom": "Présence charismatique",
+        "description": "L'**expertise** utilisée comme difficulté pour les sauvegardes contre les cris de guerre est désormais basée sur **10 + mCHA** (expertise sociale) à la place de l'expertise mentale standard."
       }
     ]
   }

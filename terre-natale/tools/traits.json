@@ -55,6 +55,24 @@
       "rang": null
     },
     {
+      "nom": "Artisan Dévoué",
+      "type": "avantage_majeur",
+      "section": "avantages_majeurs",
+      "sous_section": "Règle de Base",
+      "cout": 1,
+      "description": "Le personnage reçoit un bonus d'ajustement de +2 à tous les tests réalisés avec un objet qu'il a lui-même fabriqué. Cela inclut les tests d'attaque, d'usage d'outils, de déclenchement de pièges ou d'explosifs, et tout autre test où l'objet est directement employé.",
+      "categories": [
+        "Artisanat"
+      ],
+      "extension": "Base",
+      "prerequis": null,
+      "conditions": [],
+      "multiples_instances": null,
+      "limitation": null,
+      "rang": 1,
+      "avantage_mineur_bonus": false
+    },
+    {
       "nom": "Androgyne",
       "type": "avantage_majeur",
       "section": "avantages_majeurs",

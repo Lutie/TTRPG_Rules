@@ -421,8 +421,16 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       return cost;
     };
     const PA_SECONDARY_COSTS = { 8: -5, 9: -3, 10: 0, 11: 4, 12: 9 };
-    const PRIMARY_ATTR_IDS   = ['FOR','DEX','AGI','CON','PER','CHA','INT','RUS','VOL','SAG','MAG','LOG','CHN'];
+    const PRIMARY_ATTR_IDS   = ['FOR','DEX','AGI','CON','PER','CHA','INT','RUS','VOL','SAG','MAG','LOG'];
     const SECONDARY_ATTR_IDS = ['STA','TAI','EGO','APP'];
+    // CHN coûte comme un attribut principal mais avec base 10 (pas 7)
+    const PA_START_CHN = 10;
+    const paCostCHN = (value) => {
+      let cost = 0;
+      if (value > PA_START_CHN)      for (let x = PA_START_CHN; x < value; x++) cost += paStepCost(x);
+      else if (value < PA_START_CHN) for (let x = PA_START_CHN; x > value; x--) cost -= paStepCost(x - 1);
+      return cost;
+    };
 
     let paDepenses = 0;
     PRIMARY_ATTR_IDS.forEach(id => {
@@ -433,6 +441,9 @@ export function useCharacterCalculations(character, castes = DATA.castes) {
       const base = character.attributs?.[id]?.base ?? 10;
       paDepenses += PA_SECONDARY_COSTS[base] ?? 0;
     });
+    // CHN : base 10 = 0 PA dépensé
+    const chnBase = character.attributs?.['CHN']?.base ?? PA_START_CHN;
+    paDepenses += paCostCHN(chnBase);
 
     const paCaste = DATA.casteProgression.reduce((sum, level) => level.rang <= rangCaste ? sum + (level.pa || 0) : sum, 0);
     const paBudget  = (destinee?.pa || DATA.destinees[0].pa) + paCaste + (bonus.pa || 0);
