@@ -36,6 +36,9 @@ Les outils de recyclage permettent d'extraire des matériaux utilisables à part
 | Outils de démantèlement | Métaux | 40 🪙 |
 | Outils de taille lapidaire | Pierres | 25 🪙 |
 | Kit d'extraction magique | Magicites | 80 🪙 |
+| Nécessaire d'herboristerie | Herbes, plantes | 18 🪙 |
+| Trousse de prélèvement organique | Substances (glandes, venins, sécrétions) | 30 🪙 |
+| Nécessaire de boucherie | Chair, viande, os | 10 🪙 |
 
 ### Les Livres
 
