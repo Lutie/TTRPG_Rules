@@ -36,10 +36,26 @@
         "description": "Le personnage a désormais accés à l'action **Composer** et peux apprendre des **compositions** simples. Il choisit entre être en mesure d'influencer ou inspirer les cibles.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -92,10 +108,26 @@
         "description": "Le personnage acquière une des améliorations disponibles pour la pratique des rituels.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -130,11 +162,31 @@
     "description": "L'archétype du piégeage permet au personnage de poser et d'exploiter des pièges avec une efficacité redoutable, en affinant chaque aspect de leur usage : pose, dissimulation, déclenchement et récupération.",
     "mecaniques": [],
     "rangs": [
-      { "rang": 1, "description": null, "choix": "ameliorations" },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 1,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -173,11 +225,31 @@
     "description": "L'archétype de la pyrotechnie permet au personnage de manier les explosifs avec une maîtrise exceptionnelle, en optimisant leur portée, leur zone d'effet et leur fiabilité.",
     "mecaniques": [],
     "rangs": [
-      { "rang": 1, "description": null, "choix": "ameliorations" },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 1,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -216,11 +288,31 @@
     "description": "L'archétype de la pharmacopée permet au personnage de tirer le meilleur parti des consommables de soin, en augmentant leur portée, leur fiabilité et leurs effets sur les cibles.",
     "mecaniques": [],
     "rangs": [
-      { "rang": 1, "description": null, "choix": "ameliorations" },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 1,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -290,10 +382,26 @@
         "description": "Le personnage acquiert son **deck de base** (40 cartes : 4 enseignes de 5 à 10, Valets, Dames, Rois, As) et accède aux actions **Gambit** et **Déclencher**. Il maîtrise les **combinaisons de base** (paire, brelan, carré). Sa main peut contenir jusqu'à 7 cartes et est conservée jusqu'à la fin de la scène.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -371,10 +479,26 @@
         "description": "Le personnage acquiert l'action **Lancer un Cri** et choisit un **style** parmi les trois disponibles (Tactique, Commandement ou Guerre). Il peut apprendre des cris correspondant à ce style, chacun occupant un emplacement de mémoire.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -448,10 +572,26 @@
         "description": "Le personnage débloque la pratique des Teintures. Il apprend la compétence **Alchimie** et peut désormais analyser des matériaux pour en découvrir les conditions, puis crafter des Teintures à partir de ces matériaux.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -505,10 +645,26 @@
         "description": "Le personnage débloque l'action **Préparer** et peut créer des consommables sur-le-champ sans coût matériel.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -574,10 +730,26 @@
         "description": "Le personnage débloque la pratique des Décoctions. Il peut désormais analyser des matériaux organiques pour en identifier la créature source, puis crafter des Décoctions à partir de ces matériaux.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -647,10 +819,26 @@
         "description": "Le personnage débloque la pratique des Signes. Il choisit un **domaine** et apprend la **compétence associée** (comme pour la magie). Il peut mémoriser jusqu'à **3 signes** et accéder à l'action **Lancer un Signe**.",
         "choix": null
       },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -689,11 +877,31 @@
     "description": "L'archétype du Conflit forge le personnage en un combattant dont l'adrénaline n'est plus un simple effet de bord mais un moteur tactique. Là où un guerrier ordinaire accumule de l'adrénaline passivement, le Conflictuel la génère, la recycle et l'amplifie — enchaînant les rounds supplémentaires, relançant ses échecs et synchronisant son élan avec sa garde ou sa rage.",
     "mecaniques": [],
     "rangs": [
-      { "rang": 1, "description": null, "choix": "ameliorations" },
-      { "rang": 2, "description": null, "choix": "ameliorations" },
-      { "rang": 3, "description": null, "choix": "ameliorations" },
-      { "rang": 4, "description": null, "choix": "ameliorations" },
-      { "rang": 5, "description": null, "choix": "ameliorations" }
+      {
+        "rang": 1,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
     ],
     "ameliorations": [
       {
@@ -723,6 +931,1111 @@
       {
         "nom": "Acharnement",
         "description": "Après avoir échoué à une action de confrontation, le personnage peut dépenser **5 PA** pour transformer immédiatement l'échec en **nouvelle opportunité** : il retente l'action en question, sans défauts."
+      }
+    ]
+  },
+  {
+    "nom": "Compagnon",
+    "concept": "Acquérir un compagnon — animal dressé, animal sauvage, ou allié humanoïde — qui agit aux côtés du personnage",
+    "description": "Lorsque cet archétype est acquis, le personnage choisit parmi 3 voies : Animal dressé, Animal sauvage, et Humanoïde. Le premier rang permet au personnage d'acquérir un compagnon correspondant à la voie choisie. Le rang du compagnon est égal à 50 % du rang du personnage, arrondi à l'inférieur, dans la limite du rang de la compétence associée à cet archétype.",
+    "voies": [
+      {
+        "nom": "Animal dressé",
+        "description": "Le compagnon est une créature animale dressée. Orienté défense et polyvalence."
+      },
+      {
+        "nom": "Animal sauvage",
+        "description": "Le compagnon est une créature animale sauvage. Orienté offensif et surspécialisation."
+      },
+      {
+        "nom": "Humanoïde",
+        "description": "Le compagnon est un personnage humanoïde disposant de ses propres connaissances et aptitudes. Cette voie est principalement axée sur son autonomie, son expertise et sa capacité à accomplir des tâches indépendamment du personnage."
+      }
+    ],
+    "mecaniques": [
+      {
+        "titre": "Compagnon",
+        "texte": "Le rang du compagnon est égal à 50 % du rang du personnage, arrondi à l'inférieur, dans la limite du rang de la compétence associée à cet archétype. Le compagnon possède ses propres caractéristiques, compétences et ressources."
+      },
+      {
+        "titre": "Comportement par défaut",
+        "texte": "Le compagnon agit normalement de manière à assurer sa propre sécurité mais ne prend pas spontanément part aux actions du personnage ou aux combats. Le joueur peut décider que le compagnon attente sa propre passe d'arme pour agir, par exemple avec l'ordre qu'il lui aurait été donné en tête."
+      },
+      {
+        "titre": "Donner un ordre — ACTS & 2 PS",
+        "texte": "Le personnage donne un ordre à son compagnon. En termes de jeu lors de la prochaine passe de combat, le joueur prend directement le contrôle du compagnon et choisit ses actions."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage choisit sa voie (Animal dressé, Animal sauvage ou Humanoïde) et acquiert un compagnon correspondant.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Compagnons multiples",
+        "categorie": "commun",
+        "description": "Le personnage peut acquérir plusieurs compagnons. Il ne peut cependant disposer que d'un seul compagnon actif au cours d'une même scène."
+      },
+      {
+        "nom": "Potentiel",
+        "categorie": "commun",
+        "description": "Le rang maximum que peut atteindre le compagnon est augmenté de 1."
+      },
+      {
+        "nom": "Récupération",
+        "categorie": "commun",
+        "description": "Le compagnon récupère plus facilement de ses blessures et de l'épuisement. La récupération du compagnon est augmentée de 5. Un seul compagnon profite de cet effet à chaque repos, ou cette valeur peut être répartie sur plusieurs compagnons."
+      },
+      {
+        "nom": "Ordre persistant",
+        "categorie": "commun",
+        "description": "Si le même ordre est donné au compagnon afin de le maintenir, il ne coûte pas de PS. Ceci est possible tant que la situation n'a pas changé et n'invalide pas l'ordre précédent."
+      },
+      {
+        "nom": "Symbiose",
+        "categorie": "commun",
+        "description": "Si le compagnon a attendu la passe d'arme, ou si le personnage a lui-même attendu la passe d'arme de son compagnon pour agir et donner son ordre, alors tous deux peuvent réaliser leurs actions durant la même passe, dans l'ordre qu'ils préfèrent. De plus, la rapidité du personnage est augmentée de 5 si son compagnon l'attend pour agir et vice versa."
+      },
+      {
+        "nom": "Dur à cuir",
+        "categorie": "commun",
+        "description": "Le compagnon reçoit un bonus de +1 à ses sauvegardes et +2 à toutes ses ressources maximum."
+      },
+      {
+        "nom": "Protecteur",
+        "categorie": "animal_dresse",
+        "description": "Lorsque son maître est la cible d'une ATT et que le familier est en mesure d'intervenir, celui-ci peut utiliser sa réaction pour participer à sa défense ou s'interposer."
+      },
+      {
+        "nom": "Dressage",
+        "categorie": "animal_dresse",
+        "description": "Le compagnon reçoit un bonus de +2 à toutes ses compétences déjà acquises (issues de ses listes ethniques, raciales, etc)."
+      },
+      {
+        "nom": "Obéissance",
+        "categorie": "animal_dresse",
+        "description": "Le familier peut mémoriser un petit nombre d'ordres simples (suis-moi, reste, protège, rapporte, cherche…). Ces ordres peuvent être donnés via une ACTL et sans PS, mais ne permettent pas de lui faire réaliser des comportements complexes (ni une action de combat)."
+      },
+      {
+        "nom": "Combat coordonné",
+        "categorie": "animal_dresse",
+        "description": "Lorsque le personnage ou son compagnon génère une opportunité dont l'autre profite, une nouvelle opportunité est générée en faveur du premier."
+      },
+      {
+        "nom": "Lien primal",
+        "categorie": "animal_sauvage",
+        "description": "Tant que son compagnon est à portée proche, le personnage peut percevoir ce qu'il perçoit et utiliser ses sens comme s'il s'agissait des siens. Il peut notamment effectuer ses tests de perception depuis la position du compagnon et utiliser les capacités sensorielles naturelles de celui-ci."
+      },
+      {
+        "nom": "Prédateur",
+        "categorie": "animal_sauvage",
+        "description": "Lorsqu'il agit à la suite d'un ordre, le familier bénéficie d'un avantage sur sa prochaine action d'ATT."
+      },
+      {
+        "nom": "Instinct dominant",
+        "categorie": "animal_sauvage",
+        "description": "Le compagnon reçoit un bonus de +3 à une de ses compétences déjà acquises (issues de ses listes ethniques, raciales, etc)."
+      },
+      {
+        "nom": "Déchaînement",
+        "categorie": "animal_sauvage",
+        "description": "Lorsqu'un ordre lui désigne une cible hostile, le familier peut continuer à l'attaquer sans recevoir de nouvel ordre tant que celle-ci reste une menace. Il ne peut cependant pas librement changer de cible ou de tactique sans nouvel ordre : il attaque."
+      },
+      {
+        "nom": "Extension",
+        "categorie": "animal_sauvage",
+        "description": "Le personnage peut utiliser les sens de son compagnon comme les siens. Lorsqu'il effectue ainsi un test depuis la position du compagnon, il utilise au choix sa propre compétence ou celle du compagnon, tout en bénéficiant des capacités sensorielles naturelles de ce dernier."
+      },
+      {
+        "nom": "Tacticien",
+        "categorie": "humanoide",
+        "description": "L'allié bénéficie d'un avantage lorsqu'il réalise une TAC destinée à aider son partenaire ou à créer une opportunité dont celui-ci peut profiter."
+      },
+      {
+        "nom": "Initiative",
+        "categorie": "humanoide",
+        "description": "En l'absence d'ordre, l'allié agit de sa propre initiative lors de sa passe. Il est alors contrôlé par le MJ conformément à sa personnalité et à ses objectifs. Le joueur doit toujours lui donner un ordre s'il souhaite décider précisément de ses actions durant une confrontation. En dehors d'une confrontation l'allié peut réaliser des tâches complexes (quêtes, etc), et est généralement indépendant."
+      },
+      {
+        "nom": "Polyvalence",
+        "categorie": "humanoide",
+        "description": "L'allié peut développer 2 compétences de plus qui ne sont pas limitées à celles naturellement prévues par son profil. Ces compétences sont acquises comme s'il s'agissait d'une compétence majeure et une autre mineure."
+      },
+      {
+        "nom": "Complémentarité",
+        "categorie": "humanoide",
+        "description": "Lorsque le personnage et son allié participent à une même tâche, celui possédant la compétence la plus élevée effectue le test tandis que l'autre peut lui apporter son assistance sans effectuer d'action supplémentaire."
+      }
+    ]
+  },
+  {
+    "nom": "Discipline",
+    "concept": "Maîtrise des dispositions de combat tirées au dé, modulées selon une voie : Excellence, Équilibre ou Virtuose",
+    "description": "L'archétype de la Discipline permet au personnage de générer et gérer des dispositions de combat — quatre valeurs dés associées chacune à un type d'action. En prenant ses marques, il tire 4D6 dont les résultats alimentent ses dispositions. Avant une action correspondante, il peut consommer la disposition pour obtenir un bonus d'Ajustement égal à sa valeur.",
+    "voies": [
+      {
+        "nom": "Excellence",
+        "description": "Après avoir pris ses marques, augmentez de 1 la disposition ayant obtenu la valeur la plus élevée. En cas d'égalité, choisissez-en une. Une valeur de 6 ne peut être augmentée."
+      },
+      {
+        "nom": "Équilibre",
+        "description": "Après avoir pris ses marques, répartissez jusqu'à 3 points entre les dispositions ayant obtenu les valeurs les plus faibles, afin de les rapprocher des valeurs supérieures."
+      },
+      {
+        "nom": "Virtuose",
+        "description": "Après avoir pris ses marques, répartissez jusqu'à 2 points entre vos dispositions, sans pouvoir augmenter une disposition possédant la valeur la plus élevée."
+      }
+    ],
+    "mecaniques": [
+      {
+        "titre": "Prendre ses marques — ACTS & 5 PC",
+        "texte": "Le personnage tire 4D6 de couleurs différentes. Chaque couleur correspond à une disposition ; la valeur du dé lui est associée. La voie choisie modifie ensuite les résultats obtenus."
+      },
+      {
+        "titre": "Dispositions",
+        "texte": "**Fougue** (ATT) · **Vigilance** (DEF) · **Maîtrise** (TAC) · **Élan** (MVT — déplacements nécessitant un test, esquives, initiative). Une disposition ne peut pas dépasser **2 + rang de la compétence Discipline** du personnage. Les dispositions sont perdues à la fin de chaque scène."
+      },
+      {
+        "titre": "Consommer une disposition",
+        "texte": "Avant de réaliser une action de combat du type correspondant, le personnage peut consommer la disposition pour obtenir un **bonus d'Ajustement** égal à sa valeur."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage choisit sa voie (Excellence, Équilibre ou Virtuose) et débloque l'action **Prendre ses marques**.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Conservation",
+        "categorie": "commun",
+        "description": "Lorsqu'il prend ses marques, le personnage peut conserver une disposition non dépensée au lieu de lui attribuer le nouveau résultat."
+      },
+      {
+        "nom": "Prise rapide",
+        "categorie": "commun",
+        "description": "Le personnage peut réaliser sa prise de marque en ACTL ; il ne tire alors que 2 dés sur les 4, en choisissant les couleurs. Le coût en PC demeure."
+      },
+      {
+        "nom": "Discipline assumée",
+        "categorie": "commun",
+        "description": "Le personnage peut réduire une disposition de 2 à la place de la consommer entièrement. Le bonus est basé sur la valeur avant réduction."
+      },
+      {
+        "nom": "Spécialisation",
+        "categorie": "commun",
+        "description": "Choisissez une disposition. Elle peut désormais contenir jusqu'à deux valeurs. Lorsqu'elle est utilisée, le personnage choisit laquelle consommer. Si une nouvelle valeur doit lui être attribuée alors qu'elle en contient déjà deux, la plus faible est remplacée."
+      },
+      {
+        "nom": "Réactivité",
+        "categorie": "commun",
+        "description": "Le personnage peut consommer une disposition après avoir effectué le test, mais avant d'en appliquer les conséquences."
+      },
+      {
+        "nom": "Dépassement",
+        "categorie": "excellence",
+        "description": "Une disposition de 6 entraîne un ajustement augmenté de 1 supplémentaire."
+      },
+      {
+        "nom": "Perfection",
+        "categorie": "excellence",
+        "description": "Après avoir pris ses marques, le personnage peut relancer un dé et doit en conserver le résultat (si Conservation est acquis, il n'est pas obligé d'attribuer le nouveau résultat)."
+      },
+      {
+        "nom": "Sans compromis",
+        "categorie": "excellence",
+        "description": "Au prix de 2 PS, lorsque le personnage consomme une disposition, il peut également consommer une autre disposition de son choix : il reçoit alors un bonus d'ajustement supplémentaire équivalant à la différence entre les deux valeurs, maximum 3."
+      },
+      {
+        "nom": "Fondamentaux",
+        "categorie": "equilibre",
+        "description": "Lorsqu'il prend ses marques, le personnage peut automatiquement transformer ses 1 en 2 avant même d'appliquer l'ajustement lié à l'Équilibre."
+      },
+      {
+        "nom": "Mesure",
+        "categorie": "equilibre",
+        "description": "Lorsque l'ajustement le plus bas (parmi les ajustements restants) est consommé, le personnage reçoit un bonus d'ajustement de +2 supplémentaire."
+      },
+      {
+        "nom": "Homogénéité",
+        "categorie": "equilibre",
+        "description": "Au prix de 2 PS, lorsque le personnage consomme une disposition, il peut également consommer une autre disposition de son choix : il reçoit alors un bonus d'ajustement supplémentaire de 5 moins la différence entre les deux valeurs, maximum 3."
+      },
+      {
+        "nom": "Enchaînement",
+        "categorie": "virtuose",
+        "description": "Lorsque le personnage consomme une disposition, son bonus d'Ajustement est augmenté de 1 par slot de disposition libre."
+      },
+      {
+        "nom": "Adaptation",
+        "categorie": "virtuose",
+        "description": "Lorsque le personnage prend ses marques, il peut choisir deux dés et inverser leurs valeurs."
+      },
+      {
+        "nom": "Flux",
+        "categorie": "virtuose",
+        "description": "Après avoir pris ses marques, si le personnage affiche une suite via les dés acquis, il reçoit des dés supplémentaires de la couleur de son choix affichant une valeur fixe : double → 1 dé à 4, deux doubles → 2 dés à 4, triple → 1 dé à 5, quadruple → 1 dé à 6. Ces dés supplémentaires ne sont pas des dispositions libres une fois utilisées."
+      },
+      {
+        "nom": "Cadence",
+        "categorie": "virtuose",
+        "description": "Immédiatement après avoir lancé les dés de Prendre ses marques, avant toute modification de leurs valeurs, si au moins trois dés forment une suite, tous les dés de cette suite à l'exception du plus élevé prennent la valeur du deuxième plus élevé. Les autres effets de Prendre ses marques sont ensuite résolus normalement."
+      }
+    ]
+  },
+  {
+    "nom": "Esprits",
+    "concept": "Se lier chaque jour à des esprits de castes pour en emprunter compétences, savoirs et privilèges",
+    "description": "L'archétype des Esprits permet au personnage de se lier à des esprits associés à des castes, lui octroyant temporairement leurs compétences, connaissances et privilèges. Débloque la compétence **Chamanisme** (groupe lié à la précognition, basé sur **SAG**). Chaque point dans Chamanisme permet d'obtenir un nouvel esprit dans le répertoire.",
+    "mecaniques": [
+      {
+        "titre": "Répertoire",
+        "texte": "Le personnage peut se lier à un nombre d'esprits différents égal à son rang de compétence en Chamanisme. Chaque point dans Chamanisme permet d'obtenir un nouvel esprit."
+      },
+      {
+        "titre": "Se lier à un esprit — ACTC & 5 PS",
+        "texte": "Le personnage réalise un test de difficulté 5 de Chamanisme (action risquée). Il choisit dans son répertoire un esprit auquel se lier jusqu'à la fin de la scène. Se délier nécessite également une ACTC (aucun test requis, mais reste une action risquée)."
+      },
+      {
+        "titre": "Bonus de l'esprit",
+        "texte": "L'esprit octroie à une **compétence clé** de sa caste : une valeur minimale de groupe de 1, une valeur minimale de compétence de DR, et une valeur minimale de modificateur d'attribut de DR. Cet effet peut être utilisé **une fois par tour**. L'esprit octroie les mêmes bonus à la **connaissance propre à la caste**."
+      },
+      {
+        "titre": "Magie et privilège",
+        "texte": "Si la compétence octroyée est un **domaine de magie**, le personnage peut utiliser ses PS comme des PM et lancer des sorts simples de ce domaine. Lorsqu'il est lié à un esprit, le personnage peut faire appel au **privilège de caste** à hauteur de **4 PC maximum**."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage débloque la compétence Chamanisme et l'action **Se lier à un esprit**. Il constitue son premier répertoire d'esprits.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Cercle spirituel",
+        "description": "Le personnage peut ajouter 2 esprits supplémentaires à son répertoire."
+      },
+      {
+        "nom": "Liaison prolongée",
+        "description": "La liaison peut durer toute une journée ; chaque nouvelle scène requiert 2 PS supplémentaires. Si le personnage a dépensé plus de 15 PS de la sorte, la liaison est maintenue jusqu'à la fin de la journée quoi qu'il arrive."
+      },
+      {
+        "nom": "Incarnation",
+        "description": "Lorsqu'il se lie à un esprit, le personnage obtient également l'action de caste non avancée associée. Il peut l'utiliser une première fois sans dépenser l'action normalement nécessaire, après quoi elle fonctionne normalement."
+      },
+      {
+        "nom": "Héritage",
+        "description": "Lorsqu'il se lie à un esprit, le personnage bénéficie également des deux traits associés à la caste de cet esprit."
+      },
+      {
+        "nom": "Résonance",
+        "description": "Lorsque le personnage fait appel à la compétence clé de son esprit, chaque composante (Groupe, Compétence ou modificateur d'Attribut) qui atteint déjà naturellement le minimum accordé par l'esprit peut être augmentée de 1. Résonance ne peut accorder que deux augmentations de +1 par test."
+      },
+      {
+        "nom": "Maîtrise spirituelle",
+        "description": "Créer un lien avec un esprit n'est plus une action risquée. Le personnage peut débuter une confrontation en établissant un lien en action gratuite."
+      },
+      {
+        "nom": "Canalisation",
+        "description": "Le bonus de compétence octroyé par l'esprit n'est plus limité à une utilisation par tour."
+      },
+      {
+        "nom": "Mémoire des défunts",
+        "description": "À tout moment, le personnage peut réaliser un test de connaissance lié à l'un des esprits de son répertoire sans avoir besoin de s'y lier au préalable."
+      },
+      {
+        "nom": "Affinité",
+        "description": "Choisissez un esprit du répertoire. Lorsqu'il est lié à cet esprit, le maximum de ressources du personnage est augmenté d'une valeur égale à son rang de Chamanisme, et il bénéficie d'un bonus de Moral équivalent régénéré à chaque tour."
+      },
+      {
+        "nom": "Possession",
+        "description": "Le personnage peut abandonner temporairement davantage de contrôle à l'esprit. Pendant un nombre de tours égal à son rang de compétence, tous les tests liés à la compétence de l'esprit reçoivent un bonus de 2, mais le comportement du personnage est influencé par la personnalité de l'esprit (source de gêne en jeu). Le MJ peut refuser cette amélioration s'il la juge déséquilibrée."
+      }
+    ]
+  },
+  {
+    "nom": "Métamorphoses",
+    "concept": "Se transformer en créature animale — en version polyvalente (plusieurs formes) ou dédiée (une seule forme maîtrisée)",
+    "description": "L'archétype des Métamorphoses permet au personnage de se transformer en une créature du règne animal. Débloque la compétence **Métamorphose** (groupe Discipline, basée sur **CON** ou **VOL**). Chaque point dans Métamorphose permet d'obtenir une forme. L'équipement fusionne avec le personnage mais n'a plus aucun effet. Deux voies existent : **Métamorphose** (non dédié, plusieurs formes, difficulté 10) et **Bête** (dédié, une seule forme, difficulté 5).",
+    "voies": [
+      {
+        "nom": "Métamorphose",
+        "description": "Version non dédiée. Le personnage peut avoir plusieurs formes dans son répertoire. La difficulté du test est de 10."
+      },
+      {
+        "nom": "Bête",
+        "description": "Version dédiée. Le personnage n'a qu'une seule forme. La difficulté du test est réduite à 5."
+      }
+    ],
+    "mecaniques": [
+      {
+        "titre": "Se métamorphoser — ACTC & 5 PC",
+        "texte": "Le personnage réalise un test de Métamorphose (difficulté 10 en Métamorphose, 5 en Bête). Il prend la forme d'une créature animale de sa liste jusqu'à la fin de la scène. Le profil de la créature correspond à une créature typique d'un rang égal au DR du test. Cette action est risquée. Reprendre forme humaine nécessite également une ACTC (aucun test requis, action risquée)."
+      },
+      {
+        "titre": "Ressources de la forme",
+        "texte": "Chaque forme dispose de ses propres ressources, récupérées selon la récupération propre à la forme. Les attributs reflètent le changement opéré : le personnage devient plus sauvage, etc."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage choisit sa voie (Métamorphose ou Bête) et débloque l'action **Se métamorphoser**. Il acquiert ses premières formes selon son rang de Métamorphose.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Répertoire étendu",
+        "categorie": "metamorphose",
+        "description": "Le personnage peut choisir 2 nouvelles formes à ajouter à son répertoire."
+      },
+      {
+        "nom": "Transition",
+        "categorie": "metamorphose",
+        "description": "Le personnage peut passer directement d'une forme à une autre sans reprendre forme humaine entre les deux."
+      },
+      {
+        "nom": "Acclimatation",
+        "categorie": "metamorphose",
+        "description": "Le coût en PC des formes est réduit de 1 par forme déjà endossée durant la journée, minimum 2."
+      },
+      {
+        "nom": "Expertise conservée",
+        "categorie": "bete",
+        "description": "En forme animale, le personnage maintient ses compétences personnelles si elles sont plus élevées que celles de la forme."
+      },
+      {
+        "nom": "Maîtrise de la forme",
+        "categorie": "bete",
+        "description": "Changer de forme n'est plus une action risquée."
+      },
+      {
+        "nom": "Dernier recours",
+        "categorie": "bete",
+        "description": "Si les PV ou PS tombent à 0 ou en deçà, le personnage peut immédiatement prendre sa forme animale si ce n'était pas déjà le cas, et vice versa, avec le coût en PC correspondant. Une fois par jour maximum."
+      },
+      {
+        "nom": "Seconde nature",
+        "categorie": "bete",
+        "description": "Le personnage obtient une action gratuite en début de confrontation pour réaliser immédiatement sa métamorphose (qui reste une action risquée le cas échéant)."
+      },
+      {
+        "nom": "Récupération des formes",
+        "categorie": "commun",
+        "description": "Lors d'un long repos, le personnage peut appliquer une récupération de 5 à l'une de ses formes. Toutes ses autres formes non utilisées durant la journée précédente bénéficient également d'une récupération de 5."
+      },
+      {
+        "nom": "Ancrage",
+        "categorie": "commun",
+        "description": "En forme animale, le personnage maintient ses attributs personnels s'ils sont plus élevés que ceux de la forme, conservant ainsi une bonne part de sa personnalité."
+      },
+      {
+        "nom": "Métamorphose rapide",
+        "categorie": "commun",
+        "description": "Se métamorphoser peut se faire en ACTS en augmentant le coût en PC de 2. Mettre fin à la métamorphose peut également se faire en ACTS sans surcoût."
+      },
+      {
+        "nom": "Forme prolongée",
+        "categorie": "commun",
+        "description": "La métamorphose peut durer toute une journée. Chaque nouvelle scène requiert 2 PC supplémentaires. Au bout de 3 surcoûts payés, la forme est maintenue jusqu'à la fin de la journée quoi qu'il arrive."
+      },
+      {
+        "nom": "Ressources bestiales",
+        "categorie": "commun",
+        "description": "La première fois de la journée que le personnage prend une forme donnée, il reçoit des ressources temporaires en PV, PE et PS équivalentes au modificateur de l'attribut utilisé pour le test."
+      },
+      {
+        "nom": "Élan bestial",
+        "categorie": "commun",
+        "description": "Une fois par tour, lorsqu'il adopte une nouvelle forme animale, le personnage peut immédiatement effectuer une action de déplacement."
+      }
+    ]
+  },
+  {
+    "nom": "Polymorphisme",
+    "concept": "Transformer partiellement son corps en empruntant des modifications animales — sens, déplacements, armes, défenses, membres ou glandes",
+    "description": "L'archétype du Polymorphisme permet au personnage de transformer partiellement ses membres et organes pour obtenir des modifications corporelles inspirées du règne animal, sans transformer entièrement sa forme. Débloque la compétence **Polymorphisme** (groupe Discipline, basée sur **CON** ou **VOL**). Chaque point dans la compétence Polymorphisme permet d'obtenir une forme supplémentaire dans le répertoire.",
+    "mecaniques": [
+      {
+        "titre": "Activer une forme — ACTC & 5 PC",
+        "texte": "Le personnage réalise un test de Polymorphisme (difficulté 10). Il choisit dans son répertoire une forme qu'il applique jusqu'à la fin de la scène. Le choix confère un avantage lié au changement physique associé. Cette action est risquée. Perdre sa forme nécessite également une ACTC (aucun test requis, action risquée)."
+      },
+      {
+        "titre": "DR",
+        "texte": "Le DR du test de Polymorphisme détermine la puissance des effets des formes (valeur des bonus, catégories d'armes, portées, etc.)."
+      }
+    ],
+    "formes": [
+      {
+        "categorie": "Sens",
+        "liste": [
+          {
+            "nom": "Yeux de faucon",
+            "description": "Vue considérablement améliorée. Bonus de DR aux tests de détection basés sur la vue."
+          },
+          {
+            "nom": "Oreilles de chauve-souris",
+            "description": "Ouïe considérablement améliorée ; éventuellement écholocalisation. Bonus de DR aux tests de détection basés sur l'ouïe."
+          },
+          {
+            "nom": "Truffe de loup",
+            "description": "Odorat considérablement amélioré et possibilité de suivre une piste olfactive. Bonus de DR aux tests de détection basés sur l'odorat."
+          },
+          {
+            "nom": "Fossettes thermosensibles de serpent",
+            "description": "Perception thermique des créatures et choses à proximité. La compétence thermosensibilité est acquise/maîtrisée avec un DR équivalent."
+          },
+          {
+            "nom": "Vibrisses de félin",
+            "description": "Perception fine des mouvements et de la proximité immédiate, notamment dans l'obscurité. Pénalités de visibilité réduites de DR."
+          }
+        ]
+      },
+      {
+        "categorie": "Déplacement",
+        "liste": [
+          {
+            "nom": "Ailes d'aigle",
+            "description": "Vol comme déplacement normal, allure augmentée de DR."
+          },
+          {
+            "nom": "Griffes d'escalade",
+            "description": "Escalader comme déplacement normal, allure augmentée de DR."
+          },
+          {
+            "nom": "Pattes d'araignée",
+            "description": "Peut marcher sur n'importe quelle surface solide sans tomber, allure maximale DR."
+          },
+          {
+            "nom": "Nageoires",
+            "description": "Nage comme déplacement normal, allure augmentée de DR."
+          },
+          {
+            "nom": "Branchies",
+            "description": "Le personnage peut respirer sous l'eau et n'est pas soumis à la noyade tant que ses branchies sont fonctionnelles."
+          },
+          {
+            "nom": "Pattes de kangourou",
+            "description": "Sauts considérablement améliorés. Bonus de DR aux tests d'athlétisme basés sur le saut."
+          },
+          {
+            "nom": "Pattes de guépard",
+            "description": "Allure/vitesse terrestre améliorée. Bonus de DR aux tests d'athlétisme basés sur la course."
+          },
+          {
+            "nom": "Écailles de serpent",
+            "description": "La peau du corps est glissante. Bonus de DR aux tests d'athlétisme basés sur l'évasion."
+          },
+          {
+            "nom": "Membranes de planeur",
+            "description": "Permet de planer et ignore les chutes. Chaque DR mètres parcourus en planant fait baisser la hauteur actuelle de 1 m."
+          }
+        ]
+      },
+      {
+        "categorie": "Armes naturelles",
+        "liste": [
+          {
+            "nom": "Cornes de taureau",
+            "description": "Arme naturelle basée sur FOR, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus d'attrition de 3DR. Spécialisé en attaque (+1 aux tests d'attaque, ne peut pas réaliser d'action tactique)."
+          },
+          {
+            "nom": "Griffes de félin",
+            "description": "Arme naturelle basée sur DEX, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de perforation de 3DR. Spécialisé en attaque (+1 aux tests d'attaque, ne peut pas réaliser d'action tactique)."
+          },
+          {
+            "nom": "Queue de lézard",
+            "description": "Arme naturelle basée sur AGI, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de maîtrise de 2DR."
+          },
+          {
+            "nom": "Crocs de loup",
+            "description": "Arme naturelle basée sur FOR, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de pénétration de 3DR."
+          },
+          {
+            "nom": "Pinces de crabe",
+            "description": "Arme naturelle basée sur DEX, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de gravité de 3DR."
+          },
+          {
+            "nom": "Dard de scorpion",
+            "description": "Arme naturelle basée sur AGI, catégorie 0, entraînement 2. Si la cible est blessée par l'attaque, elle subit la condition poison de catégorie DR."
+          },
+          {
+            "nom": "Épines de porc-épic",
+            "description": "Chaque attaque reçue inflige des dégâts de contact (ne peuvent être défendus ni évités) de 3 + DR."
+          }
+        ]
+      },
+      {
+        "categorie": "Défense",
+        "liste": [
+          {
+            "nom": "Carapace de tortue",
+            "description": "Équivalent d'un bouclier de catégorie DR, entraînement 2. Le bonus de défense inhérent aux boucliers s'applique aussi dans le dos."
+          },
+          {
+            "nom": "Écailles de crocodile",
+            "description": "Armure naturelle générale. Catégorie DR, entraînement 2."
+          },
+          {
+            "nom": "Carapace de tatou",
+            "description": "En ACTL risquée : passe en position défensive qui octroie une déviation naturelle de 5DR. Le personnage ne peut plus agir depuis cette position."
+          },
+          {
+            "nom": "Peau de caméléon",
+            "description": "Camouflage visuel. Bonus de DR aux tests de discrétion basés sur la vue."
+          },
+          {
+            "nom": "Peau mimétique (ouïe)",
+            "description": "Camouflage sonore. Bonus de DR aux tests de discrétion basés sur l'ouïe."
+          },
+          {
+            "nom": "Peau mimétique (odorat)",
+            "description": "Camouflage olfactif. Bonus de DR aux tests de discrétion basés sur l'odorat."
+          },
+          {
+            "nom": "Fourrure polaire",
+            "description": "Résistance au froid. Bonus de résistance à l'énergie du froid de 5DR et sauvegarde +DR."
+          },
+          {
+            "nom": "Écaille de salamandre",
+            "description": "Résistance au feu. Bonus de résistance à l'énergie du feu de 5DR et sauvegarde +DR."
+          },
+          {
+            "nom": "Écaille de volatïque",
+            "description": "Résistance à l'électricité. Bonus de résistance à l'énergie électrique de 5DR et sauvegarde +DR."
+          },
+          {
+            "nom": "Plaques de rhinocéros",
+            "description": "Réduit de DR catégorie les actions qui forcent le déplacement, la chute, etc."
+          }
+        ]
+      },
+      {
+        "categorie": "Membres & utilitaires",
+        "liste": [
+          {
+            "nom": "Tentacules de poulpe",
+            "description": "Membres préhensiles supplémentaires. Peut manipuler des choses ou réaliser des actions tactiques ou d'attaque (catégorie 0) sur une cible à distance maximale de 4DR."
+          },
+          {
+            "nom": "Langue de caméléon",
+            "description": "Arme naturelle basée sur AGI, catégorie 0, portée 2DR, entraînement 2. Spécialisé en tactique (+1 aux tests tactiques, ne peut pas réaliser d'action d'attaque)."
+          },
+          {
+            "nom": "Queue préhensile de singe",
+            "description": "Membre supplémentaire permettant de saisir, s'accrocher et manipuler."
+          },
+          {
+            "nom": "Poche de marsupial",
+            "description": "Permet le camouflage d'un objet de catégorie 1 maximum avec une difficulté de détection de 10 + 2DR."
+          },
+          {
+            "nom": "Ventouses de poulpe",
+            "description": "Adhérence, lutte et manipulation améliorées."
+          },
+          {
+            "nom": "Cou de hibou",
+            "description": "Le personnage peut voir tout autour de lui. La somme des pénalités liées au fait d'être pris en tenaille, dans le dos, etc. est réduite de DR."
+          },
+          {
+            "nom": "Pattes de bouc",
+            "description": "Arme naturelle basée sur AGI, catégorie DR, entraînement 2. Spécialisé en tactique (+1 aux tests tactiques, ne peut pas réaliser d'action d'attaque)."
+          },
+          {
+            "nom": "Poumons de phoque",
+            "description": "Bonus de 2DR aux tests contre les gaz et suffocations."
+          },
+          {
+            "nom": "Bras de gorille",
+            "description": "Bonus de DR aux tests d'athlétisme visant à mesurer la force. Arme naturelle basée sur FOR, catégorie DR, entraînement 2."
+          }
+        ]
+      },
+      {
+        "categorie": "Glandes & capacités biologiques",
+        "liste": [
+          {
+            "nom": "Glandes venimeuses",
+            "description": "ACTS — Jet de venin, une cible, une fois par tour, distance 10. Applique la condition venin de catégorie DR."
+          },
+          {
+            "nom": "Glandes de dragon",
+            "description": "ACTS — Souffle de feu, cône devant soi 1/3/5, une fois par tour. Dégâts de zone catégorie DR."
+          },
+          {
+            "nom": "Glandes de wyverne",
+            "description": "ACTS — Jet d'acide, zone 3×3, une fois par tour, distance 10. Dégâts de zone catégorie DR."
+          },
+          {
+            "nom": "Glandes séricigènes",
+            "description": "ACTS — Jet de toile, une cible, une fois par tour, distance 10. Applique la condition entoilé de catégorie DR (équivalent paralysie)."
+          },
+          {
+            "nom": "Électrocytes d'anguille",
+            "description": "ACTS — Décharge électrique sur toutes les créatures en contact direct (tenues ou tenant le personnage), une fois par tour. Dégâts de zone catégorie DR, validant automatiquement la partie défense ; sauvegarde de réflexe pour le reste."
+          },
+          {
+            "nom": "Sac d'encre de poulpe",
+            "description": "ACTS — Nuage obscurcissant : zone 3×3 (7×7 dans l'eau), une fois par tour, distance 10. Pénalité de visibilité 2DR."
+          },
+          {
+            "nom": "Glandes de mouffette",
+            "description": "ACTS — Projection nauséabonde en AOE 5×5, une fois par tour. Pénalité d'ajustement DR aux actions menées dans la zone (sauf le personnage) et moral réduit de DR."
+          },
+          {
+            "nom": "Bombardier",
+            "description": "ACTS — Projection chimique brûlante, zone 3×3, une fois par tour, distance 10. Dégâts de zone catégorie DR."
+          },
+          {
+            "nom": "Sang défensif du lézard cornu",
+            "description": "ACTS — Projection irritante depuis les yeux, une cible, une fois par tour, distance 10. Applique la condition cécité de catégorie DR."
+          }
+        ]
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage débloque la compétence Polymorphisme et l'action **Activer une forme**. Il acquiert ses premières formes selon son rang de Polymorphisme.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Répertoire étendu",
+        "description": "Le personnage peut choisir 2 nouvelles formes à ajouter à son répertoire."
+      },
+      {
+        "nom": "Forme prolongée",
+        "description": "La forme peut durer toute une journée. Chaque nouvelle scène requiert 2 PC supplémentaires. Si le personnage a dépensé plus de 15 PC de la sorte, la forme est maintenue jusqu'à la fin de la journée quoi qu'il arrive."
+      },
+      {
+        "nom": "Maîtrise du polymorphisme",
+        "description": "Activer ou désactiver une forme n'est plus une action risquée. Le personnage peut débuter une confrontation en activant une forme en action gratuite."
+      },
+      {
+        "nom": "Polymorphisme rapide",
+        "description": "Activer une forme peut se faire en ACTS en augmentant le coût en PC de 2. Mettre fin à la forme peut également se faire en ACTS sans surcoût."
+      },
+      {
+        "nom": "Cumul de formes",
+        "description": "Le personnage peut cumuler 2 formes actives simultanément. Cette amélioration peut être prise plusieurs fois pour augmenter le nombre de formes cumulables."
+      },
+      {
+        "nom": "Efficacité",
+        "description": "Le coût en PC du Polymorphisme est réduit de 2."
+      },
+      {
+        "nom": "Activation multiple",
+        "description": "Lorsqu'il réalise un test de Polymorphisme, le personnage peut activer plusieurs formes connues en une seule action. Le coût en PC augmente de 3 pour chaque forme supplémentaire."
+      },
+      {
+        "nom": "Substitution",
+        "description": "Lorsqu'au moins une forme est active, le personnage peut remplacer l'une de ses formes actives par une autre sans mettre fin au Polymorphisme, en ACTL."
+      },
+      {
+        "nom": "Réflexe polymorphe",
+        "description": "Une forme peut être activée via ACTR lorsqu'elle constitue une réponse immédiate à une situation."
+      }
+    ]
+  },
+  {
+    "nom": "Temps",
+    "concept": "Optimisation du temps hors combat — accumuler et dépenser des points de Temps pour gagner des activités supplémentaires",
+    "description": "L'archétype du Temps représente non pas un pouvoir magique mais une capacité impressionnante à bien gérer son temps : préparations en amont, agencement, optimisation. Rien de surnaturel — juste de la maîtrise.",
+    "mecaniques": [
+      {
+        "titre": "Points de Temps",
+        "texte": "À la fin de chaque journée, le personnage gagne 1 point de Temps, jusqu'à un maximum de **5 + mVOL**. Il peut dépenser **4 Temps** pour obtenir une activité courte supplémentaire, ou **8 Temps** pour une activité longue supplémentaire."
+      },
+      {
+        "titre": "Optimiser son temps — ACTL & 2 PS",
+        "texte": "Le personnage gagne **1 Initiative**, +1 par tranche de 2 améliorations acquises dans cet archétype."
+      }
+    ],
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage débloque la ressource **Temps** et l'action **Optimiser son temps**.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Organiser son temps",
+        "description": "Sacrifier une activité courte → gagne 1 point de Temps. Sacrifier une activité longue → gagne 2 points de Temps. Le personnage ne peut sacrifier ainsi qu'une activité de son choix par jour."
+      },
+      {
+        "nom": "Emprunter du temps",
+        "description": "Le personnage peut obtenir immédiatement une activité supplémentaire sans dépenser de Temps. Il contracte une dette de 2 activités du même type. Tant que cette dette n'est pas entièrement remboursée, cette amélioration ne peut plus être utilisée. Lorsqu'une activité correspondante devient disponible, le personnage peut la sacrifier pour réduire sa dette de 1."
+      },
+      {
+        "nom": "Temps pour soi",
+        "description": "Lorsque le personnage dépense des points de Temps pour obtenir une activité supplémentaire, il bénéficie d'une récupération égale à la moitié des points de Temps effectivement dépensés, arrondie à l'inférieur. Les points remplacés par de la Fatigue via Heures supplémentaires ne sont pas considérés comme dépensés et n'accordent aucune récupération."
+      },
+      {
+        "nom": "Optimisation",
+        "description": "Gain de 2 points de Temps par jour qui passe, au lieu d'un."
+      },
+      {
+        "nom": "Temps morts",
+        "description": "Le personnage peut réaliser une activité courte ou longue durant une période normalement improductive suffisamment longue (voyage, attente), à condition que les circonstances le permettent matériellement. Le coût en Temps est réduit de 2 (activité courte) ou 4 (activité longue)."
+      },
+      {
+        "nom": "Planification",
+        "description": "Lorsqu'il sait à l'avance quelle activité il réalisera le lendemain, le personnage peut la préparer la veille en la déclarant. Cette activité lui coûtera 1 point de Temps de moins si elle est courte, 2 de moins si elle est longue."
+      },
+      {
+        "nom": "Temps partagé",
+        "description": "Le personnage peut dépenser son Temps au bénéfice d'un autre personnage, qui réalise l'activité à sa place. Il peut dépenser 1 ou 2 points de Temps supplémentaires pour s'inclure dans l'activité ou y inclure un autre personnage."
+      },
+      {
+        "nom": "Routine",
+        "description": "Le personnage choisit un type spécifique d'activité (courte ou longue). Pour ce type d'activité, le coût est réduit à 3 (courte) ou 6 (longue). De plus, lorsqu'il réalise ces activités, il bénéficie d'une récupération de 1 (courte) ou 2 (longue)."
+      },
+      {
+        "nom": "Heures supplémentaires",
+        "description": "Lorsqu'il dépense du Temps pour obtenir une activité supplémentaire, le personnage peut remplacer tout ou partie des points manquants par 7 Fatigue par point de Temps. Cette Fatigue est subie avant l'activité et ne bénéficie d'aucune récupération jusqu'au début de la journée suivante."
+      },
+      {
+        "nom": "Agenda chargé",
+        "description": "Le maximum de points de Temps que peut conserver le personnage est augmenté de 5."
+      }
+    ]
+  },
+  {
+    "nom": "Célébrité",
+    "concept": "Réseau social et contacts — trouver la bonne personne, évaluer sa fiabilité et négocier son aide",
+    "description": "L'archétype de la Célébrité donne au personnage un réseau de contacts qu'il peut mobiliser via des recherches. Six dispositions (Gloire, Influence, Prestige, Confiance, Engagement, Crédit) définissent la qualité de ce réseau. Les valeurs de départ dépendent du milieu d'origine choisi.",
+    "mecaniques": [
+      {
+        "titre": "Dispositions",
+        "texte": "**Gloire** — rayonnement du réseau (nombre de contacts privilégiés). **Influence** — facilité à trouver quelqu'un. **Prestige** — niveau d'accès du contact. **Confiance** — fiabilité du contact. **Engagement** — jusqu'où il ira. **Crédit** — contrepartie exigée."
+      },
+      {
+        "titre": "Contacts privilégiés",
+        "texte": "Le score de **Gloire** détermine le nombre de contacts bien établis dont dispose le personnage, chacun ancré dans une sphère précise (ex. : Premier ministre, seigneur de guerre…). Ces contacts définissent un niveau d'accès de 1 à 6. Seul le récit permet d'en obtenir de nouveaux ou d'accéder à des niveaux plus élevés (à la discrétion du MJ)."
+      },
+      {
+        "titre": "Recherche de contact — activité longue & 5 PS",
+        "texte": "Le personnage vérifie d'abord s'il dispose d'un contact privilégié dans la sphère concernée : si oui et qu'il choisit de le faire jouer, il gagne +1 à toutes les dispositions pour cette recherche. Il tire ensuite **5D6**, lus de gauche à droite comme : Influence · Prestige · Confiance · Engagement · Crédit. La **valeur effective** de chaque disposition = résultat du dé, plafonné au score de la disposition."
+      },
+      {
+        "titre": "Influence — accès au contact",
+        "texte": "Difficulté du test : **15 + Prestige × 2 − Influence × 2**. Réussite : contact disponible. Réussite critique : disponible maintenant et lors de la prochaine sollicitation sans test. Échec : non disponible pour l'instant, réessayable via une nouvelle activité longue. Échec critique : le contact refuse définitivement."
+      },
+      {
+        "titre": "Prestige — niveau d'accès",
+        "texte": "1 Individu (moyens personnels) · 2 Initié (accès ordinaires) · 3 Responsable (moyens restreints) · 4 Autorité (moyens importants) · 5 Décideur (influence à grande échelle) · 6 Sommité (sommet de sa sphère)."
+      },
+      {
+        "titre": "Confiance — fiabilité",
+        "texte": "Le MJ tire 1D6 secrètement : si le résultat dépasse le score de Confiance obtenu, le contact trahira le personnage si l'occasion se présente (mais il aidera quand même). 1 Suspecte · 2 Fragile · 3 Professionnelle · 4 Solide · 5 Fidèle · 6 Absolue."
+      },
+      {
+        "titre": "Engagement — implication",
+        "texte": "1 Minimal (aucun coût) · 2 Disponible (temps/ressources mineures) · 3 Impliqué (contrainte ou risque limité) · 4 Engagé (risque significatif) · 5 Dévoué (position ou sécurité en jeu) · 6 Indéfectible (carrière, liberté ou vie en jeu)."
+      },
+      {
+        "titre": "Crédit — contrepartie",
+        "texte": "1 Exorbitant (contrepartie majeure) · 2 Important (service ou paiement conséquent) · 3 Équitable (contrepartie comparable) · 4 Favorable (contrepartie modeste) · 5 Symbolique (geste négligeable) · 6 Gratuit (aucune contrepartie)."
+      }
+    ],
+    "origines": {
+      "colonnes": [
+        "Gloire",
+        "Influence",
+        "Prestige",
+        "Confiance",
+        "Engagement",
+        "Crédit"
+      ],
+      "milieux": [
+        {
+          "nom": "Noble",
+          "valeurs": [
+            4,
+            3,
+            3,
+            2,
+            2,
+            3
+          ],
+          "description": "Nombreuses relations établies, accès à des gens importants, mais rapports plus intéressés et moins engagés."
+        },
+        {
+          "nom": "Marchand",
+          "valeurs": [
+            3,
+            4,
+            3,
+            2,
+            2,
+            3
+          ],
+          "description": "Réseau vaste, excellent pour trouver quelqu'un qui connaît quelqu'un, mais essentiellement transactionnel."
+        },
+        {
+          "nom": "Militaire",
+          "valeurs": [
+            3,
+            2,
+            3,
+            4,
+            3,
+            2
+          ],
+          "description": "Réseau moins facile à étendre, mais relations particulièrement fiables et esprit de corps marqué."
+        },
+        {
+          "nom": "Administration",
+          "valeurs": [
+            3,
+            3,
+            4,
+            3,
+            2,
+            2
+          ],
+          "description": "Accès particulièrement bon aux personnes disposant réellement des autorisations et leviers nécessaires, mais peu enclines à prendre des risques."
+        },
+        {
+          "nom": "Interlope",
+          "valeurs": [
+            2,
+            4,
+            2,
+            2,
+            3,
+            4
+          ],
+          "description": "Trouve facilement quelqu'un, services faciles à négocier, mais contacts peu prestigieux et confiance douteuse."
+        },
+        {
+          "nom": "Populaire",
+          "valeurs": [
+            3,
+            3,
+            2,
+            3,
+            4,
+            2
+          ],
+          "description": "Peu d'accès aux puissants, mais réseau humain prêt à réellement se mouiller."
+        },
+        {
+          "nom": "Religieux",
+          "valeurs": [
+            3,
+            2,
+            3,
+            4,
+            2,
+            3
+          ],
+          "description": "Relations solides et relativement désintéressées, mais réseau moins facile à solliciter et implication limitée par les devoirs du contact."
+        }
+      ]
+    },
+    "rangs": [
+      {
+        "rang": 1,
+        "description": "Le personnage choisit son **milieu d'origine** et acquiert ses valeurs de départ. Il peut désormais réaliser une **recherche de contact** comme activité longue.",
+        "choix": null
+      },
+      {
+        "rang": 2,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 3,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 4,
+        "description": null,
+        "choix": "ameliorations"
+      },
+      {
+        "rang": 5,
+        "description": null,
+        "choix": "ameliorations"
+      }
+    ],
+    "ameliorations": [
+      {
+        "nom": "Ascension",
+        "description": "Augmentez définitivement 2 dispositions de 1, jusqu'à un maximum de 6."
+      },
+      {
+        "nom": "Réputation établie",
+        "description": "Augmentez définitivement une disposition de 2, jusqu'à un maximum de 4."
+      },
+      {
+        "nom": "Seconde piste",
+        "description": "Après avoir obtenu vos dispositions, vous pouvez relancer un dé. Vous devez conserver le nouveau résultat."
+      },
+      {
+        "nom": "Faire jouer ses relations",
+        "description": "Échangez les résultats de deux dés de disposition, une fois par lancé de dés."
+      },
+      {
+        "nom": "Carnet d'adresses",
+        "description": "Lorsque vous terminez une recherche sans faire appel au contact obtenu, conservez le résultat d'une disposition. Lors de votre prochaine tentative dans la même sphère, utilisez cette valeur au lieu de lancer son dé."
+      },
+      {
+        "nom": "Recommandation",
+        "description": "Lorsqu'un de vos contacts privilégiés sert d'intermédiaire, son bonus de +1 peut être appliqué au résultat d'un dé plutôt qu'au score correspondant."
+      },
+      {
+        "nom": "Présentation",
+        "description": "Si vous avez déjà pris contact avec une personne dans la sphère visée, vous pouvez utiliser ce contact comme pivot pour en trouver un autre : conservez l'une de ses dispositions et imposez-la à la nouvelle recherche."
+      },
+      {
+        "nom": "Recherches rapides",
+        "description": "Une recherche peut être effectuée durant une activité courte, mais coûte 2 PS supplémentaires."
+      },
+      {
+        "nom": "Bouche-à-oreille",
+        "description": "Après avoir échoué au test d'accès, dépensez 2 PS par point de marge d'échec pour transformer cet échec en réussite."
+      },
+      {
+        "nom": "Prospection",
+        "description": "Lorsque vous refusez volontairement le contact obtenu, votre prochaine tentative dans la même sphère coûte 3 PS de moins. Une fois par recherche."
+      },
+      {
+        "nom": "Compromis",
+        "description": "Après le tirage, diminuez la valeur effective d'une disposition de 2 pour augmenter celle d'une autre de 1."
       }
     ]
   }
