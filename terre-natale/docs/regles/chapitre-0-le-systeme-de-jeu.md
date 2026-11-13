@@ -197,6 +197,47 @@ La baraka survient lorsque les trois dés conservés à l’issue du processus d
 
 Les évaluations sont, par défaut, associées à des difficultés de 10 et qui permettent essentiellement de mettre en avant des degrés de réussite qui servent alors à quantifier un élément de jeu. Ces difficultés ne peuvent pas être associées à une réussite dans la mesure où il n’y a pas de réelle difficulté, il s’agit seulement d’une évaluation des compétences. Un échec critique est toujours possible cependant, lorsque le test obtient 0 ou moins.
 
+## Actions contre un Personnage
+
+Lorsqu’un personnage réalise une action active ciblant directement un autre personnage, la difficulté du test est la **défense passive** de la cible, calculée à partir du même attribut que celui sollicité par l’action. Cette règle s’applique à tout type d’action active : attaque physique, mensonge, discrétion, action sociale, etc.
+
+### Réagir à une Action
+
+Si l’action réussit (son score dépasse la défense passive) et que la cible **est consciente** de ce qui se passe, elle peut choisir de réagir par une **action de défense** :
+
+- **En confrontation** : réagir nécessite une action rapide, ou une action préparée à l'avance via une action simple.
+- **Hors confrontation** : aucun coût, la cible peut simplement choisir de se défendre.
+
+### Test de Sauvegarde d’Intuition
+
+Lorsqu’une cible n’est **pas consciente** d’une action entreprise contre elle, un **test de sauvegarde d’intuition** est automatiquement déclenché, à condition qu’au moins une des conditions suivantes soit remplie :
+
+- Les intentions de l’acteur sont **hostiles ou nuisibles** à l’égard de la cible.
+- L’action a des **conséquences directes** pour la cible.
+
+Une simple présence discrète sans intention hostile ne déclenche pas ce test.
+
+**Réussite** : la cible perçoit qu’il se passe quelque chose d’anormal et que sa défense ou sa vigilance est requise. Elle n’a pas nécessairement connaissance de la nature exacte du danger, mais peut choisir de réagir défensivement.
+
+**Échec** : deux cas selon le type d’action.
+
+- **Conséquence immédiate** (une attaque, un danger instantané) : la cible n’a pas le temps de réagir. Aucune défense n’est possible.
+- **Conséquence différée** (un mensonge, un effet dont les implications se révèlent plus tard) : la cible peut réagir *a posteriori*, quand les conséquences se manifestent, en effectuant alors le test de défense adapté.
+
+Indépendamment du test d’intuition, un personnage peut toujours initier de son propre chef un test actif de détection (Vigilance, Empathie…) s’il a des raisons de se méfier — tant que la menace n’est pas immédiate ou déjà accomplie.
+
+### Exemples
+
+**Attaque surprise** : un ennemi frappe dans le dos d’un personnage qui ne l’a pas vu. La cible effectue un test de sauvegarde d’intuition. En cas de réussite, elle perçoit la menace à temps et peut tenter une défense. En cas d’échec, la conséquence est immédiate : aucune réaction n’est possible.
+
+**Mensonge** : un personnage ment lors d’une négociation (test de Supercherie). Si son score dépasse la défense passive des présents, ceux-ci ne détectent rien sur le moment. Plus tard, si les conséquences du mensonge éveillent des soupçons, un test de sauvegarde d’intuition peut être demandé. En cas de réussite, les victimes peuvent effectuer un test de défense (Empathie) pour comprendre la nature exacte de la tromperie.
+
+**Discrétion** : un personnage se dissimule (test de Discrétion, attribut RUS). Si son score dépasse la défense passive (RUS) des cibles, celles-ci n’ont aucune raison de se méfier — aucun test d’intuition n’est déclenché. En revanche, dès qu’il entreprend une action hostile à leur encontre, le test est déclenché. S’ils ont par ailleurs des raisons indépendantes de se méfier, les cibles peuvent toujours initier activement un test de Vigilance ou d’Empathie.
+
+### Tests Opposés
+
+Un **test opposé** est distinct du système précédent. Il survient lorsque deux personnages réalisent simultanément le même test et que le succès revient à celui qui obtient le score le plus élevé. Il n’y a ni défense passive, ni réaction : le résultat est déterminé par la seule comparaison des totaux. Les actions qui y recourent le précisent dans leur description.
+
 ## Les Activités
 
 Certaines actions sont considérées comme des activités. Créer un objet ou même crocheter une porte peuvent être des exemples d’activité. Lorsque c’est le cas un test seul ne suffit pas à atteindre son but, il est nécessaire de remplir un objectif. A chaque test réussi un jet est réalisé et le score est ajouté à une progression qui est ensuite comparé à l’objectif, une fois celui-ci atteint ou dépassé l’action est un succès. A chaque test raté la progression est réduite de 10 et si la progression passe en dessous de 0 l’action est un échec et la situation empire. C’est au maître de jeu de juger des objectifs à atteindre mais voici un petit ordre de grandeur.
