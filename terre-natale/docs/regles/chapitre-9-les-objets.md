@@ -482,24 +482,24 @@ Voici les particularités des armes de poing :
 - Utilise des balles comme munitions.
 - Conteneur d'accès rapide : Sacoche.
 - Déclinaisons : Pistolet léger (catégorie 2), Pistolet lourd (catégorie 3), Revolver (catégorie 4).
-- Pistolet et Revolvers s'utilisent à une main. Il est cependant possible de les utiliser à deux mains afin de réduire le recul de 5.
-- Lors d'un tir l'utilisateur est sujet au recule.
+- Pistolet et Revolvers s'utilisent à une main. Il est cependant possible de les utiliser à deux mains afin de réduire le recul de 5 (ce qui ramène le recul à la valeur de la poigne du tireur).
+- Lors d'un tir l'utilisateur est sujet au recul (voir ci-dessous).
 - Les armes de poing sont des armes mécaniques (voir ci-dessous pour ce que cela implique).
 - Les armes de poing sont des armes à feu (voir ci-dessous pour ce que cela implique).
-- Rechargement : Action Simple x2.
+- Rechargement : Action Simple (libérer les munitions usées) + Action Simple ou Libre (insérer les nouvelles munitions — Libre si accès rapide) + Action Rapide (armer).
 
 Voici les particularités des armes d'épaule :
 
-- Dispose d'un magasin d'une capacité de 4 munitions (catégorie 2) ou 2 munitions pour les autres, sauf les canons qui n'ont qu'une munition.
+- Dispose d'un magasin d'une capacité de 8 munitions (catégorie 2), 6 munitions (catégorie 3), 4 munitions (catégorie 4) ou 2 munitions (catégorie 5). Les canons n'ont qu'une munition.
 - Utilise des cartouches comme munitions.
 - Conteneur d'accès rapide : Cartouchière.
 - Déclinaisons : Arquebuse (catégorie 2), Carabine (catégorie 3), Mousquet (catégorie 4), Fusil (catégorie 5), Canon léger (mobile) (catégorie 6).
 - S'utilise à deux mains.
-- Lors d'un tir l'utilisateur est sujet au recule.
+- Lors d'un tir l'utilisateur est sujet au recul (voir ci-dessous).
 - Les armes d'épaule sont des armes mécaniques (voir ci-dessous pour ce que cela implique).
 - Les armes d'épaule sont des armes à feu (voir ci-dessous pour ce que cela implique).
 - Les armes d'épaule sont des armes dangereuses (voir ci-dessous pour ce que cela implique).
-- Rechargement : Action Simple x3.
+- Rechargement : Action Simple (libérer les munitions usées) + Action Simple ou Libre (sortir les cartouches — Libre si accès rapide) + Action Simple (charger) + Action Rapide (armer).
 
 !!! info "Rappel"
     La Canon (mobile) est une arme d'épaule massive mais toujours mobile et difficile à utiliser, afin de faire feu il est obligatoire d'assurer sa position… En termes de règle, en faire usage requiert une action simple ET une action rapide.
@@ -508,14 +508,14 @@ Voici les particularités des armes d'épaule :
 
 Voici le détail de certaines règles mentionnées plus haut :
 
-Une arme mécanique est particulièrement efficace et dispose d'une pénétration améliorée de sa catégorie. Cependant ces armes ont 5% + 1% par catégorie de s'enrayer après usage (voir après) ou sur une maladresse. Une telle arme a un prix de référence augmenté de 20.
+Une arme mécanique est particulièrement efficace et dispose d'une **perforation** améliorée de sa catégorie. Cependant ces armes ont un risque d'enraiement de **5% + 1% × catégorie** après chaque usage ou sur une maladresse. Une telle arme a un prix de référence augmenté de 20.
 
-Une arme à feu, nécessairement mécanique, est particulièrement létale et dispose d'un bonus de pénétration doublé. Ces armes ont 2x plus de chance de s'enrayer via la catégorie, de plus une maladresse provoque une explosion qui blesse l'utilisateur (l'utilisateur subit les dégâts de l'arme sans modificateurs supplémentaires et ne peut s'en défendre). L'explosion survient également si l'enrayement survient avec une marge de + de 20%. Une telle arme a un prix de référence augmenté de 30.
+Une arme à feu, nécessairement mécanique, est particulièrement létale et dispose d'une **perforation doublée** (soit 2× la catégorie). Ces armes ont un risque d'enraiement de **5% + 2% × catégorie** ; de plus, une maladresse provoque une explosion qui blesse l'utilisateur (l'utilisateur subit les dégâts de l'arme sans modificateurs supplémentaires et ne peut s'en défendre). L'explosion survient également si l'enrayement survient avec une marge de + de 20%. Une telle arme a un prix de référence augmenté de 30.
 
 !!! info "Rappel"
     Faire usage d'une arme à feu nécessite de réaliser ses tests en lançant un d100 en plus afin de vérifier si l'arme s'enraye/explose ou pas.
 
-Une arme dangereuse, nécessairement mécanique et à feu, est ce qu'il y a de plus létale et dispose d'un bonus de dégâts équivalant à sa catégorie. Ces armes ont trois fois plus de chances de s'enrayer vis-à-vis de la catégorie. Une telle arme a un prix de référence augmenté de 50.
+Une arme dangereuse, nécessairement mécanique et à feu, est ce qu'il y a de plus létale et dispose d'un bonus de dégâts équivalant à sa catégorie. Ces armes ont un risque d'enraiement de **5% + 3% × catégorie**. Une telle arme a un prix de référence augmenté de 50.
 
 Une arme qui est sujet à un enrayement effectue ce test de % à chaque tir réalisé. Si l'arme doit s'enrayer, elle effectue son tir puis se bloque jusqu'à réparation. La réparation est une tâche sujette dont l'objectif de progression est égal à la charge de l'arme (artisanat ou bricolage, évaluation difficulté 10, peut se faire à main nue ou via des outils adaptés). La qualité d'un objet réduit les chances d'enrayement de 2% par niveau de qualité.
 
@@ -524,7 +524,10 @@ Une arme à feu qui explose touche forcément et inflige à son porteur les dég
 !!! info "Rappel"
     Le bonus d'adresse, qui augmente le seuil des échecs critiques, réduit les chances d'enrayer des armes à feu de 2% par points.
 
-Enfin lorsqu'un personnage fait feu à l'aide d'une arme à feu il est confronté au recule. Le recul est équivalent au jet de l'attaque (et donc aux dégâts). Si le recule d'un tir est supérieur à la capacité de charge du personne alors ce dernier est immédiatement « déstabilisé » (charges égales au recule), si le personnage était déjà « déstabilisé » alors il est « renversé ». Si le recule d'un tir est 2x supérieur à la capacité de charge du personne alors ce dernier est immédiatement « déstabiliser » et « renverser » (charges égales au recule). Si le recule d'un tir est inférieur ou égale à la capacité de charge du personnage alors le personnage ne subit aucuns effets négatifs. Un personnage « déstabilisé » perd son bonus de défense même s'il n'est pas épuisé et est désavantagé à (tous) ses tests. Un personnage « renversé » est sans défenses. Un personnage qui tire coucher reçoit un bonus de 5 à sa capacité de charge concernant le recule (notons qu'il est nécessaire d'entreprendre une action simple pour se relever depuis cette position).
+Enfin lorsqu'un personnage fait feu à l'aide d'une arme à feu il est confronté au **recul**. Le recul est égal à la **poigne du tireur + 5**. Si le recul d'un tir est supérieur à la capacité de charge du personnage alors ce dernier est immédiatement « déstabilisé » (charges égales au recul) ; si le personnage était déjà « déstabilisé » alors il est « renversé ». Si le recul d'un tir est 2× supérieur à la capacité de charge du personnage alors ce dernier est immédiatement « déstabilisé » et « renversé » (charges égales au recul). Si le recul d'un tir est inférieur ou égal à la capacité de charge du personnage alors le personnage ne subit aucun effet négatif. Un personnage « déstabilisé » perd son bonus de défense même s'il n'est pas épuisé et est désavantagé à tous ses tests. Un personnage « renversé » est sans défenses. Un personnage qui tire couché reçoit un bonus de 5 à sa capacité de charge concernant le recul (notons qu'il est nécessaire d'entreprendre une action simple pour se relever depuis cette position).
+
+!!! note "Règle optionnelle — Variance du recul"
+    Pour ajouter de la variance, le recul peut être calculé en ajoutant le résultat du dé d8 le plus élevé du jet d'attaque : **Recul = Poigne + 5 + (meilleur d8 du jet)**. Cela évite un résultat binaire systématique et reflète l'incertitude liée au tir.
 
 ### Un exemple d'Arme
 

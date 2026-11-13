@@ -42,11 +42,11 @@ Il existe deux blocs de base « classique », l’un étant celui des armes de p
 
 #### Bloc de base des armes de poing
 
-Ce bloc constitue l’élément caractérisant les armes « de poing ». Ces armes profitent de pénétration ajoutée équivalant à 2x leur catégorie. Ces armes ont un magasin de 4 ou 6 munitions (selon qu’il s’agisse d’une catégorie 2 ou 3) et peuvent être rechargée « relativement » rapidement (Action étendue (2) + Action Rapide).
+Ce bloc constitue l’élément caractérisant les armes « de poing ». Ces armes profitent d’une **perforation** ajoutée équivalant à 2× leur catégorie. Ces armes ont un magasin de 8 munitions (catégorie 2), 6 munitions (catégorie 3) ou 4 munitions (catégorie 4) et peuvent être rechargées relativement rapidement (2 ACTS + ACTR, ou ACTS + ACTL + ACTR si accès rapide).
 
 #### Bloc de base des armes d’Epaule
 
-Ce bloc constitue l’élément caractérisant les armes « d’épaule ». Ces armes profitent de pénétration ajoutée équivalant à 2x leur catégorie ainsi qu’un bonus de dégâts équivalant à 1x leur catégorie. Ces armes ont un magasin de 2 ou 4 munitions (selon qu’il s’agisse d’une catégorie 3 ou 4) et peuvent être rechargée assez lentement en comparaison des armes de poings (Action étendue (3) + Action Rapide).
+Ce bloc constitue l’élément caractérisant les armes « d’épaule ». Ces armes profitent d’une **perforation** ajoutée équivalant à 2× leur catégorie ainsi qu’un bonus de dégâts équivalant à 1× leur catégorie. Ces armes ont un magasin de 6 munitions (catégorie 3), 4 munitions (catégorie 4) ou 2 munitions (catégorie 5) et peuvent être rechargées plus lentement en comparaison des armes de poing (3 ACTS + ACTR, ou 2 ACTS + ACTL + ACTR si accès rapide).
 
 !!! note "Note"
     Les règles de base de Terre Natale expliquent le fonctionnement des armes à feu dites « classiques », c’est-à-dire qui sont constituées de blocs principaux « classiques » et d’aucuns blocs secondaires.

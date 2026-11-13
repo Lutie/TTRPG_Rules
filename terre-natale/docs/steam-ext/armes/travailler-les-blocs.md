@@ -64,9 +64,9 @@ Si l’arme est basée sur des dégâts d’énergies alors augmente les dégât
 
 Augmente ou réduit les dégâts temporaires infligés par l’arme.
 
-#### Pénétration
+#### Perforation
 
-Augmente ou réduit la pénétration de l’arme.
+Augmente ou réduit la perforation de l’arme.
 
 #### Recharge
 
@@ -122,7 +122,7 @@ Augmente ou réduit la valeur de cadence de l’arme. Voir l’extension des con
 
 #### Tir
 
-N’existe qu’en défaut. Augmente le nombre de munition tirée à la fois. Chaque munition tirée en plus augmente les dégâts et la pénétration de l’arme de 1 (mais vide le magasin 2x plus vite donc). Le tir ne peut être supérieur à la capacité du magasin aussi les effets au-delà d’un certain rang peuvent être ignoré afin d’éviter cela (notamment concernant les armes d’épaules).
+N’existe qu’en défaut. Augmente le nombre de munition tirée à la fois. Chaque munition tirée en plus augmente les dégâts et la perforation de l’arme de 1 (mais vide le magasin 2x plus vite donc). Le tir ne peut être supérieur à la capacité du magasin aussi les effets au-delà d’un certain rang peuvent être ignoré afin d’éviter cela (notamment concernant les armes d’épaules).
 
 #### Solidité
 
@@ -130,14 +130,14 @@ Augmente ou réduit la solidité de l’arme.
 
 | Fabricant | Base | Bonus A CA/MA | Bonus B CA/CR | Bonus C CR/MA | Malus A CA/MA | Malus B CA/CR | Malus C CR/MA |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vorgue | Explosif | Cadence +1/2/3 | Attrition +2/3/4 | Pénétration +2/3/4 | Recharge +2/3/4 | Recule +1/2/3 | Charge +1/2/3 |
-| Crime | Classique | Pénétration +2/3/4 | Difficulté -1/2/3 | Aggravation +2/3/4 | Recharge +2/3/4 | Magasin -1/2/3 | Solidité -1/2/3 |
+| Vorgue | Explosif | Cadence +1/2/3 | Attrition +2/3/4 | Perforation +2/3/4 | Recharge +2/3/4 | Recule +1/2/3 | Charge +1/2/3 |
+| Crime | Classique | Perforation +2/3/4 | Difficulté -1/2/3 | Aggravation +2/3/4 | Recharge +2/3/4 | Magasin -1/2/3 | Solidité -1/2/3 |
 | Melchior | Energie | Attrition +2/3/4 | Maitrise +1/2/3 | Dégâts Elém +2/3/4 | Tir +1/2/3 | Visée -1/2/3 | Précision -1/2/3 |
 | Stalh | Classique | Portée +1/2/3 | Précision +1/2/3 | Visée +1/2/3 | Vitesse -1/2/3 | Cadence -1/2/3 | Criticité -1/2/3 |
-| Robertson | Classique | Adresse +1/2/3 | Magasin +1/2/3 | Dégâts +1/2/3 | Pénétration -2/3/4 | Criticité -1/2/3 | Charge +1/2/3 |
+| Robertson | Classique | Adresse +1/2/3 | Magasin +1/2/3 | Dégâts +1/2/3 | Perforation -2/3/4 | Criticité -1/2/3 | Charge +1/2/3 |
 | Geldiore | Répétition | Recharge -2/3/4 | Expertise +1/2/3 | Vitesse +1/2/3 | Adresse -1/2/3 | Criticité -1/2/3 | Attrition -2/3/4 |
 | Steamcore | Steam | Vitesse +1/2/3 | Cadence +1/2/3 | Recule -1/2/3 | Dégâts -1/2/3 | Difficulté +1/2/3 | Adresse -1/2/3 |
 | Anshin | Classique | Expertise +1/2/3 | Criticité +1/2/3 | Maitrise +1/2/3 | Dégâts -1/2/3 | Adresse -1/2/3 | Attrition -2/3/4 |
 | Tobine | Classique | Magasin +1/2/3 | Recharge -2/3/4 | Précision +1/2/3 | Vitesse -1/2/3 | Cadence -1/2/3 | Maitrise -1/2/3 |
 | Brant & Fils | Classique | Solidité +1/2/3 | Recule -1/2/3 | Visée +1/2/3 | Tir +1/2/3 | Maitrise -1/2/3 | Précision -1/2/3 |
-| Valombre | Classique | Cadence +1/2/3 | Aggravation +2/3/4 | Portée +1/2/3 | Visée -1/2/3 | Dégâts -1/2/3 | Pénétration -2/3/4 |
+| Valombre | Classique | Cadence +1/2/3 | Aggravation +2/3/4 | Portée +1/2/3 | Visée -1/2/3 | Dégâts -1/2/3 | Perforation -2/3/4 |

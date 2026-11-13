@@ -30,8 +30,8 @@ Voici quelques exemples d’armes issus de fabricants !
 
 #### Revolver Roberston
 
-Niveau de qualité : 0. Catégorie : 3. Prix : xxxx. Contenu : Classique « arme de poing », le reste est « Robertson » (rang simple). Magasin : 7. Dégâts : 5D6+5. Charge : 12. Recule : 15. Particularités : Adresse +2, Pénétration -4, Criticité -2. Description : C’est le revolver d’entrée de gamme du fabricant Robertson.
+Niveau de qualité : 0. Catégorie : 3. Prix : xxxx. Contenu : Classique « arme de poing », le reste est « Robertson » (rang simple). Magasin : 7. Dégâts : 5D6+5. Charge : 12. Recul : Poigne + 5. Particularités : Adresse +2, Perforation -4, Criticité -2. Description : C’est le revolver d’entrée de gamme du fabricant Robertson.
 
 #### Le petit Robert
 
-Niveau de qualité : 6. Catégorie : 3. Prix : xxxx. Contenu : Classique « arme de poing », le reste est « Robertson » (rang maitre), amélioration « marque » (2). Magasin : 11. Dégâts : 5D6+9. Charge : 13. Recule : 15. Particularités : Adresse +6, Pénétration -4, Criticité -3. Description : C’est le modèle rarissime (quasi légendaire) du fabricant Robertson.
+Niveau de qualité : 6. Catégorie : 3. Prix : xxxx. Contenu : Classique « arme de poing », le reste est « Robertson » (rang maitre), amélioration « marque » (2). Magasin : 11. Dégâts : 5D6+9. Charge : 13. Recul : Poigne + 5. Particularités : Adresse +6, Perforation -4, Criticité -3. Description : C’est le modèle rarissime (quasi légendaire) du fabricant Robertson.
