@@ -1957,7 +1957,7 @@
       {
         "nom": "Favored Save",
         "anchor": "birth-favored-save-opposition",
-        "param": "Opposition (*)"
+        "param": "Opposition (\\*)"
       }
     ],
     "particularites_culturelles": [
@@ -2097,7 +2097,7 @@
       {
         "nom": "Favored Save",
         "anchor": "birth-favored-save-opposition",
-        "param": "Opposition (*)"
+        "param": "Opposition (\\*)"
       }
     ],
     "particularites_culturelles": [

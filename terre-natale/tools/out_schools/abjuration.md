@@ -1,6 +1,6 @@
 # École d'Abjuration
 
-> 53 mots pour cette école
+> 55 mots pour cette école
 
 #### 1. Imprégnation
 ***Latin :*** Imbueo (Imprégner), ***Arcanique :*** Borimbue (Bor + imbue)
@@ -187,7 +187,7 @@ Génère un enchantement positif qui interdit les autres de réaliser une action
 ***Type de mot :*** Interruption, ***Type de cible :*** Cible
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✡️ Arcane: Bricontrays
-Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues.
+Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>, les ressources engagées sont perdues.
 
 ---
 
@@ -476,3 +476,21 @@ Génère un effet qui complique la réalisation d'un type d'action au choix (att
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** 🩸 Impie
 Génère un effet qui inverse les effets de soins du sort ciblé, convertis une maximum de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> du sort ciblé en question (inverse 2 de soins sur un total de 4 provoque donc un soin de 0 au final).
+
+---
+
+#### 54. Dénis
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Interruption, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ✡️ Arcane: ???
+Contrecarre le sort ciblé dont la puissance du sort est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span>, les ressources engagées sont perdues.
+
+---
+
+#### 55. Contrariété
+***Latin :*** ???, ***Arcanique :*** ???
+***Type de mot :*** Interruption, ***Type de cible :*** Cible
+***Difficulté :*** 2, ***Drain :*** 2
+**Clés :** ✡️ Arcane: ???
+Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées ne sont pas perdues.

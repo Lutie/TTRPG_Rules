@@ -368,8 +368,8 @@
 <strong>Sauvegardes majeures</strong> : Détermination<br>
 <strong>Sauvegardes mineures</strong> : Opposition & Robustesse<br>
 <strong>Privilège</strong> : Concerne les situations sociales ou martiales lorsque le personnage se défend d’un adversaire jugé hérétique pour sa pratique de la magie ou de la technologie. De même que la pratique des « auras » positives.<br>
-<strong>Trait 1</strong> : Petite magie d'un domaine issus de la liste suivante : Vie, Lumière, Sacré, Loi<br>
-<strong>Trait 2</strong> : Petite magie améliorée<br>
+<strong>Trait 1</strong> : Le personnage peux lancer des sortilèges d'un domaine au choix (voir règle des sortilèges pour leurs différences avec les sorts classique) : Vie, Lumière, Sacré, Loi<br>
+<strong>Trait 2</strong> : Le niveau maximum des sortilèges issus de cette caste augmente de 1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC : La cible au contact gagne 1D8+mSAG PV temporaires, maximum équivalant au PV manquants<br>
 <strong>Amélioration</strong> : En ACTL ou +1D8 ou jusqu'à deux cibles<br>
 <strong>Entraînements</strong> : Arme de mêlée, Armure, Focus, Social</p>
@@ -770,9 +770,9 @@
 <strong>Sauvegardes majeures</strong> : Opposition<br>
 <strong>Sauvegardes mineures</strong> : Détermination &  Réflexes<br>
 <strong>Privilège</strong> : Concerne les situations de tir où le personnage fait usage d'une arme (ou équivalant) enchantée (ou enchantement affectant l'arme d'une façon ou d'une autre).<br>
-<strong>Trait 1</strong> : Le personnage peux stocker un petit sort d'alignement négatif (qui doit être lancé, équivalant d'une petite magie, un seul mot de pouvoir et cible unique) dans une munition, lorsque et si la munition touche une cible le sort prend effet, pour des raisons d'équilibrage le personnage ne peux maintenir ainsi qu'un nombre limité de munitions enchantée à la fois (modificateur d'équilibre) mais n'a pas besoin de ce concentrer pour ça et il n'y a pas de durée; attention aux règles d'approvisionnement et rechargement<br>
+<strong>Trait 1</strong> : Le personnage peux stocker un sort d'alignement négatif issus d'un domaine ou école de sort qu'il est en mesure de lancer dans une munition, lorsque et si la munition touche une cible (qu'elle se défende ou non via une forme de blocage/parade) le sort prend effet, pour des raisons d'équilibrage le personnage ne peux maintenir ainsi qu'un nombre limité de munitions enchantée à la fois (modificateur d'équilibre) mais n'a pas besoin de ce concentrer pour ça et il n'y a pas de durée; le niveau du sort qui peux être placé dans une munition est un niveau en deça du maximum possible; attention aux règles d'approvisionnement et rechargement<br>
 <strong>Trait 2</strong> : Lorsqu'il enchante ses munitions via son premier don de caste, l'Arcmage voit le drain minimum réduit de 2 avec un minimum de 3, il peux maintenir jusqu'à deux fois plus de munitions ainsi<br>
-<strong>Action spéciale</strong> : ACTS & 3 PC – Enchantement à la volée : Le personnage peux appliquer les effets de son don de classe à la volée avant de tirer avec un arc normal ou évoqué, il lance alors le sort pour cette seule ACTS et 3 PC en plus du drain adéquat et cela affecte la munition en main qui s'apprête à tirer<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Enchantement à la volée : Le personnage peux appliquer les effets de son don de classe à la volée avant de tirer avec un arc normal ou évoqué, il lance alors le sort pour cette seule ACTS et 3 PC en plus du drain adéquat et cela affecte la munition en main qu'il a en main ou s'apprête à tirer<br>
 <strong>Amélioration</strong> : En ACTL<br>
 <strong>Entraînements</strong> : Arme à distance, Focus</p>
 </td></tr></table>
@@ -1555,7 +1555,7 @@
 <strong>Entraînements</strong> : Arme à distance</p>
 </td></tr></table>
 
-<blockquote><em><TODO></em></blockquote>
+<blockquote><em>Être Desperado, c’est vivre dans la marge entre la précision et le chaos. Ce sont des tireurs qui ont appris à rendre la rafale presque chirurgicale : ils gaspillent moins de plomb que n’importe qui, et transforment le surplus de cadence en une maîtrise froide qui fait taire une pièce entière avant que la fumée ne se dissipe.</em></blockquote>
 
 <hr/>
 
@@ -2059,6 +2059,31 @@
 
 <hr/>
 
+### Flambeau
+
+<table><tr>
+<td style="width: 300px; vertical-align: top;"><img src="../images/flambeau.png" alt="Flambeau" style="max-width: 100%; height: auto;"></td>
+<td style='vertical-align: top;'>
+<p><strong>Attributs 1</strong> : VOL<br>
+<strong>Attributs 2</strong> : FOR/DEX/AGI<br>
+<strong>Type</strong> : Mixte<br>
+<strong>Domaine</strong> : Martiale<br>
+<strong>Ressource 1</strong> : PV (vitalité)<br>
+<strong>Ressource 2</strong> : PC (chi)<br>
+<strong>Sauvegardes majeures</strong> : Opposition<br>
+<strong>Sauvegardes mineures</strong> : Robustesse & Détermination<br>
+<strong>Privilège</strong> : <TODO><br>
+<strong>Trait 1</strong> : La magie issus du personnage est bien plus difficile à dissiper que les autres : Difficulté arcanique des sorts +2; doublé s'il s'agit d'un sortilège<br>
+<strong>Trait 2</strong> : Le personnage choisit un élément, les dégats basés sur ce dernier ignorent les résistances élémentaires d'une cible<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Initier le flambeau : Le personnage choisit parmi feu/froid/electricité et prépare un sortilège équivalant. Il peux ensuite lancer ce sortilège via l'action idoine (arcane/apertus/MAG) d'une difficulté qui dépend du niveau auquel il souhaite le lancer (même limitations/couts etc que pour n'importe quel autre sortilège), le sortilège en question enchante l'arme tenue par le personnage via un enchantement neutre de catégorie 0+DR, cet enchantement ne se décharge pas naturellement mais lorsqu'une attaque est portée à l'aide de l'arme (décharge 10), tant que l'enchantement est actif les attaques de l'arme inclus 1D8 de dégats de l'énergie choisit, ces dégats sont traités comme une attaque élémentaire (voir les règles idoines)<br>
+<strong>Amélioration</strong> : En ACTL OU 2D8 OU les dégats sont perforants (ignore RES)<br>
+<strong>Entraînements</strong> : Arme de mêlée, Focus</p>
+</td></tr></table>
+
+<blockquote><em>Être Flambeau, c’est pratiquer une magie volontairement limitée et martiale. Ces combattants ne cherchent pas à maîtriser les grands sorts ou les rituels complexes : ils se concentrent sur une forme rudimentaire d’enchantement d’arme, capable de lier feu, froid ou foudre à une lame ou une hampe. Leur art est moins celui du mage que celui du guerrier qui a appris à entretenir une étincelle élémentaire jusqu’au moment de la déverser.</em></blockquote>
+
+<hr/>
+
 ### Flambeur
 
 <table><tr>
@@ -2073,10 +2098,10 @@
 <strong>Sauvegardes majeures</strong> : Fortune<br>
 <strong>Sauvegardes mineures</strong> : Sang-Froid & Réflexes<br>
 <strong>Privilège</strong> : Concerne les tests où du karma est investie OU les situations de jeux/paries OU les tests réalisés sous l'attribut de chance.<br>
-<strong>Trait 1</strong> : Science et Formation des actions profitant du karma<br>
+<strong>Trait 1</strong> : Science et Formation des actions profitant du karma ou de l'attribut de chance<br>
 <strong>Trait 2</strong> : Maximum PK +10<br>
-<strong>Action spéciale</strong> : ACTS & 3 PC – Baraka (pouvoir surnaturel) : Test de jeu pour évaluation difficulté 10 : Le personnage tire, depuis un paquet constitué de cartes dont la valeurs la plus basse est 5 et la plus haute 14 (as), une carte plus une par DR et conserve l'une d'elle. Lorsqu'il a tiré 3 cartes différentes il peux en résoudre les effets sur-le-champs : Coeur octroie des PS (si l'autre carte est trègle) ou PV (si l'autre carte est carreau) ou PC (si l'autre carte est pique) temporaires (en cas de brelan de coeur le flambeur choisit la ressource à la place), Carreau octroie des PK temporaires, Pique inflige des dégats choquants (ignorant toutes les défenses) à une cible dans la zone, trèfle réduit l'initiative à une cible dans la zone. La valeurs est la plus basse des deux si c'est une paire d'une même figure ou la plus haute si c'est un brelan d'une même figure. Paire de valets : Barrière de 22. Brelan de valets : Barrière de 33. Paire de dames : Gain de 24 d'initiative. Brelan de dames : 36 d'initiative. Paire de Roi : Inflige "étourdissement" avec 26 charges à une cible dans la zone (elle peux réaliser un test de détermination, difficulté 10+mCHA). Brelan de Roi : 39 de charges. Paire d'As : Deux cibles. Brelan d'As : Trois cibles.<br>
-<strong>Amélioration</strong> : En ACTL à la place, le personnage peux placer dans son deck de carte des cartes à l'effigie de certains de ses alliés, si ces derniers se retrouvent dans les 3 cartes finales alors ils sont considérés comme un joker mais la cible est forcément cet allié, les effets négatifs ciblent l'ennemi qui lui a porté le plus préjudice ou le plus près de lui à défaut<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Quitte ou double : Pour la scène le prochain test réalisé par le personnage peux être "quitte ou double", il est alors retenté à nouveau et s'il affiche un résultat strictement supérieur alors la marge de réussite est doublée, sinon c'est un échec critique à la place.<br>
+<strong>Amélioration</strong> : En ACTL à la place OU manqué son coup mène à un échec normal à la place de critique OU le second test se fait avec un avantage<br>
 <strong>Entraînements</strong> : Social</p>
 </td></tr></table>
 
@@ -2223,9 +2248,9 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Opposition & Détermination<br>
 <strong>Privilège</strong> : Concerne les situations où le personnage fait réalise une action martiale suite au lancement d'un sort (à minima d'un round à l'autre), et vice versa.<br>
-<strong>Trait 1</strong> : Petite magie d'un domaine issus de la liste suivante : Feu, Foudre, Froid, Arcane<br>
-<strong>Trait 2</strong> : Petite magie améliorée<br>
-<strong>Action spéciale</strong> : ACTC & 3 PC : Lance une petite magie qui est stocké dans l'arme puis relâchée lorsqu'une cible est touché par celle ci (ou sur une parade/blocage avec elle), lancer le sort se fait normalement (drain compris)<br>
+<strong>Trait 1</strong> : Le personnage peux lancer des sortilèges d'un domaine au choix (voir règle des sortilèges pour leurs différences avec les sorts classique) : Feu, Froid, Electricité, Arcane<br>
+<strong>Trait 2</strong> : Le niveau maximum des sortilèges issus de cette caste augmente de 1<br>
+<strong>Action spéciale</strong> : ACTC & 3 PC : Lance un sortilège qui est stocké dans l'arme puis relâchée lorsqu'une cible est touché par celle ci (ou sur une parade/blocage avec elle), lancer le sort se fait normalement (drain compris)<br>
 <strong>Amélioration</strong> : En ACTS<br>
 <strong>Entraînements</strong> : Arme de mêlée, Focus, Armure</p>
 </td></tr></table>
@@ -2749,7 +2774,7 @@
 <strong>Sauvegardes mineures</strong> : Réflexes & Robustesse<br>
 <strong>Privilège</strong> : Concerne les incantations en étant engagé en mêlée.<br>
 <strong>Trait 1</strong> : Test de sauvegarde avantagé pour résister à la perte de maintiens d'un enchantement<br>
-<strong>Trait 2</strong> : Il est possible de contre attaquer ou riposter avec une petite magie<br>
+<strong>Trait 2</strong> : Il est possible de contre attaquer ou riposter avec un sortilège issus d'une pratique de magie connue, le sortilège peux alors être lancé via une ACTR à la place de l'ACTS habituelle<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC – Incantation sécurisée : Le personnage prépare sa prochaine incantation, d'une part les opportunités qu'elle pourrait provoquer son désavantagés, d'une autre le personnage n'est lui même pas désavantagé si il réalise l'incantation en étant en mêlée<br>
 <strong>Amélioration</strong> : En ACTL ou l'incantation ne génère plus d'opportunité<br>
 <strong>Entraînements</strong> : Arme de mêlée, Focus, Armure</p>
@@ -3329,10 +3354,10 @@
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Intuition & Sang-Froid<br>
 <strong>Privilège</strong> : Concerne les situations martiales d'attaque où le personnage agit sur une cible qui ne sait où se trouve l'attaque.<br>
-<strong>Trait 1</strong> : Petite magie d'un domaine issus de la liste suivante : Illusion, Ombre, Chaos, Charme<br>
-<strong>Trait 2</strong> : Petite magie améliorée<br>
-<strong>Action spéciale</strong> : ACTR & 3 PC : Le personnage est en mesure de lancer une petite magie en dehors de son tour de jeu via cette action, il paie les coûts normalement en plus des couts liés à cette action<br>
-<strong>Amélioration</strong> : Le personnage remplace une ACTS requis pour lancer le sort par l'ACTR requise par cette action<br>
+<strong>Trait 1</strong> : Le personnage peux lancer des sortilèges d'un domaine au choix (voir règle des sortilèges pour leurs différences avec les sorts classique) : Illusion, Ombre, Chaos, Charme<br>
+<strong>Trait 2</strong> : Le niveau maximum des sortilèges issus de cette caste augmente de 1<br>
+<strong>Action spéciale</strong> : ACTR & 3 PC : Le personnage est en mesure de lancer une sortilège en dehors de son tour de jeu via cette action, il paie les coûts normalement en plus des couts liés à cette action et l'action simple habituel est remplacée par une action rapide<br>
+<strong>Amélioration</strong> : L'ACTR de cette action n'est plus nécessaire (il ne reste que l'ACTR issus du sortilège)<br>
 <strong>Entraînements</strong> : Arme de mêlée, Arme de jet, Naturel</p>
 </td></tr></table>
 
@@ -3429,8 +3454,8 @@
 <strong>Sauvegardes majeures</strong> : Robustesse<br>
 <strong>Sauvegardes mineures</strong> : Opposition & Détermination<br>
 <strong>Privilège</strong> : Concerne les situations sociales ou martiales lorsque le personnage se défend d’un adversaire jugé hérétique pour sa pratique de la magie ou de la technologie. De même que la pratique des « auras » négatives.<br>
-<strong>Trait 1</strong> : Petite magie d'un domaine issus de la liste suivante : Mort, Ombre, Impie, Chaos<br>
-<strong>Trait 2</strong> : Petite magie améliorée<br>
+<strong>Trait 1</strong> : Le personnage peux lancer des sortilèges d'un domaine au choix (voir règle des sortilèges pour leurs différences avec les sorts classique) : Mort, Ombre, Impie, Chaos<br>
+<strong>Trait 2</strong> : Le niveau maximum des sortilèges issus de cette caste augmente de 1<br>
 <strong>Action spéciale</strong> : ACTS & 3 PC – Attaque focale : La cible au contact perd 2D8 PV temporaires, ou la moitié en PV normaux (sans blessure), jusqu'à mSAG foirs par jours, les total des dés sont acquis par le personnage en PV temporaires<br>
 <strong>Amélioration</strong> : Ajoute 1D8<br>
 <strong>Entraînements</strong> : Arme de mêlée, Focus, Armure, Social</p>
@@ -3590,6 +3615,31 @@
 
 <hr/>
 
+### Porteur de Bouclier
+
+<table><tr>
+<td style="width: 300px; vertical-align: top;"><img src="../images/porteur-de-bouclier.png" alt="Porteur de Bouclier" style="max-width: 100%; height: auto;"></td>
+<td style='vertical-align: top;'>
+<p><strong>Attributs 1</strong> : CON<br>
+<strong>Attributs 2</strong> : FOR/DEX/AGI<br>
+<strong>Type</strong> : Corps<br>
+<strong>Domaine</strong> : Martiale<br>
+<strong>Ressource 1</strong> : PV (vitalité)<br>
+<strong>Ressource 2</strong> : PE (endurance)<br>
+<strong>Sauvegardes majeures</strong> : Réflexes<br>
+<strong>Sauvegardes mineures</strong> : Intuition & Robustesse<br>
+<strong>Privilège</strong> : Concerne les jets d'arme effectuées avec un bouclier<br>
+<strong>Trait 1</strong> : Les boucliers ne sont plus considérés comme des armes improvisées lorsqu'ils sont jetés<br>
+<strong>Trait 2</strong> : Les boucliers reviennent dans la main après avoir été jeté<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Bouclier levant : Le personnage se met dans une posture qui permet à son prochain jet de bouclier se profiter d'un effet au choix parmis : Distance de jet doublé, le bouclier rebondit sur une seconde cible, le bouclier peux atteindre une cible via un ricochet, le bouclier inflige des dégats choquants supplémentaires équivalants à la distance entre le personnage et sa cible (maximum = Catégorie+2), l'attaque est minorée et limitée mais applique également provocation OU intimidation<br>
+<strong>Amélioration</strong> : En ACTL OU le personnage peux appliquer deux effets de la liste à la place<br>
+<strong>Entraînements</strong> : Armure, Arme de mêlée</p>
+</td></tr></table>
+
+<blockquote><em>Être Porteur de Bouclier, c’est refuser la séparation classique entre attaque et défense. Ces guerriers ont élevé le lancer de bouclier au rang d’art martial : l’arme part, frappe, rebondit parfois, et revient toujours. Ils combattent en maintenant une présence constante, à la fois menaçante à distance et immédiatement prête au corps-à-corps.</em></blockquote>
+
+<hr/>
+
 ### Prophète
 
 <table><tr>
@@ -3687,6 +3737,31 @@
 </td></tr></table>
 
 <blockquote><em>Les rangers vivent avec un compagnon naturel et une compréhension active du terrain. Leur efficacité vient autant de leur propre sens que du lien entretenu avec l'animal.</em></blockquote>
+
+<hr/>
+
+### Rempart
+
+<table><tr>
+<td style="width: 300px; vertical-align: top;"><img src="../images/rempart.png" alt="Rempart" style="max-width: 100%; height: auto;"></td>
+<td style='vertical-align: top;'>
+<p><strong>Attributs 1</strong> : CON<br>
+<strong>Attributs 2</strong> : VOL<br>
+<strong>Type</strong> : Mixte<br>
+<strong>Domaine</strong> : Martiale<br>
+<strong>Ressource 1</strong> : PV (vitalité)<br>
+<strong>Ressource 2</strong> : PC (chi)<br>
+<strong>Sauvegardes majeures</strong> : Robustesse<br>
+<strong>Sauvegardes mineures</strong> : Détermination & Sang-Froid<br>
+<strong>Privilège</strong> : Concerne les défenses effectuées avec un bouclier<br>
+<strong>Trait 1</strong> : Les boucliers en main directrice ne sont pas de malus/pénalité habituels<br>
+<strong>Trait 2</strong> : Si le personnage est équipé d'un bouclier en main directrice et non directrice ses défenses passives augmentent de 2<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC – Herse : Le personnage réalise un blocage ou parade à vide via son bouclier puis prend une posture jusqu'à son prochain tour qui lui permet d'encaisser jusqu'à X dégats en cas de blocage ou d'encaisser ET renvoyer X/2 dégats chaque en cas de parade, X est équivalant à la déviation de l'action à vide, si le personnage porte deux bouclier le jet de ce blocage à vide est majoré (+1 par dés), tant que sa posture tiens la défense pssive augmente 1, la posture est brisée si X tombe à 0<br>
+<strong>Amélioration</strong> : En ACTL OU le jet est doublement assuré et majoré OU la posture du personnage peux encaisser les dégats pour ses alliés à proximité OU la défense passive augmente de 3 tant que la posture tiens<br>
+<strong>Entraînements</strong> : Armure, Arme de mêlée</p>
+</td></tr></table>
+
+<blockquote><em>Être Rempart, c’est accepter d’être le point fixe autour duquel le combat tourne. Ces combattants n’avancent pas pour tuer : ils se plantent, absorbent, renvoient, et rendent chaque mètre derrière eux plus sûr. Leur discipline consiste à transformer une posture défensive en une menace passive que l’ennemi finit par craindre autant qu’une charge.</em></blockquote>
 
 <hr/>
 
@@ -4184,15 +4259,15 @@
 <strong>Ressource 2</strong> : PE (endurance)<br>
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Opposition & Sang-Froid<br>
-<strong>Privilège</strong> : Concerne les situations où le personnage fait usage de signes ou les situations martiales s’il est sous les effets d'une essence.<br>
-<strong>Trait 1</strong> : Petite magie des signes<br>
-<strong>Trait 2</strong> : Petite magie améliorée<br>
-<strong>Action spéciale</strong> : ACTL + 5 PA & 3 PC : Peux lancer un sort du domaine des signes (requière le cout en mana également)<br>
-<strong>Amélioration</strong> : Le sort est lancé avec un niveau maximum possible augmenté de 1 ou ne requière que 3 PA ou se lance avec un bonus au test de +2<br>
+<strong>Privilège</strong> : Concerne les situations où le personnage fait usage de signes ou les situations martiales s’il est sous les effets d'une concoction.<br>
+<strong>Trait 1</strong> : Le personnage acquière un rang dans un archétype de sorceleur parmis : Signes, Mutagènes, Conflits<br>
+<strong>Trait 2</strong> : Le personnage aquière soit un autre rang dans son archétype soit un autre archétype de la liste des sorceleurs qu'il peux ensuite améliorer malgré la limite d'un archétype par castes<br>
+<strong>Action spéciale</strong> : ACTS & 3 PC : Réalise une montée d'adrénaline<br>
+<strong>Amélioration</strong> : nan<br>
 <strong>Entraînements</strong> : Arme de mêlée, Arme à distance, Arme de jet, Focus, Outils, Naturel</p>
 </td></tr></table>
 
-<blockquote><em>Les sorceleurs mêlent signes, essences et violence spécialisée. Ils vivent de préparations dangereuses et d'une pratique conçue pour affronter ce que les combattants ordinaires comprennent mal.</em></blockquote>
+<blockquote><em>Les sorceleurs mêlent signes, concoctions et violence spécialisée. Ils vivent de préparations dangereuses et d'une pratique conçue pour affronter ce que les combattants ordinaires comprennent mal.</em></blockquote>
 
 <hr/>
 

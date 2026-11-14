@@ -21,7 +21,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Contradiction ⛊</span> (Contra (Contre) / Bricontra (Bri + contra)) : Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues. ***Clé :*** ✡️ Arcane: Bricontrays
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Contradiction ⛊</span> (Contra (Contre) / Bricontra (Bri + contra)) : Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>, les ressources engagées sont perdues. ***Clé :*** ✡️ Arcane: Bricontrays
 
 ***Description :*** Interrompt et annule un sort en cours si son niveau n’est pas trop élevé.
 
@@ -44,7 +44,7 @@
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 **Mot avancé :** <span style="color:#228B22; font-weight:bold;">Annexe</span> : Le sort est avancé (voir les règles), entre autre il requière une ACTS de plus pour être lancé, de plus le sort est associé à un second mot de pouvoir, cet effet subit PWR-2, le malus de PWR ne peux pas être supérieur à 4 une fois tous les mots associés.
 
-> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Contradiction ⛊</span> (Contra (Contre) / Bricontra (Bri + contra)) : Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/5]</span>, les ressources engagées sont perdues. ***Clé :*** ✡️ Arcane: Bricontrays
+> **Mot de pouvoir principal :** <span style="color:#228B22; font-weight:bold;">Contradiction ⛊</span> (Contra (Contre) / Bricontra (Bri + contra)) : Contrecarre le sort ciblé dont le niveau est égal ou inférieur à <span style="color:#ff1493; font-weight:bold;">[Magnitude/10]</span>, les ressources engagées sont perdues. ***Clé :*** ✡️ Arcane: Bricontrays
 > **Mot de pouvoir secondaire :** <span style="color:#228B22; font-weight:bold;">Distorsion ✸</span> (Torsio (Torsion) / Keltor (Kel + tor)) : Produit un effet d'attaque mentale (résolution) infligeant <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> de dégats arcanique (PM) basés sur l'élément <span style="color:#ff1493; font-weight:bold;">[clé]</span>. ***Clé :*** ✡️ Arcane: Keltorys
 
 ***Description :*** Contre un sort tout en infligeant une violente distorsion qui brûle la mana de l’adversaire.
@@ -81,7 +81,7 @@
 **Mot de diffusion :** <span style="color:#228B22; font-weight:bold;">Manifestation</span> : Portée : Portée magique x1, Vecteur : Vue, Cible soi possible.
 **Mot de propagation :** <span style="color:#228B22; font-weight:bold;">Unique</span> : Touche une cible unique.
 
-> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Translation ⧉</span> (Fero (Porter) / Enlata (En + lata)) : Déplace une cible inerte de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant. ***Clé :*** ✡️ Arcane: Enlatays
+> **Mot de pouvoir :** <span style="color:#228B22; font-weight:bold;">Translation ⧉</span> (Fero (Porter) / Enlata (En + lata)) : Déplace une cible inerte de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant. ***Clé :*** ✡️ Arcane: Enlatays
 
 ***Description :*** Déplace par télékinésie un objet ou une créature, comme une poussée invisible.
 

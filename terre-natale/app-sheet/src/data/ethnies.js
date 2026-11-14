@@ -1961,7 +1961,7 @@ const ethnies = [
       {
         "nom": "Favored Save",
         "anchor": "birth-favored-save-opposition",
-        "param": "Opposition (*)"
+        "param": "Opposition (\\*)"
       }
     ],
     "particularites_culturelles": [
@@ -2101,7 +2101,7 @@ const ethnies = [
       {
         "nom": "Favored Save",
         "anchor": "birth-favored-save-opposition",
-        "param": "Opposition (*)"
+        "param": "Opposition (\\*)"
       }
     ],
     "particularites_culturelles": [

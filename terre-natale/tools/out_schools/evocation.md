@@ -88,7 +88,7 @@ Génère un effet de déplacement agissant comme l'action tactique de déplaceme
 ***Type de mot :*** Pouvoir, ***Type de cible :*** Cible (point)
 ***Difficulté :*** 2, ***Drain :*** 2
 **Clés :** ✡️ Arcane: Enlatays
-Déplace une cible inerte de <span style="color:#ff1493; font-weight:bold;">[Magnitude]</span> mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant.
+Déplace une cible inerte de <span style="color:#ff1493; font-weight:bold;">[Magnitude/2]</span> mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant.
 
 ---
 

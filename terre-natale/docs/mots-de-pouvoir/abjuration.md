@@ -365,7 +365,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "✡️ Arcane: Bricontrays",
-    "description": "Contrecarre le sort ciblé dont le niveau est égal ou inférieur à [Magnitude/5], les ressources engagées sont perdues."
+    "description": "Contrecarre le sort ciblé dont le niveau est égal ou inférieur à [Magnitude/10], les ressources engagées sont perdues."
   },
   {
     "num": 22,
@@ -750,6 +750,30 @@
     "drain": "2",
     "keys": "🩸 Impie",
     "description": "Génère un effet qui inverse les effets de soins du sort ciblé, convertis une maximum de [Magnitude] du sort ciblé en question (inverse 2 de soins sur un total de 4 provoque donc un soin de 0 au final)."
+  },
+  {
+    "num": 54,
+    "vulgar": "Dénis",
+    "latin": "???",
+    "arcane": "???",
+    "word_type": "Interruption",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "keys": "✡️ Arcane: ???",
+    "description": "Contrecarre le sort ciblé dont la puissance du sort est égal ou inférieur à [Magnitude], les ressources engagées sont perdues."
+  },
+  {
+    "num": 55,
+    "vulgar": "Contrariété",
+    "latin": "???",
+    "arcane": "???",
+    "word_type": "Interruption",
+    "target_type": "Cible",
+    "difficulty": "2",
+    "drain": "2",
+    "keys": "✡️ Arcane: ???",
+    "description": "Contrecarre le sort ciblé dont le niveau est égal ou inférieur à [Magnitude/5], les ressources engagées ne sont pas perdues."
   }
 ];
 

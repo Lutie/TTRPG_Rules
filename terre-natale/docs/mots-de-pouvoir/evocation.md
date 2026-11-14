@@ -235,7 +235,7 @@
     "difficulty": "2",
     "drain": "2",
     "keys": "✡️ Arcane: Enlatays",
-    "description": "Déplace une cible inerte de [Magnitude] mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant."
+    "description": "Déplace une cible inerte de [Magnitude/2] mètres, sur une cible non inerte le sort agit comme un déplacement forcé avec la moitié de la magnitude (vs robustesse), les distances de collision sont divisées par deux le cas échéant."
   },
   {
     "num": 11,
