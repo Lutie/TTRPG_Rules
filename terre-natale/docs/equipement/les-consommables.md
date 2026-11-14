@@ -2,6 +2,8 @@
 
 Voici la liste des consommables qui peuvent être créés ou achetés par les aventuriers. Notons que les paragraphes ci-dessous ne font qu’expliquer les différents types d’objets et leur usage/effets de façon globale, des tableaux contenant des exemples précis des objets pouvant être achetés sont disponibles en fin de document.
 
+> **Règles de fabrication.** La création de ces objets suit les règles d’artisanat standard (voir [Chapitre 9 — Les Objets](../regles/chapitre-9-les-objets.md)). La difficulté tient compte de la qualité visée et des éventuelles améliorations. Lors d’une session de création courte, la quantité produite est égale à la somme du groupe et de la compétence utilisés.
+
 ### Les Potions
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
@@ -41,9 +43,9 @@ Les potions contiennent des sorts simples constitués d’un unique mot d’effe
 | Philtre | 18 | 36 | 54 | 90 | 144 | 216 |
 | Essence | 16 | 32 | 48 | 80 | 128 | 192 |
 
-### Les Concoctions
+### Les Essences
 
-Les concoctions sont le fruit d’une alchimie à mi-chemin entre la magie et l’herboristerie, puisant dans les propriétés spéciales de substances issues de créatures ou de plantes.
+Les essences sont le fruit d’une alchimie à mi-chemin entre la magie et l’herboristerie, puisant dans les propriétés spéciales de substances issues de créatures ou de plantes.
 
 **Nature.** Magie.
 
@@ -53,11 +55,13 @@ Les concoctions sont le fruit d’une alchimie à mi-chemin entre la magie et l�
 
 **Effet de la qualité.** Augmente le niveau de l’effet (qui est donc de 0 + Qualité).
 
-**Description.** Les concoctions fonctionnent un peu comme des potions et ne tirent pas leurs propriétés d’une magie infusée mais de propriété, parfois magique/surnaturelle, de substances organiques ou non. Une concoction a pour contre effet de générer 2 de corruption (temporaire, nettoyé lors d’un repos) par prise. Il ne peut y avoir plus de 2 concoctions actives à la fois sans quoi le personnage voit son état empiré d’un cran : il devient épuisé, ou KO si déjà épuisé. Notes : Les concoctions se font à partir de reste de monstres et autres substances rares, aussi il s’agit là de consommables puissants mais nécessairement plus difficile à obtenir/créer qu’une simple potion en termes d’accès aux ressources nécessaires (mais c’est plus simple en termes de tests cependant puisqu’une seule compétence est utilisée). Notes : Une concoction peut se briser si le personnage qui la transporte subit une chute ou autre événement du genre. Un test de solidité difficulté 10 est alors nécessaire.
+**Description.** Les essences fonctionnent un peu comme des potions et ne tirent pas leurs propriétés d’une magie infusée mais de propriété, parfois magique/surnaturelle, de substances organiques ou non. Une essence a pour contre effet de générer 2 de corruption (temporaire, nettoyé lors d’un repos) par prise. Il ne peut y avoir plus de 2 essences actives à la fois sans quoi le personnage voit son état empiré d’un cran : il devient épuisé, ou KO si déjà épuisé. Notes : Les essences se font à partir de reste de monstres et autres substances rares, aussi il s’agit là de consommables puissants mais nécessairement plus difficile à obtenir/créer qu’une simple potion en termes d’accès aux ressources nécessaires (mais c’est plus simple en termes de tests cependant puisqu’une seule compétence est utilisée). Notes : Une essence peut se briser si le personnage qui la transporte subit une chute ou autre événement du genre. Un test de solidité difficulté 10 est alors nécessaire.
 
-**Encombrement.** ½ (par concoctions)
+**Encombrement.** ½ (par essences)
 
 **Prix de base.** 10 🪙
+
+**Des ingrédients aux essences.** Les essences ne peuvent pas être créées sans ingrédients appropriés. Ces substances — glandes, venins, organes, sécrétions ou autres parties d'une créature — s'obtiennent principalement par le recyclage de restes de créatures (voir [Recyclage, Chapitre 10](../regles/chapitre-10-l-aventure-autres-regles.md)). La valeur des ingrédients récupérés est établie lors du recyclage (en 🪙). Lorsqu'on les utilise pour créer une essence, leur valeur vient réduire le coût de fabrication d'autant, pouvant couvrir l'intégralité du coût en matières premières. Le MJ détermine quels ingrédients conviennent à quelle essence selon la logique de la créature source. Sans ingrédients appropriés, la essence ne peut pas être fabriquée.
 
 | Q0 | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | --- | --- | --- | --- | --- |

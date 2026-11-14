@@ -3981,7 +3981,7 @@
 <strong>Ressource 2</strong> : PE (endurance)<br>
 <strong>Sauvegardes majeures</strong> : Réflexes<br>
 <strong>Sauvegardes mineures</strong> : Opposition & Sang-Froid<br>
-<strong>Privilège</strong> : Concerne les situations où le personnage fait usage de signes ou les situations martiales s’il est sous les effets d'une concoction.<br>
+<strong>Privilège</strong> : Concerne les situations où le personnage fait usage de signes ou les situations martiales s’il est sous les effets d'une essence.<br>
 <strong>Trait 1</strong> : Petite magie des signes<br>
 <strong>Trait 2</strong> : Petite magie améliorée<br>
 <strong>Action spéciale</strong> : ACTL + 5 PA & 3 PC : Peux lancer un sort du domaine des signes (requière le cout en mana également)<br>

@@ -140,6 +140,8 @@ function render() {
     const desc    = (t.description || "").replace(/\n/g, "<br>");
     const prereq  = t.prerequis
       ? `<div class="trait-prereq">Prérequis : ${t.prerequis}</div>` : "";
+    const conds   = (t.conditions || []).length > 0
+      ? `<div class="trait-conds"><span class="trait-conds-label">Conditions :</span><ul class="trait-conds-list">${(t.conditions).map(c => `<li>${c}</li>`).join("")}</ul></div>` : "";
     const rangMax = t.cout != null
       ? `<div class="trait-rang">Rang max : ${t.cout}</div>` : "";
 
@@ -150,7 +152,7 @@ function render() {
         <div class="trait-cats">${catTags(t.categories)}</div>
         ${rangMax}
       </td>
-      <td class="trait-desc">${desc}${prereq}</td>
+      <td class="trait-desc">${desc}${prereq}${conds}</td>
     </tr>`;
   }).join("");
 
@@ -257,5 +259,20 @@ render();
   font-size: .85em;
   color: #888;
   font-style: italic;
+}
+.trait-conds {
+  margin-top: 8px;
+  font-size: .85em;
+  color: #888;
+}
+.trait-conds-label {
+  font-style: italic;
+}
+.trait-conds-list {
+  margin: 4px 0 0 16px;
+  padding: 0;
+}
+.trait-conds-list li {
+  margin-bottom: 2px;
 }
 </style>

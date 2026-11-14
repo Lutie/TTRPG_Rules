@@ -819,6 +819,84 @@ header h1 {
   max-width: 340px;
   width: 90%;
 }
+
+.btn-aptitude-details {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  color: var(--color-text-light);
+  cursor: pointer;
+  font-size: 0.7rem;
+  line-height: 1;
+  margin-left: 6px;
+  padding: 1px 4px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-aptitude-details:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.aptitude-details-modal {
+  max-width: 400px;
+  width: 90%;
+}
+.aptitude-details-body {
+  padding: 0 0 4px;
+}
+.aptitude-details-empty {
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  padding: 8px 0;
+}
+.aptitude-details-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.aptitude-details-item {
+  align-items: center;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  font-size: 0.875rem;
+  gap: 6px;
+  padding: 5px 0;
+}
+.aptitude-details-item:last-child {
+  border-bottom: none;
+}
+.aptitude-details-nom {
+  flex: 1;
+}
+.aptitude-details-attr {
+  background: var(--color-bg-dark);
+  border-radius: 3px;
+  color: var(--color-text-light);
+  font-size: 0.75rem;
+  padding: 1px 5px;
+}
+.aptitude-details-badge {
+  background: var(--color-accent);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.7rem;
+  opacity: 0.8;
+  padding: 1px 5px;
+}
+.aptitude-details-rang {
+  font-weight: 600;
+  min-width: 24px;
+  text-align: right;
+}
+.aptitude-details-total {
+  border-top: 2px solid var(--color-border);
+  font-size: 0.9rem;
+  margin-top: 8px;
+  padding-top: 8px;
+  text-align: right;
+}
 .override-rang-body {
   padding: 16px;
   display: flex;

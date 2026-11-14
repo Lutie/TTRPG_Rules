@@ -1,0 +1,110 @@
+Archétype de l’Apothiquaire
+Le personnage peut réaliser un artisanat particulier : Les Teintures.
+Cet artisanat permet de générer des consommables qui octroient à la cible une condition éphémère lorsque consommée, appliquant par la même occasion une corruption de 2 (comme d’autres consommables).
+Lorsqu’un personnage récolte du matériel (recyclage) ou achète du matériel ce dernier est associé à deux conditions aléatoires (ou déterminé par le MJ), une fois que la matériel a été fixé avec des conditions cela reste comme ça pour le reste de la campagne (en gros on ne fait pas de table en amont, on détermine les conditions associée quand on obtiens l’objet, et on grossit la liste à mesure, l’aléatoire c’est par défaut mais le MJ peut bypasser e mettre ce qu’il veut).
+Pour avoir l’information des conditions associé à un matériau le personnage doit passer un temps long d’analyse (DD 10 + 2 x qualité du matériau).
+Pour crafter un consommable le temps à passer est le même que pour un craft normal.
+Pour crafter un consommable les règles (difficulté basé sur le niveau de qualité du craft, etc) suivent les mêmes que pour l’artisanat de consommable classique.
+La qualité du matériau détermine le niveau maximum du craft possible avec.
+Pour rappel les matériaux sont acquis en quantité basé sur le coût/prix (30pc de tel ou tel matière). Si il faut crafter quelque chose à partir de cette matière le coût doit être inférieur à la matière disponible (et retranché donc).
+L’artisanat est associé à une compétence à part (toujours dans le groupe artisanat) que le personnage utilise pour ces créations, basé sur l’INT. La limite de qualité est la même que pour un autre craft, calculé sur la base de cette compétence (Alchimie).
+Une seule teinture active à la fois, une teinture remplace une autre si appliquée, négative ou positive.
+Pour appliquer une négative c’est comme pour d'autres consommables du genre, il faut utiliser un test de jet.
+
+En gros ce que débloque l’archétype c’est que des matières recyclées peuvent porter des “conditions” qui permettent une autre forme d’artisanat. Le prix des matières recyclées ne change pas, parfois des matières peuvent être recyclées alors que sans cet artisanat ce ne serait pas le cas (pas de cas d’usage), etc…
+
+Exemple : Sur un recyclage le personnage récolte 2po d’ossement sombre (conditions saignement et malédiction).
+
+Améliorations : 
+- Niveau de craft maximum +1
+- Les matériaux recyclés associé aux matériaux de cette pratique sont augmentés de 50%
+- Les effets peuvent être rendu permanents (décharge par jour au lieu de tour), la corruption est appliquée chaque matin si l’effet est encore présent
+- Difficulté +5 : Le personnage peut avoir 2 conditions de plus associé à chaque matériaux
+- Le personnage peut cheaté une condition
+- Les analyses prennent un temps court à la place
+- Le personnage peut réaliser une teinture qui cumule deux conditions du matériau utilisé, difficultée de création augmentée de 4 et le gain de corruption de 2
+- Le personnage peut désormais recycler des matériaux qui n’était pas recyclable avant, ouvrant plus de possibilités de récolte (par exemple des ossements, avant ça pouvait ne servir à rien, mais ici ça pourrait)
+Archétype des Préparations
+Le personnage est capable de préparer des consommables gratuits.
+ACTC & 2 PS : Le personnage réalise une séance de craft sur-le-champ afin de créer un consommable. Ce consommable ne vaux rien et perd ses effets à la fin de la scène.
+On parle de préparations pour ce qui est créé de la sorte (en plus de leurs autres types d'objets).
+- L’ingéniosité est deux fois plus utile lorsqu’il s’agit de préparations.
+- La durée de vie du consommable est étendue jusqu’à la fin de la journée.
+- Possible via ACTS et 3 PS à la place
+- Le personnage peut réaliser ses préparations lors d’une séance classique d’artisanat, profitant ainsi de la réduction de coût pour une dépense de 2 PS. Les consommables
+- Lorsque le personnage réalise un recyclage il peut dépenser 1 PS autant de fois qu’il le souhaite pour augmenter le gain réel de 1 pc. Au mieux, il peut doubler le gain, pas plus.
+- Une préparation qui doit être utilisée via un test peut remplacer la compétence/groupe de l’utilisateur par la compétence et groupe d’artisanat du créature (si plus élevé)
+- Le personnage peut réaliser une préparation sans tests pour un objet pour lequel compétence et groupe répondent aux exigences de niveaux de qualité et que son modificateur d’attribut d’artisanat est équivalant ou supérieur au niveau visé
+Archétype des Mutagènes
+
+Comme apothicaire mais débloque un autre artisanat : mutagènes.
+Les matières recyclées peuvent porter les gènes d’une créature.
+L’artisanat permet de réaliser des consommables octroyant les capacités passives de la créature en question (qualité = niveau de la capacité, voire bestiaire).
+Une partie des améliorations sont identiques, d’autres diffèrent.
+Le gain de corruption est de 4 pour le personnage, 6 pour un autre.
+Décoctions serait le nom des objets créés. Une décoction active à la fois.
+
+Améliorations : 
+- Niveau de craft maximum +1
+- Les matériaux recyclés correspondant à la pratique sont augmentés de 50% (voir si il y a pas un autre trait similaire et voir les % pour comparer)
+- Les effets peuvent être rendu permanents (décharge par jour au lieu de tour), la corruption est appliquée chaque matin si l’effet est encore présent
+- Corruption réduite de 2 (2 si personnage qui a l’archétype, 4 les autres).
+- Jusqu’à deux décoctions actives à la fois.
+- Le personnage peut augmenter la difficulté du craft de 5 pour ajouter un second effet d’une créature différente
+- Le personnage peut faire des mutagènes concentré, l’effet est augmenté de 1 rang mais augmente la corruption reçu de 2
+
+Exemple : Sur un recyclage le personnage récolte 2po de mutagène de loup arctique.
+
+Voir si ça ne va pas en conflit avec un des artisanats déjà existant et visible dans la liste des équipements, qui se base aussi sur les créatures.
+Archétype des Signes
+ACTS + ACTL, requiert 2 PS et 2+X PA : Cast un signe au niveau X, requiert et coût 2 PA (adrénaline) + niveau du signe
+Une fois par tour maximum
+Basé sur l’attribut de magie, les jets dépendent du type d’effet (comme pour la magie), bref les règles sont proches de la magie par défaut, donc le jet d’un sort c’est catégorie 2 + Niveau du sort
+Pas de focalisateur possible
+Base : Débloque un domaine et compétence associée, comme pour la magie, le niveau des signes sont calculés comme pour un sort
+On peut être habitué, comme pour une incantation
+Chaque signe prend un slot de mémoire, maximum 3 par défaut
+
+Rang 1 : Base
+Rang 2 : Une amélioration 
+Rang 3 : Une amélioration
+Rang 4 : Une amélioration
+Rang 5 : Une amélioration
+
+Améliorations:
+− Niveau max des signes +1
+− 5 de mémoire pour des signes
+− Une fois par round à la place
+− Dépenser 1 PA de plus pour augmenter l’expertise, le test ou le jet du signe de +1, maximum 5
+− Double le nombre de signe qui peuvent être appris
+− Les signes peuvent être lancé via ACTR plutôt que ACTS, donc en interruption
+− Les signes peuvent être utilisé en version avancé, le sort est minoré dans ces cas (-1 par dés), le coût est augmenté de 1 PS dans ce cas
+
+Exen : Empêche les défenses ce round ci
+Wullen : Bloque les sorts <= forme un enchantement neutre de charge M qui réduit la puissance des sorts reçus de M en puisant dans les charges, portée strictement personnelle; avancé : protège une zone de 5x5 autour du personnage à la place
+Sanctia : Purifier <= retire M charge de conditions négatives ou enchantement négatif (malédiction), si la cible en a plusieurs alors le personnage doit les avoir identifié pour les cibler, sans quoi c’est un effet aléatoire qui est touché; avancé : affecte tous les effets en question à la place
+Voltio : Dégâts foudre (cône), la moitié en dégâts normaux, l’autre moitié en dégâts perforants <= le cône fait 1 case face à soi, 3 puis 5; dégâts de zone donc (règle idoine): la moitié basée sur la défense sont les dégâts normaux, l’autre moitié se base sur la sauvegarde; avancé : avant tout déplacement, en guise de première action, le sort peut être maintenu au tour suivant via une ACTS (une cible sait si le sort a été lancé en version avancé et qu’elle subira à nouveau les effets si elle reste sur place), le personnage cependant utiliser une ACTL pour orienter différemment son cône
+Igni : Dégâts feu (cône), la moitié en dégâts normaux, l’autre moitié en dégâts de rupture, même chose pour le reste que ci dessus
+Frigu : Dégâts froid (cône), la moitié en dégâts normaux, l’autre moitié en dégats d’attrition, même chose pour le reste que ci dessus
+Quen : Barrière physique <= forme un enchantement neutre de charge M qui réduit les dégâts physique reçus de M en puisant dans les charges, portée strictement personnelle; avancé : protège une zone de 5x5 autour du personnage à la place
+Blen : Barrière mentale <= forme un enchantement neutre de charge M qui réduit les dégâts mentaux reçus de M en puisant dans les charges, portée strictement personnelle; avancé : protège une zone de 5x5 autour du personnage à la place
+Yrden : Piège paralysie <= forme un enchantement neutre localisé sur une case, si une créature entre sur cette case elle subit les effets d’un enchantement (malédiction) qui divise par deux son allure, le piège dispose d’un camouflage naturel équivalant à l’expertise, M correspond évidemment à la charge de l’enchantement, avancé : la cible ne peut plus se déplacer du tout
+Aard : Repousse <= provoque les effets d’un repoussement de magnitude M (voir tactiques), avancée : affecte jusqu’à deux cibles distantes de moins de 2 cases
+Gravu : Désarme/telekinesis <= provoque les effets d’un désarmement de magnitude M (voir tactiques), avancée : affecte jusqu’à deux cibles distantes de moins de 2 cases
+Eerd : Renverse <= provoque les effets d’un renversement de magnitude M (voir tactiques), avancée : affecte jusqu’à deux cibles distantes de moins de 2 cases
+Axii : Charme <= provoque un enchantement négatif (malédiction) qui force la cible a voir le personnage un allié, il ne lui fera ainsi pas de mal ou l’évitera; avancé : Le personnage peut choisir à la place de diviser les M par deux pour en faire un allié à la place qui le défendra même en s’attaquant à ses anciens alliés, l’enchantement subit une décharge immédiatement après avoir été contracté et a une décharge doublée, M correspond évidemment à la charge de l’enchantement
+Velox : Déplacement instantané <= le personnage se déplace de M/2 cases sur le champs, techniquement il passe sur les cases donc tout obstacle le gène, avancé : peux traverser les cases à la place
+Miren  : Envoie un projectile, une cible, dégâts normaux, attribut de défense; avancé : les défenses sont désavantagés contre cette attaque et le personnage peut attaquer un autre attribut en modifiant la forme du projectile (forme au choix, perforant, contondant ou tranchant, l’attribut de défense en dépends)
+Umbra : Peu perceptible <= enchantement positif sur le personnage qui augmente sa discrétion de M/5; avancé : protège une zone de 5x5 autour du personnage à la place
+
+Note: ça ne doit pas remplacer les concoctions, donc pas d’effets longue durée notable, plutôt des trucs à usage rapide/éphémère.
+En gros il faut baser les signes sur des sorts, la particularité étant que ça utilise 2 PS et des PA (adrénaline), à voir un peu comme les matérias, que ce soit kiff kiff (sauf que les matérias on peut en changer ou en être dépossédé etc)
+Archétype du Conflit
+Génère de l’adrénaline et utilise celle-ci ? Utile en confrontation donc.
+- Une fois par tour le personnage peut dépenser 10 PA pour obtenir un troisième round, ses actions durant cette dernière son désavantagée (comme prévue dans les règles)
+- A la fin du tour le personnage récupère 1 PA (adrénaline) par PA qu’il a consommé durant ce tour
+- Résilience concernant l’adrénaline augmenté de 5 (maximum de la ressource donc)
+- L’adrénaline se cumulent à la garde ou à la rage (mais pas les deux), qui eux conservent leurs défauts, un point d’adrénaline peut être utilisé conjointement à un point de rage ou de garde pour en doubler les effets
+- Montée d'adrénaline — La première fois par round que le personnage inflige ou subit une attaque réussie, il gagne 1 PA, les deux cas se cumulent
+- Décharge d'adrénaline — Lors d'un test opposé / d'une attaque / défense en confrontation, le personnage peut dépenser des PA pour augmenter son expertise, son test ou son jet : 2 PA pour +1 en expertise/test ou +1 au jet; maximum 5 PA dépensés en tout
+- Acharnement — Après avoir échoué à une action de confrontation, le personnage peut dépenser 5 PA pour la transformer immédiatement en nouvelle opportunité : il retente l’action en question, sans défauts.

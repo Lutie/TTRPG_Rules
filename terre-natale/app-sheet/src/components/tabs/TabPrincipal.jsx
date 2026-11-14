@@ -498,6 +498,7 @@ function CaracBox({ name, value, help, details }) {
 function CasteSection({ character, updateCharacter, calc }) {
   const [showProgression, setShowProgression] = useState(false);
   const [showOverrideModal, setShowOverrideModal] = useState(false);
+  const [showAptitudeDetails, setShowAptitudeDetails] = useState(false);
   const [overrideInput, setOverrideInput] = useState('');
   const casteActuelle = calc.caste;
   const estLimiteParAptitude = calc.rangAptitude < calc.rangXP;
@@ -645,6 +646,11 @@ function CasteSection({ character, updateCharacter, calc }) {
             </span>
             <span className="caste-progression-value">
               {calc.aptitude}{calc.nextProgression ? ` / ${calc.nextProgression.reqAptitude}` : ''}
+              <button
+                className="btn-aptitude-details"
+                onClick={() => setShowAptitudeDetails(true)}
+                title="Détail du calcul d'aptitude"
+              >ℹ</button>
             </span>
           </div>
           <div className="caste-progression-bar">
@@ -687,6 +693,35 @@ function CasteSection({ character, updateCharacter, calc }) {
                   <button className="btn-override-apply" onClick={handleApplyOverride}>
                     Appliquer
                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+        {showAptitudeDetails && (
+          <div className="modal-overlay" onClick={() => setShowAptitudeDetails(false)}>
+            <div className="modal-content aptitude-details-modal" onClick={e => e.stopPropagation()}>
+              <div className="modal-header">
+                <h3 className="modal-title">Détail — Aptitude</h3>
+                <button className="modal-close" onClick={() => setShowAptitudeDetails(false)}>✕</button>
+              </div>
+              <div className="aptitude-details-body">
+                {calc.aptitudeDetails?.items.length === 0 ? (
+                  <p className="aptitude-details-empty">Aucune compétence liée aux attributs de caste.</p>
+                ) : (
+                  <ul className="aptitude-details-list">
+                    {calc.aptitudeDetails?.items.map((item, i) => (
+                      <li key={i} className={`aptitude-details-item aptitude-details-${item.type}`}>
+                        <span className="aptitude-details-nom">{item.nom}</span>
+                        {item.attribut && <span className="aptitude-details-attr">{item.attribut}</span>}
+                        {item.type === 'groupe' && <span className="aptitude-details-badge">groupe</span>}
+                        <span className="aptitude-details-rang">+{item.rang}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                <div className="aptitude-details-total">
+                  Total : <strong>{calc.aptitudeDetails?.total ?? 0}</strong>
                 </div>
               </div>
             </div>

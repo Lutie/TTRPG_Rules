@@ -1506,5 +1506,13 @@
       3,
       4
     ]
+  },
+  {
+    "nom": "Art Martial",
+    "domaine": "Combat",
+    "famille": "Martial",
+    "sous_section": "Propriétés du style",
+    "nouveau": true,
+    "effet": "Le style est considéré comme un art martial et requière les armes naturelles pour être appliqué, les armes naturelles peuvent être considérée comme des armes de catégorie équivalante au rang du focus, les pénalités d'usage s'appliquent (entrainement naturel)."
   }
 ]

@@ -224,6 +224,17 @@ Test : Dés + Tradition (G) + Domaine (C) + modificateur de Magie (A) contre Dif
 Règle spéciale : Habitude (incantation).
 
 ---
+### Lancer un sortilège [Magic] [Unusual] — ◆◇
+
+Description : Le personnage active une formule magique mémorisée. Cette action est risquée. Elle ne génère pas de drain de mana ni de brûlure de mana (qu’elle réussisse ou échoue, et même sans focalisateur). Les focalisateurs n’ont aucun effet sur les sortilèges. Les sortilèges ne peuvent pas être critiques. Le sortilège prend effet après son temps d’incantation (3 + Niveau − mDEX). Aucun sortilège ne peut être lancé à nouveau avant la fin du 2e tour suivant ce lancement (temps de recharge de 2 tours).
+
+Coût : 3 + niveau du sortilège en points de Spiritualité.
+
+Test : Selon l’origine du sortilège. Par défaut : Dés + Tradition (G) + Domaine (C) + modificateur de Magie (A) contre la Difficulté d’incantation du sortilège.
+
+Règle spéciale : Habitude (incantation).
+
+---
 ### Attaque Focale [Magic] [Arcane] [Attack] [Unusual] — ◆◇
 
 Description : En activant la capacité focale de son focalisateur, le personnage produit un rayon de magie pure. Lorsqu’une attaque focale est portée le test d’attaque s’oppose à la défense passive adverse dont la nature dépend de l’élément employé (l’élément étant défini par le focalisateur).

@@ -25,26 +25,26 @@ Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directem
 | Arc Long | 70 🪙 | Catégorie 3, arme intermédiaire Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3 | 3 📦 |
 | Arc de Bataille | 90 🪙 | Catégorie 4, arme lourde Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4 | 4 📦 |
 | Arc à Poulies | 110 🪙 | Catégorie 5, arme lourde Jet = 7D8, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5 | 5 📦 |
-| Arbalète à poing | 30 🪙 | Catégorie 1, arme légère, mécanique (\*) Jet = 3D8, pénalité d’usage 2, Charge 5, allonge (\*\*\*\*) 1, pénétration 1 Enraiement 6% Munitions 1, Rechargement : ATCS | 1 📦 |
-| Arbalète légère | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (\*) Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, pénétration 2 Enrayement 7% Munitions 1, Rechargement : ATCS | 2 📦 |
-| Arbalète à poignet | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (\*) Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, pénétration 3 Enrayement 8% Munitions 1, Rechargement : ATCS | 3 📦 |
-| Arbalète lourde | 90 🪙 | Catégorie 4, arme lourde, mécanique (\*) Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, pénétration 4 Enraiement 9% Munitions 1, Rechargement : ATCS | 4 📦 |
-| Arbalète à pompes | 110 🪙 | Catégorie 5, arme lourde, mécanique (\*) Jet = 7D8, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5, pénétration 5 Enrayement 10% Munitions 1, Rechargement : ATCS | 5 📦 |
-| Baliste légère | 150 🪙 | Catégorie 6, arme hors classe (siège léger), mécanique (\*) Jet = 8D8, pénalité d’usage 12, Charge 30, allonge (\*\*\*\*) 6, pénétration 6 Enrayement 11% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
-| Baliste | 200 🪙 | Catégorie 7, arme hors classe (siège), mécanique (\*) Jet = 9D8, pénalité d’usage 14, Charge 35, allonge (\*\*\*\*) 7, pénétration 7 Enrayement 12% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
-| Baliste lourde | 250 🪙 | Catégorie 8, arme hors classe (siège lourd), mécanique (\*) Jet = 10D8, pénalité d’usage 16, Charge 40, allonge (\*\*\*\*) 8, pénétration 8 Enrayement 13% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
-| Pistolet léger | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (\*), arme à feu (\*\*) Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, pénétration 4 Enrayement 9% Munitions 8, Rechargement : ACTS + ACTR | 2 📦 |
-| Pistolet lourd | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (\*), arme à feu (\*\*) Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, pénétration 6 Enrayement 11% Munitions 6, Rechargement : ATCS x2 | 3 📦 |
-| Revolver | 90 🪙 | Catégorie 4, arme lourde, mécanique (\*), arme à feu (\*\*) Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, pénétration 8 Enrayement 13% Munitions 4, Rechargement : ATCS x2 | 4 📦 |
-| Arquebuse | 50 🪙 | Catégorie 2, arme intermédiaire mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, pénétration 4 Enrayement 11% Munitions 4, Rechargement : ATCS x2 | 2 📦 |
-| Carabine | 70 🪙 | Catégorie 3, arme intermédiaire mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 5D8+3, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, pénétration 6 Enrayement 14% Munitions 2, Rechargement : ATCS x3 | 3 📦 |
-| Mousquet | 90 🪙 | Catégorie 4, arme lourde mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, pénétration 8 Enrayement 17% Munitions 2, Rechargement : ATCS x3 | 4 📦 |
-| Fusil | 110 🪙 | Catégorie 5, arme lourde mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 7D8+5, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5, pénétration 10 Enrayement 20% Munitions 2, Rechargement : ATCS x3 | 5 📦 |
-| Canon léger | 150 🪙 | Catégorie 6, arme hors classe (siège léger) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 8D8+6, pénalité d’usage 12, Charge 30, allonge (\*\*\*\*) 6, pénétration 12 Enrayement 23% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
-| Canon | 200 🪙 | Catégorie 7, arme hors classe (siège) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 9D8+7, pénalité d’usage 14, Charge 35, allonge (\*\*\*\*) 7, pénétration 14 Enrayement 26% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
-| Canon lourd | 200 🪙 | Catégorie 8, arme hors classe (siège) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 10D8+8, pénalité d’usage 16, Charge 40, allonge (\*\*\*\*) 8, pénétration 16, Enrayement 29% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Arbalète à poing | 30 🪙 | Catégorie 1, arme légère, mécanique (\*) Jet = 3D8, pénalité d’usage 2, Charge 5, allonge (\*\*\*\*) 1, perforation 1 Enraiement 6% Munitions 1, Rechargement : ACTS | 1 📦 |
+| Arbalète légère | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (\*) Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, perforation 2 Enrayement 7% Munitions 1, Rechargement : ACTS | 2 📦 |
+| Arbalète à poignet | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (\*) Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, perforation 3 Enrayement 8% Munitions 1, Rechargement : ACTS | 3 📦 |
+| Arbalète lourde | 90 🪙 | Catégorie 4, arme lourde, mécanique (\*) Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, perforation 4 Enraiement 9% Munitions 1, Rechargement : ACTS | 4 📦 |
+| Arbalète à pompes | 110 🪙 | Catégorie 5, arme lourde, mécanique (\*) Jet = 7D8, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5, perforation 5 Enrayement 10% Munitions 1, Rechargement : ACTS | 5 📦 |
+| Baliste légère | 150 🪙 | Catégorie 6, arme hors classe (siège léger), mécanique (\*) Jet = 8D8, pénalité d’usage 12, Charge 30, allonge (\*\*\*\*) 6, perforation 6 Enrayement 11% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
+| Baliste | 200 🪙 | Catégorie 7, arme hors classe (siège), mécanique (\*) Jet = 9D8, pénalité d’usage 14, Charge 35, allonge (\*\*\*\*) 7, perforation 7 Enrayement 12% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Baliste lourde | 250 🪙 | Catégorie 8, arme hors classe (siège lourd), mécanique (\*) Jet = 10D8, pénalité d’usage 16, Charge 40, allonge (\*\*\*\*) 8, perforation 8 Enrayement 13% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Pistolet léger | 50 🪙 | Catégorie 2, arme intermédiaire, mécanique (\*), arme à feu (\*\*) Jet = 4D8, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, perforation 4 Enrayement 9% Munitions 8, Rechargement : 2 ACTS + ACTR (ACTS + ACTL + ACTR si accès rapide) | 2 📦 |
+| Pistolet lourd | 70 🪙 | Catégorie 3, arme intermédiaire, mécanique (\*), arme à feu (\*\*) Jet = 5D8, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, perforation 6 Enrayement 11% Munitions 6, Rechargement : 2 ACTS + ACTR (ACTS + ACTL + ACTR si accès rapide) | 3 📦 |
+| Revolver | 90 🪙 | Catégorie 4, arme lourde, mécanique (\*), arme à feu (\*\*) Jet = 6D8, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, perforation 8 Enrayement 13% Munitions 4, Rechargement : 2 ACTS + ACTR (ACTS + ACTL + ACTR si accès rapide) | 4 📦 |
+| Arquebuse | 50 🪙 | Catégorie 2, arme intermédiaire mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 4D8+2, pénalité d’usage 4, Charge 10, allonge (\*\*\*\*) 2, perforation 4 Enrayement 11% Munitions 8, Rechargement : 3 ACTS + ACTR (2 ACTS + ACTL + ACTR si accès rapide) | 2 📦 |
+| Carabine | 70 🪙 | Catégorie 3, arme intermédiaire mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 5D8+3, pénalité d’usage 6, Charge 15, allonge (\*\*\*\*) 3, perforation 6 Enrayement 14% Munitions 6, Rechargement : 3 ACTS + ACTR (2 ACTS + ACTL + ACTR si accès rapide) | 3 📦 |
+| Mousquet | 90 🪙 | Catégorie 4, arme lourde mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 6D8+4, pénalité d’usage 8, Charge 20, allonge (\*\*\*\*) 4, perforation 8 Enrayement 17% Munitions 4, Rechargement : 3 ACTS + ACTR (2 ACTS + ACTL + ACTR si accès rapide) | 4 📦 |
+| Fusil | 110 🪙 | Catégorie 5, arme lourde mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 7D8+5, pénalité d’usage 10, Charge 25, allonge (\*\*\*\*) 5, perforation 10 Enrayement 20% Munitions 2, Rechargement : 3 ACTS + ACTR (2 ACTS + ACTL + ACTR si accès rapide) | 5 📦 |
+| Canon léger | 150 🪙 | Catégorie 6, arme hors classe (siège léger) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 8D8+6, pénalité d’usage 12, Charge 30, allonge (\*\*\*\*) 6, perforation 12 Enrayement 23% Voir les règles spécifiques à ce type de matériel dans les règles de base | 6 📦 |
+| Canon | 200 🪙 | Catégorie 7, arme hors classe (siège) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 9D8+7, pénalité d’usage 14, Charge 35, allonge (\*\*\*\*) 7, perforation 14 Enrayement 26% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
+| Canon lourd | 200 🪙 | Catégorie 8, arme hors classe (siège) mécanique (\*), arme à feu (\*\*), dangereux (\*\*\*) Jet = 10D8+8, pénalité d’usage 16, Charge 40, allonge (\*\*\*\*) 8, perforation 16, Enrayement 29% Voir les règles spécifiques à ce type de matériel dans les règles de base | Spécial |
 
-(\*) : Les armes mécaniques ont une perforation égale à leur catégorie (prix +20), peut s’enrayer (\*\*) : Les armes à feu ont une double perforation (prix +30), plus de chance de s’enrayer, recule (\*\*\*) : Les armes dangereuses ont un bonus de dégâts égal à leur catégorie (prix +50), plus de chance de s’enrayer, recule accrue (\*\*\*\*) : L’allonge des armes de tir augmente leur portée, voir les règles à ce sujet pour plus de détails L'enrayement est réduit de 1% par niveau de qualité Approvisionner (toute) : 1 Action simple ou complexe selon localisation des munitions, peux être habitué à Rechargement (mécanique) : 1 à 3 Actions simples selon type d’arme , peut être habitué à
+(\*) : Les armes mécaniques ont une perforation égale à leur catégorie (prix +20), peuvent s’enrayer (5% + 1% × catégorie) (\*\*) : Les armes à feu ont une perforation doublée (prix +30), s’enrayent plus facilement (5% + 2% × catégorie), infligent un recul au tireur (Poigne + 5) (\*\*\*) : Les armes dangereuses ont un bonus de dégâts égal à leur catégorie (prix +50), s’enrayent encore plus facilement (5% + 3% × catégorie), recul accru (\*\*\*\*) : L’allonge des armes de tir augmente leur portée, voir les règles à ce sujet pour plus de détails L’enrayement est réduit de 1% par niveau de qualité Approvisionner (toute) : 1 Action simple ou complexe selon localisation des munitions, peut être habitué à Rechargement (armes de poing) : 2 ACTS + ACTR (ACTS + ACTL + ACTR si accès rapide) Rechargement (armes d’épaule) : 3 ACTS + ACTR (2 ACTS + ACTL + ACTR si accès rapide)
 
 
 ### Les Armures (équipements)
@@ -83,7 +83,7 @@ Les pénalités d’usage s’appliquent à l’attribut, pas aux tests directem
 | Nécessaire d’herboristerie | 7 🪙 | Une sacoche avec couteau courbe, sachets de conservation et carnet d’identification des plantes, utilisé pour la cueillette et le traitement des herbes. | 2 📦 |
 | Nécessaire de cuisine | 5 🪙 | Un ensemble compact d’ustensiles de base : couteau, spatule, écuelle et épices essentielles pour préparer des repas en voyage. | 3 📦 |
 | Nécessaire de bivouaque | 6 🪙 | Contient du silex à feu, cordelette, mini-lanterne et une couverture légère, indispensable pour survivre en extérieur. | 3 📦 |
-| Nécessaire de concoctions | 8 🪙 | Un coffret modeste avec fioles, filtres et mesures de précision, utilisé pour créer remèdes, poisons et toniques artisanaux. | 3 📦 |
+| Nécessaire d'essences | 8 🪙 | Un coffret modeste avec fioles, filtres et mesures de précision, utilisé pour créer remèdes, poisons et toniques artisanaux. | 3 📦 |
 | Nécessaire de forge | 14 🪙 | Un set mobile comprenant marteau, pinces, lime et pierre à aiguiser, essentiel pour l’entretien et le façonnage d’objets métalliques. | 4 📦 |
 | Pierre à aiguiser | 4 🪙 | Bloc de pierre abrasive utilisé pour affûter les lames. | 1 📦 |
 | Nécessaire de couture | 7 🪙 | Une boîte contenant aiguilles, fils, ciseaux et pièces de tissu, utilisée pour réparer ou ajuster vêtements et armures légères. | 2 📦 |
@@ -267,92 +267,92 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | --- | --- | --- | --- |
 | Patch de réparation | 5 🪙 | Permet de réaliser une réparation sommaire (ACTC auquel on peut s’habituer). Un seul patch à la fois. Ce dernier expire après un nombre d’usage équivalent à 2 + 2 x niveau de qualité. Test d’artisanat ou savoir-faire bricolage DD 10. L’objet voit son niveau de dégradation effectif réduit de 1 + degré de réussite. Le degré de réussite retenu ne peut pas être supérieur à la qualité du patch. Un patch a une catégorie et peut s’appliquer à un objet de catégorie équivalente ou inférieure. L’encombrement dépend de cette catégorie. | X 📦 |
 
-### Les Concoctions ()
+### Les Essences ()
 
 | Nom | Prix | Description / effet | Encombrement / notes |
 | --- | --- | --- | --- |
-| Concoction de Golem | 10 🪙 2 ☠ | Soigne jusqu’à ramener l’endurance (PE) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Ver Géant | 10 🪙 2 ☠ | Soigne jusqu’à ramener la vitalité (PV) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Sirène | 10 🪙 2 ☠ | Soigne jusqu’à ramener la spiritualité (PS) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Manticore | 10 🪙 2 ☠ | Soigne jusqu’à ramener le chi (PC) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Sylphide | 10 🪙 2 ☠ | Soigne jusqu’à ramener le mana (PM) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Pixie | 10 🪙 2 ☠ | Soigne jusqu’à ramener le karma (PK) à 10% du maximum par niveau de qualité. | ½ 📦 A |
-| Concoction de Troll | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la vitalité (PV) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Spectre | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la spiritualité (PS) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Kirin | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le chi (PC) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Banshee | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le mana (PM) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Leprechaun | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le karma (PK) à 20% du maximum par niveau de qualité. | ½ 📦 B |
-| Concoction de Phénix | 10 🪙 2 ☠ | Soigne 2 points de corruption (☠) par niveau de qualité. Une fois par jour maximum. | ½ 📦 |
-| Concoction de Minotaure | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la vitalité (PV) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Chimère | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la spiritualité (PS) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Manticore | 10 🪙 2 ☠ | Chaque fois que le personnage perd du chi (PC) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Djinn | 10 🪙 2 ☠ | Chaque fois que le personnage perd du mana (PM) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Doppelganger | 10 🪙 2 ☠ | Chaque fois que le personnage perd du karma (PK) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
-| Concoction de Ogre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de vitalité (PV) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Poltergeist | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de spiritualité (PS) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Salamandre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de chi (PC) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Guenaude | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de mana (PM) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Lamia | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de karma (PK) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Alicorne | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point d’adrénaline temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Harpie | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de rage temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Tortoise | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de garde temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
-| Concoction de Géant | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de vitalité (PV) temporaires par niveau de qualité. | ½ 📦 E |
-| Concoction de Cocatrix | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de spiritualité (PS) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Griffon | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de chi (PC) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Feu Follet | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de mana (PM) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Licorne | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de karma (PK) temporaire par niveau de qualité. | ½ 📦 E |
-| Concoction de Garous | 10 🪙 2 ☠ | Génère immédiatement 1D8 points points d’adrénaline par niveau de qualité. | ½ 📦 E |
-| Concoction de Wendigo | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de rage par niveau de qualité. | ½ 📦 E |
-| Concoction de ??? | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de garde par niveau de qualité. | ½ 📦 E |
-| Concoction d’Aracnide | 10 🪙 2 ☠ | Bloque les effets de n’importe quel effet de rupture (poison, saignement, etc) pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
-| Concoction de Hydre | 10 🪙 2 ☠ | Augmente la puissance des attaques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Liche | 10 🪙 2 ☠ | Augmente la puissance des sorts de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Scorpion Géante | 10 🪙 2 ☠ | Renvoie jusqu’à 1 point de dégâts de mêlée reçus à l’envoyeur. Dure 5 tours. | ½ 📦 |
-| Concoction de Wyverne | 10 🪙 2 ☠ | Criticité de toutes les actions augmentées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction d’Hibours | 10 🪙 2 ☠ | Réduit les pénalités de vision (obscurité, etc) de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Cyclope | 10 🪙 2 ☠ | Augmente la puissance des tactiques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la puissance des défenses effectuées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction d’élémentaire | 10 🪙 2 ☠ | Augmente l’absorption contre la forme d’énergie incarnée par l’élémentaire de 3 par niveau de qualité. Augmente la puissance des sorts associé à l’élément en question de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Guivre | 10 🪙 2 ☠ | Augmente la sauvegarde de robustesse de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de réflexes de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de détermination de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction d’Esprit | 10 🪙 2 ☠ | Augmente la sauvegarde de sang-froid de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’intuition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de fortune de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’opposition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de Vampire | 10 🪙 2 ☠ | Augmente la sauvegarde de prestige de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
-| Concoction de Naga | 10 🪙 2 ☠ | Pour le calcul des défenses passives physiques les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Sphinx | 10 🪙 2 ☠ | Pour le calcul des défenses passives mentales les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Dragon | 10 🪙 2 ☠ | Les attributs physique sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction d’Ombre | 10 🪙 2 ☠ | Les attributs mentaux sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Titan | 10 🪙 2 ☠ | La défense passive de Force (FOR) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Stryge | 10 🪙 2 ☠ | La défense passive de Dextérité (DEX) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive d’Agilité (AGI) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Perception (PER) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Ghoul | 10 🪙 2 ☠ | La défense passive de Constitution (CON) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Satyre | 10 🪙 2 ☠ | La défense passive de Charisme (CHA) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive d’Intelligence (INT) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Ruse (RUS) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Sagesse (SAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de ??? | 10 🪙 2 ☠ | La défense passive de Volonté (VOL) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Trent | 10 🪙 2 ☠ | La défense passive de Magie (MAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
-| Concoction de Basilic | 10 🪙 2 ☠ | Augmentation de la récupération physique de 2 par niveau. Dure 5 tours. | ½ 📦 H |
-| Concoction de Gorgone | 10 🪙 2 ☠ | Augmentation de la récupération mentale de 2 par niveau. Dure 5 tours. | ½ 📦 H |
-| Concoction de Momie | 10 🪙 2 ☠ | Augmentation de la récupération magique de 2 par niveau, la décharge des enchantements négatifs vous affectant unique vous est donc augmenter d’autant. Dure 5 tours. | ½ 📦 H |
-| Concoction de Gargouille | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type tranchant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de Zombie | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type contondant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de Squelette | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type perforant de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type flexible de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
-| Concoction de Béhémoth | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
-| Concoction de Drake | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts magiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
-| Concoction de Flagelleur | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts mentaux (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
-| Concoction de ??? | 10 🪙 2 ☠ | Augmente la capacité d’encombrement maximum de 4 par niveau de qualité. Dure jusqu’à la prochaine récupération. | ½ 📦 |
-| Concoction de Noyeur | 10 🪙 2 ☠ | Immunise aux effets de la noyade ou suffocation pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
-| Concoction de Cerbère | 10 🪙 2 ☠ | Augmente la vitesse de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
-| Concoction de Hippogriffe | 10 🪙 2 ☠ | Augmente la rapidité de 2 par niveau de qualité. Dure 5 tours. | ½ 📦K |
-| Concoction de Pégase | 10 🪙 2 ☠ | Augmente l’allure de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
-| Concoction de Rocks | 10 🪙 2 ☠ | Réduit la gravité effective des lésions physiques (blessure) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
-| Concoction de Dryades | 10 🪙 2 ☠ | Réduit la gravité effective des lésions mentales (trauma) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Golem | 10 🪙 2 ☠ | Soigne jusqu’à ramener l’endurance (PE) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Ver Géant | 10 🪙 2 ☠ | Soigne jusqu’à ramener la vitalité (PV) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Sirène | 10 🪙 2 ☠ | Soigne jusqu’à ramener la spiritualité (PS) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Manticore | 10 🪙 2 ☠ | Soigne jusqu’à ramener le chi (PC) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Sylphide | 10 🪙 2 ☠ | Soigne jusqu’à ramener le mana (PM) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Pixie | 10 🪙 2 ☠ | Soigne jusqu’à ramener le karma (PK) à 10% du maximum par niveau de qualité. | ½ 📦 A |
+| Essence de Troll | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la vitalité (PV) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Spectre | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener la spiritualité (PS) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Kirin | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le chi (PC) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Banshee | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le mana (PM) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Leprechaun | 10 🪙 2 ☠ | En une heure (progressivement) soigne jusqu’à ramener le karma (PK) à 20% du maximum par niveau de qualité. | ½ 📦 B |
+| Essence de Phénix | 10 🪙 2 ☠ | Soigne 2 points de corruption (☠) par niveau de qualité. Une fois par jour maximum. | ½ 📦 |
+| Essence de Minotaure | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la vitalité (PV) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Chimère | 10 🪙 2 ☠ | Chaque fois que le personnage perd de la spiritualité (PS) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Manticore | 10 🪙 2 ☠ | Chaque fois que le personnage perd du chi (PC) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Djinn | 10 🪙 2 ☠ | Chaque fois que le personnage perd du mana (PM) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Doppelganger | 10 🪙 2 ☠ | Chaque fois que le personnage perd du karma (PK) il récupère de l’endurance (PE), maximum 1 par niveau de qualité par activation, et dure 5 tours. | ½ 📦 C |
+| Essence de Ogre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de vitalité (PV) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Poltergeist | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de spiritualité (PS) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Salamandre | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de chi (PC) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Guenaude | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de mana (PM) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Lamia | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de karma (PK) temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Alicorne | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point d’adrénaline temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Harpie | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de rage temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Tortoise | 10 🪙 2 ☠ | Chaque tour le personnage gagne 1 point de garde temporaire par niveau de qualité, dure 5 tours. | ½ 📦 D |
+| Essence de Géant | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de vitalité (PV) temporaires par niveau de qualité. | ½ 📦 E |
+| Essence de Cocatrix | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de spiritualité (PS) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Griffon | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de chi (PC) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Feu Follet | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de mana (PM) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Licorne | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de karma (PK) temporaire par niveau de qualité. | ½ 📦 E |
+| Essence de Garous | 10 🪙 2 ☠ | Génère immédiatement 1D8 points points d’adrénaline par niveau de qualité. | ½ 📦 E |
+| Essence de Wendigo | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de rage par niveau de qualité. | ½ 📦 E |
+| Essence de ??? | 10 🪙 2 ☠ | Génère immédiatement 1D8 points de garde par niveau de qualité. | ½ 📦 E |
+| Essence d’Aracnide | 10 🪙 2 ☠ | Bloque les effets de n’importe quel effet de rupture (poison, saignement, etc) pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
+| Essence de Hydre | 10 🪙 2 ☠ | Augmente la puissance des attaques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Liche | 10 🪙 2 ☠ | Augmente la puissance des sorts de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Scorpion Géante | 10 🪙 2 ☠ | Renvoie jusqu’à 1 point de dégâts de mêlée reçus à l’envoyeur. Dure 5 tours. | ½ 📦 |
+| Essence de Wyverne | 10 🪙 2 ☠ | Criticité de toutes les actions augmentées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence d’Hibours | 10 🪙 2 ☠ | Réduit les pénalités de vision (obscurité, etc) de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Cyclope | 10 🪙 2 ☠ | Augmente la puissance des tactiques portées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la puissance des défenses effectuées de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence d’élémentaire | 10 🪙 2 ☠ | Augmente l’absorption contre la forme d’énergie incarnée par l’élémentaire de 3 par niveau de qualité. Augmente la puissance des sorts associé à l’élément en question de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Guivre | 10 🪙 2 ☠ | Augmente la sauvegarde de robustesse de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de réflexes de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de détermination de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence d’Esprit | 10 🪙 2 ☠ | Augmente la sauvegarde de sang-froid de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’intuition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde de fortune de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la sauvegarde d’opposition de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de Vampire | 10 🪙 2 ☠ | Augmente la sauvegarde de prestige de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 F |
+| Essence de Naga | 10 🪙 2 ☠ | Pour le calcul des défenses passives physiques les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Sphinx | 10 🪙 2 ☠ | Pour le calcul des défenses passives mentales les attributs de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Dragon | 10 🪙 2 ☠ | Les attributs physique sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence d’Ombre | 10 🪙 2 ☠ | Les attributs mentaux sont augmentés de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Titan | 10 🪙 2 ☠ | La défense passive de Force (FOR) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Stryge | 10 🪙 2 ☠ | La défense passive de Dextérité (DEX) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive d’Agilité (AGI) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Perception (PER) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Ghoul | 10 🪙 2 ☠ | La défense passive de Constitution (CON) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Satyre | 10 🪙 2 ☠ | La défense passive de Charisme (CHA) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive d’Intelligence (INT) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Ruse (RUS) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Sagesse (SAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de ??? | 10 🪙 2 ☠ | La défense passive de Volonté (VOL) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Trent | 10 🪙 2 ☠ | La défense passive de Magie (MAG) est augmentée de 1 par niveau de qualité. Dure 5 tours. | ½ 📦 G |
+| Essence de Basilic | 10 🪙 2 ☠ | Augmentation de la récupération physique de 2 par niveau. Dure 5 tours. | ½ 📦 H |
+| Essence de Gorgone | 10 🪙 2 ☠ | Augmentation de la récupération mentale de 2 par niveau. Dure 5 tours. | ½ 📦 H |
+| Essence de Momie | 10 🪙 2 ☠ | Augmentation de la récupération magique de 2 par niveau, la décharge des enchantements négatifs vous affectant unique vous est donc augmenter d’autant. Dure 5 tours. | ½ 📦 H |
+| Essence de Gargouille | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type tranchant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de Zombie | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type contondant de 3 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de Squelette | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type perforant de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques de type flexible de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 I |
+| Essence de Béhémoth | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts physiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
+| Essence de Drake | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts magiques (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
+| Essence de Flagelleur | 10 🪙 2 ☠ | Augmente l’absorption contre les dégâts mentaux (tout type) de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 J |
+| Essence de ??? | 10 🪙 2 ☠ | Augmente la capacité d’encombrement maximum de 4 par niveau de qualité. Dure jusqu’à la prochaine récupération. | ½ 📦 |
+| Essence de Noyeur | 10 🪙 2 ☠ | Immunise aux effets de la noyade ou suffocation pour 2 tours par niveau de qualité en combat ou 1h en dehors. | ½ 📦 |
+| Essence de Cerbère | 10 🪙 2 ☠ | Augmente la vitesse de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
+| Essence de Hippogriffe | 10 🪙 2 ☠ | Augmente la rapidité de 2 par niveau de qualité. Dure 5 tours. | ½ 📦K |
+| Essence de Pégase | 10 🪙 2 ☠ | Augmente l’allure de 2 par niveau de qualité. Dure 5 tours. | ½ 📦 K |
+| Essence de Rocks | 10 🪙 2 ☠ | Réduit la gravité effective des lésions physiques (blessure) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
+| Essence de Dryades | 10 🪙 2 ☠ | Réduit la gravité effective des lésions mentales (trauma) de 10 par niveau de qualité. Dure 5 tours. | ½ 📦 |
 
 ### Les Poison (consommables)
 
@@ -418,7 +418,7 @@ Catalyseurs Contient un sort de niveau 0 + qualité. Contient 3 charges. Recharg
 | Cartouche M | 3 🪙 | Pour des fusils (standard) de catégorie 4 Calibre 1020 (17x60) | ¼ 📦 |
 | Cartouche L | 3.5 🪙 | Pour des fusils (lourd) de catégorie 5 Calibre 1400 (20x70) | ¼ 📦 |
 | + Traçante | X2 | Le prochain tir sur la même cible, si a lieu durant le même cycle, profite d’un bonus d’ajustement de 1 par qualité de cette balle |  |
-| + Pénétrante | X2 | 1 point de pénétration par niveau de qualité |  |
+| + Perforante | X2 | 1 point de perforation par niveau de qualité |  |
 | + Explosive | X2 | Les dégâts produits par la balle sont explosifs. La détérioration issus des attaques n’est plus divisée par 2. |  |
 | + Gomme | X2 | Dégâts permanents réduits à 0 et temporaires augmentés de 4 par niveau de qualité |  |
 | + EMP | X2 | Dégâts sur barrières augmentée de 3 par niveau de qualité |  |

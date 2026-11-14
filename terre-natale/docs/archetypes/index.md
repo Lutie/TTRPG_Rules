@@ -1,6 +1,6 @@
 # Compendium des Archétypes
 
-Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque une mécanique de jeu significative ; les rangs suivants l'améliorent, parfois avec des choix à faire parmi un pool d'options.
+Les archétypes sont des traits spéciaux à 5 rangs. Il en existe deux formes : les archétypes **uniques**, dont le rang 1 débloque une mécanique de jeu significative et les rangs suivants l'améliorent ; et les archétypes **bundles**, dans lesquels le personnage puise des améliorations dès le rang 1.
 
 !!! warning "Règle générale"
     Un personnage ne peut posséder qu'**un seul archétype**. Des exceptions restent possibles avec l'accord du MJ, qui devrait considérer la question avec grande attention — cumuler plusieurs archétypes peut rapidement devenir difficile à gérer en jeu.
@@ -22,7 +22,15 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   </div>
   <div class="arch-body">
     <p class="arch-desc">L'archétype de l'inspiration permet au personnage de réaliser des compositions performatives — musique, chant ou danse — pour affecter les attributs de ses cibles, en bien ou en mal. Chaque composition produit un effet positif (Bonus) ou négatif (Malus) sur les personnes ciblées par la prestation.</p>
+    
+    
     <table class="arch-mec"><tr><th>Action : Composer</th><td>Requière 2 PS et une Action Simple : Le personnage réalise une composition performative qui affecte une cible de son choix à proximité de lui. L'art pratiqué fixe le <strong>test de compétence</strong> à employer : <strong>Chant</strong>, <strong>Danse</strong> ou <strong>Musique</strong>.</td></tr><tr><th>Test de compétence</th><td><strong>Difficulté</strong> 15 : La cibles au choix du personnage reçoit la condition <strong>influencé</strong> (négatif) ou <strong>inspiré</strong> (positif) en fonction de la composition avec des charges qui dépendent de la catégorie de l'action. La sauvegarde de determination modifie les charges d'une condition négative comme prévu dans les règles de base. L'expertise associée à ces conditions est une expertise mentale basée sur 10+mCHA.</td></tr><tr><th>Instrument</th><td>L'instrument est un outils (sujet à l'entrainement). La catégorie de l'instrument employé influence directement la catégorie de l'action composer (qui est de 0 par défaut). L'instrument dépend de l'art employé, il peux être décoratif dans le cas du chant ou de la danse tel qu'un châle, ou un instrument de musique pour la musique, dans tous les cas il doit être tenu via une main et convient aussi bien à la main directrice que non directrice.</td></tr><tr><th>Condition : Influencé</th><td><strong>Bonus</strong> : Affecte négativement la cible qui reçoit un malus de 2 (4 si avancé) aux attributs associés à la composition qui l'a généré. Si la condition affecte plusieurs fois le même attribut, le malus est augmenté de 1 par occurence au delà de la première.</td></tr><tr><th>Condition : Inspiré</th><td><strong>Bonus</strong> : Affecte positivement la cible qui reçoit un bonus de 2 (4 si avancé) aux attributs associés à la composition qui l'a généré. Si la condition affecte plusieurs fois le même attribut, le bonus est augmenté de 1 par occurence au delà de la première.</td></tr><tr><th>Composition</th><td>Une composition est une oeuvre rattachée à deux ou trois attributs, selon qu'elle est simple ou complexe. Un même attribut peux être rattaché plusieurs fois à l'oeuvre.</td></tr></table>
+    
+    
+    
+    
+    
+    
     <div class="arch-rangs">
 <div class="rang-row">
   <div class="rang-badge">R1</div>
@@ -75,6 +83,14 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   </div>
   <div class="arch-body">
     <p class="arch-desc">L'archétype des rituels permet au personnage de réaliser des rituels plus performants et complexes que la norme.</p>
+    
+    
+    
+    
+    
+    
+    
+    
     
     <div class="arch-rangs">
 <div class="rang-row">
@@ -129,6 +145,14 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   <div class="arch-body">
     <p class="arch-desc">L'archétype du piégeage permet au personnage de poser et d'exploiter des pièges avec une efficacité redoutable, en affinant chaque aspect de leur usage : pose, dissimulation, déclenchement et récupération.</p>
     
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="arch-rangs">
 <div class="rang-row">
   <div class="rang-badge">R1</div>
@@ -181,6 +205,14 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   </div>
   <div class="arch-body">
     <p class="arch-desc">L'archétype de la pyrotechnie permet au personnage de manier les explosifs avec une maîtrise exceptionnelle, en optimisant leur portée, leur zone d'effet et leur fiabilité.</p>
+    
+    
+    
+    
+    
+    
+    
+    
     
     <div class="arch-rangs">
 <div class="rang-row">
@@ -235,6 +267,14 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   <div class="arch-body">
     <p class="arch-desc">L'archétype de la pharmacopée permet au personnage de tirer le meilleur parti des consommables de soin, en augmentant leur portée, leur fiabilité et leurs effets sur les cibles.</p>
     
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="arch-rangs">
 <div class="rang-row">
   <div class="rang-badge">R1</div>
@@ -287,7 +327,15 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   </div>
   <div class="arch-body">
     <p class="arch-desc">L'archétype du Gambiste confère au personnage la maîtrise d'un jeu de cartes unique qu'il exploite comme un véritable outil tactique. Loin d'un simple coup du sort, le Gambiste construit et entretient sa main au fil des scènes, combinant les enseignes et les valeurs pour produire des effets ciblés sur les ressources, les conditions et les positionnements de ses alliés comme de ses adversaires. Chaque carte défaussée est une décision stratégique : quand jouer, quelle combinaison assembler, quelle enseigne forcer, quelle cible désigner. Le Gambiste excelle à l'intersection du calcul et du risque, là où une bonne main peut renverser le cours d'un affrontement.</p>
+    
+    
     <table class="arch-mec"><tr><th>Le Deck</th><td>Le personnage possède un <strong>deck personnel</strong> composé à la base de <strong>40 cartes</strong> : les 4 enseignes (♥ ♦ ♠ ♣), chacune couvrant les valeurs de <strong>5 à 10</strong> ainsi que les figures (Valet, Dame, Roi, As). Les cartes retirées ou ajoutées au deck modifient ce total. Le deck est mélangé au début de chaque scène — ou au début de chaque journée si l'amélioration correspondante est acquise. Les cartes défaussées lors des déclenchements ne reviennent dans le deck qu'au prochain mélange.</td></tr><tr><th>Les Enseignes</th><td>Chaque enseigne est liée à un type de ressource ou à l'initiative : <strong>♥ Cœur</strong> = PE (Points d'Endurance) ; <strong>♦ Carreau</strong> = PK (Points de Karma) ; <strong>♠ Pique</strong> = PC (Points de Concentration) ; <strong>♣ Trèfle</strong> = Initiative. L'enseigne déterminée lors du déclenchement fixe la nature de l'effet produit.</td></tr><tr><th>Action : Gambit</th><td><strong>Requiert une ACTS et 2 PS</strong> : Le personnage réalise un <strong>test de Jeu</strong> contre une <strong>difficulté de 5</strong>. Chaque DR obtenu lui permet de piocher et de conserver autant de cartes, dans la limite de son <strong>maximum en main</strong> (7 par défaut). Si le nombre de cartes dépasse ce maximum après le tirage, le personnage doit se défausser de l'excédent avant la fin de l'action. La main constituée est conservée jusqu'à la fin de la scène.</td></tr><tr><th>Action : Déclencher</th><td><strong>ACTL, sans coût supplémentaire</strong> : Le personnage déclenche un effet en défaussant une <strong>combinaison de base</strong> (paire, brelan ou carré) augmentée d'<strong>une carte supplémentaire</strong>. La <strong>valeur</strong> de l'effet est déterminée par la valeur des cartes de la combinaison. L'<strong>enseigne</strong> est déterminée par l'enseigne <strong>majoritaire</strong> parmi toutes les cartes défaussées (combinaison + carte supplémentaire) ; en cas d'égalité, l'enseigne de la carte supplémentaire est prioritaire. La carte supplémentaire permet donc de forcer ou d'infléchir l'enseigne active.</td></tr><tr><th>Effets des combinaisons de base</th><td>Le personnage choisit entre infliger une perte ou octroyer des ressources temporaires selon l'enseigne active : <strong>Infliger</strong> — la cible subit une perte de X points de ressources correspondant à l'enseigne active ; <strong>Octroyer</strong> — une cible à portée reçoit X points de ressources temporaires correspondant à l'enseigne active. X est égal à la <strong>valeur des cartes</strong> constituant la combinaison. Le <strong>nombre de cibles</strong> dépend du type de combinaison : <strong>Paire</strong> = 1 cible ; <strong>Brelan</strong> = jusqu'à 2 cibles ; <strong>Carré</strong> = jusqu'à 3 cibles ; <strong>Quinte</strong> (nécessite un Joker) = n'importe quel nombre de cibles.</td></tr><tr><th>Figures spéciales</th><td>Les Valets (valeur <strong>11</strong>), Dames (valeur <strong>12</strong>), Rois (valeur <strong>13</strong>) et As (valeur <strong>14</strong>) ont des effets supplémentaires lorsqu'ils forment une combinaison entre figures de même rang. <strong>Valet</strong> : La combinaison peut provoquer une <strong>condition</strong> selon l'enseigne active (♥ saignement ; ♦ étourdissement ; ♠ vulnérable ; ♣ faiblesse), X définissant la charge associée ; jouée positivement, elle soigne la cible d'une de ses conditions existantes quelle qu'en soit la nature. <strong>Dame</strong> : La combinaison peut produire simultanément un <strong>effet positif et un effet négatif</strong>, le nombre maximum de cibles s'appliquant à chaque type indépendamment. <strong>Roi</strong> : La combinaison déclenche une <strong>tactique</strong> selon l'enseigne active (♥ désarmement ; ♦ renversement ; ♠ repoussement ; ♣ déplacement), X définissant l'amplitude de l'effet ; les rois produisent nécessairement des effets négatifs, mais jouée positivement la combinaison octroie X <strong>points d'armure temporaires</strong> à la place. <strong>As</strong> : valeur de base augmentée (14), sans propriété supplémentaire propre.</td></tr><tr><th>Tests de sauvegarde</th><td>Les effets infligeant une perte de ressources, une condition ou une tactique à une cible adverse sont sujets à un <strong>test de sauvegarde de Fortune</strong>. Le résultat modifie la valeur de l'effet selon les règles standard des sauvegardes. L'<strong>expertise</strong> associée à ce test est basée sur <strong>10 + mCHN</strong> (modificateur de Chance du personnage déclenchant l'effet). La <strong>portée</strong> de base des effets est de <strong>5 + mCHA</strong> (modificateur de Charisme).</td></tr><tr><th>Combinaisons avancées</th><td>Ces combinaisons sont débloquées via l'amélioration <strong>Combinaisons avancées</strong>. <strong>Deux paires</strong> : une paire détermine l'effet et son enseigne, l'autre détermine la valeur de l'effet. <strong>Full</strong> (brelan + paire) : au choix, l'effet du brelan est augmenté de la moitié de la valeur de la paire, ou la valeur de la paire est augmentée de la totalité de la valeur du brelan. <strong>Couleur</strong> (min. 3 cartes de même enseigne) : le personnage pioche 2 cartes par carte dans la couleur, permettant le recyclage d'une main peu favorable. <strong>Suite</strong> (min. 3 cartes consécutives en valeur) : déclenche un effet passif de puissance X (X = cartes au-delà de la 2e) selon l'enseigne — ♥ : chaque tirage se fait avec X cartes supplémentaires et la taille maximum de la main augmente de X ; ♠ : chaque combinaison voit sa valeur augmentée de 2×X ; ♣ : lors du déclenchement, jusqu'à X cartes de la combinaison peuvent être conservées en main (X diminue de 1 à chaque usage) ; ♦ : lors du déclenchement, l'enseigne d'une carte peut être modifiée (X diminue de 1 à chaque usage). <strong>Quinte flush</strong> (suite de même enseigne) : le personnage pioche jusqu'à son maximum + 7 cartes, peut immédiatement déclencher tous les effets qu'il souhaite, puis se défausse de l'excédent.</td></tr></table>
+    
+    
+    
+    
+    
+    
     <div class="arch-rangs">
 <div class="rang-row">
   <div class="rang-badge">R1</div>
@@ -340,6 +388,8 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   </div>
   <div class="arch-body">
     <p class="arch-desc">L'archétype du Commandement forge le personnage en un meneur dont la voix seule peut changer le cours d'une confrontation. Par des cris soigneusement appris et maîtrisés, il coordonne ses alliés, leur accordant actions supplémentaires ou conditions avantageuses, ou il brise le moral de ses ennemis en leur imposant des conditions débilitantes. Chaque cri est une œuvre tactique en soi : mémorisé, catégorisé, et déclenché au moment précis où il peut peser le plus. Le Commandant n'agit pas seul — il démultiplie les capacités de ceux qui l'entourent.</p>
+    
+    
     <table class="arch-mec"><tr><th>Action : Lancer un Cri</th><td><strong>Requiert une ACTS et une ACTL, ainsi que 2 PS</strong> : Le personnage lance un cri mémorisé en réalisant un <strong>test de Commandement</strong> contre une <strong>difficulté de 5</strong>. X vaut le nombre de DR obtenus (le personnage lui-même comptant parmi les éventuelles cibles alliées). Cette action est limitée à <strong>une fois par tour</strong>. Chaque cri connu occupe <strong>un emplacement de mémoire</strong>. La <strong>portée</strong> est une zone centrée sur le personnage de rayon <strong>5 + mCHA</strong> (PBAOE). La <strong>catégorie</strong> du cri est déterminée par l'argumentation sociale (C2 par défaut — voir les règles sociales).</td></tr><tr><th>Styles de Commandement</th><td>Le personnage choisit un style au rang 1 et ne peut apprendre de cris que dans ce style, sauf s'il acquiert l'amélioration <strong>Maîtrise tous azimuts</strong>. Les trois styles sont :
 — <strong>Tactique</strong> : Les cris accordent à des alliés la possibilité de réaliser immédiatement une action gratuite spécifique.
 — <strong>Commandement</strong> : Les cris octroient des conditions positives à des alliés.
@@ -382,6 +432,12 @@ Cris de guerre disponibles :
 — <strong>« Accablez-les ! »</strong> : Les cibles reçoivent la condition <strong>accablé</strong> (désavantage en attaque).
 — <strong>« Paralysés ! »</strong> : Les cibles reçoivent la condition <strong>inactif</strong> (désavantage en initiative).
 — <strong>« Tremblez misérables ! »</strong> : Les cibles perdent leurs <strong>ressources temporaires</strong> (tous types confondus).</td></tr></table>
+    
+    
+    
+    
+    
+    
     <div class="arch-rangs">
 <div class="rang-row">
   <div class="rang-badge">R1</div>
@@ -422,6 +478,1176 @@ Cris de guerre disponibles :
 <details class="arch-amel">
   <summary>Améliorations disponibles (9)</summary>
   <ul><li><strong>Voix assurée</strong> — La difficulté du test de Commandement est réduite à <strong>0</strong> (soit un DR supplémentaire par rapport à la difficulté standard de 5).</li><li><strong>Maîtrise tous azimuts</strong> — Le personnage peut apprendre et utiliser des cris issus des <strong>trois styles</strong> sans restriction.</li><li><strong>Grand Répertoire</strong> — Ajoute <strong>5 emplacements de mémoire</strong> dédiés exclusivement aux cris.</li><li><strong>Voix brisante</strong> — Les <strong>tests de sauvegarde de Détermination</strong> réalisés par les adversaires contre les cris de guerre du personnage sont <strong>désavantagés</strong>.</li><li><strong>Commandement incessant</strong> — La limitation d'<strong>un cri par tour</strong> est levée. Le personnage peut lancer autant de cris par tour que ses actions le lui permettent.</li><li><strong>Voix portante</strong> — La portée des cris du personnage est <strong>doublée</strong> (10 + 2×mCHA).</li><li><strong>Cri de maître</strong> — La <strong>catégorie</strong> de tous les cris du personnage est augmentée de <strong>1</strong>.</li><li><strong>Réflexe de commandement</strong> — L'action Lancer un Cri peut être réalisée en <strong>ACTR</strong> (action de réaction), au lieu de requérir une ACTS et une ACTL.</li><li><strong>Présence charismatique</strong> — L'<strong>expertise</strong> utilisée comme difficulté pour les sauvegardes contre les cris de guerre est désormais basée sur <strong>10 + mCHA</strong> (expertise sociale) à la place de l'expertise mentale standard.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-7">
+  <div class="arch-header" onclick="toggleArch('arch-7')">
+    <span class="arch-nom">Apothiquaire</span>
+    <span class="arch-concept">Artisanat de teintures à partir de matériaux porteurs de conditions</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de l'Apothiquaire permet au personnage de pratiquer un artisanat unique : la création de <strong>Teintures</strong>, des consommables qui octroient une condition éphémère à leur cible. La particularité de cet artisanat réside dans les matériaux utilisés : chaque matériau acquis — par recyclage ou achat — est associé à deux conditions, déterminées au moment de l'acquisition (aléatoirement ou par le MJ) et fixées pour toute la campagne. L'Apothiquaire extrait l'essence de ces conditions pour les condenser en teintures applicables.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Compétence : Alchimie</th><td>L'Apothiquaire utilise la compétence <strong>Alchimie</strong> (groupe Artisanat, basée sur l'<strong>INT</strong>) pour toutes ses créations. La limite de qualité et les règles de difficulté suivent les mêmes bases que pour l'artisanat de consommables classique.</td></tr><tr><th>Matériaux et conditions</th><td>Tout matériau acquis pour cette pratique — par recyclage ou achat — est associé à <strong>deux conditions</strong> au moment de son acquisition. Ces conditions sont déterminées aléatoirement par défaut, ou fixées par le MJ. Une fois associées, elles restent liées au matériau pour toute la campagne. Certains matériaux peuvent être recyclés grâce à cet archétype alors qu'ils ne l'auraient pas été autrement (os, restes organiques, etc.).</td></tr><tr><th>Analyse</th><td>Pour connaître les conditions associées à un matériau, le personnage doit consacrer un <strong>temps long</strong> à son analyse. Le test a une <strong>difficulté de 10 + 2 × qualité du matériau</strong>. Sans analyse réussie, les conditions d'un matériau sont inconnues.</td></tr><tr><th>Craft de teintures</th><td>Le craft d'une teinture suit les <strong>mêmes règles que l'artisanat de consommables</strong> (temps, difficulté basée sur la qualité visée, coût en matériaux). La <strong>qualité du matériau</strong> détermine le <strong>niveau maximum de craft</strong> réalisable avec celui-ci. Les matériaux sont consommés selon leur valeur disponible et le coût du craft est retranché du stock.</td></tr><tr><th>Teintures : règles d'usage</th><td>Une teinture octroie à sa cible une <strong>condition éphémère</strong> (décharge en fin de tour) et applique <strong>2 de corruption</strong>. Une seule teinture peut être active à la fois sur une cible : une nouvelle teinture remplace toute teinture précédente, qu'elle soit positive ou négative. Pour appliquer une teinture négative à une cible non consentante, un <strong>test de jet</strong> est requis, comme pour les autres consommables de ce type.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la pratique des Teintures. Il apprend la compétence <strong>Alchimie</strong> et peut désormais analyser des matériaux pour en découvrir les conditions, puis crafter des Teintures à partir de ces matériaux.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (8)</summary>
+  <ul><li><strong>Maîtrise supérieure</strong> — Le niveau de craft maximum du personnage pour les Teintures est augmenté de <strong>1</strong>.</li><li><strong>Récolte abondante</strong> — Les matériaux utilisables pour la pratique des Teintures sont obtenus en quantité augmentée de <strong>50%</strong> lors d'un recyclage ou d'un achat.</li><li><strong>Fixation prolongée</strong> — Les Teintures créées par le personnage octroient une condition <strong>temporaire</strong> (décharge en fin de journée) plutôt qu'éphémère. La corruption de 2 est appliquée chaque matin tant que l'effet est actif.</li><li><strong>Matériau complexe</strong> — Le personnage peut mener une analyse à <strong>difficulté +5</strong> pour révéler <strong>deux conditions supplémentaires</strong> associées à un matériau, portant le total à quatre conditions connues pour ce matériau.</li><li><strong>Instinct alchimique</strong> — Une fois par matériau analysé, le personnage peut relancer aléatoirement l'une des conditions associées et conserver celle qu'il préfère entre l'ancienne et la nouvelle.</li><li><strong>Analyse rapide</strong> — L'analyse d'un matériau ne requiert plus qu'un <strong>temps court</strong> au lieu d'un temps long.</li><li><strong>Teinture concentrée</strong> — Le personnage peut créer une teinture qui cumule <strong>deux conditions</strong> du même matériau. La difficulté de création est augmentée de 4 et la corruption infligée est augmentée de 2.</li><li><strong>Recyclage étendu</strong> — Le personnage peut recycler des matériaux qui ne seraient normalement pas recyclables (ossements, restes organiques, matières inertes), ouvrant de nouvelles sources de matériaux pour sa pratique.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-8">
+  <div class="arch-header" onclick="toggleArch('arch-8')">
+    <span class="arch-nom">Préparations</span>
+    <span class="arch-concept">Création de consommables sur-le-champ sans coût matériel</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Préparations permet au personnage de créer des consommables directement sur le terrain, sans matériaux ni coût. Ces objets — appelés <strong>Préparations</strong> en plus de leur type habituel — sont fonctionnels mais sans valeur marchande et perdent leurs effets à la fin de la scène. Leur utilité est immédiate : ce que l'on prépare, on l'utilise.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Action : Préparer</th><td><strong>ACTC &amp; 2 PS</strong> : Le personnage réalise une séance de craft sur-le-champ et crée un consommable en utilisant sa compétence et son groupe d'artisanat appropriés. Le consommable créé est une <strong>Préparation</strong> (en plus de son type habituel), ne possède aucune valeur marchande, et perd ses effets à la <strong>fin de la scène</strong>.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque l'action <strong>Préparer</strong> et peut créer des consommables sur-le-champ sans coût matériel.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Ingéniosité appliquée</strong> — L'ingéniosité (PI) est <strong>deux fois plus efficace</strong> lorsqu'elle est dépensée pour des Préparations.</li><li><strong>Préparation express</strong> — L'action Préparer peut être réalisée via une <strong>ACTS &amp; 3 PS</strong> à la place d'une ACTC.</li><li><strong>Atelier de campagne</strong> — Le personnage peut réaliser ses Préparations lors d'une <strong>séance classique d'artisanat</strong>, pour une dépense de <strong>2 PS</strong>. Les consommables créés de la sorte durent jusqu'à la <strong>fin de la journée</strong> plutôt que de la scène (sans valeur marchande).</li><li><strong>Recyclage optimisé</strong> — Lors d'un recyclage, le personnage peut dépenser <strong>1 PS</strong> autant de fois qu'il le souhaite pour augmenter le gain réel de <strong>1 pc</strong> par PS dépensé. Le gain ne peut pas être plus que <strong>doublé</strong> par ce biais.</li><li><strong>Formulation précise</strong> — Lorsqu'une Préparation est utilisée via un test, l'utilisateur peut remplacer sa propre compétence et son groupe par ceux de la <strong>compétence et du groupe d'artisanat du créateur</strong>, si ces derniers sont plus élevés.</li><li><strong>Maîtrise innée</strong> — Le personnage peut réaliser une Préparation <strong>sans test</strong> pour un consommable dont la compétence et le groupe répondent aux exigences de niveau de qualité visé, et dont son <strong>modificateur d'attribut d'artisanat</strong> est supérieur ou égal au niveau visé.</li><li><strong>Utilisation immédiate</strong> — Lorsque le personnage réalise l'action Préparer, il peut immédiatement utiliser le consommable créé via une <strong>ACTL</strong> dans la foulée.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-9">
+  <div class="arch-header" onclick="toggleArch('arch-9')">
+    <span class="arch-nom">Mutagènes</span>
+    <span class="arch-concept">Artisanat de décoctions à partir de matériaux porteurs des gènes d'une créature</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Mutagènes permet au personnage de pratiquer un artisanat unique : la création de <strong>Décoctions</strong>, des consommables qui répliquent les capacités passives d'une créature à leur cible. Là où les Teintures exploitent des conditions, les Décoctions s'appuient sur les propriétés biologiques des créatures elles-mêmes. Plus puissantes à haute qualité, elles permettent de reproduire les aptitudes du bestiaire — au prix d'une corruption significative.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Compétence : Mutagénèse</th><td>Le Mutagéniste utilise la compétence <strong>Mutagénèse</strong> (groupe Artisanat, basée sur l'<strong>INT</strong>) pour toutes ses créations. La limite de qualité et les règles de difficulté suivent les mêmes bases que pour l'artisanat de consommables classique.</td></tr><tr><th>Matériaux et gènes</th><td>Tout matériau acquis pour cette pratique — par recyclage ou achat — porte les <strong>gènes d'une créature</strong> spécifique, déterminée au moment de l'acquisition. Ces gènes restent associés au matériau pour toute la campagne. Certains matériaux peuvent être recyclés grâce à cet archétype alors qu'ils ne l'auraient pas été autrement.</td></tr><tr><th>Analyse</th><td>Pour connaître les propriétés d'un matériau, le personnage doit consacrer un <strong>temps long</strong> à son analyse. Le test a une <strong>difficulté de 10 + 2 × qualité du matériau</strong>. Sans analyse réussie, la créature source et ses capacités associées sont inconnues.</td></tr><tr><th>Craft de décoctions</th><td>Le craft d'une décoction suit les <strong>mêmes règles que l'artisanat de consommables</strong> (temps, difficulté basée sur la qualité visée, coût en matériaux). La <strong>qualité du matériau</strong> détermine le <strong>niveau maximum de craft</strong> réalisable avec celui-ci. La <strong>qualité de la décoction</strong> détermine le <strong>niveau de la capacité passive</strong> reproduite (voir bestiaire).</td></tr><tr><th>Décoctions : règles d'usage</th><td>Une décoction octroie à sa cible une capacité passive de la créature source et applique <strong>4 de corruption</strong> au personnage qui possède l'archétype, ou <strong>6 de corruption</strong> à tout autre utilisateur. Une seule décoction peut être active à la fois sur une cible : une nouvelle décoction remplace toute décoction précédente.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la pratique des Décoctions. Il peut désormais analyser des matériaux organiques pour en identifier la créature source, puis crafter des Décoctions à partir de ces matériaux.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Maîtrise supérieure</strong> — Le niveau de craft maximum du personnage pour les Décoctions est augmenté de <strong>1</strong>.</li><li><strong>Récolte abondante</strong> — Les matériaux utilisables pour la pratique des Décoctions sont obtenus en quantité augmentée de <strong>50%</strong> lors d'un recyclage ou d'un achat.</li><li><strong>Fixation prolongée</strong> — Les Décoctions créées par le personnage octroient une condition <strong>temporaire</strong> (décharge en fin de journée) plutôt qu'éphémère. La corruption est appliquée chaque matin tant que l'effet est actif.</li><li><strong>Tolérance mutagène</strong> — La corruption générée par les Décoctions est réduite de <strong>2</strong> : elle passe à <strong>2</strong> pour le personnage possédant l'archétype, et à <strong>4</strong> pour tout autre utilisateur.</li><li><strong>Double assimilation</strong> — Le personnage peut avoir jusqu'à <strong>deux Décoctions actives</strong> simultanément.</li><li><strong>Hybridation</strong> — Le personnage peut augmenter la <strong>difficulté du craft de 5</strong> pour intégrer un second effet issu d'une créature différente dans la même Décoction.</li><li><strong>Décoction concentrée</strong> — Le personnage peut créer une Décoction concentrée dont l'effet est augmenté de <strong>1 rang</strong>. La corruption infligée est augmentée de <strong>2</strong>.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-10">
+  <div class="arch-header" onclick="toggleArch('arch-10')">
+    <span class="arch-nom">Signes</span>
+    <span class="arch-concept">Pratique de signes magiques rapides alimentés par l'adrénaline</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Signes permet au personnage de manier des formules magiques condensées — les <strong>Signes</strong> — des effets brefs et puissants qui puisent dans l'adrénaline plutôt que dans les ressources magiques classiques. Proches des sorts dans leur calcul mais distincts dans leur coût, les Signes sont conçus pour l'action immédiate : sans focalisateur, sans effet longue durée, mais avec une efficacité redoutable au bon moment.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Action : Lancer un Signe</th><td><strong>ACTS + ACTL, coût : 2 PS et (2 + X) PA</strong>, où X est le niveau du signe. L'action est limitée à <strong>une fois tous les deux tours</strong> maximum. Les signes sont basés sur l'attribut de <strong>Magie (MAG)</strong> ; le jet suit la même formule que pour les sorts (<strong>catégorie 2 + niveau du signe</strong>). Aucun focalisateur n'est utilisable.</td></tr><tr><th>Domaine, compétence et mémoire</th><td>Au rang 1, le personnage choisit un <strong>domaine</strong> et apprend la <strong>compétence associée</strong>, comme pour la magie classique. Le niveau des signes est calculé de la même façon que pour un sort. Le personnage peut s'<strong>habituer</strong> à un signe (comme pour une incantation). Chaque signe mémorisé occupe <strong>un emplacement de mémoire</strong> ; le personnage dispose de <strong>3 emplacements</strong> par défaut.</td></tr><tr><th>Signes élémentaires</th><td>Ces trois signes projettent un <strong>cône</strong> (1 case devant soi, puis 3, puis 5). Les dégâts de zone s'appliquent : la moitié basée sur la défense constitue les <strong>dégâts normaux</strong>, l'autre moitié se base sur la <strong>sauvegarde</strong>. <strong>Voltio</strong> : dégâts foudre — moitié normaux, moitié perforants. <strong>Igni</strong> : dégâts feu — moitié normaux, moitié rupture. <strong>Frigu</strong> : dégâts froid — moitié normaux, moitié attrition. <strong>Version avancée (commun aux trois)</strong> : avant tout déplacement en guise de première action, le signe peut être <strong>maintenu au tour suivant</strong> via une ACTS. La cible est informée de ce maintien et sait qu'elle subira à nouveau les effets si elle reste sur place. Le personnage utilise une ACTL pour réorienter son cône.</td></tr><tr><th>Signes de barrière</th><td>Ces signes forment des <strong>enchantements neutres</strong> de charge M qui absorbent les effets en puisant dans leurs charges, à portée strictement personnelle par défaut. <strong>Version avancée (commun)</strong> : protège une <strong>zone de 5×5</strong> autour du personnage à la place. <strong>Wullen</strong> : barrière anti-sorts — réduit la puissance des sorts reçus de M. <strong>Quen</strong> : barrière physique — réduit les dégâts physiques reçus de M. <strong>Blen</strong> : barrière mentale — réduit les dégâts mentaux reçus de M.</td></tr><tr><th>Signes de contrôle</th><td>Signes à effet tactique ou de zone. <strong>Exen</strong> : empêche les défenses de la cible ce round-ci. <strong>Yrden</strong> : forme un enchantement neutre localisé sur une case ; toute créature qui y entre subit une malédiction divisant son allure par deux. Le piège dispose d'un camouflage naturel égal à l'expertise. Avancé : la cible est complètement immobilisée. <strong>Aard</strong> : repoussement de magnitude M (voir tactiques). Avancé : affecte jusqu'à deux cibles distantes de moins de 2 cases. <strong>Gravu</strong> : désarmement/télékinèse de magnitude M. Avancé : affecte jusqu'à deux cibles distantes de moins de 2 cases. <strong>Eerd</strong> : renversement de magnitude M. Avancé : affecte jusqu'à deux cibles distantes de moins de 2 cases.</td></tr><tr><th>Signes utilitaires</th><td><strong>Sanctia</strong> : retire M charges de conditions négatives ou d'enchantements négatifs (malédictions) d'une cible. Si plusieurs effets sont présents, ils doivent être identifiés pour être ciblés précisément — sinon l'effet touché est aléatoire. Avancé : retire tous les effets en question simultanément. <strong>Axii</strong> : impose une malédiction forçant la cible à considérer le personnage comme un allié (elle ne lui fera pas de mal et l'évitera). Avancé : en divisant M par deux, la cible devient un véritable allié qui attaque ses anciens alliés ; l'enchantement subit une décharge immédiate à sa contraction et sa décharge est doublée. <strong>Velox</strong> : déplacement instantané de M/2 cases — le personnage passe par les cases intermédiaires, soumis aux obstacles. Avancé : traverse les obstacles. <strong>Miren</strong> : projectile ciblant une cible unique, dégâts normaux contre l'attribut de défense standard. Avancé : les défenses sont désavantagées et le personnage peut choisir la forme du projectile (perforant, contondant ou tranchant), modifiant l'attribut de défense applicable. <strong>Umbra</strong> : enchantement positif augmentant la discrétion du personnage de M/5. Avancé : protège une zone de 5×5 autour du personnage à la place.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la pratique des Signes. Il choisit un <strong>domaine</strong> et apprend la <strong>compétence associée</strong> (comme pour la magie). Il peut mémoriser jusqu'à <strong>3 signes</strong> et accéder à l'action <strong>Lancer un Signe</strong>.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Maîtrise des signes</strong> — Le niveau maximum des signes du personnage est augmenté de <strong>1</strong>.</li><li><strong>Répertoire étendu</strong> — Ajoute <strong>5 emplacements de mémoire</strong> dédiés exclusivement aux signes.</li><li><strong>Cadence accrue</strong> — La limitation est assouplie : le personnage peut désormais lancer un signe <strong>une fois par tour</strong> au lieu d'une fois tous les deux tours.</li><li><strong>Signe amplifié</strong> — Lors du lancer d'un signe, le personnage peut dépenser <strong>1 PA supplémentaire</strong> pour augmenter son expertise, son test ou son jet de <strong>+1</strong>. Maximum <strong>5 PA</strong> dépensés de cette façon par signe.</li><li><strong>Bibliothèque des signes</strong> — Le nombre maximum de signes que le personnage peut apprendre est <strong>doublé</strong>.</li><li><strong>Signe réflexe</strong> — Les signes peuvent être lancés via une <strong>ACTR</strong> (action de réaction) plutôt qu'une ACTS, permettant leur usage en interruption.</li><li><strong>Maîtrise avancée</strong> — Le personnage peut lancer ses signes en <strong>version avancée</strong> (voir les descriptions de chaque signe). Le jet est <strong>minoré de 1 par dé</strong> et le coût est augmenté de <strong>1 PS</strong>.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-11">
+  <div class="arch-header" onclick="toggleArch('arch-11')">
+    <span class="arch-nom">Conflit</span>
+    <span class="arch-concept">Exploitation intensive de l'adrénaline en confrontation</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype du Conflit forge le personnage en un combattant dont l'adrénaline n'est plus un simple effet de bord mais un moteur tactique. Là où un guerrier ordinaire accumule de l'adrénaline passivement, le Conflictuel la génère, la recycle et l'amplifie — enchaînant les rounds supplémentaires, relançant ses échecs et synchronisant son élan avec sa garde ou sa rage.</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (7)</summary>
+  <ul><li><strong>Troisième round</strong> — Une fois par tour, le personnage peut dépenser des PA pour participer au <strong>troisième round</strong> : <strong>5 PA</strong> pour une action, ou <strong>10 PA</strong> pour ses deux actions habituelles. Le personnage peut (et doit si nécessaire) compléter son initiative pour atteindre au moins <strong>1 point</strong>, la participation au troisième round requérant d'en avoir au moins 1 (sachant qu'un round à l'autre on perd 10 points d'initiative).</li><li><strong>Cycle de combat</strong> — À la fin de chaque tour, le personnage récupère <strong>1 PA</strong> par tranche de <strong>3 PA</strong> consommés durant ce tour.</li><li><strong>Réservoir étendu</strong> — La résilience du personnage concernant l'adrénaline est augmentée de <strong>5</strong> (augmente le maximum de la ressource d'autant).</li><li><strong>Synergie de combat</strong> — L'adrénaline du personnage peut se <strong>cumuler avec la garde ou la rage</strong> (mais pas les deux simultanément), qui conservent leurs défauts habituels. Un point d'adrénaline peut être dépensé conjointement à un point de garde ou de rage pour <strong>doubler les effets</strong> de ce point.</li><li><strong>Montée d'adrénaline</strong> — La première fois par round que le personnage <strong>inflige</strong> une attaque réussie, il gagne <strong>1 PA</strong>. La première fois par round qu'il <strong>subit</strong> une attaque réussie, il gagne également <strong>1 PA</strong>. Les deux cas sont indépendants et se cumulent.</li><li><strong>Décharge d'adrénaline</strong> — Lors d'un test opposé, d'une attaque ou d'une défense en confrontation, le personnage peut dépenser des PA pour renforcer son action : <strong>2 PA</strong> pour <strong>+1 en expertise ou test</strong>, ou <strong>+1 au jet</strong>. Maximum <strong>5 PA</strong> dépensés de cette façon par action.</li><li><strong>Acharnement</strong> — Après avoir échoué à une action de confrontation, le personnage peut dépenser <strong>5 PA</strong> pour transformer immédiatement l'échec en <strong>nouvelle opportunité</strong> : il retente l'action en question, sans défauts.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-12">
+  <div class="arch-header" onclick="toggleArch('arch-12')">
+    <span class="arch-nom">Compagnon</span>
+    <span class="arch-concept">Acquérir un compagnon — animal dressé, animal sauvage, ou allié humanoïde — qui agit aux côtés du personnage</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">Lorsque cet archétype est acquis, le personnage choisit parmi 3 voies : Animal dressé, Animal sauvage, et Humanoïde. Le premier rang permet au personnage d'acquérir un compagnon correspondant à la voie choisie. Le rang du compagnon est égal à 50 % du rang du personnage, arrondi à l'inférieur, dans la limite du rang de la compétence associée à cet archétype.</p>
+    
+    <div class="arch-voies"><strong>Voies :</strong><ul><li><strong>Animal dressé</strong> — Le compagnon est une créature animale dressée. Orienté défense et polyvalence.</li><li><strong>Animal sauvage</strong> — Le compagnon est une créature animale sauvage. Orienté offensif et surspécialisation.</li><li><strong>Humanoïde</strong> — Le compagnon est un personnage humanoïde disposant de ses propres connaissances et aptitudes. Cette voie est principalement axée sur son autonomie, son expertise et sa capacité à accomplir des tâches indépendamment du personnage.</li></ul></div>
+    <table class="arch-mec"><tr><th>Compagnon</th><td>Le rang du compagnon est égal à 50 % du rang du personnage, arrondi à l'inférieur, dans la limite du rang de la compétence associée à cet archétype. Le compagnon possède ses propres caractéristiques, compétences et ressources.</td></tr><tr><th>Comportement par défaut</th><td>Le compagnon agit normalement de manière à assurer sa propre sécurité mais ne prend pas spontanément part aux actions du personnage ou aux combats. Le joueur peut décider que le compagnon attente sa propre passe d'arme pour agir, par exemple avec l'ordre qu'il lui aurait été donné en tête.</td></tr><tr><th>Donner un ordre — ACTS &amp; 2 PS</th><td>Le personnage donne un ordre à son compagnon. En termes de jeu lors de la prochaine passe de combat, le joueur prend directement le contrôle du compagnon et choisit ses actions.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage choisit sa voie (Animal dressé, Animal sauvage ou Humanoïde) et acquiert un compagnon correspondant.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (19)</summary>
+  <div class="arch-amel-group"><span class="arch-amel-cat" style="color:#555">◆ commun</span><ul><li><strong>Compagnons multiples</strong> — Le personnage peut acquérir plusieurs compagnons. Il ne peut cependant disposer que d'un seul compagnon actif au cours d'une même scène.</li><li><strong>Potentiel</strong> — Le rang maximum que peut atteindre le compagnon est augmenté de 1.</li><li><strong>Récupération</strong> — Le compagnon récupère plus facilement de ses blessures et de l'épuisement. La récupération du compagnon est augmentée de 5. Un seul compagnon profite de cet effet à chaque repos, ou cette valeur peut être répartie sur plusieurs compagnons.</li><li><strong>Ordre persistant</strong> — Si le même ordre est donné au compagnon afin de le maintenir, il ne coûte pas de PS. Ceci est possible tant que la situation n'a pas changé et n'invalide pas l'ordre précédent.</li><li><strong>Symbiose</strong> — Si le compagnon a attendu la passe d'arme, ou si le personnage a lui-même attendu la passe d'arme de son compagnon pour agir et donner son ordre, alors tous deux peuvent réaliser leurs actions durant la même passe, dans l'ordre qu'ils préfèrent. De plus, la rapidité du personnage est augmentée de 5 si son compagnon l'attend pour agir et vice versa.</li><li><strong>Dur à cuir</strong> — Le compagnon reçoit un bonus de +1 à ses sauvegardes et +2 à toutes ses ressources maximum.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#4a7c59">◆ animal dressé</span><ul><li><strong>Protecteur</strong> — Lorsque son maître est la cible d'une ATT et que le familier est en mesure d'intervenir, celui-ci peut utiliser sa réaction pour participer à sa défense ou s'interposer.</li><li><strong>Dressage</strong> — Le compagnon reçoit un bonus de +2 à toutes ses compétences déjà acquises (issues de ses listes ethniques, raciales, etc).</li><li><strong>Obéissance</strong> — Le familier peut mémoriser un petit nombre d'ordres simples (suis-moi, reste, protège, rapporte, cherche…). Ces ordres peuvent être donnés via une ACTL et sans PS, mais ne permettent pas de lui faire réaliser des comportements complexes (ni une action de combat).</li><li><strong>Combat coordonné</strong> — Lorsque le personnage ou son compagnon génère une opportunité dont l'autre profite, une nouvelle opportunité est générée en faveur du premier.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#7c4a2e">◆ animal sauvage</span><ul><li><strong>Lien primal</strong> — Tant que son compagnon est à portée proche, le personnage peut percevoir ce qu'il perçoit et utiliser ses sens comme s'il s'agissait des siens. Il peut notamment effectuer ses tests de perception depuis la position du compagnon et utiliser les capacités sensorielles naturelles de celui-ci.</li><li><strong>Prédateur</strong> — Lorsqu'il agit à la suite d'un ordre, le familier bénéficie d'un avantage sur sa prochaine action d'ATT.</li><li><strong>Instinct dominant</strong> — Le compagnon reçoit un bonus de +3 à une de ses compétences déjà acquises (issues de ses listes ethniques, raciales, etc).</li><li><strong>Déchaînement</strong> — Lorsqu'un ordre lui désigne une cible hostile, le familier peut continuer à l'attaquer sans recevoir de nouvel ordre tant que celle-ci reste une menace. Il ne peut cependant pas librement changer de cible ou de tactique sans nouvel ordre : il attaque.</li><li><strong>Extension</strong> — Le personnage peut utiliser les sens de son compagnon comme les siens. Lorsqu'il effectue ainsi un test depuis la position du compagnon, il utilise au choix sa propre compétence ou celle du compagnon, tout en bénéficiant des capacités sensorielles naturelles de ce dernier.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#2e5c7c">◆ humanoïde</span><ul><li><strong>Tacticien</strong> — L'allié bénéficie d'un avantage lorsqu'il réalise une TAC destinée à aider son partenaire ou à créer une opportunité dont celui-ci peut profiter.</li><li><strong>Initiative</strong> — En l'absence d'ordre, l'allié agit de sa propre initiative lors de sa passe. Il est alors contrôlé par le MJ conformément à sa personnalité et à ses objectifs. Le joueur doit toujours lui donner un ordre s'il souhaite décider précisément de ses actions durant une confrontation. En dehors d'une confrontation l'allié peut réaliser des tâches complexes (quêtes, etc), et est généralement indépendant.</li><li><strong>Polyvalence</strong> — L'allié peut développer 2 compétences de plus qui ne sont pas limitées à celles naturellement prévues par son profil. Ces compétences sont acquises comme s'il s'agissait d'une compétence majeure et une autre mineure.</li><li><strong>Complémentarité</strong> — Lorsque le personnage et son allié participent à une même tâche, celui possédant la compétence la plus élevée effectue le test tandis que l'autre peut lui apporter son assistance sans effectuer d'action supplémentaire.</li></ul></div>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-13">
+  <div class="arch-header" onclick="toggleArch('arch-13')">
+    <span class="arch-nom">Discipline</span>
+    <span class="arch-concept">Maîtrise des dispositions de combat tirées au dé, modulées selon une voie : Excellence, Équilibre ou Virtuose</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de la Discipline permet au personnage de générer et gérer des dispositions de combat — quatre valeurs dés associées chacune à un type d'action. En prenant ses marques, il tire 4D6 dont les résultats alimentent ses dispositions. Avant une action correspondante, il peut consommer la disposition pour obtenir un bonus d'Ajustement égal à sa valeur.</p>
+    
+    <div class="arch-voies"><strong>Voies :</strong><ul><li><strong>Excellence</strong> — Après avoir pris ses marques, augmentez de 1 la disposition ayant obtenu la valeur la plus élevée. En cas d'égalité, choisissez-en une. Une valeur de 6 ne peut être augmentée.</li><li><strong>Équilibre</strong> — Après avoir pris ses marques, répartissez jusqu'à 3 points entre les dispositions ayant obtenu les valeurs les plus faibles, afin de les rapprocher des valeurs supérieures.</li><li><strong>Virtuose</strong> — Après avoir pris ses marques, répartissez jusqu'à 2 points entre vos dispositions, sans pouvoir augmenter une disposition possédant la valeur la plus élevée.</li></ul></div>
+    <table class="arch-mec"><tr><th>Prendre ses marques — ACTS &amp; 5 PC</th><td>Le personnage tire 4D6 de couleurs différentes. Chaque couleur correspond à une disposition ; la valeur du dé lui est associée. La voie choisie modifie ensuite les résultats obtenus.</td></tr><tr><th>Dispositions</th><td><strong>Fougue</strong> (ATT) · <strong>Vigilance</strong> (DEF) · <strong>Maîtrise</strong> (TAC) · <strong>Élan</strong> (MVT — déplacements nécessitant un test, esquives, initiative). Une disposition ne peut pas dépasser <strong>2 + rang de la compétence Discipline</strong> du personnage. Les dispositions sont perdues à la fin de chaque scène.</td></tr><tr><th>Consommer une disposition</th><td>Avant de réaliser une action de combat du type correspondant, le personnage peut consommer la disposition pour obtenir un <strong>bonus d'Ajustement</strong> égal à sa valeur.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage choisit sa voie (Excellence, Équilibre ou Virtuose) et débloque l'action <strong>Prendre ses marques</strong>.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (15)</summary>
+  <div class="arch-amel-group"><span class="arch-amel-cat" style="color:#555">◆ commun</span><ul><li><strong>Conservation</strong> — Lorsqu'il prend ses marques, le personnage peut conserver une disposition non dépensée au lieu de lui attribuer le nouveau résultat.</li><li><strong>Prise rapide</strong> — Le personnage peut réaliser sa prise de marque en ACTL ; il ne tire alors que 2 dés sur les 4, en choisissant les couleurs. Le coût en PC demeure.</li><li><strong>Discipline assumée</strong> — Le personnage peut réduire une disposition de 2 à la place de la consommer entièrement. Le bonus est basé sur la valeur avant réduction.</li><li><strong>Spécialisation</strong> — Choisissez une disposition. Elle peut désormais contenir jusqu'à deux valeurs. Lorsqu'elle est utilisée, le personnage choisit laquelle consommer. Si une nouvelle valeur doit lui être attribuée alors qu'elle en contient déjà deux, la plus faible est remplacée.</li><li><strong>Réactivité</strong> — Le personnage peut consommer une disposition après avoir effectué le test, mais avant d'en appliquer les conséquences.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#7c5c2e">◆ excellence</span><ul><li><strong>Dépassement</strong> — Une disposition de 6 entraîne un ajustement augmenté de 1 supplémentaire.</li><li><strong>Perfection</strong> — Après avoir pris ses marques, le personnage peut relancer un dé et doit en conserver le résultat (si Conservation est acquis, il n'est pas obligé d'attribuer le nouveau résultat).</li><li><strong>Sans compromis</strong> — Au prix de 2 PS, lorsque le personnage consomme une disposition, il peut également consommer une autre disposition de son choix : il reçoit alors un bonus d'ajustement supplémentaire équivalant à la différence entre les deux valeurs, maximum 3.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#2e7c5c">◆ équilibre</span><ul><li><strong>Fondamentaux</strong> — Lorsqu'il prend ses marques, le personnage peut automatiquement transformer ses 1 en 2 avant même d'appliquer l'ajustement lié à l'Équilibre.</li><li><strong>Mesure</strong> — Lorsque l'ajustement le plus bas (parmi les ajustements restants) est consommé, le personnage reçoit un bonus d'ajustement de +2 supplémentaire.</li><li><strong>Homogénéité</strong> — Au prix de 2 PS, lorsque le personnage consomme une disposition, il peut également consommer une autre disposition de son choix : il reçoit alors un bonus d'ajustement supplémentaire de 5 moins la différence entre les deux valeurs, maximum 3.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#5c2e7c">◆ virtuose</span><ul><li><strong>Enchaînement</strong> — Lorsque le personnage consomme une disposition, son bonus d'Ajustement est augmenté de 1 par slot de disposition libre.</li><li><strong>Adaptation</strong> — Lorsque le personnage prend ses marques, il peut choisir deux dés et inverser leurs valeurs.</li><li><strong>Flux</strong> — Après avoir pris ses marques, si le personnage affiche une suite via les dés acquis, il reçoit des dés supplémentaires de la couleur de son choix affichant une valeur fixe : double → 1 dé à 4, deux doubles → 2 dés à 4, triple → 1 dé à 5, quadruple → 1 dé à 6. Ces dés supplémentaires ne sont pas des dispositions libres une fois utilisées.</li><li><strong>Cadence</strong> — Immédiatement après avoir lancé les dés de Prendre ses marques, avant toute modification de leurs valeurs, si au moins trois dés forment une suite, tous les dés de cette suite à l'exception du plus élevé prennent la valeur du deuxième plus élevé. Les autres effets de Prendre ses marques sont ensuite résolus normalement.</li></ul></div>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-14">
+  <div class="arch-header" onclick="toggleArch('arch-14')">
+    <span class="arch-nom">Esprits</span>
+    <span class="arch-concept">Se lier chaque jour à des esprits de castes pour en emprunter compétences, savoirs et privilèges</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Esprits permet au personnage de se lier à des esprits associés à des castes, lui octroyant temporairement leurs compétences, connaissances et privilèges. Débloque la compétence <strong>Chamanisme</strong> (groupe lié à la précognition, basé sur <strong>SAG</strong>). Chaque point dans Chamanisme permet d'obtenir un nouvel esprit dans le répertoire.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Répertoire</th><td>Le personnage peut se lier à un nombre d'esprits différents égal à son rang de compétence en Chamanisme. Chaque point dans Chamanisme permet d'obtenir un nouvel esprit.</td></tr><tr><th>Se lier à un esprit — ACTC &amp; 5 PS</th><td>Le personnage réalise un test de Chamanisme (difficulté 10, effet 1+DR, action risquée). Il choisit dans son répertoire un esprit auquel se lier jusqu'à la fin de la scène. Se délier nécessite également une ACTC (aucun test requis, mais reste une action risquée).</td></tr><tr><th>Bonus de l'esprit</th><td>L'esprit octroie à une <strong>compétence clé</strong> de sa caste : une valeur minimale de groupe de 1, une valeur minimale de compétence de DR, et une valeur minimale de modificateur d'attribut de DR. Cet effet peut être utilisé <strong>une fois par tour</strong>. L'esprit octroie les mêmes bonus à la <strong>connaissance propre à la caste</strong>.</td></tr><tr><th>Magie et privilège</th><td>Si la compétence octroyée est un <strong>domaine de magie</strong>, le personnage peut utiliser ses PS comme des PM et lancer des sorts simples de ce domaine. Lorsqu'il est lié à un esprit, le personnage peut faire appel au <strong>privilège de caste</strong> à hauteur de <strong>4 PC maximum</strong>.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la compétence Chamanisme et l'action <strong>Se lier à un esprit</strong>. Il constitue son premier répertoire d'esprits.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (10)</summary>
+  <ul><li><strong>Cercle spirituel</strong> — Le personnage peut ajouter 2 esprits supplémentaires à son répertoire.</li><li><strong>Liaison prolongée</strong> — La liaison peut durer toute une journée ; chaque nouvelle scène requiert 2 PS supplémentaires. Si le personnage a dépensé plus de 15 PS de la sorte, la liaison est maintenue jusqu'à la fin de la journée quoi qu'il arrive.</li><li><strong>Incarnation</strong> — Lorsqu'il se lie à un esprit, le personnage obtient également l'action de caste non avancée associée. Il peut l'utiliser une première fois sans dépenser l'action normalement nécessaire, après quoi elle fonctionne normalement.</li><li><strong>Héritage</strong> — Lorsqu'il se lie à un esprit, le personnage bénéficie également des deux traits associés à la caste de cet esprit.</li><li><strong>Résonance</strong> — Lorsque le personnage fait appel à la compétence clé de son esprit, chaque composante (Groupe, Compétence ou modificateur d'Attribut) qui atteint déjà naturellement le minimum accordé par l'esprit peut être augmentée de 1. Résonance ne peut accorder que deux augmentations de +1 par test.</li><li><strong>Maîtrise spirituelle</strong> — Créer un lien avec un esprit n'est plus une action risquée. Le personnage peut débuter une confrontation en établissant un lien en action gratuite.</li><li><strong>Canalisation</strong> — Le bonus de compétence octroyé par l'esprit n'est plus limité à une utilisation par tour.</li><li><strong>Mémoire des défunts</strong> — À tout moment, le personnage peut réaliser un test de connaissance lié à l'un des esprits de son répertoire sans avoir besoin de s'y lier au préalable.</li><li><strong>Affinité</strong> — Choisissez un esprit du répertoire. Lorsqu'il est lié à cet esprit, le maximum de ressources du personnage est augmenté d'une valeur égale à son rang de Chamanisme, et il bénéficie d'un bonus de Moral équivalent régénéré à chaque tour.</li><li><strong>Possession</strong> — Le personnage peut abandonner temporairement davantage de contrôle à l'esprit. Pendant un nombre de tours égal à son rang de compétence, tous les tests liés à la compétence de l'esprit reçoivent un bonus de 2, mais le comportement du personnage est influencé par la personnalité de l'esprit (source de gêne en jeu). Le MJ peut refuser cette amélioration s'il la juge déséquilibrée.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-15">
+  <div class="arch-header" onclick="toggleArch('arch-15')">
+    <span class="arch-nom">Métamorphoses</span>
+    <span class="arch-concept">Se transformer en créature animale — en version polyvalente (plusieurs formes) ou dédiée (une seule forme maîtrisée)</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Métamorphoses permet au personnage de se transformer en une créature du règne animal. Débloque la compétence <strong>Métamorphose</strong> (groupe Discipline, basée sur <strong>CON</strong> ou <strong>VOL</strong>). Chaque point dans Métamorphose permet d'obtenir une forme. L'équipement fusionne avec le personnage mais n'a plus aucun effet. Deux voies existent : <strong>Métamorphose</strong> (non dédié, plusieurs formes) et <strong>Bête</strong> (dédié, une seule forme). Les deux utilisent une difficulté 10 avec effet 1+DR.</p>
+    
+    <div class="arch-voies"><strong>Voies :</strong><ul><li><strong>Métamorphose</strong> — Version non dédiée. Le personnage peut avoir plusieurs formes dans son répertoire. Difficulté 10, effet 1+DR.</li><li><strong>Bête</strong> — Version dédiée. Le personnage n'a qu'une seule forme. Difficulté 10, effet 1+DR.</li></ul></div>
+    <table class="arch-mec"><tr><th>Se métamorphoser — ACTC &amp; 5 PC</th><td>Le personnage réalise un test de Métamorphose (difficulté 10, effet 1+DR, action risquée). Il prend la forme d'une créature animale de sa liste jusqu'à la fin de la scène. Le profil de la créature correspond à une créature typique d'un rang égal au DR du test. Reprendre forme humaine nécessite également une ACTC (aucun test requis, action risquée).</td></tr><tr><th>Ressources de la forme</th><td>Chaque forme dispose de ses propres ressources, récupérées selon la récupération propre à la forme. Les attributs reflètent le changement opéré : le personnage devient plus sauvage, etc.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage choisit sa voie (Métamorphose ou Bête) et débloque l'action <strong>Se métamorphoser</strong>. Il acquiert ses premières formes selon son rang de Métamorphose.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (13)</summary>
+  <div class="arch-amel-group"><span class="arch-amel-cat" style="color:#4a7c3f">◆ métamorphose</span><ul><li><strong>Répertoire étendu</strong> — Le personnage peut choisir 2 nouvelles formes à ajouter à son répertoire.</li><li><strong>Transition</strong> — Le personnage peut passer directement d'une forme à une autre sans reprendre forme humaine entre les deux.</li><li><strong>Acclimatation</strong> — Le coût en PC des formes est réduit de 1 par forme déjà endossée durant la journée, minimum 2.</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#7c3f3f">◆ bête</span><ul><li><strong>Expertise conservée</strong> — En forme animale, le personnage maintient ses compétences personnelles si elles sont plus élevées que celles de la forme.</li><li><strong>Maîtrise de la forme</strong> — Changer de forme n'est plus une action risquée.</li><li><strong>Dernier recours</strong> — Si les PV ou PS tombent à 0 ou en deçà, le personnage peut immédiatement prendre sa forme animale si ce n'était pas déjà le cas, et vice versa, avec le coût en PC correspondant. Une fois par jour maximum.</li><li><strong>Seconde nature</strong> — Le personnage obtient une action gratuite en début de confrontation pour réaliser immédiatement sa métamorphose (qui reste une action risquée le cas échéant).</li></ul></div><div class="arch-amel-group"><span class="arch-amel-cat" style="color:#555">◆ commun</span><ul><li><strong>Récupération des formes</strong> — Lors d'un long repos, le personnage peut appliquer une récupération de 5 à l'une de ses formes. Toutes ses autres formes non utilisées durant la journée précédente bénéficient également d'une récupération de 5.</li><li><strong>Ancrage</strong> — En forme animale, le personnage maintient ses attributs personnels s'ils sont plus élevés que ceux de la forme, conservant ainsi une bonne part de sa personnalité.</li><li><strong>Métamorphose rapide</strong> — Se métamorphoser peut se faire en ACTS en augmentant le coût en PC de 2. Mettre fin à la métamorphose peut également se faire en ACTS sans surcoût.</li><li><strong>Forme prolongée</strong> — La métamorphose peut durer toute une journée. Chaque nouvelle scène requiert 2 PC supplémentaires. Au bout de 3 surcoûts payés, la forme est maintenue jusqu'à la fin de la journée quoi qu'il arrive.</li><li><strong>Ressources bestiales</strong> — La première fois de la journée que le personnage prend une forme donnée, il reçoit des ressources temporaires en PV, PE et PS équivalentes au modificateur de l'attribut utilisé pour le test.</li><li><strong>Élan bestial</strong> — Une fois par tour, lorsqu'il adopte une nouvelle forme animale, le personnage peut immédiatement effectuer une action de déplacement.</li></ul></div>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-16">
+  <div class="arch-header" onclick="toggleArch('arch-16')">
+    <span class="arch-nom">Polymorphisme</span>
+    <span class="arch-concept">Transformer partiellement son corps en empruntant des modifications animales — sens, déplacements, armes, défenses, membres ou glandes</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype du Polymorphisme permet au personnage de transformer partiellement ses membres et organes pour obtenir des modifications corporelles inspirées du règne animal, sans transformer entièrement sa forme. Débloque la compétence <strong>Polymorphisme</strong> (groupe Discipline, basée sur <strong>CON</strong> ou <strong>VOL</strong>). Chaque point dans la compétence Polymorphisme permet d'obtenir une forme supplémentaire dans le répertoire.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Activer une forme — ACTC &amp; 5 PC</th><td>Le personnage réalise un test de Polymorphisme (difficulté 10, effet 1+DR, action risquée). Il choisit dans son répertoire une forme qu'il applique jusqu'à la fin de la scène. Le choix confère un avantage lié au changement physique associé. Perdre sa forme nécessite également une ACTC (aucun test requis, action risquée).</td></tr><tr><th>DR</th><td>Le DR du test de Polymorphisme détermine la puissance des effets des formes (valeur des bonus, catégories d'armes, portées, etc.).</td></tr></table>
+    
+    
+    
+    
+    
+    
+<details class="arch-formes">
+  <summary>Catalogue de formes (49)</summary>
+  <div class="arch-formes-group"><span class="arch-formes-cat">◆ Sens</span><ul><li><strong>Yeux de faucon</strong> — Vue considérablement améliorée. Bonus de DR aux tests de détection basés sur la vue.</li><li><strong>Oreilles de chauve-souris</strong> — Ouïe considérablement améliorée ; éventuellement écholocalisation. Bonus de DR aux tests de détection basés sur l'ouïe.</li><li><strong>Truffe de loup</strong> — Odorat considérablement amélioré et possibilité de suivre une piste olfactive. Bonus de DR aux tests de détection basés sur l'odorat.</li><li><strong>Fossettes thermosensibles de serpent</strong> — Perception thermique des créatures et choses à proximité. La compétence thermosensibilité est acquise/maîtrisée avec un DR équivalent.</li><li><strong>Vibrisses de félin</strong> — Perception fine des mouvements et de la proximité immédiate, notamment dans l'obscurité. Pénalités de visibilité réduites de DR.</li></ul></div><div class="arch-formes-group"><span class="arch-formes-cat">◆ Déplacement</span><ul><li><strong>Ailes d'aigle</strong> — Vol comme déplacement normal, allure augmentée de DR.</li><li><strong>Griffes d'escalade</strong> — Escalader comme déplacement normal, allure augmentée de DR.</li><li><strong>Pattes d'araignée</strong> — Peut marcher sur n'importe quelle surface solide sans tomber, allure maximale DR.</li><li><strong>Nageoires</strong> — Nage comme déplacement normal, allure augmentée de DR.</li><li><strong>Branchies</strong> — Le personnage peut respirer sous l'eau et n'est pas soumis à la noyade tant que ses branchies sont fonctionnelles.</li><li><strong>Pattes de kangourou</strong> — Sauts considérablement améliorés. Bonus de DR aux tests d'athlétisme basés sur le saut.</li><li><strong>Pattes de guépard</strong> — Allure/vitesse terrestre améliorée. Bonus de DR aux tests d'athlétisme basés sur la course.</li><li><strong>Écailles de serpent</strong> — La peau du corps est glissante. Bonus de DR aux tests d'athlétisme basés sur l'évasion.</li><li><strong>Membranes de planeur</strong> — Permet de planer et ignore les chutes. Chaque DR mètres parcourus en planant fait baisser la hauteur actuelle de 1 m.</li></ul></div><div class="arch-formes-group"><span class="arch-formes-cat">◆ Armes naturelles</span><ul><li><strong>Cornes de taureau</strong> — Arme naturelle basée sur FOR, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus d'attrition de 3DR. Spécialisé en attaque (+1 aux tests d'attaque, ne peut pas réaliser d'action tactique).</li><li><strong>Griffes de félin</strong> — Arme naturelle basée sur DEX, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de perforation de 3DR. Spécialisé en attaque (+1 aux tests d'attaque, ne peut pas réaliser d'action tactique).</li><li><strong>Queue de lézard</strong> — Arme naturelle basée sur AGI, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de maîtrise de 2DR.</li><li><strong>Crocs de loup</strong> — Arme naturelle basée sur FOR, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de pénétration de 3DR.</li><li><strong>Pinces de crabe</strong> — Arme naturelle basée sur DEX, catégorie DR, entraînement 2. Peut réduire la catégorie pour octroyer un bonus de gravité de 3DR.</li><li><strong>Dard de scorpion</strong> — Arme naturelle basée sur AGI, catégorie 0, entraînement 2. Si la cible est blessée par l'attaque, elle subit la condition poison de catégorie DR.</li><li><strong>Épines de porc-épic</strong> — Chaque attaque reçue inflige des dégâts de contact (ne peuvent être défendus ni évités) de 3 + DR.</li></ul></div><div class="arch-formes-group"><span class="arch-formes-cat">◆ Défense</span><ul><li><strong>Carapace de tortue</strong> — Équivalent d'un bouclier de catégorie DR, entraînement 2. Le bonus de défense inhérent aux boucliers s'applique aussi dans le dos.</li><li><strong>Écailles de crocodile</strong> — Armure naturelle générale. Catégorie DR, entraînement 2.</li><li><strong>Carapace de tatou</strong> — En ACTL risquée : passe en position défensive qui octroie une déviation naturelle de 5DR. Le personnage ne peut plus agir depuis cette position.</li><li><strong>Peau de caméléon</strong> — Camouflage visuel. Bonus de DR aux tests de discrétion basés sur la vue.</li><li><strong>Peau mimétique (ouïe)</strong> — Camouflage sonore. Bonus de DR aux tests de discrétion basés sur l'ouïe.</li><li><strong>Peau mimétique (odorat)</strong> — Camouflage olfactif. Bonus de DR aux tests de discrétion basés sur l'odorat.</li><li><strong>Fourrure polaire</strong> — Résistance au froid. Bonus de résistance à l'énergie du froid de 5DR et sauvegarde +DR.</li><li><strong>Écaille de salamandre</strong> — Résistance au feu. Bonus de résistance à l'énergie du feu de 5DR et sauvegarde +DR.</li><li><strong>Écaille de volatïque</strong> — Résistance à l'électricité. Bonus de résistance à l'énergie électrique de 5DR et sauvegarde +DR.</li><li><strong>Plaques de rhinocéros</strong> — Réduit de DR catégorie les actions qui forcent le déplacement, la chute, etc.</li></ul></div><div class="arch-formes-group"><span class="arch-formes-cat">◆ Membres &amp; utilitaires</span><ul><li><strong>Tentacules de poulpe</strong> — Membres préhensiles supplémentaires. Peut manipuler des choses ou réaliser des actions tactiques ou d'attaque (catégorie 0) sur une cible à distance maximale de 4DR.</li><li><strong>Langue de caméléon</strong> — Arme naturelle basée sur AGI, catégorie 0, portée 2DR, entraînement 2. Spécialisé en tactique (+1 aux tests tactiques, ne peut pas réaliser d'action d'attaque).</li><li><strong>Queue préhensile de singe</strong> — Membre supplémentaire permettant de saisir, s'accrocher et manipuler.</li><li><strong>Poche de marsupial</strong> — Permet le camouflage d'un objet de catégorie 1 maximum avec une difficulté de détection de 10 + 2DR.</li><li><strong>Ventouses de poulpe</strong> — Adhérence, lutte et manipulation améliorées.</li><li><strong>Cou de hibou</strong> — Le personnage peut voir tout autour de lui. La somme des pénalités liées au fait d'être pris en tenaille, dans le dos, etc. est réduite de DR.</li><li><strong>Pattes de bouc</strong> — Arme naturelle basée sur AGI, catégorie DR, entraînement 2. Spécialisé en tactique (+1 aux tests tactiques, ne peut pas réaliser d'action d'attaque).</li><li><strong>Poumons de phoque</strong> — Bonus de 2DR aux tests contre les gaz et suffocations.</li><li><strong>Bras de gorille</strong> — Bonus de DR aux tests d'athlétisme visant à mesurer la force. Arme naturelle basée sur FOR, catégorie DR, entraînement 2.</li></ul></div><div class="arch-formes-group"><span class="arch-formes-cat">◆ Glandes &amp; capacités biologiques</span><ul><li><strong>Glandes venimeuses</strong> — ACTS — Jet de venin, une cible, une fois par tour, distance 10. Applique la condition venin de catégorie DR.</li><li><strong>Glandes de dragon</strong> — ACTS — Souffle de feu, cône devant soi 1/3/5, une fois par tour. Dégâts de zone catégorie DR.</li><li><strong>Glandes de wyverne</strong> — ACTS — Jet d'acide, zone 3×3, une fois par tour, distance 10. Dégâts de zone catégorie DR.</li><li><strong>Glandes séricigènes</strong> — ACTS — Jet de toile, une cible, une fois par tour, distance 10. Applique la condition entoilé de catégorie DR (équivalent paralysie).</li><li><strong>Électrocytes d'anguille</strong> — ACTS — Décharge électrique sur toutes les créatures en contact direct (tenues ou tenant le personnage), une fois par tour. Dégâts de zone catégorie DR, validant automatiquement la partie défense ; sauvegarde de réflexe pour le reste.</li><li><strong>Sac d'encre de poulpe</strong> — ACTS — Nuage obscurcissant : zone 3×3 (7×7 dans l'eau), une fois par tour, distance 10. Pénalité de visibilité 2DR.</li><li><strong>Glandes de mouffette</strong> — ACTS — Projection nauséabonde en AOE 5×5, une fois par tour. Pénalité d'ajustement DR aux actions menées dans la zone (sauf le personnage) et moral réduit de DR.</li><li><strong>Bombardier</strong> — ACTS — Projection chimique brûlante, zone 3×3, une fois par tour, distance 10. Dégâts de zone catégorie DR.</li><li><strong>Sang défensif du lézard cornu</strong> — ACTS — Projection irritante depuis les yeux, une cible, une fois par tour, distance 10. Applique la condition cécité de catégorie DR.</li></ul></div>
+</details>
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la compétence Polymorphisme et l'action <strong>Activer une forme</strong>. Il acquiert ses premières formes selon son rang de Polymorphisme.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (9)</summary>
+  <ul><li><strong>Répertoire étendu</strong> — Le personnage peut choisir 2 nouvelles formes à ajouter à son répertoire.</li><li><strong>Forme prolongée</strong> — La forme peut durer toute une journée. Chaque nouvelle scène requiert 2 PC supplémentaires. Si le personnage a dépensé plus de 15 PC de la sorte, la forme est maintenue jusqu'à la fin de la journée quoi qu'il arrive.</li><li><strong>Maîtrise du polymorphisme</strong> — Activer ou désactiver une forme n'est plus une action risquée. Le personnage peut débuter une confrontation en activant une forme en action gratuite.</li><li><strong>Polymorphisme rapide</strong> — Activer une forme peut se faire en ACTS en augmentant le coût en PC de 2. Mettre fin à la forme peut également se faire en ACTS sans surcoût.</li><li><strong>Cumul de formes</strong> — Le personnage peut cumuler 2 formes actives simultanément. Cette amélioration peut être prise plusieurs fois pour augmenter le nombre de formes cumulables.</li><li><strong>Efficacité</strong> — Le coût en PC du Polymorphisme est réduit de 2.</li><li><strong>Activation multiple</strong> — Lorsqu'il réalise un test de Polymorphisme, le personnage peut activer plusieurs formes connues en une seule action. Le coût en PC augmente de 3 pour chaque forme supplémentaire.</li><li><strong>Substitution</strong> — Lorsqu'au moins une forme est active, le personnage peut remplacer l'une de ses formes actives par une autre sans mettre fin au Polymorphisme, en ACTL.</li><li><strong>Réflexe polymorphe</strong> — Une forme peut être activée via ACTR lorsqu'elle constitue une réponse immédiate à une situation.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-17">
+  <div class="arch-header" onclick="toggleArch('arch-17')">
+    <span class="arch-nom">Temps</span>
+    <span class="arch-concept">Optimisation du temps hors combat — accumuler et dépenser des points de Temps pour gagner des activités supplémentaires</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype du Temps représente non pas un pouvoir magique mais une capacité impressionnante à bien gérer son temps : préparations en amont, agencement, optimisation. Rien de surnaturel — juste de la maîtrise.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Points de Temps</th><td>À la fin de chaque journée, le personnage gagne 1 point de Temps, jusqu'à un maximum de <strong>5 + mVOL</strong>. Il peut dépenser <strong>4 Temps</strong> pour obtenir une activité courte supplémentaire, ou <strong>8 Temps</strong> pour une activité longue supplémentaire.</td></tr><tr><th>Optimiser son temps — ACTL &amp; 2 PS</th><td>Le personnage gagne <strong>1 Initiative</strong>, +1 par tranche de 2 améliorations acquises dans cet archétype.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la ressource <strong>Temps</strong> et l'action <strong>Optimiser son temps</strong>.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (10)</summary>
+  <ul><li><strong>Organiser son temps</strong> — Sacrifier une activité courte → gagne 1 point de Temps. Sacrifier une activité longue → gagne 2 points de Temps. Le personnage ne peut sacrifier ainsi qu'une activité de son choix par jour.</li><li><strong>Emprunter du temps</strong> — Le personnage peut obtenir immédiatement une activité supplémentaire sans dépenser de Temps. Il contracte une dette de 2 activités du même type. Tant que cette dette n'est pas entièrement remboursée, cette amélioration ne peut plus être utilisée. Lorsqu'une activité correspondante devient disponible, le personnage peut la sacrifier pour réduire sa dette de 1.</li><li><strong>Temps pour soi</strong> — Lorsque le personnage dépense des points de Temps pour obtenir une activité supplémentaire, il bénéficie d'une récupération égale à la moitié des points de Temps effectivement dépensés, arrondie à l'inférieur. Les points remplacés par de la Fatigue via Heures supplémentaires ne sont pas considérés comme dépensés et n'accordent aucune récupération.</li><li><strong>Optimisation</strong> — Gain de 2 points de Temps par jour qui passe, au lieu d'un.</li><li><strong>Temps morts</strong> — Le personnage peut réaliser une activité courte ou longue durant une période normalement improductive suffisamment longue (voyage, attente), à condition que les circonstances le permettent matériellement. Le coût en Temps est réduit de 2 (activité courte) ou 4 (activité longue).</li><li><strong>Planification</strong> — Lorsqu'il sait à l'avance quelle activité il réalisera le lendemain, le personnage peut la préparer la veille en la déclarant. Cette activité lui coûtera 1 point de Temps de moins si elle est courte, 2 de moins si elle est longue.</li><li><strong>Temps partagé</strong> — Le personnage peut dépenser son Temps au bénéfice d'un autre personnage, qui réalise l'activité à sa place. Il peut dépenser 1 ou 2 points de Temps supplémentaires pour s'inclure dans l'activité ou y inclure un autre personnage.</li><li><strong>Routine</strong> — Le personnage choisit un type spécifique d'activité (courte ou longue). Pour ce type d'activité, le coût est réduit à 3 (courte) ou 6 (longue). De plus, lorsqu'il réalise ces activités, il bénéficie d'une récupération de 1 (courte) ou 2 (longue).</li><li><strong>Heures supplémentaires</strong> — Lorsqu'il dépense du Temps pour obtenir une activité supplémentaire, le personnage peut remplacer tout ou partie des points manquants par 7 Fatigue par point de Temps. Cette Fatigue est subie avant l'activité et ne bénéficie d'aucune récupération jusqu'au début de la journée suivante.</li><li><strong>Agenda chargé</strong> — Le maximum de points de Temps que peut conserver le personnage est augmenté de 5.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-18">
+  <div class="arch-header" onclick="toggleArch('arch-18')">
+    <span class="arch-nom">Célébrité</span>
+    <span class="arch-concept">Réseau social et contacts — trouver la bonne personne, évaluer sa fiabilité et négocier son aide</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de la Célébrité donne au personnage un réseau de contacts qu'il peut mobiliser via des recherches. Six dispositions (Gloire, Influence, Prestige, Confiance, Engagement, Crédit) définissent la qualité de ce réseau. Les valeurs de départ dépendent du milieu d'origine choisi.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Dispositions</th><td><strong>Gloire</strong> — rayonnement du réseau (nombre de contacts privilégiés). <strong>Influence</strong> — facilité à trouver quelqu'un. <strong>Prestige</strong> — niveau d'accès du contact. <strong>Confiance</strong> — fiabilité du contact. <strong>Engagement</strong> — jusqu'où il ira. <strong>Crédit</strong> — contrepartie exigée.</td></tr><tr><th>Contacts privilégiés</th><td>Le score de <strong>Gloire</strong> détermine le nombre de contacts bien établis dont dispose le personnage, chacun ancré dans une sphère précise (ex. : Premier ministre, seigneur de guerre…). Ces contacts définissent un niveau d'accès de 1 à 6. Seul le récit permet d'en obtenir de nouveaux ou d'accéder à des niveaux plus élevés (à la discrétion du MJ).</td></tr><tr><th>Recherche de contact — activité longue &amp; 5 PS</th><td>Le personnage vérifie d'abord s'il dispose d'un contact privilégié dans la sphère concernée : si oui et qu'il choisit de le faire jouer, il gagne +1 à toutes les dispositions pour cette recherche. Il tire ensuite <strong>5D6</strong>, lus de gauche à droite comme : Influence · Prestige · Confiance · Engagement · Crédit. La <strong>valeur effective</strong> de chaque disposition = résultat du dé, plafonné au score de la disposition.</td></tr><tr><th>Influence — accès au contact</th><td>Difficulté du test : <strong>15 + Prestige × 2 − Influence × 2</strong>. Réussite : contact disponible. Réussite critique : disponible maintenant et lors de la prochaine sollicitation sans test. Échec : non disponible pour l'instant, réessayable via une nouvelle activité longue. Échec critique : le contact refuse définitivement.</td></tr><tr><th>Prestige — niveau d'accès</th><td>1 Individu (moyens personnels) · 2 Initié (accès ordinaires) · 3 Responsable (moyens restreints) · 4 Autorité (moyens importants) · 5 Décideur (influence à grande échelle) · 6 Sommité (sommet de sa sphère).</td></tr><tr><th>Confiance — fiabilité</th><td>Le MJ tire 1D6 secrètement : si le résultat dépasse le score de Confiance obtenu, le contact trahira le personnage si l'occasion se présente (mais il aidera quand même). 1 Suspecte · 2 Fragile · 3 Professionnelle · 4 Solide · 5 Fidèle · 6 Absolue.</td></tr><tr><th>Engagement — implication</th><td>1 Minimal (aucun coût) · 2 Disponible (temps/ressources mineures) · 3 Impliqué (contrainte ou risque limité) · 4 Engagé (risque significatif) · 5 Dévoué (position ou sécurité en jeu) · 6 Indéfectible (carrière, liberté ou vie en jeu).</td></tr><tr><th>Crédit — contrepartie</th><td>1 Exorbitant (contrepartie majeure) · 2 Important (service ou paiement conséquent) · 3 Équitable (contrepartie comparable) · 4 Favorable (contrepartie modeste) · 5 Symbolique (geste négligeable) · 6 Gratuit (aucune contrepartie).</td></tr></table>
+    
+    
+    
+    
+    <details class="arch-origines"><summary>Milieux d'origine (7)</summary><table class="orig-table"><thead><tr><th>Milieu</th><th>Gloire</th><th>Influence</th><th>Prestige</th><th>Confiance</th><th>Engagement</th><th>Crédit</th></tr></thead><tbody><tr><td class="orig-nom"><strong>Noble</strong><br><span class="orig-desc">Nombreuses relations établies, accès à des gens importants, mais rapports plus intéressés et moins engagés.</span></td><td class="orig-val">4</td><td class="orig-val">3</td><td class="orig-val">3</td><td class="orig-val">2</td><td class="orig-val">2</td><td class="orig-val">3</td></tr><tr><td class="orig-nom"><strong>Marchand</strong><br><span class="orig-desc">Réseau vaste, excellent pour trouver quelqu'un qui connaît quelqu'un, mais essentiellement transactionnel.</span></td><td class="orig-val">3</td><td class="orig-val">4</td><td class="orig-val">3</td><td class="orig-val">2</td><td class="orig-val">2</td><td class="orig-val">3</td></tr><tr><td class="orig-nom"><strong>Militaire</strong><br><span class="orig-desc">Réseau moins facile à étendre, mais relations particulièrement fiables et esprit de corps marqué.</span></td><td class="orig-val">3</td><td class="orig-val">2</td><td class="orig-val">3</td><td class="orig-val">4</td><td class="orig-val">3</td><td class="orig-val">2</td></tr><tr><td class="orig-nom"><strong>Administration</strong><br><span class="orig-desc">Accès particulièrement bon aux personnes disposant réellement des autorisations et leviers nécessaires, mais peu enclines à prendre des risques.</span></td><td class="orig-val">3</td><td class="orig-val">3</td><td class="orig-val">4</td><td class="orig-val">3</td><td class="orig-val">2</td><td class="orig-val">2</td></tr><tr><td class="orig-nom"><strong>Interlope</strong><br><span class="orig-desc">Trouve facilement quelqu'un, services faciles à négocier, mais contacts peu prestigieux et confiance douteuse.</span></td><td class="orig-val">2</td><td class="orig-val">4</td><td class="orig-val">2</td><td class="orig-val">2</td><td class="orig-val">3</td><td class="orig-val">4</td></tr><tr><td class="orig-nom"><strong>Populaire</strong><br><span class="orig-desc">Peu d'accès aux puissants, mais réseau humain prêt à réellement se mouiller.</span></td><td class="orig-val">3</td><td class="orig-val">3</td><td class="orig-val">2</td><td class="orig-val">3</td><td class="orig-val">4</td><td class="orig-val">2</td></tr><tr><td class="orig-nom"><strong>Religieux</strong><br><span class="orig-desc">Relations solides et relativement désintéressées, mais réseau moins facile à solliciter et implication limitée par les devoirs du contact.</span></td><td class="orig-val">3</td><td class="orig-val">2</td><td class="orig-val">3</td><td class="orig-val">4</td><td class="orig-val">2</td><td class="orig-val">3</td></tr></tbody></table></details>
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage choisit son <strong>milieu d'origine</strong> et acquiert ses valeurs de départ. Il peut désormais réaliser une <strong>recherche de contact</strong> comme activité longue.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (11)</summary>
+  <ul><li><strong>Ascension</strong> — Augmentez définitivement 2 dispositions de 1, jusqu'à un maximum de 6.</li><li><strong>Réputation établie</strong> — Augmentez définitivement une disposition de 2, jusqu'à un maximum de 4.</li><li><strong>Seconde piste</strong> — Après avoir obtenu vos dispositions, vous pouvez relancer un dé. Vous devez conserver le nouveau résultat.</li><li><strong>Faire jouer ses relations</strong> — Échangez les résultats de deux dés de disposition, une fois par lancé de dés.</li><li><strong>Carnet d'adresses</strong> — Lorsque vous terminez une recherche sans faire appel au contact obtenu, conservez le résultat d'une disposition. Lors de votre prochaine tentative dans la même sphère, utilisez cette valeur au lieu de lancer son dé.</li><li><strong>Recommandation</strong> — Lorsqu'un de vos contacts privilégiés sert d'intermédiaire, son bonus de +1 peut être appliqué au résultat d'un dé plutôt qu'au score correspondant.</li><li><strong>Présentation</strong> — Si vous avez déjà pris contact avec une personne dans la sphère visée, vous pouvez utiliser ce contact comme pivot pour en trouver un autre : conservez l'une de ses dispositions et imposez-la à la nouvelle recherche.</li><li><strong>Recherches rapides</strong> — Une recherche peut être effectuée durant une activité courte, mais coûte 2 PS supplémentaires.</li><li><strong>Bouche-à-oreille</strong> — Après avoir échoué au test d'accès, dépensez 2 PS par point de marge d'échec pour transformer cet échec en réussite.</li><li><strong>Prospection</strong> — Lorsque vous refusez volontairement le contact obtenu, votre prochaine tentative dans la même sphère coûte 3 PS de moins. Une fois par recherche.</li><li><strong>Compromis</strong> — Après le tirage, diminuez la valeur effective d'une disposition de 2 pour augmenter celle d'une autre de 1.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-19">
+  <div class="arch-header" onclick="toggleArch('arch-19')">
+    <span class="arch-nom">Récits</span>
+    <span class="arch-concept">Créer et diffuser des récits capables d'influencer les croyances et perceptions d'une population</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Récits permet au personnage de maîtriser l'art de forger et de propager des récits — sagas valorisantes, plaintes diffamatoires ou murmures orientés — capables d'agir sur les comportements d'une population entière. Aucune compétence n'est imposée : le vecteur et la compétence associée sont déterminés ensemble par le joueur et le MJ selon les moyens employés.</p>
+    
+    <div class="arch-voies"><strong>Voies :</strong><ul><li><strong>Saga</strong> — Valorise une personne, un groupe ou une organisation et contribue à sa renommée.</li><li><strong>Plainte</strong> — Dévalorise une personne, un groupe ou une organisation et nuit à son image.</li><li><strong>Murmure</strong> — Répand une croyance qui n'est principalement ni valorisante ni dévalorisante, généralement afin d'influencer indirectement les comportements (« un monstre hante ces ruines », « un trésor est caché ici », etc.).</li></ul></div>
+    <table class="arch-mec"><tr><th>Création d'un récit — activité longue &amp; 5 PS</th><td>Le personnage choisit librement un vecteur (discours, chanson, pamphlet, œuvre artistique, réseau de connaissances, graffitis, prêche…). Le joueur et le MJ déterminent ensemble la compétence la plus adaptée. Le personnage effectue un test avec une <strong>difficulté d'évaluation de 5</strong> : chaque tranche de 5 au-dessus de 10 apporte 1 DR (10 = 1 DR, 15 = 2 DR, 20 = 3 DR…). Les circonstances, faits réels, témoignages, documents ou préparations pertinentes peuvent fournir des bonus à l'appréciation du MJ.</td></tr><tr><th>Répartition des DR</th><td>Les DR obtenus sont librement répartis entre <strong>Portée</strong>, <strong>Crédibilité</strong>, <strong>Impact</strong> et <strong>Discrétion</strong> (voir table ci-dessous). Par défaut, un récit produit ses effets pendant environ <strong>48 heures</strong> et ne se propage pas spontanément au-delà de la population initialement touchée.</td></tr><tr><th>Saga &amp; Plainte — effet mécanique</th><td>En marge de la fiction, une <strong>Saga</strong> peut octroyer un avantage aux tests de prestige du sujet concerné, et une <strong>Plainte</strong> lui impose des désavantages — à raison d'un avantage/désavantage par DR placé dans Impact.</td></tr><tr><th>Vérité et mensonge</th><td>La véracité, la plausibilité et les éventuelles preuves soutenant ou contredisant un récit peuvent modifier son efficacité à l'appréciation du MJ.</td></tr></table>
+    
+    
+    
+    <details class="arch-drtable"><summary>Table des DR</summary><table class="dr-table"><thead><tr><th>DR</th><th>Portée</th><th>Crédibilité</th><th>Impact</th><th>Discrétion</th></tr></thead><tbody><tr><td class="dr-badge">0</td><td>Cercle restreint</td><td>Douteux</td><td>Anecdotique</td><td>Origine évidente</td></tr><tr><td class="dr-badge">1</td><td>Quartier / village</td><td>Plausible</td><td>Sensible</td><td>Origine dissimulée</td></tr><tr><td class="dr-badge">2</td><td>Cité et environs</td><td>Convaincant</td><td>Important</td><td>Enquête nécessaire</td></tr><tr><td class="dr-badge">3</td><td>Région / province</td><td>Établi</td><td>Majeur</td><td>Très difficile à retracer</td></tr><tr><td class="dr-badge">4</td><td>Royaume</td><td>—</td><td>Exceptionnel</td><td>—</td></tr><tr><td class="dr-badge">5</td><td>Royaumes voisins</td><td>—</td><td>Exceptionnel</td><td>—</td></tr><tr><td class="dr-badge">6</td><td>Continent</td><td>—</td><td>Exceptionnel</td><td>—</td></tr></tbody></table></details>
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage choisit son type de récit initial (<strong>Saga</strong>, <strong>Plainte</strong> ou <strong>Murmure</strong>) et peut désormais créer des récits de ce type.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (9)</summary>
+  <ul><li><strong>Nouveau récit</strong> — Le personnage choisit un type de récit supplémentaire (Saga, Plainte ou Murmure) et peut désormais créer des récits de ce type. Cette amélioration peut être acquise plusieurs fois.</li><li><strong>Propagation</strong> — Le personnage peut investir des DR supplémentaires pour que son récit se diffuse de lui-même jusqu'à sa Portée maximale. 1 DR : propagation lente ; 2 DR : rapide ; 3 DR : fulgurante.</li><li><strong>Persistance</strong> — Le personnage peut investir des DR dans la durée du récit. Au lieu des 48 heures habituelles : 1 DR ≈ une semaine ; 2 DR ≈ un mois ; 3 DR ≈ une année.</li><li><strong>Bouc émissaire</strong> — Le personnage prépare une couverture, un intermédiaire ou une fausse piste. Lorsqu'une enquête devrait remonter jusqu'à lui, il est prévenu et sa couverture est découverte à sa place, lui laissant un délai pour réagir avant que les recherches puissent reprendre.</li><li><strong>Terrain favorable</strong> — Lorsque le personnage prépare son récit en réunissant des éléments susceptibles de le soutenir (faits, témoignages, documents, événements concordants…), les bonus circonstanciels accordés par le MJ à son test sont doublés.</li><li><strong>Rumeur express</strong> — Le personnage peut créer un récit durant une activité courte à la place d'une longue, mais le coût en PS augmente de 2.</li><li><strong>Entretenir la rumeur</strong> — Une fois un récit établi, le personnage peut dépenser une action de création de récit (coûts habituels en PS et activité) pour l'entretenir à la place : le récit en cours gagne +1 dans un domaine au choix. Ce bonus peut être appliqué à la durée (si Persistance est acquise) ou à la diffusion (si Propagation est acquise). Maximum deux fois par récit, et jamais pour un même domaine.</li><li><strong>La rumeur ne meurt jamais</strong> — Le récit fait connaître son sujet au-delà de sa durée. Même après sa disparition, la notoriété ou la diffamation acquise peut subsister légèrement. Un nouveau récit exploitant cette renommée bénéficie d'un bonus de +2 au test. Mécaniquement, à chaque fois que la durée est écoulée, Crédibilité et Impact sont réduits de 1 (minimum 0) — le récit ne disparaît jamais complètement.</li><li><strong>Suggestion</strong> — Lors de la création d'un récit, le personnage peut préciser la réaction qu'il cherche à provoquer chez ceux qui y croient. Le MJ conserve la maîtrise des réactions, mais interprète les effets de l'Impact en tenant compte de cette intention.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-20">
+  <div class="arch-header" onclick="toggleArch('arch-20')">
+    <span class="arch-nom">Foi</span>
+    <span class="arch-concept">Accumuler des Grâces par la prière et les invoquer pour obtenir des avantages aux sauvegardes</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de la Foi permet au personnage de cultiver la faveur divine sous forme de <strong>Grâces</strong>, accumulées par la prière et dépensées pour bénéficier d'avantages aux moments critiques.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Prière — activité courte</th><td>Le personnage se consacre à la prière et effectue un <strong>test de Religion difficulté 15</strong>. Échec critique : perd 1 Grâce (si possible). Échec : aucun effet. Réussite : gagne 1 Grâce. Réussite critique : gagne 2 Grâces. La prière peut être répétée autant de fois que le personnage dispose d'activités courtes. En activité longue, le test est <strong>avantagé</strong>.</td></tr><tr><th>Grâces</th><td>Le personnage peut posséder un nombre de Grâces égal à son <strong>modificateur de Sagesse</strong>. Les Grâces sont conservées jusqu'au prochain repos, puis disparaissent.</td></tr><tr><th>Invoquer une Grâce — action rapide</th><td>À tout moment où il doit effectuer un test de Sauvegarde, le personnage peut invoquer une Grâce pour obtenir l'<strong>Avantage</strong> à ce test. Cela consomme 1 Grâce. En dehors d'une confrontation, l'usage de l'action rapide est négligeable.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la <strong>prière</strong> et la ressource <strong>Grâces</strong>.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (6)</summary>
+  <ul><li><strong>Intercession</strong> — Le personnage peut invoquer une Grâce au bénéfice d'un allié plutôt que pour lui-même.</li><li><strong>Grâce éternelle</strong> — Les Grâces du personnage n'expirent plus lors d'un repos.</li><li><strong>Inspiration divine</strong> — Le personnage peut également invoquer une Grâce afin d'obtenir l'Avantage à un test de Compétence.</li><li><strong>Foi inspirante</strong> — Lorsqu'une Grâce est invoquée, son bénéficiaire gagne également un bonus de Moral égal au modificateur de Sagesse du personnage.</li><li><strong>Ferveur</strong> — Le maximum de Grâces du personnage augmente de 2.</li><li><strong>Providence</strong> — Après avoir échoué à un test de Sauvegarde, le personnage peut invoquer 2 Grâces pour le relancer.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-21">
+  <div class="arch-header" onclick="toggleArch('arch-21')">
+    <span class="arch-nom">Honneur</span>
+    <span class="arch-concept">Suivre un Code d'Honneur volontaire dont les contraintes génèrent des effets passifs proportionnels à leur exigence</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype de l'Honneur ne repose pas sur une ressource à dépenser : sa puissance provient directement des restrictions que le personnage accepte de respecter. L'Honneur ne mesure pas sa bonté, mais sa fidélité à ses propres principes — qu'il s'agisse du code d'un chevalier, d'un mercenaire, d'un criminel ou d'un membre de clan.</p>
+    
+    
+    <table class="arch-mec"><tr><th>Code d'Honneur</th><td>Le personnage constitue son Code d'Honneur, formé de préceptes qu'il s'impose volontairement. Chaque précepte vaut 1, 2 ou 3 points d'Honneur selon la contrainte réelle qu'il représente. À l'obtention de l'archétype, le Code peut contenir jusqu'à <strong>4 points d'Honneur</strong>, avec un maximum de <strong>2 préceptes par rang</strong>. Un précepte qui ne constitue pratiquement jamais une contrainte ne rapporte aucun Honneur ; deux préceptes essentiellement équivalents ne peuvent pas être cumulés.</td></tr><tr><th>Rangs de préceptes</th><td><strong>Rang 1 (1 Honneur)</strong> — Contrainte réelle mais situationnelle. <strong>Rang 2 (2 Honneur)</strong> — Contrainte importante, susceptible de coûter régulièrement quelque chose. <strong>Rang 3 (3 Honneur)</strong> — Contrainte majeure, pouvant déterminer la conduite du personnage pendant une scène entière.</td></tr><tr><th>Honneur effectif &amp; effets passifs</th><td>L'Honneur effectif est égal à la somme des préceptes actuellement respectés. Les préceptes déshonorés restent inscrits dans le Code mais ne fournissent plus aucun point. <strong>Effet passif de base : +1 Équilibre par point d'Honneur effectif.</strong> Les effets passifs sont toujours calculés à partir de cet Honneur effectif.</td></tr><tr><th>Déshonneur</th><td>Le Code n'interdit jamais mécaniquement une action. Lorsque le personnage transgresse consciemment un précepte alors qu'il disposait d'une possibilité raisonnable de le respecter, ce précepte devient <strong>Déshonoré</strong> et sa valeur est immédiatement retirée de l'Honneur effectif. Une action imposée, accomplie à l'insu du personnage ou sans possibilité raisonnable de s'y soustraire ne provoque normalement pas de Déshonneur.</td></tr><tr><th>Rédemption</th><td>Restaurer un précepte déshonoré nécessite <strong>1 semaine par point d'Honneur du précepte</strong>, ainsi qu'un ou plusieurs actes appropriés dans la fiction. Le temps seul ne permet jamais de restaurer un précepte.</td></tr></table>
+    <details class="arch-exemples"><summary>Exemples de préceptes (12)</summary><div class="arch-ex-group"><span class="arch-ex-rang">Rang 1</span><ul><li><strong>Ne jamais mentir ouvertement</strong> — Le personnage peut esquiver une question, se taire ou jouer sur les mots, mais ne formule jamais sciemment une affirmation fausse.</li><li><strong>Honorer l'hospitalité reçue</strong> — Le personnage ne vole pas, ne menace pas et n'agresse pas volontairement celui qui l'accueille tant qu'il demeure son invité.</li><li><strong>Ne jamais frapper un adversaire à terre</strong> — Une cible inconsciente, tombée ou clairement hors d'état de combattre n'est plus une cible légitime.</li><li><strong>Respecter les morts</strong> — Le personnage refuse de profaner gratuitement les dépouilles ou de manquer volontairement de respect aux morts.</li></ul></div><div class="arch-ex-group"><span class="arch-ex-rang">Rang 2</span><ul><li><strong>Toujours tenir parole</strong> — Une promesse explicitement donnée doit être tenue, même lorsqu'elle devient désavantageuse.</li><li><strong>Ne jamais refuser un défi équitable</strong> — Lorsqu'un adversaire comparable propose ouvertement un affrontement dans des conditions raisonnables, le personnage doit accepter.</li><li><strong>Protéger ceux placés sous sa responsabilité</strong> — Le personnage ne peut volontairement abandonner quelqu'un dont il a accepté la protection ou la responsabilité.</li><li><strong>Ne jamais attaquer par surprise</strong> — Un adversaire conscient doit avoir la possibilité de comprendre qu'un affrontement débute avant que le personnage ne l'attaque.</li></ul></div><div class="arch-ex-group"><span class="arch-ex-rang">Rang 3</span><ul><li><strong>Accorder la vie à celui qui se rend</strong> — Un adversaire qui capitule sincèrement ne peut être exécuté ou volontairement abandonné à une mort certaine.</li><li><strong>Ne jamais abandonner un compagnon</strong> — Tant qu'un allié est vivant et qu'une possibilité raisonnable de le sauver existe, le personnage ne choisit pas simplement sa propre sécurité.</li><li><strong>Une dette doit être acquittée</strong> — Une personne ayant sauvé la vie du personnage ou lui ayant rendu un service exceptionnel obtient une dette qui doit être honorée, même s'il s'agit d'un ennemi.</li><li><strong>Accepter les conséquences de ses actes</strong> — Lorsque le personnage est légitimement tenu responsable d'une faute qu'il a réellement commise, il ne fuit pas simplement le jugement ou la réparation qui lui incombe.</li></ul></div></details>
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage constitue son <strong>Code d'Honneur</strong> (jusqu'à 4 points, max 2 préceptes par rang) et bénéficie des effets passifs correspondants.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (4)</summary>
+  <ul><li><strong>Code renforcé</strong> — Le maximum d'Honneur pouvant être contenu dans le Code augmente de 2. Peut être pris plusieurs fois, jusqu'à 3 fois (maximum 10 points d'Honneur au total).</li><li><strong>Exemplarité</strong> — Le personnage gagne +1 Moral par tranche de 2 points d'Honneur effectif.</li><li><strong>Ascèse</strong> — Le personnage gagne +1 Récupération par tranche de 2 points d'Honneur effectif.</li><li><strong>Inébranlable</strong> — Le personnage gagne +1 Résilience par tranche de 2 points d'Honneur effectif.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-22">
+  <div class="arch-header" onclick="toggleArch('arch-22')">
+    <span class="arch-nom">Glyphes</span>
+    <span class="arch-concept">Apposer sur une créature des formules magiques réagissant à ses actions ou aux événements qu'elle subit</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Glyphes est une pratique magique permettant d'apposer sur une créature un Enchantement (Sortilège) qui se déclenche automatiquement selon une condition définie par la formule. Un Glyphe suit toutes les règles des Sortilèges, sauf mention contraire. Utilise la compétence <strong>Glyphes</strong> (groupe Arcane, attribut <strong>MAG</strong>).</p>
+    
+    <div class="arch-voies"><strong>Voies :</strong><ul><li><strong>Faste</strong> — Le Glyphe produit un effet favorable à son porteur.</li><li><strong>Néfaste</strong> — Le Glyphe produit le pendant défavorable de cet effet, pénalisant son porteur.</li></ul></div>
+    <table class="arch-mec"><tr><th>Formules</th><td>À l'acquisition de l'archétype, le personnage apprend <strong>3 formules</strong> de Glyphes (maximum par défaut). Chaque formule est un Sortilège distinct occupant un emplacement de mémoire. Le personnage choisit de maîtriser les Glyphes <strong>fastes</strong> ou <strong>néfastes</strong> : il ne peut employer que cette polarité. Les deux formes d'une même formule ne constituent pas deux formules différentes — apprendre la seconde polarité ne consomme aucun emplacement supplémentaire.</td></tr><tr><th>Puissance &amp; niveau</th><td>La puissance propre d'une formule est généralement fixe. Le niveau auquel le Glyphe est lancé détermine principalement les caractéristiques de l'Enchantement (charges, persistance), pas l'intensité de l'effet. Les valeurs entre parenthèses correspondent à la version avancée (amélioration <strong>Glyphes avancés</strong>).</td></tr><tr><th>Glyphe de Vertus [Compétence]</th><td>Formule associée à une compétence choisie lors de l'apprentissage. Chaque compétence constitue une formule distincte. <strong>Faste</strong> : Bonus de 3 (5) si le bonus permet d'améliorer effectivement l'issue du test (transformer un échec en réussite, améliorer le degré ou éviter une maladresse). <strong>Néfaste</strong> : Malus de 3 (5) s'il permet de dégrader effectivement l'issue (transformer une réussite en échec, réduire le degré ou provoquer une maladresse).</td></tr></table>
+    
+    
+<details class="arch-formules">
+  <summary>Formules (19)</summary>
+  <table class="form-table">
+    <thead><tr><th>Formule / Déclencheur</th><th>⬡ Faste</th><th>▼ Néfaste</th></tr></thead>
+    <tbody><tr><td class="form-nom"><strong>Glyphe de l'Ancre</strong><br><span class="form-decl">Test de Sauvegarde</span></td><td class="form-faste">Bonus de 3 (5) au test de Sauvegarde s'il permet d'en améliorer effectivement l'issue.</td><td class="form-nefaste">Malus de 3 (5) au test de Sauvegarde s'il permet d'en dégrader effectivement l'issue.</td></tr><tr><td class="form-nom"><strong>Glyphe de Fracas</strong><br><span class="form-decl">Attaque</span></td><td class="form-faste">L'attaque produit une onde de choc infligeant X dégâts physiques perforants (ignore la résistance) par D8, qu'elle touche ou non. Affecte tous les protagonistes au contact.</td><td class="form-nefaste">Le porteur subit X dégâts physiques perforants (ignore la résistance) par D8 lorsqu'il réalise une attaque, que celle-ci touche ou non.</td></tr><tr><td class="form-nom"><strong>Glyphe de l'Éclipse</strong><br><span class="form-decl">Esquive</span></td><td class="form-faste">L'Esquive permet au porteur de se téléporter sur une courte distance de 3 (5) cases.</td><td class="form-nefaste">L'Esquive provoque des opportunités facilitées : elles coûtent 2 (3) points d'Initiative en moins et reçoivent un bonus de 3 (5).</td></tr><tr><td class="form-nom"><strong>Glyphe du Courage</strong><br><span class="form-decl">Blocage</span></td><td class="form-faste">Le Blocage génère 10 (15) Garde, qu'il réussisse ou non.</td><td class="form-nefaste">Le Blocage fait perdre X Garde au porteur. (valeur à définir)</td></tr><tr><td class="form-nom"><strong>Glyphe de Vaillance</strong><br><span class="form-decl">Parade</span></td><td class="form-faste">La Parade génère 10 (15) Adrénaline, qu'elle réussisse ou non.</td><td class="form-nefaste">La Parade fait perdre X Adrénaline au porteur. (valeur à définir)</td></tr><tr><td class="form-nom"><strong>Glyphe de Colère</strong><br><span class="form-decl">Représailles</span></td><td class="form-faste">Les Représailles génèrent 10 (15) Rage.</td><td class="form-nefaste">Les Représailles font perdre X Rage au porteur. (valeur à définir)</td></tr><tr><td class="form-nom"><strong>Glyphe des Alizées</strong><br><span class="form-decl">Déplacement</span></td><td class="form-faste">La distance du Déplacement est augmentée de 3 (5).</td><td class="form-nefaste">La distance du Déplacement est réduite de 3 (5).</td></tr><tr><td class="form-nom"><strong>Glyphe du Sablier</strong><br><span class="form-decl">Tactique</span></td><td class="form-faste">Lorsqu'une Tactique réussit, sa cible perd 3 (5) Initiative supplémentaire.</td><td class="form-nefaste">Lorsqu'il réalise une Tactique, le porteur perd 3 (5) Initiative.</td></tr><tr><td class="form-nom"><strong>Glyphe de Violence</strong><br><span class="form-decl">Attaque subie</span></td><td class="form-faste">Lorsqu'il subit une Attaque, le porteur peut contre-attaquer immédiatement à titre d'attaque supplémentaire gratuite. Version avancée : cette contre-attaque est avantagée.</td><td class="form-nefaste">Lorsqu'il subit une Attaque, le porteur ne peut pas contre-attaquer par quelque moyen que ce soit (parade ou représailles ne produisent aucun dégât). Version avancée : à définir.</td></tr><tr><td class="form-nom"><strong>Glyphe de Gravité</strong><br><span class="form-decl">Tactique subie</span></td><td class="form-faste">Lorsqu'il subit une Tactique, le porteur en réduit l'impact d'un tiers (moitié).</td><td class="form-nefaste">Lorsqu'il subit une Tactique, le porteur en augmente l'impact d'un tiers (moitié).</td></tr><tr><td class="form-nom"><strong>Glyphe de la Source</strong><br><span class="form-decl">Incantation d'un Sort</span></td><td class="form-faste">Le Drain et le Drain minimum du Sort sont réduits respectivement de 3 (5) et 2 (3).</td><td class="form-nefaste">Le Drain et le Drain minimum du Sort sont augmentés respectivement de 6 (10) et 3 (5).</td></tr><tr><td class="form-nom"><strong>Glyphe de la Balance</strong><br><span class="form-decl">Réception d'une Condition</span></td><td class="form-faste">Réduit de 10 (15) les charges de la Condition reçue.</td><td class="form-nefaste">Augmente de 10 (15) les charges de la Condition reçue.</td></tr><tr><td class="form-nom"><strong>Glyphe de la Tombe</strong><br><span class="form-decl">Défaite ou mort du porteur</span></td><td class="form-faste">Lorsque le porteur doit être vaincu par des dégâts, ceux-ci sont réduits au minimum nécessaire pour le laisser à 1 PV, avec une réduction maximale de 15 (25).</td><td class="form-nefaste">Lorsque le porteur est tué (PV réduits en deçà de 20 %), son corps est immédiatement désintégré et il ne peut être ramené à la vie par aucun moyen.</td></tr><tr><td class="form-nom"><strong>Glyphe du Feu / de Glace / de Foudre</strong><br><span class="form-decl">Attaque de mêlée réalisée ou subie</span></td><td class="form-faste">L'adversaire subit la condition brûlure / gel / choc avec 10 (15) charges.</td><td class="form-nefaste">Le porteur subit la condition brûlure / gel / choc avec 10 (15) charges. (3 versions distinctes)</td></tr><tr><td class="form-nom"><strong>Glyphe de Vie</strong><br><span class="form-decl">Perte de PV</span></td><td class="form-faste">Jusqu'à 10 (15) PV perdus sont immédiatement soignés (avec les conséquences habituelles sur la fatigue).</td><td class="form-nefaste">Jusqu'à 10 (15) PV perdus sont immédiatement soignés, mais la Fatigue ainsi générée est triplée.</td></tr><tr><td class="form-nom"><strong>Glyphe de Vision</strong><br><span class="form-decl">Entrée dans une zone dissimulée ou approche d'un sujet caché</span></td><td class="form-faste">Le porteur est prévenu ; un test de perception adapté pour débusquer le sujet est avantagé et peut être réalisé en action gratuite.</td><td class="form-nefaste">Le porteur ne peut pas remarquer spontanément le sujet dissimulé et est privé de tout test d'intuition préalable. Tout test visant à le détecter est désavantagé (doublement désavantagé).</td></tr><tr><td class="form-nom"><strong>Glyphe de Vérité</strong><br><span class="form-decl">Quelqu'un ment à proximité du porteur</span></td><td class="form-faste">Le porteur est prévenu ; un test d'empathie adapté est avantagé et peut être réalisé en action gratuite.</td><td class="form-nefaste">Comme Glyphe de Vision (néfaste), mais appliqué au mensonge.</td></tr><tr><td class="form-nom"><strong>Glyphe d'Ego</strong><br><span class="form-decl">Échec du porteur</span></td><td class="form-faste">Le porteur peut ignorer les conséquences supplémentaires de l'échec et tenter à nouveau l'action ultérieurement (avec avantage) comme s'il ne l'avait jamais entreprise. Une maladresse reste un échec mais ses conséquences particulières sont annulées.</td><td class="form-nefaste">Les conséquences de l'échec sont drastiquement accrues. Si elles sont chiffrables, elles sont doublées (triplées).</td></tr><tr><td class="form-nom"><strong>Glyphe d'Arcane</strong><br><span class="form-decl">Lancer un sort</span></td><td class="form-faste">Le sort lancé voit son jet assuré +1 (très assuré +2) et majoré +1 par dé (très majoré +2).</td><td class="form-nefaste">Le sort lancé voit son jet limité -1 (très limité -2) et minoré -1 par dé (très minoré -2).</td></tr></tbody>
+  </table>
+</details>
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la compétence <strong>Glyphes</strong>, apprend <strong>3 formules</strong> et choisit sa polarité (<strong>Faste</strong> ou <strong>Néfaste</strong>).</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (8)</summary>
+  <ul><li><strong>Maîtrise des Glyphes</strong> — Le niveau maximum des Glyphes du personnage est augmenté de 1.</li><li><strong>Répertoire étendu</strong> — Ajoute 5 emplacements de mémoire dédiés exclusivement aux Glyphes.</li><li><strong>Cadence accrue</strong> — Le personnage peut lancer un Glyphe une fois par tour au lieu d'une fois tous les deux tours.</li><li><strong>Bibliothèque des Glyphes</strong> — Le nombre maximum de formules que le personnage peut apprendre est doublé, passant de 3 à 6.</li><li><strong>Double polarité</strong> — Le personnage maîtrise désormais les deux polarités de toutes les formules qu'il connaît (fastes et néfastes).</li><li><strong>Glyphes avancés</strong> — Les effets des formules sont améliorés selon les valeurs entre parenthèses dans leur description. Le jet est minoré de 1 par dé et le coût augmenté de 1 PS.</li><li><strong>Glyphes stables</strong> — Les Glyphes peuvent être maintenus par défaut.</li><li><strong>Glyphes distants</strong> — Les Glyphes peuvent être lancés à distance (portée 10 + mPER, comme le mot de liaison « long »). La difficulté est augmentée de 2.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-23">
+  <div class="arch-header" onclick="toggleArch('arch-23')">
+    <span class="arch-nom">Sceaux</span>
+    <span class="arch-concept">Imposer durablement une Condition magique à une cible — bénéfique (Faste) ou préjudiciable (Néfaste)</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Sceaux est une pratique magique permettant d'appliquer des Conditions au contact. Un Sceau suit toutes les règles des Sortilèges, sauf mention contraire. Les formules sont directement les Conditions du système correspondant à l'orientation choisie. Utilise la compétence <strong>Sceaux</strong> (groupe Arcane, attribut <strong>MAG</strong>).</p>
+    
+    <div class="arch-voies"><strong>Voies :</strong><ul><li><strong>Faste</strong> — Le Sceau applique une Condition bénéfique à sa cible.</li><li><strong>Néfaste</strong> — Le Sceau applique une Condition préjudiciable à sa cible.</li></ul></div>
+    <table class="arch-mec"><tr><th>Formules</th><td>À l'acquisition de l'archétype, le personnage choisit son orientation (Faste ou Néfaste) et apprend <strong>3 formules</strong> parmi les Conditions correspondantes (maximum par défaut). Chaque Condition accessible constitue une formule distincte et occupe un emplacement de mémoire.</td></tr><tr><th>Application — au contact</th><td>Un Sceau est appliqué au contact de sa cible. Il lui applique la Condition correspondante avec un nombre de charges déterminé par le niveau du Sortilège. Les règles normales de la Condition déterminent ensuite entièrement ses effets, son évolution et sa disparition.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la compétence <strong>Sceaux</strong>, apprend <strong>3 formules</strong> et choisit son orientation (<strong>Faste</strong> ou <strong>Néfaste</strong>).</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (11)</summary>
+  <ul><li><strong>Maîtrise des Sceaux</strong> — Le niveau maximum des Sceaux du personnage est augmenté de 1.</li><li><strong>Répertoire étendu</strong> — Ajoute 5 emplacements de mémoire dédiés exclusivement aux Sceaux.</li><li><strong>Cadence accrue</strong> — Le personnage peut lancer un Sceau une fois par tour au lieu d'une fois tous les deux tours.</li><li><strong>Bibliothèque des Sceaux</strong> — Le nombre maximum de formules que le personnage peut apprendre est doublé, passant de 3 à 6.</li><li><strong>Double polarité</strong> — Le personnage maîtrise désormais les deux polarités. Il peut utiliser les formules fastes et néfastes.</li><li><strong>Sceaux avancés</strong> — Les Sceaux produisent la version avancée des Conditions à la place. Le jet est minoré de 1 par dé et le coût augmenté de 1 PS.</li><li><strong>Sceaux distants</strong> — Les Sceaux peuvent être lancés à distance (portée 10 + mPER, comme le mot de liaison « long »). La difficulté est augmentée de 2.</li><li><strong>Sceaux temporaires</strong> — Les Conditions générées peuvent être temporaires (plutôt qu'éphémères). Le jet est divisé par 2 et le coût en PS triplé (après tout autre ajout). Rappel : une Condition temporaire ne se décharge qu'en fin de journée.</li><li><strong>Sceaux doubles</strong> — Un Sceau peut être lancé sur deux cibles à portée simultanément. Coût augmenté de 2 et difficulté de 4.</li><li><strong>Sceaux contagieux</strong> — Les Conditions des Sceaux néfastes peuvent être transmises à tous ceux qui entrent en contact avec la cible (la Condition est alors forcément éphémère). Les charges contractées sont égales aux charges en cours ; aucun test de sauvegarde ne modifie cette valeur. Difficulté augmentée de 4.</li><li><strong>Sceaux radieux</strong> — Les Conditions des Sceaux fastes génèrent des PE temporaires égaux à 2 + niveau du Sceau. Difficulté augmentée de 2.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-24">
+  <div class="arch-header" onclick="toggleArch('arch-24')">
+    <span class="arch-nom">Runes</span>
+    <span class="arch-concept">Inscrire temporairement l'empreinte immatérielle d'une Rune sur un objet pour lui conférer ses propriétés</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'archétype des Runes permet de reproduire temporairement les propriétés de Runes véritables en inscrivant leur empreinte sur un objet. Une Rune ainsi créée est un Sortilège et suit toutes les règles associées, sauf mention contraire. Utilise la compétence <strong>Runes</strong> (groupe Arcane, attribut <strong>MAG</strong>).</p>
+    
+    
+    <table class="arch-mec"><tr><th>Formules</th><td>À l'acquisition de l'archétype, le personnage apprend <strong>3 formules</strong> de Runes (maximum par défaut). Chaque formule correspond à une Rune existante et permet d'en reproduire temporairement les propriétés. Les Runes accessibles et leurs effets sont décrits dans la liste des Runes. Chaque formule occupe un emplacement de mémoire.</td></tr><tr><th>Inscription — au contact sur un objet</th><td>La Rune inscrite constitue un <strong>Enchantement neutre</strong> conférant temporairement à son support les propriétés de la Rune avec une <strong>Qualité de 2</strong>. Il s'agit d'une empreinte magique temporaire, pas d'une modification physique. En plus de la décharge normale de l'Enchantement, la Rune subit une <strong>décharge supplémentaire à chaque déclenchement</strong> de son effet. <strong>Une seule Rune immatérielle</strong> peut être active sur un même objet à la fois.</td></tr></table>
+    
+    
+    
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Le personnage débloque la compétence <strong>Runes</strong> et apprend <strong>3 formules</strong>.</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (5)</summary>
+  <ul><li><strong>Maîtrise des Runes</strong> — Le niveau maximum des Sortilèges de Runes du personnage est augmenté de 1.</li><li><strong>Répertoire étendu</strong> — Ajoute 5 emplacements de mémoire dédiés exclusivement aux Runes.</li><li><strong>Cadence accrue</strong> — Le personnage peut inscrire une Rune une fois par tour au lieu d'une fois tous les deux tours.</li><li><strong>Bibliothèque des Runes</strong> — Le nombre maximum de formules que le personnage peut apprendre est doublé, passant de 3 à 6.</li><li><strong>Runes avancées</strong> — Les Runes inscrites sont de Qualité 3 au lieu de Qualité 2. Le coût augmente de 1 PS et le jet est minoré de 1 par dé.</li></ul>
+</details>
+  </div>
+</div>
+
+<div class="arch-card" id="arch-25">
+  <div class="arch-header" onclick="toggleArch('arch-25')">
+    <span class="arch-nom">Affaires</span>
+    <span class="arch-concept">Posséder, développer et gérer des activités économiques réelles</span>
+    <span class="arch-chevron">▾</span>
+  </div>
+  <div class="arch-body">
+    <p class="arch-desc">L'Archétype des Affaires permet au personnage de posséder, acquérir, développer et gérer des activités économiques réelles : boutique, auberge, atelier, exploitation, compagnie de transport, manufacture, réseau commercial, etc. Une Affaire existe réellement dans l'univers — elle possède un lieu, une activité, des employés et des contraintes. Elle peut être visitée, attaquée, vendue ou perdue. L'archétype ne crée jamais spontanément une entreprise : toute nouvelle Affaire doit être acquise ou créée dans la fiction.</p>
+    <div class="arch-note">⚠ Cet archétype repose sur un cycle hebdomadaire et une gestion active d'actifs fictionnels. Sa bonne expérience de jeu dépend directement du cadre de campagne : le MD doit s'assurer, avant de valider son acquisition, que la campagne laisse une place suffisante aux temporalités longues, aux semaines qui s'écoulent et aux retombées économiques. Un récit trop frénétique ou trop nomade peut empêcher l'archétype de fonctionner correctement.</div>
+    
+    <table class="arch-mec"><tr><th>Une Affaire</th><td>Une Affaire possède : <strong>Nom — Activité — Catégorie — Rentabilité — Stabilité — Durabilité — Fiabilité — Développement</strong>. Chaque caractéristique est notée avec un modificateur propre à l'Affaire et une difficulté imposée par son Milieu (ex : Stabilité +3/7 = lance 1D8+3 contre difficulté 7).</td></tr><tr><th>Caractéristiques</th><td><strong>Rentabilité</strong> : exploiter économiquement l'activité et dégager des bénéfices. <strong>Stabilité</strong> : résistance aux perturbations économiques, sociales ou criminelles. <strong>Durabilité</strong> : maintenir l'activité (ressources, personnel, fournisseurs). <strong>Fiabilité</strong> : confiance qu'elle inspire aux clients, partenaires et institutions. Total naturel : +6 (normal), +8 (excellent), +3 (médiocre). Valeurs naturelles entre −2 et +3.</td></tr><tr><th>Le Milieu</th><td>Chaque zone économique possède quatre valeurs de difficulté (une par caractéristique, neutre ~5). Total naturel : 20 (normal), 17 (favorable), 23 (difficile). Valeurs naturelles entre 4 et 8. C'est le cœur stratégique : choisir une Affaire dont les forces compensent les difficultés de son implantation.</td></tr><tr><th>Revenus (hebdo)</th><td>Jet basé sur la Catégorie de l'Affaire. Formule : 2D8 + Catégorie × D8 (sans modificateur d'attribut). Les Revenus ne dépendent pas directement du Bilan ou du Développement, sauf événement explicite.</td></tr><tr><th>Bilan (hebdo)</th><td>Test de <strong>Stratégie commerciale</strong>, difficulté 15. Pénalité −2 par catégorie (réduit avec entraînement). <strong>Présence</strong> : aucun contact → désavantagé ; correspondance (Activité courte) → normal ; visite personnelle (Activité longue) → avantagé.</td></tr><tr><th>Développement (hebdo)</th><td>L'Affaire confronte chacune de ses quatre caractéristiques à la difficulté de son Milieu : 1D8 + carac ≥ difficulté. Les 4D8 sont lancés simultanément (gauche→droite : Rentabilité, Stabilité, Durabilité, Fiabilité).</td></tr><tr><th>Croissance de Catégorie</th><td>Pour monter de Catégorie, l'Affaire doit accumuler (Catégorie actuelle + 1) ●, le personnage doit pouvoir gérer la nouvelle Catégorie, et l'évolution doit avoir une réalité fictionnelle (agrandissement, franchise, nouveaux marchés…). La régression de Catégorie reste à définir précisément.</td></tr><tr><th>S'investir dans une Affaire</th><td>Via une Activité longue, le personnage choisit une caractéristique et réalise un test (difficulté 15) : réussite → +1 pour le prochain Développement ; réussite critique → +2 ; échec critique → −1. Compétences : Rentabilité → <strong>Négociation (INT)</strong> ; Stabilité → <strong>Commandement (CHA)</strong> ; Durabilité → <strong>Renseignement (SAG)</strong> ; Fiabilité → <strong>Influence (VOL)</strong>.</td></tr></table>
+    
+    
+    <div class="arch-tables"><details class="arch-table-item"><summary>Résultat du Bilan</summary><table class="arch-generic-table"><thead><tr><th>Résultat</th><th>Conséquence</th></tr></thead><tbody><tr><td>Échec critique</td><td>L'Affaire est perdue</td></tr><tr><td>Échec</td><td>Mauvaise nouvelle</td></tr><tr><td>Réussite</td><td>Nouvelle aléatoire : Bonne ou Mauvaise</td></tr><tr><td>Réussite critique</td><td>Bonne nouvelle</td></tr></tbody></table></details><details class="arch-table-item"><summary>Développement hebdomadaire</summary><table class="arch-generic-table"><thead><tr><th>Réussites</th><th>Développement</th></tr></thead><tbody><tr><td>0–1</td><td>−1 ●</td></tr><tr><td>2</td><td>Aucun changement</td></tr><tr><td>3–4</td><td>+1 ●</td></tr></tbody></table></details><details class="arch-table-item"><summary>Croissance de Catégorie</summary><table class="arch-generic-table"><thead><tr><th>Évolution</th><th>● nécessaires</th></tr></thead><tbody><tr><td>C0 → C1</td><td>1</td></tr><tr><td>C1 → C2</td><td>2</td></tr><tr><td>C2 → C3</td><td>3</td></tr><tr><td>C3 → C4</td><td>4</td></tr><tr><td>C4 → C5</td><td>5</td></tr><tr><td>C5 → C6</td><td>6</td></tr></tbody></table></details><details class="arch-table-item"><summary>Bonnes nouvelles (D8)</summary><table class="arch-generic-table"><thead><tr><th>D8</th><th>Nouvelle</th><th>Proposition</th></tr></thead><tbody><tr><td>1</td><td>Investissement prometteur</td><td>Renoncez aux Revenus de cette semaine pour obtenir ×3 Revenus la semaine suivante.</td></tr><tr><td>2</td><td>Commande exceptionnelle</td><td>Acceptez une commande particulièrement lucrative pour augmenter fortement les Revenus, au prix d'une contrainte temporaire sur une caractéristique appropriée.</td></tr><tr><td>3</td><td>Occasion de croissance</td><td>Sacrifiez tout ou partie des Revenus de cette semaine pour obtenir immédiatement +1 ● Développement.</td></tr><tr><td>4</td><td>Nouveau marché</td><td>Une possibilité d'étendre l'activité apparaît. Consacrez une Activité à l'exploiter pour obtenir un avantage durable approprié.</td></tr><tr><td>5</td><td>Partenaire providentiel</td><td>Un fournisseur, associé, investisseur ou intermédiaire propose un avantage important en échange d'une contrepartie ou d'une relation durable.</td></tr><tr><td>6</td><td>Employé remarquable</td><td>Une personne particulièrement compétente peut rejoindre l'Affaire. Le personnage doit décider des conditions nécessaires pour la recruter ou la conserver.</td></tr><tr><td>7</td><td>Coup de projecteur</td><td>L'Affaire bénéficie d'une forte visibilité. Exploitez immédiatement cette attention pour les Revenus ou tentez de la transformer en amélioration durable.</td></tr><tr><td>8</td><td>Occasion exceptionnelle</td><td>Le MJ propose une opportunité liée à l'activité : rachat avantageux, local exceptionnel, contrat prestigieux, concurrent en difficulté, matériel rare, nouvelle route commerciale…</td></tr></tbody></table></details><details class="arch-table-item"><summary>Mauvaises nouvelles (D8)</summary><table class="arch-generic-table"><thead><tr><th>D8</th><th>Nouvelle</th><th>Proposition</th></tr></thead><tbody><tr><td>1</td><td>Besoin de liquidités</td><td>Percevez normalement les Revenus ; si vous le faites, l'Affaire ne produit aucun Revenu pendant les deux semaines suivantes. Renoncer aux Revenus actuels règle immédiatement le problème.</td></tr><tr><td>2</td><td>Dépense imprévue</td><td>Une réparation, taxe, dette ou dépense importante apparaît. Payez-la maintenant ou acceptez une conséquence durable appropriée sur l'Affaire.</td></tr><tr><td>3</td><td>Départ important</td><td>Un employé, fournisseur ou partenaire essentiel menace de partir. Acceptez ses nouvelles conditions ou consacrez une Activité à trouver une autre solution.</td></tr><tr><td>4</td><td>Entretien repoussé</td><td>Sacrifiez une partie des Revenus pour effectuer les travaux nécessaires ou acceptez une pénalité de Durabilité jusqu'à résolution.</td></tr><tr><td>5</td><td>Mécontentement</td><td>Clients, partenaires ou employés protestent. Accordez une compensation immédiate ou acceptez une pénalité de Fiabilité jusqu'à résolution.</td></tr><tr><td>6</td><td>Concurrence agressive</td><td>Un concurrent attaque directement votre marché. Investissez des ressources ou du temps pour répondre, ou acceptez une conséquence économique jusqu'à résolution.</td></tr><tr><td>7</td><td>Perturbation extérieure</td><td>Vol, banditisme, administration, rupture d'approvisionnement ou accident affecte l'Affaire. Choisissez entre absorber immédiatement le coût ou intervenir.</td></tr><tr><td>8</td><td>Crise</td><td>Un problème sérieux menace durablement l'Affaire : sabotage, procès, grève, scandale, fraude, saisie… Sans intervention, le MJ applique une conséquence durable adaptée.</td></tr></tbody></table></details></div>
+    
+    
+    
+    <div class="arch-rangs">
+<div class="rang-row">
+  <div class="rang-badge">R1</div>
+  <div class="rang-body">
+    <div class="rang-desc">Acquisition : le personnage peut gérer jusqu'à 2 Affaires de Catégorie max C2. Il commence avec une Affaire liée à son passé (caracs en moyenne −1 ; milieu 5). Il obtient l'accès à la compétence Affaires et aux capitaux professionnels C2 (emprunts, crédits, trésorerie professionnelle — non convertibles en PO).</div>
+    
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R2</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R3</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R4</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div>
+<div class="rang-row">
+  <div class="rang-badge">R5</div>
+  <div class="rang-body">
+    
+    <span class="rang-choix">⬡ Choisir une amélioration</span>
+  </div>
+</div></div>
+    
+<details class="arch-amel">
+  <summary>Améliorations disponibles (10)</summary>
+  <ul><li><strong>Portefeuille</strong> — Le nombre maximum d'Affaires que le personnage peut gérer augmente de 2. Peut être acquise plusieurs fois.</li><li><strong>Expansion</strong> — La Catégorie maximale des Affaires gérées augmente de 2 (base C2 → Expansion I : C4 → Expansion II : C6). Donne également accès aux capitaux professionnels de la nouvelle échelle. Peut être acquise deux fois.</li><li><strong>Restructuration</strong> — Pour chacune de ses Affaires, le personnage peut appliquer −1 à une caractéristique pour obtenir +2 à une autre. Chaque Affaire a sa propre répartition, modifiable librement en dehors d'un test.</li><li><strong>Spécialisation</strong> — Choisissez une caractéristique (Rentabilité, Stabilité, Durabilité ou Fiabilité). Toutes vos Affaires gagnent +1 dans cette caractéristique. Représente la manière particulière dont le personnage gère ses entreprises.</li><li><strong>Maximisation</strong> — Posséder plusieurs Affaires de même type permet à celles-ci de se renforcer mutuellement. Chaque Affaire supplémentaire du même type procure +1 aux tests de Développement des autres Affaires de ce type. Maximum +3 (soit 4 Affaires identiques).</li><li><strong>Diversification</strong> — Posséder plusieurs types d'Affaires différents procure des points à répartir entre les dés du Développement avant leur lancer (ex : +1 à un dé de son choix). Nombre de points = nombre de types différents −1, maximum 3. Stabilise les points faibles là où Maximisation récompense la concentration.</li><li><strong>Réaffectation</strong> — Après avoir lancé les quatre dés d'un test de Développement, le personnage peut intervertir les résultats de deux dés (ex : déplacer un 8 d'une caractéristique facile vers une caractéristique difficile).</li><li><strong>Main invisible</strong> — Une Affaire non visitée et sans correspondance durant la semaine ne subit plus le désavantage au test de Bilan. Ne procure toutefois jamais l'avantage d'une visite personnelle.</li><li><strong>Bonne nouvelle</strong> — Chaque fois qu'une Bonne ou Mauvaise nouvelle doit être tirée, tirez deux nouvelles différentes sur la table correspondante et choisissez celle qui s'applique. Fonctionne également sur une Mauvaise nouvelle.</li><li><strong>Gestionnaire</strong> — Les tests réalisés personnellement par le personnage pour s'investir dans une Affaire (améliorer une caractéristique, résoudre une difficulté) sont avantagés.</li></ul>
 </details>
   </div>
 </div>
@@ -503,6 +1729,17 @@ Cris de guerre disponibles :
   font-size: 0.92em;
   line-height: 1.5;
 }
+/* note d'avertissement */
+.arch-note {
+  margin: 0 0 0.9em 0;
+  padding: 0.5em 0.8em;
+  border-left: 3px solid #e8a000;
+  background: color-mix(in srgb, #e8a000 8%, transparent);
+  color: var(--md-default-fg-color, #333);
+  font-size: 0.88em;
+  line-height: 1.5;
+  border-radius: 0 4px 4px 0;
+}
 /* mécaniques */
 .arch-mec {
   width: 100%;
@@ -576,6 +1813,227 @@ Cris de guerre disponibles :
 .arch-amel li {
   margin-bottom: 0.3em;
   font-size: 0.9em;
+}
+/* voies */
+.arch-voies {
+  margin-bottom: 0.9em;
+  font-size: 0.9em;
+}
+.arch-voies ul {
+  margin: 0.3em 0 0 0;
+  padding-left: 1.2em;
+}
+.arch-voies li {
+  margin-bottom: 0.25em;
+}
+/* améliorations groupées */
+.arch-amel-group {
+  margin-bottom: 0.6em;
+}
+.arch-amel-cat {
+  display: block;
+  font-size: 0.82em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2em;
+}
+.arch-amel-group ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+/* formules de glyphes */
+.arch-formules > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82em;
+  margin-top: 0.5em;
+}
+.form-table th, .form-table td {
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.35em 0.5em;
+  vertical-align: top;
+}
+.form-table th {
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+  text-align: center;
+}
+.form-nom {
+  white-space: nowrap;
+  width: 20%;
+}
+.form-decl {
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light, #666);
+  font-weight: normal;
+}
+.form-faste {
+  background: color-mix(in srgb, #2e7c5c 6%, transparent);
+  width: 40%;
+}
+.form-nefaste {
+  background: color-mix(in srgb, #7c2e2e 6%, transparent);
+  width: 40%;
+}
+/* exemples de préceptes */
+.arch-exemples > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}
+.arch-ex-group {
+  margin-bottom: 0.6em;
+}
+.arch-ex-rang {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light, #555);
+  margin-bottom: 0.2em;
+}
+.arch-ex-group ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+/* dr_table */
+.arch-drtable > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}
+.dr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin-top: 0.5em;
+}
+.dr-table th, .dr-table td {
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.3em 0.6em;
+  vertical-align: top;
+}
+.dr-table th {
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+  text-align: center;
+}
+.dr-badge {
+  text-align: center;
+  font-weight: 700;
+  width: 2em;
+}
+/* origines */
+.arch-origines > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}
+.orig-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin-top: 0.5em;
+}
+.orig-table th, .orig-table td {
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.3em 0.5em;
+  text-align: center;
+  vertical-align: top;
+}
+.orig-table th {
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+}
+.orig-nom {
+  text-align: left !important;
+  white-space: nowrap;
+}
+.orig-desc {
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light, #555);
+  white-space: normal;
+  font-weight: normal;
+}
+.orig-val {
+  font-weight: 700;
+  min-width: 2.5em;
+}
+/* catalogue de formes */
+.arch-formes > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}
+.arch-formes-group {
+  margin-bottom: 0.6em;
+}
+.arch-formes-cat {
+  display: block;
+  font-size: 0.82em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light, #555);
+  margin-bottom: 0.2em;
+}
+.arch-formes-group ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+/* tables génériques */
+.arch-tables {
+  margin-bottom: 1em;
+}
+.arch-table-item {
+  margin-bottom: 0.5em;
+}
+.arch-table-item > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.3em;
+  user-select: none;
+}
+.arch-generic-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82em;
+  margin-top: 0.4em;
+}
+.arch-generic-table th, .arch-generic-table td {
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.3em 0.55em;
+  vertical-align: top;
+}
+.arch-generic-table th {
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+}
+.arch-generic-table td:first-child {
+  white-space: nowrap;
+  font-weight: 600;
 }
 /* search highlight */
 .arch-card.hidden {

@@ -281,7 +281,7 @@ Un lanceur de sort peut, au moment où un sort permanent est lancé, décidé de
 
 Lorsqu’un sort crée un enchantement ce dernier peut être maintenu, ce qui requiert de lui allouer une partie de sa concentration. Maintenir un enchantement permet d’en prévenir la décharge. Chaque enchantement maintenus impose une pénalité de 1 aux tests de magie ou d’arcanes. Notons qu’un maximum de « modificateur de Volonté + compétence de focus » enchantements peuvent être maintenus en même temps.
 
-Lorsqu’un mage perd le contrôle d’un de ses enchantements il en perd aussi le maintiens. Le mage ne peux maintenir que les enchantements qu’il contrôle. Une telle perte de contrôle peux survenir si le mage est déconcentré : Tout événement pouvant déconcentrer le mage déclenche un test de sauvegarde de détermination. La difficulté dépends de la situation et surtout de la personne à l’origine de la perturbation (10 à défaut ; sinon expertise liée à l’action qui perturbe le mage). Il est possible de retrouver la maitrise de ses enchantements (un par un) après coups en réalisant un test de focalisation du sort (compétence Focus) (sans quoi la décharge s’appliquer à nouveau).
+Lorsqu’un mage perd le contrôle d’un de ses enchantements il en perd aussi le maintien. Le mage ne peut maintenir que les enchantements qu’il contrôle. Une telle perte de contrôle peut survenir si le mage est déconcentré : subir une attaque, une action tactique ou toute autre action jugée perturbante par le MJ déclenche un test de détermination par enchantement maintenu. La difficulté dépend de la situation et surtout de la personne à l’origine de la perturbation (10 à défaut ; sinon expertise liée à l’action qui perturbe le mage). En cas d’échec, le maintien de l’enchantement est rompu — l’enchantement n’est plus maintenu et sa décharge reprend normalement. Il est possible de retrouver la maîtrise de ses enchantements (un par un) après coup en réalisant un test de focalisation du sort (compétence Focus).
 
 Un lanceur de sort ne peux avoir à son service qu’une quantité limitée d’invocations. Le personnage peux avoir à son service un maximum cumulé de niveau de sort équivalant à : Groupe + Compétence + modificateur de Charisme (le plus élevé le cas échéant).
 
@@ -347,15 +347,33 @@ Il est possible d’être habitué au lancement des sorts afin de ne plus avoir 
 
 ### L’incantation est risquée
 
-L’action d’incantation n’est pas sécurisée. Tout adversaire ayant le lanceur de sort dans sa zone de menace peut porter sur lui une action d’opportunité.
+L’action d’incantation et l’action Lancer un sortilège ne sont pas sécurisées. Tout adversaire ayant le lanceur dans sa zone de menace peut porter sur lui une action d’opportunité.
 
 ### Perturbation de l’Incantation
 
-Une incantation peut être perturbée et perdue.
+Une incantation ou un sortilège en cours de résolution peut être perturbé et perdu.
 
-Subir une attaque ou tout autre action brutale/gênante peut entraîner la perturbation de l’incantation. Il convient donc dans ces situations d’effectuer un test de concentration contre une difficulté fixée par le résultat de l’action provoquant la perturbation.
+Subir une attaque, une action tactique ou toute autre action jugée perturbante par le MJ peut entraîner la perturbation. Le lanceur doit alors réussir un **test de détermination** — physique (Robustesse) si la perturbation est d’ordre physique, mentale (Détermination) si elle est d’ordre mental — contre une difficulté fixée par le résultat de l’action provoquant la perturbation. En cas d’échec, le sort ou sortilège est perdu ainsi que toutes les ressources engagées (drain déjà subi le cas échéant).
 
-Effectuer un déplacement peut entraîner la perturbation de l’incantation. Il convient donc dans ces situations d’effectuer un test de concentration contre la difficulté fixée par le niveau d’incantation. Dans le cas où le test de concentration est un échec, le sort est perdu. Il faut alors tout reprendre à 0. Toutes les actions dépensées dans l’incantation l’ont été pour rien.
+Notons que les sorts disposent d’un temps d’incantation après lequel le sort prend effet (voir *Le temps d’incantation d’un Sort*) : durant cette fenêtre, les mêmes types d’actions peuvent également déclencher un test de détermination.
+
+Effectuer un déplacement peut entraîner la perturbation de l’incantation d’un sort. Il convient donc dans ces situations d’effectuer un test de détermination contre la difficulté fixée par le niveau d’incantation. En cas d’échec, le sort est perdu ainsi que les ressources engagées.
+
+### Sort Renforcé
+
+Certaines capacités permettent de renforcer le prochain sort lancé. Un sort renforcé bénéficie d’un bonus choisi parmi la liste suivante au moment du lancement :
+
+| Effet (renforcement standard) | Renforcement supérieur |
+|---|---|
+| Portée ×1.5 | ×2 |
+| Zone ×1.5 | ×2 |
+| Expertise magique +2 | +3 |
+| Difficulté arcanique +2 | +3 |
+| Drain −3 et drain minimum −1 | Drain −5 et drain minimum −2 |
+| Temps d’incantation −3 | −5 |
+| Jets assurés — minimum des dés +1 | Jet majoré (+1 par dé) |
+
+Avec un **renforcement supérieur**, le personnage peut choisir deux effets au lieu d’un, ou appliquer la version supérieure d’un seul effet (colonne de droite).
 
 ## Les Sorts
 
@@ -619,6 +637,53 @@ Un sort peut contenir des mots d’effets de nature similaire provenant de diff�
 Un mage expérimenté qui mélange les domaines en tire grand profit, l’originalité étant de mise.
 
 Si un sort contient plusieurs formes d’attaque ces dernières sont traitées indépendamment (l’une peux toucher et l’autre non, les tests d’attaques focales étant différents), ainsi la cible doit réaliser plusieurs défenses actives si elle souhaite se défendre d’un tel sort, doit réaliser différents tests de sauvegarde si jamais le sort contient plusieurs mots infligeant des conditions ou maléfices, etc…
+
+## Les Sortilèges
+
+Un sortilège est une formule magique rigide, souvent issue d’une pratique spécifique ou marginale (signes, sceaux, glyphes, traditions de castes, etc.). Contrairement aux sorts dont la composition est libre, un sortilège est une formule fixe, déjà résolue. Cette rigidité rend la pratique plus accessible : elle ne sollicite pas le mana du personnage mais sa psyché, et ne requiert ni calcul de drain ni focalisateur. C’est une magie de la volonté.
+
+Un sortilège reste de la magie à part entière : il possède une expertise magique, une difficulté arcanique, il peut être contré, déplacé ou résisté comme n’importe quel sort, et les résistances spécifiques à la magie s’appliquent normalement.
+
+| Propriété | Sort | Sortilège |
+|---|---|---|
+| Action | ◆◆◇ | ◆◇ |
+| Temps d’incantation | 6 + 2×Nv − mDEX | 3 + Nv − mDEX |
+| Coût | Drain en PM | 3 + Nv en PS |
+| Brûlure de mana | Oui | Non |
+| Focalisateur | Requis (sinon désavantagé + brûlure) | Sans effet |
+| Composition | Libre (mots de pouvoir) | Formule fixe |
+| Critique | Oui | Non |
+| Enchantement maintenu au lancement | Oui (optionnel) | Non |
+| Niveau max | Groupe + Compétence / 2 | Même formule − 1 |
+| Cooldown | Aucun | 2 tours |
+| Action risquée | Oui | Oui |
+| Mémoire | Limitée (standard) | Illimitée par défaut |
+
+### Acquisition et Mémorisation
+
+Par défaut, chaque formule de sortilège apprise s’inscrit en mémoire sans limite. Certaines pratiques imposent une limite de formules mémorisables malgré tout ; dans ce cas c’est précisé par la pratique concernée.
+
+### Niveau Maximum
+
+Le niveau maximum d’un sortilège suit la même formule que pour les sorts, avec un plafond réduit de 1. Si le personnage ne peut pas lancer le sortilège au niveau 0, il ne peut pas le lancer du tout.
+
+Aucun trait, avantage ou effet qui modifie le niveau maximum des sorts n’affecte les sortilèges, et inversement.
+
+### Lancement d’un Sortilège
+
+Lancer un sortilège est une action ◆◇ risquée (voir action correspondante). Cette action possède un temps d’incantation. Le test associé dépend de l’origine du sortilège ; par défaut l’attribut sollicité est la Magie.
+
+Le coût est de **3 + niveau du sortilège en PS**. Aucun drain de mana n’est appliqué, ni brûlure de mana en cas d’échec ou d’absence de focalisateur — les focalisateurs n’ont d’ailleurs aucun effet sur les sortilèges.
+
+Un sortilège est soumis à un **temps de recharge de 2 tours** : si un sortilège est lancé au tour T, aucun sortilège ne peut être lancé avant le tour T+2.
+
+Les sortilèges ont un **temps d'incantation** réduit par rapport aux sorts : **Temps d'incantation d'un Sortilège = 3 + Niveau du sortilège − mDEX**.
+
+Les sortilèges ne peuvent pas être critiques, contrairement aux sorts.
+
+### Enchantements issus d’un Sortilège
+
+Un sortilège produisant un enchantement ne peut pas être maintenu au moment de son lancement. L’enchantement est créé normalement et suit sa décharge habituelle. Le personnage peut décider de le maintenir par la suite via l’action appropriée, mais ce maintien n’est jamais automatique au lancement.
 
 ## Les Effets d’un Sort
 

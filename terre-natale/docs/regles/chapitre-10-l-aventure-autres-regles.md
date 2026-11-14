@@ -6,92 +6,109 @@ L’aventure regorge de dangers et de situations particulières qui nécessitent
 
 Tout ce qui n’est pas présenté ailleurs le sera donc entre ces prochaines lignes.
 
-## La Maladie
+## Les Maladies
 
-Les maladies représentent des dangers parmi les plus sous-estimés.
+Une maladie est une **condition temporaire** contractée par exposition à un agent pathogène : germe, miasme, morsure de créature, magie de dégradation, etc. Elle obéit aux règles habituelles des conditions, avec quelques particularités.
 
-Les maladies sont des conditions temporaires : Après un test de sauvegarde adéquat échouée elles apparaissent sous couvert d’une gravité fixée par la difficulté et c’est celle-ci qui permet de mesurer à la fois les affres causées et la durée.
+### Contracter une Maladie
 
-Une maladie peut être physique ou mentale.
+Lorsqu’un personnage est exposé à une maladie, il effectue un **test de sauvegarde** selon sa nature :
 
-### Incubation des Maladies
+- **Physique** : sauvegarde de Robustesse (CON).
+- **Mentale** : sauvegarde de Détermination (VOL).
+- **Mixte** : sauvegarde la plus basse entre les deux.
 
-Les maladies ont un temps d’incubation durant lesquels la gravité ne chute pas. L’incubation dure autant d’heure que la gravité de la maladie. A la fin de l’incubation la maladie double sa gravité et le processus de rémission commence.
+Les charges sont calculées normalement sur la base de **7D8**. La difficulté du test dépend du palier de la maladie :
 
-### Soin & rémission des Maladies
+| Palier | Difficulté |
+|--------|-----------|
+| Bénigne | 10 |
+| Grave | 15 |
+| Très Grave | 20 |
+| Létale | 25 |
 
-Soigner une maladie revient à soigner une condition temporaire. La rémission est simplement le processus naturel de récupération des conditions.
+### Malus d'Attribut
 
-Bien entendu, comme pour les lésions, les soins peuvent permettre une récupération plus rapide.
+En plus de ses charges, une maladie impose un **malus statique** aux attributs correspondant à sa nature. Ce malus dépend du nombre d'attributs touchés (défini par la maladie), indépendamment de son palier :
 
-### Diversité des Maladies
+| Attributs touchés | Malus (stade normal) | Malus (stade avancé) |
+|-------------------|---------------------|---------------------|
+| 1 attribut | −6 | −8 |
+| 2 attributs | −4 chacun | −6 chacun |
+| 3 attributs | −2 chacun | −4 chacun |
 
-Les maladies peuvent provoquer tout un tas d'effets désagréables.
+Le palier et le nombre d'attributs touchés sont deux dimensions indépendantes : une maladie Létale peut n'affecter qu'un seul attribut profondément, une Bénigne peut en affecter trois légèrement.
 
-On distingue ainsi 2 grandes familles : Les maladies simples et les complexes. Les maladies simples affectent 1 ou plusieurs attributs en les diminuant. Dans ce cas-là les pénalités infligées sont équivalentes à la gravité divisée par 5. Les maladies complexes ont des effets plus atypiques. Elles sont d’ailleurs plus difficiles à soigner car moins courantes et moins aisées à comprendre (Difficulté +5). Dans ce cas-là les pénalités infligées dépendent toujours de la gravité.
+Quelle que soit la maladie, le personnage subit également **−2 Équilibre** tant qu'il en est atteint.
 
-On distingue trois formes de maladie : Les maladies physiques, mentales et mixtes. Les maladies physiques affectent uniquement le corps et ses attributs. C’est la sauvegarde physique (robustesse) qui permet de s’en prémunir. Les maladies mentales affectent uniquement l’esprit et ses attributs. C’est la sauvegarde mentale (détermination) qui permet de s’en prémunir. Les maladies mixtes affectent le corps et l’esprit (et leurs attributs). C’est la sauvegarde la plus basse entre physique et mentale qui permet de s’en prémunir.
+### Aggravation
 
-On distingue également 3 gravités de maladies : Les bénignes, les graves, les très graves et les mortelles.
+À chaque **repos**, tant que la maladie est active et non traitée, le personnage effectue un test de sauvegarde d’aggravation (même type et même difficulté que la maladie). En cas d’**échec**, un marqueur d’aggravation est ajouté. Au **2e marqueur**, la maladie devient **avancée** : les malus d’attribut passent au stade avancé (voir tableau ci-dessus), et le −2 Équilibre passe à −4.
 
-#### Maladie Bénigne
+Une maladie peut également être contractée directement en stade avancé selon la fiction (virulence exceptionnelle, exposition massive, etc.).
 
-La maladie répartie jusqu’à 4 points de pénalités sur des attributs. Difficulté 10.
+### Incubation
 
-#### Maladie Grave
+Certaines maladies ne se manifestent qu’après un délai. Il s’agit d’une interprétation narrative : aucune mécanique supplémentaire n’est nécessaire.
 
-La maladie répartie jusqu’à 8 points de pénalités sur des attributs. Difficulté 15.
+### Particularités (indicatif)
 
-#### Maladie Très Grave
+Le MD peut attribuer une propriété particulière à une maladie selon les besoins narratifs :
 
-La maladie répartie jusqu’à 12 points de pénalités sur des attributs. Difficulté 20.
+- **Contagieuse** : peut se transmettre par contact étroit.
+- **Sans fin** : ne se résorbe pas naturellement, nécessite un soin actif.
+- **Rémission lente / rapide** : la récupération naturelle des charges est réduite ou accélérée.
+- **Difficile à éviter** : la sauvegarde initiale est désavantagée.
+- **Foudroyante** : contractée directement en stade avancé.
 
-#### Maladie Létale
+### Exemples de Maladies
 
-La maladie répartie jusqu’à 16 points de pénalités sur des attributs. Difficulté 25.
+Les maladies ci-dessous sont des exemples fictifs à titre indicatif. Le MD est invité à les adapter ou à en inventer d’autres selon sa campagne.
 
-### Mourir d’une Maladie
+| Nom | Palier | Type | Attributs | Malus | Description |
+|-----|--------|------|-----------|-------|-------------|
+| Grippe des Marais | Bénigne | Physique | CON | −6 | Toux persistante, fatigue légère |
+| Fièvre de Sang | Grave | Physique | FOR, CON | −4/−4 | Fièvre intense, sueurs froides |
+| Chancre Rampant | Très Grave | Physique | FOR, DEX, CON | −2/−2/−2 | Nécrose cutanée progressive |
+| Mal de l’Abîsse | Létale | Physique | CON | −6 | Corruption organique profonde et rapide |
+| Morosité Grise | Bénigne | Mentale | VOL | −6 | Apathie, découragement passager |
+| Fièvre des Songes | Grave | Mentale | VOL, SAG | −4/−4 | Hallucinations, cauchemars récurrents |
+| Psychose des Abysses | Très Grave | Mentale | VOL, INT, SAG | −2/−2/−2 | Désorientation profonde, paranoïa |
+| Néant Intérieur | Létale | Mentale | VOL, INT | −4/−4 | Effacement progressif de la conscience |
+| Sueur de Braise | Grave | Mixte | CON, VOL | −4/−4 | Douleur diffuse, fièvre et épuisement |
+| Consomption du Voyageur | Très Grave | Mixte | FOR, AGI, VOL | −2/−2/−2 | Dépérissement physique et moral lent |
 
-Un personnage subissant suffisamment de pénalités pour atteindre 0 dans un attribut en meurent, ni plus ni moins.
+## Les Venins
 
-### Particularités d’une Maladie
+Un venin est une **condition** combinant deux effets simultanés :
 
-Une maladie peut avoir des particularités. Généralement ces particularités augmentent ou réduisent la gravité (en +/- difficulté).
+- **1D8 dégâts de rupture** par tour, ignorant totalement l’armure, affectant d’abord l’Endurance puis la Vitalité.
+- **−2 à un attribut** physique ou mental selon la nature du venin.
 
-Voici la liste des particularités que peut avoir une maladie :
+Les charges sont définies par la source (créature, arme naturelle, préparation alchimique…) et précisées par les règles qui encadrent cette source. La difficulté de la sauvegarde est toujours l’**expertise physique** de la créature ou de l’entité à l’origine du venin.
 
-- Pénalités aggravées (Difficulté -2) : La gravité est divisée par 4 au lieu de 5 pour déterminer les pénalités.
-- Pénalités légères (Difficulté +2) : La gravité est divisée par 6 au lieu de 5 pour déterminer les pénalités.
-- Difficile à éviter (Difficulté +2) : La gravité de la maladie est réduite de 4.
-- Allergie (Difficulté -2) : La gravité de la maladie est augmentée de 4.
-- Contagieuse (Difficulté -2) : Les individus en contact avec le malade peuvent également contracter la maladie. Chaque intermédiaire l’est avec une difficulté réduite de 2.
-- Rare (Difficulté -2) : Difficulté des soins +4.
-- Courante (Difficulté +2) : Difficulté des soins -4.
-- Sans fin (Difficulté -2) : La gravité de la maladie ne chute jamais sans soins.
-- Rémission Rapide (Difficulté +2) : La récupération des conditions associée à la maladie est augmentée de 2 pour la rémission de celle-ci.
-- Rémission Lente (Difficulté -2) : La récupération des conditions associée à la maladie est réduite de 2 pour la rémission de celle-ci.
-- Dangereuse (Difficulté -2) : Les pénalités maximales sont augmentées de 2.
-- Bénigne (Difficulté -2) : Les pénalités maximales sont réduites de 2.
+Contrairement aux maladies, un venin ne s’aggrave pas via des marqueurs : si le personnage est exposé une seconde fois alors que le venin est actif, il passe en **condition avancée** (malus d’attribut à −4) — aucun DOT supplémentaire ne se cumule.
 
-### Autres Maladies
+### Modes d’Inoculation
 
-Le maître de jeu est invité à créer ses propres maladies ou à s’inspirer de sources extérieures.
+La façon dont le venin est administré influence la difficulté de la sauvegarde :
 
-Dans l’univers de Thalifen sont présentés un certain nombre de maladies complexes propres à cet univers.
+| Mode | Sauvegarde |
+|------|-----------|
+| Ingéré (bu, mangé) | Désavantagée |
+| Injecté (aiguille, dart) | Doublement désavantagée |
+| Coupure ou morsure | Normale |
+| Inhalé ou autre | Normale |
 
-## Le Venin
+### Létalité et Effets Fictionnels
 
-Les venins sont des substances toxiques d'origine naturelle, généralement issus de créatures (morsures, piqûres, sécrétions…). Leurs effets suivent les mêmes règles que les maladies — incubation, rémission, gravité, particularités — à deux différences près :
+Un venin de base est délibérément contenu. Pour le rendre plus dangereux, le MD dispose de plusieurs outils :
 
-- Les pénalités infligées aux attributs sont **divisées par deux** par rapport à une maladie de même gravité.
-- Le personnage subit des **dégâts de rupture** au début de chaque tour, selon la gravité :
+- **Bonus de créature** : une créature peut modifier les effets de son venin via ses caractéristiques propres (malus accrus, DOT renforcé, etc.).
+- **Maladie associée** : une morsure peut infliger un venin *et* une maladie simultanément. La pénalité à la CON du venin rend la sauvegarde de la maladie plus difficile.
+- **Manœuvre** : pour maintenir un venin actif plus longtemps dans un cadre dramatique, la manœuvre appropriée reste l’outil adapté.
 
-| Gravité | Dégâts de rupture / tour |
-| --- | --- |
-| Bénin | 1D8 |
-| Grave | 1D8 + 2 |
-| Très Grave | 1D8 + 4 |
-| Létale | 1D8 + 6 |
+Certains poisons ont des effets fictionnels que le malus et le DOT ne peuvent pas pleinement retranscrire (paralysie, métamorphose, mort dramatique rapide…). Dans ce cas, le MD peut superposer des effets narratifs sur la base mécanique des charges — stade normal puis stade avancé servant de seuils déclencheurs.
 
 ## Le Commerce
 
@@ -511,17 +528,23 @@ Le Ratio appliqué à la récolte est généralement fixé à 5, reflétant la v
 
 #### Recyclage
 
-Un personnage peut choisir de recycler les restes d’une créature vaincue ou le matériel d’un dispositif détruit afin d’en extraire des composants utiles ou vendables. Pour cela, il commence par effectuer un test de Connaissance approprié, destiné à déterminer ce qui peut être récupéré ou non. Ce test permet d’identifier les matériaux exploitables et la manière de procéder.
+Un personnage peut choisir de recycler les restes d’une créature vaincue, le matériel d’un dispositif détruit ou tout objet dont il souhaite récupérer les composants. Le recyclage se déroule en deux temps.
 
-Le MJ détermine à l’avance la catégorie des ressources récupérables, généralement en fonction de la nature de la créature ou de la machine. Cette catégorie reflète à la fois la complexité de l’opération de recyclage et la valeur potentielle des matériaux extraits. Sauf cas particulier, la difficulté du test de Connaissance correspond donc à celle de la tâche elle-même.
+**Étape 1 — Identification.** Le personnage effectue un test de Connaissance approprié pour déterminer ce qui peut être récupéré : matériaux exploitables, leur nature, leur valeur, et la méthode d’extraction. Le MJ fixe la catégorie des ressources récupérables selon la source (créature, machine, objet) ; la difficulté du test de Connaissance correspond à celle de la tâche. En cas d’échec, l’extraction peut être tentée à l’aveugle, mais sans garantie sur la qualité ou la quantité obtenue.
 
-Un personnage peut recycler plusieurs créatures tant que leur taille et leur nature restent cohérentes : démonter un monstre imposant peut équivaloir, en temps et en effort, à traiter plusieurs petites créatures. Le MJ reste libre d’apprécier la cohérence de la situation.
+**Étape 2 — Extraction.** Une fois la source identifiée, le personnage réalise un test de Recyclage (DEX) pour procéder à l’extraction effective. **Un outil de recyclage adapté à la famille de matière concernée est nécessaire** (voir la section Outils de recyclage dans l’équipement) ; sans outil approprié, le test subit un désavantage et le résultat est réduit de moitié. Le recyclage demande un temps court (3h) pour une première passe, et un second temps court pour une seconde passe éventuelle. Une même source ne peut être recyclée plus de deux fois.
 
-Le recyclage demande ensuite un temps court (3h) pour effectuer une première extraction, suivi d’un second temps court pour une seconde passe éventuelle. Par souci de praticité, une même source ne peut normalement pas être recyclée plus de deux fois, mais cette limite peut être modifiée par le MJ selon les besoins de la scène ou du scénario.
+Un personnage peut recycler plusieurs créatures tant que leur taille et leur nature restent cohérentes : un monstre imposant peut équivaloir en effort à plusieurs petites créatures. Le MJ apprécie la situation.
 
-Le Ratio appliqué dépend de la source : pour les créatures, il est généralement proportionnel à la valeur carré de leur rang. Pour les machines ou dispositifs mécaniques, le Ratio est en général fixé à la qualité au carré. Lorsqu’il s’agit de recycler un objet manufacturé, une limite peut s’appliquer : les gains obtenus ne devraient pas excéder 50 % de la valeur de l’objet d’origine, afin de représenter les pertes et les pièces irrécupérables.
+**Ratio selon la source :**
 
-Comme pour les récoltes, la somme obtenue correspond au montant brut des matériaux récupérés. Un personnage qui les utilise lui-même y trouvera un avantage certain, mais leur revente est bien moins profitable, conformément à la règle de revente détaillée dans la section dédiée.
+- **Créatures** : Ratio = rang d’adversité² (le rang d’adversité d’une créature est analogue au rang de caste d’un joueur, voir les règles de création de créatures).
+- **Machines et dispositifs mécaniques** : Ratio = qualité².
+- **Objets manufacturés et consommables** : le gain ne peut excéder 50 % de la valeur de l’objet d’origine. Pour un objet intact, le gain est d’environ 30 % de sa valeur base ; pour un objet endommagé ou partiellement consumé, de 15 à 25 % selon l’état.
+
+**Valeur des matériaux récupérés.** Les matériaux issus du recyclage ont une valeur chiffrée en 🪙 (correspondant à la rémunération calculée). Cette valeur peut être directement déduite du coût de fabrication d’un objet utilisant ces matériaux comme intrants, réduisant ainsi le coût en matières premières d’autant. Les ingrédients organiques issus de créatures sont notamment utilisables pour la fabrication de essences (voir la section dédiée dans l’équipement).
+
+Comme pour les récoltes, la somme obtenue correspond à la valeur brute des matériaux récupérés. Leur revente reste bien moins profitable que leur usage direct en fabrication, conformément à la règle de revente détaillée dans la section dédiée.
 
 #### Contrats de Missions
 

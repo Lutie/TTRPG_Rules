@@ -40,6 +40,10 @@ def archetype_card(a, idx):
     # --- description block ---
     desc_html = f'<p class="arch-desc">{render_text(description)}</p>' if description else ""
 
+    # --- note block ---
+    note = a.get("note", "")
+    note_html = f'<div class="arch-note">⚠ {render_text(note)}</div>' if note else ""
+
     # --- mécaniques block ---
     mec_html = ""
     if mecaniques:
@@ -49,14 +53,157 @@ def archetype_card(a, idx):
         )
         mec_html = f'<table class="arch-mec">{rows}</table>'
 
+    # --- voies block ---
+    voies = a.get("voies", [])
+    voies_html = ""
+    if voies:
+        voie_items = "".join(
+            f'<li><strong>{escape(v["nom"])}</strong> — {render_text(v["description"])}</li>'
+            for v in voies
+        )
+        voies_html = f'<div class="arch-voies"><strong>Voies :</strong><ul>{voie_items}</ul></div>'
+
+    # --- exemples_preceptes block ---
+    exemples = a.get("exemples_preceptes", [])
+    exemples_html = ""
+    if exemples:
+        total_ex = sum(len(r["preceptes"]) for r in exemples)
+        rang_sections = ""
+        for r in exemples:
+            items = "".join(
+                f'<li><strong>{escape(p["nom"])}</strong> — {render_text(p["description"])}</li>'
+                for p in r["preceptes"]
+            )
+            rang_sections += f'<div class="arch-ex-group"><span class="arch-ex-rang">Rang {r["rang"]}</span><ul>{items}</ul></div>'
+        exemples_html = f'<details class="arch-exemples"><summary>Exemples de préceptes ({total_ex})</summary>{rang_sections}</details>'
+
+    # --- formules block ---
+    formules = a.get("formules", [])
+    formules_html = ""
+    if formules:
+        rows_f = ""
+        for f in formules:
+            rows_f += (
+                f'<tr>'
+                f'<td class="form-nom"><strong>{escape(f["nom"])}</strong><br>'
+                f'<span class="form-decl">{escape(f["declencheur"])}</span></td>'
+                f'<td class="form-faste">{render_text(f["faste"])}</td>'
+                f'<td class="form-nefaste">{render_text(f["nefaste"])}</td>'
+                f'</tr>'
+            )
+        formules_html = f"""
+<details class="arch-formules">
+  <summary>Formules ({len(formules)})</summary>
+  <table class="form-table">
+    <thead><tr><th>Formule / Déclencheur</th><th>⬡ Faste</th><th>▼ Néfaste</th></tr></thead>
+    <tbody>{rows_f}</tbody>
+  </table>
+</details>"""
+
+    # --- tables block (generic named tables) ---
+    tables = a.get("tables", [])
+    tables_html = ""
+    if tables:
+        items_html = ""
+        for tbl in tables:
+            tnom = escape(tbl.get("nom", ""))
+            cols = tbl.get("colonnes", [])
+            lignes = tbl.get("lignes", [])
+            header = "".join(f'<th>{escape(c)}</th>' for c in cols)
+            rows_t = "".join(
+                '<tr>' + ''.join(f'<td>{escape(v)}</td>' for v in l["valeurs"]) + '</tr>'
+                for l in lignes
+            )
+            items_html += f'<details class="arch-table-item"><summary>{tnom}</summary><table class="arch-generic-table"><thead><tr>{header}</tr></thead><tbody>{rows_t}</tbody></table></details>'
+        tables_html = f'<div class="arch-tables">{items_html}</div>'
+
+    # --- dr_table block ---
+    dr_table = a.get("dr_table", {})
+    dr_table_html = ""
+    if dr_table:
+        cols = dr_table.get("colonnes", [])
+        lignes = dr_table.get("lignes", [])
+        header = "".join(f'<th>{escape(c)}</th>' for c in cols)
+        rows_dr = "".join(
+            f'<tr><td class="dr-badge">{l["dr"]}</td>' +
+            "".join(f'<td>{escape(v)}</td>' for v in l["valeurs"]) +
+            '</tr>'
+            for l in lignes
+        )
+        dr_table_html = f'<details class="arch-drtable"><summary>Table des DR</summary><table class="dr-table"><thead><tr><th>DR</th>{header}</tr></thead><tbody>{rows_dr}</tbody></table></details>'
+
+    # --- origines block ---
+    origines = a.get("origines", {})
+    origines_html = ""
+    if origines:
+        cols = origines.get("colonnes", [])
+        milieux = origines.get("milieux", [])
+        header = "".join(f'<th>{escape(c)}</th>' for c in cols)
+        rows_o = ""
+        for m in milieux:
+            cells = "".join(f'<td class="orig-val">{v}</td>' for v in m["valeurs"])
+            rows_o += f'<tr><td class="orig-nom"><strong>{escape(m["nom"])}</strong><br><span class="orig-desc">{escape(m["description"])}</span></td>{cells}</tr>'
+        origines_html = f'<details class="arch-origines"><summary>Milieux d\'origine ({len(milieux)})</summary><table class="orig-table"><thead><tr><th>Milieu</th>{header}</tr></thead><tbody>{rows_o}</tbody></table></details>'
+
+    # --- formes block ---
+    formes = a.get("formes", [])
+    formes_html = ""
+    if formes:
+        total_formes = sum(len(cat["liste"]) for cat in formes)
+        cat_sections = ""
+        for cat in formes:
+            cat_items = "".join(
+                f'<li><strong>{escape(f["nom"])}</strong> — {render_text(f["description"])}</li>'
+                for f in cat["liste"]
+            )
+            cat_sections += f'<div class="arch-formes-group"><span class="arch-formes-cat">◆ {escape(cat["categorie"])}</span><ul>{cat_items}</ul></div>'
+        formes_html = f"""
+<details class="arch-formes">
+  <summary>Catalogue de formes ({total_formes})</summary>
+  {cat_sections}
+</details>"""
+
     # --- améliorations block ---
+    CATEGORIE_LABELS = {
+        "commun":        ("commun", "#555"),
+        "animal_dresse": ("animal dressé", "#4a7c59"),
+        "animal_sauvage":("animal sauvage", "#7c4a2e"),
+        "humanoide":     ("humanoïde", "#2e5c7c"),
+        "excellence":    ("excellence", "#7c5c2e"),
+        "equilibre":     ("équilibre", "#2e7c5c"),
+        "virtuose":      ("virtuose", "#5c2e7c"),
+        "metamorphose":  ("métamorphose", "#4a7c3f"),
+        "bete":          ("bête", "#7c3f3f"),
+    }
     amel_html = ""
     if ameliorations:
-        items = "".join(
-            f'<li><strong>{escape(am["nom"])}</strong> — {render_text(am["description"])}</li>'
-            for am in ameliorations
-        )
-        amel_html = f"""
+        # Group by categorie if any amelioration has one
+        has_categories = any("categorie" in am for am in ameliorations)
+        if has_categories:
+            from collections import OrderedDict
+            groups = OrderedDict()
+            for am in ameliorations:
+                cat = am.get("categorie", "commun")
+                groups.setdefault(cat, []).append(am)
+            sections = ""
+            for cat, items in groups.items():
+                label, color = CATEGORIE_LABELS.get(cat, (cat, "#555"))
+                item_html = "".join(
+                    f'<li><strong>{escape(am["nom"])}</strong> — {render_text(am["description"])}</li>'
+                    for am in items
+                )
+                sections += f'<div class="arch-amel-group"><span class="arch-amel-cat" style="color:{color}">◆ {escape(label)}</span><ul>{item_html}</ul></div>'
+            amel_html = f"""
+<details class="arch-amel">
+  <summary>Améliorations disponibles ({len(ameliorations)})</summary>
+  {sections}
+</details>"""
+        else:
+            items = "".join(
+                f'<li><strong>{escape(am["nom"])}</strong> — {render_text(am["description"])}</li>'
+                for am in ameliorations
+            )
+            amel_html = f"""
 <details class="arch-amel">
   <summary>Améliorations disponibles ({len(ameliorations)})</summary>
   <ul>{items}</ul>
@@ -88,7 +235,15 @@ def archetype_card(a, idx):
   </div>
   <div class="arch-body">
     {desc_html}
+    {note_html}
+    {voies_html}
     {mec_html}
+    {exemples_html}
+    {formules_html}
+    {tables_html}
+    {dr_table_html}
+    {origines_html}
+    {formes_html}
     <div class="arch-rangs">{rang_rows}</div>
     {amel_html}
   </div>
@@ -101,7 +256,7 @@ cards_html = "\n".join(archetype_card(a, i) for i, a in enumerate(archetypes))
 # ---------------------------------------------------------------------------
 page = f"""# Compendium des Archétypes
 
-Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque une mécanique de jeu significative ; les rangs suivants l'améliorent, parfois avec des choix à faire parmi un pool d'options.
+Les archétypes sont des traits spéciaux à 5 rangs. Il en existe deux formes : les archétypes **uniques**, dont le rang 1 débloque une mécanique de jeu significative et les rangs suivants l'améliorent ; et les archétypes **bundles**, dans lesquels le personnage puise des améliorations dès le rang 1.
 
 !!! warning "Règle générale"
     Un personnage ne peut posséder qu'**un seul archétype**. Des exceptions restent possibles avec l'accord du MJ, qui devrait considérer la question avec grande attention — cumuler plusieurs archétypes peut rapidement devenir difficile à gérer en jeu.
@@ -193,6 +348,17 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
   font-size: 0.92em;
   line-height: 1.5;
 }}
+/* note d'avertissement */
+.arch-note {{
+  margin: 0 0 0.9em 0;
+  padding: 0.5em 0.8em;
+  border-left: 3px solid #e8a000;
+  background: color-mix(in srgb, #e8a000 8%, transparent);
+  color: var(--md-default-fg-color, #333);
+  font-size: 0.88em;
+  line-height: 1.5;
+  border-radius: 0 4px 4px 0;
+}}
 /* mécaniques */
 .arch-mec {{
   width: 100%;
@@ -266,6 +432,227 @@ Les archétypes sont des traits spéciaux à 5 rangs. Le **rang 1** débloque un
 .arch-amel li {{
   margin-bottom: 0.3em;
   font-size: 0.9em;
+}}
+/* voies */
+.arch-voies {{
+  margin-bottom: 0.9em;
+  font-size: 0.9em;
+}}
+.arch-voies ul {{
+  margin: 0.3em 0 0 0;
+  padding-left: 1.2em;
+}}
+.arch-voies li {{
+  margin-bottom: 0.25em;
+}}
+/* améliorations groupées */
+.arch-amel-group {{
+  margin-bottom: 0.6em;
+}}
+.arch-amel-cat {{
+  display: block;
+  font-size: 0.82em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2em;
+}}
+.arch-amel-group ul {{
+  margin: 0;
+  padding-left: 1.2em;
+}}
+/* formules de glyphes */
+.arch-formules > summary {{
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}}
+.form-table {{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82em;
+  margin-top: 0.5em;
+}}
+.form-table th, .form-table td {{
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.35em 0.5em;
+  vertical-align: top;
+}}
+.form-table th {{
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+  text-align: center;
+}}
+.form-nom {{
+  white-space: nowrap;
+  width: 20%;
+}}
+.form-decl {{
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light, #666);
+  font-weight: normal;
+}}
+.form-faste {{
+  background: color-mix(in srgb, #2e7c5c 6%, transparent);
+  width: 40%;
+}}
+.form-nefaste {{
+  background: color-mix(in srgb, #7c2e2e 6%, transparent);
+  width: 40%;
+}}
+/* exemples de préceptes */
+.arch-exemples > summary {{
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}}
+.arch-ex-group {{
+  margin-bottom: 0.6em;
+}}
+.arch-ex-rang {{
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light, #555);
+  margin-bottom: 0.2em;
+}}
+.arch-ex-group ul {{
+  margin: 0;
+  padding-left: 1.2em;
+}}
+/* dr_table */
+.arch-drtable > summary {{
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}}
+.dr-table {{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin-top: 0.5em;
+}}
+.dr-table th, .dr-table td {{
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.3em 0.6em;
+  vertical-align: top;
+}}
+.dr-table th {{
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+  text-align: center;
+}}
+.dr-badge {{
+  text-align: center;
+  font-weight: 700;
+  width: 2em;
+}}
+/* origines */
+.arch-origines > summary {{
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}}
+.orig-table {{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin-top: 0.5em;
+}}
+.orig-table th, .orig-table td {{
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.3em 0.5em;
+  text-align: center;
+  vertical-align: top;
+}}
+.orig-table th {{
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+}}
+.orig-nom {{
+  text-align: left !important;
+  white-space: nowrap;
+}}
+.orig-desc {{
+  display: block;
+  font-size: 0.8em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light, #555);
+  white-space: normal;
+  font-weight: normal;
+}}
+.orig-val {{
+  font-weight: 700;
+  min-width: 2.5em;
+}}
+/* catalogue de formes */
+.arch-formes > summary {{
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.4em;
+  user-select: none;
+}}
+.arch-formes-group {{
+  margin-bottom: 0.6em;
+}}
+.arch-formes-cat {{
+  display: block;
+  font-size: 0.82em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light, #555);
+  margin-bottom: 0.2em;
+}}
+.arch-formes-group ul {{
+  margin: 0;
+  padding-left: 1.2em;
+}}
+/* tables génériques */
+.arch-tables {{
+  margin-bottom: 1em;
+}}
+.arch-table-item {{
+  margin-bottom: 0.5em;
+}}
+.arch-table-item > summary {{
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-primary-fg-color, #3f51b5);
+  margin-bottom: 0.3em;
+  user-select: none;
+}}
+.arch-generic-table {{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82em;
+  margin-top: 0.4em;
+}}
+.arch-generic-table th, .arch-generic-table td {{
+  border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+  padding: 0.3em 0.55em;
+  vertical-align: top;
+}}
+.arch-generic-table th {{
+  background: var(--md-default-bg-color--light, #f5f5f5);
+  font-weight: 600;
+}}
+.arch-generic-table td:first-child {{
+  white-space: nowrap;
+  font-weight: 600;
 }}
 /* search highlight */
 .arch-card.hidden {{
